@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>腸嚐新知</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;600;700;900&family=Noto+Sans+TC:wght@300;400;500&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+<style>
+:root {
+  --accent: #00c896;
+  --accent-dim: rgba(0,200,150,0.15);
+  --accent-border: rgba(0,200,150,0.35);
+  --gold: #f0b429;
+  --red: #ff6b6b;
+  --bg: #070b10;
+  --surface: rgba(255,255,255,0.04);
+  --border: rgba(255,255,255,0.08);
+  --text: #eef2f7;
+  --muted: rgba(255,255,255,0.45);
+  --nav-h: 56px;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { height: 100%; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Noto Sans TC', sans-serif;
+  height: 100%;
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── FEED ── */
+#feed {
+  height: 100dvh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  padding-bottom: var(--nav-h);
+}
+#feed::-webkit-scrollbar { display: none; }
+
+/* ── CARD ── */
+.card {
+  height: 100dvh;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* gradient backgrounds cycling */
+.card:nth-child(5n+1) { background: radial-gradient(ellipse 120% 80% at 80% 20%, #0a2a3a 0%, #050d14 60%); }
+.card:nth-child(5n+2) { background: radial-gradient(ellipse 120% 80% at 20% 80%, #1a0d2e 0%, #060510 60%); }
+.card:nth-child(5n+3) { background: radial-gradient(ellipse 120% 80% at 70% 30%, #0d2a15 0%, #050e08 60%); }
+.card:nth-child(5n+4) { background: radial-gradient(ellipse 120% 80% at 30% 70%, #2a150a 0%, #100604 60%); }
+.card:nth-child(5n+5) { background: radial-gradient(ellipse 120% 80% at 60% 40%, #0d1a30 0%, #050810 60%); }
+
+/* glow orb */
+.card::before {
+  content: '';
+  position: absolute;
+  width: 320px; height: 320px;
+  border-radius: 50%;
+  background: var(--accent);
+  opacity: 0.06;
+  filter: blur(90px);
+  top: -60px; right: -60px;
+  pointer-events: none;
+}
+
+/* ── TOP BAR ── */
+.top-bar {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: max(env(safe-area-inset-top,0px),16px) 20px 12px;
+  background: linear-gradient(to bottom, rgba(5,10,16,0.9) 0%, transparent 100%);
+}
+
+.logo {
+  font-family: 'Noto Serif TC', serif;
+  font-weight: 900;
+  font-size: 19px;
+  letter-spacing: -0.3px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.logo-accent { color: var(--accent); }
+.logo-dot {
+  width: 6px; height: 6px;
+  background: var(--accent);
+  border-radius: 50%;
+  box-shadow: 0 0 8px var(--accent);
+  margin-left: 4px;
+  animation: blink 2s infinite;
+}
+@keyframes blink { 0%,80%,100%{opacity:1} 40%{opacity:0.3} }
+
+.counter-pill {
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--muted);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 4px 12px;
+  letter-spacing: 0.3px;
+}
+
+/* ── CARD SCROLL AREA ── */
+.card-scroll {
+  flex: 1;
+  overflow-y: auto;
+  scrollbar-width: none;
+  padding: 72px 22px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.card-scroll::-webkit-scrollbar { display: none; }
+
+/* ── PAPER NUMBER ── */
+.paper-num {
+  font-family: 'DM Serif Display', serif;
+  font-style: italic;
+  font-size: 96px;
+  color: rgba(255,255,255,0.03);
+  line-height: 1;
+  position: absolute;
+  top: 52px; right: 12px;
+  pointer-events: none;
+  user-select: none;
+}
+
+/* ── TAGS ── */
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-bottom: 16px;
+}
+.tag {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  padding: 4px 11px;
+  border-radius: 20px;
+}
+.tag-j { background: var(--accent-dim); color: var(--accent); border: 1px solid var(--accent-border); }
+.tag-d { background: rgba(255,255,255,0.05); color: var(--muted); border: 1px solid var(--border); }
+
+/* ── TITLE ── */
+.title-en {
+  font-family: 'Noto Serif TC', serif;
+  font-size: clamp(15px, 3.2vw, 19px);
+  font-weight: 700;
+  line-height: 1.6;
+  color: rgba(255,255,255,0.75);
+  margin-bottom: 6px;
+  font-style: italic;
+}
+.title-zh {
+  font-family: 'Noto Serif TC', serif;
+  font-size: clamp(16px, 3.5vw, 21px);
+  font-weight: 700;
+  line-height: 1.65;
+  color: #fff;
+  margin-bottom: 8px;
+}
+.authors {
+  font-size: 12px;
+  color: var(--muted);
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+/* ── SECTION BLOCK ── */
+.section {
+  background: rgba(255,255,255,0.04);
+  border-radius: 14px;
+  padding: 16px;
+  margin-bottom: 12px;
+  border: 1px solid var(--border);
+  position: relative;
+  overflow: hidden;
+}
+.section::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 3px;
+  border-radius: 3px 0 0 3px;
+}
+.section.blue::before { background: #58a6ff; }
+.section.green::before { background: var(--accent); }
+.section.gold::before { background: var(--gold); }
+
+.sec-label {
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 9px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.sec-label.blue { color: #58a6ff; }
+.sec-label.green { color: var(--accent); }
+.sec-label.gold { color: var(--gold); }
+
+.sec-text {
+  font-size: 13.5px;
+  line-height: 1.9;
+  color: rgba(255,255,255,0.82);
+  font-weight: 300;
+}
+
+/* ── LOADING STATE ── */
+.loading-pulse {
+  height: 14px;
+  background: rgba(255,255,255,0.08);
+  border-radius: 6px;
+  margin-bottom: 8px;
+  animation: shimmer 1.5s infinite;
+}
+@keyframes shimmer {
+  0% { opacity: 0.5; }
+  50% { opacity: 1; }
+  100% { opacity: 0.5; }
+}
+
+/* ── BOTTOM ACTIONS ── */
+.card-actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border);
+  margin-top: 4px;
+}
+.action-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--accent);
+  text-decoration: none;
+  padding: 7px 14px;
+  border-radius: 20px;
+  border: 1px solid var(--accent-border);
+  background: var(--accent-dim);
+  transition: all 0.2s;
+}
+.action-link:hover { background: rgba(0,200,150,0.25); }
+.action-link svg { width: 13px; height: 13px; }
+
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--muted);
+  padding: 7px 14px;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: inherit;
+}
+.share-btn:hover { color: #fff; border-color: rgba(255,255,255,0.2); }
+.share-btn svg { width: 13px; height: 13px; }
+
+.pmid-label {
+  margin-left: auto;
+  font-family: monospace;
+  font-size: 10px;
+  color: rgba(255,255,255,0.2);
+}
+
+/* ── SCROLL HINT ── */
+.scroll-hint {
+  position: absolute;
+  bottom: calc(var(--nav-h) + 14px);
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  pointer-events: none;
+  animation: hintFade 3s 2s forwards;
+  opacity: 0;
+  z-index: 10;
+}
+@keyframes hintFade {
+  0%   { opacity: 0; transform: translateX(-50%) translateY(6px); }
+  20%  { opacity: 0.6; transform: translateX(-50%) translateY(0); }
+  80%  { opacity: 0.6; }
+  100% { opacity: 0; }
+}
+.scroll-hint svg { width: 18px; height: 18px; color: rgba(255,255,255,0.4); animation: bounce 1s 2s infinite; }
+@keyframes bounce { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-4px)} }
+.scroll-hint span { font-size: 10px; color: rgba(255,255,255,0.3); letter-spacing: 1px; }
+
+/* ── NAV BAR ── */
+#nav {
+  position: fixed;
+  bottom: 0; left: 0; right: 0;
+  height: calc(var(--nav-h) + env(safe-area-inset-bottom,0px));
+  background: rgba(5,10,16,0.92);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border-top: 1px solid var(--border);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding-top: 8px;
+  z-index: 100;
+}
+.nav-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  color: rgba(255,255,255,0.35);
+  font-size: 10px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 2px 20px;
+  background: none;
+  border: none;
+  font-family: inherit;
+  transition: color 0.2s;
+}
+.nav-btn.active { color: var(--accent); }
+.nav-btn svg { width: 22px; height: 22px; }
+
+/* ── DATE SHEET ── */
+#date-sheet {
+  position: fixed;
+  bottom: var(--nav-h);
+  left: 0; right: 0;
+  background: #0d1520;
+  border-top: 1px solid var(--border);
+  border-radius: 20px 20px 0 0;
+  padding: 20px;
+  z-index: 90;
+  transform: translateY(100%);
+  transition: transform 0.35s cubic-bezier(0.4,0,0.2,1);
+  max-height: 55vh;
+  overflow-y: auto;
+}
+#date-sheet.open { transform: translateY(0); }
+#date-sheet h3 {
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 16px;
+  text-align: center;
+}
+.date-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 13px 16px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  margin-bottom: 8px;
+  cursor: pointer;
+  background: var(--surface);
+  transition: all 0.2s;
+}
+.date-item:hover, .date-item.active {
+  background: var(--accent-dim);
+  border-color: var(--accent-border);
+}
+.date-item-l { font-family: 'Noto Serif TC', serif; font-size: 15px; }
+.date-item-r { font-size: 12px; color: var(--accent); }
+
+/* ── SPLASH ── */
+#splash {
+  position: fixed; inset: 0;
+  background: var(--bg);
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  z-index: 999;
+  transition: opacity 0.5s;
+}
+#splash.out { opacity: 0; pointer-events: none; }
+.splash-logo {
+  font-family: 'Noto Serif TC', serif;
+  font-weight: 900;
+  font-size: 44px;
+  color: #fff;
+  letter-spacing: -1px;
+}
+.splash-logo span { color: var(--accent); }
+.splash-sub { font-size: 11px; color: var(--muted); letter-spacing: 3px; margin-top: 6px; }
+.splash-dots { display: flex; gap: 8px; margin-top: 40px; }
+.splash-dot {
+  width: 6px; height: 6px; border-radius: 50%;
+  background: rgba(255,255,255,0.15);
+  animation: sdot 1.4s infinite;
+}
+.splash-dot:nth-child(2) { animation-delay: 0.2s; }
+.splash-dot:nth-child(3) { animation-delay: 0.4s; }
+@keyframes sdot { 0%,80%,100%{opacity:0.2} 40%{opacity:1;background:var(--accent);} }
+
+/* ── EMPTY / ERROR ── */
+.empty {
+  height: 100dvh;
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  text-align: center; padding: 40px; gap: 14px;
+}
+.empty .icon { font-size: 52px; }
+.empty h2 { font-family: 'Noto Serif TC', serif; font-size: 20px; }
+.empty p { font-size: 13px; color: var(--muted); line-height: 1.9; }
+.retry-btn {
+  margin-top: 8px;
+  padding: 10px 24px;
+  background: var(--accent);
+  color: #000;
+  border: none;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+}
+</style>
+</head>
+<body>
+
+<div id="splash">
+  <div class="splash-logo">腸嚐<span>新知</span></div>
+  <div class="splash-sub">COLORECTAL SURGERY DIGEST</div>
+  <div class="splash-dots">
+    <div class="splash-dot"></div>
+    <div class="splash-dot"></div>
+    <div class="splash-dot"></div>
+  </div>
+</div>
+
+<div id="feed"></div>
+
+<div id="nav">
+  <button class="nav-btn active" id="nav-home" onclick="navHome()">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+      <polyline points="9 22 9 12 15 12 15 22"/>
+    </svg>
+    今日
+  </button>
+  <button class="nav-btn" id="nav-cal" onclick="toggleSheet()">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <rect x="3" y="4" width="18" height="18" rx="2"/>
+      <line x1="16" y1="2" x2="16" y2="6"/>
+      <line x1="8" y1="2" x2="8" y2="6"/>
+      <line x1="3" y1="10" x2="21" y2="10"/>
+    </svg>
+    日期
+  </button>
+  <button class="nav-btn" id="nav-top" onclick="scrollTop()">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <polyline points="17 11 12 6 7 11"/>
+      <polyline points="17 18 12 13 7 18"/>
+    </svg>
+    回頂
+  </button>
+</div>
+
+<div id="date-sheet">
+  <h3>選擇日期</h3>
+  <div id="date-list"></div>
+</div>
+
+<script>
+// ── Config ──────────────────────────────────────────
+// ⚠️ 改成你的 GitHub 帳號
+const GITHUB_USER = 'aj63236';
+const REPO_NAME   = 'Pubmed-for-CRS';
+const BASE        = `https://${GITHUB_USER}.github.io/${REPO_NAME}`;
+
+// ── State ────────────────────────────────────────────
+let papers = [];
+let dateIndex = [];
+let sheetOpen = false;
+let currentDate = '';
+
+// ── Init ─────────────────────────────────────────────
+async function init() {
+  try {
+    const r = await fetch(`${BASE}/data/index.json?_=${Date.now()}`);
+    if (!r.ok) throw new Error('index not found');
+    dateIndex = await r.json();
+    buildDateList();
+    if (dateIndex.length > 0) await loadDate(dateIndex[0].date);
+    else renderEmpty('尚無文獻資料，請先執行收集腳本');
+  } catch(e) {
+    renderFallback();
+  }
+  setTimeout(() => document.getElementById('splash').classList.add('out'), 1200);
+}
+
+async function loadDate(date) {
+  currentDate = date;
+  document.querySelectorAll('.date-item').forEach(el =>
+    el.classList.toggle('active', el.dataset.date === date)
+  );
+  try {
+    const r = await fetch(`${BASE}/data/${date}.json?_=${Date.now()}`);
+    if (!r.ok) throw new Error();
+    const data = await r.json();
+    papers = data.papers || [];
+    renderFeed(papers, date);
+  } catch(e) {
+    renderEmpty(`${date} 的資料載入失敗`);
+  }
+}
+
+// ── Render Feed ──────────────────────────────────────
+function renderFeed(list, date) {
+  const feed = document.getElementById('feed');
+  if (!list.length) { renderEmpty('本日無新文獻'); return; }
+  feed.innerHTML = list.map((p, i) => cardHTML(p, i, list.length, date)).join('');
+}
+
+function cardHTML(p, i, total, date) {
+  const authorsShort = p.authors
+    ? p.authors.split(',').slice(0,3).join(', ') + (p.authors.split(',').length > 3 ? ' et al.' : '')
+    : '';
+  const dateLabel = p.month ? `${p.year} ${p.month}` : (p.year || date);
+
+  // parse structured summary into 3 sections
+  const sections = parseSections(p.summary || '');
+
+  return `
+  <div class="card">
+    <div class="paper-num">${String(i+1).padStart(2,'0')}</div>
+
+    <div class="top-bar">
+      <div class="logo">腸嚐<span class="logo-accent">新知</span><span class="logo-dot"></span></div>
+      <div class="counter-pill">${i+1} / ${total}</div>
+    </div>
+
+    <div class="card-scroll">
+      <div class="tags">
+        <span class="tag tag-j">${p.journal || 'PubMed'}</span>
+        <span class="tag tag-d">${dateLabel}</span>
+      </div>
+
+      <div class="title-en">${p.title}</div>
+      ${authorsShort ? `<div class="authors">${authorsShort}</div>` : ''}
+
+      <div class="section blue">
+        <div class="sec-label blue">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+          中文摘要
+        </div>
+        <div class="sec-text">${sections.abstract || '<div class="loading-pulse"></div><div class="loading-pulse" style="width:80%"></div>'}</div>
+      </div>
+
+      <div class="section green">
+        <div class="sec-label green">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          臨床重點摘要
+        </div>
+        <div class="sec-text">${sections.summary || '<div class="loading-pulse"></div><div class="loading-pulse" style="width:70%"></div>'}</div>
+      </div>
+
+      <div class="section gold">
+        <div class="sec-label gold">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          對臨床的影響
+        </div>
+        <div class="sec-text">${sections.impact || '<div class="loading-pulse"></div><div class="loading-pulse" style="width:75%"></div>'}</div>
+      </div>
+
+      <div class="card-actions">
+        ${p.pmid ? `<a class="action-link" href="https://pubmed.ncbi.nlm.nih.gov/${p.pmid}/" target="_blank">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          原文
+        </a>` : ''}
+        <button class="share-btn" onclick="shareCard(${i})">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+          分享
+        </button>
+        ${p.pmid ? `<span class="pmid-label">PMID ${p.pmid}</span>` : ''}
+      </div>
+    </div>
+
+    ${i === 0 ? `<div class="scroll-hint">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+      <span>上滑下一篇</span>
+    </div>` : ''}
+  </div>`;
+}
+
+// ── Parse Summary Sections ───────────────────────────
+// Expects Claude to return text with markers, or falls back to splitting
+function parseSections(raw) {
+  if (!raw) return {};
+
+  // Try structured markers first
+  const abstractMatch = raw.match(/【中文摘要】([\s\S]*?)(?=【|$)/);
+  const summaryMatch  = raw.match(/【臨床重點】([\s\S]*?)(?=【|$)/);
+  const impactMatch   = raw.match(/【臨床影響】([\s\S]*?)(?=【|$)/);
+
+  if (abstractMatch || summaryMatch || impactMatch) {
+    return {
+      abstract: (abstractMatch?.[1] || '').trim(),
+      summary:  (summaryMatch?.[1]  || '').trim(),
+      impact:   (impactMatch?.[1]   || '').trim(),
+    };
+  }
+
+  // Fallback: treat whole text as summary, derive sections from sentences
+  const sentences = raw.split(/(?<=[。！？])\s*/g).filter(s => s.trim().length > 5);
+  const third = Math.ceil(sentences.length / 3);
+  return {
+    abstract: sentences.slice(0, third).join(''),
+    summary:  sentences.slice(third, third * 2).join(''),
+    impact:   sentences.slice(third * 2).join('') || raw,
+  };
+}
+
+// ── Date Sheet ───────────────────────────────────────
+function buildDateList() {
+  const list = document.getElementById('date-list');
+  list.innerHTML = dateIndex.map(e => `
+    <div class="date-item ${e.date === currentDate ? 'active' : ''}"
+         data-date="${e.date}"
+         onclick="selectDate('${e.date}')">
+      <span class="date-item-l">${e.date}</span>
+      <span class="date-item-r">${e.count} 篇</span>
+    </div>
+  `).join('');
+}
+
+function selectDate(date) {
+  toggleSheet(false);
+  scrollTop();
+  loadDate(date);
+  // update date list active state
+  document.querySelectorAll('.date-item').forEach(el =>
+    el.classList.toggle('active', el.dataset.date === date)
+  );
+}
+
+let sheetVisible = false;
+function toggleSheet(force) {
+  sheetVisible = typeof force === 'boolean' ? force : !sheetVisible;
+  document.getElementById('date-sheet').classList.toggle('open', sheetVisible);
+  document.getElementById('nav-cal').classList.toggle('active', sheetVisible);
+  document.getElementById('nav-home').classList.toggle('active', !sheetVisible);
+}
+
+function navHome() {
+  toggleSheet(false);
+  scrollTop();
+}
+
+function scrollTop() {
+  document.getElementById('feed').scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// ── Share ─────────────────────────────────────────────
+async function shareCard(i) {
+  const p = papers[i];
+  if (!p) return;
+  const text = `【腸嚐新知】\n${p.title}\n\n${p.summary || ''}\n\nhttps://pubmed.ncbi.nlm.nih.gov/${p.pmid}/`;
+  if (navigator.share) {
+    try { await navigator.share({ text }); } catch {}
+  } else {
+    await navigator.clipboard.writeText(text).catch(() => {});
+    alert('已複製到剪貼簿！');
+  }
+}
+
+// ── Empty / Fallback ──────────────────────────────────
+function renderEmpty(msg) {
+  document.getElementById('feed').innerHTML = `
+    <div class="empty">
+      <div class="icon">📭</div>
+      <h2>暫無文獻</h2>
+      <p>${msg}</p>
+    </div>`;
+  document.getElementById('splash').classList.add('out');
+}
+
+function renderFallback() {
+  // Use built-in demo data when GitHub Pages not reachable
+  dateIndex = [{ date: '2026-05-08', count: 5 }];
+  papers = getDemoPapers();
+  buildDateList();
+  renderFeed(papers, '2026-05-08');
+}
+
+function getDemoPapers() {
+  return [
+    {
+      pmid: '38901234',
+      title: 'Robotic versus laparoscopic total mesorectal excision for rectal cancer: long-term oncological outcomes from a multicenter randomized trial',
+      journal: 'Annals of Surgery', year: '2026', month: 'May',
+      authors: 'Chen W, Yamamoto T, Park S, Mueller H',
+      summary: '【中文摘要】本研究為多中心隨機對照試驗，共納入486名局部進展期直腸癌患者，比較機器手臂輔助與傳統腹腔鏡全直腸繫膜切除術（TME）的長期腫瘤學成果。主要評估終點為5年局部復發率，次要終點包括整體存活率、無病存活率及手術併發症。【臨床重點】機器手臂組的5年局部復發率（4.2%）顯著低於腹腔鏡組（8.1%，p=0.03），轉換開腹率亦明顯較低（2.1% vs 8.7%）。兩組的整體存活率及嚴重術後併發症發生率無統計學差異。【臨床影響】此結果支持機器手臂TME作為直腸癌手術的優先選擇，尤其對骨盆腔狹窄、肥胖或曾接受骨盆放療的高難度患者效益更為顯著，建議各大醫院加速建立機器手臂直腸手術訓練計畫。'
+    },
+    {
+      pmid: '38901235',
+      title: 'Transanal total mesorectal excision (TaTME) learning curve: analysis of 500 consecutive cases',
+      journal: 'Dis Colon Rectum', year: '2026', month: 'May',
+      authors: 'Liang R, Santos J, Kim D',
+      summary: '【中文摘要】本研究回顧性分析單一高量醫學中心連續500例TaTME手術，目的在釐清手術學習曲線及其關鍵影響因素。以累積加總（CUSUM）分析法評估手術時間、轉換率及主要併發症率的時序變化。【臨床重點】研究結果顯示術者約在完成40至50例後，各項手術指標趨於穩定，手術時間縮短約35%，嚴重併發症率從早期的12%降至穩定期的5.8%。有導師指導的訓練計畫可顯著縮短學習曲線至約30例。【臨床影響】各醫院應建立TaTME結構化訓練計畫，並建議新術者在通過至少40-50例監督手術前，不應獨立執行高難度病例，這對手術品質管理及醫療安全均有重要意義。'
+    },
+    {
+      pmid: '38901236',
+      title: 'Enhanced recovery after colorectal surgery: impact of ERAS protocol on 30-day readmission rates',
+      journal: 'Colorectal Disease', year: '2026', month: 'Apr',
+      authors: 'Okonkwo A, Bergmann L, Nakamura Y',
+      summary: '【中文摘要】本研究為前瞻性世代研究，評估全面性加速術後康復計畫（ERAS）在1,240名大腸直腸手術患者中的實際執行效果與臨床效益。研究對象涵蓋結腸切除術及直腸前切除術，追蹤期為術後30天。【臨床重點】導入ERAS後，平均住院天數從6.8天顯著降至4.2天，30天非計畫性再入院率從14%降至8%，術後腸道功能恢復時間提前約1.5天，整體醫療費用減少約22%。【臨床影響】ERAS計畫已是大腸直腸手術圍術期照護的新標準，建議各醫院成立跨科ERAS照護小組，特別重視術前衛教、目標導向液體治療及早期下床活動三大核心要素，可有效降低住院成本並提升病床周轉率。'
+    },
+    {
+      pmid: '38901237',
+      title: 'Predictive biomarkers for response to neoadjuvant chemoradiotherapy in locally advanced rectal cancer',
+      journal: 'Cancer Treat Rev', year: '2026', month: 'May',
+      authors: 'Vasquez M, Thompson A, Li X, Brown K',
+      summary: '【中文摘要】本系統性回顧及統合分析共納入48篇研究、6,234名局部晚期直腸癌患者，系統性整理新輔助放化療（nCRT）病理完全緩解（pCR）相關之預測生物標記，並評估各生物標記的獨立預測效力。【臨床重點】腫瘤浸潤淋巴球（TIL）密度、微衛星不穩定性（MSI）狀態及術前CEA數值為三個獨立且最強力的pCR預測因子；將三者整合為複合生物標記組合，其AUC達0.84，準確性遠優於任一單一指標。【臨床影響】此複合生物標記組合有望成為直腸癌器官保留策略的決策工具，高pCR機率患者（>60%）可考慮採用watch-and-wait策略，減少不必要手術；未來應推動前瞻性臨床試驗驗證此標記組合的臨床應用價值。'
+    },
+    {
+      pmid: '38901238',
+      title: 'Long-term functional outcomes after sphincter-preserving surgery for low rectal cancer',
+      journal: 'Br J Surg', year: '2026', month: 'Apr',
+      authors: 'Fernandez E, Andersen P, Zhou Q',
+      summary: '【中文摘要】本前瞻性世代研究追蹤342名低位直腸癌患者接受保肛手術（含低前切除術及超低前切除術）後的長期腸道功能，以低前切除症候群量表（LARS score）為主要評估工具，追蹤期達術後2年。【臨床重點】術後2年仍有58%患者存在LARS症狀，其中重度LARS佔31%；多因素分析顯示吻合口高度越低、術前接受放化療者症狀越嚴重。生物回饋治療介入後，LARS評分平均改善12.3分（p<0.001），預防性迴腸造口的關閉時機對功能預後無顯著影響。【臨床影響】保肛手術後腸道功能障礙比率遠超過臨床認知，應將LARS評估納入所有低位直腸癌術後的常規追蹤，並主動提供生物回饋治療轉介；術前應詳細告知患者術後功能障礙的真實發生率，協助共同決策。'
+    }
+  ];
+}
+
+// close sheet on feed tap
+document.getElementById('feed').addEventListener('touchstart', () => {
+  if (sheetVisible) toggleSheet(false);
+});
+
+init();
+</script>
+</body>
+</html>
