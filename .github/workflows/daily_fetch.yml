@@ -27,7 +27,7 @@ jobs:
       - name: 執行文獻收集腳本
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python scripts/fetch_papers.py
+        run: python fetch_papers.py
 
       - name: 把新資料 commit 並 push
         run: |
