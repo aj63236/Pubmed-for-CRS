@@ -1,0 +1,105 @@
+{
+  "date": "2026-05-25",
+  "papers": [
+    {
+      "id": "2026-05-25-1",
+      "pmid": "42184077",
+      "title": "Prognostic model construction and drug prediction in colorectal cancer using mitochondrial programmed cell death-related genes.",
+      "journal": "Clinical & translational oncology : official publication of the Federation of Spanish Oncology Societies and of the National Cancer Institute of Mexico",
+      "year": "2026",
+      "month": "May",
+      "abstract": "Colorectal cancer (CRC) is a highly aggressive and heterogeneous malignancy with a poor prognosis. Mitochondria and programmed cell death (PCD) play crucial roles in CRC tumorigenesis and cancer progression. However, the prognostic significance of mitochondrial programmed cell death (MPCD) remains unclear. This study aims to investigate prognostic value of MPCD-related genes. CRC patient data from The Cancer Genome Atlas (TCGA) and MPCD gene sets from previous studies were collected. A prognostic model based on MPCD-related genes was developed using regression analysis and validated using an external CRC cohort from Gene Expression Omnibus (GEO). Immune microenvironment of the two risk cohorts was evaluated using ssGSEA and CIBERSORT algorithms. Potential anti-tumor drugs targeting model genes were predicted using pRRophetic R package. In addition, CRC-related cell lines were collected, and functional tests were conducted on the key risk gene SRPX. A prognostic model comprising 13 MPCD genes (ACSL6, ELANE, G6PC2, ITGB3, MTM1, NAT1, PLAU, SCG2, SLC7A11, SMPD1, SRPX, TPM1, TRAP1) was successfully constructed, which demonstrated stable prognostic performance across different CRC cohorts. Immune infiltration analysis revealed significant enrichment of Tregs and Tfh cells in the high-MPCD cohort, suggesting that immune tolerance may contribute to the poor prognosis in this group. Three candidate drugs-CGP-60474, WH-4-023, and Trametinib-were identified as having significant negative correlations with model genes SRPX, SCG2, and SMPD1. Cell experiments demonstrated that overexpression of SRPX significantly inhibited the migration and invasion abilities of HCT116 cells. This study developed an independent and reliable MPCD-related prognostic model. The model provides new targets for personalized risk assessment and immunotherapeutic interventions in CRC.",
+      "authors": "Jiang S, Jin Y"
+    },
+    {
+      "id": "2026-05-25-2",
+      "pmid": "42184055",
+      "title": "Integrative single-cell RNA-seq and transcriptomic analysis uncovers cellular heterogeneity and immunotherapy resistance mechanisms in colorectal cancer.",
+      "journal": "Discover oncology",
+      "year": "2026",
+      "month": "May",
+      "abstract": "To investigate the molecular and cellular features associated with immunotherapy resistance in colorectal cancer (CRC) and identify potential biomarkers. The single-cell RNA sequencing data from 14 pre-treatmant CRC samples (11 complete respondence and 3 stable disease) were collected from GSE236581. Clustering, pseudotime trajectory analysis, and intercellular communication analysis were performed to explore the tumor microenvironment and malignant cell characteristics. Bulk transcriptome datasets TCGA-COAD and GSE39582 were collected to assist in screening and validating key genes involved in tumorigenesis and prognosis. Key findings were validated in independent cohorts and via immunohistochemistry and T cell cytotoxicity experiments. Unsupervised clustering identified 21 cell clusters and 8,810 malignant epithelial cells. Differential gene expression analysis revealed 7,648 genes significantly differing between groups, with 568 upregulated in stable disease samples, enriched in ECM organization, ERK1/2 signaling, and metabolic reprogramming. Exploratory pseudotime analysis of cross-sectional pre-treatment samples revealed differences in inferred cellular state distributions in stable disease cells, accompanied by reduced leukocyte chemotaxis‑related signatures. Immune profiling highlighted enhanced CD8 + T-cell cytotoxicity in responders, while stable disease TME contained immunosuppressive macrophages. Intercellular communication analysis revealed stronger malignant cell-CD8 + T-cell interactions in stable disease samples. ASPHD1, associated with poor survival, was upregulated in CRC tissues and may serve as a candidate biomarker associated with immunotherapy response. Our findings highlighted the molecular and cellular features associated with immunotherapy resistance in CRC, involving malignant cell adaptations and TME remodeling. ASPHD1 was identified as a candidate gene linked to immunotherapy response in CRC. Given the exploratory nature of this work, these findings and the functional significance of ASPHD1 warrant further validation through larger cohorts and in-depth experimental studies.",
+      "authors": "Wang Y, Zhang Y, Mao Z, Du W, Cao X"
+    },
+    {
+      "id": "2026-05-25-3",
+      "pmid": "42184042",
+      "title": "Molecular mechanisms of 5-FU resistance in colorectal cancer: the regulatory role of lncRNAs.",
+      "journal": "Journal of cancer research and clinical oncology",
+      "year": "2026",
+      "month": "May",
+      "abstract": "Long non-coding RNAs (lncRNAs) are non-coding RNAs (ncRNAs) that serve as key regulators of a variety of biological processes such as tumorigenesis and drug resistance. LncRNAs are more than 200 nucleotides in length and influence cancer progression by acting as miRNA sponges, regulating gene expression and promoting epigenetic changes. In colorectal cancer (CRC), lncRNAs promote 5-fluorouracil (5-FU) resistance by promoting DNA repair, inhibiting apoptosis, enhancing autophagy and epithelial-mesenchymal transition (EMT). Although most lncRNAs are upregulated in drug-resistant CRC cells, some lncRNAs act as inhibitors of tumor resistance. This article provides an overview of lncRNAs that play a role in mediating 5-FU resistance in colorectal cancer and their potential as biomarkers for predicting therapeutic efficacy.",
+      "authors": "Bai B, Guo Y, Xie X, Wang C"
+    },
+    {
+      "id": "2026-05-25-4",
+      "pmid": "42184029",
+      "title": "10 Strategies for prevention of perineal wound dehiscence after intersphincteric proctectomy for perianal Crohn's disease.",
+      "journal": "Techniques in coloproctology",
+      "year": "2026",
+      "month": "May",
+      "abstract": "Non-healing perineal wounds (NHPWs), including persistent presacral sinuses, remain a common and morbid complication after elective intersphincteric proctectomy (ISP) for fistulizing perianal Crohn's disease (pCD), with reported healing rates of approximately 70% at 1 year. These complications significantly impair quality of life and increase healthcare utilization, highlighting the importance of prevention. This narrative review summarizes contemporary evidence and expert practice to present ten pragmatic strategies to reduce perineal wound dehiscence after ISP for pCD. Prevention begins with comprehensive preoperative optimization, including correction of malnutrition and anemia, minimization of corticosteroid exposure, smoking and nicotine cessation, and optimization of relevant medical comorbidities. Careful assessment and control of Crohn's disease activity are emphasized through current disease staging, proactive therapeutic drug monitoring, and aggressive surgical control of perianal sepsis. These measures often involve repeated examinations under anesthesia, drainage of abscesses and fistula tracts, fecal diversion when indicated, and selective use of hyperbaric oxygen therapy to improve local conditions before definitive surgery. Operative strategies focus on technical decisions that minimize perineal wound burden and promote healing. Key elements include performing proctectomy in the intersphincteric plane with total mesorectal excision when feasible, meticulous debridement and management of fistula tracts, and robust multilayered perineal closure. Adjunctive techniques such as horizontal mattress suturing of the levators to enhance tissue apposition, use of pedicled omental flaps with fluorescence angiography to confirm perfusion, and prophylactic incisional negative pressure wound therapy are highlighted. Collectively, these strategies provide a practical framework to reduce perineal wound complications after ISP for pCD.",
+      "authors": "Holubar S, Tozer P"
+    },
+    {
+      "id": "2026-05-25-5",
+      "pmid": "42183908",
+      "title": "New risk factor classified by intramucosal polypoid/non-polypoid growth pattern in earlycolorectal cancer.",
+      "journal": "Virchows Archiv : an international journal of pathology",
+      "year": "2026",
+      "month": "May",
+      "abstract": "The lymph node metastasis (LNM) rate of submucosal invasive colorectal cancer (pT1 CRC) is low (approximately 10%), even when the risk factors for LNM outlined in the Japanese Society for Cancer of the Colon and Rectum (JSCCR) guidelines for endoscopically resected lesions are present. To ensure that patients receive appropriate treatment, novel factors that link endoscopic and pathological diagnoses and more accurately predict LNM are needed. Polypoid growth (PG)/non-polypoid growth (NPG) classification, depth of submucosal invasion and stalk status are examples of such interconnected factors. This study investigated the association between LNM and the histological PG (hPG)/NPG (hNPG) classification in pT1 CRC. A total of 1059 consecutive cases with both sessile and pedunculated pT1 CRCs were examined. LNM was present in 126 (11.9%) patients. The hPG and hNPG types were observed in 49% (519/1059) and 51% (540/1059) of cases, respectively. Cohen's kappa coefficient for intra- and inter-observer agreement was 0.78. Multivariate analysis identified hNPG type (p < 0.001), positive lymphovascular invasion (LVI) (p < 0.001) and budding grade (BD) 2/3 (p < 0.001) as independent predictors of LNM. A new algorithm incorporating these three factors increased the predicted LNM rate to 16.0%, yielded an LNM prediction rate of 11.9%, compared with the 12.5% rate of the JSCCR algorithm. Notably, no LNM occurred in hPG lesions with negative LVI and BD 1, indicating that 25.8% (273/1059) of patients could have avoided additional surgery. Thus, hPG/hNPG classification may provide a simple and reproducible tool for refining LNM risk stratification in pT1 CRC.",
+      "authors": "Aizawa D, Shimoda T, Sugino T, Oishi T, Hotta K"
+    },
+    {
+      "id": "2026-05-25-6",
+      "pmid": "42179293",
+      "title": "Preoperative Bowel Preparation Regimen and Postoperative Outcomes across Body Mass Index in Elective Colectomy for Colon Cancer: A Retrospective Cohort Study.",
+      "journal": "Diseases of the colon and rectum",
+      "year": "2026",
+      "month": "May",
+      "abstract": "Surgical site infection remains a common complication after colectomy. Mechanical bowel preparation and oral antibiotics are used to reduce infectious morbidity, but whether their benefit varies across body mass index is unclear. To evaluate the association between preoperative bowel preparation regimen and 30-day postoperative outcomes after elective colectomy for non-metastatic colon cancer, and to assess whether these associations vary across body mass index. Retrospective cohort study. American College of Surgeons National Surgical Quality Improvement Program targeted colectomy database, 2015-2023. Adults undergoing elective colectomy for non-metastatic colon cancer (N = 97,395). Thirty-day surgical site infection, anastomotic leak, and overall postoperative complication. In unadjusted analyses, surgical site infection occurred in 8.7% of patients with no bowel preparation and 5.0% with combined mechanical plus oral antibiotic bowel preparation. In adjusted modified Poisson models, all bowel preparation regimens were associated with lower risk of 30-day postoperative complications versus no preparation (all p < 0.001), with the lowest adjusted relative risk for combined preparation (any surgical site infection: 0.60; anastomotic leak 0.66; any complication: 0.70). In stratified analyses, combined preparation and oral antibiotics alone were superior to no preparation for both left- and right-sided resections, but mechanical preparation alone was not superior to no preparation for right-sided resections. Evidence of effect modification by body mass index was limited (interaction p = 0.09 for surgical site infection, p = 0.26 for overall complications), including when stratified by resection site. Observational design with potential residual confounding; registry data lacked preparation adherence/quality and granular institutional prevention practices; estimates were less precise at extreme body mass index values. Bowel preparation regimens containing oral antibiotics were associated with lower 30-day surgical site infection and complication risk across the body mass index continuum. These findings suggest that the effectiveness of oral antibiotic-containing bowel preparation is preserved across BMI levels. See Video Abstract.",
+      "authors": "Wu G, Horesh N, Ma R, La K, Pazmino P"
+    },
+    {
+      "id": "2026-05-25-7",
+      "pmid": "42179287",
+      "title": "Trends in Colorectal Dysplasia in Patients with Inflammatory Bowel Disease.",
+      "journal": "Diseases of the colon and rectum",
+      "year": "2026",
+      "month": "May",
+      "abstract": "Patients with inflammatory bowel disease face an elevated risk for early-onset colorectal cancer due to chronic inflammation and long-term immunosuppression. While immunotherapy improves disease control, its potential for increasing neoplastic transformation warrants further evaluation. To characterize trends in incidence and clinical factors associated with dysplasia among IBD patients undergoing surgery. This is a retrospective cohort study. High-volume United States IBD Centers participating in the American College of Surgeons National Surgery Quality Improvement Program IBD Collaborative, 2017-2023. Adults with IBD undergoing colorectal surgery. Patients with missing covariate or outcome data were excluded. Prevalence of dysplasia (low-grade, high-grade, or carcinoma) on surgical pathology and associated risk factors. Among 5,516 IBD patients, dysplasia was identified in 4.3%. Prevalence was higher in patients with ulcerative colitis compared to those with Crohn's disease and indeterminate colitis (6.5% vs 3.2% vs 3.4%, respectively, p < 0.05), in those receiving immunotherapy (16.7% vs 12.0%, p = 0.02), and among Asian American patients (8.7% vs 4.5% White, 2.4% Black, p < 0.05). Female sex and older age (mean 53.9 vs 43.1 years) were also associated with increased dysplasia rates (p < 0.05). On multivariable logistic regression analysis, Asian American race (OR 2.54 [CI: 1.4-4.8]), immunotherapy use (OR 1.6 [CI: 1.1-2.3]) and ulcerative colitis (OR 2.0 [CI: 1.6-2.7]) were independently associated with dysplasia. A BMI <18.5 was inversely associated with risk (OR 0.4 [CI: 0.2-0.9]). Data capture is limited to 30 days postoperatively and does not account for surgical indication or dysplasia chronicity. In patients undergoing surgery for IBD, immunotherapy use, Asian American race, ulcerative colitis, and older age were independently associated with colorectal dysplasia. These findings highlight the importance of tailored surveillance strategies in at-risk populations, particularly those receiving long-term immunosuppressive therapy. See Video Abstract.",
+      "authors": "Newland J, Grunhut J, Belcher R, Lopez K, Brown R"
+    },
+    {
+      "id": "2026-05-25-8",
+      "pmid": "42179193",
+      "title": "Effects of Perioperative",
+      "journal": "Cancer biotherapy & radiopharmaceuticals",
+      "year": "2026",
+      "month": "May",
+      "abstract": "To investigate the effects of perioperative A retrospective analysis of 72 patients who underwent elective radical colorectal cancer surgery (January 2022-December 2023). Patients were divided into a TRT group and a control group (36 cases each). The TRT group received Baseline characteristics were comparable between groups ( In this retrospective exploratory study of imaging-selected colorectal cancer patients, perioperative",
+      "authors": "Sun J, Zhang Y, Zhang S"
+    },
+    {
+      "id": "2026-05-25-9",
+      "pmid": "42178605",
+      "title": "Surgical Quality at Rural Hospitals After Private Equity Acquisition.",
+      "journal": "Annals of surgery",
+      "year": "2026",
+      "month": "May",
+      "abstract": "To compare the influence of private equity acquisition on surgical quality among rural hospitals. Despite the growth of private equity's presence in healthcare markets and growing concerns of its adverse associations with quality of care, less is known about its influence on rural hospitals. We evaluated common general surgery procedures (appendectomy, cholecystectomy, colectomy, and incisional hernia repair) among Medicare beneficiaries between 2011 and 2020. We defined rurality using Rural-Urban Commuting Area codes and identified rural hospitals acquired by private equity using the Private Equity Stakeholder Project Private Equity Hospital Tracker. We matched each private equity-acquired hospital with up to 10 similar rural hospitals not acquired by private equity. The primary outcome was 30-day postoperative mortality, and secondary outcomes included complications, serious complications, failure to rescue, and 30-day readmissions. We applied an event-time difference-in-differences framework with hospital and year fixed effects, controlling for beneficiary characteristics and comorbidities. Among 96,048 patients across 390 rural hospitals, private equity acquisition was associated with statistically significant increases in 30-day mortality (1.1 percentage point increase, P=0.04), complications (2.5 percentage point increase, P=0.03), and serious complications (1.5 percentage point increase, P=0.02) despite similar hospital characteristics and modest differences in patient demographics. Private equity acquisition of rural hospitals was associated with some declines in surgical quality, which underscores the need to continue closely monitoring private equity's impact on rural healthcare delivery.",
+      "authors": "Mullens C, Mead M, Abid M, Probst J, Dimick J"
+    },
+    {
+      "id": "2026-05-25-10",
+      "pmid": "42178520",
+      "title": "A comparative analysis of parametric, semiparametric and machine learning models for survival prediction.",
+      "journal": "BMC medical research methodology",
+      "year": "2026",
+      "month": "May",
+      "abstract": "Survival analysis is crucial in medical research. This study provides a comprehensive comparison of parametric, semi-parametric, and machine learning models for predicting disease-free survival (DFS) in colorectal cancer. Using data from 2,088 patients in a Phase III trial (Project Data Sphere), we evaluated parametric models (Lognormal, Generalized Gamma), semi-parametric models (CoxPH and stratified Cox model) and machine learning models (Random Survival Forests, XGBoost). Performance was assessed using Area under the curve (AUC) and Brier score. After 10-fold cross-validation, the Random Survival Forest (RSF) model demonstrated superior discriminative performance (1-year AUC: 0.713, 5-year AUC: 0.799) and the best overall prediction accuracy (Brier score at 3 years: 0.148). Weighted Brier scores confirmed its robustness across clinical scenarios (equal weights: 0.144; FN weight=3: 0.179; FP weight=2: 0.205). Parametric and semi-parametric models showed stable intermediate performance (CV AUC: 0.68-0.70), while XGBoost exhibited severe overfitting with near-random CV AUC (0.49-0.57). Ensemble methods, particularly Random Survival Forest, provide superior predictive accuracy for Disease-free survival compared to traditional models. These advanced techniques offer significant potential for improving risk stratification and personalizing cancer care, though their integration requires addressing interpretability challenges.",
+      "authors": "Arul S, V S"
+    }
+  ]
+}
