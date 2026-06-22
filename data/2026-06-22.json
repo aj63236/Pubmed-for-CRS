@@ -1,0 +1,105 @@
+{
+  "date": "2026-06-22",
+  "papers": [
+    {
+      "id": "2026-06-22-1",
+      "pmid": "42324593",
+      "title": "ADAR1-circRAB5A-BIP axis governs radiotherapy resistance in colorectal cancer through coordinating protective autophagy and apoptosis.",
+      "journal": "Cancer biology & therapy",
+      "year": "2026",
+      "month": "Dec",
+      "abstract": "Colorectal cancer (CRC) ranks among the most prevalent malignancies globally, and radiotherapy remains a critical treatment modality. However, its efficacy is frequently compromised by acquired radioresistance. The endoplasmic reticulum chaperone protein BIP plays a pivotal role in regulating radioresistance by coordinating the balance between protective autophagy and apoptosis, though the regulatory roles of circular RNAs (circRNAs) in this process remain poorly understood. Differentially expressed circRAB5A (hsa-circ-0123297) was identified from the GSE186940 dataset. Its expression was validated in radioresistant CRC clinical samples and cell lines. Mechanistic investigations involved ADAR1 binding assays, circRAB5A gain/loss-of-function studies, autophagy-apoptosis profiling, ubiquitination analysis, TRIM21-mediated degradation assays, and CircRAB5A was significantly downregulated in radioresistant CRC clinical samples and cell lines. This downregulation was driven by ADAR1, which suppressed circRAB5A biogenesis by binding to Alu Jo/Jr elements. Functional assays showed circRAB5A depletion conferred radioresistance in CRC cells by promoting protective autophagy and inhibiting apoptosis. Mechanistically, circRAB5A destabilized BIP by enhancing TRIM21-mediated ubiquitination. The circRAB5A/BIP axis further modulates the autophagy-apoptosis balance through the p-Akt/Beclin1 signaling pathway, thereby influencing radiosensitivity.",
+      "authors": "Chen W, Zhang X, Zhao Z, Xin W, Li J"
+    },
+    {
+      "id": "2026-06-22-2",
+      "pmid": "42330152",
+      "title": "Immunotherapy in Pediatric Constitutional Mismatch Repair Deficiency (CMMRD)-Associated Colorectal Cancer: Report of a Rare Variant and Recommendations for Screening.",
+      "journal": "Journal of pediatric hematology/oncology",
+      "year": "2026",
+      "month": "Jun",
+      "abstract": "Constitutional mismatch repair deficiency is a rare pediatric cancer predisposition syndrome caused by mutations in mismatch repair genes. We present the case of a 10-year-old with family history of Lynch syndrome, diagnosed with hepatic flexure adenocarcinoma and duodenal adenoma. Germline testing revealed a novel pair of biallelic PMS2 mutations. She received neoadjuvant ipilimumab and nivolumab, followed by total abdominal colectomy and adjuvant CAPEOX (capecitabine, oxaliplatin). Pathology revealed stage IIIB adenocarcinoma with partial response to immunotherapy. This case highlights the use of immunotherapy and screening for pediatric CMMRD-associated colorectal adenocarcinoma in the setting of a novel PMS2 variant.",
+      "authors": "Selesner L, Vaughn C, Jazrawi S, Fenlon E, Storm K"
+    },
+    {
+      "id": "2026-06-22-3",
+      "pmid": "42329941",
+      "title": "Boundary-Aware Spectral and Morphological Guidance Method for Feature-Driven Colorectal Cancer Segmentation.",
+      "journal": "IEEE transactions on medical imaging",
+      "year": "2026",
+      "month": "Jun",
+      "abstract": "Precise segmentation of medical images plays a crucial role in modern clinical practice, providing important foundations for the quantitative analysis of medical images and clinical decision making. However, although deep learning techniques have achieved significant success in conventional medical image segmentation, they still exhibit obvious limitations when faced with complex structure segmentation tasks such as colorectal cancer: high-quality medical data acquisition is not only difficult, but also even when data is relatively sufficient, the diverse morphological features of lesions cannot be adequately represented due to their high variability, which severely limits the generalization capability of traditional data-driven segmentation methods. To address these challenges, we propose a feature-driven segmentation model that improves performance by deeply mining intrinsic data information rather than relying on parameter stacking. Specifically, we introduce a spectrum-prior-boundary triple modeling paradigm, where frequency domain reconstruction and modulation is employed to establish mappings between different frequency bands and heterogeneous signals to identify ambiguous signals, a level set-based segmentation algorithm is used to construct abdominal anatomical distance fields to incorporate morphological priors, and an auxiliary edge branch is designed by integrating deep semantic and shallow detail features to strengthen boundary awareness. Extensive experiments on colorectal cancer segmentation demonstrate that the proposed method achieves significant improvements in both segmentation accuracy and boundary perception over other state-of-the-art methods. Furthermore, evaluations on lung cancer and breast cancer segmentation tasks validate its strong generalization capability across diverse lesion types.",
+      "authors": "Lei P, Hu H, Li S, Liu Y, Xie X"
+    },
+    {
+      "id": "2026-06-22-4",
+      "pmid": "42329854",
+      "title": "Immune checkpoint blockade augments lymphodepleting chemotherapy-induced antitumor immunity by expanding effector CD8+ T cell clones.",
+      "journal": "Cancer research",
+      "year": "2026",
+      "month": "Jun",
+      "abstract": "Cancer treatment using immune checkpoint blockade (ICB) with anti-PD-1 and anti-CTLA-4 has been successful. However, primary and acquired resistance limits clinical benefit. To improve the effectiveness of ICB therapies, strategies that reorchestrate anti-tumor immunity through mechanism-based drug combinations are being actively explored. The alkylating chemotherapeutic agent cyclophosphamide (CTX) has direct tumoricidal and immunomodulatory properties, including the induction of homeostatic proliferation of T cells. Since ICB suppresses inhibitory signals in T cells, ICB might be able to augment CTX-induced homeostatic proliferation of antigen-specific T cells, thereby resetting the T cell receptor (TCR) repertoire in favor of tumor-specific T cells. Here, we showed that a single dose of CTX one day prior to starting αPD-1+αCTLA-4 treatment was sufficient to delay tumor progression in established melanoma and prolong survival in tumor-bearing mouse models. These effects extended to other lymphodepleting treatments, such as gemcitabine and radiation therapy. The anti-tumor immune response was mainly driven by the clonal expansion of activated/effector CD8+ tumor infiltrating lymphocytes. Furthermore, combined CTX and αPD-1+αCTLA-4 treatment demonstrated efficacy across additional preclinical tumor models, including colorectal cancer and triple negative breast cancer. Overall, these findings highlight that the combination of CTX and ICB represents a clinically relevant approach in the treatment of immunotherapy-refractory tumors.",
+      "authors": "George M, Hamadene L, Marouf Y, Ceglia N, Hirschhorn D"
+    },
+    {
+      "id": "2026-06-22-5",
+      "pmid": "42329513",
+      "title": "Real-World Survival and Toxicity Outcomes of Fluorouracil With vs. Without Leucovorin in Metastatic Colorectal Cancer.",
+      "journal": "Journal of gastrointestinal cancer",
+      "year": "2026",
+      "month": "Jun",
+      "abstract": "Fluorouracil (5-FU) remains a cornerstone of systemic therapy for metastatic colorectal cancer (mCRC). Leucovorin enhances fluorouracil cytotoxicity through thymidylate synthase modulation. Although randomized trials established the benefit of leucovorin modulation, real-world survival and toxicity outcomes remain incompletely characterized. We conducted a retrospective cohort study using the TriNetX US Collaborative Network, which includes electronic health record data from 67 healthcare organizations. Adult patients with mCRC receiving intravenous fluorouracil between January 2000 and January 2026 were included. Patients were stratified by leucovorin exposure. Propensity score matching (1:1 nearest neighbor) balanced demographics, comorbidities, treatment exposures, surgical history, and genomic alterations. The primary outcome was all-cause mortality. Secondary outcomes included hospitalization, granulocyte colony-stimulating factor use, blood transfusion, sepsis, thrombocytopenia, and gastrointestinal toxicity. Kaplan-Meier and Cox proportional hazards analyses were performed. After propensity score matching, 2,403 patients were included in each cohort. Survival analysis included 2,385 patients in the leucovorin cohort and 2,391 patients in the fluorouracil-alone cohort after exclusions. Mortality occurred in 38.8% of patients receiving fluorouracil with leucovorin compared with 47.1% receiving fluorouracil alone (hazard ratio 0.752, 95% CI 0.690-0.821). Median survival was longer in the leucovorin cohort (964 vs. 718 days). Leucovorin use was associated with increased hospitalization (HR 1.222), granulocyte colony-stimulating factor use (HR 1.360), blood transfusion (HR 1.593), and gastrointestinal toxicity. In this large real-world cohort, leucovorin significantly improved survival in patients with metastatic colorectal cancer receiving fluorouracil but was associated with increased treatment-related toxicity. These findings support the continued use of leucovorin as a key component of fluorouracil-based chemotherapy regimens.",
+      "authors": "Zengin B, Nazzal J, Salameh M, Akgun S, Dirican C"
+    },
+    {
+      "id": "2026-06-22-6",
+      "pmid": "42329374",
+      "title": "Risk factors for postoperative complications after colorectal surgery in patients aged ≥ 80 years: A multicenter retrospective study.",
+      "journal": "Surgery today",
+      "year": "2026",
+      "month": "Jun",
+      "abstract": "To identify the perioperative risk factors for postoperative complications in patients aged ≥ 80 years. We retrospectively analyzed 2,072 consecutive patients who underwent colorectal surgery at seven institutions between January 2021 and December 2023 and compared the perioperative outcomes between patients aged ≥ 80 (n = 464) and ≤ 79 years (n = 1,608). Patients aged ≥ 80 years had an American Society of Anesthesiologists Physical Status (ASA-PS) score of ≥ 3 (P < 0.0001) and more comorbidities. Minimally invasive surgery was performed less frequently (P < 0.0001), with a shorter surgical duration (P = 0.0003) and greater intraoperative bleeding (P = 0.04). Postoperative pneumonia (P = 0.0005) and urinary disorder complications after rectal surgery (P = 0.03) were more frequent in patients aged ≥ 80 years. A multivariate analysis identified male sex (P = 0.02), ASA-PS ≥ 3 (P = 0.005), and intraoperative bleeding (P = 0.02) as independent risk factors for pneumonia. Intraoperative bleeding (P = 0.002) and anastomosis (P = 0.03) were significant risk factors for urinary disorders after rectal surgery. Minimally invasive surgery in older adults resulted in a longer surgical duration (P < 0.0001), less bleeding (P < 0.0001), and fewer complications than conventional surgery. Postoperative pneumonia and urinary complications after rectal surgery are common in older adult patients. Minimally invasive approaches may reduce the risk of complications.",
+      "authors": "Hasuda H, Nakanishi R, Nagai T, Tajiri H, Ota M"
+    },
+    {
+      "id": "2026-06-22-7",
+      "pmid": "42329364",
+      "title": "A reproducible anastomosis in robotic Ivor-Lewis esophagectomy: a simple fix for a persistent problem in a zero-leak consecutive series.",
+      "journal": "Surgical endoscopy",
+      "year": "2026",
+      "month": "Jun",
+      "abstract": "Robotic Ivor-Lewis esophagectomy is increasingly adopted due to its minimally invasive approach and favorable outcomes. Anastomotic leak remains the most serious complication after esophagectomy, with reported rates of 5-18%. We describe a reinforced, stapled, single-layer, thoracic anastomosis which has resulted in no leaks in 50 consecutive patients. We performed a retrospective review of consecutive patients who underwent robotic Ivor-Lewis esophagectomy by a two-surgeon team. From January 2022 to February 2026, 50 patients were included with a median age of 70 years. Indications for surgery were malignancy in 47 patients, most commonly adenocarcinoma (85.1%) and benign disease in 3 patients. Median operative time was 237 min, median actual blood loss was 35 mL and median lymph node yield was 20. R0 resection was achieved in all 47 malignant cases. Complete pathologic response (pCR) was observed in 13 out of 38 patients that received neoadjuvant therapy (34.2%). There were no conversions, and median LOS was 4 days. No anastomotic leaks were detected clinically, radiographically, or biochemically and there was no 30- or 90-day mortality. At a median follow-up of 26.8 months, 1- and 2-year overall survival rates were 88.2 and 84.6%, respectively. This technique, when properly executed, is reproducible, safe, and can afford R0 resection and thorough thoracic lymph node dissection, with promising results. Prospective, multicenter studies are needed to compare this approach to alternative anastomotic techniques.",
+      "authors": "Pachos N, Yongue C, Zervos M, Bizekis C"
+    },
+    {
+      "id": "2026-06-22-8",
+      "pmid": "42322125",
+      "title": "Expression of the High Affinity Neurotensin Receptor Defines an Immune‑cold, Poor‑prognosis Colorectal Cancer Subtype.",
+      "journal": "Annals of surgery",
+      "year": "2026",
+      "month": "Jun",
+      "abstract": "We investigated neurotensin receptor 1 (NTSR1) as a potential mediator of the mechanical immune barrier that contributes to T-cell exclusion. The efficacy of immunotherapy in advanced colorectal cancer (CRC) is limited by primary resistance, frequently characterized by an \"immune-excluded\" phenotype where physical and biological barriers prevent effector T-cell infiltration. Through its high-affinity receptor, NTSR1, neurotensin signaling has been implicated in tumor progression, yet its role in shaping the immune landscape of CRC remains unclear. We integrated transcriptomic and clinical data from The Cancer Genome Atlas discovery cohort with an independent surgical validation cohort from the University of Kentucky. Random Forest machine learning identified molecular features associated with NTS/NTSR1 signaling, and a 3D tumor spheroid co-culture model was employed to evaluate the impact of NTS/NTSR1 signaling on spatial T-cell distribution in vitro. Dual-cohort analyses revealed high NTSR1 expression as an independent risk factor for progression-free interval in the discovery cohort and overall survival in the validation cohort. Mechanistically, the NTS/NTSR1 axis upregulates a mechano-structural network centered on PLXNB3, FLNC, and AHNAK2, while simultaneously driving epithelial dedifferentiation through downregulation of core transcription factors (CDX2, SATB2). Together, these transcriptional programs are associated with the remodeling of the tumor microenvironment into an immune-cold, suppressive state. Moreover, 3D modeling indicated that ligand-activated NTS/NTSR1 signaling restricts T-cell infiltration, which was significantly reversed by the NTSR1 antagonist SR48692, providing functional support for a mechanical immune barrier proposed based on transcriptomic remodeling. Targeting the NTS/NTSR1 axis may attenuate biological and physical barriers underlying immune exclusion, providing a preclinical rationale for converting immune-excluded CRCs into immune-responsive tumors.",
+      "authors": "Wu H, Wang Y, Song J, Yan B, Wang C"
+    },
+    {
+      "id": "2026-06-22-9",
+      "pmid": "42319965",
+      "title": "Single-Port Robotic Transanal Minimally Invasive Surgery for Rectal Cancer: A Novel Approach With FishBowl-Early Case Series.",
+      "journal": "Surgical laparoscopy, endoscopy & percutaneous techniques",
+      "year": "2026",
+      "month": "Jun",
+      "abstract": "Transanal minimally invasive surgery (TAMIS) emerged as a validated technique for local excision of rectal adenomas and early-stage adenocarcinomas. In organ preservation protocols, TAMIS is increasingly used for mid- and low-rectal cancers, achieving complete or major clinical response (cCR/cMR) following neoadjuvant chemoradiotherapy, complementing Watch-and-Wait strategies with low morbidity and favorable outcomes. Robotic platforms, particularly the Da Vinci SP, have improved surgical dexterity and visualization in confined pelvic spaces. Despite CE approval and encouraging feasibility data, widespread adoption of SP-TAMIS remains limited due to docking constraints. This study reports the first European series of rectal cancer cases treated with SP-TAMIS (SPrTAMIS) using a novel small FishBowl docking system and evaluates its feasibility, safety, and short-term outcomes. Five patients with rectal adenocarcinoma, selected based on organ preservation criteria, underwent SPrTAMIS using the Da Vinci SP system. Preoperative assessment included endoscopy, MRI, CT, and bowel preparation. Procedures were performed under general anesthesia with CO2 pneumorectum (12 mm Hg) and robotic instrumentation via the FishBowl docking system. Data collected included tumor characteristics, surgical duration, estimated blood loss (EBL), morbidity, mortality, length of stay (LOS), and functional outcomes (LARS and MSKCC scores). All procedures were completed robotically without conversion. The mean lesion size was 8.8 mm, located 50 mm from the anal verge and 16 mm from the anorectal junction. Mean operative time was 85 minutes. No intraoperative complications or mortality occurred. GI function resumed by postoperative day (POD) 1; all patients were discharged by POD 2. One minor, asymptomatic suture dehiscence was observed. Histology confirmed complete excision with negative margins. The median follow-up was 68 days, and functional and quality-of-life outcomes were favorable. SPrTAMIS using Da Vinci SP and the FishBowl system is feasible and safe for rectal excision, offering ergonomic advantages and minimal anal canal trauma. Further studies are warranted to assess long-term oncologic and functional outcomes.",
+      "authors": "Mellano A, Pellegrino L, Salomone S, Zaffirio S, Borghi F"
+    },
+    {
+      "id": "2026-06-22-10",
+      "pmid": "42019809",
+      "title": "Relationships between cognitive impairment and regional brain activity induced by central neurotoxicity of FOLFOX and FOLFIRI in colorectal cancer patients: a resting-state fMRI study.",
+      "journal": "Neuroscience",
+      "year": "2026",
+      "month": "Jun",
+      "abstract": "Chemotherapy-induced neurologic dysfunction was experienced by colorectal cancer (CRC) survivors. However, the exact mechanism remains unclear. We recruited CRC survivors who had undergone 2-3 month-long FOLFOX and FOLFIRI chemotherapy. Cognition was assessed at enrollment and after chemotherapy. FMRIdata were acquired and preprocessed. ReHowas calculated and compared to examine the differences of brain activities. ROCcurve was performed to evaluate the capacity of ReHo values in distinguishing patients after FOLFOX, FOLFIRI and HCs. Relationships between ReHo values, chemotherapy cycles and cognitive scores were evaluated. The mediating effects of ReHo values on the relationships between chemotherapy cycles and cognitive function were also evaluated. CRC patients exhibited decreased ReHo values in the left superior frontal gyrus (dorsolateral), inferior frontal gyrus (opercular part), right superior frontal gyrus (medial), inferior frontal gyrus (opercular part), middle temporal gyrus and increased ReHo values in the right rolandic operculum after FOLFIRI chemotherapy when compared with the group of FOLFOX. ROC analysis revealed that ReHo values might be helpful for distinguishing CRC patients after FOLFOX, FOLFIRI chemotherapy and HCs. Relationships were identified between cognitive scores, chemotherapy cycles and ReHo values of the prefrontal regions in CRC patients after chemotherapy. ReHo values of the left inferior frontal gyrus (opercular part) partially mediated the correlations between chemotherapy cycles and cognitive scores. The prefrontal cortex might be the preferred brain regions attacked by the central neurotoxicity of both FOLFOX and FOLFIRI, and the latter had wider implications on the regional brain activity.",
+      "authors": "Yan P, Ge Y, Han J, Xie P, Wu J"
+    }
+  ]
+}
