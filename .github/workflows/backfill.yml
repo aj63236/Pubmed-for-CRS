@@ -48,6 +48,7 @@ jobs:
       - name: 回補
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          PYTHONUNBUFFERED: "1"
           # 想換模型：Settings → Secrets and variables → Actions → Variables
           # 新增 MODEL，值可填 claude-haiku-4-5-20251001（便宜但分析較弱）
           MODEL: ${{ vars.MODEL }}
@@ -65,9 +66,9 @@ jobs:
             echo "💸 實跑模式 —— 會呼叫 Claude API 並產生費用"
           fi
 
-          echo "執行：python backfill.py $ARGS"
+          echo "執行：python -u backfill.py $ARGS"
           echo ""
-          python backfill.py $ARGS
+          python -u backfill.py $ARGS
 
       - name: Commit & Push
         if: ${{ inputs.dry_run == false }}
