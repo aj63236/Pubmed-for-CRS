@@ -24,6 +24,15 @@ from pathlib import Path
 # 重用 fetch_papers 的所有邏輯
 import fetch_papers as fp
 
+# GitHub Actions 的 stdout 是管線，Python 預設做「區塊緩衝」（累積滿 8KB 才輸出），
+# 會讓 log 看起來像卡住。這裡強制每一行立刻輸出。
+_print = print
+
+
+def print(*args, **kwargs):          # noqa: A001
+    kwargs.setdefault("flush", True)
+    _print(*args, **kwargs)
+
 
 def daterange(start, end):
     d = start
@@ -67,6 +76,17 @@ def main():
     ap.add_argument("--max-total", type=int, default=400,
                     help="安全上限：總共最多處理幾篇（預設 400，避免日期填錯燒錢）")
     args = ap.parse_args()
+
+    # ── 防呆：max_per_day 填太大是最常見的燒錢方式 ──
+    HARD_CAP = 30
+    if args.max_per_day > HARD_CAP:
+        print(f"⚠️  每天分析 {args.max_per_day} 篇太多了 —— 這個數字直接乘上費用。")
+        print(f"    已自動壓到 {HARD_CAP} 篇。")
+        print(f"    （PubMed 每天有 60-80 篇，系統會依期刊 IF 與研究設計排序，")
+        print(f"      只分析分數最高的幾篇。填 10 就很夠了。）\n")
+        args.max_per_day = HARD_CAP
+    if args.max_per_day < 1:
+        args.max_per_day = 1
 
     start = datetime.date.fromisoformat(args.start)
     end = datetime.date.fromisoformat(args.end) if args.end else datetime.date.today()
