@@ -32,8 +32,8 @@ def daterange(start, end):
         d += datetime.timedelta(days=1)
 
 
-def search_one_day(day, max_results):
-    """抓某一天新上架（edat）的論文 PMID"""
+def search_one_day(day):
+    """抓某一天新上架（edat）的所有論文 PMID（跟 PubMed 拿資料免費）"""
     import requests
     s = day.strftime("%Y/%m/%d")
     r = requests.get(
@@ -44,7 +44,7 @@ def search_one_day(day, max_results):
             "datetype": "edat",
             "mindate": s,
             "maxdate": s,
-            "retmax": max_results,
+            "retmax": fp.SCAN_LIMIT,
             "retmode": "json",
             "sort": "pub_date",
         },
@@ -110,7 +110,7 @@ def main():
                 pass
 
         try:
-            ids, total = search_one_day(day, args.max_per_day)
+            ids, total = search_one_day(day)
         except Exception as e:
             print(f"  {ds}  ⚠️  搜尋失敗：{e}")
             continue
@@ -118,18 +118,21 @@ def main():
         total_available += total
         if ids:
             plan.append((day, ids))
-            print(f"  {ds}  📄 {len(ids)} 篇（PubMed 共 {total} 篇）")
+            keep = min(len(ids), args.max_per_day)
+            print(f"  {ds}  掃描 {len(ids)} 篇 → 分析前 {keep} 篇")
         else:
             print(f"  {ds}  —")
         time.sleep(0.35)   # 對 NCBI 客氣一點
 
-    to_fetch = sum(len(ids) for _, ids in plan)
+    # 實際會送去 Claude 的篇數 = 每天取前 max_per_day
+    to_fetch = sum(min(len(ids), args.max_per_day) for _, ids in plan)
 
     # ── 估算成本（扣掉已在快取的） ──
     cache = fp.load_cache()
-    new_ids = {i for _, ids in plan for i in ids if i not in cache}
-    n_new = len(new_ids)
-    n_cached = to_fetch - n_new
+    # 保守估：把每天前 max_per_day 個 id 當作候選（實際排序後可能不同，但量級一樣）
+    cand = [i for _, ids in plan for i in ids[:args.max_per_day]]
+    n_cached = sum(1 for i in cand if i in cache)
+    n_new = max(0, to_fetch - n_cached)
 
     # 一篇約 2,000 in + 1,900 out（含完整摘要翻譯 + 批判性分析）
     p_in, p_out = fp.price_of(fp.MODEL)
@@ -174,6 +177,12 @@ def main():
         except Exception as e:
             print(f"   ⚠️  下載失敗：{e}\n")
             continue
+
+        # 依期刊 IF + 研究設計排序，只分析最值得讀的
+        if len(papers) > args.max_per_day:
+            papers.sort(key=fp.rank_score, reverse=True)
+            print(f"   掃描 {len(papers)} 篇 → 取分數最高的 {args.max_per_day} 篇")
+            papers = papers[:args.max_per_day]
 
         for i, p in enumerate(papers, 1):
             short = p["title"][:48] + ("…" if len(p["title"]) > 48 else "")

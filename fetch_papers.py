@@ -21,8 +21,9 @@ API_KEY     = os.environ.get("ANTHROPIC_API_KEY", "").strip()
 # claude-haiku-4-5-20251001  ← 便宜 3 倍，但批判性分析與 NNT 計算會變差
 # claude-opus-4-8   ← 最強但貴一倍
 MODEL       = os.environ.get("MODEL", "").strip() or "claude-sonnet-5"
-DAYS_BACK   = 2                       # 抓最近 N 天新上架的論文（1 天常常是 0 篇）
-MAX_RESULTS = 12                      # 每天最多處理幾篇
+DAYS_BACK   = 2      # 抓最近 N 天新上架的論文
+SCAN_LIMIT  = 120    # 每天最多「掃描」幾篇（跟 PubMed 拿資料是免費的）
+MAX_RESULTS = 10     # 每天最多「分析」幾篇（這個才花錢）
 MAX_RETRY   = 3
 
 # 每 1M token 單價（USD）。價格會變，以 Anthropic 官網為準。
@@ -32,6 +33,44 @@ PRICING = {
     "claude-opus-4-8":   (5.00, 25.00),
     "claude-haiku-4-5":  (1.00,  5.00),
 }
+
+
+# 研究設計權重：外科醫師眼中，一篇 DCR 的 RCT 勝過一篇 Lancet 的綜述
+PTYPE_WEIGHT = {
+    "Randomized Controlled Trial": 12,
+    "Meta-Analysis":               12,
+    "Practice Guideline":          12,
+    "Systematic Review":           10,
+    "Guideline":                   10,
+    "Clinical Trial, Phase III":    9,
+    "Clinical Trial":               6,
+    "Multicenter Study":            5,
+    "Comparative Study":            3,
+    "Observational Study":          2,
+    "Review":                       1,
+}
+
+# IF 上限：避免超高分綜合期刊的綜述蓋過專科期刊的 RCT
+IF_CAP        = 25
+IF_WEIGHT     = 0.5
+PTYPE_MULT    = 2.0
+
+
+def rank_score(paper):
+    """排序分數 = 期刊 IF（上限 25，權重 0.5）+ 研究設計權重 × 2
+
+    舉例：
+      Dis Colon Rectum 的 RCT    → 3.2×0.5 + 12×2 = 25.6
+      Lancet 的綜述              → 25 ×0.5 +  1×2 = 14.5   ← RCT 勝出，正確
+      Lancet 的 RCT              → 25 ×0.5 + 12×2 = 36.5   ← 當然最高
+      不明期刊的病例系列          → 0  ×0.5 +  0×2 =  0
+    """
+    jif = paper.get("impact_factor") or 0
+    best_ptype = max(
+        (PTYPE_WEIGHT.get(pt, 0) for pt in paper.get("ptype_list", [])),
+        default=0,
+    )
+    return min(jif, IF_CAP) * IF_WEIGHT + best_ptype * PTYPE_MULT
 
 
 def price_of(model):
@@ -93,8 +132,8 @@ PUBMED_QUERY = """
 )
 AND (english[Language])
 AND (hasabstract)
+AND (humans[MeSH Terms])
 NOT (case reports[Publication Type])
-NOT ("animals"[MeSH Terms] NOT "humans"[MeSH Terms])
 """
 
 PROMPT = """你是大腸直腸外科資深主治醫師，同時熟悉實證醫學（EBM）與論文批判性閱讀。
@@ -199,7 +238,7 @@ def search_pubmed():
             "datetype": "edat",
             "mindate": fmt(start),
             "maxdate": fmt(today),
-            "retmax": MAX_RESULTS,
+            "retmax": SCAN_LIMIT,
             "retmode": "json",
             "sort": "pub_date",
         },
@@ -295,6 +334,7 @@ def parse_xml(xml_text):
                 "month": month,
                 "doi": doi,
                 "ptype": ptype,
+                "ptype_list": ptypes,          # 排序用
                 "authors": ", ".join(authors),
                 "abstract": abstract,
             })
@@ -501,9 +541,21 @@ def main():
         save([], today)
         return
 
-    log("\n⬇️  下載詳細資料...")
+    log("\n⬇️  下載詳細資料（免費）...")
     papers = fetch_details(ids)
     log(f"   有摘要可用：{len(papers)} 篇")
+
+    # ── 依「期刊 IF + 研究設計」排序，只把最值得讀的送去 Claude ──
+    if len(papers) > MAX_RESULTS:
+        papers.sort(key=rank_score, reverse=True)
+        log(f"\n🏅 依期刊 IF 與研究設計排序，取前 {MAX_RESULTS} 篇：")
+        for p in papers[:MAX_RESULTS]:
+            jif = p.get("impact_factor")
+            jtag = f"IF {jif}" if jif else "IF ?"
+            log(f"   {rank_score(p):5.1f}  [{jtag:>7}] {p['ptype'][:28]:<28} {p['title'][:40]}")
+        dropped = len(papers) - MAX_RESULTS
+        papers = papers[:MAX_RESULTS]
+        log(f"   （捨棄 {dropped} 篇分數較低的）")
 
     cache = load_cache()
     tok_in = tok_out = 0
