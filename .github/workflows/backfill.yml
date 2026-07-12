@@ -1,0 +1,80 @@
+name: 回補歷史文獻
+
+# 只能手動觸發。到 Actions → 回補歷史文獻 → Run workflow
+on:
+  workflow_dispatch:
+    inputs:
+      from_date:
+        description: '起始日 YYYY-MM-DD'
+        required: true
+        default: '2026-06-01'
+      to_date:
+        description: '結束日 YYYY-MM-DD（留空 = 今天）'
+        required: false
+        default: ''
+      max_per_day:
+        description: '每天最多抓幾篇'
+        required: true
+        default: '8'
+      dry_run:
+        description: '試算模式（只估價，不花錢）—— 第一次請務必勾選'
+        type: boolean
+        required: true
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: backfill
+  cancel-in-progress: false
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330      # 回補可能要跑很久
+
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: 安裝套件
+        run: pip install -r requirements.txt
+
+      - name: 回補
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          ARGS="--from ${{ inputs.from_date }} --max-per-day ${{ inputs.max_per_day }}"
+
+          if [ -n "${{ inputs.to_date }}" ]; then
+            ARGS="$ARGS --to ${{ inputs.to_date }}"
+          fi
+
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            ARGS="$ARGS --dry-run"
+            echo "🧪 試算模式 —— 不會花錢"
+          else
+            echo "💸 實跑模式 —— 會呼叫 Claude API 並產生費用"
+          fi
+
+          echo "執行：python backfill.py $ARGS"
+          echo ""
+          python backfill.py $ARGS
+
+      - name: Commit & Push
+        if: ${{ inputs.dry_run == false }}
+        run: |
+          git config user.name  "腸嚐新知 Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "無新資料"
+          else
+            git commit -m "📚 回補 ${{ inputs.from_date }} 起的歷史文獻"
+            git push
+          fi
