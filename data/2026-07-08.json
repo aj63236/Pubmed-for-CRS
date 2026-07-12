@@ -1,0 +1,873 @@
+{
+ "date": "2026-07-08",
+ "generated_at": "2026-07-12T16:27:37",
+ "count": 17,
+ "papers": [
+  {
+   "pmid": "42418102",
+   "title": "Tumour-Associated Neutrophils in Colorectal Cancer: a Systematic Review, Meta-analysis, and Comprehensive Literature Review",
+   "journal": "J Gastrointest Cancer",
+   "journal_full": "Journal of gastrointestinal cancer",
+   "issn": "1941-6636",
+   "issn_linking": "",
+   "impact_factor": 1.6,
+   "if_year": "2025",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1146/annurev-immunol-110519-071134",
+   "ptype": "Systematic Review, Meta-Analysis",
+   "ptype_list": [
+    "Systematic Review",
+    "Meta-Analysis"
+   ],
+   "authors": "Abrahao A, Felismino T, Kerr D",
+   "abstract": "PURPOSE: Neutrophils are at the forefront of innate immune response. The prognostic impact of tumour-associated neutrophils (TANs) remains unclear. This study aimed to evaluate the prognostic role of TANs in colorectal cancer (CRC).\nMETHODS: A systematic review and meta-analysis were conducted using PubMed, Embase, and Scopus to identify studies correlating TANs with time-to-event survival analysis in patients with stages I-IV CRC from the date of inception until April 2024. Articles were included if they involved the identification of TANs through hematoxylin-eosin (HE) or immunohistochemistry (IHC) and reported survival analysis. Data was collected from the tumour core (TC) and invasive margin (IM). The hazard ratios (HRs) were extracted from the study results. Heterogeneity was evaluated using Cochran's Q and I². Primary and secondary endpoints were overall survival (OS) and disease-free survival (DFS).\nRESULTS: Of 4,292 citations found, 18 studies fulfilled eligibility criteria, encompassing 7,406 patients. IHC was used to identify TANs in 12 trials, while six performed HE. Five studies included patients with disease stages I-III, and 13 had stages I-IV. High TANs at the IM were associated with improved OS (HR = 0.64, 95% Confidence Interval [CI] 0.50-0.81, I2 = 48%) and DFS (HR = 0.47, 95% CI 0.25-0.88, I2 = 32%). At the TC, high TANs showed a trend towards better OS (HR = 0.82, 95% CI 0.61-1.10, I2 = 83%) and DFS (HR = 0.48, 95% CI 0.21-1.07, I2 = 93%), although not statistically significant and with high heterogeneity.\nCONCLUSION: In this systematic review and meta-analysis, high TANs at the invasive margin (IM), the tumour-host interface, was associated with improved prognosis in CRC. In contrast, no statistically significant association was observed for high TANs at the tumour core (TC).",
+   "title_zh": "大腸直腸癌中的腫瘤相關嗜中性球：系統性回顧、統合分析與全面文獻回顧",
+   "abstract_zh": "目的：嗜中性球位居先天性免疫反應的第一線。腫瘤相關嗜中性球（TANs）的預後意義目前仍不明確。本研究旨在評估TANs在大腸直腸癌（CRC）中的預後角色。方法：利用PubMed、Embase及Scopus資料庫進行系統性回顧與統合分析，納入自資料庫建立至2024年4月間，探討TANs與存活時間分析相關性之第I-IV期CRC研究。納入條件為透過蘇木精-伊紅染色（HE）或免疫組織化學染色（IHC）辨識TANs，並報告存活分析之文獻。資料分別自腫瘤核心（TC）及侵犯邊緣（IM）蒐集。自各研究結果中萃取風險比（HR）。異質性以Cochran's Q及I²評估。主要與次要終點分別為總體存活（OS）與無病存活（DFS）。結果：於4,292篇文獻中，18篇研究符合納入條件，共納入7,406名病人。其中12項試驗使用IHC辨識TANs，6項使用HE。5項研究納入第I-III期病人，13項納入第I-IV期。侵犯邊緣（IM）高TANs與較佳OS相關（HR = 0.64，95%信賴區間0.50-0.81，I² = 48%）及較佳DFS相關（HR = 0.47，95% CI 0.25-0.88，I² = 32%）。於腫瘤核心（TC），高TANs顯示OS（HR = 0.82，95% CI 0.61-1.10，I² = 83%）及DFS（HR = 0.48，95% CI 0.21-1.07，I² = 93%）有改善趨勢，但未達統計顯著性且異質性極高。結論：本系統性回顧與統合分析顯示，位於侵犯邊緣（腫瘤-宿主交界處）的高TANs與CRC較佳預後相關；相對地，腫瘤核心的高TANs則未觀察到統計上顯著的相關性。",
+   "evidence_level": "統合分析",
+   "score": 4,
+   "score_reason": "統合分析方法尚可、樣本量大，但TANs偵測方法不統一、TC結果異質性極高且無臨床可執行路徑，目前對外科實務幫助有限。",
+   "relevance": "低度相關",
+   "relevance_why": "此為預後生物標記研究，尚無標準化IHC判讀方式，目前無法轉譯為手術決策或臨床行動。",
+   "novelty": "仍屬早期",
+   "one_liner": "統合分析18篇研究、7406名CRC病人，發現侵犯邊緣高TANs與較佳OS（HR 0.64）及DFS（HR 0.47）相關，腫瘤核心則無顯著相關。",
+   "action": "目前不需改變做法；TANs非常規病理報告項目，亦無標準化染色與判讀方法可供臨床應用。",
+   "pico": {
+    "P": "第I-IV期大腸直腸癌病人，18項研究共7,406人",
+    "I": "腫瘤侵犯邊緣（IM）或腫瘤核心（TC）處高密度腫瘤相關嗜中性球（TANs），以IHC或HE偵測",
+    "C": "同研究內低密度TANs病人",
+    "O": "主要：總體存活（OS）；次要：無病存活（DFS）"
+   },
+   "key_numbers": [
+    "侵犯邊緣高TANs：OS改善，HR 0.64（95% CI 0.50-0.81），I²=48%",
+    "侵犯邊緣高TANs：DFS改善，HR 0.47（95% CI 0.25-0.88），I²=32%",
+    "腫瘤核心高TANs：OS與DFS皆無統計顯著性（HR 0.82與0.48），且I²高達83-93%"
+   ],
+   "cautions": [
+    "腫瘤核心結果不顯著且異質性極高（I²達83-93%），證據不穩定，不宜過度解讀",
+    "TANs偵測方法跨研究不一致（IHC vs HE），判讀標準與切點可能差異大，影響可比性",
+    "統合分析僅萃取各研究HR，原始研究多為回溯性設計，可能存在發表偏誤與選擇偏誤"
+   ],
+   "unassessable": [
+    "個別研究之偏誤風險評估（如NOS量表）",
+    "發表偏誤檢定（如funnel plot、Egger's test）",
+    "利益衝突與資金來源",
+    "病理判讀之觀察者間一致性",
+    "原始研究之失訪率與追蹤完整性"
+   ]
+  },
+  {
+   "pmid": "42418560",
+   "title": "Phage intervention improves colitis and response to corticosteroids by attenuating virulence of Crohn's disease-associated bacteria",
+   "journal": "Sci Transl Med",
+   "journal_full": "Science translational medicine",
+   "issn": "1946-6242",
+   "issn_linking": "1946-6234",
+   "impact_factor": 14.6,
+   "if_year": "2025",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1126/scitranslmed.adz4589",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Jackson K, Galipeau H, Hann A, Constante M, Zangara M, Bording-Jorgensen M",
+   "abstract": "Adherent-invasive Escherichia coli (AIEC) exhibits proinflammatory properties and has been implicated in the pathogenesis of Crohn's disease (CD), a form of inflammatory bowel disease (IBD). Antibiotic use in CD lacks specificity and may worsen microbiome disruption, prompting interest in bacteriophages (phages) for targeted microbiome editing. Here, we identified HER259, a phage active against clinical AIEC isolates. HER259 ameliorated colitis in gnotobiotic models and attenuated the virulence of AIEC strain NRG857c, including suppression of the FimH adhesin through inversion of the fimS promoter to its \"off\" orientation. The effects were confirmed in CD-microbiota colitis models. Withdrawal of HER259 treatment led to reversion of the fimS promoter and reactivated colitis. The HER259 phage also enhanced the therapeutic effect of subtherapeutic budesonide independent of microbial drug metabolism. These findings support targeted phage therapy as an adjunct treatment approach in IBD, demonstrating modulation of bacterial virulence and improved response to conventional treatments that may reduce drug-related side effects.",
+   "title_zh": "噬菌體介入可透過減弱克隆氏症相關細菌之毒力，改善結腸炎並增強對類固醇的反應",
+   "abstract_zh": "黏附侵襲性大腸桿菌（AIEC）具有促發炎特性，被認為與克隆氏症（CD，一種發炎性腸道疾病 IBD）的致病機轉有關。抗生素在CD治療上缺乏專一性，可能加劇菌叢失衡，因此針對微生物群進行精準編輯的噬菌體療法受到關注。本研究鑑定出對臨床AIEC分離株具活性的噬菌體HER259。HER259可改善無菌動物模式中的結腸炎，並減弱AIEC菌株NRG857c的毒力，包括透過使fimS啟動子反轉為「關閉」方向，抑制FimH黏附素的表現。此效果在CD菌叢誘發之結腸炎模式中獲得證實。停止HER259治療後，fimS啟動子恢復原方向，結腸炎亦重新活化。HER259噬菌體亦可增強次治療劑量布地奈德（budesonide）之療效，且此作用與微生物藥物代謝無關。這些發現支持標靶噬菌體療法作為IBD輔助治療方法，展現其可調節細菌毒力並改善對傳統治療的反應，可能減少藥物相關副作用。",
+   "evidence_level": "其他",
+   "score": 3,
+   "score_reason": "機轉新穎有趣，但僅為動物／無菌鼠模式之基礎研究，無人體數據，距臨床應用尚遠，對大腸直腸外科實務暫無直接影響。",
+   "relevance": "低度相關",
+   "relevance_why": "屬於IBD微生物學基礎研究，非外科介入，且僅動物模式，與大腸直腸外科手術決策無直接關聯。",
+   "novelty": "仍屬早期",
+   "one_liner": "在無菌鼠與CD菌叢結腸炎模式中，測試噬菌體HER259對AIEC毒力與結腸炎之影響，發現可抑制FimH表現並增強類固醇療效。",
+   "action": "目前不需改變做法；此為動物模式基礎研究，尚無人體試驗數據可供臨床應用參考。",
+   "pico": {
+    "P": "無菌小鼠（gnotobiotic mice）定殖AIEC菌株NRG857c，或移植CD病人糞便菌叢，人數／動物數未於摘要說明",
+    "I": "噬菌體HER259治療（單獨或合併次治療劑量布地奈德）",
+    "C": "未治療組／HER259停藥後之比較",
+    "O": "主要：結腸炎嚴重度、AIEC毒力（FimH/fimS啟動子方向）；次要：對布地奈德治療反應之增強效果"
+   },
+   "key_numbers": [
+    "摘要未提供任何量化數據（無百分比、ARR、p值或信賴區間）",
+    "僅質性描述：HER259可使fimS啟動子由『開』轉為『關』方向，抑制FimH表現",
+    "停藥後結腸炎重新活化，顯示效果具可逆性，但未量化復發程度"
+   ],
+   "cautions": [
+    "全為動物（無菌鼠）模式，非人體臨床試驗，結果能否轉譯至人類CD病人尚不明",
+    "摘要完全未提供統計數據或p值，無法評估效果大小與變異性",
+    "僅針對單一噬菌體與單一AIEC菌株（NRG857c）驗證，對其他AIEC菌株或臨床異質性族群之適用性未知"
+   ],
+   "unassessable": [
+    "樣本數（動物數）",
+    "統計檢定方法與p值",
+    "劑量與給藥途徑之安全性資料",
+    "人體可轉譯性與後續臨床試驗規劃",
+    "利益衝突與經費來源"
+   ]
+  },
+  {
+   "pmid": "42416076",
+   "title": "Next-generation CAR-T engineering for colorectal cancer: integrating targets, tumor microenvironment barriers, and emerging strategies",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 5.9,
+   "if_year": "2025",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1186/s12943-023-01723-z",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Yang Y, Gao Z, Song P, Wang C, Wang K, Xi Z",
+   "abstract": "Chimeric antigen receptor (CAR)-T cell therapy for colorectal cancer (CRC) faces three major barriers: antigen heterogeneity, off-tumor toxicity, and the efficacy-safety trade-off. To overcome these obstacles, next-generation engineering strategies have emerged, including: (1) novel CRC-associated targets with improved tissue restriction; (2) architectural innovations such as armored CARs, optimized signaling (1XX, 28-ΔIL2RB-z(YXXQ)), and cytokine-arming; (3) combinatorial antigen-sensing circuits (AND/OR/NOT gates, SUPRA, synNotch); and (4) CRISPR-based editing for exhaustion-related knockouts (e.g., PD-1, Fas, TGFBR2) and site-specific CAR knock-in. Clinical evidence has demonstrated objective responses and disease stabilization in subsets of patients. However, the immunosuppressive tumor microenvironment-including inhibitory cells, dense stroma, and metabolic dysfunction-remains a critical hurdle limiting CAR-T persistence. Future directions should prioritize molecular typing-guided intervention, universal CAR-T, multicellular platforms (CAR-NK, CAR-M), and interdisciplinary collaboration. This review provides a framework for designing next-generation CAR-T therapies capable of achieving durable remissions in advanced CRC.",
+   "title_zh": "大腸直腸癌之次世代CAR-T細胞工程：整合標的選擇、腫瘤微環境障礙與新興策略",
+   "abstract_zh": "嵌合抗原受體（CAR）-T細胞療法應用於大腸直腸癌（CRC）面臨三大障礙：抗原異質性、腫瘤外毒性，以及療效與安全性之間的權衡。為克服這些障礙，次世代工程策略已陸續出現，包括：（1）具有更佳組織限制性的新型CRC相關標的；（2）架構創新，如武裝化CAR、優化訊號傳導設計（1XX、28-ΔIL2RB-z(YXXQ)）及細胞激素武裝化；（3）組合式抗原感測電路（AND/OR/NOT邏輯閘、SUPRA、synNotch）；以及（4）以CRISPR為基礎之編輯技術，用於耗竭相關基因剔除（如PD-1、Fas、TGFBR2）及位點專一性CAR基因嵌入。臨床證據顯示部分病患族群中出現客觀反應與疾病穩定。然而，免疫抑制性腫瘤微環境——包括抑制性細胞、緻密基質及代謝功能障礙——仍是限制CAR-T細胞持續存在的關鍵障礙。未來方向應優先考慮分子分型導向之介入策略、通用型CAR-T、多細胞平台（CAR-NK、CAR-M），以及跨領域合作。本綜述提供一個框架，用於設計能在晚期CRC中達成持久緩解的次世代CAR-T療法。",
+   "evidence_level": "綜述",
+   "score": 3,
+   "score_reason": "此為基礎轉譯免疫治療技術綜述，內容偏重工程學設計概念，尚無成熟臨床試驗數據支持，對台灣大腸直腸外科日常臨床決策實用性極低。",
+   "relevance": "低度相關",
+   "relevance_why": "內容為CAR-T細胞治療之基礎工程與臨床前概念，非外科介入，且CRC之CAR-T治療仍處早期探索階段，短期內不影響外科臨床實務。",
+   "novelty": "仍屬早期",
+   "one_liner": "本綜述整理CAR-T細胞療法應用於CRC之標的選擇、架構工程與CRISPR編輯等次世代策略，並指出腫瘤微環境為持續性障礙。",
+   "action": "目前不需改變做法；此為免疫治療臨床前/早期技術綜述，尚無足夠臨床證據轉化為外科病人照護建議。",
+   "pico": {
+    "P": "無特定病人族群（綜述文章，未提供人數）",
+    "I": "次世代CAR-T細胞工程策略（標的優化、架構設計、CRISPR編輯等）",
+    "C": "無對照組（綜述性質，非原始研究）",
+    "O": "摘要中僅提及部分病患有客觀反應與疾病穩定，未提供具體數據"
+   },
+   "key_numbers": [
+    "摘要未提供任何具體統計數字、反應率或存活數據",
+    "僅描述性提及「部分病患族群中出現客觀反應與疾病穩定」，無量化資訊",
+    "無對照組、無p值、無信賴區間可供評估"
+   ],
+   "cautions": [
+    "本文為敘述性綜述而非系統性回顧，缺乏系統性文獻篩選方法，可能存在選擇性引用偏誤",
+    "所提及之臨床證據僅為概括性描述（\"subsets of patients\"），未附具體試驗名稱、人數或統計數據，難以評估證據強度",
+    "CRC之CAR-T治療目前多處於臨床前或早期臨床試驗階段，摘要中的樂觀陳述可能高估實際臨床可行性與時程"
+   ],
+   "unassessable": [
+    "盲法",
+    "allocation concealment",
+    "ITT分析",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本分析",
+    "具體臨床試驗數據來源與樣本數"
+   ]
+  },
+  {
+   "pmid": "42418125",
+   "title": "Phytochemicals remodel antitumor immunity via the \"microbiota-metabolite-receptor\" axis: focus on colorectal cancer and immunotherapy",
+   "journal": "Med Oncol",
+   "journal_full": "Medical oncology (Northwood, London, England)",
+   "issn": "1559-131X",
+   "issn_linking": "1357-0560",
+   "impact_factor": 3.5,
+   "if_year": "2025",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1124/mol.116.106617",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Qin X, Huang G, Han Y, Zhou M, Xu M, Xiong C",
+   "abstract": "Colorectal cancer (CRC) is a malignancy with high mortality. Due to the suppressive state of the tumor immune microenvironment (TIME), approximately 95% of microsatellite-stable (MSS) or proficient mismatch repair (pMMR) cases exhibit poor responsiveness to immune checkpoint inhibitors (ICIs). According to research, immune cell function can be regulated by gut microbiota and their metabolites via receptor-mediated pathways. They act as critical extrinsic factors in modulating the TIME and enhancing the efficacy of ICIs. Therefore, we systematically summarize the immunological mechanisms mediated through gut-specific metabolites (short-chain fatty acids, secondary bile acids, indole derivatives) and their cognate receptors (GPR41/43, GPR109A, FXR, TGR5, AhR). We further discuss how phytochemicals, after microbial transformation, modulate immune cells via the \"microbiota-metabolite-receptor\" axis. Key examples of such compounds include polysaccharides, saponins (and triterpenes), polyphenols, and alkaloids, which influence cells like Tregs, Th17, and CD8⁺ T cells. Simultaneously, we analyze the different effects of CRC-specific microbiota and the interventional potential of phytochemicals, while evaluating synergistic treatment possibilities between CRC and ICIs, chemotherapy, anti-angiogenic therapy, and radiotherapy. We propose a verifiable framework for stratification mechanisms of \"phytochemicals-microbiota-metabolites-receptors-immune system-TIME-ICIs\", and emphasize its potential application in MSS CRC immunotherapy to provide novel insights for precision treatment of CRC.",
+   "title_zh": "植物化學物質透過「微生物群-代謝物-受體」軸重塑抗腫瘤免疫：聚焦大腸直腸癌與免疫治療",
+   "abstract_zh": "大腸直腸癌（CRC）是死亡率高的惡性腫瘤。由於腫瘤免疫微環境（TIME）的抑制狀態，約95%微衛星穩定（MSS）或錯配修復功能正常（pMMR）的病例對免疫檢查點抑制劑（ICIs）反應不佳。研究顯示，免疫細胞功能可透過受體介導路徑受腸道菌群及其代謝物調控。這些因子作為調節TIME並增強ICIs療效的關鍵外在因素。因此，我們系統性總結由腸道特異性代謝物（短鏈脂肪酸、次級膽酸、吲哚衍生物）及其同源受體（GPR41/43、GPR109A、FXR、TGR5、AhR）所介導的免疫學機制。我們進一步討論植物化學物質經微生物轉化後，如何透過「微生物群-代謝物-受體」軸調節免疫細胞。此類化合物的關鍵範例包括多醣類、皂苷（及三萜類）、多酚類、生物鹼，其影響Tregs、Th17、CD8陽性T細胞等細胞。同時，我們分析CRC特異性菌群的不同作用及植化物的介入潛力，並評估CRC與ICIs、化療、抗血管新生治療及放療之間的協同治療可能性。我們提出一個可驗證的「植化物-菌群-代謝物-受體-免疫系統-TIME-ICIs」分層機制框架，並強調其在MSS CRC免疫治療中的潛在應用，為CRC精準治療提供新見解。",
+   "evidence_level": "綜述",
+   "score": 3,
+   "score_reason": "純機制性敘述綜述，無原始臨床或實驗數據，對台灣大腸直腸外科臨床決策無直接可操作性，僅供研究方向參考。",
+   "relevance": "低度相關",
+   "relevance_why": "純基礎/轉譯機制綜述，非外科介入，內容聚焦腫瘤免疫學與植化物-菌群機制假說，非手術科臨床決策範疇。",
+   "novelty": "仍屬早期",
+   "one_liner": "一篇綜述文章，系統整理腸道菌群代謝物與受體如何介導植化物調控CRC免疫微環境，提出可驗證的機制框架供MSS型CRC免疫治療參考。",
+   "action": "目前不需改變做法；此為機制性綜述無臨床數據，僅可作為未來研究方向或跨科合作（腫瘤內科/基礎研究）參考。",
+   "pico": {
+    "P": "無特定病人族群（綜述文章，聚焦MSS/pMMR型CRC之免疫治療反應不佳問題）",
+    "I": "植物化學物質（多醣、皂苷、多酚、生物鹼）經腸道菌群轉化後的代謝物-受體路徑",
+    "C": "無對照組（非臨床試驗，屬機制文獻整理）",
+    "O": "無明確outcome數據；主要為理論框架建構與潛在協同治療可能性之探討"
+   },
+   "key_numbers": [
+    "約95%的MSS或pMMR型CRC病例對免疫檢查點抑制劑反應不佳（此為背景引用數據，非本文原始研究結果）"
+   ],
+   "cautions": [
+    "純綜述無原始數據，所述機制多來自臨床前/動物研究，不可直接外推至人體臨床療效",
+    "摘要中提出的「可驗證框架」為作者假說性架構，尚未經前瞻性臨床試驗驗證",
+    "未提供任何植化物-菌群介入之人體試驗數字、統計顯著性或安全性資訊"
+   ],
+   "unassessable": [
+    "因本文為機制性綜述而非臨床試驗，盲法、allocation concealment、ITT、失訪率、試驗註冊、利益衝突、成本分析等項目均不適用於此摘要"
+   ]
+  },
+  {
+   "pmid": "42412825",
+   "title": "Riemannian metric learning for alignment of spatial multiomics",
+   "journal": "Bioinformatics",
+   "journal_full": "Bioinformatics (Oxford, England)",
+   "issn": "1367-4811",
+   "issn_linking": "1367-4803",
+   "impact_factor": 5.4,
+   "if_year": "2025",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1038/s41592-025-02855-4",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Halmos P, Xia Y, Raphael B",
+   "abstract": "MOTIVATION: Recent spatial technologies measure the transcriptome, epigenome, proteome, metabolome, and other modalities from thousands of cells across a tissue. Most assays typically profile only one modality from a tissue slice, raising the question of how to align spatial data from heterogeneous feature spaces. While multiple approaches have been developed for multi-modal integration of single-cell datasets, few existing techniques perform spatial alignment across arbitrary modalities incorporating both spatial and feature information.\nRESULTS: We introduce Manifold Gromov-Wasserstein (MGW), a metric-learning framework that exploits the product structure of spatial multiomics to infer modality-specific Riemannian pull-back metrics with neural fields. MGW aligns Riemannian distances induced by these metrics via Gromov-Wasserstein optimal transport, yielding a hyperparameter-free cost across arbitrary modalities sharing a spatial base. The formulation enjoys theoretical invariances-including orthogonal transformations of the spatial and feature domains as well as global feature scalings. We demonstrate the advantages of MGW on multiple alignment tasks, including Stereo-Seq spatiotemporal transcriptomics of mouse embryo, Xenium and Visium spatial transcriptomics of colorectal cancer, and spatial metabolomics-transcriptomics from human striatum and kidney cancer. MGW recovers biologically meaningful correspondences and spatially coherent tissue structures, outperforming existing OT and non-OT based multi-modal baselines.\nAVAILABILITY AND IMPLEMENTATION: Software is available at https://github.com/raphael-group/MGW.",
+   "title_zh": "用於空間多體學（spatial multiomics）對齊的黎曼度量學習方法",
+   "abstract_zh": "研究動機：近期的空間技術可從組織中數千個細胞測量轉錄體、表觀基因體、蛋白質體、代謝體及其他模態。大多數檢測方法通常僅能從一片組織切片中分析單一模態，因此產生一個問題：如何對齊來自異質特徵空間的空間資料。雖然已有多種方法被開發用於單細胞資料集的多模態整合，但現有技術中很少能同時納入空間與特徵資訊、跨任意模態進行空間對齊。\n\n結果：我們提出流形Gromov-Wasserstein（Manifold Gromov-Wasserstein, MGW），這是一個度量學習框架，利用空間多體學的乘積結構，以神經場（neural fields）推論特定模態的黎曼拉回度量（Riemannian pull-back metrics）。MGW透過Gromov-Wasserstein最佳傳輸（optimal transport）對齊由這些度量所誘導的黎曼距離，為共享同一空間基底的任意模態產生一個無需超參數的成本函數。此架構具有理論上的不變性，包括空間與特徵域的正交變換，以及全域特徵縮放不變性。我們在多個對齊任務上展示MGW的優勢，包括小鼠胚胎的Stereo-Seq時空轉錄體學、大腸直腸癌的Xenium與Visium空間轉錄體學，以及人類紋狀體與腎癌的空間代謝體學-轉錄體學資料。MGW能恢復具生物學意義的對應關係與空間一致的組織結構，表現優於現有的最佳傳輸與非最佳傳輸多模態基準方法。\n\n可用性與實作：軟體可於 https://github.com/raphael-group/MGW 取得。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "這是一篇計算生物學方法學論文，雖以大腸直腸癌空間轉錄體資料作為驗證案例之一，但屬純技術演算法開發，對臨床決策無直接可信度評估或實用性。",
+   "relevance": "低度相關",
+   "relevance_why": "純生物資訊演算法研究，非外科介入或臨床試驗，僅將大腸直腸癌資料作為方法驗證的其中一個資料集。",
+   "novelty": "仍屬早期",
+   "one_liner": "提出MGW演算法，用黎曼度量學習對齊多種空間多體學資料（含大腸直腸癌Xenium/Visium資料），效能優於現有方法。",
+   "action": "目前不需改變做法；此為生物資訊工具開發論文，尚未產出可直接應用於臨床決策的證據。",
+   "pico": {
+    "P": "多個空間多體學資料集，包括小鼠胚胎、人類大腸直腸癌組織（Xenium與Visium）、人類紋狀體與腎癌組織，樣本數未具體說明",
+    "I": "MGW（Manifold Gromov-Wasserstein）演算法進行跨模態空間對齊",
+    "C": "現有的最佳傳輸（OT）與非最佳傳輸多模態基準方法",
+    "O": "主要outcome：對齊準確度、生物學意義的對應關係、組織結構空間一致性；未提供具體量化數據"
+   },
+   "key_numbers": [
+    "摘要未提供任何具體準確度、p值或效能提升的絕對數值",
+    "僅描述「優於現有基準方法」，無量化比較數據",
+    "無臨床outcome相關數據（如存活率、復發率等）"
+   ],
+   "cautions": [
+    "這是方法學／演算法論文，非臨床研究，摘要中無任何臨床outcome可供評估",
+    "「優於現有方法」缺乏具體數據佐證（無準確度百分比、無統計檢定結果），僅為定性描述",
+    "以大腸直腸癌資料作為技術驗證用途，非探討癌症生物學機制或治療反應，勿誤解為臨床相關發現"
+   ],
+   "unassessable": [
+    "樣本數",
+    "統計方法與顯著性",
+    "臨床outcome",
+    "利益衝突",
+    "外部驗證",
+    "此方法的臨床轉譯可行性"
+   ]
+  },
+  {
+   "pmid": "42417641",
+   "title": "Multi-stakeholder Delphi consensus on future care for inflammatory bowel disease in Belgium",
+   "journal": "Acta Gastroenterol Belg",
+   "journal_full": "Acta gastro-enterologica Belgica",
+   "issn": "1784-3227",
+   "issn_linking": "1784-3227",
+   "impact_factor": 1.2,
+   "if_year": "2025",
+   "year": "2026",
+   "month": "",
+   "doi": "10.51821/89.2.14962",
+   "ptype": "Consensus Statement, Review",
+   "ptype_list": [
+    "Consensus Statement",
+    "Review"
+   ],
+   "authors": "Taelman T, Deprez N, King J, Baert F, Cremer A, Ferrante M",
+   "abstract": "BACKGROUND: Care for patients with IBD has changed over the last decades with increased prevalence and subsequent financial and organizational burden on the health care system. The aim of this work was to develop a nationwide consensus on how to organize care for patients with IBD.\nMETHODS: We developed a consensus document through a modified Delphi process including different Belgian stakeholders involved in the care for patients with IBD. Through two voting rounds and a consensus meeting statements were developed.\nRESULTS: Thirty-three statements reached consensus through the Delphi process. The statements can be classified in six major domains: IBD registry and data utilization, Patient reported data, Multidisciplinary care, IBD nurse role and financial support, Access to diagnostic and monitoring tools and Treatment and medication reimbursement.\nCONCLUSION: We developed a broadly supported consensus on how to organize care for patients with IBD in the Belgian healthcare environment. Selection of focus area should seek for balance between optimization of clinical outcomes, securing quality of care and maintaining financial sustainability.",
+   "title_zh": "比利時炎症性腸道疾病未來照護之多方利益關係人德爾菲共識",
+   "abstract_zh": "背景：過去數十年間，隨著盛行率增加，炎症性腸道疾病（IBD）患者的照護已有所改變，對醫療照護系統造成後續的財務與組織負擔。本研究之目的為針對如何組織IBD患者照護建立全國性共識。方法：我們透過改良式德爾菲流程，納入參與IBD患者照護的比利時各方利益關係人，發展出共識文件。經過兩輪投票與一次共識會議，發展出各項聲明。結果：共有33項聲明透過德爾菲流程達成共識。這些聲明可分類為六大領域：IBD登錄與資料運用、病人自報資料、多專科團隊照護、IBD護理師角色與財務支持、診斷與監測工具之取得，以及治療與藥物給付。結論：我們針對如何在比利時醫療照護環境中組織IBD患者照護，發展出廣泛支持的共識。焦點領域之選擇應在臨床結果最佳化、確保照護品質與維持財務永續性之間尋求平衡。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "此為比利時特定醫療體系之專家共識聲明，非臨床試驗，無硬性療效數據，對台灣大腸直腸外科臨床決策幾乎無直接參考價值。",
+   "relevance": "低度相關",
+   "relevance_why": "此為比利時IBD照護體系組織架構之共識，聚焦於腸胃科主導之多專科照護模式、給付制度，非外科手術介入或台灣可直接套用之醫療體系政策。",
+   "novelty": "仍屬早期",
+   "one_liner": "透過改良式德爾菲法整合比利時多方利益關係人意見，就IBD照護組織達成33項共識聲明，涵蓋登錄系統至藥物給付六大領域。",
+   "action": "目前不需改變做法；此為比利時特定醫療體系政策共識，非臨床治療指引，僅供了解國際IBD照護模式趨勢參考。",
+   "pico": {
+    "P": "比利時參與IBD照護之多方利益關係人（腸胃科醫師、護理師、病患代表、給付機構等，未提供確切人數）",
+    "I": "改良式德爾菲共識流程（兩輪投票加一次共識會議）",
+    "C": "無對照組",
+    "O": "主要outcome：達成共識之聲明數量與內容；次要outcome：無"
+   },
+   "key_numbers": [
+    "共33項聲明透過德爾菲流程達成共識",
+    "聲明分為六大領域：登錄資料、病人自報、多專科照護、護理師角色、診斷工具取得、藥物給付",
+    "摘要未提供参與人數、投票通過門檻或共識強度之量化數據"
+   ],
+   "cautions": [
+    "此為專家意見共識，非實證研究，無臨床結果數據可供評估療效或安全性",
+    "研究對象為比利時特定醫療保險與給付體系，外部效度（適用性）對台灣有限",
+    "摘要未說明參與者組成、人數、利益衝突揭露，共識代表性難以評估"
+   ],
+   "unassessable": [
+    "參與者人數與組成",
+    "投票達成共識之門檻標準",
+    "利益衝突揭露",
+    "各聲明之共識強度（如一致同意比例）",
+    "後續實務落地成效評估"
+   ]
+  },
+  {
+   "pmid": "42418254",
+   "title": "Design, Synthesis, and Evaluation of the Novel Benzimidazole Derivatives Inspired YC-1 as HIF-1α Inhibitor That Possess Anti-Colon Cancer Potential",
+   "journal": "Drug Dev Res",
+   "journal_full": "Drug development research",
+   "issn": "1098-2299",
+   "issn_linking": "0272-4391",
+   "impact_factor": 4.2,
+   "if_year": "2025",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1002/ddr.70347",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Yang Q, Zhang J, Liu M, Deng X, Xie Z, Lei X",
+   "abstract": "Hypoxia-inducible factor-1 α (HIF-1α) is a key transcription factor for tumor cells to sense and adapt to the hypoxic microenvironment, regulate tumor progression such as tumor glycolysis, and is an important target for the development of anti-tumor drugs. YC-1 (1-benzyl-3-(5'-hydroxymethyl-2'-furyl)indazole), as a classic inhibitor of HIF-1α, has received extensive attention in multiple anti-tumor studies. Some derivatives that replace YC-1 indazole with the benzimidazole skeleton have shown certain HIF-1α inhibitory and anti-tumor potential. In this study, a series of substituted benzimidazole derivatives were designed and synthesized, and their HIF-1α inhibitory and anti-tumor effects were screened and investigated. In vitro anti-proliferation and dual-luciferase reports showed that compound 9o had superior in vitro anti-tumor (IC50 = 33.85 μM) and HIF-1α transcriptional inhibitory activity (79.59% inhibition rate) compared with the positive control YC-1. Meanwhile, compound 9o can also significantly inhibit the colony formation and survival rate of HCT-116 cells. In addition, Western blotting, real-time PCR and and lactic acid content experiments verified its inhibitory effect on HIF-1α and downstream glycolysis. In addition, compound 9o was found to reduce platelet aggregation more than YC-1, and the molecular docking results suggested that compound 9o weakened its interaction with soluble guanylate cyclase (sGC), which is beneficial for avoiding the bleeding risk during tumor treatment. In vivo studies have shown that compound 9o can inhibit tumor growth and reduce the levels of HIF-1α and glycolysis rate-limiting enzyme HK2 in HCT-116 tumor-bearing mice. The acute toxicity results also demonstrated the safety of compound 9o in vivo. Finally, we also explored its pharmacokinetic properties in rats, suggesting its potential for subsequent intravenous administration. These findings provide a basis for the further discovery of anti-tumor candidate compounds based on HIF-1α inhibitors.",
+   "title_zh": "新型苯并咪唑衍生物之設計、合成與評估：作為HIF-1α抑制劑之YC-1類似物，具抗大腸癌潛力",
+   "abstract_zh": "缺氧誘導因子-1α（HIF-1α）是腫瘤細胞感知並適應缺氧微環境、調控腫瘤進展（如腫瘤糖解作用）的關鍵轉錄因子，也是抗腫瘤藥物開發的重要標靶。YC-1（1-benzyl-3-(5'-hydroxymethyl-2'-furyl)indazole）作為經典的HIF-1α抑制劑，已在多項抗腫瘤研究中受到廣泛關注。部分以苯并咪唑骨架取代YC-1吲唑結構的衍生物，展現出一定的HIF-1α抑制及抗腫瘤潛力。本研究設計並合成一系列取代苯并咪唑衍生物，並篩選評估其HIF-1α抑制及抗腫瘤效果。體外抗增殖與雙螢光素酶報告基因實驗顯示，化合物9o相較於陽性對照YC-1，具有更優越的體外抗腫瘤活性（IC50 = 33.85 μM）及HIF-1α轉錄抑制活性（抑制率79.59%）。同時，化合物9o亦能顯著抑制HCT-116細胞的群落形成能力與存活率。此外，西方墨點法、即時定量PCR及乳酸含量實驗證實其對HIF-1α及下游糖解作用的抑制效果。另外，發現化合物9o相較YC-1能更多地降低血小板凝集，分子對接結果顯示化合物9o與可溶性鳥苷酸環化酶（sGC）的交互作用減弱，有利於避免腫瘤治療期間的出血風險。體內研究顯示，化合物9o能抑制HCT-116荷瘤小鼠的腫瘤生長，並降低HIF-1α及糖解限速酶HK2的表現量。急性毒性結果亦證實化合物9o在體內的安全性。最後，本研究亦探討其在大鼠體內的藥物動力學特性，顯示其後續靜脈給藥之潛力。這些發現為進一步發掘以HIF-1α抑制劑為基礎的抗腫瘤候選化合物提供了依據。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "純基礎藥物化學研究（細胞株與小鼠模型），距離臨床應用尚遠，對台灣大腸直腸外科臨床實務目前無直接參考價值。",
+   "relevance": "低度相關",
+   "relevance_why": "此為新藥開發之臨床前（preclinical）研究，非外科介入，也未進入人體試驗階段。",
+   "novelty": "仍屬早期",
+   "one_liner": "在HCT-116大腸癌細胞株與荷瘤小鼠模型中，新化合物9o相較YC-1展現更強HIF-1α抑制與抗腫瘤活性（IC50=33.85 μM，抑制率79.59%）。",
+   "action": "目前不需改變做法；此為臨床前藥物開發階段研究，尚無人體試驗數據，無法應用於病人照護。",
+   "pico": {
+    "P": "體外：HCT-116大腸癌細胞株；體內：HCT-116荷瘤小鼠及大鼠藥動學模型（人數/動物數未載明）",
+    "I": "新合成苯并咪唑衍生物化合物9o",
+    "C": "陽性對照YC-1（經典HIF-1α抑制劑）",
+    "O": "主要：體外抗增殖活性（IC50）、HIF-1α轉錄抑制率；次要：群落形成、糖解相關指標、血小板凝集、體內腫瘤生長抑制、急性毒性、藥物動力學"
+   },
+   "key_numbers": [
+    "化合物9o體外IC50=33.85 μM，優於YC-1（具體YC-1數值未載明）",
+    "HIF-1α轉錄抑制率79.59%（未提供YC-1對照組確切數字與信賴區間）",
+    "體內實驗顯示腫瘤生長受抑制、HIF-1α及HK2表現降低，但未提供絕對腫瘤體積或存活數據"
+   ],
+   "cautions": [
+    "全為體外細胞株與動物模型數據，尚未進入人體試驗，臨床外推風險極高",
+    "摘要僅報告相對優於YC-1，未提供統計檢定p值、信賴區間或樣本數，無法評估效應量之穩健性",
+    "血小板凝集與出血風險降低僅為分子對接推論結果，非直接臨床安全性數據"
+   ],
+   "unassessable": [
+    "樣本數（動物隻數）",
+    "統計方法與p值",
+    "利益衝突",
+    "試驗設計之隨機分組與盲法（動物實驗）",
+    "長期毒性與致癌性評估",
+    "是否已規劃進入人體臨床試驗"
+   ]
+  },
+  {
+   "pmid": "42414363",
+   "title": "Chitosan/β-cyclodextrin nanocarriers enhance 5-fluorouracil efficacy against colorectal cancer via pH-responsive release and apoptosis modulation",
+   "journal": "Sci Rep",
+   "journal_full": "Scientific reports",
+   "issn": "2045-2322",
+   "issn_linking": "2045-2322",
+   "impact_factor": 3.9,
+   "if_year": "2025",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1016/j.biopha.2024.117177",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Mohamed A, Dardeer H, Ahmed A, Alsedfy M, Abd Elhadi A, Elsanosy A",
+   "abstract": "Globally, colorectal cancer continues to be a major cause of cancer-related death. Clinical application of 5‑fluorouracil (5‑FU) is constrained by reduced bioavailability and dose‑limiting toxicity. To overcome these restrictions, a ternary drug delivery system was developed in this study. Chitosan and β‑cyclodextrin were physically assembled into a pseudopolyrotaxane complex, and 5‑FU was incorporated by solvent evaporation to form a solid dispersion. The resulting nanocomposite had a mean hydrodynamic diameter of 187 nm and a zeta potential of + 32.5 mV. Fourier transform infrared spectroscopy revealed peak shifts consistent with non‑covalent interactions. X‑ray diffraction confirmed amorphization of 5‑FU within the formulation. The ternary system released 5‑FU more rapidly at pH 5.5 than at pH 7.4. In HCT‑116 colorectal cancer cells, the 5‑FU/chitosan/β‑cyclodextrin formulation showed an IC50 of 16.5 µM, compared with 42.5 µM for free 5‑FU and 27.5 µM for the binary 5‑FU/β‑cyclodextrin complex. Gene expression analysis indicated upregulation of P53 and Caspase‑3 and downregulation of BCL2 and VEGF. A complementary in silico analysis of 5-FU-responsive genes (from public dataset GSE183977) identified a protein‑protein interaction network enriched in apoptosis and cell‑cycle pathways, with IL6, MYC, EGR1, and ATF3 as central hub genes. The obtained results show that incorporation of 5‑FU into a chitosan/β‑cyclodextrin matrix improves its activity against colorectal cancer cells. This effect is attributed to enhanced solubility, pH‑responsive release, and modulation of apoptotic and angiogenic pathways.",
+   "title_zh": "幾丁聚醣/β-環糊精奈米載體透過pH反應性釋放與凋亡調控增強5-氟尿嘧啶對大腸直腸癌的療效",
+   "abstract_zh": "全球而言，大腸直腸癌持續是癌症相關死亡的主要原因。5-氟尿嘧啶（5-FU）的臨床應用受限於生體可用率低與劑量限制性毒性。為克服此限制，本研究開發了一種三元藥物遞送系統。將幾丁聚醣與β-環糊精以物理方式組裝成偽聚輪烷複合物，並以溶劑蒸發法將5-FU併入形成固態分散體。所得奈米複合物平均水力直徑為187 nm，zeta電位為+32.5 mV。傅立葉轉換紅外光譜顯示波峰位移，與非共價交互作用一致。X光繞射證實5-FU在此配方中呈非結晶化。此三元系統在pH 5.5下比在pH 7.4下更快速釋放5-FU。在HCT-116大腸直腸癌細胞中，5-FU/幾丁聚醣/β-環糊精配方的IC50為16.5 µM，相較於游離5-FU的42.5 µM及二元5-FU/β-環糊精複合物的27.5 µM。基因表現分析顯示P53與Caspase-3上調，BCL2與VEGF下調。針對5-FU反應基因（來自公開資料集GSE183977）的輔助性電腦模擬分析，發現一個富含凋亡與細胞週期路徑的蛋白質-蛋白質交互作用網絡，其中IL6、MYC、EGR1與ATF3為核心樞紐基因。所得結果顯示，將5-FU併入幾丁聚醣/β-環糊精基質中可改善其對大腸直腸癌細胞的活性。此效應可歸因於溶解度提升、pH反應性釋放，以及凋亡與血管新生路徑的調控。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "純體外細胞株與電腦模擬研究，無動物實驗、無臨床數據，距離臨床應用極早期，對外科實務參考價值極低。",
+   "relevance": "低度相關",
+   "relevance_why": "屬藥物遞送系統之基礎材料科學研究，非外科介入，且尚未進入動物或人體試驗階段。",
+   "novelty": "仍屬早期",
+   "one_liner": "在HCT-116大腸癌細胞株中，比較新型奈米載體5-FU、二元複合物與游離5-FU，發現IC50分別為16.5、27.5、42.5 µM。",
+   "action": "目前不需改變做法；此為體外藥物遞送系統開發之基礎研究，尚無動物或人體數據可供臨床參考。",
+   "pico": {
+    "P": "HCT-116大腸直腸癌細胞株（體外實驗，非病人族群）",
+    "I": "5-FU/幾丁聚醣/β-環糊精三元奈米複合物",
+    "C": "游離5-FU；5-FU/β-環糊精二元複合物",
+    "O": "主要outcome：細胞IC50；次要：藥物釋放曲線（pH依賴性）、凋亡與血管新生相關基因表現（P53、Caspase-3、BCL2、VEGF）"
+   },
+   "key_numbers": [
+    "三元奈米複合物IC50為16.5 µM，較游離5-FU（42.5 µM）大幅降低",
+    "二元複合物IC50為27.5 µM，介於三元複合物與游離藥物之間",
+    "粒徑187 nm、zeta電位+32.5 mV，符合奈米藥物遞送系統物理特性"
+   ],
+   "cautions": [
+    "僅為單一細胞株（HCT-116）之體外實驗，無動物體內藥物動力學或毒性數據，外推風險極高",
+    "IC50改善為替代指標，未證實可轉譯為腫瘤縮小、存活期延長等臨床終點",
+    "GSE183977電腦模擬分析為相關性推論，非因果驗證，樞紐基因角色需濕實驗證實"
+   ],
+   "unassessable": [
+    "動物體內療效與毒性",
+    "藥物動力學／生體可用率",
+    "臨床安全性與劑量",
+    "長期穩定性與量產可行性",
+    "成本分析"
+   ]
+  },
+  {
+   "pmid": "42415227",
+   "title": "History of Alcohol-Related Cancers and ADH1B/ALDH2 Genotypes in a Large Japanese Cohort of Male Patients With Alcohol Dependence",
+   "journal": "Cancer Med",
+   "journal_full": "Cancer medicine",
+   "issn": "2045-7634",
+   "issn_linking": "2045-7634",
+   "impact_factor": 3.1,
+   "if_year": "2025",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.3350/cmh.2025.0169",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Yokoyama A, Yokoyama T",
+   "abstract": "BACKGROUND: Alcohol-dependent (AD) patients frequently present with a history of alcohol-related cancers, but the timing of cancer treatment relative to the onset of advanced alcohol use disorder and the role of ADH1B/ALDH2 genotypes remain unclear.\nMETHODS: We reviewed cancer histories at the initial visit of 5214 Japanese male AD patients (mean age 53.3 [SD 11.9] years), all genotyped for ADH1B (rs1229984) and ALDH2 (rs671). Multiple logistic regression estimated odds ratios (ORs) and 95% confidence intervals (CIs) for site-specific cancers, using fast-metabolizing ADH1B*2 and active ALDH2*1/*1 as the reference.\nRESULTS: Alcohol-related cancers were reported in 385 patients (7.38%): head and neck cancer (HNC) 1.05%, esophageal cancer (EC) 1.40%, gastric cancer (GC) 3.91%, colorectal cancer (CRC) 1.53%, and liver cancer (LC) 0.59%. Surgical treatment rates were high across sites. Most cancers were treated during or after the onset of advanced alcohol use disorder (HNC 81.8%, EC 74.0%, GC 48.5%, CRC 63.8%, and LC 87.1%). The slow-metabolizing ADH1B*1/*1 genotype was associated with high ORs for HNC (1.99; 95% CI 1.14-3.47) and EC (3.05; 1.87-4.99), but low ORs for GC (0.65; 0.45-0.95) and gastrectomy for peptic ulcer disease (0.59; 0.38-0.92). Gastrectomy, common among GC cases, accelerates alcohol delivery to the small intestine, increasing peak blood alcohol levels and exposure, and may offset the AD risk associated with ADH1B*1/*1. The inactive ALDH2*2 allele conferred elevated ORs for HNC (8.63; 4.90-15.21), EC (11.35; 6.78-18.99), GC (1.54; 1.08-2.19), and CRC (1.72; 1.01-2.91). The combined genotype (ADH1B*1/*1 and ALDH2*2) substantially increased ORs for HNC (17.05; 8.17-35.59) and EC (35.03; 17.38-70.65). Multiorgan cancerization was common along the digestive tract. The combined genotype increased ORs for multiorgan cancerization in HNC and EC, and ALDH2*2 increased ORs in GC and CRC.\nCONCLUSION: Genotype strongly influences alcohol-related cancer risk, and many cancers occur during or after advanced alcohol use disorder.",
+   "title_zh": "日本大型酒精依賴男性病患世代中，酒精相關癌症病史與ADH1B/ALDH2基因型之關聯",
+   "abstract_zh": "背景：酒精依賴（AD）病患常有酒精相關癌症病史，但癌症治療時間點相對於重度酒精使用障礙（AUD）發病的先後關係，以及ADH1B/ALDH2基因型所扮演的角色仍不清楚。\n方法：我們回顧了5214名日本男性AD病患（平均年齡53.3歲，SD 11.9）於初診時的癌症病史，所有病患均進行ADH1B（rs1229984）與ALDH2（rs671）基因型檢測。以快代謝型ADH1B*2與活性型ALDH2*1/*1為參考組，使用多變量邏輯迴歸估算各部位癌症之勝算比（OR）與95%信賴區間（CI）。\n結果：385名病患（7.38%）通報有酒精相關癌症：頭頸癌（HNC）1.05%、食道癌（EC）1.40%、胃癌（GC）3.91%、大腸直腸癌（CRC）1.53%、肝癌（LC）0.59%。各部位手術治療率均高。多數癌症是在重度AUD發病期間或之後才被治療（HNC 81.8%、EC 74.0%、GC 48.5%、CRC 63.8%、LC 87.1%）。慢代謝型ADH1B*1/*1基因型與HNC高OR相關（1.99；95% CI 1.14-3.47）及EC（3.05；1.87-4.99），但與GC（0.65；0.45-0.95）及因消化性潰瘍病行胃切除術（0.59；0.38-0.92）呈低OR。胃切除術在GC病例中常見，會加速酒精進入小腸，提高血中酒精濃度峰值與暴露量，可能抵銷ADH1B*1/*1所帶來的AD風險。無活性ALDH2*2等位基因使HNC（8.63；4.90-15.21）、EC（11.35；6.78-18.99）、GC（1.54；1.08-2.19）、CRC（1.72；1.01-2.91）之OR升高。合併基因型（ADH1B*1/*1與ALDH2*2）大幅提高HNC（17.05；8.17-35.59）與EC（35.03；17.38-70.65）之OR。消化道多重器官癌化情形常見。合併基因型增加HNC與EC多重器官癌化之OR，ALDH2*2則增加GC與CRC之OR。\n結論：基因型強烈影響酒精相關癌症風險，且許多癌症發生於重度酒精使用障礙期間或之後。",
+   "evidence_level": "橫斷面",
+   "score": 3,
+   "score_reason": "樣本量大且基因型檢測完整，但屬回顧性自陳病史之橫斷面關聯研究，CRC相關結果CI偏寬且屬次要焦點，對台灣大腸直腸外科臨床決策直接實用性低。",
+   "relevance": "低度相關",
+   "relevance_why": "主要探討酒精代謝基因型與多部位（尤以頭頸/食道為主）癌症風險之流行病學關聯，非手術介入或CRC治療相關研究。",
+   "novelty": "再確認已知",
+   "one_liner": "在5214名日本男性酒精依賴病患中，比較不同ADH1B/ALDH2基因型，發現ALDH2*2使CRC風險OR達1.72（1.01-2.91），頭頸/食道癌風險更高。",
+   "action": "目前不需改變CRC篩檢或手術做法；此為基因流行病學關聯研究，非治療介入試驗。",
+   "pico": {
+    "P": "5214名日本男性酒精依賴病患，平均年齡53.3歲（SD 11.9）",
+    "I": "ADH1B（慢代謝型*1/*1）與ALDH2（無活性*2）基因型",
+    "C": "參考基因型：ADH1B*2（快代謝）與ALDH2*1/*1（活性型）",
+    "O": "主要：各部位酒精相關癌症之勝算比（HNC、EC、GC、CRC、LC）；次要：癌症治療時間點相對於重度AUD發病之先後、多重器官癌化"
+   },
+   "key_numbers": [
+    "CRC在AD病患中盛行率1.53%（385例中CRC佔比，約80例）",
+    "ALDH2*2使CRC風險OR=1.72（95% CI 1.01-2.91），信賴區間下緣接近1",
+    "63.8%的CRC是在重度AUD發病期間或之後才被診治，非發病前"
+   ],
+   "cautions": [
+    "回溯性自陳病史橫斷面研究，初診時單次調查，可能有回憶偏誤與選樣偏誤",
+    "CRC的OR信賴區間偏寬（1.01-2.91），且多重比較未見校正，統計意義薄弱",
+    "屬基因流行病學關聯研究，非治療或篩檢介入，因果關係與臨床應用需謹慎推論"
+   ],
+   "unassessable": [
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "癌症分期與治療細節",
+    "多重比較校正方法",
+    "選樣是否具代表性（僅限求診AD病患）"
+   ]
+  },
+  {
+   "pmid": "42417908",
+   "title": "Evaluation of ornithogalum sigmoideum extract-induced cytotoxicity and expression of xenobiotic metabolism-related genes in HT29 cells",
+   "journal": "Mol Biol Rep",
+   "journal_full": "Molecular biology reports",
+   "issn": "1573-4978",
+   "issn_linking": "0301-4851",
+   "impact_factor": 2.8,
+   "if_year": "2025",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1007/s11418-018-1252-4",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Dirican O",
+   "abstract": "BACKGROUND: Colorectal cancer (CRC) remains a major cause of cancer-related mortality worldwide, underscoring the need for novel therapeutic strategies. In this preliminary study, the cytotoxic and metabolic effects of Ornithogalum sigmoideum bulb extracts were explored in HT29 colorectal adenocarcinoma cells.\nMETHODS: Methanolic extracts were prepared and phytochemically characterized by gas chromatography-mass spectrometry (GC-MS). Cytotoxicity of the extract upon the HT29 cell line, assessed via MTT assay and modulation upon CYP1A1, CYP1B1, and PDX1 at IC₅₀, was examined via Quantitative real-time PCR.\nRESULTS: Phytochemical analysis identified methyl hexadecanoate (3.83%), 1,2-Benzenedicarboxylic acid, diethyl ester (3.46%), and methyl octadecanoate (3.18%) as the major constituents within a profile predominantly composed of fatty acid esters, aliphatic hydrocarbons, and aromatic compounds. The MTT assay demonstrated a concentration-dependent reduction in cell viability, with an IC₅₀ value of 429.62 µg/mL, indicating moderate cytotoxic potency. Quantitative real-time PCR analysis showed notable modulation of metabolic gene expression, including moderate downregulation of CYP1A1 and a small-to-moderate upregulation of CYP1B1, while PDX1 expression remained largely unchanged.\nCONCLUSION: O. sigmoideum extract may modulate the transcription of xenobiotic metabolism-related genes in HT29 cell lines, suggesting a potential effect on metabolic pathways. Further protein-level and functional studies are required to confirm these transcriptional findings.",
+   "title_zh": "評估角鱗天門冬(Ornithogalum sigmoideum)萃取物對HT29細胞之細胞毒性及異生物質代謝相關基因表現之影響",
+   "abstract_zh": "背景：大腸直腸癌(CRC)仍是全球癌症相關死亡的主要原因，凸顯開發新型治療策略之必要性。本初步研究探討角鱗天門冬鱗莖萃取物對HT29大腸直腸腺癌細胞之細胞毒性與代謝影響。方法：以甲醇製備萃取物，並以氣相層析質譜法(GC-MS)進行植化學特徵鑑定。以MTT試驗評估萃取物對HT29細胞株之細胞毒性，並於IC50濃度下以定量即時PCR檢測CYP1A1、CYP1B1及PDX1之調控情形。結果：植化學分析鑑定出主要成分為十六酸甲酯(3.83%)、1,2-苯二甲酸二乙酯(3.46%)及十八酸甲酯(3.18%)，成分組成以脂肪酸酯類、脂肪族碳氫化合物及芳香族化合物為主。MTT試驗顯示細胞存活率呈濃度依賴性下降，IC50值為429.62 µg/mL，顯示中等程度之細胞毒性。定量即時PCR分析顯示代謝相關基因表現有明顯調控，包括CYP1A1中度下調，CYP1B1小幅至中度上調，而PDX1表現則大致無變化。結論：角鱗天門冬萃取物可能調控HT29細胞株中異生物質代謝相關基因之轉錄，顯示其對代謝路徑可能具有影響。仍需進一步蛋白質層級與功能性研究以驗證此轉錄層級之發現。",
+   "evidence_level": "其他",
+   "score": 1,
+   "score_reason": "單一細胞株之體外植化學/基因表現初步研究，無動物實驗、無臨床數據，與臨床實務決策無直接關聯。",
+   "relevance": "低度相關",
+   "relevance_why": "純基礎科學之體外細胞株研究，非外科介入、非臨床試驗，短期內不會影響臨床決策。",
+   "novelty": "仍屬早期",
+   "one_liner": "在HT29大腸癌細胞株中，測試角鱗天門冬萃取物之細胞毒性，發現IC50為429.62 µg/mL並調控CYP1A1/CYP1B1表現。",
+   "action": "目前不需改變做法：此為體外初步植化學研究，無臨床或動物數據，不影響病人治療決策。",
+   "pico": {
+    "P": "HT29人類大腸直腸腺癌細胞株（體外實驗，無病人族群）",
+    "I": "角鱗天門冬(Ornithogalum sigmoideum)鱗莖甲醇萃取物",
+    "C": "無對照組（僅濃度依賴性比較）",
+    "O": "主要outcome：細胞存活率(IC50)；次要outcome：CYP1A1、CYP1B1、PDX1基因表現變化"
+   },
+   "key_numbers": [
+    "IC50值為429.62 µg/mL，顯示中等程度細胞毒性（無臨床相關性換算）",
+    "CYP1A1表現中度下調，CYP1B1小幅至中度上調（僅mRNA轉錄層級，未提供確切倍數與統計檢定值）",
+    "PDX1表現大致無變化（未提供統計數字）"
+   ],
+   "cautions": [
+    "僅單一細胞株(HT29)體外實驗，未經動物模式或臨床驗證，外推至人體治療效果極為有限",
+    "結果僅為基因轉錄層級變化，未證實蛋白質功能改變，作者本身亦承認需進一步驗證",
+    "摘要未提供統計方法、p值、信賴區間或重複實驗數目，數據可信度難以評估"
+   ],
+   "unassessable": [
+    "樣本重複次數與統計方法",
+    "p值與信賴區間",
+    "萃取物之體內藥動學/毒理資料",
+    "利益衝突",
+    "研究經費來源"
+   ]
+  },
+  {
+   "pmid": "42418248",
+   "title": "Inhibition of Colorectal Cancer Cell Progression by Picroside II Through Modulation of the Notch1 Signaling Pathway",
+   "journal": "J Biochem Mol Toxicol",
+   "journal_full": "Journal of biochemical and molecular toxicology",
+   "issn": "1099-0461",
+   "issn_linking": "1095-6670",
+   "impact_factor": 2.8,
+   "if_year": "2025",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1038/nrclinonc.2015.61",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Wang R, Zhang W, Wang F, Zhang Y, Li J",
+   "abstract": "This study aimed to investigate the biological effects of Picroside II on colorectal cancer (CRC) cells, including its impacts on proliferation, migration, invasion, and epithelial-mesenchymal transition (EMT), and to explore whether its mechanism of action involves modulation of the Notch1 signaling pathway. Human CRC cell lines SW480 and SW620 were treated with various concentrations of Picroside II (10-100 μM). Cell proliferation was assessed using the CCK-8 assay, colony formation assay, and EdU incorporation assay. Migration and invasion capacities were evaluated by wound healing and Transwell assays. The expression levels of EMT-related markers (E-cadherin, N-cadherin, Vimentin, ZEB2) and key proteins in the Notch1 pathway (Notch1, Cleaved Notch1, RBP, HES1) were analyzed by Western blotting. Statistical analysis was performed using one-way ANOVA and Student's t-test. Picroside II inhibited the proliferation of SW480 and SW620 cells in a dose- and time-dependent manner, reduced colony formation ability, and decreased DNA synthesis activity. Treatment with Picroside II suppressed the migratory and invasive abilities of CRC cells, accompanied by upregulation of E-cadherin and downregulation of N-cadherin, Vimentin, and ZEB2. Furthermore, Picroside II exposure led to a decrease in the expression of Notch1, Cleaved Notch1, RBP, and HES1 proteins in a concentration-dependent manner. Picroside II suppresses CRC cell progression in vitro by inhibiting the Notch1 signaling pathway, providing a preliminary molecular basis for further in vivo investigation.",
+   "title_zh": "Picroside II 透過調控 Notch1 訊號路徑抑制大腸直腸癌細胞進展",
+   "abstract_zh": "本研究旨在探討 Picroside II 對大腸直腸癌（CRC）細胞的生物學效應，包括其對增殖、遷移、侵襲及上皮間質轉化（EMT）的影響，並探索其作用機制是否涉及 Notch1 訊號路徑之調控。以不同濃度（10-100 μM）的 Picroside II 處理人類 CRC 細胞株 SW480 及 SW620。使用 CCK-8 分析、群落形成分析及 EdU 併入分析評估細胞增殖。以傷口癒合及 Transwell 分析評估遷移與侵襲能力。以西方點墨法分析 EMT 相關標記物（E-cadherin、N-cadherin、Vimentin、ZEB2）及 Notch1 路徑關鍵蛋白（Notch1、Cleaved Notch1、RBP、HES1）之表現量。統計分析採用單因子變異數分析（one-way ANOVA）及 Student's t 檢定。結果顯示，Picroside II 以劑量及時間依賴方式抑制 SW480 及 SW620 細胞之增殖，降低群落形成能力，並減少 DNA 合成活性。Picroside II 處理可抑制 CRC 細胞之遷移與侵襲能力，並伴隨 E-cadherin 表現上調，以及 N-cadherin、Vimentin 與 ZEB2 表現下調。此外，Picroside II 暴露導致 Notch1、Cleaved Notch1、RBP 及 HES1 蛋白表現以濃度依賴方式下降。結論：Picroside II 透過抑制 Notch1 訊號路徑於體外抑制 CRC 細胞進展，為後續體內研究提供初步分子基礎。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "純細胞株體外實驗，無動物模型、無臨床數據，對台灣大腸直腸外科臨床實務目前無直接應用價值。",
+   "relevance": "低度相關",
+   "relevance_why": "屬於基礎分子生物學研究，非外科介入、非臨床試驗，與日常手術決策無關。",
+   "novelty": "仍屬早期",
+   "one_liner": "在 SW480 與 SW620 兩株大腸癌細胞中，比較不同濃度 Picroside II 處理與未處理，發現可劑量依賴性抑制增殖、遷移、侵襲及 Notch1 路徑表現。",
+   "action": "目前不需改變做法；此為體外細胞株基礎研究，尚無動物或人體數據，不具臨床可執行性。",
+   "pico": {
+    "P": "人類大腸直腸癌細胞株 SW480 及 SW620（體外實驗，無病人族群）",
+    "I": "Picroside II 處理（10-100 μM，劑量與時間依賴）",
+    "C": "未處理對照組（溶劑對照，推測但摘要未明確說明）",
+    "O": "主要：細胞增殖、遷移、侵襲能力；次要：EMT 標記物與 Notch1 路徑蛋白表現量"
+   },
+   "key_numbers": [
+    "Picroside II 以劑量與時間依賴方式抑制增殖，但摘要未提供具體抑制百分比或 IC50 數值",
+    "E-cadherin 表現上調，N-cadherin、Vimentin、ZEB2 表現下調，僅為西方點墨半定量結果，無精確數值",
+    "Notch1、Cleaved Notch1、RBP、HES1 蛋白表現隨濃度上升而下降，無統計量化數據列出"
+   ],
+   "cautions": [
+    "純體外細胞株實驗，缺乏動物模型與人體數據，機轉相關性不能直接推論為臨床療效",
+    "摘要未提供任何具體數值（如 IC50、抑制百分比、p 值或信賴區間），僅描述趨勢方向",
+    "使用高濃度（最高100 μM）之藥理濃度是否具生理可行性或安全性未討論，過度詮釋機轉意義風險高"
+   ],
+   "unassessable": [
+    "樣本重複次數（n）",
+    "統計顯著性 p 值",
+    "對照組設計細節",
+    "是否有動物體內驗證",
+    "利益衝突",
+    "藥物安全性/毒性資料"
+   ]
+  },
+  {
+   "pmid": "42415466",
+   "title": "How safe is teaching of highly specialized rectal surgery? A propensity score-matched 10-year cohort study",
+   "journal": "Colorectal Dis",
+   "journal_full": "Colorectal disease : the official journal of the Association of Coloproctology of Great Britain and Ireland",
+   "issn": "1463-1318",
+   "issn_linking": "1462-8910",
+   "impact_factor": 2.7,
+   "if_year": "2025",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1111/codi.70544",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Cheseaux S, Medic L, Butti F, Hübner M, Hahnloser D, Kefleyesus A",
+   "abstract": "AIM: This study aimed to assess the impact of an institutional teaching program of highly specialized rectal procedures on intra- and early postoperative outcomes.\nMETHODS: We performed a retrospective 10-year cohort study of consecutive patients undergoing low anterior resection (LAR) or abdominoperineal resection (APR) for rectal cancer <12 cm from the anal verge or restorative proctocolectomy with ileal pouch-anal anastomosis (IPAA) at a tertiary high-volume academic centre (2014-2023). Procedures were classified as expert (consultant-only) or teaching procedures (performed ≥75% by the trainee under direct supervision). Groups were balanced after 1:1 propensity score matching (PSM) for age, sex, BMI, ASA, Charlson index, neoadjuvant therapy and surgical approach. Primary outcomes were intraoperative surgical adverse events (iAEs, defined according to the Classintra classification) and 30-day complications. Multivariable logistic regression identified predictors of morbidity.\nRESULTS: A total of 573 surgeries were included (375 expert-led, 198 teaching procedures). After matching, 374 remained (187 per group). IAEs occurred in 16% and 17% of expert-led and teaching procedures, respectively (p = 0.9). Overall morbidity was 43% vs. 46% (p = 0.7); severe complications (Clavien-Dindo ≥ IIIb) occurred in 16% vs. 17% (p = 0.9), while 30-day mortality was 1.1% vs. 0% (p = 0.5). Median length of stay was 8 vs. 7 days (p = 0.6). Reoperation within 30 days occurred in 15.5% in both groups, and readmissions in 16% vs. 10% (p = 0.2). Multivariable analysis revealed high comorbidity indices and immunosuppression as independent risk factors. Robotic surgery was independently associated with lower postoperative morbidity, while teaching was neither associated with overall morbidity (OR 0.60, 95% CI 0.30-1.17) nor severe complications (OR 0.64, 95% CI 0.26-1.48).\nCONCLUSION: Closely supervised teaching of highly specialized rectal surgery can be safely implemented into clinical practice without increasing perioperative morbidity, supporting the dual mission of surgical proficiency and training of high-volume centres.",
+   "title_zh": "高度專科化直腸手術教學的安全性如何？一項傾向分數配對之10年世代研究",
+   "abstract_zh": "目的：本研究旨在評估機構教學計畫對高度專科化直腸手術（含低前位切除術LAR、腹會陰切除術APR、迴腸儲袋肛管吻合術IPAA）之術中與早期術後結果的影響。方法：我們針對2014-2023年於某三級高手術量學術中心，連續接受LAR或APR治療距肛緣<12公分之直腸癌，或接受IPAA之全結腸切除迴腸儲袋手術病人，進行回溯性10年世代研究。手術分為專家執行組（僅主治醫師）與教學組（受訓者於直接督導下執行≥75%）。以1:1傾向分數配對（PSM），針對年齡、性別、BMI、ASA分級、Charlson共病指數、新輔助治療與手術方式進行平衡。主要結果為術中不良事件（iAEs，依Classintra分類定義）與30天併發症。多變量邏輯回歸分析找出病態率之預測因子。結果：共納入573例手術（375例專家執行、198例教學）。配對後剩374例（每組187例）。術中不良事件於專家組與教學組分別發生於16%與17%（p=0.9）。整體病態率為43% vs. 46%（p=0.7）；嚴重併發症（Clavien-Dindo ≥IIIb）發生率為16% vs. 17%（p=0.9），30天死亡率為1.1% vs. 0%（p=0.5）。住院天數中位數為8天 vs. 7天（p=0.6）。30天內再手術率兩組皆為15.5%，再入院率為16% vs. 10%（p=0.2）。多變量分析顯示高共病指數與免疫抑制為獨立危險因子。機器人手術與較低的術後病態率獨立相關，而教學與整體病態率（OR 0.60，95% CI 0.30-1.17）或嚴重併發症（OR 0.64，95% CI 0.26-1.48）皆無顯著相關。結論：在密切督導下，高度專科化直腸手術之教學可安全實施於臨床實務中，且不會增加圍術期病態率，支持高手術量中心兼具外科精熟度與訓練培育之雙重使命。",
+   "evidence_level": "回溯性研究",
+   "score": 6,
+   "score_reason": "設計嚴謹（PSM、Classintra分級、多變量分析），但屬單中心回溯性研究，信賴區間偏寬且可能存在案例選擇偏誤，對台灣教學型醫院具參考價值但非決定性證據。",
+   "relevance": "高度相關",
+   "relevance_why": "直接涉及台灣醫學中心大腸直腸外科住院醫師訓練制度下，教學手術的安全性議題。",
+   "novelty": "再確認已知",
+   "one_liner": "在374例PSM配對之LAR/APR/IPAA病人中（每組187例），比較專家執行與受督導教學執行，發現整體病態率無差異（43% vs 46%, p=0.7）。",
+   "action": "可於嚴密督導、術中即時介入下，讓資深住院醫師執行LAR/APR/IPAA；同時建立本院教學案例篩選標準與iAE監測機制。",
+   "pico": {
+    "P": "2014-2023年單一三級學術中心，接受LAR、APR（距肛緣<12cm直腸癌）或IPAA之病人，共573例，PSM後374例（每組187）",
+    "I": "教學手術：受訓者在直接督導下執行≥75%手術內容",
+    "C": "專家執行手術：僅由主治醫師執行",
+    "O": "主要結果：術中不良事件（Classintra分類）、30天併發症；次要結果：住院天數、再手術率、再入院率、30天死亡率"
+   },
+   "key_numbers": [
+    "整體病態率43% vs 46%（p=0.7），教學相關OR 0.60（95% CI 0.30-1.17）",
+    "嚴重併發症（CD≥IIIb）16% vs 17%（p=0.9），OR 0.64（95% CI 0.26-1.48）",
+    "術中不良事件16% vs 17%（p=0.9）；30天死亡率1.1% vs 0%（p=0.5），樣本太小難判讀"
+   ],
+   "cautions": [
+    "PSM僅平衡年齡、共病等基本變項，無法排除主治醫師依手術難度（如骨盆狹窄、腫瘤位置）主觀篩選教學案例之潛在偏誤",
+    "信賴區間偏寬（0.30-1.17、0.26-1.48），樣本數可能不足以偵測中等程度的病態率差異，尤其死亡率等罕見事件",
+    "單中心研究，「受訓者執行≥75%」之教學強度定義與督導模式可能因中心而異，外推性有限"
+   ],
+   "unassessable": [
+    "受訓者訓練年資與經驗分級",
+    "案例選擇標準之詳細流程",
+    "長期功能結果（如LARS、儲袋功能）",
+    "失訪率",
+    "利益衝突",
+    "試驗註冊",
+    "成本分析"
+   ]
+  },
+  {
+   "pmid": "42412862",
+   "title": "Association between hemoglobin-to-red cell distribution width ratio and occurrence of sepsis during ICU stay in inflammatory bowel disease patients who died: a retrospective study using the EICU-CRD database",
+   "journal": "PLoS One",
+   "journal_full": "PloS one",
+   "issn": "1932-6203",
+   "issn_linking": "1932-6203",
+   "impact_factor": 2.6,
+   "if_year": "2025",
+   "year": "2026",
+   "month": "",
+   "doi": "10.3389/fpubh.2025.1638290",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Li Y, Hua Q, Li Z, Jiang M",
+   "abstract": "BACKGROUND: The hemoglobin-to-red cell distribution width ratio (HRR) is a biomarker associated with systemic inflammation and outcomes in critical illness. Within clinical databases, there exists an extreme-prognosis subgroup of inflammatory bowel disease (IBD) patients, those who all died within 30 days of ICU admission. Due to limitations in the database, this study can only analyze this specific subgroup.\nOBJECTIVE: This study aims to explore and describe the association between admission HRR and the occurrence of sepsis during ICU stay in this specific subgroup of IBD patients.\nMETHODS: A retrospective cohort study was conducted using the eICU Collaborative Research Database (2014-2015), including 229 eligible patients. Multivariable logistic regression was used to assess the independent association, adjusting for confounders. The dose-response relationship was examined using restricted cubic spline (RCS) models. Subgroup and interaction analyses were performed across age, sex, and race.\nRESULTS: The sepsis group had a significantly lower admission HRR than the non-sepsis group (6.04 ± 1.66 vs. 6.77 ± 2.0, P = 0.008). After full adjustment, each 1-unit increase in HRR was associated with 20.3% lower odds of sepsis (P = 0.007). Compared to the lowest quartile (HRR < 5.1), patients in the highest quartile (HRR ≥ 7.85) had 66.8% lower adjusted odds of sepsis (P = 0.015). RCS analysis indicated a linear, inverse relationship between HRR and sepsis (P for non-linearity = 0.42). Subgroup analysis revealed the negative association was more pronounced in patients aged <65, males, and White patients. However, formal interaction tests were not statistically significant (all P for interaction >0.05), indicating the association did not differ meaningfully across these subgroups.\nCONCLUSIONS: In this specific cohort, a lower admission HRR was associated with the occurrence of sepsis. Due to inherent selection bias, this finding describes an association within this specific subgroup and cannot be generalized. This exploratory study generates the hypothesis that HRR may reflect a unique pathophysiological state in end-stage IBD, a hypothesis that requires validation in prospective, unbiased cohorts.",
+   "title_zh": "死亡之發炎性腸道疾病病人於ICU住院期間血紅素/紅血球分布寬度比值與敗血症發生之相關性：使用EICU-CRD資料庫之回溯性研究",
+   "abstract_zh": "背景：血紅素與紅血球分布寬度比值（HRR）是與全身性發炎及重症預後相關之生物標記。在臨床資料庫中，存在一群極端預後的發炎性腸道疾病（IBD）病人次族群——即所有於ICU入院後30天內死亡者。受限於資料庫特性，本研究僅能分析此特定次族群。\n目的：探討並描述此特定IBD病人次族群中，入院時HRR與ICU住院期間敗血症發生之相關性。\n方法：使用eICU協作研究資料庫（2014-2015年）進行回溯性世代研究，共納入229名符合條件之病人。以多變項邏輯回歸評估獨立相關性，並調整干擾因子。使用限制性立方樣條（RCS）模型檢視劑量反應關係。並依年齡、性別、種族進行次群組與交互作用分析。\n結果：敗血症組之入院HRR顯著低於非敗血症組（6.04 ± 1.66 vs. 6.77 ± 2.0，P = 0.008）。完全調整後，HRR每增加1單位，敗血症勝算降低20.3%（P = 0.007）。與最低四分位數（HRR < 5.1）相比，最高四分位數（HRR ≥ 7.85）之病人經調整後敗血症勝算降低66.8%（P = 0.015）。RCS分析顯示HRR與敗血症呈線性負相關（非線性檢定P = 0.42）。次群組分析顯示此負相關在65歲以下、男性、白人族群中更為明顯，然正式交互作用檢定均未達統計顯著（所有交互作用P值均>0.05），顯示此相關性在各次群組間並無有意義的差異。\n結論：在此特定世代中，較低之入院HRR與敗血症發生相關。由於存在固有的選擇偏誤，此發現僅描述此特定次族群內之相關性，無法一般化推論。本探索性研究提出假說：HRR可能反映末期IBD病人獨特之病理生理狀態，此假說仍需於前瞻性、無偏誤之世代中驗證。",
+   "evidence_level": "回溯性研究",
+   "score": 2,
+   "score_reason": "研究族群為ICU死亡之IBD病人此極端選擇性次族群，作者自承有嚴重選擇偏誤且無法推論，對臨床實務幾乎無直接應用價值。",
+   "relevance": "低度相關",
+   "relevance_why": "非外科介入研究，族群限定為ICU死亡之IBD病人，屬生物標記探索性分析，與大腸直腸外科手術決策無關。",
+   "novelty": "仍屬早期",
+   "one_liner": "在ICU死亡之IBD病人（n=229）中，入院HRR每增加1單位，敗血症發生勝算降低20.3%（P=0.007），為探索性假說生成研究。",
+   "action": "目前不需改變做法：此為描述性、假說生成之回溯性分析，族群為死亡病人之選擇性次群，無法推論至一般臨床族群。",
+   "pico": {
+    "P": "eICU資料庫中2014-2015年ICU住院並於30天內死亡之IBD病人，共229人",
+    "I": "入院時HRR數值（作為暴露變項）",
+    "C": "無傳統對照組，以HRR高低（四分位數）作內部比較",
+    "O": "主要outcome：ICU住院期間敗血症發生；次要：無明確次要outcome，僅有次群組交互作用分析"
+   },
+   "key_numbers": [
+    "敗血症組 vs 非敗血症組入院HRR：6.04±1.66 vs 6.77±2.0，P=0.008",
+    "HRR每增1單位，敗血症調整後勝算降低20.3%，P=0.007（僅OR，無95%CI數字揭露）",
+    "最高 vs 最低HRR四分位數，調整後敗血症勝算降低66.8%，P=0.015"
+   ],
+   "cautions": [
+    "極端選擇偏誤：僅納入30天內死亡病人，作者明確承認結果無法推論至一般IBD或ICU族群",
+    "樣本數小（n=229），次群組分析（年齡/性別/種族）交互作用檢定均未顯著，僅為探索性訊號",
+    "純觀察性關聯非因果，HRR可能只是反映疾病嚴重度或末期生理狀態之替代指標，而非敗血症特異性機轉"
+   ],
+   "unassessable": [
+    "盲法",
+    "allocation concealment",
+    "ITT分析",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "調整之干擾因子完整清單未於摘要詳列",
+    "95%信賴區間數值未提供"
+   ]
+  },
+  {
+   "pmid": "42414008",
+   "title": "Neighbourhood environments, structural inequities, and colorectal cancer risk and mortality: analysis from the Southern Community Cohort Study",
+   "journal": "BMJ Open",
+   "journal_full": "BMJ open",
+   "issn": "2044-6055",
+   "issn_linking": "2044-6055",
+   "impact_factor": 2.3,
+   "if_year": "2025",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1109/ACCESS.2020.2964802",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Kumsa F, Fowke J, Hashtarkhani S, White B, Shrubsole M, Shaban-Nejad A",
+   "abstract": "OBJECTIVE: Neighbourhood socioeconomic status (nSES) and built environment features strongly influence diet, physical activity and cancer screening adherence, potentially affecting colorectal cancer (CRC) incidence and prognosis. The aim of this study is to assess the association between neighbourhood obesogenic environments (eg, nSES, restaurant and retail food indices, recreational facilities, and business district residence) and CRC risk and mortality.\nDESIGN: A secondary data analysis was performed using prospectively collected data from the Southern Community Cohort Study.\nSETTING: 12 states in the Southeastern USA.\nPARTICIPANTS: We analysed data from 70 519 participants enrolled in the Southern Community Cohort Study.\nOUTCOMES: The primary outcomes in this study are CRC risk and mortality.\nDATA ANALYSIS: We used multivariable Cox proportional hazards models, adjusting for individual-level factors to investigate neighbourhood-level risk factors associated with CRC risk and mortality. We further performed race-stratified analyses (Black/White) to examine potential disparities in CRC risk.\nRESULTS: Among 70 519 participants (69.49% Black, 30.51% White), 927 (1.31%) were diagnosed with CRC (1.37% Black and 1.19% White participants). Of these, 255 (27.5%) died from CRC. Compared with participants residing in the highest (fifth) nSES quintile, those residing in the wealthier (fourth) quintile of nSES exhibited a higher CRC risk (adjusted HR (aHR) 1.27 (95% CI 1.03 to 1.57)). The Retail Food Environment Index was associated with an increased risk of CRC among participants residing in the fifth (wealthiest) nSES quintile (aHR 3.07 (95% CI 1.23 to 7.61) for Tertile 1 vs None; aHR 3.06 (95% CI 1.23 to 7.60) for Tertile 2 vs None). Similar associations were observed among both Black participants (aHR 3.65 (95% CI 1.19 to 11.20) for Tertile 1 vs None) and White participants (aHR 5.20 (95% CI 1.29 to 20.97) for Tertile 2 vs None) living in the same neighbourhoods, although these subgroup estimates should be interpreted cautiously due to wide CIs. Living in a low-walkability neighbourhood was associated with a higher risk of CRC (aHR 2.42 (95% CI 1.09 to 3.56)) among residents in the second-lowest nSES quintile, particularly among Black participants (aHR 3.41 (95% CI 1.29 to 9.02)). Compared with residents of the most walkable neighbourhoods, those in the least walkable (aHR 2.23 (95% CI 1.10 to 4.54)), below-average walkable (aHR 2.10 (95% CI 1.08 to 4.07)) and above-average walkable areas (aHR 2.33 (95% CI 1.24 to 4.39)) had significantly higher CRC mortality risk.\nCONCLUSION: Our findings suggest that nSES and unhealthy food environments are associated with CRC risk, while less walkable environments were associated with higher CRC mortality. These findings highlight the need for a more detailed assessment of neighbourhood-level deprivation and support enhanced public policies targeting neighbourhood deprivation in low-income populations in the Southeastern USA.",
+   "title_zh": "社區環境、結構性不平等與大腸直腸癌風險及死亡率：南方社區世代研究分析",
+   "abstract_zh": "目的：社區社經地位（nSES）與建築環境特徵強烈影響飲食、身體活動及癌症篩檢遵從度，可能影響大腸直腸癌（CRC）發生率與預後。本研究目的為評估社區致胖環境（例如nSES、餐廳與零售食品指數、休閒設施、商業區居住）與CRC風險及死亡率之間的關聯。設計：使用南方社區世代研究前瞻性收集之資料進行二次資料分析。場域：美國東南部12個州。參與者：分析70,519名參與南方社區世代研究之受試者資料。結果指標：本研究之主要結果為CRC風險與死亡率。資料分析：使用多變量Cox比例風險模型，調整個人層級因子，探討與CRC風險及死亡率相關之社區層級風險因子。並進一步進行種族分層分析（黑人/白人）以檢視CRC風險之潛在差異。結果：在70,519名參與者中（69.49%為黑人，30.51%為白人），927人（1.31%）被診斷為CRC（黑人1.37%，白人1.19%）。其中255人（27.5%）死於CRC。與居住於最高（第五）nSES五分位者相比，居住於較富裕（第四）五分位nSES者呈現較高CRC風險（調整後HR 1.27，95% CI 1.03至1.57）。零售食品環境指數與居住於最富裕（第五）nSES五分位參與者之CRC風險增加相關（第一三分位vs無：調整後HR 3.07，95% CI 1.23至7.61；第二三分位vs無：調整後HR 3.06，95% CI 1.23至7.60）。相似關聯亦見於居住於同一社區之黑人參與者（第一三分位vs無：調整後HR 3.65，95% CI 1.19至11.20）及白人參與者（第二三分位vs無：調整後HR 5.20，95% CI 1.29至20.97），惟因信賴區間過寬，此類次群組估計值應謹慎解讀。居住於低步行性社區與較高CRC風險相關（調整後HR 2.42，95% CI 1.09至3.56），此關聯於次低nSES五分位居民中觀察到，尤以黑人參與者為顯著（調整後HR 3.41，95% CI 1.29至9.02）。與居住於最具步行性社區者相比，居住於最不具步行性（調整後HR 2.23，95% CI 1.10至4.54）、低於平均步行性（調整後HR 2.10，95% CI 1.08至4.07）及高於平均步行性地區（調整後HR 2.33，95% CI 1.24至4.39）者，CRC死亡風險均顯著較高。結論：本研究發現顯示nSES及不健康食品環境與CRC風險相關，而步行性較低之環境則與較高CRC死亡率相關。這些發現凸顯需要更詳細評估社區層級剝奪程度，並支持加強針對美國東南部低收入族群社區剝奪之公共政策。",
+   "evidence_level": "前瞻性世代",
+   "score": 3,
+   "score_reason": "美國特定社經／建築環境指標，多重次群組分析且信賴區間極寬，對台灣大腸直腸外科臨床決策幾無直接可轉移性。",
+   "relevance": "低度相關",
+   "relevance_why": "非手術介入，探討美國特定社區層級社經指標與CRC風險關聯，台灣醫療與社區環境評估體系不同，難以直接應用。",
+   "novelty": "仍屬早期",
+   "one_liner": "在70,519名美國東南部世代參與者中，分析社區社經地位與建築環境，發現低步行性社區CRC死亡風險增加達2.2倍。",
+   "action": "目前不需改變做法；此為美國社區社經流行病學研究，非台灣臨床可操作之手術或篩檢策略證據。",
+   "pico": {
+    "P": "美國東南部12州70,519名南方社區世代研究參與者（69.49%黑人，30.51%白人）",
+    "I": "社區社經地位（nSES）五分位、零售食品環境指數、步行性指標等社區層級暴露",
+    "C": "最高nSES五分位／最具步行性社區（作為參照組）",
+    "O": "主要：CRC發生風險與CRC死亡率；次要：種族分層之風險差異"
+   },
+   "key_numbers": [
+    "CRC發生率1.31%（927/70,519），其中27.5%（255人）死於CRC",
+    "第四nSES五分位vs第五（最高）：CRC風險aHR 1.27（95% CI 1.03-1.57）",
+    "最不具步行性vs最具步行性社區：CRC死亡風險aHR 2.23（95% CI 1.10-4.54）"
+   ],
+   "cautions": [
+    "多重次群組分析（種族分層×五分位×三分位）未校正多重比較，多數信賴區間極寬（如1.23-7.61、1.29-20.97）",
+    "社區層級暴露推論個人層級因果關係，屬生態學謬誤風險，且未說明居住流動性如何處理",
+    "美國特定nSES、零售食品指數、步行性量表等指標無台灣對應標準，結果難以外推至台灣社區環境"
+   ],
+   "unassessable": [
+    "失訪率",
+    "利益衝突聲明",
+    "試驗註冊（非適用但資料完整性未說明）",
+    "居住史／流動性如何界定暴露時間窗",
+    "篩檢率是否納入調整因子的細節"
+   ]
+  },
+  {
+   "pmid": "42417633",
+   "title": "High relapse rates after budesonide in microscopic colitis: a large retrospective analysis revealing the need for advanced therapies",
+   "journal": "Acta Gastroenterol Belg",
+   "journal_full": "Acta gastro-enterologica Belgica",
+   "issn": "1784-3227",
+   "issn_linking": "1784-3227",
+   "impact_factor": 1.2,
+   "if_year": "2025",
+   "year": "2026",
+   "month": "",
+   "doi": "10.51821/89.2.15176",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Taelman T, Lenfant M, Vermeire S, Ferrante M, Sabino J, Verstockt B",
+   "abstract": "BACKGROUND: Microscopic colitis (MC) is a chronic inflammatory bowel disorder causing watery diarrhea despite normal endoscopic findings. Budesonide is the only approved therapy, yet long-term durability and the need for alternatives in steroid-dependent or -refractory cases remain unclear.\nMETHODS: We performed a retrospective single-center cohort study of all patients with histologically confirmed MC between 2013 and 2022, with ≥3 months of follow-up. Demographics, clinical features, treatments, and outcomes were collected. Clinical remission followed Hjortswang criteria: fewer than three stools per day or fewer than one watery stool per day on average.\nRESULTS: A total of 239 idiopathic MC patients met inclusion criteria. Spontaneous remission occurred in 19.2%, more often in males (OR 2.39, p=0.02). Corticosteroids, predominantly budesonide, were prescribed in 78.7% and induced remission in 75.5% within three months. Relapse affected 54.8% of responders, typically during tapering (44.6%) or shortly after cessation (55.3%). Younger age predicted relapse (OR 0.97, p=0.003). Conventional alternatives, including 5-ASA, cholestyramine, methotrexate, and azathioprine, were largely ineffective after corticosteroid failure or dependency. Advanced therapies (anti-TNF agents, vedolizumab, JAK inhibitors) were initiated in 12.6%, more often in younger patients (OR 0.95, p=0.001) and those with a family history of IBD (OR 4.11, p=0.03). These therapies achieved post-induction remission in 70% of refractory cases. Two patients required colectomy.\nCONCLUSION: In this large cohort with long-term follow-up, budesonide remained the primary treatment, yet over half of responders relapsed during tapering or after discontinuation. Conventional alternatives showed limited benefit. Advanced therapies demonstrated meaningful effectiveness in steroid-refractory or steroid-dependent MC, underscoring the need for broader therapeutic options.",
+   "title_zh": "布地奈德治療顯微鏡性大腸炎後高復發率：一項大型回溯性分析揭示進階治療之需求",
+   "abstract_zh": "背景：顯微鏡性大腸炎（microscopic colitis, MC）是一種慢性發炎性腸道疾病，會造成水樣腹瀉，但內視鏡檢查正常。布地奈德（budesonide）是唯一經核准的治療藥物，然而其長期療效持久性，以及類固醇依賴或難治型病人是否需要替代療法，目前仍不明確。\n\n方法：本研究為單一中心回溯性世代研究，納入2013至2022年間所有經組織學確診之MC病人，追蹤時間須≥3個月。收集人口學資料、臨床特徵、治療與預後。臨床緩解定義依Hjortswang準則：平均每日排便少於3次，或水便少於1次。\n\n結果：共239名原發性MC病人符合納入條件。19.2%病人自發緩解，男性較常見（OR 2.39，p=0.02）。78.7%病人使用皮質類固醇（以布地奈德為主），三個月內誘導緩解率達75.5%。有反應者中54.8%出現復發，多發生於減量期間（44.6%）或停藥後不久（55.3%）。年輕族群為復發之預測因子（OR 0.97，p=0.003）。傳統替代療法（包括5-ASA、cholestyramine、methotrexate、azathioprine）在類固醇失敗或依賴後大多無效。12.6%病人開始使用進階治療（anti-TNF藥物、vedolizumab、JAK抑制劑），較常見於年輕病人（OR 0.95，p=0.001）及有IBD家族史者（OR 4.11，p=0.03）。這些治療在難治型病例中達到70%的誘導後緩解率。兩名病人需接受大腸切除術。\n\n結論：在此大型長期追蹤世代中，布地奈德仍為主要治療藥物，但超過半數有反應者於減量或停藥後復發。傳統替代療法效果有限。進階治療在類固醇難治或依賴型MC中展現具意義的療效，顯示需要更廣泛的治療選擇。",
+   "evidence_level": "回溯性研究",
+   "score": 3,
+   "score_reason": "單中心回溯性研究，樣本尚可但無對照組比較各治療組，對大腸直腸外科臨床實作（非藥物治療）參考價值有限，主要屬腸胃科/IBD內科議題。",
+   "relevance": "低度相關",
+   "relevance_why": "MC為內科藥物治療為主的疾病，僅2例需手術，本文核心議題（類固醇/生物製劑療效）非大腸直腸外科日常決策範疇。",
+   "novelty": "再確認已知",
+   "one_liner": "在239名MC病人中，布地奈德誘導緩解率75.5%，但反應者中54.8%復發，難治型病人使用進階治療後緩解率達70%。",
+   "action": "目前不需改變外科做法；若遇MC病人反覆腹瀉且類固醇依賴/難治，建議轉介腸胃科評估進階生物製劑，非首選手術。",
+   "pico": {
+    "P": "2013-2022年單中心239名經組織學確診之原發性顯微鏡性大腸炎病人，追蹤≥3個月",
+    "I": "皮質類固醇（主要為布地奈德）、傳統替代療法、進階治療（anti-TNF、vedolizumab、JAK抑制劑）",
+    "C": "無隨機對照組，為觀察性世代內不同治療族群之描述性比較",
+    "O": "主要：臨床緩解率、復發率；次要：進階治療後緩解率、大腸切除率"
+   },
+   "key_numbers": [
+    "布地奈德誘導緩解75.5%，但反應者中54.8%復發（多在減量期或停藥後）",
+    "自發緩解率19.2%，男性較高（OR 2.39, p=0.02）",
+    "進階治療（12.6%病人使用）誘導後緩解率70%；僅2/239（0.8%）需大腸切除"
+   ],
+   "cautions": [
+    "進階治療組僅12.6%（約30人）且非隨機分派，可能存在適應症選擇偏誤，70%緩解率解讀需謹慎",
+    "復發僅依臨床排便次數判定，未提及內視鏡/組織學確認，可能高估或低估真實復發",
+    "各風險預測（OR值）未附95% CI，且為回溯性單中心資料，外部效度受限"
+   ],
+   "unassessable": [
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "各項治療選擇之詳細分派標準與是否經多變項校正",
+    "進階治療療效之信賴區間"
+   ]
+  },
+  {
+   "pmid": "42417632",
+   "title": "Significance of leptin, Galectin-1 and Galectin-3 in tumor lymphangiogenesis",
+   "journal": "Acta Gastroenterol Belg",
+   "journal_full": "Acta gastro-enterologica Belgica",
+   "issn": "1784-3227",
+   "issn_linking": "1784-3227",
+   "impact_factor": 1.2,
+   "if_year": "2025",
+   "year": "2026",
+   "month": "",
+   "doi": "10.51821/89.2.14594",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Petrovic S, Simovic Markovic B, Jovanovic I, Jevtovic A, Pantic J, Radosavljevic G",
+   "abstract": "BACKGROUND AND STUDY AIMS: Leptin, Galectin-1 and Galectin-3 are essential players in tumorigenesis, angiogenesis, and metastasis, but their lymphangiogenic role is unclear. Here, the associations of leptin, Galectin-1 and Galectin-3 with markers of lymphangiogenesis were evaluated in colorectal cancer (CRC).\nPATIENTS AND METHODS: A total of 120 patients with CRC were included in the study. The expressions of leptin, Galectin-1, Galectin-3, and vascular endothelial growth factor- C (VEGF-C) were analyzed in CRC tissue and compared with lymphatic vessel density (LVD). Also, the concentrations of Galectin-1 and Galectin-3 were determined in the sera of CRC patients (n=38).\nRESULTS: LVD positively correlated with the intensity of leptin or Galectin-1 expression (as defined by intensity score, IS) in tissues. Although there was no significant association between tissue expression of Galectin-3 and LVD, serum Galectin-3 concentrations were markedly decreased in patients with high LVD. The positive correlation was observed between intensity of VEGF-C and leptin expressions. No significant relationship was found between VEGF-C and Galectin-1 expression, while the intensity of VEGF-C expression positively correlated with Galectin-3 expression in tumor tissue. Further, high leptin expression, determined by a total score (sum of percentage score (PS) and IS) > 4, was related to regional lymph node metastasis and TNM stages, indicating a more aggressive CRC phenotype.\nCONCLUSIONS: The results suggest that leptin and Galectin-1 are involved in the formation of new lymphatic vessels in tumor, either dependently or independently of VEGF-C. It seems that high leptin expression reflects regional metastases and progression of CRC.",
+   "title_zh": "Leptin、Galectin-1 與 Galectin-3 在腫瘤淋巴管新生中的意義",
+   "abstract_zh": "背景與研究目的：Leptin、Galectin-1 與 Galectin-3 是腫瘤生成、血管新生與轉移過程中的重要角色，但其在淋巴管新生中的作用尚不清楚。本研究評估大腸直腸癌（CRC）中 leptin、Galectin-1 與 Galectin-3 與淋巴管新生指標之相關性。\n\n病患與方法：共納入120名CRC病患。分析CRC組織中leptin、Galectin-1、Galectin-3及血管內皮生長因子-C（VEGF-C）之表現，並與淋巴管密度（LVD）進行比較。另外，於38名CRC病患的血清中測定Galectin-1與Galectin-3濃度。\n\n結果：LVD與組織中leptin或Galectin-1表現強度（以強度分數IS定義）呈正相關。雖然組織中Galectin-3表現與LVD無顯著關聯，但高LVD病患的血清Galectin-3濃度明顯降低。VEGF-C表現強度與leptin表現呈正相關。VEGF-C與Galectin-1表現無顯著關聯，而VEGF-C表現強度與腫瘤組織中Galectin-3表現呈正相關。此外，高leptin表現（以總分定義，即百分比分數PS加上強度分數IS總和>4）與區域淋巴結轉移及TNM分期相關，顯示較具侵襲性的CRC表現型。\n\n結論：結果顯示leptin與Galectin-1可能參與腫瘤內新生淋巴管的形成，可能依賴或不依賴VEGF-C途徑。高leptin表現似乎反映CRC的區域轉移與疾病進展。",
+   "evidence_level": "橫斷面",
+   "score": 3,
+   "score_reason": "屬機轉探索性生物標記相關性研究，樣本小（血清亞組僅38人）、無存活或復發等臨床終點，對台灣臨床實務短期無直接影響。",
+   "relevance": "低度相關",
+   "relevance_why": "為分子生物標記與淋巴管新生機轉之相關性研究，非外科介入或臨床決策指標。",
+   "novelty": "仍屬早期",
+   "one_liner": "在120名CRC病患組織與38名血清亞組中，分析leptin、Galectin-1/3與LVD及VEGF-C的相關性，發現高leptin表現與淋巴結轉移及TNM分期相關。",
+   "action": "目前不需改變做法；此為機轉探索性研究，無治療或篩檢決策相關證據，僅供未來標記研究參考。",
+   "pico": {
+    "P": "120名大腸直腸癌病患（其中38人另測血清Galectin濃度）",
+    "I": "腫瘤組織與血清中leptin、Galectin-1、Galectin-3、VEGF-C表現",
+    "C": "無傳統對照組；以LVD高低分組比較表現量",
+    "O": "主要：與淋巴管密度（LVD）之相關性；次要：與淋巴結轉移、TNM分期之關聯"
+   },
+   "key_numbers": [
+    "高leptin總分>4與區域淋巴結轉移及TNM分期相關（未提供實際p值或勝算比）",
+    "高LVD病患血清Galectin-3濃度「明顯降低」，但未給具體數值",
+    "組織Galectin-3表現與LVD無顯著相關，但與VEGF-C表現呈正相關（無r值、p值）"
+   ],
+   "cautions": [
+    "摘要僅描述「正相關／無相關」，未附任何相關係數、p值或信賴區間，難以判斷效應強度",
+    "橫斷面相關性設計，無法確立leptin/Galectin與淋巴管新生之因果關係",
+    "血清分析僅38人，屬小樣本次族群，結果穩定性存疑"
+   ],
+   "unassessable": [
+    "統計檢定方法與確切p值/相關係數",
+    "是否校正共病或分期等干擾因子",
+    "追蹤存活或復發等臨床終點",
+    "利益衝突與試驗註冊資訊"
+   ]
+  },
+  {
+   "pmid": "42417741",
+   "title": "Immunoexpression of stem cell markers CD44, CD133, ALDH1-2, and LGR5 in colorectal carcinoma and their association with clinicopathological tumor characteristics",
+   "journal": "Einstein (Sao Paulo)",
+   "journal_full": "Einstein (Sao Paulo, Brazil)",
+   "issn": "2317-6385",
+   "issn_linking": "1679-4508",
+   "impact_factor": null,
+   "if_year": "2025",
+   "year": "2026",
+   "month": "",
+   "doi": "10.31744/einstein_journal/2026AO2153",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Turke K, Santos C, Pagliari C, Testa G, Theodoro T, Bianco B",
+   "abstract": "OBJECTIVE: To investigate the association of CD44, CD133, ALDH1-2, and LGR5 expression with clinicopathological tumor variables.\nMETHODS: Twenty-eight adult patients with colorectal carcinoma who underwent curative surgery were included in the study. Paraffin-embedded samples were subjected to immunohistochemical staining with anti-CD44, anti-CD133, anti-ADLH1-2, and anti-LGR5 antibodies, and the results were compared with the patients' clinicopathological variables. P-values <0.05 were considered significant.\nRESULTS: Fifteen patients (53.6%) were male. The mean age was 66.8±13.01 (range: 38 to 88) years. The neoplasm was located in the rectum in 17 (60.7%) patients and colon in 11 (39.3%) patients. The mean tumor size was 4.3 (1.0-10.0) cm. The degree of cellular differentiation was moderate in 27 (94.4%) patients. The tumors presented with parietal invasion at the T1 level in two (7.1%) patients, T2 in seven (25%), and T3 in 19 (67.8%). Vascular invasion was present in nine (32.1%) patients and perineural invasion in five (17.8%). Lymph node involvement was observed in 11 patients (39.3%). ALDH1-5 and LGR5 proteins were significantly increased in patients >60 years of age, in the rectum and right colon, and in the presence of lymph node involvement. CD44 protein expression was increased in tumors of the left colon.\nCONCLUSION: Increased tissue levels of ALDH1-2 and LGR5 were related to increased aggressiveness of colorectal carcinoma.",
+   "title_zh": "大腸直腸癌中幹細胞標記物CD44、CD133、ALDH1-2及LGR5之免疫組織化學表現及其與臨床病理腫瘤特徵之關聯",
+   "abstract_zh": "目的：探討CD44、CD133、ALDH1-2及LGR5表現與臨床病理腫瘤變項之關聯性。方法：納入28名接受根治性手術之成年大腸直腸癌患者。石蠟包埋檢體以anti-CD44、anti-CD133、anti-ADLH1-2及anti-LGR5抗體進行免疫組織化學染色，並將結果與病患臨床病理變項進行比較。P值<0.05視為具統計顯著性。結果：15名患者（53.6%）為男性。平均年齡66.8±13.01歲（範圍：38至88歲）。腫瘤位於直腸者17例（60.7%），位於結腸者11例（39.3%）。平均腫瘤大小為4.3公分（1.0-10.0）。細胞分化程度中度者27例（94.4%）。腫瘤壁侵犯程度：T1者2例（7.1%）、T2者7例（25%）、T3者19例（67.8%）。血管侵犯9例（32.1%），神經周圍侵犯5例（17.8%）。淋巴結侵犯11例（39.3%）。ALDH1-2及LGR5蛋白在年齡>60歲患者、直腸及右側結腸腫瘤、以及有淋巴結侵犯者中顯著增加。CD44蛋白表現在左側結腸腫瘤中增加。結論：ALDH1-2及LGR5組織表現量增加與大腸直腸癌侵襲性增加有關。",
+   "evidence_level": "橫斷面",
+   "score": 2,
+   "score_reason": "樣本數僅28人、無存活追蹤、多重比較未校正、純相關性分析，對臨床決策幾乎無直接實用性。",
+   "relevance": "低度相關",
+   "relevance_why": "此為基礎轉譯研究（生物標記物IHC相關性分析），非手術介入或臨床決策工具，短期內不影響外科處置。",
+   "novelty": "仍屬早期",
+   "one_liner": "在28名大腸直腸癌根治手術患者中，分析四種幹細胞標記物IHC表現，發現ALDH1-2與LGR5與淋巴結侵犯等侵襲性特徵相關。",
+   "action": "目前不需改變做法；樣本數過小且僅為相關性分析，尚無法轉譯為臨床決策或預後判斷依據。",
+   "pico": {
+    "P": "28名接受根治性手術之成年大腸直腸癌患者",
+    "I": "免疫組織化學染色檢測CD44、CD133、ALDH1-2、LGR5蛋白表現量",
+    "C": "無對照組（單組相關性分析）",
+    "O": "主要outcome：標記物表現與臨床病理變項（年齡、腫瘤位置、T分期、血管/神經侵犯、淋巴結侵犯）之相關性"
+   },
+   "key_numbers": [
+    "ALDH1-2及LGR5於年齡>60歲、直腸/右側結腸腫瘤、有淋巴結侵犯者顯著增加（未提供具體p值或效應量）",
+    "淋巴結侵犯發生率39.3%（11/28例），血管侵犯32.1%（9例）",
+    "CD44表現增加見於左側結腸腫瘤，未提供具體數值比較"
+   ],
+   "cautions": [
+    "樣本數僅28人，統計檢定力極低，多重標記物與多變項比較恐有偽陽性風險",
+    "僅為橫斷面相關性分析，無存活或復發追蹤資料，不可推論預後或因果關係",
+    "摘要僅述「顯著增加」卻未附具體p值、OR或信賴區間，數據透明度不足"
+   ],
+   "unassessable": [
+    "統計方法細節（是否校正多重比較）",
+    "多變量分析",
+    "存活期/預後追蹤",
+    "利益衝突",
+    "資金來源",
+    "檢體染色判讀之盲法與一致性"
+   ]
+  }
+ ]
+}
