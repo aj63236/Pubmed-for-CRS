@@ -6,689 +6,387 @@
 <title>腸嚐新知 · 大腸直腸外科文獻</title>
 <meta name="description" content="每日 PubMed 大腸直腸外科新文獻，中文摘要與臨床重點">
 
-<!-- PWA：可加到 iPhone 主畫面當 App 用 -->
 <link rel="manifest" href="manifest.json">
-<meta name="theme-color" content="#0b1418">
+<meta name="theme-color" content="#FBF7F4">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="腸嚐新知">
 <link rel="apple-touch-icon" href="icons/icon-180.png">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;700;900&family=Noto+Sans+TC:wght@300;400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600;700;900&family=Noto+Sans+TC:wght@300;400;500;700;900&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
 
 <style>
-/* ═══════════════ TOKENS ═══════════════
-   Palette: 手術燈下的視野
-   ink     深板岩藍   底色，不是純黑（純黑在 OLED 上刺眼）
-   drape   手術鋪單青  主色，來自 surgical drape 的那個綠
-   bone    骨白       中文內文用色，像底片上的字，不是螢光白
-   film    冷灰       次要資訊
-   flag    琥珀       臨床意義（唯一暖色，用得很省）
+/* ═══════════════ 馬卡龍調色盤 ═══════════════
+   一盤馬卡龍：每張卡是一個口味。
+   淺色底、深色字、圓角、柔和陰影。
+
+   但語意色不參與輪換 —— 評分永遠是綠/琥珀/紅，
+   那是分診訊號，不能被裝飾蓋掉。
 */
 :root{
-  --ink-900:#070d10;
-  --ink-800:#0b1418;
-  --ink-700:#111d23;
-  --ink-600:#18272f;
-  --line:rgba(150,190,200,.14);
-  --line-soft:rgba(150,190,200,.08);
+  --paper:#FBF7F4;          /* 底：微暖的米白 */
+  --ink:#3B3440;            /* 主文字：暖炭灰，不是純黑 */
+  --muted:#78707F;
+  --dim:#A79FAF;
+  --line:rgba(59,52,64,.10);
+  --line-soft:rgba(59,52,64,.06);
 
-  --drape:#3fd2ac;
-  --drape-deep:#1a8f75;
-  --drape-wash:rgba(63,210,172,.10);
+  /* 語意色（固定） */
+  --good:#2E9E6B;
+  --mid:#C9821E;
+  --bad:#D6455F;
 
-  --bone:#e8eff0;
-  --film:#8ba3ab;
-  --film-dim:#5a7078;
-  --flag:#e8a552;
-
-  --nav-h:58px;
-  --pad:22px;
+  --nav-h:62px;
+  --pad:20px;
 }
 
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-
 html,body{
-  height:100%;
-  overflow:hidden;
-  background:var(--ink-900);
-  color:var(--bone);
+  height:100%;overflow:hidden;
+  background:var(--paper);
+  color:var(--ink);
   font-family:'Noto Sans TC',system-ui,sans-serif;
   -webkit-font-smoothing:antialiased;
-  text-rendering:optimizeLegibility;
 }
-
 @media (prefers-reduced-motion:reduce){
   *{animation:none!important;transition:none!important;scroll-behavior:auto!important}
 }
 
-/* ═══════════════ FEED ═══════════════ */
 #feed{
-  height:100dvh;
-  overflow-y:scroll;
+  height:100dvh;overflow-y:scroll;
   scroll-snap-type:y mandatory;
   -webkit-overflow-scrolling:touch;
-  scrollbar-width:none;
-  overscroll-behavior-y:contain;
+  scrollbar-width:none;overscroll-behavior-y:contain;
 }
 #feed::-webkit-scrollbar{display:none}
 
+/* ═══════════════ 六種口味輪換 ═══════════════ */
 .card{
   height:100dvh;
-  scroll-snap-align:start;
-  scroll-snap-stop:always;
-  position:relative;
-  display:flex;
-  flex-direction:column;
-  background:var(--ink-800);
+  scroll-snap-align:start;scroll-snap-stop:always;
+  position:relative;display:flex;flex-direction:column;
+  --a:#F49AC2;            /* 主色（飽和一點，給 chip 用） */
+  --soft:#FFE9F0;         /* 卡片底（很淡） */
+  --tint:#FFF4F8;         /* 更淡，給區塊底 */
+  background:var(--soft);
 }
-/* 每張卡有極輕微的色溫差，像翻頁 */
-.card:nth-child(even){background:var(--ink-900)}
+.card:nth-child(6n+1){--a:#E87BAE;--soft:#FFE7EF;--tint:#FFF3F7}  /* 玫瑰 */
+.card:nth-child(6n+2){--a:#6FB4DC;--soft:#E4F1FA;--tint:#F2F8FD}  /* 天藍 */
+.card:nth-child(6n+3){--a:#6BBF93;--soft:#E4F5EB;--tint:#F2FAF5}  /* 抹茶 */
+.card:nth-child(6n+4){--a:#DDA43C;--soft:#FEF3DC;--tint:#FEF9EE}  /* 檸檬 */
+.card:nth-child(6n+5){--a:#9E86C9;--soft:#EFE9FA;--tint:#F7F4FD}  /* 薰衣草 */
+.card:nth-child(6n+6){--a:#E39270;--soft:#FFEBDF;--tint:#FFF5EF}  /* 焦糖 */
 
-/* 上方一道光 —— 手術燈 */
-.card::before{
-  content:'';
-  position:absolute;
-  inset:0 0 auto 0;
-  height:45%;
-  background:radial-gradient(ellipse 80% 100% at 50% 0%,
-    rgba(63,210,172,.055) 0%, transparent 70%);
-  pointer-events:none;
+/* 右上角一顆柔光，像馬卡龍的高光 */
+.card::after{
+  content:'';position:absolute;
+  top:-10%;right:-14%;
+  width:56%;aspect-ratio:1;border-radius:50%;
+  background:#fff;opacity:.5;
+  filter:blur(70px);pointer-events:none;
 }
 
 /* ═══════════════ HEADER ═══════════════ */
 .hdr{
-  flex:none;
-  display:flex;
-  align-items:baseline;
-  justify-content:space-between;
-  gap:12px;
-  padding:calc(env(safe-area-inset-top,0px) + 14px) var(--pad) 12px;
-  border-bottom:1px solid var(--line-soft);
-  position:relative;
-  z-index:5;
+  flex:none;display:flex;align-items:center;justify-content:space-between;gap:10px;
+  padding:calc(env(safe-area-inset-top,0px) + 14px) var(--pad) 10px;
+  position:relative;z-index:5;
 }
 .brand{
-  font-family:'Noto Serif TC',serif;
-  font-weight:900;
-  font-size:17px;
-  letter-spacing:.5px;
-  color:var(--bone);
-  white-space:nowrap;
+  font-family:'Noto Serif TC',serif;font-weight:900;
+  font-size:18px;letter-spacing:.5px;color:var(--ink);
 }
-.brand em{font-style:normal;color:var(--drape)}
-
-.hdr-meta{
-  display:flex;
-  align-items:baseline;
-  gap:10px;
+.brand em{font-style:normal;color:var(--a)}
+.hdr-r{display:flex;align-items:center;gap:7px}
+.newday{
   font-family:'IBM Plex Mono',monospace;
-  font-size:11px;
-  color:var(--film-dim);
-  white-space:nowrap;
+  font-size:9px;font-weight:700;letter-spacing:.08em;
+  color:#fff;background:var(--a);
+  padding:4px 9px 3px;border-radius:20px;line-height:1;white-space:nowrap;
+  box-shadow:0 2px 8px color-mix(in srgb,var(--a) 40%,transparent);
 }
-.hdr-meta b{color:var(--drape);font-weight:500}
+.hdr-date{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:11px;font-weight:500;color:var(--muted);white-space:nowrap;
+}
 
-/* ═══════════════ BODY (content-first, top aligned) ═══════════════ */
 .body{
-  flex:1;
-  overflow-y:auto;
-  scrollbar-width:none;
-  padding:16px var(--pad) calc(var(--nav-h) + env(safe-area-inset-bottom,0px) + 18px);
-  position:relative;
-  z-index:2;
+  flex:1;overflow-y:auto;scrollbar-width:none;
+  padding:6px var(--pad) calc(var(--nav-h) + env(safe-area-inset-bottom,0px) + 20px);
+  position:relative;z-index:2;
 }
 .body::-webkit-scrollbar{display:none}
 
-/* ── 證據等級 chip：這頁的招牌。外科醫師掃文獻先看這個 ── */
-.chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}
-
+/* ═══════════════ CHIPS ═══════════════ */
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:13px}
 .chip{
   font-family:'IBM Plex Mono',monospace;
-  font-size:10px;
-  font-weight:500;
-  letter-spacing:.08em;
-  padding:5px 9px 4px;
-  border-radius:3px;
-  line-height:1;
-  white-space:nowrap;
+  font-size:10px;font-weight:700;letter-spacing:.04em;
+  padding:5px 10px 4px;border-radius:20px;line-height:1;white-space:nowrap;
+  display:inline-flex;align-items:center;gap:5px;
 }
-/* 證據等級用實心底 —— 視覺上最重 */
-.chip-ev{
-  background:var(--drape);
-  color:var(--ink-900);
-  font-weight:500;
-}
-/* 證據等級較弱的用空心，誠實一點 */
-.chip-ev.weak{
-  background:transparent;
-  color:var(--drape);
-  box-shadow:inset 0 0 0 1px var(--drape-deep);
-}
-.chip-j{
-  background:transparent;
-  color:var(--film);
-  box-shadow:inset 0 0 0 1px var(--line);
-}
+.chip-ev{background:var(--a);color:#fff}
+.chip-ev.weak{background:#fff;color:var(--a);box-shadow:inset 0 0 0 1.5px var(--a)}
 
-/* ── 標題：中文優先 ── */
+/* 評分：語意色，固定 */
+.chip-score i{font-style:normal;opacity:.65;font-size:9px}
+.chip-score.hi {background:var(--good);color:#fff}
+.chip-score.mid{background:var(--mid); color:#fff}
+.chip-score.lo {background:var(--bad);  color:#fff}
+
+.chip-rel.hi {background:rgba(59,52,64,.10);color:var(--ink)}
+.chip-rel.mid{background:rgba(59,52,64,.05);color:var(--muted)}
+.chip-rel.lo {background:rgba(59,52,64,.03);color:var(--dim);opacity:.7}
+
+.chip-nov.hi   {background:#fff;color:#3B7FA6;box-shadow:inset 0 0 0 1.5px #9CCBE4}
+.chip-nov.mid  {background:rgba(59,52,64,.05);color:var(--muted)}
+.chip-nov.early{background:#fff;color:#7B5EA8;box-shadow:inset 0 0 0 1.5px #C0AEDD}
+.chip-nov.neg  {background:rgba(59,52,64,.05);color:var(--dim)}
+
+.chip-j{background:rgba(255,255,255,.75);color:var(--muted)}
+.jif{font-weight:800;color:var(--a);padding-left:6px;border-left:1px solid var(--line)}
+.chip-j.hi{background:#fff;color:var(--ink);box-shadow:inset 0 0 0 1.5px var(--a)}
+
+/* ═══════════════ 標題 ═══════════════ */
 .title-zh{
-  font-family:'Noto Serif TC',serif;
-  font-weight:700;
-  font-size:clamp(19px,4.6vw,23px);
-  line-height:1.5;
-  letter-spacing:.01em;
-  color:#fff;
-  margin-bottom:8px;
-  text-wrap:pretty;
+  font-family:'Noto Serif TC',serif;font-weight:700;
+  font-size:clamp(20px,5vw,25px);line-height:1.45;
+  color:#2A2430;margin-bottom:7px;text-wrap:pretty;
 }
 .title-en{
-  font-size:12px;
-  line-height:1.55;
-  color:var(--film-dim);
-  display:-webkit-box;
-  -webkit-line-clamp:2;
-  -webkit-box-orient:vertical;
-  overflow:hidden;
-  margin-bottom:8px;
-  text-wrap:pretty;
+  font-size:12px;line-height:1.55;color:var(--dim);
+  margin-bottom:6px;font-style:italic;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
 }
 .byline{
-  font-family:'IBM Plex Mono',monospace;
-  font-size:11px;
-  color:var(--film-dim);
-  padding-bottom:11px;
-  border-bottom:1px solid var(--line);
-  margin-bottom:13px;
+  font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:var(--dim);
+  padding-bottom:13px;margin-bottom:13px;border-bottom:1px solid var(--line-soft);
 }
 
-/* ── 分節：用細規線與 eyebrow，不用色塊卡片（那太重了） ── */
-.sec{margin-bottom:13px}
-.sec:last-of-type{margin-bottom:12px}
+/* ═══════════════ 一句話結論 ═══════════════ */
+.sec{margin-bottom:12px}
+.oneliner{
+  font-size:15px;line-height:1.8;font-weight:500;color:#2A2430;
+  padding:15px 16px;border-radius:16px;
+  background:#fff;
+  border-left:4px solid var(--a);
+  box-shadow:0 4px 16px color-mix(in srgb,var(--a) 14%,transparent);
+}
+.score-why{
+  margin-top:7px;padding:0 4px;
+  font-size:11px;line-height:1.6;color:var(--dim);
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
+}
 
+/* ═══════════════ 明天可以怎麼做 ═══════════════ */
+.action{
+  border-radius:16px;padding:13px 15px;
+  background:#FFF9E8;
+  border:1.5px solid #F0D07A;
+  box-shadow:0 4px 14px rgba(201,130,30,.10);
+}
+.action-mark{
+  display:inline-block;
+  font-family:'IBM Plex Mono',monospace;
+  font-size:9px;font-weight:800;letter-spacing:.1em;
+  color:#fff;background:var(--mid);
+  padding:4px 9px 3px;border-radius:20px;margin-bottom:8px;line-height:1;
+}
+.action p{font-size:14px;line-height:1.75;color:#6B4A11;font-weight:500}
+
+/* ═══════════════ 條列 ═══════════════ */
 .eyebrow{
-  display:flex;
-  align-items:center;
-  gap:8px;
+  display:flex;align-items:center;gap:8px;
   font-family:'IBM Plex Mono',monospace;
-  font-size:10px;
-  font-weight:500;
-  letter-spacing:.16em;
-  text-transform:uppercase;
-  color:var(--drape);
-  margin-bottom:7px;
+  font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--a);margin-bottom:8px;
 }
-.eyebrow::after{
-  content:'';
-  flex:1;
-  height:1px;
-  background:var(--line-soft);
-}
-.eyebrow.warm{color:var(--flag)}
+.eyebrow::after{content:'';flex:1;height:1px;background:var(--line-soft)}
+.eyebrow.warm{color:var(--mid)}
 
-/* 中文內文 —— 6 點鐘在昏暗的值班室裡要讀得下去 */
-.prose{
-  font-size:14.5px;
-  line-height:1.85;
-  font-weight:300;
-  color:var(--bone);
-  letter-spacing:.015em;
-  text-wrap:pretty;
-}
-
-/* 完整摘要預設收起 5 行，一張卡才塞得進一個螢幕，
-   上滑才會是「下一篇」而不是「摘要往下捲」 */
-.prose.clamped{
-  display:-webkit-box;
-  -webkit-line-clamp:4;
-  -webkit-box-orient:vertical;
-  overflow:hidden;
-  position:relative;
-}
-.more{
-  margin-top:9px;
-  font-family:'IBM Plex Mono',monospace;
-  font-size:11px;
-  letter-spacing:.06em;
-  color:var(--drape);
-  background:none;
-  border:none;
-  padding:3px 0;
-  cursor:pointer;
-  display:inline-flex;
-  align-items:center;
-  gap:5px;
-}
-.more:hover{color:#6fe3c4}
-.more:focus-visible{outline:2px solid var(--drape);outline-offset:2px;border-radius:3px}
-.more svg{width:11px;height:11px;transition:transform .2s}
-.more[aria-expanded="true"] svg{transform:rotate(180deg)}
-
-/* ── 重點：條列，可掃讀 ── */
-.points{list-style:none;display:flex;flex-direction:column;gap:6px}
+.points{list-style:none;display:flex;flex-direction:column;gap:7px}
 .points li{
-  position:relative;
-  padding-left:17px;
-  font-size:13.5px;
-  line-height:1.68;
-  font-weight:400;
-  color:var(--bone);
+  position:relative;padding-left:17px;
+  font-size:13.5px;line-height:1.7;color:var(--ink);
 }
 .points li::before{
-  content:'';
-  position:absolute;
-  left:0;
-  top:.72em;
-  width:7px;
-  height:2px;
-  background:var(--drape);
+  content:'';position:absolute;left:0;top:.6em;
+  width:7px;height:7px;border-radius:50%;background:var(--a);
 }
+.points.warn li::before{background:var(--mid);border-radius:2px;height:3px;width:9px;top:.78em}
+.points.warn li{color:#5C4A2E}
 
-/* ── 臨床意義：唯一的暖色區塊 ── */
-.impact{
-  border-left:2px solid var(--flag);
-  padding-left:15px;
-  font-size:14px;
-  line-height:1.78;
-  font-weight:300;
-  color:#f0e6d8;
+.unass{
+  font-size:11px;line-height:1.65;color:var(--muted);
+  background:rgba(255,255,255,.7);
+  border-radius:12px;padding:9px 12px;margin-bottom:10px;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
 }
+.unass b{color:var(--dim);font-weight:800;font-size:9.5px;letter-spacing:.06em;margin-right:6px}
 
-/* ── 動作列 ── */
+/* ═══════════════ 折疊 ═══════════════ */
+.acc{
+  border:1px solid var(--line);border-radius:14px;
+  margin-bottom:10px;overflow:hidden;background:rgba(255,255,255,.6);
+}
+.acc summary{
+  list-style:none;cursor:pointer;display:flex;align-items:center;gap:8px;
+  padding:12px 14px;
+  font-family:'IBM Plex Mono',monospace;
+  font-size:11px;font-weight:700;letter-spacing:.05em;color:var(--a);user-select:none;
+}
+.acc summary::-webkit-details-marker{display:none}
+.acc summary:hover{background:#fff}
+.acc summary:focus-visible{outline:2px solid var(--a);outline-offset:-2px}
+.acc summary svg{width:12px;height:12px;transition:transform .2s;flex:none}
+.acc[open] summary svg{transform:rotate(180deg)}
+.acc[open] summary{border-bottom:1px solid var(--line-soft)}
+.acc-in{padding:15px 14px;background:#fff}
+
+.pico{width:100%;border-collapse:collapse;margin-bottom:14px}
+.pico th{
+  width:24px;text-align:left;vertical-align:top;
+  font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:800;color:var(--a);
+  padding:7px 8px 7px 0;border-bottom:1px solid var(--line-soft);
+}
+.pico td{
+  font-size:13px;line-height:1.7;color:var(--ink);font-weight:400;
+  padding:7px 0;border-bottom:1px solid var(--line-soft);
+}
+.pico tr:last-child th,.pico tr:last-child td{border-bottom:none}
+.prose{font-size:13.5px;line-height:1.9;color:var(--ink);font-weight:400}
+
+/* ═══════════════ 動作列 ═══════════════ */
 .acts{
-  display:flex;
-  align-items:center;
-  gap:8px;
-  padding-top:14px;
-  border-top:1px solid var(--line);
+  display:flex;align-items:center;gap:7px;
+  padding-top:13px;border-top:1px solid var(--line-soft);flex-wrap:wrap;
 }
 .btn{
-  display:inline-flex;
-  align-items:center;
-  gap:6px;
+  display:inline-flex;align-items:center;gap:6px;
   font-family:'IBM Plex Mono',monospace;
-  font-size:11.5px;
-  font-weight:500;
-  letter-spacing:.04em;
-  padding:9px 13px;
-  border-radius:4px;
-  border:1px solid var(--line);
-  background:transparent;
-  color:var(--film);
-  cursor:pointer;
-  text-decoration:none;
-  transition:color .15s,border-color .15s,background .15s;
+  font-size:11px;font-weight:700;letter-spacing:.03em;
+  padding:9px 14px;border-radius:20px;
+  border:1px solid var(--line);background:#fff;color:var(--muted);
+  cursor:pointer;text-decoration:none;transition:all .15s;
 }
-.btn:hover{color:var(--drape);border-color:var(--drape-deep);background:var(--drape-wash)}
-.btn:focus-visible{outline:2px solid var(--drape);outline-offset:2px}
+.btn:hover{color:#fff;background:var(--a);border-color:var(--a)}
+.btn:focus-visible{outline:2px solid var(--a);outline-offset:2px}
 .btn svg{width:13px;height:13px;flex:none}
-.pmid{
-  margin-left:auto;
-  font-family:'IBM Plex Mono',monospace;
-  font-size:10px;
-  color:var(--film-dim);
-  letter-spacing:.04em;
-}
-
-/* ═══════════════ 進度軌（右側，顯示今天還剩幾篇） ═══════════════ */
-#rail{
-  position:fixed;
-  right:6px;
-  top:50%;
-  transform:translateY(-50%);
-  display:flex;
-  flex-direction:column;
-  gap:4px;
-  z-index:50;
-  pointer-events:none;
-}
-.tick{
-  width:2px;
-  height:9px;
-  border-radius:1px;
-  background:rgba(150,190,200,.2);
-  transition:background .25s,height .25s;
-}
-.tick.on{background:var(--drape);height:20px}
+.pmid{margin-left:auto;font-family:'IBM Plex Mono',monospace;font-size:9.5px;color:var(--dim)}
 
 /* ═══════════════ NAV ═══════════════ */
 #nav{
-  position:fixed;
-  bottom:0;left:0;right:0;
+  position:fixed;bottom:0;left:0;right:0;
   height:calc(var(--nav-h) + env(safe-area-inset-bottom,0px));
   padding-bottom:env(safe-area-inset-bottom,0px);
-  background:rgba(7,13,16,.9);
+  background:rgba(255,255,255,.86);
   backdrop-filter:blur(20px) saturate(1.4);
   -webkit-backdrop-filter:blur(20px) saturate(1.4);
   border-top:1px solid var(--line);
-  display:flex;
-  align-items:center;
-  z-index:100;
+  display:flex;align-items:center;z-index:100;
 }
 .nav-btn{
-  flex:1;
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  gap:3px;
-  padding:7px 0;
-  background:none;border:none;
-  font-family:'Noto Sans TC',sans-serif;
-  font-size:10px;
-  font-weight:500;
-  color:var(--film-dim);
-  cursor:pointer;
-  transition:color .15s;
+  flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;
+  padding:8px 0;background:none;border:none;
+  font-family:'Noto Sans TC',sans-serif;font-size:10px;font-weight:600;
+  color:var(--dim);cursor:pointer;transition:color .15s;
 }
-.nav-btn.on{color:var(--drape)}
-.nav-btn:focus-visible{outline:2px solid var(--drape);outline-offset:-2px;border-radius:4px}
+.nav-btn.on{color:#E87BAE}
+.nav-btn:focus-visible{outline:2px solid #E87BAE;outline-offset:-2px;border-radius:6px}
 .nav-btn svg{width:21px;height:21px}
 
 /* ═══════════════ 日期抽屜 ═══════════════ */
 #sheet{
-  position:fixed;
-  left:0;right:0;
+  position:fixed;left:0;right:0;
   bottom:calc(var(--nav-h) + env(safe-area-inset-bottom,0px));
-  background:var(--ink-700);
-  border-top:1px solid var(--line);
-  border-radius:14px 14px 0 0;
-  padding:18px var(--pad) 22px;
-  z-index:90;
-  transform:translateY(105%);
-  transition:transform .32s cubic-bezier(.32,.72,0,1);
-  max-height:58vh;
-  overflow-y:auto;
-  box-shadow:0 -20px 50px rgba(0,0,0,.5);
+  background:#fff;border-top:1px solid var(--line);
+  border-radius:24px 24px 0 0;
+  padding:14px var(--pad) 20px;z-index:90;
+  transform:translateY(102%);
+  transition:transform .34s cubic-bezier(.32,.72,0,1);
+  max-height:62vh;overflow-y:auto;
+  box-shadow:0 -18px 50px rgba(59,52,64,.14);
 }
 #sheet.open{transform:translateY(0)}
+.sheet-grip{width:38px;height:4px;border-radius:4px;background:var(--line);margin:0 auto 14px}
 .sheet-hd{
   font-family:'IBM Plex Mono',monospace;
-  font-size:10px;
-  letter-spacing:.16em;
-  text-transform:uppercase;
-  color:var(--film-dim);
-  margin-bottom:14px;
+  font-size:10px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--dim);margin-bottom:11px;
 }
 .day{
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  width:100%;
-  padding:13px 14px;
+  display:flex;align-items:center;justify-content:space-between;width:100%;
+  padding:13px 15px;margin-bottom:7px;border-radius:14px;
+  border:1.5px solid var(--line-soft);background:#FBF7F4;color:var(--ink);
+  cursor:pointer;font-family:inherit;text-align:left;transition:all .15s;
+}
+.day:hover{border-color:#E87BAE;background:#FFF0F6}
+.day:focus-visible{outline:2px solid #E87BAE;outline-offset:1px}
+.day.on{border-color:#E87BAE;background:#FFE7EF}
+.day-l{font-family:'IBM Plex Mono',monospace;font-size:14px;font-weight:600}
+.day-r{
+  font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:700;
+  color:#fff;background:#E87BAE;padding:3px 10px 2px;border-radius:20px;line-height:1;
+}
+.day:not(.on) .day-r{background:rgba(59,52,64,.12);color:var(--muted)}
+
+/* ═══════════════ 捲到底 ═══════════════ */
+#sentinel{min-height:1px}
+.tail{
+  height:56vh;display:flex;flex-direction:column;align-items:center;justify-content:center;
+  gap:9px;text-align:center;background:var(--paper);
+}
+.tail-dot{
+  width:36px;height:36px;border-radius:50%;
+  background:linear-gradient(135deg,#FFD1DC,#AFEEEE,#FDFD96);
   margin-bottom:6px;
-  border-radius:6px;
-  border:1px solid var(--line-soft);
-  background:transparent;
-  color:var(--bone);
-  cursor:pointer;
-  font-family:inherit;
-  text-align:left;
-  transition:border-color .15s,background .15s;
+  box-shadow:0 6px 20px rgba(232,123,174,.28);
 }
-.day:hover{border-color:var(--drape-deep);background:var(--drape-wash)}
-.day:focus-visible{outline:2px solid var(--drape);outline-offset:1px}
-.day.on{border-color:var(--drape);background:var(--drape-wash)}
-.day-d{font-family:'IBM Plex Mono',monospace;font-size:14px;letter-spacing:.03em}
-.day-n{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--drape)}
-.day.on .day-n{color:var(--drape)}
+.tail p{font-size:13.5px;color:var(--muted)}
+.tail-sub{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--dim)}
 
-/* ═══════════════ 狀態畫面 ═══════════════ */
+/* ═══════════════ 狀態 ═══════════════ */
 .state{
-  height:100dvh;
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  justify-content:center;
-  text-align:center;
-  padding:40px 32px calc(var(--nav-h) + 40px);
-  gap:14px;
+  height:100dvh;display:flex;flex-direction:column;align-items:center;justify-content:center;
+  text-align:center;padding:40px 32px calc(var(--nav-h) + 40px);gap:12px;background:var(--paper);
 }
-.state h2{
-  font-family:'Noto Serif TC',serif;
-  font-weight:700;
-  font-size:20px;
-  color:var(--bone);
-}
-.state p{font-size:13.5px;line-height:1.9;color:var(--film-dim);max-width:30ch}
+.state h2{font-family:'Noto Serif TC',serif;font-weight:700;font-size:20px}
+.state p{font-size:13.5px;line-height:1.85;color:var(--muted);max-width:30ch}
 .state .mark{
-  width:34px;height:34px;
-  border:1px solid var(--line);
-  border-radius:50%;
-  display:grid;place-items:center;
-  color:var(--film-dim);
-  margin-bottom:4px;
+  width:48px;height:48px;border-radius:50%;
+  background:linear-gradient(135deg,#FFD1DC,#C8A2C8);
+  display:grid;place-items:center;color:#fff;margin-bottom:6px;
+  box-shadow:0 6px 20px rgba(200,162,200,.3);
 }
-
-/* 骨架屏 */
-.skel{padding:20px var(--pad)}
-.sk{height:13px;border-radius:3px;background:var(--ink-600);margin-bottom:11px;animation:pulse 1.6s ease-in-out infinite}
-.sk.t{height:24px;width:88%;margin-bottom:16px}
-.sk.w70{width:70%}.sk.w85{width:85%}.sk.w50{width:50%}
-@keyframes pulse{0%,100%{opacity:.45}50%{opacity:.9}}
 
 /* ═══════════════ 開場 ═══════════════ */
 #boot{
-  position:fixed;inset:0;
-  background:var(--ink-900);
-  display:grid;place-items:center;
-  z-index:999;
-  transition:opacity .45s ease;
+  position:fixed;inset:0;background:var(--paper);
+  display:grid;place-items:center;z-index:999;transition:opacity .45s ease;
 }
 #boot.gone{opacity:0;pointer-events:none}
-.boot-in{display:flex;flex-direction:column;align-items:center;gap:16px}
+.boot-in{display:flex;flex-direction:column;align-items:center;gap:18px}
 .boot-mark{
-  font-family:'Noto Serif TC',serif;
-  font-weight:900;
-  font-size:38px;
-  letter-spacing:1px;
-  color:#fff;
+  font-family:'Noto Serif TC',serif;font-weight:900;font-size:40px;letter-spacing:1px;
+  background:linear-gradient(100deg,#E87BAE,#9E86C9,#6FB4DC);
+  -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
 }
-.boot-mark em{font-style:normal;color:var(--drape)}
-.boot-line{
-  width:52px;height:1px;
-  background:var(--drape);
-  transform-origin:center;
-  animation:sweep 1.3s ease-in-out infinite;
+.boot-bar{
+  width:64px;height:4px;border-radius:4px;
+  background:linear-gradient(90deg,#FFD1DC,#FDFD96,#AFEEEE);
+  animation:sweep 1.2s ease-in-out infinite;
 }
-@keyframes sweep{0%,100%{transform:scaleX(.25);opacity:.4}50%{transform:scaleX(1);opacity:1}}
+@keyframes sweep{0%,100%{transform:scaleX(.2);opacity:.5}50%{transform:scaleX(1);opacity:1}}
 .boot-sub{
   font-family:'IBM Plex Mono',monospace;
-  font-size:9.5px;
-  letter-spacing:.28em;
-  color:var(--film-dim);
-  text-transform:uppercase;
+  font-size:9.5px;letter-spacing:.26em;text-transform:uppercase;color:var(--dim);
 }
 
-/* ── 期刊 chip 上的 Impact Factor ── */
-.chip-j{display:inline-flex;align-items:center;gap:6px}
-.jif{
-  font-weight:500;
-  color:var(--drape);
-  letter-spacing:.02em;
-  padding-left:6px;
-  border-left:1px solid var(--line);
-}
-/* 高分期刊（IF ≥ 10）整顆 chip 亮起來 */
-.chip-j.hi{
-  color:var(--bone);
-  box-shadow:inset 0 0 0 1px var(--drape-deep);
-  background:var(--drape-wash);
-}
-.chip-j.hi .jif{color:var(--drape);border-left-color:var(--drape-deep)}
-
-/* ── 換日標記 ── */
-.newday{
-  font-family:'IBM Plex Mono',monospace;
-  font-size:9px;
-  letter-spacing:.1em;
-  color:var(--ink-900);
-  background:var(--drape);
-  padding:3px 7px 2px;
-  border-radius:3px;
-  line-height:1;
-}
-
-/* ── 捲到底 ── */
-#sentinel{min-height:1px}
-.tail{
-  height:60vh;
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  justify-content:center;
-  gap:10px;
-  text-align:center;
-  background:var(--ink-900);
-}
-.tail-line{width:34px;height:1px;background:var(--line);margin-bottom:6px}
-.tail p{font-size:13.5px;color:var(--film-dim)}
-.tail-sub{
-  font-family:'IBM Plex Mono',monospace;
-  font-size:11px;
-  color:var(--film-dim);
-  opacity:.6;
-}
-
-/* ── 判讀標籤 ── */
-.chip-score{font-weight:600;letter-spacing:.04em}
-.chip-score i{font-style:normal;opacity:.55;font-size:9px;margin-left:1px}
-.chip-score.hi { background:var(--drape); color:var(--ink-900); }
-.chip-score.mid{ background:rgba(232,165,82,.16); color:var(--flag);
-                 box-shadow:inset 0 0 0 1px rgba(232,165,82,.4); }
-.chip-score.lo { background:rgba(255,120,110,.13); color:#ff8a80;
-                 box-shadow:inset 0 0 0 1px rgba(255,120,110,.35); }
-
-/* 相關性：低相關的整顆暗掉，讓你一眼想滑過去 */
-.chip-rel.hi { color:var(--drape); box-shadow:inset 0 0 0 1px var(--drape-deep); background:var(--drape-wash); }
-.chip-rel.mid{ color:var(--film); box-shadow:inset 0 0 0 1px var(--line); }
-.chip-rel.lo { color:var(--film-dim); box-shadow:inset 0 0 0 1px var(--line-soft); opacity:.6; }
-
-/* 新穎度 */
-.chip-nov.hi   { color:#7ee0ff; box-shadow:inset 0 0 0 1px rgba(126,224,255,.35); background:rgba(126,224,255,.08); }
-.chip-nov.mid  { color:var(--film); box-shadow:inset 0 0 0 1px var(--line); }
-.chip-nov.early{ color:#c89bff; box-shadow:inset 0 0 0 1px rgba(200,155,255,.3); background:rgba(200,155,255,.07); }
-.chip-nov.neg  { color:var(--film-dim); box-shadow:inset 0 0 0 1px var(--line); }
-
-/* ── 一句話結論 ── */
-.oneliner{
-  font-size:15px;
-  line-height:1.8;
-  color:#fff;
-  font-weight:400;
-  padding-left:13px;
-  border-left:2px solid var(--drape);
-}
-.score-why{
-  margin-top:6px;
-  padding-left:15px;
-  font-size:11px;
-  line-height:1.55;
-  color:var(--film-dim);
-  display:-webkit-box;
-  -webkit-line-clamp:2;
-  -webkit-box-orient:vertical;
-  overflow:hidden;
-}
-
-/* ── 明天可以怎麼做：整張卡的行動點 ── */
-.action{
-  border:1px solid rgba(232,165,82,.3);
-  background:linear-gradient(135deg, rgba(232,165,82,.11), rgba(232,165,82,.03));
-  border-radius:10px;
-  padding:11px 13px;
-}
-.action-mark{
-  display:block;
-  font-family:'IBM Plex Mono',monospace;
-  font-size:9.5px;
-  letter-spacing:.14em;
-  color:var(--flag);
-  margin-bottom:5px;
-  font-weight:600;
-}
-.action p{
-  font-size:14px;
-  line-height:1.75;
-  color:#f6ead9;
-  font-weight:400;
-}
-
-/* ── 要小心：暖色條列 ── */
-.points.warn li::before{background:var(--flag)}
-.points.warn li{color:#f2e5d2}
-
-/* ── 摘要沒寫：一行帶過 ── */
-.unass{
-  font-size:11px;
-  line-height:1.6;
-  color:var(--film-dim);
-  background:rgba(255,255,255,.025);
-  border-left:2px solid var(--line);
-  border-radius:0 6px 6px 0;
-  padding:7px 11px;
-  margin-bottom:10px;
-  display:-webkit-box;
-  -webkit-line-clamp:2;
-  -webkit-box-orient:vertical;
-  overflow:hidden;
-}
-.unass b{
-  color:var(--film);font-weight:600;
-  font-size:10px;letter-spacing:.06em;
-  margin-right:5px;
-}
-
-/* ── 折疊區 ── */
-.acc{
-  border:1px solid var(--line);
-  border-radius:10px;
-  margin-bottom:10px;
-  overflow:hidden;
-  background:rgba(255,255,255,.02);
-}
-.acc summary{
-  list-style:none;
-  cursor:pointer;
-  display:flex;
-  align-items:center;
-  gap:8px;
-  padding:12px 14px;
-  font-family:'IBM Plex Mono',monospace;
-  font-size:11.5px;
-  letter-spacing:.05em;
-  color:var(--drape);
-  user-select:none;
-}
-.acc summary::-webkit-details-marker{display:none}
-.acc summary:hover{background:var(--drape-wash)}
-.acc summary:focus-visible{outline:2px solid var(--drape);outline-offset:-2px}
-.acc summary svg{width:12px;height:12px;transition:transform .2s;flex:none}
-.acc[open] summary svg{transform:rotate(180deg)}
-.acc[open] summary{border-bottom:1px solid var(--line)}
-.acc-in{padding:15px 14px}
-
-/* PICO 表 */
-.pico{width:100%;border-collapse:collapse;margin-bottom:16px}
-.pico th{
-  width:24px;text-align:left;vertical-align:top;
-  font-family:'IBM Plex Mono',monospace;
-  font-size:12px;font-weight:600;color:var(--drape);
-  padding:7px 8px 7px 0;
-  border-bottom:1px solid var(--line-soft);
-}
-.pico td{
-  font-size:13px;line-height:1.75;color:var(--bone);font-weight:300;
-  padding:7px 0;border-bottom:1px solid var(--line-soft);
-}
-.pico tr:last-child th,.pico tr:last-child td{border-bottom:none}
-
-/* 桌機：把卡片收成一欄，別把行長拉到 1900px */
 @media (min-width:760px){
-  .body{max-width:720px;margin:0 auto;width:100%}
-  .hdr{max-width:720px;margin:0 auto;width:100%}
-  .prose,.points li,.impact{font-size:15.5px}
+  .body,.hdr{max-width:700px;margin:0 auto;width:100%}
+  .points li,.prose{font-size:14.5px}
 }
 </style>
 </head>
@@ -696,185 +394,176 @@ html,body{
 
 <div id="boot">
   <div class="boot-in">
-    <div class="boot-mark">腸嚐<em>新知</em></div>
-    <div class="boot-line"></div>
+    <div class="boot-mark">腸嚐新知</div>
+    <div class="boot-bar"></div>
     <div class="boot-sub">Colorectal Digest</div>
   </div>
 </div>
 
 <main id="feed" aria-live="polite"></main>
 
-
 <nav id="nav">
-  <button class="nav-btn on" onclick="goTop()">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-    回到最新
+  <button class="nav-btn on" id="nb-home" onclick="goLatest()">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+    最新
+  </button>
+  <button class="nav-btn" id="nb-date" onclick="toggleSheet()" aria-expanded="false" aria-controls="sheet">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>
+    日期
   </button>
   <button class="nav-btn" onclick="hardRefresh()">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 12a9 9 0 1 1-2.64-6.36"/><path d="M21 3v6h-6"/></svg>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M21 12a9 9 0 1 1-2.64-6.36"/><path d="M21 3v6h-6"/></svg>
     更新
   </button>
 </nav>
 
+<div id="sheet" role="dialog" aria-label="選擇日期">
+  <div class="sheet-grip"></div>
+  <div class="sheet-hd">跳到某一天</div>
+  <div id="days"></div>
+</div>
+
 <script>
-/* ═══════════════ 設定 ═══════════════ */
 const DATA = './data';
 
-/* ═══════════════ 狀態 ═══════════════ */
-let days = [];          // [{date, count}]  newest first
-let loaded = 0;         // 已載入幾天
-let papers = [];        // 已載入的所有論文（依序）
-let loading = false;
-let done = false;
+let days = [];        // [{date,count}] 新到舊
+let startIdx = 0;     // 這次從第幾天開始載
+let loaded = 0;       // 已載到第幾天
+let papers = [];
+let loading = false, done = false, sheetOpen = false;
 
 const WEAK = ['回溯性研究','病例系列','綜述','其他'];
 
-/* ═══════════════ 啟動 ═══════════════ */
+/* ─────────── 啟動 ─────────── */
 async function boot(){
   try{
     const r = await fetch(`${DATA}/index.json?v=${Date.now()}`);
     if(!r.ok) throw 0;
     days = await r.json();
     if(!days.length){
-      state('還沒有資料','跑一次收集腳本，或到 GitHub Actions 手動觸發「每日文獻收集」。');
+      state('還沒有資料','到 GitHub Actions 觸發「每日文獻收集」或「回補歷史文獻」。');
       return;
     }
-    document.getElementById('feed').innerHTML = '';
-    await loadMore();      // 先載第一天
-    await loadMore();      // 預先載第二天，捲動才順
-    setupSentinel();
+    renderDays();
+    await startFrom(0);
   }catch{
     state('連不上資料','確認 data/index.json 已推上 GitHub Pages。');
   }
-  setTimeout(()=>document.getElementById('boot').classList.add('gone'), 700);
+  setTimeout(()=>document.getElementById('boot').classList.add('gone'), 650);
 }
 
-/* ═══════════════ 逐日載入 ═══════════════ */
+/* ─────────── 從第 n 天開始（日期跳轉用） ─────────── */
+async function startFrom(n){
+  startIdx = n;
+  loaded = n;
+  papers = [];
+  done = false;
+  const feed = document.getElementById('feed');
+  feed.innerHTML = '<div id="sentinel"></div>';
+  await loadMore();
+  await loadMore();
+  setupSentinel();
+  feed.scrollTop = 0;
+  renderDays();
+}
+
+/* ─────────── 逐日載入 ─────────── */
 async function loadMore(){
   if(loading || done) return;
   if(loaded >= days.length){ done = true; showEnd(); return; }
 
   loading = true;
   const d = days[loaded];
-
   try{
     const r = await fetch(`${DATA}/${d.date}.json?v=${Date.now()}`);
     if(r.ok){
       const data = await r.json();
-      const batch = (data.papers || []).map(p => ({...p, _date: d.date}));
+      const batch = (data.papers||[]).map(p=>({...p,_date:d.date}));
       if(batch.length){
-        const startIdx = papers.length;
+        const s = papers.length;
         papers = papers.concat(batch);
-        appendCards(batch, startIdx);
+        appendCards(batch, s);
       }
     }
-  }catch{ /* 這天讀不到就跳過，繼續下一天 */ }
-
+  }catch{}
   loaded++;
   loading = false;
 
-  // 如果這天是空的，自動再抓下一天，避免卡住
-  if(papers.length === 0 && loaded < days.length){
-    await loadMore();
-  }
+  if(papers.length === 0 && loaded < days.length) await loadMore();
 }
 
-function appendCards(batch, startIdx){
-  const feed = document.getElementById('feed');
+function appendCards(batch, start){
   const html = batch.map((p,i)=>{
-    // 這批的第一篇，而且和前一篇不同天 → 標示新的一天
-    const prev = papers[startIdx + i - 1];
-    const newDay = !prev || prev._date !== p._date;
-    return card(p, startIdx + i, newDay);
+    const prev = papers[start + i - 1];
+    return card(p, start + i, !prev || prev._date !== p._date);
   }).join('');
-  const sentinel = document.getElementById('sentinel');
-  if(sentinel) sentinel.insertAdjacentHTML('beforebegin', html);
-  else feed.insertAdjacentHTML('beforeend', html);
+  const s = document.getElementById('sentinel');
+  if(s) s.insertAdjacentHTML('beforebegin', html);
 }
 
-/* ═══════════════ 無限捲動哨兵 ═══════════════ */
 function setupSentinel(){
   const feed = document.getElementById('feed');
-  if(!document.getElementById('sentinel')){
-    feed.insertAdjacentHTML('beforeend','<div id="sentinel"></div>');
-  }
-  const io = new IntersectionObserver(es=>{
+  const s = document.getElementById('sentinel');
+  if(!s) return;
+  new IntersectionObserver(es=>{
     if(es[0].isIntersecting) loadMore();
-  }, {root: feed, rootMargin: '600px'});
-  io.observe(document.getElementById('sentinel'));
+  },{root:feed, rootMargin:'700px'}).observe(s);
 }
 
 function showEnd(){
   const s = document.getElementById('sentinel');
   if(s && !s.dataset.done){
     s.dataset.done = '1';
+    const nDays = days.length - startIdx;
     s.innerHTML = `<div class="tail">
-      <div class="tail-line"></div>
+      <div class="tail-dot"></div>
       <p>已經到最早的文獻了</p>
-      <p class="tail-sub">共 ${papers.length} 篇 · ${days.length} 天</p>
+      <p class="tail-sub">共 ${papers.length} 篇 · ${nDays} 天</p>
     </div>`;
   }
 }
 
-/* ═══════════════ 卡片 ═══════════════ */
+/* ─────────── 卡片 ─────────── */
 function card(p, i, newDay){
-  const zh   = p.title_zh || p.title;
-  const en   = p.title_zh ? p.title : '';
-  const ev   = p.evidence_level || '';
+  const zh = p.title_zh || p.title;
+  const en = p.title_zh ? p.title : '';
+  const ev = p.evidence_level || '';
   const weak = WEAK.includes(ev);
-  const jif  = (typeof p.impact_factor === 'number') ? p.impact_factor : null;
-
-  const score  = (typeof p.score === 'number') ? p.score : null;
-  const rel    = p.relevance || '';
-  const nov    = p.novelty || '';
-  const one    = p.one_liner || '';
-  const act    = p.action || '';
-  const nums   = Array.isArray(p.key_numbers) ? p.key_numbers : [];
-  const caut   = Array.isArray(p.cautions) ? p.cautions : [];
-  const unass  = Array.isArray(p.unassessable) ? p.unassessable : [];
-  const pico   = p.pico || {};
-  const abs    = p.abstract_zh || '';
+  const jif = (typeof p.impact_factor === 'number') ? p.impact_factor : null;
+  const score = (typeof p.score === 'number') ? p.score : null;
+  const rel = p.relevance || '', nov = p.novelty || '';
+  const one = p.one_liner || '', act = p.action || '';
+  const nums = Array.isArray(p.key_numbers) ? p.key_numbers : [];
+  const caut = Array.isArray(p.cautions) ? p.cautions : [];
+  const unass = Array.isArray(p.unassessable) ? p.unassessable : [];
+  const pico = p.pico || {}, abs = p.abstract_zh || '';
 
   const who = p.authors
-    ? p.authors.split(',').slice(0,2).join(',').trim() + (p.authors.split(',').length>2 ? ' et al.' : '')
+    ? p.authors.split(',').slice(0,2).join(',').trim() + (p.authors.split(',').length>2?' et al.':'')
     : '';
-  const when = [p.year, p.month].filter(Boolean).join(' ');
-
-  const jChip = p.journal
-    ? '<span class="chip chip-j ' + (jif && jif>=10 ? 'hi' : '') + '">' + esc(p.journal)
-      + (jif !== null ? '<b class="jif">IF ' + jif + '</b>' : '') + '</span>'
-    : '';
-
-  const sChip = (score !== null)
-    ? '<span class="chip chip-score ' + scoreClass(score) + '">評分 ' + score + '<i>/10</i></span>'
-    : '';
-
-  const rChip = rel ? '<span class="chip chip-rel ' + relClass(rel) + '">' + esc(rel) + '</span>' : '';
-  const nChip = nov ? '<span class="chip chip-nov ' + novClass(nov) + '">' + esc(nov) + '</span>' : '';
-
-  // 舊格式資料仍能顯示
+  const when = [p.year,p.month].filter(Boolean).join(' ');
   const legacy = !one && Array.isArray(p.key_points);
 
-  const picoRows = ['P','I','C','O'].filter(k => pico[k])
-    .map(k => '<tr><th>' + k + '</th><td>' + esc(pico[k]) + '</td></tr>').join('');
+  const picoRows = ['P','I','C','O'].filter(k=>pico[k])
+    .map(k=>`<tr><th>${k}</th><td>${esc(pico[k])}</td></tr>`).join('');
 
   return `
 <article class="card" data-i="${i}" data-date="${p._date}">
   <header class="hdr">
     <div class="brand">腸嚐<em>新知</em></div>
-    <div class="hdr-meta">
+    <div class="hdr-r">
       ${newDay ? '<span class="newday">新的一天</span>' : ''}
-      <span>${fmtDay(p._date)}</span>
+      <span class="hdr-date">${fmtDay(p._date)}</span>
     </div>
   </header>
 
   <div class="body">
     <div class="chips">
       ${ev ? `<span class="chip chip-ev ${weak?'weak':''}">${esc(ev)}</span>` : ''}
-      ${sChip}
-      ${rChip}
-      ${nChip}
-      ${jChip}
+      ${score!==null ? `<span class="chip chip-score ${scoreClass(score)}">評分 ${score}<i>/10</i></span>` : ''}
+      ${rel ? `<span class="chip chip-rel ${relClass(rel)}">${esc(rel)}</span>` : ''}
+      ${nov ? `<span class="chip chip-nov ${novClass(nov)}">${esc(nov)}</span>` : ''}
+      ${p.journal ? `<span class="chip chip-j ${jif&&jif>=10?'hi':''}">${esc(p.journal)}${jif!==null?`<b class="jif">IF ${jif}</b>`:''}</span>` : ''}
       ${when ? `<span class="chip chip-j">${esc(when)}</span>` : ''}
     </div>
 
@@ -882,43 +571,34 @@ function card(p, i, newDay){
     ${en ? `<p class="title-en">${esc(en)}</p>` : ''}
     <p class="byline">${esc(who)}</p>
 
-    ${legacy ? legacyBody(p, i) : `
-      ${one ? `
-      <section class="sec">
+    ${legacy ? legacyBody(p,i) : `
+      ${one ? `<section class="sec">
         <p class="oneliner">${esc(one)}</p>
         ${p.score_reason ? `<p class="score-why">${esc(p.score_reason)}</p>` : ''}
       </section>` : ''}
 
-      ${act ? `
-      <section class="sec">
+      ${act ? `<section class="sec">
         <div class="action">
           <span class="action-mark">明天可以怎麼做</span>
           <p>${esc(act)}</p>
         </div>
       </section>` : ''}
 
-      ${nums.length ? `
-      <section class="sec">
+      ${nums.length ? `<section class="sec">
         <div class="eyebrow">關鍵數據</div>
         <ul class="points">${nums.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>
       </section>` : ''}
 
-      ${caut.length ? `
-      <section class="sec">
+      ${caut.length ? `<section class="sec">
         <div class="eyebrow warm">要小心</div>
         <ul class="points warn">${caut.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>
       </section>` : ''}
 
+      ${unass.length ? `<div class="unass"><b>摘要沒寫</b>${esc(unass.join('、'))} → 需查全文</div>` : ''}
 
-      ${unass.length ? `
-      <div class="unass">
-        <b>摘要沒寫</b>${esc(unass.join('、'))} → 需查全文
-      </div>` : ''}
-
-      ${(picoRows || abs) ? `
-      <details class="acc">
+      ${(picoRows||abs) ? `<details class="acc">
         <summary>
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M6 9l6 6 6-6"/></svg>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 9l6 6 6-6"/></svg>
           PICO 與完整摘要中譯
         </summary>
         <div class="acc-in">
@@ -930,15 +610,15 @@ function card(p, i, newDay){
 
     <div class="acts">
       <a class="btn" href="https://pubmed.ncbi.nlm.nih.gov/${p.pmid}/" target="_blank" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6M10 14 21 3"/></svg>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6M10 14 21 3"/></svg>
         PubMed
       </a>
       ${p.doi ? `<a class="btn" href="https://doi.org/${p.doi}" target="_blank" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7"/><path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7"/></svg>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7"/><path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7"/></svg>
         全文
       </a>` : ''}
       <button class="btn" onclick="share(${i})">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 12v7a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-7"/><path d="M16 6l-4-4-4 4M12 2v14"/></svg>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M4 12v7a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-7"/><path d="M16 6l-4-4-4 4M12 2v14"/></svg>
         分享
       </button>
       <span class="pmid">${p.pmid}</span>
@@ -947,51 +627,50 @@ function card(p, i, newDay){
 </article>`;
 }
 
-function relClass(r){
-  if(r === '高度相關') return 'hi';
-  if(r === '低度相關') return 'lo';
-  return 'mid';
-}
+function scoreClass(n){ return n>=8?'hi' : n>=6?'mid' : 'lo'; }
+function relClass(r){ return r==='高度相關'?'hi' : r==='低度相關'?'lo' : 'mid'; }
 function novClass(n){
-  if(n === '可能改變實務') return 'hi';
-  if(n === '仍屬早期')     return 'early';
-  if(n === '結果為陰性')   return 'neg';
-  return 'mid';
+  return n==='可能改變實務'?'hi' : n==='仍屬早期'?'early' : n==='結果為陰性'?'neg' : 'mid';
 }
 
-function scoreClass(n){
-  if(n >= 8) return 'hi';
-  if(n >= 6) return 'mid';
-  return 'lo';
-}
-
-/* 舊格式資料的相容顯示 */
-function legacyBody(p, i){
-  const pts = Array.isArray(p.key_points) ? p.key_points : [];
+function legacyBody(p,i){
+  const pts = Array.isArray(p.key_points)?p.key_points:[];
   return `
-    ${p.abstract_zh ? `<section class="sec"><div class="eyebrow">摘要</div>
-      <p class="prose clamped" id="abs${i}">${esc(p.abstract_zh)}</p>
-      <button class="more" aria-expanded="false" aria-controls="abs${i}" onclick="expand(this)">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M6 9l6 6 6-6"/></svg>
-        <span>展開全文</span>
-      </button></section>` : ''}
-    ${pts.length ? `<section class="sec"><div class="eyebrow">重點</div>
-      <ul class="points">${pts.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></section>` : ''}
-    ${p.impact ? `<section class="sec"><div class="eyebrow warm">臨床意義</div>
-      <p class="impact">${esc(p.impact)}</p></section>` : ''}`;
+    ${p.abstract_zh?`<section class="sec"><div class="eyebrow">摘要</div><p class="prose">${esc(p.abstract_zh)}</p></section>`:''}
+    ${pts.length?`<section class="sec"><div class="eyebrow">重點</div><ul class="points">${pts.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></section>`:''}
+    ${p.impact?`<section class="sec"><div class="eyebrow warm">臨床意義</div><ul class="points warn"><li>${esc(p.impact)}</li></ul></section>`:''}`;
 }
 
-/* ═══════════════ 展開全文 ═══════════════ */
-function expand(btn){
-  const p = document.getElementById(btn.getAttribute('aria-controls'));
-  const nowClamped = p.classList.toggle('clamped');
-  btn.setAttribute('aria-expanded', String(!nowClamped));
-  btn.querySelector('span').textContent = nowClamped ? '展開全文' : '收合';
+/* ─────────── 日期抽屜 ─────────── */
+function renderDays(){
+  const cur = days[startIdx] ? days[startIdx].date : '';
+  document.getElementById('days').innerHTML = days.map((d,n)=>`
+    <button class="day ${d.date===cur?'on':''}" onclick="pickDay(${n})">
+      <span class="day-l">${d.date}</span>
+      <span class="day-r">${d.count} 篇</span>
+    </button>`).join('');
 }
 
-/* ═══════════════ 導覽 ═══════════════ */
-function goTop(){
-  document.getElementById('feed').scrollTo({top:0,behavior:'smooth'});
+async function pickDay(n){
+  toggleSheet(false);
+  await startFrom(n);
+}
+
+function toggleSheet(force){
+  sheetOpen = typeof force==='boolean' ? force : !sheetOpen;
+  document.getElementById('sheet').classList.toggle('open', sheetOpen);
+  document.getElementById('nb-date').classList.toggle('on', sheetOpen);
+  document.getElementById('nb-date').setAttribute('aria-expanded', sheetOpen);
+  document.getElementById('nb-home').classList.toggle('on', !sheetOpen);
+}
+
+async function goLatest(){
+  toggleSheet(false);
+  if(startIdx === 0){
+    document.getElementById('feed').scrollTo({top:0,behavior:'smooth'});
+  }else{
+    await startFrom(0);
+  }
 }
 
 function hardRefresh(){
@@ -999,61 +678,55 @@ function hardRefresh(){
   location.reload();
 }
 
-/* ═══════════════ 分享 ═══════════════ */
+/* ─────────── 分享 ─────────── */
 async function share(i){
   const p = papers[i]; if(!p) return;
-  const pts = (p.key_points||[]).map(x=>'\u00b7 '+x).join('\u000a');
+  const pts = (p.key_numbers||[]).map(x=>'\u00b7 '+x).join('\u000a');
   const text = '\u3010\u8178\u5690\u65b0\u77e5\u3011' + (p.title_zh||p.title)
+    + '\u000a\u000a' + (p.one_liner||'')
     + '\u000a\u000a' + pts
-    + '\u000a\u000a' + (p.impact||'')
+    + '\u000a\u000a' + (p.action||'')
     + '\u000a\u000a' + 'https://pubmed.ncbi.nlm.nih.gov/' + p.pmid + '/';
   if(navigator.share){ try{ await navigator.share({text}); }catch{} }
   else { try{ await navigator.clipboard.writeText(text); alert('\u5df2\u8907\u88fd'); }catch{} }
 }
 
-/* ═══════════════ 小工具 ═══════════════ */
+/* ─────────── 工具 ─────────── */
 function esc(s){
-  return String(s??'').replace(/[&<>"']/g, c => (
-    {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]
-  ));
+  return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 }
-
 function fmtDay(d){
   if(!d) return '';
   const [,m,day] = d.split('-');
   return `${+m}月${+day}日`;
 }
-
-function state(title, msg){
+function state(title,msg){
   document.getElementById('feed').innerHTML = `
     <div class="state">
-      <div class="mark">
-        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
-          <circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16h.01"/>
-        </svg>
-      </div>
+      <div class="mark"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16h.01"/></svg></div>
       <h2>${esc(title)}</h2>
       <p>${esc(msg)}</p>
     </div>`;
   document.getElementById('boot').classList.add('gone');
 }
 
-/* 鍵盤（桌機）：整張卡翻頁 */
 function step(dir){
   const cards = [...document.querySelectorAll('.card')];
   if(!cards.length) return;
   const feed = document.getElementById('feed');
-  const cur  = Math.round(feed.scrollTop / feed.clientHeight);
-  const next = Math.min(Math.max(cur + dir, 0), cards.length - 1);
+  const cur = Math.round(feed.scrollTop / feed.clientHeight);
+  const next = Math.min(Math.max(cur+dir,0), cards.length-1);
   cards[next].scrollIntoView({behavior:'smooth'});
 }
-
 addEventListener('keydown', e=>{
   if(e.key==='ArrowDown'||e.key==='j'){ e.preventDefault(); step(1); }
   if(e.key==='ArrowUp'  ||e.key==='k'){ e.preventDefault(); step(-1); }
+  if(e.key==='Escape' && sheetOpen) toggleSheet(false);
 });
+document.getElementById('feed').addEventListener('touchstart', ()=>{
+  if(sheetOpen) toggleSheet(false);
+}, {passive:true});
 
-/* PWA */
 if('serviceWorker' in navigator){
   addEventListener('load', ()=> navigator.serviceWorker.register('./sw.js').catch(()=>{}));
 }

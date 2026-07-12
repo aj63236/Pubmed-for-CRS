@@ -22,8 +22,10 @@ API_KEY     = os.environ.get("ANTHROPIC_API_KEY", "").strip()
 # claude-opus-4-8   ← 最強但貴一倍
 MODEL       = os.environ.get("MODEL", "").strip() or "claude-sonnet-5"
 DAYS_BACK   = 2      # 抓最近 N 天新上架的論文
-SCAN_LIMIT  = 120    # 每天最多「掃描」幾篇（跟 PubMed 拿資料是免費的）
-MAX_RESULTS = 10     # 每天最多「分析」幾篇（這個才花錢）
+SCAN_LIMIT   = 120   # 每天最多「掃描」幾篇（跟 PubMed 拿資料是免費的）
+MAX_RESULTS  = 10    # 每天取幾篇「高分文章」（付費）
+INCLUDE_REVIEWS = True   # 除了高分文章，是否額外納入當天所有 Review
+REVIEW_LIMIT = 8     # Review 最多幾篇（避免某天暴量燒錢）
 MAX_RETRY   = 3
 
 # 每 1M token 單價（USD）。價格會變，以 Anthropic 官網為準。
@@ -73,6 +75,47 @@ def rank_score(paper):
     return min(jif, IF_CAP) * IF_WEIGHT + best_ptype * PTYPE_MULT
 
 
+def is_review(paper):
+    """narrative review / systematic review 都算。"""
+    return any("review" in pt.lower() for pt in paper.get("ptype_list", []))
+
+
+def select(papers, max_results=None, review_limit=None):
+    """選片：所有 Review（上限 REVIEW_LIMIT）+ 分數最高的 N 篇，去重。
+
+    回傳 (選中的清單, 說明字串)
+    """
+    max_results  = MAX_RESULTS  if max_results  is None else max_results
+    review_limit = REVIEW_LIMIT if review_limit is None else review_limit
+
+    ranked = sorted(papers, key=rank_score, reverse=True)
+
+    chosen, seen = [], set()
+
+    # 1) 高分文章
+    for p in ranked[:max_results]:
+        chosen.append(p)
+        seen.add(p["pmid"])
+    n_top = len(chosen)
+
+    # 2) 額外納入 Review（分數高的優先）
+    n_rev = 0
+    if INCLUDE_REVIEWS:
+        for p in ranked:
+            if n_rev >= review_limit:
+                break
+            if p["pmid"] in seen or not is_review(p):
+                continue
+            chosen.append(p)
+            seen.add(p["pmid"])
+            n_rev += 1
+
+    # 最後整體再依分數排一次，讀起來才順
+    chosen.sort(key=rank_score, reverse=True)
+    note = f"高分 {n_top} 篇" + (f" + 額外 Review {n_rev} 篇" if n_rev else "")
+    return chosen, note
+
+
 def price_of(model):
     for k, v in PRICING.items():
         if model.startswith(k):
@@ -87,24 +130,40 @@ JOURNALS_FILE = ROOT / "journals.json"  # 期刊 Impact Factor 對照表（可�
 
 
 def load_journals():
-    """載入期刊 IF 對照表。查不到的期刊不顯示 IF，不影響其他功能。"""
+    """載入 JCR 對照表。ISSN 比對最可靠，名稱比對只當後備。"""
     try:
         raw = json.loads(JOURNALS_FILE.read_text(encoding="utf-8"))
-        return raw.get("impact_factors", {}), raw.get("_year", "")
+        return raw.get("by_issn", {}), raw.get("by_name", {}), raw.get("_year", "")
     except Exception:
-        return {}, ""
+        return {}, {}, ""
 
 
-IF_TABLE, IF_YEAR = load_journals()
+def _norm_name(n):
+    n = (n or "").lower()
+    n = re.sub(r"\s*:.*$", "", n)          # 砍副標題
+    n = n.replace("&", " and ")
+    n = re.sub(r"[^a-z0-9 ]", " ", n)
+    n = re.sub(r"\b(the|of|for|and|in|a|an|journal)\b", " ", n)
+    return re.sub(r"\s+", " ", n).strip()
 
 
-def lookup_if(journal):
-    """用 PubMed 的 ISOAbbreviation 查 IF。正規化：小寫、去句點、去多餘空白。"""
-    if not journal:
-        return None
-    key = journal.lower().replace(".", "").strip()
-    key = re.sub(r"\s+", " ", key)
-    return IF_TABLE.get(key)
+IF_BY_ISSN, IF_BY_NAME, IF_YEAR = load_journals()
+
+
+def lookup_if(paper):
+    """依序嘗試：ISSN → ISSN-Linking → 期刊全名 → 期刊縮寫。
+    ISSN 最可靠；名稱比對因原始 PDF 雙欄排版錯亂，偶有誤差，所以放後面。"""
+    for issn in (paper.get("issn"), paper.get("issn_linking")):
+        if issn:
+            v = IF_BY_ISSN.get(issn.upper())
+            if v is not None:
+                return v
+    for nm in (paper.get("journal_full"), paper.get("journal")):
+        if nm:
+            v = IF_BY_NAME.get(_norm_name(nm))
+            if v is not None:
+                return v
+    return None
 
 # 大腸直腸外科搜尋策略：核心主題 + 排除雜訊
 PUBMED_QUERY = """
@@ -281,6 +340,9 @@ def parse_xml(xml_text):
         pmid = _t(art, ".//PMID")
         title = _full(art, ".//ArticleTitle").rstrip(".")
         journal = _t(art, ".//Journal/ISOAbbreviation") or _t(art, ".//Journal/Title")
+        journal_full = _t(art, ".//Journal/Title")
+        issn = _t(art, ".//Journal/ISSN")
+        issn_linking = _t(art, ".//MedlineJournalInfo/ISSNLinking")
 
         year = _t(art, ".//PubDate/Year") or _t(art, ".//Year")
         month = _t(art, ".//PubDate/Month")
@@ -324,11 +386,17 @@ def parse_xml(xml_text):
                     authors.append(coll)
 
         if pmid and title and abstract:
-            out.append({
+            rec = {
                 "pmid": pmid,
                 "title": title,
                 "journal": journal,
-                "impact_factor": lookup_if(journal),
+                "journal_full": journal_full,
+                "issn": issn,
+                "issn_linking": issn_linking,
+            }
+            out.append({
+                **rec,
+                "impact_factor": lookup_if(rec),
                 "if_year": IF_YEAR,
                 "year": year,
                 "month": month,
@@ -595,17 +663,17 @@ def main():
     papers = fetch_details(ids)
     log(f"   有摘要可用：{len(papers)} 篇")
 
-    # ── 依「期刊 IF + 研究設計」排序，只把最值得讀的送去 Claude ──
-    if len(papers) > MAX_RESULTS:
-        papers.sort(key=rank_score, reverse=True)
-        log(f"\n🏅 依期刊 IF 與研究設計排序，取前 {MAX_RESULTS} 篇：")
-        for p in papers[:MAX_RESULTS]:
-            jif = p.get("impact_factor")
-            jtag = f"IF {jif}" if jif else "IF ?"
-            log(f"   {rank_score(p):5.1f}  [{jtag:>7}] {p['ptype'][:28]:<28} {p['title'][:40]}")
-        dropped = len(papers) - MAX_RESULTS
-        papers = papers[:MAX_RESULTS]
-        log(f"   （捨棄 {dropped} 篇分數較低的）")
+    # ── 選片：高分文章 + 所有 Review ──
+    total = len(papers)
+    papers, note = select(papers)
+    log(f"\n🏅 選片：{note}（掃了 {total} 篇）")
+    for p in papers:
+        jif = p.get("impact_factor")
+        jtag = f"IF {jif}" if jif else "IF ?"
+        rv = "📖" if is_review(p) else "  "
+        log(f"   {rank_score(p):5.1f} {rv} [{jtag:>8}] {p['ptype'][:26]:<26} {p['title'][:38]}")
+    if total > len(papers):
+        log(f"   （捨棄 {total - len(papers)} 篇）")
 
     cache = load_cache()
     tok_in = tok_out = 0

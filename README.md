@@ -14,25 +14,29 @@
 
 ---
 
-## ⚠️ 關於 Impact Factor（請讀這段）
+## Impact Factor（JCR 2025）
 
-IF 是 **Clarivate JCR 的付費專有資料，沒有免費 API**。
+已載入 **JCR 2025 完整清單**：ISSN 對照 14,339 筆、期刊名對照 16,238 筆。
 
-我查證過，各家免費 IF 網站**數字互相矛盾** —— 同一本 *Diseases of Colon & Rectum*，有網站寫 1.87，有的寫 3.2。原因是有些網站把 Scopus 的 CiteScore 當成 IF 在報，那不是同一個東西。
+原始 PDF 轉檔時把出版社名和 ISSN 的字元交錯在一起（例：`LIPPINCOTT WILLIAMS & W00IL0K3IN-4S932` 其實是 `WILKINS` + `0003-4932`），已用演算法還原。
 
-所以 `journals.json` 裡的數字是**參考值，不是權威值**。
+**查詢順序：ISSN → ISSN-Linking → 期刊全名 → 期刊縮寫。**
+ISSN 最可靠；名稱比對因原始檔雙欄排版錯亂，偶有誤差。
 
-**請用三總的 Web of Science / JCR 帳號核對一次**，把數字改成正確的。五分鐘的事，改完就永遠正確，每年 6 月 JCR 更新時再回來改一次。
+驗證過的關鍵期刊：
 
-```json
-"impact_factors": {
-  "ann surg": 10.1,          ← 改成 JCR 上的正確數字
-  "dis colon rectum": 3.2,
-  ...
-}
-```
+| 期刊 | IF |
+|---|---|
+| Ann Surg | 6.4 |
+| Dis Colon Rectum | 3.7 |
+| Br J Surg | 8.8 |
+| JAMA Surgery | 14.9 |
+| Colorectal Dis | 2.7 |
+| Tech Coloproctol | 2.9 |
+| Gut | 25.7 |
+| Lancet Oncol | 35.9 |
 
-key 用小寫、去句點，對應 PubMed 的期刊縮寫（`Ann Surg`、`Dis Colon Rectum`）。查不到的期刊不顯示 IF，不影響其他功能。
+發現數值不對就直接改 `journals.json` 的 `by_issn`（以 ISSN 為準）。
 
 ---
 
@@ -82,50 +86,32 @@ key 用小寫、去句點，對應 PubMed 的期刊縮寫（`Ann Surg`、`Dis Co
 
 ---
 
-## 選片機制：不是「最新的 10 篇」，是「最值得讀的 10 篇」
+## 選片機制
 
-PubMed 每天有 **60-80 篇**符合條件的大腸直腸相關論文。你不可能每天讀 80 篇，也不該讓系統隨便挑 10 篇給你。
+PubMed 每天有 **60-80 篇**符合條件的論文。流程：
 
-所以流程是：
+1. **掃描當天全部**（跟 PubMed 拿資料**免費**）
+2. **本機排序**（免費）：`分數 = 期刊 IF（上限 25，權重 0.5）+ 研究設計權重 × 2`
+3. **選片**：分數最高的 **10 篇** ＋ **當天所有 Review**（上限 8 篇）
+4. 只把選中的送去 Claude（這步才花錢）
 
-1. **掃描當天全部論文**（跟 PubMed 拿資料是**免費**的，抓 80 篇跟抓 10 篇一樣不用錢）
-2. **本機排序**（也免費）：`分數 = 期刊 IF（上限 25，權重 0.5）+ 研究設計權重 × 2`
-3. **只把分數最高的 10 篇送去 Claude**（這步才花錢）
+### 為什麼研究設計壓過 IF
 
-### 為什麼這樣排
+對外科醫師來說，**一篇 Dis Colon Rectum 的 RCT，比一篇 Lancet 的綜述有用**。所以設計權重（×2）刻意大於 IF 權重（×0.5，且上限 25）。
 
-研究設計的權重刻意壓過期刊 IF —— 因為對外科醫師來說，**一篇 Dis Colon Rectum 的 RCT，比一篇 Lancet 的綜述有用**。
+實測：DCR 的 RCT（25.9 分）勝過 Lancet 的綜述（14.5 分）。
 
-實測排序：
+### Review 為什麼另外撈
 
-| 分數 | 期刊 | 設計 | |
-|---|---|---|---|
-| 36.5 | Lancet (IF 98) | RCT | ✅ |
-| 29.1 | Ann Surg (IF 10) | RCT | ✅ |
-| 28.3 | Br J Surg (IF 8.6) | Meta-Analysis | ✅ |
-| **25.6** | **Dis Colon Rectum (IF 3.2)** | **RCT** | ✅ ← 勝過下面的 Lancet 綜述 |
-| 25.2 | Int J Colorectal Dis (IF 2.5) | RCT | ✅ |
-| 14.5 | Lancet (IF 98) | 綜述 | ✅ |
-| 1.9 | Sci Rep | 相關性研究 | ❌ 捨棄 |
-| 0.0 | 不明期刊 | 病例系列 | ❌ 捨棄 |
-
-### 想調整
-
-`fetch_papers.py` 開頭：
+Review 的分數天生低（權重只有 1），純看分數會被高分 RCT 擠掉。但綜述對**跟上整個領域、準備專科考**很有用，所以獨立撈出來，不跟高分文章搶名額。
 
 ```python
-SCAN_LIMIT  = 120   # 每天掃描幾篇（免費，可以放心設大）
-MAX_RESULTS = 10    # 每天分析幾篇（⚠️ 這個才花錢）
-
-PTYPE_WEIGHT = {           # 研究設計權重，想更重視 RCT 就調高
-    "Randomized Controlled Trial": 12,
-    "Meta-Analysis":               12,
-    ...
-}
-IF_CAP = 25                # 期刊 IF 上限，避免大期刊的綜述蓋過專科 RCT
+MAX_RESULTS     = 10     # 高分文章幾篇
+INCLUDE_REVIEWS = True   # 是否額外納入 Review
+REVIEW_LIMIT    = 8      # Review 上限（避免暴量燒錢）
 ```
 
-⚠️ **排序靠的是 `journals.json` 的 IF 表。表裡沒有的期刊 IF 算 0**，只剩研究設計分數。所以把你常看的期刊補進 `journals.json`，排序才會準。
+不想看 Review 就把 `INCLUDE_REVIEWS` 設成 `False`。
 
 ---
 

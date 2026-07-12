@@ -138,19 +138,21 @@ def main():
         total_available += total
         if ids:
             plan.append((day, ids))
-            keep = min(len(ids), args.max_per_day)
-            print(f"  {ds}  掃描 {len(ids)} 篇 → 分析前 {keep} 篇")
+            keep = min(len(ids), args.max_per_day + (4 if fp.INCLUDE_REVIEWS else 0))
+            print(f"  {ds}  掃描 {len(ids)} 篇 → 約分析 {keep} 篇")
         else:
             print(f"  {ds}  —")
         time.sleep(0.35)   # 對 NCBI 客氣一點
 
     # 實際會送去 Claude 的篇數 = 每天取前 max_per_day
-    to_fetch = sum(min(len(ids), args.max_per_day) for _, ids in plan)
+    # 每天約 = 高分 N 篇 + Review（保守估平均 4 篇）
+    REV_EST = 4 if fp.INCLUDE_REVIEWS else 0
+    to_fetch = sum(min(len(ids), args.max_per_day + REV_EST) for _, ids in plan)
 
     # ── 估算成本（扣掉已在快取的） ──
     cache = fp.load_cache()
     # 保守估：把每天前 max_per_day 個 id 當作候選（實際排序後可能不同，但量級一樣）
-    cand = [i for _, ids in plan for i in ids[:args.max_per_day]]
+    cand = [i for _, ids in plan for i in ids[:args.max_per_day + REV_EST]]
     n_cached = sum(1 for i in cand if i in cache)
     n_new = max(0, to_fetch - n_cached)
 
@@ -200,11 +202,10 @@ def main():
             print(f"   ⚠️  下載失敗：{e}\n")
             continue
 
-        # 依期刊 IF + 研究設計排序，只分析最值得讀的
-        if len(papers) > args.max_per_day:
-            papers.sort(key=fp.rank_score, reverse=True)
-            print(f"   掃描 {len(papers)} 篇 → 取分數最高的 {args.max_per_day} 篇")
-            papers = papers[:args.max_per_day]
+        # 選片：高分文章 + 所有 Review
+        total = len(papers)
+        papers, note = fp.select(papers, max_results=args.max_per_day)
+        print(f"   掃描 {total} 篇 → {note}")
 
         for i, p in enumerate(papers, 1):
             short = p["title"][:48] + ("…" if len(p["title"]) > 48 else "")
