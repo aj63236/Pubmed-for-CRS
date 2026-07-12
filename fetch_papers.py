@@ -23,7 +23,29 @@ MAX_RETRY   = 3
 
 ROOT      = Path(__file__).parent
 DATA_DIR  = ROOT / "data"
-CACHE_FILE = DATA_DIR / "_cache.json"   # pmid -> 已生成的摘要，避免重複付費
+CACHE_FILE = DATA_DIR / "_cache_v3.json"  # pmid -> 已生成的分析（v3 schema）
+JOURNALS_FILE = ROOT / "journals.json"  # 期刊 Impact Factor 對照表（可自行編輯）
+
+
+def load_journals():
+    """載入期刊 IF 對照表。查不到的期刊不顯示 IF，不影響其他功能。"""
+    try:
+        raw = json.loads(JOURNALS_FILE.read_text(encoding="utf-8"))
+        return raw.get("impact_factors", {}), raw.get("_year", "")
+    except Exception:
+        return {}, ""
+
+
+IF_TABLE, IF_YEAR = load_journals()
+
+
+def lookup_if(journal):
+    """用 PubMed 的 ISOAbbreviation 查 IF。正規化：小寫、去句點、去多餘空白。"""
+    if not journal:
+        return None
+    key = journal.lower().replace(".", "").strip()
+    key = re.sub(r"\s+", " ", key)
+    return IF_TABLE.get(key)
 
 # 大腸直腸外科搜尋策略：核心主題 + 排除雜訊
 PUBMED_QUERY = """
@@ -55,20 +77,59 @@ NOT (case reports[Publication Type])
 NOT ("animals"[MeSH Terms] NOT "humans"[MeSH Terms])
 """
 
-PROMPT = """你是一位大腸直腸外科資深主治醫師，正在為同科醫師整理今日文獻。
+PROMPT = """你是大腸直腸外科資深主治醫師，同時熟悉實證醫學（EBM）與論文批判性閱讀。
 
-請閱讀下面這篇論文，輸出**純 JSON**（不要有 markdown 語法、不要有 ```、不要任何前後文字）：
+讀者是台灣醫學中心的大腸直腸外科主治／總醫師，早上花三分鐘滑手機看今日文獻。
+你的任務**不是取代讀全文**，而是幫他決定：**這篇值不值得花時間去讀全文**。
+
+請輸出**純 JSON**（不要 markdown、不要 ```、不要任何前後文字）。
+
+⚠️ 最重要的規則：
+你手上只有**摘要**。allocation concealment、盲法、ITT、失訪率、試驗註冊、利益衝突這些，摘要通常不會寫。
+**絕對不可以憑空推測或編造。** 沒寫的就列進 unassessable，不要硬填。
+醫師會拿這個做臨床判斷，寧可誠實說不知道，也不要猜。
+
+輸出格式：
 
 {{
-  "title_zh": "論文標題的繁體中文翻譯，保留專有名詞英文縮寫（如 TME、ERAS、pCR）",
-  "abstract_zh": "原文摘要的完整繁體中文翻譯。務必逐句翻譯完整，不可縮減、不可省略任何數據、p 值、信賴區間或次要結果。若原文有 Background/Methods/Results/Conclusion 分段，翻譯時也保留分段語意但寫成流暢段落。",
-  "key_points": [
-    "臨床重點第一條，含具體數字",
-    "臨床重點第二條",
-    "臨床重點第三條"
+  "title_zh": "標題繁中翻譯，保留 TME、ERAS、pCR、LARS 等專有縮寫",
+
+  "abstract_zh": "原文摘要的完整繁中翻譯。逐句完整，不縮減、不省略任何數據、p 值、信賴區間。",
+
+  "evidence_level": "擇一：RCT / 系統性回顧 / 統合分析 / 前瞻性世代 / 回溯性研究 / 病例對照 / 橫斷面 / 診斷性研究 / 病例系列 / 綜述 / 其他",
+
+  "score": 7,
+  "score_reason": "1-2 句話：為什麼給這個分數（可信度 + 對台灣大腸直腸外科的實用性，滿分 10）",
+
+  "relevance": "擇一：高度相關 / 中度相關 / 低度相關",
+  "relevance_why": "一句話，為什麼。（低度相關的例子：純基礎研究、非外科介入、罕見到台灣幾乎不會遇到）",
+
+  "novelty": "擇一：可能改變實務 / 再確認已知 / 仍屬早期 / 結果為陰性",
+
+  "one_liner": "**一句話講完這篇在幹嘛**。句型：在＿＿＿（族群，含人數）中，比較＿＿＿與＿＿＿，發現對＿＿＿有＿＿＿程度的影響（附最關鍵的那個數字）。到這裡就停 —— 不要寫「適合／不適合用在誰」，那是 action 的工作，不要重複。控制在 60 字內。",
+
+  "action": "**明天上班可以怎麼做**。具體到病人類型，用祈使句。若這篇不足以改變任何做法，就誠實寫「目前不需改變做法」＋一句話說為什麼。控制在 60 字內。",
+
+  "pico": {{
+    "P": "研究對象／病人族群（含人數）",
+    "I": "介入、暴露或檢查",
+    "C": "比較對象（若無對照組請寫「無對照組」）",
+    "O": "主要 outcome；次要 outcome"
+  }},
+
+  "key_numbers": [
+    "3 條。每條 ≤ 45 字。務必給絕對值，不要只給相對風險；能算 ARR／NNT 就附上（例：局部復發 4.2% vs 8.1%，ARR 3.9%，NNT≈26）",
+    "挑最紮實、最不受偏誤影響的那個",
+    "陰性結果也要寫（例：整體存活無差異 p=0.58）"
   ],
-  "impact": "2-3 句話說明此研究對臨床實務的意義：改變了什麼、對哪類病人最重要、外科醫師該有什麼行動。若證據等級不足或有明顯 limitation，請誠實指出。",
-  "evidence_level": "以下擇一：RCT / 系統性回顧 / 前瞻性世代 / 回溯性研究 / 病例系列 / 綜述 / 其他"
+
+  "cautions": [
+    "**正好 3 條**，每條 ≤ 45 字，只寫最致命的。要涵蓋兩類問題：（一）臨床陷阱 —— 主要 outcome 是不是替代指標？composite outcome 有沒有掩蓋真相？次群組是不是事後分析？作者把相關性講成因果、過度詮釋、或把短期推論成長期？（二）數字紅旗 —— 只報相對風險沒報絕對風險？只有 p 值沒有信賴區間？信賴區間過寬？樣本數過小？無對照組？",
+    "陷阱 2",
+    "陷阱 3"
+  ],
+
+  "unassessable": ["因摘要資訊不足而無法評估的項目。例如：盲法、allocation concealment、ITT、失訪率、試驗註冊、利益衝突、成本分析"]
 }}
 
 論文標題：{title}
@@ -208,6 +269,8 @@ def parse_xml(xml_text):
                 "pmid": pmid,
                 "title": title,
                 "journal": journal,
+                "impact_factor": lookup_if(journal),
+                "if_year": IF_YEAR,
                 "year": year,
                 "month": month,
                 "doi": doi,
@@ -258,7 +321,7 @@ def summarize(paper):
                 },
                 json={
                     "model": MODEL,
-                    "max_tokens": 3000,
+                    "max_tokens": 3500,
                     "messages": [{"role": "user", "content": prompt}],
                 },
                 timeout=90,
@@ -289,22 +352,50 @@ def summarize(paper):
             if not data.get("abstract_zh"):
                 raise ValueError("abstract_zh 為空")
 
-            # 正規化：key_points 一律轉成陣列（模型偶爾回字串）
-            kp = data.get("key_points")
-            if isinstance(kp, str):
-                data["key_points"] = [
-                    s.strip(" ·-•　") for s in re.split(r"[\n；;]", kp) if s.strip()
-                ]
-            elif not isinstance(kp, list):
-                data["key_points"] = []
+            def as_list(v, cap=None):
+                """模型偶爾把陣列回成字串，統一轉成陣列"""
+                if isinstance(v, list):
+                    out = [str(x).strip() for x in v if str(x).strip()]
+                elif isinstance(v, str):
+                    out = [p.strip(" ·-•　") for p in re.split(r"[\n；;]", v) if p.strip()]
+                else:
+                    out = []
+                return out[:cap] if cap else out
 
-            # 只保留網站會用到的欄位，避免髒資料混進 JSON
+            def one_of(v, allowed, default=""):
+                v = str(v or "").strip()
+                return v if v in allowed else (v if v else default)
+
+            pico = data.get("pico")
+            pico = pico if isinstance(pico, dict) else {}
+
+            score = data.get("score")
+            try:
+                score = max(0, min(10, int(round(float(score)))))
+            except (TypeError, ValueError):
+                score = None
+
             clean = {
-                "title_zh":        str(data.get("title_zh", "")).strip(),
-                "abstract_zh":     str(data.get("abstract_zh", "")).strip(),
-                "key_points":      [str(x).strip() for x in data["key_points"] if str(x).strip()],
-                "impact":          str(data.get("impact", "")).strip(),
-                "evidence_level":  str(data.get("evidence_level", "")).strip(),
+                "title_zh":       str(data.get("title_zh", "")).strip(),
+                "abstract_zh":    str(data.get("abstract_zh", "")).strip(),
+                "evidence_level": str(data.get("evidence_level", "")).strip(),
+
+                "score":          score,
+                "score_reason":   str(data.get("score_reason", "")).strip(),
+
+                "relevance":      one_of(data.get("relevance"),
+                                         {"高度相關", "中度相關", "低度相關"}),
+                "relevance_why":  str(data.get("relevance_why", "")).strip(),
+                "novelty":        one_of(data.get("novelty"),
+                                         {"可能改變實務", "再確認已知", "仍屬早期", "結果為陰性"}),
+
+                "one_liner":      str(data.get("one_liner", "")).strip(),
+                "action":         str(data.get("action", "")).strip(),
+
+                "pico":           {k: str(pico.get(k, "")).strip() for k in ("P", "I", "C", "O")},
+                "key_numbers":    as_list(data.get("key_numbers"), 4),
+                "cautions":       as_list(data.get("cautions"), 3),
+                "unassessable":   as_list(data.get("unassessable")),
             }
             clean["_usage"] = {
                 "in": usage.get("input_tokens", 0),

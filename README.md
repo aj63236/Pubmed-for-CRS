@@ -6,114 +6,169 @@
 
 ---
 
-## 這次改了什麼
+## 這一版的改動
 
-| 問題 | 修正 |
-|---|---|
-| GitHub Actions 一直失敗（404） | **不是防火牆** —— 是 model 名稱 `claude-sonnet-4-20250514` 已廢棄。改用 `claude-sonnet-4-6`，Actions 現在可以跑了，**Mac 不用開機** |
-| 網站每次開都要等 AI 跑很久 | 摘要在 Actions 裡先生成好存成 JSON，網站只是讀檔 → **秒開，零 API 呼叫** |
-| 同一篇論文重複付費 | 加了 `data/_cache.json`，處理過的 PMID 不會再送一次 API |
-| 版面上方一大片留白 | 內容改為從標題下方往下排，不再錨在底部 |
-| 「01 / 02 / 03」大數字 | 拿掉（論文順序沒有意義）。改放**證據等級標籤**（RCT / 系統性回顧 / 回溯性研究），這才是掃文獻時第一個要看的 |
-| 上滑不會換下一篇 | 完整摘要預設收 4 行、可「展開全文」，一張卡塞得進一個螢幕，上滑才會真的換頁 |
-| 想要 iOS app | 加了 PWA —— iPhone Safari 開網站 → 分享 → **加入主畫面**，就有 app 圖示、全螢幕、可離線看昨天的內容。不用 Xcode |
-| 每天只抓 1 天常常 0 篇 | 改用 `edat`（PubMed 上架日）抓最近 2 天，比 `pdat` 準 |
+- **拿掉日期選單** — 一路往下滾就會自動載入更早的文章，滾到底顯示「已經到最早的文獻了」。換日時第一篇會標「新的一天」。
+- **加上 Impact Factor** — 顯示在期刊標籤上（例如 `Ann Surg · IF 10.1`）。IF ≥ 10 的期刊整顆標籤會亮起來。
+- **可回補歷史文獻** — `backfill.py` 一次抓一整段日期。
+
+---
+
+## ⚠️ 關於 Impact Factor（請讀這段）
+
+IF 是 **Clarivate JCR 的付費專有資料，沒有免費 API**。
+
+我查證過，各家免費 IF 網站**數字互相矛盾** —— 同一本 *Diseases of Colon & Rectum*，有網站寫 1.87，有的寫 3.2。原因是有些網站把 Scopus 的 CiteScore 當成 IF 在報，那不是同一個東西。
+
+所以 `journals.json` 裡的數字是**參考值，不是權威值**。
+
+**請用三總的 Web of Science / JCR 帳號核對一次**，把數字改成正確的。五分鐘的事，改完就永遠正確，每年 6 月 JCR 更新時再回來改一次。
+
+```json
+"impact_factors": {
+  "ann surg": 10.1,          ← 改成 JCR 上的正確數字
+  "dis colon rectum": 3.2,
+  ...
+}
+```
+
+key 用小寫、去句點，對應 PubMed 的期刊縮寫（`Ann Surg`、`Dis Colon Rectum`）。查不到的期刊不顯示 IF，不影響其他功能。
+
+---
+
+## 回補 6/1 到現在的文章
+
+在**你的電腦**上跑（不是 GitHub），因為要花錢，所以先試算：
+
+```bash
+# 1. clone 下來（如果還沒有）
+git clone https://github.com/aj63236/Pubmed-for-CRS.git
+cd Pubmed-for-CRS
+
+# 2. 安裝套件
+pip install requests
+
+# 3. 設 API Key
+export ANTHROPIC_API_KEY="sk-ant-你的key"
+
+# 4. 試算 —— 不花錢，只告訴你會抓幾篇、多少錢
+python backfill.py --from 2026-06-01 --dry-run
+```
+
+會印出類似：
+
+```
+要處理的日期：38 天
+要抓的論文：  260 篇
+  ├─ 需生成： 260 篇
+  └─ 已快取： 0 篇
+預估費用：    約 $6.40 USD
+```
+
+**確認可以接受再真的跑：**
+
+```bash
+python backfill.py --from 2026-06-01
+```
+
+跑完推上去：
+
+```bash
+git add data/
+git commit -m "回補 6/1 起的歷史文獻"
+git push
+```
+
+### 想省錢
+
+```bash
+python backfill.py --from 2026-06-01 --max-per-day 5 --dry-run
+```
+
+中途斷掉可直接重跑，已完成的日期會跳過，已處理的論文走快取不會重複收費。
+
+
+---
+
+## 每篇論文會產出什麼
+
+設計原則：這個 app 的功能是幫你**決定要不要花時間讀全文**，不是取代讀全文。所以只留下能支撐這個決定的資訊。
+
+**三個判讀標籤**（掃一眼就能決定去留）
+- `評分 7/10` — 可信度 + 對台灣大腸直腸外科的實用性。顏色分級：≥8 綠、6-7 琥珀、<6 紅
+- `高度相關 / 中度 / 低度` — 低相關的整顆標籤會**變暗**，讓你直接滑過去
+- `可能改變實務 / 再確認已知 / 仍屬早期 / 結果為陰性`
+
+**四塊核心**
+1. **一句話結論** — 在誰身上、比了什麼、發現什麼（附關鍵數字）
+2. **明天可以怎麼做** — 具體到病人類型的行動建議。不足以改變做法時會誠實說「目前不需改變做法」
+3. **關鍵數據**（3 條）— 一律給絕對值，能算 ARR／NNT 就附上。陰性結果也會寫
+4. **要小心**（3 條）— 臨床陷阱（替代指標、composite outcome 掩蓋真相、事後次群組、過度詮釋）＋ 數字紅旗（CI 過寬、只有相對風險、樣本太小）合在一起
+
+**可展開**：PICO 表 + 原文摘要完整中譯
+
+### ⚠️ 「摘要沒寫」那一行
+
+PubMed 摘要**通常不會寫** allocation concealment、盲法、ITT、失訪率、試驗註冊、利益衝突。
+
+Prompt 已明確禁止模型編造這些 —— 沒寫的就列進「摘要沒寫」那行，提醒你需查全文。
+
+**看到那行，代表那幾項要自己去翻全文。不要因為卡片看起來完整，就以為分析是完整的。**
 
 ---
 
 ## 檔案
 
 ```
-.
-├── index.html                    網站
-├── manifest.json                 PWA 設定
-├── sw.js                         Service Worker（離線快取）
-├── icons/                        App 圖示
-├── fetch_papers.py               每日收集腳本
-├── requirements.txt
-├── .nojekyll
-├── .github/workflows/
-│   └── daily_fetch.yml           每天台灣時間 06:00 自動跑
-└── data/
-    ├── index.json                日期索引
-    ├── _cache.json               PMID 快取（避免重複付費）
-    └── YYYY-MM-DD.json           每日文獻
+index.html                  網站（無限捲動）
+manifest.json / sw.js       PWA
+icons/                      App 圖示
+journals.json               ⚠️ IF 對照表，請自行核對
+fetch_papers.py             每日收集（GitHub Actions 用）
+backfill.py                 回補歷史（本機手動跑）
+.github/workflows/
+  daily_fetch.yml           每天台灣時間 06:00 自動跑
+data/
+  index.json                日期索引
+  _cache_v3.json            PMID 快取，避免重複付費
+  YYYY-MM-DD.json           每日文獻
 ```
 
 ---
 
-## 安裝（一次就好）
+## 每日自動更新
 
-**1. 把所有檔案上傳到 repo**（覆蓋舊的）
+已設定好，每天台灣時間 **早上 6:00** GitHub Actions 自動跑，不需要你的電腦開機。
 
-⚠️ 注意資料夾結構要對：
-- `daily_fetch.yml` 必須在 `.github/workflows/` 裡
-- `index.json` 必須在 `data/` 裡
-
-上傳時如果拖不進資料夾，用 **Add file → Create new file**，檔名直接打 `.github/workflows/daily_fetch.yml`（帶斜線，GitHub 會自動建資料夾）。
-
-**2. 設好 API Key**
-
-Repo → Settings → Secrets and variables → Actions → New repository secret
-- Name: `ANTHROPIC_API_KEY`
-- Secret: 你的 key
-
-**3. 開 GitHub Pages**
-
-Settings → Pages → Source: Deploy from a branch → main → / (root)
-
-**4. 測跑一次**
-
-Actions → 每日文獻收集 → Run workflow
-
-跑完看 log 最後幾行，會顯示這次花了多少錢。
+手動觸發：Actions → 每日文獻收集 → Run workflow
 
 ---
 
 ## 裝到 iPhone
 
-1. **Safari**（一定要 Safari，Chrome 不行）打開網站
-2. 底部「分享」按鈕
-3. 選「**加入主畫面**」
+1. **Safari**（一定要 Safari）打開網站
+2. 底部「分享」→「**加入主畫面**」
 
-之後就跟一般 app 一樣，有圖示、全螢幕、沒有網址列，離線也看得到上次讀的內容。
-
----
-
-## 調整
-
-改 `fetch_papers.py` 開頭的設定區：
-
-```python
-DAYS_BACK   = 2     # 抓最近幾天（太小會常常 0 篇）
-MAX_RESULTS = 12    # 每天最多幾篇
-MODEL       = "claude-sonnet-4-6"
-```
-
-搜尋關鍵字改 `PUBMED_QUERY`。目前排除了 case report 和純動物研究。
+之後有 app 圖示、全螢幕、可離線看。
 
 ---
 
 ## 費用
 
-PubMed API 免費。Claude 的部分：一篇約 $0.01–0.02（含完整摘要翻譯），一天 12 篇約 **$0.15**，一個月約 **$4–5 美元**。
+- PubMed API：免費
+- Claude：一篇約 $0.035
+- 每天 12 篇 → 約 **$12/月**
+- 每天 6 篇 → 約 **$6/月**（想省錢就把 `fetch_papers.py` 的 `MAX_RESULTS` 調小）
+- 回補 6/1 至今（約 260 篇）→ 一次性約 **$9**
 
-有快取，所以重跑同一天不會再收費。
-
-建議去 Console → Billing 設個 $10 的月上限。
+建議 console.anthropic.com → Billing 設 $20 月上限。
 
 ---
 
 ## 出問題時
 
-**Actions 顯示紅色 ✗**
-→ 點進去看 log。`404` = model 名稱錯了；`401` = API Key 沒設或設錯。
+**Actions 紅色 ✗** → 看 log。`404` = model 名稱錯；`401` = API Key 沒設好。
 
-**網站顯示 JSON 原始碼而不是網頁**
-→ 根目錄少了 `index.html`。
+**網站沒更新** → 按右下角「更新」，或 Ctrl+Shift+R。
 
-**網站說「連不上資料」**
-→ `data/index.json` 沒推上去，或 Pages 還沒部署完（等 1–2 分鐘）。
-
-**改了東西但網站沒變**
-→ 按網站右下角「更新」，或 Ctrl+Shift+R 強制重新整理。
+**IF 沒顯示** → 那本期刊不在 `journals.json` 裡，自己加進去即可。

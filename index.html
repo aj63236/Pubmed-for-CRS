@@ -185,9 +185,13 @@ html,body{
   text-wrap:pretty;
 }
 .title-en{
-  font-size:12.5px;
-  line-height:1.6;
+  font-size:12px;
+  line-height:1.55;
   color:var(--film-dim);
+  display:-webkit-box;
+  -webkit-line-clamp:2;
+  -webkit-box-orient:vertical;
+  overflow:hidden;
   margin-bottom:8px;
   text-wrap:pretty;
 }
@@ -195,14 +199,14 @@ html,body{
   font-family:'IBM Plex Mono',monospace;
   font-size:11px;
   color:var(--film-dim);
-  padding-bottom:14px;
+  padding-bottom:11px;
   border-bottom:1px solid var(--line);
-  margin-bottom:16px;
+  margin-bottom:13px;
 }
 
 /* ── 分節：用細規線與 eyebrow，不用色塊卡片（那太重了） ── */
-.sec{margin-bottom:18px}
-.sec:last-of-type{margin-bottom:16px}
+.sec{margin-bottom:13px}
+.sec:last-of-type{margin-bottom:12px}
 
 .eyebrow{
   display:flex;
@@ -214,7 +218,7 @@ html,body{
   letter-spacing:.16em;
   text-transform:uppercase;
   color:var(--drape);
-  margin-bottom:9px;
+  margin-bottom:7px;
 }
 .eyebrow::after{
   content:'';
@@ -263,12 +267,12 @@ html,body{
 .more[aria-expanded="true"] svg{transform:rotate(180deg)}
 
 /* ── 重點：條列，可掃讀 ── */
-.points{list-style:none;display:flex;flex-direction:column;gap:8px}
+.points{list-style:none;display:flex;flex-direction:column;gap:6px}
 .points li{
   position:relative;
-  padding-left:19px;
-  font-size:14px;
-  line-height:1.72;
+  padding-left:17px;
+  font-size:13.5px;
+  line-height:1.68;
   font-weight:400;
   color:var(--bone);
 }
@@ -497,6 +501,189 @@ html,body{
   text-transform:uppercase;
 }
 
+/* ── 期刊 chip 上的 Impact Factor ── */
+.chip-j{display:inline-flex;align-items:center;gap:6px}
+.jif{
+  font-weight:500;
+  color:var(--drape);
+  letter-spacing:.02em;
+  padding-left:6px;
+  border-left:1px solid var(--line);
+}
+/* 高分期刊（IF ≥ 10）整顆 chip 亮起來 */
+.chip-j.hi{
+  color:var(--bone);
+  box-shadow:inset 0 0 0 1px var(--drape-deep);
+  background:var(--drape-wash);
+}
+.chip-j.hi .jif{color:var(--drape);border-left-color:var(--drape-deep)}
+
+/* ── 換日標記 ── */
+.newday{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:9px;
+  letter-spacing:.1em;
+  color:var(--ink-900);
+  background:var(--drape);
+  padding:3px 7px 2px;
+  border-radius:3px;
+  line-height:1;
+}
+
+/* ── 捲到底 ── */
+#sentinel{min-height:1px}
+.tail{
+  height:60vh;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+  text-align:center;
+  background:var(--ink-900);
+}
+.tail-line{width:34px;height:1px;background:var(--line);margin-bottom:6px}
+.tail p{font-size:13.5px;color:var(--film-dim)}
+.tail-sub{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:11px;
+  color:var(--film-dim);
+  opacity:.6;
+}
+
+/* ── 判讀標籤 ── */
+.chip-score{font-weight:600;letter-spacing:.04em}
+.chip-score i{font-style:normal;opacity:.55;font-size:9px;margin-left:1px}
+.chip-score.hi { background:var(--drape); color:var(--ink-900); }
+.chip-score.mid{ background:rgba(232,165,82,.16); color:var(--flag);
+                 box-shadow:inset 0 0 0 1px rgba(232,165,82,.4); }
+.chip-score.lo { background:rgba(255,120,110,.13); color:#ff8a80;
+                 box-shadow:inset 0 0 0 1px rgba(255,120,110,.35); }
+
+/* 相關性：低相關的整顆暗掉，讓你一眼想滑過去 */
+.chip-rel.hi { color:var(--drape); box-shadow:inset 0 0 0 1px var(--drape-deep); background:var(--drape-wash); }
+.chip-rel.mid{ color:var(--film); box-shadow:inset 0 0 0 1px var(--line); }
+.chip-rel.lo { color:var(--film-dim); box-shadow:inset 0 0 0 1px var(--line-soft); opacity:.6; }
+
+/* 新穎度 */
+.chip-nov.hi   { color:#7ee0ff; box-shadow:inset 0 0 0 1px rgba(126,224,255,.35); background:rgba(126,224,255,.08); }
+.chip-nov.mid  { color:var(--film); box-shadow:inset 0 0 0 1px var(--line); }
+.chip-nov.early{ color:#c89bff; box-shadow:inset 0 0 0 1px rgba(200,155,255,.3); background:rgba(200,155,255,.07); }
+.chip-nov.neg  { color:var(--film-dim); box-shadow:inset 0 0 0 1px var(--line); }
+
+/* ── 一句話結論 ── */
+.oneliner{
+  font-size:15px;
+  line-height:1.8;
+  color:#fff;
+  font-weight:400;
+  padding-left:13px;
+  border-left:2px solid var(--drape);
+}
+.score-why{
+  margin-top:6px;
+  padding-left:15px;
+  font-size:11px;
+  line-height:1.55;
+  color:var(--film-dim);
+  display:-webkit-box;
+  -webkit-line-clamp:2;
+  -webkit-box-orient:vertical;
+  overflow:hidden;
+}
+
+/* ── 明天可以怎麼做：整張卡的行動點 ── */
+.action{
+  border:1px solid rgba(232,165,82,.3);
+  background:linear-gradient(135deg, rgba(232,165,82,.11), rgba(232,165,82,.03));
+  border-radius:10px;
+  padding:11px 13px;
+}
+.action-mark{
+  display:block;
+  font-family:'IBM Plex Mono',monospace;
+  font-size:9.5px;
+  letter-spacing:.14em;
+  color:var(--flag);
+  margin-bottom:5px;
+  font-weight:600;
+}
+.action p{
+  font-size:14px;
+  line-height:1.75;
+  color:#f6ead9;
+  font-weight:400;
+}
+
+/* ── 要小心：暖色條列 ── */
+.points.warn li::before{background:var(--flag)}
+.points.warn li{color:#f2e5d2}
+
+/* ── 摘要沒寫：一行帶過 ── */
+.unass{
+  font-size:11px;
+  line-height:1.6;
+  color:var(--film-dim);
+  background:rgba(255,255,255,.025);
+  border-left:2px solid var(--line);
+  border-radius:0 6px 6px 0;
+  padding:7px 11px;
+  margin-bottom:10px;
+  display:-webkit-box;
+  -webkit-line-clamp:2;
+  -webkit-box-orient:vertical;
+  overflow:hidden;
+}
+.unass b{
+  color:var(--film);font-weight:600;
+  font-size:10px;letter-spacing:.06em;
+  margin-right:5px;
+}
+
+/* ── 折疊區 ── */
+.acc{
+  border:1px solid var(--line);
+  border-radius:10px;
+  margin-bottom:10px;
+  overflow:hidden;
+  background:rgba(255,255,255,.02);
+}
+.acc summary{
+  list-style:none;
+  cursor:pointer;
+  display:flex;
+  align-items:center;
+  gap:8px;
+  padding:12px 14px;
+  font-family:'IBM Plex Mono',monospace;
+  font-size:11.5px;
+  letter-spacing:.05em;
+  color:var(--drape);
+  user-select:none;
+}
+.acc summary::-webkit-details-marker{display:none}
+.acc summary:hover{background:var(--drape-wash)}
+.acc summary:focus-visible{outline:2px solid var(--drape);outline-offset:-2px}
+.acc summary svg{width:12px;height:12px;transition:transform .2s;flex:none}
+.acc[open] summary svg{transform:rotate(180deg)}
+.acc[open] summary{border-bottom:1px solid var(--line)}
+.acc-in{padding:15px 14px}
+
+/* PICO 表 */
+.pico{width:100%;border-collapse:collapse;margin-bottom:16px}
+.pico th{
+  width:24px;text-align:left;vertical-align:top;
+  font-family:'IBM Plex Mono',monospace;
+  font-size:12px;font-weight:600;color:var(--drape);
+  padding:7px 8px 7px 0;
+  border-bottom:1px solid var(--line-soft);
+}
+.pico td{
+  font-size:13px;line-height:1.75;color:var(--bone);font-weight:300;
+  padding:7px 0;border-bottom:1px solid var(--line-soft);
+}
+.pico tr:last-child th,.pico tr:last-child td{border-bottom:none}
+
 /* 桌機：把卡片收成一欄，別把行長拉到 1900px */
 @media (min-width:760px){
   .body{max-width:720px;margin:0 auto;width:100%}
@@ -517,39 +704,29 @@ html,body{
 
 <main id="feed" aria-live="polite"></main>
 
-<div id="rail" aria-hidden="true"></div>
 
 <nav id="nav">
-  <button class="nav-btn on" id="nb-today" onclick="goTop()">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 5h16M4 12h16M4 19h10"/></svg>
-    今日
+  <button class="nav-btn on" onclick="goTop()">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+    回到最新
   </button>
-  <button class="nav-btn" id="nb-date" onclick="toggleSheet()" aria-expanded="false" aria-controls="sheet">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>
-    日期
-  </button>
-  <button class="nav-btn" id="nb-reload" onclick="hardRefresh()">
+  <button class="nav-btn" onclick="hardRefresh()">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 12a9 9 0 1 1-2.64-6.36"/><path d="M21 3v6h-6"/></svg>
     更新
   </button>
 </nav>
 
-<div id="sheet" role="dialog" aria-label="選擇日期">
-  <div class="sheet-hd">往前查</div>
-  <div id="days"></div>
-</div>
-
 <script>
 /* ═══════════════ 設定 ═══════════════ */
-const USER = 'aj63236';
-const REPO = 'Pubmed-for-CRS';
-// 同 repo 內相對路徑即可，換帳號/repo 也不用改
 const DATA = './data';
 
 /* ═══════════════ 狀態 ═══════════════ */
-let papers = [], days = [], today = '', sheetOpen = false;
+let days = [];          // [{date, count}]  newest first
+let loaded = 0;         // 已載入幾天
+let papers = [];        // 已載入的所有論文（依序）
+let loading = false;
+let done = false;
 
-/* 較弱的證據等級 → chip 用空心，別假裝很強 */
 const WEAK = ['回溯性研究','病例系列','綜述','其他'];
 
 /* ═══════════════ 啟動 ═══════════════ */
@@ -558,71 +735,146 @@ async function boot(){
     const r = await fetch(`${DATA}/index.json?v=${Date.now()}`);
     if(!r.ok) throw 0;
     days = await r.json();
-    renderDays();
-    if(days.length) await load(days[0].date);
-    else state('還沒有資料','跑一次收集腳本，或到 GitHub Actions 手動觸發「每日文獻收集」。');
+    if(!days.length){
+      state('還沒有資料','跑一次收集腳本，或到 GitHub Actions 手動觸發「每日文獻收集」。');
+      return;
+    }
+    document.getElementById('feed').innerHTML = '';
+    await loadMore();      // 先載第一天
+    await loadMore();      // 預先載第二天，捲動才順
+    setupSentinel();
   }catch{
     state('連不上資料','確認 data/index.json 已推上 GitHub Pages。');
   }
   setTimeout(()=>document.getElementById('boot').classList.add('gone'), 700);
 }
 
-async function load(date){
-  today = date;
-  skeleton();
+/* ═══════════════ 逐日載入 ═══════════════ */
+async function loadMore(){
+  if(loading || done) return;
+  if(loaded >= days.length){ done = true; showEnd(); return; }
+
+  loading = true;
+  const d = days[loaded];
+
   try{
-    const r = await fetch(`${DATA}/${date}.json?v=${Date.now()}`);
-    if(!r.ok) throw 0;
-    const d = await r.json();
-    papers = d.papers || [];
-    render();
-  }catch{
-    state('這天讀不到', `找不到 data/${date}.json`);
+    const r = await fetch(`${DATA}/${d.date}.json?v=${Date.now()}`);
+    if(r.ok){
+      const data = await r.json();
+      const batch = (data.papers || []).map(p => ({...p, _date: d.date}));
+      if(batch.length){
+        const startIdx = papers.length;
+        papers = papers.concat(batch);
+        appendCards(batch, startIdx);
+      }
+    }
+  }catch{ /* 這天讀不到就跳過，繼續下一天 */ }
+
+  loaded++;
+  loading = false;
+
+  // 如果這天是空的，自動再抓下一天，避免卡住
+  if(papers.length === 0 && loaded < days.length){
+    await loadMore();
   }
-  renderDays();
 }
 
-/* ═══════════════ 畫面 ═══════════════ */
-function render(){
+function appendCards(batch, startIdx){
   const feed = document.getElementById('feed');
-  if(!papers.length){
-    state('這天沒有新文獻','PubMed 在這個區間沒有符合條件的論文。試試往前查其他日期。');
-    return;
-  }
-  feed.innerHTML = papers.map((p,i)=>card(p,i)).join('');
-  buildRail();
-  watch();
-  feed.scrollTop = 0;
+  const html = batch.map((p,i)=>{
+    // 這批的第一篇，而且和前一篇不同天 → 標示新的一天
+    const prev = papers[startIdx + i - 1];
+    const newDay = !prev || prev._date !== p._date;
+    return card(p, startIdx + i, newDay);
+  }).join('');
+  const sentinel = document.getElementById('sentinel');
+  if(sentinel) sentinel.insertAdjacentHTML('beforebegin', html);
+  else feed.insertAdjacentHTML('beforeend', html);
 }
 
-function card(p,i){
+/* ═══════════════ 無限捲動哨兵 ═══════════════ */
+function setupSentinel(){
+  const feed = document.getElementById('feed');
+  if(!document.getElementById('sentinel')){
+    feed.insertAdjacentHTML('beforeend','<div id="sentinel"></div>');
+  }
+  const io = new IntersectionObserver(es=>{
+    if(es[0].isIntersecting) loadMore();
+  }, {root: feed, rootMargin: '600px'});
+  io.observe(document.getElementById('sentinel'));
+}
+
+function showEnd(){
+  const s = document.getElementById('sentinel');
+  if(s && !s.dataset.done){
+    s.dataset.done = '1';
+    s.innerHTML = `<div class="tail">
+      <div class="tail-line"></div>
+      <p>已經到最早的文獻了</p>
+      <p class="tail-sub">共 ${papers.length} 篇 · ${days.length} 天</p>
+    </div>`;
+  }
+}
+
+/* ═══════════════ 卡片 ═══════════════ */
+function card(p, i, newDay){
   const zh   = p.title_zh || p.title;
   const en   = p.title_zh ? p.title : '';
-  const abs  = p.abstract_zh || '';
-  const pts  = Array.isArray(p.key_points) ? p.key_points : [];
-  const imp  = p.impact || '';
   const ev   = p.evidence_level || '';
   const weak = WEAK.includes(ev);
+  const jif  = (typeof p.impact_factor === 'number') ? p.impact_factor : null;
+
+  const score  = (typeof p.score === 'number') ? p.score : null;
+  const rel    = p.relevance || '';
+  const nov    = p.novelty || '';
+  const one    = p.one_liner || '';
+  const act    = p.action || '';
+  const nums   = Array.isArray(p.key_numbers) ? p.key_numbers : [];
+  const caut   = Array.isArray(p.cautions) ? p.cautions : [];
+  const unass  = Array.isArray(p.unassessable) ? p.unassessable : [];
+  const pico   = p.pico || {};
+  const abs    = p.abstract_zh || '';
 
   const who = p.authors
     ? p.authors.split(',').slice(0,2).join(',').trim() + (p.authors.split(',').length>2 ? ' et al.' : '')
     : '';
   const when = [p.year, p.month].filter(Boolean).join(' ');
 
-  // 沒有中文摘要 = 腳本跑的時候沒有 API key
-  const noAI = !abs && !pts.length;
+  const jChip = p.journal
+    ? '<span class="chip chip-j ' + (jif && jif>=10 ? 'hi' : '') + '">' + esc(p.journal)
+      + (jif !== null ? '<b class="jif">IF ' + jif + '</b>' : '') + '</span>'
+    : '';
+
+  const sChip = (score !== null)
+    ? '<span class="chip chip-score ' + scoreClass(score) + '">評分 ' + score + '<i>/10</i></span>'
+    : '';
+
+  const rChip = rel ? '<span class="chip chip-rel ' + relClass(rel) + '">' + esc(rel) + '</span>' : '';
+  const nChip = nov ? '<span class="chip chip-nov ' + novClass(nov) + '">' + esc(nov) + '</span>' : '';
+
+  // 舊格式資料仍能顯示
+  const legacy = !one && Array.isArray(p.key_points);
+
+  const picoRows = ['P','I','C','O'].filter(k => pico[k])
+    .map(k => '<tr><th>' + k + '</th><td>' + esc(pico[k]) + '</td></tr>').join('');
 
   return `
-<article class="card" data-i="${i}">
+<article class="card" data-i="${i}" data-date="${p._date}">
   <header class="hdr">
     <div class="brand">腸嚐<em>新知</em></div>
-    <div class="hdr-meta"><span>${fmtDay(today)}</span><b>${i+1}</b>/${papers.length}</div>
+    <div class="hdr-meta">
+      ${newDay ? '<span class="newday">新的一天</span>' : ''}
+      <span>${fmtDay(p._date)}</span>
+    </div>
   </header>
 
   <div class="body">
     <div class="chips">
       ${ev ? `<span class="chip chip-ev ${weak?'weak':''}">${esc(ev)}</span>` : ''}
-      ${p.journal ? `<span class="chip chip-j">${esc(p.journal)}</span>` : ''}
+      ${sChip}
+      ${rChip}
+      ${nChip}
+      ${jChip}
       ${when ? `<span class="chip chip-j">${esc(when)}</span>` : ''}
     </div>
 
@@ -630,37 +882,50 @@ function card(p,i){
     ${en ? `<p class="title-en">${esc(en)}</p>` : ''}
     <p class="byline">${esc(who)}</p>
 
-    ${noAI ? `
+    ${legacy ? legacyBody(p, i) : `
+      ${one ? `
       <section class="sec">
-        <div class="eyebrow">原文摘要</div>
-        <p class="prose">${esc(p.abstract||'（無摘要）')}</p>
-      </section>
+        <p class="oneliner">${esc(one)}</p>
+        ${p.score_reason ? `<p class="score-why">${esc(p.score_reason)}</p>` : ''}
+      </section>` : ''}
+
+      ${act ? `
       <section class="sec">
-        <div class="eyebrow warm">尚未翻譯</div>
-        <p class="impact">收集腳本執行時沒有讀到 ANTHROPIC_API_KEY。到 GitHub → Settings → Secrets → Actions 設好之後，重跑一次 workflow。</p>
-      </section>
-    ` : `
-      ${abs ? `
+        <div class="action">
+          <span class="action-mark">明天可以怎麼做</span>
+          <p>${esc(act)}</p>
+        </div>
+      </section>` : ''}
+
+      ${nums.length ? `
       <section class="sec">
-        <div class="eyebrow">摘要</div>
-        <p class="prose clamped" id="abs${i}">${esc(abs)}</p>
-        <button class="more" aria-expanded="false" aria-controls="abs${i}" onclick="expand(this)">
+        <div class="eyebrow">關鍵數據</div>
+        <ul class="points">${nums.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>
+      </section>` : ''}
+
+      ${caut.length ? `
+      <section class="sec">
+        <div class="eyebrow warm">要小心</div>
+        <ul class="points warn">${caut.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>
+      </section>` : ''}
+
+
+      ${unass.length ? `
+      <div class="unass">
+        <b>摘要沒寫</b>${esc(unass.join('、'))} → 需查全文
+      </div>` : ''}
+
+      ${(picoRows || abs) ? `
+      <details class="acc">
+        <summary>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M6 9l6 6 6-6"/></svg>
-          <span>展開全文</span>
-        </button>
-      </section>` : ''}
-
-      ${pts.length ? `
-      <section class="sec">
-        <div class="eyebrow">重點</div>
-        <ul class="points">${pts.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>
-      </section>` : ''}
-
-      ${imp ? `
-      <section class="sec">
-        <div class="eyebrow warm">臨床意義</div>
-        <p class="impact">${esc(imp)}</p>
-      </section>` : ''}
+          PICO 與完整摘要中譯
+        </summary>
+        <div class="acc-in">
+          ${picoRows ? `<table class="pico"><tbody>${picoRows}</tbody></table>` : ''}
+          ${abs ? `<p class="prose">${esc(abs)}</p>` : ''}
+        </div>
+      </details>` : ''}
     `}
 
     <div class="acts">
@@ -682,55 +947,38 @@ function card(p,i){
 </article>`;
 }
 
-/* ═══════════════ 進度軌 ═══════════════ */
-function buildRail(){
-  document.getElementById('rail').innerHTML =
-    papers.slice(0,16).map((_,i)=>`<span class="tick ${i===0?'on':''}"></span>`).join('');
+function relClass(r){
+  if(r === '高度相關') return 'hi';
+  if(r === '低度相關') return 'lo';
+  return 'mid';
+}
+function novClass(n){
+  if(n === '可能改變實務') return 'hi';
+  if(n === '仍屬早期')     return 'early';
+  if(n === '結果為陰性')   return 'neg';
+  return 'mid';
 }
 
-function watch(){
-  const ticks = document.querySelectorAll('.tick');
-  const io = new IntersectionObserver(es=>{
-    es.forEach(e=>{
-      if(e.isIntersecting){
-        const i = +e.target.dataset.i;
-        ticks.forEach((t,n)=>t.classList.toggle('on', n===i));
-      }
-    });
-  },{threshold:.55});
-  document.querySelectorAll('.card').forEach(c=>io.observe(c));
+function scoreClass(n){
+  if(n >= 8) return 'hi';
+  if(n >= 6) return 'mid';
+  return 'lo';
 }
 
-/* ═══════════════ 日期 ═══════════════ */
-function renderDays(){
-  document.getElementById('days').innerHTML = days.map(d=>`
-    <button class="day ${d.date===today?'on':''}" onclick="pick('${d.date}')">
-      <span class="day-d">${d.date}</span>
-      <span class="day-n">${d.count} 篇</span>
-    </button>`).join('');
-}
-
-async function pick(date){
-  toggleSheet(false);
-  await load(date);
-}
-
-function toggleSheet(force){
-  sheetOpen = typeof force==='boolean' ? force : !sheetOpen;
-  document.getElementById('sheet').classList.toggle('open', sheetOpen);
-  document.getElementById('nb-date').classList.toggle('on', sheetOpen);
-  document.getElementById('nb-date').setAttribute('aria-expanded', sheetOpen);
-  document.getElementById('nb-today').classList.toggle('on', !sheetOpen);
-}
-
-function goTop(){
-  toggleSheet(false);
-  document.getElementById('feed').scrollTo({top:0,behavior:'smooth'});
-}
-
-function hardRefresh(){
-  if('caches' in window) caches.keys().then(k=>k.forEach(c=>caches.delete(c)));
-  location.reload();
+/* 舊格式資料的相容顯示 */
+function legacyBody(p, i){
+  const pts = Array.isArray(p.key_points) ? p.key_points : [];
+  return `
+    ${p.abstract_zh ? `<section class="sec"><div class="eyebrow">摘要</div>
+      <p class="prose clamped" id="abs${i}">${esc(p.abstract_zh)}</p>
+      <button class="more" aria-expanded="false" aria-controls="abs${i}" onclick="expand(this)">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M6 9l6 6 6-6"/></svg>
+        <span>展開全文</span>
+      </button></section>` : ''}
+    ${pts.length ? `<section class="sec"><div class="eyebrow">重點</div>
+      <ul class="points">${pts.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></section>` : ''}
+    ${p.impact ? `<section class="sec"><div class="eyebrow warm">臨床意義</div>
+      <p class="impact">${esc(p.impact)}</p></section>` : ''}`;
 }
 
 /* ═══════════════ 展開全文 ═══════════════ */
@@ -741,13 +989,26 @@ function expand(btn){
   btn.querySelector('span').textContent = nowClamped ? '展開全文' : '收合';
 }
 
+/* ═══════════════ 導覽 ═══════════════ */
+function goTop(){
+  document.getElementById('feed').scrollTo({top:0,behavior:'smooth'});
+}
+
+function hardRefresh(){
+  if('caches' in window) caches.keys().then(k=>k.forEach(c=>caches.delete(c)));
+  location.reload();
+}
+
 /* ═══════════════ 分享 ═══════════════ */
 async function share(i){
   const p = papers[i]; if(!p) return;
-  const pts = (p.key_points||[]).map(x=>'· '+x).join('\n');
-  const text = `【腸嚐新知】${p.title_zh||p.title}\n\n${pts}\n\n${p.impact||''}\n\nhttps://pubmed.ncbi.nlm.nih.gov/${p.pmid}/`;
+  const pts = (p.key_points||[]).map(x=>'\u00b7 '+x).join('\u000a');
+  const text = '\u3010\u8178\u5690\u65b0\u77e5\u3011' + (p.title_zh||p.title)
+    + '\u000a\u000a' + pts
+    + '\u000a\u000a' + (p.impact||'')
+    + '\u000a\u000a' + 'https://pubmed.ncbi.nlm.nih.gov/' + p.pmid + '/';
   if(navigator.share){ try{ await navigator.share({text}); }catch{} }
-  else { try{ await navigator.clipboard.writeText(text); alert('已複製'); }catch{} }
+  else { try{ await navigator.clipboard.writeText(text); alert('\u5df2\u8907\u88fd'); }catch{} }
 }
 
 /* ═══════════════ 小工具 ═══════════════ */
@@ -763,17 +1024,6 @@ function fmtDay(d){
   return `${+m}月${+day}日`;
 }
 
-function skeleton(){
-  document.getElementById('feed').innerHTML = `
-    <div class="card"><div class="skel" style="padding-top:80px">
-      <div class="sk w50" style="height:10px"></div>
-      <div class="sk t"></div><div class="sk t w70"></div>
-      <div class="sk"></div><div class="sk w85"></div><div class="sk"></div>
-      <div class="sk w70"></div><div class="sk w85"></div><div class="sk w50"></div>
-    </div></div>`;
-  document.getElementById('rail').innerHTML = '';
-}
-
 function state(title, msg){
   document.getElementById('feed').innerHTML = `
     <div class="state">
@@ -785,11 +1035,10 @@ function state(title, msg){
       <h2>${esc(title)}</h2>
       <p>${esc(msg)}</p>
     </div>`;
-  document.getElementById('rail').innerHTML = '';
   document.getElementById('boot').classList.add('gone');
 }
 
-/* 鍵盤（桌機）：j/k 或方向鍵，直接跳整張卡 */
+/* 鍵盤（桌機）：整張卡翻頁 */
 function step(dir){
   const cards = [...document.querySelectorAll('.card')];
   if(!cards.length) return;
@@ -800,15 +1049,9 @@ function step(dir){
 }
 
 addEventListener('keydown', e=>{
-  if(e.target.tagName === 'BUTTON' && e.key === ' ') return;
   if(e.key==='ArrowDown'||e.key==='j'){ e.preventDefault(); step(1); }
   if(e.key==='ArrowUp'  ||e.key==='k'){ e.preventDefault(); step(-1); }
-  if(e.key==='Escape' && sheetOpen) toggleSheet(false);
 });
-
-document.getElementById('feed').addEventListener('touchstart', ()=>{
-  if(sheetOpen) toggleSheet(false);
-}, {passive:true});
 
 /* PWA */
 if('serviceWorker' in navigator){
