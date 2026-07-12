@@ -64,6 +64,8 @@ def main():
     ap.add_argument("--skip-existing", action="store_true", default=True,
                     help="已存在的日期檔案就跳過（預設開啟）")
     ap.add_argument("--force", action="store_true", help="即使檔案已存在也重跑")
+    ap.add_argument("--max-total", type=int, default=400,
+                    help="安全上限：總共最多處理幾篇（預設 400，避免日期填錯燒錢）")
     args = ap.parse_args()
 
     start = datetime.date.fromisoformat(args.start)
@@ -143,6 +145,14 @@ def main():
         print("\n🧪 這是試算，沒有花任何錢。")
         print("   確認 OK 的話，把 --dry-run 拿掉再跑一次。\n")
         return
+
+    # ── 安全煞車：避免日期填錯導致大量計費 ──
+    if n_new > args.max_total:
+        print(f"\n🛑 停止：需要生成 {n_new} 篇，超過安全上限 {args.max_total} 篇。")
+        print(f"   預估要花 ${est:.2f} USD，這可能不是你想要的。")
+        print(f"   如果確定要跑，請縮小日期範圍、降低 --max-per-day，")
+        print(f"   或明確提高 --max-total。\n")
+        sys.exit(1)
 
     if n_new == 0:
         print("\n✅ 全部都在快取裡，沒有需要新生成的。")
