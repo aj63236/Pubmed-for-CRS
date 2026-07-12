@@ -134,16 +134,18 @@ def main():
     n_cached = sum(1 for i in cand if i in cache)
     n_new = max(0, to_fetch - n_cached)
 
-    # 一篇約 2,000 in + 1,900 out（含完整摘要翻譯 + 批判性分析）
+    # 一篇約 2,000 in + 2,600 out
+    # ⚠️ Sonnet 5 等推理模型會先產生 thinking 區塊，那些也算 output token，
+    #    所以 output 估得比純 JSON 高。實際費用會在跑完時印出來。
     p_in, p_out = fp.price_of(fp.MODEL)
-    est = n_new * (2000 / 1e6 * p_in + 1900 / 1e6 * p_out)
+    est = n_new * (2000 / 1e6 * p_in + 2600 / 1e6 * p_out)
 
     print("\n" + "─" * 58)
     print(f"  要處理的日期：{len(plan)} 天")
     print(f"  要抓的論文：  {to_fetch} 篇")
     print(f"    ├─ 需生成： {n_new} 篇")
     print(f"    └─ 已快取： {n_cached} 篇（不再收費）")
-    print(f"  預估費用：    約 ${est:.2f} USD")
+    print(f"  預估費用：    約 ${est:.2f} USD（含 thinking token，實際以跑完的數字為準）")
     print("─" * 58)
 
     if args.dry_run:

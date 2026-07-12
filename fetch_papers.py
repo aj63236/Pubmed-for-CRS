@@ -342,6 +342,32 @@ def parse_xml(xml_text):
 
 
 # ───────────────────────── Claude ──────────────────────────
+def extract_text(body):
+    """從 API 回應中取出文字內容。
+
+    ⚠️ 不能假設 content[0] 就是文字！
+    推理型模型（Sonnet 5、Opus 4.8 等）會先回一個 thinking 區塊：
+        content[0] = {"type": "thinking", ...}   ← 沒有 "text" 鍵
+        content[1] = {"type": "text", "text": "..."}
+    所以要掃過所有區塊，只挑出 type == "text" 的。
+    """
+    blocks = body.get("content") or []
+    parts = [
+        b.get("text", "")
+        for b in blocks
+        if isinstance(b, dict) and b.get("type") == "text"
+    ]
+    text = "".join(parts).strip()
+
+    if not text:
+        types = [b.get("type") for b in blocks if isinstance(b, dict)]
+        stop = body.get("stop_reason")
+        raise ValueError(
+            f"回應中找不到 text 區塊（收到的區塊：{types or '空'}；stop_reason={stop}）"
+        )
+    return text
+
+
 def clean_json(text):
     """從模型輸出中抽出 JSON。
     處理各種情況：```json 包裝、前言（Here is...）、後語（Hope this helps）。
@@ -371,6 +397,7 @@ def summarize(paper):
     )
 
     for attempt in range(1, MAX_RETRY + 1):
+        body = None          # 讓 except 區塊能檢查實際收到什麼
         try:
             r = requests.post(
                 "https://api.anthropic.com/v1/messages",
@@ -381,7 +408,7 @@ def summarize(paper):
                 },
                 json={
                     "model": MODEL,
-                    "max_tokens": 3500,
+                    "max_tokens": 8000,
                     "messages": [{"role": "user", "content": prompt}],
                 },
                 timeout=90,
@@ -403,8 +430,13 @@ def summarize(paper):
 
             r.raise_for_status()
             body = r.json()
-            text = body["content"][0]["text"]
             usage = body.get("usage", {})
+
+            # 若因 max_tokens 被截斷，JSON 一定不完整 —— 直接重試（會加大額度）
+            if body.get("stop_reason") == "max_tokens":
+                raise ValueError("輸出被 max_tokens 截斷，JSON 不完整")
+
+            text = extract_text(body)
 
             data = json.loads(clean_json(text))
 
@@ -464,10 +496,28 @@ def summarize(paper):
             return clean
 
         except json.JSONDecodeError:
-            log(f"      ⚠️  JSON 解析失敗（第 {attempt} 次），重試...")
+            # 模型輸出的 JSON 壞掉 —— 值得重試，下次可能就好了
+            log(f"      ⚠️  模型回的 JSON 解析失敗（第 {attempt} 次），重試...")
             time.sleep(2)
+
+        except (KeyError, TypeError, AttributeError, IndexError) as e:
+            # 這是程式碼 bug，不是暫時性問題。重試只會白花錢 —— 直接放棄。
+            log(f"      ❌ 程式錯誤（不重試，避免浪費錢）：{type(e).__name__}: {e}")
+            if body is not None:
+                shapes = [b.get("type") for b in (body.get("content") or []) if isinstance(b, dict)]
+                log(f"         回應區塊：{shapes}  stop_reason={body.get('stop_reason')}")
+            return None
+
+        except requests.RequestException as e:
+            # 網路問題 —— 值得重試
+            log(f"      ⚠️  網路錯誤（第 {attempt} 次）：{e}")
+            time.sleep(3 * attempt)
+
         except Exception as e:
             log(f"      ⚠️  {type(e).__name__}: {e}（第 {attempt} 次）")
+            if body is not None and attempt == 1:
+                shapes = [b.get("type") for b in (body.get("content") or []) if isinstance(b, dict)]
+                log(f"         回應區塊：{shapes}  stop_reason={body.get('stop_reason')}")
             time.sleep(3 * attempt)
 
     log("      ❌ 重試用盡，此篇略過摘要")
