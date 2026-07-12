@@ -2,37 +2,46 @@ name: 每日文獻收集
 
 on:
   schedule:
-    - cron: '0 22 * * *'   # UTC 22:00 = 台灣時間早上 06:00
-  workflow_dispatch:         # 也可以手動點「Run workflow」觸發
+    # UTC 22:00 = 台灣時間隔天 06:00
+    - cron: '0 22 * * *'
+  workflow_dispatch:        # 允許手動點 Run workflow
 
 permissions:
-  contents: write            # 讓 Action 可以把新資料 push 回去
+  contents: write
+
+concurrency:
+  group: daily-fetch
+  cancel-in-progress: false
 
 jobs:
-  fetch-and-deploy:
+  fetch:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
 
     steps:
-      - name: 下載 repo
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - name: 設定 Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
-          python-version: '3.11'
+          python-version: '3.12'
+          cache: 'pip'
 
       - name: 安裝套件
-        run: pip install requests
+        run: pip install -r requirements.txt
 
-      - name: 執行文獻收集腳本
+      - name: 收集文獻並生成摘要
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python fetch_papers.py
 
-      - name: 把新資料 commit 並 push
+      - name: Commit & Push
         run: |
-          git config user.name "腸嚐新知 Bot"
-          git config user.email "bot@changchang.local"
+          git config user.name  "腸嚐新知 Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/
-          git diff --staged --quiet || git commit -m "📰 $(date +'%Y-%m-%d') 每日文獻更新"
-          git push
+          if git diff --staged --quiet; then
+            echo "無變更，略過 commit"
+          else
+            git commit -m "📰 $(TZ=Asia/Taipei date +'%Y-%m-%d') 每日文獻更新"
+            git push
+          fi
