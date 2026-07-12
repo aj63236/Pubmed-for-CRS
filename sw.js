@@ -2,8 +2,8 @@
    殼層走快取（開得快），資料走網路優先（永遠拿最新的）
    離線時自動退回上次讀到的資料 */
 
-const SHELL = 'cc-shell-v6';
-const DATA  = 'cc-data-v6';
+const SHELL = 'cc-shell-v7';
+const DATA  = 'cc-data-v7';
 
 const SHELL_FILES = [
   './',

@@ -81,6 +81,7 @@ def main():
     print(f"  腸嚐新知 · 回補歷史文獻")
     print(f"  區間：{start} ～ {end}（共 {len(days)} 天）")
     print(f"  每天上限：{args.max_per_day} 篇")
+    print(f"  模型：{fp.MODEL}  (${fp.price_of(fp.MODEL)[0]}/${fp.price_of(fp.MODEL)[1]} per MTok)")
     if args.dry_run:
         print(f"  模式：🧪 試算（不花錢）")
     print("=" * 58)
@@ -130,8 +131,9 @@ def main():
     n_new = len(new_ids)
     n_cached = to_fetch - n_new
 
-    # 一篇約 1,600 in + 1,300 out（含完整摘要翻譯）
-    est = n_new * (1600 / 1e6 * 3 + 1300 / 1e6 * 15)
+    # 一篇約 2,000 in + 1,900 out（含完整摘要翻譯 + 批判性分析）
+    p_in, p_out = fp.price_of(fp.MODEL)
+    est = n_new * (2000 / 1e6 * p_in + 1900 / 1e6 * p_out)
 
     print("\n" + "─" * 58)
     print(f"  要處理的日期：{len(plan)} 天")
@@ -197,7 +199,7 @@ def main():
         done_days += 1
         print()
 
-    cost = tok_in / 1e6 * 3 + tok_out / 1e6 * 15
+    cost = tok_in / 1e6 * p_in + tok_out / 1e6 * p_out
     print("─" * 58)
     print(f"  完成 {done_days} 天")
     print(f"  Token：{tok_in:,} in / {tok_out:,} out")

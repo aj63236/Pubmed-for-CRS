@@ -16,10 +16,30 @@ from pathlib import Path
 
 # ─────────────────────────── 設定 ───────────────────────────
 API_KEY     = os.environ.get("ANTHROPIC_API_KEY", "").strip()
-MODEL       = "claude-sonnet-4-6"     # ⚠️ 目前有效的 model string
+# 想換模型就改這裡，或設環境變數 MODEL
+# claude-sonnet-5   ← 預設。8/31 前促銷價 $2/$10，比 Sonnet 4.6 便宜且更新
+# claude-haiku-4-5-20251001  ← 便宜 3 倍，但批判性分析與 NNT 計算會變差
+# claude-opus-4-8   ← 最強但貴一倍
+MODEL       = os.environ.get("MODEL", "").strip() or "claude-sonnet-5"
 DAYS_BACK   = 2                       # 抓最近 N 天新上架的論文（1 天常常是 0 篇）
 MAX_RESULTS = 12                      # 每天最多處理幾篇
 MAX_RETRY   = 3
+
+# 每 1M token 單價（USD）。價格會變，以 Anthropic 官網為準。
+PRICING = {
+    "claude-sonnet-5":   (2.00, 10.00),   # 8/31 前促銷；9/1 起變 (3, 15)
+    "claude-sonnet-4-6": (3.00, 15.00),
+    "claude-opus-4-8":   (5.00, 25.00),
+    "claude-haiku-4-5":  (1.00,  5.00),
+}
+
+
+def price_of(model):
+    for k, v in PRICING.items():
+        if model.startswith(k):
+            return v
+    return (3.00, 15.00)   # 未知模型，用旗艦價估，寧可高估
+
 
 ROOT      = Path(__file__).parent
 DATA_DIR  = ROOT / "data"
@@ -521,8 +541,8 @@ def main():
     log("\n💾 儲存結果...")
     save(papers, today)
 
-    # Sonnet 4.6 費率：$3 / 1M input, $15 / 1M output
-    cost = tok_in / 1e6 * 3 + tok_out / 1e6 * 15
+    p_in, p_out = price_of(MODEL)
+    cost = tok_in / 1e6 * p_in + tok_out / 1e6 * p_out
     log("\n" + "─" * 56)
     log(f"  新生成 {n_new} 篇 · 快取 {n_cached} 篇 · 失敗 {n_fail} 篇")
     log(f"  Token: {tok_in:,} in / {tok_out:,} out")
