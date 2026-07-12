@@ -48,6 +48,9 @@ jobs:
       - name: 回補
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # 想換模型：Settings → Secrets and variables → Actions → Variables
+          # 新增 MODEL，值可填 claude-haiku-4-5-20251001（便宜但分析較弱）
+          MODEL: ${{ vars.MODEL }}
         run: |
           ARGS="--from ${{ inputs.from_date }} --max-per-day ${{ inputs.max_per_day }}"
 
