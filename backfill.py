@@ -89,7 +89,7 @@ def main():
         args.max_per_day = 1
 
     start = datetime.date.fromisoformat(args.start)
-    end = datetime.date.fromisoformat(args.end) if args.end else datetime.date.today()
+    end = datetime.date.fromisoformat(args.end) if args.end else fp.today_tw()
 
     if start > end:
         print("❌ 起始日晚於結束日")
@@ -207,23 +207,34 @@ def main():
         papers, note = fp.select(papers, max_results=args.max_per_day)
         print(f"   掃描 {total} 篇 → {note}")
 
+        # 語料庫每天重建一次（前面日子的資料已經寫進去了）
+        corpus = fp.build_corpus()
+
+        now = fp.stamp()
         for i, p in enumerate(papers, 1):
             short = p["title"][:48] + ("…" if len(p["title"]) > 48 else "")
             pmid = p["pmid"]
 
+            related = fp.find_related(p, corpus)
+            p["related"] = related
+
             if pmid in cache:
                 p.update(cache[pmid])
+                p["related"] = related
+                p["added_at"] = cache[pmid].get("added_at") or now
                 print(f"   [{i}/{len(papers)}] 💾 {short}")
                 continue
 
-            print(f"   [{i}/{len(papers)}] 🧠 {short}")
-            result = fp.summarize(p)
+            print(f"   [{i}/{len(papers)}] 🧠 {short}" + (f"  ↔ {len(related)} 篇相關" if related else ""))
+            result = fp.summarize(p, related)
             if result:
                 usage = result.pop("_usage", {})
                 tok_in += usage.get("in", 0)
                 tok_out += usage.get("out", 0)
+                result["added_at"] = now
                 p.update(result)
                 cache[pmid] = result
+            p.setdefault("added_at", now)
             time.sleep(0.4)
 
         fp.save(papers, ds)

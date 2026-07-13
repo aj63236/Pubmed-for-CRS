@@ -10,7 +10,7 @@
 環境變數：ANTHROPIC_API_KEY
 """
 
-import os, re, json, time, datetime, requests
+import os, re, json, math, time, datetime, requests
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
@@ -75,30 +75,156 @@ def rank_score(paper):
     return min(jif, IF_CAP) * IF_WEIGHT + best_ptype * PTYPE_MULT
 
 
+# ═══════════════ 相關文獻檢索 ═══════════════
+# 把過去收集的所有論文當成一個小型資料庫，用 TF-IDF 餘弦相似度
+# 找出跟新論文最相關的前作。純本機計算，不花任何錢。
+
+_STOP = set("""
+the a an and or of for in on with to from by at as is are was were be been being
+this that these those we our us their its it they i you he she
+study studies patient patients group groups compared comparison versus vs
+result results conclusion conclusions background methods method objective
+purpose aim aims between after before during using used use
+significant significantly associated association
+risk rate rates ratio odds outcome outcomes primary secondary endpoint
+value values median mean total number all both not no more less higher lower
+may can could should also however although while than then thus therefore
+data analysis analyses among within per each other others such based
+""".split())
+
+
+def _tokens(text):
+    """英文詞元。PubMed 是英文，比中文翻譯穩定，所以只用英文標題+摘要。"""
+    return [w for w in re.findall(r"[a-z][a-z\-]{2,}", (text or "").lower())
+            if w not in _STOP]
+
+
+def _vec(toks, idf, default_idf):
+    """TF-IDF 向量（已正規化，之後點積 = 餘弦相似度）"""
+    tf = {}
+    for t in toks:
+        tf[t] = tf.get(t, 0) + 1
+    v = {t: (1 + math.log(f)) * idf.get(t, default_idf) for t, f in tf.items()}
+    n = math.sqrt(sum(x * x for x in v.values())) or 1.0
+    return {t: x / n for t, x in v.items()}
+
+
+def build_corpus():
+    """把 data/ 裡所有日檔讀成語料庫。這就是「資料庫」。"""
+    docs = []
+    for f in sorted(DATA_DIR.glob("20*-*-*.json")):
+        try:
+            day = json.loads(f.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        for p in day.get("papers", []):
+            if not p.get("pmid"):
+                continue
+            docs.append({
+                "pmid":      p["pmid"],
+                "date":      day.get("date", ""),
+                "title_zh":  p.get("title_zh") or p.get("title", ""),
+                "score":     p.get("score"),
+                "one_liner": p.get("one_liner", ""),
+                "toks":      _tokens(p.get("title", "") + " " + p.get("abstract", "")),
+            })
+
+    if not docs:
+        return [], {}, 1.0
+
+    N = len(docs)
+    df = {}
+    for d in docs:
+        for t in set(d["toks"]):
+            df[t] = df.get(t, 0) + 1
+    idf = {t: math.log((N + 1) / (c + 1)) + 1 for t, c in df.items()}
+    default_idf = math.log(N + 1) + 1        # 語料庫沒見過的詞 → 最高鑑別度
+
+    for d in docs:
+        d["vec"] = _vec(d["toks"], idf, default_idf)
+
+    return docs, idf, default_idf
+
+
+def find_related(paper, corpus, k=3, min_sim=0.15):
+    """找出跟這篇最相關的前作。
+
+    min_sim=0.15 是實測出來的：0.10 太鬆，兩篇只因為都提到 colorectal cancer
+    就會被配在一起（餘弦 0.11），那種假關聯餵給模型很危險。
+    """
+    docs, idf, default_idf = corpus
+    if not docs:
+        return []
+
+    v = _vec(_tokens(paper.get("title", "") + " " + paper.get("abstract", "")),
+             idf, default_idf)
+    if not v:
+        return []
+
+    hits = []
+    for d in docs:
+        if d["pmid"] == paper["pmid"]:
+            continue
+        sim = sum(x * d["vec"].get(t, 0.0) for t, x in v.items())
+        if sim >= min_sim:
+            hits.append((sim, d))
+
+    hits.sort(key=lambda x: -x[0])
+    return [{
+        "pmid":      d["pmid"],
+        "date":      d["date"],
+        "title_zh":  d["title_zh"],
+        "score":     d["score"],
+        "one_liner": d["one_liner"],
+        "sim":       round(sim, 3),
+    } for sim, d in hits[:k]]
+
+
 def is_review(paper):
     """narrative review / systematic review 都算。"""
     return any("review" in pt.lower() for pt in paper.get("ptype_list", []))
 
 
 def select(papers, max_results=None, review_limit=None):
-    """選片：所有 Review（上限 REVIEW_LIMIT）+ 分數最高的 N 篇，去重。
+    """選片，三個來源合起來去重：
+
+      1. 追蹤命中     —— 無視分數。你要追的東西不該被 IF 決定。
+      2. 高分文章     —— 前 N 名
+      3. Review       —— 綜述分數天生低，另外撈，不跟高分文章搶名額
 
     回傳 (選中的清單, 說明字串)
     """
     max_results  = MAX_RESULTS  if max_results  is None else max_results
     review_limit = REVIEW_LIMIT if review_limit is None else review_limit
 
-    ranked = sorted(papers, key=rank_score, reverse=True)
+    # 先標記每篇命中了什麼
+    for p in papers:
+        p["watched"] = match_watch(p)
 
+    ranked = sorted(papers, key=rank_score, reverse=True)
     chosen, seen = [], set()
 
-    # 1) 高分文章
-    for p in ranked[:max_results]:
-        chosen.append(p)
-        seen.add(p["pmid"])
-    n_top = len(chosen)
+    # 1) 追蹤命中（最優先，分數再低也要）
+    n_watch = 0
+    for p in ranked:
+        if n_watch >= WATCH_LIMIT:
+            break
+        if p["watched"] and p["pmid"] not in seen:
+            chosen.append(p)
+            seen.add(p["pmid"])
+            n_watch += 1
 
-    # 2) 額外納入 Review（分數高的優先）
+    # 2) 高分文章
+    n_top = 0
+    for p in ranked:
+        if n_top >= max_results:
+            break
+        if p["pmid"] not in seen:
+            chosen.append(p)
+            seen.add(p["pmid"])
+            n_top += 1
+
+    # 3) Review
     n_rev = 0
     if INCLUDE_REVIEWS:
         for p in ranked:
@@ -110,10 +236,13 @@ def select(papers, max_results=None, review_limit=None):
             seen.add(p["pmid"])
             n_rev += 1
 
-    # 最後整體再依分數排一次，讀起來才順
     chosen.sort(key=rank_score, reverse=True)
-    note = f"高分 {n_top} 篇" + (f" + 額外 Review {n_rev} 篇" if n_rev else "")
-    return chosen, note
+
+    bits = []
+    if n_watch: bits.append(f"🔖 追蹤 {n_watch} 篇")
+    bits.append(f"高分 {n_top} 篇")
+    if n_rev:   bits.append(f"Review {n_rev} 篇")
+    return chosen, " + ".join(bits)
 
 
 def price_of(model):
@@ -123,10 +252,69 @@ def price_of(model):
     return (3.00, 15.00)   # 未知模型，用旗艦價估，寧可高估
 
 
+# ── 時區 ──
+# GitHub Actions 跑在 UTC。workflow 排在 UTC 22:00（= 台灣隔天 06:00），
+# 若直接用 datetime.now() / date.today()，會拿到 UTC 的「前一天 22 點」，
+# 日期標錯、時間也對不上。台灣沒有日光節約，固定 +8 即可。
+TZ = datetime.timezone(datetime.timedelta(hours=8))
+
+
+def now_tw():
+    return datetime.datetime.now(TZ)
+
+
+def today_tw():
+    return now_tw().date()
+
+
+def stamp():
+    """帶時區的 ISO 時間字串，瀏覽器會自動轉成使用者的本地時間顯示。"""
+    return now_tw().isoformat(timespec="seconds")
+
+
 ROOT      = Path(__file__).parent
 DATA_DIR  = ROOT / "data"
 CACHE_FILE = DATA_DIR / "_cache_v3.json"  # pmid -> 已生成的分析（v3 schema）
-JOURNALS_FILE = ROOT / "journals.json"  # 期刊 Impact Factor 對照表（可自行編輯）
+JOURNALS_FILE = ROOT / "journals.json"  # 期刊 Impact Factor 對照表
+WATCH_FILE    = ROOT / "watch.json"     # 追蹤關鍵字（命中就無視分數強制納入）
+
+
+def load_watch():
+    try:
+        w = json.loads(WATCH_FILE.read_text(encoding="utf-8"))
+        return (
+            [k.lower() for k in w.get("keywords", []) if k.strip()],
+            [j.lower() for j in w.get("journals", []) if j.strip()],
+            int(w.get("limit", 6)),
+        )
+    except Exception:
+        return [], [], 0
+
+
+WATCH_KW, WATCH_JOURNALS, WATCH_LIMIT = load_watch()
+
+
+def match_watch(paper):
+    """這篇命中了哪些追蹤項目？回傳命中的字串清單（沒命中就是空的）。"""
+    hits = []
+
+    hay = (paper.get("title", "") + " " + paper.get("abstract", "")).lower()
+    for kw in WATCH_KW:
+        if kw in hay:
+            hits.append(kw)
+
+    jrn = (paper.get("journal", "") + " " + paper.get("journal_full", "")).lower()
+    for j in WATCH_JOURNALS:
+        if j in jrn:
+            hits.append(j)
+
+    # 去重但保留順序
+    seen, out = set(), []
+    for h in hits:
+        if h not in seen:
+            seen.add(h)
+            out.append(h)
+    return out
 
 
 def load_journals():
@@ -254,9 +442,13 @@ PROMPT = """你是大腸直腸外科資深主治醫師，同時熟悉實證醫�
     "陷阱 3"
   ],
 
-  "unassessable": ["因摘要資訊不足而無法評估的項目。例如：盲法、allocation concealment、ITT、失訪率、試驗註冊、利益衝突、成本分析"]
+  "unassessable": ["因摘要資訊不足而無法評估的項目。例如：盲法、allocation concealment、ITT、失訪率、試驗註冊、利益衝突、成本分析"],
+
+  "context_verdict": "擇一：再確認 / 與前作矛盾 / 延伸前作 / 無相關前作",
+  "context": "2-3 句話，說明這篇跟【下面列出的、你之前看過的論文】是什麼關係。⚠️ 若下面沒有列出任何論文，或列出的其實跟這篇無關，就把 context_verdict 設為「無相關前作」，context 寫「無相關前作」，**絕對不要硬掰關聯**。若真的相關：一致 → 說再確認了什麼；矛盾 → 明確指出哪裡矛盾、哪一篇證據等級較高、該信哪個；延伸 → 說補上了什麼缺口。"
 }}
 
+{related_block}
 論文標題：{title}
 期刊：{journal}
 發表型態：{ptype}
@@ -292,7 +484,7 @@ def save_cache(cache):
 # ───────────────────────── PubMed ──────────────────────────
 def search_pubmed():
     """用 edat（PubMed 上架日）搜尋，比 pdat 更貼近『今天有什麼新文章』"""
-    today = datetime.date.today()
+    today = today_tw()
     start = today - datetime.timedelta(days=DAYS_BACK)
     fmt = lambda d: d.strftime("%Y/%m/%d")
 
@@ -460,7 +652,22 @@ def clean_json(text):
     return text.strip()
 
 
-def summarize(paper):
+def build_related_block(related):
+    """把相關前作組成給模型看的區塊。沒有就明講沒有，避免它硬掰。"""
+    if not related:
+        return ("【你之前看過的相關論文】\n"
+                "（沒有 —— 這是這個主題的第一篇。context_verdict 請填「無相關前作」）\n")
+    lines = ["【你之前看過的相關論文】（相似度由高到低）"]
+    for i, r in enumerate(related, 1):
+        sc = f"評分 {r['score']}/10" if r.get("score") is not None else "評分 —"
+        lines.append(f"{i}. [{r['date']}，{sc}] {r['title_zh']}")
+        if r.get("one_liner"):
+            lines.append(f"   {r['one_liner']}")
+    lines.append("（若上面這些其實跟本篇無關，請誠實填「無相關前作」，不要硬掰）")
+    return "\n".join(lines) + "\n"
+
+
+def summarize(paper, related=None):
     if not API_KEY:
         return None
 
@@ -469,6 +676,7 @@ def summarize(paper):
         journal=paper["journal"],
         ptype=paper["ptype"],
         abstract=paper["abstract"][:6000],
+        related_block=build_related_block(related or []),
     )
 
     for attempt in range(1, MAX_RETRY + 1):
@@ -563,6 +771,9 @@ def summarize(paper):
                 "key_numbers":    as_list(data.get("key_numbers"), 4),
                 "cautions":       as_list(data.get("cautions"), 3),
                 "unassessable":   as_list(data.get("unassessable")),
+                "context_verdict": one_of(data.get("context_verdict"),
+                                          {"再確認", "與前作矛盾", "延伸前作", "無相關前作"}),
+                "context":        str(data.get("context", "")).strip(),
             }
             clean["_usage"] = {
                 "in": usage.get("input_tokens", 0),
@@ -618,7 +829,7 @@ def save(papers, date_str):
 
     payload = {
         "date": date_str,
-        "generated_at": datetime.datetime.now().isoformat(timespec="seconds"),
+        "generated_at": stamp(),
         "count": len(papers),
         "papers": papers,
     }
@@ -646,10 +857,53 @@ def save(papers, date_str):
     log(f"   ✅ data/{date_str}.json（{len(papers)} 篇）")
     log(f"   ✅ data/index.json（{len(idx)} 天有內容）")
 
+    rebuild_search_index()
+
+
+def rebuild_search_index():
+    """把所有日檔壓成一份輕量索引，讓網站能全站搜尋 / 顯示收藏 / 算未讀。
+
+    欄位刻意用單字母縮寫，因為這檔案會被手機下載。
+    """
+    items = []
+    for f in sorted(DATA_DIR.glob("20*-*-*.json"), reverse=True):
+        try:
+            day = json.loads(f.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        for p in day.get("papers", []):
+            if not p.get("pmid"):
+                continue
+            blob = " ".join(filter(None, [
+                p.get("title_zh"), p.get("title"), p.get("journal"),
+                p.get("one_liner"), p.get("action"),
+                " ".join(p.get("key_numbers") or []),
+                " ".join(p.get("cautions") or []),
+                (p.get("abstract_zh") or "")[:400],
+            ])).lower()
+            items.append({
+                "p": p["pmid"],
+                "d": day.get("date", ""),
+                "t": p.get("title_zh") or p.get("title", ""),
+                "j": p.get("journal", ""),
+                "f": p.get("impact_factor"),
+                "s": p.get("score"),
+                "w": p.get("watched") or [],
+                "a": p.get("added_at", ""),
+                "x": blob,
+            })
+
+    (DATA_DIR / "search.json").write_text(
+        json.dumps(items, ensure_ascii=False, separators=(",", ":")),
+        encoding="utf-8")
+
+    kb = (DATA_DIR / "search.json").stat().st_size / 1024
+    log(f"   ✅ data/search.json（{len(items)} 篇可搜尋，{kb:.0f} KB）")
+
 
 # ───────────────────────── 主程式 ──────────────────────────
 def main():
-    today = datetime.date.today().strftime("%Y-%m-%d")
+    today = today_tw().strftime("%Y-%m-%d")
     log("=" * 56)
     log(f"  腸嚐新知 · 每日文獻收集   {today}")
     log("=" * 56)
@@ -677,8 +931,8 @@ def main():
     for p in papers:
         jif = p.get("impact_factor")
         jtag = f"IF {jif}" if jif else "IF ?"
-        rv = "📖" if is_review(p) else "  "
-        log(f"   {rank_score(p):5.1f} {rv} [{jtag:>8}] {p['ptype'][:26]:<26} {p['title'][:38]}")
+        mk = "🔖" if p.get("watched") else ("📖" if is_review(p) else "  ")
+        log(f"   {rank_score(p):5.1f} {mk} [{jtag:>8}] {p['ptype'][:26]:<26} {p['title'][:38]}")
     if total > len(papers):
         log(f"   （捨棄 {total - len(papers)} 篇）")
 
@@ -686,29 +940,46 @@ def main():
     tok_in = tok_out = 0
     n_cached = n_new = n_fail = 0
 
+    # ── 把過去所有論文讀成語料庫，用來找相關前作 ──
+    log("\n📚 建立語料庫（過去收集的所有論文）...")
+    corpus = build_corpus()
+    log(f"   {len(corpus[0])} 篇可比對")
+
     log(f"\n🤖 AI 處理中（model: {MODEL}）...")
+    now = stamp()
     for i, p in enumerate(papers, 1):
         short = p["title"][:52] + ("…" if len(p["title"]) > 52 else "")
         pmid = p["pmid"]
 
+        # 相關前作（本機算，免費）
+        related = find_related(p, corpus)
+        p["related"] = related
+
         if pmid in cache:
             p.update(cache[pmid])
+            p["related"] = related            # 相關前作永遠用最新算的
+            p["added_at"] = cache[pmid].get("added_at") or now
             n_cached += 1
-            log(f"  [{i:2d}/{len(papers)}] 💾 快取  {short}")
+            rel = f"  ↔ {len(related)} 篇相關" if related else ""
+            log(f"  [{i:2d}/{len(papers)}] 💾 快取  {short}{rel}")
             continue
 
-        log(f"  [{i:2d}/{len(papers)}] 🧠 生成  {short}")
-        result = summarize(p)
+        rel = f"  ↔ {len(related)} 篇相關" if related else ""
+        log(f"  [{i:2d}/{len(papers)}] 🧠 生成  {short}{rel}")
+        result = summarize(p, related)
 
         if result:
             usage = result.pop("_usage", {})
             tok_in += usage.get("in", 0)
             tok_out += usage.get("out", 0)
+            result["added_at"] = now          # 第一次收錄的時間，寫進快取
             p.update(result)
             cache[pmid] = result
             n_new += 1
         else:
             n_fail += 1
+
+        p.setdefault("added_at", now)         # 摘要失敗也要有時間
 
         if i < len(papers):
             time.sleep(0.4)

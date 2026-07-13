@@ -54,30 +54,64 @@ html,body{
   *{animation:none!important;transition:none!important;scroll-behavior:auto!important}
 }
 
+/* 唯一的捲動容器。沒有 scroll-snap ——
+   之前 mandatory 吸附 + 內層捲動容器互相打架，
+   手機慣性滑動會帶著動量一口氣跨過好幾張卡。 */
 #feed{
   height:100dvh;overflow-y:scroll;
-  scroll-snap-type:y mandatory;
   -webkit-overflow-scrolling:touch;
-  scrollbar-width:none;overscroll-behavior-y:contain;
+  scrollbar-width:none;
+  overscroll-behavior-y:contain;
+  scroll-behavior:smooth;
 }
 #feed::-webkit-scrollbar{display:none}
 
-/* ═══════════════ 六種口味輪換 ═══════════════ */
+/* ═══════════════ 卡片顏色 = 訊息，不是裝飾 ═══════════════
+
+   之前是六種口味「輪流換」—— 顏色由「第幾張卡」決定，跟內容毫無關係。
+   那是噪音。現在顏色直接回答一個問題：這篇我該不該花時間？
+
+     🌹 玫瑰 = 必讀   —— 追蹤命中 / 跟你已知的矛盾 / 高分又高度相關
+     🩵 天藍 = 相關   —— 一般該讀的
+     ⬜ 灰   = 可略過 —— 低度相關或低分，視覺上刻意「退後」
+
+   評分的紅綠燈（綠/琥珀/紅）是另一個軸：那是「品質」。
+   卡片底色是「跟你的相關程度」。兩個軸不衝突。
+*/
 .card{
-  height:100dvh;
-  scroll-snap-align:start;scroll-snap-stop:always;
+  min-height:100dvh;
   position:relative;display:flex;flex-direction:column;
-  --a:#F49AC2;            /* 主色（飽和一點，給 chip 用） */
-  --soft:#FFE9F0;         /* 卡片底（很淡） */
-  --tint:#FFF4F8;         /* 更淡，給區塊底 */
-  background:var(--soft);
+  --a:#4A8FC0; --soft:#E7F2FB; --tint:#F3F9FD;   /* 預設＝相關 */
 }
-.card:nth-child(6n+1){--a:#E87BAE;--soft:#FFE7EF;--tint:#FFF3F7}  /* 玫瑰 */
-.card:nth-child(6n+2){--a:#6FB4DC;--soft:#E4F1FA;--tint:#F2F8FD}  /* 天藍 */
-.card:nth-child(6n+3){--a:#6BBF93;--soft:#E4F5EB;--tint:#F2FAF5}  /* 抹茶 */
-.card:nth-child(6n+4){--a:#DDA43C;--soft:#FEF3DC;--tint:#FEF9EE}  /* 檸檬 */
-.card:nth-child(6n+5){--a:#9E86C9;--soft:#EFE9FA;--tint:#F7F4FD}  /* 薰衣草 */
-.card:nth-child(6n+6){--a:#E39270;--soft:#FFEBDF;--tint:#FFF5EF}  /* 焦糖 */
+
+/* 必讀 —— 暖色，往前跳出來 */
+.card.t-must{
+  --a:#D94F86;
+  --soft:#FFE2EC;
+  --tint:#FFF2F6;
+}
+/* 相關 —— 冷靜的藍 */
+.card.t-rel{
+  --a:#4A8FC0;
+  --soft:#E7F2FB;
+  --tint:#F3F9FD;
+}
+/* 可略過 —— 去飽和，視覺上退後 */
+.card.t-low{
+  --a:#9C97A3;
+  --soft:#F2F1F3;
+  --tint:#F9F8FA;
+}
+.card{background:var(--soft)}
+
+/* 必讀的卡片再多一道左邊界，滑過去很難錯過 */
+.card.t-must::before{
+  content:'';
+  position:absolute;left:0;top:0;bottom:0;
+  width:4px;
+  background:linear-gradient(180deg,#D94F86,#F0A0C0);
+  z-index:7;
+}
 
 /* 右上角一顆柔光，像馬卡龍的高光 */
 .card::after{
@@ -92,7 +126,10 @@ html,body{
 .hdr{
   flex:none;display:flex;align-items:center;justify-content:space-between;gap:10px;
   padding:calc(env(safe-area-inset-top,0px) + 14px) var(--pad) 10px;
-  position:relative;z-index:5;
+  position:sticky;top:0;z-index:6;
+  background:color-mix(in srgb, var(--soft) 88%, transparent);
+  backdrop-filter:blur(10px);
+  -webkit-backdrop-filter:blur(10px);
 }
 .brand{
   font-family:'Noto Serif TC',serif;font-weight:900;
@@ -112,12 +149,12 @@ html,body{
   font-size:11px;font-weight:500;color:var(--muted);white-space:nowrap;
 }
 
+/* 不再是獨立的捲動容器 —— 整個 feed 只有一層捲動，滑起來才不會打架 */
 .body{
-  flex:1;overflow-y:auto;scrollbar-width:none;
-  padding:6px var(--pad) calc(var(--nav-h) + env(safe-area-inset-bottom,0px) + 20px);
+  flex:1;
+  padding:6px var(--pad) calc(var(--nav-h) + env(safe-area-inset-bottom,0px) + 28px);
   position:relative;z-index:2;
 }
-.body::-webkit-scrollbar{display:none}
 
 /* ═══════════════ CHIPS ═══════════════ */
 .chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:13px}
@@ -261,8 +298,19 @@ html,body{
 /* ═══════════════ 動作列 ═══════════════ */
 .acts{
   display:flex;align-items:center;gap:7px;
-  padding-top:13px;border-top:1px solid var(--line-soft);flex-wrap:wrap;
+  padding-top:13px;border-top:1px solid var(--line-soft);
+  flex-wrap:wrap;
 }
+/* 收錄時間 / PMID 自己一行，不跟按鈕擠 */
+.meta-row{
+  display:flex;align-items:center;gap:6px;
+  margin-top:9px;
+  font-family:'IBM Plex Mono',monospace;
+  font-size:9.5px;color:var(--dim);
+}
+.meta-row svg{width:10px;height:10px;opacity:.7;flex:none}
+.meta-row .dot{opacity:.45}
+.meta-row .pm{margin-left:auto}
 .btn{
   display:inline-flex;align-items:center;gap:6px;
   font-family:'IBM Plex Mono',monospace;
@@ -274,7 +322,274 @@ html,body{
 .btn:hover{color:#fff;background:var(--a);border-color:var(--a)}
 .btn:focus-visible{outline:2px solid var(--a);outline-offset:2px}
 .btn svg{width:13px;height:13px;flex:none}
-.pmid{margin-left:auto;font-family:'IBM Plex Mono',monospace;font-size:9.5px;color:var(--dim)}
+
+
+/* ═══════════════ 翻頁鈕（右側浮動） ═══════════════
+   平常滑動 = 一般捲動（順、可預測）
+   要換論文 = 按這個（精準、一次一篇）        */
+#pager{
+  position:fixed;
+  right:10px;
+  top:50%;
+  transform:translateY(-50%);
+  z-index:80;
+  display:flex;flex-direction:column;align-items:stretch;
+  border-radius:22px;
+  background:rgba(255,255,255,.82);
+  backdrop-filter:blur(14px) saturate(1.4);
+  -webkit-backdrop-filter:blur(14px) saturate(1.4);
+  border:1px solid var(--line);
+  box-shadow:0 6px 22px rgba(59,52,64,.14);
+  overflow:hidden;
+  opacity:.62;
+  transition:opacity .25s;
+}
+#pager:hover,#pager:focus-within,#pager.active{opacity:1}
+@media (hover:none){ #pager{opacity:.9} }
+
+.pg{
+  width:44px;height:42px;
+  display:grid;place-items:center;
+  background:none;border:none;cursor:pointer;
+  color:var(--muted);
+  transition:background .15s,color .15s;
+  -webkit-tap-highlight-color:transparent;
+}
+.pg:hover:not(:disabled){background:var(--soft);color:var(--a)}
+.pg:active:not(:disabled){background:var(--a);color:#fff}
+.pg:focus-visible{outline:2px solid var(--a);outline-offset:-3px}
+.pg:disabled{opacity:.28;cursor:default}
+.pg svg{width:19px;height:19px}
+
+#pg-pos{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:10px;font-weight:700;
+  color:var(--muted);
+  text-align:center;
+  padding:5px 0 4px;
+  border-top:1px solid var(--line-soft);
+  border-bottom:1px solid var(--line-soft);
+  line-height:1.25;
+  user-select:none;
+}
+#pg-pos b{display:block;color:var(--a);font-size:12px;font-weight:800}
+
+
+/* ═══════════════ 與過去文獻的關係 ═══════════════ */
+.ctx{
+  border-radius:16px;
+  padding:13px 15px;
+  background:#fff;
+  border:1px solid var(--line);
+  box-shadow:0 3px 12px rgba(59,52,64,.05);
+}
+.ctx-hd{display:flex;align-items:center;gap:7px;margin-bottom:8px}
+.ctx-v{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:9px;font-weight:800;letter-spacing:.08em;
+  padding:4px 9px 3px;border-radius:20px;line-height:1;color:#fff;
+}
+.ctx-v.same {background:#5C9E7D}   /* 再確認 */
+.ctx-v.diff {background:#D6455F}   /* 與前作矛盾 —— 最該注意的 */
+.ctx-v.ext  {background:#4F8FC0}   /* 延伸前作 */
+.ctx-v.none {background:var(--dim)}/* 無相關前作 */
+.ctx-lbl{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--dim);
+}
+.ctx p{font-size:13.5px;line-height:1.75;color:var(--ink)}
+
+.rel{margin-top:11px;padding-top:10px;border-top:1px solid var(--line-soft)}
+.rel-hd{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:9px;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--dim);margin-bottom:7px;
+}
+.rel-i{
+  display:flex;align-items:center;gap:8px;width:100%;
+  padding:8px 9px;margin-bottom:5px;
+  border-radius:10px;border:1px solid var(--line-soft);
+  background:#FBF7F4;color:var(--ink);
+  cursor:pointer;font-family:inherit;text-align:left;
+  transition:border-color .15s,background .15s;
+}
+.rel-i:hover{border-color:var(--a);background:var(--tint)}
+.rel-i:focus-visible{outline:2px solid var(--a);outline-offset:1px}
+.rel-s{
+  flex:none;width:22px;height:22px;border-radius:7px;
+  display:grid;place-items:center;
+  font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:800;color:#fff;
+}
+.rel-s.hi{background:var(--good)}.rel-s.mid{background:var(--mid)}
+.rel-s.lo{background:var(--bad)} .rel-s.na{background:var(--dim)}
+.rel-t{
+  flex:1;min-width:0;font-size:12px;line-height:1.45;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
+}
+.rel-d{
+  flex:none;font-family:'IBM Plex Mono',monospace;
+  font-size:9.5px;color:var(--dim);
+}
+
+/* ═══════════════ 追蹤標記 ═══════════════ */
+.chip-watch{
+  background:#fff;color:#C2185B;
+  box-shadow:inset 0 0 0 1.5px #F48FB1;
+}
+.chip-must{
+  background:#D94F86;color:#fff;
+  box-shadow:0 2px 8px rgba(217,79,134,.35);
+}
+
+/* ═══════════════ 未讀圓點 ═══════════════ */
+.unread{
+  width:7px;height:7px;border-radius:50%;
+  background:var(--a);
+  box-shadow:0 0 0 3px color-mix(in srgb,var(--a) 22%,transparent);
+  flex:none;
+}
+
+/* ═══════════════ 收藏星號 ═══════════════ */
+.star{
+  display:inline-flex;align-items:center;justify-content:center;
+  width:36px;height:36px;
+  border-radius:50%;
+  border:1px solid var(--line);
+  background:#fff;
+  color:var(--dim);
+  cursor:pointer;
+  transition:all .15s;
+  -webkit-tap-highlight-color:transparent;
+}
+.star:hover{border-color:var(--mid);color:var(--mid)}
+.star:focus-visible{outline:2px solid var(--mid);outline-offset:2px}
+.star svg{width:16px;height:16px}
+.star.on{background:#FFF4D6;border-color:#F0C24B;color:#D89A14}
+.star.on svg{fill:currentColor}
+
+/* ═══════════════ 全螢幕面板（搜尋 / 收藏） ═══════════════ */
+.panel{
+  position:fixed;inset:0;
+  background:var(--paper);
+  z-index:200;
+  display:flex;flex-direction:column;
+  transform:translateY(100%);
+  transition:transform .3s cubic-bezier(.32,.72,0,1);
+}
+.panel.open{transform:translateY(0)}
+
+.panel-hd{
+  flex:none;
+  padding:calc(env(safe-area-inset-top,0px) + 12px) 14px 10px;
+  display:flex;align-items:center;gap:9px;
+  border-bottom:1px solid var(--line-soft);
+  background:#fff;
+}
+.panel-close{
+  width:36px;height:36px;flex:none;
+  display:grid;place-items:center;
+  border:none;background:none;color:var(--muted);
+  border-radius:50%;cursor:pointer;
+}
+.panel-close:hover{background:var(--line-soft)}
+.panel-close svg{width:19px;height:19px}
+.panel-title{
+  font-family:'Noto Serif TC',serif;font-weight:700;font-size:16px;color:var(--ink);
+}
+
+#q{
+  flex:1;
+  font-family:'Noto Sans TC',sans-serif;
+  font-size:15px;
+  padding:10px 14px;
+  border-radius:22px;
+  border:1.5px solid var(--line);
+  background:#FBF7F4;
+  color:var(--ink);
+  outline:none;
+}
+#q:focus{border-color:#D94F86;background:#fff}
+#q::placeholder{color:var(--dim)}
+
+.panel-body{
+  flex:1;overflow-y:auto;
+  padding:10px 14px calc(env(safe-area-inset-bottom,0px) + 24px);
+}
+.panel-note{
+  font-size:11.5px;color:var(--dim);
+  padding:6px 4px 10px;
+  font-family:'IBM Plex Mono',monospace;
+}
+
+/* ── 結果列 ── */
+.hit{
+  display:flex;align-items:flex-start;gap:10px;
+  width:100%;
+  padding:12px 12px;
+  margin-bottom:7px;
+  border-radius:14px;
+  border:1px solid var(--line-soft);
+  background:#fff;
+  text-align:left;cursor:pointer;font-family:inherit;
+  transition:border-color .15s,box-shadow .15s;
+}
+.hit:hover{border-color:#D94F86;box-shadow:0 3px 12px rgba(217,79,134,.14)}
+.hit:focus-visible{outline:2px solid #D94F86;outline-offset:1px}
+
+/* 跟卡片同一套顏色語言 */
+.hit{border-left-width:4px}
+.hit.h-must{border-left-color:#D94F86;background:#FFF7FA}
+.hit.h-rel {border-left-color:#4A8FC0}
+.hit.h-low {border-left-color:#D6D3D9;opacity:.72}
+
+.hit-s{
+  flex:none;
+  width:30px;height:30px;border-radius:9px;
+  display:grid;place-items:center;
+  font-family:'IBM Plex Mono',monospace;
+  font-size:12px;font-weight:800;color:#fff;
+}
+.hit-s.hi {background:var(--good)}
+.hit-s.mid{background:var(--mid)}
+.hit-s.lo {background:var(--bad)}
+.hit-s.na {background:var(--dim)}
+
+.hit-b{flex:1;min-width:0}
+.hit-t{
+  font-size:13.5px;line-height:1.5;font-weight:500;color:var(--ink);
+  margin-bottom:4px;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
+}
+.hit-m{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:10px;color:var(--dim);
+  display:flex;align-items:center;gap:5px;flex-wrap:wrap;
+}
+.hit-m .w{color:#C2185B;font-weight:700}
+.hit-star{flex:none;color:#D89A14;opacity:.9}
+.hit-star svg{width:14px;height:14px;fill:currentColor}
+
+.empty-hint{
+  text-align:center;padding:50px 20px;color:var(--dim);
+}
+.empty-hint .big{font-size:40px;margin-bottom:10px}
+.empty-hint p{font-size:13px;line-height:1.8}
+
+/* ── nav 上的未讀數 ── */
+.nav-btn{position:relative}
+.badge{
+  position:absolute;
+  top:2px;left:50%;margin-left:6px;
+  min-width:16px;height:16px;
+  padding:0 4px;
+  border-radius:9px;
+  background:#D94F86;color:#fff;
+  font-family:'IBM Plex Mono',monospace;
+  font-size:9px;font-weight:800;
+  display:grid;place-items:center;
+  line-height:1;
+  box-shadow:0 2px 6px rgba(217,79,134,.4);
+}
 
 /* ═══════════════ NAV ═══════════════ */
 #nav{
@@ -293,8 +608,8 @@ html,body{
   font-family:'Noto Sans TC',sans-serif;font-size:10px;font-weight:600;
   color:var(--dim);cursor:pointer;transition:color .15s;
 }
-.nav-btn.on{color:#E87BAE}
-.nav-btn:focus-visible{outline:2px solid #E87BAE;outline-offset:-2px;border-radius:6px}
+.nav-btn.on{color:#D94F86}
+.nav-btn:focus-visible{outline:2px solid #D94F86;outline-offset:-2px;border-radius:6px}
 .nav-btn svg{width:21px;height:21px}
 
 /* ═══════════════ 日期抽屜 ═══════════════ */
@@ -322,13 +637,13 @@ html,body{
   border:1.5px solid var(--line-soft);background:#FBF7F4;color:var(--ink);
   cursor:pointer;font-family:inherit;text-align:left;transition:all .15s;
 }
-.day:hover{border-color:#E87BAE;background:#FFF0F6}
-.day:focus-visible{outline:2px solid #E87BAE;outline-offset:1px}
-.day.on{border-color:#E87BAE;background:#FFE7EF}
+.day:hover{border-color:#D94F86;background:#FFF2F6}
+.day:focus-visible{outline:2px solid #D94F86;outline-offset:1px}
+.day.on{border-color:#D94F86;background:#FFE2EC}
 .day-l{font-family:'IBM Plex Mono',monospace;font-size:14px;font-weight:600}
 .day-r{
   font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:700;
-  color:#fff;background:#E87BAE;padding:3px 10px 2px;border-radius:20px;line-height:1;
+  color:#fff;background:#D94F86;padding:3px 10px 2px;border-radius:20px;line-height:1;
 }
 .day:not(.on) .day-r{background:rgba(59,52,64,.12);color:var(--muted)}
 
@@ -340,9 +655,9 @@ html,body{
 }
 .tail-dot{
   width:36px;height:36px;border-radius:50%;
-  background:linear-gradient(135deg,#FFD1DC,#AFEEEE,#FDFD96);
+  background:linear-gradient(135deg,#D94F86,#4A8FC0);
   margin-bottom:6px;
-  box-shadow:0 6px 20px rgba(232,123,174,.28);
+  box-shadow:0 6px 20px rgba(217,79,134,.26);
 }
 .tail p{font-size:13.5px;color:var(--muted)}
 .tail-sub{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--dim)}
@@ -356,9 +671,9 @@ html,body{
 .state p{font-size:13.5px;line-height:1.85;color:var(--muted);max-width:30ch}
 .state .mark{
   width:48px;height:48px;border-radius:50%;
-  background:linear-gradient(135deg,#FFD1DC,#C8A2C8);
+  background:linear-gradient(135deg,#D94F86,#4A8FC0);
   display:grid;place-items:center;color:#fff;margin-bottom:6px;
-  box-shadow:0 6px 20px rgba(200,162,200,.3);
+  box-shadow:0 6px 20px rgba(217,79,134,.26);
 }
 
 /* ═══════════════ 開場 ═══════════════ */
@@ -370,12 +685,12 @@ html,body{
 .boot-in{display:flex;flex-direction:column;align-items:center;gap:18px}
 .boot-mark{
   font-family:'Noto Serif TC',serif;font-weight:900;font-size:40px;letter-spacing:1px;
-  background:linear-gradient(100deg,#E87BAE,#9E86C9,#6FB4DC);
+  background:linear-gradient(100deg,#D94F86,#4A8FC0);
   -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
 }
 .boot-bar{
   width:64px;height:4px;border-radius:4px;
-  background:linear-gradient(90deg,#FFD1DC,#FDFD96,#AFEEEE);
+  background:linear-gradient(90deg,#D94F86,#4A8FC0);
   animation:sweep 1.2s ease-in-out infinite;
 }
 @keyframes sweep{0%,100%{transform:scaleX(.2);opacity:.5}50%{transform:scaleX(1);opacity:1}}
@@ -402,10 +717,28 @@ html,body{
 
 <main id="feed" aria-live="polite"></main>
 
+<div id="pager" aria-label="翻頁">
+  <button class="pg" id="pg-up" onclick="jump(-1)" aria-label="上一篇" title="上一篇 (↑ / k)">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 15l-6-6-6 6"/></svg>
+  </button>
+  <div id="pg-pos"><b>1</b>／1</div>
+  <button class="pg" id="pg-dn" onclick="jump(1)" aria-label="下一篇" title="下一篇 (↓ / j)">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+  </button>
+</div>
+
 <nav id="nav">
   <button class="nav-btn on" id="nb-home" onclick="goLatest()">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-    最新
+    最新<span id="nb-badge"></span>
+  </button>
+  <button class="nav-btn" id="nb-search" onclick="openSearch()">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+    搜尋
+  </button>
+  <button class="nav-btn" id="nb-star" onclick="openStars()">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m12 3 2.6 5.6 6.1.8-4.5 4.2 1.2 6-5.4-3-5.4 3 1.2-6L3.3 9.4l6.1-.8z"/></svg>
+    收藏
   </button>
   <button class="nav-btn" id="nb-date" onclick="toggleSheet()" aria-expanded="false" aria-controls="sheet">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>
@@ -416,6 +749,35 @@ html,body{
     更新
   </button>
 </nav>
+
+<!-- 搜尋 -->
+<div class="panel" id="search-panel" role="dialog" aria-label="搜尋">
+  <div class="panel-hd">
+    <button class="panel-close" onclick="closePanel('search-panel')" aria-label="關閉">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12"/></svg>
+    </button>
+    <input id="q" type="search" placeholder="搜尋標題、摘要、期刊…" autocomplete="off"
+           oninput="runSearch()" onkeydown="if(event.key==='Escape')closePanel('search-panel')">
+  </div>
+  <div class="panel-body">
+    <div class="panel-note" id="q-note"></div>
+    <div id="q-hits"></div>
+  </div>
+</div>
+
+<!-- 收藏 -->
+<div class="panel" id="star-panel" role="dialog" aria-label="收藏">
+  <div class="panel-hd">
+    <button class="panel-close" onclick="closePanel('star-panel')" aria-label="關閉">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12"/></svg>
+    </button>
+    <div class="panel-title">稍後精讀</div>
+  </div>
+  <div class="panel-body">
+    <div class="panel-note" id="s-note"></div>
+    <div id="s-hits"></div>
+  </div>
+</div>
 
 <div id="sheet" role="dialog" aria-label="選擇日期">
   <div class="sheet-grip"></div>
@@ -450,6 +812,9 @@ async function boot(){
     state('連不上資料','確認 data/index.json 已推上 GitHub Pages。');
   }
   setTimeout(()=>document.getElementById('boot').classList.add('gone'), 650);
+
+  // 首屏畫完之後才在背景載搜尋索引，不擋開場
+  setTimeout(loadIndex, 800);
 }
 
 /* ─────────── 從第 n 天開始（日期跳轉用） ─────────── */
@@ -458,6 +823,7 @@ async function startFrom(n){
   loaded = n;
   papers = [];
   done = false;
+  active = 0;
   const feed = document.getElementById('feed');
   feed.innerHTML = '<div id="sentinel"></div>';
   await loadMore();
@@ -478,7 +844,7 @@ async function loadMore(){
     const r = await fetch(`${DATA}/${d.date}.json?v=${Date.now()}`);
     if(r.ok){
       const data = await r.json();
-      const batch = (data.papers||[]).map(p=>({...p,_date:d.date}));
+      const batch = (data.papers||[]).map(p=>({...p, _date:d.date, _gen:data.generated_at}));
       if(batch.length){
         const s = papers.length;
         papers = papers.concat(batch);
@@ -499,6 +865,8 @@ function appendCards(batch, start){
   }).join('');
   const s = document.getElementById('sentinel');
   if(s) s.insertAdjacentHTML('beforebegin', html);
+  syncPager();
+  computeActive();
 }
 
 function setupSentinel(){
@@ -537,6 +905,11 @@ function card(p, i, newDay){
   const caut = Array.isArray(p.cautions) ? p.cautions : [];
   const unass = Array.isArray(p.unassessable) ? p.unassessable : [];
   const pico = p.pico || {}, abs = p.abstract_zh || '';
+  const addedLabel = fmtAdded(p.added_at || p._gen);
+  const related = Array.isArray(p.related) ? p.related : [];
+  const verdict = p.context_verdict || '';
+  const ctx = (p.context && p.context !== '無相關前作') ? p.context : '';
+  const tr = tier(p);
 
   const who = p.authors
     ? p.authors.split(',').slice(0,2).join(',').trim() + (p.authors.split(',').length>2?' et al.':'')
@@ -548,10 +921,11 @@ function card(p, i, newDay){
     .map(k=>`<tr><th>${k}</th><td>${esc(pico[k])}</td></tr>`).join('');
 
   return `
-<article class="card" data-i="${i}" data-date="${p._date}">
+<article class="card t-${tr}" data-i="${i}" data-date="${p._date}" data-pmid="${p.pmid}">
   <header class="hdr">
     <div class="brand">腸嚐<em>新知</em></div>
     <div class="hdr-r">
+      ${!seen.has(p.pmid) ? '<span class="unread" title="未讀"></span>' : ''}
       ${newDay ? '<span class="newday">新的一天</span>' : ''}
       <span class="hdr-date">${fmtDay(p._date)}</span>
     </div>
@@ -559,6 +933,8 @@ function card(p, i, newDay){
 
   <div class="body">
     <div class="chips">
+      ${tr === 'must' ? `<span class="chip chip-must" title="${esc(mustWhy(p))}">★ 必讀</span>` : ''}
+      ${(p.watched && p.watched.length) ? `<span class="chip chip-watch" title="命中追蹤：${esc(p.watched.join('、'))}">🔖 追蹤</span>` : ''}
       ${ev ? `<span class="chip chip-ev ${weak?'weak':''}">${esc(ev)}</span>` : ''}
       ${score!==null ? `<span class="chip chip-score ${scoreClass(score)}">評分 ${score}<i>/10</i></span>` : ''}
       ${rel ? `<span class="chip chip-rel ${relClass(rel)}">${esc(rel)}</span>` : ''}
@@ -594,6 +970,28 @@ function card(p, i, newDay){
         <ul class="points warn">${caut.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>
       </section>` : ''}
 
+      ${(ctx || related.length) ? `<section class="sec">
+        <div class="ctx">
+          <div class="ctx-hd">
+            <span class="ctx-lbl">與過去文獻</span>
+            ${verdict ? `<span class="ctx-v ${verdictClass(verdict)}">${esc(verdict)}</span>` : ''}
+          </div>
+          ${ctx ? `<p>${esc(ctx)}</p>` : ''}
+          ${related.length ? `<div class="rel">
+            <div class="rel-hd">你之前看過的相關論文</div>
+            ${related.map(r => {
+              const rs = (typeof r.score === 'number') ? r.score : null;
+              const rc = rs === null ? 'na' : (rs >= 8 ? 'hi' : rs >= 6 ? 'mid' : 'lo');
+              return `<button class="rel-i" onclick="openPaper('${r.pmid}','${r.date}')">
+                <span class="rel-s ${rc}">${rs === null ? '–' : rs}</span>
+                <span class="rel-t">${esc(r.title_zh || '')}</span>
+                <span class="rel-d">${fmtDay(r.date)}</span>
+              </button>`;
+            }).join('')}
+          </div>` : ''}
+        </div>
+      </section>` : ''}
+
       ${unass.length ? `<div class="unass"><b>摘要沒寫</b>${esc(unass.join('、'))} → 需查全文</div>` : ''}
 
       ${(picoRows||abs) ? `<details class="acc">
@@ -621,13 +1019,59 @@ function card(p, i, newDay){
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M4 12v7a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-7"/><path d="M16 6l-4-4-4 4M12 2v14"/></svg>
         分享
       </button>
-      <span class="pmid">${p.pmid}</span>
+      <button class="star ${starred.has(p.pmid)?'on':''}" onclick="toggleStar('${p.pmid}', this)"
+              aria-label="稍後精讀" title="稍後精讀">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="m12 3 2.6 5.6 6.1.8-4.5 4.2 1.2 6-5.4-3-5.4 3 1.2-6L3.3 9.4l6.1-.8z"/></svg>
+      </button>
+    </div>
+
+    <div class="meta-row">
+      ${addedLabel ? `
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+        <span>收錄 ${esc(addedLabel)}</span>` : ''}
+      <span class="pm">PMID ${p.pmid}</span>
     </div>
   </div>
 </article>`;
 }
 
+/* ═══════════════ 這篇該不該花時間？ ═══════════════
+   決定卡片底色。順序有意義 —— 先判「必讀」，再判「可略過」。 */
+function tier(p){
+  const sc  = (typeof p.score === 'number') ? p.score : null;
+  const rel = p.relevance || '';
+  const watched     = Array.isArray(p.watched) && p.watched.length > 0;
+  const contradicts = p.context_verdict === '與前作矛盾';
+
+  // 🌹 必讀
+  if(watched)      return 'must';   // 你在追的主題 —— 分數再低也要看
+  if(contradicts)  return 'must';   // 跟你已知的打架 —— 這種最該注意
+  if(sc !== null && sc >= 8 && rel === '高度相關') return 'must';
+  if(p.novelty === '可能改變實務' && sc !== null && sc >= 7) return 'must';
+
+  // ⬜ 可略過
+  if(rel === '低度相關') return 'low';
+  if(sc !== null && sc <= 3) return 'low';
+
+  // 🩵 其餘＝相關
+  return 'rel';
+}
+
+/* 為什麼是必讀？講清楚，不要讓顏色變成謎。 */
+function mustWhy(p){
+  if(Array.isArray(p.watched) && p.watched.length) return '命中追蹤：' + p.watched.join('、');
+  if(p.context_verdict === '與前作矛盾') return '跟你之前看過的論文結論矛盾';
+  if(p.novelty === '可能改變實務') return '可能改變臨床實務';
+  return '高分且高度相關';
+}
+
 function scoreClass(n){ return n>=8?'hi' : n>=6?'mid' : 'lo'; }
+function verdictClass(v){
+  if(v === '與前作矛盾') return 'diff';   // 最該注意的
+  if(v === '再確認')     return 'same';
+  if(v === '延伸前作')   return 'ext';
+  return 'none';
+}
 function relClass(r){ return r==='高度相關'?'hi' : r==='低度相關'?'lo' : 'mid'; }
 function novClass(n){
   return n==='可能改變實務'?'hi' : n==='仍屬早期'?'early' : n==='結果為陰性'?'neg' : 'mid';
@@ -668,6 +1112,7 @@ async function goLatest(){
   toggleSheet(false);
   if(startIdx === 0){
     document.getElementById('feed').scrollTo({top:0,behavior:'smooth'});
+    active = 0; syncPager();
   }else{
     await startFrom(0);
   }
@@ -700,6 +1145,25 @@ function fmtDay(d){
   const [,m,day] = d.split('-');
   return `${+m}月${+day}日`;
 }
+
+/* 收錄時間。後端存的是帶 +08:00 時區的 ISO 字串，
+   new Date() 會自動轉成使用者的本地時間。 */
+function fmtAdded(iso){
+  if(!iso) return '';
+  const d = new Date(iso);
+  if(isNaN(d.getTime())) return '';
+
+  const midnight = x => new Date(x.getFullYear(), x.getMonth(), x.getDate());
+  const days = Math.round((midnight(new Date()) - midnight(d)) / 86400000);
+  const hm = `${String(d.getHours()).padStart(2,'0')}:${String(d.getMinutes()).padStart(2,'0')}`;
+
+  if(days < 0)  return `${d.getMonth()+1}/${d.getDate()}`;   // 時鐘沒對準之類的
+  if(days === 0) return `今天 ${hm}`;
+  if(days === 1) return `昨天 ${hm}`;
+  if(days < 7)   return `${days} 天前`;
+  if(days < 30)  return `${Math.floor(days/7)} 週前`;
+  return `${d.getMonth()+1}/${d.getDate()}`;
+}
 function state(title,msg){
   document.getElementById('feed').innerHTML = `
     <div class="state">
@@ -710,22 +1174,268 @@ function state(title,msg){
   document.getElementById('boot').classList.add('gone');
 }
 
-function step(dir){
-  const cards = [...document.querySelectorAll('.card')];
-  if(!cards.length) return;
-  const feed = document.getElementById('feed');
-  const cur = Math.round(feed.scrollTop / feed.clientHeight);
-  const next = Math.min(Math.max(cur+dir,0), cards.length-1);
-  cards[next].scrollIntoView({behavior:'smooth'});
+
+/* ═══════════════ 本機狀態（localStorage，不需要後端） ═══════════════ */
+const LS = {
+  get(k, d){ try{ return JSON.parse(localStorage.getItem(k)) ?? d; }catch{ return d; } },
+  set(k, v){ try{ localStorage.setItem(k, JSON.stringify(v)); }catch{} },
+};
+
+let starred = new Set(LS.get('cc_star', []));
+let seen    = new Set(LS.get('cc_seen', []));
+
+function saveStar(){ LS.set('cc_star', [...starred]); }
+function saveSeen(){ LS.set('cc_seen', [...seen]); }
+
+function toggleStar(pmid, el){
+  if(starred.has(pmid)){ starred.delete(pmid); el.classList.remove('on'); }
+  else { starred.add(pmid); el.classList.add('on'); }
+  saveStar();
+  updateBadges();
 }
+
+function markSeen(pmid){
+  if(!pmid || seen.has(pmid)) return;
+  seen.add(pmid);
+  saveSeen();
+  const dot = document.querySelector(`.card[data-pmid="${pmid}"] .unread`);
+  if(dot) dot.remove();
+  updateBadges();
+}
+
+/* ═══════════════ 搜尋索引（開場後才在背景載，不擋首屏） ═══════════════ */
+let INDEX = null, indexLoading = null;
+
+function loadIndex(){
+  if(INDEX) return Promise.resolve(INDEX);
+  if(indexLoading) return indexLoading;
+  indexLoading = fetch(`${DATA}/search.json?v=${Date.now()}`)
+    .then(r => r.ok ? r.json() : [])
+    .then(j => { INDEX = j; updateBadges(); return INDEX; })
+    .catch(() => { INDEX = []; return INDEX; });
+  return indexLoading;
+}
+
+function updateBadges(){
+  const b = document.getElementById('nb-badge');
+  if(!b) return;
+  if(!INDEX){ b.innerHTML = ''; return; }
+  const unread = INDEX.filter(x => !seen.has(x.p)).length;
+  b.innerHTML = unread ? `<span class="badge">${unread > 99 ? '99+' : unread}</span>` : '';
+}
+
+/* ═══════════════ 面板 ═══════════════ */
+function openPanel(id){
+  document.getElementById(id).classList.add('open');
+  toggleSheet(false);
+}
+function closePanel(id){
+  document.getElementById(id).classList.remove('open');
+}
+
+async function openSearch(){
+  openPanel('search-panel');
+  await loadIndex();
+  const q = document.getElementById('q');
+  q.focus();
+  runSearch();
+}
+
+async function openStars(){
+  openPanel('star-panel');
+  const idx = await loadIndex();
+  const list = idx.filter(x => starred.has(x.p));
+  const note = document.getElementById('s-note');
+  const hits = document.getElementById('s-hits');
+  note.textContent = list.length ? `${list.length} 篇` : '';
+  hits.innerHTML = list.length
+    ? list.map(hitRow).join('')
+    : emptyHint('⭐', '還沒有收藏<br>在論文卡片上按星號，就會存進這裡');
+}
+
+/* ═══════════════ 搜尋 ═══════════════ */
+function runSearch(){
+  const raw = document.getElementById('q').value.trim().toLowerCase();
+  const note = document.getElementById('q-note');
+  const hits = document.getElementById('q-hits');
+
+  if(!INDEX){ note.textContent = '載入中…'; return; }
+
+  if(raw.length < 1){
+    note.textContent = `共 ${INDEX.length} 篇可搜尋`;
+    hits.innerHTML = emptyHint('🔍', '搜尋標題、摘要、關鍵數據、期刊<br>例：<code>TaTME</code>、<code>吻合口洩漏</code>、<code>NNT</code>');
+    return;
+  }
+
+  // 空白分隔 = AND（每個詞都要命中）
+  const terms = raw.split(/\s+/).filter(Boolean);
+  const found = INDEX.filter(x => terms.every(t => x.x.includes(t)));
+
+  note.textContent = found.length
+    ? `找到 ${found.length} 篇`
+    : `沒有符合「${raw}」的論文`;
+
+  hits.innerHTML = found.length
+    ? found.slice(0, 200).map(hitRow).join('')
+      + (found.length > 200 ? '<div class="panel-note">（只顯示前 200 筆）</div>' : '')
+    : emptyHint('🤷', '換個關鍵字試試<br>中英文都可以搜');
+}
+
+/* 搜尋結果用同一套顏色語言 —— 不然系統會自相矛盾 */
+function hitTier(x){
+  if(x.w && x.w.length) return 'must';
+  if(typeof x.s === 'number' && x.s >= 8) return 'must';
+  if(typeof x.s === 'number' && x.s <= 3) return 'low';
+  return 'rel';
+}
+
+function hitRow(x){
+  const sc = (typeof x.s === 'number') ? x.s : null;
+  const cls = sc === null ? 'na' : (sc >= 8 ? 'hi' : sc >= 6 ? 'mid' : 'lo');
+  const ht = hitTier(x);
+  const meta = [
+    x.j || '',
+    (typeof x.f === 'number') ? `IF ${x.f}` : '',
+    x.d ? fmtDay(x.d) : '',
+  ].filter(Boolean);
+
+  return `
+<button class="hit h-${ht}" onclick="openPaper('${x.p}','${x.d}')">
+  <span class="hit-s ${cls}">${sc === null ? '–' : sc}</span>
+  <span class="hit-b">
+    <span class="hit-t">${esc(x.t)}</span>
+    <span class="hit-m">
+      ${meta.map(m => `<span>${esc(m)}</span>`).join('<span>·</span>')}
+      ${(x.w && x.w.length) ? '<span class="w">🔖 追蹤</span>' : ''}
+      ${!seen.has(x.p) ? '<span style="color:#D94F86">● 未讀</span>' : ''}
+    </span>
+  </span>
+  ${starred.has(x.p) ? '<span class="hit-star"><svg viewBox="0 0 24 24"><path d="m12 3 2.6 5.6 6.1.8-4.5 4.2 1.2 6-5.4-3-5.4 3 1.2-6L3.3 9.4l6.1-.8z"/></svg></span>' : ''}
+</button>`;
+}
+
+function emptyHint(icon, html){
+  return `<div class="empty-hint"><div class="big">${icon}</div><p>${html}</p></div>`;
+}
+
+/* 從搜尋 / 收藏跳到那一篇 */
+async function openPaper(pmid, date){
+  closePanel('search-panel');
+  closePanel('star-panel');
+
+  const di = days.findIndex(d => d.date === date);
+  if(di < 0) return;
+
+  if(startIdx !== di || !papers.some(p => p.pmid === pmid)){
+    await startFrom(di);
+  }
+  const i = papers.findIndex(p => p.pmid === pmid);
+  if(i >= 0){
+    const c = cards()[i];
+    if(c){
+      c.scrollIntoView({block:'start'});
+      active = i;
+      syncPager();
+      markSeen(pmid);
+    }
+  }
+}
+
+/* ═══════════════ 翻頁 ═══════════════
+   平常滑動 = 一般捲動。要換論文才按鈕（或鍵盤 j/k）。 */
+let active = 0;
+
+function cards(){ return [...document.querySelectorAll('.card')]; }
+
+function jump(dir){
+  const cs = cards();
+  if(!cs.length) return;
+  const next = Math.min(Math.max(active + dir, 0), cs.length - 1);
+  if(next === active && dir !== 0) return;
+  cs[next].scrollIntoView({behavior:'smooth', block:'start'});
+  active = next;
+  syncPager();
+  flashPager();
+}
+
+/* 哪一張卡佔畫面最多，就是「當前這篇」。
+
+   本來用 IntersectionObserver，但它的 callback 只會收到「這次跨過閾值」的那幾張卡，
+   我在那一小批裡挑最大的 —— 結果自由捲一點點，只有下一張卡觸發回呼，
+   它就被誤判成當前頁。改成直接量所有卡的可見高度，簡單而且不會錯。 */
+function computeActive(){
+  const feed = document.getElementById('feed');
+  if(!feed) return;
+  const ft = feed.getBoundingClientRect().top;
+  const vh = feed.clientHeight;
+
+  let best = -1, bestVis = 0;
+  cards().forEach((c, i) => {
+    const r = c.getBoundingClientRect();
+    const top = r.top - ft;
+    const bot = r.bottom - ft;
+    const vis = Math.max(0, Math.min(bot, vh) - Math.max(top, 0));   // 這張卡露出多少 px
+    if(vis > bestVis){ bestVis = vis; best = i; }
+  });
+
+  if(best >= 0 && best !== active){
+    active = best;
+    syncPager();
+  }
+
+  // 停在同一篇超過 1.2 秒才算「讀過」，只是快速滑過去不算
+  clearTimeout(computeActive._t);
+  computeActive._t = setTimeout(()=>{
+    const p = papers[active];
+    if(p) markSeen(p.pmid);
+  }, 1200);
+}
+
+/* 捲動時用 rAF 節流，不要每個 scroll event 都算 */
+let rafPending = false;
+function onScroll(){
+  if(rafPending) return;
+  rafPending = true;
+  requestAnimationFrame(()=>{ rafPending = false; computeActive(); });
+}
+
+function syncPager(){
+  const n = cards().length;
+  const pos = document.getElementById('pg-pos');
+  if(pos) pos.innerHTML = `<b>${n ? active+1 : 0}</b>／${n}`;
+  const up = document.getElementById('pg-up');
+  const dn = document.getElementById('pg-dn');
+  if(up) up.disabled = active <= 0;
+  if(dn) dn.disabled = active >= n - 1;
+}
+
+/* 按下去時讓翻頁鈕短暫變清楚，給一點回饋 */
+function flashPager(){
+  const p = document.getElementById('pager');
+  if(!p) return;
+  p.classList.add('active');
+  clearTimeout(flashPager._t);
+  flashPager._t = setTimeout(()=>p.classList.remove('active'), 900);
+}
+
 addEventListener('keydown', e=>{
-  if(e.key==='ArrowDown'||e.key==='j'){ e.preventDefault(); step(1); }
-  if(e.key==='ArrowUp'  ||e.key==='k'){ e.preventDefault(); step(-1); }
-  if(e.key==='Escape' && sheetOpen) toggleSheet(false);
+  if(e.key==='ArrowDown'||e.key==='j'){ e.preventDefault(); jump(1); }
+  if(e.key==='ArrowUp'  ||e.key==='k'){ e.preventDefault(); jump(-1); }
+  if(e.key==='Escape'){
+    closePanel('search-panel');
+    closePanel('star-panel');
+    if(sheetOpen) toggleSheet(false);
+  }
+  if((e.key==='/' || (e.key==='k' && (e.metaKey||e.ctrlKey))) && !document.querySelector('.panel.open')){
+    e.preventDefault(); openSearch();
+  }
 });
 document.getElementById('feed').addEventListener('touchstart', ()=>{
   if(sheetOpen) toggleSheet(false);
 }, {passive:true});
+
+document.getElementById('feed').addEventListener('scroll', onScroll, {passive:true});
+addEventListener('resize', ()=>{ computeActive(); }, {passive:true});
 
 if('serviceWorker' in navigator){
   addEventListener('load', ()=> navigator.serviceWorker.register('./sw.js').catch(()=>{}));

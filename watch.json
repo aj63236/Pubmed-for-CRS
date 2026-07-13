@@ -1,0 +1,37 @@
+{
+  "_README": [
+    "追蹤清單 —— 命中的論文會「無視分數」強制納入。",
+    "",
+    "為什麼需要這個：",
+    "  排序是用「期刊 IF + 研究設計」算分的，但你最在意的東西不一定分數高。",
+    "  例：一篇痔瘡切除術後尿滯留(POUR)的回溯性研究，發在 Ann Coloproctol (IF 2.2)，",
+    "      分數只有 5.1 —— 遠低於每日前 10 篇的門檻，會被直接丟掉。",
+    "      可是那正是跟你手上論文最相關的文獻。",
+    "",
+    "  所以：你要追的東西，不該被 IF 決定。",
+    "",
+    "keywords: 比對「標題 + 摘要」，不分大小寫。英文為主（PubMed 是英文）。",
+    "          記得把英式／美式拼法都放（haemorrhoid / hemorrhoid）。",
+    "",
+    "journals: 比對期刊名。放你的目標期刊，就能看到它們正在發什麼。",
+    "",
+    "limit:    每天最多納入幾篇追蹤命中的論文（避免關鍵字太廣導致暴量燒錢）。"
+  ],
+
+  "limit": 6,
+
+  "keywords": [
+    "postoperative urinary retention",
+    "urinary retention",
+    "hemorrhoidectomy",
+    "haemorrhoidectomy",
+    "hemorrhoid",
+    "haemorrhoid",
+    "diclofenac"
+  ],
+
+  "journals": [
+    "Ann Coloproctol",
+    "Annals of Coloproctology"
+  ]
+}
