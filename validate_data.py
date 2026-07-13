@@ -36,10 +36,16 @@ ENUMS = {
     "context_verdict": {"再確認", "與前作矛盾", "延伸前作", "無相關前作", ""},
 }
 
-VALID_EVIDENCE = {
-    "RCT", "系統性回顧", "統合分析", "前瞻性世代", "回溯性研究",
-    "病例對照", "橫斷面", "診斷性研究", "病例系列", "綜述", "其他",
-}
+# 模型偶爾會回「橫斷面研究」而不是「橫斷面」—— 這只是顯示標籤，不影響邏輯，
+# 所以用「開頭相符」判斷就好，不要為了字面完全一致而發警告。
+VALID_EVIDENCE = [
+    "RCT", "系統性回顧", "統合分析", "前瞻性世代", "回溯性",
+    "病例對照", "橫斷面", "診斷", "病例系列", "綜述", "其他",
+]
+
+
+def evidence_ok(v):
+    return any(v.startswith(x) or x in v for x in VALID_EVIDENCE)
 
 ISO = re.compile(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}")
 
@@ -80,7 +86,7 @@ def check_paper(p, where):
             errs.append(f"{tag}：`{f}` 不是合法值 → {v!r}（合法：{'、'.join(sorted(x for x in allowed if x))}）")
 
     ev = p.get("evidence_level", "")
-    if ev and ev not in VALID_EVIDENCE:
+    if ev and not evidence_ok(ev):
         warns.append(f"{tag}：evidence_level 少見值 → {ev!r}")
 
     # 陣列型

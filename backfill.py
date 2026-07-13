@@ -42,12 +42,11 @@ def daterange(start, end):
 
 
 def search_one_day(day):
-    """抓某一天新上架（edat）的所有論文 PMID（跟 PubMed 拿資料免費）"""
-    import requests
+    """抓某一天新上架（edat）的所有論文 PMID。用 fp.ncbi_get，有重試。"""
     s = day.strftime("%Y/%m/%d")
-    r = requests.get(
+    r = fp.ncbi_get(
         "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
-        params={
+        {
             "db": "pubmed",
             "term": " ".join(fp.PUBMED_QUERY.split()),
             "datetype": "edat",
@@ -57,9 +56,7 @@ def search_one_day(day):
             "retmode": "json",
             "sort": "pub_date",
         },
-        timeout=25,
     )
-    r.raise_for_status()
     res = r.json().get("esearchresult", {})
     return res.get("idlist", []), int(res.get("count", 0))
 
@@ -105,6 +102,9 @@ def main():
     if args.dry_run:
         print(f"  模式：🧪 試算（不花錢）")
     print("=" * 58)
+
+    # 先修補舊資料
+    fp.heal_legacy()
 
     if not fp.API_KEY and not args.dry_run:
         print("\n❌ 沒有 ANTHROPIC_API_KEY，無法產生摘要。")

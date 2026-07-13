@@ -246,6 +246,42 @@ check("完全無關的論文 → 必須回報「無相關前作」，不可硬�
 
 
 # ══════════════════════════════════════════════════════
+print("\n【9】舊資料修補 —— 加必要欄位時必須同時寫遷移")
+print("     added_at 是後來才加的。沒有遷移 → 129 篇好資料被驗證擋掉")
+# ══════════════════════════════════════════════════════
+
+import tempfile, shutil, datetime as _dt
+
+tmp = Path(tempfile.mkdtemp())
+_orig = fp.DATA_DIR
+fp.DATA_DIR = tmp
+try:
+    (tmp / "2026-07-05.json").write_text(json.dumps({
+        "date": "2026-07-05",
+        "generated_at": "2026-07-05T22:03:11",       # 沒時區，其實是 UTC
+        "count": 1,
+        "papers": [{"pmid": "1", "title": "x", "journal": "J"}],   # 沒有 added_at
+    }, ensure_ascii=False), encoding="utf-8")
+
+    fixed = fp.heal_legacy()
+    d = json.loads((tmp / "2026-07-05.json").read_text(encoding="utf-8"))
+    added = d["papers"][0].get("added_at", "")
+
+    check("舊論文被補上 added_at", fixed == 1 and bool(added), f"fixed={fixed} added={added!r}")
+    check("added_at 帶時區（+08:00）", added.endswith("+08:00"), added)
+    check("UTC 22:03 → 台灣隔天 06:03（時區換算正確）",
+          added.startswith("2026-07-06T06:03"), added)
+    check("generated_at 也被修正時區", d["generated_at"].endswith("+08:00"), d["generated_at"])
+
+    # 冪等：再跑一次不應該再改動
+    again = fp.heal_legacy()
+    check("冪等（再跑一次不會重複修改）", again == 0, f"第二次又改了 {again} 篇")
+finally:
+    fp.DATA_DIR = _orig
+    shutil.rmtree(tmp)
+
+
+# ══════════════════════════════════════════════════════
 print("\n" + "═" * 56)
 print(f"  通過 {len(PASS)} · 失敗 {len(FAIL)}")
 print("═" * 56)

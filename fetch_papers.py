@@ -79,6 +79,74 @@ def rank_score(paper):
     return min(jif, IF_CAP) * IF_WEIGHT + best_ptype * PTYPE_MULT
 
 
+# ═══════════════ 舊資料自動修補 ═══════════════
+#
+# `added_at`（收錄時間）是後來才加的欄位。在它出現之前收集的論文沒有這個欄位，
+# 驗證器會把它們全部判定為不合格 → 好資料被擋掉。
+#
+# 教訓：加必要欄位的時候，一定要同時寫遷移程式。
+# 這支是冪等的，每天跑一次不會有副作用。
+
+_TZ_RE = re.compile(r"(Z|[+\-]\d{2}:?\d{2})$")
+
+
+def _has_tz(s):
+    return bool(_TZ_RE.search(str(s or "")))
+
+
+def _to_tw(s):
+    """把沒有時區的時間戳當成 UTC（舊版在 GitHub Actions 上跑，拿到的是 UTC），
+    轉成台灣時間。不然網站會顯示成 22:00 而不是隔天 06:00。"""
+    try:
+        dt = datetime.datetime.fromisoformat(str(s))
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=datetime.timezone.utc)
+        return dt.astimezone(TZ).isoformat(timespec="seconds")
+    except Exception:
+        return s
+
+
+def heal_legacy():
+    """補齊舊資料缺的 added_at，並修正沒有時區的時間戳。"""
+    n_files = n_papers = 0
+
+    for f in sorted(DATA_DIR.glob("20*-*-*.json")):
+        try:
+            day = json.loads(f.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+
+        changed = False
+
+        gen = day.get("generated_at", "")
+        if gen and not _has_tz(gen):
+            gen = _to_tw(gen)
+            day["generated_at"] = gen
+            changed = True
+
+        # 沒有 generated_at 就退回「該日早上 6 點」（workflow 的排程時間）
+        fallback = gen or f"{day.get('date', f.stem)}T06:00:00+08:00"
+
+        for p in day.get("papers", []):
+            a = p.get("added_at")
+            if not a:
+                p["added_at"] = fallback
+                changed = True
+                n_papers += 1
+            elif not _has_tz(a):
+                p["added_at"] = _to_tw(a)
+                changed = True
+                n_papers += 1
+
+        if changed:
+            f.write_text(json.dumps(day, ensure_ascii=False, indent=1), encoding="utf-8")
+            n_files += 1
+
+    if n_papers:
+        log(f"🩹 修補舊資料：{n_files} 個檔案、{n_papers} 篇補上 added_at / 修正時區")
+    return n_papers
+
+
 # ═══════════════ 效果量：Claude 抽數字，Python 算 ═══════════════
 #
 # 為什麼不讓模型自己算：
@@ -614,15 +682,44 @@ def save_cache(cache):
 
 
 # ───────────────────────── PubMed ──────────────────────────
+def ncbi_get(url, params, timeout=25, tries=4):
+    """呼叫 NCBI，帶指數退避重試。
+
+    GitHub Actions 的 IP 是共用的，NCBI 對共用 IP 會限流（429），
+    偶爾也會 5xx。原本沒有重試 —— 只要 NCBI 打個嗝，
+    raise_for_status() 就拋例外，整個 workflow 掛掉。
+    """
+    last = None
+    for i in range(1, tries + 1):
+        try:
+            r = requests.get(url, params=params, timeout=timeout)
+            if r.status_code in (429, 500, 502, 503, 504):
+                wait = 3 * i
+                log(f"      ⏳ NCBI {r.status_code}，{wait}s 後重試（{i}/{tries}）")
+                time.sleep(wait)
+                last = f"HTTP {r.status_code}"
+                continue
+            r.raise_for_status()
+            return r
+        except requests.RequestException as e:
+            last = str(e)
+            if i < tries:
+                wait = 3 * i
+                log(f"      ⏳ NCBI 連線問題，{wait}s 後重試（{i}/{tries}）：{e}")
+                time.sleep(wait)
+
+    raise RuntimeError(f"NCBI 重試 {tries} 次都失敗：{last}")
+
+
 def search_pubmed():
     """用 edat（PubMed 上架日）搜尋，比 pdat 更貼近『今天有什麼新文章』"""
     today = today_tw()
     start = today - datetime.timedelta(days=DAYS_BACK)
     fmt = lambda d: d.strftime("%Y/%m/%d")
 
-    r = requests.get(
+    r = ncbi_get(
         "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
-        params={
+        {
             "db": "pubmed",
             "term": " ".join(PUBMED_QUERY.split()),
             "datetype": "edat",
@@ -632,21 +729,18 @@ def search_pubmed():
             "retmode": "json",
             "sort": "pub_date",
         },
-        timeout=20,
     )
-    r.raise_for_status()
     return r.json().get("esearchresult", {}).get("idlist", [])
 
 
 def fetch_details(ids):
     if not ids:
         return []
-    r = requests.get(
+    r = ncbi_get(
         "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi",
-        params={"db": "pubmed", "id": ",".join(ids), "retmode": "xml"},
-        timeout=30,
+        {"db": "pubmed", "id": ",".join(ids), "retmode": "xml"},
+        timeout=35,
     )
-    r.raise_for_status()
     return parse_xml(r.text)
 
 
@@ -1066,6 +1160,9 @@ def main():
 
     if not API_KEY:
         log("⚠️  未偵測到 ANTHROPIC_API_KEY —— 只會存原文，不產生中文摘要")
+
+    # 先修補舊資料（在任何 return 之前，不然驗證會擋下 commit）
+    heal_legacy()
 
     log(f"\n🔍 搜尋 PubMed（最近 {DAYS_BACK} 天新上架）...")
     ids = search_pubmed()
