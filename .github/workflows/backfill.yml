@@ -70,6 +70,10 @@ jobs:
           echo ""
           python -u backfill.py $ARGS
 
+      - name: 資料驗證（壞資料就不要推上網站）
+        if: ${{ inputs.dry_run == false }}
+        run: python -u validate_data.py
+
       - name: Commit & Push
         if: ${{ inputs.dry_run == false }}
         run: |

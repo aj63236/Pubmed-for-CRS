@@ -38,6 +38,12 @@ jobs:
           MODEL: ${{ vars.MODEL }}
         run: python -u fetch_papers.py
 
+      - name: 回歸測試（IF 配對 / ARR-NNT 方向 / 追蹤命中）
+        run: python -u tests.py
+
+      - name: 資料驗證（壞資料就不要推上網站）
+        run: python -u validate_data.py
+
       - name: Commit & Push
         run: |
           git config user.name  "腸嚐新知 Bot"
