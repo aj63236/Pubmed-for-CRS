@@ -1,0 +1,953 @@
+{
+ "date": "2026-07-03",
+ "generated_at": "2026-07-14T00:26:03+08:00",
+ "count": 15,
+ "papers": [
+  {
+   "pmid": "42398078",
+   "title": "Single-stapling versus double-stapling technique for rectal anastomosis-meta-analysis",
+   "journal": "BJS Open",
+   "journal_full": "BJS open",
+   "issn": "2474-9842",
+   "issn_linking": "2474-9842",
+   "impact_factor": 4.9,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1093/bjsopen/zrag078",
+   "ptype": "Meta-Analysis, Systematic Review",
+   "ptype_list": [
+    "Meta-Analysis",
+    "Systematic Review",
+    "Comparative Study"
+   ],
+   "authors": "Kehagias D, Lampropoulos C, Kehagias I, Jayne D, Tiernan J",
+   "abstract": "INTRODUCTION: The single-stapling technique (SST) is an alternative to the conventional double-stapling technique (DST), particularly in low rectal surgery. This systematic review and meta-analysis compared anastomotic leak (AL) between SST and DST.\nMETHODS: A systematic review of the PubMed/MEDLINE, Google Scholar®, and Scopus databases was conducted in accordance with PRISMA guidelines from inception through December 2025. The primary outcome of interest was AL. A random-effects meta-analysis was used to compare AL, blood loss, operative time, and length of hospital stay between SST and DST. Risk ratios (RRs) were calculated for dichotomous outcomes and mean differences or standardized mean differences were calculated for continuous outcomes. Sensitivity and subgroup analyses were conducted according to surgical approach. Risk of bias was assessed, and the certainty of the evidence for AL was evaluated using the GRADE framework.\nRESULTS: Of 448 articles screened, 14 were included (2 randomized, 12 observational studies), comprising 1326 patients in the SST group and 1720 in the DST group. SST was associated with a significantly lower risk of AL than DST (RR 0.61; 95% confidence interval 0.42 to 0.90; P = 0.012), with moderate heterogeneity. Sensitivity analysis excluding studies with zero events yielded consistent results. Subgroup analyses showed no difference in AL for open intracorporeal SST compared with DST, a trend toward benefit with minimally invasive intracorporeal SST compared with DST, and a pronounced reduction in AL with transanal SST compared with DST.\nCONCLUSIONS: Although the causes of AL are multifactorial, with respect to the stapling technique, SST was associated with a lower risk of AL than DST, and this effect was primarily driven by transanal SST. However, the certainty of evidence is low, and ongoing prospective studies will better define the role of SST.",
+   "watched": [],
+   "related": [],
+   "title_zh": "直腸吻合術中單釘合技術（SST）與雙釘合技術（DST）之比較：統合分析",
+   "abstract_zh": "背景：單釘合技術（SST）是傳統雙釘合技術（DST）的替代方案，尤其適用於低位直腸手術。本系統性回顧與統合分析比較SST與DST在吻合口滲漏（AL）上的差異。\n\n方法：依照PRISMA指引，系統性搜尋PubMed/MEDLINE、Google Scholar®及Scopus資料庫，自建立以來至2025年12月。主要結果為AL。採用隨機效應模型統合分析比較SST與DST的AL、失血量、手術時間及住院天數。二元結果計算風險比（RR），連續結果計算平均差或標準化平均差。依手術方式進行敏感性分析與次群組分析。評估偏誤風險，並以GRADE框架評估AL證據之確定性。\n\n結果：篩選448篇文獻後，納入14篇（2篇隨機對照試驗，12篇觀察性研究），SST組共1326例病人，DST組共1720例病人。SST組AL風險顯著低於DST組（RR 0.61；95%信賴區間0.42至0.90；P = 0.012），異質性為中度。排除零事件研究後之敏感性分析結果一致。次群組分析顯示：開腹體腔內SST與DST比較AL無差異；微創體腔內SST與DST比較有獲益趨勢；經肛門SST與DST比較則顯著降低AL。\n\n結論：雖然AL的成因為多因子，但就釘合技術而言，SST較DST有較低的AL風險，此效應主要由經肛門SST所驅動。然而證據確定性偏低，未來前瞻性研究將更能釐清SST的角色。",
+   "evidence_level": "統合分析",
+   "score": 6,
+   "score_reason": "統合分析納入14篇研究但僅2篇RCT，GRADE證據確定性為低，結果由次群組（經肛門SST）驅動，對臨床決策有參考價值但尚不足以改變主流做法。",
+   "relevance": "高度相關",
+   "relevance_why": "直腸癌手術吻合口滲漏是大腸直腸外科最核心的併發症議題，尤其低位直腸手術與經肛門TME在台灣醫學中心日益普及。",
+   "novelty": "仍屬早期",
+   "one_liner": "在14篇研究、共3046例直腸吻合病人中，比較SST與DST，發現SST整體AL風險較低（RR 0.61），效應主要來自經肛門SST。",
+   "action": "低位直腸/經肛門TME手術可考慮優先採用SST降低AL風險；開腹或傳統腹腔鏡體腔內吻合則證據不足，暫不需改變現行DST做法。",
+   "pico": {
+    "P": "接受直腸吻合手術之病人，SST組1326例、DST組1720例，共14篇研究（2 RCT、12觀察性研究）",
+    "I": "單釘合技術（SST）",
+    "C": "雙釘合技術（DST）",
+    "O": "主要：吻合口滲漏（AL）；次要：失血量、手術時間、住院天數"
+   },
+   "effects": [],
+   "key_numbers": [
+    "整體AL風險：SST vs DST，RR 0.61（95% CI 0.42–0.90，P=0.012），中度異質性",
+    "次群組：開腹體腔內SST與DST無差異；經肛門SST顯著降低AL（驅動主要效應）",
+    "GRADE證據確定性：低（作者自陳），需等待前瞻性研究確認"
+   ],
+   "cautions": [
+    "12/14篇為觀察性研究，僅2篇RCT，選擇偏誤與混淆因子風險高，因果推論證據力有限",
+    "次群組分析（開腹/微創/經肛門）為事後分割，各次群組樣本數可能過小，結果易受少數研究影響",
+    "摘要僅提供RR而無各組AL絕對事件數/人數，無法計算ARR或NNT，臨床意義大小難以評估"
+   ],
+   "unassessable": [
+    "各研究失訪率",
+    "盲法與allocation concealment",
+    "試驗註冊情形",
+    "利益衝突",
+    "納入研究之異質性來源細節（僅提及中度異質性）",
+    "次群組分析各組實際樣本數"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-07-14T00:17:50+08:00"
+  },
+  {
+   "pmid": "42397055",
+   "title": "Population Pharmacokinetic, Exposure-Response Efficacy and Safety Analyses of Favezelimab in Patients With Solid Tumors",
+   "journal": "Clin Transl Sci",
+   "journal_full": "Clinical and translational science",
+   "issn": "1752-8062",
+   "issn_linking": "1752-8054",
+   "impact_factor": 4.3,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1111/cts.70658",
+   "ptype": "Clinical Trial, Phase I, Randomized Controlled Trial",
+   "ptype_list": [
+    "Clinical Trial, Phase I",
+    "Randomized Controlled Trial",
+    "Clinical Trial, Phase III"
+   ],
+   "authors": "Gaurav M, Barcomb H, Maxwell K, Kandala B, Chatterjee M",
+   "abstract": "Favezelimab (MK-4280) is a humanized monoclonal antibody (mAb) targeting lymphocyte activation gene-3 (LAG-3). Favezelimab population pharmacokinetics (popPK) was evaluated using data from 2 trials; a Phase 1 study evaluating favezelimab across a range of doses (7 to 800 mg administered intravenously [IV] every 3 weeks [Q3W]) in patients with advanced solid tumors, and a Phase 3 study evaluating 800 mg IV Q3W favezelimab combined with pembrolizumab (200 mg Q3W) in patients with programmed death ligand 1 (PD-L1) positive colorectal cancer (CRC). Prespecified covariates of clinical interest were evaluated using a full model. Favezelimab exposure measures from the final popPK model were used to evaluate the exposure-response (E-R) relationships with objective response rate (ORR), Grade ≥ 3 drug-related adverse events (AE), and drug-related AE of special interest (AEOSI) occurrence in gastric cancer patients evaluated across 2 randomized doses. The final popPK model was a 2-compartment target-mediated drug disposition (TMDD) model and included the effect of antidrug antibody status on linear clearance (CL). Population volume and clearance parameters, and corresponding random effects were estimated with < 15% relative standard error. Lower body weight, as well as female sex and Asian race (covariates correlated with lower body weight), were associated with higher exposure. Lower albumin levels were also associated with lower exposure. Increasing favezelimab exposures were associated with increased ORR and had no significant effect on safety. No covariates were associated with ORR. This analysis was used to characterize variability in favezelimab pharmacokinetics and support the choice of Phase 3 dose.",
+   "watched": [],
+   "related": [],
+   "title_zh": "Favezelimab在實體腫瘤患者中的族群藥物動力學、暴露-反應療效與安全性分析",
+   "abstract_zh": "Favezelimab（MK-4280）是一種針對淋巴細胞活化基因-3（LAG-3）的人源化單株抗體。本研究利用兩項試驗的資料評估Favezelimab的族群藥物動力學（popPK）：一項第一期試驗評估晚期實體腫瘤患者接受不同劑量（7至800 mg，靜脈給藥，每3週一次[Q3W]）之Favezelimab；另一項第三期試驗評估800 mg IV Q3W之Favezelimab併用pembrolizumab（200 mg Q3W）於PD-L1陽性大腸直腸癌（CRC）患者。使用完整模型評估預先指定之臨床相關共變項。利用最終popPK模型所得之Favezelimab暴露量指標，評估暴露-反應（E-R）關係，包括客觀反應率（ORR）、藥物相關第3級以上不良事件（AE）、以及在胃癌患者中以兩種隨機劑量評估之藥物相關特別關注不良事件（AEOSI）發生率。最終popPK模型為二室目標介導藥物處置（TMDD）模型，並納入抗藥抗體狀態對線性清除率（CL）之影響。族群容積與清除率參數及相應隨機效應之相對標準誤皆<15%。較低體重、女性、以及亞洲人種（與較低體重相關之共變項）均與較高暴露量相關。較低白蛋白水平亦與較低暴露量相關。Favezelimab暴露量增加與ORR上升相關，且對安全性無顯著影響。無共變項與ORR相關。本分析用於描述Favezelimab藥物動力學之變異性，並支持第三期試驗劑量之選擇。",
+   "evidence_level": "其他",
+   "score": 3,
+   "score_reason": "此為藥物動力學/暴露-反應建模分析，非直接療效試驗結果報告，摘要未提供絕對療效或安全性數字，對外科臨床決策實用性極低。",
+   "relevance": "低度相關",
+   "relevance_why": "本研究為新藥（抗LAG-3抗體）於晚期/轉移性CRC之藥物動力學建模，屬腫瘤內科用藥研發階段，與大腸直腸外科手術決策無直接關聯。",
+   "novelty": "仍屬早期",
+   "one_liner": "在晚期實體腫瘤與PD-L1陽性CRC患者中，建立Favezelimab族群PK模型，發現暴露量增加與ORR上升相關，安全性無顯著影響。",
+   "action": "目前不需改變做法；此為早期藥物動力學建模研究，尚無具體療效數字可供臨床決策參考。",
+   "pico": {
+    "P": "晚期實體腫瘤患者（第一期試驗）與PD-L1陽性CRC患者（第三期試驗），確切人數摘要未載明",
+    "I": "Favezelimab（抗LAG-3單株抗體）7-800 mg IV Q3W，第三期併用pembrolizumab 200 mg Q3W",
+    "C": "胃癌患者子群中比較2種隨機劑量之暴露-反應關係；其餘分析無傳統對照組",
+    "O": "主要：族群PK參數（清除率、分布容積）；次要：暴露量與ORR、Grade≥3藥物相關AE、AEOSI之關係"
+   },
+   "effects": [],
+   "key_numbers": [
+    "族群容積與清除率參數之相對標準誤 <15%，模型精確度尚可",
+    "暴露量增加與ORR上升相關，但摘要未提供具體百分比或p值/CI",
+    "暴露量對Grade≥3藥物相關AE及AEOSI無顯著影響（未附具體數字）"
+   ],
+   "cautions": [
+    "全篇未提供任何絕對療效或安全性百分比數字，僅描述『相關』趨勢，無法評估臨床意義大小",
+    "此為藥物動力學/暴露-反應建模分析，非隨機對照效果比較，因果推論受限",
+    "各分析族群（實體腫瘤、CRC、胃癌）樣本數未載明，且合併不同期別試驗資料可能引入異質性"
+   ],
+   "unassessable": [
+    "各試驗確切病人數",
+    "盲法",
+    "allocation concealment",
+    "ITT分析",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "統計檢定之p值與信賴區間"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。",
+   "added_at": "2026-07-14T00:17:50+08:00"
+  },
+  {
+   "pmid": "42397650",
+   "title": "Outcomes of Epidermal Growth Factor Receptor Inhibitors in Locally Advanced and Metastatic Anal Squamous Cell Carcinoma: A Systematic Review and Meta-Analysis",
+   "journal": "J Gastrointest Cancer",
+   "journal_full": "Journal of gastrointestinal cancer",
+   "issn": "1941-6636",
+   "issn_linking": "",
+   "impact_factor": 2.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1016/j.annonc.2021.06.015",
+   "ptype": "Systematic Review, Meta-Analysis",
+   "ptype_list": [
+    "Systematic Review",
+    "Meta-Analysis",
+    "Review"
+   ],
+   "authors": "Mannan M, Musheer A, Basharat A, Sial F, Khan M, Al-Sadi A",
+   "abstract": "BACKGROUND: Anal squamous cell carcinoma (ASCC) is a rare malignancy with rising incidence and limited systemic options in recurrent or metastatic disease. Although epidermal growth factor receptor (EGFR) inhibitors show activity in other squamous cancers, their role in ASCC remains unclear due to fragmented evidence. This systematic review and meta-analysis evaluated the efficacy and safety of EGFR inhibitors in adults with locally advanced or metastatic ASCC.\nMETHODS: PubMed/MEDLINE, Cochrane CENTRAL, and ClinicalTrials.gov were searched from inception to December 2025 for studies of EGFR inhibitors in ASCC. Eligible designs included randomized trials, phase II studies, prospective or retrospective cohorts, and case series. Proportional meta-analyses were performed using fixed- or random-effects models according to heterogeneity.\nRESULTS: Twelve studies including 404 patients were analyzed. Median age ranged from 47 to 65 years, and both locally advanced and metastatic settings were represented. The EGFR inhibitors cetuximab and panitumumab were administered with chemoradiotherapy in locally advanced disease or with systemic therapy in metastatic or refractory settings. The pooled objective response rate was 52% (95% CI: 36-68; I²=84.2%, τ²=0.0518, p < 0.0001), with a complete response rate of 37% (95% CI: 15-61; I²=94.0%, τ²=0.1287, p < 0.0001). Median overall survival was 11.9 months and progression-free survival 4.5 months. Grade ≥ 3 adverse events occurred in 56% of patients; treatment discontinuation was infrequent (8%), and no treatment-related deaths were reported.\nCONCLUSION: EGFR inhibitors show a reproducible signal of activity in locally advanced and metastatic ASCC with manageable toxicity, though evidence is limited by nonrandomized designs and heterogeneity; prospective, biomarker-driven studies are needed.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42400410",
+     "date": "2026-07-05",
+     "title_zh": "肛門高度鱗狀上皮內病變（HSIL）治療研究中結果報告之系統性回顧",
+     "score": 5,
+     "one_liner": "彙整67篇肛門HSIL治療研究（966項結果指標、170項標準化術語），發現「完全反應」等定義高度不一致，凸顯建立核心結果集之必要。",
+     "sim": 0.198
+    },
+    {
+     "pmid": "42402758",
+     "date": "2026-07-06",
+     "title_zh": "肛門癌型態學對存活與局部復發之預後影響：20年區域世代研究",
+     "score": 6,
+     "one_liner": "在515名ASCC病人中，比較腫瘤型態(外生/潰瘍/混合)，發現潰瘍型5年OS僅25.1% vs 外生型67.9%，HR 5.16。",
+     "sim": 0.167
+    }
+   ],
+   "title_zh": "表皮生長因子受體抑制劑於局部晚期與轉移性肛門鱗狀上皮細胞癌之療效：系統性回顧與統合分析",
+   "abstract_zh": "背景：肛門鱗狀上皮細胞癌（ASCC）為罕見惡性腫瘤，發生率上升，但復發或轉移性疾病之全身性治療選項有限。雖然表皮生長因子受體（EGFR）抑制劑在其他鱗狀細胞癌中展現活性，但因證據零散，其在ASCC中的角色仍不明確。本系統性回顧與統合分析評估EGFR抑制劑在局部晚期或轉移性ASCC成人病人中的療效與安全性。\n\n方法：檢索PubMed/MEDLINE、Cochrane CENTRAL與ClinicalTrials.gov，自建庫至2025年12月，納入EGFR抑制劑用於ASCC之研究。合格研究設計包括隨機試驗、第二期研究、前瞻性或回溯性世代研究及病例系列。依異質性採用固定或隨機效應模型進行比例統合分析。\n\n結果：共納入12篇研究、404名病人。中位年齡範圍47至65歲，涵蓋局部晚期與轉移性兩種情境。EGFR抑制劑cetuximab與panitumumab在局部晚期疾病中與化放療併用，或在轉移性/難治性情境中與全身治療併用。統合客觀反應率為52%（95% CI: 36-68；I²=84.2%，τ²=0.0518，p<0.0001），完全反應率為37%（95% CI: 15-61；I²=94.0%，τ²=0.1287，p<0.0001）。中位整體存活期為11.9個月，無疾病進展存活期為4.5個月。≥3級不良事件發生率為56%；治療中止率低（8%），未報告治療相關死亡。\n\n結論：EGFR抑制劑在局部晚期與轉移性ASCC中展現可重現的療效訊號，毒性可控，但證據受限於非隨機設計與異質性；仍需前瞻性、生物標記導向之研究。",
+   "evidence_level": "統合分析",
+   "score": 5,
+   "score_reason": "單臂比例統合分析，無對照組且異質性極高，僅能視為療效訊號，尚不足以改變臨床決策；對台灣CRS實用性中等，因ASCC治療多由多科團隊而非單純外科主導。",
+   "relevance": "中度相關",
+   "relevance_why": "ASCC復發/轉移之全身治療屬腫瘤內科主導，但大腸直腸外科醫師常參與此類病人整合照護與追蹤決策。",
+   "novelty": "仍屬早期",
+   "one_liner": "在404名局部晚期或轉移性ASCC病人的12篇研究統合分析中，EGFR抑制劑併用化放療/全身治療，客觀反應率52%，中位OS 11.9個月。",
+   "action": "目前不需改變手術或標準化放療流程；復發/轉移個案可與腫瘤內科討論EGFR抑制劑作為選項，但仍待前瞻性試驗確認。",
+   "pico": {
+    "P": "局部晚期或轉移性ASCC成人病人，共12篇研究、404人",
+    "I": "EGFR抑制劑（cetuximab或panitumumab）併用化放療或全身治療",
+    "C": "無對照組（單臂比例統合分析）",
+    "O": "主要：客觀反應率、完全反應率；次要：中位OS、PFS、≥3級不良事件、治療中止率"
+   },
+   "effects": [],
+   "key_numbers": [
+    "統合客觀反應率52%（95% CI 36-68），完全反應率37%（95% CI 15-61）",
+    "中位整體存活11.9個月，無疾病進展存活4.5個月",
+    "≥3級不良事件56%，治療中止率8%，無治療相關死亡"
+   ],
+   "cautions": [
+    "單臂比例統合分析，無對照組，無法判斷EGFR抑制劑是否優於標準治療",
+    "異質性極高（I²=84-94%），納入RCT、phase II、回溯性世代與病例系列混雜比較",
+    "樣本量小（404人/12篇），OS/PFS信賴區間寬，證據等級遠低於RCT"
+   ],
+   "unassessable": [
+    "個別研究之allocation concealment",
+    "盲法",
+    "ITT分析",
+    "失訪率",
+    "試驗註冊狀態",
+    "利益衝突",
+    "成本分析"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。之前看過的兩篇論文分別為肛門HSIL結果報告標準化與ASCC型態學預後研究，均與本篇EGFR抑制劑全身治療療效無直接關聯。",
+   "added_at": "2026-07-14T00:17:50+08:00"
+  },
+  {
+   "pmid": "42397433",
+   "title": "An interim analysis of the standard care (stoma bags) and double-diapers in pediatric patients with stomas at a tertiary hospital in South Africa",
+   "journal": "Pediatr Surg Int",
+   "journal_full": "Pediatric surgery international",
+   "issn": "1437-9813",
+   "issn_linking": "0179-0358",
+   "impact_factor": 1.8,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1016/j.sempedsurg.2020.150989",
+   "ptype": "Randomized Controlled Trial, Comparative Study",
+   "ptype_list": [
+    "Randomized Controlled Trial",
+    "Comparative Study"
+   ],
+   "authors": "Van Straten S, Scribante J, Botes A, De Witt R, Lamprecht C, Papavarnava A",
+   "abstract": "PURPOSE: In resource-limited settings, commercial stoma bags are often unavailable for pediatric colostomy patients, necessitating affordable and accessible alternatives for colostomy care. This is an interim analysis of a study comparing standard of care (stoma bags (SB)) with double-diaper (DD) in patients with colostomies at the Johannesburg Pediatric Colorectal Clinic (JPCC) at Chris Hani Baragwanath Academic Hospital, South Africa.\nMETHODS: A prospective, randomized descriptive study enrolled children < 3 years with newly created colostomies whose caregivers consented; participants were randomized via REDCap to SB or DD and followed up at routine visits until colostomy closure.\nRESULTS: Of 45 screened patients, 40 were enrolled; 22 (55%) were female, with a mean (SD) age of 110.15 (151.22) days and weight of 4.57 (1.51) kg. Most had anorectal malformations (30, 75%), end colostomies (24, 60%), and 29 (72.5%) had sigmoid colostomies. At analysis, 23 (58.97%) underwent closure. At enrolment, 19 (47.50%) were randomized to SB and 21 (52.50%) to DD; 28 (71.79%) remained in their assigned group, while 12 (29.27%) crossed over due to guardian preference (7, 38.89%) or healthcare provider recommendation (11, 61.11%). Baseline mean (SD) peristomal skin scores (using the OST scoring system) were 0.83 (1.99) for the SB group compared to 2.31 (3.61) (worse) for the DD group (p = 0.402). Follow-up scores among those remaining in their groups were: SB group 0.55 (1.54) and DD group 1.7 (2.51) (p = 0.002). Patients who crossed over had mean (SD) scores of 1.42 (2.46) at enrollment and 2.05 (2.63) at follow-up. Mean (SD) clinic visits were 3.92 (2.47) for the SB group, 5.73 (3.87) for the DD group, and 7.75 (2.83) for the mixed group (p = 0.01). When supplies were depleted, 12 (28.57%) returned for more of their respective product, while 29 (69.05%) purchased diapers. Care givers out-of-pocket expenditure as lower in SB 1 (6.7%) and 5 (29.4%) in DD group (p = 0.01). Patients who remained in the SB group reported satisfaction with bag quality 10 (66.7%), compared to those who crossed over 4 (26.7%) (p = 0.02).\nCONCLUSION: Diapers are an accessible alternative to commercial stoma bags for patients with colostomies.",
+   "watched": [],
+   "related": [],
+   "title_zh": "南非某三級醫院兒科造口病人：標準照護（腸造口袋）與雙尿布法之期中分析",
+   "abstract_zh": "目的：在資源有限的環境中，兒科腸造口病人常無法取得商用腸造口袋，因此需要價格實惠且容易取得的替代方案。本研究為一項比較標準照護（腸造口袋，SB）與雙尿布法（DD）用於南非Chris Hani Baragwanath學術醫院約翰尼斯堡兒科大腸直腸門診（JPCC）腸造口病人之期中分析。方法：此為前瞻性、隨機描述性研究，納入年齡小於3歲、新建腸造口且照顧者同意之兒童；受試者經REDCap隨機分派至SB或DD組，並於常規回診追蹤至腸造口關閉為止。結果：共篩選45名病人，40名納入研究；22名（55%）為女性，平均（標準差）年齡為110.15（151.22）天，體重4.57（1.51）公斤。多數為肛門直腸畸形（30例，75%）、末端造口（24例，60%），29例（72.5%）為乙狀結腸造口。分析時，23例（58.97%）已完成造口關閉。納入時，19例（47.50%）隨機分至SB組，21例（52.50%）分至DD組；28例（71.79%）維持原分組，12例（29.27%）因照顧者偏好（7例，38.89%）或醫療人員建議（11例，61.11%）而交叉組別。基線平均（標準差）造口周圍皮膚評分（OST評分系統）SB組為0.83（1.99），DD組為2.31（3.61）（較差）（p=0.402）。維持原分組者之追蹤評分為：SB組0.55（1.54），DD組1.7（2.51）（p=0.002）。交叉組病人納入時平均（標準差）評分為1.42（2.46），追蹤時為2.05（2.63）。平均（標準差）門診次數為SB組3.92（2.47）、DD組5.73（3.87）、混合組7.75（2.83）（p=0.01）。當供應用盡時，12例（28.57%）返回領取原分配之產品，29例（69.05%）自行購買尿布。照顧者自付費用SB組較低，僅1例（6.7%），DD組為5例（29.4%）（p=0.01）。維持在SB組之病人對袋子品質表示滿意者有10例（66.7%），相較於交叉組僅4例（26.7%）（p=0.02）。結論：尿布為商用腸造口袋之可行替代方案。",
+   "evidence_level": "RCT",
+   "score": 3,
+   "score_reason": "小樣本(n=40)期中分析，交叉率近三成使追蹤分析實為per-protocol而非ITT，且結論與多數數據不一致；對台灣臨床情境（非資源受限）實用性低。",
+   "relevance": "低度相關",
+   "relevance_why": "此為資源有限地區（南非）兒科造口照護替代方案研究，台灣醫療資源充足、腸造口袋取得無虞，不需此類替代方案。",
+   "novelty": "仍屬早期",
+   "one_liner": "在南非40名兒科新造口病人中，比較腸造口袋與雙尿布法，維持原分組者追蹤皮膚評分腸造口袋組較佳（0.55 vs 1.7, p=0.002）。",
+   "action": "目前不需改變做法；此為資源受限地區之替代照護策略研究，台灣臨床情境不適用，且方法學限制大。",
+   "pico": {
+    "P": "南非兒科新建腸造口病人（<3歲，n=40，多數為肛門直腸畸形）",
+    "I": "雙尿布法（double-diaper）",
+    "C": "標準照護：商用腸造口袋",
+    "O": "主要：造口周圍皮膚評分(OST)；次要：門診次數、照顧者自付費用、滿意度"
+   },
+   "effects": [],
+   "key_numbers": [
+    "維持原分組者追蹤皮膚評分：腸造口袋組0.55(1.54) vs 雙尿布組1.7(2.51)，p=0.002",
+    "照顧者自付費用較高比例：雙尿布組29.4% vs 腸造口袋組6.7%，p=0.01",
+    "交叉率高達29.27%（12/41），多因照顧者偏好(38.9%)或醫療人員建議(61.1%)"
+   ],
+   "cautions": [
+    "期中分析、樣本極小(n=40)，交叉率近三成，追蹤分析為per-protocol而非ITT，恐高估組間差異",
+    "結論「尿布為可行替代方案」與皮膚評分、滿意度、費用等多數結果矛盾，疑似結論過度正向解讀",
+    "基線皮膚評分雙尿布組已較差(2.31 vs 0.83, p=0.402)，隨機分派後可能已不平衡，影響追蹤結果解讀"
+   ],
+   "unassessable": [
+    "失訪率",
+    "allocation concealment",
+    "盲法",
+    "ITT分析細節",
+    "試驗註冊",
+    "利益衝突",
+    "成本分析（僅有自付費用比例，無完整成本效益分析）"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-07-14T00:17:50+08:00"
+  },
+  {
+   "pmid": "42396914",
+   "title": "Folate and global health review series, part 4: syntheses on folate and autoimmune diseases and skeletal outcomes",
+   "journal": "J Glob Health",
+   "journal_full": "Journal of global health",
+   "issn": "2047-2986",
+   "issn_linking": "2047-2978",
+   "impact_factor": 5.5,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1080/00207454.2018.1435538",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Yoo S, Montazeri A, Bennett D, Bo Y, Chen P, Duthie S",
+   "abstract": "BACKGROUND: Autoimmune diseases and bone density loss (osteopenia and osteoporosis) are chronic conditions of complex aetiology that affect diverse populations. Folate may be associated with a higher risk of these disorders due to its essential role in one-carbon metabolism required for nucleotide synthesis, homocysteine metabolism, and methylation processes. However, the evidence on this association is inconclusive.\nMETHODS: We searched MEDLINE, Embase, CINAHL, the Cochrane Library, and the Database of Abstracts of Reviews of Effects from inception to February 2024 for systematic reviews and meta-analyses investigating the associations between folate exposure (dietary intake, supplementation, or blood concentrations) and any autoimmune diseases or skeletal outcomes. Pairs of researchers screened the retrieved syntheses, extracted the relevant data, assessed their risk of bias using the ROBIS tool, and evaluated the credibility of the evidence using predefined criteria.\nRESULTS: We found 19 reviews reporting 25 unique associations: 15 on autoimmune diseases (multiple sclerosis, inflammatory bowel disease, psoriasis, human immunodeficiency virus, vitiligo, and systemic lupus erythematosus) and 10 on skeletal outcomes (fractures and bone mineral density loss). Most of the syntheses consisted of small-scale case-control studies. The risk of bias in the included syntheses was high. Owing to the small sample sizes, all the unique associations were assessed to be at a weak level of credibility.\nCONCLUSIONS: The evidence on the relationship between folate status and autoimmune diseases or skeletal outcomes was limited in breadth and depth. Most of the 25 unique associations were reported by a single synthesis comprising small-scale studies. Subgroup analyses or dose-response analyses were severely limited or unavailable. More well-powered, prospective studies investigating the relationships between folate and autoimmune and skeletal conditions are warranted.\nREGISTRATION: PROSPERO: CRD42021265041.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42403423",
+     "date": "2026-07-06",
+     "title_zh": "B群維生素攝取與癌症風險：關於核黃素(B2)、吡哆醇(B6)、鈷胺素(B12)與葉酸之結構性敘述性回顧",
+     "score": 3,
+     "one_liner": "敘述性回顧B2/B6/B12/葉酸攝取與癌症風險關係，指出B2、B6可能降低大腸直腸癌風險，B12與葉酸證據不一致。",
+     "sim": 0.187
+    }
+   ],
+   "title_zh": "葉酸與全球健康系列文獻第4部分：葉酸與自體免疫疾病及骨骼結果之綜合分析",
+   "abstract_zh": "背景：自體免疫疾病與骨密度流失（骨質減少症與骨質疏鬆症）是病因複雜、影響多元族群的慢性疾病。葉酸因其在一碳代謝中扮演核苷酸合成、同半胱胺酸代謝與甲基化過程所需的重要角色，可能與這些疾病的較高風險有關。然而，此關聯的證據尚無定論。\n\n方法：我們檢索了MEDLINE、Embase、CINAHL、Cochrane圖書館，以及Database of Abstracts of Reviews of Effects，自建立資料庫起至2024年2月，尋找探討葉酸暴露（飲食攝取、補充劑或血液濃度）與任何自體免疫疾病或骨骼結果之間關聯的系統性回顧與統合分析。研究人員兩兩配對篩選檢索到的綜合分析文獻，提取相關資料，使用ROBIS工具評估其偏誤風險，並以預先訂定之標準評估證據可信度。\n\n結果：我們找到19篇回顧文獻，報告了25個獨特關聯：15個關於自體免疫疾病（多發性硬化症、發炎性腸道疾病、乾癬、人類免疫缺乏病毒、白斑症及全身性紅斑性狼瘡），10個關於骨骼結果（骨折與骨密度流失）。大多數綜合分析文獻由小規模的病例對照研究組成。納入的綜合分析文獻偏誤風險偏高。由於樣本量小，所有獨特關聯均被評估為證據可信度薄弱等級。\n\n結論：關於葉酸狀態與自體免疫疾病或骨骼結果之間關係的證據，在廣度與深度上均有限。25個獨特關聯中大多數僅由單一篇由小規模研究組成的綜合分析文獻報告。次群組分析或劑量反應分析嚴重受限或缺乏。有必要進行檢測力充足的前瞻性研究，探討葉酸與自體免疫及骨骼疾病之間的關係。\n\n註冊：PROSPERO: CRD42021265041。",
+   "evidence_level": "系統性回顧",
+   "score": 2,
+   "score_reason": "屬營養流行病學的傘型回顧（umbrella review），本身承認證據可信度薄弱、偏誤風險高，且主題與大腸直腸外科臨床決策幾無直接關聯。",
+   "relevance": "低度相關",
+   "relevance_why": "此篇聚焦葉酸與自體免疫疾病（含IBD）及骨骼健康的流行病學關聯，非外科介入、非手術結果，對日常大腸直腸外科臨床決策實用性極低。",
+   "novelty": "仍屬早期",
+   "one_liner": "此傘型回顧納入19篇綜述、25個葉酸與自體免疫疾病/骨骼結果的關聯，發現所有關聯證據可信度均薄弱。",
+   "action": "目前不需改變做法：此篇為營養流行病學回顧，非手術或外科治療相關證據，對CRC手術決策無直接影響。",
+   "pico": {
+    "P": "無單一病人族群；為文獻層級的傘型回顧，涵蓋19篇系統性回顧/統合分析（含多發性硬化症、IBD、乾癬、HIV、白斑症、SLE及骨折/骨密度相關研究）",
+    "I": "葉酸暴露（飲食攝取、補充劑或血液濃度）",
+    "C": "無單一比較組（多為觀察性研究內部比較）",
+    "O": "主要outcome：各類自體免疫疾病與骨骼結果（骨折、骨密度流失）之關聯強度與證據可信度"
+   },
+   "effects": [],
+   "key_numbers": [
+    "19篇綜述報告25個獨特關聯，全部被評為證據可信度「薄弱」等級",
+    "多數綜合分析文獻由小規模病例對照研究組成，偏誤風險偏高",
+    "次群組分析與劑量反應分析嚴重受限或缺乏，無法評估因果或劇量關係"
+   ],
+   "cautions": [
+    "本篇為傘型回顧（review of reviews），基礎研究多為小樣本病例對照，因果推論證據力極弱",
+    "摘要未提供任何絕對風險數字或效應量，僅以「薄弱可信度」定性描述，無法評估臨床意義大小",
+    "涵蓋IBD僅為眾多自體免疫疾病之一，且非探討IBD手術或外科治療結果，與CRC外科實務關聯薰弱"
+   ],
+   "unassessable": [
+    "各單篇原始研究的盲法、失訪率、ITT分析",
+    "利益衝突",
+    "成本效益分析",
+    "葉酸攝取劇量與疾病風險之劇量反應細節"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-07-14T00:17:50+08:00"
+  },
+  {
+   "pmid": "42394524",
+   "title": "Colorectal cancer care in Uganda: a narrative review and case-based health needs assessment from Mbarara Regional Referral Hospital",
+   "journal": "Glob Health Action",
+   "journal_full": "Global health action",
+   "issn": "1654-9880",
+   "issn_linking": "1654-9880",
+   "impact_factor": 3.4,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Dec",
+   "doi": "10.1080/16549716.2026.2694008",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Hameed S, Niyogusaba T, Ojia J, Al-Zubi S, Nyakato C, Olds P",
+   "abstract": "Colorectal cancer (CRC) is an important cause of cancer-related morbidity and mortality in both Sub-Saharan Africa (SSA) and Uganda. Despite national progress in cancer awareness and policy development, CRC care remains limited by resource constraints. CRC serves as an ideal lens for assessing health system resiliency, as it spans the care continuum. This review searched PubMed from inception through December 2025 for Uganda specific articles on CRC and analyzed 13 peer-reviewed articles to describe the current state of CRC care in Uganda, with insights from a health needs assessment (HNA) conducted at Mbarara Regional Referral Hospital (MRRH).Across Uganda, CRC diagnosis and treatment are hindered by insufficient endoscopic and pathology capacity, medication stockouts, and inconsistent access to immunohistochemistry and molecular testing. Screening programs remain underdeveloped due to inadequate resources for follow-up diagnostics. At MRRH, chemotherapy and surgery are available but constrained by equipment shortages, long wait times, and limited workforce despite rising patient volumes. Palliative care remains a strength, supported by national morphine availability and the efforts of Hospice Africa Uganda, though integration within oncology clinics remains incomplete. Improvement to CRC care will require expanding diagnostic infrastructure, digitizing health records, workforce development, and strengthening supply-chain management. Addressing chemotherapy and medication stockouts represents a tangible, near-term step toward improving quality of care. Experience from MRRH demonstrates both the challenges and opportunities to scaling cancer care in resource-limited settings and provides an illustrative example, albeit limited as a single-institution review, for addressing CRC systems across Uganda.\nMain findings: Colorectal cancer care in Uganda remains limited by inadequate diagnostic capacity, medication stockouts, and workforce shortages, although palliative care integration and national policy support represent key strengths.Added knowledge: This narrative review synthesizes Uganda’s colorectal cancer evidence through a health-systems lens, combining published literature from Uganda and an institutional health needs assessment to identify feasible, context-specific interventions.Global health impact for policy and action: Expanding endoscopic and pathology capacity, digitizing health records, and strengthening supply-chain management are actionable strategies to improve equity and quality of cancer care in low-resource settings.",
+   "watched": [],
+   "related": [],
+   "title_zh": "烏干達大腸直腸癌照護現況：來自Mbarara地區轉診醫院的敘述性文獻回顧與案例導向健康需求評估",
+   "abstract_zh": "大腸直腸癌（CRC）是撒哈拉以南非洲（SSA）與烏干達癌症相關罹病率與死亡率的重要原因。儘管國家在癌症意識提升與政策發展上有所進展，CRC照護仍受限於資源不足。CRC因涵蓋整個照護連續體，是評估醫療系統韌性的理想切入點。本篇文獻回顧檢索PubMed自建立以來至2025年12月的烏干達特定CRC文章，分析13篇同儕審查文章以描述烏干達CRC照護現況，並結合在Mbarara地區轉診醫院（MRRH）進行的健康需求評估（HNA）之見解。在烏干達全境，CRC診斷與治療受限於內視鏡與病理檢驗能力不足、藥物斷貨，以及免疫組織化學與分子檢測取得不一致。篩檢計畫因後續診斷資源不足而發展受限。在MRRH，化療與手術雖可提供，但受設備短缺、等待時間過長及人力有限所限，而病患量卻持續上升。緩和醫療是強項，受惠於國家嗎啉供應與烏干達安寧照護組織（Hospice Africa Uganda）之努力，但與腫瘤門診的整合仍不完整。改善CRC照護將需擴大診斷基礎設施、健康紀錄數位化、人力發展，以及強化供應鏈管理。解決化療與藥物斷貨問題是改善照護品質可行的近期具體步驟。MRRH的經驗展現了在資源有限環境中擴大癌症照護規模的挑戰與機會，雖僅為單一機構回顧有其限制，但可作為處理烏干達整體CRC系統的示例。主要發現：烏干達大腸直腸癌照護仍受限於診斷能力不足、藥物斷貨及人力短缺，惟緩和醫療整合與國家政策支持為關鍵優勢。新增知識：本敘述性文獻回顧透過醫療系統視角綜合烏干達CRC證據，結合已發表文獻與機構健康需求評估，以辨識可行且符合當地情境之介入措施。對政策與行動的全球健康影響：擴大內視鏡與病理檢驗能力、健康紀錄數位化，以及強化供應鏈管理，是改善低資源環境中癌症照護公平性與品質的可行策略。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "屬敘述性文獻回顧＋單一機構健康需求評估，無臨床試驗數據，對台灣醫學中心的手術決策無直接實用性，僅供全球健康視野參考。",
+   "relevance": "低度相關",
+   "relevance_why": "內容聚焦烏干達資源極度受限之醫療體系挑戰，與台灣醫學中心的臨床實務情境差異過大。",
+   "novelty": "仍屬早期",
+   "one_liner": "透過分析13篇文獻並結合MRRH單一機構健康需求評估，描述烏干達CRC照護受限於診斷能力、藥物斷貨與人力短缺的現況。",
+   "action": "目前不需改變做法；此為資源有限地區之健康系統現況描述，非可直接應用於台灣臨床決策之研究。",
+   "pico": {
+    "P": "烏干達CRC照護體系（13篇同儕審查文獻）＋Mbarara地區轉診醫院單一機構健康需求評估",
+    "I": "現行CRC照護模式（診斷、治療、緩和醫療）",
+    "C": "無對照組",
+    "O": "描述性現況：診斷能力、治療可及性、緩和醫療整合程度；次要：政策與供應鏈缺口"
+   },
+   "effects": [],
+   "key_numbers": [
+    "分析13篇烏干達特定CRC同儕審查文獻，無量化療效數據可供比較",
+    "屬敘述性回顧，未報告任何具體發生率、存活率或統計檢定結果",
+    "為單一機構（MRRH）健康需求評估，作者自承有代表性限制"
+   ],
+   "cautions": [
+    "無對照組、無量化outcome，純屬敘述性現況描述與健康系統評估，非療效研究",
+    "單一機構經驗（MRRH）欲推論至整個烏干達CRC照護系統，外推性有限",
+    "文獻回顧僅13篇文章，資料基礎薄弱，且未說明納入排除標準之嚴謹度"
+   ],
+   "unassessable": [
+    "盲法",
+    "allocation concealment",
+    "ITT分析",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本分析",
+    "統計檢定方法"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-07-14T00:17:50+08:00"
+  },
+  {
+   "pmid": "42396616",
+   "title": "Rethinking lymphadenectomy in the immunotherapy era of colorectal cancer: A hypothesis-generating perspective",
+   "journal": "Colorectal Dis",
+   "journal_full": "Colorectal disease : the official journal of the Association of Coloproctology of Great Britain and Ireland",
+   "issn": "1463-1318",
+   "issn_linking": "1462-8910",
+   "impact_factor": 2.3,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1111/codi.70539",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Stratton M, Davies J, Joshi H",
+   "abstract": "BACKGROUND: Lymphadenectomy is traditionally central to curative colorectal cancer (CRC) surgery, with ≥ 12 retrieved lymph nodes being a well-recognised quality indicator influencing staging and local control. However, contemporary immunology reframes tumour-draining lymph nodes (TDLNs) as active co-ordinators of anti-tumour immunity.\nAIM: This article examines whether routine lymphadenectomy may theoretically impair systemic immune surveillance and immune checkpoint inhibitor (ICI) response, a concern most applicable to mismatch repair-deficient/microsatellite instability-high (dMMR/MSI-H) disease.\nMATERIALS AND METHODS: A review of surgical, oncological and immunological literature was performed, including comparison to breast cancer and melanoma, where sentinel lymph node biopsy (SLNB) and nodal preservation are standard.\nRESULTS: Retrospective CRC datasets demonstrate improved survival with increased nodal yield, though causality remains unproven and confounded by tumour biology, surgical quality and centre volume. Preclinical studies indicate TDLNs are essential for ongoing systemic immunity and optimal ICI effectiveness with early human data reporting improved outcomes with adjuvant immunotherapy. Evidence from breast cancer and melanoma provides indirect support for the concept of nodal preservation (SLNB ± observation) maintaining outcomes while reducing surgical morbidity, although lymphatic anatomy and systemic therapy differ from CRC.\nDISCUSSION: These concepts require further research to evaluate whether CRC surgical strategy in the immunotherapy era may need to balance oncological clearance against immune preservation. Selective nodal surgery guided by sentinel mapping or molecular tracers, integration with neoadjuvant and adjuvant immunotherapy trials, and molecular staging to reduce reliance on large nodal harvests represent key areas for investigation.\nCONCLUSION: Prospective, stratified trials, especially in dMMR/MSI-H vs. MSS cohorts, are needed to define when or if less may be more.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42423805",
+     "date": "2026-07-09",
+     "title_zh": "MSI-H/dMMR轉移性大腸直腸癌之最佳一線免疫治療：證據、缺口與臨床決策",
+     "score": 6,
+     "one_liner": "此篇敘述性回顧整合KEYNOTE-177、CheckMate 8HW等試驗，比較pembrolizumab單藥與nivolumab+ipilimumab雙免疫治療於MSI-H/dMMR mCRC一線治療的證據強度與毒性權衡。",
+     "sim": 0.17
+    }
+   ],
+   "title_zh": "重新思考免疫治療時代大腸直腸癌之淋巴結廓清術：一個產生假說的觀點",
+   "abstract_zh": "背景：淋巴結廓清術傳統上是大腸直腸癌（CRC）根治性手術的核心，取樣≥12顆淋巴結是公認的品質指標，影響分期與局部控制。然而，當代免疫學重新將腫瘤引流淋巴結（TDLNs）視為抗腫瘤免疫的主動協調者。目的：本文探討常規淋巴結廓清術是否可能理論上損害全身免疫監視與免疫檢查點抑制劑（ICI）療效，此議題最適用於錯配修復缺陷/微衛星不穩定性高（dMMR/MSI-H）疾病。材料與方法：回顧手術、腫瘤學與免疫學文獻，並與乳癌及黑色素瘤（其前哨淋巴結切片SLNB與淋巴結保留為標準做法）進行比較。結果：回溯性CRC資料顯示淋巴結取樣數增加與存活改善相關，但因果關係尚未證實，且受腫瘤生物學、手術品質與中心量能等因素混雜。臨床前研究顯示TDLNs對於持續性全身免疫及最佳ICI療效至關重要，早期人體資料顯示輔助免疫治療可改善結果。乳癌與黑色素瘤的證據為淋巴結保留概念（SLNB±觀察）維持治療結果同時降低手術併發症提供間接支持，惟其淋巴解剖與全身治療與CRC不同。討論：這些概念需要進一步研究，以評估免疫治療時代CRC手術策略是否需要在腫瘤學廓清與免疫保留之間取得平衡。以前哨淋巴結標定或分子示蹤引導之選擇性淋巴結手術、與新輔助及輔助免疫治療試驗的整合、以及減少依賴大量淋巴結取樣的分子分期，均為關鍵研究方向。結論：需要前瞻性、分層試驗，特別是在dMMR/MSI-H與MSS族群之比較，以確定「少即是多」是否成立及何時成立。",
+   "evidence_level": "綜述",
+   "score": 4,
+   "score_reason": "純假說性觀點文章，無原始臨床數據，但提出之議題（淋巴結廓清術與免疫療效之權衡）對dMMR/MSI-H病人未來治療策略具啟發性。",
+   "relevance": "中度相關",
+   "relevance_why": "與台灣大腸直腸外科日常手術決策相關，但目前僅為假說，尚無可直接改變術式的實證。",
+   "novelty": "仍屬早期",
+   "one_liner": "本文為敘述性回顧，提出假說：常規淋巴結廓清術可能損害dMMR/MSI-H CRC病人之全身免疫監視與ICI療效，尚無臨床數據佐證。",
+   "action": "目前不需改變手術淋巴廓清範圍，仍依現行指引執行標準廓清；留意dMMR/MSI-H相關前瞻試驗進展。",
+   "pico": {
+    "P": "無實際病人族群，為文獻回顧，聚焦於dMMR/MSI-H大腸直腸癌病人族群之理論探討",
+    "I": "淋巴結廓清術範圍（含選擇性/前哨淋巴結手術之概念）",
+    "C": "乳癌與黑色素瘤之SLNB與淋巴結保留經驗類比",
+    "O": "假說性結果：全身免疫監視功能、ICI療效、腫瘤學結果（無實際觀察數據）"
+   },
+   "effects": [],
+   "key_numbers": [
+    "≥12顆淋巴結取樣為現行公認CRC分期品質指標，但本文未提供具體存活數字",
+    "回溯性資料顯示淋巴結取樣數與存活相關，但未給絕對風險差異，因果未證實",
+    "無前瞻性試驗數據支持淋巴結保留策略於CRC，僅有乳癌/黑色素瘤間接證據"
+   ],
+   "cautions": [
+    "純敘述性回顧與假說，無原始臨床試驗或世代研究數據，結論僅供思考方向",
+    "以乳癌/黑色素瘤SLNB經驗類比CRC，但淋巴解剖與全身治療機制不同，外推風險高",
+    "回溯性淋巴結產量與存活相關性研究受腫瘤生物學、手術品質、中心量能等干擾因子混雜，因果關係未證實"
+   ],
+   "unassessable": [
+    "本文為敘述性回顧非原始研究，盲法、ITT、失訪率、試驗註冊、利益衝突等項目不適用或未提及"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "前作聚焦於MSI-H/dMMR轉移性大腸直腸癌一線免疫治療藥物選擇（pembrolizumab vs nivolumab+ipilimumab），與本文探討淋巴結廓清術範圍之手術層面議題屬不同研究問題，僅在dMMR/MSI-H族群與免疫治療機制上有概念重疊，非直接延伸關係。",
+   "added_at": "2026-07-14T00:17:50+08:00"
+  },
+  {
+   "pmid": "42393838",
+   "title": "Intratumoral enrichment and suppressive activity of DP8α regulatory T cells in human colorectal cancer",
+   "journal": "Oncoimmunology",
+   "journal_full": "Oncoimmunology",
+   "issn": "2162-402X",
+   "issn_linking": "2162-4011",
+   "impact_factor": 6.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Dec",
+   "doi": "10.1038/s41416-024-02796-3",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Deiber M, Deleine C, Gervois-Segain N, Jotereau F, Labarrière N, Altare F",
+   "abstract": "Colorectal cancer (CRC) progression is driven by dynamic interactions among tumor cells, immune infiltrates, and the gut microbiota. While regulatory T cells (Tregs) may contribute to immune suppression in CRC, the role of non-conventional Tregs remains poorly defined. We identified a non-conventional population of microbiota-induced Tregs in the human colonic mucosa that co-expressed CD4, CD8α, CXCR6, and CCR6, termed DP8α Tregs, that exert potent immunomodulatory properties in different inflammatory settings. Their status and role in CRC, however, have not been investigated. Here, using multiparametric flow cytometry in a prospective cohort of CRC patients, we showed that DP8α Tregs are significantly enriched in tumors compared to paired non-tumoral colonic mucosa. Tumor-infiltrating DP8α Tregs displayed elevated expression of the CD39/CD73 ectonucleotidases, as well as CCR5, consistent with a suppressive phenotype within the tumor microenvironment. Functional co-culture assays further demonstrated that sorting DP8α Tregs from CRC tumors inhibited both CD4 and CD8 T-cell proliferation, an effect largely reversed by pharmacological inhibition of CD39 and CD73, which was associated with reduced IL-2 levels. Together, these findings show that DP8α Tregs enriched in the CRC tumor microenvironment, are able to suppress effector T-cell responses through the purinergic pathway and support further investigation of their contribution to immune regulation in CRC.",
+   "watched": [],
+   "related": [],
+   "title_zh": "人類大腸直腸癌中DP8α調節性T細胞的腫瘤內富集與抑制活性",
+   "abstract_zh": "大腸直腸癌（CRC）的進展是由腫瘤細胞、免疫浸潤與腸道微生物群之間的動態交互作用所驅動。雖然調節性T細胞（Tregs）可能參與CRC中的免疫抑制，但非傳統型Tregs的角色仍未被充分定義。我們在人類結腸黏膜中鑑定出一群由微生物群誘導的非傳統Tregs族群，同時表現CD4、CD8α、CXCR6與CCR6，稱為DP8α Tregs，其在不同發炎情境中展現強大的免疫調節特性。然而，這群細胞在CRC中的狀態與角色尚未被研究。本研究利用多參數流式細胞儀，於一組前瞻性CRC病人世代中，顯示DP8α Tregs在腫瘤中相較於配對的非腫瘤結腸黏膜顯著富集。腫瘤浸潤的DP8α Tregs呈現CD39/CD73外核苷酸酶及CCR5的表現上升，符合腫瘤微環境中抑制性表型的特徵。功能性共培養實驗進一步證實，從CRC腫瘤中分選出的DP8α Tregs可抑制CD4與CD8 T細胞的增殖，此效應在藥理學抑制CD39與CD73後大幅逆轉，並伴隨IL-2濃度降低。總體而言，這些發現顯示富集於CRC腫瘤微環境中的DP8α Tregs，能透過嘌呤能路徑抑制效應T細胞反應，支持進一步研究其對CRC免疫調節的貢獻。",
+   "evidence_level": "其他",
+   "score": 3,
+   "score_reason": "屬機轉導向的基礎免疫學研究，樣本量與臨床outcome皆未提供，對臨床決策無直接可用性，僅具長期轉譯潛力。",
+   "relevance": "低度相關",
+   "relevance_why": "純基礎免疫機轉研究，非外科介入或臨床療效評估，短期內不影響手術或治療決策。",
+   "novelty": "仍屬早期",
+   "one_liner": "在CRC病人腫瘤與配對正常黏膜中，比較DP8α Treg族群，發現其於腫瘤內顯著富集且具CD39/CD73依賴之T細胞抑制活性。",
+   "action": "目前不需改變做法；此為機轉發現，尚無法轉化為臨床檢測或治療策略。",
+   "pico": {
+    "P": "前瞻性世代之CRC病人（確切人數摘要未提供）",
+    "I": "腫瘤組織中DP8α Treg族群之表現型與功能分析",
+    "C": "配對之非腫瘤結腸黏膜組織",
+    "O": "主要：DP8α Treg腫瘤內富集程度、CD39/CD73/CCR5表現；次要：對CD4/CD8 T細胞增殖之抑制效果及IL-2濃度變化"
+   },
+   "effects": [],
+   "key_numbers": [
+    "DP8α Tregs於腫瘤組織中較配對正常黏膜顯著富集（未提供具體百分比數值）",
+    "CD39/CD73抑制劑可大幅逆轉DP8α Tregs對T細胞增殖之抑制效果（未提供絕對數值）",
+    "抑制效果伴隨IL-2濃度降低，未提供具體濃度數據或p值"
+   ],
+   "cautions": [
+    "摘要未提供病人樣本數、分期分布或統計檢定p值，難以評估效應強度與統計顯著性",
+    "功能性共培養為體外實驗，無法直接外推至體內腫瘤免疫微環境或臨床預後",
+    "未提供DP8α Treg浸潤程度與病人存活、復發等臨床outcome之相關性數據"
+   ],
+   "unassessable": [
+    "樣本數",
+    "病人分期與臨床特徵",
+    "統計方法與信賴區間",
+    "與臨床預後之相關性",
+    "利益衝突",
+    "試驗註冊"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-07-14T00:17:50+08:00"
+  },
+  {
+   "pmid": "42396665",
+   "title": "Oral‑gut axis in systemic disease: A barrier‑metabolism‑immunity three‑dimensional regulatory model (Review)",
+   "journal": "Int J Mol Med",
+   "journal_full": "International journal of molecular medicine",
+   "issn": "1791-244X",
+   "issn_linking": "1107-3756",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Sep",
+   "doi": "10.1016/j.phymed.2025.156746",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Li Q, Cheng M, Li W, Wang X, Liu X, Yan Y",
+   "abstract": "The oral‑gut axis is an interorgan regulatory network connecting the two core microbial niches in the human body. It sustains systemic homeostasis through bidirectional microbial translocation, metabolite signaling and immune crosstalk. The present review presented a novel barrier‑metabolism‑immunity three‑dimensional regulatory framework that clarifies the core mechanisms of oral‑gut axis dysregulation: Bidirectional translocation of oral and gut microbiota disrupts microbial homeostasis; key metabolites, including short‑chain fatty acids and trimethylamine N‑oxide, mediate interorgan signaling; immune cell migration and barrier damage collectively constitute the pathological basis, which drives multisystem disorders through secondary axes. The present study classified oral‑gut axis imbalance into three quantifiable subtypes: Barrier‑dominant, metabolism‑dominant and immunity‑dominant, each linked to distinct diseases such as inflammatory bowel disease, type 2 diabetes mellitus and rheumatoid arthritis. Accordingly, a stratified, personalized intervention strategy was proposed. Current challenges include difficulties in causal verification, substantial interindividual variability in intervention efficacy and limited tools for real‑time interorgan tracking. Future research will benefit from microbiota gene editing, multi‑omics integration and in vivo imaging to advance mechanistic understanding and clinical translation. This three‑dimensional model provides a standardized theoretical foundation and practical guidance for the diagnosis and treatment of oral‑gut axis‑related diseases.",
+   "watched": [],
+   "related": [],
+   "title_zh": "全身性疾病中的口腔-腸道軸：屏障-代謝-免疫三維調控模型（綜述）",
+   "abstract_zh": "口腔-腸道軸是連結人體兩大核心微生物棲位的器官間調控網絡，透過雙向微生物移位、代謝物訊號傳遞與免疫交互作用，維持全身性體內平衡。本綜述提出一個新穎的屏障-代謝-免疫三維調控框架，闡明口腔-腸道軸失調的核心機制：口腔與腸道微生物群的雙向移位破壞微生物平衡；關鍵代謝物，包括短鏈脂肪酸與氧化三甲胺，媒介器官間訊號傳遞；免疫細胞遷移與屏障損傷共同構成病理基礎，並透過次級軸驅動多系統疾病。本研究將口腔-腸道軸失衡分類為三種可量化亞型：屏障主導型、代謝主導型與免疫主導型，各與不同疾病相關，如發炎性腸道疾病、第二型糖尿病與類風濕性關節炎。據此提出分層、個人化的介入策略。目前挑戰包括因果驗證困難、介入療效存在顯著個體間差異，以及缺乏即時器官間追蹤工具。未來研究將受益於微生物基因編輯、多體學整合與活體影像技術，以推進機制理解與臨床轉譯。此三維模型為口腔-腸道軸相關疾病的診斷與治療提供標準化理論基礎與實務指引。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純機制假說性綜述，無原創臨床數據、無病人族群、無介入結果，對大腸直腸外科臨床決策目前無直接實用性。",
+   "relevance": "低度相關",
+   "relevance_why": "屬基礎/機制層面之跨疾病理論綜述，非外科介入研究，內容涵蓋IBD、糖尿病、類風濕關節炎而非大腸直腸癌手術議題。",
+   "novelty": "仍屬早期",
+   "one_liner": "本文提出口腔-腸道軸失調的屏障-代謝-免疫三維理論框架，屬概念性分類與機制假說，未涉及臨床試驗數據。",
+   "action": "目前不需改變做法；此為理論性綜述，無可直接應用於大腸直腸外科臨床決策之數據或指引。",
+   "pico": {
+    "P": "無明確病人族群（跨疾病機制綜述，非臨床研究）",
+    "I": "無介入（提出理論分類框架與概念性介入策略建議）",
+    "C": "無對照組",
+    "O": "無實證outcome；提出屏障主導/代謝主導/免疫主導三種假說性亞型分類"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供任何臨床試驗數據、發生率或統計顯著性數字",
+    "屬概念框架建構，非實證研究，無可供量化的效果指標",
+    "作者自述因果驗證困難、個體間療效差異大（未提供具體數字）"
+   ],
+   "cautions": [
+    "為理論性綜述而非實證研究，所提三維框架與亞型分類尚未經臨床驗證",
+    "摘要無任何量化數據支持，機制論述可能過度延伸相關性為因果關係",
+    "涵蓋多種不同疾病（IBD、糖尿病、RA），對大腸直腸外科臨床應用高度間接"
+   ],
+   "unassessable": [
+    "盲法",
+    "allocation concealment",
+    "ITT",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本分析",
+    "研究設計細節（因非實證研究）"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-07-14T00:17:50+08:00"
+  },
+  {
+   "pmid": "42394418",
+   "title": "TIME-trend and forecasting of the economic impact of inflammatory bowel disease in Catalonia: a population-based analysis",
+   "journal": "J Med Econ",
+   "journal_full": "Journal of medical economics",
+   "issn": "1941-837X",
+   "issn_linking": "1369-6998",
+   "impact_factor": 3.1,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Dec",
+   "doi": "10.1080/13696998.2026.2692254",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Garcia-Sagué B, Brunet-Mas E, Vela E, Coward S, Calvet X, Pontes C",
+   "abstract": "INTRODUCTION: Few studies have assessed the distribution and temporal trends of healthcare expenditures related to inflammatory bowel disease (IBD). The aims of the study were to analyze the expenditure trends for IBD patients in Catalonia from 2011 to 2024, to identify key cost drivers, and to forecast future costs through 2036.\nMETHODS: All patients with a diagnosis of IBD included in the Catalan Health Surveillance System (CHSS) were eligible. CHSS compiles prospective data from public healthcare coverage of 8 million people in 2024. Healthcare utilization was analyzed, and expenditures were calculated using standard costs defined by the Catalan Department of Health. All expenditures were adjusted to 2024 euros using the Consumer Price Index to enable comparisons across years. Costs were estimated for IBD overall, Crohn's disease (CD) and ulcerative colitis (UC). An autoregressive integrated moving average model was used to forecast total costs up to 2036.\nRESULTS: IBD-related healthcare expenditure tripled from €67.4 M in 2011 to €201.6 M in 2024, while per-patient costs rose from €3,981 to €4,753. Biologic therapies were the main cost driver, especially in CD. Mean per-patient biologic costs decreased by 16.6% in CD but increased by 44.5% in UC. CD patients consistently incurred higher per capita costs. Forecasts indicate continued growth in total expenditure, reaching €319.0 M by 2036.\nCONCLUSION: Overall, IBD-related healthcare expenditures in Catalonia markedly increased from 2011 to 2024, driven mainly by the increase in IBD prevalence. Per-patient cost moderately increased. Per-patient cost containment was observed in pharmaceutical costs, probably due to a strict policy favoring the use of biosimilars. These findings may be of help for designing future healthcare policies.",
+   "watched": [],
+   "related": [],
+   "title_zh": "加泰隆尼亞發炎性腸道疾病經濟負擔之時間趨勢與預測：一項全人口分析",
+   "abstract_zh": "前言：少數研究評估發炎性腸道疾病（IBD）相關醫療支出之分布與時間趨勢。本研究目的為分析2011至2024年加泰隆尼亞IBD病人之支出趨勢、找出主要成本驅動因子，並預測至2036年之未來成本。方法：所有納入加泰隆尼亞健康監測系統（CHSS）之IBD病人皆符合納入資格。CHSS彙整2024年涵蓋800萬人口之公共醫療前瞻性資料。分析醫療利用情形，並以加泰隆尼亞衛生部訂定之標準成本計算支出。所有支出以消費者物價指數調整至2024年歐元，以利跨年度比較。分別估算IBD整體、克隆氏症（CD）與潰瘍性結腸炎（UC）之成本。使用自迴歸整合移動平均模型預測至2036年之總成本。結果：IBD相關醫療支出從2011年的6740萬歐元增加三倍至2024年的2億160萬歐元，每位病人成本則從3,981歐元升至4,753歐元。生物製劑治療為主要成本驅動因子，在CD尤為明顯。CD病人每人平均生物製劑成本下降16.6%，但UC病人上升44.5%。CD病人之每人平均成本持續高於UC。預測顯示總支出將持續成長，至2036年將達3億190萬歐元。結論：加泰隆尼亞IBD相關醫療支出於2011至2024年間顯著增加，主因為IBD盛行率上升。每人平均成本則呈現中度增加。藥物成本方面觀察到每人成本的抑制現象，可能與嚴格推動生物相似藥使用之政策有關。這些發現有助於未來醫療政策之制定。",
+   "evidence_level": "回溯性研究",
+   "score": 2,
+   "score_reason": "此為西班牙單一地區之健康經濟學分析，探討IBD醫療支出趨勢與預測，未涉及手術治療或臨床結果，對台灣大腸直腸外科臨床決策實用性極低。",
+   "relevance": "低度相關",
+   "relevance_why": "本研究為健康經濟學／醫療支出分析，非外科介入或臨床結果研究，且資料來自西班牙加泰隆尼亞醫療體系，難以直接推論至台灣。",
+   "novelty": "再確認已知",
+   "one_liner": "在加泰隆尼亞全人口IBD病人中，分析2011-2024醫療支出趨勢，發現總支出增加3倍（6740萬→2億160萬歐元），生物製劑為主要驅動因子。",
+   "action": "目前不需改變做法；此為醫療經濟政策參考資料，與大腸直腸外科臨床決策（如IBD手術適應症、時機）無直接相關。",
+   "pico": {
+    "P": "2011-2024年加泰隆尼亞健康監測系統中所有IBD診斷病人（涵蓋約800萬人口之公共醫療體系）",
+    "I": "無介入，為觀察性資料分析（時間趨勢）",
+    "C": "無對照組（CD與UC組間比較，非隨機分組）",
+    "O": "主要：IBD相關總醫療支出與每人平均支出之時間趨勢及至2036年預測；次要：生物製劑成本占比、CD與UC成本差異"
+   },
+   "effects": [],
+   "key_numbers": [
+    "IBD總支出從2011年6740萬歐元增至2024年2億160萬歐元，成長約3倍",
+    "每人平均成本從3,981歐元增至4,753歐元，增幅約19%",
+    "CD病人每人生物製劑成本下降16.6%，UC病人則上升44.5%"
+   ],
+   "cautions": [
+    "此為描述性趨勢分析與統計預測模型，非因果推論，總支出增加主因為盛行率上升而非治療強度",
+    "預測至2036年之數字基於ARIMA模型外推，未來政策、藥價、生物相似藥滲透率變化可能大幅影響準確性",
+    "研究對象為西班牙單一地區公共醫療體系，成本結構、藥物給付政策與台灣健保制度差異大，外推性有限"
+   ],
+   "unassessable": [
+    "病人族群之疾病嚴重度分布",
+    "手術與內科治療比例",
+    "生物相似藥轉換率細節",
+    "利益衝突",
+    "資料完整性與遺漏值處理"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-07-14T00:17:50+08:00"
+  },
+  {
+   "pmid": "42391843",
+   "title": "6PPDQ promotes the malignant progression of colorectal cancer via enhancing EGF/EGFR signaling",
+   "journal": "Ecotoxicol Environ Saf",
+   "journal_full": "Ecotoxicology and environmental safety",
+   "issn": "1090-2414",
+   "issn_linking": "0147-6513",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1016/j.ecoenv.2026.120414",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Fang Z, Dan H, Sha L, Wei L, Lei S, Yu W",
+   "abstract": "6PPD-quinone (6PPDQ), a transformation product of the rubber antioxidant 6PPD, is a newly identified pollutant found globally. Originating mainly from tire wear particles, it contaminates water bodies, the atmosphere, and the food chain, leading to continuous exposure risks. However, the impact of 6PPDQ on the progression of colorectal cancer remains largely unknown, representing an urgent scientific question to be addressed. This research explored the toxicological impact and molecular mechanisms of 6PPDQ on colorectal cancer. In vitro experiments showed that environmentally relevant concentrations of 6PPDQ significantly promoted proliferation, colony formation, and invasiveness in human colorectal cancer cell lines HCT116 and HT-29, while inducing glycolysis-associated changes marked by elevated lactate production and glucose uptake. Further mechanistic studies indicated that 6PPDQ increased epidermal growth factor receptor (EGFR) expression by stabilizing the transcription factor c-Jun, which activated the EGFR/ERK/AKT signaling pathway; this activation was reversible with the EGFR inhibitor gefitinib. In vivo experiments demonstrated that 6PPDQ exposure accelerated xenograft tumor growth in nude mice and increased EGF/EGFR pathway activity. This study reveals that 6PPDQ promotes colorectal cancer progression via regulating EGF/EGFR signaling, offering new experimental evidence for its environmental health risk assessment. Our research indicates that pollutants from traffic could be environmental risk factors for colorectal cancer, highlighting significant public health and cancer prevention implications.",
+   "watched": [],
+   "related": [],
+   "title_zh": "6PPDQ透過增強EGF/EGFR訊號傳導促進大腸直腸癌惡性進展",
+   "abstract_zh": "6PPD-quinone（6PPDQ）是橡膠抗氧化劑6PPD的轉化產物，是近期新發現的全球性污染物。它主要來自輪胎磨損顆粒，污染水體、大氣及食物鏈，導致持續性暴露風險。然而，6PPDQ對大腸直腸癌進展的影響仍大部分未知，是亟待解決的科學問題。本研究探討6PPDQ對大腸直腸癌的毒理學影響及分子機制。體外實驗顯示，環境相關濃度的6PPDQ顯著促進人類大腸直腸癌細胞株HCT116及HT-29的增殖、群落形成及侵襲能力，同時誘導糖解相關變化，表現為乳酸生成增加及葡萄糖攝取增加。進一步機制研究指出，6PPDQ透過穩定轉錄因子c-Jun而增加表皮生長因子受體（EGFR）表現，進而活化EGFR/ERK/AKT訊號通路；此活化作用可被EGFR抑制劑gefitinib逆轉。體內實驗證實，6PPDQ暴露加速裸鼠異種移植腫瘤生長，並增加EGF/EGFR通路活性。本研究揭示6PPDQ透過調控EGF/EGFR訊號促進大腸直腸癌進展，為其環境健康風險評估提供新的實驗證據。我們的研究指出，交通來源污染物可能是大腸直腸癌的環境風險因子，對公共衛生及癌症預防具有重要意涵。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "純基礎科學／毒理學機制研究，無臨床介入或病人資料，對臨床決策無直接參考價值。",
+   "relevance": "低度相關",
+   "relevance_why": "此為細胞株與裸鼠模型的環境毒理機制研究，非外科介入或臨床研究，與大腸直腸外科臨床實務無直接關聯。",
+   "novelty": "仍屬早期",
+   "one_liner": "體外／體內實驗顯示環境污染物6PPDQ透過EGFR/ERK/AKT路徑促進大腸直腸癌細胞增殖與侵襲，並加速裸鼠腫瘤生長。",
+   "action": "目前不需改變做法；此為基礎機制研究，尚無臨床應用或病人層級證據可供參考。",
+   "pico": {
+    "P": "人類大腸直腸癌細胞株（HCT116、HT-29）及裸鼠異種移植模型；無人類病人族群",
+    "I": "暴露於環境相關濃度之6PPD-quinone（6PPDQ）",
+    "C": "未暴露對照組（部分實驗另設EGFR抑制劑gefitinib處理組）",
+    "O": "主要：細胞增殖、群落形成、侵襲力、糖解代謝（乳酸/葡萄糖攝取）、裸鼠腫瘤生長；機制：EGFR/c-Jun/ERK/AKT訊號活性"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要僅提供質性描述（顯著促進/增加），未提供具體數值、發生率或信賴區間",
+    "裸鼠腫瘤生長「加速」，但無具體腫瘤體積或存活數據",
+    "無人類臨床或流行病學資料佐證此污染物與大腸直腸癌實際發生率之關聯"
+   ],
+   "cautions": [
+    "此為體外細胞株及動物模型研究，結果不可直接外推至人類臨床風險或病人管理",
+    "摘要僅用「顯著」等質性用詞，未提供具體數據、p值或信賴區間，無法評估效應量大小",
+    "作者將實驗室機制結果延伸至「公共衛生意涵」屬過度詮釋，缺乏人群暴露劑量與實際致癌風險的直接證據"
+   ],
+   "unassessable": [
+    "樣本重複次數",
+    "統計方法與檢定力",
+    "暴露劑量與人類實際環境濃度之對應性",
+    "利益衝突",
+    "動物實驗之隨機分組與盲法"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-07-14T00:17:50+08:00"
+  },
+  {
+   "pmid": "42391842",
+   "title": "Cadmium exposure is associated with colorectal neoplasm risk: From epidemiological evidence to laboratory confirmation",
+   "journal": "Ecotoxicol Environ Saf",
+   "journal_full": "Ecotoxicology and environmental safety",
+   "issn": "1090-2414",
+   "issn_linking": "0147-6513",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1016/j.ecoenv.2026.120411",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Li J, Ping Z, Zhou J, Qian S, Bai R, Shen C",
+   "abstract": "Cadmium (Cd) is a well-established carcinogenic heavy metal linked to the development of various cancers. However, its role in colorectal neoplasms remains unclear. Using a cross-sectional design involving 2332 Chinese participants, we examined the association between Cd exposure and colorectal neoplasms and further explored underlying mechanisms using murine models exposed to environmentally relevant Cd concentrations in drinking water. Epidemiological analysis showed that elevated whole-blood Cd levels were associated with an increased risk of both non-advanced (prevalence ratio [PR] per log2-transformed increment = 1.12, 95% confidence interval [CI]: 1.05-1.20) and advanced colorectal neoplasms (PR per log2-transformed increment = 1.18, 95% CI: 1.01-1.37). In mice, although Cd exposure did not adversely affect overall health status or intestinal structure, it significantly promoted tumorigenesis and malignant progression in the azoxymethane/dextran sulfate sodium (AOM/DSS) model. Notably, Cd exposure did not affect tumor development in the AOM-only model, suggesting that its tumor-promoting effect is dependent on concurrent intestinal inflammation. Indeed, Cd exposure exacerbated DSS-induced colitis in mice. Additionally, Cd exposure induced distinct gut microbiota alterations, characterized by depletion of Lactobacillus intestinalis, as well as members of Turicibacter and Gordonibacter, and enrichment of members of Enterorhabdus, Allobaculum, and Atopobiaceae. Collectively, findings from both the epidemiological cohort and murine models suggest a significant link between Cd exposure and colorectal neoplasms. Moreover, these data reveal the critical roles of inflammation and gut microbiota alterations in Cd-promoted colorectal tumorigenesis.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42389518",
+     "date": "2026-07-02",
+     "title_zh": "腸道菌叢代謝物丁酸鹽透過增強自噬相關訊號傳導減輕DSS誘導結腸炎之腸道發炎反應",
+     "score": 2,
+     "one_liner": "在DSS誘導結腸炎小鼠模型中，口服丁酸鈉透過增強自噬訊號（ATG16L1、LC3-II上升）減輕腸道發炎與屏障破壞。",
+     "sim": 0.153
+    }
+   ],
+   "title_zh": "鎘暴露與大腸直腸腫瘤風險相關：從流行病學證據到實驗室驗證",
+   "abstract_zh": "鎘（Cd）是一種已確立的致癌重金屬，與多種癌症的發生有關。然而其在大腸直腸腫瘤中的角色仍不明確。本研究採用橫斷面設計，納入2332名中國參與者，探討鎘暴露與大腸直腸腫瘤之關聯，並進一步利用暴露於環境相關濃度鎘（透過飲水）之小鼠模型探討潛在機轉。流行病學分析顯示，全血鎘濃度升高與非進展期（每log2轉換增量之盛行率比[PR]=1.12，95%信賴區間[CI]：1.05-1.20）及進展期大腸直腸腫瘤（每log2轉換增量之PR=1.18，95% CI：1.01-1.37）風險增加皆有關聯。在小鼠中，雖然鎘暴露未對整體健康狀態或腸道結構造成不良影響，但在氧化偶氮甲烷/葡聚糖硫酸鈉（AOM/DSS）模型中顯著促進腫瘤形成與惡性進展。值得注意的是，鎘暴露在單純AOM模型中並未影響腫瘤發展，顯示其促腫瘤作用依賴於併發的腸道發炎。事實上，鎘暴露加劇了DSS誘導的結腸炎。此外，鎘暴露誘發了明顯的腸道菌叢變化，特徵為腸內乳桿菌（Lactobacillus intestinalis）、Turicibacter屬及Gordonibacter屬成員之耗竭，以及Enterorhabdus屬、Allobaculum屬及Atopobiaceae科成員之富集。綜合流行病學世代與小鼠模型之發現，顯示鎘暴露與大腸直腸腫瘤之間存在顯著關聯。此外，這些數據揭示了發炎與腸道菌叢改變在鎘促進大腸直腸腫瘤形成中的關鍵角色。",
+   "evidence_level": "橫斷面",
+   "score": 2,
+   "score_reason": "橫斷面設計無法建立因果關係，且為環境暴露流行病學結合動物機轉研究，對大腸直腸外科臨床決策幾乎無直接實用性。",
+   "relevance": "低度相關",
+   "relevance_why": "屬環境毒理學／流行病學及動物機轉研究，非篩檢、手術或治療介入，與臨床實務決策無直接關聯。",
+   "novelty": "仍屬早期",
+   "one_liner": "在2332名中國人中，血鎘濃度每log2增量與非進展期（PR 1.12）及進展期（PR 1.18）大腸直腸腫瘤風險上升相關，小鼠實驗顯示需併發腸道發炎才促癌。",
+   "action": "目前不需改變做法；此為環境暴露機轉研究，尚無可轉譯之篩檢或治療建議。",
+   "pico": {
+    "P": "2332名中國參與者（橫斷面研究）；另有AOM/DSS及單純AOM小鼠模型",
+    "I": "全血鎘濃度升高（人體）／飲水中環境相關濃度鎘暴露（小鼠）",
+    "C": "以連續變項（每log2轉換增量）比較，無明確分組對照",
+    "O": "主要：非進展期與進展期大腸直腸腫瘤盛行率比；次要：小鼠腫瘤形成、結腸炎嚴重度、腸道菌叢組成變化"
+   },
+   "effects": [],
+   "key_numbers": [
+    "非進展期腫瘤：PR每log2增量=1.12（95% CI 1.05-1.20）",
+    "進展期腫瘤：PR每log2增量=1.18（95% CI 1.01-1.37），CI下限貼近1",
+    "小鼠：鎘僅在AOM/DSS（合併發炎）模型促癌，單純AOM模型無影響"
+   ],
+   "cautions": [
+    "橫斷面設計僅能顯示關聯，無法確立因果，逆因果（腫瘤本身影響鎘代謝）可能性未排除",
+    "進展期腫瘤PR信賴區間下限僅1.01，效應量小且接近無顯著意義邊界",
+    "以log2轉換連續暴露量呈現效應，未提供實際血鎘濃度分層之絕對風險數字，臨床解讀門檻不明"
+   ],
+   "unassessable": [
+    "人體研究之干擾因子調整（吸菸、飲食、職業暴露）",
+    "小鼠實驗樣本數與統計方法",
+    "利益衝突",
+    "研究對象納入排除標準與失訪情形"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。先前論文探討丁酸鹽透過自噬機轉保護DSS結腸炎，與本篇鎘暴露促進發炎及腫瘤形成之機轉方向相反、主題不同，僅表面涉及腸道菌叢與結腸炎，實質關聯薄弱。",
+   "added_at": "2026-07-14T00:17:50+08:00"
+  },
+  {
+   "pmid": "42397491",
+   "title": "Trametes versicolor laccase induces apoptosis and DNA damage in colorectal cancer via reactive oxygen species-mediated signaling disruption",
+   "journal": "Mol Biol Rep",
+   "journal_full": "Molecular biology reports",
+   "issn": "1573-4978",
+   "issn_linking": "0301-4851",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1007/s00428-005-1264-9",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Deveci Ozkan A, Kale Bakir E, Karakose Z, Erman G, Yuzugullu Karakus Y, Yanar S",
+   "abstract": "OBJECTIVE: Copper-containing laccases oxidize various phenolic and non-phenolic compounds. Among them, fungal laccases have been extensively studied in industry, but their biomedical potential remains largely unexplored. We aimed to investigate the anticancer activity of the laccase enzyme, which we purified from Trametes versicolor without loss of activity using the three-phase partitioning (TPP) technique-an easy, inexpensive method that allows high activity recovery-on colorectal cancer (CRC) cells for the first time and to elucidate its mechanism of action.\nMETHODS: The effects of the pure laccase enzyme were investigated on two CRC cell lines (HCT-116 and Caco-2) and normal endothelial cells (HUVEC). Cytotoxicity was assessed using the WST-1 assay. Apoptosis and cell cycle progression were analyzed by flow cytometry. Genotoxicity was determined by using micronucleus and comet assays. Intracellular DCFH-DA fluorescence intensity was measured, and the expression of apoptosis- and DNA repair-related genes was analyzed by qRT-PCR. The MAPK (p38, JNK) and NF-κB signaling pathways were examined by immunofluorescence.\nRESULTS: Laccase treatment exhibited a dose-dependent cytotoxic effect on CRC cells, with minimal impact on HUVECs. It induced apoptosis, oxidative stress-associated responses, DNA damage, and G0/G1 cell cycle arrest. Gene expression analysis revealed upregulation of Bax and Caspase-3 and downregulation of Bcl-2, RAD51, and NF-κB. Immunofluorescence confirmed activation of p38/JNK and suppression of NF-κB signaling.\nCONCLUSION: TPP-purified fungal laccase exhibits selective cytotoxicity and pro-apoptotic effects in CRC cells via redox-mediated DNA damage and modulation of signaling pathways, supporting its potential as a novel anticancer agent.",
+   "watched": [],
+   "related": [],
+   "title_zh": "雲芝漆酶透過活性氧介導之訊號傳導破壞誘導大腸直腸癌細胞凋亡與DNA損傷",
+   "abstract_zh": "目的：含銅漆酶可氧化多種酚類與非酚類化合物。其中，真菌漆酶已在工業上被廣泛研究，但其生醫潛力仍大多未被探索。本研究首次探討以三相分離技術（TPP）——一種簡易、低成本且能高活性回收的方法——從雲芝純化出的漆酶酵素對大腸直腸癌（CRC）細胞的抗癌活性，並闡明其作用機轉。方法：以純化漆酶處理兩株CRC細胞株（HCT-116與Caco-2）及正常內皮細胞（HUVEC），以WST-1法評估細胞毒性。以流式細胞儀分析細胞凋亡與細胞週期進展。以微核試驗與彗星試驗測定基因毒性。測量細胞內DCFH-DA螢光強度，並以qRT-PCR分析凋亡與DNA修復相關基因表現。以免疫螢光檢測MAPK（p38、JNK）與NF-κB訊號傳導路徑。結果：漆酶處理對CRC細胞產生劑量依賴性的細胞毒性作用，對HUVEC影響甚微。其誘導細胞凋亡、氧化壓力相關反應、DNA損傷，以及G0/G1細胞週期停滯。基因表現分析顯示Bax與Caspase-3上升，Bcl-2、RAD51與NF-κB下降。免疫螢光證實p38/JNK活化與NF-κB抑制。結論：TPP純化之真菌漆酶透過氧化還原介導之DNA損傷及訊號路徑調控，對CRC細胞展現選擇性細胞毒性與促凋亡效果，支持其作為新型抗癌劑之潛力。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "純體外細胞株基礎研究，無動物實驗更無人體資料，距臨床應用極遠，對外科實務無直接參考價值。",
+   "relevance": "低度相關",
+   "relevance_why": "純基礎研究（細胞株層級），非外科介入，與臨床決策無關。",
+   "novelty": "仍屬早期",
+   "one_liner": "在CRC細胞株（HCT-116、Caco-2）中，以雲芝漆酶處理，發現劑量依賴性誘導凋亡與DNA損傷，對正常HUVEC影響輕微。",
+   "action": "目前不需改變做法；此為體外機轉探索研究，離臨床應用（動物實驗、人體試驗）尚有極大距離。",
+   "pico": {
+    "P": "大腸直腸癌細胞株HCT-116與Caco-2，以及正常內皮細胞HUVEC（體外實驗，非病人族群）",
+    "I": "TPP純化雲芝（Trametes versicolor）漆酶處理",
+    "C": "未處理對照組（細胞實驗內部對照）",
+    "O": "主要：細胞毒性、凋亡、細胞週期停滯、DNA損傷；次要：氧化壓力相關基因與MAPK/NF-κB訊號路徑表現"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要僅描述「劑量依賴性」細胞毒性，未提供IC50或具體百分比數值",
+    "未提供任何統計檢定之p值或信賴區間",
+    "無人體或動物體內資料，僅為細胞株層級之機轉研究"
+   ],
+   "cautions": [
+    "純體外細胞株實驗，結果無法直接推論至動物體內或人體療效",
+    "摘要未提供任何具體數值（如IC50、細胞存活率百分比），僅描述趨勢方向",
+    "無統計數據（p值、CI），無法評估效應量與變異性，樣本重複次數亦未說明"
+   ],
+   "unassessable": [
+    "盲法",
+    "allocation concealment",
+    "ITT",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本分析",
+    "動物體內藥動與毒性資料",
+    "具體統計數值"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-07-14T00:17:50+08:00"
+  },
+  {
+   "pmid": "42397865",
+   "title": "Perceptions and experiences of patients and clinicians of anal cancer screening: a hermeneutic phenomenological study",
+   "journal": "Br J Nurs",
+   "journal_full": "British journal of nursing (Mark Allen Publishing)",
+   "issn": "2052-2819",
+   "issn_linking": "0966-0461",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.12968/bjon.2023.0287",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Sirpath A",
+   "abstract": "BACKGROUND: Anal intraepithelial neoplasia (AIN) is a well-recognised precursor to invasive anal squamous cell carcinoma. The prevalence of anal cancer is increasing in people living with HIV. This hermeneutic phenomenology study explored the perceptions and experiences of patients and clinicians in anal cytology screening and high resolution anoscopy in sexual health clinics in the UK.\nMETHODS: The study was conducted using the interpretative paradigm using hermeneutic phenomenology informed by Heidegger. A purposive sample comprising 14 patients and 8 clinicians was recruited. In-depth unstructured interviews were conducted as part of a Doctorate in Nursing that was completed in 2020. Interpretive phenomenological analysis (IPA) was used to develop in-depth interpretations of participants' perceptions and experiences of anal cancer screening. Data were analysed using the six stages in the analysis process, that is, immersion; understanding; abstraction; synthesis and theme development; illumination and illustration of phenomena; integration and critique.\nFINDINGS: Five themes emerged from the data from both patients and clinicians: psychological effects of anal cancer screening; screening procedures; education, knowledge and training; social and sexual activity; guidelines and practices. The study demonstrated that anal cancer screening is acceptable, but tolerability is variable; and education, knowledge and information on anal cancer screening is limited. Although the social life of most patients was not affected, their sexual activity was impacted. The author recommends introducing a screening programme as part of routine HIV care in outpatient sexual health clinics.\nCONCLUSION: Anal cancer screening benefits outweigh any psychological harm caused by tests and diagnostic procedures for people living with HIV. The emotional responses highlighted were not associated with significant psychological harm. Anal cancer screening should be considered in future guidelines in the UK for people living with HIV.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42432992",
+     "date": "2026-07-11",
+     "title_zh": "應用照護級聯（Cascade of Care）框架以指引實證為基礎的肛門癌篩檢指引執行",
+     "score": 4,
+     "one_liner": "本文為概念性綜述，提出以Cascade of Care框架結合執行科學方法，協助各地將2024年新版肛門癌篩檢指引導入臨床實務。",
+     "sim": 0.194
+    },
+    {
+     "pmid": "42432992",
+     "date": "2026-07-12",
+     "title_zh": "應用照護級聯（Cascade of Care）框架以指引實證為基礎的肛門癌篩檢指引執行",
+     "score": 4,
+     "one_liner": "本文為概念性綜述，提出以Cascade of Care框架結合執行科學方法，協助各地將2024年新版肛門癌篩檢指引導入臨床實務。",
+     "sim": 0.194
+    },
+    {
+     "pmid": "42432992",
+     "date": "2026-07-13",
+     "title_zh": "應用照護級聯（Cascade of Care）框架以指引實證為基礎的肛門癌篩檢指引執行",
+     "score": 4,
+     "one_liner": "本文為概念性綜述，提出以Cascade of Care框架結合執行科學方法，協助各地將2024年新版肛門癌篩檢指引導入臨床實務。",
+     "sim": 0.194
+    }
+   ],
+   "title_zh": "病人與臨床醫師對於肛門癌篩檢之認知與經驗：一項詮釋現象學研究",
+   "abstract_zh": "背景：肛門上皮內贅瘤（AIN）是侵襲性肛門鱗狀細胞癌公認的癌前病變。愛滋病毒（HIV）感染者的肛門癌盛行率正在上升。本詮釋現象學研究探討英國性健康門診中，病人與臨床醫師對肛門細胞學篩檢與高解析度肛門鏡檢查的認知與經驗。\n方法：本研究採用詮釋典範，以海德格（Heidegger）為理論基礎的詮釋現象學進行。以立意取樣招募14名病人與8名臨床醫師。作為2020年完成的護理學博士學位之一部分，進行深度非結構式訪談。使用詮釋現象學分析（IPA），對參與者關於肛門癌篩檢的認知與經驗發展深入詮釋。資料分析採用六階段分析過程：沉浸、理解、抽象化、綜合與主題發展、現象的闡明與說明、整合與批判。\n研究結果：從病人與臨床醫師的資料中浮現五個主題：肛門癌篩檢的心理影響；篩檢流程；教育、知識與訓練；社交與性活動；指引與實務作法。研究顯示肛門癌篩檢是可被接受的，但耐受性因人而異；且有關肛門癌篩檢的教育、知識與資訊有限。雖然多數病人的社交生活未受影響，但其性活動受到衝擊。作者建議將篩檢計畫納入門診性健康診所的常規HIV照護中。\n結論：對於HIV感染者而言，肛門癌篩檢的效益大於檢測與診斷程序所造成的任何心理傷害。研究中觀察到的情緒反應並未伴隨顯著的心理傷害。未來英國的指引應將肛門癌篩檢納入HIV感染者的照護建議中。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "小樣本（22人）質性現象學研究，非手術介入、非台灣族群（英國HIV性健康門診），對大腸直腸外科臨床決策實用性極低。",
+   "relevance": "低度相關",
+   "relevance_why": "本文為護理學質性研究，探討HIV病人對肛門癌篩檢的心理與社交經驗，非外科介入亦非台灣常見之高風險族群照護場域。",
+   "novelty": "仍屬早期",
+   "one_liner": "在英國性健康門診之14名HIV病人與8名臨床醫師中，質性訪談發現肛門癌篩檢可被接受但耐受性不一，教育與知識仍不足。",
+   "action": "目前不需改變做法：此為質性經驗研究，非手術或篩檢成效之量化證據，無法據以調整臨床篩檢或治療流程。",
+   "pico": {
+    "P": "英國性健康門診之14名接受肛門癌篩檢的病人（多為HIV感染者）與8名臨床醫師",
+    "I": "肛門細胞學篩檢與高解析度肛門鏡檢查之經驗",
+    "C": "無對照組（質性現象學研究）",
+    "O": "主要outcome：篩檢之心理、社交、性活動層面的主觀經驗與認知主題；次要：教育知識落差、指引實務建議"
+   },
+   "effects": [],
+   "key_numbers": [
+    "樣本數極小：14名病人、8名臨床醫師，屬單一國家單一場域之質性資料",
+    "無量化篩檢成效數據（如AIN偵測率、癌症發生率下降幅度）",
+    "作者主觀結論「效益大於心理傷害」缺乏客觀量表或統計驗證"
+   ],
+   "cautions": [
+    "質性研究結論具高度詮釋性，「效益大於心理傷害」為作者主觀綜合判斷，非統計檢定結果",
+    "樣本為立意取樣、單一英國性健康門診，外推性極低，不適用台灣或非HIV族群",
+    "無對照組、無量化outcome，無法評估篩檢對肛門癌發生率或死亡率的實際影響"
+   ],
+   "unassessable": [
+    "盲法（質性研究不適用）",
+    "失訪率",
+    "利益衝突",
+    "試驗註冊",
+    "研究倫理審查細節",
+    "資料飽和度判斷標準"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "先前看過之論文為概念性綜述，提出以Cascade of Care框架推動肛門癌篩檢指引落地執行；本篇提供病人與臨床端第一手質性經驗，補充了實務執行面向的人性化考量，但證據等級仍低，皆非量化療效證據。",
+   "added_at": "2026-07-14T00:17:50+08:00"
+  },
+  {
+   "pmid": "42393948",
+   "title": "Association Between Risk Factors and Colorectal Cancer Incidence: A Predictive Analytics Framework",
+   "journal": "Stud Health Technol Inform",
+   "journal_full": "Studies in health technology and informatics",
+   "issn": "1879-8365",
+   "issn_linking": "0926-9630",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jun",
+   "doi": "10.3233/SHTI260786",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Argyri K, Gallos I, Dritsakis G, Amditis A, Dionysiou D",
+   "abstract": "Colorectal cancer (CRC) is one of the most common cancer types and its increased incidence is related to a number of modifiable risk factors. There is a need for data-driven approaches to support public health policy making for CRC prevention. This paper presents a predictive analytics framework supporting country-level analysis of CRC incidence and risk factors through policy scenarios by linking population-level risk factor exposure to CRC incidence projections across multiple time horizons. The framework integrates Linear Mixed Effects Models, Generalized Additive Models and XGBoost to capture population-level trends and non-linear associations between risk factors and incidence rates. It is intended to serve as the analytical core for scenario-based policy analysis for CRC decision makers. All analyses rely on statistical associations and are designed for exploratory and comparative purposes rather than causal inference or direct policy prescription.",
+   "watched": [],
+   "related": [],
+   "title_zh": "風險因子與大腸直腸癌發生率之關聯：一個預測分析框架",
+   "abstract_zh": "大腸直腸癌（CRC）是最常見的癌症類型之一，其發生率上升與多項可改變的風險因子有關。目前需要以數據驅動的方法來支持CRC預防相關的公共衛生政策制定。本文提出一個預測分析框架，透過政策情境模擬，將人群層級的風險因子暴露與CRC發生率預測連結起來，支援國家層級的CRC發生率與風險因子分析，涵蓋多個時間範圍。此框架整合線性混合效應模型（Linear Mixed Effects Models）、廣義加性模型（Generalized Additive Models）與XGBoost，以捕捉人群層級趨勢以及風險因子與發生率之間的非線性關聯。此框架旨在作為CRC決策者進行情境式政策分析的核心分析工具。所有分析皆基於統計關聯性，設計目的為探索性與比較性用途，而非因果推論或直接政策建議。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "此為公共衛生政策用的統計建模框架論文，非臨床試驗或外科研究，對台灣大腸直腸外科臨床實務幾乎無直接參考價值。",
+   "relevance": "低度相關",
+   "relevance_why": "此為國家層級風險因子與CRC發生率的預測建模框架，屬公共衛生政策工具，非外科介入或臨床決策研究。",
+   "novelty": "仍屬早期",
+   "one_liner": "提出整合LME、GAM、XGBoost的預測分析框架，用於國家層級模擬風險因子政策情境對CRC發生率的影響，屬方法學描述，無臨床結果數據。",
+   "action": "目前不需改變做法，此為公共衛生政策建模工具論文，未提供可直接應用於臨床病人照護的數據或結論。",
+   "pico": {
+    "P": "國家/人群層級的CRC發生率與風險因子暴露資料（無特定病人族群或人數）",
+    "I": "整合LME、GAM、XGBoost之預測分析框架",
+    "C": "無對照組",
+    "O": "主要outcome：無明確報告之預測準確度或效能指標；次要outcome：無"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供任何具體預測準確度、效能指標或臨床結果數值",
+    "無病人層級之發生率、風險比或信賴區間數據",
+    "無對照組或前後比較之絕對數字"
+   ],
+   "cautions": [
+    "摘要明確聲明「僅為統計關聯性，非因果推論」，讀者需避免誤讀為可直接指導政策或臨床決策",
+    "全文未提供任何模型驗證指標（如AUC、校準度），無法判斷此框架之預測效能",
+    "此為方法學/框架描述文章，非實證研究，缺乏可供臨床外科醫師直接應用之具體發現"
+   ],
+   "unassessable": [
+    "模型驗證方法",
+    "資料來源與樣本量",
+    "外部驗證",
+    "利益衝突",
+    "此框架之實際預測準確度"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。",
+   "added_at": "2026-07-14T00:17:50+08:00"
+  }
+ ]
+}
