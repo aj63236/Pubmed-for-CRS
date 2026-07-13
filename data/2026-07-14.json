@@ -1,0 +1,732 @@
+{
+ "date": "2026-07-14",
+ "generated_at": "2026-07-14T07:01:38+08:00",
+ "count": 12,
+ "papers": [
+  {
+   "pmid": "42439211",
+   "title": "Salvage abdominoperineal resection for anal squamous cell carcinoma: A systematic review and meta-analysis of proportions",
+   "journal": "Colorectal Dis",
+   "journal_full": "Colorectal disease : the official journal of the Association of Coloproctology of Great Britain and Ireland",
+   "issn": "1463-1318",
+   "issn_linking": "1462-8910",
+   "impact_factor": 2.3,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1111/codi.70543",
+   "ptype": "Systematic Review, Meta-Analysis",
+   "ptype_list": [
+    "Systematic Review",
+    "Meta-Analysis",
+    "Review"
+   ],
+   "authors": "Belfort G, Pompeu B, Velucci M, Baptista C, Delgado L, Marques F",
+   "abstract": "AIM: Salvage abdominoperineal resection (APR) remains the standard treatment for patients with persistent or recurrent anal squamous cell carcinoma after chemoradiotherapy (CRT). This study aimed to evaluate the perioperative and oncological outcomes of salvage abdominoperineal resection.\nMETHODS: A systematic review of observational studies including adult patients with persistent or recurrent anal squamous cell carcinoma undergoing salvage APR after failure of CRT was conducted using PubMed, Scopus and Cochrane through March 2026. Binary outcomes were pooled as proportions on the logit scale under random-effects models; a generalized linear mixed model was applied when zero-event studies were present. Continuous outcomes as means with 95% confidence intervals (CIs). Heterogeneity was assessed using the I2 statistic. Sensitivity analyses were performed using leave-one-out methods. All analyses were conducted in R version 4.4.2.\nRESULTS: Eighteen observational studies comprising 1,013 patients were included. The pooled 2-year and 5-year overall survival (OS) rates were 68.34% (95% CI: 60.42-75.33; I2 = 65%) and 46.43% (95% CI: 38.03-55.04; I2 = 81%), respectively. The pooled 3-year and 5-year disease-free survival rates (DFS) were 50.36% (95% CI: 20.62-79.85; I2 = 95%) and 41.79% (95% CI: 27.80-57.24; I2 = 90%), respectively. The pooled overall recurrence rate was 44.28% (95% CI: 36.63-52.21; I2 = 79%), including locoregional recurrence of 34.03% (95% CI: 27.22-41.57; I2 = 72%) and distant recurrence of 17.39% (95% CI: 12.24-24.13; I2 = 83%). The pooled R0 and R1 resection rates were 79.71% and 17.08%, respectively. Overall morbidity and major complications (Clavien-Dindo ≥III) were 50.70% and 27.97%, respectively. Thirty-day mortality was 1.18% (95% CI: 0.36-3.85; I2 = 0%). Sensitivity analyses showed stable estimates despite heterogeneity.\nCONCLUSION: Salvage APR for anal squamous cell carcinoma demonstrated moderate long-term survival, acceptable R0 resection rates and substantial postoperative morbidity. However, the available evidence remains limited by high heterogeneity, non-standardized outcome definitions and the absence of comparative data.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42397650",
+     "date": "2026-07-03",
+     "title_zh": "表皮生長因子受體抑制劑於局部晚期與轉移性肛門鱗狀上皮細胞癌之療效：系統性回顧與統合分析",
+     "score": 5,
+     "one_liner": "在404名局部晚期或轉移性ASCC病人的12篇研究統合分析中，EGFR抑制劑併用化放療/全身治療，客觀反應率52%，中位OS 11.9個月。",
+     "sim": 0.203
+    },
+    {
+     "pmid": "42402758",
+     "date": "2026-07-06",
+     "title_zh": "肛門癌型態學對存活與局部復發之預後影響：20年區域世代研究",
+     "score": 6,
+     "one_liner": "在515名ASCC病人中，比較腫瘤型態(外生/潰瘍/混合)，發現潰瘍型5年OS僅25.1% vs 外生型67.9%，HR 5.16。",
+     "sim": 0.188
+    },
+    {
+     "pmid": "42415466",
+     "date": "2026-07-08",
+     "title_zh": "高度專科化直腸手術教學的安全性如何？一項傾向分數配對之10年世代研究",
+     "score": 6,
+     "one_liner": "在374例PSM配對之LAR/APR/IPAA病人中（每組187例），比較專家執行與受督導教學執行，發現整體病態率無差異（43% vs 46%, p=0.7）。",
+     "sim": 0.166
+    }
+   ],
+   "title_zh": "肛門鱗狀上皮細胞癌之挽救性腹會陰聯合切除術：比例統合分析之系統性回顧",
+   "abstract_zh": "目的：對於化放療(CRT)後持續或復發之肛門鱗狀上皮細胞癌病人，挽救性腹會陰聯合切除術(APR)仍為標準治療。本研究旨在評估挽救性APR之圍手術期與腫瘤學結果。方法：透過PubMed、Scopus及Cochrane資料庫，檢索至2026年3月，納入成人持續或復發肛門鱗狀上皮細胞癌於CRT失敗後接受挽救性APR之觀察性研究，進行系統性回顧。二元結果以logit尺度下隨機效應模型匯總為比例；若有零事件研究則採用廣義線性混合模型。連續變項以平均值及95%信賴區間表示。異質性以I²統計量評估。以leave-one-out法進行敏感度分析。所有分析以R 4.4.2版執行。結果：共納入18篇觀察性研究，計1,013名病人。匯總2年及5年整體存活率(OS)分別為68.34%（95% CI: 60.42-75.33；I²=65%）及46.43%（95% CI: 38.03-55.04；I²=81%）。匯總3年及5年無病存活率(DFS)分別為50.36%（95% CI: 20.62-79.85；I²=95%）及41.79%（95% CI: 27.80-57.24；I²=90%）。匯總整體復發率為44.28%（95% CI: 36.63-52.21；I²=79%），其中局部區域復發率為34.03%（95% CI: 27.22-41.57；I²=72%），遠端復發率為17.39%（95% CI: 12.24-24.13；I²=83%）。匯總R0及R1切除率分別為79.71%及17.08%。整體病態率及重大併發症（Clavien-Dindo ≥III）分別為50.70%及27.97%。30天死亡率為1.18%（95% CI: 0.36-3.85；I²=0%）。敏感度分析顯示儘管有異質性，估計值仍屬穩定。結論：肛門鱗狀上皮細胞癌之挽救性APR顯示中等程度長期存活、可接受之R0切除率及顯著的術後病態率。然而現有證據仍受限於高度異質性、非標準化的結果定義，以及缺乏比較性資料。",
+   "evidence_level": "統合分析",
+   "score": 5,
+   "score_reason": "提供挽救性APR最完整的匯總數據，但無對照組、異質性極高(I²達95%)，臨床決策參考價值有限，主要用於病人諮詢時的預期值估算。",
+   "relevance": "高度相關",
+   "relevance_why": "挽救性APR是台灣大腸直腸外科醫師處理ASCC CRT失敗病人時的核心術式，實際臨床決策與病人溝通都會用到這些數字。",
+   "novelty": "再確認已知",
+   "one_liner": "在18篇研究共1013名CRT失敗後接受挽救性APR的ASCC病人中，匯總5年OS 46.43%、整體復發率44.28%、重大併發症27.97%。",
+   "action": "與CRT失敗病人討論挽救性APR時，可用此匯總數據（5年OS約46%、重大併發症約28%）作為預期值參考，但需告知證據異質性高。",
+   "pico": {
+    "P": "18篇觀察性研究共1,013名CRT後持續或復發之肛門鱗狀上皮細胞癌成人病人",
+    "I": "挽救性腹會陰聯合切除術(salvage APR)",
+    "C": "無對照組（單臂比例統合分析）",
+    "O": "主要：2年/5年OS、3年/5年DFS、整體復發率；次要：R0/R1切除率、整體病態率、重大併發症率、30天死亡率"
+   },
+   "effects": [],
+   "key_numbers": [
+    "5年整體存活率46.43%（95% CI 38.03-55.04），I²=81%異質性高",
+    "整體病態率50.70%，重大併發症(CD≥III) 27.97%",
+    "30天死亡率僅1.18%（95% CI 0.36-3.85），異質性低I²=0%"
+   ],
+   "cautions": [
+    "純比例統合分析，無對照組，無法判斷挽救性APR相對於其他策略的優劣",
+    "多項結果異質性極高（I²達81-95%），匯總值穩定性存疑",
+    "18篇研究間outcome定義非標準化，跨研究可比性差，作者亦自承此限制"
+   ],
+   "unassessable": [
+    "個別納入研究之品質評估細節",
+    "發表偏誤評估",
+    "各研究失訪率",
+    "利益衝突",
+    "試驗註冊（觀察性研究非適用）"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "與前兩篇同屬肛門鱗狀上皮細胞癌文獻脈絡，但聚焦不同臨床情境：前作探討轉移性ASCC全身治療效果與腫瘤型態預後，本篇則補上CRT失敗後手術挽救的結果數據，屬互補而非直接延伸。",
+   "added_at": "2026-07-14T06:59:05+08:00"
+  },
+  {
+   "pmid": "42436336",
+   "title": "A Longitudinal Disease Progression Model Characterizing Endoscopic Response and Remission in Crohn's Disease",
+   "journal": "J Pharmacokinet Pharmacodyn",
+   "journal_full": "Journal of pharmacokinetics and pharmacodynamics",
+   "issn": "1573-8744",
+   "issn_linking": "1567-567X",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1208/s12248-021-00555-3",
+   "ptype": "Clinical Trial, Phase III, Randomized Controlled Trial",
+   "ptype_list": [
+    "Clinical Trial, Phase III",
+    "Randomized Controlled Trial"
+   ],
+   "authors": "Moein A, Langenhorst J, Kassir N",
+   "abstract": "Crohn's disease (CD) is a heterogeneous, progressive inflammatory bowel disease in which substantial placebo effects often confound assessment of therapeutic efficacy. A placebo-based disease model was developed using Simple Endoscopic Score for Crohn's Disease (SES-CD) within an item-level response theory-bounded integer (IRT-BI) and full random effects models (FREM) framework. Longitudinal SES-CD data from 155 placebo-treated patients in the Phase 3 BERGAMOT-trial were analyzed. Each SES-CD subscore, across five intestinal segments, was described by a bounded-integer model and linked through a latent disease variable capturing a mono-exponential placebo trajectory. Endoscopic response (≥50% reduction from baseline SES-CD) and remission (SES-CD 0-2) were defined according to the FDA guidance. IRT-BI model adequately characterized longitudinal trajectories of all SES-CD subscores and accurately predicted individual patient endoscopic response and remission, with predictive accuracy exceeding 89% for responders and 85% for non-responders. Visual predictive checks showed that observed mean trajectories for all 20 SES-CD subscores were within the 90% confidence intervals across the 66-week trial. Population maximum placebo response (RMaxPL) was estimated at -0.220 with a time to half-maximal effect of 13.8 weeks. Covariate analysis identified elevated baseline C-reactive protein and fecal calprotectin correlated to reduced RMaxPL, whereas TNF-naïve status was associated with increased RMaxPL. This is first application of an integrated item-level IRT-BI-FREM approach in CD, enabling robust characterization of placebo response and identification of clinically relevant covariates. By providing quantitative framework for isolating drug-effects from placebo-response, this model aligns with FDA model-informed drug development priorities and supports efficient, targeted, and informative clinical trials.Clinical Trial RegistrationNCT02394028 Registered March 20, 2015.",
+   "watched": [],
+   "related": [],
+   "title_zh": "克隆氏症內視鏡反應與緩解之縱向疾病進展模型",
+   "abstract_zh": "克隆氏症（CD）是一種異質性、進展性的發炎性腸道疾病，其顯著的安慰劑效應常干擾治療效果的評估。本研究利用簡易克隆氏症內視鏡評分（SES-CD），在項目層級反應理論界定整數（IRT-BI）與完整隨機效應模型（FREM）架構下，建立一個以安慰劑為基礎的疾病模型。分析對象為Phase 3 BERGAMOT試驗中155名接受安慰劑治療病人的縱向SES-CD資料。每個SES-CD子分數（涵蓋五個腸段）以界定整數模型描述，並透過一個潛在疾病變數連結，該變數捕捉單指數安慰劑軌跡。內視鏡反應（SES-CD自基線下降≥50%）與緩解（SES-CD 0-2）依FDA指引定義。IRT-BI模型能充分描述所有SES-CD子分數的縱向軌跡，並準確預測個別病人的內視鏡反應與緩解，對有反應者預測準確度超過89%，對無反應者超過85%。視覺化預測檢驗（VPC）顯示，所有20個SES-CD子分數在66週試驗期間之觀察平均軌跡皆落在90%信賴區間內。族群最大安慰劑反應（RMaxPL）估計為-0.220，達半數最大效應時間為13.8週。共變量分析顯示，基線C反應蛋白與糞便鈣衛蛋白升高與較低的RMaxPL相關，而TNF-naïve狀態則與較高的RMaxPL相關。此為首次將整合式項目層級IRT-BI-FREM方法應用於克隆氏症，能穩健描述安慰劑反應並辨識具臨床意義之共變量。此模型提供量化架構以區分藥物效應與安慰劑反應，符合FDA模型導向藥物開發之優先方向，並支持更有效率、更具針對性與資訊性的臨床試驗設計。臨床試驗註冊：NCT02394028，註冊日期2015年3月20日。",
+   "evidence_level": "其他",
+   "score": 3,
+   "score_reason": "方法學嚴謹且為藥物開發模型導向研究，但屬藥物臨床試驗設計工具，與大腸直腸外科臨床決策幾無直接關聯。",
+   "relevance": "低度相關",
+   "relevance_why": "本文為克隆氏症藥物試驗中安慰劑反應之藥動/藥效模型建構，非外科介入亦非直接臨床決策工具。",
+   "novelty": "仍屬早期",
+   "one_liner": "在BERGAMOT試驗155名安慰劑組克隆氏症病人中，建立IRT-BI-FREM模型預測內視鏡反應，準確度89%（有反應者）/85%（無反應者）。",
+   "action": "目前不需改變做法；此為藥物試驗設計用之統計模型研究，非治療或手術決策依據。",
+   "pico": {
+    "P": "BERGAMOT Phase 3試驗中155名接受安慰劑治療之克隆氏症病人",
+    "I": "IRT-BI結合FREM之疾病進展模型，用於描述SES-CD安慰劑反應軌跡",
+    "C": "無對照組（此為模型建構研究，非治療效果比較）",
+    "O": "主要：模型對內視鏡反應/緩解之預測準確度；次要：安慰劑反應之最大效應與時間常數、相關共變量"
+   },
+   "key_numbers": [
+    "模型預測有反應者準確度>89%，無反應者準確度>85%",
+    "族群最大安慰劑反應RMaxPL為-0.220，達半數最大效應時間13.8週",
+    "基線CRP、糞便鈣衛蛋白升高與較低安慰劑反應相關；TNF-naïve與較高安慰劑反應相關"
+   ],
+   "cautions": [
+    "本研究僅分析安慰劑組資料，未評估任何藥物之實際療效",
+    "主要終點為內視鏡評分（替代指標），非手術/住院/生活品質等硬終點",
+    "模型驗證僅為內部VPC，未見獨立世代之外部驗證"
+   ],
+   "unassessable": [
+    "盲法",
+    "allocation concealment",
+    "ITT分析",
+    "失訪率",
+    "利益衝突",
+    "外部驗證資料集"
+   ],
+   "added_at": "2026-07-14T06:59:05+08:00"
+  },
+  {
+   "pmid": "42437396",
+   "title": "Rare colorectal manifestations of pediatric gastrointestinal lymphoma: a systematic review of clinical spectrum and surgical implications",
+   "journal": "Pediatr Surg Int",
+   "journal_full": "Pediatric surgery international",
+   "issn": "1437-9813",
+   "issn_linking": "0179-0358",
+   "impact_factor": 1.8,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.4251/wjgo.v17.i10.109450",
+   "ptype": "Systematic Review",
+   "ptype_list": [
+    "Systematic Review"
+   ],
+   "authors": "K A, Sharma S",
+   "abstract": "PURPOSE: Pediatric colorectal malignancies are rare, with lymphomas- predominantly non- Hodgkin's lymphoma (NHL) representing the most common type, accounting to 0.5-2% of large bowel malignancies. Colorectal NHL can be primary or secondary. This study analyzes the rare manifestations of pediatric colorectal lymphoma and examines their diagnostic challenges and surgical implications.\nMETHOD: A Pubmed search was done with search words \"lymphoma of colon pediatric\" with filter of last 5 years on 12 Feb 2026. The search comprised of 47 articles, among which 10 relevant articles were selected. After going through the articles, one article was excluded. 9 articles were finally included in the study.\nRESULTS: Colorectal lymphoma can be a primary malignancy or it can arise in the background of inflammatory bowel disease. It can also be a secondary extension from bulky intra- abdominal lymphoma. Clinical manifestations can present either as flare up of inflammatory bowel disease or colorectal carcinoma or bowel obstruction or acute abdomen. This can lead to potential diagnostic delay and inappropriate escalation of medical therapy, unless early biopsy is performed. The routine use of broad spectrum anti-infectives in lymphoma decreased the gastrointestinal integrity and increased opportunistic infections in the gut, complicating the clinical assessment. Imaging aids in differentiation from epithelial malignancies. It also guides in staging, treatment and operative planning. Rare presentations of colonic lymphoma were its appearance in a child (below five years) on medical management for ulcerative colitis, and in another patient on Vedolizumab for Crohn's disease. Another rare presentation recorded occurrence of primary rectal lymphoma in an eleven year old child. Early presentation (below 10 years) with synchronous colorectal carcinoma and family history of malignancy, suggested an underlying genetic cancer predisposition syndrome. Surgery plays a crucial role in managing complications like perforation, obstruction and intussusception when lymphoma is the lead point. Laparoscopy assisted en-bloc resection is feasible in selected cases.\nCONCLUSION: Pediatric colorectal lymphomas represent a clinically significant and occasionally misleading entity. While systemic chemotherapy remains the cornerstone of treatment, surgical intervention has a defined role in tissue diagnosis and management of complications. Early recognition and coordinated multidisciplinary care are essential to optimize outcomes.",
+   "watched": [],
+   "related": [],
+   "title_zh": "兒童胃腸道淋巴瘤之罕見大腸直腸表現：臨床特徵與外科意義之系統性回顧",
+   "abstract_zh": "目的：兒童大腸直腸惡性腫瘤罕見，其中淋巴瘤（以非何杰金氏淋巴瘤NHL為主）是最常見類型，占大腸惡性腫瘤之0.5-2%。大腸直腸NHL可為原發性或續發性。本研究分析兒童大腸直腸淋巴瘤之罕見表現，並探討其診斷挑戰與外科意義。\n\n方法：於2026年2月12日以「lymphoma of colon pediatric」為關鍵字進行PubMed搜尋，限定近5年文獻。搜尋結果共47篇文章，篩選出10篇相關文獻，經詳閱後排除1篇，最終納入9篇文獻。\n\n結果：大腸直腸淋巴瘤可為原發性惡性腫瘤，亦可在發炎性腸道疾病（IBD）背景下發生，或由腹內巨大淋巴瘤續發性延伸而來。臨床表現可為IBD急性發作、大腸直腸癌樣表現、腸阻塞或急性腹症，若未及早進行切片，可能導致診斷延遲及不當升級藥物治療。淋巴瘤病人常規使用廣效抗生素會降低腸道完整性並增加腸道伺機性感染，使臨床評估更加複雜。影像學有助於與上皮性惡性腫瘤鑑別，並可指導分期、治療與手術規劃。文獻中記錄之罕見表現包括：一名五歲以下、正在接受潰瘍性大腸炎藥物治療之兒童出現大腸淋巴瘤；另一名正在使用Vedolizumab治療克隆氏症之病人；一名十一歲兒童發生原發性直腸淋巴瘤。另有早發（10歲以下）合併同步大腸直腸癌及惡性腫瘤家族史之個案，提示潛在遺傳性癌症易感症候群。當淋巴瘤作為腸套疊之導引點時，手術在處理穿孔、阻塞及腸套疊等併發症上扮演關鍵角色。腹腔鏡輔助整塊切除在特定病例中為可行選項。\n\n結論：兒童大腸直腸淋巴瘤是臨床上重要且有時具誤導性之疾病實體。全身性化學治療仍為治療基石，而外科介入在組織診斷與併發症處理上有其明確角色。及早辨識與多專科協同照護對於優化治療結果至關重要。",
+   "evidence_level": "系統性回顧",
+   "score": 3,
+   "score_reason": "僅納入9篇文獻（多為個案報告等級），證據強度極低，且為兒童族群，對成人大腸直腸外科臨床決策實用性有限。",
+   "relevance": "低度相關",
+   "relevance_why": "研究對象為兒童病人，台灣大腸直腸外科主治醫師日常診療族群主要為成人，此類病人多由小兒外科／小兒腫瘤科處理。",
+   "novelty": "仍屬早期",
+   "one_liner": "彙整9篇兒童大腸直腸淋巴瘤文獻，描述其罕見臨床表現與外科角色，強調及早切片可避免診斷延遲。",
+   "action": "目前不需改變成人大腸直腸外科常規做法；若會診年輕IBD病人出現非典型腸阻塞或急性發作，可提高對淋巴瘤之警覺並及早安排切片。",
+   "pico": {
+    "P": "9篇文獻中報告之兒童大腸直腸淋巴瘤病例（人數未明確總計，多為個案報告／小型病例系列）",
+    "I": "無明確單一介入；涵蓋診斷（切片、影像）與外科處置（手術治療併發症、腹腔鏡切除）",
+    "C": "無對照組",
+    "O": "主要為診斷路徑與外科處置角色之描述；未報告存活率、復發率等量化預後指標"
+   },
+   "key_numbers": [
+    "淋巴瘤占兒童大腸惡性腫瘤之0.5-2%（唯一提供之量化背景數據，非本研究實測結果）",
+    "納入9篇文獻，經47篇初篩、10篇入選後排除1篇，樣本規模極小",
+    "無任何存活率、復發率、手術併發症率等具體療效數字被報告"
+   ],
+   "cautions": [
+    "僅納入9篇多為個案報告等級文獻，缺乏統計檢定與量化療效數據，結論僅屬描述性歸納",
+    "搜尋策略侷限於單一資料庫（PubMed）、單一關鍵字、限5年內文獻，可能遺漏重要研究",
+    "將罕見個案（如遺傳性癌症易感症候群合併症）泛化為臨床意義陳述，須留意過度詮釋個案之風險"
+   ],
+   "unassessable": [
+    "PRISMA遵循程度",
+    "納入研究之品質評估工具",
+    "文獻選擇之偏誤評估（如篩選者盲法）",
+    "利益衝突與資助來源",
+    "各病例之長期預後追蹤"
+   ],
+   "added_at": "2026-07-14T06:59:05+08:00"
+  },
+  {
+   "pmid": "42439965",
+   "title": "Diet and ileostomy: a qualitative comparison of patient and healthcare professional perspectives in the United Kingdom and Australia",
+   "journal": "Eur J Nutr",
+   "journal_full": "European journal of nutrition",
+   "issn": "1436-6215",
+   "issn_linking": "1436-6207",
+   "impact_factor": 4.5,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jun",
+   "doi": "10.1111/j.1467-3010.2011.01942.x",
+   "ptype": "Comparative Study",
+   "ptype_list": [
+    "Comparative Study"
+   ],
+   "authors": "Magee N, Simpson E, McCarthy H, Douglas P, Rosbotham E, Pourshahidi L",
+   "abstract": "PURPOSE: Ileostomy formation requires major dietary adjustments to prevent complications and maintain nutritional status, yet dietary advice is often inconsistent, and evidence guiding best practice remains limited. This study explored how people living with an ileostomy (ileostomates) and healthcare professionals (HCPs) experience and support dietary management, uniquely comparing UK and Australian perspectives.\nMETHOD: Fifty semi-structured interviews were conducted with ileostomates (n = 26) and HCPs (n = 12 stoma care nurses, n = 12 dietitians) across the UK and Australia. Interviews were recorded, transcribed and analysed using thematic content analysis guided by the Social Ecological Model (SEM).\nRESULTS: Seven main categories emerged, spanning intrapersonal, interpersonal, community, institutional and public policy factors. Ileostomates reported persistent dietary restriction, fear of food bolus blockages, and reliance on online forums when HCP follow up was limited. HCP transcripts highlighted variations in practice, constrained caseloads, and gaps in evidence underpinning dietary guidance. Country-specific differences were observed, with Australian ileostomates emphasising hydration and geographical barriers. HCPs in the UK highlighted reinforcement of advice from a stoma nurse or dietitian as being central to dietary reintroduction, whereas their Australian counterparts prioritised a patient-led approach.\nCONCLUSION: Findings reveal systemic gaps in dietary support across both countries and highlight the need for individualised support, improved professional training, and integration of digital or telehealth solutions to enhance accessibility and continuity of care.",
+   "watched": [],
+   "related": [],
+   "title_zh": "飲食與迴腸造口：英國與澳洲病人及醫療專業人員觀點之質性比較研究",
+   "abstract_zh": "目的：迴腸造口手術需要重大飲食調整以預防併發症並維持營養狀態，然而飲食建議常不一致，且指導最佳實務的證據仍有限。本研究探討迴腸造口患者（ileostomates）與醫療專業人員（HCPs）如何經歷與支持飲食管理，並首次比較英國與澳洲的觀點。方法：於英國與澳洲對迴腸造口患者（n=26）與醫療專業人員（造口護理師 n=12、營養師 n=12）共進行50次半結構式訪談。訪談錄音、轉錄後，以社會生態模型（SEM）為指引進行主題內容分析。結果：共浮現七大類別，涵蓋個人內在、人際、社區、機構與公共政策等層面因素。迴腸造口患者報告持續性飲食限制、對食物團阻塞的恐懼，以及在HCP追蹤有限時依賴網路論壇。HCP訪談內容凸顯實務上的差異、案量負荷過重，以及飲食指導證據基礎的不足。觀察到國家間的差異：澳洲迴腸造口患者更強調水分攝取與地理障礙；英國HCP強調造口護理師或營養師持續強化建議對飲食重新引入至關重要，而澳洲同行則優先採取病人主導的方式。結論：研究結果揭示兩國飲食支持存在系統性缺口，凸顯需要個別化支持、改善專業訓練，以及整合數位或遠距醫療解決方案以提升可近性與照護連續性的必要。",
+   "evidence_level": "其他",
+   "score": 4,
+   "score_reason": "質性研究樣本小（僅26位病人）、無量化結果，對臨床決策直接影響有限，但揭示照護落差可供團隊改善造口衛教流程參考。",
+   "relevance": "中度相關",
+   "relevance_why": "雖非外科手術介入研究，但迴腸造口飲食衛教是大腸直腸外科術後照護的核心環節，內容多由造口護理師與營養師執行。",
+   "novelty": "仍屬早期",
+   "one_liner": "在英澳兩國迴腸造口病人（n=26）與醫療人員（n=24）的訪談中，發現飲食衛教存在明顯落差與國家間執行差異。",
+   "action": "目前不需改變具體臨床處置；可作為檢視院內造口衛教一致性、強化多專業（造口師/營養師）追蹤機制之參考。",
+   "pico": {
+    "P": "英國與澳洲迴腸造口患者（n=26）及醫療專業人員（造口護理師與營養師各12名）",
+    "I": "半結構式訪談，探討飲食管理經驗（以社會生態模型分析）",
+    "C": "無對照組（質性比較英澳兩國觀點）",
+    "O": "主要outcome：飲食管理相關主題與跨國差異；次要：系統性照護缺口與改善建議"
+   },
+   "effects": [],
+   "key_numbers": [
+    "共訪談50人：迴腸造口患者26人、造口護理師12人、營養師12人",
+    "七大主題類別橫跨個人、人際、社區、機構、政策五層面",
+    "無量化事件率或統計檢定結果，屬純質性描述性研究"
+   ],
+   "cautions": [
+    "質性研究樣本小且為便利抽樣，結論可能受選樣偏誤影響，難以推論至一般族群",
+    "英澳兩國醫療體系、造口照護資源差異大，結果外推至台灣需謹慎",
+    "無量化outcome（如阻塞率、再入院率），僅為主觀經驗與意見整理，證據強度低"
+   ],
+   "unassessable": [
+    "訪談者間信度",
+    "資料飽和度判定方式",
+    "受訪者招募流程與拒訪率",
+    "研究者反身性（reflexivity）處理",
+    "利益衝突",
+    "試驗註冊（不適用於質性研究）"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-07-14T06:59:05+08:00"
+  },
+  {
+   "pmid": "42438061",
+   "title": "Towards standardized gut microbiota diagnostics: normobiosis beyond geographical borders",
+   "journal": "Gut Microbes",
+   "journal_full": "Gut microbes",
+   "issn": "1949-0984",
+   "issn_linking": "1949-0976",
+   "impact_factor": 15.3,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Dec",
+   "doi": "10.1080/19490976.2026.2701485",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Hiseni P, Furu K, Wang Pedersen V, Øverland L, Kirubakaran G, Casén C",
+   "abstract": "Defining clinically meaningful reference states of the human gut microbiota remains a major barrier to the clinical translation of microbiome testing, largely due to variability across populations. We aimed at evaluating whether dysbiosis can be identified in a standardized, geography-independent manner, using a composite, system-level microbiome diagnostic framework. We performed a retrospective observational analysis of 831 adult stool samples collected from healthy individuals and patients with inflammatory bowel disease, irritable bowel syndrome, or other chronic inflammatory conditions across seven countries. In addition, U.S. National Institute of Standards Technology (NIST) human fecal reference materials were analyzed. Dysbiosis was assessed using a fixed microbial marker panel and composite distance metrics anchored to a clinically validated healthy Scandinavian reference population, using GA-map® Dysbiosis Test as an exemplar of this diagnostic framework. The diagnostic framework reproducibly identified normobiosis and dysbiosis across geographically distinct populations (USA, Canada, Germany, Italy, and the UK). Severe dysbiosis was detected with high specificity (93.6%) and positive predictive value (90.2%), independent of subjects' country of origin. Healthy individuals showed highly comparable dysbiosis index distributions across regions. These findings demonstrate that clinically useful dysbiosis diagnostics do not require geographically tailored reference populations and support the feasibility of standardized, geography-independent microbiome diagnostics for clinical application.",
+   "watched": [],
+   "related": [],
+   "title_zh": "邁向標準化腸道菌群診斷：跨越地理疆界的正常菌群狀態",
+   "abstract_zh": "定義具臨床意義的人類腸道菌群參考狀態，仍是菌群檢測邁向臨床轉譯的一大障礙，主要原因是不同族群間的變異性。本研究旨在評估是否能以標準化、不受地理限制的方式，透過複合式、系統層級的菌群診斷框架來識別菌群失衡（dysbiosis）。我們對來自七個國家、831份健康個體及發炎性腸道疾病（IBD）、腸躁症（IBS）或其他慢性發炎疾病患者的成人糞便樣本進行回溯性觀察分析。此外，也分析了美國國家標準與技術研究院（NIST）之人類糞便參考物質。菌群失衡的評估採用固定菌群標記面板與複合距離指標，並以經臨床驗證之健康北歐（Scandinavian）參考族群為基準，以GA-map® Dysbiosis Test作為此診斷框架之範例。此診斷框架能在地理上不同的族群（美國、加拿大、德國、義大利、英國）中，可重現地識別正常菌群狀態（normobiosis）與菌群失衡。嚴重菌群失衡的檢測具高特異性（93.6%）與陽性預測值（90.2%），且不受受試者原生國家影響。健康個體在各地區間顯示高度相似的菌群失衡指數分布。這些發現證實，具臨床實用性的菌群失衡診斷並不需要因地理量身訂做的參考族群，並支持標準化、不受地理限制的菌群診斷在臨床應用上的可行性。",
+   "evidence_level": "診斷性研究",
+   "score": 3,
+   "score_reason": "此為商業菌群檢測工具的地理可推廣性驗證研究，未涉及大腸直腸手術或癌症相關族群，對台灣大腸直腸外科臨床決策實用性低。",
+   "relevance": "低度相關",
+   "relevance_why": "研究對象為IBD、IBS及慢性發炎疾病患者的菌群失衡診斷驗證，非大腸直腸癌手術介入或相關臨床決策。",
+   "novelty": "仍屬早期",
+   "one_liner": "在831份來自7國的成人糞便樣本中，驗證以北歐參考群為基準的菌群失衡診斷框架，發現嚴重失衡診斷特異性93.6%、PPV 90.2%，不受地理差異影響。",
+   "action": "目前不需改變做法；此為菌群診斷工具標準化的可行性研究，未涉及大腸直腸手術病人或臨床治療決策。",
+   "pico": {
+    "P": "831份成人糞便樣本，包括健康人與IBD、IBS、其他慢性發炎疾病患者，來自美、加、德、義、英等7國",
+    "I": "以固定菌群標記面板與複合距離指標，並以健康北歐參考族群為基準之GA-map Dysbiosis Test診斷框架",
+    "C": "不同地理族群間比較（美國、加拿大、德國、義大利、英國），並納入NIST人類糞便參考物質",
+    "O": "主要：跨地理族群嚴重菌群失衡檢測的特異性與陽性預測值；次要：健康族群菌群失衡指數分布的地理一致性"
+   },
+   "key_numbers": [
+    "嚴重菌群失衡診斷特異性93.6%，陽性預測值90.2%，跨地理族群結果一致",
+    "健康個體在各地區間菌群失衡指數分布高度相似（摘要未提供具體數值）",
+    "樣本涵蓋831份、7國，但無大腸直腸癌或手術病人族群納入分析"
+   ],
+   "cautions": [
+    "此為診斷工具驗證研究，非治療性介入，無法直接指引大腸直腸手術臨床決策",
+    "GA-map為商業檢測產品，摘要未揭露資金來源與利益衝突",
+    "僅報告特異性與陽性預測值，未提供敏感度、陰性預測值或信賴區間，診斷效能評估不完整"
+   ],
+   "unassessable": [
+    "敏感度",
+    "陰性預測值",
+    "信賴區間",
+    "利益衝突",
+    "資金來源",
+    "樣本收集與檢測細節",
+    "是否納入CRC相關族群"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-07-13T23:35:22+08:00"
+  },
+  {
+   "pmid": "42438103",
+   "title": "Standardised Pfannenstiel versus supraumbilical muscle-sparing transverse extraction sites in colon cancer surgery: An IDEAL stage 4 report",
+   "journal": "Colorectal Dis",
+   "journal_full": "Colorectal disease : the official journal of the Association of Coloproctology of Great Britain and Ireland",
+   "issn": "1463-1318",
+   "issn_linking": "1462-8910",
+   "impact_factor": 2.3,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1111/codi.70546",
+   "ptype": "Comparative Study",
+   "ptype_list": [
+    "Comparative Study"
+   ],
+   "authors": "Rasmussen M, Baastrup N, Olsen A, Gundestrup A, Kanstrup C, Kleif J",
+   "abstract": "AIM: To compare long-term incisional hernia (IH) risk between Pfannenstiel and supraumbilical muscle-sparing transverse extraction sites following minimally invasive colon cancer surgery with standardised fascial closure. Reported according to the IDEAL framework (Stage 4).\nMETHOD: This single-centre study included patients (Stages I-III colon adenocarcinoma, 2014-2017) undergoing laparoscopic resection via Pfannenstiel or supraumbilical incisions. Fascial closure used continuous slowly absorbable poly-4-hydroxybutyrate sutures (ratio ≥ 4:1). The primary endpoint was CT-verified IH at the extraction site at 5 years. Inverse Probability of Treatment Weighting (IPTW) adjusted for baseline covariates.\nRESULTS: The final cohort comprised 245 patients (Pfannenstiel, n = 141; supraumbilical, n = 104). The median follow-up was 5.3 and 5.6 years, respectively. In the unadjusted analysis, the 5-year IH risk was 15.4% (95% CI: 9.5-21.3) for Pfannenstiel and 18.8% (95% CI: 11.2-26.4) for supraumbilical incisions (p = 0.49). Following IPTW adjustment, the estimated risks were 14.6% (95% CI: 8.9-20.3) and 13.6% (95% CI: 7.7-19.4), respectively (adjusted risk difference - 1.0%; 95% CI: -9.2-7.2, p = 0.81). Only two (0.8%) of the 245 patients underwent surgical hernia repair.\nCONCLUSION: The IH risk seems not associated with the extractions site incision, Pfannenstiel and supraumbilical muscle-sparing transverse extraction sites, when standardised closure techniques are applied. These findings challenge the assumption that Pfannenstiel sites are inherently superior for hernia prevention. The choice of extraction site based on anastomosis technique may not be justified; instead, it should be guided by oncological requirements and procedural ergonomics rather than perceived differences in hernia risk.\nTRIAL REGISTRATION: Danish Patient Safety Authority (#31-1522-51).",
+   "watched": [],
+   "related": [],
+   "title_zh": "大腸癌手術中標準化Pfannenstiel切口與臍上肌肉保留橫切取出部位之比較：IDEAL第四階段報告",
+   "abstract_zh": "目的：比較微創大腸癌手術中，採用標準化筋膜縫合技術後，Pfannenstiel切口與臍上肌肉保留橫切取出部位之長期切口疝（IH）風險。依IDEAL框架（第四階段）報告。\n\n方法：本單一中心研究納入2014-2017年間接受腹腔鏡切除術之第I-III期大腸腺癌病人，取出部位為Pfannenstiel或臍上切口。筋膜縫合採用連續、緩慢可吸收之poly-4-hydroxybutyrate縫線（縫線長度與傷口長度比≥4:1）。主要終點為術後5年CT確認之取出部位切口疝。以逆機率治療加權（IPTW）調整基線共變項。\n\n結果：最終世代共245位病人（Pfannenstiel組n=141；臍上組n=104）。中位追蹤時間分別為5.3年與5.6年。未調整分析中，5年切口疝風險Pfannenstiel組為15.4%（95% CI: 9.5-21.3），臍上組為18.8%（95% CI: 11.2-26.4）（p=0.49）。經IPTW調整後，估計風險分別為14.6%（95% CI: 8.9-20.3）與13.6%（95% CI: 7.7-19.4）（調整後風險差異-1.0%；95% CI: -9.2至7.2，p=0.81）。245位病人中僅2位（0.8%）接受手術疝氣修補。\n\n結論：當採用標準化縫合技術時，切口疝風險似乎與取出部位切口類型（Pfannenstiel或臍上肌肉保留橫切）無關。此結果挑戰了Pfannenstiel切口在預防疝氣上天生較優的假設。基於吻合技術選擇取出部位可能沒有充分理由；反之，應以腫瘤學需求與手術人體工學為考量，而非切口疝風險的認知差異。\n\n試驗註冊：丹麥病人安全局（#31-1522-51）。",
+   "evidence_level": "回溯性研究",
+   "score": 6,
+   "score_reason": "單一中心、非隨機比較研究，雖以IPTW調整並用CT客觀確認結果，但信賴區間寬、僅0.8%需手術修補，臨床意義有限，仍具實務參考價值。",
+   "relevance": "高度相關",
+   "relevance_why": "取出部位的選擇是每台腹腔鏡大腸癌手術都會面臨的實際決策，直接影響台灣大腸直腸外科日常操作。",
+   "novelty": "再確認已知",
+   "one_liner": "在245位腹腔鏡大腸癌手術病人中，比較Pfannenstiel與臍上取出部位，5年切口疝風險無顯著差異（調整後風險差-1.0%，95% CI -9.2至7.2）。",
+   "action": "取出部位可依腫瘤學需求與手術人體工學選擇，不需為了降低疝氣風險而堅持Pfannenstiel切口。",
+   "pico": {
+    "P": "2014-2017年接受腹腔鏡切除術之第I-III期大腸腺癌病人，共245人（Pfannenstiel n=141，臍上肌肉保留橫切n=104）",
+    "I": "臍上肌肉保留橫切取出部位",
+    "C": "Pfannenstiel取出部位",
+    "O": "主要：術後5年CT確認之取出部位切口疝發生率；次要：需手術修補疝氣之比例"
+   },
+   "key_numbers": [
+    "5年切口疝風險：Pfannenstiel 15.4% vs 臍上 18.8%，未調整p=0.49，無統計差異",
+    "IPTW調整後風險差-1.0%（95% CI -9.2至7.2，p=0.81），信賴區間跨零且寬",
+    "245位病人中僅2位（0.8%）需手術修補疝氣，多數CT發現之疝氣無臨床意義"
+   ],
+   "cautions": [
+    "主要終點為CT影像學切口疝，但僅0.8%需手術修補，影像診斷與臨床重要疝氣間可能有落差",
+    "非隨機比較研究，取出部位選擇可能受術者偏好或吻合技術影響，IPTW僅能調整已知共變項，無法排除未測量干擾因子",
+    "調整後風險差信賴區間極寬（-9.2至7.2），樣本數（n=245）可能不足以偵測臨床上有意義之差異"
+   ],
+   "unassessable": [
+    "切口選擇是否隨機或依何種標準分配",
+    "CT判讀是否盲法",
+    "追蹤失訪率",
+    "利益衝突揭露",
+    "成本分析"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-07-13T23:35:22+08:00"
+  },
+  {
+   "pmid": "42435229",
+   "title": "Early and late-onset colorectal cancers: a case-case comparison of risk factors",
+   "journal": "Cancer Causes Control",
+   "journal_full": "Cancer causes & control : CCC",
+   "issn": "1573-7225",
+   "issn_linking": "0957-5243",
+   "impact_factor": 2.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.3748/wjg.v29.i8.1289",
+   "ptype": "Comparative Study",
+   "ptype_list": [
+    "Comparative Study"
+   ],
+   "authors": "Rees S, Pearlman R, Paskett E, Shields P, Hampel H, Freudenheim J",
+   "abstract": "PURPOSE: Examine which demographic, lifestyle, and clinical risk factors differ between patients with early-onset colorectal cancers (EOCRC) compared to late-onset colorectal cancers (LOCRC).\nMETHODS: We conducted a case-case comparison of risk factors and symptoms for EOCRC and LOCRC, utilizing the Ohio Colorectal Cancer Prevention Initiative (OCCPI) data, a statewide study of newly diagnosed CRC among Ohio residents, aged 20-92 years. Unconditional logistic regression (odds ratios (OR) and 95% confidence intervals (CI)) was used to compare risk factors by age-at-diagnoses; those diagnosed < 50 years (EOCRC, N = 288) compared to those diagnosed ≥ 50 years (LOCRC, N = 1,018), adjusting for sex, race/ethnicity, education, smoking status, and family history of CRC.\nRESULTS: Compared to LOCRC, EOCRC cases had higher odds of ever consuming alcohol (OR = 2.47, CI: 1.55-3.91), consuming more alcohol in their teens/twenties than in other decades (OR = 1.85, CI: 1.36-2.51), and binge drinking (OR = 3.15, CI: 2.31-4.30). EOCRC cases were more likely to have Lynch syndrome (OR = 4.61, CI: 2.72-7.84), and report experiencing pre-diagnostic CRC symptoms (OR = 6.08, CI: 3.77-9.82), including blood in stool (52.3 vs. 30.7%), change in bowel habits (37.2 vs. 19.8%), and bowel obstruction (13.9 vs. 7.7%). Birth weight, inflammatory bowel disease, irritable bowel syndrome, and sex did not differ by age-at-diagnosis. However, when birthweight was compared between the youngest EOCRC to the oldest LOCRC cases (< 40 vs. ≥ 65 years), odds of birthweight of < 6lbs was higher in the youngest cases (OR: 2.15, CI: 0.95-4.87).\nCONCLUSION: Alcohol consumption, consuming the most alcohol in one's teens/twenties, binge drinking, having Lynch syndrome, and pre-diagnostic CRC symptoms were more associated with EOCRC than LOCRC.",
+   "watched": [],
+   "related": [],
+   "title_zh": "早發型與晚發型大腸直腸癌之危險因子病例對病例比較研究",
+   "abstract_zh": "目的：探討早發型大腸直腸癌（EOCRC）與晚發型大腸直腸癌（LOCRC）患者在人口學、生活習慣及臨床危險因子上的差異。方法：本研究利用Ohio Colorectal Cancer Prevention Initiative（OCCPI）資料，針對俄亥俄州20-92歲新診斷大腸直腸癌居民，進行危險因子與症狀的病例對病例比較。以非條件式邏輯回歸（勝算比OR及95%信賴區間CI）比較診斷年齡<50歲者（EOCRC，N=288）與≥50歲者（LOCRC，N=1,018），並調整性別、種族/族裔、教育程度、吸菸狀態及大腸直腸癌家族史。結果：相較於LOCRC，EOCRC病例有較高勝算曾飲酒（OR=2.47，CI:1.55-3.91）、在青少年/二十多歲時飲酒量高於其他年齡段（OR=1.85，CI:1.36-2.51）、以及暴飲（OR=3.15，CI:2.31-4.30）。EOCRC病例更可能罹患Lynch症候群（OR=4.61，CI:2.72-7.84），並更常報告診斷前出現大腸直腸癌症狀（OR=6.08，CI:3.77-9.82），包括血便（52.3% vs. 30.7%）、排便習慣改變（37.2% vs. 19.8%）及腸阻塞（13.9% vs. 7.7%）。出生體重、發炎性腸道疾病、腸躲激症及性別在不同診斷年齡組間無差異。然而，當比較最年輕的EOCRC與最年長的LOCRC病例（<40歲 vs. ≥65歲）時，最年輕病例出生體重<6磅的勝算較高（OR:2.15，CI:0.95-4.87）。結論：飲酒、青少年/二十多歲時飲酒量最高、暴飲、罹患Lynch症候群，以及診斷前症狀，與EOCRC的關聯性較LOCRC更高。",
+   "evidence_level": "回溯性研究",
+   "score": 5,
+   "score_reason": "州級登記資料樣本尚可，但為病例對病例設計無健康對照組，且飲酒/症狀皆為回溯自述，美國人群結果對台灣外推性有限。",
+   "relevance": "中度相關",
+   "relevance_why": "EOCRC是當前熱門臨床議題，症狀學發現有參考價值，但美國族群飲酒文化與Lynch症候群盛行率與台灣不同，直接套用需謹慎。",
+   "novelty": "再確認已知",
+   "one_liner": "在俄亥俄州1,306名大腸直腸癌患者中，比較EOCRC（N=288）與LOCRC（N=1,018），發現飲酒、暴飲、Lynch症候群、診斷前症狀皆與EOCRC顯著相關（OR最高6.08）。",
+   "action": "對<50歲出現血便、排便習慣改變的病人應提高警覺並詢問飲酒史與家族史，及早安排大腸鏡評估Lynch症候群可能性。",
+   "pico": {
+    "P": "俄亥俄州新診斷大腸直腸癌患者共1,306人（EOCRC N=288，年齡<50歲；LOCRC N=1,018，年齡≥50歲）",
+    "I": "早發型大腸直腸癌（診斷年齡<50歲）",
+    "C": "晚發型大腸直腸癌（診斷年齡≥50歲）",
+    "O": "主要outcome：人口學、生活習慣（飲酒、吸菸）、臨床危險因子（Lynch症候群、IBD、IBS、出生體重）及診斷前症狀之勝算比差異；次要：症狀類型（血便、排便習慣改變、腸阻塞）發生率"
+   },
+   "key_numbers": [
+    "血便症狀：EOCRC 52.3% vs LOCRC 30.7%，差異約21.6個百分點",
+    "Lynch症候群：EOCRC相對LOCRC勝算比OR=4.61（95% CI: 2.72-7.84）",
+    "暴飲行為：EOCRC相對LOCRC勝算比OR=3.15（95% CI: 2.31-4.30）"
+   ],
+   "cautions": [
+    "病例對病例設計無健康對照組，僅反映兩年齡組間相對差異，無法估算絕對發病風險",
+    "飲酒史與症狀均為診斷後回溯自述，易受回憶偏誤及回憶不對等影響（recall bias）",
+    "美國俄亥俄州人群之種族結構、飲酒文化與遺傳背景與台灣族群差異大，外推性有限"
+   ],
+   "unassessable": [
+    "失訪率",
+    "資料遺失值處理方式",
+    "利益衝突",
+    "腫瘤位置與分期資訊",
+    "試驗註冊",
+    "多重比較校正方法"
+   ],
+   "added_at": "2026-07-14T06:59:05+08:00"
+  },
+  {
+   "pmid": "42435071",
+   "title": "From copper imbalance to immunometabolic remodeling: cuproptosis-related vulnerability and therapeutic hypotheses in autoimmune diseases",
+   "journal": "Inflamm Res",
+   "journal_full": "Inflammation research : official journal of the European Histamine Research Society ... [et al.]",
+   "issn": "1420-908X",
+   "issn_linking": "1023-3830",
+   "impact_factor": 6.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.34133/bmr.0039",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Shao Y, Zhang R, Wang Z, Gan J, Jiang X, Yang L",
+   "abstract": "BACKGROUND: Autoimmune diseases (AIDs) are characterized by disrupted immune tolerance, chronic inflammation, and organ-specific tissue injury. Their pathogenesis involves the interplay between genetic susceptibility and environmental factors. Although current biological agents and glucocorticoid therapies have improved clinical outcomes, long-term remission rates remain limited, with persistent risks including infection, organ toxicity, and immunogenicity. Emerging evidence indicates that copper homeostasis imbalance, mitochondrial dysfunction, redox stress, and immunometabolic remodeling coexist in multiple systemic and organ-specific AIDs. Cuproptosis, a newly identified form of regulated cell death, provides a potential mechanistic framework to understand the convergence of these pathological processes. However, direct in vivo evidence of canonical cuproptosis in autoimmune lesions remains scarce, and most relevant studies rely on transcriptomic associations, public dataset mining, or model-dependent experiments. There is an urgent need to clarify conceptual boundaries and the hierarchy of evidence.\nOBJECTIVES: This review aims to systematically distinguish the conceptual differences among copper dysregulation, copper-associated mitochondrial/redox stress, cuproptosis-related vulnerability, and canonical cuproptosis. It seeks to summarize the hierarchical levels and limitations of existing evidence, evaluate the translational potential of copper-modulating strategies in AIDs, and provide references for future research directions and clinical translation.\nRESULTS: 1. A hierarchical evidence grading system for cuproptosis was established, categorizing existing evidence into six levels: bioinformatic inference (e.g., transcriptomic differential expression, immune infiltration correlation), disease-associated phenotypic evidence, functional perturbation evidence, rescue-based evidence, direct biochemical validation, and in vivo disease validation. It was clarified that canonical cuproptosis can only be confirmed when copper dependence, involvement of the Ferredoxin 1 (FDX1)-lipoylation axis, aggregation of lipoylated proteins, destabilization of Fe-S clusters, and functional rescue are demonstrated. 2. The characteristics of copper metabolism disorders and cuproptosis related molecular remodeling in systemic AIDs (e.g., systemic lupus erythematosus, rheumatoid arthritis) and organ-specific AIDs (e.g., inflammatory bowel disease, ankylosing spondylitis) were summarized. Findings mostly reflected copper-associated metabolic stress or susceptibility markers rather than definitive functional activation. 3. The immunometabolic regulatory roles of cuproptosis in immune cells-including macrophages, dendritic cells, and T cells-were analyzed, highlighting that their effects are cell-type and context dependent. 4. The limitations of copper-modulating strategies, such as copper chelators and copper ionophores, were evaluated, emphasizing that these currently represent hypothesis-generating approaches. Clinical application requires consideration of toxicity, targeting specificity, pharmacokinetics, and disease-context dependence.\nCONCLUSIONS: Current research on cuproptosis in AIDs is largely correlative, bioinformatic, or model dependent, and is insufficient to confirm canonical cuproptosis as a primary pathogenic mechanism in AIDs. Cuproptosis should be regarded as a conditional and hypothesis-generating framework. Future studies should adopt a rigorous evidence hierarchy, optimize diseaserelevant model selection, and validate its pathophysiological significance through direct biochemical assays. The clinical translation of copper-targeted therapeutic strategies still requires substantial foundational and clinical research support.",
+   "watched": [],
+   "related": [],
+   "title_zh": "從銅失衡到免疫代謝重塑：自體免疫疾病中銅死亡（cuproptosis）相關脆弱性與治療假說",
+   "abstract_zh": "背景：自體免疫疾病（AIDs）的特徵為免疫耐受性破壞、慢性發炎及器官特異性組織損傷，其致病機轉涉及基因易感性與環境因子的交互作用。雖然現行生物製劑與糖皮質素治療已改善臨床結果，但長期緩解率仍有限，且持續存在感染、器官毒性及免疫原性等風險。新興證據顯示，銅平衡失調、線粒體功能障礙、氧化還原壓力及免疫代謝重塑，在多種全身性與器官特異性自體免疫疾病中並存。銅死亡（cuproptosis）作為一種新發現的調控性細胞死亡形式，提供了理解這些病理過程交會的潛在機制框架。然而，自體免疫病灶中典型銅死亡的直接體內證據仍十分稀少，多數相關研究依賴轉錄體關聯性分析、公開資料庫探勘或模型依賴性實驗。目前迫切需要釐清概念界線與證據層級。\n\n目的：本綜述旨在系統性區分銅失調、銅相關線粒體/氧化還原壓力、銅死亡相關脆弱性、以及典型銅死亡之間的概念差異，總結現有證據的層級與限制，評估銅調節策略在自體免疫疾病中的轉譯潛力，並提供未來研究方向與臨床轉譯的參考。\n\n結果：1. 建立了銅死亡的證據分級系統，將現有證據分為六個層級：生物資訊學推論（如轉錄體差異表現、免疫浸潤相關性）、疾病相關表型證據、功能性擾動證據、拯救型（rescue-based）證據、直接生化驗證，以及活體疾病驗證。並明確指出，唯有證實銅依賴性、鐵氧還蛋白1（FDX1）－脂酰化軸的參與、脂酰化蛋白聚集、Fe-S簇不穩定，以及功能性拯救，才能確認典型銅死亡的存在。2. 總結了全身性自體免疫疾病（如全身性紅斑性狼瘡、類風濕性關節炎）及器官特異性自體免疫疾病（如發炎性腸道疾病、僵直性脊椎炎）中銅代謝失調與銅死亡相關分子重塑的特徵，發現大多數結果反映的是銅相關代謝壓力或易感性標記，而非確定的功能性活化。3. 分析了銅死亡在免疫細胞（包括巨噬細胞、樹突細胞及T細胞）中的免疫代謝調控角色，強調其作用具有細胞類型與情境依賴性。4. 評估了銅調節策略（如銅螯合劑與銅離子載體）的限制，強調這些目前仍屬產生假說階段的策略，臨床應用需考量毒性、靶向特異性、藥物動力學及疾病情境依賴性。\n\n結論：目前自體免疫疾病中銅死亡的研究大多屬於相關性、生物資訊學或模型依賴性，尚不足以確認典型銅死亡為自體免疫疾病的主要致病機轉。銅死亡應被視為一種條件性、產生假說的框架。未來研究應採用嚴謹的證據層級、優化疾病相關模型選擇，並透過直接生化檢測驗證其病理生理意義。銅靶向治療策略的臨床轉譯，仍需大量基礎與臨床研究支持。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "此為基礎機轉概念性綜述，聚焦銅死亡與自體免疫疾病，無臨床數據、無手術相關內容，對大腸直腸外科臨床實務幾無直接應用價值。",
+   "relevance": "低度相關",
+   "relevance_why": "純基礎機轉綜述，雖提及IBD但僅作為器官特異性AID範例討論分子機制，非外科介入或臨床決策相關。",
+   "novelty": "仍屬早期",
+   "one_liner": "本綜述整理自體免疫疾病中銅死亡（cuproptosis）證據，建立六層級證據分級，指出多數研究僅屬相關性/生物資訊學層次，尚未證實為致病機轉。",
+   "action": "目前不需改變做法：此為機轉假說性綜述，無臨床試驗數據或治療建議可直接應用於病人照護。",
+   "pico": {
+    "P": "無明確病人族群（概念性文獻綜述，涵蓋SLE、RA、IBD、僵直性脊椎炎等自體免疫疾病文獻）",
+    "I": "銅死亡（cuproptosis）相關證據之系統性分類與整理",
+    "C": "無對照組",
+    "O": "主要：建立銅死亡證據分級系統、釐清概念層級；次要：評估銅調節治療策略之轉譯潛力"
+   },
+   "key_numbers": [
+    "本文為敘述性綜述，未提供原始統計數據、發生率或治療效果數字",
+    "作者建立六層級證據分級系統，但未附上各層級文獻數量或量化比例",
+    "結論明確指出目前證據「不足以確認」典型銅死亡為AID主要致病機轉（陰性/保留結論）"
+   ],
+   "cautions": [
+    "全文為機轉假說性綜述，非系統性文獻回顧，方法學（如文獻篩選標準）未描述",
+    "作者自承多數證據僅為轉錄體關聯性或生物資訊學推論，因果關係未被證實，易被過度延伸解讀",
+    "與IBD相關內容僅為眾多AID範例之一，未針對IBD外科或治療決策提供具體建議"
+   ],
+   "unassessable": [
+    "此為概念性文獻綜述，非原始研究，故盲法、allocation concealment、ITT、失訪率、試驗註冊、利益衝突及成本分析等項目均不適用"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。",
+   "added_at": "2026-07-13T23:35:22+08:00"
+  },
+  {
+   "pmid": "42439700",
+   "title": "P38γ Promotes Tumorigenesis Through Activating Immune Evasion",
+   "journal": "Cells",
+   "journal_full": "Cells",
+   "issn": "2073-4409",
+   "issn_linking": "2073-4409",
+   "impact_factor": 6.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.3390/cells15131226",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Chandrashekar N, Qi X, Chen G",
+   "abstract": "Stress MAPKp38γ (MAPK12) has established roles in promoting tumorigenesis; however, the mechanisms involved remain largely unclear. This paper will review recently published and unpublished studies of p38γ in programming immune evasion in breast cancer, pancreatic cancer, and colon cancer to promote tumorigenesis. First, we show that p38γ is an oncogene that transforms breast epithelial cells into triple-negative breast cancer (TNBC), is required for breast tumorigenesis in mice, and activates tumor-suppressive environments via a positive feedback signaling loop. Moreover, we show that epithelial p38γ is required for KRAS-oncogene-induced pancreatic cancer in two genetic murine models (KPC and KTC) by activating glycolytic pathways to provide metabolic support for cancer cells and by increasing chemokine CXCL5-dependent fibrosis and immune cell infiltrations. Lastly, we will delineate how p38γ is activated by the main risk factors for colon cancer and serves as a key integrator of oncogenic and inflammatory signaling to promote tumorigenesis by increasing Wnt proliferative signaling and programming immune evasion. These results indicate that p38γ MAPK can integrate common risk factors for colon cancer and amplify oncogenic signaling by phosphorylating its substrate, β-catenin, increasing transcription of Wnt and the chemokine CXCL13, and promoting PD-L1 expression. In each of these tumor models, we will present evidence supporting our hypothesis, followed by additional experiments for verification. Our studies suggest that targeting p38γ may be an innovative approach in cancer therapeutic intervention.",
+   "watched": [],
+   "related": [],
+   "title_zh": "P38γ 透過活化免疫逃逸促進腫瘤生成",
+   "abstract_zh": "壓力活化型 MAPK p38γ（MAPK12）已被證實在促進腫瘤生成中扮演角色；然而其涉及的機制大多仍不清楚。本文將回顧近期發表及未發表的研究，探討 p38γ 在乳癌、胰臟癌及大腸癌中如何調控免疫逃逸以促進腫瘤生成。首先，我們顯示 p38γ 是一種致癌基因，能將乳腺上皮細胞轉化為三陰性乳癌（TNBC），在小鼠中為乳房腫瘤生成所必需，並透過正回饋訊號迴路活化腫瘤抑制性微環境。此外，我們顯示上皮性 p38γ 在兩種基因工程小鼠模型（KPC 及 KTC）中，為 KRAS 致癌基因誘發的胰臟癌所必需，其機制為活化糖解路徑以提供癌細胞代謝支持，並透過增加趨化因子 CXCL5 依賴性的纖維化與免疫細胞浸潤。最後，我們將闡述 p38γ 如何被大腸癌主要風險因子活化，並作為整合致癌與發炎訊號的關鍵角色，透過增加 Wnt 增生訊號及調控免疫逃逸來促進腫瘤生成。這些結果顯示，p38γ MAPK 能整合大腸癌常見風險因子，並透過磷酸化其下游底物 β-catenin，增加 Wnt 及趨化因子 CXCL13 的轉錄，以及促進 PD-L1 表現，來放大致癌訊號。在每個腫瘤模型中，我們將呈現支持我們假說的證據，並接續提出額外驗證實驗。我們的研究顯示，針對 p38γ 進行標靶治療，可能是癌症治療介入的一項創新方法。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純基礎科學機轉綜述，無臨床試驗數據、無病人族群，對台灣大腸直腸外科日常臨床決策沒有直接可操作性。",
+   "relevance": "低度相關",
+   "relevance_why": "這是動物模型與細胞分子機轉的綜述，非外科介入，短期內無法轉化為臨床實務。",
+   "novelty": "仍屬早期",
+   "one_liner": "本文綜述 p38γ MAPK 在乳癌、胰臟癌、大腸癌小鼠模型中透過 Wnt/β-catenin 與 PD-L1 促進免疫逃逸與腫瘤生成的分子機轉。",
+   "action": "目前不需改變做法；此為基礎機轉綜述，尚無臨床試驗或藥物數據可供病人層級應用。",
+   "pico": {
+    "P": "無病人族群；為小鼠腫瘤模型（乳癌 TNBC、胰臟癌 KPC/KTC 模型）與大腸癌相關細胞/分子研究之綜述",
+    "I": "p38γ (MAPK12) 訊號路徑活化",
+    "C": "無對照組（機轉綜述，非比較性試驗）",
+    "O": "腫瘤生成、免疫逃逸相關分子事件（Wnt/β-catenin 訊號、CXCL5/CXCL13 表現、PD-L1 表現、糖解代謝）；未涉及臨床存活或復發指標"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本文未提供任何臨床試驗或病人層級的絕對數字、發生率或存活數據",
+    "所有結論來自小鼠基因工程模型與細胞實驗，非人體研究",
+    "未提及 p38γ 抑制劑於人體或臨床前療效的定量數據"
+   ],
+   "cautions": [
+    "純綜述性質，缺乏原始統計數據，無法評估效應量或信賴區間",
+    "結論主要建立於小鼠模型與細胞實驗，外推至人類大腸癌需謹慎，因果關係尚待臨床驗證",
+    "作者為自身研究團隊之綜述（self-review 性質明顯），可能存在選擇性呈現支持自身假說的證據"
+   ],
+   "unassessable": [
+    "研究設計細節（因為是綜述非原始研究）",
+    "利益衝突",
+    "是否有相應人體臨床試驗",
+    "統計方法與樣本數"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-07-14T06:59:05+08:00"
+  },
+  {
+   "pmid": "42439621",
+   "title": "Regenerative Inflammation in IBD: How Type I Interferons and TNF Cross-Talk Converts Epithelial Repair into Therapeutic Response",
+   "journal": "Cells",
+   "journal_full": "Cells",
+   "issn": "2073-4409",
+   "issn_linking": "2073-4409",
+   "impact_factor": 6.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jun",
+   "doi": "10.3390/cells15131144",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Hinton E, Kemp R, Schultz M, Gadeock S",
+   "abstract": "Inflammatory bowel diseases (IBD) are increasingly recognized as disorders in which epithelial dysfunction and maladaptive regeneration may be as important as immune dysregulation. Tumor necrosis factor (TNF), a key mediator of intestinal inflammation and a therapeutic target, plays a dual role in both immune activation and epithelial repair by regulating progenitor cell expansion, lineage plasticity, and chemokine signaling in the intestinal epithelium. During acute injury, TNF-associated responses are generally considered adaptive, supporting crypt repair, barrier restitution, and secretory remodeling pathways. However, in chronic disease, persistent TNF exposure, potentially reinforced by type I interferons (IFN-I), may contribute to the persistence of epithelial regenerative pathways. IFN-I signaling has been suggested in experimental and translational studies to reinforce chemokine networks and transcriptional imprinting. We propose that this potentially converts physiological repair into a sustained state of what we have termed \"regenerative inflammation,\" in which epithelial-derived signals may perpetuate immune recruitment and tissue remodeling. Such TNF-IFN-imprinted epithelial states may contribute to sustained pathology in a subset of patients and could be associated with reduced responsiveness to anti-TNF therapy, although direct causal evidence in human disease remains limited. By integrating mechanistic, organoid-based, and clinical observational evidence, we propose that chronic TNF-IFN crosstalk may contribute to a self-sustaining regenerative inflammatory circuit, providing a conceptual framework for disease persistence in IBD and highlighting potential opportunities to target epithelial-immune interactions.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42429844",
+     "date": "2026-07-10",
+     "title_zh": "重新定義發炎性腸道疾病中嗜中性球的功能：從組織損傷到免疫消退",
+     "score": 3,
+     "one_liner": "敘述性回顧整理嗜中性球在IBD中兼具促發炎與促消炎（efferocytosis、NETs）雙重角色，多數證據仍為臨床前階段。",
+     "sim": 0.159
+    },
+    {
+     "pmid": "42429844",
+     "date": "2026-07-12",
+     "title_zh": "重新定義發炎性腸道疾病中嗜中性球的功能：從組織損傷到免疫消退",
+     "score": 3,
+     "one_liner": "敘述性回顧整理嗜中性球在IBD中兼具促發炎與促消炎（efferocytosis、NETs）雙重角色，多數證據仍為臨床前階段。",
+     "sim": 0.159
+    }
+   ],
+   "title_zh": "IBD中的再生性發炎：第一型干擾素與TNF交互作用如何將上皮修復轉變為治療反應",
+   "abstract_zh": "發炎性腸道疾病（IBD）越來越被認為是一種上皮功能障礙與適應不良再生可能與免疫失調同等重要的疾病。腫瘤壞死因子（TNF）是腸道發炎的關鍵介質及治療標靶，透過調控前驅細胞擴增、譜系可塑性及腸上皮趨化因子訊號，在免疫活化與上皮修復中扮演雙重角色。在急性損傷期間，TNF相關反應通常被視為適應性反應，支持隱窩修復、屏障復原及分泌重塑路徑。然而，在慢性疾病中，持續的TNF暴露，可能因第一型干擾素（IFN-I）而加強，可能導致上皮再生路徑持續存在。實驗與轉譯研究提示IFN-I訊號可能強化趨化因子網絡與轉錄印記。我們提出，這可能將生理性修復轉變為一種我們稱之為「再生性發炎」的持續狀態，其中上皮衍生訊號可能使免疫招募與組織重塑持續進行。此類TNF-IFN印記的上皮狀態可能導致部分病患的持續病理狀態，並可能與抗TNF治療反應性降低有關，儘管在人類疾病中的直接因果證據仍有限。透過整合機轉、類器官研究及臨床觀察性證據，我們提出慢性TNF-IFN交互作用可能促成一個自我維持的再生發炎循環，為IBD疾病持續性提供概念性框架，並凸顯標靶上皮-免疫交互作用的潛在機會。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純機轉性敘述回顧，無臨床試驗或人體因果證據，對大腸直腸外科臨床決策幾乎無直接實用性。",
+   "relevance": "低度相關",
+   "relevance_why": "屬於IBD免疫上皮機轉的基礎/轉譯研究概念框架，非外科介入，與大腸直腸外科日常臨床決策關聯低。",
+   "novelty": "仍屬早期",
+   "one_liner": "本文為概念性回顧，提出慢性TNF與第一型干擾素交互作用可能形成「再生性發炎」循環，與抗TNF治療反應性降低有關，但人體因果證據有限。",
+   "action": "目前不需改變做法；此為機轉假說性綜述，無臨床試驗數據可直接應用於病人處置。",
+   "pico": {
+    "P": "無特定病人族群，為概念性/機轉綜述，整合動物模型、類器官及臨床觀察性證據",
+    "I": "無明確介入，探討TNF與IFN-I訊號交互作用對上皮再生的影響",
+    "C": "無對照組",
+    "O": "主要為概念框架建構（「再生性發炎」假說）；次要提及可能與抗TNF治療反應性降低相關"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本文未提供任何量化臨床數據、發生率或統計數字",
+    "作者明確聲明：人類疾病中的直接因果證據仍有限",
+    "全文皆為機轉假說與文獻整合，無original數據可供計算ARR/NNT"
+   ],
+   "cautions": [
+    "純粹概念性/假說生成綜述，非原始研究，無法評估因果關係僅為推論框架",
+    "多數證據來自類器官與動物模型，外推至人類慢性IBD病患需謹慎",
+    "作者自陳與抗TNF治療反應性降低的關聯僅為推測，缺乏直接人體因果證據"
+   ],
+   "unassessable": [
+    "研究設計品質（無臨床試驗設計）",
+    "樣本數",
+    "統計方法",
+    "利益衝突",
+    "此為綜述無法評估盲法/ITT/失訪率等EBM要素"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。先前看過的兩篇為IBD中嗜中性球功能的綜述，聚焦於促發炎/促消炎雙重角色，與本篇探討TNF-IFN交互作用及上皮再生機轉的主題並無直接關聯。",
+   "added_at": "2026-07-14T06:59:05+08:00"
+  },
+  {
+   "pmid": "42438903",
+   "title": "Autoimmune diseases in the era of COVID-19: emerging mechanisms, clinical implications, vaccine considerations, and future directions",
+   "journal": "Korean J Intern Med",
+   "journal_full": "The Korean journal of internal medicine",
+   "issn": "2005-6648",
+   "issn_linking": "1226-3303",
+   "impact_factor": 2.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.3904/kjim.2025.301",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Kong J, Hong S, Oh J, Lee S, Smith L, Branda F",
+   "abstract": "The coronavirus disease 2019 (COVID-19) pandemic has highlighted a complex, bidirectional relationship between SARSCoV-2 infection and autoimmune diseases. This review examines how SARS-CoV-2 infection influences the incidence, progression, and outcomes of five major autoimmune conditions: systemic lupus erythematosus, rheumatoid arthritis, multiple sclerosis, inflammatory bowel disease, and Guillain-Barré syndrome. Patients with autoimmune diseases are at increased risk of severe COVID-19 due to intrinsic immune dysregulation and the use of immunosuppressive therapies, both of which impair antiviral host defenses. Conversely, COVID-19 has been implicated in the initiation and exacerbation of autoimmune responses through mechanisms such as molecular mimicry and bystander activation. Concerns have also arisen regarding the safety and efficacy of COVID-19 vaccines in immunocompromised populations. Although vaccines are generally tolerated in these individuals, certain immunosuppressive therapies may attenuate humoral and cellular immune responses. Strategies such as adjusting immunosuppressive regimens and optimizing the timing of vaccination have been proposed to improve vaccine efficacy. Disease-specific considerations are essential to balance infection risk with adequate control of autoimmune activity. Overall, this review underscores the importance of individualized treatment strategies, close clinical monitoring, and interdisciplinary care in managing patients with autoimmune diseases during the COVID-19 pandemic. A deeper understanding of these interactions will be critical for improving patient outcomes and preparing for future pandemics involving immune-mediated diseases.",
+   "watched": [],
+   "related": [],
+   "title_zh": "COVID-19時代下的自體免疫疾病：新興機轉、臨床意義、疫苗考量與未來方向",
+   "abstract_zh": "COVID-19大流行凸顯了SARS-CoV-2感染與自體免疫疾病之間複雜的雙向關係。本綜述探討SARS-CoV-2感染如何影響五種主要自體免疫疾病的發生率、病程進展與預後：全身性紅斑性狼瘡、類風濕性關節炎、多發性硬化症、發炎性腸道疾病，以及格林-巴利症候群。自體免疫疾病患者因內在免疫失調及免疫抑制療法的使用，兩者皆會削弱抗病毒宿主防禦，故COVID-19重症風險增加。反之，COVID-19透過分子模擬與旁觀者活化等機轉，被認為與自體免疫反應的誘發及惡化有關。針對免疫功能低下族群，COVID-19疫苗的安全性與有效性亦引發關注。雖然這些患者對疫苗普遍具耐受性，但某些免疫抑制療法可能減弱體液性與細胞性免疫反應。已有人提出調整免疫抑制方案及優化疫苗接種時機等策略，以提升疫苗效力。疾病特異性的考量對於平衡感染風險與自體免疫活動的充分控制至關重要。整體而言，本綜述強調在COVID-19大流行期間，管理自體免疫疾病患者時，個別化治療策略、密切臨床監測及跨領域照護的重要性。深入理解這些交互作用，對於改善患者預後及為未來涉及免疫相關疾病的大流行做準備，至關重要。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "此為敘述性綜述，聚焦COVID-19與自體免疫疾病之機轉關係，無外科介入或手術相關數據，對大腸直腸外科臨床實務幾無直接可用性。",
+   "relevance": "低度相關",
+   "relevance_why": "雖提及IBD，但內容聚焦內科免疫機轉與疫苗策略，非外科介入或手術決策相關議題。",
+   "novelty": "仍屬早期",
+   "one_liner": "綜述COVID-19與五種自體免疫疾病（SLE、RA、MS、IBD、GBS）之雙向影響機轉、免疫抑制療法風險及疫苗接種考量，無具體臨床數據。",
+   "action": "目前不需改變做法，此為機轉性綜述非外科研究，僅可作為IBD患者COVID-19照護的背景知識參考。",
+   "pico": {
+    "P": "無明確病人族群（綜述性文章，涵蓋五種自體免疫疾病患者群體，無特定人數）",
+    "I": "無單一介入；討論SARS-CoV-2感染、免疫抑制療法與COVID-19疫苗接種",
+    "C": "無對照組（敘述性綜述）",
+    "O": "無量化主要outcome；討論疾病惡化風險、疫苗免疫反應削弱等概念性結果"
+   },
+   "key_numbers": [
+    "摘要未提供任何具體數據、百分比或統計數值",
+    "摘要未提供任何具體數據、百分比或統計數值",
+    "摘要未提供任何具體數據、百分比或統計數值"
+   ],
+   "cautions": [
+    "敘述性綜述未說明系統性文獻搜尋方法，證據等級與可重現性低",
+    "全文未附任何量化數據、p值或信賴區間，論述多為概念性機轉描述",
+    "與大腸直腸外科手術決策無直接關聯，僅IBD部分可能有間接背景參考價值"
+   ],
+   "unassessable": [
+    "文獻搜尋策略",
+    "納入排除標準",
+    "利益衝突",
+    "IBD患者手術時機與COVID-19風險之具體建議",
+    "疫苗接種時機的量化證據"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-07-13T23:35:22+08:00"
+  },
+  {
+   "pmid": "42440156",
+   "title": "Microbiome-metabolite signaling networks in gastrointestinal disease: systems biology, network rewiring, and precision therapeutics",
+   "journal": "Arch Microbiol",
+   "journal_full": "Archives of microbiology",
+   "issn": "1432-072X",
+   "issn_linking": "0302-8933",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.3389/fneur.2023.1282130",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Almutawif Y, Eid H",
+   "abstract": "The gastrointestinal tract operates as a highly integrated, multi-layer signaling ecosystem in which microbial communities, metabolite flux, epithelial receptors, immune circuits, and neuroendocrine pathways form a coordinated regulatory network rather than isolated biological compartments. The Microbiome-Metabolite Signaling Network (MMSN) framework conceptualizes gastrointestinal homeostasis and disease as emergent properties of dynamic cross-layer interactions. This review explores the framework principally on inflammatory bowel disease and irritable bowel syndrome as representative gastrointestinal disorders, drawing on other conditions only for illustrative contrast. Within this architecture, microbiota-derived metabolites including short-chain fatty acids, bile acid derivatives, and tryptophan catabolites serve as biochemical intermediaries that relay ecological signals to host receptor systems such as GPR41/43, FXR, TGR5, the aryl hydrocarbon receptor, and innate immune sensors. These receptor-mediated inputs converge on intracellular signaling hubs, including NF-κB, STAT3, inflammasomes, and neuroimmune mediators, which act as high-centrality nodes governing epithelial integrity, cytokine gradients, metabolic coordination, and visceral sensitivity. Signaling hubs are mechanistic convergence nodes that integrate diverse upstream perturbations into coordinated inflammatory or regulatory outputs. In contrast, network fragility denotes the loss of redundancy, modularity, and buffering capacity, predisposing the system to nonlinear amplification and pathological attractor states. Gastrointestinal disorders are therefore more accurately interpreted as manifestations of network rewiring characterized by hub centralization, metabolite imbalance, and strengthened inter-module coupling rather than simple microbial compositional shifts. This review explains the clinical heterogeneity, fluctuating disease trajectories, and variable therapeutic responsiveness. A network-based translational strategy emphasizes hub stabilization, metabolite recalibration, and restoration of distributed connectivity, shifting precision therapeutics toward topology-informed intervention. Integration of microbiology, immunology, neuroscience, systems biology, and computational medicine establishes a pathway toward predictive, mechanistically grounded gastrointestinal network care.",
+   "watched": [],
+   "related": [],
+   "title_zh": "腸胃道疾病中的微生物群-代謝物訊號網絡：系統生物學、網絡重塑與精準治療",
+   "abstract_zh": "腸胃道是一個高度整合的多層次訊號生態系統，其中微生物群落、代謝物流動、上皮受體、免疫迴路與神經內分泌路徑共同形成協調的調控網絡，而非各自獨立的生物區塊。微生物群-代謝物訊號網絡（MMSN）框架將腸胃道恆定與疾病概念化為跨層動態交互作用所產生的湧現特性。本綜述主要以發炎性腸道疾病（IBD）與大腸激躁症（IBS）作為代表性腸胃道疾病來探討此框架，並僅以其他疾病作為對照說明。在此架構中，微生物衍生代謝物，包括短鏈脂肪酸、膽酸衍生物與色胺酸分解代謝物，作為生化中介物將生態訊號傳遞至宿主受體系統，例如 GPR41/43、FXR、TGR5、芳香烴受體及先天免疫感應器。這些受體介導的輸入匯聚於細胞內訊號樞紐，包括 NF-κB、STAT3、發炎小體與神經免疫介質，這些高中心性節點主導上皮完整性、細胞激素梯度、代謝協調與內臟敏感性。訊號樞紐是將多種上游擾動整合為協調發炎或調節輸出的機制性匯聚節點。相對地，網絡脆弱性指的是冗餘性、模組化與緩衝能力的喪失，使系統易於發生非線性放大與病理性吸引子狀態。因此，腸胃道疾病更準確地應被解讀為網絡重塑的表現，其特徵為樞紐中心化、代謝物失衡與模組間耦合增強，而非單純的微生物組成變化。本綜述解釋了臨床異質性、疾病軌跡的波動性以及治療反應的變異性。以網絡為基礎的轉譯策略強調樞紐穩定化、代謝物再校準以及分散式連結性的恢復，將精準治療推向以拓撲學為基礎的介入方式。整合微生物學、免疫學、神經科學、系統生物學與計算醫學，建立了通往可預測、具機制基礎的腸胃道網絡照護之路徑。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純概念性系統生物學綜述，聚焦IBD/IBS機轉框架，無臨床試驗數據，對大腸直腸外科臨床決策無直接實用性。",
+   "relevance": "低度相關",
+   "relevance_why": "內容為IBD/IBS的微生物-代謝物訊號網絡理論框架，非外科介入，與大腸直腸外科手術實務無直接關聯。",
+   "novelty": "仍屬早期",
+   "one_liner": "本文提出MMSN理論框架，說明微生物代謝物、受體與訊號樞紐如何交互形成IBD與IBS的網絡重塑，屬概念性綜述無實證數據。",
+   "action": "目前不需改變做法；此為基礎機轉理論綜述，未提供可直接應用於外科病人照護的臨床數據或介入建議。",
+   "pico": {
+    "P": "無特定病人族群（理論性綜述，聚焦IBD與IBS）",
+    "I": "無介入（概念框架：微生物-代謝物訊號網絡）",
+    "C": "無對照組",
+    "O": "無實證outcome；提出理論框架解釋疾病異質性與治療反應變異"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本文未提供任何臨床試驗數據、事件數或統計數值",
+    "全文為機轉理論與網絡科學概念之整合，無量化結果",
+    "無p值、信賴區間或效應量可供評估"
+   ],
+   "cautions": [
+    "純理論性綜述，未經臨床試驗驗證，僅為概念框架提案",
+    "無實證數據支持，所謂『網絡重塑』、『樞紐穩定化』等策略缺乏具體治療方案或臨床證據",
+    "聚焦IBD/IBS機轉，與大腸直腸外科手術治療（如TME、LARS、吻合口漏等）無直接關聯"
+   ],
+   "unassessable": [
+    "研究方法（此為敘述性綜述，非系統性文獻回顧）",
+    "利益衝突",
+    "資金來源",
+    "文獻篩選標準"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-07-14T06:59:05+08:00"
+  }
+ ]
+}
