@@ -1,0 +1,51 @@
+name: 每日文獻收集
+
+on:
+  schedule:
+    # UTC 22:00 = 台灣時間隔天 06:00
+    - cron: '0 22 * * *'
+  workflow_dispatch:        # 允許手動點 Run workflow
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-fetch
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: 安裝套件
+        run: pip install -r requirements.txt
+
+      - name: 收集文獻並生成摘要
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          PYTHONUNBUFFERED: "1"
+          # 想換模型：Settings → Secrets and variables → Actions → Variables
+          # 新增 MODEL，值可填 claude-haiku-4-5-20251001（便宜但分析較弱）
+          MODEL: ${{ vars.MODEL }}
+        run: python -u fetch_papers.py
+
+      - name: Commit & Push
+        run: |
+          git config user.name  "腸嚐新知 Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "無變更，略過 commit"
+          else
+            git commit -m "📰 $(TZ=Asia/Taipei date +'%Y-%m-%d') 每日文獻更新"
+            git push
+          fi
