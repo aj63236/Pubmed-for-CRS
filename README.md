@@ -14,19 +14,50 @@
 
 ---
 
-## Impact Factor（JCR 2025）
+## Impact Factor（2026）
 
-已載入 **JCR 2025 完整清單**：ISSN 對照 14,339 筆、期刊名對照 16,238 筆。
-
-原始 PDF 轉檔時把出版社名和 ISSN 的字元交錯在一起（例：`LIPPINCOTT WILLIAMS & W00IL0K3IN-4S932` 其實是 `WILKINS` + `0003-4932`），已用演算法還原。
+來源：**journalmetrics.org — Journal Rankings by 2026 Impact Factor**（基於 2025 年引用資料），5,880 本期刊，含 ISSN。
 
 **查詢順序：ISSN → ISSN-Linking → 期刊全名 → 期刊縮寫。**
-ISSN 最可靠；名稱比對因原始檔雙欄排版錯亂，偶有誤差。
+
+ISSN 是關鍵。有些期刊名稱在資料庫裡跟 PubMed 對不上：
+
+| PubMed 給的 | 資料庫裡叫 | 靠什麼配對 |
+|---|---|---|
+| Br J Surg | BJS-British Journal of Surgery | ISSN 0007-1323 |
+| Surg Endosc | Surgical Endoscopy and Other Interventional Techniques | ISSN 0930-2794 |
 
 驗證過的關鍵期刊：
 
 | 期刊 | IF |
 |---|---|
+| J Clin Oncol | 44.7 |
+| Gastroenterology | 29.7 |
+| Gut | 24.6 |
+| JAMA Surgery | 15.6 |
+| Br J Surg | 9.4 |
+| Ann Surg | 7.4 |
+| Surg Endosc | 3.3 |
+| Dis Colon Rectum | 3.1 |
+| Tech Coloproctol | 2.6 |
+| Colorectal Dis | 2.3 |
+
+### ⚠️ 改 `_norm_name` 的話請讀這段
+
+名稱正規化**絕對不可以**砍掉 `journal` / `of` / `the` 這些字。砍掉的話：
+
+```
+"Journal of Clinical Oncology" (44.7) ─┐
+"Clinical Oncology"            ( 2.5) ─┴─→ 都變成 "clinical oncology"
+```
+
+後者會把前者蓋掉，**JCO 的 IF 就從 44.7 變成 2.5**。Gastroenterology (29.7) 也會被 Journal of Gastroenterology (5.7) 蓋掉。
+
+這個 bug 曾經真的存在過，已修正。
+
+數值不對就直接改 `journals.json` 的 `by_issn`（以 ISSN 為準）。
+
+---|---|
 | Ann Surg | 6.4 |
 | Dis Colon Rectum | 3.7 |
 | Br J Surg | 8.8 |

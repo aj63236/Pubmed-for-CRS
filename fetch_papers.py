@@ -139,11 +139,18 @@ def load_journals():
 
 
 def _norm_name(n):
+    """⚠️ 絕對不可以砍掉 journal / of / the 這些字。
+
+    砍掉的話：
+        "Journal of Clinical Oncology" (IF 44.7)  ─┐
+        "Clinical Oncology"            (IF  2.5)  ─┴─→ 都變成 "clinical oncology"
+    後者會把前者蓋掉，JCO 的 IF 就從 44.7 變成 2.5。
+    同理 Gastroenterology (29.7) 會被 Journal of Gastroenterology (5.7) 蓋掉。
+    """
     n = (n or "").lower()
-    n = re.sub(r"\s*:.*$", "", n)          # 砍副標題
+    n = re.sub(r"\s*:.*$", "", n)          # 只砍副標題
     n = n.replace("&", " and ")
     n = re.sub(r"[^a-z0-9 ]", " ", n)
-    n = re.sub(r"\b(the|of|for|and|in|a|an|journal)\b", " ", n)
     return re.sub(r"\s+", " ", n).strip()
 
 
