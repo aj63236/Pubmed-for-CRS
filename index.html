@@ -431,6 +431,50 @@ html,body{
   font-size:9.5px;color:var(--dim);
 }
 
+/* ═══════════════ 效果量（程式驗算，非模型口述） ═══════════════ */
+.eff{
+  border-radius:14px;
+  border:1px solid var(--line);
+  background:#fff;
+  overflow:hidden;
+  margin-bottom:12px;
+}
+.eff-hd{
+  display:flex;align-items:center;gap:6px;
+  padding:9px 13px;
+  background:#F6F9F7;
+  border-bottom:1px solid var(--line-soft);
+  font-family:'IBM Plex Mono',monospace;
+  font-size:9.5px;font-weight:700;letter-spacing:.1em;
+  color:#2E7D5B;
+}
+.eff-hd svg{width:11px;height:11px}
+.eff-i{padding:11px 13px;border-bottom:1px solid var(--line-soft)}
+.eff-i:last-child{border-bottom:none}
+.eff-o{font-size:12.5px;font-weight:600;color:var(--ink);margin-bottom:6px}
+.eff-arms{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:12px;color:var(--muted);
+  display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin-bottom:7px;
+}
+.eff-arms b{color:var(--ink);font-weight:700}
+.eff-r{
+  display:flex;align-items:center;gap:8px;flex-wrap:wrap;
+  font-family:'IBM Plex Mono',monospace;font-size:11.5px;
+}
+.eff-tag{
+  font-weight:800;padding:3px 8px 2px;border-radius:6px;color:#fff;line-height:1;
+}
+.eff-tag.nnt{background:#2E9E6B}
+.eff-tag.nnh{background:#D6455F}
+.eff-arr{color:var(--muted)}
+.eff-say{font-size:11.5px;color:var(--muted);margin-top:5px;line-height:1.6}
+.eff-no{
+  padding:11px 13px;
+  font-size:11.5px;line-height:1.65;color:var(--dim);
+}
+.eff-no b{color:var(--muted);display:block;font-size:11px;margin-bottom:3px}
+
 /* ═══════════════ 追蹤標記 ═══════════════ */
 .chip-watch{
   background:#fff;color:#C2185B;
@@ -647,6 +691,26 @@ html,body{
 }
 .day:not(.on) .day-r{background:rgba(59,52,64,.12);color:var(--muted)}
 
+/* ═══════════════ 免責聲明 ═══════════════ */
+.disc{
+  margin-top:14px;
+  padding:12px 14px;
+  border-radius:12px;
+  background:rgba(59,52,64,.035);
+  border:1px solid var(--line-soft);
+  font-size:10.5px;
+  line-height:1.75;
+  color:var(--dim);
+}
+.disc b{
+  display:block;
+  color:var(--muted);
+  font-weight:700;
+  font-size:10px;
+  letter-spacing:.06em;
+  margin-bottom:4px;
+}
+
 /* ═══════════════ 捲到底 ═══════════════ */
 #sentinel{min-height:1px}
 .tail{
@@ -783,6 +847,13 @@ html,body{
   <div class="sheet-grip"></div>
   <div class="sheet-hd">跳到某一天</div>
   <div id="days"></div>
+  <div class="disc">
+      <b>使用須知</b>
+      本站內容由 PubMed 摘要經 AI 輔助產生，用於<b style="display:inline;font-size:inherit;letter-spacing:0">文獻篩選與教育目的</b>。
+      臨床決策前請查閱原文全文、臨床指引與病人個別狀況。
+      AI 分析可能有誤，尤其當摘要未提供完整方法與數據時（卡片上的「摘要沒寫」即為此提醒）。
+      ARR／NNT 由程式計算，但仍依賴模型正確抽取原始數字。
+    </div>
 </div>
 
 <script>
@@ -887,6 +958,12 @@ function showEnd(){
       <div class="tail-dot"></div>
       <p>已經到最早的文獻了</p>
       <p class="tail-sub">共 ${papers.length} 篇 · ${nDays} 天</p>
+      <div class="disc" style="max-width:min(92vw,520px);margin-top:22px;text-align:left">
+        <b>使用須知</b>
+        本站內容由 PubMed 摘要經 AI 輔助產生，用於文獻篩選與教育目的。
+        臨床決策前請查閱原文全文、臨床指引與病人個別狀況。
+        AI 分析可能有誤，尤其當摘要未提供完整方法與數據時。
+      </div>
     </div>`;
   }
 }
@@ -910,6 +987,7 @@ function card(p, i, newDay){
   const verdict = p.context_verdict || '';
   const ctx = (p.context && p.context !== '無相關前作') ? p.context : '';
   const tr = tier(p);
+  const effects = Array.isArray(p.effects) ? p.effects : [];
 
   const who = p.authors
     ? p.authors.split(',').slice(0,2).join(',').trim() + (p.authors.split(',').length>2?' et al.':'')
@@ -963,6 +1041,36 @@ function card(p, i, newDay){
       ${nums.length ? `<section class="sec">
         <div class="eyebrow">關鍵數據</div>
         <ul class="points">${nums.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>
+      </section>` : ''}
+
+      ${effects.length ? `<section class="sec">
+        <div class="eff">
+          <div class="eff-hd">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>
+            效果量 · 程式驗算（非模型口述）
+          </div>
+          ${effects.map(e => {
+            if(!e.ok) return `<div class="eff-no"><b>${esc(e.outcome)}</b>${esc(e.note)}</div>`;
+            const tag = e.kind === 'NNH' ? 'nnh' : 'nnt';
+            return `<div class="eff-i">
+              <div class="eff-o">${esc(e.outcome)}</div>
+              <div class="eff-arms">
+                <span>${esc(e.i_label)} <b>${e.i_rate}%</b></span>
+                <span>vs</span>
+                <span>${esc(e.c_label)} <b>${e.c_rate}%</b></span>
+              </div>
+              ${e.nnt === null
+                ? `<div class="eff-say">${esc(e.note)}</div>`
+                : `<div class="eff-r">
+                     <span class="eff-tag ${tag}">${e.kind} ${e.nnt}</span>
+                     <span class="eff-arr">ARR ${e.arr}%</span>
+                     <span class="eff-arr">${e.kind === 'NNH'
+                        ? `每治療 ${e.nnt} 人多害 1 人 ⚠️`
+                        : `每治療 ${e.nnt} 人多救 1 人`}</span>
+                   </div>`}
+            </div>`;
+          }).join('')}
+        </div>
       </section>` : ''}
 
       ${caut.length ? `<section class="sec">

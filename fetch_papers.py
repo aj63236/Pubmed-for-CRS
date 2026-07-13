@@ -25,7 +25,11 @@ DAYS_BACK   = 2      # 抓最近 N 天新上架的論文
 SCAN_LIMIT   = 120   # 每天最多「掃描」幾篇（跟 PubMed 拿資料是免費的）
 MAX_RESULTS  = 10    # 每天取幾篇「高分文章」（付費）
 INCLUDE_REVIEWS = True   # 除了高分文章，是否額外納入當天所有 Review
-REVIEW_LIMIT = 8     # Review 最多幾篇（避免某天暴量燒錢）
+REVIEW_LIMIT = 8     # Review 最多幾篇
+
+# 🛑 每日硬上限：追蹤關鍵字設太寬、或某天 Review 暴量，都可能讓選片數失控。
+#    超過就砍到這個數字（但保證追蹤命中的不會被砍掉）。
+DAILY_HARD_LIMIT = 25
 MAX_RETRY   = 3
 
 # 每 1M token 單價（USD）。價格會變，以 Anthropic 官網為準。
@@ -73,6 +77,107 @@ def rank_score(paper):
         default=0,
     )
     return min(jif, IF_CAP) * IF_WEIGHT + best_ptype * PTYPE_MULT
+
+
+# ═══════════════ 效果量：Claude 抽數字，Python 算 ═══════════════
+#
+# 為什麼不讓模型自己算：
+#   1. 多步驟算術容易出錯，尤其是符號方向
+#   2. NNT / NNH 搞反是真正的臨床錯誤 —— 你會拿去跟病人講
+#   3. 最陰險的：只有 HR / OR / RR 時，ARR 根本算不出來，
+#      但模型會硬算一個看起來合理的數字。Python 可以直接拒絕。
+
+def _risk(arm):
+    """從 {events,total} 或 {rate} 取出風險（0–1）。取不到就 None。"""
+    if not isinstance(arm, dict):
+        return None, None
+
+    ev, tot = arm.get("events"), arm.get("total")
+    if ev is not None and tot:
+        try:
+            ev, tot = float(ev), float(tot)
+        except (TypeError, ValueError):
+            return None, None
+        if tot <= 0 or ev < 0 or ev > tot:
+            return None, None
+        return ev / tot, f"{ev:.0f}/{tot:.0f}"
+
+    rate = arm.get("rate")
+    if rate is not None:
+        try:
+            rate = float(rate)
+        except (TypeError, ValueError):
+            return None, None
+        if not (0 <= rate <= 100):
+            return None, None
+        return rate / 100, None
+
+    return None, None
+
+
+def compute_effects(effect_data):
+    """把 Claude 抽出來的事件數／發生率，算成 ARR 與 NNT／NNH。
+
+    算不出來就誠實回報「摘要資料不足」，不猜。
+    """
+    out = []
+    if not isinstance(effect_data, list):
+        return out
+
+    for e in effect_data[:4]:
+        if not isinstance(e, dict):
+            continue
+
+        outcome = str(e.get("outcome", "")).strip()
+        if not outcome:
+            continue
+
+        ri, si = _risk(e.get("intervention"))
+        rc, sc = _risk(e.get("control"))
+
+        # 沒有兩組的絕對數字 → 拒絕計算
+        if ri is None or rc is None:
+            out.append({
+                "outcome": outcome,
+                "ok": False,
+                "note": "摘要只給相對指標（HR／OR／RR）或資料不全，無法計算絕對風險",
+            })
+            continue
+
+        # event_is_bad：事件本身是壞事嗎？（復發、洩漏、感染 = 壞事）
+        bad = e.get("event_is_bad")
+        bad = True if bad is None else bool(bad)
+
+        # 好處的方向：壞事變少 = 好；好事變多 = 好
+        arr = (rc - ri) if bad else (ri - rc)
+
+        item = {
+            "outcome":   outcome,
+            "ok":        True,
+            "i_label":   str(e.get("intervention", {}).get("label", "介入組")),
+            "c_label":   str(e.get("control", {}).get("label", "對照組")),
+            "i_rate":    round(ri * 100, 1),
+            "c_rate":    round(rc * 100, 1),
+            "i_raw":     si,
+            "c_raw":     sc,
+            "arr":       round(abs(arr) * 100, 1),
+            "benefit":   arr > 0,
+            "event_bad": bad,
+        }
+
+        if abs(arr) < 0.0005:                 # 差異 < 0.05%，NNT 沒有意義
+            item["nnt"] = None
+            item["kind"] = "none"
+            item["note"] = "兩組差異幾乎為零，NNT 無臨床意義"
+        else:
+            n = 1 / abs(arr)
+            item["nnt"]  = int(round(n))
+            item["kind"] = "NNT" if arr > 0 else "NNH"   # 方向錯 = 臨床錯誤
+            item["note"] = ""
+
+        out.append(item)
+
+    return out
 
 
 # ═══════════════ 相關文獻檢索 ═══════════════
@@ -286,12 +391,13 @@ def load_watch():
             [k.lower() for k in w.get("keywords", []) if k.strip()],
             [j.lower() for j in w.get("journals", []) if j.strip()],
             int(w.get("limit", 6)),
+            [f for f in w.get("focus", []) if str(f).strip()],
         )
     except Exception:
-        return [], [], 0
+        return [], [], 0, []
 
 
-WATCH_KW, WATCH_JOURNALS, WATCH_LIMIT = load_watch()
+WATCH_KW, WATCH_JOURNALS, WATCH_LIMIT, WATCH_FOCUS = load_watch()
 
 
 def match_watch(paper):
@@ -430,6 +536,15 @@ PROMPT = """你是大腸直腸外科資深主治醫師，同時熟悉實證醫�
     "O": "主要 outcome；次要 outcome"
   }},
 
+  "effect_data": [
+    {{
+      "outcome": "結果名稱（例：五年局部復發）",
+      "event_is_bad": true,
+      "intervention": {{"label": "機器手臂", "events": 10, "total": 243}},
+      "control":      {{"label": "腹腔鏡",   "events": 20, "total": 243}}
+    }}
+  ],
+
   "key_numbers": [
     "3 條。每條 ≤ 45 字。務必給絕對值，不要只給相對風險；能算 ARR／NNT 就附上（例：局部復發 4.2% vs 8.1%，ARR 3.9%，NNT≈26）",
     "挑最紮實、最不受偏誤影響的那個",
@@ -449,6 +564,23 @@ PROMPT = """你是大腸直腸外科資深主治醫師，同時熟悉實證醫�
 }}
 
 {related_block}
+━━━━━━━━━━ effect_data 的規則（很重要）━━━━━━━━━━
+
+你只負責**抽數字**，ARR / NNT 由程式計算，你不要自己算。
+
+1. 只有在摘要提供**兩組的絕對數字**時才填 effect_data：
+   - 事件數 + 總人數 → 用 events / total
+   - 或發生率(%)     → 用 rate（0–100 的數字）
+2. **只有 HR / OR / RR / p 值時，effect_data 請留空陣列 []。**
+   不可以自己把 HR 換算成 ARR —— 那在數學上做不到。
+3. event_is_bad：事件本身是壞事嗎？
+   - 復發、洩漏、感染、死亡、併發症 → true
+   - 完全緩解、存活、保肛成功       → false
+4. 最多 3 個最重要的 outcome。
+5. 寧可留空，也不要編數字。
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 論文標題：{title}
 期刊：{journal}
 發表型態：{ptype}
@@ -667,6 +799,29 @@ def build_related_block(related):
     return "\n".join(lines) + "\n"
 
 
+def build_focus_block(paper):
+    """命中追蹤時，要求模型用「你的研究角度」讀這篇，而不是泛泛而談。"""
+    if not paper.get("watched") or not WATCH_FOCUS:
+        return ""
+    hits = "、".join(paper["watched"])
+    lines = [
+        "",
+        "━━━━━━━━━━ ⚠️ 這篇命中你的追蹤主題 ━━━━━━━━━━",
+        f"命中：{hits}",
+        "",
+        "請**特別**評估下列問題（這是使用者正在做的研究）：",
+    ]
+    lines += [f"  {i}. {f}" for i, f in enumerate(WATCH_FOCUS, 1)]
+    lines += [
+        "",
+        "把這些評估寫進 key_numbers / cautions / action，不要另開欄位。",
+        "若摘要無法回答某一項，就在 unassessable 裡指出來。",
+        "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+        "",
+    ]
+    return "\n".join(lines)
+
+
 def summarize(paper, related=None):
     if not API_KEY:
         return None
@@ -676,7 +831,7 @@ def summarize(paper, related=None):
         journal=paper["journal"],
         ptype=paper["ptype"],
         abstract=paper["abstract"][:6000],
-        related_block=build_related_block(related or []),
+        related_block=build_related_block(related or []) + build_focus_block(paper),
     )
 
     for attempt in range(1, MAX_RETRY + 1):
@@ -691,7 +846,7 @@ def summarize(paper, related=None):
                 },
                 json={
                     "model": MODEL,
-                    "max_tokens": 8000,
+                    "max_tokens": 8500,
                     "messages": [{"role": "user", "content": prompt}],
                 },
                 timeout=90,
@@ -768,6 +923,7 @@ def summarize(paper, related=None):
                 "action":         str(data.get("action", "")).strip(),
 
                 "pico":           {k: str(pico.get(k, "")).strip() for k in ("P", "I", "C", "O")},
+                "effects":        compute_effects(data.get("effect_data")),
                 "key_numbers":    as_list(data.get("key_numbers"), 4),
                 "cautions":       as_list(data.get("cautions"), 3),
                 "unassessable":   as_list(data.get("unassessable")),
@@ -924,9 +1080,22 @@ def main():
     papers = fetch_details(ids)
     log(f"   有摘要可用：{len(papers)} 篇")
 
-    # ── 選片：高分文章 + 所有 Review ──
+    # ── 選片：追蹤命中 + 高分 + Review ──
     total = len(papers)
     papers, note = select(papers)
+
+    # 🛑 每日硬上限 —— 防止追蹤關鍵字設太寬導致暴量燒錢
+    if len(papers) > DAILY_HARD_LIMIT:
+        log(f"\n🛑 選出 {len(papers)} 篇，超過每日硬上限 {DAILY_HARD_LIMIT} 篇。")
+        log("   常見原因：追蹤關鍵字設太寬，或當天 Review 暴量。")
+        watched_ps = [p for p in papers if p.get("watched")]
+        rest       = [p for p in papers if not p.get("watched")]
+        room       = max(0, DAILY_HARD_LIMIT - len(watched_ps))
+        papers = sorted(watched_ps[:DAILY_HARD_LIMIT] + rest[:room],
+                        key=rank_score, reverse=True)
+        log(f"   → 保留 {len(papers)} 篇（🔖 追蹤命中優先保留，不會被砍）")
+        note += f"（已套用硬上限 {DAILY_HARD_LIMIT}）"
+
     log(f"\n🏅 選片：{note}（掃了 {total} 篇）")
     for p in papers:
         jif = p.get("impact_factor")
@@ -991,11 +1160,27 @@ def main():
 
     p_in, p_out = price_of(MODEL)
     cost = tok_in / 1e6 * p_in + tok_out / 1e6 * p_out
-    log("\n" + "─" * 56)
-    log(f"  新生成 {n_new} 篇 · 快取 {n_cached} 篇 · 失敗 {n_fail} 篇")
-    log(f"  Token: {tok_in:,} in / {tok_out:,} out")
-    log(f"  本次費用約 ${cost:.4f} USD")
+
+    n_watch = sum(1 for p in papers if p.get("watched"))
+    n_rev   = sum(1 for p in papers if is_review(p))
+    n_eff   = sum(1 for p in papers if p.get("effects"))
+
+    log("\n" + "═" * 56)
+    log("  今日結算")
     log("─" * 56)
+    log(f"  PubMed 掃描        {total} 篇")
+    log(f"  送 Claude 分析      {len(papers)} 篇")
+    log(f"    🔖 追蹤命中       {n_watch} 篇")
+    log(f"    📖 Review        {n_rev} 篇")
+    log(f"  快取命中           {n_cached} 篇（不收費）")
+    log(f"  實際新分析         {n_new} 篇")
+    log(f"  失敗              {n_fail} 篇")
+    log(f"  可驗算 ARR/NNT     {n_eff} 篇")
+    log("─" * 56)
+    log(f"  Token   {tok_in:,} in / {tok_out:,} out")
+    log(f"  model   {MODEL}  (${p_in}/${p_out} per MTok)")
+    log(f"  本次費用  約 ${cost:.4f} USD")
+    log("═" * 56)
     log("\n🎉 完成\n")
 
 

@@ -161,6 +161,8 @@ icons/              App 圖示
 
 fetch_papers.py     每日收集（GitHub Actions 跑）
 backfill.py         回補歷史（手動觸發）
+validate_data.py    資料驗證 —— 壞資料不准上網站
+tests.py            37 條回歸測試
 requirements.txt
 
 journals.json       IF 對照表（journalmetrics 2026，5,817 個 ISSN）— 自動產生，不用動
@@ -176,6 +178,88 @@ data/
   _cache_v3.json    PMID 快取 — 避免重複付費
   YYYY-MM-DD.json   每日文獻
 ```
+
+---
+
+## 🛡️ 可靠性機制（2026-07-13 新增）
+
+這一批不是「加功能」，是**防止系統靜默出錯**。
+
+### 1. ARR / NNT 由 Python 計算，模型只負責抽數字
+
+**為什麼：** 模型的多步驟算術會出錯，而 **NNT 和 NNH 搞反是真正的臨床錯誤** —— 你會拿去跟病人講。
+
+```
+Claude 只輸出：介入組 25/200，對照組 12/200，事件是壞事
+
+Python 算：
+  12.5% vs 6.0%  →  ARR 6.5%  →  NNH 15   ⚠️ 有害
+                                   ↑
+                    模型很可能寫成「NNT 15」（每 15 人多救 1 個）
+                    方向完全相反。Python 不會。
+```
+
+**最重要的是它會「拒絕計算」：** 摘要只給 HR / OR / RR 時，ARR 在數學上算不出來。
+Prompt 明確禁止換算，Python 直接回報「摘要資料不足」。
+
+卡片上這一區標示「**程式驗算（非模型口述）**」，跟模型口述的 `關鍵數據` 分開。
+
+### 2. 每日成本硬上限
+
+```python
+DAILY_HARD_LIMIT = 25   # 每天最多送 25 篇給 Claude
+```
+
+追蹤關鍵字設太寬、或某天 Review 暴量 → 會被砍到 25 篇。
+**🔖 追蹤命中的優先保留，不會被砍掉。**
+
+### 3. `validate_data.py` —— 壞資料不准上網站
+
+每天 commit 前跑。檢查必要欄位、enum 合法值、score 範圍、陣列型別、
+`added_at` 時區格式、`count` 對不對、PMID 有沒有重複、NNT/NNH 是不是正整數。
+
+**驗證失敗 → exit 1 → workflow 不 commit → 網站維持舊資料。**
+
+實測注入 5 個錯誤（score=15、relevance="超級相關"、cautions 給字串、
+added_at="剛剛"、count 對不上）→ 5 個全被抓出來，正確擋下。
+
+### 4. `tests.py` —— 37 條回歸測試
+
+**每一條都對應一個真的發生過的 bug**，而且全都是**靜默的**（不報錯，只給你錯答案）：
+
+| 測試 | 防的是 |
+|---|---|
+| JCO 的 IF > 40 | 正規化撞名把 44.7 變成 2.5 |
+| 介入組較差 → NNH 不是 NNT | 方向搞反的臨床錯誤 |
+| 只有 HR → 拒絕計算 | 模型硬算 ARR |
+| 0 分的 POUR 被 20 篇 Lancet 包圍仍選中 | 追蹤機制失效 |
+| 斜體標題不截斷 | `<i>E. coli</i>` 把標題砍半 |
+| thinking + text 抓得到 text | Sonnet 5 的回應結構 |
+| 維他命 D 論文 → 無相關前作 | TF-IDF 硬掰關聯 |
+
+**每天 workflow 會先跑測試，不過就不 commit。**
+
+### 5. 追蹤命中 → 用研究者角度分析
+
+命中 `watch.json` 的關鍵字時，prompt 會多一段：
+
+```
+⚠️ 這篇命中你的追蹤主題（hemorrhoidectomy、urinary retention）
+
+請特別評估：
+  1. 是否提供 POUR 的絕對風險（不是只有 OR/RR）
+  2. 是否找出可改變的危險因子
+  3. 是否比較麻醉、止痛（尤其 diclofenac）、導尿策略
+  4. 能不能改變痔瘡術後照護流程
+  5. 跟現有文獻的 POUR 發生率相比是高是低
+```
+
+追蹤命中不再只是「強制納入」，而是**真的用你的研究問題去讀它**。
+編輯 `watch.json` 的 `focus` 欄位可改。
+
+### 6. 醫療免責聲明
+
+日期抽屜底部 + 捲到底時顯示。
 
 ---
 
