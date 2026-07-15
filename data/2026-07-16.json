@@ -1,0 +1,1245 @@
+{
+ "date": "2026-07-16",
+ "generated_at": "2026-07-16T07:06:50+08:00",
+ "count": 18,
+ "papers": [
+  {
+   "pmid": "42454054",
+   "title": "Association between OLD and IBD: a systematic review and meta-analysis",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.3389/fmed.2024.1447716",
+   "ptype": "Systematic Review, Meta-Analysis",
+   "ptype_list": [
+    "Systematic Review",
+    "Meta-Analysis"
+   ],
+   "authors": "Ding C, Wang Y, Sun T, Liu Z",
+   "abstract": "OBJECTIVE: This study aimed to systematically evaluate the bidirectional association between obstructive lung diseases (OLD) [including chronic obstructive pulmonary disease (COPD), asthma, and bronchiectasis] and inflammatory bowel disease (IBD) [including Crohn's disease (CD) and ulcerative colitis (UC)].\nMETHODS: Following the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines, we conducted a systematic search of the PubMed, Embase, and Cochrane Library databases to identify relevant observational studies published up to 30 June 2025. The included studies were cohort studies, case-control studies, and cross-sectional studies that reported relative risk (RR), hazard ratio (HR), or odds ratio (OR) with 95% confidence intervals (CIs). Study quality was assessed using the Newcastle-Ottawa Scale (NOS), and data were analyzed using random effects or fixed effects models. HRs, RRs, and ORs were analyzed separately according to the direction of association and the disease subtype.\nRESULTS: A total of 30 observational studies were included. In the estimate-stratified analyses, IBD was associated with an increased risk of subsequent COPD, while COPD was generally associated with increased risks of subsequent CD and UC, although the COPD-to-CD and COPD-to-UC analyses showed substantial heterogeneity. For bronchiectasis, available evidence suggested a positive association with IBD; however, the pooled estimate for IBD and subsequent bronchiectasis was imprecise and should be interpreted with caution. For asthma, the association was more consistent: IBD was associated with an increased risk of subsequent asthma in both HR- and OR-based analyses, and asthma was also associated with subsequent IBD in the HR-based analysis. The bidirectional association was generally stronger and more consistent for CD than for UC.\nCONCLUSION: This systematic review and meta-analysis supports positive associations between OLD and IBD, particularly for COPD with the IBD subtypes and for asthma with IBD, especially CD. These associations should be interpreted according to the OLD subtype and the age context. Clinicians should be attentive to respiratory comorbidities in patients with IBD, and appropriate respiratory symptom assessment or screening may help early identification and management.\nSYSTEMATIC REVIEW REGISTRATION: https://www.crd.york.ac.uk/prospero/, identifier CRD420251169706.",
+   "watched": [],
+   "related": [],
+   "title_zh": "阻塞性肺病（OLD）與發炎性腸道疾病（IBD）之相關性：系統性回顧與統合分析",
+   "abstract_zh": "目的：本研究旨在系統性評估阻塞性肺病（OLD，包括慢性阻塞性肺病COPD、氣喘、支氣管擴張症）與發炎性腸道疾病（IBD，包括克隆氏症CD與潰瘍性大腸炎UC）之間的雙向關聯。方法：依循PRISMA指引，系統性搜尋PubMed、Embase及Cochrane Library資料庫，納入至2025年6月30日發表之相關觀察性研究。納入研究為世代研究、病例對照研究及橫斷面研究，需報告相對風險（RR）、風險比（HR）或勝算比（OR）及95%信賴區間。研究品質以Newcastle-Ottawa Scale（NOS）評估，並依隨機效應或固定效應模型分析數據。HR、RR、OR依關聯方向及疾病亞型分別分析。結果：共納入30篇觀察性研究。在依效應量分層之分析中，IBD與後續COPD風險增加相關；COPD也普遍與後續CD及UC風險增加相關，但COPD對CD及COPD對UC之分析呈現顯著異質性。就支氣管擴張症而言，現有證據顯示與IBD呈正相關，但IBD與後續支氣管擴張症之合併估計值不精確，須謹慎解讀。就氣喘而言，關聯較為一致：IBD與後續氣喘風險增加相關（HR及OR分析皆然），氣喘也與後續IBD相關（HR分析）。CD的雙向關聯普遍較UC更強且更一致。結論：本系統性回顧與統合分析支持OLD與IBD之間的正相關，尤其是COPD與IBD亞型之間，以及氣喘與IBD（特別是CD）之間的關聯。這些關聯應依OLD亞型及年齡脈絡解讀。臨床醫師應留意IBD病人的呼吸道共病，適當的呼吸道症狀評估或篩檢可能有助於早期辨識與處置。系統性回顧註冊：PROSPERO，編號CRD420251169706。",
+   "evidence_level": "統合分析",
+   "score": 4,
+   "score_reason": "為觀察性研究之統合分析，異質性大且摘要未提供實際效應量數值，對大腸直腸外科臨床決策實用性低，僅屬共病認知層面資訊。",
+   "relevance": "低度相關",
+   "relevance_why": "本文探討內科共病流行病學關聯，非外科介入或手術決策，僅間接與IBD病人術前共病評估有關。",
+   "novelty": "仍屬早期",
+   "one_liner": "統合分析30篇觀察性研究，探討OLD與IBD雙向關聯，發現IBD增加後續氣喘/COPD風險、反之亦然，CD關聯最明顯。",
+   "action": "目前不需改變外科做法；IBD病人若有呼吸道症狀可留意轉介評估，非手術決策依據。",
+   "pico": {
+    "P": "IBD（CD、UC）與OLD（COPD、氣喘、支氣管擴張症）病人族群，共納入30篇觀察性研究",
+    "I": "暴露於IBD（評估後續OLD風險）或暴露於OLD（評估後續IBD風險）",
+    "C": "無IBD或無OLD之對照族群",
+    "O": "主要outcome：雙向關聯風險（HR/OR/RR）；次要：依疾病亞型（CD vs UC、COPD/氣喘/支氣管擴張症）分層分析"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供實際pooled HR/OR數值，僅描述方向性關聯（正相關），無法計算絕對風險差",
+    "COPD對CD/UC之分析呈現顯著異質性（substantial heterogeneity），結果穩定性存疑",
+    "IBD對支氣管擴張症之合併估計值「不精確」（imprecise），作者自陳需謹慎解讀"
+   ],
+   "cautions": [
+    "摘要僅報告HR/OR方向性結論，未附具體數值與信賴區間，難以判斷臨床效應大小",
+    "多項次族群分析（依OLD亞型、CD vs UC）為事後分層，且異質性大，結果可能不穩定",
+    "觀察性研究之關聯無法確立因果，可能受吸菸、類固醇使用等共病干擾因子影響"
+   ],
+   "unassessable": [
+    "各研究間異質性來源",
+    "發表偏誤",
+    "IBD/OLD診斷定義一致性",
+    "各分析之絕對風險數值",
+    "NOS品質評分細節",
+    "利益衝突"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-07-16T07:00:38+08:00"
+  },
+  {
+   "pmid": "42455839",
+   "title": "Examining the feasibility and preliminary effects of resistance exercise training and creatine supplementation in individuals treated for colorectal cancer",
+   "journal": "PLoS One",
+   "journal_full": "PloS one",
+   "issn": "1932-6203",
+   "issn_linking": "1932-6203",
+   "impact_factor": 2.8,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1371/journal.pone.0353630",
+   "ptype": "Randomized Controlled Trial",
+   "ptype_list": [
+    "Randomized Controlled Trial"
+   ],
+   "authors": "Fairman C, Brooks A, Candow D, Jackson K, Bottone G, Scott B",
+   "abstract": "PURPOSE: The purpose of this trial was to assess the feasibility, acceptability and safety of a 10-week hybrid (in-clinic and virtual) resistance exercise training RET program with or without CrM in individuals treated for colorectal cancer.\nMETHODS: Twenty-seven participants were randomized to RET plus 5 grams/day of CrM (EXSUPP; n = 13) or 5 grams/day corn-starch maltodextrin placebo (EXPLA; n = 14). RET was performed three times per week. Feasibility was assessed through recruitment, retention and fidelity (percentage of prescribed RET and supplementation completed). Acceptability was evaluated using a 5-point Likert scale, and safety was monitored through adverse event reporting. Secondary outcomes (body composition, muscular strength, physical function) were assessed pre- and post-intervention using baseline-adjusted ANCOVA models and focus group interviews.\nRESULTS: Registry-based recruitment identified 1378 potentially eligible individuals and 27 of 410 assessed (6.6%) enrolled, highlighting recruitment challenges. Retention was high (24/27; 88.9%). Adherence to RET and supplementation was strong (both > 85%) with no serious adverse events reported. Participants reported high acceptability for both in person and virtual components. No significant between group differences were observed for secondary outcomes; however, both groups demonstrated modest improvements in muscular strength and short physical performance battery (SPPB) scores.\nCONCLUSIONS: A hybrid RET program with CrM was feasible, acceptable and well tolerated in individuals with colorectal cancer who were previously treated with chemotherapy.\nIMPLICATIONS FOR CANCER SURVIVORS: Hybrid supervised RET is safe, acceptable, and associated with modest improvements in strength and physical function among individuals treated for colorectal cancer. While creatine supplementation did not demonstrate clear additive effects in this pilot trial, further adequately powered studies are warranted. Trial Registration: NCT06420726.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42380848",
+     "date": "2026-07-01",
+     "title_zh": "腸胃道癌症病患的運動與營養術前強化：評估可行性、安全性及對生活品質影響的前瞻性對照試驗",
+     "score": 4,
+     "one_liner": "在GI癌症手術病患（n=38，32人完成）中比較術前運動營養強化與常規照護，發現可行安全，PCS僅單尾檢定顯著改善+4.25分。",
+     "sim": 0.256
+    }
+   ],
+   "title_zh": "探討阻力運動訓練合併肌酸補充在大腸直腸癌治療後患者中的可行性與初步療效",
+   "abstract_zh": "目的：本試驗旨在評估為期10週的混合式（門診現場+遠距）阻力運動訓練（RET）方案，合併或不合併肌酸單水合物（CrM），在大腸直腸癌治療後患者中的可行性、可接受度與安全性。方法：27名參與者隨機分配至RET合併每日5克CrM組（EXSUPP；n=13）或RET合併每日5克玉米澀粉麥芽糊精安慰劑組（EXPLA；n=14）。RET每週進行三次。可行性透過招募、保留率及執行度（RET與補充品完成百分比）評估。可接受度以5點Likert量表評估，安全性透過不良事件報告監測。次要結果（身體組成、肌肉力量、生理功能）於介入前後以基線調整ANCOVA模型評估，並輔以焦點團體訪談。結果：透過登錄系統招募發現1378名潛在符合條件者，經評估410人中僅27人（6.6%）納入，顯示招募困難。保留率高（24/27；88.9%）。RET與補充品依從性皆佳（皆>85%），無嚴重不良事件報告。參與者對現場與遠距兩種形式皆表示高接受度。兩組次要結果無顯著差異；然而兩組在肌肉力量與簡易生理功能量表（SPPB）分數皆有輕微改善。結論：合併CrM之混合式RET方案在曾接受化療之大腸直腸癌患者中具可行性、可接受度且耐受性良好。對癌症存活者之意義：具督導之混合式RET安全、可接受，並與大腸直腸癌治療後患者肌力與生理功能的輕微改善相關。本試驗中肌酸補充未顯示明確額外效益，需更大規模且統計檢力充足之研究進一步驗證。試驗註冊：NCT06420726。",
+   "evidence_level": "RCT",
+   "score": 3,
+   "score_reason": "小型可行性試驗（n=27），次要療效指標明顯underpowered且無顯著組間差異，對台灣大腸直腸外科臨床決策實用性有限。",
+   "relevance": "低度相關",
+   "relevance_why": "此為治療後運動復健與營養補充的可行性研究，非手術介入，對外科手術決策影響極小。",
+   "novelty": "仍屬早期",
+   "one_liner": "在大腸癌治療後患者（n=27）中，比較RET+肌酸與RET+安慰劑，兩組肌力與SPPB皆有改善但無顯著組間差異。",
+   "action": "目前不需改變做法；肌酸補充無明確額外效益，可視情況鼓勵術後患者參與阻力訓練復健，但等待更大型試驗驗證。",
+   "pico": {
+    "P": "曾接受化療之大腸直腸癌患者，共27人（EXSUPP n=13, EXPLA n=14）",
+    "I": "10週混合式（現場+遠距）阻力運動訓練 + 每日5克肌酸單水合物",
+    "C": "10週阻力運動訓練 + 每日5克玉米澀粉麥芽糊精安慰劑",
+    "O": "主要：可行性、可接受度、安全性；次要：身體組成、肌肉力量、生理功能（SPPB）"
+   },
+   "effects": [],
+   "key_numbers": [
+    "招募率僅6.6%（27/410名評估符合者），凸顯招募困難",
+    "保留率88.9%（24/27），RET與補充品依從性皆>85%",
+    "兩組次要結果（肌力、SPPB）皆有改善但組間差異未達顯著"
+   ],
+   "cautions": [
+    "樣本量極小（n=27），次要療效指標明顯underpowered，無法判斷肌酸真實效益",
+    "主要終點為可行性/安全性而非療效，療效數據僅屬初步、探索性觀察",
+    "招募率僅6.6%可能存在選樣偏誤，參與者可能較健康或動機較強，外部效度受限"
+   ],
+   "unassessable": [
+    "分派隱藏細節",
+    "盲法完整性（雙盲但未說明評估者是否知情）",
+    "ITT分析方式",
+    "失訪原因",
+    "利益衝突",
+    "成本分析"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "前作為術前運動營養強化在GI癌症手術病患的可行性試驗（n=38），本篇則聚焦於治療後（含化療後）階段的阻力訓練加肌酸補充。兩者皆屬小型可行性導向試驗、皆顯示介入可行安全，但療效證據皆薄弱，共同凸顯此領域仍缺乏大規模、足夠檢力的確認性試驗。",
+   "added_at": "2026-07-16T07:00:38+08:00"
+  },
+  {
+   "pmid": "42453321",
+   "title": "Effect of physician prescribed information to the inflammatory bowel disease patients on quality of life and disease relapse: a randomised control trial",
+   "journal": "J Med Libr Assoc",
+   "journal_full": "Journal of the Medical Library Association : JMLA",
+   "issn": "1558-9439",
+   "issn_linking": "1536-5050",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1111/jan.14319",
+   "ptype": "Randomized Controlled Trial",
+   "ptype_list": [
+    "Randomized Controlled Trial"
+   ],
+   "authors": "Gavgani V, Akbari-Ekdelu P, Somi M, Mohammadpoorasl A, Mahami-Oskouei M",
+   "abstract": "BACKGROUND: Inflammatory Bowel Diseases (IBD), including Ulcerative Colitis and Crohn&s Disease, are chronic and recurrent conditions that severely impact patients' quality of life and increase the risk of complications. Providing accurate and evidence-based health information is a non-pharmacological strategy that may improve disease outcomes. This study aimed to evaluate the effect of physician-prescribed information on patients' quality of life and disease Relapse.\nMETHODS: In this randomized controlled trial, 160 patients with IBD were randomly assigned to two groups. The intervention group received a structured information prescription (IP) developed by a trained medical librarian and approved by a physician, while the control group received routine oral explanations. The World Health Organization Quality of Life Questionnaire (WHOQOL) and Time to Relapse Questionnaire (TRQ) were used to assess quality of life and Relapse, respectively. Statistical analyses included t-tests, Chi-square, and Mann-Whitney tests using Stata17 software.\nRESULTS: The Relapse rate in the intervention group was significantly lower than in the control group at both two months (12.5% vs. 87.5%, p=0.004) and four months (15% vs. 42.5%, P<0.001). The risk of Relapse in the control group was more than twice as high compared to the intervention group (Hazard ratio: 2.1; 95% CI: 1.6-2.8). The mean overall quality of life scores showed an improvement in the intervention group, while a decline was observed in the control group. A significant improvement was also indicated in all quality-of-life domains in the intervention group when compared to the control group (P < 0.001).\nCONCLUSION: Physician-prescribed information interventions significantly enhance quality of life and reduce disease Relapse in IBD patients, offering a promising complementary approach in clinical care.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42386349",
+     "date": "2026-07-02",
+     "title_zh": "針對發炎性腸道疾病（IBD）疼痛、疲勞與大便失禁之數位自我管理計畫：IBD-BOOST 隨機對照試驗之成本效益分析",
+     "score": 3,
+     "one_liner": "在780名IBD病人中比較數位自我管理計畫與常規照護，主要症狀outcome未達顯著差異，但QALY微幅增加0.016（95% CI 0.002-0.030）。",
+     "sim": 0.178
+    }
+   ],
+   "title_zh": "醫師處方資訊對發炎性腸道疾病（IBD）患者生活品質與疾病復發之影響：隨機對照試驗",
+   "abstract_zh": "背景：發炎性腸道疾病（IBD），包括潰瘍性結腸炎與克隆氏症，是慢性且反覆發作的疾病，嚴重影響患者生活品質並增加併發症風險。提供準確且基於證據的健康資訊是一種非藥物性策略，可能改善疾病結果。本研究旨在評估醫師處方資訊對患者生活品質與疾病復發的影響。方法：在此隨機對照試驗中，160名IBD患者被隨機分配至兩組。介入組接受由受訓醫學圖書館員製作並經醫師核准之結構化資訊處方（IP），對照組則接受常規口頭說明。使用世界衛生組織生活品質問卷（WHOQOL）及復發時間問卷（TRQ）分別評估生活品質與復發情況。統計分析使用t檢定、卡方檢定及Mann-Whitney檢定，並以Stata17軟體進行。結果：介入組在第2個月（12.5% vs. 87.5%，p=0.004）及第4個月（15% vs. 42.5%，P<0.001）之復發率均顯著低於對照組。對照組復發風險為介入組的兩倍以上（風險比：2.1；95%信賴區間：1.6-2.8）。介入組整體生活品質平均分數呈現改善，而對照組則呈現下降。與對照組相比，介入組在所有生活品質領域均顯示顯著改善（P < 0.001）。結論：醫師處方資訊介入可顯著提升IBD患者之生活品質並降低疾病復發，為臨床照護提供一種有前景的輔助方法。",
+   "evidence_level": "RCT",
+   "score": 3,
+   "score_reason": "數據內部矛盾（對照組復發率2個月87.5%卻在4個月降至42.5%，時間趨勢不合理）嚴重削弱可信度，且介入非手術性、與大腸直腸外科臨床實務關聯極低。",
+   "relevance": "低度相關",
+   "relevance_why": "此為IBD病人衛教資訊對生活品質與內科復發之影響研究，非手術介入，與大腸直腸外科手術決策無直接關聯。",
+   "novelty": "仍屬早期",
+   "one_liner": "在160名IBD患者中，比較醫師處方衛教資訊與常規口頭說明，4個月復發率15% vs 42.5%（HR 2.1, 95% CI 1.6-2.8）。",
+   "action": "目前不需改變外科做法；此為IBD內科衛教介入研究，且復發率數據隨時間變化不合理，需先確認原文方法學再考慮應用。",
+   "pico": {
+    "P": "160名IBD（潰瘍性結腸炎與克隆氏症）患者",
+    "I": "醫師核准之結構化資訊處方（由醫學圖書館員製作）",
+    "C": "常規口頭說明",
+    "O": "主要outcome：疾病復發率（2個月、4個月）；次要outcome：WHOQOL各領域生活品質分數"
+   },
+   "effects": [
+    {
+     "outcome": "2個月復發率",
+     "ok": true,
+     "i_label": "資訊處方",
+     "c_label": "常規口頭說明",
+     "i_rate": 12.5,
+     "c_rate": 87.5,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 75.0,
+     "benefit": true,
+     "event_bad": true,
+     "nnt": 1,
+     "kind": "NNT",
+     "note": ""
+    },
+    {
+     "outcome": "4個月復發率",
+     "ok": true,
+     "i_label": "資訊處方",
+     "c_label": "常規口頭說明",
+     "i_rate": 15.0,
+     "c_rate": 42.5,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 27.5,
+     "benefit": true,
+     "event_bad": true,
+     "nnt": 4,
+     "kind": "NNT",
+     "note": ""
+    }
+   ],
+   "key_numbers": [
+    "4個月復發率：介入組15% vs 對照組42.5%，P<0.001",
+    "復發風險比（HR）2.1，95% CI 1.6-2.8（對照組風險為介入組兩倍以上）",
+    "2個月對照組復發率87.5%，4個月卻降至42.5%，時間趨勢異常，數據可信度存疑"
+   ],
+   "cautions": [
+    "對照組復發率從2個月87.5%降至4個月42.5%，違反疾病自然史邏輯，數據內部矛盾需質疑正確性",
+    "單中心小型試驗（n=160），未提及分派隱藏、盲法、失訪率、試驗註冊等關鍵方法學細節",
+    "非外科手術族群，屬內科衛教介入，對大腸直腸外科臨床決策實用性有限"
+   ],
+   "unassessable": [
+    "分派隱藏（allocation concealment）",
+    "盲法",
+    "ITT分析",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "各組實際人數分配（僅提供比率，未列total per group）"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "先前看過的IBD-BOOST試驗評估數位自我管理計畫對IBD疼痛/疲勞/失禁與成本效益的影響（QoL微幅改善但主要症狀無顯著差異），本篇則評估另一種非藥物性介入（醫師處方衛教資訊）對復發與QoL的效果，兩者同屬IBD非藥物介入主題但工具與outcome不同，非直接延續同一研究線。",
+   "added_at": "2026-07-16T07:00:38+08:00"
+  },
+  {
+   "pmid": "42454788",
+   "title": "Fusobacterium nucleatum-derived succinic acid aggravates colitis by triggering macrophage pro-inflammatory phenotypic transformation via SUCNR1/NF-κB axis",
+   "journal": "Gut Microbes",
+   "journal_full": "Gut microbes",
+   "issn": "1949-0984",
+   "issn_linking": "1949-0976",
+   "impact_factor": 15.3,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Dec",
+   "doi": "10.1080/19490976.2026.2702183",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Zeng S, Jiang S, Sun J, Chen Y, Qiu M, Li J",
+   "abstract": "Fusobacterium nucleatum (F. nucleatum) has been increasingly implicated in the pathogenesis of inflammatory bowel disease (IBD), yet the mechanisms underlying its effects remain incompletely defined. In this study, we integrated human fecal and mucosal samples, comparative metabolomics, multiple experimental colitis models, bacterial genetic manipulation, macrophage functional assays, and host signaling analyses to identify a macrophage-centered mechanism through which F. nucleatum exacerbates colitis. We show that F. nucleatum colonization increases intestinal and systemic levels of its metabolite succinic acid, upregulates the expression of its cognate receptor SUCNR1 on intestinal macrophages, activates NF-κB signaling, and promotes pro-inflammatory macrophage activation. This macrophage inflammatory response is associated with epithelial barrier disruption, increased epithelial apoptosis, and aggravated mucosal and systemic inflammation. A fumarate reductase-deficient (frdA-KO) F. nucleatum strain with impaired succinic acid production showed a markedly reduced capacity to activate macrophage NF-κB signaling, induce macrophage inflammatory activation, and aggravate colitis, whereas exogenous succinic acid restored these effects in the frdA-KO setting. Moreover, siSUCNR1 and pharmacological NF-κB inhibition substantially attenuated succinic acid-induced macrophage inflammatory activation, supporting the involvement of a SUCNR1-NF-κB signaling cascade. Collectively, these findings demonstrate that F. nucleatum exacerbates colitis by producing succinic acid and engaging SUCNR1-NF-κB-dependent inflammatory activation of macrophages, highlighting the F. nucleatum-succinic acid-SUCNR1-NF-κB axis as a potential therapeutic target in IBD.",
+   "watched": [],
+   "related": [],
+   "title_zh": "具核梭桿菌衍生的琥珀酸經由 SUCNR1/NF-κB 軸誘發巨噬細胞促發炎表型轉換而加劇腸炎",
+   "abstract_zh": "具核梭桿菌（F. nucleatum）在發炎性腸道疾病（IBD）致病機轉中的角色日益受到重視，但其作用機制仍未完全釐清。本研究整合人類糞便與黏膜檢體、比較代謝體學、多種實驗性腸炎模型、細菌基因操作、巨噬細胞功能分析及宿主訊號傳導分析，鑑定出一個以巨噬細胞為核心的機制，說明 F. nucleatum 如何加劇腸炎。我們發現 F. nucleatum 定殖會增加腸道及全身性代謝物琥珀酸的濃度，上調腸道巨噬細胞上其同源受體 SUCNR1 的表現，活化 NF-κB 訊號傳導，並促進巨噬細胞朝促發炎方向活化。此巨噬細胞發炎反應與上皮屏障破壞、上皮細胞凋亡增加，以及黏膜與全身性發炎加劇有關。缺乏延胡索酸還原酶（frdA-KO）、琥珀酸生成能力受損的 F. nucleatum 菌株，其活化巨噬細胞 NF-κB 訊號、誘導巨噬細胞發炎活化及加劇腸炎的能力明顯降低，而外源性琥珀酸則可在 frdA-KO 情境下恢復上述效應。此外，siSUCNR1 及藥理性 NF-κB 抑制皆能顯著減弱琥珀酸誘導的巨噬細胞發炎活化，支持 SUCNR1-NF-κB 訊號級聯的參與。綜合以上發現，證實 F. nucleatum 透過產生琥珀酸並經由 SUCNR1-NF-κB 依賴性機制活化巨噬細胞發炎反應而加劇腸炎，顯示 F. nucleatum-琥珀酸-SUCNR1-NF-κB 軸為 IBD 潛在治療標的。",
+   "evidence_level": "其他",
+   "score": 3,
+   "score_reason": "設計嚴謹的基礎機制研究（動物模型＋細胞實驗＋人類檢體），可信度尚可，但對臨床實務（尤其大腸直腸外科手術決策）目前無直接應用價值。",
+   "relevance": "低度相關",
+   "relevance_why": "此為 IBD 致病機轉的基礎科學研究，非外科介入，也未涉及大腸直腸癌手術或圍術期照護。",
+   "novelty": "仍屬早期",
+   "one_liner": "在腸炎小鼠模型與細胞實驗中，F. nucleatum 經琥珀酸活化巨噬細胞 SUCNR1/NF-κB 軸，加劇黏膜發炎與上皮屏障破壞。",
+   "action": "目前不需改變做法；此為機轉研究，未提供人體治療或手術相關證據。",
+   "pico": {
+    "P": "人類糞便/黏膜檢體、多種實驗性腸炎小鼠模型、巨噬細胞培養（未提供具體人數/樣本數）",
+    "I": "F. nucleatum 定殖及其代謝物琥珀酸；frdA-KO 菌株（琥珀酸生成缺陷）",
+    "C": "野生型 F. nucleatum vs frdA-KO 菌株；有無外源性琥珀酸補充；siSUCNR1 或 NF-κB 藥理抑制 vs 對照",
+    "O": "主要：巨噬細胞促發炎活化、NF-κB 訊號活性、腸炎嚴重度；次要：上皮屏障功能、上皮凋亡、全身性發炎指標"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供具體事件數、發生率或統計數值，僅描述機轉方向性結果",
+    "frdA-KO 菌株「顯著降低」發炎活化能力，外源性琥珀酸可「恢復」效應，但無量化數據",
+    "無法計算 ARR/NNT，因摘要缺乏絕對數字"
+   ],
+   "cautions": [
+    "純動物與細胞機制研究，未涉及人體介入試驗，直接外推至臨床照護風險高",
+    "摘要未附任何統計量化數據（如 p 值、效應量），僅文字描述『增加』『減少』『恢復』，難以評估效應大小",
+    "IBD 腸炎模型結果是否適用於大腸直腸癌相關 F. nucleatum 機轉（不同疾病脈絡）尚待釐清"
+   ],
+   "unassessable": [
+    "樣本數",
+    "統計顯著性數值與信賴區間",
+    "人體介入的安全性與劑量",
+    "利益衝突",
+    "此機轉在人類 IBD 治療上的可轉譯性"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-07-16T07:00:38+08:00"
+  },
+  {
+   "pmid": "42444073",
+   "title": "Comparison of Three Minimally Invasive Surgical Approaches for Restorative Proctocolectomy in Ulcerative Colitis: A Retrospective Study",
+   "journal": "Asian J Endosc Surg",
+   "journal_full": "Asian journal of endoscopic surgery",
+   "issn": "1758-5910",
+   "issn_linking": "1758-5902",
+   "impact_factor": 1.1,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1053/j.gastro.2015.12.003",
+   "ptype": "Comparative Study",
+   "ptype_list": [
+    "Comparative Study"
+   ],
+   "authors": "Okabayashi K, Shigeta K, Matsuda S, Kitagawa Y",
+   "abstract": "INTRODUCTION: Restorative proctocolectomy (RPC) is the most frequently performed procedure for patients with ulcerative colitis (UC) requiring surgical intervention. Although several approaches to laparoscopic RPC for UC have been documented, the optimal minimally invasive surgical (MIS) approach remains to be firmly established. This study aims to compare the postoperative complication rates and surgical outcomes of three MIS approaches for RPC: laparoscopic surgery (Lap), hand-assisted laparoscopic surgery (HALS), and reduced port surgery combined with taTME (RPS + taTME).\nMETHODS: This retrospective study included 156 patients who underwent two-stage RPC for UC via laparoscopy at Keio University Hospital between February 2002 and February 2022. The influence of patient characteristics on postoperative complications and surgical outcomes was evaluated using Fisher's exact test, analysis of variance (ANOVA), or logistic regression analysis.\nRESULTS: Of the 156 patients, 60 underwent Lap, 46 underwent HALS, and 50 underwent RPS + taTME. Postoperative complication rates were 43.3% for Lap, 50.0% for HALS, and 36.0% for RPS + taTME. There were no significant differences in postoperative complications between the surgical approaches (HALS vs. Lap: odds ratio (OR) 0.54, 95% confidence interval (CI) 0.18-1.69, p = 0.29; RPS + taTME versus Lap: OR 1.57, 95% CI 0.63-3.89, p = 0.33). Operative time was significantly shorter in the HALS group, while estimated blood loss was significantly lower in the RPS + taTME group.\nCONCLUSION: This study highlights the distinct characteristics of three MIS approaches for laparoscopic RPC. The incidence of postoperative complications did not differ significantly among the techniques. These findings provide valuable insights for colorectal surgeons, facilitating the selection of optimal surgical techniques for the management of UC.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42379757",
+     "date": "2026-07-01",
+     "title_zh": "微創多臟器切除治療cT4b直腸癌之腫瘤學安全性：與開腹手術之多中心比較研究",
+     "score": 3,
+     "one_liner": "在32例cT4b直腸癌MVR病人中(開腹n=9、MIS n=23)，MIS出血量顯著較少(220 vs 2500ml)，病理與3年存活率無差異。",
+     "sim": 0.244
+    },
+    {
+     "pmid": "42400183",
+     "date": "2026-07-04",
+     "title_zh": "手術時間對高齡大腸直腸癌病人術後嚴重併發症之影響：多中心回溯性研究",
+     "score": 5,
+     "one_liner": "在1316名≥80歲大腸直腸癌手術病人中，比較手術時間≥250分與<250分，發現≥250分術後嚴重併發症風險增加（OR 1.966）。",
+     "sim": 0.212
+    }
+   ],
+   "title_zh": "潰瘍性大腸炎病人接受迴腸儲存袋肛管吻合手術（RPC）之三種微創手術方式比較：回溯性研究",
+   "abstract_zh": "背景：迴腸儲存袋肛管吻合手術（RPC）是需手術治療之潰瘍性大腸炎（UC）病人最常施行的術式。雖已有多種腹腔鏡RPC術式被報告，但何者為最佳微創（MIS）方式仍未確立。本研究旨在比較三種MIS術式—傳統腹腔鏡（Lap）、手輔助腹腔鏡（HALS）、以及縮孔手術合併經肛全直腸系膜切除術（RPS+taTME）—在RPC手術中之術後併發症發生率與手術結果。\n\n方法：本回溯性研究納入2002年2月至2022年2月間於慶應大學醫院接受兩階段腹腔鏡RPC治療之UC病人共156例。以Fisher精確檢定、變異數分析（ANOVA）或邏輯迴歸分析評估病人特徵對術後併發症及手術結果之影響。\n\n結果：156例中，60例接受Lap、46例接受HALS、50例接受RPS+taTME。術後併發症發生率分別為Lap 43.3%、HALS 50.0%、RPS+taTME 36.0%。三種手術方式間術後併發症無顯著差異（HALS vs. Lap：勝算比[OR] 0.54，95%信賴區間[CI] 0.18–1.69，p=0.29；RPS+taTME vs. Lap：OR 1.57，95% CI 0.63–3.89，p=0.33）。HALS組手術時間顯著較短，RPS+taTME組出血量顯著較少。\n\n結論：本研究呈現三種MIS RPC術式之各自特點。三種術式間術後併發症發生率無顯著差異。這些發現為大腸直腸外科醫師在UC治療選擇最佳手術技術時提供有價值的參考。",
+   "evidence_level": "回溯性研究",
+   "score": 4,
+   "score_reason": "單中心回溯性研究，三組樣本數小（46-60例）、CI寬且跨1，選案偏差風險高（taTME為較新技術，可能與時期相關），但為少見議題（UC RPC術式比較）提供實務參考。",
+   "relevance": "中度相關",
+   "relevance_why": "RPC治療UC為特定IBD手術情境，台灣多數大腸直腸外科UC手術量遠低於癌症手術，僅少數IBD專門中心會遇到此決策情境。",
+   "novelty": "再確認已知",
+   "one_liner": "在156名UC病人接受兩階段RPC中，比較Lap、HALS、RPS+taTME三種MIS術式，術後併發症率43.3%/50.0%/36.0%，無統計差異(p=0.29-0.33)。",
+   "action": "施行UC之RPC手術時，可依醫師熟悉度及手術時間（HALS較短）或出血考量（taTME較少）選擇術式，併發症風險三者相近。",
+   "pico": {
+    "P": "2002-2022年間於單一日本醫學中心接受兩階段腹腔鏡RPC治療之UC病人，共156例",
+    "I": "手輔助腹腔鏡（HALS，n=46）；縮孔手術合併taTME（RPS+taTME，n=50）",
+    "C": "傳統腹腔鏡（Lap，n=60）",
+    "O": "主要：術後併發症發生率；次要：手術時間、出血量"
+   },
+   "effects": [
+    {
+     "outcome": "術後併發症（HALS vs Lap）",
+     "ok": true,
+     "i_label": "HALS",
+     "c_label": "Lap",
+     "i_rate": 50.0,
+     "c_rate": 43.3,
+     "i_raw": "23/46",
+     "c_raw": "26/60",
+     "arr": 6.7,
+     "benefit": false,
+     "event_bad": true,
+     "nnt": 15,
+     "kind": "NNH",
+     "note": ""
+    },
+    {
+     "outcome": "術後併發症（RPS+taTME vs Lap）",
+     "ok": true,
+     "i_label": "RPS+taTME",
+     "c_label": "Lap",
+     "i_rate": 36.0,
+     "c_rate": 43.3,
+     "i_raw": "18/50",
+     "c_raw": "26/60",
+     "arr": 7.3,
+     "benefit": true,
+     "event_bad": true,
+     "nnt": 14,
+     "kind": "NNT",
+     "note": ""
+    }
+   ],
+   "key_numbers": [
+    "術後併發症率：Lap 43.3% vs HALS 50.0% vs RPS+taTME 36.0%，三組無顯著差異",
+    "HALS vs Lap併發症：OR 0.54，95% CI 0.18-1.69，p=0.29（CI跨1，未達顯著）",
+    "RPS+taTME vs Lap併發症：OR 1.57，95% CI 0.63-3.89，p=0.33（CI跨1，未達顯著）"
+   ],
+   "cautions": [
+    "單中心20年回溯資料，taTME技術較新可能與手術年代、醫師學習曲線混淆，非隨機分組",
+    "三組樣本數僅46-60例，OR之95% CI寬且跨1，統計檢力恐不足以偵測真實差異",
+    "僅報告短期併發症，未提供儲袋功能、肛門功能、生活品質等UC手術長期關鍵結果"
+   ],
+   "unassessable": [
+    "盲法",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "分組選擇之潛在混淆因子調整方式"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-07-15T07:00:18+08:00"
+  },
+  {
+   "pmid": "42446529",
+   "title": "Evaluation of serum human galectin 3 as a marker of activity in inflammatory bowel disease in comparison to fecal calprotectin",
+   "journal": "Egypt J Immunol",
+   "journal_full": "The Egyptian journal of immunology",
+   "issn": "1110-4902",
+   "issn_linking": "1110-4902",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.55133/eji.330307",
+   "ptype": "Comparative Study",
+   "ptype_list": [
+    "Comparative Study"
+   ],
+   "authors": "Salama M, Sayed M, Saad M, Ali N, Abdelwahed M, Elessawy H",
+   "abstract": "Inflammatory Bowel Disease (IBD) is a chronic and recurring inflammatory condition of the gastrointestinal system that has an unknown cause and is marked by periods of relapse and remission. Endoscopy remains the gold standard for assessing disease activity; however, noninvasive biomarkers are needed to reduce the burden of repeated invasive procedures. This study aimed to evaluate the role of serum galectin 3 as a biomarker of disease activity in IBD and compare its performance with fecal calprotectin. The study included 40 individuals who were diagnosed with active IBD ulcerative colitis (UC) or Crohn's disease, and 40 age and sex matched normal controls. Clinical assessment and laboratory investigations which included complete blood picture, C-reactive protein, fecal calprotectin, serum albumin and serum galectin 3 were measured and analyzed. Serum galectin 3 levels were higher in patients with active UC than in clinical remission patients (p<0.001) and higher in patients with Crohn's disease (p<0.001). In clinical, remission patients without full mucosal healing, serum galectin 3 was positively correlated with endoscopic disease activity represented with Mayo score, Mayo endoscopic sub-score and Ulcerative Colitis Endoscopic Index of Severity (p<0.001). The cut off value of serum galectin 3 for determining disease activity was >5.199 µg/ml with 100 % sensitivity, 92 %, specificity and accuracy of 99.6%.The combined use of Serum galectin 3, CRP and fecal calprotectin improved the performance, achieving 100% sensitivity and specificity. In conclusion, serum galectin 3 is a promising noninvasive biomarker for assessing disease activity in patients with IBD. Combined assessment with CRP and fecal calprotectin may further enhance the diagnostic accuracy.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42380492",
+     "date": "2026-07-01",
+     "title_zh": "循環 tRF-Gly-GCC 作為大腸直腸癌與克隆氏症疾病活性之生物標記",
+     "score": 3,
+     "one_liner": "在85名受試者（含大腸直腸癌、活動/非活動克隆氏症、健康對照）中，測量血清 tRF-Gly-GCC，發現其可高敏感度/特異度區分各組（如CRC vs 對照：95.8%/95.2%）。",
+     "sim": 0.265
+    },
+    {
+     "pmid": "42436336",
+     "date": "2026-07-12",
+     "title_zh": "克隆氏症內視鏡反應與緩解之縱向疾病進展模型",
+     "score": 3,
+     "one_liner": "在BERGAMOT試驗155名安慰劑組克隆氏症病人中，建立IRT-BI-FREM模型預測內視鏡反應，準確度89%（有反應者）/85%（無反應者）。",
+     "sim": 0.155
+    },
+    {
+     "pmid": "42436336",
+     "date": "2026-07-13",
+     "title_zh": "克隆氏症內視鏡反應與緩解之縱向疾病進展模型",
+     "score": 3,
+     "one_liner": "在BERGAMOT試驗155名安慰劑組克隆氏症病人中，建立IRT-BI-FREM模型預測內視鏡反應，準確度89%（有反應者）/85%（無反應者）。",
+     "sim": 0.155
+    }
+   ],
+   "title_zh": "評估血清人類半乳糖凝集素3作為發炎性腸道疾病活性指標並與糞便鈣衛蛋白比較",
+   "abstract_zh": "發炎性腸道疾病（IBD）是一種病因不明、以緩解與復發交替為特徵的慢性、反覆性胃腸道發炎疾病。內視鏡檢查仍是評估疾病活性的黃金標準；然而，需要非侵入性生物標記以減少重複侵入性檢查的負擔。本研究旨在評估血清半乳糖凝集素3（galectin 3）作為IBD疾病活性生物標記的角色，並與糞便鈣衛蛋白（fecal calprotectin）比較其表現。研究納入40名診斷為活動期IBD（潰瘍性結腸炎UC或克隆氏症）的個案，以及40名年齡與性別匹配的正常對照組。進行臨床評估與實驗室檢查，包括全血球計數、C反應蛋白、糞便鈣衛蛋白、血清白蛋白與血清半乳糖凝集素3並加以分析。活動期UC病人的血清半乳糖凝集素3高於臨床緩解病人（p<0.001），克隆氏症病人亦然（p<0.001）。在未達完全黏膜癒合的臨床緩解病人中，血清半乳糖凝集素3與內視鏡疾病活性（以Mayo score、Mayo內視鏡子分數、潰瘍性結腸炎內視鏡嚴重度指數表示）呈正相關（p<0.001）。血清半乳糖凝集素3用於判斷疾病活性的切點值為>5.199 µg/ml，敏感度100%、特異度92%、準確度99.6%。合併使用血清半乳糖凝集素3、CRP與糞便鈣衛蛋白可提升表現，達到100%敏感度與特異度。結論：血清半乳糖凝集素3是評估IBD病人疾病活性的一個有前景的非侵入性生物標記。合併CRP與糞便鈣衛蛋白評估可能進一步提升診斷準確度。",
+   "evidence_level": "診斷性研究",
+   "score": 3,
+   "score_reason": "樣本數僅40例、單一切點值敏感度/特異度近乎完美易受小樣本與過度配適影響，且與大腸直腸外科手術決策關聯性低。",
+   "relevance": "低度相關",
+   "relevance_why": "此為IBD內科疾病活性生物標記研究，非外科介入或手術決策相關議題。",
+   "novelty": "仍屬早期",
+   "one_liner": "在40名活動期IBD病人與40名對照中，比較血清galectin 3與糞便鈣衛蛋白，發現galectin 3診斷準確度達99.6%（切點>5.199 µg/ml）。",
+   "action": "目前不需改變做法：此為內科生物標記診斷研究，樣本小且未涉及手術適應症或術式選擇。",
+   "pico": {
+    "P": "40名活動期IBD（UC或克隆氏症）病人，另設40名年齡性別匹配正常對照",
+    "I": "血清galectin 3檢測",
+    "C": "糞便鈣衛蛋白（fecal calprotectin）",
+    "O": "主要：與內視鏡疾病活性（Mayo score等）之相關性及診斷準確度；次要：合併CRP與鈣衛蛋白之診斷表現"
+   },
+   "effects": [],
+   "key_numbers": [
+    "血清galectin 3切點>5.199 µg/ml：敏感度100%、特異度92%、準確度99.6%",
+    "合併galectin 3+CRP+糞便鈣衛蛋白：敏感度100%、特異度100%",
+    "活動期UC與克隆氏症病人galectin 3均顯著高於緩解病人（p<0.001）"
+   ],
+   "cautions": [
+    "樣本數僅40例病人，切點值準確度99.6%極可能為小樣本過度配適，缺乏外部驗證",
+    "僅報告敏感度/特異度，未提供信賴區間，統計不確定性無法評估",
+    "為橫斷面比較，因果與長期臨床應用價值未經證實，且非外科決策相關指標"
+   ],
+   "unassessable": [
+    "盲法",
+    "疾病嚴重度分佈細節",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "統計信賴區間"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。先前論文為tRF-Gly-GCC生物標記與克隆氏症內視鏡反應模型，雖同屬IBD生物標記主題，但標記物與研究設計完全不同，無法建立直接關聯。",
+   "added_at": "2026-07-15T07:00:18+08:00"
+  },
+  {
+   "pmid": "42446881",
+   "title": "Colorectal Cancer Treatment Delay Thresholds and Metastasis Risk",
+   "journal": "JAMA Netw Open",
+   "journal_full": "JAMA network open",
+   "issn": "2574-3805",
+   "issn_linking": "2574-3805",
+   "impact_factor": 11.7,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1001/jamanetworkopen.2026.23057",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Nguyen C, Skaar T, Imperiale T, Johnson T, Monahan P, Turk A",
+   "abstract": "IMPORTANCE: Timely treatment in colorectal cancer (CRC) may influence the disease course and, thus, outcomes, but optimal delay thresholds remain uncertain. Identifying pathway-specific time-to-treatment initiation (TTI) effects can guide benchmarks and policies for coordinated, timely care.\nOBJECTIVE: To evaluate the association between TTI and 3-year metastasis risk in patients with newly diagnosed nonmetastatic CRC undergoing curative-intent surgery, with attention to variation by treatment pathway.\nDESIGN, SETTING, AND PARTICIPANTS: This cohort study of insured US patients with nonmetastatic CRC used deidentified administrative claims from Optum's Clinformatics Data Mart. Eligible individuals were adults aged 40 years or older with incident nonmetastatic CRC diagnosed during January 1, 2017, to December 31, 2021, who underwent curative-intent surgery within 1 year of diagnosis and had continuous coverage 1 year before and after. Data were analyzed June 2025.\nEXPOSURES: TTI was defined as days from CRC diagnosis to the first receipt of cancer-directed therapy (surgery, chemotherapy, or radiation). Patients were categorized into 4 treatment pathways: surgery with or without radiation, surgery followed by adjuvant therapy with or without radiation, neoadjuvant therapy followed by surgery with or without radiation, and trimodality therapy (neoadjuvant therapy, followed by surgery, followed by adjuvant therapy with or without radiation).\nMAIN OUTCOMES AND MEASURES: The outcome was 3-year cumulative incidence of metastasis. XGBoost identified optimal TTI thresholds, and Fine-Gray models with death as a competing risk evaluated these thresholds and estimated their associations with metastasis.\nRESULTS: Among 11 927 patients (mean [SD] age, 70.7 [10.8] years; 6007 women [50.4%]; 1251 Black [10.5%], 7948 White [66.6%]), 4539 (38.0%) had moderate or severe comorbidity. Over 3 years, 1438 patients (12.1%) developed metastasis. Longer TTIs were associated with higher metastasis risk, varying by treatment pathway. For surgery plus adjuvant therapy, TTIs of 4 to 46 days (subdistribution hazard ratio [sHR], 1.27; 95% CI, 1.04-1.55) and 47 days or longer (sHR, 1.55; 95% CI, 1.08-2.23) were significantly associated with increased risk vs zero to 3 days. For surgery followed by radiation, delays of 223 days or longer showed higher risk (sHR, 2.00; 95% CI, 0.95-4.25) than TTI up to 222 days, although these results were not significant. For neoadjuvant therapy plus surgery, TTI of 68 days or longer were associated with higher risk (sHR, 2.66; 95% CI, 1.02-6.94) than TTI up to 67 days. For patients receiving trimodality therapy, there was no association between TTI and risk of metastasis.\nCONCLUSIONS AND RELEVANCE: In this cohort study, treatment delays were associated with higher, pathway-specific metastasis risk. These findings support pathway-tailored benchmarks for treatment initiation and highlight the importance of integrated care in reducing delays and improving timely, equitable, cost-effective CRC care.",
+   "watched": [],
+   "related": [],
+   "title_zh": "大腸直腸癌治療延遲閾值與轉移風險",
+   "abstract_zh": "重要性：大腸直腸癌（CRC）的及時治療可能影響疾病病程及預後，但最適當的延遲閾值仍不明確。找出治療路徑特異性的治療起始時間（TTI）效應，可作為協調性、及時照護之基準與政策依據。目的：評估在接受根治性手術之新診斷非轉移性CRC患者中，TTI與3年轉移風險之關聯，並關注不同治療路徑間的差異。設計、場域與參與者：本世代研究使用Optum's Clinformatics Data Mart之去識別化行政理賠資料，納入2017年1月1日至2021年12月31日期間新診斷非轉移性CRC、於診斷後1年內接受根治性手術、且診斷前後各1年皆有連續保險涵蓋之40歲以上成人。資料於2025年6月進行分析。暴露：TTI定義為自CRC診斷至首次接受癌症導向治療（手術、化療或放射治療）之天數。患者分為4種治療路徑：單純手術（合併或不合併放療）、手術後輔助治療（合併或不合併放療）、新輔助治療後手術（合併或不合併放療）、及三模式治療（新輔助治療、手術、輔助治療，合併或不合併放療）。主要結果與測量：結果為3年轉移累積發生率。使用XGBoost找出最適TTI閾值，並以Fine-Gray模型（將死亡視為競爭風險）評估這些閾值並估計其與轉移之關聯。結果：在11,927名患者中（平均[SD]年齡70.7[10.8]歲；女性6007人[50.4%]；黑人1251人[10.5%]，白人7948人[66.6%]），4539人（38.0%）有中重度共病。3年間，1438名患者（12.1%）發生轉移。較長的TTI與較高的轉移風險相關，且依治療路徑而異。對於手術加輔助治療者，TTI 4至46天（子分布風險比[sHR]，1.27；95% CI，1.04-1.55）及47天以上（sHR，1.55；95% CI，1.08-2.23）相較於0至3天顯著增加風險。對於手術後放療者，延遲223天以上顯示較高風險（sHR，2.00；95% CI，0.95-4.25），但相較於TTI 222天以內未達統計顯著。對於新輔助治療加手術者，TTI 68天以上相較於67天以內風險較高（sHR，2.66；95% CI，1.02-6.94）。對於接受三模式治療者，TTI與轉移風險無關聯。結論與相關性：本世代研究顯示，治療延遲與較高的、路徑特異性的轉移風險相關。此發現支持依治療路徑量身訂做治療起始時間之基準，並凸顯整合照護在減少延遲、改善及時、公平且具成本效益之CRC照護上的重要性。",
+   "evidence_level": "回溯性研究",
+   "score": 6,
+   "score_reason": "樣本量大且方法學嚴謹（競爭風險模型），但屬觀察性資料、閾值為資料驅動所得，因適應症混淆與多重比較問題，因果推論證據力有限。",
+   "relevance": "高度相關",
+   "relevance_why": "直接處理大腸直腸外科臨床排程議題（手術後多久該開始輔助治療、新輔助治療後多久該手術），具實務決策參考價值。",
+   "novelty": "仍屬早期",
+   "one_liner": "在11,927名接受根治性手術之非轉移性CRC患者中，發現手術後輔助治療延遲47天以上，3年轉移風險增加（sHR 1.55），效應依治療路徑而異。",
+   "action": "手術後銜接輔助化療者，盡量於46天內啟動；新輔助治療後手術者留意68天閾值；三模式治療則無明顯時間壓力證據。",
+   "pico": {
+    "P": "11,927名40歲以上、2017-2021年新診斷非轉移性大腸直腸癌、接受根治性手術之美國保險患者",
+    "I": "較長的治療起始時間（TTI），依4種治療路徑分別以XGBoost找出之閾值分組",
+    "C": "各路徑中較短的TTI組（如0-3天、67天以內等）",
+    "O": "主要：3年轉移累積發生率；次要：無"
+   },
+   "effects": [],
+   "key_numbers": [
+    "手術+輔助治療：TTI 47天以上 sHR 1.55（95% CI 1.08-2.23）vs 0-3天",
+    "新輔助治療+手術：TTI 68天以上 sHR 2.66（95% CI 1.02-6.94），CI極寬",
+    "手術+放療：延遲223天以上 sHR 2.00（95% CI 0.95-4.25），未達統計顯著",
+    "三模式治療：TTI與轉移風險無關聯（陰性結果）"
+   ],
+   "cautions": [
+    "TTI閾值由XGBoost資料驅動找出，屬事後多重比較，未經外部驗證，易有過度配適之虞",
+    "觀察性研究存在適應症混淆：延遲治療者可能本身共病較重或病情較複雜，而非單純延遲本身致病",
+    "多個路徑之信賴區間極寬（如1.02-6.94），樣本分層後事件數可能偏少，結果不穩定"
+   ],
+   "unassessable": [
+    "共病、腫瘤分期等混淆因子之調整細節",
+    "失訪率",
+    "利益衝突",
+    "試驗註冊",
+    "資料完整性與編碼誤差"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-07-15T07:00:18+08:00"
+  },
+  {
+   "pmid": "42445197",
+   "title": "Taxonomy, carcinogenic mechanisms, and advanced molecular diagnosis of Fusobacterium nucleatum in colorectal cancer: from bench to clinical practice",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1128/spectrum.05123-22",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Li B, Dong Y, Dai Y, Zhang M, Zou Z, Yang H",
+   "abstract": "Fusobacterium nucleatum (Fn) is recognized as a novel oncogenic organism closely correlated with colorectal cancer (CRC). Fn can induce gut dysbiosis and promote tumorigenesis through various mechanisms, including activation of oncogenic signaling, modulation of the immune microenvironment, metabolic reprogramming, and epigenetic regulation. Although recent technological breakthroughs have yielded high-resolution Fn detection indicators, clinical translation remains compromised by subspecies heterogeneity, emerging taxonomic updates, and non-standardization of diagnostic platforms. This review integrates recent developments regarding Fn pathogenic mechanisms and taxonomic identification in CRC, including genetic heterogeneity analysis at the species and subspecies levels, elucidation of multi-dimensional oncogenic molecular mechanisms, and application of high-resolution detection technologies. Special focus is placed on advancing these findings toward early noninvasive diagnostic markers. Additionally, we discuss the limitations of current studies, technical bottlenecks, and potential directions for future research to pave the way for standardized clinical screening.C.",
+   "watched": [],
+   "related": [],
+   "title_zh": "大腸直腸癌中具核梭桿菌（Fusobacterium nucleatum）之分類學、致癌機轉與進階分子診斷：從實驗室到臨床實務",
+   "abstract_zh": "具核梭桿菌（Fn）已被認為是一種與大腸直腸癌（CRC）密切相關的新型致癌微生物。Fn可透過多種機轉誘發腸道菌叢失衡並促進腫瘤發生，包括活化致癌訊息傳導路徑、調節免疫微環境、代謝重新編程，以及表觀遺傳調控。儘管近期技術突破已產生高解析度的Fn偵測指標，但因亞種異質性、分類學持續更新，以及診斷平台缺乏標準化，臨床轉譯仍受限制。本綜述整合了近期關於Fn在CRC中致病機轉與分類鑑定的發展，包括物種與亞種層級的基因異質性分析、多維度致癌分子機轉之闡明，以及高解析度偵測技術之應用。特別聚焦於將這些發現推展為早期非侵入性診斷標記。此外，我們也討論了現有研究之限制、技術瓶頸，以及未來研究之潛在方向，以期為標準化臨床篩檢鋪路。",
+   "evidence_level": "綜述",
+   "score": 3,
+   "score_reason": "純機轉與分類學回顧，無原始臨床數據，對台灣大腸直腸外科日常決策無直接影響，僅供了解未來診斷標記發展方向。",
+   "relevance": "低度相關",
+   "relevance_why": "內容聚焦分子機轉與微生物分類，非外科介入或現行可用之臨床工具，屬基礎/轉譯研究。",
+   "novelty": "仍屬早期",
+   "one_liner": "本文回顧Fn在CRC中的致癌機轉、亞種分類與新興偵測技術，探討其作為早期非侵入性診斷標記之潛力，尚無臨床數據。",
+   "action": "目前不需改變做法；此為機轉與技術回顧，Fn相關診斷工具尚未標準化，暫無可直接應用於臨床之項目。",
+   "pico": {
+    "P": "大腸直腸癌相關基礎與轉譯研究文獻（無特定病人族群或人數）",
+    "I": "Fn分類學更新、致癌分子機轉、高解析度偵測技術之整合回顧",
+    "C": "無對照組",
+    "O": "闡明Fn致癌機轉與分類異質性；探討發展為早期非侵入性診斷標記之可行性"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供任何具體臨床數據、發生率或統計檢定結果",
+    "屬機轉與技術回顧，無量化療效或診斷準確度數字可供抽取",
+    "未提及任何特定偵測技術之敏感度／特異度數值"
+   ],
+   "cautions": [
+    "綜述性質，作者可能選擇性引用支持Fn致癌角色之研究，存在敘事偏誤風險",
+    "現階段偵測技術異質性高、無標準化平台，臨床可重複性與轉譯性尚待驗證",
+    "亞種層級分類仍在更新中，機轉研究多來自體外或動物模型，臨床因果關係尚未確立"
+   ],
+   "unassessable": [
+    "盲法",
+    "allocation concealment",
+    "ITT",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本分析",
+    "診斷準確度之敏感度/特異度數值"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-07-15T07:00:18+08:00"
+  },
+  {
+   "pmid": "42445193",
+   "title": "Traditional Chinese medicine as a potential barrier-oriented sensitization strategy for immune checkpoint blockade in microsatellite-stable colorectal cancer: from resistance mechanisms to translational validation",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1186/s12575-024-00258-x",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Wang D, Wang Y, Wang X",
+   "abstract": "BACKGROUND: Microsatellite-stable colorectal cancer (MSS-CRC) is refractory to immune checkpoint inhibitors (ICIs), mainly because of low tumor immunogenicity, impaired antigen presentation, immune exclusion, and myeloid- or Treg-dominated immunosuppression. Traditional Chinese medicine (TCM), characterized by multi-component and multi-target regulation, may provide complementary approaches for modulating these resistance barriers. This review summarizes the rationale, evidence, and translational requirements for integrating TCM with ICI-based therapy in MSS-CRC.\nPURPOSE: To evaluate the potential of TCM to regulate immune-resistance mechanisms in MSS-CRC and to propose a barrier-oriented framework for rational TCM-ICI combination strategies.\nMETHODS: A structured narrative review was conducted in PubMed, Web of Science, Embase, Scopus, CNKI, and Wanfang for studies published from January 2019 to March 2026. Searches covered MSS/pMMR CRC, immune checkpoint blockade, TCM interventions, tumor microenvironment, microbiota, immunometabolism, syndrome patterns, active constituents, and herbal quality control. Eligible studies addressed MSS/pMMR CRC immunotherapy, TCM or phytomedicine-based interventions, or immune-resistance mechanisms. Direct MSS/pMMR CRC studies involving ICI combinations were prioritized, while broader CRC, cross-cancer, pharmacological, and computational studies were used as supportive evidence.\nRESULTS: Selected TCM interventions may improve ICI responsiveness in MSS-CRC when matched to specific resistance barriers. Representative interventions include Zhenqi Fuzheng Granules, Shenqi Yichang Formula, Gegen Qinlian Decoction, modified Shenling Baizhu San, Changweiqing, and electroacupuncture-related evidence. These interventions have been linked to immunometabolic remodeling, dendritic-cell mitophagy and antigen presentation, microbiota-driven TME remodeling, Tfh-B-cell interactions, and STING-dependent immune activation. However, direct formula-specific clinical evidence for ICI sensitization in molecularly defined MSS-CRC remains limited. Clinical-translational evidence includes an early phase II study of electroacupuncture combined with fruquintinib and sintilimab in refractory MSS-mCRC, whereas most herbal-formula evidence remains preclinical or indirect. We therefore propose matching TCM interventions and active ingredients to dominant immune-resistance phenotypes and integrating syndrome-informed host-state stratification. These hypotheses require validation using causal assays, organoid-immune co-culture, single-cell/spatial omics, pharmacological standardization, and biomarker-enriched clinical trials.\nCONCLUSION: TCM may serve as a complementary, mechanism-informed candidate sensitization strategy for MSS-CRC immunotherapy, but it is not an established standard combination approach. Future translation requires formula-specific and component-level validation, reproducible immune and microbiota-metabolic biomarkers, TCM syndrome assessment, herbal quality control, safety monitoring, and clinically meaningful outcomes.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42418125",
+     "date": "2026-07-08",
+     "title_zh": "植物化學物質透過「微生物群-代謝物-受體」軸重塑抗腫瘤免疫：聚焦大腸直腸癌與免疫治療",
+     "score": 3,
+     "one_liner": "一篇綜述文章，系統整理腸道菌群代謝物與受體如何介導植化物調控CRC免疫微環境，提出可驗證的機制框架供MSS型CRC免疫治療參考。",
+     "sim": 0.151
+    }
+   ],
+   "title_zh": "傳統中醫藥作為微衛星穩定型大腸直腸癌免疫檢查點阻斷治療之潛在屏障導向增敏策略：從抗性機轉到轉譯驗證",
+   "abstract_zh": "背景：微衛星穩定型大腸直腸癌（MSS-CRC）對免疫檢查點抑制劑（ICI）反應不佳，主要因腫瘤免疫原性低、抗原呈現受損、免疫排除，以及骨髓細胞或調節性T細胞（Treg）主導之免疫抑制所致。傳統中醫藥（TCM）具多成分、多標靶調控特性，可能為調節這些抗性障礙提供輔助途徑。本綜述整理將TCM與ICI基礎治療整合於MSS-CRC之理論基礎、證據與轉譯需求。\n\n目的：評估TCM調節MSS-CRC免疫抗性機轉之潛力，並提出屏障導向架構以合理設計TCM-ICI合併策略。\n\n方法：於PubMed、Web of Science、Embase、Scopus、CNKI及萬方資料庫進行結構化敘述性文獻回顧，涵蓋2019年1月至2026年3月發表之研究。檢索範圍包括MSS/pMMR CRC、免疫檢查點阻斷、TCM介入、腫瘤微環境、微生物群、免疫代謝、證型、活性成分及中藥品質管控。納入研究需探討MSS/pMMR CRC免疫治療、TCM或植物藥介入，或免疫抗性機轉。優先納入涉及MSS/pMMR CRC與ICI合併治療之直接研究，較廣泛之CRC、跨癌種、藥理學及計算研究則作為輔助證據。\n\n結果：特定TCM介入若能對應到特定抗性障礙，可能改善MSS-CRC對ICI之反應性。代表性介入包括真氣扶正顆粒、參芪益腸方、葛根芩連湯、改良參苓白朮散、腸胃清，以及電針相關證據。這些介入與免疫代謝重塑、樹突細胞粒線體自噬與抗原呈現、微生物群驅動之腫瘤微環境重塑、濾泡輔助T細胞（Tfh）-B細胞交互作用，以及STING依賴性免疫活化有關。然而，針對分子確診MSS-CRC之ICI增敏，具方劑特異性之直接臨床證據仍有限。轉譯臨床證據包括一項電針合併呋喹替尼與信迪利單抗治療難治性MSS轉移性CRC之早期第二期研究，而多數中藥方劑證據仍屬臨床前或間接證據。我們因此提出將TCM介入與活性成分對應至主導性免疫抗性表型，並結合證型導向之宿主狀態分層。這些假說需透過因果分析、類器官-免疫共培養、單細胞/空間體學、藥理標準化，以及生物標記富集之臨床試驗加以驗證。\n\n結論：TCM可能作為MSS-CRC免疫治療之輔助、機轉導向候選增敏策略，但尚非已建立之標準合併療法。未來轉譯需進行方劑特異性與成分層級之驗證、可重現之免疫與微生物代謝生物標記、TCM證型評估、中藥品質管控、安全性監測，以及具臨床意義之結果評估。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純敘述性綜述，多數為機轉假說與臨床前證據，僅一項早期第二期研究，對台灣大腸直腸外科臨床決策幾無立即實用性。",
+   "relevance": "低度相關",
+   "relevance_why": "非外科介入，屬中醫藥與免疫治療機轉之假說性整理，與大腸直腸外科手術實務關聯極低。",
+   "novelty": "仍屬早期",
+   "one_liner": "本綜述整理TCM複方（如真氣扶正顆粒、電針等）可能透過免疫代謝與微生物群調控增強MSS-CRC對ICI反應，但直接臨床證據仍有限。",
+   "action": "目前不需改變做法；此為機轉假說性綜述，缺乏方劑特異性前瞻臨床試驗與具體療效數字。",
+   "pico": {
+    "P": "微衛星穩定型（MSS/pMMR）大腸直腸癌患者，無明確總人數（敘述性綜述，非統合分析）",
+    "I": "傳統中醫藥介入（如真氣扶正顆粒、參芪益腸方、葛根芩連湯、電針等）合併ICI",
+    "C": "無明確單一對照組（綜述整理多項獨立研究）",
+    "O": "主要：ICI反應性改善之機轉可行性；次要：免疫代謝重塑、微生物群調控、抗原呈現改善等臨床前指標"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供任何絕對事件數、反應率或存活率數字，僅提及機轉關聯",
+    "僅一項電針合併呋喹替尼與信迪利單抗之早期第二期研究，未附具體療效數據",
+    "多數TCM複方證據仍屬臨床前或間接證據，尚無方劑特異性臨床療效數字"
+   ],
+   "cautions": [
+    "敘述性回顧非系統性回顧，無PRISMA流程或品質評分，選文與詮釋可能存在作者偏誤",
+    "多數證據為臨床前（細胞/動物）或間接推論，僅少量早期臨床證據，因果關係尚未確立",
+    "將機轉關聯過度延伸為'增敏策略'框架，屬假說產生而非已驗證之治療建議"
+   ],
+   "unassessable": [
+    "樣本數",
+    "隨機分派",
+    "盲法",
+    "ITT分析",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "統計檢定與信賴區間"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "與前作（植化物-微生物群-代謝物軸調控CRC抗腫瘤免疫）主題高度重疊，本篇進一步聚焦具體TCM複方並提出屏障導向的ICI增敏框架，但同樣屬機轉假說層級，尚缺乏強臨床證據支持。",
+   "added_at": "2026-07-15T07:00:18+08:00"
+  },
+  {
+   "pmid": "42445173",
+   "title": "NAFLD-associated immune remodeling in colorectal cancer liver metastasis: mechanisms and implications for immunotherapy",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1136/jitc-2025-012345",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Wang H, Gu G",
+   "abstract": "Non-alcoholic fatty liver disease (NAFLD) affects over 30% of the global adult population and has been increasingly recognized as an adverse prognostic factor for colorectal cancer (CRC) liver metastasis (CRLM). However, the underlying immune mechanisms remain incompletely understood. This review provides a comprehensive synthesis of how NAFLD-induced lipotoxicity reshapes the hepatic immune microenvironment to create a \"fertile soil\" for CRC metastatic colonization. We delineate a hierarchical immunosuppressive network involving: (1) lipotoxic apoptosis of CD4+ T cells, depleting the helper T cell pool; (2) expansion and functional reinforcement of regulatory T cells (Tregs) through multiple mechanisms (IL-10/TGF-β/IL-35, CD25-mediated IL-2 competition, CTLA-4 engagement, and granzyme B/perforin production); (3) M2 polarization of tumor-associated macrophages; and (4) recruitment of myeloid-derived suppressor cells (MDSCs) via the CXCL5/CXCR2 axis, which suppress CD8+ T cell function. These processes collectively promote CD8+ T cell exhaustion (marked by PD-1, LAG-3, TIM-3 upregulation) and spatial mismatch with metastatic foci. Importantly, we discuss the emerging evidence linking NAFLD-driven immune dysregulation to reduced responsiveness to immune checkpoint inhibitors, while acknowledging the current limitations in direct clinical validation. By integrating mechanistic insights with therapeutic perspectives, this review offers new targets for risk stratification and combination immunotherapy in the growing NAFLD population. Non-alcoholic fatty liver disease.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42418125",
+     "date": "2026-07-08",
+     "title_zh": "植物化學物質透過「微生物群-代謝物-受體」軸重塑抗腫瘤免疫：聚焦大腸直腸癌與免疫治療",
+     "score": 3,
+     "one_liner": "一篇綜述文章，系統整理腸道菌群代謝物與受體如何介導植化物調控CRC免疫微環境，提出可驗證的機制框架供MSS型CRC免疫治療參考。",
+     "sim": 0.162
+    }
+   ],
+   "title_zh": "非酒精性脂肪肝(NAFLD)相關免疫重塑於大腸直腸癌肝轉移中的機制及其免疫治療意涵",
+   "abstract_zh": "非酒精性脂肪肝(NAFLD)影響全球超過30%成年人口，且已逐漸被認為是大腸直腸癌(CRC)肝轉移(CRLM)的不良預後因子。然而其潛在免疫機制仍未完全闡明。本綜述全面整合了NAFLD誘發的脂毒性如何重塑肝臟免疫微環境，為CRC轉移性移生創造「肥沃土壤」。我們描繪出一個階層式免疫抑制網絡，包括：(1) CD4+ T細胞的脂毒性凋亡，導致輔助型T細胞池耗竭；(2) 調節性T細胞(Tregs)透過多重機制(IL-10/TGF-β/IL-35、CD25介導的IL-2競爭、CTLA-4結合、以及granzyme B/perforin產生)擴增並強化其功能；(3) 腫瘤相關巨噬細胞的M2極化；以及(4) 透過CXCL5/CXCR2軸招募骨髓來源抑制細胞(MDSCs)，進而抑制CD8+ T細胞功能。這些過程共同促進CD8+ T細胞耗竭(以PD-1、LAG-3、TIM-3上調為標誌)，並與轉移病灶產生空間錯位。重要的是，我們討論了新興證據顯示NAFLD驅動的免疫失調與免疫檢查點抑制劑反應性降低相關，同時承認目前直接臨床驗證的局限性。透過整合機制洞見與治療展望，本綜述為日益增加的NAFLD族群提供風險分層與合併免疫治療的新標的。非酒精性脂肪肝。",
+   "evidence_level": "綜述",
+   "score": 3,
+   "score_reason": "純機制性綜述，整合現有動物與細胞層級證據，無原始臨床數據或系統性文獻回顧方法，對臨床決策的直接實用性有限。",
+   "relevance": "中度相關",
+   "relevance_why": "雖與CRLM預後及免疫治療相關，但屬基礎免疫機制整理，非外科介入或可直接應用的臨床證據。",
+   "novelty": "仍屬早期",
+   "one_liner": "本文綜述NAFLD透過脂毒性誘導的多重免疫抑制機制（Treg擴增、M2巨噬細胞極化、MDSC招募）促進CRC肝轉移並可能降低免疫治療反應性。",
+   "action": "目前不需改變做法；此為機制假說整理，尚無直接臨床驗證數據可指導CRLM病人的治療決策。",
+   "pico": {
+    "P": "無特定人數；概念性回顧NAFLD合併CRC肝轉移病人族群",
+    "I": "無介入；描述NAFLD誘發之免疫微環境改變",
+    "C": "無對照組",
+    "O": "主要：闡述NAFLD相關免疫抑制機制與CRLM移生之關聯；次要：討論對免疫檢查點抑制劑反應性之潛在影響"
+   },
+   "effects": [],
+   "key_numbers": [
+    "全球NAFLD盛行率>30%成年人口",
+    "本文未提供任何原始臨床試驗數據、事件數或統計顯著性數值",
+    "所有機制描述均基於既有文獻整合，非本研究原創數據"
+   ],
+   "cautions": [
+    "純機制綜述，缺乏原始臨床數據或系統性文獻回顧方法學支持",
+    "NAFLD與免疫檢查點抑制劑反應性降低之關聯，作者自承僅為間接證據，非直接臨床驗證",
+    "多重免疫抑制機制之因果關係主要來自動物模型與細胞實驗，外推至人類CRLM病人尚待證實"
+   ],
+   "unassessable": [
+    "研究設計品質（非系統性綜述）",
+    "文獻篩選方法",
+    "利益衝突",
+    "是否有原始數據支持各項機制主張"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。先前看過的植化物-菌群-免疫軸綜述雖同樣探討CRC免疫微環境調控，但聚焦機制（植化物介導 vs. NAFLD脂毒性介導）與臨床情境（一般CRC免疫治療 vs. 肝轉移特異性）皆不同，非直接相關。",
+   "added_at": "2026-07-15T07:00:18+08:00"
+  },
+  {
+   "pmid": "42451156",
+   "title": "DASH, Mediterranean, and Plant-Based Diets and Cancer Risk in Women: A Narrative Review Based on Diet Quality Indices",
+   "journal": "Nutrients",
+   "journal_full": "Nutrients",
+   "issn": "2072-6643",
+   "issn_linking": "2072-6643",
+   "impact_factor": 5.8,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.3390/nu18132155",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Lasek I, Makarewicz-Wujec M",
+   "abstract": "Cancer remains a major public health challenge among women worldwide, and diet quality may play an important role in cancer prevention. This narrative review synthesized evidence on the association between standardized diet quality indices-the DASH Score, Mediterranean Diet Score, and plant-based diet indices-and the risk of selected cancers in women, focusing on breast, colorectal, and ovarian cancer. English-language publications from 2020 to 2026 were reviewed, supplemented by key earlier methodological and epidemiological sources. The most consistent inverse associations were observed for colorectal cancer in relation to the DASH and Mediterranean dietary patterns, and for breast cancer in relation to healthful plant-based diets assessed using the hPDI. Evidence for ovarian cancer remains limited and inconclusive. Across dietary patterns, the findings indicate that overall diet quality, including the quality and processing level of plant-based foods, may be more relevant than the proportion of plant foods alone. The available evidence is limited mainly by heterogeneity in index definitions, predominance of observational designs, dietary assessment errors, and residual confounding. Overall, high-quality dietary patterns may be relevant to cancer prevention in women, although the strength and consistency of associations vary by cancer site and dietary assessment approach.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42403423",
+     "date": "2026-07-06",
+     "title_zh": "B群維生素攝取與癌症風險：關於核黃素(B2)、吡哆醇(B6)、鈷胺素(B12)與葉酸之結構性敘述性回顧",
+     "score": 3,
+     "one_liner": "敘述性回顧B2/B6/B12/葉酸攝取與癌症風險關係，指出B2、B6可能降低大腸直腸癌風險，B12與葉酸證據不一致。",
+     "sim": 0.176
+    }
+   ],
+   "title_zh": "DASH飲食、地中海飲食與植物性飲食對女性癌症風險之影響：based on飲食品質指標之敘述性回顧",
+   "abstract_zh": "癌症仍是全球女性主要公共衛生挑戰，飲食品質可能在癌症預防上扮演重要角色。本敘述性回顧整合標準化飲食品質指標——DASH評分、地中海飲食評分、以及植物性飲食指標——與女性特定癌症風險（聚焦乳癌、大腸直腸癌、卵巢癌）之相關證據。回顧2020至2026年間英文發表文獻，並補充關鍵早期方法學與流行病學文獻。最一致的負相關發現於：大腸直腸癌與DASH及地中海飲食型態之關係，以及乳癌與以hPDI（健康植物性飲食指標）評估之健康植物性飲食之關係。卵巢癌相關證據仍有限且不明確。整體而言，各飲食型態之發現顯示，整體飲食品質（包含植物性食物之品質與加工程度）可能比植物性食物比例本身更為重要。現有證據主要受限於指標定義之異質性、觀察性研究設計為主、飲食評估誤差、以及殘餘干擾因素。總體而言，高品質飲食型態可能與女性癌症預防相關，惟關聯之強度與一致性依癌症部位與飲食評估方法而異。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純敘述性回顧、非系統性方法學、無新數據，且為營養流行病學而非外科介入，對大腸直腸外科臨床決策幾無直接實用性。",
+   "relevance": "低度相關",
+   "relevance_why": "此為飲食型態與癌症風險之觀察性流行病學綜述，非外科介入或治療決策相關研究。",
+   "novelty": "再確認已知",
+   "one_liner": "本綜述整理DASH、地中海、植物性飲食指標與女性乳癌、大腸直腸癌、卵巢癌風險之關聯，大腸直腸癌與DASH/地中海飲食呈一致負相關。",
+   "action": "目前不需改變做法；此為飲食流行病學綜述，非治療或篩檢介入研究，無法據以調整外科臨床決策。",
+   "pico": {
+    "P": "女性族群（無特定人數，為文獻回顧非單一研究族群）",
+    "I": "DASH評分、地中海飲食評分、植物性飲食指標（hPDI等）",
+    "C": "無對照組（敘述性回顧，非統合分析）",
+    "O": "乳癌、大腸直腸癌、卵巢癌風險；次要：飲食品質與加工程度之關聯"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供任何絕對風險數字、HR/OR或p值，僅描述方向性關聯（負相關）",
+    "大腸直腸癌與DASH/地中海飲食關聯最一致，但無量化數據",
+    "卵巢癌證據有限且不一致，無具體數字"
+   ],
+   "cautions": [
+    "本篇為敘述性回顧而非系統性回顧，選文標準與方法學透明度不明，易有選擇性引用偏誤",
+    "全文奠基於觀察性研究，飲食評估本身有測量誤差與殘餘干擾因素，作者亦自承此限制",
+    "摘要僅描述『負相關』方向，無任何量化效果值（如HR、RR）或信賴區間，無法判斷關聯強度"
+   ],
+   "unassessable": [
+    "納入研究之篩選方法與品質評估標準",
+    "各引用研究之樣本數與統計顯著性",
+    "利益衝突與資金來源",
+    "是否有既定文獻回顧方案或註冊"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "先前看過之B群維生素與癌症風險回顧雖同屬營養流行病學主題，但介入內容（單一維生素 vs 整體飲食型態指標）與本篇不同，無直接關聯性可供比較。",
+   "added_at": "2026-07-16T07:00:38+08:00"
+  },
+  {
+   "pmid": "42451068",
+   "title": "Pulses and Cancer Outcomes: A Scoping Review of Human Studies on Risk Reduction",
+   "journal": "Nutrients",
+   "journal_full": "Nutrients",
+   "issn": "2072-6643",
+   "issn_linking": "2072-6643",
+   "impact_factor": 5.8,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jun",
+   "doi": "10.3390/nu18132064",
+   "ptype": "Scoping Review, Review",
+   "ptype_list": [
+    "Scoping Review",
+    "Review"
+   ],
+   "authors": "Mohd Nawi M, Ibrahim N, Bee Yong T, Abd Rashed A, Rmt Balasubramaniam V",
+   "abstract": "Background/Objectives: Pulses are nutrient-dense, low-glycaemic legumes rich in fibre and bioactive compounds that may modulate carcinogenesis through effects on diet quality, metabolism, and the gut microbiome. This scoping review mapped human evidence on pulses in relation to cancer risk reduction and related mechanistic and survivorship-relevant outcomes. Methods: Following the Preferred Reporting Items for Systematic reviews and Meta-Analyses extension for Scoping Reviews (PRISMA-ScR) and Joanna Briggs Institute (JBI) Population, Concept and Context (PCC) guidance, we searched CENTRAL, Scopus and PubMed (2014-31 December 2025), supplemented by backward and forward citation tracking, for English-language human studies in which pulses were a defined exposure or intervention and cancer-specific clinical outcomes or biomarkers were reported. Exposures are described using the original 'legume' terminology, with pulse-specific interpretation restricted to FAO-defined pulses or clearly dry pulse forms and to pulse-dominant legume intake where the constituent items were predominantly pulses but preparation was not specified. Results: After screening 1244 records, 15 studies met the inclusion criteria, comprising five case-control studies, five 4-week randomised controlled trials (RCTs), one 8-week randomised crossover trial, one controlled feeding study, two prospective cohort studies, and one other prospective study. Observational data from a single pooled case-control study suggest that higher pulse-dominant legume intake is compatible with modestly lower colorectal cancer risk, although the findings are mixed and often attenuate after adjustment for lifestyle and dietary confounders. Evidence for breast and oesophageal cancer and all-cancer mortality is limited, frequently subgroup-specific or highly sensitive to confounder control, and survivorship endpoints are represented mainly by short-term mechanistic and feasibility trials in colorectal cancer survivors rather than by long-term clinical outcomes. Notably, five of these navy bean interventions were conducted by a single research group using similar protocols, which constrains the independence of replication. Conclusions: Pulses can be considered practical components of cancer-protective dietary patterns, especially for colorectal cancer, but the heterogeneity of study designs, short-term interventions, limited sample sizes, and lack of preparation-specific exposure data preclude firm causal inferences; longer-term, rigorously designed trials and detailed observational work are needed to refine pulse-based recommendations for cancer risk reduction and to clarify any role in survivorship care.",
+   "watched": [],
+   "related": [],
+   "title_zh": "豆類與癌症預後：人體研究之範疇性文獻回顧（癌症風險降低）",
+   "abstract_zh": "背景/目的：豆類是營養密度高、低升糖指數的豆科植物，富含纖維與生物活性物質，可能透過影響飲食品質、代謝與腸道微生物群來調節致癌過程。本範疇性文獻回顧整理了豆類與癌症風險降低及相關機制、存活相關結果之人體證據。方法：依循 PRISMA-ScR 延伸準則與 JBI PCC（族群、概念、脈絡）指引，檢索 CENTRAL、Scopus 與 PubMed（2014年至2025年12月31日），並輔以前後向引文追蹤，納入以豆類為明確暴露或介入、且報告癌症特異性臨床結果或生物標記之英文人體研究。暴露描述沿用原始「豆科植物」用詞，僅在符合 FAO 定義之豆類或明確乾豆形式，以及豆類為主導成分但未指明烹調方式之豆科攝取，才做豆類特異性解讀。結果：篩選 1244 筆紀錄後，15 項研究符合納入標準，包括五項病例對照研究、五項為期4週的隨機對照試驗（RCT）、一項為期8週的隨機交叉試驗、一項對照餵食研究、兩項前瞻性世代研究，以及一項其他前瞻性研究。單一匯總病例對照研究之觀察性資料顯示，較高的豆類主導型豆科攝取與大腸直腸癌風險適度降低相容，但結果不一致，且在校正生活型態與飲食干擾因子後常趨於減弱。乳癌、食道癌及全癌死亡率的證據有限，常僅限於次群組分析，或對干擾因子控制高度敏感；存活相關結果主要來自大腸直腸癌存活者的短期機制性與可行性試驗，而非長期臨床結果。值得注意的是，其中五項海軍豆（navy bean）介入研究由同一研究團隊以相似方案進行，限制了複製研究的獨立性。結論：豆類可被視為癌症保護性飲食型態的實用組成，尤其對大腸直腸癌而言，但研究設計異質性高、介入期短、樣本數有限，且缺乏烹調方式特異性之暴露資料，使因果推論尚無法確立；需要更長期、設計嚴謹的試驗及更詳盡的觀察性研究，以精進以豆類為基礎的癌症風險降低建議，並釐清其在存活照護中的角色。",
+   "evidence_level": "綜述",
+   "score": 3,
+   "score_reason": "範疇性文獻回顧僅整理異質性小型研究，未做統合分析亦無具體效應量，對台灣大腸直腸外科臨床決策幾乎無直接實用性。",
+   "relevance": "低度相關",
+   "relevance_why": "此為飲食流行病學與機制性研究之範疇回顧，非手術介入，對外科臨床決策無直接指導意義。",
+   "novelty": "仍屬早期",
+   "one_liner": "此範疇回顧納入15項人體研究（含病例對照、小型RCT、世代研究），發現豆類攝取與大腸直腸癌風險適度降低相關，但證據異質且易受干擾因子影響。",
+   "action": "目前不需改變做法；此為營養流行病學證據整理，非手術或臨床照護介入之直接證據。",
+   "pico": {
+    "P": "篩選1244篇文獻後納入15項人體研究，涵蓋一般族群及大腸直腸癌存活者",
+    "I": "豆類（FAO定義之乾豆或豆類主導型豆科）攝取，作為暴露或飲食介入",
+    "C": "低豆類攝取或無介入對照（依研究設計而異）",
+    "O": "主要：癌症風險（尤其大腸直腸癌）；次要：乳癌、食道癌、全癌死亡率、機制性生物標記、存活者短期可行性指標"
+   },
+   "effects": [],
+   "key_numbers": [
+    "共篩選1244筆紀錄，最終納入15項研究（5篇病例對照、5篇4週RCT、1篇8週交叉試驗、1篇餵食研究、2篇世代研究、1篇其他）",
+    "單一匯總病例對照研究顯示豆類攝取與大腸直腸癌風險『適度降低』相容，但摘要未提供具體數值",
+    "5項海軍豆介入試驗皆由同一研究團隊以相似方案執行，獨立驗證性受限"
+   ],
+   "cautions": [
+    "範疇性回顧僅『繪製證據地圖』，未做統合分析，無合併效應量或信賴區間可供判讀",
+    "觀察性關聯在校正生活型態與飲食干擾因子後常減弱，可能反映殘餘干擾而非真實因果",
+    "存活者相關結果多為短期（4-8週）機制性/可行性試驗，無法外推至長期臨床存活結果"
+   ],
+   "unassessable": [
+    "各研究之盲法設計",
+    "allocation concealment",
+    "ITT分析",
+    "失訪率",
+    "試驗註冊狀況",
+    "利益衝突聲明",
+    "具體效應量與信賴區間（摘要未提供數值）"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-07-16T07:00:38+08:00"
+  },
+  {
+   "pmid": "42442928",
+   "title": "Selective COX-2 inhibitors for short-term musculoskeletal pain in inflammatory bowel disease in remission: a narrative review",
+   "journal": "BMJ Open Gastroenterol",
+   "journal_full": "BMJ open gastroenterology",
+   "issn": "2054-4774",
+   "issn_linking": "2054-4774",
+   "impact_factor": 2.6,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1097/00004694-200311000-00020",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "van Nieuwenhoven M",
+   "abstract": "Selective cyclooxygenase-2 (COX-2) inhibitors are often considered when anti-inflammatory analgesia is needed for musculoskeletal pain in patients with inflammatory bowel disease (IBD), but concerns remain about intestinal safety. The clinical evidence on short-term selective COX-2 inhibitor use in IBD, with focus on disease activity outcomes, was reviewed. A prespecified literature search was performed in PubMed and the Cochrane Library supplemented by reference list screening. Clinical trials and clinical studies evaluating celecoxib, etoricoxib or rofecoxib in patients with IBD and musculoskeletal/rheumatological symptoms were considered when gastrointestinal (GI) outcomes were reported. Two placebo-controlled randomised trials did not show higher rates of IBD relapse or symptom aggravation vs placebo during short-term treatment in selected patients, including ulcerative colitis in remission and IBD with rheumatic manifestations. Open-label studies and retrospective series reported variable GI adverse events and occasional symptom worsening, but study populations, baseline disease activity, relapse definitions and follow-up duration differed widely. Overall, the strongest available evidence supports cautious short-term use of selective COX-2 inhibitors in selected patients with IBD in remission when anti-inflammatory analgesia is required. Given the small evidence base and limited follow-up, treatment should be time-limited, use the lowest effective dose and include clinical monitoring.",
+   "watched": [],
+   "related": [],
+   "title_zh": "選擇性COX-2抑制劑用於緩解期發炎性腸道疾病（IBD）患者短期肌肉骨骼疼痛之敘述性回顧",
+   "abstract_zh": "當發炎性腸道疾病（IBD）患者需要抗發炎止痛藥物治療肌肉骨骼疼痛時，選擇性環氧化酶-2（COX-2）抑制劑常被列入考量，但其腸道安全性仍令人擔憂。本文回顧短期使用選擇性COX-2抑制劑於IBD患者的臨床證據，聚焦於疾病活動度相關結果。研究團隊於PubMed及Cochrane Library進行預先設定之文獻搜尋，並輔以參考文獻篩查。凡評估celecoxib、etoricoxib或rofecoxib用於合併肌肉骨骼／風濕症狀之IBD患者、且有回報腸胃道（GI）結果的臨床試驗與臨床研究均納入考量。兩篇安慰劑對照隨機試驗顯示，在特定族群（包括緩解期潰瘍性結腸炎，以及合併風濕症狀之IBD患者）中，短期治療期間IBD復發率或症狀惡化並未較安慰劑組為高。開放性研究與回溯性系列研究則報告了不一致的腸胃道不良事件與偶發之症狀惡化，但各研究族群、基礎疾病活動度、復發定義與追蹤時間差異甚大。整體而言，現有最強證據支持在需要抗發炎止痛的特定緩解期IBD患者中，謹慎短期使用選擇性COX-2抑制劑。鑑於證據基礎薄弱且追蹤時間有限，治療應限定時間、使用最低有效劑量，並搭配臨床監測。",
+   "evidence_level": "綜述",
+   "score": 3,
+   "score_reason": "屬敘述性回顧而非系統性回顧，證據基礎薄弱（僅兩篇小型RCT），對大腸直腸外科實務直接改變有限，但對照護IBD病人的止痛選擇有參考價值。",
+   "relevance": "中度相關",
+   "relevance_why": "此為IBD內科止痛藥物管理議題，非外科介入，但大腸直腸外科醫師常需照顧IBD病人圍術期及術後疼痛控制。",
+   "novelty": "仍屬早期",
+   "one_liner": "此敘述性回顧整理IBD患者短期使用選擇性COX-2抑制劑之證據，發現兩篇小型RCT顯示緩解期患者短期使用未增加復發率。",
+   "action": "對緩解期IBD病人若需消炎止痛，可考慮短期、低劑量選擇性COX-2抑制劑並密切監測，但證據薄弱不宜作為常規建議。",
+   "pico": {
+    "P": "合併肌肉骨骼／風濕症狀之IBD患者（含緩解期潰瘍性結腸炎），研究族群人數摘要未提供",
+    "I": "選擇性COX-2抑制劑（celecoxib、etoricoxib或rofecoxib）短期使用",
+    "C": "安慰劑（僅兩篇RCT有對照組；其餘為開放性研究或回溯性系列，無對照組）",
+    "O": "主要：IBD復發率、症狀惡化；次要：腸胃道不良事件"
+   },
+   "effects": [],
+   "key_numbers": [
+    "僅兩篇安慰劑對照RCT顯示短期使用未增加復發率，但摘要未提供具體復發率數字或信賴區間",
+    "開放性研究與回溯性系列報告GI不良事件發生率不一，但摘要未列出具體百分比",
+    "無法計算ARR/NNT，因摘要僅描述定性結論而未提供絕對事件數"
+   ],
+   "cautions": [
+    "敘述性回顧非系統性回顧，可能存在選文偏誤，未說明納入研究品質評分方式",
+    "證據基礎僅兩篇小型RCT，其餘為異質性高之開放性研究與回溯性系列，證據強度低",
+    "摘要完全未提供具體數字（復發率、不良事件發生率、樣本數），無法評估效應量大小或精確度"
+   ],
+   "unassessable": [
+    "納入試驗之樣本數",
+    "追蹤時間長短",
+    "失訪率",
+    "利益衝突",
+    "試驗註冊",
+    "文獻篩選之PRISMA流程",
+    "各研究間異質性統計檢定"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-07-15T07:00:18+08:00"
+  },
+  {
+   "pmid": "42455016",
+   "title": "Tumor Necrosis Factor: A Master Regulator in Inflammation and Disease-Pathways, Implications, and Breakthrough Therapies",
+   "journal": "J Interferon Cytokine Res",
+   "journal_full": "Journal of interferon & cytokine research : the official journal of the International Society for Interferon and Cytokine Research",
+   "issn": "1557-7465",
+   "issn_linking": "1079-9907",
+   "impact_factor": 1.9,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Feb",
+   "doi": "10.1177/10799907261418982",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Gundrathi S, Sanapalli B, Deshpande A, Sanapalli V",
+   "abstract": "Tumor necrosis factor-alpha (TNF-α), a crucial proinflammatory cytokine, is involved in immune regulation and in the pathogenesis of a variety of chronic inflammatory and autoimmune diseases. TNF-α signaling dysregulation is linked to chronic inflammatory diseases, multiorgan dysfunction, and tissue destruction through activation of TNF receptor 1 (TNFR1)-mediated inflammatory, apoptotic, and necroptotic pathways, while TNF receptor 2 (TNFR2) stimulation promotes immune regulation and tissue repair. Understanding these divergent signaling mechanisms is crucial for augmenting therapeutic interventions. The present review summarizes the molecular structure of TNF-α, compares TNFR1 and TNFR2 signaling cascades, and describes the cytokine's role in diseases such as rheumatoid arthritis, inflammatory bowel disease, ankylosing spondylitis, multiple sclerosis, diabetes mellitus, atherosclerosis, heart failure, systemic lupus erythematosus, and cancer. We further evaluate clinically approved TNF inhibitors and emergent investigational agents, prominent advances in receptor-selective modulation, and small-molecule TNF suppression. Overall, this review emphasizes the therapeutic potential of selectively targeting TNF-α signaling while preserving essential immunoregulatory functions, offering insights that may support next-generation drug development.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42439621",
+     "date": "2026-07-14",
+     "title_zh": "IBD中的再生性發炎：第一型干擾素與TNF交互作用如何將上皮修復轉變為治療反應",
+     "score": 2,
+     "one_liner": "本文為概念性回顧，提出慢性TNF與第一型干擾素交互作用可能形成「再生性發炎」循環，與抗TNF治療反應性降低有關，但人體因果證據有限。",
+     "sim": 0.169
+    },
+    {
+     "pmid": "42439621",
+     "date": "2026-07-15",
+     "title_zh": "IBD中的再生性發炎：第一型干擾素與TNF交互作用如何將上皮修復轉變為治療反應",
+     "score": 2,
+     "one_liner": "本文為概念性回顧，提出慢性TNF與第一型干擾素交互作用可能形成「再生性發炎」循環，與抗TNF治療反應性降低有關，但人體因果證據有限。",
+     "sim": 0.169
+    }
+   ],
+   "title_zh": "腫瘤壞死因子：發炎與疾病的主要調節者－路徑、意涵與突破性治療",
+   "abstract_zh": "腫瘤壞死因子α（TNF-α）是一種關鍵的促發炎細胞激素，參與免疫調節，並在多種慢性發炎性與自體免疫疾病的致病機轉中扮演角色。TNF-α訊息傳遞失調與慢性發炎疾病、多重器官功能障礙及組織破壞有關，其機轉透過TNF受體1（TNFR1）媒介的發炎、細胞凋亡與壞死性凋亡路徑；而TNF受體2（TNFR2）的刺激則促進免疫調節與組織修復。了解這些分歧的訊息傳遞機制對於強化治療介入至關重要。本綜述總結了TNF-α的分子結構，比較TNFR1與TNFR2的訊息傳遞級聯反應，並描述此細胞激素在類風濕性關節炎、發炎性腸道疾病（IBD）、僵直性脊椎炎、多發性硬化症、糖尿病、動脈粥狀硬化、心臟衰竭、系統性紅斑狼瘡及癌症等疾病中的角色。我們進一步評估已臨床核准的TNF抑制劑與新興研究中藥物、受體選擇性調節的重要進展，以及小分子TNF抑制劑。整體而言，本綜述強調選擇性標靶TNF-α訊息傳遞、同時保留必要免疫調節功能的治療潛力，提供可能支持下一代藥物開發的見解。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純敘述性基礎科學綜述，無原創臨床數據，對大腸直腸外科日常決策幾乎無直接可操作性。",
+   "relevance": "低度相關",
+   "relevance_why": "全篇為TNF訊息傳遞機轉與多重疾病（含IBD）的概念性回顧，非外科介入或臨床試驗，僅間接觸及IBD藥物治療背景。",
+   "novelty": "仍屬早期",
+   "one_liner": "本文回顧TNF-α於TNFR1/TNFR2路徑及多種發炎疾病與癌症中的角色，整理已核准與研發中TNF抑制劑，無臨床試驗數據。",
+   "action": "目前不需改變做法；此為機轉綜述，無新臨床證據可直接應用於IBD手術病人的圍手術期決策。",
+   "pico": {
+    "P": "無特定病人族群，涵蓋類風濕性關節炎、IBD、僵直性脊椎炎、多發性硬化症、糖尿病、動脈粥狀硬化、心臟衰竭、SLE、癌症等疾病文獻",
+    "I": "TNF-α訊息傳遞路徑（TNFR1/TNFR2）之機轉描述與TNF抑制劑（已核准與研發中）",
+    "C": "無對照組",
+    "O": "描述性統整：TNF-α分子結構、受體訊息傳遞差異、疾病關聯性、藥物治療現況與未來方向"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供任何臨床試驗數據、事件數或統計數字",
+    "純機轉與藥物研發現況之敘述性整理，無量化療效比較",
+    "涉及IBD部分僅為疾病關聯描述，無手術相關結果"
+   ],
+   "cautions": [
+    "敘述性綜述而非系統性回顧，選文與詮釋可能存在作者主觀偏誤",
+    "涵蓋疾病範圍過廣（9種以上疾病），對單一疾病（如IBD）的深度有限",
+    "無原始數據可供評估因果關係，機轉推論不能直接外推至臨床療效"
+   ],
+   "unassessable": [
+    "研究設計品質指標（隨機化、盲法、ITT、失訪率等，因本文為非系統性敘述綜述而非原創研究）",
+    "利益衝突",
+    "文獻選取方法學"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "前作聚焦於IBD中TNF與第一型干擾素交互作用導致抗TNF治療反應下降的概念模型，本文則提供更廣泛的TNF-α/TNFR1/TNFR2訊息傳遞背景知識，可作為理解前作機轉假說的基礎脈絡，但同樣缺乏人體因果證據。",
+   "added_at": "2026-07-16T07:00:38+08:00"
+  },
+  {
+   "pmid": "42450344",
+   "title": "Co-Exposure to Lunasin and Other Drugs as a Potential Chemopreventive Strategy Against Breast and Colon Cancers: A Review",
+   "journal": "Int J Mol Sci",
+   "journal_full": "International journal of molecular sciences",
+   "issn": "1422-0067",
+   "issn_linking": "1422-0067",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.3390/ijms27136079",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Janiak A, Kaufman-Szymczyk A, Lubecka-Gajewska K",
+   "abstract": "More than 20 years after the discovery of lunasin, a clear shift in lunasin research is observable-from an initial focus on its direct in vitro anticancer effects toward strategies aimed at improving its bioavailability and repositioning it as a potential adjunct in cancer therapy. Lunasin, a soy-derived bioactive peptide, has been extensively studied for its antineoplastic properties. However, its limited oral bioavailability restrains its efficacy in clinical trials. Therefore, recent research on lunasin points towards the possibility of using it as an adjunct in cancer treatment, rather than as a stand-alone nutraceutical in humans. In preclinical models, in vitro and in vivo, lunasin can enhance the effects of standard anticancer drugs in breast and colon cancers. Research suggests that lunasin can potentiate the effects of drugs, such as tamoxifen, aspirin, cisplatin, and oxaliplatin, by sensitizing cancer cells to apoptosis, modulating cell cycle progression, reducing metastatic potential, and attenuating drug-resistance pathways, including PI3K/Akt, FAK/MAPK1/NF-κB, and integrin-mediated signaling. In combination with those drugs, lunasin exerts significant anticancer effects at concentrations substantially lower than those proven as effective in monotherapy, suggesting a potential role in dose reduction in conventional agents and, subsequently, mitigation of their adverse effects. Although the enhanced effect of those combinations has been shown in preclinical models, there is a distinct lack of human clinical trials in this matter. Available evidence supports a promising concept of lunasin as a molecular \"priming\" agent that might complement cytotoxic therapies rather than replace them. This combination-oriented paradigm may represent a shift in lunasin research and offer a novel direction for the use of bioactive peptides in precision oncology; however, further studies exploring this possibility, including human clinical trials, are needed to elucidate lunasin's role in nutraceutical-assisted cancer therapy.",
+   "watched": [],
+   "related": [],
+   "title_zh": "Lunasin與其他藥物共同暴露作為對抗乳癌與大腸癌之潛在化學預防策略：一篇綜述",
+   "abstract_zh": "自Lunasin發現至今已超過20年，Lunasin研究方向出現明顯轉變——從最初聚焦於其體外直接抗癌作用，轉向改善其生體可用率、並將其重新定位為癌症治療輔助劑的策略。Lunasin是一種源自大豆的生物活性胜肽，已被廣泛研究其抗腫瘤特性。然而，其有限的口服生體可用率限制了其在臨床試驗中的療效。因此，近期關於Lunasin的研究指向將其作為癌症治療輔助劑使用的可能性，而非作為人體單獨使用的機能性保健品。在臨床前模型中（體外與體內），Lunasin可增強標準抗癌藥物對乳癌與大腸癌的療效。研究顯示Lunasin可增強tamoxifen、aspirin、cisplatin及oxaliplatin等藥物的效果，機轉包括使癌細胞對細胞凋亡敏感化、調節細胞週期進程、降低轉移潛力，以及減弱抗藥性路徑，包括PI3K/Akt、FAK/MAPK1/NF-κB及integrin介導的訊息傳遞。與這些藥物合併使用時，Lunasin在遠低於單方治療有效濃度下即展現顯著抗癌效果，顯示其在傳統藥物減量、進而降低其不良反應方面具有潛在角色。儘管這些合併療法的增強效果已在臨床前模型中獲得證實，但目前明顯缺乏相關人體臨床試驗。現有證據支持Lunasin作為分子「引發（priming）」劑的潛力概念，可能補強而非取代細胞毒性療法。此種以合併治療為導向的典範可能代表Lunasin研究方向的轉變，並為生物活性胜肽在精準腫瘤學中的應用提供新方向；然而，仍需進一步研究探討此可能性，包括人體臨床試驗，以釐清Lunasin在機能性保健品輔助癌症治療中的角色。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純綜述臨床前資料，無人體試驗，對台灣大腸直腸外科臨床決策無直接可操作性。",
+   "relevance": "低度相關",
+   "relevance_why": "屬於基礎營養補充品/藥理學研究，非外科介入，且完全缺乏人體臨床試驗數據。",
+   "novelty": "仍屬早期",
+   "one_liner": "綜述整理臨床前（體外/動物）證據，指出大豆胜肽Lunasin可能增強tamoxifen、cisplatin、oxaliplatin等藥物之抗癌效果，但無人體試驗數據。",
+   "action": "目前不需改變做法；此為臨床前綜述，缺乏人體試驗，暫無可用於病人治療決策的證據。",
+   "pico": {
+    "P": "無明確病人族群，回顧對象為乳癌與大腸癌之臨床前研究（體外細胞株與動物模型）",
+    "I": "Lunasin併用化療藥物（如oxaliplatin、cisplatin）或標靶藥物（tamoxifen）、aspirin",
+    "C": "藥物單獨使用（monotherapy）",
+    "O": "主要：抗癌效果增強、藥物劑量降低之可能性；次要：細胞凋亡、抗藥性訊息路徑調節"
+   },
+   "effects": [],
+   "key_numbers": [
+    "全文為機轉與臨床前資料整理，無人體試驗絕對數字可供計算ARR/NNT",
+    "作者明確指出「明顯缺乏人體臨床試驗」（distinct lack of human clinical trials）",
+    "無統計數據（p值、CI）可供摘要抽取，僅描述性結論"
+   ],
+   "cautions": [
+    "全部證據均來自臨床前（in vitro/in vivo）模型，無任何人體數據，外推至臨床有極大風險",
+    "綜述性質，未系統性描述文獻篩選方法，可能存在選文偏誤",
+    "『劑量降低、副作用減輕』之推論僅為假說，尚未經人體試驗驗證因果關係"
+   ],
+   "unassessable": [
+    "盲法",
+    "allocation concealment",
+    "ITT",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本分析",
+    "文獻篩選方法"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-07-16T07:00:38+08:00"
+  },
+  {
+   "pmid": "42455958",
+   "title": "Mitochondrial Dysfunction in Ulcerative Colitis: Pathogenic Mechanisms and Novel Therapeutics",
+   "journal": "J Biochem Mol Toxicol",
+   "journal_full": "Journal of biochemical and molecular toxicology",
+   "issn": "1099-0461",
+   "issn_linking": "1095-6670",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1002/jbt.71021",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Ran H, Zhou S, Zou H, Deng J, Yin F",
+   "abstract": "Ulcerative colitis (UC) is a chronic inflammatory bowel disease driven by a complex interplay of mitochondrial dysfunction. These defects impair energy production, increases oxidative stress, and disrupts immune balance. Here we review three therapeutic classes that target mitochondrial pathways: antioxidants, metabolic modulators, and microbiota-directed strategies. In UC, mitochondrial dysfunction creates a self-perpetuating cycle through metabolic-immune crosstalk, the leakage of mitochondrial DNA, and the redistribution of cardiolipin. Moreover, the gut microbiota and mitochondria engage in bidirectional crosstalk that amplifies intestinal inflammation. Encouragingly, agents that restore mitochondrial function have shown therapeutic benefit in preclinical and early clinical studies. Notable examples include the mitochondria-targeted antioxidant MitoQ (currently in a Phase 2b trial for UC), ClpP (caseinolytic protease P) activators that reprogram T-cell metabolism, and engineered probiotics that deplete pro-inflammatory succinate. This review synthesizes current evidence on mitochondrial dysfunction in UC, bridging molecular mechanisms, immune-metabolic interactions, and emerging therapeutics to propose a new treatment paradigm centered on mitochondrial restoration.",
+   "watched": [],
+   "related": [],
+   "title_zh": "潰瘍性結腸炎之粒線體功能障礙：致病機轉與新興治療",
+   "abstract_zh": "潰瘍性結腸炎（UC）是一種慢性發炎性腸道疾病，其致病機轉涉及複雜的粒線體功能障礙交互作用。這些缺陷會損害能量產生、增加氧化壓力、並破壞免疫平衡。本文回顧三類標靶粒線體路徑之治療策略：抗氧化劑、代謝調節劑，以及微菌叢導向策略。在UC中，粒線體功能障礙透過代謝-免疫交互作用、粒線體DNA外漏、以及心磷脂（cardiolipin）重新分布，形成自我延續的惡性循環。此外，腸道微菌叢與粒線體間存在雙向交互作用，會放大腸道發炎反應。令人振奮的是，能恢復粒線體功能的藥物已在臨床前及早期臨床研究中顯示治療效益。代表性例子包括粒線體標靶抗氧化劑MitoQ（目前正進行UC第2b期臨床試驗）、可重新編程T細胞代謝的ClpP（caseinolytic protease P）活化劑，以及經工程改造、可消耗促發炎性琥珀酸（succinate）的益生菌。本篇綜述整合了UC中粒線體功能障礙的現有證據，串聯分子機轉、免疫代謝交互作用與新興治療策略，提出以粒線體修復為核心的新治療典範。",
+   "evidence_level": "綜述",
+   "score": 3,
+   "score_reason": "屬機轉導向之敘述性綜述，無原始數據可供臨床採信；對大腸直腸外科手術決策無直接實用性，僅供背景知識參考。",
+   "relevance": "低度相關",
+   "relevance_why": "內容聚焦UC藥物治療機轉與臨床前研究，非外科介入，與大腸直腸外科手術決策關聯性低。",
+   "novelty": "仍屬早期",
+   "one_liner": "本文綜述粒線體功能障礙在UC致病機轉中的角色，並介紹MitoQ、ClpP活化劑、工程益生菌等三類早期/臨床前治療策略。",
+   "action": "目前不需改變做法；此為機轉綜述非臨床試驗，僅供了解UC內科治療研發方向，與手術決策無關。",
+   "pico": {
+    "P": "無特定病人族群，為UC致病機轉與治療之文獻綜述",
+    "I": "粒線體標靶治療（MitoQ抗氧化劑、ClpP活化劑、工程益生菌）",
+    "C": "無對照組（綜述性質）",
+    "O": "無量化主要結果；綜述粒線體-免疫-微菌叢交互作用機轉與新興治療方向"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本文為機轉綜述，摘要中無可抽取之絕對事件數或發生率數據",
+    "MitoQ目前僅處於UC第2b期臨床試驗階段，尚無療效數據",
+    "ClpP活化劑與工程益生菌僅見於臨床前研究，人體證據仍缺乏"
+   ],
+   "cautions": [
+    "為敘述性綜述而非系統性回顧，可能存在作者選擇性引用文獻之偏誤",
+    "多數治療（ClpP活化劑、工程益生菌）僅有臨床前動物實驗證據，尚未驗證於人體",
+    "MitoQ仍在早期臨床試驗階段，摘要未提供任何療效或安全性數據，過度樂觀詮釋'治療典範'之風險"
+   ],
+   "unassessable": [
+    "盲法",
+    "allocation concealment",
+    "ITT分析",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "系統性文獻搜尋方法（非systematic review）"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-07-16T07:00:38+08:00"
+  },
+  {
+   "pmid": "42450156",
+   "title": "Epigenetic Functions of SMYD5 and Its Role in Development, Cancer and Other Cellular Processes",
+   "journal": "Int J Mol Sci",
+   "journal_full": "International journal of molecular sciences",
+   "issn": "1422-0067",
+   "issn_linking": "1422-0067",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jun",
+   "doi": "10.3390/ijms27135884",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Boehm D, Khanna K, Li Z, Ott M",
+   "abstract": "The lysine methyltransferase SMYD5 is an important regulator of development and has been implicated in multiple malignancies, such as heart disease, lung and gastric cancers, breast and hepatocellular carcinomas, and inflammatory bowel disease. Further, SMYD5 has been linked to the mild hypothermia response, RNA translation, and HIV-1 transcription. SMYD5 is ubiquitously expressed in lymphocytes and the fetal brain, retina, heart, gut, liver, and reproductive organs. Mechanistically, SMYD5 methylates histone residues H3K36, H3K37, and H4K20, as well as non-histone targets such as the ribosomal protein RPL40 and the HIV-1 Tat protein. Here, we review the literature on SMYD5, focusing on its epigenetic functions and its roles in development, cancer, and other biological processes.",
+   "watched": [],
+   "related": [],
+   "title_zh": "SMYD5 的表觀遺傳功能及其在發育、癌症與其他細胞過程中的角色",
+   "abstract_zh": "離胺酸甲基轉移酶 SMYD5 是發育過程中的重要調控因子，並與多種疾病相關，包括心臟病、肺癌與胃癌、乳癌與肝細胞癌，以及發炎性腸道疾病。此外，SMYD5 也與輕度低體溫反應、RNA 轉譯及 HIV-1 轉錄有關。SMYD5 在淋巴球及胎兒腦部、視網膜、心臟、腸道、肝臟與生殖器官中普遍表現。機轉上，SMYD5 可甲基化組蛋白殘基 H3K36、H3K37 與 H4K20，以及非組蛋白標的如核糖體蛋白 RPL40 與 HIV-1 Tat 蛋白。本文回顧 SMYD5 相關文獻，聚焦於其表觀遺傳功能，以及在發育、癌症與其他生物過程中的角色。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純基礎分子生物學綜述，無臨床資料、無手術或治療介入，對大腸直腸外科臨床決策幾無直接實用性。",
+   "relevance": "低度相關",
+   "relevance_why": "屬基礎分子機轉綜述，非外科介入或臨床研究，僅提及腸道表現與IBD關聯但無大腸直腸癌臨床資料。",
+   "novelty": "仍屬早期",
+   "one_liner": "本文回顧 SMYD5 這個甲基轉移酶在發育、多種癌症（含胃癌）與細胞過程中的表觀遺傳機轉，屬分子生物學綜述。",
+   "action": "目前不需改變做法，此為基礎分子機轉綜述，無臨床試驗數據可供治療決策參考。",
+   "pico": {
+    "P": "無特定病人族群，為文獻回顧",
+    "I": "無介入，回顧 SMYD5 之分子功能",
+    "C": "無對照組",
+    "O": "無臨床 outcome；描述 SMYD5 之組蛋白/非組蛋白甲基化機轉與疾病關聯"
+   },
+   "effects": [],
+   "key_numbers": [
+    "無可用之絕對數字或臨床事件率，全文為分子機轉描述",
+    "未提供任何統計數據、p 值或信賴區間",
+    "未涉及大腸直腸癌specific臨床資料"
+   ],
+   "cautions": [
+    "純綜述文章，無原始臨床或實驗數據可供效度評估",
+    "將SMYD5與多種疾病（心臟病、癌症、IBD）並列，可能過度延伸相關性而非因果",
+    "無法評估其分子機轉研究品質，僅為文獻整理性質"
+   ],
+   "unassessable": [
+    "研究方法學品質",
+    "文獻選取標準",
+    "利益衝突",
+    "臨床可轉譯性",
+    "統計方法"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-07-16T07:00:38+08:00"
+  },
+  {
+   "pmid": "42450092",
+   "title": "Machine Learning for Colitis-Associated Cancer in Inflammatory Bowel Disease: Evidence and Future Directions Toward Precision Medicine, a Narrative Review",
+   "journal": "Int J Mol Sci",
+   "journal_full": "International journal of molecular sciences",
+   "issn": "1422-0067",
+   "issn_linking": "1422-0067",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jun",
+   "doi": "10.3390/ijms27135818",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Cannarozzi A, Massimino L, Bossa F, Ungaro F, Di Brina A, Tavano F",
+   "abstract": "Colitis-associated cancer (CAC) represents a major long-term complication in patients with ulcerative colitis (UC) and Crohn's disease (CD), the two main forms of inflammatory bowel disease (IBD). Unlike sporadic colorectal cancer, CAC develops through a distinct inflammation-dysplasia-carcinoma sequence driven by chronic inflammation and complex molecular alterations. Early detection of dysplasia and accurate risk stratification remain critical challenges in IBD management. Conventional surveillance strategies, including endoscopy, histopathology, and immunohistochemistry, are time-consuming, operator-dependent, and may fail to identify early neoplastic changes. In this context, artificial intelligence (AI), including machine learning (ML) and deep learning (DL), has emerged as a promising approach to improve lesion detection, molecular characterization, and predictive risk modeling. Early studies, though limited, suggest that AI-based approaches may enhance the identification of dysplasia and CAC, improve risk prediction, and support personalized surveillance strategies. Furthermore, the integration of multimodal data, including clinical, endoscopic, histological, and molecular features, may further improve predictive performance and enable precision medicine approaches in IBD. This review summarizes current evidence on AI and ML applications for CAC detection and risk prediction in IBD, discusses technical and clinical challenges, and highlights future directions for integrating AI into routine clinical practice to improve surveillance and clinical outcomes in patients with IBD.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42441552",
+     "date": "2026-07-15",
+     "title_zh": "發炎性腸道疾病新興生物標記範疇性回顧：邁向精準醫學之診斷與治療管理",
+     "score": 2,
+     "one_liner": "回顧27篇2021-2025年研究，整理IBD新興生物標記（體學、AI、生物感測器）之診斷與預後潛力，未提供臨床可用之量化效能數據。",
+     "sim": 0.208
+    }
+   ],
+   "title_zh": "發炎性腸道疾病相關腫瘤（CAC）之機器學習應用：邁向精準醫學之證據與未來方向，敘事性文獻回顧",
+   "abstract_zh": "腸炎相關性癌（CAC）是潰瘍性結腸炎（UC）與克隆氏症（CD）這兩種主要發炎性腸道疾病（IBD）患者的重大長期併發症。與偶發性大腸直腸癌不同，CAC是經由慢性發炎與複雜分子變化驅動的「發炎-異型增生-癌」獨特序列發展而成。早期偵測異型增生與精確風險分層仍是IBD照護的關鍵挑戰。傳統監測策略，包括內視鏡、組織病理學與免疫組織化學染色，耗時、依賴操作者經驗，且可能無法識別早期腫瘤性變化。在此背景下，人工智慧（AI），包括機器學習（ML）與深度學習（DL），已成為改善病灶偵測、分子特徵分析與預測性風險建模的一種有前景的方法。早期研究雖數量有限，但顯示以AI為基礎的方法可能增強異型增生與CAC的識別能力、改善風險預測，並支持個人化監測策略。此外，整合多模態資料（包括臨床、內視鏡、組織學與分子特徵）可能進一步提升預測效能，並促成IBD精準醫學方法之實現。本篇綜述總結了目前AI與ML在IBD中CAC偵測與風險預測應用之證據，討論技術與臨床上的挑戰，並闡述未來將AI整合入常規臨床實務、以改善IBD患者監測與臨床結果之方向。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純敘事性文獻回顧，摘要中無任何量化效能數據（如AUC、敏感度），僅為概念性總結，對明日臨床決策無直接可操作性。",
+   "relevance": "中度相關",
+   "relevance_why": "CAC監測與手術時機決策與大腸直腸外科相關，但本文聚焦AI/ML技術發展現況，非手術介入或臨床試驗結果。",
+   "novelty": "仍屬早期",
+   "one_liner": "本文為敘事性回顧，總結AI/ML在IBD相關CAC偵測與風險預測之早期研究現況，未提供量化效能數據或臨床試驗結果。",
+   "action": "目前不需改變做法；此為技術發展現況綜述，AI輔助監測工具尚未成熟到可取代現行內視鏡監測流程。",
+   "pico": {
+    "P": "無特定病人族群，為文獻回顧性質",
+    "I": "AI/機器學習/深度學習應用於IBD相關CAC偵測與風險預測",
+    "C": "傳統監測方式（內視鏡、組織病理、免疫組織化學）",
+    "O": "無明確outcome數據，僅討論偵測與預測潛力"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供任何量化效能數據（如敏感度、特異度、AUC）",
+    "未說明納入文獻數量或篩選方法",
+    "無對照組、無統計檢定結果可供評估"
+   ],
+   "cautions": [
+    "屬敘事性回顧非系統性回顧，缺乏明確搜尋策略與納入排除標準，易有選擇性引用偏誤",
+    "摘要中「早期研究雖數量有限」屬作者主觀詮釋，未附具體研究品質或異質性評估",
+    "全文未提供任何可供臨床參考之絕對數字或信賴區間，實用性極低"
+   ],
+   "unassessable": [
+    "文獻搜尋策略與納入標準",
+    "研究品質評估工具",
+    "納入研究數量與異質性",
+    "利益衝突與資金來源",
+    "AI模型實際效能數據"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "與前作（IBD生物標記範疇性回顧，評分2/10）主題高度重疊，皆為探討AI/體學技術於IBD精準醫學之應用；本文更聚焦於CAC此一特定臨床情境，但同樣缺乏量化效能數據，證據等級與實用性相近。",
+   "added_at": "2026-07-16T07:00:38+08:00"
+  }
+ ]
+}
