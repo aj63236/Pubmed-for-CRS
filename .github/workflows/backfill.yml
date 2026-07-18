@@ -70,19 +70,34 @@ jobs:
           echo ""
           python -u backfill.py $ARGS
 
+      # ⚠️ 驗證與 commit 都不再用 dry_run 當條件。
+      #
+      # 原因：backfill.py 一開頭就會跑 heal_legacy() + rebuild_index()，
+      # 那是「修復」動作，不呼叫 Claude、不花任何錢。
+      # 但這兩步的成果本來只留在 runner 上 —— 因為 Commit & Push 有
+      # `if: dry_run == false`，試算模式直接跳過，runner 一銷毀就沒了。
+      #
+      # 結果就是：使用者照建議先跑試算，log 顯示「9 天 143 篇」重建成功，
+      # repo 裡的 index.json 卻還是空的，網站依舊只看得到一天。
+      # 索引「每次跑都會自我修復」的設計，被 workflow 條件擋在門外。
+      #
+      # 試算模式不會寫任何日檔（fp.save 根本沒被呼叫），
+      # 所以這裡能 commit 到的，只有修好的衍生資料。
       - name: 資料驗證（壞資料就不要推上網站）
-        if: ${{ inputs.dry_run == false }}
         run: python -u validate_data.py
 
       - name: Commit & Push
-        if: ${{ inputs.dry_run == false }}
         run: |
           git config user.name  "腸嚐新知 Bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/
           if git diff --staged --quiet; then
-            echo "無新資料"
+            echo "無變更"
           else
-            git commit -m "📚 回補 ${{ inputs.from_date }} 起的歷史文獻"
+            if [ "${{ inputs.dry_run }}" = "true" ]; then
+              git commit -m "🔧 修復索引（試算模式，未呼叫 API）"
+            else
+              git commit -m "📚 回補 ${{ inputs.from_date }} 起的歷史文獻"
+            fi
             git push
           fi
