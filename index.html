@@ -43,6 +43,11 @@
 }
 
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+
+/* 保險絲：長的英文詞／DOI／URL 不准把容器撐寬。
+   中文本來就能任意斷行，出問題的一律是英文長字串。 */
+.card,.body,.chips,.hdr-r{min-width:0}
+.body{overflow-wrap:anywhere}
 html,body{
   height:100%;overflow:hidden;
   background:var(--paper);
@@ -59,6 +64,12 @@ html,body{
    手機慣性滑動會帶著動量一口氣跨過好幾張卡。 */
 #feed{
   height:100dvh;overflow-y:scroll;
+  /* ⚠️ 一定要明寫 overflow-x:hidden。
+     CSS 規範：一軸是 scroll、另一軸是 visible 時，visible 會被算成 auto。
+     只要卡片內有任何元素比視窗寬（PICO 表格、長 DOI、長英文詞），
+     #feed 就多出一條水平捲軸 —— 手指帶點橫向就把整個 feed 推走，
+     卡片往左偏、右邊露出一條空白。 */
+  overflow-x:hidden;
   -webkit-overflow-scrolling:touch;
   scrollbar-width:none;
   overscroll-behavior-y:contain;
@@ -282,7 +293,10 @@ html,body{
 .acc[open] summary{border-bottom:1px solid var(--line-soft)}
 .acc-in{padding:15px 14px;background:#fff}
 
-.pico{width:100%;border-collapse:collapse;margin-bottom:14px}
+/* table-layout:fixed —— 沒有這行，auto 佈局會為了塞下長英文詞
+   （DOI、ileocolic、藥名）把表格撐超過 100%，整張卡片就溢出了。 */
+.pico{width:100%;table-layout:fixed;border-collapse:collapse;margin-bottom:14px}
+.pico td,.pico th{overflow-wrap:anywhere;word-break:break-word}
 .pico th{
   width:24px;text-align:left;vertical-align:top;
   font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:800;color:var(--a);
@@ -1289,15 +1303,36 @@ const LS = {
   set(k, v){ try{ localStorage.setItem(k, JSON.stringify(v)); }catch{} },
 };
 
-let starred = new Set(LS.get('cc_star', []));
+/* cc_star 舊格式是 ["pmid", ...]，新格式是 {pmid: {t,j,d,f,s,w}}。
+   兩種都讀得進來 —— 加欄位一定要同時寫遷移，這個教訓學過一次了。 */
+const _rawStar = LS.get('cc_star', {});
+let starMeta = Array.isArray(_rawStar)
+  ? Object.fromEntries(_rawStar.map(pm => [pm, null]))   // 舊資料只有 pmid，標題等等要去索引補
+  : (_rawStar || {});
+let starred = new Set(Object.keys(starMeta));
 let seen    = new Set(LS.get('cc_seen', []));
 
-function saveStar(){ LS.set('cc_star', [...starred]); }
+function saveStar(){ LS.set('cc_star', starMeta); }
 function saveSeen(){ LS.set('cc_seen', [...seen]); }
 
 function toggleStar(pmid, el){
-  if(starred.has(pmid)){ starred.delete(pmid); el.classList.remove('on'); }
-  else { starred.add(pmid); el.classList.add('on'); }
+  if(starred.has(pmid)){
+    starred.delete(pmid); delete starMeta[pmid]; el.classList.remove('on');
+  }else{
+    starred.add(pmid);
+    // 收藏的當下就把要顯示的東西存起來。
+    // 之前只存 pmid、看的時候再去 search.json 撈 —— 索引缺一天，收藏就空一片。
+    const p = papers.find(x => x.pmid === pmid);
+    starMeta[pmid] = p ? {
+      t: p.title_zh || p.title || '',
+      j: p.journal || '',
+      d: p._date || '',
+      f: (typeof p.impact_factor === 'number') ? p.impact_factor : null,
+      s: (typeof p.score === 'number') ? p.score : null,
+      w: p.watched || [],
+    } : null;
+    el.classList.add('on');
+  }
   saveStar();
   updateBadges();
 }
@@ -1351,11 +1386,24 @@ async function openSearch(){
 
 async function openStars(){
   openPanel('star-panel');
-  const idx = await loadIndex();
-  const list = idx.filter(x => starred.has(x.p));
   const note = document.getElementById('s-note');
   const hits = document.getElementById('s-hits');
-  note.textContent = list.length ? `${list.length} 篇` : '';
+
+  const pmids = [...starred];
+  // 只有「舊版收藏」（當初只存了 pmid）才需要動用 search.json。
+  const needIdx = pmids.some(pm => !starMeta[pm]);
+  const idx = needIdx ? await loadIndex() : [];
+
+  const list = pmids.map(pm => {
+    const m = starMeta[pm];
+    if(m) return {p: pm, d: m.d, t: m.t, j: m.j, f: m.f, s: m.s, w: m.w || [], a: ''};
+    return idx.find(y => y.p === pm) || null;   // 索引也沒有 → 只能跳過
+  }).filter(Boolean).sort((a, b) => (b.d || '').localeCompare(a.d || ''));
+
+  const missing = pmids.length - list.length;
+  note.textContent = list.length
+    ? `${list.length} 篇${missing ? `（另有 ${missing} 篇舊收藏在索引裡找不到）` : ''}`
+    : '';
   hits.innerHTML = list.length
     ? list.map(hitRow).join('')
     : emptyHint('⭐', '還沒有收藏<br>在論文卡片上按星號，就會存進這裡');
