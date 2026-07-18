@@ -1087,27 +1087,35 @@ def save(papers, date_str):
         json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8"
     )
 
-    # index.json —— 只收錄有內容的日期，0 篇不進日期選單
-    idx_file = DATA_DIR / "index.json"
-    idx = []
-    if idx_file.exists():
-        try:
-            idx = json.loads(idx_file.read_text(encoding="utf-8"))
-        except Exception:
-            idx = []
-
-    idx = [x for x in idx if x.get("date") != date_str]
-    if papers:
-        idx.insert(0, {"date": date_str, "count": len(papers)})
-    idx.sort(key=lambda x: x["date"], reverse=True)
-    idx_file.write_text(
-        json.dumps(idx[:120], ensure_ascii=False, indent=1), encoding="utf-8"
-    )
-
-    log(f"   ✅ data/{date_str}.json（{len(papers)} 篇）")
-    log(f"   ✅ data/index.json（{len(idx)} 天有內容）")
-
+    rebuild_index()
     rebuild_search_index()
+
+
+def rebuild_index():
+    """index.json 是「衍生資料」，每次從實際的日檔完全重建。
+
+    ⚠️ 原本是「增量維護」：讀舊的 → 加一天 → 寫回去。
+       問題是只要 index.json 被覆蓋掉一次（例如上傳新版時被空檔蓋掉），
+       前面所有日期就全部消失 —— 日檔明明還在，網站卻看不到。
+
+       改成每次從 data/ 裡實際存在的日檔重建，就不可能不同步。
+    """
+    idx = []
+    for f in sorted(DATA_DIR.glob("20*-*-*.json"), reverse=True):
+        try:
+            d = json.loads(f.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        n = len(d.get("papers") or [])
+        if n:                                   # 0 篇的日子不進日期選單
+            idx.append({"date": d.get("date", f.stem), "count": n})
+
+    idx.sort(key=lambda x: x["date"], reverse=True)
+    (DATA_DIR / "index.json").write_text(
+        json.dumps(idx[:120], ensure_ascii=False, indent=1), encoding="utf-8")
+
+    log(f"   ✅ data/index.json（{len(idx)} 天 · {sum(x['count'] for x in idx)} 篇）")
+    return idx
 
 
 def rebuild_search_index():
@@ -1161,8 +1169,11 @@ def main():
     if not API_KEY:
         log("⚠️  未偵測到 ANTHROPIC_API_KEY —— 只會存原文，不產生中文摘要")
 
-    # 先修補舊資料（在任何 return 之前，不然驗證會擋下 commit）
+    # 先修補舊資料 + 重建索引（在任何 return 之前）
+    # 索引重建放這裡，是為了「就算今天一篇新論文都沒有，
+    # 被覆蓋掉的 index.json 也會被修回來」。
     heal_legacy()
+    rebuild_index()
 
     log(f"\n🔍 搜尋 PubMed（最近 {DAYS_BACK} 天新上架）...")
     ids = search_pubmed()

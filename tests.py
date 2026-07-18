@@ -282,6 +282,43 @@ finally:
 
 
 # ══════════════════════════════════════════════════════
+print("\n【10】index.json —— 必須是「衍生資料」，不能增量維護")
+print("      被覆蓋一次，前面所有日期就全消失（日檔還在，網站卻看不到）")
+# ══════════════════════════════════════════════════════
+
+tmp2 = Path(tempfile.mkdtemp())
+_o = fp.DATA_DIR
+fp.DATA_DIR = tmp2
+try:
+    for d, n in [("2026-07-05", 4), ("2026-07-06", 17), ("2026-07-13", 14)]:
+        (tmp2 / f"{d}.json").write_text(json.dumps({
+            "date": d, "count": n,
+            "papers": [{"pmid": f"{d}-{i}", "title": "x",
+                        "added_at": f"{d}T06:00:00+08:00"} for i in range(n)],
+        }, ensure_ascii=False), encoding="utf-8")
+
+    # 模擬索引被洗掉（例如上傳新版時被空檔覆蓋）
+    (tmp2 / "index.json").write_text("[]", encoding="utf-8")
+
+    idx = fp.rebuild_index()
+    check("索引被清空後能從日檔完全重建", len(idx) == 3, f"重建出 {len(idx)} 天")
+    check("篇數正確（4+17+14 = 35）",
+          sum(x["count"] for x in idx) == 35, str(idx))
+    check("日期由新到舊排序",
+          [x["date"] for x in idx] == ["2026-07-13", "2026-07-06", "2026-07-05"], str(idx))
+
+    # 0 篇的日子不該進日期選單
+    (tmp2 / "2026-07-07.json").write_text(json.dumps(
+        {"date": "2026-07-07", "count": 0, "papers": []}, ensure_ascii=False), encoding="utf-8")
+    idx2 = fp.rebuild_index()
+    check("0 篇的日子不進日期選單",
+          not any(x["date"] == "2026-07-07" for x in idx2), str(idx2))
+finally:
+    fp.DATA_DIR = _o
+    shutil.rmtree(tmp2)
+
+
+# ══════════════════════════════════════════════════════
 print("\n" + "═" * 56)
 print(f"  通過 {len(PASS)} · 失敗 {len(FAIL)}")
 print("═" * 56)

@@ -103,8 +103,9 @@ def main():
         print(f"  模式：🧪 試算（不花錢）")
     print("=" * 58)
 
-    # 先修補舊資料
+    # 先修補舊資料 + 重建索引
     fp.heal_legacy()
+    fp.rebuild_index()
 
     if not fp.API_KEY and not args.dry_run:
         print("\n❌ 沒有 ANTHROPIC_API_KEY，無法產生摘要。")
