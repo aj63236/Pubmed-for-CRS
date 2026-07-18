@@ -103,9 +103,14 @@ def main():
         print(f"  模式：🧪 試算（不花錢）")
     print("=" * 58)
 
-    # 先修補舊資料 + 重建索引
+    # 先修補舊資料 + 重建兩份衍生資料。
+    # 一定要在任何 return 之前 —— 就算今天一天都不用處理（全部跳過），
+    # 被覆蓋掉的索引也會在這裡被修回來。
+    # search.json 也要一起重建：所有日期都跳過時 fp.save() 不會被呼叫，
+    # 少了這行，搜尋索引就永遠停在舊的狀態。
     fp.heal_legacy()
     fp.rebuild_index()
+    fp.rebuild_search_index()
 
     if not fp.API_KEY and not args.dry_run:
         print("\n❌ 沒有 ANTHROPIC_API_KEY，無法產生摘要。")

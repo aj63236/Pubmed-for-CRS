@@ -367,6 +367,53 @@ A/B 實測（同一份資料，只讓 `search.json` 404）：舊版列出 0 篇�
 
 ---
 
+### 12. 修好的東西沒被 commit，等於沒修（2026-07-18）
+
+**症狀：** 第 8 點的修法上線之後，網站**還是**只看得到一天。
+
+第 8 點把 `index.json` 改成衍生資料，每次跑都從日檔完全重建 —— 那是對的，
+Python 也確實照做了。跑 backfill 的 log 白紙黑字：
+
+```
+   ✅ data/index.json（9 天 · 143 篇）
+  2026-07-05  ⏭️  已有 4 篇，跳過
+  ...
+```
+
+索引重建成功。但 repo 裡的 `index.json` 還是 `[]`。
+
+**原因在 `backfill.yml`，不在 Python：**
+
+```yaml
+- name: Commit & Push
+  if: ${{ inputs.dry_run == false }}     ← 這裡
+```
+
+`backfill.py` 一開頭就跑 `heal_legacy()` + `rebuild_index()`，
+那是修復動作，不呼叫 Claude、不花錢。
+但成果只留在 runner 上 —— 試算模式跳過 Commit & Push，runner 一銷毀就沒了。
+
+而 STATUS 自己建議「試算模式先勾選 ✅」。
+於是照著做的人會看到：log 說修好了、網站沒變、再跑一次、還是沒變。
+
+**修法：** `backfill.yml` 的資料驗證與 Commit & Push 都拿掉 `if: dry_run`。
+試算模式不會呼叫 `fp.save()`，所以能 commit 到的只有修好的衍生資料。
+commit message 會註明「🔧 修復索引（試算模式，未呼叫 API）」。
+
+**順帶修掉的第二個缺口：** backfill 開頭原本只重建 `index.json`。
+所有日期都跳過時 `fp.save()` 不會被呼叫，`search.json` 就永遠停在舊狀態
+（未讀數、舊格式的收藏都吃這個檔）。現在兩份一起重建。
+
+**新增 4 條 workflow 設定的回歸測試**（總數 46 → 50）。
+測試會讀 `backfill.yml`，斷言 commit 步驟沒有被 `dry_run` 擋住 ——
+把 `if:` 加回去，測試立刻失敗（已驗證）。
+
+**教訓：** 自我修復的機制要真的能自我修復，
+得檢查它的成果有沒有走完「產生 → 驗證 → commit → push」整條路。
+只驗到「檔案在 runner 上是對的」，等於什麼都沒驗。
+
+---
+
 ## ⚠️ 待辦 / 未完成
 
 ### 1. 最新版本還沒上傳到 repo

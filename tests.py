@@ -319,6 +319,45 @@ finally:
 
 
 # ══════════════════════════════════════════════════════
+# workflow 設定的回歸測試
+#
+# 索引「每次跑都自我修復」的設計是對的，Python 也確實照做了 ——
+# 但成果被 workflow 條件擋在門外：backfill.yml 的 Commit & Push
+# 曾經有 `if: dry_run == false`，於是試算模式下
+# log 顯示「9 天 · 143 篇」重建成功，repo 裡的 index.json 卻還是 []。
+#
+# 修好的東西沒被 commit，等於沒修。
+# ══════════════════════════════════════════════════════
+print("\n── workflow 設定 ──")
+
+_yml = (Path(__file__).parent / ".github/workflows/backfill.yml").read_text(encoding="utf-8")
+
+def _step_body(name):
+    """粗略抓出某個 step 從標題到下一個 step 之間的內容。"""
+    i = _yml.find(f"- name: {name}")
+    if i < 0:
+        return ""
+    j = _yml.find("\n      - name:", i + 1)
+    return _yml[i: j if j > 0 else len(_yml)]
+
+_commit = _step_body("Commit & Push")
+_valid  = _step_body("資料驗證（壞資料就不要推上網站）")
+
+check("backfill 的 Commit & Push 沒有被 dry_run 擋住",
+      bool(_commit) and "if:" not in _commit.split("run:")[0],
+      "試算模式會重建索引卻不 commit —— 修好的索引隨 runner 一起消失")
+check("backfill 的資料驗證沒有被 dry_run 擋住",
+      bool(_valid) and "if:" not in _valid.split("run:")[0],
+      "要 commit 就必須先驗證")
+check("backfill 開頭有重建 index.json",
+      "fp.rebuild_index()" in (Path(__file__).parent / "backfill.py").read_text(encoding="utf-8"),
+      "少了它，全部日期跳過時索引不會自我修復")
+check("backfill 開頭有重建 search.json",
+      "fp.rebuild_search_index()" in (Path(__file__).parent / "backfill.py").read_text(encoding="utf-8"),
+      "全部日期跳過時 fp.save() 不會被呼叫，搜尋索引會停在舊狀態")
+
+
+# ══════════════════════════════════════════════════════
 print("\n" + "═" * 56)
 print(f"  通過 {len(PASS)} · 失敗 {len(FAIL)}")
 print("═" * 56)
