@@ -1,0 +1,708 @@
+{
+ "date": "2026-07-20",
+ "generated_at": "2026-07-20T07:00:42+08:00",
+ "count": 10,
+ "papers": [
+  {
+   "pmid": "42470619",
+   "title": "Safety and Pharmacokinetics of Single and Multiple Ascending Doses of Olamkicept up to 2400 mg in Healthy Men: Phase I, Randomized, Placebo-Controlled, and Double-Blind Trial",
+   "journal": "Clin Transl Sci",
+   "journal_full": "Clinical and translational science",
+   "issn": "1752-8062",
+   "issn_linking": "1752-8054",
+   "impact_factor": 4.3,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1111/cts.70673",
+   "ptype": "Randomized Controlled Trial, Clinical Trial, Phase I",
+   "ptype_list": [
+    "Randomized Controlled Trial",
+    "Clinical Trial, Phase I"
+   ],
+   "authors": "Ignatenko S, Radicke A, Bruzelius K, Falkenberg M, Kyhl L, Møgelmose S",
+   "abstract": "Olamkicept is a first-in-class fully human fusion protein that selectively inhibits trans interleukin (IL)-6 signaling. Previous phase I clinical trials demonstrated that single doses up to 750 mg and multiple doses up to 600 mg were safe and well tolerated in healthy men and women. The clinical efficacy of the 600 mg dose has been demonstrated in inflammatory bowel disease. This phase I, single-center, within-group randomized, double-blind, dose-extension trial examined the safety, pharmacokinetics (PK), and immunogenicity of single (SAD) and multiple ascending doses (MAD) of olamkicept. Healthy men aged 18-45 years were randomized 3:1 in panels of eight individuals to receive either olamkicept (1200 mg, 1800 mg, or 2400 mg) or placebo as either SAD or MAD every 2 weeks over a 6-week period. The primary objective was to assess the safety of olamkicept based on treatment-emergent adverse events, vital signs, electrocardiogram, clinical chemistry, hematology, and hemostasis. Secondary outcomes included PK and immunogenicity. Forty-nine participants were randomized. Four treatment-emergent adverse events (TEAEs) and one adverse drug reaction were reported in the SAD, and 16 TEAEs were reported in the MAD part. No treatment or dose-related trends were observed across dose groups in any safety measure. Exposure increased in a dose-proportional manner and there was no evidence of accumulation. New anti-olamkicept antibodies were identified in 4/18 participants (22.2%) across all dose levels in the MAD part. SAD and MAD administration of up to 2400 mg olamkicept were well tolerated by healthy men and demonstrated dose-proportional increases in exposure.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42397055",
+     "date": "2026-07-03",
+     "title_zh": "Favezelimab在實體腫瘤患者中的族群藥物動力學、暴露-反應療效與安全性分析",
+     "score": 3,
+     "one_liner": "在晚期實體腫瘤與PD-L1陽性CRC患者中，建立Favezelimab族群PK模型，發現暴露量增加與ORR上升相關，安全性無顯著影響。",
+     "sim": 0.163
+    }
+   ],
+   "title_zh": "Olamkicept 於健康男性中單次及多次遞增劑量（最高至2400mg）之安全性與藥物動力學：第一期、隨機、安慰劑對照、雙盲試驗",
+   "abstract_zh": "Olamkicept 是一種first-in-class全人類融合蛋白，可選擇性抑制trans interleukin (IL)-6訊息傳遞。先前第一期臨床試驗顯示，單次劑量至750mg及多次劑量至600mg在健康男女性中安全且耐受性良好。600mg劑量之臨床療效已在發炎性腸道疾病中證實。本第一期、單中心、組內隨機、雙盲、劑量延伸試驗檢驗單次遞增劑量(SAD)及多次遞增劑量(MAD)Olamkicept之安全性、藥物動力學(PK)及免疫原性。年齡18-45歲之健康男性以3:1隨機分派，每組8人，接受Olamkicept（1200mg、1800mg或2400mg）或安慰劑，以SAD或MAD方式每2週給藥一次，共6週。主要目標為根據治療相關不良事件、生命徵象、心電圖、臨床生化、血液學及止血功能評估Olamkicept之安全性。次要指標包括PK與免疫原性。共49名受試者被隨機分派。SAD組報告4件治療相關不良事件(TEAE)及1件藥物不良反應，MAD組報告16件TEAE。各劑量組間未觀察到與治療或劑量相關之安全性趨勢。暴露量呈劑量比例增加，且無累積證據。MAD組中18名受試者中有4名(22.2%)於所有劑量層級中發現新的抗Olamkicept抗體。SAD及MAD給藥Olamkicept最高至2400mg在健康男性中耐受性良好，且顯示劑量比例性暴露量增加。",
+   "evidence_level": "RCT",
+   "score": 2,
+   "score_reason": "第一期健康受試者安全性/PK試驗，方法學嚴謹但與大腸直腸外科臨床決策幾乎無直接關聯。",
+   "relevance": "低度相關",
+   "relevance_why": "為IBD藥物在健康受試者的早期安全性/藥物動力學研究，非外科介入，亦非CRC病人族群。",
+   "novelty": "仍屬早期",
+   "one_liner": "在49名健康男性中，比較Olamkicept（1200-2400mg）SAD/MAD給藥與安慰劑，發現安全性良好、暴露量呈劑量比例增加，22.2%出現新抗體。",
+   "action": "目前不需改變做法；此為健康受試者第一期安全性研究，非CRC手術或臨床療效證據。",
+   "pico": {
+    "P": "18-45歲健康男性，共49人",
+    "I": "Olamkicept 1200mg、1800mg或2400mg（單次或每2週多次給藥，共6週）",
+    "C": "安慰劑",
+    "O": "主要：治療相關不良事件、生命徵象、心電圖、生化、血液學、止血功能；次要：藥物動力學、免疫原性"
+   },
+   "effects": [],
+   "key_numbers": [
+    "SAD組：4件TEAE，1件藥物不良反應（未提供各劑量組/安慰劑組分開人數）",
+    "MAD組：16件TEAE，各劑量組間無明顯趨勢差異",
+    "MAD組新抗Olamkicept抗體發生率4/18 (22.2%)，跨所有劑量層級"
+   ],
+   "cautions": [
+    "受試者為健康男性，非IBD或CRC病人，療效與安全性結果無法直接外推至病人族群",
+    "樣本數僅49人，且各劑量組/安慰劑組事件數未清楚拆分對照，難判斷劑量相關風險",
+    "僅評估安全性與PK替代指標，未涉及任何臨床療效或長期安全性結果"
+   ],
+   "unassessable": [
+    "ITT分析",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "長期安全性追蹤"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-07-20T06:56:36+08:00"
+  },
+  {
+   "pmid": "42468955",
+   "title": "Study of TOfacitinib for the treatment of chronic PouchITis (STOPit): a multi-centre open label induction with randomised, double blind, placebo-controlled maintenance trial",
+   "journal": "BMJ Open",
+   "journal_full": "BMJ open",
+   "issn": "2044-6055",
+   "issn_linking": "2044-6055",
+   "impact_factor": 2.5,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1136/bmjopen-2026-118940",
+   "ptype": "Multicenter Study, Randomized Controlled Trial",
+   "ptype_list": [
+    "Multicenter Study",
+    "Randomized Controlled Trial"
+   ],
+   "authors": "Khoo E, Holtmann G, Begun J",
+   "abstract": "INTRODUCTION: Study of TOfacitinib for the treatment of chronic PouchITis (STOPit) is a national, investigator-led, multicentre, open-label induction with randomised, double-blind, placebo-controlled maintenance trial to determine the effectiveness of tofacitinib to induce and maintain clinical remission in chronic pouchitis patients. The primary objective of STOPit is to evaluate the clinical response to tofacitinib, compared with placebo, using the validated modified Pouchitis Disease Activity Index score. Secondary objectives include clinical response and remission rates, endoscopic response and mucosal healing rates in induction and maintenance phases; rates of flare and recapturing response in open label extension phase; the effect of tofacitinib on clinical biomarkers and quality of life; and safety of tofacitinib use for treatment of chronic pouchitis. Study period is up to ten months, with five visits and three pouchoscopies.\nMETHODS AND ANALYSIS: Adults with ulcerative colitis who have undergone total proctocolectomy and ileal pouch-anal anastomosis and have chronic pouchitis are eligible. Participants receive open-label 10 mg two times per day tofacitinib for 8 weeks. Clinical responders at the end of week 8 will be randomised to either tofacitinib or placebo in the maintenance phase. Non-responders will receive extended induction dosing for a further 8 weeks. Persistent non-responders exit the study and responders will proceed to maintenance randomisation. Randomised individuals will be followed for 24 weeks. Patients experiencing a flare of symptoms during the maintenance phase will be eligible to receive open-label tofacitinib. Efficacy and safety data will be evaluated at 12 weeks after termination from the study. Target sample size is 72 patients to be randomised into maintenance to achieve sufficient power. Data analysis is planned to commence in October 2026.\nETHICS AND DISSEMINATION: Ethics approval was granted (Project ID 66809) and the trial was notified (CTN: CT-2020-CTN-04866-1; ANZCTR: 381128) prior to commencement. The study will be conducted in accordance with National Health and Medical Research Council (NHMRC) guidelines, and findings will be published in a peer-reviewed journal.\nTRIAL REGISTRATION NUMBER: CTN: CT-2020-CTN-04866-1.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42425560",
+     "date": "2026-07-10",
+     "title_zh": "經肛門灌洗治療低位前切除症候群（LARS）：一項務實、多中心、交叉設計隨機對照試驗之研究計畫書",
+     "score": 4,
+     "one_liner": "此為計畫書，描述將於加拿大8中心對66名LARS病人（LARS分數>20）進行TAI vs. 傳統照護的交叉RCT，尚無結果。",
+     "sim": 0.16
+    },
+    {
+     "pmid": "42425570",
+     "date": "2026-07-10",
+     "title_zh": "禁食模擬飲食對接受根治性切除之大腸直腸癌病患長期預後的影響：一項多中心、前瞻性、隨機對照試驗方案",
+     "score": 3,
+     "one_liner": "在602名中國第三期CRC根治性切除病患中，比較FMD介入與對照組，評估3年DFS——此為試驗方案，尚無結果數據。",
+     "sim": 0.15
+    }
+   ],
+   "title_zh": "托法替尼治療慢性儲袋炎的研究（STOPit）：多中心開放性誘導治療併隨機、雙盲、安慰劑對照維持治療試驗",
+   "abstract_zh": "前言：托法替尼治療慢性儲袋炎研究（STOPit）為一項全國性、研究者主導、多中心、開放性誘導治療併隨機、雙盲、安慰劑對照維持治療試驗，目的為確定托法替尼誘導並維持慢性儲袋炎病人臨床緩解之療效。STOPit的主要目標為評估托法替尼相較於安慰劑之臨床反應，使用經驗證之修改版儲袋炎疾病活動指數（modified Pouchitis Disease Activity Index）評分進行評估。次要目標包括誘導期與維持期之臨床反應率與緩解率、內視鏡反應率與黏膜癒合率；開放性延伸期之惡化率與恢復反應率；托法替尼對臨床生物標記與生活品質之影響；以及托法替尼治療慢性儲袋炎之安全性。研究期間長達十個月，共五次追蹤與三次儲袋鏡檢查。\n\n方法與分析：納入曾接受全大腸直腸切除併迴腸儲袋肛門吻合術（IPAA）且患有慢性儲袋炎之潰瘍性大腸炎成人病人。參與者接受開放性托法替尼10mg每日兩次，共8週。第8週結束時臨床反應者將隨機分配至托法替尼組或安慰劑組進入維持期。無反應者將接受延長誘導劑量再8週。持續無反應者退出研究，反應者則進入維持期隨機分配。隨機分組個案將追蹤24週。維持期出現症狀惡化之病人可接受開放性托法替尼治療。療效與安全性資料將於退出研究後12週進行評估。目標樣本量為72名進入維持期隨機分配之病人，以達到足夠統計檢定力。資料分析計畫於2026年10月開始。\n\n倫理與傳播：已取得倫理審查核准（專案編號66809），試驗於開始前已完成註冊（CTN: CT-2020-CTN-04866-1; ANZCTR: 381128）。本研究將依循國家健康與醫學研究委員會（NHMRC）指引進行，研究結果將發表於同行審查期刊。\n\n試驗註冊號：CTN: CT-2020-CTN-04866-1。",
+   "evidence_level": "RCT",
+   "score": 2,
+   "score_reason": "這僅是試驗計畫書，尚無任何療效或安全性數據，目前對臨床決策無直接幫助，僅供追蹤未來結果。",
+   "relevance": "中度相關",
+   "relevance_why": "慢性儲袋炎是IPAA術後常見併發症，大腸直腸外科醫師常需處理，但托法替尼治療決策多由IBD/腸胃科團隊主導。",
+   "novelty": "仍屬早期",
+   "one_liner": "此為計畫書，描述將對72名慢性儲袋炎病人進行托法替尼誘導後隨機雙盲安慰劑對照維持治療試驗，尚無結果數據。",
+   "action": "目前不需改變做法，此僅為試驗設計，無療效數據；可記錄追蹤2026年後續結果發表。",
+   "pico": {
+    "P": "曾接受全大腸直腸切除併IPAA、患有慢性儲袋炎之潰瘍性大腸炎成人病人（維持期目標納入72人）",
+    "I": "托法替尼10mg每日兩次，開放性誘導8週後隨機進入托法替尼維持治療",
+    "C": "安慰劑（雙盲維持期）",
+    "O": "主要outcome：修改版儲袋炎疾病活動指數評分之臨床反應；次要outcome：臨床緩解率、內視鏡反應率、黏膜癒合率、惡化率、生活品質、安全性"
+   },
+   "effects": [],
+   "key_numbers": [
+    "此為試驗計畫書，無任何療效或安全性絕對數字可供抽取",
+    "目標樣本量：維持期隨機分配72名病人",
+    "資料分析預計2026年10月開始，結果尚未發表"
+   ],
+   "cautions": [
+    "此僅為試驗計畫書，完全無療效或安全性結果，不可據此改變臨床決策",
+    "維持期樣本量僅72人，若效果量不如預期，統計檢定力可能不足",
+    "誘導期為開放性設計，反應率可能受安慰劑效應與觀察者偏誤影響，僅維持期為雙盲"
+   ],
+   "unassessable": [
+    "療效數據",
+    "安全性數據",
+    "失訪率",
+    "ITT分析",
+    "利益衝突",
+    "盲法執行細節（誘導期為開放性）"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。列出的LARS灌洗計畫書與本篇托法替尼儲袋炎試驗主題（IPAA併發症種類、介入方式）皆不相同，無實質關聯。",
+   "added_at": "2026-07-19T06:54:49+08:00"
+  },
+  {
+   "pmid": "42469969",
+   "title": "Psychosocial factors associated with spiritual needs among patients with colorectal cancer: A multicenter cross-sectional study using structural equation modeling in Guangdong Province, China",
+   "journal": "Medicine (Baltimore)",
+   "journal_full": "Medicine",
+   "issn": "1536-5964",
+   "issn_linking": "0025-7974",
+   "impact_factor": 2.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1097/MD.0000000000049894",
+   "ptype": "Multicenter Study",
+   "ptype_list": [
+    "Multicenter Study"
+   ],
+   "authors": "Zhang X, Zhang Y",
+   "abstract": "Spiritual needs are increasingly recognized as part of supportive cancer care, but they remain underassessed in routine practice. This study examined spiritual needs and associated psychosocial factors among patients with colorectal cancer recruited from 5 hospitals in Guangdong Province, China. A multicenter cross-sectional survey was conducted between July 2024 and June 2025. Patients with colorectal cancer completed validated Chinese questionnaires assessing perceived social support, psychological resilience, anxiety, depression, spiritual well-being, and spiritual needs. Data were analyzed using descriptive statistics, correlation analysis, confirmatory factor analysis, and structural equation modeling. Bias-corrected bootstrapping with 5000 resamples was used to estimate 95% confidence intervals for standardized direct, indirect, and total estimates. In total, 1068 valid questionnaires were included. Spiritual needs were negatively correlated with perceived social support, psychological resilience, and spiritual well-being and positively correlated with anxiety and depression. The structural equation model showed a good fit to the data: χ2/df = 1.434, root mean square error of approximation = 0.020, Tucker-Lewis index = 0.990, comparative fit index = 0.991, and incremental fit index = 0.991. In the hypothesized model, perceived social support, psychological resilience, and spiritual well-being were negatively associated with spiritual needs, whereas anxiety and depression were positively associated with spiritual needs. Overall, spiritual needs were associated with social support, resilience, emotional distress, and spiritual well-being. These findings support the inclusion of spiritual, psychosocial, and emotional assessment in supportive care for this population.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42387325",
+     "date": "2026-07-02",
+     "title_zh": "自我揭露與社會支持在大腸直腸癌術後病人自覺負擔與獲益發現關係中的中介角色",
+     "score": 3,
+     "one_liner": "在165名大腸直腸癌術後病人中，發現自覺負擔與獲益發現負相關(r=-0.687)，社會支持與自我揭露中介約57.6%總效應。",
+     "sim": 0.17
+    }
+   ],
+   "title_zh": "大腸直腸癌病人靈性需求相關之心理社會因子：中國廣東省多中心橫斷面研究（結構方程模型分析）",
+   "abstract_zh": "靈性需求越來越被視為癌症支持性照護的一環，但在常規臨床實務中仍常被低估。本研究探討中國廣東省5家醫院之大腸直腸癌病人的靈性需求及其相關心理社會因子。此多中心橫斷面調查於2024年7月至2025年6月間進行。大腸直腸癌病人完成經驗證之中文版問卷，評估自覺社會支持、心理韌性、焦慮、憂鬱、靈性安適感與靈性需求。資料以描述性統計、相關性分析、驗證性因素分析及結構方程模型進行分析。使用偏差校正拔靴法（5000次重抽樣）估計標準化直接效應、間接效應與總效應之95%信賴區間。共納入1068份有效問卷。靈性需求與自覺社會支持、心理韌性、靈性安適感呈負相關，與焦慮、憂鬱呈正相關。結構方程模型對資料具良好適配度：χ2/df = 1.434，近似均方根誤差 = 0.020，Tucker-Lewis指數 = 0.990，比較適配指數 = 0.991，增量適配指數 = 0.991。在假設模型中，自覺社會支持、心理韌性與靈性安適感與靈性需求呈負相關，而焦慮與憂鬱則與靈性需求呈正相關。整體而言，靈性需求與社會支持、韌性、情緒困擾及靈性安適感有關。這些發現支持將靈性、心理社會與情緒評估納入此族群的支持性照護中。",
+   "evidence_level": "橫斷面",
+   "score": 2,
+   "score_reason": "橫斷面相關性研究，無法推論因果，且探討的是靈性需求與心理支持照護構面，與外科手術決策或臨床處置無直接關聯。",
+   "relevance": "低度相關",
+   "relevance_why": "本研究為心理腫瘤學／支持性照護領域的問卷調查，非外科介入或手術相關結果，對大腸直腸外科臨床決策幫助有限。",
+   "novelty": "再確認已知",
+   "one_liner": "在1068名中國大腸直腸癌病人中，以SEM分析發現社會支持、韌性、靈性安適感與靈性需求負相關，焦慮憂鬱與其正相關。",
+   "action": "目前不需改變外科做法；可轉知照護團隊（腫瘤心理/社工/靈性關懷師）作為病人整體照護參考。",
+   "pico": {
+    "P": "中國廣東省5家醫院之大腸直腸癌病人，共1068人",
+    "I": "無介入（橫斷面問卷調查：社會支持、韌性、焦慮憂鬱、靈性安適感）",
+    "C": "無對照組",
+    "O": "主要outcome：靈性需求程度與各心理社會變項之關聯（結構方程模型路徑係數）"
+   },
+   "effects": [],
+   "key_numbers": [
+    "樣本數1068人，屬中大型橫斷面調查",
+    "SEM模型適配度良好：CFI=0.991, TLI=0.990, RMSEA=0.020",
+    "焦慮憂鬱與靈性需求正相關；社會支持、韌性、靈性安適感與其負相關（未提供確切相關係數數值）"
+   ],
+   "cautions": [
+    "橫斷面設計，僅能證明相關性，無法確立因果關係或時序性",
+    "所有變項皆為自填問卷（自覺社會支持、焦慮憂鬱等），可能有共同方法變異偏誤",
+    "研究族群侷限於中國文化脈絡，靈性需求構念之文化差異可能影響外推至台灣病人的適用性"
+   ],
+   "unassessable": [
+    "失訪率",
+    "問卷回收率",
+    "試驗註冊",
+    "利益衝突",
+    "病人分期/治療階段分佈",
+    "各變項間確切相關係數數值"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "與先前看過之「自我揭露與社會支持中介負擔與獲益發現」一文主題相近，皆探討社會支持在大腸直腸癌病人心理適應中的保護角色，惟本文聚焦靈性需求而非負擔/獲益發現，兩者outcome構念不同，仍屬同一心理腫瘤學研究脈絡的延伸。",
+   "added_at": "2026-07-19T06:54:49+08:00"
+  },
+  {
+   "pmid": "42470136",
+   "title": "Effect of offering colonoscopy at the faecal immunochemical test (FIT) positivity threshold: a regression discontinuity analysis in older adults",
+   "journal": "Int J Epidemiol",
+   "journal_full": "International journal of epidemiology",
+   "issn": "1464-3685",
+   "issn_linking": "0300-5771",
+   "impact_factor": 5.7,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jun",
+   "doi": "10.1093/ije/dyag109",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Kristensen A, Madsen J, Jørgensen S, Njor S",
+   "abstract": "BACKGROUND: Colorectal cancer (CRC) screening programmes often use the faecal immunochemical test (FIT) to identify individuals for follow-up colonoscopy but evidence on its impact on CRC incidence remains limited. Using a regression discontinuity design (RDD), we investigated whether CRC screening affects CRC incidence among adults aged 71-75 years with FIT values close to the threshold-an age group not consistently included in screening programmes.\nMETHODS: Using registry data from 2014 to 2024, we compared CRC incidence among screening participants aged 71-75 years with FIT values just above versus just below the 100-ng/ml referral threshold, where only those above were offered colonoscopy. We included 2773 individuals with borderline FIT values (80-120 ng/ml). An RDD was used to estimate the effect of colonoscopy referral based on FIT on CRC incidence at values close to the threshold while mitigating healthy-user bias.\nRESULTS: Over a median 8.4-year follow-up, 165 CRC cases were observed. As expected from the lead time, early incidence was higher in FIT-positive individuals offered colonoscopy but cumulative incidence later plateaued in this group while it continued to rise in FIT-negative individuals. After 10 years of follow-up, a reduction was seen between the groups from 12.1 to 6.6 cases per 1000 person-years, equivalent to 5.5 fewer cases (95% confidence interval: 1.44-9.56) per 1000 person-years, corresponding to a 45.5% reduction.\nCONCLUSION: CRC screening reduces CRC incidence among adults aged 71-75 years with FIT values close to the FIT threshold. This could guide cancer screening policies for an age group that is only eligible for screening in some countries.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42425152",
+     "date": "2026-07-10",
+     "title_zh": "多標靶糞便DNA檢測與糞便免疫化學檢測之比較：以種族與族裔分層之全國性後續大腸鏡追蹤評估",
+     "score": 4,
+     "one_liner": "在362,646名美國陽性糞便篩檢受試者中，比較mt-sDNA與FIT/FOBT，發現後續大腸鏡依從性77.1% vs 45.1%，各種族皆同。",
+     "sim": 0.225
+    },
+    {
+     "pmid": "42425152",
+     "date": "2026-07-12",
+     "title_zh": "多標靶糞便DNA檢測與糞便免疫化學檢測之比較：以種族與族裔分層之全國性後續大腸鏡追蹤評估",
+     "score": 4,
+     "one_liner": "在362,646名美國陽性糞便篩檢受試者中，比較mt-sDNA與FIT/FOBT，發現後續大腸鏡依從性77.1% vs 45.1%，各種族皆同。",
+     "sim": 0.225
+    },
+    {
+     "pmid": "42386327",
+     "date": "2026-07-02",
+     "title_zh": "以患者為中心的方法改善資源有限社區之大腸直腸癌(CRC)篩檢",
+     "score": 3,
+     "one_liner": "在資源有限社區診所之45-49歲(n=400)與50-75歲(n=2879)患者中，多元患者中心介入使CRC篩檢率各提升至41.25%與46.16%。",
+     "sim": 0.174
+    }
+   ],
+   "title_zh": "在FIT陽性閾值提供大腸鏡檢查之效果：高齡族群之迴歸不連續分析",
+   "abstract_zh": "背景：大腸直腸癌(CRC)篩檢計畫常使用糞便免疫化學檢測(FIT)來找出需要後續大腸鏡檢查的個案，但其對CRC發生率影響的證據仍有限。我們採用迴歸不連續設計(RDD)，探討在71-75歲、FIT值接近閾值的成人中，CRC篩檢是否影響CRC發生率——此年齡層並非所有篩檢計畫皆一致納入。\n\n方法：利用2014年至2024年的登錄資料，我們比較71-75歲篩檢參與者中FIT值恰高於與恰低於100 ng/ml轉診閾值者之CRC發生率，僅高於閾值者被提供大腸鏡檢查。共納入2773名FIT邊界值(80-120 ng/ml)個案。使用RDD估計基於FIT轉診大腸鏡對CRC發生率的效果，同時減緩健康使用者偏誤。\n\n結果：中位追蹤8.4年間，觀察到165例CRC病例。如預期的領先時間效應，FIT陽性且被提供大腸鏡者早期發生率較高，但累積發生率之後趨於平緩，而FIT陰性組則持續上升。追蹤10年後，兩組間發生率由每千人年12.1例降至6.6例，相當於每千人年減少5.5例(95%信賴區間：1.44-9.56)，對應45.5%的降幅。\n\n結論：CRC篩檢可降低71-75歲、FIT值接近閾值成人之CRC發生率。此結果可作為指引僅部分國家將此年齡層納入篩檢資格之癌症篩檢政策參考。",
+   "evidence_level": "其他",
+   "score": 6,
+   "score_reason": "採用RDD此準實驗設計巧妙減緩健康使用者偏誤、樣本量尚可，但為單一登錄資料、邊界值分析，對台灣直接臨床操作影響有限，主要價值在篩檢政策層面。",
+   "relevance": "中度相關",
+   "relevance_why": "主題為篩檢年齡上限政策(71-75歲)，非直接外科介入，但影響未來轉診至大腸直腸外科之病人來源與年齡分布。",
+   "novelty": "可能改變實務",
+   "one_liner": "在FIT邊界值(80-120 ng/ml)之71-75歲2773名受試者中，比較大腸鏡轉診與否，10年CRC發生率降45.5%（12.1→6.6/千人年）。",
+   "action": "可作為評估延伸台灣糞便潛血篩檢年齡上限至75歲之政策參考，暫不改變臨床照護與轉診流程。",
+   "pico": {
+    "P": "71-75歲FIT邊界值(80-120 ng/ml)篩檢參與者，共2773人",
+    "I": "FIT值高於100 ng/ml閾值並轉診大腸鏡檢查",
+    "C": "FIT值低於閾值未轉診大腸鏡",
+    "O": "主要：CRC累積發生率（10年）；次要：無"
+   },
+   "effects": [],
+   "key_numbers": [
+    "10年CRC發生率：12.1 vs 6.6例/千人年，減少5.5例/千人年(95% CI 1.44-9.56)",
+    "相對降幅45.5%，但此為千人年發生率而非個人層級絕對風險差",
+    "共2773名邊界值個案，追蹤中位數8.4年，總計165例CRC"
+   ],
+   "cautions": [
+    "RDD為準實驗設計，非隨機分派，效果推論僅適用於FIT值恰在閾值附近的窄群體，外推性有限",
+    "報告以千人年發生率呈現，未提供各組個人數與事件數，難以獨立驗證ARR/NNT",
+    "早期發生率差異部分源自領先時間偏差(lead time)，作者雖有說明但摘要未完全排除此混淆"
+   ],
+   "unassessable": [
+    "登記資料完整性與失訪率",
+    "混淆因子調整方法細節",
+    "試驗/研究註冊",
+    "利益衝突",
+    "台灣本地FIT閾值與此100 ng/ml是否相同"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。之前看過的論文聚焦於FIT/mt-sDNA篩檢工具比較與篩檢率提升介入，與本篇探討篩檢對CRC發生率因果效應的主題不同。",
+   "added_at": "2026-07-20T06:56:36+08:00"
+  },
+  {
+   "pmid": "42472328",
+   "title": "Radioembolization (Selective Internal Radiation Therapy-SIRT). Changes in clinical practice, points of our experience",
+   "journal": "Hell J Nucl Med",
+   "journal_full": "Hellenic journal of nuclear medicine",
+   "issn": "1790-5427",
+   "issn_linking": "1790-5427",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Spyridonidis T",
+   "abstract": "Radioembolization (SIRT) was initially introduced in the early 21st century as a whole-liver, primarily palliative treatment, for hepatocellular carcinoma (HCC) and liver metastatic colorectal cancer (mCRC). Over time, its application expanded to include other primary and secondary liver tumors. Clinical experience and emerging studies have demonstrated a clear relationship between higher tumor-absorbed radiation doses and improved tumor response. Such dose escalation can be achieved through advanced, more precise, and synchronous dosimetric approaches (personalized dosimetry), or in selected cases, through targeted treatments such as segmentectomy or lobectomy. These strategies have been associated with improved survival outcomes and, in certain cases, have enabled a shift toward curative treatment intent.",
+   "watched": [],
+   "related": [],
+   "title_zh": "選擇性體內放射治療（SIRT / 放射性栓塞術）：臨床實務的變化與我們的經驗心得",
+   "abstract_zh": "放射性栓塞術（SIRT）最初於21世紀初被引入，作為肝細胞癌（HCC）與大腸直腸癌肝轉移（mCRC）的全肝、主要為緩和性治療。隨著時間推移，其應用擴展至其他原發性與續發性肝腫瘤。臨床經驗與新興研究已證實，較高的腫瘤吸收放射劑量與更佳的腫瘤反應之間存在明確關係。這種劑量提升可透過更先進、更精確且同步的劑量測定方法（個人化劑量學）達成，或在特定病例中透過針對性治療如節段切除術（segmentectomy）或肝葉切除術（lobectomy）達成。這些策略與存活預後改善相關，並在某些病例中使治療意圖得以轉向根治性治療。",
+   "evidence_level": "綜述",
+   "score": 3,
+   "score_reason": "純敘述性綜述、無原始數據或對照試驗，對台灣大腸直腸外科日常決策的直接參考價值有限，僅供了解SIRT發展脈絡。",
+   "relevance": "中度相關",
+   "relevance_why": "討論mCRC肝轉移的SIRT治療選項，但屬核醫/介入放射範疇，非外科手術本身，且無具體療效數據。",
+   "novelty": "仍屬早期",
+   "one_liner": "本文回顧SIRT於HCC與mCRC肝轉移治療的演進，說明個人化劑量學與節段/肝葉導向治療可能提升腫瘤反應與存活，但未提供具體對照數據。",
+   "action": "目前不需改變外科決策；可作為與核醫/IR團隊討論不可切除肝轉移病人多專科治療選項時的背景知識參考。",
+   "pico": {
+    "P": "HCC及mCRC肝轉移病人（綜述性質，未提供具體研究人數）",
+    "I": "SIRT（放射性栓塞術），含個人化劑量學、節段切除術式劑量策略",
+    "C": "無明確對照組（綜述文章，非單一比較研究）",
+    "O": "腫瘤反應、存活預後、治療意圖轉變（根治性 vs 緩和性）；未提供量化數據"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供任何具體數字、發生率或統計檢定結果",
+    "僅描述『較高劑量與較佳反應有關』之定性關係，無ARR或NNT可估算",
+    "無對照組比較數據，無法計算療效差異"
+   ],
+   "cautions": [
+    "此為敘述性綜述而非系統性回顧或統合分析，缺乏系統化文獻篩選方法，易受作者選擇性引用影響",
+    "『劑量提升改善存活』之因果推論可能過度詮釋，實際證據來源未說明是否為RCT或回溯性世代研究",
+    "摘要完全無絕對數字、信賴區間或p值，讀者無法自行評估效應量大小或統計顯著性"
+   ],
+   "unassessable": [
+    "文獻篩選方法",
+    "納入研究之證據等級",
+    "樣本數",
+    "利益衝突",
+    "作者是否有SIRT相關廠商資金贊助"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-07-20T06:56:36+08:00"
+  },
+  {
+   "pmid": "42470319",
+   "title": "Longitudinal Associations Between Inflammatory Markers at 12-Months and Three Core Symptoms of Depression at 12- and 24-Months After Colorectal Cancer Diagnosis: Results From the Population-Based PROFILES Registry",
+   "journal": "Psychooncology",
+   "journal_full": "Psycho-oncology",
+   "issn": "1099-1611",
+   "issn_linking": "1057-9249",
+   "impact_factor": 3.9,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1002/pon.70555",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Hinnen C, Mols F, Schoormans D",
+   "abstract": "PURPOSE: Depression is a heterogeneous construct comprising distinct symptom domains, including motivational anhedonia, consummatory anhedonia, and negative affect, commonly experienced by colorectal cancer (CRC) survivors. Inflammation has been implicated in depression, its association with specific depressive symptom domains in CRC survivors remains insufficiently characterized.\nMETHODS: CRC patients (n = 497) completed questionnaires assessing depressive symptoms 12- and 24-months post-diagnosis: motivational anhedonia (Multidimensional Fatigue Inventory), consummatory anhedonia (Hospital Anxiety and Depression Scale-depression), and negative affect (EORTC QLQ-C30, emotional functioning). Associations between 11 inflammatory markers (CRP, IL-1α, IL-1β, IL-6, IL-8, IL-10, IL-17A, IL-22, IFN-γ, sTNFRI, and sTNFRII) at 12-months and depressive symptoms at 12- and 24-months were examined using linear mixed models.\nRESULTS: IL-1β (Est = 0.089, p = 0.003) and IFN-γ (Est = 0.067, p = 0.001) were associated with more consummatory anhedonia symptoms across time, and a small sTNFRI × time interaction was found (Est = 0.000, p = 0.007). Negative affect was associated with IL-1β (Est = -0.496, p < 0.001), IFN-γ (Est = -0.354, p < 0.001), and sTNFRI (Est = -0.003, p < 0.001). A significant IL-1α × time interaction was observed (Est = 0.250, p = 0.038) for motivational anhedonia.\nCONCLUSIONS: Most consistently IL-1β, IFN-γ, and sTNFRI was associated with greater consummatory anhedonia and more negative affect in CRC survivors. In addition, inflammatory correlates (IL-1α and sTNFRI) of motivational anhedonia and consummatory anhedonia changed over time. These findings suggest that selected inflammatory pathways may contribute to specific depressive symptom domains during colorectal cancer survivorship. Given the exploratory nature of the analyses, replication in independent cohorts is required before clinical implications can be drawn.",
+   "watched": [],
+   "related": [],
+   "title_zh": "大腸直腸癌診斷後12個月之發炎指標與診斷後12個月及24個月三大核心憂鬱症狀之縱貫性關聯：來自人群基礎PROFILES登錄研究之結果",
+   "abstract_zh": "目的：憂鬱是一種異質性建構，包含不同的症狀範疇，包括動機性快感缺失（motivational anhedonia）、消費性快感缺失（consummatory anhedonia）與負向情緒（negative affect），這些是大腸直腸癌（CRC）存活者常見的經驗。發炎已被認為與憂鬱有關，但其與CRC存活者特定憂鬱症狀範疇之關聯仍未被充分描述。方法：CRC病人（n=497）於診斷後12個月與24個月完成評估憂鬱症狀之問卷：動機性快感缺失（多維度疲勞量表）、消費性快感缺失（醫院焦慮憂鬱量表-憂鬱分量表），以及負向情緒（EORTC QLQ-C30情緒功能）。使用線性混合模型檢驗12個月時11種發炎指標（CRP、IL-1α、IL-1β、IL-6、IL-8、IL-10、IL-17A、IL-22、IFN-γ、sTNFRI、sTNFRII）與12個月及24個月憂鬱症狀之關聯。結果：IL-1β（Est = 0.089，p = 0.003）與IFN-γ（Est = 0.067，p = 0.001）與較多消費性快感缺失症狀（跨時間）有關，並發現一個小幅的sTNFRI×時間交互作用（Est = 0.000，p = 0.007）。負向情緒與IL-1β（Est = -0.496，p < 0.001）、IFN-γ（Est = -0.354，p < 0.001）及sTNFRI（Est = -0.003，p < 0.001）有關。動機性快感缺失方面，觀察到顯著的IL-1α×時間交互作用（Est = 0.250，p = 0.038）。結論：最一致的發現是IL-1β、IFN-γ與sTNFRI與CRC存活者較多的消費性快感缺失及較多負向情緒有關。此外，動機性快感缺失與消費性快感缺失之發炎相關因子（IL-1α與sTNFRI）隨時間改變。這些發現顯示特定發炎路徑可能參與大腸直腸癌存活期間特定憂鬱症狀範疇之形成。鑑於分析屬探索性質，在得出臨床意涵之前，需要在獨立世代中進行重複驗證。",
+   "evidence_level": "前瞻性世代",
+   "score": 3,
+   "score_reason": "屬探索性生物標記相關性研究，作者自承需重複驗證才能有臨床意涵，且與大腸直腸外科手術決策無直接關聯。",
+   "relevance": "低度相關",
+   "relevance_why": "此為心理腫瘤學／發炎生物標記與憂鬱症狀之相關性研究，非外科介入或手術決策相關議題。",
+   "novelty": "仍屬早期",
+   "one_liner": "在497位CRC存活者中，探討12個月發炎指標與12/24個月憂鬱症狀範疇之關聯，發現IL-1β、IFN-γ、sTNFRI與消費性快感缺失及負向情緒相關（p<0.05）。",
+   "action": "目前不需改變做法：此為探索性相關性研究，作者明言需獨立世代重複驗證後才能有臨床意涵。",
+   "pico": {
+    "P": "大腸直腸癌存活者，完成問卷者共497人，於診斷後12個月與24個月評估",
+    "I": "12個月時測量之11種發炎指標（CRP、IL-1α、IL-1β、IL-6、IL-8、IL-10、IL-17A、IL-22、IFN-γ、sTNFRI、sTNFRII）",
+    "C": "無對照組（觀察性相關研究，各指標與症狀之關聯強度互相比較）",
+    "O": "主要outcome：動機性快感缺失、消費性快感缺失、負向情緒三種憂鬱症狀範疇（12與24個月）"
+   },
+   "effects": [],
+   "key_numbers": [
+    "IL-1β與消費性快感缺失關聯 Est=0.089, p=0.003；與負向情緒關聯 Est=-0.496, p<0.001",
+    "IFN-γ與消費性快感缺失關聯 Est=0.067, p=0.001；與負向情緒關聯 Est=-0.354, p<0.001",
+    "sTNFRI×時間交互作用（消費性快感缺失）Est=0.000, p=0.007，效應量極小"
+   ],
+   "cautions": [
+    "純相關性觀察研究，無法推論發炎指標與憂鬱症狀之因果關係",
+    "11種發炎指標×3種症狀範疇多重比較，摘要未提及多重檢定校正，偽陽性風險高",
+    "作者明確聲明此為探索性分析（exploratory），效應量（Est）極小，需獨立世代重複驗證方可作臨床解讀"
+   ],
+   "unassessable": [
+    "失訪率",
+    "ITT分析",
+    "試驗註冊",
+    "利益衝突",
+    "共變數調整之完整細節",
+    "發炎指標檢驗之測量誤差與控制"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。",
+   "added_at": "2026-07-20T06:56:36+08:00"
+  },
+  {
+   "pmid": "42470074",
+   "title": "Perioperative dynamics of the prognostic nutritional index predict recurrence and survival after resection for colorectal liver metastases",
+   "journal": "Medicine (Baltimore)",
+   "journal_full": "Medicine",
+   "issn": "1536-5964",
+   "issn_linking": "0025-7974",
+   "impact_factor": 2.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1097/MD.0000000000049748",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Tatsuta K, Sakata M, Iwase Y, Takagi T, Matsumoto A, Ida S",
+   "abstract": "We evaluated how perioperative changes in the prognostic nutritional index (PNI) influence recurrence and survival after hepatectomy for colorectal cancer liver metastases (CRLM). We conducted a retrospective analysis of 108 patients who underwent hepatectomy for CRLM. Preoperative and postoperative PNI levels were compared, and patients were categorized into high (postoperative PNI equal to or higher than preoperative PNI) and low (postoperative PNI lower than preoperative PNI) groups. Statistical analyses included the Kaplan-Meier analysis, log-rank tests, Cox proportional hazards regression models, and Akaike information criterion. The median observation period was 3.3 years. The Kaplan-Meier analysis showed worse overall survival and recurrence-free survival in the low group. Subgroup analysis demonstrated reproducibility regardless of patient background, era of surgery, surgical outcomes, neoadjuvant or adjuvant chemotherapy, and liver metastasis status. Multivariate analysis identified low group assignment and synchronous liver metastasis as independent predictors of recurrence (hazard ratio [HR], 3.788; 95% confidence interval [CI], 2.030-7.621; HR, 3.338; 95% CI, 1.715-6.964, respectively) and survival (HR, 4.484; 95% CI, 1.945-10.334; HR, 2.529; 95% CI, 1.183-5.407, respectively). The Akaike information criterion analysis showed that perioperative shifts in PNI were superior to preoperative or postoperative PNI alone in predicting outcomes. Perioperative shifts in PNI predicted recurrence and prognosis post-hepatectomy for CRLM more accurately compared to using preoperative or postoperative PNI alone.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42379759",
+     "date": "2026-07-01",
+     "title_zh": "手術因子與術後免疫狀態對大腸直腸癌肝轉移切除後預後之影響",
+     "score": 4,
+     "one_liner": "在118名CRLM肝切除病人中，術後併發症、手術時間>300分、失血>320ml為獨立不良預後因子，術後LMR與生存相關。",
+     "sim": 0.238
+    },
+    {
+     "pmid": "42379715",
+     "date": "2026-07-01",
+     "title_zh": "法國大腸直腸癌肝轉移根治性切除病患之循環腫瘤DNA研究：GERCOR G-118 CLIMES PRODIGE 77前瞻性多中心世代研究計畫書",
+     "score": 3,
+     "one_liner": "在232名接受CRLM根治性切除病患中，將評估術前ctDNA狀態與DFS之關聯性——此為研究計畫書，尚無結果數據。",
+     "sim": 0.23
+    },
+    {
+     "pmid": "42380904",
+     "date": "2026-07-01",
+     "title_zh": "大腸直腸肝轉移病人於全身性治療後，將手術延遲超過六週可降低術後併發症發生率，且無腫瘤學結果受損之證據",
+     "score": 4,
+     "one_liner": "在159名CRLM病人中，比較全身性治療後手術延遲≥42天與≤41天，發現CCI≥30發生率48.7% vs 31.3%（p=0.023），腫瘤學結果無差異。",
+     "sim": 0.211
+    }
+   ],
+   "title_zh": "圍術期預後營養指數(PNI)動態變化預測大腸直腸癌肝轉移切除術後之復發與存活",
+   "abstract_zh": "我們評估大腸直腸癌肝轉移(CRLM)肝切除術後，圍術期預後營養指數(PNI)變化如何影響復發與存活。我們對108名接受CRLM肝切除的病人進行回溯性分析。比較術前與術後PNI數值，並將病人分為高PNI組(術後PNI等於或高於術前PNI)與低PNI組(術後PNI低於術前PNI)。統計分析包括Kaplan-Meier分析、log-rank檢定、Cox比例風險回歸模型，以及Akaike資訊準則(AIC)。中位觀察期為3.3年。Kaplan-Meier分析顯示低PNI組整體存活與無復發存活較差。次群組分析顯示此結果在不同病人背景、手術年代、手術結果、新輔助或輔助化療、以及肝轉移狀態下皆具再現性。多變量分析發現低PNI組別與同時性肝轉移為復發之獨立預測因子(HR分別為3.788，95% CI 2.030-7.621；HR 3.338，95% CI 1.715-6.964)，以及存活之獨立預測因子(HR 4.484，95% CI 1.945-10.334；HR 2.529，95% CI 1.183-5.407)。AIC分析顯示圍術期PNI變化在預測結果上優於單獨使用術前或術後PNI。圍術期PNI變化較單獨使用術前或術後PNI，能更準確預測CRLM肝切除術後之復發與預後。",
+   "evidence_level": "回溯性研究",
+   "score": 5,
+   "score_reason": "單中心回溯性研究，樣本數僅108人，僅提供HR無絕對數字，但有次群組分析與AIC模型比較增加可信度，屬預後標記探索性研究。",
+   "relevance": "中度相關",
+   "relevance_why": "雖非手術術式介入研究，但PNI為易取得的圍術期營養指標，對CRLM病人風險分層與追蹤策略有參考價值。",
+   "novelty": "仍屬早期",
+   "one_liner": "在108名CRLM肝切除病人中，比較術後PNI較術前下降(低組)與未下降(高組)，發現低組復發HR 3.788、死亡HR 4.484。",
+   "action": "可考慮於CRLM肝切除術後常規追蹤PNI變化，作為高復發風險病人加強監測的參考指標，但需更大規模驗證。",
+   "pico": {
+    "P": "108名接受CRLM肝切除手術病人",
+    "I": "術後PNI低於術前PNI(低組)",
+    "C": "術後PNI等於或高於術前PNI(高組)",
+    "O": "主要：整體存活、無復發存活；次要：AIC比較PNI變化 vs 單獨術前/術後PNI之預測力"
+   },
+   "effects": [],
+   "key_numbers": [
+    "低PNI組復發風險HR 3.788 (95% CI 2.030-7.621)",
+    "低PNI組死亡風險HR 4.484 (95% CI 1.945-10.334)",
+    "同時性肝轉移為獨立復發(HR 3.338)與死亡(HR 2.529)預測因子"
+   ],
+   "cautions": [
+    "僅報告HR與CI，未提供各組實際復發率、存活率等絕對數字，難以估計臨床效應大小",
+    "PNI分組以術後是否≥術前為切點，屬人為二分法，未提供PNI變化量的連續性分析或最佳切點依據",
+    "回溯性單中心研究，樣本僅108人，次群組分析可能為事後分析(post-hoc)，需謹慎解讀其再現性宣稱"
+   ],
+   "unassessable": [
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "PNI測量時間點的標準化程度",
+    "多變量模型納入的其他共變量完整清單"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "與前作【1】同為探討CRLM肝切除術後預後因子的研究，前作聚焦手術因子與LMR等免疫營養指標，本篇則以PNI(結合白蛋白與淋巴球)之圍術期動態變化為切入點，補充了另一種營養免疫指標的預後價值，惟兩篇皆為小樣本回溯性研究，證據力有限。",
+   "added_at": "2026-07-20T06:56:36+08:00"
+  },
+  {
+   "pmid": "42470059",
+   "title": "Knowledge, attitudes, and practices regarding proctological diseases with a focus on anal fistula: A cross-sectional study from a tertiary care center in Turkiye",
+   "journal": "Medicine (Baltimore)",
+   "journal_full": "Medicine",
+   "issn": "1536-5964",
+   "issn_linking": "0025-7974",
+   "impact_factor": 2.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1097/MD.0000000000049258",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Sahin C, Bostanci H",
+   "abstract": "Globally, sociocultural factors often pose significant barriers for patients in seeking medical attention and accessing appropriate treatment. This study aims to evaluate the knowledge, attitudes, and practices regarding anal fistula and other proctological conditions in Turkiye. The findings will help identify gaps in health education and support the development of targeted public health interventions. This research is a cross-sectional survey study conducted among individuals who applied to a tertiary care center. Participants were consecutively recruited and consisted of individuals aged 18 and over who visited the general surgery outpatient clinic for any reason. Data were collected through an online questionnaire based on Google Forms. The survey included questions on demographic information, disease awareness, attitudes toward treatment, and healthcare-seeking behavior. A knowledge, attitudes, and practices (KAP) analysis was performed to assess participants' understanding of the disease, their treatment preferences, and health-related practices. A total of 702 participants were included in the analysis, of whom 377 (53.7%) were female and 325 (46.3%) were male. A history of at least one proctological disease was reported by 332 individuals (47.2%), and 115 participants (16.3%) had undergone surgery for a proctological condition at least once. Traditional treatment methods had been tried by 73 respondents (10.3%). A total of 330 participants (46.9%) stated they were aware of the causes of anal fistula; however, only 143 (43.3%) of them gave correct answers. The total KAP score was significantly lower among participants with primary education compared with those with higher education (P = .02). Participants over the age of 45 had significantly higher total KAP scores compared with both younger age groups (≤30 and 31-45 years; P < .001). In addition, participants with a history of proctological disease or a diagnosis of anal fistula had significantly higher KAP scores (P < .05). Raising awareness of proctological diseases in Turkiye remains a significant challenge. On the basis of the findings of the KAP analysis, it is essential to identify knowledge gaps and misconceptions and to develop educational and public health strategies aimed at improving community health outcomes.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42388744",
+     "date": "2026-07-02",
+     "title_zh": "中國城市居民對四大癌症的健康識能：一項全國性橫斷面調查",
+     "score": 2,
+     "one_liner": "在中國城市成人（n=1226）中比較四種癌症健康識能分數，大腸直腸癌識能最高（7.50±3.35），腎癌最低（4.30±2.89）。",
+     "sim": 0.192
+    },
+    {
+     "pmid": "42410767",
+     "date": "2026-07-07",
+     "title_zh": "社區藥師對大腸激躁症（IBS）管理之準備度：沙烏地阿拉伯Qassim地區關於認知、觀感與臨床支持實務之描述性社區研究",
+     "score": 2,
+     "one_liner": "在沙烏地阿拉伯Qassim地區67名社區藥師中，調查其IBS認知與臨床準備度，發現61.2%具備足夠認知、52.65%具足夠臨床準備度。",
+     "sim": 0.169
+    }
+   ],
+   "title_zh": "土耳其某三級醫療中心對肛門直腸疾病（聚焦肛門廔管）之知識、態度與行為：橫斷面研究",
+   "abstract_zh": "在全球範圍內，社會文化因素常對病人就醫及獲得適當治療造成重大障礙。本研究旨在評估土耳其民眾對肛門廔管及其他肛門直腸疾病之知識、態度與行為。研究結果將有助於找出健康教育之落差，並支持發展針對性的公共衛生介入措施。本研究為一項橫斷面調查，對象為前往某三級醫療中心就診之民眾。參與者為連續收案，年齡18歲以上、因任何原因至一般外科門診就診者。資料透過以Google表單製作之線上問卷收集，內容包括人口學資訊、疾病認知、對治療之態度，以及就醫行為。研究進行知識、態度與行為（KAP）分析，以評估參與者對疾病之了解、治療偏好及健康相關行為。共納入702名參與者，其中女性377人（53.7%），男性325人（46.3%）。332人（47.2%）曾有至少一種肛門直腸疾病史，115人（16.3%）曾因肛門直腸疾病接受過至少一次手術。73人（10.3%）曾嘗試傳統療法。共330人（46.9%）表示知道肛門廔管之成因，然而其中僅143人（43.3%）答對。初等教育程度者之總KAP分數顯著低於高等教育程度者（P = .02）。45歲以上參與者之總KAP分數顯著高於兩個較年輕組別（≤30歲及31-45歲；P < .001）。此外，有肛門直腸疾病史或肛門廔管診斷者之KAP分數顯著較高（P < .05）。提升土耳其民眾對肛門直腸疾病之認知仍是一大挑戰。根據KAP分析結果，應找出知識落差與迷思，並發展教育與公共衛生策略，以改善社區健康結果。",
+   "evidence_level": "橫斷面",
+   "score": 2,
+   "score_reason": "單一國家門診族群之KAP問卷調查，無介入、無對照組，對台灣大腸直腸外科臨床決策幾無直接影響力。",
+   "relevance": "低度相關",
+   "relevance_why": "屬健康識能／衛教行為調查，非手術或治療介入研究，且為土耳其在地文化背景，難以直接類推至台灣。",
+   "novelty": "再確認已知",
+   "one_liner": "在土耳其某醫學中心門診702名民眾中，調查肛門廔管等肛門直腸疾病之KAP，僅43.3%對病因認知正確，教育程度低者分數較差。",
+   "action": "目前不需改變手術或治療做法；可作為衛教設計參考，提醒對低教育程度、年輕病人加強肛門廔管衛教。",
+   "pico": {
+    "P": "土耳其某三級醫療中心一般外科門診成人病患，共702人",
+    "I": "無介入，為橫斷面問卷調查（KAP問卷）",
+    "C": "無對照組（依教育程度、年齡、疾病史分組比較）",
+    "O": "主要：KAP總分及各項知識、態度、行為得分；次要：疾病盛行率、手術史、傳統療法使用率"
+   },
+   "effects": [],
+   "key_numbers": [
+    "47.2%（332/702）曾有肛門直腸疾病史，16.3%（115/702）曾接受相關手術",
+    "46.9%（330/702）自述知道肛門廔管病因，但其中僅43.3%（143/330）答對",
+    "10.3%（73/702）曾嘗試傳統療法治療肛門直腸疾病"
+   ],
+   "cautions": [
+    "線上Google表單問卷可能有選樣偏誤，較不熟悉科技或高齡病人易被排除",
+    "自陳式問卷易有回憶偏誤與社會期許偏誤，KAP分數未附具體數值僅列p值",
+    "多重次群組比較（教育、年齡、疾病史）未提及是否校正多重檢定，可能高估顯著性"
+   ],
+   "unassessable": [
+    "失訪率",
+    "問卷信效度驗證",
+    "利益衝突",
+    "試驗註冊",
+    "抽樣方法之代表性（是否連續收案完整）"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。雖先前曾看過中國癌症健康識能與沙烏地阿拉伯IBS藥師準備度之調查，但疾病主題（肛門廔管）與族群（土耳其門診病患）皆不同，缺乏直接可比性。",
+   "added_at": "2026-07-20T06:56:36+08:00"
+  },
+  {
+   "pmid": "42470494",
+   "title": "Investigating the mechanisms of malignant progression in colorectal cancer using weighted gene co-expression network analysis and machine learning",
+   "journal": "J Mol Histol",
+   "journal_full": "Journal of molecular histology",
+   "issn": "1567-2387",
+   "issn_linking": "1567-2379",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1155/2023/6632205",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Zheng S, Meng L, Fan X, He X",
+   "abstract": "Colorectal cancer (CRC) remains a leading cause of cancer-related mortality worldwide. Understanding the complex molecular networks that underlie this aggressive behavior is critical for developing novel diagnostic and therapeutic strategies. This study aimed to identify key molecular regulators of CRC progression by integrating Weighted Gene Co-expression Network Analysis (WGCNA) with machine learning algorithms. Hub genes were initially identified by intersecting genes from the most significant module with CRC-related and glycolysis-related targets from the GeneCards database, as well as upregulated differentially expressed genes (DEGs) from the GSE113513 dataset. Lasso regression and random forest (RF) algorithms were employed to screen for key genes from this intersection. The expression of the identified key gene was validated using quantitative real-time PCR (qRT-PCR) and Western blotting. Functional assays, including Cell Counting Kit-8 (CCK-8), colony formation, Transwell invasion, flow cytometry, and metabolic analyses, were conducted to analyze the malignant behaviors of CRC cells. The regulatory relationship between cyclin dependent kinase 1 (CDK1) and transcription factor AP-4 (TFAP4) was validated through chromatin immunoprecipitation (ChIP) and dual-luciferase reporter assays. A xenograft mouse model was used to evaluate the effect of TFAP4 knockdown on the malignant progression of CRC cells in vivo. WGCNA and machine learning analyses identified three key genes: MET, MYC, and CDK1. CDK1 was selected for further investigation and found to be significantly upregulated in CRC tissues and cell lines. Functionally, CDK1 knockdown markedly inhibited CRC cell proliferation, invasion, and glycolysis while promoting apoptosis. Mechanistically, the transcription factor TFAP4 was identified as an upstream regulator that directly activated CDK1 transcription. Moreover, CDK1 and TFAP4 expression were associated with metastatic stage. TFAP4 exerted its oncogenic effects by positively regulating CDK1. Furthermore, silencing TFAP4 significantly suppressed tumor growth in vivo. This study establishes the TFAP4-CDK1 axis as a critical driver of malignant progression in CRC. Targeting this pathway could lead to the development of novel interventions for CRC.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42381502",
+     "date": "2026-07-01",
+     "title_zh": "巨噬細胞動態、CCBE1及其在大腸直腸癌微環境中的意義：腫瘤進展與治療機會之全面分析",
+     "score": 2,
+     "one_liner": "在大腸直腸癌單細胞及TCGA數據與細胞株中，分析CCBE1與M2巨噬細胞極化關係，發現CCBE1為獨立預後危險因子（HR=1.305）並促進腫瘤侵襲。",
+     "sim": 0.197
+    },
+    {
+     "pmid": "42406750",
+     "date": "2026-07-06",
+     "title_zh": "利用機器學習技術基於單細胞RNA定序探討大腸直腸癌中的色胺酸代謝",
+     "score": 2,
+     "one_liner": "利用單細胞RNA定序與機器學習分析CRC中色胺酸代謝，發現巨噬細胞、Paneth細胞活性較高，CYP1A1與AHR為關鍵候選基因。",
+     "sim": 0.182
+    },
+    {
+     "pmid": "42464642",
+     "date": "2026-07-18",
+     "title_zh": "YAP1媒介SREBP2細胞質-細胞核轉位透過調控膽固醇代謝促進大腸直腸癌",
+     "score": 2,
+     "one_liner": "在CRC組織微陣列與細胞/小鼠模型中，發現YAP1促進SREBP2核轉位並驅動膽固醇代謝，與較差存活相關。",
+     "sim": 0.181
+    }
+   ],
+   "title_zh": "利用加權基因共表現網路分析（WGCNA）與機器學習探討大腸直腸癌惡性進展之機制",
+   "abstract_zh": "大腸直腸癌（CRC）仍是全球癌症相關死亡的主要原因之一。了解其侵襲行為背後複雜的分子網路，對開發新型診斷與治療策略至關重要。本研究旨在整合加權基因共表現網路分析（WGCNA）與機器學習演算法，找出CRC進展的關鍵分子調控因子。首先透過將最顯著模組中的基因，與GeneCards資料庫中CRC相關及糖解相關標的基因，以及GSE113513資料集中上調的差異表現基因（DEGs）取交集，初步鑑定樞紐基因。接著使用Lasso迴歸與隨機森林（RF）演算法，從此交集中篩選關鍵基因。以定量即時PCR（qRT-PCR）與西方墨點法驗證所鑑定關鍵基因的表現。進行功能性試驗，包括CCK-8試驗、群落形成試驗、Transwell侵襲試驗、流式細胞術以及代謝分析，以分析CRC細胞的惡性行為。透過染色質免疫沉澱（ChIP）與雙螢光酶報告基因試驗，驗證細胞週期依賴性激酶1（CDK1）與轉錄因子AP-4（TFAP4）之間的調控關係。使用異種移植小鼠模型評估TFAP4敲低對CRC細胞體內惡性進展的影響。WGCNA與機器學習分析鑑定出三個關鍵基因：MET、MYC與CDK1。選定CDK1做進一步研究，發現其在CRC組織與細胞株中顯著上調。功能上，敲低CDK1可顯著抑制CRC細胞增殖、侵襲與糖解，同時促進細胞凋亡。機轉上，轉錄因子TFAP4被鑑定為上游調控因子，可直接活化CDK1的轉錄。此外，CDK1與TFAP4的表現與轉移分期相關。TFAP4透過正向調控CDK1發揮致癌作用。此外，敲低TFAP4可顯著抑制體內腫瘤生長。本研究確立TFAP4-CDK1軸為大腸直腸癌惡性進展的關鍵驅動因子，標定此路徑可能有助於開發新型治療介入方式。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "純基礎轉譯研究（細胞株、異種移植小鼠），無人類臨床數據，對臨床決策無直接可信度或實用性。",
+   "relevance": "低度相關",
+   "relevance_why": "屬於分子機轉基礎研究，非外科介入，短期內不會改變臨床實務。",
+   "novelty": "仍屬早期",
+   "one_liner": "在CRC細胞株與異種移植小鼠模型中，發現TFAP4-CDK1軸促進增殖、侵襲與糖解，敲低TFAP4可抑制體內腫瘤生長。",
+   "action": "目前不需改變做法；此為分子機轉基礎研究，未涉及人類病人資料或臨床介入。",
+   "pico": {
+    "P": "大腸直腸癌細胞株與異種移植小鼠模型（無人類病人數據）",
+    "I": "CDK1或TFAP4基因敲低",
+    "C": "對照組（未敲低/scrambled控制）",
+    "O": "主要：細胞增殖、侵襲、糖解、凋亡、體內腫瘤生長；次要：CDK1/TFAP4表現與轉移分期之相關性"
+   },
+   "effects": [],
+   "key_numbers": [
+    "CDK1敲低顯著抑制CRC細胞增殖、侵襲與糖解，並促進凋亡（摘要未提供絕對數值）",
+    "敲低TFAP4顯著抑制異種移植小鼠腫瘤生長（摘要未提供絕對數值）",
+    "CDK1與TFAP4表現與臨床轉移分期相關（僅描述相關性，未提供統計數字）"
+   ],
+   "cautions": [
+    "純細胞株與動物實驗，無人類臨床試驗數據，結論不可直接外推至病人",
+    "體外機轉結果推論至體內致癌路徑，物種轉譯（小鼠→人）存在不確定性",
+    "摘要未提供樣本數、重複次數、統計方法與p值/信賴區間，無法評估穩健性"
+   ],
+   "unassessable": [
+    "人類樣本數",
+    "統計方法細節與p值",
+    "利益衝突",
+    "資金來源",
+    "動物實驗倫理審查",
+    "盲法/隨機分組（動物實驗）"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。雖然先前看過的論文同屬CRC分子機轉基礎研究，但探討路徑（CCBE1/巨噬細胞、色胺酸代謝、YAP1/SREBP2）與本篇TFAP4-CDK1軸並無直接關聯，機轉主題不同。",
+   "added_at": "2026-07-20T06:56:36+08:00"
+  },
+  {
+   "pmid": "42470441",
+   "title": "Evaluating the quality and reliability of inflammatory bowel disease-related short videos on BiliBili and TikTok: A cross-sectional study",
+   "journal": "Health Informatics J",
+   "journal_full": "Health informatics journal",
+   "issn": "1741-2811",
+   "issn_linking": "1460-4582",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1177/14604582261471307",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Cheng B, Chen X, Shi W, Zhou X",
+   "abstract": "BackgroundInflammatory Bowel Disease (IBD) is a chronic condition with increasing global prevalence. Short-video platforms like TikTok and Bilibili are popular health information sources, but their IBD-related content quality remains uncertain.ObjectiveTo assess the quality and reliability of IBD-related videos on TikTok and Bilibili.MethodsWe analyzed the top 100 IBD-related videos from each platform (200 total). Quality was evaluated using Global Quality Scale (GQS), modified DISCERN (mDISCERN), and JAMA benchmarks. Engagement metrics and quality scores were correlated.ResultsTikTok videos had higher engagement (P < .001) and better median scores (GQS: 3, mDISCERN: 3, JAMA: 3) than Bilibili (GQS: 3, mDISCERN: 3, JAMA: 3; P < .05). Gastroenterologist-created videos scored highest. GQS correlated positively with engagement (r = 0.16-0.26, P < .05), while mDISCERN correlated only with likes, shares, and saves (r = 0.16-0.18, P < .05). JAMA scores negatively correlated with duration (r = -0.24, P < .001).ConclusionsIBD-related short videos showed moderate quality, with TikTok outperforming Bilibili. Gastroenterologist-produced content was most reliable. Viewers should critically evaluate such health information to avoid misinformation.",
+   "watched": [],
+   "related": [],
+   "title_zh": "評估Bilibili與TikTok平台上發炎性腸道疾病相關短影音之品質與可靠度：一項橫斷面研究",
+   "abstract_zh": "背景：發炎性腸道疾病（IBD）是全球盛行率持續上升的慢性疾病。TikTok與Bilibili等短影音平台已成為熱門的健康資訊來源，但其IBD相關內容的品質仍不明確。目的：評估TikTok與Bilibili平台上IBD相關影片的品質與可靠度。方法：分析兩平台各前100部IBD相關影片（共200部）。使用整體品質量表（GQS）、修訂版DISCERN（mDISCERN）及JAMA標準評估品質，並將互動指標與品質分數進行相關性分析。結果：TikTok影片互動率較高（P < .001），且中位數分數（GQS: 3、mDISCERN: 3、JAMA: 3）優於Bilibili（GQS: 3、mDISCERN: 3、JAMA: 3；P < .05）。由消化科醫師製作的影片評分最高。GQS與互動率呈正相關（r = 0.16-0.26，P < .05），mDISCERN僅與按讚數、分享數、收藏數相關（r = 0.16-0.18，P < .05）。JAMA分數與影片長度呈負相關（r = -0.24，P < .001）。結論：IBD相關短影音品質屬中等程度，TikTok表現優於Bilibili。由消化科醫師製作的內容最為可靠。觀眾應審慎評估此類健康資訊，以避免誤導。",
+   "evidence_level": "橫斷面",
+   "score": 3,
+   "score_reason": "屬社群媒體內容品質描述性研究，無介入或臨床結果，對大腸直腸外科臨床決策幾乎無直接影響力。",
+   "relevance": "低度相關",
+   "relevance_why": "研究對象為社群媒體衛教影片品質，非外科介入或治療決策，且IBD多屬消化內科主導疾病。",
+   "novelty": "再確認已知",
+   "one_liner": "在TikTok與Bilibili各100部IBD影片（共200部）中，比較兩平台影片品質與互動度，發現TikTok互動率與部分品質分數較高（P<.001）。",
+   "action": "目前不需改變做法；此為衛教內容品質調查，非臨床治療證據，可作為病人衛教媒材篩選之參考資訊。",
+   "pico": {
+    "P": "TikTok與Bilibili平台上各前100部IBD相關短影音（共200部）",
+    "I": "TikTok平台影片",
+    "C": "Bilibili平台影片",
+    "O": "主要outcome：GQS、mDISCERN、JAMA品質分數；次要outcome：互動指標（讚數、分享、收藏）與品質分數之相關性"
+   },
+   "effects": [],
+   "key_numbers": [
+    "兩平台GQS、mDISCERN、JAMA中位數皆為3分，屬中等品質",
+    "TikTok互動率顯著高於Bilibili（P < .001）",
+    "JAMA分數與影片長度呈負相關但相關係數小（r = -0.24，P < .001）"
+   ],
+   "cautions": [
+    "相關係數普遍偏低（r = 0.16-0.26），統計顯著不代表臨床或實務意義大",
+    "僅取各平台『前100部』影片，抽樣方式可能受演算法排序偏誤影響，非隨機樣本",
+    "品質量表（GQS、mDISCERN、JAMA）為主觀評分工具，摘要未提供評分者間一致性（inter-rater reliability）"
+   ],
+   "unassessable": [
+    "評分者是否盲化",
+    "評分者間信度（IRR）",
+    "影片抽樣演算法細節",
+    "利益衝突",
+    "重複影片或機構帳號排除標準"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-07-20T06:56:36+08:00"
+  }
+ ]
+}
