@@ -1,0 +1,467 @@
+{
+ "date": "2026-06-21",
+ "generated_at": "2026-07-23T22:46:40+08:00",
+ "count": 6,
+ "papers": [
+  {
+   "pmid": "42322361",
+   "title": "Adherence to 2020 US Multi-Society Task Force Guidelines for Post-Polypectomy Surveillance: a Multicenter Real-Time Analysis",
+   "journal": "J Gastrointest Cancer",
+   "journal_full": "Journal of gastrointestinal cancer",
+   "issn": "1941-6636",
+   "issn_linking": "",
+   "impact_factor": 2.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jun",
+   "doi": "10.1001/jamaoncol.2021.1364",
+   "ptype": "Multicenter Study",
+   "ptype_list": [
+    "Multicenter Study"
+   ],
+   "authors": "Idouchi K, Hassan W, Gregoski M, Aroniadis O, Rockey D",
+   "abstract": "PURPOSE: The U.S. Multi-Society Task Force (USMSTF) updated its 2020 guidelines to recommend less frequent post-polypectomy surveillance, yet premature colonoscopies remain common. Since the guidelines were published 5 years ago, we hypothesized that adherence has improved over time. We also aim to identify factors associated with non-adherence.\nMETHODS: This was a multicenter retrospective cohort study of 452 patients. 1st surveillance colonoscopies performed between 2020 and 2025 were included. Findings from pathology reports for both index and first surveillance colonoscopies were recorded. We considered follow-up after identifying hyperplastic polyps (HPs), low-risk adenomas (LRAs), or high-risk adenomas (HRAs) (the most advanced lesion was considered to be the lesion for which surveillance was indicated). Procedures performed more than 6 months earlier or later than recommended were defined as early or late, respectively.\nRESULTS: Early surveillance occurred in 58% (n = 262/452) of 1st surveillance colonoscopies, while late surveillance occurred in 13% (n = 59/452). Early surveillance was performed in 82% of patients with only hyperplastic polyps (OR 5.47, 95% CI 1.60-18.72), and 64% of patients with only LRAs (OR 1.54, 95% CI 1.02-2.34). In contrast, patients with HRAs had delayed surveillance (OR 0.096, 95% CI 0.055-0.167). Early rates by year (2020-2025) were 46% (20/44), 50% (30/60), 57% (35/61), 70% (37/53), 51% (34/67), and 60% (100/167), respectively.\nCONCLUSIONS: Five years after the release of the 2020 USMSTF guidelines, adherence to recommended colonoscopy follow-up surveillance guidelines remains suboptimal. These findings highlight persistent gaps in guideline implementation.",
+   "watched": [],
+   "related": [],
+   "title_zh": "遵循2020年美國多學會工作小組（USMSTF）息肉切除術後追蹤指引之現況：多中心即時分析",
+   "abstract_zh": "目的：美國多學會工作小組（USMSTF）於2020年更新指引，建議降低息肉切除術後大腸鏡追蹤頻率，但過早追蹤大腸鏡的情況仍普遍存在。由於指引已發布5年，我們假設遵循率隨時間改善，並試圖找出與不遵循相關的因素。方法：本研究為多中心回溯性世代研究，納入452名病人。納入2020至2025年間執行第一次追蹤大腸鏡的病人。記錄指標大腸鏡與第一次追蹤大腸鏡的病理報告結果。追蹤依據為發現增生性息肉（HP）、低風險腺瘤（LRA）或高風險腺瘤（HRA）（以最嚴重病灶決定追蹤建議）。執行時間比建議提早或延後超過6個月分別定義為過早或延遲追蹤。結果：58%（262/452）的第一次追蹤大腸鏡屬於過早追蹤，13%（59/452）屬於延遲追蹤。僅有增生性息肉的病人中，82%接受過早追蹤（OR 5.47，95% CI 1.60-18.72）；僅有低風險腺瘤的病人中，64%接受過早追蹤（OR 1.54，95% CI 1.02-2.34）。相對地，高風險腺瘤病人的追蹤傾向延遲（OR 0.096，95% CI 0.055-0.167）。按年份（2020-2025）之過早追蹤率分別為46%（20/44）、50%（30/60）、57%（35/61）、70%（37/53）、51%（34/67）、60%（100/167）。結論：在2020年USMSTF指引發布5年後，追蹤大腸鏡指引的遵循率仍未達理想。這些發現凸顯指引落實上持續存在的落差。",
+   "evidence_level": "回溯性研究",
+   "score": 3,
+   "score_reason": "美國單一指引下的多中心回溯性描述性研究，無干預或對照設計，且台灣臨床實務多依循不同指引體系，直接可轉移性有限。",
+   "relevance": "低度相關",
+   "relevance_why": "此研究聚焦美國USMSTF指引遵循率，屬篩檢/內科追蹤議題而非外科介入，且台灣息肉追蹤指引與美國不完全相同。",
+   "novelty": "再確認已知",
+   "one_liner": "在452名接受第一次追蹤大腸鏡的病人中，58%過早、13%延遲追蹤，高風險腺瘤病人反而較常延遲（OR 0.096）。",
+   "action": "目前不需改變做法；此為美國指引遵循率之描述性統計，台灣應對照本土指引與院內流程檢討追蹤時程。",
+   "pico": {
+    "P": "452名於2020-2025年接受第一次息肉切除術後追蹤大腸鏡之多中心病人",
+    "I": "觀察其追蹤大腸鏡執行時間是否符合2020年USMSTF指引建議",
+    "C": "無對照組（依息肉病理分型：HP、LRA、HRA 作次群組比較）",
+    "O": "主要：過早/延遲追蹤大腸鏡之比例；次要：與不遵循相關之因素（息肉類型、年份趨勢）"
+   },
+   "effects": [],
+   "key_numbers": [
+    "過早追蹤率58%（262/452），延遲追蹤率13%（59/452）",
+    "僅增生性息肉病人過早追蹤率82%，OR 5.47（95% CI 1.60-18.72）",
+    "高風險腺瘤病人追蹤延遲，OR 0.096（95% CI 0.055-0.167）"
+   ],
+   "cautions": [
+    "回溯性世代研究，未說明是否調整其他潛在干擾因子（如醫師層級、病人共病）",
+    "美國指引特定研究，台灣是否採用相同追蹤時程未知，外推性有限",
+    "未探討造成不遵循的具體原因（系統性、醫師或病人層面），無法直接指導改善措施"
+   ],
+   "unassessable": [
+    "盲法（回溯性設計不適用）",
+    "ITT分析",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "各中心間異質性"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-07-23T22:43:37+08:00"
+  },
+  {
+   "pmid": "42323026",
+   "title": "Solute carrier family 6 member 14 (SLC6A14): Expression, function, regulation, and impact on tumor progression",
+   "journal": "Biochem Pharmacol",
+   "journal_full": "Biochemical pharmacology",
+   "issn": "1873-2968",
+   "issn_linking": "0006-2952",
+   "impact_factor": 6.5,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Sep",
+   "doi": "10.1016/j.bcp.2026.118182",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Zang W, Zhang Z, Zhi Y, Zhang W, Song F, Huang P",
+   "abstract": "Solute carrier family 6 member 14 (SLC6A14/ATB0,+) is a broad-spectrum, Na+/Cl--dependent amino acid transporter. It mediates the active uptake of nearly all essential amino acids and serves as a critical metabolic hub under physiological and pathological conditions. To fully understand its potential as a therapeutic target for cancer intervention, this review systematically elucidates the structural biology, regulatory networks, and multifaceted roles of SLC6A14 in cancer. By examining the expression patterns of SLC6A14 in physiological and pathological situation, we demonstrate that it's significantly upregulated in various \"amino acid-dependent\" malignancies. It includes pancreatic cancer, colorectal cancer, and estrogen receptor-positive breast cancer, where it drives multiple signaling pathways and promotes tumor progression through diverse mechanisms. Beyond its classical metabolic functions, SLC6A14-mediated nutrient deprivation establishes a \"nutrient-based immune evasion\" mechanism, elucidating its potential for intervention in tumor immunity. Furthermore, we outline a dual-pronged therapeutic strategy for SLC6A14, including its use as a target for pharmacological inhibition and as a delivery channel for amino acid-conjugated prodrugs. Finally, we emphasize that successful clinical translation requires a shift from biomarker-driven patient stratification to mechanism-driven implementation. This highlights the central role of SLC6A14 as an intervenable target at the intersection of cancer metabolism, immune regulation, and targeted therapy.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42385359",
+     "date": "2026-07-02",
+     "title_zh": "解析eIF3f在腫瘤中的功能機制並探索其靶向治療策略",
+     "score": 3,
+     "one_liner": "本綜述整理eIF3f在HCC、CRC、PCa中致癌、在PC、MM中抑癌的雙重角色，提出其功能可塑性的機制框架。",
+     "sim": 0.159
+    }
+   ],
+   "title_zh": "溶質載體家族6成員14 (SLC6A14)：表現、功能、調控及其對腫瘤進展的影響",
+   "abstract_zh": "溶質載體家族6成員14 (SLC6A14/ATB0,+) 是一種廣譜、Na+/Cl-依賴性的胺基酸轉運蛋白。它介導幾乎所有必需胺基酸的主動攝取，並在生理與病理狀態下作為關鍵代謝樞紐。為充分理解其作為癌症治療靶點的潛力，本綜述系統性闡述SLC6A14在癌症中的結構生物學、調控網絡及多面向角色。透過檢視SLC6A14在生理與病理情境下的表現模式，我們證明其在多種「依賴胺基酸」的惡性腫瘤中顯著上調，包括胰臟癌、大腸直腸癌及雌激素受體陽性乳癌，在這些腫瘤中它驅動多條訊號路徑並透過多種機制促進腫瘤進展。除了其典型的代謝功能外，SLC6A14媒介的營養剝奪建立了一種「以營養為基礎的免疫逃逸」機制，闡明其在腫瘤免疫干預上的潛力。此外，我們概述了針對SLC6A14的雙管齊下治療策略，包括作為藥理抑制的靶點，以及作為胺基酸偕聯前驅藥物的傳遞通道。最後，我們強調成功的臨床轉譯需要從以生物標記驅動的病人分層，轉向以機制驅動的實施方式。這凸顯SLC6A14作為癌症代謝、免疫調控與靶向治療交會處可介入靶點的核心地位。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純基礎科學機制綜述，無臨床數據、無外科相關介入，對台灣大腸直腸外科臨床實務目前無直接參考價值。",
+   "relevance": "低度相關",
+   "relevance_why": "純基礎研究性質的轉運蛋白機制綜述，非外科介入、非臨床試驗，僅提及CRC為眾多癌種之一。",
+   "novelty": "仍屬早期",
+   "one_liner": "本綜述整理SLC6A14在胰臟癌、CRC、乳癌中促進腫瘤進展與免疫逃逸的機制，並提出潛在治療策略。",
+   "action": "目前不需改變做法：此為基礎機制綜述，無臨床數據或藥物試驗結果可供臨床決策參考。",
+   "pico": {
+    "P": "無病人族群，為文獻綜述",
+    "I": "無介入，綜述SLC6A14的結構、調控與功能",
+    "C": "無對照組",
+    "O": "無臨床outcome，聚焦於機制描述與治療策略展望"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本文為機制綜述，無量化臨床數據可供抽取",
+    "無隨機對照試驗或世代研究之絕對風險數字",
+    "無p值、信賴區間或效果量報告"
+   ],
+   "cautions": [
+    "純基礎科學綜述，無臨床試驗數據，不可直接推論至病人照護決策",
+    "SLC6A14作為治療靶點僅為理論性提案，尚無臨床前或臨床試驗證據支持",
+    "CRC僅為文中提及的多種癌症之一，並非全文核心焦點"
+   ],
+   "unassessable": [
+    "盲法",
+    "allocation concealment",
+    "ITT",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本分析",
+    "所有臨床試驗相關評估項目（本文非臨床研究）"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-07-23T22:43:37+08:00"
+  },
+  {
+   "pmid": "42322272",
+   "title": "Pooled analysis of 2 clinical trials of first-line chemoimmunotherapy for metastatic microsatellite stable colorectal cancer MEDITREME and METIMMOX studies",
+   "journal": "Oncoimmunology",
+   "journal_full": "Oncoimmunology",
+   "issn": "2162-402X",
+   "issn_linking": "2162-4011",
+   "impact_factor": 6.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Dec",
+   "doi": "10.1001/jamaoncol.2022.7845",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Truntzer C, Thibaudin M, Bousquet P, Peroz M, Derangère V, Ilie A",
+   "abstract": "BACKGROUND: Colorectal cancer with microsatellite stable (MSS) status is intrinsically resistant to immune checkpoint inhibitor monotherapy targeting PD-1 or PD-L1. However, emerging evidence suggests that chemotherapies may overcome this resistance when combined with immunotherapy.\nMETHODS: We conducted a pooled analysis of individual patient data from two phase II trials evaluating oxaliplatin-based chemotherapy combined with checkpoint inhibitors as first-line treatment for MSS metastatic colorectal cancer. The MEDITREME trial is a single-arm study assessing durvalumab and tremelimumab with oxaliplatin-based chemotherapy, while the METIMMOX trial is a randomized study comparing standard oxaliplatin-based chemotherapy with an alternating regimen of oxaliplatin-based chemotherapy and nivolumab. We compared overall survival (OS), progression-free survival (PFS), and response rates between patients treated with chemotherapy alone versus chemoimmunotherapy, and evaluated the association between these outcomes and transcriptomic and immunoscore data.\nRESULTS: A total of 130 patients were included: 38 who received chemotherapy alone and 92 chemoimmunotherapy. The median OS was significantly improved in the chemoimmunotherapy group compared with chemotherapy alone (not reached vs. 15.3 months; HR = 0.58; 95% CI, 0.36-0.96; p = 0.03). The complete response rates were higher with chemoimmunotherapy (14% vs. 5%). No significant differences were observed in PFS. High baseline CD8+ T-cell infiltration was associated with improved outcomes in patients receiving chemoimmunotherapy but not in those treated with chemotherapy alone.\nCONCLUSIONS: This pooled analysis provides compelling evidence supporting the clinical benefit of first-line chemoimmunotherapy in a subset of patients with MSS mCRC. Baseline CD8+ T-cell infiltration may serve as a predictive biomarker for identifying patients most likely to benefit from this treatment approach.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42474934",
+     "date": "2026-07-21",
+     "title_zh": "MSI-H/dMMR轉移性大腸直腸癌一線免疫治療對比化療：第三期試驗之系統性回顧與統合分析",
+     "score": 5,
+     "one_liner": "在超過600名MSI-H/dMMR轉移性大腸直腸癌病人中，統合2篇第三期試驗，一線免疫治療較化療顯著改善PFS(HR 0.61)與OS(HR 0.77)。",
+     "sim": 0.271
+    },
+    {
+     "pmid": "42474934",
+     "date": "2026-07-22",
+     "title_zh": "MSI-H/dMMR轉移性大腸直腸癌一線免疫治療對比化療：第三期試驗之系統性回顧與統合分析",
+     "score": 5,
+     "one_liner": "在超過600名MSI-H/dMMR轉移性大腸直腸癌病人中，統合2篇第三期試驗，一線免疫治療較化療顯著改善PFS(HR 0.61)與OS(HR 0.77)。",
+     "sim": 0.271
+    },
+    {
+     "pmid": "42423805",
+     "date": "2026-07-09",
+     "title_zh": "MSI-H/dMMR轉移性大腸直腸癌之最佳一線免疫治療：證據、缺口與臨床決策",
+     "score": 6,
+     "one_liner": "此篇敘述性回顧整合KEYNOTE-177、CheckMate 8HW等試驗，比較pembrolizumab單藥與nivolumab+ipilimumab雙免疫治療於MSI-H/dMMR mCRC一線治療的證據強度與毒性權衡。",
+     "sim": 0.198
+    }
+   ],
+   "title_zh": "微衛星穩定型（MSS）轉移性大腸直腸癌一線化學免疫治療之統合分析：MEDITREME 與 METIMMOX 兩項臨床試驗",
+   "abstract_zh": "背景：微衛星穩定（MSS）狀態的大腸直腸癌對於單獨使用針對PD-1或PD-L1的免疫檢查點抑制劑具有本質性抗藥性。然而，新興證據顯示化學治療與免疫治療併用時可能克服此種抗藥性。\n方法：我們對兩項第二期試驗的個別病人資料進行統合分析，評估以奧沙利鉑（oxaliplatin）為基礎的化學治療併用檢查點抑制劑作為MSS轉移性大腸直腸癌一線治療。MEDITREME試驗為單臂研究，評估durvalumab與tremelimumab併用奧沙利鉑化療；METIMMOX試驗為隨機分派研究，比較標準奧沙利鉑化療與奧沙利鉑化療和nivolumab交替療法。我們比較單純化療組與化學免疫治療組之整體存活期（OS）、無惡化存活期（PFS）與反應率，並評估這些結果與轉錄組學及免疫評分（immunoscore）資料之關聯。\n結果：共納入130名病人：38名接受單純化療，92名接受化學免疫治療。化學免疫治療組之中位OS顯著優於單純化療組（未達到 vs. 15.3個月；HR = 0.58；95% CI，0.36-0.96；p = 0.03）。化學免疫治療組完全緩解率較高（14% vs. 5%）。PFS未觀察到顯著差異。基線CD8+ T細胞浸潤程度較高與接受化學免疫治療病人之較佳預後相關，但在單純化療病人中則無此關聯。\n結論：此統合分析提供令人信服的證據，支持一線化學免疫治療在部分MSS轉移性大腸直腸癌病人中具有臨床效益。基線CD8+ T細胞浸潤可能作為預測性生物標記，用以辨識最可能從此治療方式獲益的病人。",
+   "evidence_level": "統合分析",
+   "score": 5,
+   "score_reason": "訊號有趣（MSS腸癌對免疫治療通常無效），但為兩個異質性第二期試驗的事後統合分析、樣本量小、OS獲益卻PFS無差異，屬早期假說生成階段，尚不足以改變臨床決策。",
+   "relevance": "中度相關",
+   "relevance_why": "MSS佔大腸直腸癌絕大多數，議題臨床重要，但此為早期第二期統合分析，尚未達可直接改變治療指引的證據等級。",
+   "novelty": "仍屬早期",
+   "one_liner": "在130名MSS轉移性大腸直腸癌病人中，化學免疫治療較單純化療顯著改善OS（HR 0.58, p=0.03），但PFS無差異。",
+   "action": "目前不需改變做法：此為第二期異質試驗之統合分析，樣本小且PFS與OS結果不一致，應待第三期試驗證實後再評估臨床應用。",
+   "pico": {
+    "P": "MSS轉移性大腸直腸癌病人共130名（來自MEDITREME與METIMMOX兩項第二期試驗）",
+    "I": "奧沙利鉑化療併用免疫檢查點抑制劑（化學免疫治療，n=92）",
+    "C": "單純奧沙利鉑化療（n=38）",
+    "O": "主要：整體存活期（OS）、無惡化存活期（PFS）、反應率；次要：CD8+ T細胞浸潤與療效之關聯"
+   },
+   "effects": [
+    {
+     "outcome": "完全緩解率",
+     "ok": true,
+     "i_label": "化學免疫治療",
+     "c_label": "單純化療",
+     "i_rate": 14.0,
+     "c_rate": 5.0,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 9.0,
+     "benefit": true,
+     "event_bad": false,
+     "nnt": 11,
+     "kind": "NNT",
+     "note": ""
+    }
+   ],
+   "key_numbers": [
+    "中位OS：化學免疫治療組未達到 vs. 單純化療15.3個月，HR 0.58（95% CI 0.36-0.96, p=0.03）",
+    "完全緩解率：化學免疫治療14% vs. 單純化療5%",
+    "PFS無顯著差異（陰性結果，未提供確切數值）"
+   ],
+   "cautions": [
+    "統合兩個設計不同的試驗（一為單臂、一為隨機分派，且治療藥物組合不同），異質性可能扭曲整體效應估計",
+    "OS顯著改善但PFS無差異，此矛盾未充分解釋，可能反映事後分析或選擇偏差，需謹慎解讀因果關係",
+    "對照組僅38人，樣本量小、95% CI上限接近1（0.96），結果穩健性有限，屬第二期假說生成階段"
+   ],
+   "unassessable": [
+    "盲法",
+    "分派隱匿",
+    "ITT分析",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本分析"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。先前看過的論文皆聚焦於MSI-H/dMMR轉移性大腸直腸癌之免疫治療，而本篇針對的是生物學機轉相反的MSS族群（免疫治療原本無效的多數大腸直腸癌病人），兩者臨床意義與族群完全不同。",
+   "added_at": "2026-07-23T22:43:37+08:00"
+  },
+  {
+   "pmid": "42322708",
+   "title": "Changes in liver resections and associated outcomes over thirty years: a nationwide analysis using a machine learning approach",
+   "journal": "Eur J Surg Oncol",
+   "journal_full": "European journal of surgical oncology : the journal of the European Society of Surgical Oncology and the British Association of Surgical Oncology",
+   "issn": "1532-2157",
+   "issn_linking": "0748-7983",
+   "impact_factor": 3.5,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1016/j.ejso.2026.111964",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Verdonschot K, Vissers P, van den Boezem P, Overduin C, Fütterer J, de Wilt J",
+   "abstract": "BACKGROUND: In contrast to three decades ago, liver resection (LR) is now an increasingly common procedure. This study aims to evaluate changes in the number and indications of liver resections for malignancy over the past 30 years in the Netherlands and the associated survival outcomes.\nMETHOD: All records of surgical resections for liver tumors performed between 1991 and 2020 were extracted from the Dutch nationwide pathology network database. Resection and tumor characteristics were extracted using a machine-learning algorithm. Survival data was acquired through the Dutch Center for Family History. Patient, resection, and tumor characteristics and survival for hepatocellular carcinoma (HCC) and colorectal liver metastases (CRLM) were assessed across decades.\nRESULTS: Between 1991 and 2020, 19.022 LRs were performed. The annual number of LRs increased from 113 in 1991 to 1.178 in 2020. Liver metastases accounted for 84% of resections, of which 85% were CRLM, while of primary liver tumors 59% were HCC. The annual number of liver resections for colorectal metastases decreased since 2015. Over the decades patients undergoing liver resections were older, with more often multifocal liver tumors and re-resections. Five-year survival rate for CRLM decreased from 44% (1991-2000) to 33% (2011-2020), p < 0.001. Five-year survival rate for HCC patients was stable: 57% (1991-2000), 50% (2001-2010), and 50% (2011-2020), p = 0.681.\nCONCLUSION: The number of liver resections for malignancies in the Netherlands has sharply increased over the past three decades with expansion of indications. Survival after liver resection for CRLM showed a declining trend, potentially reflecting less stringent patient and tumor characteristics.",
+   "watched": [],
+   "related": [],
+   "title_zh": "三十年來肝臟切除手術之變化與相關預後：一項應用機器學習方法的全國性分析",
+   "abstract_zh": "背景：與三十年前相比，肝臟切除術（LR）現已成為日益普遍的手術。本研究旨在評估荷蘭過去30年間因惡性腫瘤而進行肝臟切除的數量與適應症變化，以及相關的存活預後。方法：從荷蘭全國病理網路資料庫中提取1991年至2020年間所有肝腫瘤手術切除記錄。使用機器學習演算法提取切除與腫瘤特徵。存活資料透過荷蘭家族史中心取得。針對肝細胞癌（HCC）與大腸直腸癌肝轉移（CRLM），評估各年代的病人、切除及腫瘤特徵與存活狀況。結果：1991年至2020年間，共執行19,022例肝臟切除。年度肝臟切除數從1991年的113例增加至2020年的1,178例。肝轉移佔切除案例的84%，其中85%為CRLM；原發性肝腫瘤中59%為HCC。自2015年起，因大腸直腸癌轉移而進行的年度肝臟切除數開始下降。歷經數十年，接受肝臟切除的病人年齡漸增，多發性肝腫瘤與再切除的比例也更高。CRLM病人的五年存活率從44%（1991-2000年）降至33%（2011-2020年），p<0.001。HCC病人的五年存活率則維持穩定：57%（1991-2000年）、50%（2001-2010年）、50%（2011-2020年），p=0.681。結論：荷蘭因惡性腫瘤而進行肝臟切除的數量在過去三十年間大幅增加，適應症亦隨之擴大。CRLM肝臟切除後的存活率呈下降趨勢，可能反映病人與腫瘤篩選條件趨於寬鬆。",
+   "evidence_level": "回溯性研究",
+   "score": 5,
+   "score_reason": "大型全國登錄資料具流行病學參考價值，但CRLM存活率下降的原因純屬推測，未做多變量校正，對臨床決策無直接指引。",
+   "relevance": "中度相關",
+   "relevance_why": "CRLM切除是大腸直腸外科日常議題，但此為荷蘭登錄資料的長期趨勢描述，非可直接套用於台灣臨床決策的介入性研究。",
+   "novelty": "仍屬早期",
+   "one_liner": "在荷蘭19,022例肝臟切除病人中，追蹤1991-2020年趨勢，發現CRLM五年存活率從44%降至33%（p<0.001），HCC存活率則穩定。",
+   "action": "目前不需改變做法；此為描述性登錄資料，CRLM存活下降原因未經校正分析，僅供警覺適應症擴大可能稀釋篩選品質。",
+   "pico": {
+    "P": "1991-2020年荷蘭全國病理資料庫中接受肝臟切除的惡性腫瘤病人，共19,022例（HCC與CRLM為主）",
+    "I": "無介入，為時間趨勢觀察（比較不同年代切除案例）",
+    "C": "1991-2000年 vs 2011-2020年（不同年代區間）",
+    "O": "主要：五年存活率變化；次要：切除數量、適應症、病人與腫瘤特徵變化"
+   },
+   "effects": [
+    {
+     "outcome": "CRLM五年存活率",
+     "ok": true,
+     "i_label": "1991-2000年",
+     "c_label": "2011-2020年",
+     "i_rate": 44.0,
+     "c_rate": 33.0,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 11.0,
+     "benefit": true,
+     "event_bad": false,
+     "nnt": 9,
+     "kind": "NNT",
+     "note": ""
+    },
+    {
+     "outcome": "HCC五年存活率",
+     "ok": true,
+     "i_label": "1991-2000年",
+     "c_label": "2011-2020年",
+     "i_rate": 57.0,
+     "c_rate": 50.0,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 7.0,
+     "benefit": true,
+     "event_bad": false,
+     "nnt": 14,
+     "kind": "NNT",
+     "note": ""
+    }
+   ],
+   "key_numbers": [
+    "年度肝臟切除數從113例(1991)增至1,178例(2020)，成長逾10倍",
+    "CRLM五年存活率44%降至33%，p<0.001，絕對降幅11%",
+    "HCC五年存活率57%→50%→50%，p=0.681，無統計顯著差異"
+   ],
+   "cautions": [
+    "CRLM存活下降的『適應症擴大』解釋僅為推測，未做多變量校正排除分期遷移、化療進展等干擾因素",
+    "機器學習演算法提取病理資料的準確性與驗證方式摘要未說明，可能有分類誤差",
+    "登錄資料無法反映R0切除率、化療方案、復發模式等關鍵預後因子，純粹時間趨勢無法建立因果關係"
+   ],
+   "unassessable": [
+    "機器學習演算法驗證準確度",
+    "多變量校正分析",
+    "R0切除率",
+    "輔助/新輔助化療使用情形",
+    "失訪率",
+    "利益衝突",
+    "試驗註冊"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-07-23T22:43:37+08:00"
+  },
+  {
+   "pmid": "42322856",
+   "title": "Gemcitabine enhanced the sensitivity of colorectal cancer to anti-PD-L1 therapy by promoting lactylation",
+   "journal": "Int Immunopharmacol",
+   "journal_full": "International immunopharmacology",
+   "issn": "1878-1705",
+   "issn_linking": "1567-5769",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Sep",
+   "doi": "10.1016/j.intimp.2026.117057",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Gong J, Fan C, Chen J, Xu S, Jiang H, Sun D",
+   "abstract": "Colorectal cancer (CRC) remains one of the most prevalent and malignant cancers worldwide. Although various therapeutic strategies have been developed, CRC patients often exhibit poor responses. The combination of chemotherapy with immune checkpoint inhibitors represents a promising new treatment approach. However, pervasive drug resistance and significant interindividual variability in treatment efficacy remain major challenges, highlighting the urgent need to elucidate the underlying molecular mechanisms for improved therapy. In this study, we demonstrated that gemcitabine (GEM) exerts therapeutic effects against CRC. Notably, when combined with an anti-PD-L1 immune checkpoint inhibitor, GEM synergistically enhanced antitumor immunity, as evidenced by an increased infiltration of CD8+ T cells. Additionally, the population of anti-tumor IFN-γ and TNF-α-producing CD8+ T cells was elevated. We also observed significantly upregulated PD-L1 expression in both human and mouse CRC cell lines (HCT116, MC38, and CT26) following GEM treatment, which was further confirmed at the cell surface level. Mechanistically, GEM was found to stimulate lactate metabolism and promote lactylation of the PD-L1 protein, which could be reversed by inhibiting lactate dehydrogenase or pyruvate kinase. Furthermore, GEM delayed the degradation of PD-L1 protein confirmed by cycloheximide treatment. In addition, we also identified increased lactylation of H3 upon GEM treatment, suggesting transcriptional activation of PD-L1. Together, our findings provide novel insights into the mechanism of GEM in CRC treatment and support the future development of combined chemo-immunotherapeutic strategies.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42433343",
+     "date": "2026-07-11",
+     "title_zh": "奈米醫學遞送系統重塑大腸直腸癌免疫抑制微環境：標靶免疫檢查點抑制劑的協同策略與機制",
+     "score": 3,
+     "one_liner": "本文綜述奈米醫學遞送系統與免疫檢查點抑制劑於CRC治療的協同機制與研究進展，屬機制性文獻回顧，無臨床試驗數據。",
+     "sim": 0.152
+    },
+    {
+     "pmid": "42433343",
+     "date": "2026-07-12",
+     "title_zh": "奈米醫學遞送系統重塑大腸直腸癌免疫抑制微環境：標靶免疫檢查點抑制劑的協同策略與機制",
+     "score": 3,
+     "one_liner": "本文綜述奈米醫學遞送系統與免疫檢查點抑制劑於CRC治療的協同機制與研究進展，屬機制性文獻回顧，無臨床試驗數據。",
+     "sim": 0.152
+    },
+    {
+     "pmid": "42433343",
+     "date": "2026-07-13",
+     "title_zh": "奈米醫學遞送系統重塑大腸直腸癌免疫抑制微環境：標靶免疫檢查點抑制劑的協同策略與機制",
+     "score": 3,
+     "one_liner": "本文綜述奈米醫學遞送系統與免疫檢查點抑制劑於CRC治療的協同機制與研究進展，屬機制性文獻回顧，無臨床試驗數據。",
+     "sim": 0.152
+    }
+   ],
+   "title_zh": "Gemcitabine 透過促進乳酸化作用增強大腸直腸癌對抗PD-L1療法的敏感性",
+   "abstract_zh": "大腸直腸癌（CRC）仍是全球最常見且惡性程度高的癌症之一。儘管已發展出多種治療策略，CRC患者常反應不佳。化療與免疫檢查點抑制劑併用是一種有前景的新治療方式。然而，普遍存在的抗藥性與治療效果的顯著個體差異仍是主要挑戰，凸顯出闡明其分子機制以改善療效的迫切需求。本研究證實gemcitabine（GEM）對CRC具有治療效果。值得注意的是，當GEM與抗PD-L1免疫檢查點抑制劑併用時，能協同增強抗腫瘤免疫力，表現為CD8+T細胞浸潤增加。此外，產生抗腫瘤IFN-γ與TNF-α的CD8+T細胞群體也增加。我們同時觀察到GEM處理後，人類與小鼠CRC細胞株（HCT116、MC38、CT26）中PD-L1表現顯著上調，此現象在細胞表面層級亦獲確認。機轉上，GEM被發現能刺激乳酸代謝並促進PD-L1蛋白的乳酸化，此作用可被抑制乳酸去氫酶或丙酮酸激酶所逆轉。此外，經cycloheximide處理證實GEM會延緩PD-L1蛋白的降解。另外，我們也發現GEM處理後H3組蛋白乳酸化增加，提示PD-L1轉錄活化。總體而言，本研究提供了GEM於CRC治療機轉的新見解，支持未來發展化療與免疫治療併用策略。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "純細胞株與小鼠模型的機制性基礎研究，無臨床試驗數據，對台灣大腸直腸外科臨床實務目前無直接應用價值。",
+   "relevance": "低度相關",
+   "relevance_why": "此為基礎科學機制研究（細胞株與動物模型），非外科介入或臨床試驗，短期內不影響臨床決策。",
+   "novelty": "仍屬早期",
+   "one_liner": "在CRC細胞株與小鼠模型中，GEM併用抗PD-L1可透過促進PD-L1乳酸化增強CD8+T細胞浸潤與抗腫瘤免疫反應。",
+   "action": "目前不需改變做法，此為前臨床機制研究，尚未有人體試驗數據可轉譯至臨床決策。",
+   "pico": {
+    "P": "人類與小鼠CRC細胞株（HCT116、MC38、CT26）及小鼠腫瘤模型（未提供具體動物數）",
+    "I": "Gemcitabine（GEM）併用抗PD-L1免疫檢查點抑制劑",
+    "C": "未明確說明對照組設計（可能為GEM單獨、抗PD-L1單獨或未治療組），摘要未提供絕對數字",
+    "O": "主要：CD8+T細胞浸潤、PD-L1蛋白乳酸化程度、抗腫瘤免疫反應；次要：PD-L1表現量、蛋白降解速率、H3組蛋白乳酸化"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供具體統計數值（如p值、樣本數、動物數），僅描述方向性變化",
+    "無絕對數字可計算ARR或NNT，機制性研究無法轉譯為臨床效益指標",
+    "所有結果均為敘述性描述（增加、上調、延緩），非量化數據"
+   ],
+   "cautions": [
+    "純基礎機制研究，動物與細胞株模型結果不能直接推論至人體臨床療效",
+    "摘要完全未提供樣本數、統計檢定方法或p值/信賴區間，無法評估結果穩健性",
+    "從機制上升到「支持未來化療免疫治療併用策略」屬過度詮釋，尚無臨床試驗證據"
+   ],
+   "unassessable": [
+    "樣本量",
+    "統計顯著性/信賴區間",
+    "動物分組與隨機化方式",
+    "ITT分析",
+    "臨床試驗註冊",
+    "利益衝突",
+    "成本分析"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。先前看過的三篇為奈米醫學遞送系統與免疫檢查點抑制劑之機制性綜述，與本篇GEM誘導PD-L1乳酸化的具體機制研究主題不同，無直接關聯。",
+   "added_at": "2026-07-23T22:43:37+08:00"
+  },
+  {
+   "pmid": "42322270",
+   "title": "Sulfasalazine- and Cerium Ion-Loaded Polymersomes with Enhanced RONS Scavenging and Colonic Mucosal Repair Ameliorate Experimental Colitis",
+   "journal": "Biomacromolecules",
+   "journal_full": "Biomacromolecules",
+   "issn": "1526-4602",
+   "issn_linking": "1525-7797",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1021/acs.biomac.6c00702",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Sun M, Lv R, Sha Y, Zhu L, Cao J, Zhong Z",
+   "abstract": "Inflammatory bowel disease (IBD) is a relapsing gastrointestinal disorder depicted by persistent oxidative/nitrosative stress, mucosal barrier disruption, and maladaptive immune activation. Herein, we report that sulfasalazine- and cerium ion-loaded polymersomes (SSZ/Ce-Some) that effectively treat IBD through superior capability of scavenging reactive oxygen and nitrogen species (RONS) and promotion of colonic mucosal repair. SSZ/Ce-Some exhibits potent superoxide dismutase (SOD)-like and catalase (CAT)-like catalytic activities, efficiently scavenges representative ROS, and markedly generates oxygen. Its excellent neutralization of RNS (NO) together with superoxide indicates inhibition of tissue-destructive peroxynitrite. SSZ/Ce-Some inhibits inflammatory macrophages and dendritic cell activation and suppresses pro-inflammatory cytokine secretion. In acute colitis, SSZ/Ce-Some accumulates in inflamed colons, alleviates intestinal inflammation, and preserves epithelial tight junction integrity. Moreover, oral SSZ/Ce-Some in a mucoadhesive hydrogel safely and effectively treats chronic Crohn's disease, with tissue repair and immune regulation. Overall, SSZ/Ce-Some with superior RONS-detoxifying capacity represents a promising therapeutic strategy for IBD treatment.",
+   "watched": [],
+   "related": [],
+   "title_zh": "負載Sulfasalazine與鈰離子之聚合體囊泡增強RONS清除能力與大腸黏膜修復以改善實驗性大腸炎",
+   "abstract_zh": "發炎性腸道疾病（IBD）是一種復發性胃腸道疾病，特徵為持續性氧化/硝化壓力、黏膜屏障破壞及不良免疫活化。本文報告負載sulfasalazine與鈰離子之聚合體囊泡（SSZ/Ce-Some）透過優異的活性氧與活性氮物種（RONS）清除能力及促進大腸黏膜修復，有效治療IBD。SSZ/Ce-Some展現強效的超氧化物歧化酶（SOD）樣及過氧化氫酶（CAT）樣催化活性，有效清除代表性ROS，並顯著產生氧氣。其對RNS（NO）與超氧化物的優異中和作用顯示可抑制組織破壞性過氧化亞硝酸鹽。SSZ/Ce-Some抑制發炎性巨噬細胞與樹突細胞活化，並抑制促發炎細胞因子分泌。在急性大腸炎中，SSZ/Ce-Some蓄積於發炎大腸，減輕腸道發炎，並維持上皮緊密連接完整性。此外，以口服SSZ/Ce-Some製成黏膜黏附水凝膠，安全且有效地治療慢性克隆氏症，達成組織修復與免疫調節。整體而言，SSZ/Ce-Some具備優異的RONS解毒能力，代表IBD治療之一種有前景的治療策略。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "純動物/材料化學基礎研究，未涉及外科介入或人體臨床數據，對台灣大腸直腸外科臨床實務目前無直接參考價值。",
+   "relevance": "低度相關",
+   "relevance_why": "此為奈米藥物載體之基礎/動物研究，非外科介入，且IBD藥物治療非大腸直腸外科主治日常決策核心。",
+   "novelty": "仍屬早期",
+   "one_liner": "在小鼠急性與慢性大腸炎模型中，測試SSZ/Ce-Some奈米囊泡，發現可清除RONS並改善黏膜發炎與屏障完整性。",
+   "action": "目前不需改變做法；此為動物實驗階段之奈米藥物開發，距臨床應用尚遠，無法據此調整IBD病人之外科或藥物處置。",
+   "pico": {
+    "P": "急性與慢性（克隆氏症）大腸炎動物模型（小鼠，具體人數未提供）",
+    "I": "SSZ/Ce-Some聚合體囊泡（含口服黏膜黏附水凝膠劑型）",
+    "C": "摘要未明確說明對照組（可能為未治療組或游離藥物組，但未提供具體數據）",
+    "O": "主要：RONS清除能力、腸道發炎程度、上皮緊密連接完整性；次要：巨噬細胞/樹突細胞活化、促發炎細胞因子分泌"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供任何具體發生率、事件數或統計顯著性數值（p值、CI均未列出）",
+    "僅描述機轉性結果（如SOD樣、CAT樣活性）與定性療效敘述，缺乏量化終點數據",
+    "動物模型結果，無法直接換算為人體臨床效益"
+   ],
+   "cautions": [
+    "動物實驗結果，未有任何人體臨床數據，外推至人類IBD治療效果未知",
+    "摘要無具體數值（如發炎指數、組織學評分、細胞因子濃度），僅定性描述療效，難以評估效果大小",
+    "無對照組資訊或統計方法說明，無法判斷效果是否具統計與臨床意義"
+   ],
+   "unassessable": [
+    "動物數量與分組",
+    "統計方法與p值",
+    "對照組設計",
+    "劑量反應關係",
+    "毒性/安全性長期數據",
+    "利益衝突與經費來源"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-07-23T22:43:37+08:00"
+  }
+ ]
+}
