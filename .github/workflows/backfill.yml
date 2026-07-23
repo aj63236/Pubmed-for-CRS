@@ -52,6 +52,9 @@ jobs:
           # 想換模型：Settings → Secrets and variables → Actions → Variables
           # 新增 MODEL，值可填 claude-haiku-4-5-20251001（便宜但分析較弱）
           MODEL: ${{ vars.MODEL }}
+          # Batch API 5 折。回補是一次送很多篇，省下來的最有感。
+          USE_BATCH: ${{ vars.USE_BATCH || '1' }}
+          BATCH_WAIT_MIN: ${{ vars.BATCH_WAIT_MIN || '90' }}
         run: |
           ARGS="--from ${{ inputs.from_date }} --max-per-day ${{ inputs.max_per_day }}"
 

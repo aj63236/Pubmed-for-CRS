@@ -16,7 +16,11 @@ concurrency:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    # Batch API 是非同步的：多數批次 1 小時內結束，官方 SLA 是 24 小時。
+    # 這裡等 45 分鐘（BATCH_WAIT_MIN），等不到就存下 batch_id 收工，
+    # 下次執行會把結果領回來 —— 不會重複付費。
+    # 公開 repo 的 Actions 分鐘數不計費，等待本身是免費的。
+    timeout-minutes: 60
 
     steps:
       - uses: actions/checkout@v5
@@ -36,10 +40,18 @@ jobs:
           # 想換模型：Settings → Secrets and variables → Actions → Variables
           # 新增 MODEL，值可填 claude-haiku-4-5-20251001（便宜但分析較弱）
           MODEL: ${{ vars.MODEL }}
+          # Batch API：input/output 都是同步價 5 折。
+          # 這個工作每天 06:00 自動跑、沒有人在等，正是批次的適用情境。
+          # 想改回即時（例如手動觸發想馬上看到結果）就設 USE_BATCH=0。
+          USE_BATCH: ${{ vars.USE_BATCH || '1' }}
+          BATCH_WAIT_MIN: ${{ vars.BATCH_WAIT_MIN || '45' }}
         run: python -u fetch_papers.py
 
       - name: 回歸測試（IF 配對 / ARR-NNT 方向 / 追蹤命中）
         run: python -u tests.py
+
+      - name: 批次路徑測試（不重複付費 / 結果對回 custom_id）
+        run: python -u tests_batch.py
 
       - name: 資料驗證（壞資料就不要推上網站）
         run: python -u validate_data.py
