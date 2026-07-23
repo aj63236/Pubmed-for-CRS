@@ -217,6 +217,47 @@ def main():
         corpus = fp.build_corpus()
 
         now = fp.stamp()
+
+        # ── 批次路徑：先把免費的算完，剩下的一次送出 ──
+        if fp.USE_BATCH and fp.API_KEY:
+            todo = []
+            for i, p in enumerate(papers, 1):
+                short = p["title"][:48] + ("…" if len(p["title"]) > 48 else "")
+                p["related"] = fp.find_related(p, corpus)
+                if p["pmid"] in cache:
+                    p.update(cache[p["pmid"]])
+                    p["related"]  = fp.find_related(p, corpus)
+                    p["added_at"] = cache[p["pmid"]].get("added_at") or now
+                    print(f"   [{i}/{len(papers)}] 💾 {short}")
+                else:
+                    todo.append(p)
+                    print(f"   [{i}/{len(papers)}] 📝 {short}")
+
+            if todo:
+                ok, fail, ti, to, running = fp.summarize_batch(todo, ds, cache, now)
+                tok_in  += ti
+                tok_out += to
+                if running:
+                    # 批次還沒結束。已經付費，不能重送。
+                    # 存下已知的部分後收工，下次跑會先領回這批。
+                    for p in todo:
+                        p.setdefault("added_at", now)
+                    fp.save(papers, ds)
+                    fp.save_cache(cache)
+                    print(f"\n⏸️  {ds} 的批次仍在處理中，已存檔 batch_id。")
+                    print("   再跑一次這個 workflow 就會領回結果，不會重複付費。")
+                    print("   （為避免同時有多個待領批次，回補在此停下）\n")
+                    break
+
+            for p in papers:
+                p.setdefault("added_at", now)
+            fp.save(papers, ds)
+            fp.save_cache(cache)
+            done_days += 1
+            print()
+            continue
+
+        # ── 同步路徑（USE_BATCH=0）──
         for i, p in enumerate(papers, 1):
             short = p["title"][:48] + ("…" if len(p["title"]) > 48 else "")
             pmid = p["pmid"]

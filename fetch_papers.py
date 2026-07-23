@@ -31,6 +31,21 @@ REVIEW_LIMIT = 8     # Review 最多幾篇
 #    超過就砍到這個數字（但保證追蹤命中的不會被砍掉）。
 DAILY_HARD_LIMIT = 25
 MAX_RETRY   = 3
+MAX_TOKENS  = 8500
+
+# ─────────────────────── 批次（Batch API）───────────────────────
+# 每天 06:00 自動跑、沒有人在等結果 —— 這正是 Batch API 的適用情境，
+# input/output 都是同步價的 5 折。
+#
+# 代價是不即時：多數批次 1 小時內結束，但官方 SLA 是 24 小時。
+# 所以「送出」和「取回」必須能拆開在不同次 workflow 完成，
+# 否則 runner 一逾時，錢付了、結果卻拿不到。
+#   → 送出後把 batch_id 寫進 data/_batch_pending.json（會 commit）
+#   → 下次跑先檢查有沒有待領的批次，有就先領回來，不會重複付費
+USE_BATCH        = os.environ.get("USE_BATCH", "1").strip() != "0"
+BATCH_WAIT_MIN   = int(os.environ.get("BATCH_WAIT_MIN", "45"))   # 這次最多等幾分鐘
+BATCH_POLL_SEC   = 30                                            # 官方建議 30–60 秒
+PENDING_FILE     = "_batch_pending.json"
 
 # 每 1M token 單價（USD）。價格會變，以 Anthropic 官網為準。
 PRICING = {
@@ -39,6 +54,15 @@ PRICING = {
     "claude-opus-4-8":   (5.00, 25.00),
     "claude-haiku-4-5":  (1.00,  5.00),
 }
+BATCH_DISCOUNT = 0.5      # Batch API 一律 5 折（input 與 output 都是）
+
+
+def api_headers():
+    return {
+        "content-type": "application/json",
+        "x-api-key": API_KEY,
+        "anthropic-version": "2023-06-01",
+    }
 
 
 # 研究設計權重：外科醫師眼中，一篇 DCR 的 RCT 勝過一篇 Lancet 的綜述
@@ -418,11 +442,20 @@ def select(papers, max_results=None, review_limit=None):
     return chosen, " + ".join(bits)
 
 
-def price_of(model):
+def price_of(model, batch=None):
+    """每 1M token 單價。batch=True 時套用 Batch API 的 5 折。
+
+    預設跟著 USE_BATCH 走，這樣 log 印出來的費用永遠是實際會被收的錢 ——
+    不然會出現「log 說 $15，帳單只有 $7.5」這種對不起來的情況。
+    """
+    if batch is None:
+        batch = USE_BATCH
+    p = (3.00, 15.00)          # 未知模型，用旗艦價估，寧可高估
     for k, v in PRICING.items():
         if model.startswith(k):
-            return v
-    return (3.00, 15.00)   # 未知模型，用旗艦價估，寧可高估
+            p = v
+            break
+    return (p[0] * BATCH_DISCOUNT, p[1] * BATCH_DISCOUNT) if batch else p
 
 
 # ── 時區 ──
@@ -916,11 +949,9 @@ def build_focus_block(paper):
     return "\n".join(lines)
 
 
-def summarize(paper, related=None):
-    if not API_KEY:
-        return None
-
-    prompt = PROMPT.format(
+def build_summary_prompt(paper, related=None):
+    """建 prompt。同步與批次共用同一份，兩條路的分析結果才會一致。"""
+    return PROMPT.format(
         title=paper["title"],
         journal=paper["journal"],
         ptype=paper["ptype"],
@@ -928,19 +959,99 @@ def summarize(paper, related=None):
         related_block=build_related_block(related or []) + build_focus_block(paper),
     )
 
+
+def parse_summary(body):
+    """把一則 Messages 回應轉成乾淨欄位。
+
+    同步回應與批次結果裡的 message 形狀完全相同，所以兩條路共用這個函式 ——
+    批次不是「另一套解析」，只是換一個管道拿到同樣的東西。
+
+    解析不出來就 raise，由呼叫端決定要不要重試。
+    """
+    usage = body.get("usage", {})
+
+    # 若因 max_tokens 被截斷，JSON 一定不完整
+    if body.get("stop_reason") == "max_tokens":
+        raise ValueError("輸出被 max_tokens 截斷，JSON 不完整")
+
+    text = extract_text(body)
+    data = json.loads(clean_json(text))
+
+    if not data.get("abstract_zh"):
+        raise ValueError("abstract_zh 為空")
+
+    def as_list(v, cap=None):
+        """模型偶爾把陣列回成字串，統一轉成陣列"""
+        if isinstance(v, list):
+            out = [str(x).strip() for x in v if str(x).strip()]
+        elif isinstance(v, str):
+            out = [p.strip(" ·-•　") for p in re.split(r"[\n；;]", v) if p.strip()]
+        else:
+            out = []
+        return out[:cap] if cap else out
+
+    def one_of(v, allowed, default=""):
+        v = str(v or "").strip()
+        return v if v in allowed else (v if v else default)
+
+    pico = data.get("pico")
+    pico = pico if isinstance(pico, dict) else {}
+
+    score = data.get("score")
+    try:
+        score = max(0, min(10, int(round(float(score)))))
+    except (TypeError, ValueError):
+        score = None
+
+    clean = {
+        "title_zh":       str(data.get("title_zh", "")).strip(),
+        "abstract_zh":    str(data.get("abstract_zh", "")).strip(),
+        "evidence_level": str(data.get("evidence_level", "")).strip(),
+
+        "score":          score,
+        "score_reason":   str(data.get("score_reason", "")).strip(),
+
+        "relevance":      one_of(data.get("relevance"),
+                                 {"高度相關", "中度相關", "低度相關"}),
+        "relevance_why":  str(data.get("relevance_why", "")).strip(),
+        "novelty":        one_of(data.get("novelty"),
+                                 {"可能改變實務", "再確認已知", "仍屬早期", "結果為陰性"}),
+
+        "one_liner":      str(data.get("one_liner", "")).strip(),
+        "action":         str(data.get("action", "")).strip(),
+
+        "pico":           {k: str(pico.get(k, "")).strip() for k in ("P", "I", "C", "O")},
+        "effects":        compute_effects(data.get("effect_data")),
+        "key_numbers":    as_list(data.get("key_numbers"), 4),
+        "cautions":       as_list(data.get("cautions"), 3),
+        "unassessable":   as_list(data.get("unassessable")),
+        "context_verdict": one_of(data.get("context_verdict"),
+                                  {"再確認", "與前作矛盾", "延伸前作", "無相關前作"}),
+        "context":        str(data.get("context", "")).strip(),
+    }
+    clean["_usage"] = {
+        "in": usage.get("input_tokens", 0),
+        "out": usage.get("output_tokens", 0),
+    }
+    return clean
+
+
+def summarize(paper, related=None):
+    """同步（即時）路徑。批次關閉、或批次沒跑完要補的時候用。"""
+    if not API_KEY:
+        return None
+
+    prompt = build_summary_prompt(paper, related)
+
     for attempt in range(1, MAX_RETRY + 1):
         body = None          # 讓 except 區塊能檢查實際收到什麼
         try:
             r = requests.post(
                 "https://api.anthropic.com/v1/messages",
-                headers={
-                    "content-type": "application/json",
-                    "x-api-key": API_KEY,
-                    "anthropic-version": "2023-06-01",
-                },
+                headers=api_headers(),
                 json={
                     "model": MODEL,
-                    "max_tokens": 8500,
+                    "max_tokens": MAX_TOKENS,
                     "messages": [{"role": "user", "content": prompt}],
                 },
                 timeout=90,
@@ -962,74 +1073,7 @@ def summarize(paper, related=None):
 
             r.raise_for_status()
             body = r.json()
-            usage = body.get("usage", {})
-
-            # 若因 max_tokens 被截斷，JSON 一定不完整 —— 直接重試（會加大額度）
-            if body.get("stop_reason") == "max_tokens":
-                raise ValueError("輸出被 max_tokens 截斷，JSON 不完整")
-
-            text = extract_text(body)
-
-            data = json.loads(clean_json(text))
-
-            # 基本欄位驗證
-            if not data.get("abstract_zh"):
-                raise ValueError("abstract_zh 為空")
-
-            def as_list(v, cap=None):
-                """模型偶爾把陣列回成字串，統一轉成陣列"""
-                if isinstance(v, list):
-                    out = [str(x).strip() for x in v if str(x).strip()]
-                elif isinstance(v, str):
-                    out = [p.strip(" ·-•　") for p in re.split(r"[\n；;]", v) if p.strip()]
-                else:
-                    out = []
-                return out[:cap] if cap else out
-
-            def one_of(v, allowed, default=""):
-                v = str(v or "").strip()
-                return v if v in allowed else (v if v else default)
-
-            pico = data.get("pico")
-            pico = pico if isinstance(pico, dict) else {}
-
-            score = data.get("score")
-            try:
-                score = max(0, min(10, int(round(float(score)))))
-            except (TypeError, ValueError):
-                score = None
-
-            clean = {
-                "title_zh":       str(data.get("title_zh", "")).strip(),
-                "abstract_zh":    str(data.get("abstract_zh", "")).strip(),
-                "evidence_level": str(data.get("evidence_level", "")).strip(),
-
-                "score":          score,
-                "score_reason":   str(data.get("score_reason", "")).strip(),
-
-                "relevance":      one_of(data.get("relevance"),
-                                         {"高度相關", "中度相關", "低度相關"}),
-                "relevance_why":  str(data.get("relevance_why", "")).strip(),
-                "novelty":        one_of(data.get("novelty"),
-                                         {"可能改變實務", "再確認已知", "仍屬早期", "結果為陰性"}),
-
-                "one_liner":      str(data.get("one_liner", "")).strip(),
-                "action":         str(data.get("action", "")).strip(),
-
-                "pico":           {k: str(pico.get(k, "")).strip() for k in ("P", "I", "C", "O")},
-                "effects":        compute_effects(data.get("effect_data")),
-                "key_numbers":    as_list(data.get("key_numbers"), 4),
-                "cautions":       as_list(data.get("cautions"), 3),
-                "unassessable":   as_list(data.get("unassessable")),
-                "context_verdict": one_of(data.get("context_verdict"),
-                                          {"再確認", "與前作矛盾", "延伸前作", "無相關前作"}),
-                "context":        str(data.get("context", "")).strip(),
-            }
-            clean["_usage"] = {
-                "in": usage.get("input_tokens", 0),
-                "out": usage.get("output_tokens", 0),
-            }
-            return clean
+            return parse_summary(body)
 
         except json.JSONDecodeError:
             # 模型輸出的 JSON 壞掉 —— 值得重試，下次可能就好了
@@ -1058,6 +1102,248 @@ def summarize(paper, related=None):
 
     log("      ❌ 重試用盡，此篇略過摘要")
     return None
+
+
+# ─────────────────────── Batch API ───────────────────────
+#
+# 流程：送出 → 輪詢 → 取回 .jsonl → 依 custom_id 對回論文。
+# 結果順序「不保證」跟送出順序一致，所以一律用 custom_id 比對，不能用索引。
+
+
+def _api(method, url, **kw):
+    """對 Anthropic API 的請求，帶指數退避重試。
+
+    只重試「暫時性」錯誤（429 / 5xx / 連線問題）。
+    4xx 是請求本身有問題，重試只是白費 —— 這是 NCBI 那次學到的同一件事。
+    """
+    for attempt in range(1, MAX_RETRY + 1):
+        try:
+            r = requests.request(method, url, headers=api_headers(), timeout=120, **kw)
+            if r.status_code == 429 or r.status_code >= 500:
+                wait = 5 * attempt
+                log(f"      ⏳ HTTP {r.status_code}，{wait}s 後重試（{attempt}/{MAX_RETRY}）...")
+                time.sleep(wait)
+                continue
+            r.raise_for_status()
+            return r
+        except requests.RequestException as e:
+            if attempt == MAX_RETRY:
+                raise
+            log(f"      ⚠️  連線問題（{attempt}/{MAX_RETRY}）：{e}")
+            time.sleep(3 * attempt)
+    raise RuntimeError("重試用盡")
+
+
+def batch_submit(jobs):
+    """jobs = [(custom_id, prompt)] → 回傳 batch_id。
+
+    custom_id 規則：1–64 字元，只能是英數、連字號、底線。
+    PMID 是純數字，符合規則，但還是加個前綴以免未來換 key 時踩到。
+    """
+    payload = {"requests": [
+        {
+            "custom_id": cid,
+            "params": {
+                "model": MODEL,
+                "max_tokens": MAX_TOKENS,
+                "messages": [{"role": "user", "content": prompt}],
+            },
+        }
+        for cid, prompt in jobs
+    ]}
+    r = _api("POST", "https://api.anthropic.com/v1/messages/batches", json=payload)
+    return r.json()["id"]
+
+
+def batch_status(batch_id):
+    return _api("GET", f"https://api.anthropic.com/v1/messages/batches/{batch_id}").json()
+
+
+def batch_wait(batch_id, max_wait_min=None):
+    """輪詢到 processing_status == "ended"。
+
+    等不到就回 None —— 這**不是**錯誤：批次還在跑，錢已經付了，
+    下次 workflow 會把它領回來。所以絕對不能在這裡重送。
+    """
+    if max_wait_min is None:
+        max_wait_min = BATCH_WAIT_MIN
+    deadline = time.time() + max_wait_min * 60
+    waited = 0
+    while True:
+        st = batch_status(batch_id)
+        if st.get("processing_status") == "ended":
+            c = st.get("request_counts", {})
+            log(f"   ✅ 批次完成：成功 {c.get('succeeded', 0)}"
+                f" · 錯誤 {c.get('errored', 0)}"
+                f" · 過期 {c.get('expired', 0)}"
+                f" · 取消 {c.get('canceled', 0)}")
+            return st
+        if time.time() >= deadline:
+            log(f"   ⏸️  已等 {waited // 60} 分鐘，批次還沒結束。")
+            log("      這不是錯誤 —— 批次仍在處理，費用已經產生。")
+            log("      batch_id 已存檔，下次跑會直接領回，不會重複付費。")
+            return None
+        time.sleep(BATCH_POLL_SEC)
+        waited += BATCH_POLL_SEC
+        if waited % 300 == 0:
+            c = st.get("request_counts", {})
+            log(f"      ⏳ 處理中… 已等 {waited // 60} 分鐘"
+                f"（完成 {c.get('succeeded', 0)}/{sum(c.values()) if c else '?'}）")
+
+
+def batch_fetch(status_obj):
+    """取回 .jsonl，回傳 {custom_id: message}。失敗的那幾筆不會出現在結果裡。"""
+    url = status_obj.get("results_url")
+    if not url:
+        return {}, {"errored": 0, "expired": 0}
+
+    r = _api("GET", url)
+    out, bad = {}, {"errored": 0, "expired": 0}
+
+    for line in r.text.splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        try:
+            row = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        cid = row.get("custom_id")
+        res = row.get("result") or {}
+        kind = res.get("type")
+        if kind == "succeeded":
+            out[cid] = res.get("message") or {}
+        elif kind in ("errored", "expired", "canceled"):
+            # errored / expired / canceled 都不收費，可以安心重送
+            bad[kind if kind in bad else "errored"] = bad.get(kind, 0) + 1
+            err = (res.get("error") or {}).get("error", {})
+            log(f"      ⚠️  {cid} {kind}：{err.get('type', '')} {err.get('message', '')[:80]}")
+    return out, bad
+
+
+# ── 待領批次的存續 ──
+# runner 會被銷毀，所以 batch_id 必須寫進 data/（會 commit）才活得過這次執行。
+
+
+def pending_path():
+    return DATA_DIR / PENDING_FILE
+
+
+def save_pending(batch_id, date_str, papers):
+    """把 batch_id 和「還沒有摘要的論文」一起存起來，好讓下次能接手。"""
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    pending_path().write_text(json.dumps({
+        "batch_id": batch_id,
+        "date": date_str,
+        "submitted_at": stamp(),
+        "papers": papers,
+    }, ensure_ascii=False, indent=1), encoding="utf-8")
+    log(f"   📌 batch_id 已存檔（{batch_id}）")
+
+
+def load_pending():
+    f = pending_path()
+    if not f.exists():
+        return None
+    try:
+        return json.loads(f.read_text(encoding="utf-8"))
+    except Exception:
+        return None
+
+
+def clear_pending():
+    f = pending_path()
+    if f.exists():
+        f.unlink()
+
+
+def merge_batch_results(papers, messages, cache, now):
+    """把批次結果併回論文，回傳 (成功數, 失敗數, tok_in, tok_out)。"""
+    ok = fail = tok_in = tok_out = 0
+    for p in papers:
+        body = messages.get(p["pmid"])
+        if not body:
+            fail += 1
+            p.setdefault("added_at", now)
+            continue
+        try:
+            result = parse_summary(body)
+        except Exception as e:
+            log(f"      ⚠️  {p['pmid']} 解析失敗：{type(e).__name__}: {e}")
+            fail += 1
+            p.setdefault("added_at", now)
+            continue
+        usage = result.pop("_usage", {})
+        tok_in  += usage.get("in", 0)
+        tok_out += usage.get("out", 0)
+        result["added_at"] = now
+        p.update(result)
+        cache[p["pmid"]] = result
+        ok += 1
+    return ok, fail, tok_in, tok_out
+
+
+def summarize_batch(papers, date_str, cache, now):
+    """把一批論文送去 Batch API 並等結果。
+
+    回傳 (成功, 失敗, tok_in, tok_out, 是否還在跑)。
+    最後那個是 True 時，代表批次尚未結束 —— 呼叫端**不可以**當成失敗去重送。
+    """
+    jobs = [(p["pmid"], build_summary_prompt(p, p.get("related"))) for p in papers]
+
+    log(f"   📤 送出批次：{len(jobs)} 篇（Batch API，同步價 5 折）")
+    batch_id = batch_submit(jobs)
+    save_pending(batch_id, date_str, papers)
+
+    st = batch_wait(batch_id)
+    if st is None:
+        return 0, 0, 0, 0, True
+
+    messages, _bad = batch_fetch(st)
+    ok, fail, ti, to = merge_batch_results(papers, messages, cache, now)
+    clear_pending()
+    return ok, fail, ti, to, False
+
+
+def resume_pending(cache):
+    """接手上次沒領完的批次。回傳 True 表示這次有寫出資料。"""
+    pend = load_pending()
+    if not pend:
+        return False
+
+    batch_id = pend.get("batch_id")
+    date_str = pend.get("date")
+    papers   = pend.get("papers") or []
+    if not batch_id or not papers:
+        clear_pending()
+        return False
+
+    log(f"\n📥 有上次沒領完的批次：{batch_id}（{date_str}，{len(papers)} 篇）")
+
+    try:
+        st = batch_status(batch_id)
+    except Exception as e:
+        log(f"   ⚠️  查不到批次狀態：{e}（保留存檔，下次再試）")
+        return False
+
+    if st.get("processing_status") != "ended":
+        st = batch_wait(batch_id)
+        if st is None:
+            return False
+
+    messages, _bad = batch_fetch(st)
+    now = stamp()
+    ok, fail, ti, to = merge_batch_results(papers, messages, cache, now)
+    log(f"   ✅ 領回 {ok} 篇（失敗 {fail} 篇）")
+
+    if ok:
+        save(papers, date_str)
+        save_cache(cache)
+        p_in, p_out = price_of(MODEL)
+        log(f"   💰 這批費用約 ${ti / 1e6 * p_in + to / 1e6 * p_out:.4f} USD")
+
+    clear_pending()
+    return bool(ok)
 
 
 # ───────────────────────── 儲存 ────────────────────────────
@@ -1175,6 +1461,16 @@ def main():
     heal_legacy()
     rebuild_index()
 
+    # 先接手上次沒領完的批次。
+    # 那些結果**已經付過錢**了，不領回來就是純粹的損失 —— 而且
+    # 若不先清掉 pending，下面又會送一批新的，等於同一批論文付兩次。
+    if USE_BATCH and API_KEY:
+        try:
+            resume_pending(load_cache())
+        except Exception as e:
+            log(f"⚠️  領取待處理批次時出錯：{type(e).__name__}: {e}")
+            log("   存檔保留，下次再試。")
+
     log(f"\n🔍 搜尋 PubMed（最近 {DAYS_BACK} 天新上架）...")
     ids = search_pubmed()
     log(f"   命中 {len(ids)} 篇")
@@ -1222,44 +1518,81 @@ def main():
     corpus = build_corpus()
     log(f"   {len(corpus[0])} 篇可比對")
 
-    log(f"\n🤖 AI 處理中（model: {MODEL}）...")
+    log(f"\n🤖 AI 處理中（model: {MODEL}"
+        + ("，Batch API 5 折" if USE_BATCH else "，同步") + "）...")
     now = stamp()
+
+    # ── 第一輪：相關前作 + 快取（都不花錢）──
+    # 先把能免費解決的解決掉，剩下的才送模型。
+    todo = []
     for i, p in enumerate(papers, 1):
         short = p["title"][:52] + ("…" if len(p["title"]) > 52 else "")
-        pmid = p["pmid"]
+        pmid  = p["pmid"]
 
-        # 相關前作（本機算，免費）
-        related = find_related(p, corpus)
+        related = find_related(p, corpus)      # 本機算，免費
         p["related"] = related
+        rel = f"  ↔ {len(related)} 篇相關" if related else ""
 
         if pmid in cache:
             p.update(cache[pmid])
-            p["related"] = related            # 相關前作永遠用最新算的
+            p["related"]  = related            # 相關前作永遠用最新算的
             p["added_at"] = cache[pmid].get("added_at") or now
             n_cached += 1
-            rel = f"  ↔ {len(related)} 篇相關" if related else ""
             log(f"  [{i:2d}/{len(papers)}] 💾 快取  {short}{rel}")
-            continue
-
-        rel = f"  ↔ {len(related)} 篇相關" if related else ""
-        log(f"  [{i:2d}/{len(papers)}] 🧠 生成  {short}{rel}")
-        result = summarize(p, related)
-
-        if result:
-            usage = result.pop("_usage", {})
-            tok_in += usage.get("in", 0)
-            tok_out += usage.get("out", 0)
-            result["added_at"] = now          # 第一次收錄的時間，寫進快取
-            p.update(result)
-            cache[pmid] = result
-            n_new += 1
         else:
-            n_fail += 1
+            todo.append(p)
+            log(f"  [{i:2d}/{len(papers)}] 📝 待分析 {short}{rel}")
 
+    # ── 第二輪：真正要花錢的那些 ──
+    still_running = False
+
+    if not todo:
+        log("\n   全部命中快取，不需要呼叫 API。")
+
+    elif USE_BATCH and API_KEY:
+        ok, fail, ti, to, still_running = summarize_batch(todo, today, cache, now)
+        n_new  += ok
+        n_fail += fail
+        tok_in += ti
+        tok_out += to
+
+        if still_running:
+            # 批次還在跑。已經付費，結果之後領。
+            # 這次仍然把「已知的部分」存檔 —— 快取命中的論文今天就看得到，
+            # 待分析的那些會在下次 workflow 補上摘要。
+            for p in todo:
+                p.setdefault("added_at", now)
+            log("\n💾 先存已完成的部分（批次結果下次補上）...")
+            save(papers, today)
+            save_cache(cache)
+            log("\n" + "═" * 56)
+            log(f"  批次處理中 —— {len(todo)} 篇的摘要會在下次執行時補齊")
+            log("  可手動再跑一次 workflow 提前領取")
+            log("═" * 56 + "\n")
+            return
+
+    else:
+        # 同步路徑（USE_BATCH=0，或沒有 API key）
+        for i, p in enumerate(todo, 1):
+            short = p["title"][:52] + ("…" if len(p["title"]) > 52 else "")
+            log(f"  [{i:2d}/{len(todo)}] 🧠 生成  {short}")
+            result = summarize(p, p.get("related"))
+            if result:
+                usage = result.pop("_usage", {})
+                tok_in  += usage.get("in", 0)
+                tok_out += usage.get("out", 0)
+                result["added_at"] = now
+                p.update(result)
+                cache[p["pmid"]] = result
+                n_new += 1
+            else:
+                n_fail += 1
+            p.setdefault("added_at", now)
+            if i < len(todo):
+                time.sleep(0.4)
+
+    for p in papers:
         p.setdefault("added_at", now)         # 摘要失敗也要有時間
-
-        if i < len(papers):
-            time.sleep(0.4)
 
     save_cache(cache)
 
