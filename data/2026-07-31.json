@@ -1,0 +1,1162 @@
+{
+ "date": "2026-07-31",
+ "generated_at": "2026-07-31T07:16:39+08:00",
+ "count": 14,
+ "papers": [
+  {
+   "pmid": "42522172",
+   "title": "A Comprehensive Meta-Analysis and Review of Intraoperative Radiotherapy in Colorectal Cancer: Examining Radiation Dosage, Long-Term Prognosis, and Treatment-Related Complications",
+   "journal": "Cancer Med",
+   "journal_full": "Cancer medicine",
+   "issn": "2045-7634",
+   "issn_linking": "2045-7634",
+   "impact_factor": 3.5,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1002/cam4.72137",
+   "ptype": "Meta-Analysis, Systematic Review",
+   "ptype_list": [
+    "Meta-Analysis",
+    "Systematic Review"
+   ],
+   "authors": "Guo C, Liu S, Li L, Zhao J, Zhou H, Liu H",
+   "abstract": "BACKGROUND: The effect of device type and radiation dose in intraoperative radiotherapy (IORT) for colorectal cancer is not well established. To explore this, we reviewed studies reporting postoperative complications, disease-free survival, local control, and long-term survival in patients treated with non-implantable IORT techniques-IOERT, KV-IORT, and HDR-IORT. Most of the available evidence relates to IOERT or HDR-IORT, which is usually delivered at 15 Gy (range 10-20 Gy). The median dose for KV-IORT is typically 12.5 Gy.\nMETHODS: We conducted a systematic search of literature through November 2023 to identify studies that compared non-implantable IORT with surgery alone or other treatment approaches (PROSPERO registration: CRD42024508349). Twenty-five studies involving 2664 patients met the inclusion criteria.\nRESULTS: Patients treated with non-implantable IORT tended to achieve better 5-year overall survival than those managed without it, with IOERT contributing most clearly to this difference. A similar pattern emerged for long-term local control, where IORT showed an advantage [OR 2.08, 95% CI 1.19-3.64]; studies of IOERT reported an even stronger effect [OR 2.23, 95% CI 1.07-4.65]. Importantly, the use of IORT did not correspond with higher rates of key postoperative complications, including anastomotic leakage, pelvic collections, wound problems, or bowel obstruction.\nCONCLUSIONS: Our results suggest that IORT may improve survival and local control for patients with advanced or recurrent colorectal cancer, despite the heterogeneity among studies. Device-related and dose-related factors may also play a role and merit closer study, thus warranting closer examination in future work.",
+   "watched": [],
+   "related": [],
+   "title_zh": "術中放射治療於大腸直腸癌之應用：探討輻射劑量、長期預後與治療相關併發症之全面統合分析與文獻回顧",
+   "abstract_zh": "背景：術中放射治療（IORT）於大腸直腸癌中，設備類型與輻射劑量的影響尚未明確建立。為探討此問題，我們回顧了報告接受非植入式IORT技術（IOERT、KV-IORT、HDR-IORT）治療患者之術後併發症、無病生存期、局部控制與長期存活的研究。現有證據多與IOERT或HDR-IORT相關，通常給予15 Gy劑量（範圍10-20 Gy）。KV-IORT的中位劑量通常為12.5 Gy。方法：我們針對截至2023年11月之文獻進行系統性檢索，以找出比較非植入式IORT與單純手術或其他治療方式之研究（PROSPERO註冊號：CRD42024508349）。共25項研究、2664名患者符合納入條件。結果：接受非植入式IORT治療的患者，五年整體存活率傾向優於未接受IORT治療者，其中IOERT對此差異的貢獻最為明顯。長期局部控制亦呈現類似趨勢，IORT顯示優勢[OR 2.08，95% CI 1.19-3.64]；IOERT相關研究則顯示更強效果[OR 2.23，95% CI 1.07-4.65]。重要的是，使用IORT並未伴隨主要術後併發症（包括吻合口漏、骨盆積液、傷口問題或腸阻塞）發生率增加。結論：儘管研究間存在異質性，我們的結果顯示IORT可能改善晚期或復發性大腸直腸癌患者之存活與局部控制。設備相關與劑量相關因素亦可能扮演角色，值得未來研究進一步探討。",
+   "evidence_level": "統合分析",
+   "score": 5,
+   "score_reason": "納入研究異質性高、多為觀察性研究，OS僅描述性陳述未附絕對數字，且OR信賴區間偏寬接近1，臨床實用性受限於台灣多數中心無IORT設備。",
+   "relevance": "中度相關",
+   "relevance_why": "IORT涉及特殊設備（術中線性加速器或Intrabeam），僅少數醫學中心具備，多用於晚期或復發性直腸癌之選擇性個案。",
+   "novelty": "仍屬早期",
+   "one_liner": "在2664名大腸直腸癌患者（25項研究）中，比較非植入式IORT與無IORT，發現局部控制OR 2.08（95% CI 1.19-3.64），未增加併發症。",
+   "action": "若院內具備IORT設備，可考慮於晚期或復發性直腸癌病例會診放療科評估；一般中心目前不需改變做法。",
+   "pico": {
+    "P": "大腸直腸癌患者（多為晚期或復發性直腸癌），共25項研究、2664名患者",
+    "I": "非植入式術中放射治療（IOERT、KV-IORT、HDR-IORT），劑量多為15 Gy（10-20 Gy）",
+    "C": "單純手術或其他治療方式（未使用IORT）",
+    "O": "主要：五年整體存活率、長期局部控制；次要：吻合口漏、骨盆積液、傷口問題、腸阻塞等術後併發症"
+   },
+   "effects": [],
+   "key_numbers": [
+    "長期局部控制 OR 2.08（95% CI 1.19-3.64），IOERT子群更強 OR 2.23（95% CI 1.07-4.65）",
+    "IORT未增加吻合口漏、骨盆積液、傷口問題或腸阻塞發生率（摘要未附絕對數字）",
+    "五年整體存活率「傾向較佳」，但摘要未提供具體百分比或ARR"
+   ],
+   "cautions": [
+    "OS結果僅用「傾向較佳」描述，無絕對數字、無CI，無法評估效應大小與統計顯著性",
+    "納入研究異質性高（回溯性居多、患者選擇偏差大），IORT病人可能為外科醫師篩選之較佳候選者",
+    "OR信賴區間下限接近1（1.19、1.07），效應量可能被高估，且OR不能直接轉換為絕對風險差"
+   ],
+   "unassessable": [
+    "納入研究之RCT比例、盲法、allocation concealment",
+    "各研究失訪率、追蹤時間長短",
+    "利益衝突聲明",
+    "異質性統計量（I²）數值未於摘要提供",
+    "成本效益分析"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-07-31T07:11:36+08:00"
+  },
+  {
+   "pmid": "42521230",
+   "title": "Impact of oral nutritional supplements on chemotherapy tolerance and overall survival in postoperative colorectal cancer patients undergoing chemotherapy",
+   "journal": "Asia Pac J Clin Nutr",
+   "journal_full": "Asia Pacific journal of clinical nutrition",
+   "issn": "1440-6047",
+   "issn_linking": "0964-7058",
+   "impact_factor": 1.6,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.6133/apjcn.202608_35(4).0010",
+   "ptype": "Randomized Controlled Trial",
+   "ptype_list": [
+    "Randomized Controlled Trial"
+   ],
+   "authors": "Zhang Z, Xi Q, Zhuang Q, Yan M, Meng Q, Tan S",
+   "abstract": "BACKGROUND AND OBJECTIVES: The primary objective of this study was to evaluate the efficacy of oral nutritional supplements (ONS) on chemotherapy tolerance and long-term survival outcomes in postoperative colorectal cancer patients undergoing chemotherapy.\nMETHODS AND STUDY DESIGN: This study was a secondary analysis based on a randomized controlled trial, and patients undergoing chemotherapy after hospital discharge were included. Patients in the ONS group received dietary advice as well as ONS for three months, while the control group received only dietary advice. Clinical characteristics and nutritional indicators were collected at baseline and three months after hospital discharge to assess nutritional status. These included body weight, body mass index, skeletal muscle index, serum albumin, and hemoglobin levels. Chemotherapy modifications including dose reduction, delay, and discontinuation were recorded to represent chemotherapy tolerance. The survival information within 5 years was collected and analysed.\nRESULTS: There were 157 patients included in this study, with 80 patients in the ONS group and 77 in the control group. At three months after hospital discharge, nutrition-related parameters showed no significant differences between the two groups. However, the ONS group demonstrated a significant improvement in chemotherapy tolerance comparing to the control group (17.5% vs. 35.1%, p = 0.01). Additionally, the ONS group exhibited a lower 5-year all-cause mortality rate and significantly improved survival outcomes compared to the control group (hazard ratio 0.58, 95%CI: 0.34-0.98, p = 0.04).\nCONCLUSIONS: The administration of ONS after hospital discharge can improve chemotherapy tolerance and long-term survival rates in colorectal cancer patients under-going chemotherapy, highlighting the importance of nutritional support during postoperative chemotherapy. Further studies are warranted to validate the underlying mechanisms and other long-term effects.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42493839",
+     "date": "2026-07-25",
+     "title_zh": "術前預後營養指數(PNI)與第I-III期大腸直腸癌長期預後及術後併發症之關聯",
+     "score": 5,
+     "one_liner": "在3045名第I-III期CRC根治術病人中，比較低PNI(<43.4)與高PNI，發現低PNI組5年OS 59.0% vs 80.0%（p<0.001）。",
+     "sim": 0.154
+    },
+    {
+     "pmid": "42493839",
+     "date": "2026-07-26",
+     "title_zh": "術前預後營養指數(PNI)與第I-III期大腸直腸癌長期預後及術後併發症之相關性",
+     "score": 5,
+     "one_liner": "在3045名第I-III期CRC根治性手術病人中，比較低PNI(<43.4)與高PNI，發現低PNI組5年OS 59.0% vs 80.0%(p<0.001)。",
+     "sim": 0.154
+    }
+   ],
+   "title_zh": "口服營養補充劑對大腸直腸癌術後接受化療病人之化療耐受度與整體存活的影響",
+   "abstract_zh": "背景與目的：本研究之主要目的為評估口服營養補充劑(ONS)對大腸直腸癌術後接受化療病人的化療耐受度與長期存活結果之療效。方法與研究設計：本研究為一項隨機對照試驗之次族群分析，納入出院後接受化療之病人。ONS組病人於三個月內接受飲食衛教並補充ONS，對照組僅接受飲食衛教。於基線及出院後三個月收集臨床特徵與營養指標以評估營養狀態，包括體重、身體質量指數、骨骼肌指數、血清白蛋白及血紅素濃度。記錄化療調整情形（劑量減量、延遲、中斷）以代表化療耐受度。並收集五年內存活資訊進行分析。結果：本研究共納入157名病人，ONS組80人，對照組77人。出院後三個月時，兩組間營養相關指標無顯著差異。然而，ONS組相較對照組在化療耐受度上有顯著改善（17.5% vs. 35.1%，p=0.01）。此外，ONS組五年全因死亡率較低，存活結果顯著改善（風險比0.58，95%信賴區間0.34-0.98，p=0.04）。結論：出院後給予ONS可改善接受化療之大腸直腸癌病人的化療耐受度及長期存活率，凸顯術後化療期間營養支持之重要性。仍需進一步研究驗證其潛在機轉及其他長期效應。",
+   "evidence_level": "RCT",
+   "score": 6,
+   "score_reason": "為原始RCT之次族群/事後分析，樣本數小(157人)且存活效益信賴區間邊緣顯著，但ONS為低風險易執行的介入，臨床參考價值不低。",
+   "relevance": "高度相關",
+   "relevance_why": "大腸直腸癌術後輔助化療病人之營養支持是外科醫師日常會遇到、可主動介入的臨床議題。",
+   "novelty": "仍屬早期",
+   "one_liner": "在157名大腸直腸癌術後化療病人中，比較ONS與飲食衛教，化療耐受不良17.5% vs 35.1%，5年死亡HR 0.58(95%CI 0.34-0.98)。",
+   "action": "對術後接受輔助化療之CRC病人，可考慮給予ONS三個月以提升化療耐受度；長期存活效益仍待大型試驗驗證。",
+   "pico": {
+    "P": "157名大腸直腸癌術後出院、接受化療之病人（ONS組80人，對照組77人）",
+    "I": "口服營養補充劑(ONS)三個月加飲食衛教",
+    "C": "僅飲食衛教",
+    "O": "主要：化療耐受度（劑量減量/延遲/中斷）；次要：五年全因死亡率/存活率、營養指標變化"
+   },
+   "effects": [
+    {
+     "outcome": "化療調整（劑量減量/延遲/中斷）",
+     "ok": true,
+     "i_label": "ONS組",
+     "c_label": "飲食衛教組",
+     "i_rate": 17.5,
+     "c_rate": 35.1,
+     "i_raw": "14/80",
+     "c_raw": "27/77",
+     "arr": 17.6,
+     "benefit": true,
+     "event_bad": true,
+     "nnt": 6,
+     "kind": "NNT",
+     "note": ""
+    }
+   ],
+   "key_numbers": [
+    "化療耐受不良：ONS 17.5% vs 對照 35.1%（p=0.01），約14/80 vs 27/77例",
+    "5年全因死亡HR 0.58（95%CI 0.34-0.98，p=0.04），未提供絕對死亡率無法計算NNT",
+    "三個月時營養指標(體重、BMI、SMI、白蛋白、Hb)兩組間無顯著差異"
+   ],
+   "cautions": [
+    "本研究為原始RCT之次族群/事後分析，非預先設定主要終點，結果偏向探索性",
+    "存活HR信賴區間偏寬且上緣接近1(0.34-0.98)，樣本數僅157人，結果不夠穩健",
+    "營養指標無差異卻有耐受度與存活差異，因果機轉未明，需慮及殘餘干擾因子"
+   ],
+   "unassessable": [
+    "分組隱藏(allocation concealment)",
+    "盲法",
+    "ITT分析",
+    "失訪率",
+    "原始試驗註冊資訊",
+    "利益衝突",
+    "化療方案是否標準化"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。列出的PNI研究探討的是術前營養指數作為預後標記，與本篇評估ONS介入效果的RCT在研究問題與設計上並不相同。",
+   "added_at": "2026-07-31T07:11:36+08:00"
+  },
+  {
+   "pmid": "42524912",
+   "title": "MANAGEMENT OF CLOSTRIDIOIDES DIFFICILE INFECTION IN INFLAMMATORY BOWEL DISEASE: A SYSTEMATIC REVIEW AND META-ANALYSIS OF ANTIBIOTIC EFFICACY",
+   "journal": "Arq Gastroenterol",
+   "journal_full": "Arquivos de gastroenterologia",
+   "issn": "1678-4219",
+   "issn_linking": "0004-2803",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1590/S0004-2803.24612025-145",
+   "ptype": "Systematic Review, Meta-Analysis",
+   "ptype_list": [
+    "Systematic Review",
+    "Meta-Analysis"
+   ],
+   "authors": "Pelucio I, Malaguti C, Oliveira T, Chitarra K, Furtado M, Chebli J",
+   "abstract": "BACKGROUND: Clostridioides difficile infection (CDI) is a significant complication in patients with inflammatory bowel disease (IBD), often associated with higher recurrence rates, increased morbidity, and complex therapeutic decision-making. The optimal antibiotic regimen for CDI in IBD remains uncertain.\nOBJECTIVE: To evaluate the efficacy of different antibiotic therapies for CDI in patients with IBD.\nMETHODS: A systematic review and meta-analysis were conducted according to PRISMA 2020 guidelines. Searches were performed in MEDLINE, EMBASE, PubMed, Epistemonikos, and the Cochrane Library through October 2024. Observational studies and clinical trials comparing antibiotic regimens in adult IBD patients with CDI were included. Data on recurrence, clinical outcomes, colectomy, and mortality were extracted. Random-effects meta-analysis was performed when appropriate.\nRESULTS: Nine studies involving 643 patients met inclusion criteria. Recurrence occurred in 17.4% of patients treated with metronidazole and 8.2% of those treated with vancomycin. In the meta-analysis of four studies (n=214), vancomycin showed a trend toward lower recurrence, although not statistically significant (OR 0.55; 95%CI 0.15-1.99; P=0.36; I2=66%). Mortality was low and similar between groups, and colectomy occurred exclusively in patients with ulcerative colitis. Data on clinical success and adverse events were heterogeneously reported and summarized narratively.\nCONCLUSION: Vancomycin may be associated with lower recurrence in higher-risk IBD patients; however, available evidence remains limited and heterogeneous. Treatment decisions should be individualized, and further prospective, IBD-specific studies are needed to clarify optimal management strategies.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42402956",
+     "date": "2026-07-06",
+     "title_zh": "抗生素使用與胃腸道癌症之關聯：系統性回顧與統合分析",
+     "score": 4,
+     "one_liner": "統合12篇研究，比較有無抗生素使用族群，發現GI癌症風險增加18.7%（OR 1.187，95% CI 1.018-1.386），CRC風險增加20.8%，具劑量反應趨勢。",
+     "sim": 0.168
+    },
+    {
+     "pmid": "42454054",
+     "date": "2026-07-16",
+     "title_zh": "阻塞性肺病（OLD）與發炎性腸道疾病（IBD）之相關性：系統性回顧與統合分析",
+     "score": 4,
+     "one_liner": "統合分析30篇觀察性研究，探討OLD與IBD雙向關聯，發現IBD增加後續氣喘/COPD風險、反之亦然，CD關聯最明顯。",
+     "sim": 0.152
+    },
+    {
+     "pmid": "42454054",
+     "date": "2026-07-17",
+     "title_zh": "阻塞性肺病（OLD）與發炎性腸道疾病（IBD）之相關性：系統性回顧與統合分析",
+     "score": 4,
+     "one_liner": "統合分析30篇觀察性研究，探討OLD與IBD雙向關聯，發現IBD增加後續氣喘/COPD風險、反之亦然，CD關聯最明顯。",
+     "sim": 0.152
+    }
+   ],
+   "title_zh": "發炎性腸道疾病（IBD）中困難梭菌感染（CDI）之處置：抗生素療效之系統性回顧與統合分析",
+   "abstract_zh": "背景：困難梭菌感染（CDI）是發炎性腸道疾病（IBD）患者的重要併發症，常伴隨較高復發率、增加的疾病負擔，以及複雜的治療決策。IBD患者CDI的最佳抗生素治療方案仍不明確。目的：評估不同抗生素療法對IBD合併CDI患者的療效。方法：依據PRISMA 2020指引進行系統性回顧與統合分析。於2024年10月前搜尋MEDLINE、EMBASE、PubMed、Epistemonikos及Cochrane Library資料庫。納入比較成年IBD合併CDI患者不同抗生素療法的觀察性研究及臨床試驗。萃取復發、臨床結果、colectomy及死亡率相關資料，適當時進行隨機效應統合分析。結果：9篇研究、共643名患者符合納入條件。使用metronidazole治療者復發率為17.4%，使用vancomycin治療者為8.2%。在4篇研究（n=214）的統合分析中，vancomycin顯示降低復發的趨勢，但未達統計顯著（OR 0.55；95% CI 0.15-1.99；P=0.36；I2=66%）。死亡率低且兩組相似，colectomy僅發生於潰瘍性結腸炎患者。臨床成功與不良事件資料異質性高，以敘述性方式彙整。結論：Vancomycin可能與較高風險IBD患者較低的復發率有關；然而現有證據仍有限且異質性高。治療決策應個別化，仍需更多前瞻性、針對IBD族群的研究以釐清最佳處置策略。",
+   "evidence_level": "統合分析",
+   "score": 3,
+   "score_reason": "樣本數小（統合僅214人）、異質性高（I2=66%）、主要結果未達統計顯著，且對外科決策（colectomy）僅敘述性呈現，臨床實用性低。",
+   "relevance": "低度相關",
+   "relevance_why": "研究焦點為CDI的抗生素藥物選擇，屬於GI/ID內科決策範疇，colectomy僅描述性提及、無比較數據可供手術決策參考。",
+   "novelty": "結果為陰性",
+   "one_liner": "在IBD合併CDI患者（9篇研究、643人）中，比較vancomycin與metronidazole，復發OR 0.55（95%CI 0.15-1.99, p=0.36），未達統計顯著。",
+   "action": "目前不需改變做法；抗生素選擇仍依現行CDI治療指引，此篇證據不足以改變手術適應症判斷。",
+   "pico": {
+    "P": "成年IBD合併CDI患者，共9篇研究643人（統合分析納入4篇研究214人）",
+    "I": "Vancomycin治療",
+    "C": "Metronidazole治療",
+    "O": "主要outcome：CDI復發率；次要outcome：臨床成功、colectomy、死亡率、不良事件"
+   },
+   "effects": [
+    {
+     "outcome": "CDI復發率（敘述性描述，非統合分析組別）",
+     "ok": true,
+     "i_label": "Vancomycin",
+     "c_label": "Metronidazole",
+     "i_rate": 8.2,
+     "c_rate": 17.4,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 9.2,
+     "benefit": true,
+     "event_bad": true,
+     "nnt": 11,
+     "kind": "NNT",
+     "note": ""
+    }
+   ],
+   "key_numbers": [
+    "描述性復發率：metronidazole 17.4% vs vancomycin 8.2%（未列各組總人數，非隨機分派比較）",
+    "統合分析（4篇，n=214）：OR 0.55，95%CI 0.15-1.99，p=0.36，未達統計顯著",
+    "異質性高I2=66%；死亡率低且兩組相似；colectomy僅發生於UC病人，無具體比較數字"
+   ],
+   "cautions": [
+    "主要統合結果未達統計顯著且CI極寬（0.15-1.99），樣本數過小，不宜過度推論vancomycin較優",
+    "異質性高（I2=66%），納入多為觀察性研究，可能有選擇偏誤與時代/指引演變效應未校正",
+    "colectomy與臨床成功/不良事件僅以敘述性彙整，缺乏定量比較，無法作為手術決策依據"
+   ],
+   "unassessable": [
+    "個別研究設計（RCT vs 觀察性）比例",
+    "追蹤時間長度",
+    "IBD疾病嚴重度分層",
+    "利益衝突",
+    "試驗註冊",
+    "發表偏差評估"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-07-31T07:11:36+08:00"
+  },
+  {
+   "pmid": "42522800",
+   "title": "Thymoquinone Modulates Gene Expression Associated with Apoptosis in Colorectal Cancer: A Preclinical Systematic Review and Meta-Analysis of BAX, BCL2, and CASP3",
+   "journal": "Asian Pac J Cancer Prev",
+   "journal_full": "Asian Pacific journal of cancer prevention : APJCP",
+   "issn": "2476-762X",
+   "issn_linking": "1513-7368",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.31557/APJCP.2026.27.7.2393",
+   "ptype": "Systematic Review, Meta-Analysis",
+   "ptype_list": [
+    "Systematic Review",
+    "Meta-Analysis"
+   ],
+   "authors": "Prastiyanto M, Waskita K, Nurmaulawati R, Wijaya N, Farida S, Safrina D",
+   "abstract": "OBJECTIVE: Colorectal cancer (CRC) continues to be a significant global health issue. Thymoquinone (TQ), a bioactive component of Nigella sativa, has shown anticancer capabilities by inducing apoptosis. This systematic review and meta-analysis aim to assess the impact of TQ on the levels of pro-apoptotic (BAX, CASP3) and anti-apoptotic (BCL2) markers in colorectal cancer cells.\nMETHODS: An extensive literature search was performed in Scopus, BASE, PubMed, and Web of Science for articles published from 2004 to 2025, adhering to PRISMA guidelines. Eligible in vitro and in vivo studies provided numerical data on gene or protein expression levels for BAX, BCL2, and CASP3, along with standard deviations. Effect sizes (g) were computed using a random-effects model, and heterogeneity and publication bias were evaluated.\nRESULT: A total of ten qualifying studies were incorporated. The meta-analysis indicated that TQ significantly (p < 0.001) increased BAX mRNA (g = 3.901) and protein levels (g = 4.232), decreased BCL2 mRNA (g = -3.680) and protein levels (g = -3.328), and markedly upregulated CASP3 mRNA (g = 5.669) and protein levels (g = 6.336). Subgroup analyses revealed consistent effects across CRC cell lines (HT29, SW480, SW620, HCT-15, and HCT116). Heterogeneity varied from low to moderate, and publication bias was low or not significant.\nCONCLUSION: The findings demonstrate that TQ exerts pro-apoptotic effects in colorectal cancer (CRC) models through the upregulation of BAX and CASP3 and the downregulation of BCL2. This suggests its potential therapeutic relevance rather than definitive biomarker utility. Nevertheless, further in vivo studies and early-phase clinical investigations are required to clarify its translational significance and to explore its possible implications for treatment responsiveness.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42346785",
+     "date": "2026-06-25",
+     "title_zh": "海藻凝集素Siye對乳癌與大腸癌細胞增殖及凋亡之作用",
+     "score": 2,
+     "one_liner": "在HCT116大腸癌與HCC1937乳癌細胞株中，Siye藻類凝集素誘導劑量依賴性細胞毒性（IC50 14.065 μg/mL）及caspase相關凋亡。",
+     "sim": 0.207
+    },
+    {
+     "pmid": "42363632",
+     "date": "2026-06-27",
+     "title_zh": "Probucol 透過調控凋亡與血管新生相關蛋白對SW480人類大腸直腸癌細胞發揮抗癌作用",
+     "score": 2,
+     "one_liner": "在SW480大腸癌細胞株中，以probucol處理vs未處理，發現劑量依賴性抑制增殖、誘導G0/G1停滯及凋亡、抑制VEGF/eNOS/MMP-9表現。",
+     "sim": 0.183
+    },
+    {
+     "pmid": "42509537",
+     "date": "2026-07-30",
+     "title_zh": "紅血球分布寬度（RDW）在發炎性腸道疾病評估中的角色：一項完整的系統性回顧與統合分析",
+     "score": 3,
+     "one_liner": "在多篇IBD研究之統合分析中，比較RDW於IBD患者、健康對照及不同疾病活動度，發現RDW於活動期CD/UC均顯著升高（p<0.001）。",
+     "sim": 0.154
+    }
+   ],
+   "title_zh": "黑種草醌（Thymoquinone）調節大腸直腸癌中與凋亡相關之基因表現：BAX、BCL2及CASP3之臨床前系統性回顧與統合分析",
+   "abstract_zh": "目的：大腸直腸癌（CRC）持續為全球重大健康議題。黑種草醌（TQ）為黑種草（Nigella sativa）中的生物活性成分，已顯示能透過誘導凋亡而具有抗癌能力。本系統性回顧與統合分析旨在評估TQ對大腸直腸癌細胞中促凋亡標記（BAX、CASP3）與抗凋亡標記（BCL2）表現量的影響。方法：依循PRISMA準則，於Scopus、BASE、PubMed及Web of Science進行廣泛文獻搜尋，納入2004年至2025年間發表之文章。符合條件之體外與體內研究須提供BAX、BCL2及CASP3之基因或蛋白表現量數值資料及標準差。使用隨機效應模型計算效應量（g），並評估異質性與發表偏誤。結果：共納入十篇合格研究。統合分析顯示TQ顯著（p < 0.001）增加BAX mRNA（g = 3.901）及蛋白質（g = 4.232）表現量，降低BCL2 mRNA（g = -3.680）及蛋白質（g = -3.328）表現量，並顯著上調CASP3 mRNA（g = 5.669）及蛋白質（g = 6.336）表現量。次群組分析顯示在各CRC細胞株（HT29、SW480、SW620、HCT-15及HCT116）間效果一致。異質性介於低至中度，發表偏誤低或不顯著。結論：研究結果顯示TQ透過上調BAX與CASP3、下調BCL2，在CRC模型中展現促凋亡作用。此結果提示其具潛在治療相關性，而非確定性生物標記用途。然而，仍需進一步體內研究及早期臨床試驗以釐清其轉譯意義，並探索其對治療反應性之可能影響。",
+   "evidence_level": "統合分析",
+   "score": 2,
+   "score_reason": "純細胞株與動物體內臨床前機轉研究之統合分析，無任何人體或臨床outcome資料，對台灣大腸直腸外科臨床實務幾無直接應用價值。",
+   "relevance": "低度相關",
+   "relevance_why": "純基礎科學研究（體外細胞株與動物實驗），非外科介入，且距離臨床應用尚遠。",
+   "novelty": "仍屬早期",
+   "one_liner": "在10篇臨床前研究（CRC細胞株如HT29、SW480等）中，統合分析TQ對凋亡基因表現之影響，發現BAX與CASP3顯著上調、BCL2顯著下調（皆p<0.001）。",
+   "action": "目前不需改變做法，此為體外/動物機轉研究，尚無人體臨床試驗數據可作為治療決策依據。",
+   "pico": {
+    "P": "10篇臨床前研究之CRC細胞株（HT29、SW480、SW620、HCT-15、HCT116）及動物模型",
+    "I": "黑種草醌（Thymoquinone, TQ）處理",
+    "C": "未處理或對照組（各原始研究間比較）",
+    "O": "主要outcome：BAX、BCL2、CASP3之mRNA及蛋白表現量（效應量g）；次要：異質性與發表偏誤"
+   },
+   "effects": [],
+   "key_numbers": [
+    "TQ使BAX蛋白表現量效應量g=4.232（p<0.001），效應量極大",
+    "TQ使BCL2蛋白表現量效應量g=-3.328（p<0.001），呈抑制效果",
+    "TQ使CASP3蛋白表現量效應量g=6.336（p<0.001），為最大效應標記"
+   ],
+   "cautions": [
+    "純體外/動物臨床前研究，無臨床療效或安全性數據，無法外推至病人治療",
+    "效應量g數值異常龐大（3.3-6.3），可能反映小型研究效應或發表偏誤，摘要僅稱『低或不顯著』但未附具體檢定數值",
+    "僅納入10篇研究，次群組分析（不同細胞株）樣本數更小，結論穩定性有限"
+   ],
+   "unassessable": [
+    "臨床劑量與人體安全性",
+    "納入研究品質評估方法",
+    "利益衝突",
+    "各篇原始研究之偏誤風險細節",
+    "TQ於人體之藥物動力學資料"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。雖然先前看過的論文同屬CRC細胞株誘導凋亡之基礎研究類型，但涉及不同化合物（藻類凝集素、Probucol）與不同研究設計，與本篇針對TQ之統合分析無直接關聯。",
+   "added_at": "2026-07-31T07:11:36+08:00"
+  },
+  {
+   "pmid": "42525629",
+   "title": "Cancer surgical outcome study in Ethiopia: A 7-day multicenter prospective observational cohort study",
+   "journal": "PLoS One",
+   "journal_full": "PloS one",
+   "issn": "1932-6203",
+   "issn_linking": "1932-6203",
+   "impact_factor": 2.8,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1371/journal.pone.0354980",
+   "ptype": "Observational Study, Multicenter Study",
+   "ptype_list": [
+    "Observational Study",
+    "Multicenter Study"
+   ],
+   "authors": "Awedew A, Tsegaye Y, Ayen A, Tesifaw F, Amsalu B, Getahun A",
+   "abstract": "BACKGROUND: Safe surgery is a fundamental quality indicator within the global surgery framework. Postoperative complications remain a leading global cause of disability, mortality, and economic loss, with a disproportionate impact on low- and middle-income countries (LMICs).\nOBJECTIVE: This study aims to generate robust epidemiological data on postoperative outcomes of cancer surgery in Ethiopia.\nMETHODS: This study employed a 7-day national observational prospective cohort design. The study enrolled adult patients aged 18 years and older who underwent either elective or non-elective cancer surgery in hospitals across Ethiopia. Statistical analysis included descriptive statistics, chi-square tests for categorical variables, and logistic regression models to identify risk factors for postoperative complications. Outcome measures 7th day postoperative mortality and complications. Statistical significance was set at p < 0.05.\nRESULTS: A total of 265 cancer surgeries were performed across 46 hospitals (overall surgeries = 4412). The mean patient age was 46.6 years (SD = 14.9). The majority of patients were classified as low-risk America Society of Anesthesiologists (ASA) physical status classification: ASA I (106/265, 40%) and ASA II (133/265, 50.2%) and low Eastern Cooperative Oncology Group (ECOG) performance status: ECOG 0 (112/265, 42.3%) and ECOG 1 (98/265, 37%). Colorectal cancer surgery was the most common type (38/265, 14.5%), while laparoscopic surgery was performed in only 3/265 cases (1.1%). Postoperative complications developed in 84 of 265 patients (31.7%) with leading complication was superficial surgical site infection 47/265(17.8%). Emergency surgery (AOR = 3.1, 95% CI: 1.1-8.4, p = 0.003), comorbidity (AOR = 2.0, 95% CI: 1.1-3.7, p = 0.025), and an ECOG performance status of III (AOR = 9.5, 95% CI: 1.5-61.1, p = 0.02) were statistically significantly associated with 7th day postoperative complications. The overall 7-day mortality rate after cancer surgery was 5/265 (1.9%).\nCONCLUSION: Despite the relatively young age of patients, their low ASA physical status scores, and good ECOG performance, a significant proportion experienced adverse outcomes following cancer surgery: one in three patients developed postoperative complications, one in nine required reoperations, and one in 53 died. These findings suggest a critical need for evidence-based interventions to strengthen the underlying infrastructure and care processes within the surgical system which are essential to achieving safe, effective, and high-quality surgical care for cancer patients in Ethiopia.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42415466",
+     "date": "2026-07-08",
+     "title_zh": "高度專科化直腸手術教學的安全性如何？一項傾向分數配對之10年世代研究",
+     "score": 6,
+     "one_liner": "在374例PSM配對之LAR/APR/IPAA病人中（每組187例），比較專家執行與受督導教學執行，發現整體病態率無差異（43% vs 46%, p=0.7）。",
+     "sim": 0.167
+    },
+    {
+     "pmid": "42464844",
+     "date": "2026-07-18",
+     "title_zh": "挑戰克隆氏症手術：單一大型中心世代研究中，大腸切除與非大腸切除之手術複雜度與結果比較",
+     "score": 5,
+     "one_liner": "在461例CD病人中，比較大腸切除(90例)與非大腸切除(371例)，發現大腸切除術後IASC顯著較高(20.0% vs 10.0%, p=0.008)。",
+     "sim": 0.159
+    },
+    {
+     "pmid": "42464844",
+     "date": "2026-07-19",
+     "title_zh": "挑戰克隆氏症手術：單一大型中心世代研究中，大腸切除與非大腸切除之手術複雜度與結果比較",
+     "score": 5,
+     "one_liner": "在461例CD病人中，比較大腸切除(90例)與非大腸切除(371例)，發現大腸切除術後IASC顯著較高(20.0% vs 10.0%, p=0.008)。",
+     "sim": 0.159
+    }
+   ],
+   "title_zh": "衣索比亞癌症手術結果研究：一項為期7天的多中心前瞻性觀察世代研究",
+   "abstract_zh": "背景：安全手術是全球外科架構中的基本品質指標。術後併發症仍是全球失能、死亡與經濟損失的主要原因，對中低收入國家（LMICs）影響尤為不成比例。目的：本研究旨在產生衣索比亞癌症手術術後結果的堅實流行病學數據。方法：本研究採用為期7天的全國性觀察性前瞻世代設計。納入年齡18歲以上、於衣索比亞各醫院接受擇期或非擇期癌症手術的成年病人。統計分析包括描述性統計、類別變項的卡方檢定，以及以邏輯迴歸模型辨識術後併發症的風險因子。結果指標為術後第7天死亡率與併發症。統計顯著性設定為p < 0.05。結果：共46家醫院執行265例癌症手術（整體手術量為4412例）。病人平均年齡46.6歲（SD = 14.9）。多數病人屬低風險美國麻醉醫學會（ASA）身體狀態分級：ASA I（106/265，40%）與ASA II（133/265，50.2%），以及低東岸合作腫瘤學組織（ECOG）體能狀態：ECOG 0（112/265，42.3%）與ECOG 1（98/265，37%）。大腸直腸癌手術為最常見類型（38/265，14.5%），腹腔鏡手術僅施行於3/265例（1.1%）。265位病人中有84位（31.7%）發生術後併發症，最常見併發症為淺層手術部位感染47/265（17.8%）。急診手術（AOR = 3.1，95% CI: 1.1-8.4，p = 0.003）、共病症（AOR = 2.0，95% CI: 1.1-3.7，p = 0.025）以及ECOG體能狀態III級（AOR = 9.5，95% CI: 1.5-61.1，p = 0.02）與術後第7天併發症具統計顯著相關。癌症手術後整體7天死亡率為5/265（1.9%）。結論：儘管病人年齡相對年輕、ASA身體狀態分數較低、ECOG體能狀態良好，仍有相當比例病人經歷不良結果：三分之一病人發生術後併發症、九分之一需再次手術、五十三分之一死亡。這些發現顯示迫切需要以實證為基礎的介入措施，以強化衣索比亞外科系統的基礎建設與照護流程，這對於實現安全、有效、高品質的癌症病人手術照護至關重要。",
+   "evidence_level": "前瞻性世代",
+   "score": 2,
+   "score_reason": "純描述性流行病學調查，反映衣索比亞醫療資源受限現況，與台灣醫學中心臨床實務幾無直接關聯，僅具全球外科比較參考價值。",
+   "relevance": "低度相關",
+   "relevance_why": "研究對象為資源受限國家整體外科系統現況調查，非特定手術技術或介入比較，大腸直腸癌僅佔14.5%且腹腔鏡比例僅1.1%，與台灣醫學中心情境差異過大。",
+   "novelty": "仍屬早期",
+   "one_liner": "在衣索比亞46家醫院265例癌症手術病人中，觀察術後7天結果，發現31.7%發生併發症、1.9%死亡。",
+   "action": "目前不需改變做法；此為衣索比亞醫療基礎建設現況調查，非介入性比較研究，與台灣臨床決策無直接關聯。",
+   "pico": {
+    "P": "衣索比亞46家醫院接受擇期或非擇期癌症手術之成人病人，共265例（整體手術4412例）",
+    "I": "接受癌症手術（觀察性，非介入比較）",
+    "C": "無對照組",
+    "O": "主要outcome：術後第7天死亡率與併發症率；次要：再手術率、風險因子（急診手術、共病、ECOG III）"
+   },
+   "effects": [],
+   "key_numbers": [
+    "術後併發症31.7%（84/265），最常見為淺層SSI 17.8%（47/265）",
+    "術後7天死亡率1.9%（5/265）",
+    "ECOG III與術後併發症相關AOR=9.5，但95% CI極寬(1.5-61.1)，精確度低"
+   ],
+   "cautions": [
+    "無對照組，純描述性世代研究，無法評估介入效果或與其他國家系統性比較",
+    "多項風險因子分析信賴區間過寬（如AOR 9.5, CI 1.5-61.1），樣本數小導致估計不精確",
+    "僅追蹤術後7天，短期outcome可能低估真實併發症與死亡率，且大腸直腸癌僅為次族群未獨立分析"
+   ],
+   "unassessable": [
+    "盲法（觀察性研究不適用）",
+    "ITT分析",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本分析",
+    "各癌別（含大腸直腸癌）獨立結果數據"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。先前閱讀論文分別為直腸手術教學安全性配對研究與克隆氏症手術世代研究，主題與族群皆與本篇衣索比亞癌症手術系統性調查無關。",
+   "added_at": "2026-07-31T07:11:36+08:00"
+  },
+  {
+   "pmid": "42530724",
+   "title": "Four-Year Survival Outcomes of Personalized Total Neoadjuvant Therapy Versus Chemotherapy During the 'Wait Period' Versus Standard Chemoradiotherapy for Locally Advanced Rectal Cancer",
+   "journal": "J Gastrointest Cancer",
+   "journal_full": "Journal of gastrointestinal cancer",
+   "issn": "1941-6636",
+   "issn_linking": "",
+   "impact_factor": 2.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1002/cam4.70291",
+   "ptype": "Multicenter Study, Comparative Study",
+   "ptype_list": [
+    "Multicenter Study",
+    "Comparative Study"
+   ],
+   "authors": "Bedrikovetski S, Bunjo Z, Murshed I, Moore J, Sammour T",
+   "abstract": "PURPOSE: Total Neoadjuvant Therapy (TNT) is increasingly replacing standard chemoradiotherapy (sCRT) for the treatment of locally advanced rectal cancer (LARC). Data on the use of personalized TNT (pTNT) regimens tailored to patient disease characteristics remain scarce. Accordingly, this study aimed to assess long-term outcomes of pTNT in patients with LARC.\nMETHODS: This was a secondary analysis of a multicentre retrospective cohort study. Patients treated with pTNT between 2019 and 2022 were compared to a historical cohort from the WAIT trial (2012-2014), which included extended chemotherapy during the interval period (xCRT) or sCRT followed by adjuvant chemotherapy. The main outcomes were 4-year disease-free survival (DFS) and overall survival (OS).\nRESULTS: Forty patients treated with pTNT were matched with 49 patients from the WAIT trial (25 xCRT, 24 sCRT). All WAIT trial patients underwent surgery, whereas 27 (67.5%) pTNT patients underwent surgery and 13 (32.5%) were managed non-operatively. Median follow-up was 48 months. No significant differences were observed in 4-year DFS (pTNT 70% vs. xCRT 68% vs. sCRT 75%, P = 0.764) or OS (pTNT 82.5% vs. xCRT 80% vs. sCRT 83.3%, P = 0.907). Within the pTNT group, patients with an oCR had significantly higher OS compared to those without oCR (95.2% vs. 68.4%, P = 0.021).\nCONCLUSION: Our findings suggest that pTNT achieves comparable survival outcomes to xCRT and sCRT in patients with LARC, despite higher rates of non-operative management. These findings should be interpreted cautiously given the exploratory nature of the analysis and limited sample size. Larger studies with longer follow-up are required to validate these early data.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42501213",
+     "date": "2026-07-27",
+     "title_zh": "在放射治療資源受限地區，全程新輔助治療（TNT）優先化療可提升局部進展期直腸癌之病理完全緩解率（pCR）：一項隨機對照試驗",
+     "score": 5,
+     "one_liner": "在202名LARC患者中，比較TNT（化療優先）與傳統NCRT優先治療，TNT組pCR率55.4% vs 42.57%（p=0.023）。",
+     "sim": 0.248
+    },
+    {
+     "pmid": "42495710",
+     "date": "2026-07-25",
+     "title_zh": "以短程放療為基礎的全程新輔助治療併用替雷利珠單抗治療局部進展期直腸癌（Neo-STAR研究）：一項隨機第二期試驗的早期結果",
+     "score": 6,
+     "one_liner": "在118名LARC病人中，比較SCRT-TNT併用tislelizumab與單純SCRT-TNT，pCR達45.3% vs 27.6%（p=0.052，未達統計顯著）。",
+     "sim": 0.224
+    },
+    {
+     "pmid": "42495710",
+     "date": "2026-07-26",
+     "title_zh": "短程放療為基礎之全程新輔助治療（TNT）併用替雷利珠單抗（tislelizumab）用於局部進展期直腸癌（Neo-STAR）：一項隨機第二期試驗之早期結果",
+     "score": 6,
+     "one_liner": "在111名LARC病人中，比較SCRT-TNT併用tislelizumab與SCRT-TNT，pCR率45.3% vs 27.6%（p=0.052），未達統計顯著。",
+     "sim": 0.224
+    }
+   ],
+   "title_zh": "個人化全程新輔助治療（pTNT）與等待期化療（xCRT）及標準同步化放療（sCRT）治療局部進展期直腸癌之四年存活結果比較",
+   "abstract_zh": "目的：全程新輔助治療（TNT）正逐漸取代標準同步化放療（sCRT）用於治療局部進展期直腸癌（LARC）。針對根據病人疾病特徵量身訂做之個人化TNT（pTNT）療法的資料仍然稀少。因此，本研究旨在評估LARC病人接受pTNT之長期預後。方法：本研究為一項多中心回溯性世代研究之次分析。2019至2022年間接受pTNT治療之病人與來自WAIT試驗（2012-2014年）之歷史世代進行比較，該試驗包含等待期間延長化療（xCRT）或sCRT後接續輔助化療。主要結果為四年無病存活率（DFS）與整體存活率（OS）。結果：40名接受pTNT治療之病人與49名WAIT試驗病人（25名xCRT、24名sCRT）配對比較。所有WAIT試驗病人皆接受手術，而pTNT病人中27人（67.5%）接受手術、13人（32.5%）採非手術治療。中位追蹤時間為48個月。四年DFS無顯著差異（pTNT 70% vs. xCRT 68% vs. sCRT 75%，P=0.764），OS亦無顯著差異（pTNT 82.5% vs. xCRT 80% vs. sCRT 83.3%，P=0.907）。在pTNT組內，達到臨床完全緩解（oCR）之病人OS顯著高於未達oCR者（95.2% vs. 68.4%，P=0.021）。結論：我們的發現顯示，儘管非手術治療比例較高，pTNT在LARC病人中仍可達到與xCRT及sCRT相當之存活結果。由於本分析屬探索性且樣本量有限，結果應謹慎解讀。需要更大規模、追蹤時間更長之研究以驗證此早期數據。",
+   "evidence_level": "回溯性研究",
+   "score": 3,
+   "score_reason": "回溯性次分析、樣本小（40 vs 49）、以2012-2014歷史世代作對照，時代落差大可能造成混雜，證據強度弱，僅供假說產生。",
+   "relevance": "高度相關",
+   "relevance_why": "TNT與器官保留（非手術治療）策略是當前LARC治療主流議題，直接影響臨床決策方向。",
+   "novelty": "仍屬早期",
+   "one_liner": "在40名pTNT病人與49名WAIT試驗歷史對照（xCRT/sCRT）中比較四年DFS/OS，三組皆無顯著差異（DFS 70%/68%/75%，OS 82.5%/80%/83.3%）。",
+   "action": "目前不需改變常規TNT做法；可留意oCR與長期存活相關（95.2% vs 68.4%），但歷史對照與小樣本需謹慎解讀。",
+   "pico": {
+    "P": "89名LARC病人：40名2019-2022年接受pTNT，49名來自2012-2014年WAIT試驗（25名xCRT、24名sCRT）作為歷史對照",
+    "I": "個人化全程新輔助治療（pTNT）",
+    "C": "等待期延長化療（xCRT）或標準同步化放療後輔助化療（sCRT）",
+    "O": "主要：四年DFS、四年OS；次要：pTNT組內oCR與非oCR之OS比較"
+   },
+   "effects": [
+    {
+     "outcome": "四年無病存活率（DFS）",
+     "ok": true,
+     "i_label": "pTNT",
+     "c_label": "sCRT",
+     "i_rate": 70.0,
+     "c_rate": 75.0,
+     "i_raw": "28/40",
+     "c_raw": "18/24",
+     "arr": 5.0,
+     "benefit": false,
+     "event_bad": false,
+     "nnt": 20,
+     "kind": "NNH",
+     "note": ""
+    },
+    {
+     "outcome": "四年整體存活率（OS）",
+     "ok": true,
+     "i_label": "pTNT",
+     "c_label": "sCRT",
+     "i_rate": 82.5,
+     "c_rate": 83.3,
+     "i_raw": "33/40",
+     "c_raw": "20/24",
+     "arr": 0.8,
+     "benefit": false,
+     "event_bad": false,
+     "nnt": 120,
+     "kind": "NNH",
+     "note": ""
+    }
+   ],
+   "key_numbers": [
+    "四年DFS：pTNT 70% vs xCRT 68% vs sCRT 75%，p=0.764（無顯著差異）",
+    "四年OS：pTNT 82.5% vs xCRT 80% vs sCRT 83.3%，p=0.907（無顯著差異）",
+    "pTNT組內oCR病人OS 95.2% vs 非oCR病人68.4%，p=0.021（小樣本探索性分析）"
+   ],
+   "cautions": [
+    "歷史對照組（2012-2014）與pTNT組（2019-2022）時代相差近10年，分期方式、支持治療進步可能造成混雜偏誤",
+    "樣本量極小（n=40 vs 49），p值未達顯著可能為統計檢力不足所致之假陰性，非等同性",
+    "oCR vs 非oCR之次群組分析（僅40人細分）屬事後探索性分析，oCR本身即與較佳預後相關，易有選擇偏誤"
+   ],
+   "unassessable": [
+    "配對方法細節",
+    "失訪率",
+    "ITT分析",
+    "試驗註冊",
+    "利益衝突",
+    "分期分佈是否平衡"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "先前看過的三篇皆為RCT，聚焦於TNT不同療法組合（化療優先、SCRT併免疫治療）對pCR率之影響。本篇則以回溯性設計提供TNT長期存活（DFS/OS）數據，補足先前研究僅報告替代指標（pCR）而缺乏長期存活追蹤的缺口，但因研究設計與族群不同，無法直接比較或驗證前作結論。",
+   "added_at": "2026-07-31T07:11:36+08:00"
+  },
+  {
+   "pmid": "42525450",
+   "title": "The role of adhesins of Fusobacterium nucleatum in colorectal cancer - a structural perspective",
+   "journal": "Gut Microbes",
+   "journal_full": "Gut microbes",
+   "issn": "1949-0984",
+   "issn_linking": "1949-0976",
+   "impact_factor": 15.3,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Dec",
+   "doi": "10.1080/19490976.2026.2709265",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Schöpf F, Marongiu G, Roderer D",
+   "abstract": "Fusobacterium nucleatum is frequently found in the colon microbiome of colorectal cancer (CRC) patients. The bacterium is not only a passive bystander of CRC, but is actively involved in disease progression through mediating tumor growth stimulation, metastasis, and immune evasion. These outcomes are achieved through the action of several adhesins that are located on the outer membrane surface of F. nucleatum, which bind to different receptors on tumor or immune cells. Adhesin-receptor interaction as the initial step of host-pathogen interaction then triggers signal transduction pathways responsible for uncontrolled cell growth or downregulation of immune cells. For a number of CRC-relevant adhesins of F. nucleatum (FadA, Fap2, CbpF), the receptors have been known already for several years, but only recently mechanistic details have been elucidated through the determination of high-resolution structures of the complexes. In the case of other adhesins (RadD, Aim1), receptors have only recently been identified, or are as of yet unknown, and the mechanistic details underlying the interaction remain enigmatic. Here, we review the relevance of particular F. nucleatum adhesins in CRC progression, with a focus on recent mechanistic insights derived from structural biology.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42378068",
+     "date": "2026-06-30",
+     "title_zh": "口腔感染與全身性疾病之間，具核梭桿菌（Fusobacterium nucleatum）是否為關鍵中介者？機轉洞見與治療意涵",
+     "score": 4,
+     "one_liner": "綜述整理F. nucleatum之毒力因子與訊號路徑如何關聯大腸直腸癌等多項全身性疾病，並展望阻斷黏附素、CRISPR清除等新興治療策略。",
+     "sim": 0.26
+    },
+    {
+     "pmid": "42342164",
+     "date": "2026-06-25",
+     "title_zh": "ST3GAL1 透過調控唾液酸化作用促進具核梭桿菌（Fusobacterium nucleatum）貼附於大腸直腸癌細胞",
+     "score": 2,
+     "one_liner": "在CRC細胞與動物模型中發現，ST3GAL1調控的唾液酸化促進具核梭桿菌貼附並透過ANGPTL4促癌，屬機制性研究。",
+     "sim": 0.173
+    }
+   ],
+   "title_zh": "具核梭桿菌黏附素在大腸直腸癌中的角色－結構生物學觀點",
+   "abstract_zh": "具核梭桿菌（Fusobacterium nucleatum）常見於大腸直腸癌（CRC）患者的腸道微生物群中。此菌並非單純的旁觀者，而是透過促進腫瘤生長、轉移及免疫逃逸主動參與疾病進展。這些作用是透過位於具核梭桿菌外膜表面的多種黏附素所達成，這些黏附素會與腫瘤細胞或免疫細胞上的不同受體結合。黏附素-受體交互作用是宿主-病原體交互作用的第一步，接著會觸發負責細胞不受控生長或下調免疫細胞功能的訊號傳導路徑。對於數個與CRC相關的具核梭桿菌黏附素（FadA、Fap2、CbpF），其受體已知多年，但只有近期才透過高解析度複合體結構的解析闡明其機轉細節。至於其他黏附素（RadD、Aim1），其受體僅是最近才被發現，或目前仍屬未知，其交互作用背後的機轉細節仍是謎團。本文回顧特定具核梭桿菌黏附素在CRC進展中的相關性，並聚焦於近期從結構生物學獲得的機轉洞見。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純結構生物學機轉綜述，無臨床數據、無病人族群，對台灣大腸直腸外科臨床決策無直接實用性。",
+   "relevance": "低度相關",
+   "relevance_why": "屬於基礎分子機轉研究，非外科介入、非臨床試驗，與日常手術決策無關。",
+   "novelty": "仍屬早期",
+   "one_liner": "本文綜述具核梭桿菌五種黏附素（FadA、Fap2、CbpF、RadD、Aim1）與宿主受體交互作用的結構生物學機轉。",
+   "action": "目前不需改變做法，此為基礎機轉綜述，無臨床試驗數據或病人結果可供參考。",
+   "pico": {
+    "P": "無病人族群，屬機轉綜述",
+    "I": "無臨床介入，探討具核梭桿菌黏附素與受體結合之結構機轉",
+    "C": "無對照組",
+    "O": "無臨床outcome；聚焦於黏附素-受體交互作用之結構與訊號傳導機轉"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供任何臨床數據、發生率或效果量",
+    "僅描述FadA、Fap2、CbpF已有結構解析，RadD、Aim1受體機轉尚不明",
+    "無病人人數、無統計檢定結果"
+   ],
+   "cautions": [
+    "全篇為機轉/結構生物學綜述，無臨床試驗或病人數據，不可直接外推至臨床決策",
+    "多數機轉仍基於細胞或動物模型，是否適用於人體CRC進展尚待驗證",
+    "受體發現時序不一（RadD、Aim1尚屬新發現或未知），機轉解讀可能隨後續研究改變"
+   ],
+   "unassessable": [
+    "試驗設計相關項目（盲法、ITT、失訪率等）不適用於本綜述",
+    "利益衝突",
+    "成本分析",
+    "臨床outcome資料"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "與先前兩篇F. nucleatum相關文獻（機轉綜述、ST3GAL1唾液酸化促進黏附之機制研究）同屬基礎機轉領域。本文更聚焦於黏附素-受體交互作用的結構生物學細節（FadA、Fap2、CbpF、RadD、Aim1），補上了結構層面的機轉描述，但仍未提供任何臨床應用證據。",
+   "added_at": "2026-07-31T07:11:36+08:00"
+  },
+  {
+   "pmid": "42522007",
+   "title": "Colorectal cancer screening awareness among rural populations in Northern China",
+   "journal": "BMC Public Health",
+   "journal_full": "BMC public health",
+   "issn": "1471-2458",
+   "issn_linking": "1471-2458",
+   "impact_factor": 4.4,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1007/s00432-020-03197-8",
+   "ptype": "Observational Study",
+   "ptype_list": [
+    "Observational Study"
+   ],
+   "authors": "Li X, Ji F, Cao Y, Li L, Guan L, Zhang Z",
+   "abstract": "BACKGROUND: Colorectal cancer (CRC) remains one of the leading causes of cancer-related mortality worldwide, with incidence steadily increasing in China. Early detection through screening significantly reduces morbidity and mortality. However, awareness and participation remain inadequate, especially in rural populations, who account for nearly 39% of China's total population. Understanding awareness levels and associated factors is essential for developing targeted interventions.\nMETHODS: A population-based cluster cross-sectional study was conducted between September 2022 and March 2024 in two rural villages in Beijing and Henan Province. All permanent residents were eligible for this observational assessment of CRC awareness, for this observational assessment of CRC awareness; when the number of eligible residents exceeded the required sample size, participants were randomly selected from household lists provided by local village committees to ensure proportional representation across age and sex. Data were collected using a standardized questionnaire assessing knowledge of CRC risk factors, preventive measures, early symptoms, and screening methods. Logistic regression was performed to identify factors associated with high awareness, defined as a total score ≥ 90 on the awareness scale.\nRESULTS: Of the 2,091 participants, 60% demonstrated high awareness of CRC screening. Recognition of major risk factors such as advanced age (83.5%), colon polyps (88.1%), and family history (87.3%) was high, as was awareness of protective factors like dietary fiber intake/whole grains/yogurt (85.5%). Awareness of early symptoms such as blood in the stool (88.4%) and abdominal pain/incomplete evacuation (95.5%) was strong, but recognition of fatigue and anemia was lower (77.4%). Awareness of fecal occult blood testing (82.0%) and fecal genetic testing (85.1%) was slightly lower than for colonoscopy (86.7%). Logistic regression showed that age, gender, education level, alcohol consumption was significantly associated with higher awareness (P < 0.05).\nCONCLUSIONS: This study provides the first evidence of CRC awareness among rural populations in Northern China, revealing knowledge gaps in non-specific symptoms and non-invasive screening methods. Despite relatively high awareness, uptake of screening remains limited, indicating barriers such as access, cost, and cultural factors. Tailored education, accessible screening, and behavioral interventions are needed to improve prevention and early detection in these underserved communities.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42388744",
+     "date": "2026-07-02",
+     "title_zh": "中國城市居民對四大癌症的健康識能：一項全國性橫斷面調查",
+     "score": 2,
+     "one_liner": "在中國城市成人（n=1226）中比較四種癌症健康識能分數，大腸直腸癌識能最高（7.50±3.35），腎癌最低（4.30±2.89）。",
+     "sim": 0.18
+    },
+    {
+     "pmid": "42332514",
+     "date": "2026-06-23",
+     "title_zh": "糞便潛血檢測陽性患者之大腸鏡結果與臨床顯著發現相關因子：回溯性世代研究",
+     "score": 3,
+     "one_liner": "在216名FOBT陽性接受大腸鏡病人中，發現57.4%有臨床顯著病理，年齡≥60、男性、貧血相關，合併模型AUC 0.81。",
+     "sim": 0.162
+    },
+    {
+     "pmid": "42470059",
+     "date": "2026-07-20",
+     "title_zh": "土耳其某三級醫療中心對肛門直腸疾病（聚焦肛門廔管）之知識、態度與行為：橫斷面研究",
+     "score": 2,
+     "one_liner": "在土耳其某醫學中心門診702名民眾中，調查肛門廔管等肛門直腸疾病之KAP，僅43.3%對病因認知正確，教育程度低者分數較差。",
+     "sim": 0.157
+    }
+   ],
+   "title_zh": "中國北方農村人口對大腸直腸癌篩檢之認知度",
+   "abstract_zh": "背景：大腸直腸癌（CRC）仍是全球癌症死亡的主要原因之一，其發生率在中國持續上升。透過篩檢早期發現可顯著降低罹病率與死亡率。然而，篩檢的認知度與參與率仍然不足，尤其是在佔中國總人口近39%的農村人口中。了解認知程度及其相關因素，對於發展針對性介入措施至關重要。\n\n方法：本研究為一項以人群為基礎的分群橫斷面研究，於2022年9月至2024年3月間在北京與河南省兩個農村村莊進行。所有常住居民皆符合此CRC認知觀察性評估之資格；當符合資格居民人數超過所需樣本數時，從當地村委會提供的住戶名冊中隨機抽選參與者，以確保年齡與性別之比例代表性。資料收集使用標準化問卷，評估對CRC危險因子、預防措施、早期症狀及篩檢方法的知識。以邏輯迴歸分析找出與高認知度（認知量表總分≥90分）相關的因素。\n\n結果：在2,091名參與者中，60%展現高度CRC篩檢認知。對主要危險因子如高齡（83.5%）、大腸息肉（88.1%）及家族史（87.3%）的認知較高，對保護因子如膳食纖維攝取／全穀類／優格（85.5%）之認知亦同。對早期症狀如血便（88.4%）及腹痛／排便不盡感（95.5%）之認知強，但對疲勞及貧血之認知較低（77.4%）。對糞便潛血檢測（82.0%）及糞便基因檢測（85.1%）之認知略低於大腸鏡檢查（86.7%）。邏輯迴歸顯示年齡、性別、教育程度、飲酒與較高認知度顯著相關（P < 0.05）。\n\n結論：本研究提供中國北方農村人口CRC認知度的首個證據，揭示在非特異性症狀及非侵入性篩檢方法方面存在知識落差。儘管認知度相對較高，篩檢的實際採用率仍然有限，顯示存在諸如可近性、成本及文化因素等障礙。需要量身訂做的衛教、可近性篩檢及行為介入措施，以改善這些弱勢社群的預防與早期發現。",
+   "evidence_level": "橫斷面",
+   "score": 2,
+   "score_reason": "純衛教認知度問卷調查，無介入或臨床outcome，對台灣大腸直腸外科臨床決策幾無直接實用性。",
+   "relevance": "低度相關",
+   "relevance_why": "屬中國農村人口健康識能調查，非外科介入或臨床試驗，對台灣臨床實務參考價值有限。",
+   "novelty": "再確認已知",
+   "one_liner": "在中國北方農村居民（n=2091）中調查CRC篩檢認知度，60%達高認知，但疲勞/貧血症狀與非侵入性篩檢認知較低（77.4% vs 88-95%）。",
+   "action": "目前不需改變臨床做法；此為中國農村衛教調查，與台灣大腸直腸外科臨床決策無直接關聯。",
+   "pico": {
+    "P": "中國北京及河南兩農村地區常住居民，共2091人",
+    "I": "無介入，為觀察性問卷調查CRC相關知識",
+    "C": "無對照組",
+    "O": "主要：CRC篩檢高認知比例（總分≥90分，60%達標）；次要：各危險因子/保護因子/症狀/篩檢方法認知率，及與年齡、性別、教育程度、飲酒之關聯"
+   },
+   "effects": [],
+   "key_numbers": [
+    "整體60%參與者達高認知（≥90分），此為研究自訂閾值",
+    "疲勞/貧血症狀認知僅77.4%，明顯低於血便(88.4%)、腹痛(95.5%)",
+    "糞便潛血檢測認知82.0%、糞便基因檢測85.1%，均低於大腸鏡86.7%"
+   ],
+   "cautions": [
+    "高認知定義（≥90分）為研究自訂閾值，未提供效度驗證，跨研究可比性有限",
+    "橫斷面設計僅能呈現相關性，無法證明知識與實際篩檢行為/依從性之因果關係",
+    "樣本僅來自北京、河南兩村，地區代表性有限，難以推論至全中國農村"
+   ],
+   "unassessable": [
+    "問卷信效度未詳述",
+    "回覆率/參與率未提及",
+    "抽樣具體叢集方法細節不明",
+    "利益衝突未揭露"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "前作為中國都市居民四大癌症健康識能之橫斷面調查，本篇則聚焦農村人口對CRC篩檢的特異性認知，兩者皆屬健康識能調查但族群（都市vs農村）與範疇（泛癌識能vs CRC篩檢細項）不同，可視為互補延伸而非直接驗證關係。",
+   "added_at": "2026-07-31T07:11:36+08:00"
+  },
+  {
+   "pmid": "42527030",
+   "title": "IL-27 shapes NK cell heterogeneity and function in colorectal cancer",
+   "journal": "J Immunother Cancer",
+   "journal_full": "Journal for immunotherapy of cancer",
+   "issn": "2051-1426",
+   "issn_linking": "2051-1426",
+   "impact_factor": 11.7,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1136/jitc-2025-014667",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Lucantonio L, Kosta A, Schiano L, Sozio F, Ruggeri S, Peruzzi G",
+   "abstract": "BACKGROUND: Colorectal cancer (CRC) is a leading cause of cancer-related mortality worldwide and is characterized by an immunosuppressive tumor microenvironment (TME). While adaptive immunity contributes to tumor control, growing evidence underscores the role of innate lymphocytes, particularly natural killer (NK) cells, in early antitumor surveillance. However, tumor-infiltrating NK cells often exhibit defective maturation and impaired effector functions, whereas the signals regulating NK cell differentiation and activity in CRC remain poorly defined. Interleukin-27 (IL-27) has emerged as a regulator of antitumor immunity, yet its role in modulating NK cell responses in intestinal tumors is largely unexplored.\nMETHODS: We employed an orthotopic transplantation model of genetically engineered colorectal tumor organoids Apc-/-KrasG12D/+Trp53R172H/-Smad4-/- (AKPS) to investigate NK cell heterogeneity, maturation, and function during CRC progression. Tumor-infiltrating innate lymphocytes were analyzed using single-cell RNA sequencing, flow cytometry, immunofluorescence, and functional assays. In vitro co-culture systems and in vivo IL-27 blockade were used to assess the impact of tumor-derived IL-27 on NK cell transcriptional programs and effector activity.\nRESULTS: Single-cell transcriptomic profiling revealed marked heterogeneity among tumor-infiltrating NK cells, identifying subsets with different maturation states and functional capacities. Among innate lymphocytes, AKPS tumors were dominated by NK cells displaying reduced activating receptors and diminished cytotoxic and cytokine-producing potential. Phenotypic and adoptive transfer analyses demonstrated that the TME favors persistence of immature CD27+ NK cell subsets while limiting differentiated NK cells. Mechanistically, tumor-derived IL-27 emerged as a critical regulator sustaining NK cell infiltration and activation; IL-27 blockade reduced NK cell accumulation, interferon-γ production, and immature subset frequency. The clinical relevance of these findings was supported by analysis of human CRC single-cell datasets, which revealed elevated IL-27 signaling in intratumoral NK cells, as well as by the ability of patient-derived organoids to enhance NK-cell cytotoxicity, which was reduced by IL-27 blockade.\nCONCLUSIONS: Our study identifies IL-27 as a critical modulator of NK cell differentiation and function in CRC, highlighting its role in sustaining NK cell-mediated immune surveillance within the tumor microenvironment. These findings provide mechanistic insight into NK cell dysfunction in CRC and suggest IL-27 signaling as a promising therapeutic target to restore innate antitumor immunity.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42331382",
+     "date": "2026-06-22",
+     "title_zh": "CD8 T細胞分泌IL-10協調抗VEGFR-2/PD-1治療後NK細胞早期募集與抗腫瘤免疫",
+     "score": 2,
+     "one_liner": "在大腸直腸癌小鼠模型中，探討VEGFR-2/PD-1雙阻斷療法機轉，發現CD8 T細胞分泌IL-10為驅動NK細胞募集、達成抗腫瘤效果的關鍵中介機轉。",
+     "sim": 0.262
+    },
+    {
+     "pmid": "42433376",
+     "date": "2026-07-11",
+     "title_zh": "IL21主要由CXCL13相關CD4+ T細胞亞群產生並形塑大腸直腸癌免疫微環境",
+     "score": 2,
+     "one_liner": "利用單細胞定序、組織染色與小鼠模型，發現大腸直腸癌中CXCL13+CD4+T細胞為IL21主要來源，並影響腫瘤免疫微環境相關基因表現。",
+     "sim": 0.201
+    },
+    {
+     "pmid": "42393838",
+     "date": "2026-07-03",
+     "title_zh": "人類大腸直腸癌中DP8α調節性T細胞的腫瘤內富集與抑制活性",
+     "score": 3,
+     "one_liner": "在CRC病人腫瘤與配對正常黏膜中，比較DP8α Treg族群，發現其於腫瘤內顯著富集且具CD39/CD73依賴之T細胞抑制活性。",
+     "sim": 0.191
+    }
+   ],
+   "title_zh": "IL-27 塑造大腸直腸癌中NK細胞的異質性與功能",
+   "abstract_zh": "背景：大腸直腸癌（CRC）是全球癌症死亡的主要原因之一，其特徵為免疫抑制性腫瘤微環境（TME）。雖然適應性免疫參與腫瘤控制，越來越多證據強調先天性淋巴細胞，特別是自然殺手（NK）細胞，在早期抗腫瘤監控中的作用。然而，腫瘤浸潤性NK細胞常表現出成熟缺陷與效應功能受損，而調控CRC中NK細胞分化與活性的訊號仍未明確定義。介白素-27（IL-27）已被視為抗腫瘤免疫的調節因子，但其在調節腸道腫瘤中NK細胞反應的角色仍大多未被探討。\n\n方法：我們使用基因工程大腸直腸腫瘤類器官（Apc-/-KrasG12D/+Trp53R172H/-Smad4-/-，AKPS）的原位移植模型，研究CRC進展過程中NK細胞的異質性、成熟與功能。腫瘤浸潤性先天性淋巴細胞以單細胞RNA定序、流式細胞術、免疫螢光及功能性檢測進行分析。使用體外共培養系統與體內IL-27阻斷，評估腫瘤來源IL-27對NK細胞轉錄程序與效應活性的影響。\n\n結果：單細胞轉錄體分析顯示腫瘤浸潤性NK細胞間存在明顯異質性，可辨識出具不同成熟狀態與功能能力的亞群。在先天性淋巴細胞中，AKPS腫瘤主要由活化受體降低、細胞毒性與細胞激素產生潛能減弱的NK細胞所主導。表型與過繼轉移分析證實，TME有利於未成熟CD27+ NK細胞亞群的持續存在，同時限制分化較完全的NK細胞。機轉上，腫瘤來源IL-27成為維持NK細胞浸潤與活化的關鍵調節因子；IL-27阻斷降低了NK細胞累積、干擾素-γ產生，以及未成熟亞群比例。這些發現的臨床相關性獲得人類CRC單細胞資料集分析的支持，顯示腫瘤內NK細胞中IL-27訊號傳導上升；此外，病人衍生類器官能增強NK細胞毒殺能力，而此能力可被IL-27阻斷所削弱。\n\n結論：本研究確立IL-27為CRC中NK細胞分化與功能的關鍵調節因子，突顯其在維持腫瘤微環境內NK細胞介導免疫監控中的作用。這些發現為CRC中NK細胞功能障礙提供機轉性見解，並提示IL-27訊號傳導為恢復先天性抗腫瘤免疫的潛力治療靶點。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "純基礎轉譯機轉研究（小鼠腫瘤類器官模型為主，輔以人類單細胞資料庫分析），無臨床試驗或手術相關資料，對台灣大腸直腸外科臨床決策無直接實用性。",
+   "relevance": "低度相關",
+   "relevance_why": "為NK細胞與IL-27機轉之基礎免疫學研究，非外科介入，短期內不會改變臨床照護或手術決策。",
+   "novelty": "仍屬早期",
+   "one_liner": "在AKPS小鼠CRC腫瘤模型中，IL-27阻斷降低NK細胞浸潤、IFN-γ產生與未成熟亞群比例，人類CRC單細胞資料佐證IL-27訊號上升。",
+   "action": "目前不需改變做法，此為基礎機轉研究，未涉及人體臨床試驗或手術治療決策。",
+   "pico": {
+    "P": "AKPS基因工程大腸直腸腫瘤類器官原位移植小鼠模型；並分析人類CRC單細胞資料集與病人衍生類器官（人數未明確）",
+    "I": "IL-27訊號阻斷",
+    "C": "未阻斷IL-27之對照組",
+    "O": "主要：NK細胞浸潤量、成熟狀態、干擾素-γ產生；次要：NK細胞毒殺活性、腫瘤內IL-27訊號傳導程度"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要僅描述方向性結果（IL-27阻斷「降低」NK細胞累積與IFN-γ產生），未提供絕對數值或p值",
+    "人類CRC單細胞資料顯示IL-27訊號在腫瘤內NK細胞中升高，但無具體統計數字",
+    "整體結論屬機轉性觀察，無法計算ARR或NNT"
+   ],
+   "cautions": [
+    "全為小鼠模型與少量人類類器官/資料庫分析，未經人體臨床試驗驗證，因果推論需謹慎",
+    "摘要未提供具體樣本數、統計檢定或信賴區間，無法評估效應量大小或穩健性",
+    "將小鼠機轉結果直接類推至人類CRC治療潛力，屬於過度延伸的早期假設"
+   ],
+   "unassessable": [
+    "人類樣本數",
+    "統計方法與p值/信賴區間",
+    "利益衝突",
+    "研究是否註冊",
+    "臨床終點（如存活率、復發率）"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "與先前看過的CD8 T細胞IL-10/NK募集、CXCL13+CD4+T細胞IL21、DP8α Treg等CRC腫瘤微環境免疫機轉研究屬同一研究脈絡，皆探討先天性/適應性免疫細胞如何被特定分子（此篇為IL-27）調控以影響CRC免疫監控，本篇補上NK細胞分化與IL-27訊號這一環節，但同樣仍停留在機轉層次，未涉及臨床應用。",
+   "added_at": "2026-07-31T07:11:36+08:00"
+  },
+  {
+   "pmid": "42528940",
+   "title": "Synergistic neoadjuvant radioimmunotherapy in locally advanced rectal cancer: mechanisms of pathologic response and the shift toward organ preservation",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1016/j.jlb.2025.100338",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Yan S, Zhang G, Jia X",
+   "abstract": "The management of locally advanced rectal cancer (LARC) has progressively shifted beyond surgery alone toward integrated protocols that include neoadjuvant chemoradiotherapy (nCRT). Even so, the risks of distant metastasis and organ dysfunction remain significant challenges. It is against this backdrop that immune checkpoint inhibitors (ICIs) combined with chemoradiotherapy have begun to redefine therapeutic possibilities. Radiotherapy (RT) induces immunogenic cell death (ICD), enhances antigen presentation, and activates systemic immune responses, whereas ICIs overcome immune suppression by blocking pathways such as PD-1/PD-L1. This synergistic approach converts immunologically cold tumors into infiltrated, hot phenotypes. Building on this rationale, recent Phase II trials have explored immune consolidation following short-course radiotherapy (SCRT) within a total neoadjuvant therapy (TNT) framework. What emerged was particularly compelling: pathological complete response (pCR) rates rose notably, in some cases doubling historical benchmarks. This improvement is not merely a numerical gain; it translates into tangible clinical opportunities, including organ preservation and the feasibility of watch-and-wait (W&W) protocols for selected responders. Notably, SCRT appears especially compatible with subsequent immunotherapy, perhaps due to its abbreviated yet potent immunomodulatory effects, offering a pragmatic alternative to conventional long-course regimens. Looking ahead, the push toward personalization is gaining momentum. Biomarkers like MMR/MSI status, features of the tumor immune microenvironment, and dynamic changes in ctDNA are increasingly guiding trial design and treatment sequencing. While promising, these tools require further validation in larger, more diverse cohorts. Ultimately, the central question remains: how can we convert higher pCR rates into lasting survival benefits while safeguarding quality of life? Answering this will depend on rigorously designed Phase III trials, thoughtful integration of predictive biomarkers, and continued refinement of how and when we combine radiation, chemotherapy, and immunotherapy. Only then can we ensure that advances in biology translate into meaningful human outcomes.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42501213",
+     "date": "2026-07-27",
+     "title_zh": "在放射治療資源受限地區，全程新輔助治療（TNT）優先化療可提升局部進展期直腸癌之病理完全緩解率（pCR）：一項隨機對照試驗",
+     "score": 5,
+     "one_liner": "在202名LARC患者中，比較TNT（化療優先）與傳統NCRT優先治療，TNT組pCR率55.4% vs 42.57%（p=0.023）。",
+     "sim": 0.238
+    },
+    {
+     "pmid": "42495710",
+     "date": "2026-07-25",
+     "title_zh": "以短程放療為基礎的全程新輔助治療併用替雷利珠單抗治療局部進展期直腸癌（Neo-STAR研究）：一項隨機第二期試驗的早期結果",
+     "score": 6,
+     "one_liner": "在118名LARC病人中，比較SCRT-TNT併用tislelizumab與單純SCRT-TNT，pCR達45.3% vs 27.6%（p=0.052，未達統計顯著）。",
+     "sim": 0.233
+    },
+    {
+     "pmid": "42495710",
+     "date": "2026-07-26",
+     "title_zh": "短程放療為基礎之全程新輔助治療（TNT）併用替雷利珠單抗（tislelizumab）用於局部進展期直腸癌（Neo-STAR）：一項隨機第二期試驗之早期結果",
+     "score": 6,
+     "one_liner": "在111名LARC病人中，比較SCRT-TNT併用tislelizumab與SCRT-TNT，pCR率45.3% vs 27.6%（p=0.052），未達統計顯著。",
+     "sim": 0.233
+    }
+   ],
+   "title_zh": "局部進展期直腸癌的協同新輔助放射免疫治療：病理反應機轉與器官保留趨勢之轉變",
+   "abstract_zh": "局部進展期直腸癌（LARC）的治療已逐漸由單純手術轉向包含新輔助放化療（nCRT）的整合性治療方案。即便如此，遠端轉移與器官功能障礙的風險仍是重大挑戰。在此背景下，免疫檢查點抑制劑（ICIs）併用放化療已開始重新定義治療的可能性。放射治療（RT）可誘導免疫性細胞死亡（ICD）、增強抗原呈現，並活化全身性免疫反應，而ICIs則透過阻斷PD-1/PD-L1等路徑克服免疫抑制。這種協同作用可將免疫學上「冷」的腫瘤轉變為浸潤性、「熱」的表型。基於此原理，近期第二期試驗已探討在全程新輔助治療（TNT）框架下，短程放療（SCRT）後接續免疫鞏固治療。結果相當令人振奮：病理完全緩解（pCR）率顯著上升，某些案例甚至達到歷史基準的兩倍。此改善不僅是數字上的進步，更轉化為實際的臨床機會，包括器官保留與適合特定反應者的觀察等待（W&W）方案的可行性。值得注意的是，SCRT似乎特別適合搭配後續免疫治療，這可能是因其短暫卻強效的免疫調節作用，為傳統長程治療方案提供了實用的替代選擇。展望未來，個人化治療的推動力正在增強。MMR/MSI狀態、腫瘤免疫微環境特徵，以及ctDNA的動態變化等生物標記，正日益引導試驗設計與治療排序。儘管前景看好，這些工具仍需在更大規模、更多元的族群中進一步驗證。最終，核心問題仍是：我們如何將更高的pCR率轉化為持久的存活益處，同時維護生活品質？回答此問題將取決於嚴謹設計的第三期試驗、預測性生物標記的審慎整合，以及持續精進放療、化療與免疫治療的組合方式與時機。唯有如此，我們才能確保生物學上的進展轉化為對患者有意義的臨床結果。",
+   "evidence_level": "綜述",
+   "score": 4,
+   "score_reason": "敘述性綜述整合現有機轉假說與早期二期試驗結果，無新數據或系統性方法學，對臨床決策參考價值有限但有助理解趨勢。",
+   "relevance": "高度相關",
+   "relevance_why": "直接聚焦LARC新輔助放射免疫治療與器官保留趨勢，是大腸直腸外科高度關注的治療走向。",
+   "novelty": "仍屬早期",
+   "one_liner": "綜述整理RT+ICI協同機轉，指出SCRT-TNT併用免疫治療可能使pCR率倍增，但存活效益仍待第三期試驗證實。",
+   "action": "目前不需改變做法；可作為背景閱讀了解SCRT+ICI於TNT架構下的機轉與趨勢，等待第三期試驗結果。",
+   "pico": {
+    "P": "局部進展期直腸癌（LARC）患者（無特定人數，為綜述整合多篇試驗）",
+    "I": "短程放療（SCRT）為基礎之TNT併用免疫檢查點抑制劑（ICI）",
+    "C": "傳統長程nCRT或單純SCRT-TNT（無單一對照組，綜述性質）",
+    "O": "主要：病理完全緩解（pCR）率；次要：器官保留可行性、W&W適用性、生物標記（MMR/MSI、ctDNA）預測價值"
+   },
+   "effects": [],
+   "key_numbers": [
+    "文中提及部分試驗pCR率達歷史基準的兩倍，但未提供具體絕對數字可供計算ARR/NNT",
+    "無兩組頭對頭之絕對事件數或發生率數據可供抽取",
+    "存活效益與生活品質之長期數據仍屬未知，作者明確提出此為核心待解問題"
+   ],
+   "cautions": [
+    "此為敘述性綜述，非系統性文獻回顧，可能存在選文偏誤與作者主觀詮釋",
+    "pCR為替代指標，尚未證實可轉化為長期存活益處，作者本身亦承認此缺口",
+    "所引述二期試驗樣本量小、多為早期結果，未達統計顯著（如Neo-STAR之p=0.052）"
+   ],
+   "unassessable": [
+    "因屬綜述文章，無原始試驗之盲法、ITT、失訪率、試驗註冊、利益衝突等方法學細節可供評估"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "本篇綜述整合先前所見SCRT-TNT併用tislelizumab之Neo-STAR試驗（pCR 45.3% vs 27.6%，p=0.052）及TNT優先化療試驗結果，提供這些早期二期試驗背後的免疫機轉理論框架，並呼應器官保留與W&W之臨床意義，但未提供新的臨床試驗數據。",
+   "added_at": "2026-07-31T07:11:36+08:00"
+  },
+  {
+   "pmid": "42524083",
+   "title": "Pulmonary injury in inflammatory bowel disease: intestinal barrier disruption, gut-lung axis remodeling, and treatment-related lung toxicity",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1007/s40261-024-01400-z",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Mu Z, Zhou R, Hao W, Chen Y, Zhu X, Gu L",
+   "abstract": "Inflammatory bowel disease (IBD)-associated pulmonary injury is one of the frequently underestimated extraintestinal manifestations in clinical practice. It can present as subclinical pulmonary function abnormalities, radiographic changes, or overt inflammatory pulmonary diseases and often overlaps with infection- and treatment-related pulmonary toxicity, complicating early recognition and differential diagnosis. Growing evidence indicates that IBD-associated pulmonary injury is not an isolated pulmonary event but rather a cross-organ pathological process jointly driven by disruption of the intestinal mucosal barrier, dysbiosis, and aberrant microbial metabolites, systemic inflammation, and abnormal immune cell trafficking. This article provides a comprehensive review of current basic and clinical research evidence regarding intestinal barrier dysfunction, bidirectional gut-lung axis regulation, immune remodeling mediated by microbial metabolites, such as short-chain fatty acids (SCFAs), and the mechanisms and differential diagnosis of drug-induced pulmonary injury in IBD treatment. Existing studies suggest that SCFAs, tryptophan metabolites, immune cell homing, and alterations in the local pulmonary microbiota may represent key regulatory nodes in IBD-associated pulmonary injury; however, prospective studies integrating intestinal inflammatory activity, circulating biomarkers, pulmonary phenotypes, and drug exposure are still lacking. In the future, emphasis should be placed on establishing a stratified diagnostic framework for distinguishing pulmonary involvement intrinsic to the disease, infection, and drug-induced pulmonary injury, and on evaluating precision intervention strategies targeting microbial function, metabolite supplementation, and barrier repair to advance the translational application of mechanistic research on IBD-associated pulmonary injury into clinical practice.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42495627",
+     "date": "2026-07-25",
+     "title_zh": "腸道菌群衍生代謝物在胃腸道癌症中的作用：透過色胺酸-芳香烴受體（AhR）軸之免疫調節機制與轉譯觀點",
+     "score": 2,
+     "one_liner": "本文綜述腸道菌群代謝物（SCFAs、膽酸、色胺酸-AhR軸）在胃腸道癌症中的免疫調節機轉，屬概念性整理，無臨床數據。",
+     "sim": 0.214
+    },
+    {
+     "pmid": "42495627",
+     "date": "2026-07-26",
+     "title_zh": "腸道微生物群衍生代謝物在胃腸道癌症中的作用：透過色胺酸-AhR軸的免疫調節機轉與轉譯醫學展望",
+     "score": 2,
+     "one_liner": "本文綜述腸道微生物代謝物（SCFAs、膽酸、色胺酸-AhR軸）在胃腸道癌症中的免疫調節機轉，屬機轉性文獻整理，無臨床數據。",
+     "sim": 0.214
+    },
+    {
+     "pmid": "42358979",
+     "date": "2026-06-26",
+     "title_zh": "腸道微生物群代謝物在發炎性腸道疾病中的作用：機轉洞見的最新進展",
+     "score": 2,
+     "one_liner": "本綜述整合腸道微生物代謝物（SCFAs、膽酸、色胺酸衍生物）如何透過免疫調節網絡參與IBD致病機制，屬機轉性文獻回顧，無臨床數據。",
+     "sim": 0.204
+    }
+   ],
+   "title_zh": "發炎性腸道疾病中的肺部損傷：腸道屏障破壞、腸-肺軸重塑與治療相關肺毒性",
+   "abstract_zh": "發炎性腸道疾病（IBD）相關肺部損傷是臨床上常被低估的腸外表現之一，可表現為亞臨床肺功能異常、影像學變化，或明顯的發炎性肺疾病，且常與感染性及治療相關的肺毒性重疊，使早期辨識與鑑別診斷更為困難。越來越多證據顯示，IBD相關肺部損傷並非孤立的肺部事件，而是由腸黏膜屏障破壞、菌群失調與異常微生物代謝物、全身性發炎，以及異常免疫細胞遷移共同驅動的跨器官病理過程。本文全面回顧目前有關腸道屏障功能障礙、雙向腸-肺軸調控、由微生物代謝物（如短鏈脂肪酸SCFAs）介導的免疫重塑，以及IBD治療中藥物誘發肺損傷之機轉與鑑別診斷的基礎與臨床研究證據。現有研究顯示，SCFAs、色胺酸代謝物、免疫細胞歸巢，以及局部肺部微生物群的改變，可能是IBD相關肺部損傷的關鍵調控節點；然而，整合腸道發炎活性、循環生物標記、肺部表型與藥物暴露之前瞻性研究仍然缺乏。未來應著重於建立分層診斷框架，以區分疾病本身的肺部侵犯、感染性肺病與藥物誘發肺損傷，並評估針對微生物功能、代謝物補充與屏障修復之精準介入策略，以推進IBD相關肺部損傷機轉研究向臨床應用的轉譯。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純機轉性文獻回顧，無原創臨床數據或試驗結果，對大腸直腸外科日常決策幾乎無直接可操作性。",
+   "relevance": "低度相關",
+   "relevance_why": "討論IBD肺部腸外表現與腸-肺軸機轉，非外科介入或手術決策相關內容。",
+   "novelty": "仍屬早期",
+   "one_liner": "本篇綜述整理IBD相關肺部損傷之機轉（腸道屏障、菌群代謝物、免疫遷移、藥物毒性），未提供臨床試驗數據。",
+   "action": "目前不需改變做法；本文為機轉性綜述，無具體診斷或治療建議可直接應用於外科病人。",
+   "pico": {
+    "P": "無特定研究族群，為文獻回顧性質",
+    "I": "無介入，回顧腸道屏障破壞、腸-肺軸、菌群代謝物與藥物誘發肺損傷機轉",
+    "C": "無對照組",
+    "O": "無具體outcome數據；僅提出未來研究方向（分層診斷框架、精準介入策略）"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本文未提供任何量化臨床數據、發生率或統計檢定結果",
+    "屬機轉性綜述，無病例數、無比較組",
+    "作者明確指出：整合腸道發炎活性與肺部表型之前瞻性研究仍缺乏"
+   ],
+   "cautions": [
+    "純綜述無原創數據，所有機轉推論均來自既有基礎研究，因果關係未經臨床驗證",
+    "無病人族群、無對照組、無統計數字，無法評估效應量或可信區間",
+    "將腸-肺軸相關性機轉直接推論為臨床可操作之診斷/治療策略，過度延伸"
+   ],
+   "unassessable": [
+    "研究設計品質",
+    "利益衝突",
+    "資料來源與選文方法（是否為系統性搜尋）",
+    "臨床適用性驗證"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "與先前看過的IBD/GI癌症腸道菌群代謝物（SCFAs、色胺酸-AhR軸）機轉綜述屬同系列主題，本篇將相同的菌群代謝物框架延伸應用至肺部器官，探討腸-肺軸而非腸道本身，但同樣缺乏臨床數據支持。",
+   "added_at": "2026-07-31T07:11:36+08:00"
+  },
+  {
+   "pmid": "42523711",
+   "title": "Virulome over taxonomy: refining the driver-passenger model in colorectal carcinogenesis",
+   "journal": "Front Cell Infect Microbiol",
+   "journal_full": "Frontiers in cellular and infection microbiology",
+   "issn": "2235-2988",
+   "issn_linking": "2235-2988",
+   "impact_factor": 5.5,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.3390/cancers13194799",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Glazunova E, Kurnosov A, Bogacheva A, Makarov V, Zlobovskaya O",
+   "abstract": "Colorectal carcinogenesis is increasingly viewed as a predominantly microbiome-driven process, yet it extends well beyond simple taxonomic associations. The taxon-based classical driver-passenger model, while conceptually useful, may benefit from incorporating the underlying mechanisms of microbial participation and the functional complexity of taxa contributions across CRC stages. In particular, the same taxa may exert distinct effects across carcinogenesis, and individual metabolic pathways frequently mediate multiple and divergent host responses. To address these limitations, we re-examine the roles of CRC-associated microbiota through the lens of individual virulence factor effects on the host, demonstrating their functional pleiotropy, and propose an expanded driver-passenger model. This approach highlights the central role of the virulome in CRC initiation, promotion and progression. By shifting the analytical focus from taxonomy to function, the proposed framework enables improved causality assessment and supports the development of stage-specific diagnostic and prognostic markers, as well as more targeted microbiome-directed therapeutic strategies.",
+   "watched": [],
+   "related": [],
+   "title_zh": "毒力體優於分類學：精煉大腸直腸癌發生中的驅動者-乘客模型",
+   "abstract_zh": "大腸直腸癌的發生機轉，日益被視為主要由微生物群所驅動的過程，但其複雂程度遠超過單純的分類學（菌種）關聯性。傳統以分類學為基礎的「驅動者-乘客模型」在概念上雖然有用，但若能納入微生物參與的潛在機制，以及不同菌種在大腸直腸癌各階段中功能複雜性的貢獻，將更為完善。特別是，同一菌種在癌化過程的不同階段可能產生截然不同的作用，而個別代謝路徑常會介導多種且分歧的宿主反應。為解決此侷限，我們從個別毒力因子對宿主的作用出發，重新檢視大腸直腸癌相關微生物群的角色，展示其功能上的多效性（pleiotropy），並提出一個擴展版的驅動者-乘客模型。此方法凸顯了「毒力體」在大腸直腸癌起始、促進與進展中的核心角色。透過將分析焦點從分類學轉移至功能，本框架有助於改善因果關係的評估，並支持發展分期特異性的診斷與預後標記物，以及更精準的微生物群導向治療策略。",
+   "evidence_level": "綜述",
+   "score": 3,
+   "score_reason": "純理論性綜述，提出概念框架但無臨床數據或可驗證結果，對台灣大腸直腸外科臨床決策目前無直接實用性。",
+   "relevance": "低度相關",
+   "relevance_why": "屬基礎微生物學與致癌機轉的概念性框架，非外科介入或臨床可應用之診斷/治療方法。",
+   "novelty": "仍屬早期",
+   "one_liner": "本綜述提出以「毒力體」功能分析取代單純菌種分類學，重新詮釋大腸直腸癌驅動者-乘客模型，屬概念性框架論文。",
+   "action": "目前不需改變做法；此為理論框架綜述，無臨床數據或可執行的診斷/治療建議可供採用。",
+   "pico": {
+    "P": "無傳統病人族群；針對大腸直腸癌相關微生物群的概念性文獻回顧",
+    "I": "以毒力因子（virulome）功能分析取代傳統分類學方法",
+    "C": "傳統以分類學為基礎的驅動者-乘客模型",
+    "O": "無實證 outcome；提出改善因果評估、分期標記物開發與精準治療策略之理論框架"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本文為理論性綜述，摘要中未提供任何量化數據、事件數或統計檢定結果",
+    "無臨床試驗或觀察性研究之絕對風險、發生率或信賴區間可供抽取",
+    "未涉及具體病人族群人數或治療效果比較"
+   ],
+   "cautions": [
+    "純概念性框架，缺乏實際臨床或實驗數據驗證其提出的擴展模型是否成立",
+    "「毒力體驅動因果性」的論述目前仍屬假說性質，尚無前瞻性驗證研究支持",
+    "無法評估此框架對實際診斷標記物或治療策略開發的臨床可行性與時間表"
+   ],
+   "unassessable": [
+    "研究族群與樣本量",
+    "研究方法與資料來源之系統性程度",
+    "試驗註冊、利益衝突",
+    "任何統計檢定或信賴區間",
+    "此框架之外部驗證或臨床應用可行性"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-07-31T07:11:36+08:00"
+  },
+  {
+   "pmid": "42525172",
+   "title": "The multifaceted role of SOCS3 in colorectal cancer: molecular mechanisms and clinical implications",
+   "journal": "Mol Biol Rep",
+   "journal_full": "Molecular biology reports",
+   "issn": "1573-4978",
+   "issn_linking": "0301-4851",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1111/jcmm.16083",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Abbasi H, Razi S, Rezaei N",
+   "abstract": "Colorectal cancer (CRC) remains a major cause of cancer-related mortality, particularly in advanced or metastatic disease. The Janus kinase/signal transducer and activator of transcription (JAK/STAT) pathway mediates cytokine-driven signaling, and its persistent activation contributes to tumor growth, invasion, immune escape, and therapeutic resistance. Suppressor of cytokine signaling 3 (SOCS3) is a key negative regulator of cytokine and growth factor signaling, especially the IL-6/JAK/STAT3 axis. This review summarizes the structure and physiological functions of SOCS3 and discusses its dysregulation in CRC initiation, progression, metastasis, prognosis, and treatment response. Current evidence indicates that SOCS3 is frequently downregulated in CRC through promoter methylation and post-transcriptional regulation by oncogenic microRNAs, leading to sustained STAT3 activation, increased proliferation, reduced apoptosis, and enhanced invasiveness. SOCS3 also interacts with MEK/ERK and PI3K/AKT signaling and influences the tumor microenvironment by regulating T-cell balance, PD-L1 expression, and macrophage activity. Clinically, reduced SOCS3 expression has been associated with lymph node metastasis, advanced TNM stage, and poorer prognosis, whereas higher SOCS3 levels may correlate with improved outcomes and chemosensitivity. Emerging therapeutic strategies include epigenetic modulation, JAK/STAT pathway inhibition, regulation of IL-6 signaling in adoptive T-cell therapy, AhR/IL-22 modulation, and FXR activation. Further translational studies are needed to validate SOCS3 as a biomarker and therapeutic target in CRC.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42328435",
+     "date": "2026-06-22",
+     "title_zh": "CD109透過LRRC8A/AKAP12/PKCα介導的STAT3活化與WNT訊號傳遞，驅動大腸直腸癌之幹性與化療抗藥性",
+     "score": 3,
+     "one_liner": "在CRC細胞株與小鼠肝轉移模型中，發現CD109經LRRC8A/AKAP12/PKCα軸活化STAT3，驅動幹性與化療抗藥性。",
+     "sim": 0.174
+    },
+    {
+     "pmid": "42352951",
+     "date": "2026-06-26",
+     "title_zh": "大腸直腸癌中的N7-甲基鳥苷（m7G）修飾：分子機轉與臨床意涵",
+     "score": 2,
+     "one_liner": "本文綜述m7G RNA修飾（METTL1/WDR4、eIF4E等）在大腸直腸癌致病、進展、預後與治療中的分子機轉，屬純機轉整理無臨床數據。",
+     "sim": 0.167
+    },
+    {
+     "pmid": "42502958",
+     "date": "2026-07-27",
+     "title_zh": "針對驅動大腸直腸癌腫瘤發生的分子與基因路徑進行精準治療",
+     "score": 2,
+     "one_liner": "本文綜述CRC致病相關的Wnt、MAPK、p53、PI3K/AKT等訊號路徑及其精準治療策略，未提供臨床試驗數據。",
+     "sim": 0.165
+    }
+   ],
+   "title_zh": "SOCS3在大腸直腸癌中的多面向角色：分子機轉與臨床意涵",
+   "abstract_zh": "大腸直腸癌（CRC）仍是癌症相關死亡的主要原因，尤其是在晚期或轉移性疾病中。Janus kinase/signal transducer and activator of transcription（JAK/STAT）路徑媒介細胞激素驅動的訊號傳遞，其持續活化與腫瘤生長、侵襲、免疫逃逸及治療抗藥性相關。Suppressor of cytokine signaling 3（SOCS3）是細胞激素與生長因子訊號傳遞的關鍵負調控因子，尤其針對IL-6/JAK/STAT3軸。本綜述總結SOCS3的結構與生理功能，並討論其在CRC發生、進展、轉移、預後及治療反應中的失調狀況。現有證據顯示，SOCS3在CRC中經常因啟動子甲基化與致癌性microRNA的轉錄後調控而下調，導致STAT3持續活化、增殖增加、凋亡減少及侵襲性增強。SOCS3也與MEK/ERK及PI3K/AKT訊號傳遞交互作用，並透過調節T細胞平衡、PD-L1表現及巨噬細胞活性影響腫瘤微環境。臨床上，SOCS3表現降低與淋巴結轉移、較晚期TNM分期及較差預後相關，而較高的SOCS3水平則可能與較佳預後及化療敏感性相關。新興治療策略包括表觀遺傳調控、JAK/STAT路徑抑制、過繼性T細胞療法中IL-6訊號的調節、AhR/IL-22調控，以及FXR活化。仍需進一步的轉譯研究以驗證SOCS3作為CRC生物標記與治療靶點的角色。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純分子機轉綜述，無臨床試驗或人體數據，對台灣大腸直腸外科臨床決策無直接實用性。",
+   "relevance": "低度相關",
+   "relevance_why": "純基礎/分子機轉整理，未涉及外科介入或可直接應用的臨床決策。",
+   "novelty": "仍屬早期",
+   "one_liner": "本文綜述SOCS3在CRC中透過IL-6/JAK/STAT3等路徑調控腫瘤發生、轉移與預後的分子機轉，未提供臨床試驗數據。",
+   "action": "目前不需改變做法：本文為分子機轉綜述，無臨床試驗數據可供實務應用。",
+   "pico": {
+    "P": "無特定病人族群（綜述文獻，非原始研究）",
+    "I": "無（綜述SOCS3相關分子路徑）",
+    "C": "無對照組",
+    "O": "無明確臨床outcome；僅回顧SOCS3表現與淋巴結轉移、TNM分期、預後之相關性文獻"
+   },
+   "effects": [],
+   "key_numbers": [
+    "無可用絕對數據，本文未提供任何具體病人數、事件數或統計檢定結果",
+    "屬機轉整理性綜述，非原始臨床研究",
+    "作者聲明需進一步轉譯研究驗證SOCS3之生物標記價值"
+   ],
+   "cautions": [
+    "純綜述文章，所有臨床關聯性描述均源自他人既有研究之整理，非本文原創數據",
+    "將SOCS3表現與預後之相關性描述可能被過度詮釋為因果關係，實際仍待前瞻性驗證",
+    "無任何統計數字、p值或信賴區間可供評估證據強度"
+   ],
+   "unassessable": [
+    "盲法",
+    "allocation concealment",
+    "ITT",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本分析",
+    "樣本量",
+    "統計方法"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-07-31T07:11:36+08:00"
+  },
+  {
+   "pmid": "42530270",
+   "title": "Probiotic-Mediated Immune Regulation in Gastric Cancer: Mechanisms, Synergies With Immunotherapy, and Future Directions",
+   "journal": "Front Biosci (Landmark Ed)",
+   "journal_full": "Frontiers in bioscience (Landmark edition)",
+   "issn": "2768-6698",
+   "issn_linking": "2768-6698",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.31083/FBL48167",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Wang N, Song F, Chen H, Li X",
+   "abstract": "This review examines recent advances in the use of probiotics combined with immune modulation for the prevention and treatment of gastric cancer. It highlights the interactions between gastrointestinal probiotics, including Lactobacillus, and Helicobacter pylori infection, emphasizing their roles in gastric cancer initiation and progression. The article evaluates how probiotics exert anticancer effects by restoring intestinal microecological balance, enhancing mucosal immunity, and suppressing H. pylori. It also discusses preliminary findings on Lactobacillus in colorectal cancer and their potential relevance to gastric cancer research. Finally, the clinical potential of combining probiotics with immunotherapy for gastric cancer is assessed, and future research directions in this rapidly evolving field are proposed.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42484112",
+     "date": "2026-07-23",
+     "title_zh": "幽門螺旋桿菌超越胃部：當故事改變之時",
+     "score": 2,
+     "one_liner": "本文綜述H. pylori感染與貧血、ITP、大腸直腸癌、心血管疾病、神經疾病的關聯性證據，結論指出因果性仍待前瞻性研究釐清。",
+     "sim": 0.229
+    }
+   ],
+   "title_zh": "益生菌介導的免疫調節在胃癌中的應用：機轉、與免疫治療的協同作用及未來方向",
+   "abstract_zh": "本綜述探討益生菌合併免疫調節用於胃癌預防與治療的最新進展。文章強調腸胃道益生菌（包括乳酸桿菌）與幽門螺旋桿菌感染之間的交互作用，並著重其在胃癌發生與進展中所扮演的角色。文中評估益生菌如何透過恢復腸道微生態平衡、增強黏膜免疫力、抑制幽門螺旋桿菌來發揮抗癌作用。文章也討論了乳酸桿菌在大腸直腸癌中的初步發現，及其對胃癌研究的潛在意義。最後，本文評估益生菌合併免疫治療用於胃癌的臨床潛力，並提出此快速發展領域的未來研究方向。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純機轉性綜述，無原始臨床數據，主題聚焦胃癌而非大腸直腸癌，對台灣大腸直腸外科臨床決策幾無直接參考價值。",
+   "relevance": "低度相關",
+   "relevance_why": "主題為胃癌與益生菌免疫調節機轉，僅順帶提及大腸直腸癌初步發現，非外科介入亦非大腸直腸癌主軸研究。",
+   "novelty": "仍屬早期",
+   "one_liner": "本篇綜述整理益生菌（如乳酸桿菌）透過調節黏膜免疫與抑制幽門螺旋桿菌對胃癌的潛在抗癌機轉，並簡述其對大腸直腸癌研究的初步啟示。",
+   "action": "目前不需改變做法；本文為機轉性綜述，無臨床試驗數據可直接應用於大腸直腸癌病人照護。",
+   "pico": {
+    "P": "無特定病人族群（綜述文章，非臨床研究）",
+    "I": "益生菌（含乳酸桿菌）合併免疫治療/免疫調節",
+    "C": "無對照組",
+    "O": "無明確主要 outcome；探討機轉與未來研究方向"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本文未提供任何量化臨床數據、事件數或統計檢定結果",
+    "全文為機轉描述與文獻回顧性質，無原始試驗結果可摘錄",
+    "大腸直腸癌相關內容僅為「初步發現」，未給出具體數字"
+   ],
+   "cautions": [
+    "全文屬機轉性綜述，無原始臨床試驗數據，結論多為推論性關聯，非因果證據",
+    "大腸直腸癌部分僅為附帶提及之初步發現，證據強度極低，不可外推至臨床應用",
+    "無對照組、無統計檢定、無法評估任何效應量或信賴區間"
+   ],
+   "unassessable": [
+    "研究設計",
+    "樣本數",
+    "統計方法",
+    "利益衝突",
+    "試驗註冊",
+    "ITT",
+    "失訪率"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。前次讀過之 H. pylori 綜述雖同樣涉及幽門螺旋桿菌與大腸直腸癌關聯，但主題聚焦點（胃癌益生菌機轉 vs. 多重疾病關聯性）差異過大，不構成直接延伸關係。",
+   "added_at": "2026-07-31T07:11:36+08:00"
+  }
+ ]
+}
