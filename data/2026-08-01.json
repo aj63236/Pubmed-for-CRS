@@ -1,0 +1,904 @@
+{
+ "date": "2026-08-01",
+ "generated_at": "2026-08-01T07:08:50+08:00",
+ "count": 12,
+ "papers": [
+  {
+   "pmid": "42533341",
+   "title": "Diagnostic accuracy of computer-aided detection for colorectal polyps of any size, ≤ 5 mm, and 6-9 mm: a meta-analysis",
+   "journal": "World J Surg Oncol",
+   "journal_full": "World journal of surgical oncology",
+   "issn": "1477-7819",
+   "issn_linking": "1477-7819",
+   "impact_factor": 2.8,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1186/s13104-024-07062-6",
+   "ptype": "Meta-Analysis, Review",
+   "ptype_list": [
+    "Meta-Analysis",
+    "Review"
+   ],
+   "authors": "Chen W, Li S, Wu Z, Tan H, Yu F, Wang D",
+   "abstract": "BACKGROUND: Although computer-aided detection (CAD) is often used for medical diagnostic purposes, its diagnostic effectiveness in colorectal polyps (CPs) remains uncertain.\nOBJECTIVE: To summarize the diagnostic accuracy of CAD in diagnosing CPs, and provide a specific theoretical basis for clinical practice.\nMETHODS: From database creation to August 1st 2024, we conducted a comprehensive search of PubMed, Embase, Web of Science (WoS), Scopus, Wanfang, Cochrane Library, and the China National Knowledge Infrastructure (CNKI). The pooled sensitivity, specificity, area under the curve (AUC), diagnostic odds ratio (DOR), positive likelihood ratio (PLR), negative likelihood ratio (NLR), and Fagan plot analysis were employed to evaluate the overall performance of CAD tests. Furthermore, we assessed publication bias using Deeks' funnel plot asymmetry test.\nRESULTS: The aggregated diagnostic data from 19 studies (any size), 12 studies (≤ 5 mm polyps) and 2 studies (6-9 mm polyps) were as follows: The sensitivity for polyps of any size, ≤ 5 mm, and 6-9 mm was 0.94 (95% CI, 0.92-0.96), 0.93 (95% CI, 0.89-0.95) and 0.95 (95% CI, 0.92-0.97), respectively. The specificity was 0.91 (95% CI, 0.86-0.95), 0.90 (95% CI, 0.87-0.93) and 0.90 (95% CI, 0.88-0.92), respectively. The AUC was 0.97 (95% CI, 0.96-0.99), 0.96 (95% CI, 0.94-0.98), and 0.92 (95% CI, 0.89-0.94), respectively. Deeks' funnel plot showed that publication bias was not statistically significant in the diagnosis of polyps of any size and ≤ 5 mm CPs (P > 0.05).\nCONCLUSION: In summary, CAD is accurate for all types of CPs. Specifically, for polyps of any size and those ≤ 5 mm, CAD was more sensitive and specific for CPs of any size.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42327954",
+     "date": "2026-06-22",
+     "title_zh": "MRI放射組學評估直腸腺癌新輔助化放療反應之系統性回顧與統合分析",
+     "score": 4,
+     "one_liner": "統合38篇研究驗證世代，MRI放射組學預測直腸癌pCR之敏感度0.82、特異度0.86，HSROC AUC 0.846。",
+     "sim": 0.187
+    },
+    {
+     "pmid": "42420571",
+     "date": "2026-07-09",
+     "title_zh": "放射組學模型作為預測大腸直腸癌基因突變之工具：系統性回顧與統合分析",
+     "score": 4,
+     "one_liner": "統合16篇研究，放射組學模型預測CRC基因突變之合併敏感度0.75、特異度0.78，整體AUC 0.79，但方法學品質偏低。",
+     "sim": 0.158
+    }
+   ],
+   "title_zh": "電腦輔助偵測（CAD）診斷任意大小、≤5mm及6-9mm大腸直腸息肉之準確性：統合分析",
+   "abstract_zh": "背景：儘管電腦輔助偵測（CAD）常用於醫學診斷，其對大腸直腸息肉（CPs）的診斷效力仍不明確。目的：總結CAD診斷CPs之診斷準確性，為臨床實務提供具體理論基礎。方法：自資料庫建立起至2024年8月1日，我們全面檢索PubMed、Embase、Web of Science（WoS）、Scopus、萬方、Cochrane Library及中國知網（CNKI）。採用合併敏感度、特異度、曲線下面積（AUC）、診斷勝算比（DOR）、陽性似然比（PLR）、陰性似然比（NLR）及Fagan圖分析評估CAD檢測之整體表現。此外，使用Deeks漏斗圖不對稱檢定評估發表偏誤。結果：來自19篇研究（任意大小）、12篇研究（≤5mm息肉）及2篇研究（6-9mm息肉）之匯總診斷數據如下：任意大小、≤5mm及6-9mm息肉之敏感度分別為0.94（95% CI, 0.92-0.96）、0.93（95% CI, 0.89-0.95）及0.95（95% CI, 0.92-0.97）。特異度分別為0.91（95% CI, 0.86-0.95）、0.90（95% CI, 0.87-0.93）及0.90（95% CI, 0.88-0.92）。AUC分別為0.97（95% CI, 0.96-0.99）、0.96（95% CI, 0.94-0.98）及0.92（95% CI, 0.89-0.94）。Deeks漏斗圖顯示任意大小及≤5mm息肉診斷之發表偏誤無統計學意義（P>0.05）。結論：總結而言，CAD對所有類型CPs皆具準確性。特別是對於任意大小及≤5mm息肉，CAD具有更高的敏感度與特異度。",
+   "evidence_level": "統合分析",
+   "score": 5,
+   "score_reason": "方法學合理但僅為診斷準確性指標，無臨床結局數據；6-9mm亞組僅2篇研究證據薄弱，整體結論再確認已知的CAD高敏感度/特異度。",
+   "relevance": "中度相關",
+   "relevance_why": "CAD輔助大腸鏡息肉偵測與內視鏡實務相關，但台灣多數大腸直腸外科主治醫師較少親自操作CAD系統做篩檢決策。",
+   "novelty": "再確認已知",
+   "one_liner": "統合19篇研究，CAD偵測任意大小大腸息肉之敏感度0.94、特異度0.91，AUC 0.97，各尺寸分層結果相近。",
+   "action": "目前不需改變做法；若院內大腸鏡室評估導入CAD系統，此篇可作為敏感度/特異度參考數據，但6-9mm證據仍薄弱。",
+   "pico": {
+    "P": "接受大腸鏡檢查並以CAD系統偵測息肉之研究人群，共19篇研究（任意大小）、12篇（≤5mm）、2篇（6-9mm）",
+    "I": "電腦輔助偵測（CAD）系統偵測大腸直腸息肉",
+    "C": "以病理或內視鏡專家判讀作為參考標準（未於摘要明確說明統一定義）",
+    "O": "主要：合併敏感度、特異度、AUC；次要：DOR、PLR、NLR、Fagan plot分析、發表偏誤"
+   },
+   "effects": [],
+   "key_numbers": [
+    "任意大小息肉：敏感度0.94（95% CI 0.92-0.96），特異度0.91（95% CI 0.86-0.95），AUC 0.97",
+    "≤5mm息肉：敏感度0.93、特異度0.90，AUC 0.96（95% CI 0.94-0.98）",
+    "6-9mm息肉僅2篇研究：敏感度0.95、特異度0.90，AUC 0.92，證據基礎薄弱"
+   ],
+   "cautions": [
+    "診斷準確性（敏感度/特異度）為替代指標，未評估CAD是否降低息肉漏診導致之大腸癌發生率或死亡率等臨床結局",
+    "6-9mm亞組僅納入2篇研究，樣本量過小，結果穩定性與外部效度存疑",
+    "未說明各研究採用CAD系統種類、版本及參考標準是否一致，可能存在未量化之高異質性被合併掩蓋"
+   ],
+   "unassessable": [
+    "研究間異質性指標（I²）及其來源分析",
+    "各研究採用CAD系統廠牌/演算法差異",
+    "參考標準（病理確診 vs 專家共識）是否一致",
+    "納入研究品質評估工具結果（如QUADAS-2）",
+    "6-9mm亞組發表偏誤未提及"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。先前看過之論文為MRI放射組學於直腸癌pCR預測及基因突變預測，主題與檢查方式（影像放射組學 vs 大腸鏡CAD息肉偵測）皆不同，無直接關聯。",
+   "added_at": "2026-08-01T07:06:18+08:00"
+  },
+  {
+   "pmid": "42532557",
+   "title": "Clinical efficacy of Mepilex Lite dressings combined with indomethacin suppositories in the treatment of acute radiation dermatitis caused by rectal cancer radiotherapy: a study protocol for a randomised controlled trial",
+   "journal": "BMJ Open",
+   "journal_full": "BMJ open",
+   "issn": "2044-6055",
+   "issn_linking": "2044-6055",
+   "impact_factor": 2.5,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1136/bmjopen-2026-122248",
+   "ptype": "Randomized Controlled Trial",
+   "ptype_list": [
+    "Randomized Controlled Trial"
+   ],
+   "authors": "Shang H, Yang Y, Cao H, Wu Y, Ji H",
+   "abstract": "INTRODUCTION: Acute radiation dermatitis is a common adverse reaction in radiotherapy, especially in patients with rectal cancer undergoing radiotherapy. At present, acute radiation dermatitis of the perianal skin has received widespread attention; however, acute radiation skin injury of the anal canal skin has not received sufficient attention. These patients mainly complain of anal pain, which seriously affects their quality of life. Mepilex Lite dressings have been recommended for the treatment of acute radiation dermatitis and have a definite effect. However, there is limited research on the use of this dressing for the treatment of acute radiation-induced dermatitis of the anal canal skin and its clinical efficacy and safety in this context need further verification.\nMETHODS AND ANALYSIS: This study is an assessor-blinded randomised controlled trial designed to evaluate the efficacy and safety of Mepilex Lite dressings combined with indomethacin suppositories for the treatment of acute radiation dermatitis of the anal canal skin. A total of 274 eligible patients from the tumour radiotherapy ward of the First Affiliated Hospital of Shandong First Medical University will be randomly assigned to either the experiment or control group (1:1). The control group will be given 30 mg of indomethacin suppositories for rectal administration, and the experiment group will be given Mepilex Lite dressings in addition to the measures taken by the control group. The 5 cm × 5 cm dressing will be inserted into the anal canal for 3 cm through the anus and exposed for 2 cm. The main outcome indicator is the treatment efficiency of the acute radiation dermatitis of the anal canal skin on the 14th day after the intervention. The secondary outcome indicator is the treatment efficiency of the acute radiation dermatitis of the anal canal skin on the seventh and 21st days after the intervention. Concurrently, the Numeric Rating Scale, Hospital Anxiety and Depression Scale, Pittsburgh Sleep Quality Index and Skin Disease Patient Quality of Life Scale-16 will be used to assess patient pain, depression and anxiety, sleep quality and quality of life, respectively. A table questionnaire survey will be conducted at baseline and on 7, 14 and 21 days after intervention.\nETHICS AND DISSEMINATION: The research protocol has obtained ethical approval from the Ethics Committee of the First Affiliated Hospital of Shandong First Medical University (approval number: YXLL-KY-2024 (162)). The results will be published in peer-reviewed journals and abstracts will be submitted to domestic and international conferences to disseminate our research findings.\nTRIAL REGISTRATION NUMBER: NCT06837831.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42425570",
+     "date": "2026-07-10",
+     "title_zh": "禁食模擬飲食對接受根治性切除之大腸直腸癌病患長期預後的影響：一項多中心、前瞻性、隨機對照試驗方案",
+     "score": 3,
+     "one_liner": "在602名中國第三期CRC根治性切除病患中，比較FMD介入與對照組，評估3年DFS——此為試驗方案，尚無結果數據。",
+     "sim": 0.196
+    }
+   ],
+   "title_zh": "Mepilex Lite敷料合併indomethacin栓劍治療大腸直腸癌放射治療所致急性放射性皮膚炎之臨床療效：一項隨機對照試驗研究方案",
+   "abstract_zh": "前言：急性放射性皮膚炎是放射治療常見的不良反應，尤其是接受放射治療的大腸直腸癌病患。目前，肛周皮膚的急性放射性皮膚炎已受到廣泛關注；然而，肛管皮膚的急性放射性皮膚損傷尚未受到足夠重視。這些病患主要抱怨肛門疼痛，嚴重影響其生活品質。Mepilex Lite敷料已被推薦用於治療急性放射性皮膚炎，且具有明確療效。然而，關於此敷料用於治療肛管皮膚急性放射性皮膚炎的研究有限，其臨床療效與安全性在此情境下仍需進一步驗證。\n\n方法與分析：本研究為評估者盲法之隨機對照試驗，旨在評估Mepilex Lite敷料合併indomethacin栓劍治療肛管皮膚急性放射性皮膚炎的療效與安全性。共274名符合條件的病患將自山東第一醫科大學第一附屬醫院腫瘤放療病房招募，並以1:1比例隨機分配至實驗組或對照組。對照組將給予30mg indomethacin栓劍直腸給藥，實驗組則在對照組措施基礎上加用Mepilex Lite敷料。5cm×5cm的敷料將經肛門插入肛管3cm，並露出2cm。主要結果指標為介入後第14天肛管皮膚急性放射性皮膚炎的治療有效率。次要結果指標為介入後第7天及第21天的治療有效率。同時，將使用數字疼痛評分表（NRS）、醫院焦慮憂鬱量表（HADS）、匹茲堡睡眠品質指數（PSQI）及皮膚病患者生活品質量表-16（Skindex-16）分別評估病患的疼痛、憂鬱與焦慮、睡眠品質及生活品質。將於基線及介入後第7、14、21天進行問卷調查。\n\n倫理與傳播：本研究方案已獲得山東第一醫科大學第一附屬醫院倫理委員會批准（批准號：YXLL-KY-2024 (162)）。研究結果將發表於同儕審查期刊，並提交摘要至國內外會議以傳播研究發現。\n\n試驗註冊號：NCT06837831。",
+   "evidence_level": "RCT",
+   "score": 2,
+   "score_reason": "此為試驗方案，尚無任何結果數據，目前僅可評估其設計合理性，對臨床實務無立即參考價值。",
+   "relevance": "中度相關",
+   "relevance_why": "雖非外科介入，但肛管放射性皮膚炎為接受放療的直腸癌病患常見困擾，屬支持性照護範疇，與大腸直腸外科臨床照護間接相關。",
+   "novelty": "仍屬早期",
+   "one_liner": "計畫在274名直腸癌放療併肛管急性放射性皮膚炎病患中，比較Mepilex Lite敷料加indomethacin栓劍與單用indomethacin栓劍，尚無結果數據。",
+   "action": "目前不需改變做法，此為試驗方案尚無療效數據，待結果發表後再評估是否納入臨床照護。",
+   "pico": {
+    "P": "274名大腸直腸癌放射治療後產生急性肛管皮膚放射性皮膚炎之病患（山東第一醫科大學第一附屬醫院）",
+    "I": "Mepilex Lite敷料（插入肛管3cm、露出2cm）合併indomethacin栓劍30mg直腸給藥",
+    "C": "單用indomethacin栓劍30mg直腸給藥",
+    "O": "主要：介入後第14天治療有效率；次要：第7、21天治療有效率、疼痛(NRS)、焦慮憂鬱(HADS)、睡眠品質(PSQI)、生活品質(Skindex-16)"
+   },
+   "effects": [],
+   "key_numbers": [
+    "計畫收案274人，1:1隨機分配至實驗組與對照組，尚無任何療效或安全性數據",
+    "主要終點為第14天治療有效率，屬主觀複合評估指標，非硬指標",
+    "已完成試驗註冊(NCT06837831)並獲倫理委員會核准，但結果尚未產出"
+   ],
+   "cautions": [
+    "本文為研究方案(study protocol)，完全沒有結果數據，無法判斷療效或安全性",
+    "僅評估者盲法(assessor-blinded)，病患與執行者未盲，主觀outcome易受偏誤影響",
+    "「治療有效率」為分級式主觀指標，非客觀硬終點，結果詮釋需謹慎"
+   ],
+   "unassessable": [
+    "實際療效結果",
+    "失訪率",
+    "ITT分析",
+    "利益衝突",
+    "成本分析",
+    "long-term follow-up結果"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-08-01T07:06:18+08:00"
+  },
+  {
+   "pmid": "42536573",
+   "title": "Association between inflammatory bowel disease and ankylosing spondylitis: Mendelian randomization of a different database and meta-analysis",
+   "journal": "Medicine (Baltimore)",
+   "journal_full": "Medicine",
+   "issn": "1536-5964",
+   "issn_linking": "0025-7974",
+   "impact_factor": 2.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1097/MD.0000000000050015",
+   "ptype": "Meta-Analysis",
+   "ptype_list": [
+    "Meta-Analysis"
+   ],
+   "authors": "Guo J, Qiao Y, Li H",
+   "abstract": "Inflammatory bowel disease (IBD) and ankylosing spondylitis (AS) are common autoimmune disorders that have a serious impact on the physical and mental health of patients. Some patients with AS also suffer from IBD, and some studies have shown that there is a link between the 2. However, the causal relationship between the 2 is not clear. This study aimed to infer a causal relationship between IBD and AS using Mendelian randomization (MR) analysis. We obtained genome-wide association study data related to IBD and AS from the Integrative Epidemiology Unit database and the Finnish database to infer the causal relationship between IBD and AS. MR analyses were performed using 3 methods, mainly inverse-variance weighting (IVW). The robustness of causal effects was ensured by multiple methods (instrumental variables were assessed using F-values, heterogeneity was detected by Cochran's Q, horizontal pleiotropy was assessed by MR-Egger regression, and outliers were detected by Mendelian Randomization Pleiotropy RESidual Sum and Outlier and leave-one-out methods). Subsequently, we selected genome-wide association studies data from 3 different databases for an independent two-sample MR analysis and a meta-analysis based on 3 independent MR estimates to assess the causal relationship between IBD and AS. There was a positive causal relationship between Crohn disease (CD) and AS with IVW results (odds ratio = 1.19, 95% confidence interval = 1.12-1.27; P <.01). There was a positive causal relationship between ulcerative colitis (UC) and AS with IVW results (odds ratio = 1.60, 95% confidence interval = 1.28-2.00; P <.01). Neither CD nor UC had an inverse causal relationship with AS. In order to verify the accuracy of the results, we performed a meta-analysis of the results obtained from the 3 MR analyses, and the results were consistent with the results we had previously obtained. CD and UC may increase the risk of AS.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42403162",
+     "date": "2026-07-06",
+     "title_zh": "血液與尿液生物標記對癌症風險之因果效應：一項孟德爾隨機化研究",
+     "score": 3,
+     "one_liner": "利用UK Biobank（N=363,228）孟德爾隨機化分析，發現尿酸、總蛋白等生物標記與大腸直腸癌風險有因果關聯（OR 0.85-0.89）。",
+     "sim": 0.184
+    },
+    {
+     "pmid": "42345499",
+     "date": "2026-06-25",
+     "title_zh": "代謝性血液生物標記與胃腸道癌症風險之孟德爾隨機化分析",
+     "score": 3,
+     "one_liner": "利用MR分析GWAS數據，發現血清尿酸與總蛋白對CRC風險呈保護性關聯（OR均為0.855），但尿酸增加胰臟癌風險（OR 1.246）。",
+     "sim": 0.17
+    },
+    {
+     "pmid": "42432892",
+     "date": "2026-07-11",
+     "title_zh": "運用雙樣本雙向孟德爾隨機化與中介分析探討免疫表現型與大腸直腸癌之因果關係",
+     "score": 3,
+     "one_liner": "利用731種基因預測免疫細胞表現型與CRC進行雙向孟德爾隨機化分析，發現5種免疫表現型與CRC風險呈負相關（OR 0.636-0.936）。",
+     "sim": 0.152
+    }
+   ],
+   "title_zh": "發炎性腸道疾病與僵直性脊椎炎之關聯：不同資料庫的孟德爾隨機化分析與統合分析",
+   "abstract_zh": "發炎性腸道疾病（IBD）與僵直性脊椎炎（AS）皆為常見的自體免疫疾病，對患者身心健康造成嚴重影響。部分AS患者同時罹患IBD，先前研究顯示兩者間存在關聯，但其因果關係尚不明確。本研究旨在利用孟德爾隨機化（MR）分析推論IBD與AS之間的因果關係。我們從Integrative Epidemiology Unit資料庫與芬蘭資料庫取得IBD與AS相關的全基因組關聯研究（GWAS）數據，以推論兩者之因果關係。MR分析採用三種方法，主要為逆變異數加權法（IVW）。因果效應的穩健性以多種方法確保：以F值評估工具變數、以Cochran's Q檢測異質性、以MR-Egger迴歸評估水平多效性、並以MR-PRESSO及leave-one-out法偵測離群值。隨後，我們從三個不同資料庫選取GWAS數據，進行獨立的雙樣本MR分析，並基於三個獨立MR估計值進行統合分析，以評估IBD與AS之因果關係。IVW結果顯示，克隆氏症（CD）與AS存在正向因果關係（勝算比=1.19，95%信賴區間=1.12-1.27；P<.01）。潰瘍性結腸炎（UC）與AS亦存在正向因果關係（勝算比=1.60，95%信賴區間=1.28-2.00；P<.01）。CD與UC皆未與AS呈現反向因果關係。為驗證結果準確性，我們對三次MR分析結果進行統合分析，結果與先前所得一致。CD與UC可能增加AS的發生風險。",
+   "evidence_level": "統合分析",
+   "score": 2,
+   "score_reason": "純基因流行病學研究，僅提供IBD與AS之間的統計因果推論，對大腸直腸外科臨床決策無直接可操作性。",
+   "relevance": "低度相關",
+   "relevance_why": "為孟德爾隨機化基因關聯研究，非外科介入或臨床處置研究，不影響IBD病人的手術或藥物治療決策。",
+   "novelty": "仍屬早期",
+   "one_liner": "利用MR分析多個GWAS資料庫，發現CD（OR 1.19）與UC（OR 1.60）皆與AS風險增加有因果關聯。",
+   "action": "目前不需改變做法；此為基因流行病學關聯研究，不影響IBD病人的外科追蹤或轉診風濕科的臨床路徑。",
+   "pico": {
+    "P": "IBD（CD、UC）與AS相關GWAS族群，資料取自IEU及芬蘭等三個不同資料庫",
+    "I": "以CD或UC作為暴露（基因工具變數）",
+    "C": "AS作為結果變數，並檢測反向因果關係",
+    "O": "主要outcome：CD/UC與AS之因果OR值；次要：異質性、多效性、離群值穩健性檢測"
+   },
+   "effects": [],
+   "key_numbers": [
+    "CD與AS因果OR=1.19（95% CI 1.12-1.27，P<.01），僅為相對風險，無絕對發生率資訊",
+    "UC與AS因果OR=1.60（95% CI 1.28-2.00，P<.01），同樣缺乏絕對風險數據",
+    "CD、UC對AS皆未偵測到反向因果關係（方向性一致）"
+   ],
+   "cautions": [
+    "MR結果僅為統計因果推論，非臨床試驗，無法直接轉換為病人個別風險或治療建議",
+    "僅報告OR與95%CI，無任何絕對發生率或NNT，臨床意義難以評估",
+    "基因工具變數之族群（歐洲人為主的GWAS）與台灣病人基因背景可能不同，外推性有限"
+   ],
+   "unassessable": [
+    "工具變數強度F值實際數值",
+    "異質性與多效性檢測之具體結果",
+    "研究族群種族組成",
+    "利益衝突",
+    "資料重疊或選樣偏誤"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "先前看過的三篇皆為CRC風險相關的孟德爾隨機化研究（生物標記、免疫表現型），與本篇探討IBD-AS因果關係的主題不同，無直接關聯。",
+   "added_at": "2026-08-01T07:06:18+08:00"
+  },
+  {
+   "pmid": "42535303",
+   "title": "User perceptions of machine learning models as decision support for colorectal cancer multidisciplinary team conferences (AID-SIM-2): a qualitative simulation study",
+   "journal": "Acta Oncol",
+   "journal_full": "Acta oncologica (Stockholm, Sweden)",
+   "issn": "1651-226X",
+   "issn_linking": "0284-186X",
+   "impact_factor": 2.7,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.2340/1651-226X.2026.45754",
+   "ptype": "Multicenter Study",
+   "ptype_list": [
+    "Multicenter Study"
+   ],
+   "authors": "Bendix Bräuner K, Bruun B, Bertelsen C, Johansen Dagenborg V, Safir-Hansen K, Sanko R",
+   "abstract": "BACKGROUND: Multidisciplinary team (MDT) conferences are considered a cornerstone of decision-making in cancer diagnostics and care. However, the current literature has not demonstrated improved patient outcomes based on the decisions of the MDT conferences.\nAIM: We aimed to evaluate how four different decision-support modalities impacted the decision-making process and the internal discussions in the MDTs in a multicenter simulation study, with a focus on user perceptions.\nMETHODS: Four colorectal cancer centers with MDTs participated. We performed four simulations in each center. Each simulation used a different decision-support tool: (1) Current standard, (2) Current standard plus a prediction model, (3) A structured data presentation tool, and (4) A structured data presentation tool plus the prediction model. Clinician- and model-estimated risks were compared, the treatment suggestions from each site were compared, questionnaires about user perceptions were conducted after Simulations 2, 3, and 4 using a Google Form link, and a semi-structured interview was conducted at each site after the last simulation.\nRESULTS: Similar distributions of risk groups between clinicians and models were found; however, distinct discrepancies in predictions arose, particularly with higher-risk patients, highlighting the need for standardization for more complex clinical cases. The primary perceived benefit of decision support was increased standardization of care, independent of the individual physicians' personal views. However, participants emphasized the necessity of clinician autonomy to overrule tool suggestions when identifying clinical nuances not captured by the model.\nCONCLUSIONS: The colorectal cancer MDTs expressed a positive view regarding the use of prediction models and other forms of decision-support in their workflow. While clinicians and prediction models had similar risk score distributions, they diverged in the assessment of specific individual patients.",
+   "watched": [],
+   "related": [],
+   "title_zh": "使用者對機器學習模型作為大腸直腸癌多學科團隊會議決策支援工具之觀感（AID-SIM-2）：一項質性模擬研究",
+   "abstract_zh": "背景：多學科團隊（MDT）會議被視為癌症診斷與照護決策的重要基石。然而，現有文獻尚未證實 MDT 會議的決策能改善病人預後。\n目的：本研究旨在評估四種不同決策支援模式如何影響 MDT 的決策過程與內部討論，透過多中心模擬研究，聚焦於使用者觀感。\n方法：四個具有 MDT 的大腸直腸癌中心參與本研究，每個中心進行四次模擬。每次模擬使用不同的決策支援工具：(1) 現行標準做法、(2) 現行標準做法加上預測模型、(3) 結構化資料呈現工具、(4) 結構化資料呈現工具加上預測模型。比較臨床醫師與模型估計的風險，比較各中心的治療建議，於模擬 2、3、4 後以 Google 表單連結進行使用者觀感問卷調查，並於各中心最後一次模擬後進行半結構化訪談。\n結果：臨床醫師與模型間的風險族群分布相似；然而在預測上出現明顯差異，特別是在較高風險的病人上，顯示複雜臨床案例需要標準化。決策支援被認為最主要的益處是提升照護標準化，不受個別醫師個人觀點影響。然而，參與者強調臨床醫師自主性的必要性，以在辨識出模型未能捕捉的臨床細微差異時，可推翻工具的建議。\n結論：大腸直腸癌 MDT 對於在其工作流程中使用預測模型及其他形式的決策支援表達正向看法。雖然臨床醫師與預測模型有相似的風險評分分布，但在評估特定個別病人時仍有分歧。",
+   "evidence_level": "其他",
+   "score": 3,
+   "score_reason": "此為質性模擬研究，無病人真實預後資料，樣本量小（4中心），對臨床決策改變的直接實用性低，屬於探索性、假說生成階段。",
+   "relevance": "中度相關",
+   "relevance_why": "涉及MDT決策流程與AI輔助工具，與臨床工作流程相關，但屬早期探索性研究，非直接影響治療決策的證據。",
+   "novelty": "仍屬早期",
+   "one_liner": "在4個大腸直腸癌中心的MDT模擬中，比較4種決策支援模式，發現臨床醫師與模型風險評估在高風險病人上有明顯分歧。",
+   "action": "目前不需改變做法；此為質性探索研究，無病人預後或治療決策改變的實證支持，僅供了解AI決策支援工具接受度趨勢。",
+   "pico": {
+    "P": "4個大腸直腸癌中心的MDT團隊，每中心進行4次模擬（總計16次模擬會議）",
+    "I": "4種決策支援模式：現行標準/現行標準+預測模型/結構化資料呈現工具/結構化資料呈現工具+預測模型",
+    "C": "各模式間互相比較（無傳統對照組）",
+    "O": "主要：臨床醫師與模型風險評估之一致性、使用者觀感（問卷、訪談）；次要：治療建議之一致性"
+   },
+   "effects": [],
+   "key_numbers": [
+    "無具體事件數或百分比數據可供抽取，摘要僅描述「相似分布」與「明顯差異」，未提供絕對數字",
+    "無統計檢定p值或信賴區間報告",
+    "本質為質性觀感研究，非量化療效比較"
+   ],
+   "cautions": [
+    "此為模擬研究非真實臨床決策，結果外推至實際MDT運作有限制",
+    "『使用者觀感正向』屬主觀報告，未評估是否真正改善病人預後或決策品質",
+    "樣本僅4中心16次模擬，樣本量極小，結論一般化程度低"
+   ],
+   "unassessable": [
+    "盲法（質性研究性質上不適用）",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "統計檢定方法與顯著性"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-08-01T07:06:18+08:00"
+  },
+  {
+   "pmid": "42530724",
+   "title": "Four-Year Survival Outcomes of Personalized Total Neoadjuvant Therapy Versus Chemotherapy During the 'Wait Period' Versus Standard Chemoradiotherapy for Locally Advanced Rectal Cancer",
+   "journal": "J Gastrointest Cancer",
+   "journal_full": "Journal of gastrointestinal cancer",
+   "issn": "1941-6636",
+   "issn_linking": "",
+   "impact_factor": 2.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1002/cam4.70291",
+   "ptype": "Multicenter Study, Comparative Study",
+   "ptype_list": [
+    "Multicenter Study",
+    "Comparative Study"
+   ],
+   "authors": "Bedrikovetski S, Bunjo Z, Murshed I, Moore J, Sammour T",
+   "abstract": "PURPOSE: Total Neoadjuvant Therapy (TNT) is increasingly replacing standard chemoradiotherapy (sCRT) for the treatment of locally advanced rectal cancer (LARC). Data on the use of personalized TNT (pTNT) regimens tailored to patient disease characteristics remain scarce. Accordingly, this study aimed to assess long-term outcomes of pTNT in patients with LARC.\nMETHODS: This was a secondary analysis of a multicentre retrospective cohort study. Patients treated with pTNT between 2019 and 2022 were compared to a historical cohort from the WAIT trial (2012-2014), which included extended chemotherapy during the interval period (xCRT) or sCRT followed by adjuvant chemotherapy. The main outcomes were 4-year disease-free survival (DFS) and overall survival (OS).\nRESULTS: Forty patients treated with pTNT were matched with 49 patients from the WAIT trial (25 xCRT, 24 sCRT). All WAIT trial patients underwent surgery, whereas 27 (67.5%) pTNT patients underwent surgery and 13 (32.5%) were managed non-operatively. Median follow-up was 48 months. No significant differences were observed in 4-year DFS (pTNT 70% vs. xCRT 68% vs. sCRT 75%, P = 0.764) or OS (pTNT 82.5% vs. xCRT 80% vs. sCRT 83.3%, P = 0.907). Within the pTNT group, patients with an oCR had significantly higher OS compared to those without oCR (95.2% vs. 68.4%, P = 0.021).\nCONCLUSION: Our findings suggest that pTNT achieves comparable survival outcomes to xCRT and sCRT in patients with LARC, despite higher rates of non-operative management. These findings should be interpreted cautiously given the exploratory nature of the analysis and limited sample size. Larger studies with longer follow-up are required to validate these early data.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42501213",
+     "date": "2026-07-27",
+     "title_zh": "在放射治療資源受限地區，全程新輔助治療（TNT）優先化療可提升局部進展期直腸癌之病理完全緩解率（pCR）：一項隨機對照試驗",
+     "score": 5,
+     "one_liner": "在202名LARC患者中，比較TNT（化療優先）與傳統NCRT優先治療，TNT組pCR率55.4% vs 42.57%（p=0.023）。",
+     "sim": 0.255
+    },
+    {
+     "pmid": "42506362",
+     "date": "2026-07-28",
+     "title_zh": "全直腸新輔助治療（TNT）與長療程放化療（LCRT）於局部進行性直腸癌之比較：真實世界腫瘤反應與臨床結局",
+     "score": 3,
+     "one_liner": "在110名LARC病人中，比較TNT與LCRT，pCR（18.5% vs 9.7%）與cCR（15.6% vs 6.4%）均無統計顯著差異（p=0.301、0.151）。",
+     "sim": 0.222
+    },
+    {
+     "pmid": "42506362",
+     "date": "2026-07-29",
+     "title_zh": "局部進展期直腸癌之全程新輔助治療（TNT）與傳統長程放化療（LCCRT）比較：真實世界腫瘤反應與臨床結果",
+     "score": 3,
+     "one_liner": "在110名LARC病人中，比較TNT與LCCRT，pCR（18.5% vs 9.7%，p=0.301）與cCR（15.6% vs 6.4%，p=0.151）均未達統計顯著差異。",
+     "sim": 0.222
+    }
+   ],
+   "title_zh": "個人化全程新輔助治療（pTNT）與等待期化療（WAIT試驗）及標準放化療於局部進展期直腸癌之四年存活結果比較",
+   "abstract_zh": "目的：全程新輔助治療（TNT）正逐漸取代標準放化療（sCRT）作為局部進展期直腸癌（LARC）的治療方式。針對根據病人疾病特徵量身訂做的個人化TNT（pTNT）方案，其相關資料仍然稀少。因此，本研究旨在評估LARC病人接受pTNT之長期預後。方法：本研究為一項多中心回溯性世代研究之二次分析。將2019年至2022年間接受pTNT治療的病人，與來自WAIT試驗（2012-2014年）的歷史世代進行比較，該歷史世代包含在等待間隔期接受延長化療（xCRT）或標準放化療後接受輔助化療（sCRT）之病人。主要結果為4年無病存活率（DFS）與整體存活率（OS）。結果：40名接受pTNT治療的病人與49名WAIT試驗病人（25名xCRT、24名sCRT）進行配對。所有WAIT試驗病人皆接受手術，而pTNT組中27名（67.5%）接受手術、13名（32.5%）採非手術方式追蹤管理。中位追蹤時間為48個月。4年DFS方面未觀察到顯著差異（pTNT 70% vs. xCRT 68% vs. sCRT 75%，P=0.764），4年OS方面亦無顯著差異（pTNT 82.5% vs. xCRT 80% vs. sCRT 83.3%，P=0.907）。在pTNT組內，達到臨床器官完全緩解（oCR）的病人，其OS顯著高於未達oCR者（95.2% vs. 68.4%，P=0.021）。結論：本研究結果顯示，儘管pTNT組非手術管理比例較高，其存活結果與xCRT及sCRT相當。由於本分析屬探索性質且樣本數有限，這些結果應謹慎解讀。仍需更大規模、更長追蹤時間的研究來驗證這些早期資料。",
+   "evidence_level": "回溯性研究",
+   "score": 3,
+   "score_reason": "小型回溯性研究、以不同年代的歷史世代作對照組，混雜因素多，且oCR次族群分析為探索性，結論僅能生成假說。",
+   "relevance": "高度相關",
+   "relevance_why": "TNT策略與器官保留（非手術管理）是LARC治療的核心議題，直接影響大腸直腸外科日常決策。",
+   "novelty": "仍屬早期",
+   "one_liner": "在40名pTNT與49名WAIT試驗歷史對照（xCRT/sCRT）LARC病人中，4年DFS與OS均無顯著差異（p=0.764、0.907）。",
+   "action": "目前不需改變做法；此為小型回溯性歷史對照研究，僅供假說生成，需等待前瞻性大型試驗驗證pTNT長期存活效益。",
+   "pico": {
+    "P": "LARC病人共89人：pTNT組40人（2019-2022），WAIT試驗歷史對照49人（xCRT 25人、sCRT 24人，2012-2014）",
+    "I": "個人化全程新輔助治療（pTNT）",
+    "C": "WAIT試驗歷史世代：等待期延長化療（xCRT）或標準放化療後輔助化療（sCRT）",
+    "O": "主要：4年無病存活率（DFS）、整體存活率（OS）；次要：pTNT組內oCR vs 非oCR之OS"
+   },
+   "effects": [
+    {
+     "outcome": "4年無病存活率(DFS)",
+     "ok": true,
+     "i_label": "pTNT",
+     "c_label": "sCRT",
+     "i_rate": 70.0,
+     "c_rate": 75.0,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 5.0,
+     "benefit": false,
+     "event_bad": false,
+     "nnt": 20,
+     "kind": "NNH",
+     "note": ""
+    },
+    {
+     "outcome": "4年整體存活率(OS)",
+     "ok": true,
+     "i_label": "pTNT",
+     "c_label": "sCRT",
+     "i_rate": 82.5,
+     "c_rate": 83.3,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 0.8,
+     "benefit": false,
+     "event_bad": false,
+     "nnt": 125,
+     "kind": "NNH",
+     "note": ""
+    }
+   ],
+   "key_numbers": [
+    "4年DFS：pTNT 70% vs xCRT 68% vs sCRT 75%，無統計差異(p=0.764)",
+    "4年OS：pTNT 82.5% vs xCRT 80% vs sCRT 83.3%，無統計差異(p=0.907)",
+    "pTNT組內oCR者OS顯著較高：95.2% vs 68.4%(p=0.021)，屬探索性次族群分析"
+   ],
+   "cautions": [
+    "歷史對照組（2012-2014）與pTNT組（2019-2022）時間跨度大，分期工具、手術技術、輔助治療可能不同，混雜因素難以排除",
+    "oCR次族群分析為探索性、樣本更小，易受選擇偏誤與多重比較影響，因果解讀需極度謹慎",
+    "樣本數小（40 vs 49，三組更細分後更小），僅報告p值未附信賴區間，統計檢定力可能不足"
+   ],
+   "unassessable": [
+    "隨機分派方式",
+    "盲法",
+    "ITT分析",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "兩世代基準分期與影像評估是否可比"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "先前看過的三篇皆聚焦TNT對pCR/cCR的短期反應率，此篇則將視角延伸至4年DFS/OS長期存活與器官保留（非手術管理）結果。但此篇採用歷史對照世代設計，證據等級低於先前RCT（第1篇），結果解讀應更謹慎。",
+   "added_at": "2026-08-01T07:06:18+08:00"
+  },
+  {
+   "pmid": "42536273",
+   "title": "The link between microplastics and colorectal cancer",
+   "journal": "Cancer Metastasis Rev",
+   "journal_full": "Cancer metastasis reviews",
+   "issn": "1573-7233",
+   "issn_linking": "0167-7659",
+   "impact_factor": 12.7,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1038/s41591-024-03453-1",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Lynch-Godrei A, Leung C",
+   "abstract": "Microplastics and nanoplastics (MNPLs) are known to enter the human body and accumulate within different tissues. As MNPLs have been shown to exert toxic effects in vivo, we aimed to evaluate the link between MNPLs and colorectal cancer tumorigenesis. A literature review was conducted, using Ovid MEDLINE and PubMed databases. MeSH terms \"colorectal carcinoma\" and \"microplastic\" were the foundations for the search strategy. Forty-one studies were initially identified, of which fourteen were ultimately selected for analysis. MNPLs are found within human colorectal tumors and are present at higher levels in the feces of colorectal cancer patients. The tissue sample studies however are limited by small sample sizes (n = 10 or 25), and are representative of mainly Chinese populations (five of the six human studies conducted in China). The mouse studies observed increased tumor loads and dysbiosis in mice exposed to MNPLs, and the in vitro studies observed increased reactive oxygen species (ROS) when cells were exposed to MNPLs in culture. Although the direct link between MNPLs and de novo development of colorectal cancer remains to be elucidated, these findings suggest that MNPLs can induce the molecular changes involved in tumorigenesis, and tumorigenesis itself when combined with a compromised gastrointestinal barrier. Given that barrier disruption occurs with inflammatory bowel disease, smoking, alcohol, stress, and infections, these populations may be most vulnerable to the effects of MNPLs.",
+   "watched": [],
+   "related": [],
+   "title_zh": "微塑膠與大腸直腸癌之關聯",
+   "abstract_zh": "微塑膠與奈米塑膠（MNPLs）已知會進入人體並累積於不同組織中。由於MNPLs已被證實在體內具有毒性作用，本研究旨在評估MNPLs與大腸直腸癌腫瘤發生之關聯。研究使用Ovid MEDLINE與PubMed資料庫進行文獻回顧，以「大腸直腸癌」與「微塑膠」為MeSH詞彙建立檢索策略。初步找出41篇研究，最終選出14篇進行分析。研究發現MNPLs存在於人類大腸直腸腫瘤中，且在大腸直腸癌患者糞便中濃度較高。然而組織樣本研究受限於樣本數過小（n=10或25），且主要代表中國族群（六項人體研究中有五項在中國進行）。小鼠研究觀察到暴露於MNPLs的小鼠有腫瘤負荷增加及菌叢失衡現象，體外研究則觀察到細胞在培養中暴露於MNPLs時活性氧（ROS）增加。雖然MNPLs與大腸直腸癌從頭發生之間的直接關聯仍待闡明，這些發現顯示MNPLs可誘發參與腫瘤發生的分子變化，並在合併腸道屏障受損時可能誘發腫瘤發生本身。鑑於發炎性腸道疾病、吸菸、飲酒、壓力與感染皆會造成屏障受損，這些族群可能最容易受到MNPLs的影響。",
+   "evidence_level": "綜述",
+   "score": 3,
+   "score_reason": "屬機轉導向文獻回顧，人體證據薄弱（樣本數極小、族群侷限），對臨床決策無直接影響，僅供病因學參考。",
+   "relevance": "低度相關",
+   "relevance_why": "純基礎/機轉研究與流行病學觀察，非外科介入，摘要本身承認因果關係未證實。",
+   "novelty": "仍屬早期",
+   "one_liner": "回顧14篇研究，發現大腸直腸腫瘤組織與癌友糞便中微塑膠濃度較高，動物與體外實驗顯示致癌相關機轉，惟人類因果性未確立。",
+   "action": "目前不需改變做法；此為機轉假說階段，無可直接應用於病人篩檢或治療的臨床證據。",
+   "pico": {
+    "P": "14篇研究（含6篇人體組織/糞便研究、動物實驗、體外實驗）",
+    "I": "微塑膠／奈米塑膠暴露",
+    "C": "無對照組（回顧性文獻整合，非單一比較研究）",
+    "O": "腫瘤組織/糞便中微塑膠濃度、腫瘤負荷、菌叢失衡、活性氧（ROS）增加"
+   },
+   "effects": [],
+   "key_numbers": [
+    "初步篩選41篇文獻，最終納入14篇進行分析",
+    "人體組織研究樣本數極小（僅n=10或25）",
+    "6項人體研究中有5項來自中國，族群代表性有限"
+   ],
+   "cautions": [
+    "屬相關性觀察，摘要明確指出直接因果關係尚未證實，勿過度推論為致病機轉",
+    "人體研究樣本數極小且集中於中國族群，外推至台灣族群證據力不足",
+    "動物與體外實驗結果無法直接等同於人類臨床致癌風險"
+   ],
+   "unassessable": [
+    "微塑膠暴露劑量與測量方法",
+    "各納入研究的統計方法與異質性",
+    "利益衝突與資金來源",
+    "納入研究品質評估（如偏誤風險）"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-08-01T07:06:18+08:00"
+  },
+  {
+   "pmid": "42533401",
+   "title": "Beyond Sequence: Posttranslational Remodeling of Antigens in Autoimmunity",
+   "journal": "Immunol Rev",
+   "journal_full": "Immunological reviews",
+   "issn": "1600-065X",
+   "issn_linking": "0105-2896",
+   "impact_factor": 10.6,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1111/imr.70150",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Shrestha C, Weisfelder H, Do T",
+   "abstract": "Autoimmune responses are often attributed to failed tolerance to self-proteins, yet protein expression alone cannot explain why certain antigens dominate disease, why autoreactivity emerges under stress, or why specific HLA alleles shape risk. This review presents a framework in which autoimmunity arises from posttranslational remodeling of antigen identity. Rather than limiting PTMs to side chain chemistry, we consider how covalent modifications, altered processing, aberrant translation, peptide recombination, and supramolecular assembly expand the repertoire of molecular forms available for immune recognition. Classical PTMs such as citrullination, deamidation, oxidation, glycosylation, phosphorylation, sulfation, and ubiquitin-like remnants can modify proteolysis, HLA binding, and antibody recognition. Noncanonical pathways, including signal peptide processing, ERAP-dependent trimming, defective ribosomal products, cryptic ORFs, proteasome-catalyzed splicing, and hybrid insulin peptides, further demonstrate that the presented antigenome extends beyond annotated proteins. We also propose that aggregation functions as a supramolecular antigenic modification by altering uptake, persistence, protease accessibility, and local reaction chemistry. Examples from rheumatoid arthritis, celiac disease, type 1 diabetes, multiple sclerosis, systemic lupus erythematosus, inflammatory bowel disease, and autoimmune thyroid disease illustrate how these mechanisms converge. Finally, we discuss mass spectrometry and immunopeptidomics strategies for identifying, validating, and functionally interpreting remodeled antigens in autoimmune disease.",
+   "watched": [],
+   "related": [],
+   "title_zh": "超越序列：自體免疫疾病中抗原的轉譯後重塑",
+   "abstract_zh": "自體免疫反應常被歸因於對自身蛋白質耐受性的失敗，但單憑蛋白質表現無法解釋為何特定抗原主導疾病、為何自體反應性在壓力下出現、或為何特定 HLA 等位基因會影響疾病風險。本篇綜述提出一個框架，認為自體免疫源自抗原身分的轉譯後重塑。我們不將轉譯後修飾（PTM）局限於側鏈化學變化，而是探討共價修飾、處理過程改變、異常轉譯、胜肽重組、以及超分子組裝如何擴大可供免疫辨識的分子形式庫。典型的 PTM，如瓜胺酸化（citrullination）、脫醯胺化（deamidation）、氧化、醣化、磷酸化、硫酸化、以及類泛素殘基，可改變蛋白質水解、HLA 結合及抗體辨識。非典型途徑，包括訊號胜肽處理、ERAP 依賴性修剪、缺陷核糖體產物、隱藏開放閱讀框（cryptic ORFs）、蛋白酶體催化的胜肽拼接、以及混合胰島素胜肽，進一步顯示被呈現的抗原體超越了已註解的蛋白質範疇。我們也提出聚集（aggregation）可作為一種超分子抗原修飾，透過改變攝取、持續性、蛋白酶可接近性及局部反應化學而發揮作用。來自類風濕性關節炎、乳糜瀉、第一型糖尿病、多發性硬化症、系統性紅斑狼瘡、發炎性腸道疾病及自體免疫甲狀腺疾病的例子，說明這些機制如何交會作用。最後，我們討論質譜與免疫肽體學（immunopeptidomics）策略，用於辨識、驗證及功能性解讀自體免疫疾病中被重塑的抗原。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純機制性免疫學綜述，無臨床試驗或手術相關數據，對大腸直腸外科臨床決策幾乎無直接實用性。",
+   "relevance": "低度相關",
+   "relevance_why": "此為基礎免疫學機制回顧，雖提及IBD但非外科介入研究，與大腸直腸外科臨床實務關聯極低。",
+   "novelty": "仍屬早期",
+   "one_liner": "本篇綜述整合PTM、非典型轉譯及蛋白聚集等機制，提出自體免疫抗原重塑的概念框架，涵蓋IBD等多種疾病。",
+   "action": "目前不需改變做法；此為基礎免疫學機制綜述，未提供可直接應用於臨床或手術決策的證據。",
+   "pico": {
+    "P": "無特定病人族群；為跨自體免疫疾病（含IBD）之機制性文獻回顧",
+    "I": "轉譯後抗原修飾機制（PTM、非典型轉譯途徑、蛋白聚集）之概念性分析",
+    "C": "無對照組",
+    "O": "無明確臨床outcome；聚焦於抗原辨識機制與質譜/免疫肽體學分析方法"
+   },
+   "effects": [],
+   "key_numbers": [
+    "此為機制性綜述，未提供臨床試驗之絕對風險或事件數據",
+    "涵蓋7種自體免疫疾病（含IBD），但無量化比較數據",
+    "無統計數字可供ARR/NNT換算"
+   ],
+   "cautions": [
+    "純綜述性質，無原始臨床或實驗數據支持，內容多屬機制假說而非已證實因果關係",
+    "將多種疾病機制（RA、IBD、T1D等）統整為單一框架，可能過度概化不同疾病之異質性",
+    "與大腸直腸外科臨床決策間接關聯，僅IBD部分可能有潛在延伸價值但摘要未具體說明"
+   ],
+   "unassessable": [
+    "樣本數",
+    "研究設計細節",
+    "統計方法",
+    "臨床試驗相關指標（盲法、ITT、失訪率等）皆不適用，因非臨床研究",
+    "利益衝突"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。",
+   "added_at": "2026-08-01T07:06:18+08:00"
+  },
+  {
+   "pmid": "42527030",
+   "title": "IL-27 shapes NK cell heterogeneity and function in colorectal cancer",
+   "journal": "J Immunother Cancer",
+   "journal_full": "Journal for immunotherapy of cancer",
+   "issn": "2051-1426",
+   "issn_linking": "2051-1426",
+   "impact_factor": 11.7,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.4049/immunohorizons.1700054",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Lucantonio L, Kosta A, Schiano L, Sozio F, Ruggeri S, Peruzzi G",
+   "abstract": "BACKGROUND: Colorectal cancer (CRC) is a leading cause of cancer-related mortality worldwide and is characterized by an immunosuppressive tumor microenvironment (TME). While adaptive immunity contributes to tumor control, growing evidence underscores the role of innate lymphocytes, particularly natural killer (NK) cells, in early antitumor surveillance. However, tumor-infiltrating NK cells often exhibit defective maturation and impaired effector functions, whereas the signals regulating NK cell differentiation and activity in CRC remain poorly defined. Interleukin-27 (IL-27) has emerged as a regulator of antitumor immunity, yet its role in modulating NK cell responses in intestinal tumors is largely unexplored.\nMETHODS: We employed an orthotopic transplantation model of genetically engineered colorectal tumor organoids Apc-/-KrasG12D/+Trp53R172H/-Smad4-/- (AKPS) to investigate NK cell heterogeneity, maturation, and function during CRC progression. Tumor-infiltrating innate lymphocytes were analyzed using single-cell RNA sequencing, flow cytometry, immunofluorescence, and functional assays. In vitro co-culture systems and in vivo IL-27 blockade were used to assess the impact of tumor-derived IL-27 on NK cell transcriptional programs and effector activity.\nRESULTS: Single-cell transcriptomic profiling revealed marked heterogeneity among tumor-infiltrating NK cells, identifying subsets with different maturation states and functional capacities. Among innate lymphocytes, AKPS tumors were dominated by NK cells displaying reduced activating receptors and diminished cytotoxic and cytokine-producing potential. Phenotypic and adoptive transfer analyses demonstrated that the TME favors persistence of immature CD27+ NK cell subsets while limiting differentiated NK cells. Mechanistically, tumor-derived IL-27 emerged as a critical regulator sustaining NK cell infiltration and activation; IL-27 blockade reduced NK cell accumulation, interferon-γ production, and immature subset frequency. The clinical relevance of these findings was supported by analysis of human CRC single-cell datasets, which revealed elevated IL-27 signaling in intratumoral NK cells, as well as by the ability of patient-derived organoids to enhance NK-cell cytotoxicity, which was reduced by IL-27 blockade.\nCONCLUSIONS: Our study identifies IL-27 as a critical modulator of NK cell differentiation and function in CRC, highlighting its role in sustaining NK cell-mediated immune surveillance within the tumor microenvironment. These findings provide mechanistic insight into NK cell dysfunction in CRC and suggest IL-27 signaling as a promising therapeutic target to restore innate antitumor immunity.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42331382",
+     "date": "2026-06-22",
+     "title_zh": "CD8 T細胞分泌IL-10協調抗VEGFR-2/PD-1治療後NK細胞早期募集與抗腫瘤免疫",
+     "score": 2,
+     "one_liner": "在大腸直腸癌小鼠模型中，探討VEGFR-2/PD-1雙阻斷療法機轉，發現CD8 T細胞分泌IL-10為驅動NK細胞募集、達成抗腫瘤效果的關鍵中介機轉。",
+     "sim": 0.263
+    },
+    {
+     "pmid": "42433376",
+     "date": "2026-07-11",
+     "title_zh": "IL21主要由CXCL13相關CD4+ T細胞亞群產生並形塑大腸直腸癌免疫微環境",
+     "score": 2,
+     "one_liner": "利用單細胞定序、組織染色與小鼠模型，發現大腸直腸癌中CXCL13+CD4+T細胞為IL21主要來源，並影響腫瘤免疫微環境相關基因表現。",
+     "sim": 0.202
+    },
+    {
+     "pmid": "42393838",
+     "date": "2026-07-03",
+     "title_zh": "人類大腸直腸癌中DP8α調節性T細胞的腫瘤內富集與抑制活性",
+     "score": 3,
+     "one_liner": "在CRC病人腫瘤與配對正常黏膜中，比較DP8α Treg族群，發現其於腫瘤內顯著富集且具CD39/CD73依賴之T細胞抑制活性。",
+     "sim": 0.192
+    }
+   ],
+   "title_zh": "IL-27如何塑造大腸直腸癌中NK細胞的異質性與功能",
+   "abstract_zh": "背景：大腸直腸癌（CRC）是全球癌症相關死亡的主要原因，其特徵為免疫抑制性腫瘤微環境（TME）。雖然適應性免疫參與腫瘤控制，越來越多證據強調先天性淋巴細胞，特別是自然殺手（NK）細胞，在早期抗腫瘤監視中的作用。然而，腫瘤浸潤性NK細胞常表現出成熟缺陷與效應功能受損，而調控CRC中NK細胞分化與活性的訊號仍所知有限。介白素-27（IL-27）已被視為抗腫瘤免疫的調節因子，但其在調控腸道腫瘤NK細胞反應中的角色仍大多未被探討。\n\n方法：我們利用基因工程大腸腫瘤類器官（Apc-/-KrasG12D/+Trp53R172H/-Smad4-/-，AKPS）之原位移植模型，探討CRC進展過程中NK細胞的異質性、成熟與功能。使用單細胞RNA定序、流式細胞術、免疫螢光及功能性分析檢測腫瘤浸潤性先天性淋巴細胞。並利用體外共培養系統及體內IL-27阻斷，評估腫瘤來源IL-27對NK細胞轉錄程序及效應活性的影響。\n\n結果：單細胞轉錄體分析揭示腫瘤浸潤性NK細胞間存在顯著異質性，可辨識出成熟狀態與功能能力不同的亞群。在先天性淋巴細胞中，AKPS腫瘤主要由活化受體降低、細胞毒性及細胞激素產生潛能降低的NK細胞主導。表型分析及過繼轉移分析顯示，TME促使未成熟CD27+ NK細胞亞群持續存在，同時限制分化NK細胞的產生。機轉上，腫瘤來源IL-27被證實是維持NK細胞浸潤與活化的關鍵調節因子；IL-27阻斷降低了NK細胞累積、干擾素-γ產生及未成熟亞群比例。人類CRC單細胞資料集分析顯示腫瘤內NK細胞中IL-27訊號傳導升高，支持這些發現的臨床相關性；病人來源類器官能增強NK細胞的細胞毒性，而此效果會被IL-27阻斷所降低。\n\n結論：本研究確認IL-27是CRC中調控NK細胞分化與功能的關鍵因子，突顯其在維持腫瘤微環境內NK細胞介導免疫監視中的角色。這些發現提供了CRC中NK細胞功能失調的機轉洞見，並提示IL-27訊號傳導是恢復先天性抗腫瘤免疫的潛在治療靶點。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "純基礎轉譜/機轉研究（小鼠模型為主，輔以人類單細胞資料分析），無臨床試驗數據，對台灣大腸直腸外科臨床決策目前無直接實用性。",
+   "relevance": "低度相關",
+   "relevance_why": "此為NK細胞與IL-27訊號的基礎免疫機轉研究，非外科介入或臨床治療研究。",
+   "novelty": "仍屬早期",
+   "one_liner": "在CRC小鼠腫瘤模型與人類單細胞資料中，比較IL-27阻斷與否，發現IL-27維持腫瘤內NK細胞浸潤、IFN-γ產生及未成熟亞群比例。",
+   "action": "目前不需改變做法；此為機轉層級基礎研究，尚無臨床試驗或治療數據可供臨床應用。",
+   "pico": {
+    "P": "AKPS基因工程大腸腫瘤類器官原位移植小鼠模型；輔以人類CRC單細胞資料集及病人衍生類器官（人數未載明）",
+    "I": "體內/體外IL-27阻斷",
+    "C": "未阻斷IL-27之對照組",
+    "O": "主要：NK細胞浸潤、成熟分化狀態、干擾素-γ產生、細胞毒性；次要：人類單細胞資料中NK細胞IL-27訊號傳導程度"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供絕對數值（發生率、細胞百分比等），僅描述方向性趨勢（如「降低」、「升高」）",
+    "IL-27阻斷降低NK細胞累積、IFN-γ產生及未成熟CD27+亞群頻率，但無具體百分比數字",
+    "病人來源類器官可增強NK細胞細胞毒性，IL-27阻斷則降低此效果，同樣無量化數據"
+   ],
+   "cautions": [
+    "全為小鼠腫瘤模型與體外共培養結果，人類臨床相關性僅靠單細胞資料集關聯分析支持，非因果驗證",
+    "摘要未提供任何量化數值（%、細胞數、p值或信賴區間），無法判斷效應大小與統計顯著性",
+    "「人類CRC單細胞資料集顯示IL-27訊號升高」為相關性觀察，作者將其詮釋為支持機轉發現的臨床意義，可能過度推論"
+   ],
+   "unassessable": [
+    "盲法",
+    "allocation concealment",
+    "ITT",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本分析（本研究為基礎科學研究，非臨床試驗，上述項目多不適用）"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "先前看過的論文皆聚焦於CD8/CD4 T細胞或Treg如何塑造CRC免疫微環境（IL-10、IL21、DP8α Treg），本篇則將焦點轉向先天性免疫的NK細胞，並提出IL-27為其分化與功能之關鍵調節因子，屬同一研究主題（CRC腫瘤免疫微環境機轉）下不同免疫細胞族群的延伸探討。",
+   "added_at": "2026-08-01T07:06:18+08:00"
+  },
+  {
+   "pmid": "42528940",
+   "title": "Synergistic neoadjuvant radioimmunotherapy in locally advanced rectal cancer: mechanisms of pathologic response and the shift toward organ preservation",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1016/j.jlb.2025.100338",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Yan S, Zhang G, Jia X",
+   "abstract": "The management of locally advanced rectal cancer (LARC) has progressively shifted beyond surgery alone toward integrated protocols that include neoadjuvant chemoradiotherapy (nCRT). Even so, the risks of distant metastasis and organ dysfunction remain significant challenges. It is against this backdrop that immune checkpoint inhibitors (ICIs) combined with chemoradiotherapy have begun to redefine therapeutic possibilities. Radiotherapy (RT) induces immunogenic cell death (ICD), enhances antigen presentation, and activates systemic immune responses, whereas ICIs overcome immune suppression by blocking pathways such as PD-1/PD-L1. This synergistic approach converts immunologically cold tumors into infiltrated, hot phenotypes. Building on this rationale, recent Phase II trials have explored immune consolidation following short-course radiotherapy (SCRT) within a total neoadjuvant therapy (TNT) framework. What emerged was particularly compelling: pathological complete response (pCR) rates rose notably, in some cases doubling historical benchmarks. This improvement is not merely a numerical gain; it translates into tangible clinical opportunities, including organ preservation and the feasibility of watch-and-wait (W&W) protocols for selected responders. Notably, SCRT appears especially compatible with subsequent immunotherapy, perhaps due to its abbreviated yet potent immunomodulatory effects, offering a pragmatic alternative to conventional long-course regimens. Looking ahead, the push toward personalization is gaining momentum. Biomarkers like MMR/MSI status, features of the tumor immune microenvironment, and dynamic changes in ctDNA are increasingly guiding trial design and treatment sequencing. While promising, these tools require further validation in larger, more diverse cohorts. Ultimately, the central question remains: how can we convert higher pCR rates into lasting survival benefits while safeguarding quality of life? Answering this will depend on rigorously designed Phase III trials, thoughtful integration of predictive biomarkers, and continued refinement of how and when we combine radiation, chemotherapy, and immunotherapy. Only then can we ensure that advances in biology translate into meaningful human outcomes.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42501213",
+     "date": "2026-07-27",
+     "title_zh": "在放射治療資源受限地區，全程新輔助治療（TNT）優先化療可提升局部進展期直腸癌之病理完全緩解率（pCR）：一項隨機對照試驗",
+     "score": 5,
+     "one_liner": "在202名LARC患者中，比較TNT（化療優先）與傳統NCRT優先治療，TNT組pCR率55.4% vs 42.57%（p=0.023）。",
+     "sim": 0.24
+    },
+    {
+     "pmid": "42495710",
+     "date": "2026-07-25",
+     "title_zh": "以短程放療為基礎的全程新輔助治療併用替雷利珠單抗治療局部進展期直腸癌（Neo-STAR研究）：一項隨機第二期試驗的早期結果",
+     "score": 6,
+     "one_liner": "在118名LARC病人中，比較SCRT-TNT併用tislelizumab與單純SCRT-TNT，pCR達45.3% vs 27.6%（p=0.052，未達統計顯著）。",
+     "sim": 0.233
+    },
+    {
+     "pmid": "42495710",
+     "date": "2026-07-26",
+     "title_zh": "短程放療為基礎之全程新輔助治療（TNT）併用替雷利珠單抗（tislelizumab）用於局部進展期直腸癌（Neo-STAR）：一項隨機第二期試驗之早期結果",
+     "score": 6,
+     "one_liner": "在111名LARC病人中，比較SCRT-TNT併用tislelizumab與SCRT-TNT，pCR率45.3% vs 27.6%（p=0.052），未達統計顯著。",
+     "sim": 0.233
+    }
+   ],
+   "title_zh": "局部進展期直腸癌之協同新輔助放射免疫治療：病理反應機制與器官保留趨勢的轉變",
+   "abstract_zh": "局部進展期直腸癌（LARC）的治療已逐漸從單純手術轉向包含新輔助放化療（nCRT）的整合性療程。即便如此，遠端轉移與器官功能障礙的風險仍是重大挑戰。在此背景下，免疫檢查點抑制劑（ICIs）併用放化療已開始重新定義治療可能性。放射治療（RT）可誘導免疫性細胞死亡（ICD）、增強抗原呈現並活化全身性免疫反應，而ICIs則透過阻斷PD-1/PD-L1等路徑克服免疫抑制。此協同作用能將免疫學上「冷」的腫瘤轉化為浸潤性、「熱」的表型。基於此理論基礎，近期第二期試驗探討在全程新輔助治療（TNT）架構下、短程放療（SCRT）後接續免疫鞏固治療。結果令人矚目：病理完全緩解（pCR）率顯著上升，某些情況下達到歷史基準值的兩倍。此改善不僅是數字上的提升，更轉化為實質的臨床機會，包括器官保留與選定反應者採用觀察等待（W&W）方案的可行性。值得注意的是，SCRT似乎特別適合搭配後續免疫治療，可能因其縮短卻強效的免疫調節作用，為傳統長程療程提供了實用的替代方案。展望未來，個人化治療的趨勢正逐漸增強。MMR/MSI狀態、腫瘤免疫微環境特徵，以及ctDNA的動態變化等生物標記，日益引導試驗設計與治療排序。儘管前景看好，這些工具仍需在更大型、更多元的族群中進一步驗證。最終，核心問題仍是：我們如何將較高的pCR率轉化為持久的存活效益，同時維護生活品質？回答這個問題將取決於設計嚴謹的第三期試驗、預測性生物標記的審慎整合，以及持續精進放療、化療與免疫治療如何搭配、何時搭配的方式。唯有如此，才能確保生物學上的進展真正轉化為對人類有意義的結果。",
+   "evidence_level": "綜述",
+   "score": 4,
+   "score_reason": "為敘述性文獻回顧，整合現有機制與早期第二期試驗概念，無新原始數據；對臨床決策啟發性中等，但可作為掌握趨勢的快速讀物。",
+   "relevance": "中度相關",
+   "relevance_why": "討論直腸癌新輔助放射免疫治療趨勢與器官保留策略，對臨床有概念性啟發，但非直接可執行的手術決策依據。",
+   "novelty": "仍屬早期",
+   "one_liner": "此篇綜述整合LARC新輔助放射免疫治療（SCRT/TNT+ICI）之免疫學機制與早期第二期試驗結果，探討pCR提升與器官保留之可行性。",
+   "action": "目前不需改變做法；可作背景閱讀了解SCRT+ICI機制與器官保留趨勢，實際治療決策仍待第三期試驗數據。",
+   "pico": {
+    "P": "文獻中LARC患者（無特定人數，為綜述整合多項試驗）",
+    "I": "SCRT/nCRT併用免疫檢查點抑制劑（ICIs）之TNT方案",
+    "C": "傳統nCRT或歷史pCR基準值",
+    "O": "主要：pCR率、器官保留/觀察等待可行性；次要：長期存活效益（尚未確立）"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要僅泛稱pCR率「達歷史基準值兩倍」，未提供具體絕對數字或信賴區間",
+    "本篇為機制與趨勢綜述，非原始試驗數據來源",
+    "作者明確指出：長期存活效益尚未證實，仍待第三期試驗驗證"
+   ],
+   "cautions": [
+    "本篇為敘述性綜述而非系統性回顧，未說明文獻選取方法，可能有選擇性引用偏誤",
+    "pCR率提升為替代指標，摘要本身即承認尚未轉化為存活效益證據",
+    "所述『pCR倍增』引用自第二期試驗（如Neo-STAR等），樣本量小且部分未達統計顯著（p=0.052）"
+   ],
+   "unassessable": [
+    "文獻選取標準",
+    "是否為系統性方法學",
+    "利益衝突",
+    "所引用試驗之詳細方法學品質"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "此綜述之論述方向與先前看過的SCRT-TNT併用tislelizumab（Neo-STAR）及TNT優先化療試驗高度呼應，屬於對這些第二期試驗結果的機制性解讀與趨勢總結，並未提供新的原始數據。",
+   "added_at": "2026-08-01T07:06:18+08:00"
+  },
+  {
+   "pmid": "42531704",
+   "title": "Region-specific immune regulation determines differential response to JAK1 inhibition in Crohn's disease ex vivo",
+   "journal": "J Crohns Colitis",
+   "journal_full": "Journal of Crohn's & colitis",
+   "issn": "1876-4479",
+   "issn_linking": "1873-9946",
+   "impact_factor": 10.3,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1093/ecco-jcc/jjag101",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Grieger K, Dehmel S, Schröder V, Schmidt K, Neufeldt V, Bock L",
+   "abstract": "Crohn's disease (CD) remains a significant therapeutic challenge, with limited treatment options and heterogeneous clinical responses. The selective JAK1 inhibitor filgotinib has shown great potential in treating ulcerative colitis but failed to demonstrate consistent efficacy in CD, for reasons that remain unclear. Here, we address this gap using an immunocompetent ex vivo model of precision-cut intestinal slices (PCIS) from CD patients, allowing region-specific analysis of ileal and colonic responses. We reveal that colonic PCIS display strong T cell activation and are highly sensitive to filgotinib, with suppression of Th1/Th17 cytokines, oxidative stress, and STAT signaling ex vivo. In contrast, ileal PCIS exhibited predominantly innate and Th17-driven inflammation, and were less sensitive to JAK1 inhibition. These data provide a potential mechanistic explanation for the limited efficacy of filgotinib in CD clinical trials and established PCIS as a human-relevant ex vivo model for region-specific drug responses, underscoring the importance of developing therapies tailored to different segments of the gut in inflammatory bowel disease.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42364020",
+     "date": "2026-06-27",
+     "title_zh": "Filgotinib 透過活化 p53 訊號路徑誘導大腸直腸癌細胞凋亡",
+     "score": 2,
+     "one_liner": "在 CRC 細胞株（HCT116、RKO、LoVo）與病人衍生類器官中，Filgotinib 誘導凋亡並抑制增殖，顯示潛在抗腫瘤機轉。",
+     "sim": 0.171
+    }
+   ],
+   "title_zh": "區域特異性免疫調控決定克隆氏症對 JAK1 抑制劑的差異反應：離體研究",
+   "abstract_zh": "克隆氏症（CD）仍是重大治療挑戰，治療選擇有限且臨床反應異質性高。選擇性 JAK1 抑制劑 filgotinib 在治療潰瘍性結腸炎上展現極大潛力，但在 CD 中未能顯示一致療效，原因尚不明確。本研究使用來自 CD 病人的免疫勝任離體模型「精密切割腸道切片」（precision-cut intestinal slices, PCIS），針對迴腸與結腸進行區域特異性分析，以填補此一知識缺口。我們發現結腸 PCIS 呈現強烈 T 細胞活化，且對 filgotinib 高度敏感，可抑制 Th1/Th17 細胞激素、氧化壓力與 STAT 訊號傳導。相對地，迴腸 PCIS 主要表現為先天性免疫與 Th17 主導的發炎反應，對 JAK1 抑制較不敏感。這些數據提供了 filgotinib 在 CD 臨床試驗中療效有限的潛在機轉解釋，並確立 PCIS 作為研究區域特異性藥物反應的人類相關離體模型，凸顯針對發炎性腸道疾病不同腸段開發客製化療法的重要性。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "純基礎/轉譯醫學離體機轉研究，非臨床試驗，與大腸直腸外科手術決策無直接關聯。",
+   "relevance": "低度相關",
+   "relevance_why": "此為 IBD 藥物機轉的離體免疫學研究，非外科介入，對大腸直腸外科臨床決策無直接影響。",
+   "novelty": "仍屬早期",
+   "one_liner": "在 CD 病人的離體腸道切片模型中，比較結腸與迴腸對 JAK1 抑制劑 filgotinib 的反應，發現結腸敏感、迴腸較不敏感。",
+   "action": "目前不需改變做法；此為機轉研究非臨床療效試驗，與外科手術決策無關。",
+   "pico": {
+    "P": "CD 病人來源之精密切割腸道切片（PCIS），人數未載明",
+    "I": "Filgotinib（JAK1 抑制劑）處理",
+    "C": "結腸 PCIS vs 迴腸 PCIS（區域比較，非藥物 vs 安慰劑）",
+    "O": "主要：Th1/Th17 細胞激素、氧化壓力、STAT 訊號抑制程度；次要：區域免疫特徵差異"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要僅描述質性機轉發現（結腸敏感 vs 迴腸不敏感），未提供具體數值或統計量",
+    "無提供樣本數、p 值或信賴區間",
+    "無臨床療效或手術相關結果數據"
+   ],
+   "cautions": [
+    "離體模型結果不能直接外推至活體臨床療效，與 CD 病人實際治療反應可能有落差",
+    "摘要未提供樣本數，機轉性結論的統計效力難以評估",
+    "此為藥物機轉研究非手術介入研究，對外科實務參考價值極低"
+   ],
+   "unassessable": [
+    "樣本數",
+    "統計檢定方法與 p 值",
+    "盲法／對照設計",
+    "利益衝突",
+    "研究是否註冊"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。先前論文為 filgotinib 於大腸直腸癌細胞株誘導凋亡之機轉研究，雖同為 filgotinib 相關研究，但疾病背景（CRC vs CD）與作用機轉完全不同，無臨床關聯性。",
+   "added_at": "2026-08-01T07:06:18+08:00"
+  },
+  {
+   "pmid": "42530270",
+   "title": "Probiotic-Mediated Immune Regulation in Gastric Cancer: Mechanisms, Synergies With Immunotherapy, and Future Directions",
+   "journal": "Front Biosci (Landmark Ed)",
+   "journal_full": "Frontiers in bioscience (Landmark edition)",
+   "issn": "2768-6698",
+   "issn_linking": "2768-6698",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.31083/FBL48167",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Wang N, Song F, Chen H, Li X",
+   "abstract": "This review examines recent advances in the use of probiotics combined with immune modulation for the prevention and treatment of gastric cancer. It highlights the interactions between gastrointestinal probiotics, including Lactobacillus, and Helicobacter pylori infection, emphasizing their roles in gastric cancer initiation and progression. The article evaluates how probiotics exert anticancer effects by restoring intestinal microecological balance, enhancing mucosal immunity, and suppressing H. pylori. It also discusses preliminary findings on Lactobacillus in colorectal cancer and their potential relevance to gastric cancer research. Finally, the clinical potential of combining probiotics with immunotherapy for gastric cancer is assessed, and future research directions in this rapidly evolving field are proposed.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42484112",
+     "date": "2026-07-23",
+     "title_zh": "幽門螺旋桿菌超越胃部：當故事改變之時",
+     "score": 2,
+     "one_liner": "本文綜述H. pylori感染與貧血、ITP、大腸直腸癌、心血管疾病、神經疾病的關聯性證據，結論指出因果性仍待前瞻性研究釐清。",
+     "sim": 0.228
+    }
+   ],
+   "title_zh": "益生菌介導之免疫調節於胃癌中的角色：機制、與免疫治療的協同作用及未來方向",
+   "abstract_zh": "本綜述探討益生菌併用免疫調節於胃癌預防與治療上的最新進展。文章著重說明胃腸道益生菌（包括乳酸桿菌屬）與幽門螺旋桿菌感染之間的交互作用，並強調兩者在胃癌發生與進展中的角色。文中評估益生菌如何透過恢復腸道微生態平衡、增強黏膜免疫，以及抑制幽門螺旋桿菌來發揮抗癌效果。同時也討論了乳酸桿菌屬在大腸直腸癌中的初步發現，及其對胃癌研究可能的參考價值。最後，本文評估了益生菌併用免疫治療於胃癌的臨床潛力，並提出此快速發展領域的未來研究方向。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純機制性綜述，無原始臨床數據，且主題聚焦胃癌而非大腸直腸外科，對臨床決策幾無立即實用性。",
+   "relevance": "低度相關",
+   "relevance_why": "主題為胃癌與益生菌免疫調節機制，僅附帶提及大腸直腸癌，非外科介入研究。",
+   "novelty": "仍屬早期",
+   "one_liner": "本綜述整理益生菌透過調節H. pylori與黏膜免疫影響胃癌發生機轉，並初步討論其與大腸直腸癌研究的潛在關聯。",
+   "action": "目前不需改變做法；此為機制性綜述，無臨床試驗數據可直接應用於大腸直腸外科病人處置。",
+   "pico": {
+    "P": "無特定病人族群（綜述文獻，非原始研究）",
+    "I": "益生菌（如Lactobacillus）併用免疫治療",
+    "C": "無對照組",
+    "O": "討論抗癌機制（腸道微生態平衡、黏膜免疫增強、H. pylori抑制）；無量化臨床outcome"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供任何量化臨床數據、事件數或統計檢定結果",
+    "全文屬機制性描述與文獻整理，無原始試驗數字可摘錄",
+    "大腸直腸癌相關內容僅為「初步發現」，未附具體數據"
+   ],
+   "cautions": [
+    "本篇為機制性綜述而非臨床試驗，結論多屬理論推導，尚無直接臨床證據支持",
+    "將胃癌益生菌機制類推至大腸直腸癌屬跨器官外推，因果關係未經驗證",
+    "無對照組、無統計數據，無法評估效應量或其可信區間"
+   ],
+   "unassessable": [
+    "研究設計細節（無原始研究）",
+    "利益衝突",
+    "文獻選取方法是否為系統性",
+    "大腸直腸癌部分之原始研究品質"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-08-01T07:06:18+08:00"
+  },
+  {
+   "pmid": "42535750",
+   "title": "Pharmacological modulation of the PD-1/PD-L1 axis: from immune tolerance in colitis to immune escape in colorectal cancer",
+   "journal": "Eur Rev Med Pharmacol Sci",
+   "journal_full": "European review for medical and pharmacological sciences",
+   "issn": "2284-0729",
+   "issn_linking": "1128-3602",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.26355/eurrev_202607_37885",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Grimaldi R, Balestrero F, Meggiolan A, Serra M, Ferramosca A, Travelli C",
+   "abstract": "In recent years, immune-based therapies, particularly checkpoint inhibitors, have been developed to interfere with tumor immune escape. Among various molecular targets, the PD-1/PD-L1 axis represents a central mechanism of tumor-driven immune evasion and a major target for restoring T-cell-mediated anti-tumor activity. Several blocking monoclonal antibodies have been developed to restore antitumor immunity, and anti-PD-1/PD-L1 antibodies have transformed the treatment of solid tumors, including colorectal cancer (CRC). In the colon, the PD-1/PD-L1 axis plays a dual and context-dependent role. During the early stages of intestinal inflammation, such as in inflammatory bowel disease (IBD), PD-1/PD-L1 signaling contributes to immune tolerance and mucosal protection. However, persistent activation of this pathway may become detrimental during the colitis-to-cancer transition, promoting immune evasion and tumor progression. Immune checkpoint inhibitors, such as nivolumab and pembrolizumab, currently approved for specific subsets of CRC, exert their effects by blocking the interaction between PD-1 and PD-L1, thereby restoring antitumor immune responses. Their use, either as monotherapy or in combination regimens, has demonstrated promising efficacy in advanced and mismatch repair-deficient CRC. This review summarizes the biphasic role of PD-1/PD-L1 in IBD and CRC, with particular emphasis on the therapeutic application of PD-1/PD-L1 blockade in CRC. It highlights monoclonal antibody-based approaches and emerging combination strategies, and finally examines current clinical trial evidence, highlighting ongoing challenges, including primary and acquired resistance to anti-PD-1/PD-L1 therapies.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42322856",
+     "date": "2026-06-21",
+     "title_zh": "Gemcitabine 透過促進乳酸化作用增強大腸直腸癌對抗PD-L1療法的敏感性",
+     "score": 2,
+     "one_liner": "在CRC細胞株與小鼠模型中，GEM併用抗PD-L1可透過促進PD-L1乳酸化增強CD8+T細胞浸潤與抗腫瘤免疫反應。",
+     "sim": 0.203
+    },
+    {
+     "pmid": "42350366",
+     "date": "2026-06-26",
+     "title_zh": "S100A14 透過 UPF1 介導的非典型 NF-κB 訊號活化，促進大腸直腸癌惡化與抗PD-1抗藥性",
+     "score": 3,
+     "one_liner": "在CRC細胞株與小鼠模型中，發現S100A14透過降解UPF1活化非典型NF-κB路徑，促進PD-L1上調與抗PD-1抗藥性。",
+     "sim": 0.18
+    },
+    {
+     "pmid": "42459668",
+     "date": "2026-07-17",
+     "title_zh": "免疫檢查點抑制劑在dMMR-MSI-H大腸直腸癌之應用：機轉、進展與展望",
+     "score": 4,
+     "one_liner": "本文綜述dMMR-MSI-H大腸直腸癌對ICIs（PD-1/CTLA-4）之高反應性的免疫機轉、臨床試驗證據、抗藥機轉與生物標記發展現況。",
+     "sim": 0.175
+    }
+   ],
+   "title_zh": "PD-1/PD-L1軸的藥理調控：從腸炎中的免疫耐受到大腸直腸癌中的免疫逃逸",
+   "abstract_zh": "近年來，以免疫療法為基礎的治療方式，特別是免疫檢查點抑制劑，已被開發用以干擾腫瘤免疫逃逸。在眾多分子靶點中，PD-1/PD-L1軸代表腫瘤驅動免疫逃避的核心機制，也是恢復T細胞介導抗腫瘤活性的主要靶點。已有多種阻斷性單株抗體被開發以恢復抗腫瘤免疫力，抗PD-1/PD-L1抗體已改變包括大腸直腸癌（CRC）等實體腫瘤的治療方式。在大腸中，PD-1/PD-L1軸扮演雙重且依情境而定的角色。在腸道發炎的早期階段，例如發炎性腸道疾病（IBD），PD-1/PD-L1訊號有助於免疫耐受與黏膜保護。然而，此路徑持續活化在腸炎轉變為癌症的過程中可能變得有害，促進免疫逃逸與腫瘤進展。免疫檢查點抑制劑，如nivolumab與pembrolizumab，目前已核准用於特定CRC亞群，其作用機轉為阻斷PD-1與PD-L1的交互作用，藉此恢復抗腫瘤免疫反應。無論單獨使用或合併療法，皆已在晚期及錯配修復缺陷（mismatch repair-deficient）CRC中展現出令人期待的療效。本綜述總結PD-1/PD-L1在IBD與CRC中的雙相角色，特別強調PD-1/PD-L1阻斷在CRC中的治療應用。文中重點介紹以單株抗體為基礎的療法及新興合併治療策略，最後檢視目前的臨床試驗證據，並強調現存挑戰，包括對抗PD-1/PD-L1療法的原發性與後天抗藥性。",
+   "evidence_level": "綜述",
+   "score": 3,
+   "score_reason": "此為機轉性敘述型綜述，無新臨床數據或原始研究貢獻，對外科臨床決策的直接實用性有限。",
+   "relevance": "中度相關",
+   "relevance_why": "雖非外科介入研究，但整理dMMR/MSI-H CRC之ICI治療現況，對於術前輔助治療決策有背景參考價值。",
+   "novelty": "再確認已知",
+   "one_liner": "本篇綜述整理PD-1/PD-L1軸在腸炎與大腸直腸癌中的雙相角色，並回顧nivolumab、pembrolizumab於dMMR/MSI-H CRC之臨床證據與抗藥機轉。",
+   "action": "目前不需改變做法；此為機轉綜述無新數據，可作背景閱讀了解dMMR/MSI-H CRC免疫治療現況與抗藥機轉。",
+   "pico": {
+    "P": "無特定病人族群（綜述文章，未列人數）",
+    "I": "PD-1/PD-L1阻斷療法（nivolumab、pembrolizumab等）",
+    "C": "無對照組",
+    "O": "綜述PD-1/PD-L1軸生物學角色及臨床試驗療效與抗藥機轉，未提供量化主要結果"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本文為敘述型綜述，未提供可萃取的絕對數字或事件率",
+    "未說明具體臨床試驗之反應率、存活率等量化數據",
+    "無新原始統計結果可供比較"
+   ],
+   "cautions": [
+    "敘述型綜述非系統性方法學，文獻選擇可能存在作者主觀偏誤",
+    "未提供任何絕對風險數字、信賴區間或p值以支持結論",
+    "將PD-1/PD-L1於IBD-to-CRC轉變之機轉關聯直接推論為臨床意義，可能過度詮釋"
+   ],
+   "unassessable": [
+    "文獻檢索方法與納入標準",
+    "利益衝突聲明",
+    "資金來源",
+    "是否為系統性文獻回顧或僅為敘述性整理"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "與前作3（dMMR-MSI-H CRC之ICI應用綜述）主題高度重疊，皆整理PD-1/PD-L1阻斷療法之機轉與臨床證據；本篇額外補充IBD到CRC轉變過程中PD-1/PD-L1雙相角色的機轉視角。",
+   "added_at": "2026-08-01T07:06:18+08:00"
+  }
+ ]
+}
