@@ -1,0 +1,788 @@
+{
+ "date": "2026-08-02",
+ "generated_at": "2026-08-02T07:00:39+08:00",
+ "count": 11,
+ "papers": [
+  {
+   "pmid": "42533341",
+   "title": "Diagnostic accuracy of computer-aided detection for colorectal polyps of any size, ≤ 5 mm, and 6-9 mm: a meta-analysis",
+   "journal": "World J Surg Oncol",
+   "journal_full": "World journal of surgical oncology",
+   "issn": "1477-7819",
+   "issn_linking": "1477-7819",
+   "impact_factor": 2.8,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1186/s13104-024-07062-6",
+   "ptype": "Meta-Analysis, Review",
+   "ptype_list": [
+    "Meta-Analysis",
+    "Review"
+   ],
+   "authors": "Chen W, Li S, Wu Z, Tan H, Yu F, Wang D",
+   "abstract": "BACKGROUND: Although computer-aided detection (CAD) is often used for medical diagnostic purposes, its diagnostic effectiveness in colorectal polyps (CPs) remains uncertain.\nOBJECTIVE: To summarize the diagnostic accuracy of CAD in diagnosing CPs, and provide a specific theoretical basis for clinical practice.\nMETHODS: From database creation to August 1st 2024, we conducted a comprehensive search of PubMed, Embase, Web of Science (WoS), Scopus, Wanfang, Cochrane Library, and the China National Knowledge Infrastructure (CNKI). The pooled sensitivity, specificity, area under the curve (AUC), diagnostic odds ratio (DOR), positive likelihood ratio (PLR), negative likelihood ratio (NLR), and Fagan plot analysis were employed to evaluate the overall performance of CAD tests. Furthermore, we assessed publication bias using Deeks' funnel plot asymmetry test.\nRESULTS: The aggregated diagnostic data from 19 studies (any size), 12 studies (≤ 5 mm polyps) and 2 studies (6-9 mm polyps) were as follows: The sensitivity for polyps of any size, ≤ 5 mm, and 6-9 mm was 0.94 (95% CI, 0.92-0.96), 0.93 (95% CI, 0.89-0.95) and 0.95 (95% CI, 0.92-0.97), respectively. The specificity was 0.91 (95% CI, 0.86-0.95), 0.90 (95% CI, 0.87-0.93) and 0.90 (95% CI, 0.88-0.92), respectively. The AUC was 0.97 (95% CI, 0.96-0.99), 0.96 (95% CI, 0.94-0.98), and 0.92 (95% CI, 0.89-0.94), respectively. Deeks' funnel plot showed that publication bias was not statistically significant in the diagnosis of polyps of any size and ≤ 5 mm CPs (P > 0.05).\nCONCLUSION: In summary, CAD is accurate for all types of CPs. Specifically, for polyps of any size and those ≤ 5 mm, CAD was more sensitive and specific for CPs of any size.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42327954",
+     "date": "2026-06-22",
+     "title_zh": "MRI放射組學評估直腸腺癌新輔助化放療反應之系統性回顧與統合分析",
+     "score": 4,
+     "one_liner": "統合38篇研究驗證世代，MRI放射組學預測直腸癌pCR之敏感度0.82、特異度0.86，HSROC AUC 0.846。",
+     "sim": 0.191
+    },
+    {
+     "pmid": "42420571",
+     "date": "2026-07-09",
+     "title_zh": "放射組學模型作為預測大腸直腸癌基因突變之工具：系統性回顧與統合分析",
+     "score": 4,
+     "one_liner": "統合16篇研究，放射組學模型預測CRC基因突變之合併敏感度0.75、特異度0.78，整體AUC 0.79，但方法學品質偏低。",
+     "sim": 0.162
+    }
+   ],
+   "title_zh": "電腦輔助偵測（CAD）對任意大小、≤5mm及6-9mm大腸直腸息肉之診斷準確度：統合分析",
+   "abstract_zh": "背景：雖然電腦輔助偵測（CAD）常用於醫學診斷目的，但其在大腸直腸息肉（CPs）診斷上的效能仍不明確。\n目的：總結CAD診斷CPs之診斷準確度，並為臨床實務提供具體理論依據。\n方法：從資料庫建立至2024年8月1日，我們全面搜尋PubMed、Embase、Web of Science（WoS）、Scopus、萬方、Cochrane Library及中國知網（CNKI）。採用合併敏感度、特異度、曲線下面積（AUC）、診斷勝算比（DOR）、陽性似然比（PLR）、陰性似然比（NLR）及Fagan圖分析，評估CAD檢測之整體表現。此外，我們使用Deeks漏斗圖不對稱性檢定評估發表偏誤。\n結果：來自19篇研究（任意大小）、12篇研究（≤5mm息肉）及2篇研究（6-9mm息肉）之匯總診斷數據如下：任意大小、≤5mm及6-9mm息肉之敏感度分別為0.94（95% CI, 0.92-0.96）、0.93（95% CI, 0.89-0.95）及0.95（95% CI, 0.92-0.97）。特異度分別為0.91（95% CI, 0.86-0.95）、0.90（95% CI, 0.87-0.93）及0.90（95% CI, 0.88-0.92）。AUC分別為0.97（95% CI, 0.96-0.99）、0.96（95% CI, 0.94-0.98）及0.92（95% CI, 0.89-0.94）。Deeks漏斗圖顯示，任意大小及≤5mm CPs之診斷發表偏誤無統計學顯著性（P > 0.05）。\n結論：總而言之，CAD對所有類型的CPs均具準確性。特別是對於任意大小及≤5mm的息肉，CAD在CPs之敏感度及特異度上表現更佳。",
+   "evidence_level": "統合分析",
+   "score": 5,
+   "score_reason": "診斷準確度統合分析方法完整，但缺乏臨床結果指標（如ADR提升、腺瘤漏診率、大腸癌發生率），對實際臨床決策的直接指引有限。",
+   "relevance": "中度相關",
+   "relevance_why": "CAD多用於內視鏡篩檢情境，大腸直腸外科醫師若兼做大腸鏡篩檢或監測時具參考價值，但非手術核心決策。",
+   "novelty": "再確認已知",
+   "one_liner": "統合19篇研究，CAD偵測任意大小息肉之敏感度0.94、特異度0.91，6-9mm息肉AUC降至0.92，準確度隨息肉變小而略降但仍高。",
+   "action": "目前不需改變手術做法；若單位使用CAD輔助大腸鏡，可留意其對微小息肉（≤5mm）偵測仍具高敏感度，作為篩檢品質參考。",
+   "pico": {
+    "P": "接受大腸鏡檢查並使用CAD系統之受檢者，匯總自19篇研究（任意大小息肉）、12篇（≤5mm）、2篇（6-9mm）",
+    "I": "電腦輔助偵測（CAD）系統於大腸鏡檢查中診斷大腸直腸息肉",
+    "C": "參考標準（摘要未明確說明具體為病理組織學或專家內視鏡判讀）",
+    "O": "主要：敏感度、特異度、AUC；次要：診斷勝算比（DOR）、陽性/陰性似然比、Fagan圖分析、發表偏誤"
+   },
+   "effects": [],
+   "key_numbers": [
+    "任意大小息肉：敏感度0.94（95% CI 0.92-0.96），特異度0.91（95% CI 0.86-0.95），AUC 0.97",
+    "≤5mm息肉：敏感度0.93（95% CI 0.89-0.95），特異度0.90（95% CI 0.87-0.93），AUC 0.96",
+    "6-9mm息肉（僅2篇研究）：敏感度0.95、特異度0.90，AUC 0.92"
+   ],
+   "cautions": [
+    "診斷準確度研究，參考標準（病理或人工判讀）、盲法、驗證方式摘要未說明，可能存在偏誤",
+    "6-9mm亞組僅2篇研究，樣本極少，結果不穩定，且未報告該亞組發表偏誤",
+    "僅呈現偵測準確度，未提供臨床結果（ADR提升幅度、大腸癌發生率、成本效益），準確度高不等於臨床獲益"
+   ],
+   "unassessable": [
+    "納入研究異質性來源（CAD系統廠牌/演算法差異）",
+    "參考標準與驗證方法",
+    "納入研究品質評估工具（如QUADAS-2）結果",
+    "利益衝突",
+    "試驗註冊"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。先前看過的兩篇為MRI/CT放射組學於直腸癌治療反應與基因突變預測，主題（CAD息肉偵測 vs 影像放射組學於腫瘤治療決策）不同，無直接關聯。",
+   "added_at": "2026-08-02T06:58:07+08:00"
+  },
+  {
+   "pmid": "42532557",
+   "title": "Clinical efficacy of Mepilex Lite dressings combined with indomethacin suppositories in the treatment of acute radiation dermatitis caused by rectal cancer radiotherapy: a study protocol for a randomised controlled trial",
+   "journal": "BMJ Open",
+   "journal_full": "BMJ open",
+   "issn": "2044-6055",
+   "issn_linking": "2044-6055",
+   "impact_factor": 2.5,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1136/bmjopen-2026-122248",
+   "ptype": "Randomized Controlled Trial",
+   "ptype_list": [
+    "Randomized Controlled Trial"
+   ],
+   "authors": "Shang H, Yang Y, Cao H, Wu Y, Ji H",
+   "abstract": "INTRODUCTION: Acute radiation dermatitis is a common adverse reaction in radiotherapy, especially in patients with rectal cancer undergoing radiotherapy. At present, acute radiation dermatitis of the perianal skin has received widespread attention; however, acute radiation skin injury of the anal canal skin has not received sufficient attention. These patients mainly complain of anal pain, which seriously affects their quality of life. Mepilex Lite dressings have been recommended for the treatment of acute radiation dermatitis and have a definite effect. However, there is limited research on the use of this dressing for the treatment of acute radiation-induced dermatitis of the anal canal skin and its clinical efficacy and safety in this context need further verification.\nMETHODS AND ANALYSIS: This study is an assessor-blinded randomised controlled trial designed to evaluate the efficacy and safety of Mepilex Lite dressings combined with indomethacin suppositories for the treatment of acute radiation dermatitis of the anal canal skin. A total of 274 eligible patients from the tumour radiotherapy ward of the First Affiliated Hospital of Shandong First Medical University will be randomly assigned to either the experiment or control group (1:1). The control group will be given 30 mg of indomethacin suppositories for rectal administration, and the experiment group will be given Mepilex Lite dressings in addition to the measures taken by the control group. The 5 cm × 5 cm dressing will be inserted into the anal canal for 3 cm through the anus and exposed for 2 cm. The main outcome indicator is the treatment efficiency of the acute radiation dermatitis of the anal canal skin on the 14th day after the intervention. The secondary outcome indicator is the treatment efficiency of the acute radiation dermatitis of the anal canal skin on the seventh and 21st days after the intervention. Concurrently, the Numeric Rating Scale, Hospital Anxiety and Depression Scale, Pittsburgh Sleep Quality Index and Skin Disease Patient Quality of Life Scale-16 will be used to assess patient pain, depression and anxiety, sleep quality and quality of life, respectively. A table questionnaire survey will be conducted at baseline and on 7, 14 and 21 days after intervention.\nETHICS AND DISSEMINATION: The research protocol has obtained ethical approval from the Ethics Committee of the First Affiliated Hospital of Shandong First Medical University (approval number: YXLL-KY-2024 (162)). The results will be published in peer-reviewed journals and abstracts will be submitted to domestic and international conferences to disseminate our research findings.\nTRIAL REGISTRATION NUMBER: NCT06837831.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42425570",
+     "date": "2026-07-10",
+     "title_zh": "禁食模擬飲食對接受根治性切除之大腸直腸癌病患長期預後的影響：一項多中心、前瞻性、隨機對照試驗方案",
+     "score": 3,
+     "one_liner": "在602名中國第三期CRC根治性切除病患中，比較FMD介入與對照組，評估3年DFS——此為試驗方案，尚無結果數據。",
+     "sim": 0.2
+    }
+   ],
+   "title_zh": "Mepilex Lite敷料併用Indomethacin栓劑治療直腸癌放射治療所致急性放射性皮膚炎之臨床療效：一項隨機對照試驗研究方案",
+   "abstract_zh": "前言：急性放射性皮膚炎是放射治療常見的不良反應，尤其常見於接受放療的直腸癌患者。目前，肛周皮膚的急性放射性皮膚炎已受到廣泛關注；然而，肛管皮膚的急性放射性皮膚損傷尚未受到足夠重視。這些患者主要抱怨肛門疼痛，嚴重影響其生活品質。Mepilex Lite敷料已被推薦用於治療急性放射性皮膚炎並具有明確效果。然而，關於此敷料用於治療肛管皮膚急性放射性皮膚炎的研究有限，其臨床療效與安全性在此情境下仍需進一步驗證。\n\n方法與分析：本研究為評估人員盲法之隨機對照試驗，旨在評估Mepilex Lite敷料併用indomethacin栓劑治療肛管皮膚急性放射性皮膚炎的療效與安全性。共274名符合條件之患者將自山東第一醫科大學第一附屬醫院腫瘤放療科病房招募，以1:1比例隨機分配至試驗組或對照組。對照組將給予indomethacin栓劑30mg直腸給藥，試驗組則在對照組措施基礎上加用Mepilex Lite敷料。5cm×5cm的敷料將經肛門插入肛管內3cm，露出2cm。主要結果指標為介入後第14天肛管皮膚急性放射性皮膚炎的治療有效率。次要結果指標為介入後第7天及第21天肛管皮膚急性放射性皮膚炎的治療有效率。同時將使用數字評分量表（NRS）、醫院焦慮憂鬱量表（HADS）、匹茲堡睡眠品質指數（PSQI）及皮膚病患者生活品質量表-16（Skindex-16），分別評估患者的疼痛、憂鬱與焦慮、睡眠品質及生活品質。將於基線及介入後第7、14、21天進行問卷調查。\n\n倫理與傳播：本研究方案已獲山東第一醫科大學第一附屬醫院倫理委員會批准（批准號：YXLL-KY-2024 (162)）。研究結果將發表於同儕審查期刊，摘要將提交國內外會議以傳播研究成果。\n\n試驗註冊號：NCT06837831。",
+   "evidence_level": "RCT",
+   "score": 2,
+   "score_reason": "此為試驗方案（protocol），尚無任何療效數據，且介入措施（敷料）為放療皮膚照護範疇，非大腸直腸外科手術決策直接相關。",
+   "relevance": "低度相關",
+   "relevance_why": "為放射治療後皮膚照護的護理/腫瘤放療科介入，非外科處置，對台灣大腸直腸外科日常手術決策影響有限。",
+   "novelty": "仍屬早期",
+   "one_liner": "在274名接受放療之直腸癌患者中，計畫比較Mepilex Lite敷料+indomethacin栓劑與indomethacin栓劑單用，評估肛管急性放射性皮膚炎治療有效率——僅為試驗方案，尚無結果。",
+   "action": "目前不需改變做法；本文僅為研究方案，尚無任何療效或安全性數據可供臨床參考，待正式結果發表後再評估。",
+   "pico": {
+    "P": "274名接受放射治療之直腸癌患者，出現肛管皮膚急性放射性皮膚炎（山東第一醫科大學第一附屬醫院）",
+    "I": "Mepilex Lite敷料（插入肛管3cm、露出2cm）併用indomethacin栓劑30mg",
+    "C": "indomethacin栓劑30mg單用",
+    "O": "主要：介入後第14天治療有效率；次要：第7、21天治療有效率，疼痛（NRS）、焦慮憂鬱（HADS）、睡眠品質（PSQI）、生活品質（Skindex-16）"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本文為試驗方案，尚無任何療效或安全性數據",
+    "計畫收案274人，1:1隨機分配至兩組",
+    "主要療效指標訂於介入後第14天評估，尚待結果發表"
+   ],
+   "cautions": [
+    "本文僅為研究方案，尚無結果數據，不可據此改變臨床做法",
+    "主要指標「治療有效率」定義未在摘要中明確說明，可能存在主觀判定空間",
+    "單一中心試驗，結果外推性待正式結果與多中心驗證確認"
+   ],
+   "unassessable": [
+    "allocation concealment",
+    "ITT分析",
+    "失訪率",
+    "利益衝突",
+    "成本分析",
+    "受試者盲法（僅評估者盲）"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。之前看過的FMD試驗方案主題為飲食介入對CRC術後長期存活的影響，與本文放療皮膚照護主題無關。",
+   "added_at": "2026-08-02T06:58:07+08:00"
+  },
+  {
+   "pmid": "42538503",
+   "title": "The Impact of Early Versus Delayed Chemotherapy on Survival in Patients with Colorectal Cancer after Surgery: A Systematic Review and Meta-Analysis",
+   "journal": "J Gastrointest Cancer",
+   "journal_full": "Journal of gastrointestinal cancer",
+   "issn": "1941-6636",
+   "issn_linking": "",
+   "impact_factor": 2.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1007/s00520-017-3961-8",
+   "ptype": "Systematic Review, Meta-Analysis",
+   "ptype_list": [
+    "Systematic Review",
+    "Meta-Analysis",
+    "Review"
+   ],
+   "authors": "Wang C, Liu K, Han Y, Xue S",
+   "abstract": "OBJECTIVE: This study systematically evaluates the impact of the initiation time of postoperative chemotherapy on overall survival (OS) in patients with colorectal cancer, providing evidence to guide clinical decisions on chemotherapy timing.\nMETHODS: Following PRISMA and MOOSE guidelines, PubMed, Embase, Web of Science, and the Cochrane Library were systematically searched up to February 2025. Cohort studies comparing early versus delayed postoperative chemotherapy were included. Two researchers independently performed literature screening, data extraction, and quality assessment. Review Manager 5.3 was used, with hazard ratios (HRs) and 95% confidence intervals (CIs) as effect measures. Random- or fixed-effects models were applied based on heterogeneity, and subgroup and sensitivity analyses were conducted.\nRESULTS: Eleven studies involving 72,873 patients were included. Pooled results showed that delayed chemotherapy significantly increased the risk of death (HR = 1.32, 95% CI: 1.20-1.45, P < 0.00001). Heterogeneity was high (I² = 88%), and sensitivity analyses confirmed the robustness of the findings. Subgroup analysis, using an 8-week cutoff, revealed that patients who initiated chemotherapy within ≤ 8 weeks had significantly better survival than those who started > 8 weeks (HR = 1.47, 95% CI: 1.14-1.91, P = 0.003).\nCONCLUSION: Delayed postoperative chemotherapy markedly increases mortality risk. Initiating adjuvant chemotherapy within 8 weeks after surgery is recommended to achieve optimal survival benefits.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42474934",
+     "date": "2026-07-21",
+     "title_zh": "MSI-H/dMMR轉移性大腸直腸癌一線免疫治療對比化療：第三期試驗之系統性回顧與統合分析",
+     "score": 5,
+     "one_liner": "在超過600名MSI-H/dMMR轉移性大腸直腸癌病人中，統合2篇第三期試驗，一線免疫治療較化療顯著改善PFS(HR 0.61)與OS(HR 0.77)。",
+     "sim": 0.171
+    },
+    {
+     "pmid": "42474934",
+     "date": "2026-07-22",
+     "title_zh": "MSI-H/dMMR轉移性大腸直腸癌一線免疫治療對比化療：第三期試驗之系統性回顧與統合分析",
+     "score": 5,
+     "one_liner": "在超過600名MSI-H/dMMR轉移性大腸直腸癌病人中，統合2篇第三期試驗，一線免疫治療較化療顯著改善PFS(HR 0.61)與OS(HR 0.77)。",
+     "sim": 0.171
+    },
+    {
+     "pmid": "42380904",
+     "date": "2026-07-01",
+     "title_zh": "大腸直腸肝轉移病人於全身性治療後，將手術延遲超過六週可降低術後併發症發生率，且無腫瘤學結果受損之證據",
+     "score": 4,
+     "one_liner": "在159名CRLM病人中，比較全身性治療後手術延遲≥42天與≤41天，發現CCI≥30發生率48.7% vs 31.3%（p=0.023），腫瘤學結果無差異。",
+     "sim": 0.168
+    }
+   ],
+   "title_zh": "早期與延遲化療對大腸直腸癌術後病人存活的影響：系統性回顧與統合分析",
+   "abstract_zh": "目的：本研究系統性評估大腸直腸癌病人術後化療起始時間對整體存活（OS）的影響，為化療時機的臨床決策提供證據。方法：依循PRISMA與MOOSE指引，系統性搜尋PubMed、Embase、Web of Science及Cochrane Library資料庫至2025年2月。納入比較早期與延遲術後化療的世代研究。兩名研究者獨立進行文獻篩選、資料擷取與品質評估。使用Review Manager 5.3，以風險比（HR）與95%信賴區間（CI）作為效應指標，依異質性選擇隨機或固定效應模型，並進行次群組與敏感性分析。結果：共納入11篇研究，涵蓋72,873名病人。合併結果顯示延遲化療顯著增加死亡風險（HR = 1.32，95% CI: 1.20–1.45，P < 0.00001）。異質性極高（I² = 88%），敏感性分析證實結果穩健。以8週為切點的次群組分析顯示，術後≤8週開始化療的病人存活顯著優於>8週者（HR = 1.47，95% CI: 1.14–1.91，P = 0.003）。結論：延遲術後輔助化療會明顯增加死亡風險，建議於術後8週內開始輔助化療以達最佳存活效益。",
+   "evidence_level": "統合分析",
+   "score": 6,
+   "score_reason": "納入研究皆為觀察性世代研究且異質性極高（I²=88%），存在適應症混淆風險，但樣本量大且結論與現行指引一致，對臨床實務有參考價值。",
+   "relevance": "高度相關",
+   "relevance_why": "術後輔助化療起始時機是大腸直腸外科醫師日常會面臨的臨床決策議題。",
+   "novelty": "再確認已知",
+   "one_liner": "在72,873名大腸直腸癌術後病人的11篇世代研究統合分析中，延遲化療較早期化療死亡風險增加（HR 1.32），>8週開始者風險更高（HR 1.47）。",
+   "action": "持續遵循術後8週內開始輔助化療的現行建議，盡量避免可避免的延遲；此為觀察性證據，非改變現行做法的新依據。",
+   "pico": {
+    "P": "大腸直腸癌術後接受輔助化療的病人，共11篇世代研究，72,873人",
+    "I": "早期開始術後輔助化療（多以8週為切點）",
+    "C": "延遲開始術後輔助化療（>8週）",
+    "O": "主要outcome：整體存活（overall survival, HR）；次要outcome：以8週為切點之次群組存活分析"
+   },
+   "effects": [],
+   "key_numbers": [
+    "延遲化療死亡風險增加 HR=1.32（95% CI 1.20–1.45，p<0.00001）",
+    "以8週為切點，>8週開始化療死亡風險 HR=1.47（95% CI 1.14–1.91，p=0.003）",
+    "異質性極高 I²=88%，合併估計值解讀需謹慎"
+   ],
+   "cautions": [
+    "納入皆為世代研究非RCT，延遲化療者可能因併發症多、體能較差而延遲，存在適應症混淆(confounding by indication)風險",
+    "異質性極高(I²=88%)，各研究延遲化療定義、癌症分期、化療方案可能差異很大，合併HR解讀需謹慎",
+    "摘要僅提供HR，未提供兩組絕對死亡人數/總人數，無法計算絕對風險差或NNT"
+   ],
+   "unassessable": [
+    "各研究間ITT分析",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "各研究對延遲化療定義是否一致",
+    "分期／期別是否於各研究中調整校正"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-08-02T06:58:07+08:00"
+  },
+  {
+   "pmid": "42536573",
+   "title": "Association between inflammatory bowel disease and ankylosing spondylitis: Mendelian randomization of a different database and meta-analysis",
+   "journal": "Medicine (Baltimore)",
+   "journal_full": "Medicine",
+   "issn": "1536-5964",
+   "issn_linking": "0025-7974",
+   "impact_factor": 2.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1097/MD.0000000000050015",
+   "ptype": "Meta-Analysis",
+   "ptype_list": [
+    "Meta-Analysis"
+   ],
+   "authors": "Guo J, Qiao Y, Li H",
+   "abstract": "Inflammatory bowel disease (IBD) and ankylosing spondylitis (AS) are common autoimmune disorders that have a serious impact on the physical and mental health of patients. Some patients with AS also suffer from IBD, and some studies have shown that there is a link between the 2. However, the causal relationship between the 2 is not clear. This study aimed to infer a causal relationship between IBD and AS using Mendelian randomization (MR) analysis. We obtained genome-wide association study data related to IBD and AS from the Integrative Epidemiology Unit database and the Finnish database to infer the causal relationship between IBD and AS. MR analyses were performed using 3 methods, mainly inverse-variance weighting (IVW). The robustness of causal effects was ensured by multiple methods (instrumental variables were assessed using F-values, heterogeneity was detected by Cochran's Q, horizontal pleiotropy was assessed by MR-Egger regression, and outliers were detected by Mendelian Randomization Pleiotropy RESidual Sum and Outlier and leave-one-out methods). Subsequently, we selected genome-wide association studies data from 3 different databases for an independent two-sample MR analysis and a meta-analysis based on 3 independent MR estimates to assess the causal relationship between IBD and AS. There was a positive causal relationship between Crohn disease (CD) and AS with IVW results (odds ratio = 1.19, 95% confidence interval = 1.12-1.27; P <.01). There was a positive causal relationship between ulcerative colitis (UC) and AS with IVW results (odds ratio = 1.60, 95% confidence interval = 1.28-2.00; P <.01). Neither CD nor UC had an inverse causal relationship with AS. In order to verify the accuracy of the results, we performed a meta-analysis of the results obtained from the 3 MR analyses, and the results were consistent with the results we had previously obtained. CD and UC may increase the risk of AS.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42403162",
+     "date": "2026-07-06",
+     "title_zh": "血液與尿液生物標記對癌症風險之因果效應：一項孟德爾隨機化研究",
+     "score": 3,
+     "one_liner": "利用UK Biobank（N=363,228）孟德爾隨機化分析，發現尿酸、總蛋白等生物標記與大腸直腸癌風險有因果關聯（OR 0.85-0.89）。",
+     "sim": 0.185
+    },
+    {
+     "pmid": "42345499",
+     "date": "2026-06-25",
+     "title_zh": "代謝性血液生物標記與胃腸道癌症風險之孟德爾隨機化分析",
+     "score": 3,
+     "one_liner": "利用MR分析GWAS數據，發現血清尿酸與總蛋白對CRC風險呈保護性關聯（OR均為0.855），但尿酸增加胰臟癌風險（OR 1.246）。",
+     "sim": 0.172
+    },
+    {
+     "pmid": "42432892",
+     "date": "2026-07-11",
+     "title_zh": "運用雙樣本雙向孟德爾隨機化與中介分析探討免疫表現型與大腸直腸癌之因果關係",
+     "score": 3,
+     "one_liner": "利用731種基因預測免疫細胞表現型與CRC進行雙向孟德爾隨機化分析，發現5種免疫表現型與CRC風險呈負相關（OR 0.636-0.936）。",
+     "sim": 0.153
+    }
+   ],
+   "title_zh": "發炎性腸道疾病與僵直性脊椎炎之關聯：跨資料庫孟德爾隨機化分析及統合分析",
+   "abstract_zh": "發炎性腸道疾病（IBD）與僵直性脊椎炎（AS）皆為常見的自體免疫疾病，對患者身心健康造成嚴重影響。部分AS患者同時患有IBD，某些研究顯示兩者存在關聯，但兩者間的因果關係尚不明確。本研究旨在利用孟德爾隨機化（MR）分析推論IBD與AS之間的因果關係。我們從Integrative Epidemiology Unit資料庫及芬蘭資料庫取得IBD與AS相關的全基因組關聯研究（GWAS）數據，以推論兩者的因果關係。MR分析主要採用逆變異數加權法（IVW）等3種方法進行。因果效應的穩健性透過多種方法確保（以F值評估工具變量、以Cochran's Q檢測異質性、以MR-Egger回歸評估水平多效性、以MR-PRESSO及leave-one-out方法檢測異常值）。隨後，我們從3個不同資料庫選取GWAS數據進行獨立的雙樣本MR分析，並基於3個獨立MR估計值進行統合分析，以評估IBD與AS的因果關係。IVW結果顯示克隆氏症（CD）與AS呈正向因果關係（勝算比=1.19，95%信賴區間=1.12-1.27；P<.01）。潰瘍性結腸炎（UC）與AS亦呈正向因果關係（勝算比=1.60，95%信賴區間=1.28-2.00；P<.01）。CD與UC對AS均無反向因果關係。為驗證結果的準確性，我們對3次MR分析所得結果進行統合分析，結果與先前所得結果一致。CD與UC可能增加AS的風險。",
+   "evidence_level": "統合分析",
+   "score": 2,
+   "score_reason": "MR研究方法學上有其固有限制（基因多效性、族群分層假設），且結論（IBD增加AS風險）並非新知，對大腸直腸外科臨床決策無直接可執行性。",
+   "relevance": "低度相關",
+   "relevance_why": "本文探討IBD與僵直性脊椎炎（腸外表現）的因果關係，非CRC風險或外科治療相關議題，對大腸直腸外科臨床決策無直接影響。",
+   "novelty": "再確認已知",
+   "one_liner": "利用孟德爾隨機化與統合分析，發現克隆氏症（OR 1.19）與潰瘍性結腸炎（OR 1.60）皆會增加僵直性脊椎炎風險。",
+   "action": "目前不需改變做法，此為IBD腸外表現的流行病學因果推論研究，非CRC外科治療或篩檢相關證據。",
+   "pico": {
+    "P": "GWAS資料庫中IBD（CD、UC）與AS相關的基因變異數據（跨3個獨立資料庫）",
+    "I": "以基因變異作為工具變量之孟德爾隨機化分析（IVW為主）",
+    "C": "反向因果分析（AS對IBD的效應）",
+    "O": "主要outcome：IBD對AS的因果效應（OR值）；次要：異質性、多效性、異常值檢測穩健性"
+   },
+   "effects": [],
+   "key_numbers": [
+    "CD與AS呈正向因果關係，OR=1.19（95% CI 1.12-1.27，P<.01）",
+    "UC與AS呈正向因果關係，OR=1.60（95% CI 1.28-2.00，P<.01）",
+    "反向分析：AS對CD、UC均無因果效應（陰性結果）"
+   ],
+   "cautions": [
+    "MR分析僅提供相對風險（OR），無絕對發生率數字，臨床意義（NNT/實際風險增加多少）無法評估",
+    "MR方法依賴工具變量三大假設（相關性、獨立性、排他性），基因多效性若未完全排除可能造成偏誤",
+    "研究結論僅為統計因果推論，非臨床試驗，不能直接轉換為篩檢或治療建議"
+   ],
+   "unassessable": [
+    "樣本重疊程度",
+    "各GWAS族群異質性（種族/地域差異）",
+    "利益衝突",
+    "資料庫間病例定義一致性"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。先前列出的論文雖同樣採用孟德爾隨機化方法，但探討主題為CRC風險因子（生物標記、免疫表現型），與本文探討IBD與AS（僵直性脊椎炎）因果關係的臨床議題完全不同，缺乏實質關聯。",
+   "added_at": "2026-08-02T06:58:07+08:00"
+  },
+  {
+   "pmid": "42535303",
+   "title": "User perceptions of machine learning models as decision support for colorectal cancer multidisciplinary team conferences (AID-SIM-2): a qualitative simulation study",
+   "journal": "Acta Oncol",
+   "journal_full": "Acta oncologica (Stockholm, Sweden)",
+   "issn": "1651-226X",
+   "issn_linking": "0284-186X",
+   "impact_factor": 2.7,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.2340/1651-226X.2026.45754",
+   "ptype": "Multicenter Study",
+   "ptype_list": [
+    "Multicenter Study"
+   ],
+   "authors": "Bendix Bräuner K, Bruun B, Bertelsen C, Johansen Dagenborg V, Safir-Hansen K, Sanko R",
+   "abstract": "BACKGROUND: Multidisciplinary team (MDT) conferences are considered a cornerstone of decision-making in cancer diagnostics and care. However, the current literature has not demonstrated improved patient outcomes based on the decisions of the MDT conferences.\nAIM: We aimed to evaluate how four different decision-support modalities impacted the decision-making process and the internal discussions in the MDTs in a multicenter simulation study, with a focus on user perceptions.\nMETHODS: Four colorectal cancer centers with MDTs participated. We performed four simulations in each center. Each simulation used a different decision-support tool: (1) Current standard, (2) Current standard plus a prediction model, (3) A structured data presentation tool, and (4) A structured data presentation tool plus the prediction model. Clinician- and model-estimated risks were compared, the treatment suggestions from each site were compared, questionnaires about user perceptions were conducted after Simulations 2, 3, and 4 using a Google Form link, and a semi-structured interview was conducted at each site after the last simulation.\nRESULTS: Similar distributions of risk groups between clinicians and models were found; however, distinct discrepancies in predictions arose, particularly with higher-risk patients, highlighting the need for standardization for more complex clinical cases. The primary perceived benefit of decision support was increased standardization of care, independent of the individual physicians' personal views. However, participants emphasized the necessity of clinician autonomy to overrule tool suggestions when identifying clinical nuances not captured by the model.\nCONCLUSIONS: The colorectal cancer MDTs expressed a positive view regarding the use of prediction models and other forms of decision-support in their workflow. While clinicians and prediction models had similar risk score distributions, they diverged in the assessment of specific individual patients.",
+   "watched": [],
+   "related": [],
+   "title_zh": "使用者對機器學習模型作為大腸直腸癌多學科團隊會議決策支援之觀感（AID-SIM-2）：一項定性模擬研究",
+   "abstract_zh": "背景：多學科團隊（MDT）會議被視為癌症診斷與照護決策的基石。然而，目前的文獻尚未證實MDT會議的決策能改善病人預後。目的：我們旨在於一項多中心模擬研究中，評估四種不同的決策支援模式如何影響決策過程及MDT內部討論，重點在於使用者的觀感。方法：四個大腸直腸癌中心的MDT參與本研究，每個中心進行四次模擬，每次模擬使用不同的決策支援工具：(1)目前標準做法、(2)目前標準做法加上預測模型、(3)結構化資料呈現工具、(4)結構化資料呈現工具加上預測模型。研究比較臨床醫師與模型估計的風險，比較各中心的治療建議，在模擬2、3、4之後使用Google表單連結進行使用者觀感問卷調查，並在每個中心最後一次模擬後進行半結構化訪談。結果：臨床醫師與模型之間的風險分組分布相似；然而在預測上出現明顯差異，特別是在高風險病人身上，凸顯出較複雜臨床病例需要標準化的需求。決策支援被認為的主要益處是提升照護標準化，且不受個別醫師個人觀點影響。然而，參與者強調臨床醫師自主性的必要性，以便在辨識出模型未能捕捉到的臨床細微差異時能夠推翻工具建議。結論：大腸直腸癌MDT對於在工作流程中使用預測模型及其他形式的決策支援表達正面看法。雖然臨床醫師與預測模型的風險分數分布相似，但在評估特定個別病人時卻出現分歧。",
+   "evidence_level": "其他",
+   "score": 3,
+   "score_reason": "定性模擬研究無真實病人結果、樣本量小（4中心），對台灣臨床實務的直接可操作性低，僅提供AI決策工具導入前的使用者接受度參考。",
+   "relevance": "中度相關",
+   "relevance_why": "探討MDT決策支援工具的使用者觀感，屬於流程改善議題，非直接影響手術或治療決策的證據。",
+   "novelty": "仍屬早期",
+   "one_liner": "在4個大腸直腸癌中心的模擬研究中，比較4種決策支援模式，發現臨床醫師與AI模型風險分組相似但個別高風險病人預測仍有分歧。",
+   "action": "目前不需改變做法；此為早期定性研究，未涉及真實病人結果，AI決策工具尚未準備好臨床導入評估。",
+   "pico": {
+    "P": "4個大腸直腸癌中心的MDT團隊（各進行4次模擬）",
+    "I": "決策支援工具：標準做法+預測模型、或結構化資料呈現工具（含或不含預測模型）",
+    "C": "目前標準MDT討論流程",
+    "O": "主要：使用者對決策支援工具的觀感、臨床醫師與模型風險評估之異同；次要：MDT內部討論品質、治療建議一致性"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供具體百分比或統計數值，僅描述「風險分組分布相似」與「高風險病人預測有明顯差異」",
+    "問卷與訪談結果為質性描述，無量化滿意度分數呈現",
+    "無病人臨床結果（如復發率、存活率）數據可供評估"
+   ],
+   "cautions": [
+    "定性模擬研究非真實病人資料，結果無法外推至實際臨床結果改善",
+    "僅4個中心參與，使用者觀感問卷易受志願者偏誤與社會期許偏誤影響",
+    "摘要未提供任何量化數據支持「相似分布」或「明顯差異」之陳述，難以判斷效果大小"
+   ],
+   "unassessable": [
+    "樣本代表性",
+    "問卷/訪談分析方法",
+    "利益衝突",
+    "試驗註冊",
+    "資料飽和度（qualitative saturation）"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-08-02T06:58:07+08:00"
+  },
+  {
+   "pmid": "42536273",
+   "title": "The link between microplastics and colorectal cancer",
+   "journal": "Cancer Metastasis Rev",
+   "journal_full": "Cancer metastasis reviews",
+   "issn": "1573-7233",
+   "issn_linking": "0167-7659",
+   "impact_factor": 12.7,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1038/s41591-024-03453-1",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Lynch-Godrei A, Leung C",
+   "abstract": "Microplastics and nanoplastics (MNPLs) are known to enter the human body and accumulate within different tissues. As MNPLs have been shown to exert toxic effects in vivo, we aimed to evaluate the link between MNPLs and colorectal cancer tumorigenesis. A literature review was conducted, using Ovid MEDLINE and PubMed databases. MeSH terms \"colorectal carcinoma\" and \"microplastic\" were the foundations for the search strategy. Forty-one studies were initially identified, of which fourteen were ultimately selected for analysis. MNPLs are found within human colorectal tumors and are present at higher levels in the feces of colorectal cancer patients. The tissue sample studies however are limited by small sample sizes (n = 10 or 25), and are representative of mainly Chinese populations (five of the six human studies conducted in China). The mouse studies observed increased tumor loads and dysbiosis in mice exposed to MNPLs, and the in vitro studies observed increased reactive oxygen species (ROS) when cells were exposed to MNPLs in culture. Although the direct link between MNPLs and de novo development of colorectal cancer remains to be elucidated, these findings suggest that MNPLs can induce the molecular changes involved in tumorigenesis, and tumorigenesis itself when combined with a compromised gastrointestinal barrier. Given that barrier disruption occurs with inflammatory bowel disease, smoking, alcohol, stress, and infections, these populations may be most vulnerable to the effects of MNPLs.",
+   "watched": [],
+   "related": [],
+   "title_zh": "微塑膠與大腸直腸癌之間的關聯",
+   "abstract_zh": "微塑膠與奈米塑膠(MNPLs)已知可進入人體並在不同組織中累積。由於MNPLs已被證實在體內具有毒性作用，我們旨在評估MNPLs與大腸直腸癌腫瘤發生之間的關聯。我們使用Ovid MEDLINE與PubMed資料庫進行文獻回顧，以「colorectal carcinoma」與「microplastic」之MeSH詞彙為檢索策略基礎。初步識別出41篇研究，最終選定14篇進行分析。研究發現MNPLs存在於人類大腸直腸腫瘤組織中，且在大腸直腸癌患者糞便中的濃度較高。然而組織樣本研究受限於樣本量極小(n=10或25)，且主要代表中國人群(六篇人體研究中有五篇於中國進行)。小鼠實驗觀察到暴露於MNPLs的小鼠腫瘤負荷增加及腸道菌群失衡；體外實驗則觀察到細胞於培養液中暴露於MNPLs時活性氧(ROS)增加。雖然MNPLs與大腸直腸癌從無到有發生之間的直接因果關係仍待闡明，這些發現提示MNPLs可誘導腫瘤發生相關之分子變化，且在合併腸胃道屏障受損時可誘發腫瘤發生本身。由於發炎性腸道疾病、吸菸、飲酒、壓力及感染皆可導致屏障破壞，這些族群可能最容易受到MNPLs的影響。",
+   "evidence_level": "綜述",
+   "score": 3,
+   "score_reason": "此為機制性文獻回顧，樣本量極小且缺乏人體因果證據，對台灣臨床決策目前無直接實用性，僅供研究方向參考。",
+   "relevance": "低度相關",
+   "relevance_why": "屬基礎/轉譯機制研究，非外科介入或臨床治療策略，短期內不影響臨床決策。",
+   "novelty": "仍屬早期",
+   "one_liner": "文獻回顧14篇研究，探討微奈米塑膠與大腸直腸癌腫瘤發生之關聯，發現腫瘤組織及糞便中濃度較高，但因果關係未確立。",
+   "action": "目前不需改變做法；此為機制性文獻回顧，缺乏人體因果證據與臨床可操作結論。",
+   "pico": {
+    "P": "14篇文獻(6篇人體組織/糞便研究、動物實驗、體外細胞實驗)",
+    "I": "微塑膠/奈米塑膠(MNPLs)暴露",
+    "C": "無對照組（多為觀察性描述性研究）",
+    "O": "主要：腫瘤組織/糞便MNPL濃度、腫瘤負荷、腸道菌群失衡、ROS產生；次要：致癌分子機轉"
+   },
+   "effects": [],
+   "key_numbers": [
+    "41篇文獻初步篩選，最終納入14篇進行分析",
+    "人體組織研究樣本量極小(n=10或25)，6篇人體研究中5篇來自中國",
+    "動物實驗顯示MNPL暴露增加腫瘤負荷及腸道菌群失衡（無絕對數字）"
+   ],
+   "cautions": [
+    "樣本量極小(n=10-25)且集中單一族群(中國)，外部效度有限",
+    "組織中發現MNPL為相關性證據，非因果性，作者亦承認直接因果關係未證實",
+    "動物/體外實驗結果不可直接推論至人類臨床致癌風險，屬早期機制假說"
+   ],
+   "unassessable": [
+    "文獻回顧方法學細節(是否符合PRISMA)",
+    "統計檢定方法與信賴區間",
+    "利益衝突揭露",
+    "各納入研究之偏誤風險評估"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-08-02T06:58:07+08:00"
+  },
+  {
+   "pmid": "42533401",
+   "title": "Beyond Sequence: Posttranslational Remodeling of Antigens in Autoimmunity",
+   "journal": "Immunol Rev",
+   "journal_full": "Immunological reviews",
+   "issn": "1600-065X",
+   "issn_linking": "0105-2896",
+   "impact_factor": 10.6,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1111/imr.70150",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Shrestha C, Weisfelder H, Do T",
+   "abstract": "Autoimmune responses are often attributed to failed tolerance to self-proteins, yet protein expression alone cannot explain why certain antigens dominate disease, why autoreactivity emerges under stress, or why specific HLA alleles shape risk. This review presents a framework in which autoimmunity arises from posttranslational remodeling of antigen identity. Rather than limiting PTMs to side chain chemistry, we consider how covalent modifications, altered processing, aberrant translation, peptide recombination, and supramolecular assembly expand the repertoire of molecular forms available for immune recognition. Classical PTMs such as citrullination, deamidation, oxidation, glycosylation, phosphorylation, sulfation, and ubiquitin-like remnants can modify proteolysis, HLA binding, and antibody recognition. Noncanonical pathways, including signal peptide processing, ERAP-dependent trimming, defective ribosomal products, cryptic ORFs, proteasome-catalyzed splicing, and hybrid insulin peptides, further demonstrate that the presented antigenome extends beyond annotated proteins. We also propose that aggregation functions as a supramolecular antigenic modification by altering uptake, persistence, protease accessibility, and local reaction chemistry. Examples from rheumatoid arthritis, celiac disease, type 1 diabetes, multiple sclerosis, systemic lupus erythematosus, inflammatory bowel disease, and autoimmune thyroid disease illustrate how these mechanisms converge. Finally, we discuss mass spectrometry and immunopeptidomics strategies for identifying, validating, and functionally interpreting remodeled antigens in autoimmune disease.",
+   "watched": [],
+   "related": [],
+   "title_zh": "超越序列：自體免疫疾病中抗原的翻譯後重塑",
+   "abstract_zh": "自體免疫反應常被歸因於對自身蛋白質耐受性的失敗，然而單純的蛋白質表現無法解釋為何特定抗原在疾病中占主導地位、為何自體反應性在壓力下出現、或為何特定 HLA 等位基因會影響疾病風險。本綜述提出一個框架，認為自體免疫源於抗原身份的翻譯後重塑。我們不將 PTM（翻譯後修飾）侵限於側鏈化學反應，而是考慮共價修飾、改變的處理過程、異常轉譯、胜肽重組、以及超分子組裝如何擴展可供免疫識別的分子形式庫。經典的 PTM，如瓜氨酸化、去醯胺化、氧化、糖化、磷酸化、硫酸化、以及類泛素殘留物，皆可修飾蛋白酶解、HLA 結合及抗體識別。非經典途徑，包括訊號胜肽處理、ERAP 依賴性修剪、有缺陷的核醣體產物、隱密 ORF、蛋白酶體催化的剪接、以及混合胰島素胜肽，進一步證明呈現的抗原體超越了已註解的蛋白質範圍。我們也提出聚集作用（aggregation）作為一種超分子抗原修飾，透過改變攝取、持續性、蛋白酶可及性及局部反應化學來發揮作用。類風濕性關節炎、乳糜瀉、第一型糖尿病、多發性硬化症、系統性紅斑性狼瘡、發炎性腸道疾病及自體免疫甲狀腺疾病的案例，說明這些機制如何匯聚。最後，我們討論質譜與免疫胜肽組學策略，用於識別、驗證及功能性解讀自體免疫疾病中重塑後的抗原。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "此為基礎免疫學機制綜述，內容嚴謹但與大腸直腸外科臨床實務（手術決策、腫瘤治療）完全無關聯。",
+   "relevance": "低度相關",
+   "relevance_why": "純基礎免疫學／自體免疫疾病機制綜述，非外科介入，與大腸直腸癌手術治療無直接關聯。",
+   "novelty": "仍屬早期",
+   "one_liner": "本綜述提出自體免疫抗原經翻譯後重塑（PTM、非經典轉譯、聚集）的機制框架，涵蓋 RA、T1DM、IBD 等多種疾病。",
+   "action": "目前不需改變做法：此為基礎免疫學機制綜述，非外科臨床研究，對大腸直腸外科日常診療無直接指引意義。",
+   "pico": {
+    "P": "無特定病人族群（綜述文獻，涵蓋多種自體免疫疾病，含 IBD）",
+    "I": "無（綜述並非介入性研究）",
+    "C": "無對照組",
+    "O": "無量化臨床結果；主題為抗原翻譯後修飾機制的概念性整合"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本文為機制綜述，無量化臨床結果數據可供抽取",
+    "涵蓋七種自體免疫疾病案例，但未提供統計效應量",
+    "無 RCT 或世代研究數據，純屬概念框架論述"
+   ],
+   "cautions": [
+    "綜述性質，無原始數據支持，所有機制關聯為作者整合詮釋，非直接因果證據",
+    "跨疾病（RA、T1DM、IBD 等）機制類推可能過度簡化個別疾病的異質性",
+    "缺乏可量化的臨床意義評估，難以判斷對疾病診斷或治療的實際影響"
+   ],
+   "unassessable": [
+    "盲法",
+    "allocation concealment",
+    "ITT",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本分析",
+    "此為綜述文獻，上述項目本質上不適用"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。",
+   "added_at": "2026-08-02T06:58:07+08:00"
+  },
+  {
+   "pmid": "42531704",
+   "title": "Region-specific immune regulation determines differential response to JAK1 inhibition in Crohn's disease ex vivo",
+   "journal": "J Crohns Colitis",
+   "journal_full": "Journal of Crohn's & colitis",
+   "issn": "1876-4479",
+   "issn_linking": "1873-9946",
+   "impact_factor": 10.3,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1093/ecco-jcc/jjag101",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Grieger K, Dehmel S, Schröder V, Schmidt K, Neufeldt V, Bock L",
+   "abstract": "Crohn's disease (CD) remains a significant therapeutic challenge, with limited treatment options and heterogeneous clinical responses. The selective JAK1 inhibitor filgotinib has shown great potential in treating ulcerative colitis but failed to demonstrate consistent efficacy in CD, for reasons that remain unclear. Here, we address this gap using an immunocompetent ex vivo model of precision-cut intestinal slices (PCIS) from CD patients, allowing region-specific analysis of ileal and colonic responses. We reveal that colonic PCIS display strong T cell activation and are highly sensitive to filgotinib, with suppression of Th1/Th17 cytokines, oxidative stress, and STAT signaling ex vivo. In contrast, ileal PCIS exhibited predominantly innate and Th17-driven inflammation, and were less sensitive to JAK1 inhibition. These data provide a potential mechanistic explanation for the limited efficacy of filgotinib in CD clinical trials and established PCIS as a human-relevant ex vivo model for region-specific drug responses, underscoring the importance of developing therapies tailored to different segments of the gut in inflammatory bowel disease.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42364020",
+     "date": "2026-06-27",
+     "title_zh": "Filgotinib 透過活化 p53 訊號路徑誘導大腸直腸癌細胞凋亡",
+     "score": 2,
+     "one_liner": "在 CRC 細胞株（HCT116、RKO、LoVo）與病人衍生類器官中，Filgotinib 誘導凋亡並抑制增殖，顯示潛在抗腫瘤機轉。",
+     "sim": 0.169
+    }
+   ],
+   "title_zh": "區域特異性免疫調控決定克隆氏症對 JAK1 抑制劑反應的差異：體外研究",
+   "abstract_zh": "克隆氏症（CD）仍是重大治療挑戰，治療選項有限且臨床反應具異質性。選擇性 JAK1 抑制劑 filgotinib 在治療潰瘍性大腸炎上展現極大潛力，但在 CD 中未能證實一致療效，原因尚不清楚。本研究利用來自 CD 病人的免疫功能完整體外模型——精細切割腸道組織切片（PCIS），進行迴腸與大腸區域特異性分析，以彌補此知識缺口。我們發現大腸 PCIS 顯示強烈 T 細胞活化，且對 filgotinib 高度敏感，可抑制 Th1/Th17 細胞激素、氧化壓力及 STAT 訊號傳導（皆於體外測試）。相反地，迴腸 PCIS 主要呈現先天性免疫與 Th17 驅動的發炎反應，對 JAK1 抑制較不敏感。這些數據為 filgotinib 在 CD 臨床試驗中療效有限提供了潛在機轉解釋，並確立 PCIS 作為具人體相關性的體外模型，可用於研究區域特異性藥物反應，強調在發炎性腸道疾病中依腸道不同節段開發客製化療法的重要性。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "為體外機轉研究，無臨床療效或手術相關數據，對台灣大腸直腸外科臨床決策幾無立即實用性。",
+   "relevance": "低度相關",
+   "relevance_why": "此為 IBD 藥物反應機轉的體外基礎研究，非外科介入，與大腸直腸外科日常手術決策無直接關聯。",
+   "novelty": "仍屬早期",
+   "one_liner": "在克隆氏症病人腸道切片體外模型中，比較大腸與迴腸對 filgotinib 反應，發現大腸段更敏感、迴腸段較不敏感。",
+   "action": "目前不需改變做法；此為機轉研究非臨床試驗，對外科手術適應症或時機無直接影響。",
+   "pico": {
+    "P": "克隆氏症病人來源的精細切割腸道組織切片（人數未明確列出）",
+    "I": "Filgotinib（JAK1 抑制劑）處理大腸段組織切片",
+    "C": "同病人迴腸段組織切片",
+    "O": "主要：T 細胞活化程度、Th1/Th17 細胞激素、氧化壓力、STAT 訊號傳導對藥物之反應性；次要：無"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供具體病人數、事件數或百分比等絕對數值",
+    "結果為描述性（敏感 vs 較不敏感），無統計檢定數字可供 ARR/NNT 計算",
+    "無臨床療效終點（如緩解率、手術率）數據"
+   ],
+   "cautions": [
+    "體外（ex vivo）結果，無法直接外推至臨床療效或手術決策",
+    "未提供病人數、失訪或統計檢定細節，可信度難以評估",
+    "屬機轉探索性研究，結論（區域差異解釋臨床試驗失敗）為推論性詮釋，非直接證實"
+   ],
+   "unassessable": [
+    "病人樣本數",
+    "統計方法與 p 值/信賴區間",
+    "利益衝突",
+    "試驗設計細節（如切片來源手術類型）"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。先前看過的 Filgotinib 論文是探討其在大腸直腸癌細胞株中誘導凋亡的機轉，與本篇針對克隆氏症腸道發炎的免疫調控機轉屬不同疾病與作用途徑，無直接關聯。",
+   "added_at": "2026-08-02T06:58:07+08:00"
+  },
+  {
+   "pmid": "42538090",
+   "title": "Management of Clostridioides difficile Infection in Patients with Inflammatory Bowel Disease",
+   "journal": "Gastroenterol Clin North Am",
+   "journal_full": "Gastroenterology clinics of North America",
+   "issn": "1558-1942",
+   "issn_linking": "0889-8553",
+   "impact_factor": 3.7,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Sep",
+   "doi": "10.1016/j.gtc.2026.05.007",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Zou W, Newman K",
+   "abstract": "Clostridioides difficile is a gram-positive, anaerobic bacteria that is ubiquitous. Oral-fecal transmission of the organism and its spores leads to C difficile colonization and infection (CDI) within the human gastrointestinal tract. Patients with inflammatory bowel disease (IBD) are more likely to be colonized with C difficile, develop CDI, and experience recurrence when compared to the general population. The biggest challenge of managing CDI in IBD remains diagnostic uncertainty and relies on clinicians' judgment.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42524912",
+     "date": "2026-07-30",
+     "title_zh": "發炎性腸道疾病（IBD）合併困難梭菌感染（CDI）之治療管理：抗生素療效之系統性回顧與統合分析",
+     "score": 3,
+     "one_liner": "在IBD合併CDI病人（9篇研究、643人）中，比較vancomycin與metronidazole，統合分析（214人）復發OR 0.55（95% CI 0.15-1.99，p=0.36），未達顯著。",
+     "sim": 0.323
+    },
+    {
+     "pmid": "42524912",
+     "date": "2026-07-31",
+     "title_zh": "發炎性腸道疾病（IBD）中困難梭菌感染（CDI）之處置：抗生素療效之系統性回顧與統合分析",
+     "score": 3,
+     "one_liner": "在IBD合併CDI患者（9篇研究、643人）中，比較vancomycin與metronidazole，復發OR 0.55（95%CI 0.15-1.99, p=0.36），未達統計顯著。",
+     "sim": 0.323
+    }
+   ],
+   "title_zh": "發炎性腸道疾病（IBD）患者困難梭菌感染（Clostridioides difficile infection, CDI）之處置",
+   "abstract_zh": "困難梭菌（Clostridioides difficile）是一種廣泛存在的革蘭氏陽性厭氧菌。此菌及其孢子經口糞途徑傳播，可導致人體胃腸道內的困難梭菌定植與感染（CDI）。與一般族群相比，發炎性腸道疾病（IBD）患者更容易發生困難梭菌定植、發展為CDI，且復發率更高。在IBD患者中處置CDI最大的挑戰仍是診斷上的不確定性，需依賴臨床醫師的判斷。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純敘述性綜述，摘要未提供任何新數據、統計方法或原始研究結果，對大腸直腸外科臨床決策的直接實用性極低。",
+   "relevance": "低度相關",
+   "relevance_why": "此篇聚焦於內科層面的IBD合併CDI診斷與治療管理，非外科介入或手術決策相關議題。",
+   "novelty": "仍屬早期",
+   "one_liner": "本篇綜述描述IBD患者較一般族群更容易發生困難梭菌定植、CDI與復發，並強調診斷不確定性為處置最大挑戰。",
+   "action": "目前不需改變做法；此為敘述性綜述無具體治療數據，需讀全文了解診斷與治療建議細節後再評估。",
+   "pico": {
+    "P": "發炎性腸道疾病（IBD）患者（人數未提供）",
+    "I": "困難梭菌感染（CDI）之診斷與管理",
+    "C": "無對照組（敘述性綜述）",
+    "O": "CDI發生率、定植率、復發率；主要議題為診斷不確定性"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供任何具體發生率、復發率或風險比等量化數字",
+    "僅定性描述IBD患者較一般族群更易定植、發生CDI及復發",
+    "無統計檢定、信賴區間或p值可供評估"
+   ],
+   "cautions": [
+    "此為敘述性綜述而非系統性方法學研究，結論缺乏可驗證的量化證據",
+    "摘要中「更容易」、「更高復發率」等描述無附上絕對數字或相對風險，無法評估效應量大小",
+    "強調「診斷不確定性」但未說明作者建議的具體診斷流程或標準，需讀全文才能判斷實用性"
+   ],
+   "unassessable": [
+    "研究方法（文獻篩選標準）",
+    "利益衝突",
+    "全文建議之具體診斷/治療流程",
+    "是否有系統性文獻搜尋策略"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "先前看過的兩篇統合分析聚焦於IBD合併CDI中vancomycin與metronidazole之療效比較（復發OR 0.55，未達顯著），本篇為更廣泛的管理綜述，可能涵蓋診斷與治療策略的全貌，但摘要未提供具體治療比較數據以資對照。",
+   "added_at": "2026-08-02T06:58:07+08:00"
+  },
+  {
+   "pmid": "42538089",
+   "title": "Treatment of Severe and Fulminant Clostridioides difficile Infections",
+   "journal": "Gastroenterol Clin North Am",
+   "journal_full": "Gastroenterology clinics of North America",
+   "issn": "1558-1942",
+   "issn_linking": "0889-8553",
+   "impact_factor": 3.7,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Sep",
+   "doi": "10.1016/j.gtc.2026.05.006",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Weyant R, Gîlcă-Blanariu G, Fischer M, Kao D",
+   "abstract": "Severe and fulminant Clostridioides difficile infection (CDI) represent distinct clinical entities that portend poor outcomes and require close monitoring and multidisciplinary management. Early recognition is key, and CDI-directed antimicrobials are the mainstay of therapy. If patients fail to improve despite maximal medical therapy, fecal microbiota transplantation (FMT) or surgical intervention should be considered. If FMT is performed, repeated dosing is often required. Surgical interventions such as colectomy or loop ileostomy are necessary in FMT nonresponders or those who have developed a complication such as perforation.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42524912",
+     "date": "2026-07-30",
+     "title_zh": "發炎性腸道疾病（IBD）合併困難梭菌感染（CDI）之治療管理：抗生素療效之系統性回顧與統合分析",
+     "score": 3,
+     "one_liner": "在IBD合併CDI病人（9篇研究、643人）中，比較vancomycin與metronidazole，統合分析（214人）復發OR 0.55（95% CI 0.15-1.99，p=0.36），未達顯著。",
+     "sim": 0.203
+    },
+    {
+     "pmid": "42524912",
+     "date": "2026-07-31",
+     "title_zh": "發炎性腸道疾病（IBD）中困難梭菌感染（CDI）之處置：抗生素療效之系統性回顧與統合分析",
+     "score": 3,
+     "one_liner": "在IBD合併CDI患者（9篇研究、643人）中，比較vancomycin與metronidazole，復發OR 0.55（95%CI 0.15-1.99, p=0.36），未達統計顯著。",
+     "sim": 0.203
+    }
+   ],
+   "title_zh": "嚴重型與猛暴型困難梭菌感染（CDI）之治療",
+   "abstract_zh": "嚴重型與猛暴型困難梭菌感染（CDI）代表不同的臨床病型，預後不佳，需要密切監測與多學科團隊管理。早期辨識是關鍵，且CDI導向的抗微生物藥物為治療主流。若病人在最大劑量藥物治療下仍未改善，應考慮糞便微生物移植（FMT）或手術介入。若執行FMT，通常需要重複給藥。對於FMT無反應者，或已發生併發症（如穿孔）的病人，則需要進行手術介入，如結腸切除術或迴腸造口術。",
+   "evidence_level": "綜述",
+   "score": 3,
+   "score_reason": "為敘述性綜述，無新數據、無統計比較，僅整理現有治療流程，對臨床決策參考價值有限但topic對大腸直腸外科仍具實務意義。",
+   "relevance": "中度相關",
+   "relevance_why": "涉及大腸直腸外科常被會診處理的猛暴型CDI手術適應症（結腸切除術、迴腸造口術），但本文為概論性綜述無具體手術時機準則或數據。",
+   "novelty": "仍屬早期",
+   "one_liner": "本文綜述嚴重型與猛暴型CDI的治療流程，強調抗生素為主流，FMT或手術為FMT/藥物無效者之選項，未提供新數據。",
+   "action": "目前不需改變做法；此為概念性綜述，無新證據或具體手術時機標準可供臨床決策參考，仍依現有機構流程處理猛暴型CDI會診。",
+   "pico": {
+    "P": "嚴重型與猛暴型困難梭菌感染病人（無提及具體人數，非原始研究）",
+    "I": "CDI導向抗微生物藥物治療、糞便微生物移植（FMT）、手術介入（結腸切除術或迴腸造口術）",
+    "C": "無對照組（敘述性綜述）",
+    "O": "未提供具體outcome數據；僅描述治療流程與適應症"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本文未提供任何具體發生率、百分比或統計數字",
+    "為敘述性綜述，無原始研究數據可供抽取",
+    "手術適應症僅描述為「FMT無反應者」或「發生穿孔等併發症者」，無明確時機或數值標準"
+   ],
+   "cautions": [
+    "此為敘述性綜述（narrative review），非系統性回顧或統合分析，缺乏系統性文獻篩選方法",
+    "未提供任何具體數據、發生率或統計顯著性，結論僅為專家意見整理",
+    "手術介入時機（何時該從FMT轉為手術）僅籠統描述，缺乏可操作的臨床決策標準"
+   ],
+   "unassessable": [
+    "研究方法與文獻篩選標準",
+    "手術與FMT的相對療效比較數據",
+    "利益衝突",
+    "外科介入的具體長期預後"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。先前看過的兩篇為IBD合併CDI的抗生素療效統合分析，聚焦於藥物選擇（vancomycin vs metronidazole），與本文探討的嚴重/猛暴型CDI整體治療流程（含手術適應症）在族群與臨床問題上並不相同。",
+   "added_at": "2026-08-02T06:58:07+08:00"
+  },
+  {
+   "pmid": "42535750",
+   "title": "Pharmacological modulation of the PD-1/PD-L1 axis: from immune tolerance in colitis to immune escape in colorectal cancer",
+   "journal": "Eur Rev Med Pharmacol Sci",
+   "journal_full": "European review for medical and pharmacological sciences",
+   "issn": "2284-0729",
+   "issn_linking": "1128-3602",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.26355/eurrev_202607_37885",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Grimaldi R, Balestrero F, Meggiolan A, Serra M, Ferramosca A, Travelli C",
+   "abstract": "In recent years, immune-based therapies, particularly checkpoint inhibitors, have been developed to interfere with tumor immune escape. Among various molecular targets, the PD-1/PD-L1 axis represents a central mechanism of tumor-driven immune evasion and a major target for restoring T-cell-mediated anti-tumor activity. Several blocking monoclonal antibodies have been developed to restore antitumor immunity, and anti-PD-1/PD-L1 antibodies have transformed the treatment of solid tumors, including colorectal cancer (CRC). In the colon, the PD-1/PD-L1 axis plays a dual and context-dependent role. During the early stages of intestinal inflammation, such as in inflammatory bowel disease (IBD), PD-1/PD-L1 signaling contributes to immune tolerance and mucosal protection. However, persistent activation of this pathway may become detrimental during the colitis-to-cancer transition, promoting immune evasion and tumor progression. Immune checkpoint inhibitors, such as nivolumab and pembrolizumab, currently approved for specific subsets of CRC, exert their effects by blocking the interaction between PD-1 and PD-L1, thereby restoring antitumor immune responses. Their use, either as monotherapy or in combination regimens, has demonstrated promising efficacy in advanced and mismatch repair-deficient CRC. This review summarizes the biphasic role of PD-1/PD-L1 in IBD and CRC, with particular emphasis on the therapeutic application of PD-1/PD-L1 blockade in CRC. It highlights monoclonal antibody-based approaches and emerging combination strategies, and finally examines current clinical trial evidence, highlighting ongoing challenges, including primary and acquired resistance to anti-PD-1/PD-L1 therapies.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42322856",
+     "date": "2026-06-21",
+     "title_zh": "Gemcitabine 透過促進乳酸化作用增強大腸直腸癌對抗PD-L1療法的敏感性",
+     "score": 2,
+     "one_liner": "在CRC細胞株與小鼠模型中，GEM併用抗PD-L1可透過促進PD-L1乳酸化增強CD8+T細胞浸潤與抗腫瘤免疫反應。",
+     "sim": 0.203
+    },
+    {
+     "pmid": "42350366",
+     "date": "2026-06-26",
+     "title_zh": "S100A14 透過 UPF1 介導的非典型 NF-κB 訊號活化，促進大腸直腸癌惡化與抗PD-1抗藥性",
+     "score": 3,
+     "one_liner": "在CRC細胞株與小鼠模型中，發現S100A14透過降解UPF1活化非典型NF-κB路徑，促進PD-L1上調與抗PD-1抗藥性。",
+     "sim": 0.179
+    },
+    {
+     "pmid": "42459668",
+     "date": "2026-07-17",
+     "title_zh": "免疫檢查點抑制劑在dMMR-MSI-H大腸直腸癌之應用：機轉、進展與展望",
+     "score": 4,
+     "one_liner": "本文綜述dMMR-MSI-H大腸直腸癌對ICIs（PD-1/CTLA-4）之高反應性的免疫機轉、臨床試驗證據、抗藥機轉與生物標記發展現況。",
+     "sim": 0.177
+    }
+   ],
+   "title_zh": "PD-1/PD-L1軸的藥理學調控：從大腸炎的免疫耐受性到大腸直腸癌的免疫逃逸",
+   "abstract_zh": "近年來，以免疫為基礎的療法，特別是免疫檢查點抑制劑，已被開發用於干擾腫瘤的免疫逃逸。在各種分子靶點中，PD-1/PD-L1軸代表腫瘤驅動免疫逃逸的核心機制，也是恢復T細胞介導抗腫瘤活性的主要靶點。已開發出多種阻斷性單株抗體以恢復抗腫瘤免疫，抗PD-1/PD-L1抗體已改變包括大腸直腸癌（CRC）在內的實體腫瘤治療方式。在大腸中，PD-1/PD-L1軸扮演雙重且依情境而異的角色。在腸道發炎早期階段，例如發炎性腸道疾病（IBD），PD-1/PD-L1訊號傳導有助於免疫耐受性與黏膜保護。然而，此路徑的持續活化在大腸炎轉變為癌症的過程中可能變得有害，促進免疫逃逸與腫瘤進展。免疫檢查點抑制劑如nivolumab與pembrolizumab目前已核准用於特定CRC亞群，其作用機轉為阻斷PD-1與PD-L1之間的交互作用，藉此恢復抗腫瘤免疫反應。無論作為單一療法或併用療法，其使用已在晚期及錯配修復缺陷（mismatch repair-deficient）CRC中展現出令人期待的療效。本篇綜述總結了PD-1/PD-L1在IBD與CRC中的雙相角色，並特別強調PD-1/PD-L1阻斷在CRC中的治療應用。文中重點介紹以單株抗體為基礎的方法與新興的併用策略，最後檢視目前的臨床試驗證據，並強調現存挑戰，包括對抗PD-1/PD-L1療法的原發性與後天性抗藥性。",
+   "evidence_level": "綜述",
+   "score": 3,
+   "score_reason": "純機轉與臨床試驗總結性綜述，無新數據或新臨床證據，對外科日常決策實用性低，僅供背景知識補充。",
+   "relevance": "低度相關",
+   "relevance_why": "主題聚焦於PD-1/PD-L1藥理機轉與內科免疫治療，非外科介入或手術決策直接相關議題。",
+   "novelty": "再確認已知",
+   "one_liner": "本文綜述PD-1/PD-L1軸在IBD與CRC中的雙相角色機轉，以及現有ICI（nivolumab、pembrolizumab）臨床應用與抗藥性挑戰。",
+   "action": "目前不需改變做法；此為機轉與內科治療綜述，無新手術相關證據，可作為與腫瘤內科溝通MSI-H/dMMR病人ICI治療的背景知識。",
+   "pico": {
+    "P": "無特定病人族群（綜述文章，涵蓋IBD與CRC相關文獻）",
+    "I": "PD-1/PD-L1軸調控機轉與抗PD-1/PD-L1抗體治療",
+    "C": "無對照組（敘述性綜述）",
+    "O": "總結PD-1/PD-L1在IBD至CRC轉變過程中的角色，及ICI臨床療效與抗藥機轉；無量化outcome"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本文為敘述性綜述，未提供原始臨床試驗數據或統計數字",
+    "未報告任何絕對風險、ARR或NNT可供抽取",
+    "聚焦於機轉描述而非療效量化結果"
+   ],
+   "cautions": [
+    "純綜述文章，無新原始數據，內容為既有文獻整理與機轉推論",
+    "IBD至CRC免疫逃逸之因果機轉多來自基礎研究，臨床外推需謹慎",
+    "未提供具體臨床試驗數字（如反應率、存活率），僅泛稱「promising efficacy」"
+   ],
+   "unassessable": [
+    "研究方法（綜述遴選標準）",
+    "利益衝突",
+    "文獻檢索策略與涵蓋年份範圍"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "與前述第3篇（dMMR-MSI-H CRC的ICI綜述）主題高度重疊，本文進一步將視角延伸至IBD到CRC的大腸炎-癌症轉變過程中PD-1/PD-L1雙相角色，補充了發炎到腫瘤演進的機轉脈絡。",
+   "added_at": "2026-08-02T06:58:07+08:00"
+  }
+ ]
+}
