@@ -1,0 +1,822 @@
+{
+ "date": "2026-08-05",
+ "generated_at": "2026-08-05T07:09:57+08:00",
+ "count": 11,
+ "papers": [
+  {
+   "pmid": "42551038",
+   "title": "Influence of KRAS mutation subtypes on response to neoadjuvant chemoradiotherapy in locally advanced rectal cancer: meta-analysis",
+   "journal": "BJS Open",
+   "journal_full": "BJS open",
+   "issn": "2474-9842",
+   "issn_linking": "2474-9842",
+   "impact_factor": 4.9,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1093/bjsopen/zrag080",
+   "ptype": "Meta-Analysis, Systematic Review",
+   "ptype_list": [
+    "Meta-Analysis",
+    "Systematic Review"
+   ],
+   "authors": "Sadien I, Cooper G, Phillips V, Joshi H, Wheeler J, Davies R",
+   "abstract": "BACKGROUND: KRAS mutations are common in colorectal cancer, but the impact of KRAS mutation subtypes on treatment response remains poorly understood. This research aimed to investigate whether different KRAS mutations influence pathological complete response (pCR) rates after neoadjuvant chemoradiotherapy in locally advanced rectal cancer (LARC).\nMETHODS: A systematic review and meta-analysis of studies describing genetic determinants of response to neoadjuvant chemoradiotherapy in LARC was conducted, searching for manuscripts published up to March 2026. The primary outcome of interest was the odds ratio for KRAS mutations and pCR. A random-effects model estimated the pooled effect size of KRAS mutations within and outside exon 2 on pCR. Genomic data sets were analysed to investigate the molecular characteristics of KRAS exon 2 and non-exon 2 mutant rectal cancers and their impact on overall and disease-free survival. Finally, a transcriptomic data set was analysed to elucidate the underlying response mechanisms.\nRESULTS: Out of 11 537 manuscripts identified, 15 studies (3354 patients) were included in the meta-analysis. The odds ratio for any KRAS mutation and pCR was 0.48 (95% confidence interval 0.32 to 0.70), indicating reduced odds of pCR in KRAS-mutant LARC. Subgroup analysis revealed that KRAS mutations in exon 2 accounted for this effect, whereas variants outside exon 2 had no influence (odds ratio 0.96, 95% confidence interval 0.11 to 8.49). Analysis confirmed poorer disease-free survival in patients with exon 2 alterations (P = 0.019) as well as poorer overall survival (P = 0.047). Transcriptomic analysis revealed that non-exon 2 KRAS-mutant tumours were enriched for inflammatory signalling pathways, suggesting that these tumours represent a subgroup with high immune infiltration.\nCONCLUSION: The presence of KRAS mutations adversely affects pCR odds after neoadjuvant chemoradiotherapy in LARC, but this effect is specific to exon 2 mutations.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42506362",
+     "date": "2026-07-28",
+     "title_zh": "全直腸新輔助治療（TNT）與長療程放化療（LCRT）於局部進行性直腸癌之比較：真實世界腫瘤反應與臨床結局",
+     "score": 3,
+     "one_liner": "在110名LARC病人中，比較TNT與LCRT，pCR（18.5% vs 9.7%）與cCR（15.6% vs 6.4%）均無統計顯著差異（p=0.301、0.151）。",
+     "sim": 0.201
+    },
+    {
+     "pmid": "42506362",
+     "date": "2026-07-29",
+     "title_zh": "局部進展期直腸癌之全程新輔助治療（TNT）與傳統長程放化療（LCCRT）比較：真實世界腫瘤反應與臨床結果",
+     "score": 3,
+     "one_liner": "在110名LARC病人中，比較TNT與LCCRT，pCR（18.5% vs 9.7%，p=0.301）與cCR（15.6% vs 6.4%，p=0.151）均未達統計顯著差異。",
+     "sim": 0.201
+    },
+    {
+     "pmid": "42501213",
+     "date": "2026-07-27",
+     "title_zh": "在放射治療資源受限地區，全程新輔助治療（TNT）優先化療可提升局部進展期直腸癌之病理完全緩解率（pCR）：一項隨機對照試驗",
+     "score": 5,
+     "one_liner": "在202名LARC患者中，比較TNT（化療優先）與傳統NCRT優先治療，TNT組pCR率55.4% vs 42.57%（p=0.023）。",
+     "sim": 0.193
+    }
+   ],
+   "title_zh": "KRAS突變亞型對局部進展期直腸癌（LARC）新輔助化放療反應之影響：統合分析",
+   "abstract_zh": "背景：KRAS突變在大腸直腸癌中常見，但KRAS突變亞型對治療反應的影響仍不清楚。本研究旨在探討不同KRAS突變是否影響局部進展期直腸癌（LARC）病人於新輔助化放療後之病理完全緩解（pCR）率。方法：針對描述LARC新輔助化放療反應之遺傳決定因子的研究進行系統性回顧與統合分析，搜尋至2026年3月止發表之文獻。主要感興趣結果為KRAS突變與pCR之勝算比（odds ratio）。以隨機效應模型估計exon 2內與exon 2外KRAS突變對pCR之合併效應量。並分析基因體數據集，以探討KRAS exon 2與非exon 2突變直腸癌之分子特徵及其對總存活與無病存活之影響。最後分析轉錄體數據集以闡明潛在反應機轉。結果：從11,537篇文獻中，共納入15項研究（3,354名病人）進行統合分析。任何KRAS突變與pCR之勝算比為0.48（95%信賴區間0.32至0.70），顯示KRAS突變型LARC之pCR勝算降低。次群組分析顯示，此效應主要來自exon 2內的KRAS突變，而exon 2外之變異無影響（勝算比0.96，95%信賴區間0.11至8.49）。分析證實exon 2變異病人有較差的無病存活（P=0.019）及較差的總存活（P=0.047）。轉錄體分析顯示，非exon 2 KRAS突變腫瘤富含發炎訊息傳導路徑，顯示此類腫瘤可能為高免疫浸潤之亞群。結論：KRAS突變會對LARC新輔助化放療後之pCR勝算產生不利影響，但此效應僅限於exon 2突變。",
+   "evidence_level": "統合分析",
+   "score": 5,
+   "score_reason": "方法嚴謹（15篇研究、3354人）且生物學機轉合理，但屬轉譯研究性質，非exon 2亞群信賴區間極寬顯示證據力不足，短期內無法直接改變臨床決策。",
+   "relevance": "中度相關",
+   "relevance_why": "屬分子生物標記研究而非直接手術介入，未來或可作為新輔助治療分層依據，但目前尚未可臨床應用。",
+   "novelty": "仍屬早期",
+   "one_liner": "統合15篇研究3354名LARC病人，KRAS exon 2突變使nCRT後pCR勝算降低（OR 0.48），但exon 2外突變無影響（OR 0.96）。",
+   "action": "目前不需改變常規治療流程；可留意KRAS exon 2突變病人對nCRT反應較差、預後較劣，未來若基因檢測普及可考慮列入治療分層討論。",
+   "pico": {
+    "P": "局部進展期直腸癌（LARC）病人，共15項研究、3354人（統合分析）",
+    "I": "KRAS突變（依exon 2內／外分類）",
+    "C": "KRAS野生型（wild-type）病人",
+    "O": "主要：新輔助化放療後病理完全緩解（pCR）；次要：無病存活（DFS）、總存活（OS）、腫瘤轉錄體特徵"
+   },
+   "effects": [],
+   "key_numbers": [
+    "任何KRAS突變 vs 野生型：pCR勝算比0.48（95% CI 0.32–0.70）",
+    "KRAS exon 2突變：無病存活較差（P=0.019）、總存活較差（P=0.047）",
+    "非exon 2突變對pCR無影響：OR 0.96（95% CI 0.11–8.49，區間極寬）"
+   ],
+   "cautions": [
+    "非exon 2亞群OR信賴區間極寬（0.11–8.49），樣本數過小，結論不可靠，僅屬探索性發現",
+    "全文僅提供勝算比，未附絕對pCR百分比，無法計算ARR/NNT，臨床效益大小不明",
+    "統合分析納入之原始研究多為回溯性遺傳關聯研究，異質性、研究品質與發表偏誤於摘要中未評估"
+   ],
+   "unassessable": [
+    "研究間異質性（I²）",
+    "發表偏誤評估",
+    "個別研究之risk of bias",
+    "利益衝突",
+    "試驗/研究註冊",
+    "成本分析"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。此篇聚焦於KRAS基因突變亞型與新輔助化放療反應之分子機轉，與先前所讀TNT vs LCRT/LCCRT之臨床療效比較研究主題不同，無直接關聯。",
+   "added_at": "2026-08-05T07:06:25+08:00"
+  },
+  {
+   "pmid": "42551037",
+   "title": "Quality of life, bowel dysfunction, and long-term oncological outcomes after transanal versus laparoscopic total mesorectal excision for mid- and low- rectal cancer (Ta-LaTME study): multicentre randomized open-label trial",
+   "journal": "BJS Open",
+   "journal_full": "BJS open",
+   "issn": "2474-9842",
+   "issn_linking": "2474-9842",
+   "impact_factor": 4.9,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1093/bjsopen/zrag045",
+   "ptype": "Multicenter Study, Randomized Controlled Trial",
+   "ptype_list": [
+    "Multicenter Study",
+    "Randomized Controlled Trial",
+    "Comparative Study"
+   ],
+   "authors": "Serra-Aracil X, Gonzalez A, Bargalló J, Serracant A, Roura J, Cayetano-Paniagua L",
+   "abstract": "BACKGROUND: Quality of life (QoL) and bowel function are key outcomes in mid- and low rectal cancer. The comparative impact of laparoscopic total mesorectal excision (LaTME) versus transanal total mesorectal excision (TaTME) on patient-reported outcomes and long-term oncological results in randomized trials remains unclear.\nMETHODS: This prospective multicentre randomized trial enrolled patients with resectable mid-low rectal adenocarcinoma. QoL was assessed using the 30- and 29-item European Organization for Research and Treatment of Cancer Quality of Life Core Questionnaires EORTC QLQ-C30 and QLQ-CR29, respectively) and bowel dysfunction was assessed using the Low Anterior Resection Syndrome (LARS) score before surgery and at the long-term follow-up (≥ 12 months after index surgery). The sample size calculation was based on the primary endpoint from the original randomized clinical trial (composite conversion outcome), for which 116 patients were required. The minimum oncological follow-up was 5 years. Modified intention-to-treat (mITT) and per-protocol analyses were prespecified.\nRESULTS: In all, 116 patients were randomized (LaTME, 57; TaTME, 59); 105 patients were included in the mITT analysis. Sixty-seven valid QoL questionnaires were obtained (63.8%). Postoperative global health status (EORTC QLQ-C30) was high in both groups (median score 83.3) with no significant differences between them, and functional scales remained near maximum, with improved emotional functioning after LaTME only. Using the EORTC QLQ-CR29 score, TaTME showed higher postoperative stool frequency, flatulence, and faecal incontinence, with similar body image and sexual function. LARS scores (assessed only in patients without a permanent stoma) were comparable between LaTME and TaTME (median 24 versus 27, respectively), with major LARS (score 30-42) in 30 and 44% of LaTME and TaTME patients respectively. There were no significant differences between LaTME and TaTME in local recurrence (6.4% versus 3.7%, respectively), distant recurrence (14.9% versus 18.5%, respectively), disease-free survival, and overall survival.\nCONCLUSION: Overall QoL and bowel function remained high, with no detectable between-group differences. TaTME was associated with a higher burden of specific evacuatory symptoms on the EORTC QLQ-CR29. Long-term oncological outcomes did not differ significantly between techniques. Registration number: NCT02550769 (http://www.clinicaltrials.gov).",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42425560",
+     "date": "2026-07-10",
+     "title_zh": "經肛門灌洗治療低位前切除症候群（LARS）：一項務實、多中心、交叉設計隨機對照試驗之研究計畫書",
+     "score": 4,
+     "one_liner": "此為計畫書，描述將於加拿大8中心對66名LARS病人（LARS分數>20）進行TAI vs. 傳統照護的交叉RCT，尚無結果。",
+     "sim": 0.219
+    },
+    {
+     "pmid": "42463577",
+     "date": "2026-07-18",
+     "title_zh": "低前位切除症候群（LARS）之病人自述結果：開腹手術與機器手臂手術之比較",
+     "score": 5,
+     "one_liner": "在184位直腸/乙狀結腸癌術後病人中，比較開腹與機器手臂手術，LARS發生率無顯著差異（重度39.1% vs. 39.2%，p=0.451）。",
+     "sim": 0.214
+    },
+    {
+     "pmid": "42463577",
+     "date": "2026-07-19",
+     "title_zh": "低前位切除症候群（LARS）之病人自述結果：開腹手術與機器手臂手術之比較",
+     "score": 5,
+     "one_liner": "在184位直腸/乙狀結腸癌術後病人中，比較開腹與機器手臂手術，LARS發生率無顯著差異（重度39.1% vs. 39.2%，p=0.451）。",
+     "sim": 0.214
+    }
+   ],
+   "title_zh": "中低位直腸癌經肛門與腹腔鏡全直腸繫膜切除術（TME）之生活品質、腸道功能與長期腫瘤學結果比較（Ta-LaTME研究）：多中心隨機開放標籤試驗",
+   "abstract_zh": "背景：生活品質（QoL）與腸道功能是中低位直腸癌的關鍵結果指標。經肛門全直腸繫膜切除術（TaTME）與腹腔鏡全直腸繫膜切除術（LaTME）對病人自述結果與長期腫瘤學結果的比較影響，在隨機試驗中仍不明確。方法：此前瞻性多中心隨機試驗納入可切除之中低位直腸腺癌病人。生活品質以歐洲癌症研究與治療組織生活品質核心問卷（30題版EORTC QLQ-C30、29題版QLQ-CR29）評估，腸道功能以低前位切除症候群（LARS）評分於術前及長期追蹤（術後≥12個月）時評估。樣本量計算依據原始隨機臨床試驗之主要終點（複合轉開腹結果），需要116名病人。最短腫瘤學追蹤期為5年。修正意圖治療（mITT）分析與計畫書分析均事先預設。結果：共116名病人隨機分配（LaTME組57人，TaTME組59人）；105名病人納入mITT分析。取得67份有效生活品質問卷（63.8%）。兩組術後整體健康狀態（EORTC QLQ-C30）皆高（中位分數83.3），組間無顯著差異，各功能量表分數皆接近滿分，僅LaTME組情緒功能有改善。以EORTC QLQ-CR29評分，TaTME組術後排便頻率、排氣及糞便滲漏較高，身體形象與性功能相似。LARS評分（僅於無永久性造口之病人評估）在LaTME與TaTME組間相當（中位數分別為24與27），重度LARS（評分30-42）在LaTME與TaTME組分別占30%與44%。LaTME與TaTME在局部復發（6.4% vs. 3.7%）、遠端復發（14.9% vs. 18.5%）、無病生存及總生存方面均無顯著差異。結論：整體生活品質與腸道功能維持良好，組間無可偵測差異。TaTME在EORTC QLQ-CR29上顯示較高的特定排便症狀負擔。長期腫瘤學結果在兩種術式間無顯著差異。試驗註冊號：NCT02550769（http://www.clinicaltrials.gov）。",
+   "evidence_level": "RCT",
+   "score": 6,
+   "score_reason": "屬RCT長期追蹤資料，但QoL問卷回收率僅63.8%、樣本量係依原試驗轉開腹率設計而非本次終點，腫瘤學事件數少，證據力受限，臨床可信度中等。",
+   "relevance": "高度相關",
+   "relevance_why": "TaTME在部分國家因腫瘤學安全性爭議而受限使用，此為長期LARS/QoL/腫瘤結果之RCT資料，對術式選擇有直接參考價值。",
+   "novelty": "再確認已知",
+   "one_liner": "在105名中低位直腸癌病人（LaTME 57 vs TaTME 59）中，比較TME術式，5年局部復發6.4% vs 3.7%、重度LARS 30% vs 44%，均未達統計顯著。",
+   "action": "目前不需改變TaTME/LaTME術式選擇準則；因QoL問卷回收率低且腫瘤事件數少，證據力有限，仍以病人解剖條件與術者經驗為主要考量。",
+   "pico": {
+    "P": "116名可切除中低位直腸腺癌病人隨機分配，105人納入mITT分析",
+    "I": "經肛門全直腸繫膜切除術（TaTME，59人）",
+    "C": "腹腔鏡全直腸繫膜切除術（LaTME，57人）",
+    "O": "主要：生活品質(QLQ-C30/CR29)、LARS評分；次要：5年局部/遠端復發率、無病生存、總生存"
+   },
+   "effects": [
+    {
+     "outcome": "局部復發率",
+     "ok": true,
+     "i_label": "TaTME",
+     "c_label": "LaTME",
+     "i_rate": 3.7,
+     "c_rate": 6.4,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 2.7,
+     "benefit": true,
+     "event_bad": true,
+     "nnt": 37,
+     "kind": "NNT",
+     "note": ""
+    },
+    {
+     "outcome": "重度LARS（評分30-42）",
+     "ok": true,
+     "i_label": "TaTME",
+     "c_label": "LaTME",
+     "i_rate": 44.0,
+     "c_rate": 30.0,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 14.0,
+     "benefit": false,
+     "event_bad": true,
+     "nnt": 7,
+     "kind": "NNH",
+     "note": ""
+    },
+    {
+     "outcome": "遠端復發率",
+     "ok": true,
+     "i_label": "TaTME",
+     "c_label": "LaTME",
+     "i_rate": 18.5,
+     "c_rate": 14.9,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 3.6,
+     "benefit": false,
+     "event_bad": true,
+     "nnt": 28,
+     "kind": "NNH",
+     "note": ""
+    }
+   ],
+   "key_numbers": [
+    "局部復發：LaTME 6.4% vs TaTME 3.7%，未報告p值或信賴區間",
+    "重度LARS：LaTME 30% vs TaTME 44%，摘要未明確標示統計顯著性",
+    "QoL問卷回收率僅63.8%（67/105），可能影響結果代表性"
+   ],
+   "cautions": [
+    "QoL問卷回收率僅63.8%，非隨機流失可能導致選擇性偏誤",
+    "樣本量依原試驗「轉開腹複合終點」設計，非為本次QoL/腫瘤終點量身計算，檢力可能不足",
+    "腫瘤學事件數少（局部復發僅個位數病人），未報告CI/p值，重度LARS差異亦缺乏統計檢定資訊"
+   ],
+   "unassessable": [
+    "隨機分配隱藏方式",
+    "盲法（手術性質難以盲）",
+    "失訪原因細節",
+    "利益衝突",
+    "成本分析"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "先前看過兩篇比較開腹與機器手臂手術LARS發生率（皆無顯著差異）的研究，屬同一「手術術式影響LARS」主題但比較組不同。本篇補上TaTME vs LaTME此一術式比較的長期LARS、QoL及腫瘤學結果，擴展了該主題的證據範圍。",
+   "added_at": "2026-08-05T07:06:25+08:00"
+  },
+  {
+   "pmid": "42545514",
+   "title": "Possible underestimation of non-operative management success in perforated diverticulitis with distant free air : Re: Cirocchi R, Matteucci M, Mari GM et al. (2026) The role of non-operative management (NOM) in perforated diverticulitis: a systematic review. Langenbecks Arch Surg 411:79",
+   "journal": "Langenbecks Arch Surg",
+   "journal_full": "Langenbeck's archives of surgery",
+   "issn": "1435-2451",
+   "issn_linking": "1435-2443",
+   "impact_factor": 2.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1186/s13017-020-00313-4",
+   "ptype": "Systematic Review, Letter",
+   "ptype_list": [
+    "Systematic Review",
+    "Letter"
+   ],
+   "authors": "Atlı M",
+   "abstract": "The review reported a 27.8% success rate for non-operative management in patients with distant free air and, on that basis, suggested that early surgery should be strongly considered. When we examined the published data, we were unable to reproduce this estimate. Recalculating from the information given in the review, the numerator appeared to include only studies that reported this outcome, whereas the denominator also included patients from studies in which it was not reported; on a like-for-like basis the success rate is closer to 73% than to the reported 27.8%. Several values in the distant-free-air column of Table 5 of the review also correspond exactly to the complementary failure rates, which is compatible with a labelling or reporting error. These observations concern the distant-air subgroup specifically and require verification against the original data rather than establishing that the pooled analysis is incorrect. Given the clinical weight carried by this subgroup, clarification from the authors, and a correction if the discrepancies are confirmed, would be valuable.",
+   "watched": [],
+   "related": [],
+   "title_zh": "穿孔性憩室炎合併遠端游離氣體：非手術治療成功率可能被低估——回應 Cirocchi R, Matteucci M, Mari GM 等人 (2026)《非手術治療（NOM）在穿孔性憩室炎中的角色：系統性回顧》Langenbecks Arch Surg 411:79",
+   "abstract_zh": "該系統性回顧報告，在合併遠端游離氣體的患者中，非手術治療（NOM）的成功率為27.8%，並據此建議應強烈考慮早期手術。當我們檢視該回顧發表的數據時，無法重現此估計值。根據該回顧所提供的資訊重新計算，分子似乎僅納入報告此結果的研究，而分母卻同時納入未報告此結果之研究的患者；若以相同基準（like-for-like）計算，成功率應接近73%，而非報告中的27.8%。該回顧表5中遠端游離氣體欄位的數個數值，也恰好與失敗率的補數完全一致，這與標籤錯誤或紀錄錯誤相符。這些觀察僅針對遠端游離氣體亞組，需要對照原始資料進行核實，而非斷定整體匯總分析有誤。鑑於此亞組在臨床決策上的重要性，作者的澄清，以及若差異獲得證實後的更正，將具有重要價值。",
+   "evidence_level": "其他",
+   "score": 6,
+   "score_reason": "若此方法學質疑成立，將大幅逆轉一項具臨床決策意義的次族群結論，但僅為單一讀者重新計算、尚未經原作者證實。",
+   "relevance": "高度相關",
+   "relevance_why": "直接涉及穿孔性憩室炎合併遠端游離氣體時是否應早期手術的臨床決策，此為大腸直腸外科常見情境。",
+   "novelty": "可能改變實務",
+   "one_liner": "針對某系統性回顧中「遠端游離氣體」亞組NOM成功率27.8%提出質疑，重新計算後成功率應接近73%。",
+   "action": "暫緩以原文27.8%數字作為早期手術之依據，待原作者回應或更正後再調整臨床判斷。",
+   "pico": {
+    "P": "原系統性回顧中，穿孔性憩室炎合併遠端游離氣體之患者（具體研究數與樣本量摘要未載明）",
+    "I": "以相同基準（分子分母一致）重新計算NOM成功率",
+    "C": "原系統性回顧報告之27.8%成功率",
+    "O": "主要：遠端游離氣體亞組NOM真實成功率；次要：偵測資料標籤／報告錯誤"
+   },
+   "effects": [],
+   "key_numbers": [
+    "原文報告NOM成功率27.8%，重新計算後估計接近73%，差異極大且未經原作者證實",
+    "疑似計算錯誤：分子僅納入報告該結果之研究，分母卻納入所有研究之患者",
+    "表5部分數值恰好等於失敗率補數，提示可能為標籤或紀錄錯誤"
+   ],
+   "cautions": [
+    "此為單方重新計算，尚待原作者核實原始資料，結論未定",
+    "僅涉及遠端游離氣體單一亞組，不代表整體系統性回顧結論失效",
+    "摘要未提供原始研究數目、樣本量等細節，難以獨立驗證重新計算過程"
+   ],
+   "unassessable": [
+    "原始研究數量與各研究樣本量",
+    "原文原始資料細節（表5完整數值）",
+    "是否已獲原作者回應或更正",
+    "利益衝突、試驗註冊等（本篇非原始研究，不適用）"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-08-05T07:06:25+08:00"
+  },
+  {
+   "pmid": "42547264",
+   "title": "Tumor stroma-immune interactions shape the immunosuppressive microenvironment and predict response to neoadjuvant chemoradiotherapy plus immunotherapy in rectal cancer",
+   "journal": "J Immunother Cancer",
+   "journal_full": "Journal for immunotherapy of cancer",
+   "issn": "2051-1426",
+   "issn_linking": "2051-1426",
+   "impact_factor": 11.7,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1136/jitc-2026-015376",
+   "ptype": "Multicenter Study",
+   "ptype_list": [
+    "Multicenter Study"
+   ],
+   "authors": "Wang Q, Tian N, Guo H, Xiang Y, Xiao Y, Lin G",
+   "abstract": "BACKGROUND: The tumor microenvironment, particularly the tumor stroma, plays a critical role in tumor progression, immune evasion, and therapeutic resistance. However, its interaction with the immune landscape in rectal cancer (RC) remains incompletely understood. This study aimed to comprehensively characterize the stromal-immune ecosystem associated with the tumor stroma ratio (TSR) in RC and to evaluate its clinical and therapeutic relevance.\nMETHODS: We analyzed a multicenter cohort of 498 patients with treatment-naïve RC in whom TSR was assessed on H&E-stained sections. Integrative multi-omics analyses were performed, including bulk RNA sequencing (n=118) and single-cell RNA/T-cell receptor (TCR) sequencing (n=10). Key findings were validated by immunohistochemistry (n=114) and multiplex immunofluorescence (n=20). Survival analyses and statistical comparisons were conducted to evaluate clinical associations and treatment responses.\nRESULTS: High TSR was an independent predictor of unfavorable disease-free survival and cancer-specific survival and was associated with aggressive clinicopathological features. Single-cell analyses revealed that TSR-high tumors exhibited a profoundly immunosuppressive microenvironment, characterized by clonally expanded terminally exhausted CD8+ T cells (CD8+ Tex-CXCL13) and activated CD4+ regulatory T cells (CD4+ Treg-TNFRSF4). Two LRRC15+ cancer-associated fibroblast (CAF) subsets (mCAF-CTHRC1 and mCAF-FAP) were enriched in TSR-high tumors. Among them, mCAF-CTHRC1 was associated with increased Treg abundance and activation features, with predicted interactions with CD4+ Treg-TNFRSF4 cells through the LGALS9-CD44 signaling axis. In addition, SPP1-expressing monocytes (Mon-SPP1) and malignant epithelial cells were prominent in TSR-high tumors and showed a predicted SPP1-CD44 interaction with T-cell subsets, suggesting potential involvement in immunosuppressive stromal-immune interactions. In patients receiving neoadjuvant therapy, pretreatment TSR-low tumors showed improved pathological response and survival outcomes compared with TSR-high tumors. In the neoadjuvant chemoradiotherapy plus immunotherapy cohort, TSR-low tumors were associated with a significantly higher major pathological response rate, whereas pathological complete response showed a non-significant trend in the same direction.\nCONCLUSIONS: High TSR identifies a clinically aggressive subtype of RC characterized by a profoundly immunosuppressive stromal-immune ecosystem enriched for exhausted T cells, immunosuppressive CAF programs, and SPP1-associated stromal-myeloid interactions. These findings highlight LGALS9-, LRRC15-, and SPP1-related stromal-immune pathways as candidate stromal-immune therapeutic vulnerabilities that warrant further mechanistic and preclinical validation.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42433376",
+     "date": "2026-07-11",
+     "title_zh": "IL21主要由CXCL13相關CD4+ T細胞亞群產生並形塑大腸直腸癌免疫微環境",
+     "score": 2,
+     "one_liner": "利用單細胞定序、組織染色與小鼠模型，發現大腸直腸癌中CXCL13+CD4+T細胞為IL21主要來源，並影響腫瘤免疫微環境相關基因表現。",
+     "sim": 0.174
+    }
+   ],
+   "title_zh": "腫瘤間質-免疫交互作用形塑直腸癌免疫抑制微環境並預測新輔助化放療合併免疫治療之反應",
+   "abstract_zh": "背景：腫瘤微環境，尤其是腫瘤間質，在腫瘤進展、免疫逃避與治療抗性中扮演關鍵角色。然而其與直腸癌（RC）免疫景觀之交互作用仍未完全闡明。本研究旨在全面刻畫與RC腫瘤間質比例（TSR）相關之間質-免疫生態系統，並評估其臨床與治療意義。\n方法：我們分析一個多中心世代，共498名未接受治療之RC患者，以H&E染色切片評估TSR。進行整合性多體學分析，包括整體RNA測序（n=118）與單細胞RNA/T細胞受體（TCR）測序（n=10）。關鍵發現以免疫組織化學（n=114）與多重免疫螢光染色（n=20）進行驗證。並進行存活分析與統計比較以評估臨床關聯性與治療反應。\n結果：高TSR是不良無病存活期與癌症特異性存活期的獨立預測因子，並與侵襲性臨床病理特徵相關。單細胞分析顯示TSR高之腫瘤呈現高度免疫抑制之微環境，特徵為克隆性擴增之終末耗竭CD8+ T細胞（CD8+ Tex-CXCL13）及活化之CD4+調節性T細胞（CD4+ Treg-TNFRSF4）。兩種LRRC15+癌症相關纖維母細胞（CAF）亞群（mCAF-CTHRC1與mCAF-FAP）在TSR高腫瘤中富集。其中，mCAF-CTHRC1與Treg數量增加及活化特徵相關，並經LGALS9-CD44訊號軸與CD4+ Treg-TNFRSF4細胞有預測性交互作用。此外，表現SPP1之單核球（Mon-SPP1）與惡性上皮細胞在TSR高腫瘤中顯著，並與T細胞亞群呈現預測性SPP1-CD44交互作用，提示其可能參與免疫抑制性間質-免疫交互作用。在接受新輔助治療之患者中，治療前TSR低之腫瘤相較TSR高者，展現較佳之病理反應與存活結果。在新輔助化放療合併免疫治療之世代中，TSR低之腫瘤與顯著較高之主要病理反應率相關，而病理完全反應則呈現同方向但未達統計顯著之趨勢。\n結論：高TSR標記出一個臨床上具侵襲性之RC亞型，其特徵為高度免疫抑制之間質-免疫生態系統，富含耗竭T細胞、免疫抑制性CAF程式及SPP1相關間質-骨髓樣交互作用。這些發現突顯LGALS9、LRRC15及SPP1相關之間質-免疫路徑為候選之間質-免疫治療脆弱點，值得進一步機制性與前臨床驗證。",
+   "evidence_level": "回溯性研究",
+   "score": 3,
+   "score_reason": "屬多中心大樣本轉譯研究，機制探索紮實，但摘要缺乏絕對數字與信賴區間，臨床可執行性低，需前瞻驗證才能改變實務。",
+   "relevance": "低度相關",
+   "relevance_why": "本篇聚焦腫瘤間質免疫微環境機制與生物標記發現，非外科介入或可立即應用之治療決策工具。",
+   "novelty": "仍屬早期",
+   "one_liner": "在498名未治療直腸癌患者中，高腫瘤間質比例（TSR）與免疫抑制微環境、較差DFS/CSS相關，TSR低者對新輔助化放療加免疫治療反應較佳。",
+   "action": "目前不需改變做法，TSR尚非常規檢驗且缺乏前瞻性驗證，可留意後續是否發展為可操作之病理生物標記。",
+   "pico": {
+    "P": "498名治療前直腸癌患者（多中心世代），部分接受新輔助化放療±免疫治療",
+    "I": "高腫瘤間質比例（TSR-high）",
+    "C": "低腫瘤間質比例（TSR-low）",
+    "O": "主要：無病存活期、癌症特異性存活期；次要：病理反應（MPR、pCR）與免疫微環境特徵"
+   },
+   "effects": [],
+   "key_numbers": [
+    "高TSR為DFS與CSS不良之獨立預測因子（摘要未提供絕對風險數字或HR/CI）",
+    "TSR低者於化放療+免疫治療世代有較高主要病理反應率（未提供絕對百分比）",
+    "病理完全反應（pCR）於TSR低者呈同方向趨勢但未達統計顯著（未提供p值）"
+   ],
+   "cautions": [
+    "摘要通篇僅描述方向性結果，未提供絕對百分比、HR、95% CI或明確p值，難以判斷效應大小",
+    "免疫治療合併新輔助化放療子群病例數可能偏小，pCR未達顯著可能為檢力不足而非真無差異",
+    "CAF與免疫細胞間之LGALS9-CD44、SPP1-CD44交互作用為生物資訊預測，非功能性驗證，因果關係尚未確立"
+   ],
+   "unassessable": [
+    "TSR病理判讀之盲法與觀察者間一致性",
+    "各中心收案方式與選樣偏誤",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "多體學樣本子集之選取標準"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-08-05T07:06:25+08:00"
+  },
+  {
+   "pmid": "42545699",
+   "title": "Colorectal Cancer Risk Factors in Adults in Nigeria",
+   "journal": "JAMA Netw Open",
+   "journal_full": "JAMA network open",
+   "issn": "2574-3805",
+   "issn_linking": "2574-3805",
+   "impact_factor": 11.7,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1001/jamanetworkopen.2026.26716",
+   "ptype": "Multicenter Study",
+   "ptype_list": [
+    "Multicenter Study"
+   ],
+   "authors": "Alatise O, Peeri N, Abdulkareem F, Badejo O, Gali B, Oludara M",
+   "abstract": "IMPORTANCE: Colorectal cancer (CRC) incidence is increasing in sub-Saharan Africa, including Nigeria, where more than half of patients die within 1 year due to late diagnosis and limited treatment. Without ready access to screening, identifying risk factors is critical. However, regional data are scarce, and it is unclear whether risk factors from high-income populations apply to Nigerians, who may have distinct clinicodemographic patterns and tumor characteristics.\nOBJECTIVE: To assess whether 13 CRC risk factors identified in high-income populations are associated with CRC in adults in Nigeria.\nDESIGN, SETTING, AND PARTICIPANTS: This multicenter case-control study was conducted in 6 hospitals across 3 of Nigeria's 6 geopolitical zones, with recruitment from April 2020 to September 2024. Participants were patients newly diagnosed with CRC and cancer-free controls matched on age, sex, location, education, and recruitment site. Data were analyzed from April 2023 to November 2025.\nEXPOSURES: Family history of cancer, anthropometric factors (adult height, body mass index [BMI], and somatotype or body size over the life course), physical activity, and dietary and lifestyle factors (processed meat, red meat, fruit, vegetables, fiber, alcohol, smoking, and diabetes).\nMAIN OUTCOMES AND MEASURES: The associations of risk factors with CRC were assessed using odds ratios (ORs) and 95% CIs, estimated using multivariable unconditional logistic regression.\nRESULTS: Among 2063 participants (1103 [53.5%] male; median [IQR] age, 54 [42-64] years) enrolled, most had secondary education or higher (1756 participants [85.2%]), lived in urban areas (1817 participants [88.1%]), and were Yoruba (1524 participants [73.9%]). Cases were older than controls (median [IQR] age, 56 [45-66] vs 52 [41-63] years) but were otherwise similar. Family history of cancer (OR, 1.55; 95% CI, 1.06-2.26), adult height (OR per 5-cm increase, 1.09; 95% CI, 1.00-1.20), body size or type over the life course (tertile 3 vs tertile 1: OR, 1.88; 95% CI, 1.30-2.72), and processed meat intake (lowest vs highest tertile of intake: OR, 1.43; 95% CI, 1.07-1.91) were positively associated with CRC risk, and an inverse U-shaped association was identified between physical activity and CRC risk (OR vs first quartile of activity, quartile 2: 0.63; 95% CI, 0.44-0.88; quartile 3: 0.52; 95% CI, 0.34-0.79; quartile 4: 0.77; 95% CI, 0.58-1.02), consistent with data from high-income populations. BMI was inversely associated with CRC risk (OR vs BMI 18.5-24.9, BMI <18.5: 2.63; 95% CI, 1.79-3.86; BMI ≥30: 0.42; 95% CI, 0.28-0.63), likely reflecting prediagnostic weight loss. No associations with diabetes, smoking, or intakes of red meat, fruit, vegetables, fiber, or alcohol were observed, likely due to low prevalence or variability.\nCONCLUSIONS AND RELEVANCE: This case-control study of CRC risk factors in adults in Nigeria found CRC risk patterns similar to those observed in high-income populations. These insights offer immediate opportunity to tailor education, prevention, and early detection in the region, especially as economic development leads to lifestyles more similar to high-income populations. These data provide a foundation for prospective research and investigations in other African populations.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42377336",
+     "date": "2026-06-30",
+     "title_zh": "描述波多黎各成年發炎性腸道疾病（IBD）患者之睡眠與身體活動模式",
+     "score": 1,
+     "one_liner": "在48名波多黎各IBD患者中，描述其身體活動與睡眠特徵，發現睡眠時間短且與BMI呈負相關。",
+     "sim": 0.173
+    },
+    {
+     "pmid": "42320971",
+     "date": "2026-06-20",
+     "title_zh": "探討阿曼流行病學風險因子與大腸直腸癌（CRC）之關聯：一項病例對照研究",
+     "score": 3,
+     "one_liner": "在阿曼166名CRC患者與166名對照中，發現吸菸（aOR 4.35）、高血壓（aOR 4.13）、糖尿病（aOR 2.70）等與CRC風險增加顯著相關。",
+     "sim": 0.167
+    },
+    {
+     "pmid": "42522007",
+     "date": "2026-07-31",
+     "title_zh": "中國北方農村人口對大腸直腸癌篩檢之認知度",
+     "score": 2,
+     "one_liner": "在中國北方農村居民（n=2091）中調查CRC篩檢認知度，60%達高認知，但疲勞/貧血症狀與非侵入性篩檢認知較低（77.4% vs 88-95%）。",
+     "sim": 0.164
+    }
+   ],
+   "title_zh": "尼日利亞成人大腸直腸癌（CRC）之風險因子",
+   "abstract_zh": "重要性：大腸直腸癌（CRC）發生率在撒哈拉以南非洲地區（包括尼日利亞）持續上升，該地區逾半數患者因診斷延遲與治療資源有限而於一年內死亡。在缺乏篩檢可及性的情況下，辨識風險因子至關重要。然而該地區資料稀少，且尚不清楚源自高收入國家人群的風險因子是否適用於尼日利亞人，因其可能具有不同的臨床人口學特徵與腫瘤特性。\n目的：評估13項於高收入國家人群中已確立的CRC風險因子，是否與尼日利亞成人之CRC相關。\n設計、場域與參與者：此為多中心病例對照研究，於尼日利亞六個地緣政治區中的三區、六家醫院進行，招募期間為2020年4月至2024年9月。參與者為新診斷CRC患者，並以年齡、性別、居住地、教育程度與招募地點配對之無癌對照組。資料分析期間為2023年4月至2025年11月。\n暴露因子：癌症家族史、人體測量因子（成年身高、身體質量指數[BMI]、生命歷程中的體型或身型）、身體活動、飲食與生活型態因子（加工肉、紅肉、水果、蔬菜、纖維、酒精、吸菸、糖尿病）。\n主要結果與測量：使用多變項無條件邏輯回歸估算勝算比（OR）與95%信賴區間，評估風險因子與CRC之關聯。\n結果：共納入2063名參與者（男性1103名[53.5%]；中位數[IQR]年齡54[42-64]歲），多數具中等教育以上程度（1756名[85.2%]）、居住於城市（1817名[88.1%]）且為約魯巴族（1524名[73.9%]）。病例組年齡較對照組大（中位數[IQR]年齡56[45-66] vs 52[41-63]歲），其餘特徵相似。癌症家族史（OR 1.55；95% CI 1.06-2.26）、成年身高（每增加5公分之OR 1.09；95% CI 1.00-1.20）、生命歷程中的體型（第三三分位 vs 第一三分位：OR 1.88；95% CI 1.30-2.72）及加工肉攝取（最低 vs 最高三分位：OR 1.43；95% CI 1.07-1.91）與CRC風險呈正相關；身體活動與CRC風險呈倒U型關聯（相對於第一四分位，第二四分位：OR 0.63；95% CI 0.44-0.88；第三四分位：OR 0.52；95% CI 0.34-0.79；第四四分位：OR 0.77；95% CI 0.58-1.02），與高收入國家人群資料一致。BMI與CRC風險呈負相關（相對於BMI 18.5-24.9，BMI<18.5：OR 2.63；95% CI 1.79-3.86；BMI≥30：OR 0.42；95% CI 0.28-0.63），可能反映診斷前體重減輕。未觀察到糖尿病、吸菸或紅肉、水果、蔬菜、纖維、酒精攝取與CRC之關聯，可能因盛行率或變異性偏低所致。\n結論與相關性：此針對尼日利亞成人CRC風險因子之病例對照研究發現，其風險模式與高收入國家人群相似。此發現為該地區量身打造教育、預防與早期偵測策略提供了即時機會，尤其隨著經濟發展使生活型態趨近高收入國家。此資料亦為未來前瞻性研究及其他非洲人群調查提供了基礎。",
+   "evidence_level": "病例對照",
+   "score": 3,
+   "score_reason": "設計嚴謹、樣本量尚可（多中心配對病例對照），但屬區域流行病學風險因子研究，非手術或治療性介入，對台灣臨床實務可及性低。",
+   "relevance": "低度相關",
+   "relevance_why": "此為尼日利亞人群CRC危險因子流行病學研究，非外科介入或治療方針研究，對台灣臨床決策無直接影響。",
+   "novelty": "再確認已知",
+   "one_liner": "在2063名尼日利亞成人（病例與配對對照）中檢視13項CRC風險因子，發現家族史、加工肉、身體活動等關聯模式與高收入國家相似（OR 1.43-1.88）。",
+   "action": "目前不需改變做法；此為尼日利亞地區流行病學風險因子研究，非手術或治療性研究，對台灣臨床決策無直接影響。",
+   "pico": {
+    "P": "2063名尼日利亞成人（CRC新診斷病例與依年齡、性別、居住地、教育、招募地配對之無癌對照組）",
+    "I": "13項CRC風險因子暴露（家族史、身高、BMI、生命歷程體型、身體活動、飲食生活習慣）",
+    "C": "無癌對照組",
+    "O": "主要：各風險因子與CRC之勝算比（OR）關聯；次要：與高收入國家風險模式比較"
+   },
+   "effects": [],
+   "key_numbers": [
+    "癌症家族史與CRC風險正相關，OR 1.55（95% CI 1.06-2.26）",
+    "加工肉攝取（最低vs最高三分位）OR 1.43（95% CI 1.07-1.91）",
+    "身體活動呈倒U型保護關聯，第三四分位OR 0.52（95% CI 0.34-0.79）"
+   ],
+   "cautions": [
+    "BMI與CRC呈負相關（低BMI OR 2.63）可能為診斷前體重減輕之逆因果，非真正保護因子",
+    "病例對照設計依賴回憶性暴露評估，易受回憶偏誤與選樣偏誤影響，因果推論有限",
+    "多項風險因子（13項）同時檢測，摘要未提及多重比較校正，部分信賴區間跨越1（如OR 0.77，95% CI 0.58-1.02）"
+   ],
+   "unassessable": [
+    "失訪率",
+    "招募與抽樣方法細節",
+    "利益衝突",
+    "試驗註冊",
+    "對照組配對細節之完整性"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "與先前看過的阿曼CRC病例對照研究（風險因子涵蓋吸菸、高血壓、糖尿病）相似，皆屬非高收入地區CRC風險因子探討，本篇將此類研究延伸至西非人群，並額外納入飲食、體型、身體活動等更完整的風險因子面向，補充地區性流行病學資料缺口。",
+   "added_at": "2026-08-05T07:06:25+08:00"
+  },
+  {
+   "pmid": "42550993",
+   "title": "Real-World Evidence for Oncology Patients With Rare NTRK Gene Fusions: Final Results From the German Multicenter Patient Cohort Study REALTRK",
+   "journal": "JCO Precis Oncol",
+   "journal_full": "JCO precision oncology",
+   "issn": "2473-4284",
+   "issn_linking": "2473-4284",
+   "impact_factor": 4.7,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1200/PO-26-00283",
+   "ptype": "Multicenter Study",
+   "ptype_list": [
+    "Multicenter Study"
+   ],
+   "authors": "Potthoff K, Lange S, Seufferlein T, Heinrich K, Claus R, Bleckmann A",
+   "abstract": "PURPOSE: TRK inhibitors (TRKis) have transformed the therapeutic landscape for patients with neurotrophic tyrosine receptor kinase (NTRK) gene fusion-positive tumors. However, approval of TRKis is based on evidence derived mainly from small, pooled, single-arm clinical trial cohorts. The REALTRK registry aims to describe real-world molecular diagnostic practices, treatment patterns, and clinical outcomes for adult patients with NTRK fusion-positive cancers.\nPATIENTS AND METHODS: The REALTRK registry was a multicenter cohort study that included adults with advanced solid tumors harboring NTRK1/2/3 fusions, from Germany and Switzerland. Both retrospective and prospective data were collected from diverse clinical settings. NTRK fusions had to be diagnosed via validated assays.\nRESULTS: Of 88 patients screened, 47 adults with advanced NTRK fusion-positive solid tumors were included in the full analysis set. Across all treatment lines after NTRK fusion diagnosis, 29 patients received TRKi therapy, eight received non-TRKi therapy, and 10 received no therapy. Lung cancer, colorectal cancer, and soft tissue sarcoma were the most common tumor types. Next-generation sequencing was the primary diagnostic method, with a median turnaround time of 2 weeks. After NTRK fusion diagnosis, TRKi therapy was immediately initiated in 26 patients, of whom 13 received TRKi as first-line treatment in the advanced/metastatic setting. About half of the patients responded to TRKi treatment as the first treatment line after NTRK fusion diagnosis (46.2%), with an overall response rate of 46.2% and a disease control rate of 73.1%. The median progression-free survival was 15.7 months, and the overall survival was 27.6 months in TRKi-treated patients.\nCONCLUSION: The REALTRK registry provides important real-world insights into the patient path of adult patients with locally advanced or metastatic solid tumors harboring NTRK1/2/3 gene fusions.",
+   "watched": [],
+   "related": [],
+   "title_zh": "罕見NTRK基因融合腫瘤患者之真實世界證據：德國多中心病人世代研究REALTRK之最終結果",
+   "abstract_zh": "目的：TRK抑制劑（TRKi）已改變NTRK（神經營養酪胺酸受體激酶）基因融合陽性腫瘤患者的治療版圖。然而，TRKi的核准主要基於小型、匯集式、單臂臨床試驗世代所得之證據。REALTRK登錄研究旨在描述成年NTRK融合陽性癌症患者之真實世界分子診斷實務、治療模式與臨床結果。\n\n病人與方法：REALTRK登錄研究為一項多中心世代研究，納入德國與瑞士境內帶有NTRK1/2/3融合之晚期實體腫瘤成年患者。同時收集回溯性與前瞻性資料，來源涵蓋多元臨床場域。NTRK融合須經驗證過之檢測方法確診。\n\n結果：共篩選88名患者，其中47名晚期NTRK融合陽性實體腫瘤成人患者納入完整分析族群。在NTRK融合診斷後所有治療線別中，29名患者接受TRKi治療，8名接受非TRKi治療，10名未接受治療。肺癌、大腸直腸癌與軟組織肉瘤為最常見腫瘤類型。次世代定序（NGS）為主要診斷方法，中位周轉時間為2週。診斷NTRK融合後，26名患者立即開始TRKi治療，其中13名於晚期／轉移性情境下接受TRKi作為第一線治療。約半數患者（46.2%）對於診斷後第一線治療（TRKi）有反應，整體反應率為46.2%，疾病控制率為73.1%。接受TRKi治療患者之中位無惡化存活期為15.7個月，整體存活期為27.6個月。\n\n結論：REALTRK登錄研究為帶有NTRK1/2/3基因融合之局部晚期或轉移性實體腫瘤成年患者的病人歷程，提供重要的真實世界洞見。",
+   "evidence_level": "前瞻性世代",
+   "score": 3,
+   "score_reason": "無對照組、樣本數極小（TRKi治療者僅29人）、CRC僅為納入腫瘤類型之一未單獨分析，對台灣大腸直腸外科臨床決策實用性低。",
+   "relevance": "低度相關",
+   "relevance_why": "NTRK融合在大腸直腸癌中發生率<1%，本研究為跨腫瘤別真實世界藥物治療登錄，非外科介入研究，CRC個案未單獨分析。",
+   "novelty": "再確認已知",
+   "one_liner": "在47名NTRK融合陽性晚期實體腫瘤患者（含CRC）中，接受TRKi治療者反應率46.2%、疾病控制率73.1%、中位PFS 15.7個月、OS 27.6個月。",
+   "action": "目前不需改變手術決策；僅供大腸直腸外科團隊會診腫瘤內科時了解，罕見NTRK融合陽性轉移性CRC可轉介評估TRKi治療。",
+   "pico": {
+    "P": "德國與瑞士88名篩檢、47名納入完整分析之NTRK1/2/3融合陽性晚期實體腫瘤成年患者（肺癌、CRC、軟組織肉瘤為主）",
+    "I": "TRK抑制劑（TRKi）治療（29人接受）",
+    "C": "非TRKi治療（8人）或未治療（10人）；無隨機對照組",
+    "O": "主要：整體反應率、疾病控制率、無惡化存活期、整體存活期；次要：診斷方法、周轉時間、治療模式"
+   },
+   "effects": [],
+   "key_numbers": [
+    "TRKi治療反應率46.2%、疾病控制率73.1%（單臂，無對照）",
+    "中位PFS 15.7個月，中位OS 27.6個月（TRKi治療組）",
+    "僅29/47患者接受TRKi治療，13人為晚期第一線使用"
+   ],
+   "cautions": [
+    "單臂真實世界登錄，無隨機對照組，療效數字無法與標準治療直接比較",
+    "樣本數極小（TRKi組n=29），CRC患者未單獨列出人數與結果，無法評估CRC亞群療效",
+    "回溯性與前瞻性資料混合收集，可能存在選樣偏誤（篩選88人僅47人納入分析）"
+   ],
+   "unassessable": [
+    "盲法",
+    "ITT分析",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "CRC亞群統計數據",
+    "成本分析"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-08-05T07:06:25+08:00"
+  },
+  {
+   "pmid": "42548154",
+   "title": "Circular stapler platform and the risk of anastomotic leakage after elective left colectomy and high anterior resection",
+   "journal": "Colorectal Dis",
+   "journal_full": "Colorectal disease : the official journal of the Association of Coloproctology of Great Britain and Ireland",
+   "issn": "1463-1318",
+   "issn_linking": "1462-8910",
+   "impact_factor": 2.3,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1111/codi.70564",
+   "ptype": "Comparative Study",
+   "ptype_list": [
+    "Comparative Study"
+   ],
+   "authors": "Guadagni S, Catarci M, Masedu F, Italian ColoRectal Anastomotic Leakage (iCral) study group",
+   "abstract": "AIM: The impact of different circular stapler platforms on the risk of anastomotic leakage following elective left colectomy and high anterior resection remains poorly defined. We compared the risk of anastomotic leakage across commonly used circular stapler platforms using advanced confounding control methods.\nMETHODS: This pre-planned post hoc analysis pooled individual patient data from the published iCral-2 and iCral-3 studies and from the iCral-4 study, whose primary results are currently under peer review. Adults undergoing elective left colectomy or high anterior resection with standardized end-to-end circular stapled anastomosis were included. Five circular stapler platforms were compared. Confounding was addressed using generalized boosted model-based propensity score weighting targeting the average treatment effect on the treated, with doubly robust outcome modelling. The primary endpoint was overall anastomotic leakage at 60 days.\nRESULTS: Among 3,653 patients, overall anastomotic leakage occurred in 2.7% of patients receiving the reference 3-row platform. After weighting, Platforms 3 and 4 were associated with a significantly increased risk of overall anastomotic leakage (odds ratios >2), whereas no statistically significant differences were observed for Platforms 2 or 5. Because the effective sample size after weighting was substantially reduced for Platform 3 owing to limited covariate overlap, the corresponding effect estimate should be interpreted with appropriate caution.\nCONCLUSIONS: Selected circular stapler platforms were associated with an increased risk of overall anastomotic leakage. These findings suggest platform-specific rather than class-wide differences and warrant confirmation in prospective studies designed to identify the device-related and procedural factors underlying these associations.\nTRIAL REGISTRATION: NCT03771456 for iCral2, NCT04397627 for iCral3 and NCT05227014 for iCral4.",
+   "watched": [],
+   "related": [],
+   "title_zh": "選擇性左側結腸切除術與高位前切除術中，環形吻合器平台與吻合口滲漏風險的關聯",
+   "abstract_zh": "目的：不同環形吻合器平台對選擇性左側結腸切除術與高位前切除術後吻合口滲漏風險的影響，目前尚未明確定義。本研究使用進階的干擾因子控制方法，比較常用環形吻合器平台間的吻合口滲漏風險。\n方法：本研究為預先規劃的事後分析（post hoc analysis），彙整已發表的iCral-2與iCral-3研究，以及目前正在同儕審查中的iCral-4研究之個別病人資料。納入接受標準化端對端環形吻合器吻合術之選擇性左側結腸切除術或高位前切除術成人病人。共比較五種環形吻合器平台。干擾因子處理採用以廣義提升模型（generalized boosted model）為基礎之傾向分數加權，目標為治療組平均治療效應（average treatment effect on the treated），並搭配雙重穩健結果模型（doubly robust outcome modelling）。主要終點為術後60天內整體吻合口滲漏發生率。\n結果：在3,653名病人中，接受參考標準三排（3-row）平台者，整體吻合口滲漏發生率為2.7%。經加權後，平台3與平台4與顯著增加的整體吻合口滲漏風險相關（勝算比>2），而平台2或平台5則未觀察到統計顯著差異。由於平台3在共變數重疊有限的情況下，加權後的有效樣本數大幅減少，故其對應的效應估計值應謹慎解讀。\n結論：特定環形吻合器平台與吻合口滲漏風險增加相關。此結果顯示差異屬於特定平台而非整類器材的普遍現象，仍需前瞻性研究確認，以釐清造成此關聯的器材相關與手術操作相關因子。\n試驗註冊：iCral2為NCT03771456，iCral3為NCT04397627，iCral4為NCT05227014。",
+   "evidence_level": "回溯性研究",
+   "score": 5,
+   "score_reason": "統計方法先進、樣本量大，但為事後分析且摘要中平台以代號呈現無法對應實際廠牌，臨床可操作性受限。",
+   "relevance": "高度相關",
+   "relevance_why": "吻合口滲漏是大腸直腸手術最重要的併發症之一，吻合器選擇是每天手術中的實際決策。",
+   "novelty": "仍屬早期",
+   "one_liner": "在3,653名接受左側結腸切除或高位前切除病人中，比較5種環形吻合器平台，發現平台3、4之吻合口滲漏風險顯著增加（OR>2）。",
+   "action": "目前不需改變做法：摘要未揭露平台3、4實際廠牌名稱，須讀全文確認對應器材後才能評估是否調整臨床選用。",
+   "pico": {
+    "P": "3,653名接受選擇性左側結腸切除術或高位前切除術、行標準化端對端環形吻合器吻合之成人病人（彙整iCral-2、iCral-3、iCral-4三個研究）",
+    "I": "使用平台2、3、4、5之環形吻合器",
+    "C": "參考標準3排（3-row）環形吻合器平台",
+    "O": "主要：術後60天內整體吻合口滲漏發生率；次要：未明確說明"
+   },
+   "effects": [],
+   "key_numbers": [
+    "參考3排平台整體吻合口滲漏率2.7%（絕對值，唯一有給出的組別絕對數字）",
+    "平台3、4經傾向分數加權後OR>2（僅相對風險，無絕對事件數/總數可供比對）",
+    "平台3因共變數重疊不足，加權後有效樣本數大幅減少，效應估計不穩定（作者自述需謹慎解讀）"
+   ],
+   "cautions": [
+    "摘要以「平台2/3/4/5」代號呈現，未揭露實際廠牌名稱，無法直接對應臨床採購決策",
+    "為事後分析（post hoc），非隨機分派比較吻合器，傾向分數加權仍可能殘留未測量干擾因子",
+    "僅報告OR未附95%CI，且平台3因樣本重疊不佳導致估計值本身被作者標註為不穩定"
+   ],
+   "unassessable": [
+    "盲法",
+    "ITT",
+    "失訪率",
+    "利益衝突",
+    "成本分析",
+    "各平台實際廠牌對照名稱",
+    "各非參考平台之絕對吻合口滲漏發生率"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。",
+   "added_at": "2026-08-05T07:06:25+08:00"
+  },
+  {
+   "pmid": "42543847",
+   "title": "Single-Port Versus Multiport Robotic Right Colectomy: Short-Term Outcomes and Impact of Extraction-Site Location on Postoperative Pain",
+   "journal": "Asian J Endosc Surg",
+   "journal_full": "Asian journal of endoscopic surgery",
+   "issn": "1758-5910",
+   "issn_linking": "1758-5902",
+   "impact_factor": 1.1,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1111/ases.70364",
+   "ptype": "Comparative Study",
+   "ptype_list": [
+    "Comparative Study"
+   ],
+   "authors": "Nishikawa Y, Mori T, Hara M, Kageyama Y, Bando Y, Jikihara S",
+   "abstract": "INTRODUCTION: Robotic right hemicolectomy has been widely adopted, but the impact of extraction-site location on postoperative pain in single-port (SP) surgery remains unclear. We aimed to compare short-term outcomes between SP and multiport robotic surgery and to evaluate postoperative wound pain according to extraction-site location.\nMETHODS: This retrospective single-center study included 49 consecutive patients who underwent robotic right hemicolectomy (January 2024-December 2025): 25 in the SP group and 24 in the Xi group. Postoperative pain was assessed using the cumulative pain score (sum of daily maximum NRS values, POD1-POD7). Pain outcomes were compared among SP_P (Pfannenstiel, n = 13), SP_Umb (umbilical, n = 12), and Xi_P (Pfannenstiel, n = 22).\nRESULTS: Perioperative and oncological outcomes were comparable between the groups. The SP group had significantly shorter operative time (244 vs. 309 min, p = 0.0013) and console time (167 vs. 239 min, p = 0.0014). Postoperative pain differed significantly among the three subgroups (p = 0.0049). Pairwise comparisons showed significantly lower pain in SP_P than in SP_Umb (p = 0.0062), with no significant difference for the other two comparisons. The difference between SP_P and SP_Umb remained significant after adjusting for anastomotic technique and surgical procedure in multiple regression analysis.\nCONCLUSION: SP-assisted right hemicolectomy was safe, with short-term outcomes comparable to the Xi platform. These findings suggest that postoperative pain following robotic right hemicolectomy may be influenced not only by the number of abdominal ports but also by the location of the extraction incision.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42377471",
+     "date": "2026-06-30",
+     "title_zh": "單孔機器人與腹腔鏡經肛門微創手術（TAMIS）治療直腸腫瘤之首次比較分析：手術效率與臨床結果",
+     "score": 5,
+     "one_liner": "在108名接受TAMIS之直腸腫瘤病人中，單孔機器人組手術時間較短（44.6 vs 57.5分，p=0.026）、住院天數較短（1.47 vs 2.51天，p<0.001）。",
+     "sim": 0.196
+    },
+    {
+     "pmid": "42402497",
+     "date": "2026-07-06",
+     "title_zh": "使用DEXTER®機器人手術系統進行機器人輔助右側結腸切除術：首個前瞻性多中心研究",
+     "score": 3,
+     "one_liner": "在33名接受右側結腸切除術病人中，使用DEXTER機器人系統執行手術，主要併發症率6%（2/33）皆與裝置無關，初步證實可行性。",
+     "sim": 0.18
+    },
+    {
+     "pmid": "42478982",
+     "date": "2026-07-22",
+     "title_zh": "術後第三天生物標記預測大腸直腸癌手術後吻合口滲漏之比較表現—回溯性世代研究",
+     "score": 4,
+     "one_liner": "在166名大腸直腸癌吻合手術病人中，比較多種POD3生物標記預測吻合口滲漏能力，發現CAR預測力最佳（OR=1.91）。",
+     "sim": 0.166
+    }
+   ],
+   "title_zh": "單孔機器人與多孔機器人右半結腸切除術之比較：短期結果與取出切口位置對術後疼痛之影響",
+   "abstract_zh": "前言：機器人右半結腸切除術已廣泛採用，但單孔（SP）手術中取出切口位置對術後疼痛的影響仍不明確。本研究旨在比較單孔與多孔機器人手術的短期結果，並依取出切口位置評估術後傷口疼痛。方法：本回溯性單中心研究納入2024年1月至2025年12月間連續49名接受機器人右半結腸切除術病人：SP組25人、Xi組24人。術後疼痛以累積疼痛評分（POD1-POD7每日最高NRS值之總和）評估。疼痛結果比較三組：SP_P（Pfannenstiel切口，n=13）、SP_Umb（臍部切口，n=12）、Xi_P（Pfannenstiel切口，n=22）。結果：兩組圍術期及腫瘤學結果相當。SP組手術時間顯著較短（244 vs 309分，p=0.0013），console時間亦較短（167 vs 239分，p=0.0014）。三個次群組間術後疼痛有顯著差異（p=0.0049）。兩兩比較顯示SP_P疼痛顯著低於SP_Umb（p=0.0062），其餘兩項比較無顯著差異。經多元迴歸分析調整吻合技術與手術方式後，SP_P與SP_Umb之差異仍具顯著性。結論：SP輔助右半結腸切除術安全，短期結果與Xi平台相當。此結果顯示機器人右半結腸切除術後疼痛可能不僅受腹部通道數量影響，取出切口位置亦扮演角色。",
+   "evidence_level": "回溯性研究",
+   "score": 4,
+   "score_reason": "單中心回溯性研究，總樣本僅49人、次群組更小（12-22人），為假設生成型研究，臨床可信度有限但議題具實用性。",
+   "relevance": "中度相關",
+   "relevance_why": "機器人右半結腸切除術於台灣醫學中心漸普及，但單孔機器人平台可近性有限，結論尚屬初步。",
+   "novelty": "仍屬早期",
+   "one_liner": "在49名機器人右半結腸切除病人中，SP手術時間較短(244 vs 309分)，且SP合併Pfannenstiel切口疼痛低於臍部切口(p=0.0062)。",
+   "action": "目前不需改變做法；若已用單孔機器人，可考慮優先選Pfannenstiel取出切口，但需更大樣本前瞻性研究驗證。",
+   "pico": {
+    "P": "49名接受機器人右半結腸切除術病人（2024/1-2025/12，單中心）",
+    "I": "單孔機器人手術（SP，n=25），依取出切口再分Pfannenstiel(n=13)與臍部(n=12)",
+    "C": "多孔Xi機器人手術（n=24），取出切口皆為Pfannenstiel(n=22)",
+    "O": "主要：手術時間、console時間、術後累積疼痛評分(POD1-7 NRS)；次要：圍術期與腫瘤學結果"
+   },
+   "effects": [],
+   "key_numbers": [
+    "手術時間：SP 244分 vs 多孔Xi 309分，p=0.0013（連續變項，非事件率）",
+    "Console時間：SP 167分 vs 多孔Xi 239分，p=0.0014",
+    "疼痛評分：SP_Pfannenstiel顯著低於SP_臍部組，p=0.0062；三組整體p=0.0049"
+   ],
+   "cautions": [
+    "樣本極小（總49人，次群組僅12-22人），統計檢力不足，結果易受偶然波動影響",
+    "回溯性單中心非隨機分組，取出切口選擇可能受術者偏好等混雜因子影響",
+    "疼痛依取出位置分組為事後次群組分析，未預先設計，因果推論需謹慎"
+   ],
+   "unassessable": [
+    "盲法",
+    "allocation concealment",
+    "ITT分析",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "長期腫瘤學結果（如局部復發、存活率）"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。清單中的論文分別涉及TAMIS單孔機器人比較、DEXTER系統右側結腸切除可行性、以及吻合口滲漏生物標記，主題與本篇SP vs Xi右半結腸切除疼痛及切口位置議題無直接關聯。",
+   "added_at": "2026-08-05T07:06:25+08:00"
+  },
+  {
+   "pmid": "42549219",
+   "title": "JAK1-preferential inhibition in refractory inflammatory bowel disease: reframing upadacitinib as a strategy for rapid immune recalibration",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1007/s10620-023-07837-0",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Liu X, Wang Y",
+   "abstract": "Inflammatory bowel disease (IBD) management has moved from symptom control toward treat-to-target strategies, yet many patients with ulcerative colitis or Crohn's disease remain difficult to treat after primary non-response, secondary loss of response, or intolerance to advanced therapy. Upadacitinib, an oral Janus kinase 1 (JAK1)-preferential inhibitor, has shown clinically meaningful efficacy in both ulcerative colitis and Crohn's disease, including biologic-experienced populations. In this Perspective, we propose rapid immune recalibration as a hypothesis-generating clinical model for interpreting rapid inflammatory control following JAK1-preferential inhibition in selected patients with inflammation-dominant refractory IBD, rather than as an established biological mechanism or evidence of a durable immune reset. Recalibration is defined here as an early pharmacologically induced shift in the intensity and balance of convergent cytokine signaling, not as immune homeostasis restoration, mucosal healing, transmural repair, fibrosis reversal, or proven disease modification. We distinguish established clinical evidence from mechanistic rationale and from unvalidated downstream hypotheses, including barrier stabilization, microbiome change, anti-fibrotic potential, and biomarker-guided positioning. We also outline measurable clinical criteria, feasible biomarkers, exploratory translational endpoints, and safety boundaries that should guide future testing of this framework. This more bounded interpretation may help inform future efforts to move refractory IBD treatment from empirical drug switching toward mechanism-informed therapeutic choice without overstating the current evidence.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42325015",
+     "date": "2026-06-22",
+     "title_zh": "使用Upadacitinib治療發炎性腸道疾病患者後出現精液變色之案例系列",
+     "score": 2,
+     "one_liner": "在6名接受upadacitinib治療之IBD男性患者中，觀察到用藥後中位2個月出現劇量相關、可逆之精液變色現象。",
+     "sim": 0.163
+    }
+   ],
+   "title_zh": "JAK1優先抑制策略在難治性發炎性腸道疾病中的應用：將Upadacitinib重新定義為快速免疫再校正策略",
+   "abstract_zh": "發炎性腸道疾病（IBD）的治療已從症狀控制轉向治療達標（treat-to-target）策略，然而許多潰瘍性結腸炎或克隆氏症患者在原發性無反應、次發性反應喪失，或對進階療法不耐受後，仍屬難治型病例。Upadacitinib是一種口服JAK1（Janus kinase 1）優先抑制劑，已在潰瘍性結腸炎與克隆氏症（包括曾使用生物製劑的族群）中展現具臨床意義的療效。在本篇觀點論述中，我們提出「快速免疫再校正」作為一個假說生成性的臨床模型，用以解釋在特定發炎主導型難治性IBD患者中，JAK1優先抑制後迅速炎症控制的現象，而非將其視為已確立的生物機制或持久免疫重置的證據。此處定義的「再校正」為藥理誘導下對匯聚性細胞激素訊號強度與平衡的早期改變，並非免疫homeostasis的恢復、黏膜癒合、透壁修復、纖維化逆轉，或已證實的疾病修飾作用。我們區分已確立的臨床證據、機轉推論，以及尚未驗證的下游假說（包括屏障穩定化、微生物群改變、抗纖維化潛力，及生物標記導向的定位）。我們也概述了應用於未來驗證此框架的可測量臨床標準、可行的生物標記、探索性轉譯終點及安全邊界。此較為有限度的詮釋，或有助於未來將難治性IBD治療從經驗性換藥推向機轉導向的治療選擇，同時避免過度詮釋現有證據。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "本文為無新臨床數據的觀點性綜述，屬假說生成階段，與大腸直腸外科手術決策幾無直接關聯。",
+   "relevance": "低度相關",
+   "relevance_why": "純藥物機轉假說性論述，非外科介入或手術相關證據，屬內科/免疫學範疇。",
+   "novelty": "仍屬早期",
+   "one_liner": "本文提出「快速免疫再校正」假說框架，解釋JAK1優先抑制劑upadacitinib在難治性IBD中快速控制炎症的現象，屬機轉推論非實證數據。",
+   "action": "目前不需改變做法；此為藥物機轉假說性綜述，無手術相關新證據，可留意日後轉譯研究進展。",
+   "pico": {
+    "P": "難治性IBD（潰瘍性結腸炎/克隆氏症）患者，概念性論述，無具體研究人數",
+    "I": "Upadacitinib（JAK1優先抑制劑）治療",
+    "C": "無對照組（觀點性綜述，非原創研究）",
+    "O": "提出「快速免疫再校正」假說框架；次要討論屏障穩定化、微生物群改變、抗纖維化潛力等未驗證假說"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本文未提供任何量化臨床數據或統計結果",
+    "屬純觀點性論述，無原始試驗數字可供抽取",
+    "所有機轉假說皆明確標註為「未驗證」"
+   ],
+   "cautions": [
+    "此為Perspective/觀點性綜述，非原創研究，無新臨床試驗數據支持",
+    "「免疫再校正」為作者自行提出之假說性框架，非已證實之生物機制，避免過度詮釋為因果",
+    "內容聚焦藥物免疫機轉，與大腸直腸外科手術治療決策關聯性極低"
+   ],
+   "unassessable": [
+    "研究設計",
+    "樣本量",
+    "統計方法",
+    "盲法",
+    "ITT",
+    "利益衝突",
+    "此篇無實證研究架構可供EBM常規評估項目適用"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。先前案例系列聚焦於upadacitinib引起精液變色之不良反應報告，與本文探討之免疫機轉假說框架主題不同，難以建立實質關聯。",
+   "added_at": "2026-08-05T07:06:25+08:00"
+  },
+  {
+   "pmid": "42546203",
+   "title": "Cell surface ADGRG1 and CD86 expression identifies antitumor CD4+ T cells in human cancer",
+   "journal": "Proc Natl Acad Sci U S A",
+   "journal_full": "Proceedings of the National Academy of Sciences of the United States of America",
+   "issn": "1091-6490",
+   "issn_linking": "0027-8424",
+   "impact_factor": 9.5,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1073/pnas.2517883123",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Hitscherich K, Dinerman A, Hakim A, Dulemba V, Sindiri S, Gasmi B",
+   "abstract": "Adoptive cell transfer of tumor infiltrating CD4+ T cells or T cells genetically modified to express antitumor CD4+ T cell receptors (TCRs) has shown clinical efficacy in patients with advanced solid tumors. We previously defined unique transcriptomic states of antitumor, neoantigen-specific CD8+ and CD4+ tumor infiltrating lymphocytes (TIL) in human cancer. However, optimal cell surface protein markers that identify and would enable viable cell isolation and selective enrichment of antitumor CD4+ T cells have yet to be identified. Here, we define transcriptomic and corresponding cell surface protein profiles of antitumor CD4+ TIL within metastatic colorectal tumors using high dimensional single cell transcriptomic and proteomic analysis. Comprehensive analysis of 45 antitumor CD4+ TCR clonotypes demonstrated uniquely high cell surface protein expression of ADGRG1, CD86, and CD57. In all samples containing tumor neoantigen-reactive CD4+ TIL clonotypes, ADGRG1- and CD86-based cell surface enrichment of known reactive TCR clonotypes were 11-fold and 9-fold higher than bulk CD4+ TIL, respectively. ADGRG1- and CD86-based cell surface enrichment identified >60 validated antitumor CD4+ TCR-clonotypes including tumor organoid-reactive TCRs, as well as neoantigen-specific TCRs targeting private tumor mutations and cancer driver mutations. While both ADGRG1 and CD86 enriched CD4+ TIL displayed an exhausted neoantigen-specific gene expression signature, CD86 also enriched for cytotoxic CD4+ TIL phenotypes. CD4+ TIL isolated based on ADGRG1 expression and expanded in vitro also demonstrated neoantigen reactivity in two samples. Thus, ADGRG1 and CD86 appear to be effective protein markers for isolating human tumor-specific CD4+ TCR clonotypes and studying antitumor CD4+ TIL.",
+   "watched": [],
+   "related": [],
+   "title_zh": "細胞表面 ADGRG1 與 CD86 表現可鑑定人類癌症中的抗腫瘤 CD4+ T 細胞",
+   "abstract_zh": "採用腫瘤浸潤 CD4+ T 細胞或經基因改造以表現抗腫瘤 CD4+ T 細胞受體（TCR）之 T 細胞進行細胞轉輸治療，已在晚期實體腫瘤患者中展現臨床療效。我們先前已定義出人類癌症中抗腫瘤、新抗原特異性 CD8+ 與 CD4+ 腫瘤浸潤淋巴球（TIL）之獨特轉錄體狀態。然而，能夠鑑定並使抗腫瘤 CD4+ T 細胞可進行活體分離與選擇性富集的最佳細胞表面蛋白標記尚未被確立。本研究利用高維度單細胞轉錄體與蛋白體分析，定義轉移性大腸直腸腫瘤內抗腫瘤 CD4+ TIL 之轉錄體及對應細胞表面蛋白概況。對 45 個抗腫瘤 CD4+ TCR 克隆型進行全面分析後，發現其在細胞表面蛋白 ADGRG1、CD86 及 CD57 有獨特的高表現。在所有含有腫瘤新抗原反應性 CD4+ TIL 克隆型的樣本中，以 ADGRG1 及 CD86 為基礎之細胞表面富集，分別使已知反應性 TCR 克隆型比整體（bulk）CD4+ TIL 富集了 11 倍與 9 倍。以 ADGRG1 及 CD86 為基礎之細胞表面富集，鑑定出超過 60 個經驗證的抗腫瘤 CD4+ TCR 克隆型，包括對腫瘤類器官具反應性之 TCR，以及針對私有腫瘤突變與癌症驅動突變之新抗原特異性 TCR。雖然 ADGRG1 與 CD86 富集之 CD4+ TIL 均顯示出耗竭之新抗原特異性基因表現特徵，但 CD86 同時可富集細胞毒性 CD4+ TIL 表型。以 ADGRG1 表現分離並在體外擴增之 CD4+ TIL，於兩個樣本中亦展現出新抗原反應性。因此，ADGRG1 與 CD86 似為分離人類腫瘤特異性 CD4+ TCR 克隆型並研究抗腫瘤 CD4+ TIL 之有效蛋白標記。",
+   "evidence_level": "其他",
+   "score": 3,
+   "score_reason": "為機轉層次的基礎/轉譯研究，方法嚴謹但無臨床outcome，對台灣大腸直腸外科臨床決策目前無直接實用性。",
+   "relevance": "低度相關",
+   "relevance_why": "屬於免疫細胞治療標記探索之基礎科學研究，非手術介入且尚未進入臨床應用階段。",
+   "novelty": "仍屬早期",
+   "one_liner": "在轉移性大腸直腸癌樣本的45個抗腫瘤CD4+ TCR克隆型中，以ADGRG1、CD86分選細胞，反應性克隆型富集達11倍與9倍。",
+   "action": "目前不需改變做法；此為細胞治療標記的基礎研究，尚無臨床療效資料或應用時程。",
+   "pico": {
+    "P": "轉移性大腸直腸癌腫瘤樣本，共分析45個抗腫瘤CD4+ TCR克隆型（未明確列出病人數）",
+    "I": "以ADGRG1或CD86為表面標記進行CD4+ TIL細胞分選富集",
+    "C": "與未分選之整體（bulk）CD4+ TIL比較",
+    "O": "主要：已知反應性TCR克隆型之富集倍數；次要：基因表現特徵、體外擴增後新抗原反應性驗證"
+   },
+   "effects": [],
+   "key_numbers": [
+    "ADGRG1分選使反應性TCR克隆型較整體CD4+ TIL富集11倍",
+    "CD86分選使反應性TCR克隆型較整體CD4+ TIL富集9倍",
+    "共驗證超過60個抗腫瘤CD4+ TCR克隆型，含腫瘤類器官反應性及新抗原特異性TCR"
+   ],
+   "cautions": [
+    "樣本量小（45個TCR克隆型），未提供病人人數、分期或臨床結果資料",
+    "純屬單細胞轉錄體/蛋白體之機轉分析，無臨床療效終點，不可推論為治療效果",
+    "體外擴增後仍具新抗原反應性僅於兩個樣本中驗證，證據力薄弱"
+   ],
+   "unassessable": [
+    "病人總數",
+    "盲法",
+    "對照組設計細節",
+    "利益衝突",
+    "臨床outcome資料"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-08-05T07:06:25+08:00"
+  },
+  {
+   "pmid": "42550307",
+   "title": "Routes to colorectal cancer in Lynch syndrome: a decade of molecular and clinical insights converging on Schrödinger's cat",
+   "journal": "Fam Cancer",
+   "journal_full": "Familial cancer",
+   "issn": "1573-7292",
+   "issn_linking": "1389-9600",
+   "impact_factor": 2.1,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1016/S0039-6109(02)00047-6",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Ahadova A, Fayyaz F, Marin Grez L, Bläker H, Kloor M",
+   "abstract": "Colorectal cancer (CRC) development in Lynch syndrome (LS) has long been regarded to follow an adenoma-carcinoma sequence accelerated in comparison to microsatellite-stable (MSS) CRC development. Yet, several clinical observations challenged this hypothesis, most notably the persistently high CRC incidence under colonoscopy surveillance, a non-measurable benefit from shorter screening intervals, and substantial differences in cancer risk between carriers of the different mismatch repair (MMR) genes. Advances in the last decade have produced new hypotheses, highlighting the distinct biology of LS CRC and unravelling several co-existing pathways to cancer. Alongside the genomic heterogeneity, the immunogenic load created by the accumulation of frameshift mutations imposing selective pressure and leading to immune evasion, appears to be a critical step for cancer manifestation. We discuss potential clinical implications of these advances in understanding CRC pathogenesis for cancer prevention in LS and outline open questions that remain.",
+   "watched": [],
+   "related": [],
+   "title_zh": "Lynch症候群中大腸直腸癌的致病路徑：十年分子與臨床洞見交會於薛丁格的貓",
+   "abstract_zh": "長期以來，Lynch症候群（LS）中大腸直腸癌（CRC）的發生被認為遵循一種相較於微衛星穩定型（MSS）CRC加速的腺瘤-癌序列。然而，多項臨床觀察對此假說提出挑戰，最顯著的包括：在大腸鏡監測下CRC發生率仍持續居高不下、縮短篩檢間隔並未展現可測量的益處，以及不同錯配修復（MMR）基因攜帶者之間癌症風險存在顯著差異。過去十年的進展提出了新的假說，凸顯LS大腸直腸癌獨特的生物學特性，並揭示了多條並存的致癌路徑。除了基因組異質性之外，因框移突變累積所產生的免疫原性負荷，施加選擇壓力並導致免疫逃逸，似乎是癌症表現的關鍵步驟。我們討論了這些對CRC致病機轉理解進展，對LS癌症預防的潛在臨床意涵，並列出仍待解答的開放性問題。",
+   "evidence_level": "綜述",
+   "score": 5,
+   "score_reason": "為敘述性綜述而非原始研究，無新數據或統計效果量，但整合近十年LS致癌機轉概念，對理解監測失敗現象有教育價值。",
+   "relevance": "中度相關",
+   "relevance_why": "涉及Lynch症候群CRC篩檢監測的生物學基礎，與大腸直腸外科日常收治LS病人相關，但屬機轉討論非直接治療指引。",
+   "novelty": "仍屬早期",
+   "one_liner": "本綜述整合十年分子與臨床證據，提出Lynch症候群CRC可能存在多重致癌路徑與免疫逃逸機制，挑戰傳統腺瘤-癌序列假說。",
+   "action": "目前不需改變LS監測或篩檢間隔做法；可作背景閱讀，理解監測後仍發生CRC可能反映生物學異質性而非技術失誤。",
+   "pico": {
+    "P": "無特定病人族群（敘述性綜述，非原始研究）",
+    "I": "無介入（回顧近十年分子與臨床證據）",
+    "C": "無對照組",
+    "O": "無量化主要outcome；討論LS大腸直腸癌致病機轉假說與監測意涵"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供任何具體發生率、風險比或信賴區間等量化數據",
+    "核心論點為質性觀察：監測下CRC發生率仍高、縮短篩檢間隔無明確益處",
+    "強調不同MMR基因攜帶者間癌症風險存在差異，但未附具體數字"
+   ],
+   "cautions": [
+    "為敘述性綜述，非系統性回顧，文獻選取與詮釋可能存在作者主觀偏誤",
+    "所提出的多重致癌路徑與免疫逃逸假說多為機轉推論，尚缺乏前瞻性臨床驗證",
+    "摘要完全無量化數據支持論點，讀者無法自行評估證據強度"
+   ],
+   "unassessable": [
+    "系統性檢索方法（是否為系統性文獻回顧或純敘述性）",
+    "利益衝突",
+    "所引用研究的樣本量、效果量、信賴區間等具體數據",
+    "文獻納入排除標準"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-08-05T07:06:25+08:00"
+  }
+ ]
+}
