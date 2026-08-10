@@ -1,0 +1,521 @@
+{
+ "date": "2026-08-11",
+ "generated_at": "2026-08-11T06:44:06+08:00",
+ "count": 7,
+ "papers": [
+  {
+   "pmid": "42551410",
+   "title": "A mitochondrial antioxidant axis fuels iron addiction in colorectal cancer",
+   "journal": "Cell Metab",
+   "journal_full": "Cell metabolism",
+   "issn": "1932-7420",
+   "issn_linking": "1550-4131",
+   "impact_factor": 37.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1016/j.cmet.2026.06.011",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Sun L, DeNicola G",
+   "abstract": "Colorectal cancer (CRC) cells accumulate iron to fuel proliferation yet paradoxically resist its toxicity. Jain et al. reveal that heme stabilizes succinate dehydrogenase subunit C, sustaining complex II-dependent coenzyme Q reduction and its redistribution to the plasma membrane, enabling CRC cells to buffer oxidative stress and iron-induced cell death.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42353038",
+     "date": "2026-06-26",
+     "title_zh": "大腸直腸腫瘤微環境中的鐵代謝：從癌前病變到癌症進展",
+     "score": 2,
+     "one_liner": "本文綜述鐵代謝（hepcidin-ferroportin軸、鐵滯留表型）在大腸直腸癌從癌前病變到進展過程中的機轉角色，無臨床數據。",
+     "sim": 0.176
+    }
+   ],
+   "title_zh": "粒線體抗氧化軸驅動大腸直腸癌的鐵成癮機制",
+   "abstract_zh": "大腸直腸癌（CRC）細胞會累積鐵以促進增殖，卻矛盾地能抵抗其毒性。Jain等人揭示血基質（heme）能穩定琥珀酸去氫酶次單元C（SDHC），維持complex II依賴性輔酶Q還原及其向細胞膜的再分布，使CRC細胞得以緩衝氧化壓力並抵抗鐵誘導的細胞死亡。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "純基礎機轉研究，無臨床數據、無病人族群，對台灣大腸直腸外科臨床決策目前無實用性。",
+   "relevance": "低度相關",
+   "relevance_why": "這是細胞層級的粒線體代謝機轉研究，非外科介入，短期內不會改變臨床照護。",
+   "novelty": "仍屬早期",
+   "one_liner": "本文描述CRC細胞中heme穩定SDHC、促進輔酶Q還原以抵抗鐵死亡的分子機轉，屬細胞實驗層級發現。",
+   "action": "目前不需改變做法；此為基礎機轉研究，無病人數據、無治療介入可供臨床應用。",
+   "pico": {
+    "P": "無病人族群（細胞株/分子機轉研究）",
+    "I": "無臨床介入（研究heme-SDHC-輔酶Q軸的分子調控）",
+    "C": "無對照組",
+    "O": "主要outcome：CRC細胞抵抗鐵死亡的分子機轉；無臨床outcome"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供任何臨床數據、發生率或統計數字",
+    "本文為機轉性描述，無量化實驗結果可摘錄",
+    "無病人層級數據可供ARR/NNT計算"
+   ],
+   "cautions": [
+    "純細胞/分子層級研究，無動物模型或臨床試驗數據，外推至病人照護需極為謹慎",
+    "摘要未說明實驗設計、樣本數、重複次數等方法學細節，難以評估可信度",
+    "從機轉發現到臨床可用藥物或治療策略，中間仍有極長距離，不應過度推論治療意義"
+   ],
+   "unassessable": [
+    "實驗設計",
+    "樣本數",
+    "統計方法",
+    "利益衝突",
+    "是否已有後續臨床轉譯研究"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "雖然之前看過的鐵代謝綜述主題相近，但該篇為癌前病變到癌症進展的鐵代謝機轉綜述，與本篇聚焦SDHC-heme-輔酶Q軸的具體分子機制不同，缺乏直接可比較的臨床關聯，故列為無相關前作。",
+   "added_at": "2026-08-11T06:42:04+08:00"
+  },
+  {
+   "pmid": "42550993",
+   "title": "Real-World Evidence for Oncology Patients With Rare NTRK Gene Fusions: Final Results From the German Multicenter Patient Cohort Study REALTRK",
+   "journal": "JCO Precis Oncol",
+   "journal_full": "JCO precision oncology",
+   "issn": "2473-4284",
+   "issn_linking": "2473-4284",
+   "impact_factor": 4.7,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1200/PO-26-00283",
+   "ptype": "Multicenter Study",
+   "ptype_list": [
+    "Multicenter Study"
+   ],
+   "authors": "Potthoff K, Lange S, Seufferlein T, Heinrich K, Claus R, Bleckmann A",
+   "abstract": "PURPOSE: TRK inhibitors (TRKis) have transformed the therapeutic landscape for patients with neurotrophic tyrosine receptor kinase (NTRK) gene fusion-positive tumors. However, approval of TRKis is based on evidence derived mainly from small, pooled, single-arm clinical trial cohorts. The REALTRK registry aims to describe real-world molecular diagnostic practices, treatment patterns, and clinical outcomes for adult patients with NTRK fusion-positive cancers.\nPATIENTS AND METHODS: The REALTRK registry was a multicenter cohort study that included adults with advanced solid tumors harboring NTRK1/2/3 fusions, from Germany and Switzerland. Both retrospective and prospective data were collected from diverse clinical settings. NTRK fusions had to be diagnosed via validated assays.\nRESULTS: Of 88 patients screened, 47 adults with advanced NTRK fusion-positive solid tumors were included in the full analysis set. Across all treatment lines after NTRK fusion diagnosis, 29 patients received TRKi therapy, eight received non-TRKi therapy, and 10 received no therapy. Lung cancer, colorectal cancer, and soft tissue sarcoma were the most common tumor types. Next-generation sequencing was the primary diagnostic method, with a median turnaround time of 2 weeks. After NTRK fusion diagnosis, TRKi therapy was immediately initiated in 26 patients, of whom 13 received TRKi as first-line treatment in the advanced/metastatic setting. About half of the patients responded to TRKi treatment as the first treatment line after NTRK fusion diagnosis (46.2%), with an overall response rate of 46.2% and a disease control rate of 73.1%. The median progression-free survival was 15.7 months, and the overall survival was 27.6 months in TRKi-treated patients.\nCONCLUSION: The REALTRK registry provides important real-world insights into the patient path of adult patients with locally advanced or metastatic solid tumors harboring NTRK1/2/3 gene fusions.",
+   "watched": [],
+   "related": [],
+   "title_zh": "罕見NTRK基因融合腫瘤病人的真實世界證據：德國多中心病人世代研究REALTRK最終結果",
+   "abstract_zh": "目的：TRK抑制劑（TRKi）已經改變了neurotrophic tyrosine receptor kinase（NTRK）基因融合陽性腫瘤病人的治療版圖。然而，TRKi的核准主要基於小型、彙整的單臂臨床試驗世代所得證據。REALTRK登錄研究旨在描述成人NTRK融合陽性癌症病人的真實世界分子診斷實務、治療模式與臨床結果。病人與方法：REALTRK登錄研究為多中心世代研究，納入德國與瑞士帶有NTRK1/2/3融合的晚期實體腫瘤成人病人。同時收集回溯性與前瞻性資料，來源涵蓋多元臨床場域。NTRK融合須經驗證檢測方法確診。結果：88名篩選病人中，47名晚期NTRK融合陽性實體腫瘤成人病人納入完整分析集。在NTRK融合診斷後的所有治療線別中，29名病人接受TRKi治療，8名接受非TRKi治療，10名未接受任何治療。肺癌、大腸直腸癌與軟組織肉瘤為最常見腫瘤類型。次世代定序（NGS）為主要診斷方法，中位周轉時間為2週。NTRK融合診斷後，26名病人立即開始TRKi治療，其中13名在晚期／轉移性情境下接受TRKi作為第一線治療。約半數病人對診斷後第一線治療TRKi有反應（46.2%），整體反應率為46.2%，疾病控制率為73.1%。TRKi治療病人的中位無惡化存活期為15.7個月，整體存活期為27.6個月。結論：REALTRK登錄研究為帶有NTRK1/2/3基因融合的局部晚期或轉移性實體腫瘤成人病人的診療路徑，提供了重要的真實世界洞見。",
+   "evidence_level": "前瞻性世代",
+   "score": 4,
+   "score_reason": "真實世界登錄研究提供NTRK融合腫瘤（含大腸直腸癌）的實務資料，但樣本極小、無對照組、腫瘤類型異質，對台灣外科臨床決策直接影響有限。",
+   "relevance": "低度相關",
+   "relevance_why": "NTRK融合在大腸直腸癌中極為罕見（<1%），且此研究聚焦全身性藥物治療決策，非外科手術介入。",
+   "novelty": "再確認已知",
+   "one_liner": "在47名晚期NTRK融合陽性實體腫瘤成人（含大腸直腸癌）中，觀察真實世界TRKi治療，反應率46.2%、疾病控制率73.1%、中位PFS 15.7月、OS 27.6月。",
+   "action": "遇到RAS/BRAF野生型、MSI-H或治療反應不佳的轉移性大腸直腸癌，可考慮送NTRK融合檢測並轉介腫瘤內科評估TRKi，手術決策本身不變。",
+   "pico": {
+    "P": "88名篩選、47名納入分析的德國/瑞士晚期NTRK1/2/3融合陽性實體腫瘤成人病人（肺癌、大腸直腸癌、軟組織肉瘤為主）",
+    "I": "TRK抑制劑（TRKi）治療（29人接受，其中26人診斷後立即開始，13人為晚期第一線治療）",
+    "C": "非TRKi治療（8人）或未接受治療（10人）；無正式統計對照分析",
+    "O": "主要：整體反應率、疾病控制率、無惡化存活期、整體存活期；次要：NTRK檢測方式與周轉時間、治療模式"
+   },
+   "effects": [],
+   "key_numbers": [
+    "TRKi第一線治療反應率46.2%，疾病控制率73.1%（分母極小，僅13人）",
+    "TRKi治療病人中位PFS 15.7個月、中位OS 27.6個月（n=29）",
+    "88名篩選病人中僅47名確診NTRK融合，NGS中位診斷周轉時間2週"
+   ],
+   "cautions": [
+    "單臂真實世界登錄研究，無對照組，無法確認TRKi相對於非TRKi治療的真實效益",
+    "各項結果分母極小（如反應率僅based on 13人），且混合肺癌、CRC、肉瘤等異質腫瘤類型，結果無法外推至單一癌別",
+    "回溯性與前瞻性資料混合收集，可能有選樣偏誤與資料完整性落差"
+   ],
+   "unassessable": [
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本分析",
+    "各腫瘤類型（如大腸直腸癌）分層結果"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-08-11T06:42:04+08:00"
+  },
+  {
+   "pmid": "42572919",
+   "title": "Tumour-Derived Extracellular Vesicles Containing dsRNA Induce Degradation of Ribosomal Protein mRNA in Platelets",
+   "journal": "J Extracell Vesicles",
+   "journal_full": "Journal of extracellular vesicles",
+   "issn": "2001-3078",
+   "issn_linking": "2001-3078",
+   "impact_factor": 21.7,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1002/jev2.70339",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Sun G, Tao Y, Liu Z, Zhang K, Zuo S, Chen S",
+   "abstract": "Extracellular vesicles (EVs) mediate intercellular communication within the tumour microenvironment by carrying cargoes from paracrine parent cells. EVs have attracted great research interest for their ability to carry nucleic acids into recipient cells and modulate cellular functions. However, previous studies have largely focused on RNA sequence information rather than RNA structure features. Here, we observed that EVs derived from colorectal cancer cells are enriched with endogenous double‑stranded RNA (dsRNA), a danger‑associated molecular pattern (DAMP) that leads to the activation of dsRNA‑sensing pathways in recipient cells. Crucially, we investigated the specific crosstalk between tumour-derived EVs and circulating platelets. As anucleate cells, platelets are uniquely suited models for isolating the effects of exogenous nucleic acids. Our analysis reveals that endogenous dsRNA from tumour EVs activates the platelet OAS-RNASEL innate immune ribonuclease cascade and the RNASEL/ABCE1/PELO axis, resulting in the decay of ribosomal protein mRNAs. This study, spanning from clinical observation to mechanistic validation, uncovers a novel pathway of tumour-platelet communication. We identify EV-enriched endogenous dsRNA as a functional mediator that enables tumour cells to directly reprogram platelet transcriptomes, revealing a new dimension of tumour-immune modulation.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42426985",
+     "date": "2026-07-10",
+     "title_zh": "源自食蟹獼猴間質幹細胞之細胞外囊泡作為候選癌症治療劑的潛力",
+     "score": 2,
+     "one_liner": "在MCF-7乳癌與WiDr大腸癌細胞株中，比較EV處理與未處理組，發現EV可抑制生長並降低存活率（未附具體數值）。",
+     "sim": 0.191
+    }
+   ],
+   "title_zh": "腫瘤衍生胞外囊泡中的雙股RNA誘導血小板核糖體蛋白mRNA降解",
+   "abstract_zh": "胞外囊泡（EVs）透過攜帶來自旁分泌親代細胞的貨物，於腫瘤微環境中介導細胞間通訊。EVs因具備攜帶核酸進入受體細胞並調節細胞功能的能力，吸引了大量研究興趣。然而，先前的研究大多聚焦於RNA序列資訊，而非RNA結構特徵。在此，我們觀察到大腸直腸癌細胞衍生的EVs富含內源性雙股RNA（dsRNA），此為一種危險相關分子模式（DAMP），可導致受體細胞中dsRNA感應路徑的活化。關鍵的是，我們探討了腫瘤衍生EVs與循環血小板之間的特定交互作用。由於血小板為無核細胞，因此是分離外源核酸效應的獨特適合模型。我們的分析顯示，腫瘤EVs中的內源性dsRNA可活化血小板的OAS-RNASEL先天免疫核糖核酸酶級聯反應，以及RNASEL/ABCE1/PELO軸，導致核糖體蛋白mRNA的降解。這項研究從臨床觀察延伸至機制驗證，揭示了一條新穎的腫瘤-血小板通訊路徑。我們確認EV富含的內源性dsRNA是一種功能性介質，使腫瘤細胞能直接重新編程血小板轉錄體，揭示腫瘤-免疫調節的新維度。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "純基礎機制研究（細胞/分子層級），無臨床終點、無病人數據，對臨床決策無直接可用性，僅具長期轉譯研究價值。",
+   "relevance": "低度相關",
+   "relevance_why": "此為分子機制研究，非外科介入或臨床試驗，短期內無法應用於病人照護或手術決策。",
+   "novelty": "仍屬早期",
+   "one_liner": "在大腸直腸癌細胞EV模型中，發現EV攜帶的dsRNA可活化血小板OAS-RNASEL路徑，導致核糖體蛋白mRNA降解。",
+   "action": "目前不需改變做法：此為基礎機制研究，無病人數據或臨床終點，僅供追蹤未來轉譯研究方向。",
+   "pico": {
+    "P": "大腸直腸癌細胞株（及血小板作為受體細胞模型），無明確病人族群數字",
+    "I": "腫瘤細胞衍生EV中內源性dsRNA對血小板的作用",
+    "C": "無對照組（機制探討研究，非介入對照試驗）",
+    "O": "主要：血小板OAS-RNASEL路徑活化與核糖體蛋白mRNA降解；次要：腫瘤-血小板通訊機制"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供任何具體數值、事件數、百分比或統計檢定結果",
+    "研究性質為機制驗證，無臨床outcome可供ARR/NNT計算",
+    "未提及病人樣本數或臨床相關性強度"
+   ],
+   "cautions": [
+    "摘要稱涵蓋「從臨床觀察到機制驗證」，但未提供任何臨床病人數據，恐有過度延伸解讀之嫌",
+    "細胞株與血小板模型結果不能直接推論至人體腫瘤-免疫交互作用，外部效度未知",
+    "未提供樣本數、重複實驗次數或統計方法，無法評估結果穩健性"
+   ],
+   "unassessable": [
+    "樣本數",
+    "統計方法與顯著性",
+    "臨床相關性驗證",
+    "利益衝突",
+    "試驗設計細節（如重複次數、對照設計）"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-08-11T06:42:04+08:00"
+  },
+  {
+   "pmid": "42574011",
+   "title": "Cancer Screening and Citizenship Status in the US",
+   "journal": "JAMA Netw Open",
+   "journal_full": "JAMA network open",
+   "issn": "2574-3805",
+   "issn_linking": "2574-3805",
+   "impact_factor": 11.7,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1001/jamanetworkopen.2026.28371",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Guadamuz J, Chen S, Calip G, Bustamante A",
+   "abstract": "IMPORTANCE: Immigrants without US citizenship, or noncitizens, disproportionately endure poverty, labor exclusions, and inadequate health care access-structural drivers of adverse cancer outcomes. While screening is critical for preventing cancer deaths, and cancer is the leading cause of death among noncitizens, little is known about citizenship status and its potential influence on cancer screening.\nOBJECTIVES: To examine cancer screening inequities associated with citizenship status, evaluate whether these inequities vary across states, and determine whether structural factors mediate these inequities.\nDESIGN, SETTING, AND PARTICIPANTS: This cross-sectional study used nationally representative data from the National Health Interview Survey (2010-2023). Eligibility for cancer screening and the timing and types of tests considered appropriate were determined using US Preventive Services Task Force guidelines. Data were analyzed from May to August 2025.\nEXPOSURE: Citizenship status: noncitizen (regardless of documentation), naturalized, or US-born.\nMAIN OUTCOMES AND MEASURES: Outcomes included colorectal, cervical, or breast cancer screening. Potential mediators included socioeconomic and health care factors (eg, poverty-to-income ratio and insurance), whereas clinical factors (eg, cancer history) were considered confounders. Mediation analysis using nonlinear multiple additive regression tree models was performed to evaluate associations between citizenship status and cancer screening and to identify mediators.\nRESULTS: The sample included 131 501 participants eligible for colorectal (3687 [5.1%] noncitizen, median [IQR] age, 61.1 [55.0 to 67.0] years, 39 040 [47.8%] male), cervical (6812 [10.2%] noncitizen, median [IQR] age 41.1 [30.0-52.0]), or breast (1815 [5.1%] noncitizen, median [IQR] age 60.8 [55.0-66.0]) cancer screening. In 2023, noncitizens had significantly lower colorectal (43.6%; 95% CI, 38.7%-48.4% vs 75.5%; 95% CI, 74.6%-76.5%), cervical (57.1%; 95% CI, 53.1%-61.0% vs 71.6%; 95% CI, 70.3%-72.8%), and breast (73.0%; 95% CI, 66.4%-78.7% vs 80.1%; 95% CI, 78.8%-81.3%) cancer screening rates than US-born citizens. These citizenship-based disparities were observed throughout the study period and were present in many states. Noncitizens had significantly lower odds of receiving colorectal (OR, 0.35; 95% CI, 0.32-0.38), cervical (OR, 0.41; 95% CI, 0.38-0.44), and breast (OR, 0.57; 95% CI, 0.52-0.62) cancer screenings than US-born citizens, with socioeconomic and health care factors jointly mediating these inequities (proportion mediated, colorectal cancer: 56.6%; 95% CI, 49.1%-64.2%; cervical cancer: 39.6%; 95% CI, 32.3%-47.0%; breast cancer: 97.1%; 95% CI, 87.1%-107.1%).\nCONCLUSIONS AND RELEVANCE: In this nationally representative study, noncitizens had lower rates of cancer screenings, an inequity largely explained by socioeconomic barriers and inadequate health care access. Efforts to increase cancer screening and reduce preventable cancer mortality among noncitizens should focus on improving their health care access.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42403041",
+     "date": "2026-07-06",
+     "title_zh": "美國性傾向與性別認同相關之大腸直腸癌、子宮頸癌及乳癌篩檢差異",
+     "score": 3,
+     "one_liner": "在美國663,924名篩檢適格成人中，比較SOGI少數族群與異性戀/順性別族群篩檢遵從性，子宮頸癌與乳癌篩檢率顯著較低，CRC篩檢反略高或無差異。",
+     "sim": 0.172
+    }
+   ],
+   "title_zh": "美國公民身分與癌症篩檢之關聯",
+   "abstract_zh": "重要性：無美國公民身分的移民（非公民）承受著不成比例的貧窮、勞動排除與醫療照護取得不足，這些是不良癌症結果的結構性驅動因子。篩檢對預防癌症死亡至關重要，且癌症是非公民的主要死因，但公民身分與其對癌症篩檢的潛在影響所知甚少。\n目標：檢視與公民身分相關的癌症篩檢不平等，評估這些不平等是否因州而異，並判斷結構性因素是否為中介變項。\n設計、場域與參與者：本橫斷面研究使用2010-2023年全國健康訪問調查（NHIS）之全國代表性資料。癌症篩檢適格性及檢查時程與種類是否適當，依美國預防服務工作小組（USPSTF）指引判定。資料於2025年5月至8月間分析。\n暴露：公民身分：非公民（不論身分文件狀態）、歸化公民或美國出生公民。\n主要結果與測量：結果包括大腸直腸癌、子宮頸癌或乳癌篩檢。潛在中介因子包括社經與醫療照護因子（如貧窮收入比、保險），臨床因子（如癌症病史）則視為混淆因子。使用非線性多重加成回歸樹模型進行中介分析，以評估公民身分與癌症篩檢間的關聯並辨識中介因子。\n結果：樣本包含符合大腸直腸癌篩檢資格者131,501人（其中3,687人[5.1%]為非公民，中位數[IQR]年齡61.1[55.0-67.0]歲，男性39,040人[47.8%]）、子宮頸癌篩檢者（6,812人[10.2%]為非公民，中位數[IQR]年齡41.1[30.0-52.0]歲）及乳癌篩檢者（1,815人[5.1%]為非公民，中位數[IQR]年齡60.8[55.0-66.0]歲）。2023年，非公民的大腸直腸癌篩檢率（43.6%；95% CI, 38.7%-48.4%）、子宮頸癌篩檢率（57.1%；95% CI, 53.1%-61.0%）及乳癌篩檢率（73.0%；95% CI, 66.4%-78.7%）均顯著低於美國出生公民（分別為75.5%；95% CI, 74.6%-76.5%、71.6%；95% CI, 70.3%-72.8%、80.1%；95% CI, 78.8%-81.3%）。此公民身分相關差異在整個研究期間及許多州均可見。非公民接受大腸直腸癌篩檢（OR, 0.35；95% CI, 0.32-0.38）、子宮頸癌篩檢（OR, 0.41；95% CI, 0.38-0.44）及乳癌篩檢（OR, 0.57；95% CI, 0.52-0.62）的機率均顯著低於美國出生公民，社經與醫療照護因子共同中介這些不平等（中介比例，大腸直腸癌：56.6%；95% CI, 49.1%-64.2%；子宮頸癌：39.6%；95% CI, 32.3%-47.0%；乳癌：97.1%；95% CI, 87.1%-107.1%）。\n結論與相關性：在此全國代表性研究中，非公民的癌症篩檢率較低，此不平等主要可由社經障礙與醫療照護取得不足解釋。增加非公民癌症篩檢並降低可預防癌症死亡率的努力，應著重於改善其醫療照護取得。",
+   "evidence_level": "橫斷面",
+   "score": 3,
+   "score_reason": "大型全國代表性調查、方法嚴謹，但研究情境為美國移民健康政策議題，與台灣大腸直腸外科臨床決策關聯度極低。",
+   "relevance": "低度相關",
+   "relevance_why": "此為美國公民身分與篩檢可近性之健康政策/流行病學研究，非外科介入，且移民福利體系與台灣健保制度差異極大。",
+   "novelty": "再確認已知",
+   "one_liner": "在美國131,501名篩檢適格成人中，比較非公民與美國出生公民，發現2023年大腸直腸篩檢率43.6% vs 75.5%，顯著較低。",
+   "action": "目前不需改變台灣臨床做法；此為美國移民身分與篩檢可近性之健康政策研究，非外科介入或篩檢工具比較。",
+   "pico": {
+    "P": "美國NHIS 2010-2023全國代表性樣本，131,501名符合大腸直腸、子宮頸或乳癌篩檢資格之成人",
+    "I": "公民身分：非公民（含無證件者）",
+    "C": "歸化公民 / 美國出生公民",
+    "O": "主要結果：是否完成大腸直腸、子宮頸、乳癌篩檢；次要：社經與醫療照護因子之中介比例"
+   },
+   "effects": [
+    {
+     "outcome": "2023年大腸直腸癌篩檢完成率",
+     "ok": true,
+     "i_label": "非公民",
+     "c_label": "美國出生公民",
+     "i_rate": 43.6,
+     "c_rate": 75.5,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 31.9,
+     "benefit": false,
+     "event_bad": false,
+     "nnt": 3,
+     "kind": "NNH",
+     "note": ""
+    },
+    {
+     "outcome": "2023年子宮頸癌篩檢完成率",
+     "ok": true,
+     "i_label": "非公民",
+     "c_label": "美國出生公民",
+     "i_rate": 57.1,
+     "c_rate": 71.6,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 14.5,
+     "benefit": false,
+     "event_bad": false,
+     "nnt": 7,
+     "kind": "NNH",
+     "note": ""
+    },
+    {
+     "outcome": "2023年乳癌篩檢完成率",
+     "ok": true,
+     "i_label": "非公民",
+     "c_label": "美國出生公民",
+     "i_rate": 73.0,
+     "c_rate": 80.1,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 7.1,
+     "benefit": false,
+     "event_bad": false,
+     "nnt": 14,
+     "kind": "NNH",
+     "note": ""
+    }
+   ],
+   "key_numbers": [
+    "大腸直腸篩檢率：非公民43.6% vs 美國出生公民75.5%，差距約32個百分點",
+    "非公民接受大腸直腸篩檢勝算比0.35（95% CI 0.32-0.38），顯著較低",
+    "社經與醫療照護因子中介大腸直腸篩檢不平等達56.6%（95% CI 49.1%-64.2%）"
+   ],
+   "cautions": [
+    "美國特定醫療保險/移民政策情境，外部效度極低，不可直接套用台灣全民健保制度下的篩檢現況",
+    "橫斷面研究僅能顯示關聯性，無法確立因果關係，中介分析結果仍屬統計模型推論",
+    "乳癌篩檢中介比例達97.1%（95% CI 87.1%-107.1%），信賴區間超過100%顯示模型估計不穩定"
+   ],
+   "unassessable": [
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "各州篩檢差異之具體數據",
+    "肠镜/糞便潛血等篩檢方式細分"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。雖先前論文亦探討篩檢不平等（SOGI族群），但暴露因子（性傾向/性別認同 vs 公民身分）與族群完全不同，兩篇結論方向亦相反（前作CRC篩檢率無明顯較低甚至略高，本篇則顯著較低），不宜視為延伸或矛盾關係。",
+   "added_at": "2026-08-11T06:42:04+08:00"
+  },
+  {
+   "pmid": "42572499",
+   "title": "GPR39 Suppresses Ferroptosis via the Nrf2/SLC7A11 Axis and Reduces the Sensitivity of Colorectal Cancer to Anti-PD-1 Immunotherapy",
+   "journal": "Can J Gastroenterol Hepatol",
+   "journal_full": "Canadian journal of gastroenterology & hepatology",
+   "issn": "2291-2797",
+   "issn_linking": "2291-2789",
+   "impact_factor": 2.5,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1155/cjgh/5689742",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Zhou C, Fang X, Lin J, Jiang X, Li H, Chen J",
+   "abstract": "BACKGROUND: PD-1 blockade has yet to achieve broad clinical success in colorectal cancer (CRC), with microsatellite-stable tumors proving especially resistant. At the same time, ferroptosis has emerged as a mechanistic link between redox control in tumor cells and the antitumor immune response. GPR39 is overexpressed in CRC, but its functional role in ferroptosis and immunotherapy resistance is currently unclear.\nMETHODS: GPR39 expression was analyzed in human and mouse CRC cell lines. GPR39 knockdown, with or without the ferroptosis inhibitor liproxstatin-1, was performed to determine whether GPR39 regulates CRC cell proliferation and migration through ferroptosis. Ferroptosis was evaluated by measuring lipid peroxidation, glutathione (GSH) levels, ferrous iron (Fe2+) accumulation, and reactive oxygen species (ROS). Mechanistic involvement of the nuclear factor erythroid 2-related factor 2 (Nrf2)/solute carrier family 7 member 11 (SLC7A11) signaling axis was examined using Nrf2 overexpression. Subcutaneous implantation of MC38 cells with stable GPR39 knockdown was performed to evaluate whether GPR39 regulates tumor sensitivity to anti-PD-1 treatment in vivo in a ferroptosis-dependent manner.\nRESULTS: GPR39 was markedly upregulated in CRC cell lines. GPR39 knockdown induced ferroptosis, characterized by increased lipid peroxidation, Fe2+ accumulation, and oxidative stress and accompanied by suppression of the Nrf2/SLC7A11 pathway. Nrf2 overexpression reversed these changes. Functionally, silencing GPR39 inhibited the proliferative and migratory capacities of CRC cells, effects that were largely rescued by liproxstatin-1. In vivo, GPR39 knockdown significantly potentiated the antitumor activity of PD-1 blockade, as evidenced by suppressed tumor progression accompanied by enhanced infiltration of CD8+ T cells, whereas ferroptosis inhibition abrogated these effects.\nCONCLUSION: GPR39 suppresses ferroptosis in CRC via the Nrf2/SLC7A11 axis, thereby limiting PD-1 immunotherapy efficacy.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42411497",
+     "date": "2026-07-07",
+     "title_zh": "槲寄生多糖（Huaier）透過降低P-糖蛋白並誘導Nrf2/SLC7A11/GPX4依賴性鐵死亡，使抗藥性大腸直腸癌細胞對Oxaliplatin重新敏感",
+     "score": 2,
+     "one_liner": "在OXA抗藥性CRC細胞株中，比較OXA單獨與OXA+Huaier多糖聯合處理，發現聯合治療經Nrf2/SLC7A11/GPX4路徑誘導鐵死亡以逆轉抗藥性（機制層級，無具體數值）。",
+     "sim": 0.347
+    },
+    {
+     "pmid": "42335237",
+     "date": "2026-06-23",
+     "title_zh": "免疫細胞內源性STING活化透過AA介導的ACSL4乳酸化抑制驅動大腸直腸癌腫瘤鐵死亡",
+     "score": 2,
+     "one_liner": "在CRC細胞株與小鼠模型中，發現免疫細胞STING活化透過AA抑制ACSL4乳酸化促進腫瘤鐵死亡，並與PD-1阻斷劑協同抑制腫瘤。",
+     "sim": 0.186
+    },
+    {
+     "pmid": "42350366",
+     "date": "2026-06-26",
+     "title_zh": "S100A14 透過 UPF1 介導的非典型 NF-κB 訊號活化，促進大腸直腸癌惡化與抗PD-1抗藥性",
+     "score": 3,
+     "one_liner": "在CRC細胞株與小鼠模型中，發現S100A14透過降解UPF1活化非典型NF-κB路徑，促進PD-L1上調與抗PD-1抗藥性。",
+     "sim": 0.158
+    }
+   ],
+   "title_zh": "GPR39透過Nrf2/SLC7A11軸抑制鐵死亡並降低大腸直腸癌對抗PD-1免疫治療的敏感性",
+   "abstract_zh": "背景：PD-1阻斷劑在大腸直腸癌（CRC）尚未取得廣泛臨床成功，微衛星穩定型腫瘤尤其具抗藥性。同時，鐵死亡已成為腫瘤細胞氧化還原調控與抗腫瘤免疫反應之間的機制連結。GPR39在CRC中過度表現，但其在鐵死亡與免疫治療抗藥性中的功能角色目前尚不明確。方法：分析人類與小鼠CRC細胞株中的GPR39表現。以GPR39敲低（伴隨或不伴隨鐵死亡抑制劑liproxstatin-1）來確認GPR39是否透過鐵死亡調節CRC細胞增殖與遷移。以脂質過氧化、麩胺基硫（GSH）水平、二價鐵（Fe2+）累積及活性氧（ROS）評估鐵死亡。以Nrf2過度表現檢視核因子紅系2相關因子2（Nrf2）/溶質載體家族7成員11（SLC7A11）訊號軸的機轉參與。以穩定GPR39敲低的MC38細胞進行皮下植入，評估GPR39是否以鐵死亡依賴方式調節腫瘤對抗PD-1治療之敏感性。結果：GPR39在CRC細胞株中顯著上調。GPR39敲低誘導鐵死亡，表現為脂質過氧化增加、Fe2+累積及氧化壓力上升，並伴隨Nrf2/SLC7A11路徑受抑制。Nrf2過度表現可逆轉這些變化。功能上，GPR39靜默可抑制CRC細胞的增殖與遷移能力，此效應大多可被liproxstatin-1所拯救。活體實驗中，GPR39敲低顯著增強PD-1阻斷劑的抗腫瘤活性，表現為腫瘤進展受抑制並伴隨CD8+ T細胞浸潤增加，而鐵死亡抑制則消除了這些效應。結論：GPR39透過Nrf2/SLC7A11軸抑制CRC中的鐵死亡，從而限制PD-1免疫治療的療效。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "純細胞株與小鼠模型之機轉研究，無人體數據，對台灣大腸直腸外科臨床實務目前無直接應用價值。",
+   "relevance": "低度相關",
+   "relevance_why": "屬基礎轉譯研究（細胞株＋小鼠模型），非外科介入，距臨床應用尚遠。",
+   "novelty": "仍屬早期",
+   "one_liner": "在CRC細胞株與MC38小鼠模型中，比較GPR39敲低與對照，發現敲低誘導鐵死亡並增強抗PD-1療效與CD8+ T細胞浸潤。",
+   "action": "目前不需改變做法，此為基礎機制研究，尚無臨床試驗或人體數據支持任何治療決策改變。",
+   "pico": {
+    "P": "人類與小鼠CRC細胞株；MC38皮下腫瘤小鼠模型（未列出具體數量）",
+    "I": "GPR39敲低（±鐵死亡抑制劑liproxstatin-1）",
+    "C": "未敲低GPR39之對照組",
+    "O": "主要：鐵死亡指標（脂質過氧化、GSH、Fe2+、ROS）、細胞增殖遷移；次要：抗PD-1治療反應、CD8+ T細胞腫瘤浸潤"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供具體統計數字（無p值、信賴區間或絕對數值）",
+    "GPR39敲低誘導鐵死亡並抑制CRC細胞增殖遷移，機制上可被liproxstatin-1逆轉",
+    "活體實驗顯示GPR39敲低可增強抗PD-1療效，但無腫瘤體積或存活率之具體數據"
+   ],
+   "cautions": [
+    "純細胞株與小鼠模型，無人體臨床數據，外推至患者治療決策風險極高",
+    "摘要僅描述性陳述結果方向，未提供具體統計值或效應量",
+    "機轉研究距離臨床可用（如篩選適合抗PD-1的CRC患者）尚有相當距離"
+   ],
+   "unassessable": [
+    "人體臨床數據",
+    "統計顯著性數值（p值、信賴區間）",
+    "樣本量與重複次數",
+    "利益衝突",
+    "試驗設計盲法（非適用於此類基礎研究）"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "與前作（STING/ACSL4鐵死亡與PD-1協同、S100A14/NF-κB驅動抗PD-1抗藥性）主題一致，皆探討CRC中鐵死亡調控如何影響抗PD-1免疫治療效果。本篇提出GPR39/Nrf2/SLC7A11為新調控節點，但仍屬同等級之細胞與動物基礎研究，未提升證據等級。",
+   "added_at": "2026-08-11T06:42:04+08:00"
+  },
+  {
+   "pmid": "42573351",
+   "title": "Natural Biopolymer-Based Injectable, Self-Healing Hydrogel via Self-Assembly of Pectin and Quaternized Guar Gum for Targeted Treatment of Colon Cancer",
+   "journal": "Biomacromolecules",
+   "journal_full": "Biomacromolecules",
+   "issn": "1526-4602",
+   "issn_linking": "1525-7797",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1021/acs.biomac.5c02480",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Rahmatpour A, Kian M, Soleimani P",
+   "abstract": "A biocompatible, injectable, and self-healing hydrogel was constructed via electrostatic self-assembly of anionic pectin (PEC) and cationic quaternized guar gum (QGG). The optimized PEC/QGG hydrogel (QPE5, 1:3.5 ratio) exhibited rapid gelation (1.5 min), high yield (95.7%), shear-thinning behavior (viscosity decrease from 430 to 1.7 Pa·s), and excellent self-healing with ∼90% recovery of compressive strength. Zeta potential analysis confirmed charge neutralization (+2.9 mV for QPE5), indicating strong electrostatic interactions. The hydrogel displayed pH- and enzyme-responsive degradation, with accelerated disintegration under acidic (pH 5.5) and pectinase-rich conditions. 5-Fluorouracil (5-FU) was loaded with encapsulation efficiency of ∼72% and loading efficiency of ∼15% for QPE3 formulation. Drug release was adequately described by kinetic models, with the best-fitting model depending on the release conditions. The hydrogel demonstrated excellent cytocompatibility (>80% cell viability) and hemocompatibility (<2% hemolysis), while enabling selective inhibition of CT-26 colon carcinoma cells (viability reduced to ∼40% with enzyme-triggered release). This PEC/QGG platform integrates injectability, self-healing, and colon-specific degradability, offering a promising approach for localized colorectal cancer therapy.",
+   "watched": [],
+   "related": [],
+   "title_zh": "以果膠與季銨化瓜爾膠自組裝製成之天然生物聚合物可注射自癒型水凝膠，用於大腸癌標靶治療",
+   "abstract_zh": "本研究透過陰離子果膠（PEC）與陽離子季銨化瓜爾膠（QGG）之靜電自組裝，建構出一種生物相容、可注射、具自癒能力的水凝膠。經優化之PEC/QGG水凝膠（QPE5，比例1:3.5）展現快速凝膠化（1.5分鐘）、高產率（95.7%）、剪切變稀行為（黏度自430降至1.7 Pa·s），以及優異的自癒能力（壓縮強度恢復約90%）。Zeta電位分析顯示電荷中和現象（QPE5為+2.9 mV），證實存在強烈靜電作用。該水凝膠展現pH及酵素響應性降解，於酸性環境（pH 5.5）及富含果膠酶條件下降解加速。以5-氟尿嘧啶（5-FU）進行載藥，QPE3配方之包封效率約72%、載藥效率約15%。藥物釋放可由動力學模型適當描述，最佳擬合模型視釋放條件而異。該水凝膠具優異細胞相容性（存活率>80%）及血液相容性（溶血率<2%），並能選擇性抑制CT-26結腸癌細胞（酵素觸發釋放下存活率降至約40%）。此PEC/QGG平台整合可注射性、自癒性及結腸專一性降解特性，為局部大腸直腸癌治療提供一個有潛力的方法。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "純體外材料科學研究，無動物實驗、無臨床數據，距離臨床應用甚遠，對台灣大腸直腸外科臨床實務目前無直接參考價值。",
+   "relevance": "低度相關",
+   "relevance_why": "此為藥物載體材料開發的基礎研究，僅在細胞株層次驗證，非外科介入亦無人體或動物體內證據。",
+   "novelty": "仍屬早期",
+   "one_liner": "在CT-26大腸癌細胞株中，測試PEC/QGG水凝膠載5-FU之酵素觸發釋放，使細胞存活率降至約40%（無對照組人體數據）。",
+   "action": "目前不需改變做法；此為體外材料開發階段，尚無動物或人體數據支持任何臨床應用。",
+   "pico": {
+    "P": "CT-26小鼠結腸癌細胞株（體外實驗），無人體或動物體內研究",
+    "I": "PEC/QGG自組裝水凝膠載5-FU，經pH/酵素觸發釋放",
+    "C": "無明確對照組（未載藥水凝膠或游離5-FU比較數據未於摘要提及）",
+    "O": "主要：水凝膠物理化學特性（凝膠化時間、自癒率、載藥效率）、細胞/血液相容性、CT-26細胞存活率；次要：藥物釋放動力學"
+   },
+   "effects": [],
+   "key_numbers": [
+    "5-FU包封效率約72%，載藥效率約15%（QPE3配方）",
+    "細胞相容性>80%存活率；血液相容性<2%溶血率",
+    "酵素觸發釋放後CT-26細胞存活率降至約40%（無對照組比較數字）"
+   ],
+   "cautions": [
+    "僅為體外細胞實驗，無動物腫瘤模型或人體數據，無法推論臨床療效或安全性",
+    "CT-26存活率40%缺乏劑量反應曲線或IC50數據，亦無與游離5-FU或未載藥凝膠之直接比較",
+    "摘要未提供統計檢定方法、樣本重複次數或信賴區間，難以判斷結果穩定性"
+   ],
+   "unassessable": [
+    "動物體內藥效／毒性數據",
+    "人體臨床試驗設計相關項目（盲法、ITT、失訪率、試驗註冊）",
+    "利益衝突",
+    "統計方法與樣本數細節",
+    "長期穩定性與體內降解安全性"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。",
+   "added_at": "2026-08-11T06:42:04+08:00"
+  },
+  {
+   "pmid": "42572815",
+   "title": "Facilitation of Health Plan-Clinic Partnerships to Improve Colorectal Cancer Screening for Rural Medicaid Enrollees: A Qualitative Study",
+   "journal": "J Rural Health",
+   "journal_full": "The Journal of rural health : official journal of the American Rural Health Association and the National Rural Health Care Association",
+   "issn": "1748-0361",
+   "issn_linking": "0890-765X",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jun",
+   "doi": "10.1111/jrh.70203",
+   "ptype": "Pragmatic Clinical Trial",
+   "ptype_list": [
+    "Pragmatic Clinical Trial"
+   ],
+   "authors": "Kenzie E, Herreid-O'Neill A, Myers E, Coury J, Badicke B, Coronado G",
+   "abstract": "PURPOSE: Mailed fecal immunochemical test (FIT) and patient navigation for follow-up colonoscopy have been shown to increase colorectal cancer (CRC) screening rates, but implementation barriers exist in rural settings. Partnerships between clinics and Medicaid health plans may address these barriers. In a large pragmatic randomized trial, we conducted a qualitative analysis to identify ways in which practice facilitation supported the implementation of a partnered health plan-clinic intervention of mailed FIT and patient navigation to improve CRC screening among rural Medicaid enrollees.\nMETHODS: In the SMARTER CRC pragmatic trial, study team practice facilitators supported rural clinics and Medicaid health plans in implementing mailed FIT and patient navigation for follow-up colonoscopy. Qualitative data collected during the first year of implementation included clinic and health plan interviews, clinic contact logs, and monthly periodic reflections with the facilitator team.\nFINDINGS: Practice facilitation was needed to support both clinics and health plans in the study. Facilitators supported continued engagement of clinics and health plans, used workflow mapping to align implementation between clinics and health plans, provided technical support for sharing of patient data, and facilitated communication between clinics and health plans. Prior study team experience implementing CRC screening interventions enabled successful facilitation.\nCONCLUSIONS: Practice facilitation can successfully support partnered health plan-clinic implementation of mailed FIT and patient navigation in rural clinics. Our findings highlight the importance of assessing support needs across all partnering organizations when implementing multilevel preventive care interventions and underscore the importance of subject matter expertise in practice facilitation.\nTRIAL REGISTRATION: ClinicalTrials.gov Identifier: NCT04890054.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42390812",
+     "date": "2026-07-02",
+     "title_zh": "在郵寄FIT外展中測試行為經濟學原則：一項隨機試驗",
+     "score": 3,
+     "one_liner": "在4,070名未達篩檢標準的Medicare病人中，比較行為經濟學強化溝通與標準郵寄FIT溝通，90天完成率28.1% vs 25.5%，無顯著差異（p=0.094）。",
+     "sim": 0.174
+    },
+    {
+     "pmid": "42517457",
+     "date": "2026-07-30",
+     "title_zh": "招募鄉村地區病人參與臨床研究：來自一項大腸直腸癌篩檢試驗的經驗",
+     "score": 2,
+     "one_liner": "在527名參與大腸鏡篩檢試驗的病人中，分析與鄉村/城市初級照護機構合作對招募到鄉村病人比例的影響，鄉村PCO招募97.3%為鄉村居民。",
+     "sim": 0.171
+    }
+   ],
+   "title_zh": "促進健康計畫與診所夥伴關係以改善鄉村Medicaid受保人之大腸直腸癌篩檢：一項質性研究",
+   "abstract_zh": "目的：郵寄糞便免疫化學檢測（FIT）及後續大腸鏡病人導航已被證實可提升大腸直腸癌（CRC）篩檢率，但在鄉村環境中存在執行障礙。診所與Medicaid健康計畫之間的夥伴關係可能有助於解決這些障礙。在一項大型實用型隨機試驗中，我們進行質性分析，以了解執業促進（practice facilitation）如何支持一項結合健康計畫與診所的介入措施（郵寄FIT及病人導航）之執行，以改善鄉村Medicaid受保人之CRC篩檢。\n\n方法：在SMARTER CRC實用型試驗中，研究團隊的執業促進員支援鄉村診所與Medicaid健康計畫執行郵寄FIT及後續大腸鏡病人導航。執行第一年收集的質性資料包括診所與健康計畫訪談、診所聯繫紀錄，以及與促進員團隊的每月定期反思會議。\n\n發現：研究中診所與健康計畫皆需要執業促進的支持。促進員支持診所與健康計畫持續參與、運用工作流程圖以協調診所與健康計畫之間的執行、提供病人資料共享的技術支援，並促進診所與健康計畫之間的溝通。研究團隊先前執行CRC篩檢介入措施的經驗有助於促進工作的成功。\n\n結論：執業促進能成功支持鄉村診所執行結合健康計畫與診所夥伴關係的郵寄FIT及病人導航。本研究結果強調在執行多層級預防照護介入措施時，評估所有夥伴組織之支持需求的重要性，並強調執業促進中主題專業知識的重要性。\n\n試驗註冊：ClinicalTrials.gov識別碼：NCT04890054。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "這是美國Medicaid體系下針對篩檢執行障礙的質性研究，無臨床outcome數據，對台灣大腸直腸外科臨床實務幾乎無直接參考價值。",
+   "relevance": "低度相關",
+   "relevance_why": "屬美國健康政策/篩檢執行的質性研究，非外科介入，與台灣醫療給付與轉診體系脈絡不同。",
+   "novelty": "仍屬早期",
+   "one_liner": "在美國鄉村Medicaid健康計畫與診所的質性研究中，分析執業促進員如何支持郵寄FIT及病人導航之執行障礙。",
+   "action": "目前不需改變做法，此為美國健康政策執行層面之質性研究，非臨床決策證據。",
+   "pico": {
+    "P": "美國鄉村地區診所與Medicaid健康計畫之夥伴關係（SMARTER CRC試驗，執行第一年質性資料）",
+    "I": "執業促進員（practice facilitator）支援郵寄FIT及後續大腸鏡病人導航之執行",
+    "C": "無對照組（質性描述性研究）",
+    "O": "主要outcome：執業促進如何支持診所與健康計畫之執行過程（工作流程整合、資料共享、溝通）；無量化篩檢率或臨床outcome"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本研究為質性分析，無量化篩檢率、復發率或存活等臨床數據可供抽取",
+    "未報告參與診所或健康計畫之具體數量或篩檢完成率變化",
+    "無統計檢定或信賴區間，僅為描述性質性發現"
+   ],
+   "cautions": [
+    "質性研究無法評估介入措施對實際篩檢率或大腸鏡完成率的量化效果",
+    "結論基於研究團隊自身觀察與訪談，可能存在觀察者偏誤與選擇性報告",
+    "美國Medicaid與鄉村醫療體系脈絡與台灣健保及大腸直腸外科臨床路徑差異極大，外推性低"
+   ],
+   "unassessable": [
+    "盲法（不適用於質性研究）",
+    "失訪率",
+    "利益衝突",
+    "成本分析",
+    "量化篩檢率改變幅度"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "此篇與先前看過的兩篇同屬鄉村/弱勢族群CRC篩檢執行相關研究主題，但採質性方法補充執行層面（健康計畫-診所夥伴關係）之障礙與促進策略，未提供量化篩檢率結果可與前作直接比較。",
+   "added_at": "2026-08-11T06:42:04+08:00"
+  }
+ ]
+}
