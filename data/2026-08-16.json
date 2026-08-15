@@ -1,0 +1,768 @@
+{
+ "date": "2026-08-16",
+ "generated_at": "2026-08-16T06:30:57+08:00",
+ "count": 10,
+ "papers": [
+  {
+   "pmid": "42601762",
+   "title": "A PRISMA-guided systematic review of pharmacogenetic anticancer clinical trials registered on clinicaltrials.gov",
+   "journal": "Medicine (Baltimore)",
+   "journal_full": "Medicine",
+   "issn": "1536-5964",
+   "issn_linking": "0025-7974",
+   "impact_factor": 2.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1097/MD.0000000000049996",
+   "ptype": "Systematic Review",
+   "ptype_list": [
+    "Systematic Review"
+   ],
+   "authors": "Ashour A, Alhayyan A, Alhayyan R",
+   "abstract": "BACKGROUND: Pharmacogenetics plays an increasingly important role in oncology by supporting individualized therapeutic strategies based on patient genetic profiles. ClinicalTrials.gov provides a valuable platform for evaluating global trends in pharmacogenetic anticancer clinical trials. This systematic review aimed to evaluate pharmacogenetic-focused anticancer clinical trials registered on ClinicalTrials.gov and summarize trends in study design, cancer types, targeted biomarkers, therapeutic interventions, and geographic distribution.\nMETHODS: A Preferred Reporting Items for Systematic Reviews and Meta-Analyses-guided systematic review was conducted using ClinicalTrials.gov. Searches were performed between July 24 and July 26, 2025, using the terms \"anticancer\" AND \"pharmacogenetics.\" Eligible studies included interventional and observational oncology trials containing a pharmacogenetic component. Data extracted included trial phase, study status, cancer type, pharmacogenetic targets, therapeutic interventions, sponsor type, and country of origin.\nRESULTS: A total of 12 trials met the inclusion criteria. Most studies were interventional (91.7%) and predominantly early-phase trials. Frequently investigated biomarkers included CYP450 enzymes, TPMT, UGT1A1, BRCA1/2, and Epidermal Growth Factor Receptor. Breast cancer, colorectal cancer, and non-small cell lung cancer were among the most commonly investigated malignancies. Most trials originated from the United States and Europe, while limited representation from low- and middle-income countries was observed. Increasing incorporation of multi-gene panels and biomarker-guided therapeutic strategies was identified.\nCONCLUSION: Pharmacogenetic approaches are increasingly being incorporated into anticancer clinical trials and may contribute to the advancement of precision oncology. However, broader global representation, larger late-phase trials, and more standardized biomarker integration remain necessary to support wider clinical implementation.",
+   "watched": [],
+   "related": [],
+   "title_zh": "以PRISMA指引進行之系統性回顧：ClinicalTrials.gov上登記之藥物基因學抗癌臨床試驗",
+   "abstract_zh": "背景：藥物基因學透過根據患者基因特徵支持個人化治療策略，在腫瘤學中扮演日益重要的角色。ClinicalTrials.gov提供了評估全球藥物基因學導向抗癌臨床試驗趨勢的重要平台。本系統性回顧旨在評估登記於ClinicalTrials.gov上以藥物基因學為焦點的抗癌臨床試驗，並總結研究設計、癌症類型、目標生物標記、治療介入及地理分布的趨勢。\n\n方法：採用PRISMA（系統性文獻回顧與統合分析首選報告項目）指引，使用ClinicalTrials.gov進行系統性回顧。搜尋於2025年7月24日至26日期間進行，使用「anticancer」與「pharmacogenetics」為關鍵詞。納入條件為包含藥物基因學成分之腫瘤學介入性與觀察性試驗。擷取資料包括試驗階段、研究狀態、癌症類型、藥物基因學目標、治療介入、贊助者類型及原始國家。\n\n結果：共12項試驗符合納入條件。多數研究為介入性（91.7%），且以早期階段試驗為主。常被研究的生物標記包括CYP450酵素、TPMT、UGT1A1、BRCA1/2及表皮生長因子受體（EGFR）。乳癌、大腸直腸癌及非小細胞肺癌為最常被研究的惡性腫瘤之一。多數試驗源自美國與歐洲，而低中收入國家的代表性有限。研究發現多基因套組（multi-gene panels）及生物標記導向治療策略的納入正逐漸增加。\n\n結論：藥物基因學方法正日益被納入抗癌臨床試驗中，可能有助於精準腫瘤學的進展。然而，仍需更廣泛的全球代表性、更大規模的晚期階段試驗，以及更標準化的生物標記整合，以支持更廣泛的臨床應用。",
+   "evidence_level": "系統性回顧",
+   "score": 2,
+   "score_reason": "僅為12篇試驗登錄資料的描述性趨勢分析，無臨床結果數據，對台灣大腸直腸外科臨床決策幾無直接實用性。",
+   "relevance": "低度相關",
+   "relevance_why": "此為藥物基因學試驗登錄趨勢的描述性回顧，非外科介入或臨床療效研究，僅間接提及大腸直腸癌為研究腫瘤類型之一。",
+   "novelty": "仍屬早期",
+   "one_liner": "回顧ClinicalTrials.gov上12項藥物基因學抗癌試驗，發現多為早期階段、美歐主導，未提供任何臨床療效數據。",
+   "action": "目前不需改變做法，此篇為試驗登錄趨勢描述性分析，非臨床療效或外科介入研究。",
+   "pico": {
+    "P": "登記於ClinicalTrials.gov上、包含藥物基因學成分之抗癌臨床試驗（共12項）",
+    "I": "藥物基因學生物標記導向之試驗設計與治療介入",
+    "C": "無對照組（本研究為描述性統合分析，非比較性研究）",
+    "O": "主要：試驗設計特徵（階段、狀態、贊助者、國家）分布；次要：癌症類型、目標生物標記、多基因套組使用趨勢"
+   },
+   "effects": [],
+   "key_numbers": [
+    "共納入12篇試驗，其中91.7%為介入性研究，多屬早期階段",
+    "常見生物標記：CYP450酵素、TPMT、UGT1A1、BRCA1/2、EGFR",
+    "試驗多來自美國與歐洲，低中收入國家代表性有限"
+   ],
+   "cautions": [
+    "僅納入12篇試驗，樣本量極小，統計與代表性均有限",
+    "為登錄資料庫描述性分析，未評估任何臨床療效、安全性或存活結果",
+    "未評估個別試驗品質或偏誤風險，僅呈現趨勢統計，無法推論因果或臨床意義"
+   ],
+   "unassessable": [
+    "盲法",
+    "allocation concealment",
+    "ITT分析",
+    "失訪率",
+    "利益衝突",
+    "成本分析",
+    "個別試驗品質評估"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-08-16T06:26:24+08:00"
+  },
+  {
+   "pmid": "42599706",
+   "title": "Body Mass Index at Diagnosis, Prediagnostic Weight Loss, and Survival in Colorectal Cancer",
+   "journal": "JAMA Netw Open",
+   "journal_full": "JAMA network open",
+   "issn": "2574-3805",
+   "issn_linking": "2574-3805",
+   "impact_factor": 11.7,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1001/jamanetworkopen.2026.29571",
+   "ptype": "Multicenter Study",
+   "ptype_list": [
+    "Multicenter Study"
+   ],
+   "authors": "Mandic M, Wankhede D, Safizadeh F, Hoffmeister M, Brenner H",
+   "abstract": "IMPORTANCE: Evidence on the association of excess adiposity with colorectal cancer (CRC) prognosis is conflicting, with some studies reporting better survival in patients with elevated body mass index (BMI)-often referred to as the obesity paradox.\nOBJECTIVE: To investigate to what extent the obesity paradox can be explained by prediagnostic cancer-associated weight loss.\nDESIGN, SETTING, AND PARTICIPANTS: This multicenter, population-based case-control study with prospective follow-up included patients aged 30 years or older with histologically confirmed CRC who were recruited from more than 20 hospitals in southwest Germany between 2001 and 2016, with survival follow-up through September 2018. Analysis was conducted from September 2025 to June 2026.\nEXPOSURE: BMI at diagnosis (underweight, BMI <18.5; normal weight, BMI 18.5 to <25.0; overweight, BMI 25.0 to <30.0; obesity, BMI ≥30.0), and percent weight change during the 5 to 14 years preceding diagnosis, both derived from self-reported height and body weight.\nMAIN OUTCOMES AND MEASURES: Overall, CRC-specific, and recurrence-free survival were assessed using Cox proportional hazards regression models adjusted for demographic and lifestyle factors, tumor characteristics, and comorbidities, estimated as hazard ratios (HRs) with 95% CIs.\nRESULTS: Among 5521 patients with CRC (2159 female [39%]; median [IQR] age at diagnosis, 69 [61-76] years), 2429 deaths occurred during a median (IQR) follow-up of 5.2 (3.4-9.9) years, including 1381 CRC-related deaths. Compared with patients with normal weight at diagnosis, those who had overweight had modestly higher overall survival (HR, 0.89; 95% CI, 0.81-0.98), while no association was observed for obesity. Prediagnostic weight loss of more than 10% was associated with worse survival (HR, 1.55; 95% CI, 1.39-1.72). Upon mutual adjustment for at-diagnosis BMI and prediagnostic weight change, associations for overweight and obesity were attenuated to null.\nCONCLUSIONS AND RELEVANCE: In this case-control study with prospective follow-up of patients with CRC, the obesity paradox appeared to be largely attributable to prediagnostic cancer-associated weight loss. The apparent survival advantage associated with overweight and obesity at diagnosis should not be interpreted as evidence to encourage weight gain for patients with healthy weight or to revise existing survivorship recommendations.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42373254",
+     "date": "2026-06-30",
+     "title_zh": "台灣大腸直腸癌（CRC）患者身體質量指數（BMI）與整體存活之關聯性研究",
+     "score": 5,
+     "one_liner": "在96,500名台灣CRC患者中，比較不同BMI組別的整體死亡風險，發現體重過輕死亡風險增加61%，過重／肥胖則降低約20-23%。",
+     "sim": 0.348
+    },
+    {
+     "pmid": "42545699",
+     "date": "2026-08-04",
+     "title_zh": "奈及利亞成年人大腸直腸癌（CRC）風險因子",
+     "score": 3,
+     "one_liner": "在奈及利亞2063名CRC病例與對照中，比較13項已知風險因子，發現家族史（OR 1.55）、加工肉（OR 1.43）等與高收入國家模式相似。",
+     "sim": 0.247
+    },
+    {
+     "pmid": "42545699",
+     "date": "2026-08-05",
+     "title_zh": "尼日利亞成人大腸直腸癌（CRC）之風險因子",
+     "score": 3,
+     "one_liner": "在2063名尼日利亞成人（病例與配對對照）中檢視13項CRC風險因子，發現家族史、加工肉、身體活動等關聯模式與高收入國家相似（OR 1.43-1.88）。",
+     "sim": 0.247
+    }
+   ],
+   "title_zh": "大腸直腸癌診斷時之身體質量指數、診斷前體重減輕與存活率的關聯",
+   "abstract_zh": "重要性：過多脂肪組織與大腸直腸癌（CRC）預後之關聯的證據相互矛盾，部分研究報告身體質量指數（BMI）較高的患者存活較佳，此現象常被稱為「肥胖悖論」。目的：探討肥胖悖論在多大程度上可歸因於診斷前與癌症相關的體重減輕。設計、場域與參與者：本研究為多中心、以人群為基礎的病例對照研究並含前瞻性追蹤，收納2001年至2016年間從德國西南部20多間醫院招募之年齡30歲以上、經組織學確診之CRC患者，存活追蹤至2018年9月。分析於2025年9月至2026年6月間進行。暴露：診斷時之BMI（體重過輕：BMI<18.5；正常體重：18.5至<25.0；過重：25.0至<30.0；肥胖：BMI≥30.0），以及診斷前5至14年間的體重變化百分比，兩者均以自報身高與體重推算。主要結果與測量：使用Cox比例風險回歸模型評估整體存活、CRC特異性存活及無復發存活，並調整人口學與生活型態因子、腫瘤特徵及共病症，以風險比（HR）及95%信賴區間（CI）呈現。結果：在5521名CRC患者中（女性2159人，佔39%；診斷時中位年齡[IQR] 69[61-76]歲），中位追蹤5.2（3.4-9.9）年間發生2429例死亡，其中1381例為CRC相關死亡。與正常體重患者相比，過重患者之整體存活略高（HR 0.89；95% CI 0.81-0.98），而肥胖則未觀察到相關性。診斷前體重減輕超過10%與較差的存活相關（HR 1.55；95% CI 1.39-1.72）。在同時調整診斷時BMI與診斷前體重變化後，過重與肥胖的相關性均削弱至無統計意義。結論與相關性：在這項具前瞻性追蹤的CRC病例對照研究中，肥胖悖論在很大程度上可歸因於診斷前與癌症相關之體重減輕。診斷時過重或肥胖所呈現的存活優勢，不應被解讀為鼓勵健康體重患者增重、或修訂現行倖存者照護建議的證據。",
+   "evidence_level": "病例對照",
+   "score": 6,
+   "score_reason": "設計嚴謹且樣本量大（5521人），巧妙解構肥胖悖論的混淆機制，但屬觀察性研究、自報身高體重有回憶偏誤風險，對台灣外科臨床決策非直接改變手術做法。",
+   "relevance": "中度相關",
+   "relevance_why": "屬預後流行病學研究而非手術介入，對病人衛教與存活討論有參考價值，但不直接影響手術決策。",
+   "novelty": "再確認已知",
+   "one_liner": "在5521名德國CRC患者中，分析BMI與診斷前體重變化對存活之影響，過重存活優勢（HR 0.89）經調整體重減輕後消失，體重減輕>10%死亡風險升1.55倍。",
+   "action": "衛教病人「肥胖悖論」很可能是診斷前癌症相關體重減輕造成的假象，不應以此鼓勵正常體重病人增重或改變倖存者照護建議。",
+   "pico": {
+    "P": "德國西南部20餘家醫院收案之5521名確診CRC患者（2001-2016年），中位追蹤5.2年",
+    "I": "診斷時BMI分類（過重、肥胖）及診斷前5-14年體重變化百分比",
+    "C": "正常體重組（BMI 18.5-<25.0）作為參照",
+    "O": "主要：整體存活、CRC特異性存活、無復發存活（Cox模型HR）；次要：BMI與體重變化之交互調整效應"
+   },
+   "effects": [],
+   "key_numbers": [
+    "過重 vs 正常體重整體存活：HR 0.89（95% CI 0.81-0.98），無絕對風險數字可換算",
+    "診斷前體重減輕>10%：死亡風險增加，HR 1.55（95% CI 1.39-1.72）",
+    "同時調整BMI與體重變化後，過重／肥胖的存活優勢削弱至無統計意義（null）"
+   ],
+   "cautions": [
+    "BMI與體重變化均為自報資料，尤其診斷前5-14年之回憶偏誤可能相當顯著",
+    "病例對照設計搭配回溯性暴露評估，反向因果（癌症導致體重減輕）本身即為此文核心議題但仍難完全排除殘餘混淆",
+    "全文僅提供HR與95% CI，未附各組事件數／總人數，無法計算絕對風險差異或NNT"
+   ],
+   "unassessable": [
+    "盲法",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "各BMI分組之絕對死亡人數/總人數"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "先前看過的台灣96,500人BMI與CRC存活研究同樣觀察到過重/肥胖死亡風險較低約20-23%的「肥胖悖論」現象；本篇提出機制解釋——此現象可能主要來自診斷前癌症相關體重減輕的反向因果混淆，補上了前作未探討的機制缺口。",
+   "added_at": "2026-08-16T06:26:24+08:00"
+  },
+  {
+   "pmid": "42597332",
+   "title": "An albumin-based immune-nutritional score for predicting complete response, organ preservation, and toxicity after neoadjuvant PD-1-based therapy in low rectal cancer",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1093/annonc/mdx224",
+   "ptype": "Multicenter Study",
+   "ptype_list": [
+    "Multicenter Study"
+   ],
+   "authors": "Fan Y, Zhang M, An K, Wang Z, Meng N, Liu M",
+   "abstract": "BACKGROUND: Programmed death-1 (PD-1) inhibitors are increasingly used in neoadjuvant therapy for low rectal cancer, but complete response and toxicity remain heterogeneous. We developed and validated an albumin-based immune-nutritional score (ABINS) to capture host factors not reflected by tumor biomarkers.\nMETHODS: This multicenter retrospective study included 480 consecutive patients with low rectal adenocarcinoma (≤5 cm from the anal verge) treated with neoadjuvant PD-1-based therapy at three tertiary centers from 2018 to 2023. Patients were assigned to a training cohort (n=276), internal validation cohort (n=87), and geographically separate external validation cohort (n=117). ABINS assigned one point each for albumin <35 g/L, lymphocyte count <1.0×109/L, C-reactive protein >10 mg/L, total cholesterol <3.6 mmol/L, and sex-specific anemia, yielding favorable (0-1), intermediate (2), and poor (3-5) categories. The primary endpoint was composite complete response, defined as sustained clinical complete response under watch-and-wait or pathological complete response. Secondary endpoints included organ preservation, toxicity, immune-related adverse events, and disease-free survival. Logistic and Cox regression evaluated associations, and model performance was assessed by AUC, calibration, and Brier score.\nRESULTS: Among 480 patients, 166 (34.6%) achieved composite complete response, 280 (58.3%) achieved organ preservation, and 225 disease-free survival events occurred over a median follow-up of 32.4 months. ABINS classified 333 patients (69.4%) as favorable, 87 (18.1%) as intermediate, and 60 (12.5%) as poor. Complete response decreased stepwise across these groups (42.9%, 20.7%, and 8.3%; P<0.001), as did organ preservation (66.4%, 51.7%, and 23.3%; P<0.001), whereas grade ≥3 toxicity increased (7.5%, 19.5%, and 23.3%; P<0.001). After multivariable adjustment, each one-point ABINS increase independently predicted lower complete response (OR 0.51, 95% CI 0.41-0.65), higher grade ≥3 toxicity (OR 1.75, 95% CI 1.37-2.23), and worse disease-free survival (HR 1.42, 95% CI 1.27-1.60; all P<0.001). Adding ABINS improved external-cohort AUC from 0.703 to 0.772 and reduced Brier score from 0.190 to 0.161.\nCONCLUSIONS: ABINS is a simple, inexpensive host immune-nutritional score that improves risk stratification for complete response, organ preservation, toxicity, and survival after neoadjuvant PD-1-based therapy in low rectal cancer. Prospective validation is warranted.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42506362",
+     "date": "2026-07-28",
+     "title_zh": "全直腸新輔助治療（TNT）與長療程放化療（LCRT）於局部進行性直腸癌之比較：真實世界腫瘤反應與臨床結局",
+     "score": 3,
+     "one_liner": "在110名LARC病人中，比較TNT與LCRT，pCR（18.5% vs 9.7%）與cCR（15.6% vs 6.4%）均無統計顯著差異（p=0.301、0.151）。",
+     "sim": 0.173
+    },
+    {
+     "pmid": "42506362",
+     "date": "2026-07-29",
+     "title_zh": "局部進展期直腸癌之全程新輔助治療（TNT）與傳統長程放化療（LCCRT）比較：真實世界腫瘤反應與臨床結果",
+     "score": 3,
+     "one_liner": "在110名LARC病人中，比較TNT與LCCRT，pCR（18.5% vs 9.7%，p=0.301）與cCR（15.6% vs 6.4%，p=0.151）均未達統計顯著差異。",
+     "sim": 0.173
+    },
+    {
+     "pmid": "42556957",
+     "date": "2026-08-07",
+     "title_zh": "直腸癌患者於新輔助治療後達臨床完全緩解者之觀察等待策略：安全嗎？",
+     "score": 4,
+     "one_liner": "在TNT後達臨床完全緩解之直腸癌病人中，綜述觀察等待策略，發現約50%達長期器官保留，另50%需因復發接受手術。",
+     "sim": 0.159
+    }
+   ],
+   "title_zh": "以白蛋白為基礎的免疫營養評分（ABINS）用於預測低位直腸癌接受PD-1為主之新輔助治療後之完全緩解、器官保留與毒性",
+   "abstract_zh": "背景：PD-1抑制劑在低位直腸癌新輔助治療中的使用日益增加，但完全緩解與毒性反應仍存在異質性。我們開發並驗證一項以白蛋白為基礎的免疫營養評分（ABINS），以捕捉腫瘤生物標記無法反映的宿主因子。方法：本多中心回溯性研究納入480名連續病人，均為距肛緣≤5cm之低位直腸腺癌，於2018至2023年間在三個醫學中心接受PD-1為主之新輔助治療。病人分為訓練組（n=276）、內部驗證組（n=87）及地理上獨立之外部驗證組（n=117）。ABINS依白蛋白<35 g/L、淋巴球計數<1.0×10^9/L、C反應蛋白>10 mg/L、總膽固醇<3.6 mmol/L、性別特異性貧血各給予一分，總分分為良好（0-1分）、中等（2分）、不良（3-5分）三類。主要終點為複合完全緩解，定義為觀察等待下之持續性臨床完全緩解或病理完全緩解。次要終點包括器官保留、毒性、免疫相關不良事件與無病生存期。以邏輯與Cox回歸評估關聯，並以AUC、校正曲線與Brier分數評估模型表現。結果：480名病人中，166名（34.6%）達複合完全緩解，280名（58.3%）達器官保留，中位追蹤32.4個月間發生225次無病生存事件。ABINS將333名病人（69.4%）分為良好，87名（18.1%）為中等，60名（12.5%）為不良。完全緩解率隨組別遞減（42.9%、20.7%、8.3%；P<0.001），器官保留率亦同（66.4%、51.7%、23.3%；P<0.001），而三級以上毒性則遞增（7.5%、19.5%、23.3%；P<0.001）。多變項調整後，ABINS每增加一分獨立預測較低完全緩解（OR 0.51，95% CI 0.41-0.65）、較高三級以上毒性（OR 1.75，95% CI 1.37-2.23）及較差無病生存期（HR 1.42，95% CI 1.27-1.60；皆P<0.001）。加入ABINS後，外部驗證組AUC由0.703提升至0.772，Brier分數由0.190降至0.161。結論：ABINS是一項簡單、低成本的宿主免疫營養評分，可改善低位直腸癌接受PD-1為主新輔助治療後對完全緩解、器官保留、毒性與存活之風險分層。仍需前瞻性驗證。",
+   "evidence_level": "回溯性研究",
+   "score": 4,
+   "score_reason": "多中心含外部驗證的統計設計嚴謹，但為回溯性、病人選擇標準（如MSI/dMMR狀態）未說明，且台灣目前PD-1為主新輔助治療於直腸癌並非常規做法，實用性有限。",
+   "relevance": "中度相關",
+   "relevance_why": "PD-1新輔助治療於低位直腸癌屬新興但仍非主流做法（除dMMR/MSI-H外），台灣臨床上遇到此類病人比例不高。",
+   "novelty": "仍屬早期",
+   "one_liner": "在480名接受PD-1為主新輔助治療之低位直腸癌病人中，以ABINS評分分層，完全緩解率從42.9%降至8.3%（p<0.001）。",
+   "action": "目前不需改變常規做法；若收治接受PD-1新輔助治療病人，可參考白蛋白、淋巴球、CRP、膽固醇、貧血作風險分層，但需前瞻驗證。",
+   "pico": {
+    "P": "480名低位直腸腺癌（距肛緣≤5cm）接受PD-1為主新輔助治療病人，分訓練組276人、內部驗證87人、外部驗證117人",
+    "I": "ABINS評分（白蛋白、淋巴球、CRP、總膽固醇、性別特異性貧血組成）分層",
+    "C": "無對照組（為預測模型之風險分層，非治療比較）",
+    "O": "主要：複合完全緩解（cCR under W&W或pCR）；次要：器官保留、三級以上毒性、免疫相關不良事件、無病生存期"
+   },
+   "effects": [
+    {
+     "outcome": "複合完全緩解（ABINS良好 vs 不良）",
+     "ok": true,
+     "i_label": "ABINS良好組",
+     "c_label": "ABINS不良組",
+     "i_rate": 42.9,
+     "c_rate": 8.3,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 34.6,
+     "benefit": true,
+     "event_bad": false,
+     "nnt": 3,
+     "kind": "NNT",
+     "note": ""
+    },
+    {
+     "outcome": "器官保留（ABINS良好 vs 不良）",
+     "ok": true,
+     "i_label": "ABINS良好組",
+     "c_label": "ABINS不良組",
+     "i_rate": 66.4,
+     "c_rate": 23.3,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 43.1,
+     "benefit": true,
+     "event_bad": false,
+     "nnt": 2,
+     "kind": "NNT",
+     "note": ""
+    },
+    {
+     "outcome": "三級以上毒性（ABINS良好 vs 不良）",
+     "ok": true,
+     "i_label": "ABINS良好組",
+     "c_label": "ABINS不良組",
+     "i_rate": 7.5,
+     "c_rate": 23.3,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 15.8,
+     "benefit": true,
+     "event_bad": true,
+     "nnt": 6,
+     "kind": "NNT",
+     "note": ""
+    }
+   ],
+   "key_numbers": [
+    "完全緩解率：良好42.9% vs 不良8.3%，p<0.001，差距達34.6個百分點",
+    "每增1分ABINS，完全緩解OR 0.51 (95% CI 0.41-0.65)；三級以上毒性OR 1.75 (95% CI 1.37-2.23)",
+    "加入ABINS後外部驗證AUC僅由0.703升至0.772，鑑別力提升有限"
+   ],
+   "cautions": [
+    "為回溯性研究，病人接受PD-1治療之篩選標準（如MSI/dMMR狀態）未說明，可能存在選擇偏誤",
+    "複合終點（cCR under W&W加pCR）混合不同族群結局，可能掩蓋治療反應異質性",
+    "外部驗證AUC提升幅度小（0.703→0.772），臨床區辨力仍屬中等，尚需前瞻性驗證"
+   ],
+   "unassessable": [
+    "MSI/dMMR狀態",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本分析",
+    "PD-1藥物種類與劑量細節"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。之前看過的論文皆聚焦於化放療為基礎的TNT/LCRT比較與觀察等待策略，與本篇PD-1免疫治療及其風險預測評分的機制與族群不同，無直接關聯。",
+   "added_at": "2026-08-16T06:26:24+08:00"
+  },
+  {
+   "pmid": "42603146",
+   "title": "Synthetic microbial communities: emerging live biotherapeutics for targeted gut microbiome modulation",
+   "journal": "Gut Microbes",
+   "journal_full": "Gut microbes",
+   "issn": "1949-0984",
+   "issn_linking": "1949-0976",
+   "impact_factor": 15.3,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Dec",
+   "doi": "10.1080/19490976.2026.2719056",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Zhang R, Li H, Wang C, Yang G",
+   "abstract": "Gut microbiome dysbiosis causes various intestinal diseases. However, an undefined composition and potential biosafety risks limit the applicability of traditional fecal microbiota transplantation (FMT). Synthetic microbial communities (SynComs), which are compositionally defined and rationally designed emerging live biotherapeutics, offer a novel alternative to FMT. This review establishes strict boundaries between SynComs and traditional donor-derived preparations, comparatively evaluating \"top-down\" and \"bottom-up\" construction strategies. We explored the mechanisms underlying the SynComs-mediated synergistic restoration of intestinal homeostasis via direct targeted antagonism and modulation of the host immune network. Moreover, we systematically evaluated the current research landscape of SynComs in Clostridioides difficile infection, inflammatory bowel disease, and colorectal cancer. This review examines fundamental challenges, including host colonization resistance, chemistry, manufacturing, and control barriers, biosafety risks, and microbiokinetic regulatory frameworks, thereby addressing the translational gap. Our analysis of current literature provides a theoretical basis for the clinical translation of SynComs as emerging live biotherapeutics.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42562540",
+     "date": "2026-08-08",
+     "title_zh": "乳酸菌於合成微生物群落中的生態機制與功能穩定性：競爭、交叉餵養與穩態維持",
+     "score": 1,
+     "one_liner": "本文為綜述，探討乳酸菌在合成微生物群落中透過競爭與交叉餵養維持群落穩定性的生態機制，屬理論框架，非臨床研究。",
+     "sim": 0.18
+    },
+    {
+     "pmid": "42562540",
+     "date": "2026-08-09",
+     "title_zh": "乳酸菌在合成微生物群落中的生態機制與功能穩定性：競爭、交叉飼養與穩態維持",
+     "score": 1,
+     "one_liner": "本文為理論綜述，探討乳酸菌在合成微生物群落中如何透過競爭與交叉飼養維持群落穩定性，並提出概念性階層框架。",
+     "sim": 0.18
+    }
+   ],
+   "title_zh": "合成微生物群落：用於腸道菌群標靶調控的新興活體生物治療劑",
+   "abstract_zh": "腸道菌群失衡會導致多種腸道疾病。然而，傳統糞便微生物移植（FMT）因組成不明確及潛在生物安全風險而應用受限。合成微生物群落（SynComs）是組成明確、經理性設計的新興活體生物治療劑，提供了FMT之外的新選擇。本篇綜述在SynComs與傳統供體來源製劑之間建立嚴格界線，並比較評估「由上而下」與「由下而上」兩種建構策略。我們探討SynComs透過直接標靶拮抗作用及調節宿主免疫網絡以協同恢復腸道恆定的機制。此外，我們系統性評估了SynComs在困難梭菌感染、發炎性腸道疾病及大腸直腸癌（CRC）中的現有研究現況。本綜述檢視了根本性挑戰，包括宿主定植抗性、化學製造與管控（CMC）障礙、生物安全風險，以及微生物動力學法規架構，藉此處理轉譯落差問題。我們對現有文獻的分析為SynComs作為新興活體生物治療劑之臨床轉譯提供了理論基礎。",
+   "evidence_level": "綜述",
+   "score": 1,
+   "score_reason": "純理論性綜述，無臨床數據，對台灣大腸直腸外科臨床決策無直接實用價值。",
+   "relevance": "低度相關",
+   "relevance_why": "屬基礎微生物治療學綜述，非外科介入研究，CRC僅為文中順帶提及的應用領域之一，無具體臨床資料。",
+   "novelty": "仍屬早期",
+   "one_liner": "本文綜述合成微生物群落（SynComs）作為新興活體生物治療劑，於困難梭菌感染、IBD、CRC等領域的機制與轉譯挑戰，無臨床數據。",
+   "action": "目前不需改變做法；此為基礎研究綜述，無臨床試驗數據可供CRC治療決策參考。",
+   "pico": {
+    "P": "無特定病人族群（綜述文章，涵蓋困難梭菌感染、IBD、CRC等疾病領域）",
+    "I": "合成微生物群落（SynComs）作為活體生物治療劑",
+    "C": "傳統糞便微生物移植（FMT）",
+    "O": "無臨床outcome；討論機制、轉譯挑戰與法規框架"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本文無臨床試驗數據、無事件數或發生率可供抽取",
+    "屬機制與轉譯挑戰之理論性綜述",
+    "CRC僅為文中提及的三個應用疾病領域之一，未提供CRC特定數據"
+   ],
+   "cautions": [
+    "純綜述性質，無原始臨床試驗數據，無法評估療效或安全性",
+    "CRC相關內容僅為現況描述，非具體介入效果之量化證據",
+    "轉譯至臨床應用仍面臨定植抗性、法規框架等未解決之根本挑戰"
+   ],
+   "unassessable": [
+    "臨床試驗設計相關項目（盲法、ITT、失訪率等）不適用，因本文為理論綜述非臨床研究",
+    "利益衝突",
+    "成本分析"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-08-16T06:26:24+08:00"
+  },
+  {
+   "pmid": "42602359",
+   "title": "Application and prospects of fecal microbiota transplantation in cancer therapy",
+   "journal": "Front Cell Infect Microbiol",
+   "journal_full": "Frontiers in cellular and infection microbiology",
+   "issn": "2235-2988",
+   "issn_linking": "2235-2988",
+   "impact_factor": 5.5,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.3389/fcimb.2026.1880573",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Fan Y, Li Y, Bi H, Ding Y, Lyu L, Geng Y",
+   "abstract": "As the largest community of commensal microorganisms in the human body, the gut microbiota-through its structural and functional imbalances-participates in the entire process of tumor initiation and progression, and profoundly influences the efficacy and safety of conventional anticancer regimens, including chemotherapy and immunotherapy. Fecal microbiota transplantation (FMT) offers a novel biological strategy for cancer treatment by reestablishing the ecological balance of the host gut microbiota. This review systematically integrates the basic theory, clinical practice, technical optimization, epidemiological features, current challenges, and future directions of FMT in oncology. It elaborates on how FMT modulates the tumor microenvironment via core mechanisms such as immune regulation, metabolic reprogramming, and intestinal barrier repair, and shows potential value in enhancing immunotherapy responses, improving chemotherapy tolerance, and alleviating treatment-related complications across various malignancies, including colorectal cancer, liver cancer, and melanoma. Meanwhile, the article outlines practical difficulties regarding donor screening, formulation standardization, ethical oversight, and long-term safety evaluation of FMT, and looks ahead to the development of precision FMT, synthetic microbial consortia, integration of multi-omics technologies, and combination treatment paradigms. The aim is to provide a comprehensive, systematic, and academically in-depth reference for the translational and basic research of FMT in precision cancer therapy.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42538089",
+     "date": "2026-08-02",
+     "title_zh": "嚴重型與猛暴型困難梭菌感染（CDI）之治療",
+     "score": 3,
+     "one_liner": "本文綜述嚴重型與猛暴型CDI的治療流程，強調抗生素為主流，FMT或手術為FMT/藥物無效者之選項，未提供新數據。",
+     "sim": 0.162
+    },
+    {
+     "pmid": "42538089",
+     "date": "2026-08-03",
+     "title_zh": "重症與猛暴性困難梭菌感染（Clostridioides difficile infection, CDI）之治療",
+     "score": 3,
+     "one_liner": "本文綜述重症與猛暴性CDI之處置流程：抗生素治療失敗後考慮FMT（可能需重複給藥），FMT無效或併發穿孔者需手術介入。",
+     "sim": 0.162
+    }
+   ],
+   "title_zh": "糞便微生物移植（FMT）在癌症治療中的應用與展望",
+   "abstract_zh": "腸道微生物群是人體內最大的共生微生物群落，其結構與功能失衡參與腫瘤發生與進展的全過程，並深刻影響包括化療與免疫治療等傳統抗癌療法的療效與安全性。糞便微生物移植（FMT）透過重建宿主腸道微生物群的生態平衡，提供一種新穎的癌症治療生物策略。本綜述系統性整合FMT在腫瘤學領域的基礎理論、臨床實踐、技術優化、流行病學特徵、當前挑戰與未來方向。文章闡述FMT如何透過免疫調節、代謝重編程、腸道屏障修復等核心機制調節腫瘤微環境，並顯示其在提升免疫治療反應、改善化療耐受性、減輕多種惡性腫瘤（包括大腸癌、肝癌、黑色素瘤）治療相關併發症方面的潛在價值。同時，文章概述FMT在供體篩選、製劑標準化、倫理監管與長期安全性評估方面的實際困難，並展望精準FMT、合成微生物群落、多體學技術整合及聯合治療範式的發展方向。旨在為FMT在精準癌症治療中的轉譯與基礎研究提供全面、系統且具學術深度的參考。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純機制性綜述，無新臨床數據或試驗結果，對大腸直腸外科臨床決策幾無直接可操作性。",
+   "relevance": "低度相關",
+   "relevance_why": "討論FMT於腫瘤免疫治療/化療輔助之基礎機制與展望，非外科介入，亦非可立即應用之臨床證據。",
+   "novelty": "仍屬早期",
+   "one_liner": "本綜述整理FMT於癌症治療（含大腸癌、肝癌、黑色素瘤）中調節腫瘤微環境、增強免疫/化療反應之機制與挑戰，無臨床試驗數據。",
+   "action": "目前不需改變做法：本文為機制性綜述，無具體療效數據或臨床應用指引可供大腸直腸外科實務參考。",
+   "pico": {
+    "P": "無特定病人族群（綜述文章，涵蓋大腸癌、肝癌、黑色素瘤等多種惡性腫瘤之基礎與臨床文獻）",
+    "I": "糞便微生物移植（FMT）作為癌症治療輔助策略",
+    "C": "無對照組",
+    "O": "無具體量化outcome；綜述性討論FMT對免疫治療反應、化療耐受性、治療相關併發症之潛在影響"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本文為敘述性綜述，摘要中未提供任何具體事件數、發生率或效應量數據",
+    "未報告任何臨床試驗結果或統計顯著性數值",
+    "所有結論皆屬機制推論與未來方向展望，非實證數據"
+   ],
+   "cautions": [
+    "綜述性質，無原創數據，所述療效（增強免疫治療反應、改善化療耐受性）皆為理論推論，非臨床試驗證實",
+    "未區分動物實驗、體外機制研究與人體臨床證據，讀者需自行查證原始文獻等級",
+    "供體篩選、標準化、長期安全性等問題僅被提及為「挑戰」，摘要未給出解決方案或數據支持"
+   ],
+   "unassessable": [
+    "因本文為敘述性綜述且無原始數據，盲法、ITT、失訪率、試驗註冊、利益衝突、成本分析等項目均無法評估"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。先前看過的兩篇為FMT用於困難梭菌感染（CDI）治療之綜述，屬感染症領域，與本文討論FMT於癌症治療之應用範疇不同，無直接關聯。",
+   "added_at": "2026-08-16T06:26:24+08:00"
+  },
+  {
+   "pmid": "42597831",
+   "title": "Rational design and biological validation of EZH2/PD-L1 bifunctional inhibitors for colorectal cancer immunotherapy",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1021/acs.jmedchem.3c02053",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Guan B, Cheng B, Li H",
+   "abstract": "OBJECTIVES: This study aims to identify novel small-molecule inhibitors that target both PD-L1 and EZH2 to enhance colorectal cancer immunotherapy.\nMETHODS: A combination of computer-aided molecular simulation, homogeneous time-resolved fluorescence (HTRF) assays, biolayer interferometry (BLI) assays, microscale thermophoresis (MST), and MTase-Glo methyltransferase assays was used to identify compounds with dual-targeting potential.\nRESULTS: Compound PE-1 exhibited potent inhibitory activity against the PD-1/PD-L1 interaction (IC50 = 48.1 nM) and showed strong EZH2 methyltransferase inhibitory effects, with an IC50 of 101.2 nM. BLI and MST further confirmed that PE-1 can effectively bind to both PD-L1 and EZH2 at the molecular level, supporting its bifunctional targeting capability. Importantly, compound PE-1 demonstrated significant activity in a PD-1/PD-L1 NFAT reporter bioassay, dose-dependently enhancing luciferase activity (EC50 = 0.61 μM), indicating effective blockade of the PD-1/PD-L1 pathway and reactivation of T-cell NFAT signaling. Notably, PE-1 demonstrated favorable in vivo pharmacokinetic properties, including a satisfactory oral bioavailability of 58.4%. In syngeneic tumor models, oral administration of PE-1 elicited substantial anti-tumor efficacy, with tumor growth inhibition (TGI) reaching 69.9% in CT26 tumors.\nCONCLUSIONS: PE-1 demonstrates dual-target inhibitory activity against the PD-1/PD-L1 immune checkpoint and EZH2, underscoring its potential as a lead compound for the development of next-generation bifunctional anticancer agents.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42535750",
+     "date": "2026-08-01",
+     "title_zh": "PD-1/PD-L1軸的藥理調控：從腸炎中的免疫耐受到大腸直腸癌中的免疫逃逸",
+     "score": 3,
+     "one_liner": "本篇綜述整理PD-1/PD-L1軸在腸炎與大腸直腸癌中的雙相角色，並回顧nivolumab、pembrolizumab於dMMR/MSI-H CRC之臨床證據與抗藥機轉。",
+     "sim": 0.168
+    },
+    {
+     "pmid": "42535750",
+     "date": "2026-08-02",
+     "title_zh": "PD-1/PD-L1軸的藥理學調控：從大腸炎的免疫耐受性到大腸直腸癌的免疫逃逸",
+     "score": 3,
+     "one_liner": "本文綜述PD-1/PD-L1軸在IBD與CRC中的雙相角色機轉，以及現有ICI（nivolumab、pembrolizumab）臨床應用與抗藥性挑戰。",
+     "sim": 0.168
+    }
+   ],
+   "title_zh": "EZH2/PD-L1雙功能抑制劑用於大腸直腸癌免疫治療之理性設計與生物驗證",
+   "abstract_zh": "目的：本研究旨在鑑定同時標靶PD-L1與EZH2的新型小分子抑制劑，以增強大腸直腸癌免疫治療效果。方法：結合電腦輔助分子模擬、均相時間分辨螢光（HTRF）分析、生物層干涉術（BLI）分析、微量熱泳動（MST）以及MTase-Glo甲基轉移酶分析，篩選具雙標靶潛力之化合物。結果：化合物PE-1對PD-1/PD-L1交互作用展現強效抑制活性（IC50 = 48.1 nM），並對EZH2甲基轉移酶展現強力抑制效果（IC50 = 101.2 nM）。BLI與MST進一步證實PE-1能在分子層級同時有效結合PD-L1與EZH2，支持其雙標靶能力。重要的是，PE-1在PD-1/PD-L1 NFAT報告基因生物檢測中展現顯著活性，以劑量依賴方式增強luciferase活性（EC50 = 0.61 μM），顯示其能有效阻斷PD-1/PD-L1路徑並重新活化T細胞NFAT訊號。值得注意的是，PE-1展現良好的體內藥物動力學性質，包括令人滿意的58.4%口服生體可用率。在同基因（syngeneic）腫瘤模型中，口服投予PE-1可產生顯著抗腫瘤療效，於CT26腫瘤模型中腫瘤生長抑制率（TGI）達69.9%。結論：PE-1展現對PD-1/PD-L1免疫檢查點與EZH2的雙標靶抑制活性，凸顯其作為次世代雙功能抗癌藥物先導化合物的開發潛力。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "純藥物化學與動物模型的臨床前研究，距離人體臨床應用甚遠，對台灣大腸直腸外科臨床決策無直接實用性。",
+   "relevance": "低度相關",
+   "relevance_why": "為小分子藥物開發之基礎/臨床前研究，非外科介入，亦非成熟臨床藥物證據。",
+   "novelty": "仍屬早期",
+   "one_liner": "在CT26小鼠同基因腫瘤模型中，測試雙標靶EZH2/PD-L1小分子PE-1，發現腫瘤生長抑制率達69.9%（無人體對照組）。",
+   "action": "目前不需改變做法：此為臨床前動物實驗，尚無人體試驗數據，暫不影響臨床照護。",
+   "pico": {
+    "P": "CT26同基因小鼠腫瘤模型（人數：不適用，動物實驗）",
+    "I": "口服PE-1（EZH2/PD-L1雙功能抑制劑）",
+    "C": "無對照組（摘要未明確說明對照組設計）",
+    "O": "主要：PD-1/PD-L1結合抑制IC50、EZH2抑制IC50、腫瘤生長抑制率(TGI)；次要：口服生體可用率"
+   },
+   "effects": [],
+   "key_numbers": [
+    "PD-1/PD-L1抑制IC50 = 48.1 nM；EZH2抑制IC50 = 101.2 nM",
+    "口服生體可用率58.4%",
+    "CT26腫瘤模型腫瘤生長抑制率(TGI)達69.9%（無對照組事件數據）"
+   ],
+   "cautions": [
+    "僅為體外分析與小鼠模型結果，未經人體試驗，距臨床應用尚遠",
+    "TGI為替代指標，未報告存活期、腫瘤復發等硬指標，且無對照組具體數字",
+    "無統計檢定信賴區間或p值呈現，樣本數與重複次數未提及"
+   ],
+   "unassessable": [
+    "動物數量",
+    "統計方法",
+    "毒性/安全性數據",
+    "利益衝突",
+    "人體藥物動力學"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-08-16T06:26:24+08:00"
+  },
+  {
+   "pmid": "42597619",
+   "title": "Construction of prognostic models for colorectal cancer based on the perioperative modified Gustave Roussy Immune Score and machine learning",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1245/s10434-016-5204-5",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Zhou J, Zhao K, Wei S, Huang S",
+   "abstract": "OBJECTIVE: To evaluate the prognostic value of preoperative and postoperative modified Gustave Roussy Immune Score (mGRIm) and dynamic mGRIm trajectories in patients with colorectal cancer (CRC), and to develop internally validated machine-learning models based on perioperative dynamic features.\nMETHODS: This retrospective cohort study included 457 patients with CRC who underwent primary tumor resection at Hubei Cancer Hospital between January 2016 and December 2019. Preoperative and postoperative mGRIm scores were calculated using receiver operating characteristic curve-derived cut-off values for albumin, lactate dehydrogenase, and neutrophil-to-lymphocyte ratio. Dynamic mGRIm trajectory was defined as the transition between preoperative and postoperative mGRIm risk states. Associations with overall survival (OS) and disease-free survival (DFS) were evaluated using Kaplan-Meier analysis and Cox proportional hazards models. Machine-learning model development incorporated Boruta-based feature selection, training set-restricted 5-fold cross-validation, and training set-restricted resampling strategies.\nRESULTS: Dynamic mGRIm trajectory showed strong and consistent prognostic stratification. Patients with persistently high mGRIm status had significantly higher risks of death (HR = 3.47, 95% CI: 1.76 -6.83, p < 0.001) and DFS events (HR = 2.76, 95% CI: 1.65 -4.61, p < 0.001) than those with persistently low status. In the prespecified evaluation framework integrating multiple performance metrics, the neural network model achieved the highest composite score for OS prediction (AUC = 0.801), whereas the radial basis function support vector machine achieved the best performance for DFS prediction (AUC = 0.856) in the independent test set.\nCONCLUSION: Dynamic mGRIm trajectory provides robust prognostic information for patients with CRC. Machine-learning models based on perioperative dynamic features demonstrate satisfactory internal predictive performance; however, external validation is required prior to clinical application.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42478980",
+     "date": "2026-07-22",
+     "title_zh": "COLOSSUS-AI：人工智慧預測大腸直腸手術術後結果之前導性研究",
+     "score": 3,
+     "one_liner": "在310名大腸直腸手術病人中，以梯度提升機器學習模型預測術後不良結果（發生率38.7%），內部驗證AUC達0.886。",
+     "sim": 0.208
+    },
+    {
+     "pmid": "42478980",
+     "date": "2026-07-23",
+     "title_zh": "COLOSSUS-AI：人工智慧預測大腸直腸手術術後結果之前導性研究",
+     "score": 3,
+     "one_liner": "在310名大腸直腸手術病人中，以梯度提升機器學習模型預測術後不良結果（發生率38.7%），內部驗證AUC達0.886。",
+     "sim": 0.208
+    },
+    {
+     "pmid": "42538596",
+     "date": "2026-08-03",
+     "title_zh": "三級淋巴結構作為大腸直腸癌復發預測因子：機器學習評分模型之建立與驗證",
+     "score": 4,
+     "one_liner": "在224名第II-III期CRC術後病人中，以TLS特徵建立ML復發預測模型，驗證組AUC僅0.718（95% CI 0.572-0.839），高低風險組HR=5.132。",
+     "sim": 0.202
+    }
+   ],
+   "title_zh": "基於圍手術期改良版Gustave Roussy免疫評分（mGRIm）與機器學習建立大腸直腸癌預後模型",
+   "abstract_zh": "目的：評估大腸直腸癌（CRC）病人術前與術後改良版Gustave Roussy免疫評分（mGRIm）及其動態軌跡的預後價值，並基於圍手術期動態特徵開發內部驗證之機器學習模型。方法：本回溯性世代研究納入2016年1月至2019年12月於湖北省腫瘤醫院接受原發腫瘤切除之457名CRC病人。術前與術後mGRIm評分以受試者操作特徵曲線推導之白蛋白、乳酸脫氫酶（LDH）及嗜中性球淋巴球比值（NLR）切點計算。動態mGRIm軌跡定義為術前與術後mGRIm風險狀態之轉變。以Kaplan-Meier分析與Cox比例風險模型評估與總體存活（OS）及無病存活（DFS）之關聯。機器學習模型開發包含Boruta特徵選擇、訓練集限定之5折交叉驗證，以及訓練集限定之重抽樣策略。結果：動態mGRIm軌跡顯示強烈且一致的預後分層能力。持續高mGRIm狀態病人之死亡風險（HR = 3.47，95% CI：1.76-6.83，p < 0.001）與DFS事件風險（HR = 2.76，95% CI：1.65-4.61，p < 0.001）皆顯著高於持續低狀態病人。在整合多項績效指標之預先設定評估架構中，神經網路模型在OS預測獲得最高綜合分數（AUC = 0.801），而徑向基底函數支持向量機在獨立測試集中DFS預測表現最佳（AUC = 0.856）。結論：動態mGRIm軌跡為CRC病人提供穩健之預後資訊。基於圍手術期動態特徵之機器學習模型顯示令人滿意的內部預測表現，惟臨床應用前仍需外部驗證。",
+   "evidence_level": "回溯性研究",
+   "score": 3,
+   "score_reason": "單中心回溯性研究、僅內部驗證，mGRIm本身組成簡單但ML模型層層疊加缺乏外部驗證，對臨床決策實用性有限。",
+   "relevance": "中度相關",
+   "relevance_why": "非手術介入本身，但屬於CRC術後風險分層與追蹤策略之預後研究，對外科醫師規劃隨訪仍有參考價值。",
+   "novelty": "仍屬早期",
+   "one_liner": "在457名CRC切除病人中，持續高mGRIm者死亡風險（HR=3.47）與復發風險（HR=2.76）皆顯著高於持續低mGRIm者。",
+   "action": "目前不需改變做法：僅單中心回溯性內部驗證，作者自承需外部驗證才能臨床應用。",
+   "pico": {
+    "P": "2016-2019年湖北省腫瘤醫院接受原發腫瘤切除之457名CRC病人",
+    "I": "圍手術期mGRIm動態軌跡（術前術後白蛋白、LDH、NLR組合評分變化）",
+    "C": "持續低mGRIm狀態 vs 持續高mGRIm狀態；另建立ML預測模型無外部對照",
+    "O": "主要：總體存活（OS）、無病存活（DFS）；次要：ML模型AUC表現"
+   },
+   "effects": [],
+   "key_numbers": [
+    "持續高mGRIm死亡風險 HR=3.47（95% CI 1.76-6.83, p<0.001）",
+    "持續高mGRIm復發/DFS事件風險 HR=2.76（95% CI 1.65-4.61, p<0.001）",
+    "神經網路OS預測AUC=0.801；RBF-SVM DFS預測AUC=0.856（皆僅內部測試集）"
+   ],
+   "cautions": [
+    "單中心回溯性研究，僅內部驗證，尚無外部驗證世代確認模型泛化性",
+    "僅報HR與CI，未提供各風險組實際死亡/復發人數與比例等絕對數字",
+    "ML模型於小樣本回溯資料上train/test切分，AUC 0.8以上仍有overfitting疑慮"
+   ],
+   "unassessable": [
+    "失訪率",
+    "利益衝突",
+    "外部驗證世代特性",
+    "試驗註冊",
+    "病人選案是否有選擇性偏誤"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "與先前COLOSSUS-AI及TLS-ML復發預測模型同屬CRC術後ML預後模型研究，方法學上皆為單中心回溯性、僅內部驗證，共同呈現此類研究外部驗證缺口的一致限制。",
+   "added_at": "2026-08-16T06:26:24+08:00"
+  },
+  {
+   "pmid": "42599075",
+   "title": "The Process of Adapting to Altered Bowel Function in Patients With Rectal Cancer: A Grounded Theory Study",
+   "journal": "Psychooncology",
+   "journal_full": "Psycho-oncology",
+   "issn": "1099-1611",
+   "issn_linking": "1057-9249",
+   "impact_factor": 3.9,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1097/00006199-200311000-00009",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Lu L, Long A, Sun F",
+   "abstract": "AIMS: To develop a theoretical framework for understanding the adaptation process to altered bowel function in patients with rectal cancer.\nMETHODS: This is a constructivist grounded theory study using theoretical sampling to select 24 patients who experienced low anterior resection syndrome, and were followed-up at a cancer centre in Northern Taiwan. Data were collected using interviews until theoretical saturation was reached. During the interview, field notes synchronously were written as a memo to capture what was seen, heard, felt, and thought. Data were analysed using iterated constant comparisons, initial coding, focused coding, and theoretical coding.\nRESULTS: A substantive theory was developed that describes how participants adapted to altered bowel functioning. These categories encompassed experiences of altered bowel functioning, distress from altered bowel functioning, tolerance of distress fuels motivation for self-empowerment, dynamic self-regulation styles, and \"living with\" altered bowel functioning. From this process, a core category emerged: \"The journey from painful struggles toward self-empowerment.\"\nCONCLUSION: These findings could guide healthcare professionals to comprehensively evaluate patients' distress from altered bowel functioning, witness those who are motivated to govern their situation, and provide timely information and tailored resources to sustain the growth of compassionate self-care strategies that enable them to deal with, and live with, their altered bowel function. In future research, the findings could help researchers to develop a tool to comprehensively evaluate distress from altered bowel function and design a timely, ongoing, individual, and cost-effective protocol that guides patients on a healing pathway.",
+   "watched": [],
+   "related": [],
+   "title_zh": "直腸癌病人適應排便功能改變之歷程：紮根理論研究",
+   "abstract_zh": "目的：建立一個理論架構，以理解直腸癌病人適應排便功能改變的歷程。方法：本研究採用建構主義紮根理論法，以理論性抽樣方式選取24位經歷低前位切除症候群（LARS）之病人，並於台灣北部一家癌症中心進行追蹤。資料透過訪談收集，直至達到理論飽和。訪談過程中同步撰寫田野筆記作為備忘錄，記錄所見、所聞、所感、所思。資料分析採用持續反覆比較法，包括初始編碼、聚焦編碼與理論編碼。結果：發展出一套實質理論，描述參與者如何適應排便功能改變。這些類別涵蓋：排便功能改變之經驗、排便功能改變引發之痛苦、對痛苦的忍受轉化為自我賦權之動力、動態的自我調節風格，以及「與」排便功能改變「共處」。從此歷程中浮現核心類別：「從痛苦掙扎邁向自我賦權之旅」。結論：這些發現可引導醫療專業人員全面評估病人因排便功能改變所產生之痛苦，辨識出有動機掌控自身處境者，並提供即時資訊與量身打造的資源，以持續滋養病人發展出富有同理心的自我照護策略，使其能夠應對並與排便功能改變共存。在未來研究中，這些發現有助於研究者開發一套工具，全面評估排便功能改變所致之痛苦，並設計出即時、持續、個別化且具成本效益的照護方案，引導病人走上療癒之路。",
+   "evidence_level": "其他",
+   "score": 4,
+   "score_reason": "紮根理論質性研究，樣本小（n=24）且單一中心，不會直接改變手術或治療決策，但提供LARS病人心理調適歷程的臨床衛教參考價值。",
+   "relevance": "中度相關",
+   "relevance_why": "聚焦LARS病人的心理適應歷程而非手術技術或治療介入，對術後照護與病人溝通有參考價值，但非直接臨床決策依據。",
+   "novelty": "仍屬早期",
+   "one_liner": "在台灣24位LARS病人中，以紮根理論分析其排便功能改變之適應歷程，提出「從痛苦掙扎到自我賦權」之核心理論架構。",
+   "action": "門診追蹤LARS病人時，主動評估其心理痛苦程度與自我調節狀態，適時提供個別化衛教資訊；目前尚無標準化評估工具可用。",
+   "pico": {
+    "P": "24位曾接受低前位切除且經歷LARS之直腸癌病人，於台灣北部某癌症中心追蹤",
+    "I": "紮根理論質性訪談，探討排便功能改變之適應歷程",
+    "C": "無對照組",
+    "O": "主要outcome：發展出描述LARS適應歷程之實質理論架構；次要：辨識影響適應歷程之關鍵類別（痛苦、自我賦權、自我調節等）"
+   },
+   "effects": [],
+   "key_numbers": [
+    "樣本數24位LARS病人，單一台灣北部癌症中心",
+    "本研究為質性設計，無量化事件數或發生率可供計算ARR/NNT",
+    "核心理論：「從痛苦掙扎邁向自我賦權之旅」為五大類別整合而成"
+   ],
+   "cautions": [
+    "質性研究樣本小且單中心，理論架構之外推性（generalizability）有限",
+    "訪談資料為病人主觀敘述，可能受回憶偏誤與社會期許影響",
+    "尚未發展出量化評估工具，結論僅為概念性框架，臨床應用需進一步驗證"
+   ],
+   "unassessable": [
+    "盲法（質性研究不適用）",
+    "失訪率",
+    "利益衝突",
+    "試驗註冊",
+    "資料飽和判定之嚴謹度細節"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。",
+   "added_at": "2026-08-16T06:26:24+08:00"
+  },
+  {
+   "pmid": "42596860",
+   "title": "Evaluation of the Distress Thermometer in Pelvic Exenteration: Responsiveness-To-Change, Convergent Validity, and Clinical Cutoff",
+   "journal": "Psychooncology",
+   "journal_full": "Psycho-oncology",
+   "issn": "1099-1611",
+   "issn_linking": "1057-9249",
+   "impact_factor": 3.9,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1111/bjop.12637",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Melander N, Rutherford C, Steffens D, Fethney J, Karunaratne S, Alexander K",
+   "abstract": "BACKGROUND: Pelvic exenteration (PE) is a radical surgery for advanced pelvic malignancies that carries substantial psychosocial impacts. Assessing distress is critical for timely support.\nAIMS: To evaluate the responsiveness-to-change and convergent validity of the distress thermometer (DT), and to determine an optimal cutoff score for detecting clinically significant distress in a PE cohort.\nMETHODS: Secondary analyses of cohort study data involving adult patients who underwent PE at a quaternary referral hospital. Responsiveness was evaluated by determining whether the DT differentiated cases of decreased emotional well-being and health-related quality of life from pre- to post-surgery, using the Functional Assessment of Cancer Therapy-General (FACT-G), FACT-Colorectal, and Emotional Well-Being (EWB) subscale as external criteria. Convergent validity was evaluated using the correlation between the DT and the EWB subscale scores. Cutoff scores were examined by reviewing the following indices, using an existing EWB cutoff as an external anchor: sensitivity, specificity, positive/negative predictive values, and clinical utility index (CUI).\nRESULTS: The analysis included 377 patients (mean age: 61 years, 56% male; 41% recurrent rectal cancer). The DT demonstrated responsiveness, with AUCs > 0.7 for detecting emotional and quality-of-life decline post-surgery. Convergent validity was demonstrated through a moderate correlation between the DT and the EWB subscale scores (rs = -0.56, p < 0.001). The optimal DT cutoff score was 4: Sensitivity; 87.0%, Specificity; 52.7%, CUI- value; 0.49 (ruling out cases: satisfactory utility), CUI+ value; 0.33 (case finding: poor utility).\nCONCLUSION: The DT is a valid and responsive tool for detecting psychological distress in PE patients. Its high sensitivity supports its use in routine screening.",
+   "watched": [],
+   "related": [],
+   "title_zh": "評估壓力溫度計於骨盆臟器切除術（Pelvic Exenteration）中的反應性、聚合效度與臨床切點",
+   "abstract_zh": "背景：骨盆臟器切除術（PE）是治療晚期骨盆惡性腫瘤的根治性手術，伴隨顯著的心理社會衝擊。及時評估心理壓力對於提供支持至關重要。目的：評估壓力溫度計（DT）的反應性（responsiveness-to-change）與聚合效度，並確定偵測臨床顯著壓力之最佳切點分數。方法：對接受PE手術之成人病患的世代研究資料進行二次分析，於四級轉診醫院執行。以FACT-G、FACT-Colorectal及情緒健康（EWB）子量表作為外部標準，評估DT是否能區分術前至術後情緒健康與健康相關生活品質下降之病例，藉此評估反應性。以DT與EWB子量表分數之相關性評估聚合效度。以既有EWB切點作為外部錨點，檢視敏感度、特異度、陽性/陰性預測值及臨床效用指標（CUI），以確定切點分數。結果：分析納入377名病患（平均年齡61歲，56%為男性；41%為復發性直腸癌）。DT展現反應性，偵測術後情緒與生活品質下降之AUC均大於0.7。DT與EWB子量表分數呈中度相關（rs = -0.56，p < 0.001），顯示聚合效度良好。最佳DT切點分數為4：敏感度87.0%，特異度52.7%，CUI-值0.49（排除病例：效用尚可），CUI+值0.33（發現病例：效用差）。結論：DT是偵測PE病患心理壓力之有效且具反應性的工具。其高敏感度支持將其用於常規篩檢。",
+   "evidence_level": "診斷性研究",
+   "score": 4,
+   "score_reason": "屬單中心心理量表驗證之次級分析，方法嚴謹但對台灣大腸直腸外科臨床決策（手術方式、腫瘤控制）無直接影響，僅對PE術後心理照護篩檢流程有參考價值。",
+   "relevance": "中度相關",
+   "relevance_why": "PE多由大腸直腸外科執行（41%為復發性直腸癌），但本研究是心理壓力篩檢工具驗證，非手術或腫瘤結果研究。",
+   "novelty": "仍屬早期",
+   "one_liner": "在377名接受PE病患中，驗證壓力溫度計（DT）之反應性與效度，最佳切點4分時敏感度87%但case-finding效用僅0.33（差）。",
+   "action": "若院內有PE個案，可考慮於術後常規以DT（切點4分）作初步篩檢工具，異常者仍需轉介心理腫瘤團隊確診，不可單獨依賴DT做診斷。",
+   "pico": {
+    "P": "377名接受骨盆臟器切除術（PE）之成人病患，平均年齡61歲，56%男性，41%為復發性直腸癌（單一四級轉診醫院世代研究之次級分析）",
+    "I": "壓力溫度計（Distress Thermometer, DT）評分",
+    "C": "以FACT-G、FACT-Colorectal、EWB子量表作為外部效度標準（非治療對照組）",
+    "O": "主要：DT對術前至術後情緒健康/生活品質下降之偵測反應性（AUC）、DT與EWB相關性（聚合效度）；次要：最佳切點之敏感度、特異度、CUI"
+   },
+   "effects": [],
+   "key_numbers": [
+    "DT偵測術後情緒/生活品質下降之AUC皆>0.7，顯示中等以上區辨力",
+    "DT與EWB子量表相關係數 rs = -0.56（p<0.001），中度負相關",
+    "最佳切點4分：敏感度87.0%、特異度52.7%，但case-finding效用（CUI+=0.33）差"
+   ],
+   "cautions": [
+    "切點雖敏感度高，但case-finding效用（CUI+ 0.33）差，代表篩檢陽性者仍有相當比例為偽陽性，需搭配確診評估",
+    "為單中心世代研究之次級分析，切點於同一樣本中衍生並驗證，缺乏獨立外部驗證族群",
+    "僅提供AUC、相關係數與診斷效度指標，未報告信賴區間，無法評估估計值之精確度"
+   ],
+   "unassessable": [
+    "失訪率",
+    "利益衝突",
+    "研究是否註冊",
+    "盲法（心理量表評估通常無盲法概念但摘要未提及評估者是否知情）",
+    "成本分析",
+    "外部族群可推廣性"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-08-16T06:26:24+08:00"
+  },
+  {
+   "pmid": "42598774",
+   "title": "Prognostic Role of EMR1 in Lymph Nodes and Primary Tumors of Colon Cancer Patients",
+   "journal": "Adv Biol (Weinh)",
+   "journal_full": "Advanced biology",
+   "issn": "2701-0198",
+   "issn_linking": "2701-0198",
+   "impact_factor": 3.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1002/adbi.202500645",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Roshdy T, Eltorky H, Mohamed A, Zahran F, Guirgis A, Olsson L",
+   "abstract": "The purpose was to investigate whether the eosinophil biomarker EMR1, ectopically expressed in colon cancer tumor cells, could be used to identify patients at risk for relapse after curative surgery. EMR1 mRNA levels were determined in primary tumors (n = 66) and lymph nodes (LNs; n = 377) from 121 colon cancer patients. Controls were resection margins of colon cancer tumors and LNs from patients with inflammatory bowel disease. Primary read-out was recurrency evaluated as disease-free survival time in the Kaplan-Meier survival model and hazard ratio calculation by uni- and multivariate Cox regression. High EMR1 levels in the regional LNs were associated with poor prognosis [hazard ratio 3.1 (1.2-8.0) at 5-year follow-up, p = 0.02]. Patients with a very poor prognosis were identified by combining EMR1 with CXCL17 analysis of LNs [hazard ratio 4.6 (1.1-19.7), p = 0.04]. High EMR1 levels in the primary tumor were associated with a good prognosis [hazard ratio 0.1 (0.02-0.9), p = 0.04]. Multivariate analysis strengthened the result for LNs but weakened the result for the primary tumor. These contradictory prognostic results probably relate to the prominent eosinophilia in the primary tumor, essentially lacking in LNs, where ectopically expressed EMR1 in tumor cells dominates. Thus, EMR1 expressed in tumor cells probably promotes tumor growth.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42464841",
+     "date": "2026-07-18",
+     "title_zh": "淋巴結比率（LNR）與陽性淋巴結對數比（LODDS）於大腸直腸癌之預後表現：與 pN 分期之比較分析",
+     "score": 3,
+     "one_liner": "在154名第I-III期大腸直腸癌病人中，比較LNR、LODDS與pN分期，發現LNR對DFS有邊緣顯著預測力（HR 2.54, p=0.049），OS則皆無顯著相關。",
+     "sim": 0.151
+    },
+    {
+     "pmid": "42464841",
+     "date": "2026-07-19",
+     "title_zh": "淋巴結比率（LNR）與陽性淋巴結對數比（LODDS）於大腸直腸癌之預後表現：與 pN 分期之比較分析",
+     "score": 3,
+     "one_liner": "在154名第I-III期大腸直腸癌病人中，比較LNR、LODDS與pN分期，發現LNR對DFS有邊緣顯著預測力（HR 2.54, p=0.049），OS則皆無顯著相關。",
+     "sim": 0.151
+    }
+   ],
+   "title_zh": "EMR1於大腸癌病人淋巴結及原發腫瘤中之預後角色",
+   "abstract_zh": "目的為探討嗜酸性球生物標記EMR1（在大腸癌腫瘤細胞中異位表現）是否可用於辨識治癒性手術後復發風險之病人。於121名大腸癌病人的原發腫瘤（n=66）及淋巴結（LNs；n=377）中測定EMR1 mRNA表現量。對照組為大腸癌腫瘤切除邊緣及發炎性腸道疾病病人之淋巴結。主要指標為復發，以無病存活期（disease-free survival）Kaplan-Meier存活模型評估，並以單變量及多變量Cox迴歸計算風險比（hazard ratio）。淋巴結中高EMR1表現與不良預後相關［5年追蹤風險比3.1（1.2-8.0），p=0.02］。結合淋巴結EMR1與CXCL17分析可辨識出預後極差之病人［風險比4.6（1.1-19.7），p=0.04］。原發腫瘤中高EMR1表現則與良好預後相關［風險比0.1（0.02-0.9），p=0.04］。多變量分析強化了淋巴結的結果，但削弱了原發腫瘤的結果。這些矛盾的預後結果可能與原發腫瘤中顯著的嗜酸性球浸潤有關，而此現象在淋巴結中基本上不存在，此處由腫瘤細胞異位表現的EMR1佔主導地位。因此，腫瘤細胞表現的EMR1可能促進腫瘤生長。",
+   "evidence_level": "回溯性研究",
+   "score": 2,
+   "score_reason": "樣本數小、信賴區間極寬（部分達0.02-19.7），且原發腫瘤與淋巴結結果方向相反，屬探索性分子標記研究，尚無臨床應用價值。",
+   "relevance": "低度相關",
+   "relevance_why": "純分子生物標記轉譯研究，非手術介入或臨床決策工具，需特殊mRNA檢測方法，非台灣常規臨床可及。",
+   "novelty": "仍屬早期",
+   "one_liner": "在121名大腸癌病人的原發腫瘤(n=66)與淋巴結(n=377)中測定EMR1表現，發現淋巴結高EMR1與復發風險上升相關(HR 3.1)，但原發腫瘤結果方向相反(HR 0.1)。",
+   "action": "目前不需改變做法；EMR1為實驗室分子標記非常規檢測，結果在原發腫瘤與淋巴結間矛盾且樣本小，尚無法轉譯為臨床決策。",
+   "pico": {
+    "P": "121名接受治癒性手術之大腸癌病人（原發腫瘤檢體66例、淋巴結檢體377例）",
+    "I": "高EMR1 mRNA表現量（分別於淋巴結及原發腫瘤中檢測）",
+    "C": "低EMR1表現量；另設對照組為腫瘤切除邊緣及IBD病人淋巴結",
+    "O": "主要：無病存活期(DFS)/復發；次要：合併CXCL17分析之預後分層效果"
+   },
+   "effects": [],
+   "key_numbers": [
+    "淋巴結高EMR1：5年復發風險比3.1（95% CI 1.2-8.0），p=0.02",
+    "淋巴結EMR1合併CXCL17：風險比4.6（95% CI 1.1-19.7），p=0.04",
+    "原發腫瘤高EMR1（反向）：風險比0.1（95% CI 0.02-0.9），p=0.04"
+   ],
+   "cautions": [
+    "多個信賴區間極寬（如0.02-19.7），樣本數小，估計值精確度低，結果可能不穩定",
+    "原發腫瘤與淋巴結EMR1表現對預後方向完全相反，作者以嗜酸性球浸潤機制事後解釋，屬推測性詮釋",
+    "合併CXCL17之亞組分析可能為多重檢測後探索性發現，未見校正多重比較或獨立驗證世代"
+   ],
+   "unassessable": [
+    "病人族群基本特徵與分期分布",
+    "對照組配對方法",
+    "多變量分析納入之共變項",
+    "失訪率",
+    "利益衝突",
+    "試驗註冊"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。先前閱讀之論文為淋巴結比率(LNR)/LODDS與pN分期之預後比較，屬傳統病理分期參數研究，與本篇探討EMR1分子生物標記之機轉性研究主題不同，無直接關聯。",
+   "added_at": "2026-08-16T06:26:24+08:00"
+  }
+ ]
+}
