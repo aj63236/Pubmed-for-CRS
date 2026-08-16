@@ -1,0 +1,517 @@
+{
+ "date": "2026-08-17",
+ "generated_at": "2026-08-17T06:28:04+08:00",
+ "count": 8,
+ "papers": [
+  {
+   "pmid": "42601762",
+   "title": "A PRISMA-guided systematic review of pharmacogenetic anticancer clinical trials registered on clinicaltrials.gov",
+   "journal": "Medicine (Baltimore)",
+   "journal_full": "Medicine",
+   "issn": "1536-5964",
+   "issn_linking": "0025-7974",
+   "impact_factor": 2.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1097/MD.0000000000049996",
+   "ptype": "Systematic Review",
+   "ptype_list": [
+    "Systematic Review"
+   ],
+   "authors": "Ashour A, Alhayyan A, Alhayyan R",
+   "abstract": "BACKGROUND: Pharmacogenetics plays an increasingly important role in oncology by supporting individualized therapeutic strategies based on patient genetic profiles. ClinicalTrials.gov provides a valuable platform for evaluating global trends in pharmacogenetic anticancer clinical trials. This systematic review aimed to evaluate pharmacogenetic-focused anticancer clinical trials registered on ClinicalTrials.gov and summarize trends in study design, cancer types, targeted biomarkers, therapeutic interventions, and geographic distribution.\nMETHODS: A Preferred Reporting Items for Systematic Reviews and Meta-Analyses-guided systematic review was conducted using ClinicalTrials.gov. Searches were performed between July 24 and July 26, 2025, using the terms \"anticancer\" AND \"pharmacogenetics.\" Eligible studies included interventional and observational oncology trials containing a pharmacogenetic component. Data extracted included trial phase, study status, cancer type, pharmacogenetic targets, therapeutic interventions, sponsor type, and country of origin.\nRESULTS: A total of 12 trials met the inclusion criteria. Most studies were interventional (91.7%) and predominantly early-phase trials. Frequently investigated biomarkers included CYP450 enzymes, TPMT, UGT1A1, BRCA1/2, and Epidermal Growth Factor Receptor. Breast cancer, colorectal cancer, and non-small cell lung cancer were among the most commonly investigated malignancies. Most trials originated from the United States and Europe, while limited representation from low- and middle-income countries was observed. Increasing incorporation of multi-gene panels and biomarker-guided therapeutic strategies was identified.\nCONCLUSION: Pharmacogenetic approaches are increasingly being incorporated into anticancer clinical trials and may contribute to the advancement of precision oncology. However, broader global representation, larger late-phase trials, and more standardized biomarker integration remain necessary to support wider clinical implementation.",
+   "watched": [],
+   "related": [],
+   "title_zh": "以PRISMA指引進行的系統性回顧：ClinicalTrials.gov登記之藥物基因體學抗癌臨床試驗",
+   "abstract_zh": "背景：藥物基因體學透過根據病人基因特徵制定個人化治療策略，在腫瘤學中扮演日益重要的角色。ClinicalTrials.gov提供一個評估全球藥物基因體學抗癌臨床試驗趨勢的寶貴平台。本系統性回顧旨在評估登記於ClinicalTrials.gov的藥物基因體學導向抗癌臨床試驗，並總結研究設計、癌症類型、目標生物標記、治療性介入及地理分布的趨勢。\n\n方法：採用PRISMA指引進行系統性回顧，使用ClinicalTrials.gov進行搜尋。搜尋於2025年7月24日至26日執行，使用「anticancer」及「pharmacogenetics」為關鍵詞。納入條件為含有藥物基因體學成分之介入性及觀察性腫瘤學試驗。提取的資料包括試驗期別、研究狀態、癌症類型、藥物基因體學目標、治療性介入、贊助者類型及來源國家。\n\n結果：共12項試驗符合納入條件。多數研究為介入性試驗（91.7%），且以早期試驗為主。常被研究的生物標記包括CYP450酵素、TPMT、UGT1A1、BRCA1/2及表皮生長因子受體。乳癌、大腸直腸癌及非小細胞肺癌是最常被研究的惡性腫瘤之一。多數試驗來自美國及歐洲，低中收入國家的代表性有限。發現多基因套組及生物標記導向治療策略的納入日益增加。\n\n結論：藥物基因體學方法正日益被納入抗癌臨床試驗中，可能有助於精準腫瘤學的進展。然而，仍需更廣泛的全球代表性、更大規模的晚期試驗，以及更標準化的生物標記整合，以支持更廣泛的臨床應用。",
+   "evidence_level": "系統性回顧",
+   "score": 2,
+   "score_reason": "僅為ClinicalTrials.gov登記資料之描述性回顧（n=12試驗），無臨床結果數據，對大腸直腸外科實務無直接可操作資訊。",
+   "relevance": "低度相關",
+   "relevance_why": "此為藥物基因體學試驗登記趨勢的描述性分析，非外科介入或臨床結果研究，大腸直腸癌僅為其中一個癌種類別。",
+   "novelty": "仍屬早期",
+   "one_liner": "分析ClinicalTrials.gov上12項藥物基因體學抗癌試驗，描述其設計、生物標記及地理分布趨勢，多為早期試驗且集中於歐美。",
+   "action": "目前不需改變做法，本文僅為試驗登記趨勢描述，未提供任何可用於病人決策的臨床結果數據。",
+   "pico": {
+    "P": "登記於ClinicalTrials.gov且含藥物基因體學成分之12項抗癌臨床試驗",
+    "I": "藥物基因體學導向之試驗設計（生物標記、多基因套組等）",
+    "C": "無對照組（描述性回顧，非比較性研究）",
+    "O": "主要：試驗設計、癌症類型、生物標記分布趨勢；次要：贊助者類型與地理分布"
+   },
+   "effects": [],
+   "key_numbers": [
+    "共納入12項試驗，91.7%為介入性研究，多屬早期試驗",
+    "常見標記：CYP450、TPMT、UGT1A1、BRCA1/2、EGFR",
+    "多數試驗來自美國及歐洲，低中收入國家代表性有限（無具體百分比）"
+   ],
+   "cautions": [
+    "樣本僅12項試驗，搜尋期僅3天且僅用兩個關鍵詞，可能遺漏大量相關試驗",
+    "純描述性統計，無任何臨床結果（如反應率、存活）數據可供評估療效",
+    "未說明是否有多人獨立篩選、資料提取方法及品質評估流程"
+   ],
+   "unassessable": [
+    "盲法",
+    "allocation concealment",
+    "ITT分析",
+    "失訪率",
+    "試驗註冊（此為登記平台本身之回顧）",
+    "利益衝突",
+    "篩選者間一致性",
+    "納入排除標準之詳細流程"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-08-17T06:26:03+08:00"
+  },
+  {
+   "pmid": "42603146",
+   "title": "Synthetic microbial communities: emerging live biotherapeutics for targeted gut microbiome modulation",
+   "journal": "Gut Microbes",
+   "journal_full": "Gut microbes",
+   "issn": "1949-0984",
+   "issn_linking": "1949-0976",
+   "impact_factor": 15.3,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Dec",
+   "doi": "10.1080/19490976.2026.2719056",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Zhang R, Li H, Wang C, Yang G",
+   "abstract": "Gut microbiome dysbiosis causes various intestinal diseases. However, an undefined composition and potential biosafety risks limit the applicability of traditional fecal microbiota transplantation (FMT). Synthetic microbial communities (SynComs), which are compositionally defined and rationally designed emerging live biotherapeutics, offer a novel alternative to FMT. This review establishes strict boundaries between SynComs and traditional donor-derived preparations, comparatively evaluating \"top-down\" and \"bottom-up\" construction strategies. We explored the mechanisms underlying the SynComs-mediated synergistic restoration of intestinal homeostasis via direct targeted antagonism and modulation of the host immune network. Moreover, we systematically evaluated the current research landscape of SynComs in Clostridioides difficile infection, inflammatory bowel disease, and colorectal cancer. This review examines fundamental challenges, including host colonization resistance, chemistry, manufacturing, and control barriers, biosafety risks, and microbiokinetic regulatory frameworks, thereby addressing the translational gap. Our analysis of current literature provides a theoretical basis for the clinical translation of SynComs as emerging live biotherapeutics.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42562540",
+     "date": "2026-08-08",
+     "title_zh": "乳酸菌於合成微生物群落中的生態機制與功能穩定性：競爭、交叉餵養與穩態維持",
+     "score": 1,
+     "one_liner": "本文為綜述，探討乳酸菌在合成微生物群落中透過競爭與交叉餵養維持群落穩定性的生態機制，屬理論框架，非臨床研究。",
+     "sim": 0.18
+    },
+    {
+     "pmid": "42562540",
+     "date": "2026-08-09",
+     "title_zh": "乳酸菌在合成微生物群落中的生態機制與功能穩定性：競爭、交叉飼養與穩態維持",
+     "score": 1,
+     "one_liner": "本文為理論綜述，探討乳酸菌在合成微生物群落中如何透過競爭與交叉飼養維持群落穩定性，並提出概念性階層框架。",
+     "sim": 0.18
+    },
+    {
+     "pmid": "42602359",
+     "date": "2026-08-16",
+     "title_zh": "糞便微生物移植（FMT）在癌症治療中的應用與展望",
+     "score": 2,
+     "one_liner": "本綜述整理FMT於癌症治療（含大腸癌、肝癌、黑色素瘤）中調節腫瘤微環境、增強免疫/化療反應之機制與挑戰，無臨床試驗數據。",
+     "sim": 0.178
+    }
+   ],
+   "title_zh": "合成微生物群落：用於精準調控腸道微生物群的新興活體治療劑",
+   "abstract_zh": "腸道微生物群失衡會導致多種腸道疾病。然而，傳統糞便微生物移植（FMT）因組成不明確及潛在生物安全風險而限制其應用性。合成微生物群落（SynComs）是組成明確、經理性設計的新興活體治療劑，提供了FMT的新替代方案。本綜述建立了SynComs與傳統供體衍生製劑之間的嚴格界線，比較評估「自上而下」與「自下而上」的構建策略。我們探討了SynComs透過直接靶向拮抗作用及調節宿主免疫網路，協同恢復腸道穩態的機制。此外，我們系統性評估了SynComs在困難梭狀桿菌感染（Clostridioides difficile infection）、發炎性腸道疾病及大腸直腸癌中目前的研究現況。本綜述檢視了根本性挑戰，包括宿主定殖阻力、化學、製造與控制障礙、生物安全風險，以及微生物動力學法規框架，藉此處理轉譯落差的問題。我們對現有文獻的分析為SynComs作為新興活體治療劑的臨床轉譯提供了理論基礎。",
+   "evidence_level": "綜述",
+   "score": 1,
+   "score_reason": "純理論性綜述，探討微生物群落構建策略與機制，無任何臨床試驗數據或人體研究，對臨床決策無直接參考價值。",
+   "relevance": "低度相關",
+   "relevance_why": "此為基礎轉譯醫學綜述，非外科介入研究，與大腸直腸外科臨床實務（手術決策、術後管理）無直接關聯。",
+   "novelty": "仍屬早期",
+   "one_liner": "本綜述探討合成微生物群落（SynComs）作為FMT替代方案的構建策略與機制，並回顧其在CDI、IBD、大腸直腸癌領域的研究現況，屬理論性綜述。",
+   "action": "目前不需改變做法，本文為基礎科學綜述，無臨床試驗數據，SynComs仍處於早期研發階段，距臨床應用尚遠。",
+   "pico": {
+    "P": "無明確病人族群；綜述涵蓋CDI、IBD、大腸直腸癌相關腸道微生物群研究",
+    "I": "合成微生物群落（SynComs）作為活體治療劑",
+    "C": "傳統糞便微生物移植（FMT）",
+    "O": "主要：腸道穩態恢復機制與轉譯挑戰；次要：生物安全性、法規框架"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本文未提供任何臨床試驗數據、事件數或統計數字",
+    "無人體研究結果可供評估",
+    "屬機制與策略性綜述，無量化療效資料"
+   ],
+   "cautions": [
+    "純理論綜述，無臨床試驗或病人數據支持，結論僅為機制假說與研究方向建議",
+    "涵蓋CDI、IBD、大腸直腸癌三大領域，但摘要未提供各領域具體證據強度或研究品質",
+    "所稱『為臨床轉譯提供理論基礎』屬作者主觀詮釋，尚無實際臨床驗證"
+   ],
+   "unassessable": [
+    "研究方法（綜述無傳統PICO設計）",
+    "利益衝突",
+    "文獻選取標準（是否為系統性檢索）",
+    "各引用研究的證據等級與品質評估"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。先前列出的論文雖亦涉及微生物群落主題，但分別聚焦於合成群落生態機制理論或FMT於癌症治療應用，與本文探討SynComs作為活體治療劑之轉譯挑戰主題不同，無直接關聯。",
+   "added_at": "2026-08-17T06:26:03+08:00"
+  },
+  {
+   "pmid": "42602359",
+   "title": "Application and prospects of fecal microbiota transplantation in cancer therapy",
+   "journal": "Front Cell Infect Microbiol",
+   "journal_full": "Frontiers in cellular and infection microbiology",
+   "issn": "2235-2988",
+   "issn_linking": "2235-2988",
+   "impact_factor": 5.5,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.3389/fimmu.2024.1410928",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Fan Y, Li Y, Bi H, Ding Y, Lyu L, Geng Y",
+   "abstract": "As the largest community of commensal microorganisms in the human body, the gut microbiota-through its structural and functional imbalances-participates in the entire process of tumor initiation and progression, and profoundly influences the efficacy and safety of conventional anticancer regimens, including chemotherapy and immunotherapy. Fecal microbiota transplantation (FMT) offers a novel biological strategy for cancer treatment by reestablishing the ecological balance of the host gut microbiota. This review systematically integrates the basic theory, clinical practice, technical optimization, epidemiological features, current challenges, and future directions of FMT in oncology. It elaborates on how FMT modulates the tumor microenvironment via core mechanisms such as immune regulation, metabolic reprogramming, and intestinal barrier repair, and shows potential value in enhancing immunotherapy responses, improving chemotherapy tolerance, and alleviating treatment-related complications across various malignancies, including colorectal cancer, liver cancer, and melanoma. Meanwhile, the article outlines practical difficulties regarding donor screening, formulation standardization, ethical oversight, and long-term safety evaluation of FMT, and looks ahead to the development of precision FMT, synthetic microbial consortia, integration of multi-omics technologies, and combination treatment paradigms. The aim is to provide a comprehensive, systematic, and academically in-depth reference for the translational and basic research of FMT in precision cancer therapy.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42603146",
+     "date": "2026-08-16",
+     "title_zh": "合成微生物群落：用於腸道菌群標靶調控的新興活體生物治療劑",
+     "score": 1,
+     "one_liner": "本文綜述合成微生物群落（SynComs）作為新興活體生物治療劑，於困難梭菌感染、IBD、CRC等領域的機制與轉譯挑戰，無臨床數據。",
+     "sim": 0.178
+    },
+    {
+     "pmid": "42538089",
+     "date": "2026-08-02",
+     "title_zh": "嚴重型與猛暴型困難梭菌感染（CDI）之治療",
+     "score": 3,
+     "one_liner": "本文綜述嚴重型與猛暴型CDI的治療流程，強調抗生素為主流，FMT或手術為FMT/藥物無效者之選項，未提供新數據。",
+     "sim": 0.154
+    },
+    {
+     "pmid": "42538089",
+     "date": "2026-08-03",
+     "title_zh": "重症與猛暴性困難梭菌感染（Clostridioides difficile infection, CDI）之治療",
+     "score": 3,
+     "one_liner": "本文綜述重症與猛暴性CDI之處置流程：抗生素治療失敗後考慮FMT（可能需重複給藥），FMT無效或併發穿孔者需手術介入。",
+     "sim": 0.154
+    }
+   ],
+   "title_zh": "糞菌移植（FMT）於癌症治療中的應用與展望",
+   "abstract_zh": "腸道菌群作為人體最大的共生微生物群落，透過其結構與功能失衡，參與腫瘤發生與進展的全過程，並深刻影響化療與免疫治療等傳統抗癌療法的療效與安全性。糞菌移植（FMT）藉由重建宿主腸道菌群的生態平衡，為癌症治療提供一種新穎的生物學策略。本綜述系統整合了FMT在腫瘤學領域的基礎理論、臨床實踐、技術優化、流行病學特徵、當前挑戰與未來方向。文中闡述FMT如何透過免疫調節、代謝重編程及腸道屏障修復等核心機制調控腫瘤微環境，並在包括大腸直腸癌、肝癌、黑色素瘤等多種惡性腫瘤中，展現出增強免疫治療反應、改善化療耐受性、減輕治療相關併發症的潛在價值。同時，本文概述了FMT在供體篩選、製劑標準化、倫理監管及長期安全性評估方面的實際困難，並展望精準FMT、合成微生物群落、多體學技術整合及聯合治療範式的發展。旨在為FMT在精準癌症治療中的轉譯與基礎研究提供全面、系統、學術深度兼具的參考。",
+   "evidence_level": "綜述",
+   "score": 1,
+   "score_reason": "純敘述性綜述，無任何臨床試驗數據或病人結果，對大腸直腸外科臨床決策無直接可操作性。",
+   "relevance": "低度相關",
+   "relevance_why": "純機制與概念性綜述，聚焦FMT於癌症輔助治療的理論展望，非外科介入，無可轉譯之臨床數據。",
+   "novelty": "仍屬早期",
+   "one_liner": "本文綜述FMT於癌症治療（含CRC、肝癌、黑色素瘤）中調控腫瘤微環境、增強免疫治療反應的理論機制與未來方向，無臨床數據。",
+   "action": "目前不需改變做法，本文為純理論綜述，無臨床試驗結果可供轉譯應用。",
+   "pico": {
+    "P": "無特定病人族群（綜述文章，涵蓋CRC、肝癌、黑色素瘤等多種癌症之概念性討論）",
+    "I": "糞菌移植（FMT）作為癌症治療輔助策略",
+    "C": "無對照組",
+    "O": "無明確主要outcome；文中討論免疫治療反應、化療耐受性、治療相關併發症之潛在改善（皆為概念性討論，非實測數據）"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本文未提供任何具體臨床數據、事件數或百分比",
+    "所有效益敘述均為機制推論或既有文獻概念整合，非本研究實測結果",
+    "無統計檢定、無信賴區間、無樣本數"
+   ],
+   "cautions": [
+    "純綜述無原始數據，所有『潛在價值』敘述均屬機制推論，非臨床證據，易被誤讀為已證實療效",
+    "涵蓋大腸直腸癌、肝癌、黑色素瘤等多癌別，但未區分各癌別證據強度，可能過度概化",
+    "未提及FMT在癌症治療的具體臨床試驗結果、副作用發生率或長期追蹤數據"
+   ],
+   "unassessable": [
+    "臨床試驗設計",
+    "盲法",
+    "ITT分析",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本分析",
+    "具體療效數據"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "先前看過的論文聚焦於困難梭菌感染（CDI）之FMT治療及合成微生物群落機制，本篇則探討FMT於癌症治療（免疫/化療輔助）之應用，臨床情境與族群完全不同，無法建立有意義的證據延續關係。",
+   "added_at": "2026-08-17T06:26:03+08:00"
+  },
+  {
+   "pmid": "42601764",
+   "title": "Quality and content evaluation of anal fistula information on TikTok and Bilibili: A cross-sectional study",
+   "journal": "Medicine (Baltimore)",
+   "journal_full": "Medicine",
+   "issn": "1536-5964",
+   "issn_linking": "0025-7974",
+   "impact_factor": 2.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1097/MD.0000000000050130",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Du X, Huang S, Ye Q, Pan S, Xiao X, Xia J",
+   "abstract": "Short-video platforms are widely used for medical information, but the quality of anal fistula content remains uncertain. We evaluated anal fistula-related videos on TikTok and Bilibili and compared platforms and uploader categories. The top 200 videos under each platform's default comprehensive ranking were screened. Eligible videos were assessed using the Global Quality Score (GQS), modified DISCERN (mDISCERN), Journal of the American Medical Association benchmark criteria (JAMA), and 7-indicator completeness score (7-ICS). Platform and uploader differences were evaluated using nonparametric tests. Spearman correlations examined relationships between engagement and quality, and multivariable ordinal logistic regression identified factors associated with higher scores. Of 400 screened videos, 333 were included (TikTok, 167; Bilibili, 166). Median GQS, mDISCERN, JAMA, and 7-ICS scores were each 2.00. Treatment (71.4%) and clinical manifestations (63.9%) were the most frequently covered domains, whereas epidemiology (7.2%) and prevention (12.6%) were least covered. TikTok videos were shorter and received greater engagement than Bilibili videos (all P < .001). Bilibili had higher unadjusted 7-ICS scores and JAMA score distributions, while GQS and mDISCERN did not differ. After adjustment, TikTok was associated with higher GQS (OR, 2.26; 95% CI: 1.27-4.02) and lower 7-ICS (OR, 0.26; 95% CI: 0.13-0.50), but not with JAMA or mDISCERN. Specialist-physician uploader status and longer video duration were associated with higher scores for all 4 outcomes. Engagement metrics were strongly intercorrelated but were generally unrelated to quality measures. Anal fistula-related videos on both platforms were generally incomplete and of suboptimal quality. Platform differences were mixed rather than uniformly favoring TikTok or Bilibili. Specialist-physician authorship and longer duration were consistently associated with better scores. These cross-sectional findings represent associations, not causal effects.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42470441",
+     "date": "2026-07-20",
+     "title_zh": "評估Bilibili與TikTok平台上發炎性腸道疾病相關短影音之品質與可靠度：一項橫斷面研究",
+     "score": 3,
+     "one_liner": "在TikTok與Bilibili各100部IBD影片（共200部）中，比較兩平台影片品質與互動度，發現TikTok互動率與部分品質分數較高（P<.001）。",
+     "sim": 0.547
+    }
+   ],
+   "title_zh": "TikTok與Bilibili平台上肛門廔管資訊之品質與內容評估：一項橫斷面研究",
+   "abstract_zh": "短影音平台廣泛用於醫療資訊傳播，但肛門廔管相關內容之品質尚不明確。本研究評估TikTok與Bilibili上肛門廔管相關影片，並比較平台與上傳者類別間之差異。篩選各平台預設綜合排序下前200部影片。合格影片以整體品質評分（GQS）、修訂版DISCERN（mDISCERN）、美國醫學會期刊基準標準（JAMA）與7項完整性評分（7-ICS）進行評估。平台與上傳者差異以無母數檢定分析。以Spearman相關分析互動度與品質之關聯，並以多變量序位邏輯迴歸找出與較高評分相關之因子。共篩選400部影片，333部納入分析（TikTok 167部，Bilibili 166部）。GQS、mDISCERN、JAMA與7-ICS之中位數皆為2.00分。治療（71.4%）與臨床表現（63.9%）為最常涵蓋之領域，而流行病學（7.2%）與預防（12.6%）涵蓋最少。TikTok影片較短，互動度較Bilibili高（皆P < .001）。未調整分析中，Bilibili之7-ICS評分較高、JAMA評分分布也較佳，而GQS與mDISCERN則無差異。調整後，TikTok與較高GQS相關（OR, 2.26；95% CI: 1.27-4.02），但與較低7-ICS相關（OR, 0.26；95% CI: 0.13-0.50），與JAMA或mDISCERN則無顯著相關。專科醫師上傳者身分與較長影片時長，皆與四項評分之較高分數相關。互動度指標彼此高度相關，但普遍與品質指標無關。兩平台之肛門廔管相關影片普遍不完整且品質欠佳。平台間差異呈現混合結果，並非一致偏向TikTok或Bilibili。專科醫師撰寫與較長時長，皆與較佳評分一致相關。此橫斷面研究結果僅代表關聯性，非因果關係。",
+   "evidence_level": "橫斷面",
+   "score": 3,
+   "score_reason": "方法尚屬嚴謹但評分工具主觀、無病人真實結果可評估，對台灣大腸直腸外科臨床決策幾無直接實用性。",
+   "relevance": "低度相關",
+   "relevance_why": "純粹評估社群媒體衛教影片品質，非外科介入或病人臨床結果研究。",
+   "novelty": "仍屬早期",
+   "one_liner": "在333部肛門廔管相關短影音中，比較TikTok與Bilibili，發現兩平台品質皆偏低（中位數皆2分），專科醫師與較長影片品質較佳。",
+   "action": "目前不需改變臨床做法；若欲製作病人衛教影片，建議由專科醫師錄製並拉長內容完整度。",
+   "pico": {
+    "P": "TikTok與Bilibili平台上共333部肛門廔管相關影片（TikTok 167部，Bilibili 166部）",
+    "I": "影片所屬平台（TikTok）與上傳者類別（專科醫師 vs 其他）",
+    "C": "Bilibili平台、非專科醫師上傳者",
+    "O": "主要：GQS、mDISCERN、JAMA、7-ICS品質評分；次要：影片互動度與品質之相關性"
+   },
+   "effects": [],
+   "key_numbers": [
+    "四項品質評分（GQS、mDISCERN、JAMA、7-ICS）中位數皆為2.00分，整體品質偏低",
+    "TikTok與較高GQS相關（OR 2.26，95% CI 1.27-4.02），但與較低7-ICS相關（OR 0.26，95% CI 0.13-0.50）",
+    "流行病學僅7.2%影片涵蓋，預防僅12.6%涵蓋，內容完整度不足"
+   ],
+   "cautions": [
+    "橫斷面研究僅呈現關聯性，作者已聲明非因果關係，不可過度推論平台優劣",
+    "GQS、DISCERN等品質評分工具主觀性高，未評估對病人實際健康行為或結果之影響",
+    "僅報告OR與95% CI，未提供各組原始事件數／總數，無法計算絕對差異"
+   ],
+   "unassessable": [
+    "影片評分者間信度（inter-rater reliability）",
+    "影片抽樣代表性",
+    "利益衝突",
+    "評分工具驗證效度於中文/短影音情境之適用性"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "與先前評分3/10之IBD短影音品質研究（同樣比較TikTok與Bilibili）呼應，再次顯示同類短影音平台醫療衛教內容品質普遍不佳的一致現象，僅將疾病類別由IBD延伸至肛門廔管。",
+   "added_at": "2026-08-17T06:26:03+08:00"
+  },
+  {
+   "pmid": "42601732",
+   "title": "Colorectal cancer molecular subtypes and prognostic models based on NET-related genes and oxidative stress-associated signaling",
+   "journal": "Medicine (Baltimore)",
+   "journal_full": "Medicine",
+   "issn": "1536-5964",
+   "issn_linking": "0025-7974",
+   "impact_factor": 2.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1097/MD.0000000000050211",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Wei Y, Chu W, Rao C, Yang Y",
+   "abstract": "Colorectal cancer (CRC) exhibits marked molecular and microenvironmental heterogeneity, and the TNM staging system alone does not fully explain differences in prognosis or treatment response. Neutrophil extracellular traps (NETs) and oxidative stress participate in inflammatory remodeling, immune regulation, and tumor progression in CRC. However, transcriptomic studies integrating NET-related programs with oxidative stress-associated signaling for molecular stratification and prognostic modeling remain limited. Transcriptome and clinical data from TCGA-COADREAD (training set, 449 tumor and 39 normal samples) and GSE39582 (validation set, 566 tumor and 19 non-tumor samples) were analyzed. Candidate NET-related and oxidative stress-associated genes were collected from GeneCards, Gene Ontology, and published NETosis signatures, and were further restricted by differential expression analysis (|log2FC| > 0.585, adjusted P < .05) and univariate Cox analysis (P < .05). Consensus clustering, survival analysis, immune infiltration analysis, mutation analysis, and oncoPredict-based drug sensitivity modeling were performed. A multigene prognostic model was constructed using LASSO-Cox regression and evaluated in both cohorts. Two molecular subtypes were identified. C1 showed a better prognosis, higher tumor mutational burden, higher immune checkpoint and immunogenicity scores, and an immune-active phenotype. C2 showed poorer survival, enrichment of NET formation and inflammatory pathways, lower relative neutrophil infiltration by CIBERSORT, and predicted sensitivity to JAK, Wnt/β-catenin, proteasome, and cell-cycle checkpoint inhibitors. The prognostic model separated high- and low-risk patients in both the training and validation cohorts, with 1-, 3-, and 5-year area under the curves of 0.698, 0.711, and 0.645 in TCGA-COADREAD and 0.542, 0.578, and 0.569 in GSE39582. This study proposes NET-related CRC molecular subtypes with oxidative stress-associated biological context and develops a transcriptomic risk model with external validation. The findings suggest subtype-specific immune and therapeutic features, while prospective clinical and functional validation is required before clinical translation.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42332846",
+     "date": "2026-06-23",
+     "title_zh": "建構並臨床驗證整合EPHB2與ZNF346之大腸直腸癌OPISV預後模型：軸突導引路徑之潛在調控角色",
+     "score": 2,
+     "one_liner": "利用TCGA CRC隊列資料，建構納入年齡、M期、EPHB2、ZNF346之OPISV預後模型，高低風險組OS有顯著差異（p<0.001），並於兩個GEO資料集外部驗證。",
+     "sim": 0.22
+    },
+    {
+     "pmid": "42367825",
+     "date": "2026-06-29",
+     "title_zh": "基於程式性細胞死亡特徵之大腸腺癌分子分型與預後模型建構：多體學與機器學習研究",
+     "score": 2,
+     "one_liner": "利用多體學與機器學習分析COAD，建立18基因PCDS預後模型並發現TERT為潛在治療靶點，體外實驗驗證其致癌功能。",
+     "sim": 0.188
+    },
+    {
+     "pmid": "42370017",
+     "date": "2026-06-29",
+     "title_zh": "從基因表現到候選生物標記：潰瘍性大腸炎中嗜中性球胞外捕捉網（NETs）形成路徑之水通道蛋白-9（Aquaporin-9）",
+     "score": 1,
+     "one_liner": "在60名受試者（健康對照/新診斷UC/難治UC各20人）中，比較AQP9等NET基因表現，發現AQP9區分UC敏感性83%、特異性68%。",
+     "sim": 0.186
+    }
+   ],
+   "title_zh": "基於NET相關基因與氧化壓力相關訊號傳導之大腸直腸癌分子亞型與預後模型",
+   "abstract_zh": "大腸直腸癌（CRC）具有顯著的分子與微環境異質性，單靠TNM分期系統無法完全解釋預後或治療反應的差異。嗜中性球胞外捕捉網（NETs）與氧化壓力參與CRC的發炎重塑、免疫調控及腫瘤進展。然而，整合NET相關程式與氧化壓力相關訊號傳導以進行分子分層與預後建模的轉錄體研究仍相當有限。本研究分析來自TCGA-COADREAD（訓練集，449例腫瘤與39例正常組織）與GSE39582（驗證集，566例腫瘤與19例非腫瘤組織）的轉錄體與臨床資料。候選NET相關與氧化壓力相關基因取自GeneCards、Gene Ontology及已發表之NETosis特徵基因，再以差異表現分析（|log2FC| > 0.585，校正後P < .05）及單變量Cox分析（P < .05）進一步篩選。進行共識聚類、存活分析、免疫浸潤分析、突變分析及基於oncoPredict之藥物敏感性建模。以LASSO-Cox迴歸建構多基因預後模型，並於兩個世代中評估。共鑑定出兩種分子亞型。C1亞型預後較佳、腫瘤突變負荷較高、免疫檢查點與免疫原性分數較高，呈現免疫活化表型。C2亞型存活較差、NET形成與發炎路徑富集、CIBERSORT分析顯示相對嗜中性球浸潤較低，且預測對JAK、Wnt/β-catenin、蛋白酶體及細胞週期檢查點抑制劑較敏感。此預後模型在訓練集與驗證集中皆能區分高低風險病人，TCGA-COADREAD之1、3、5年曲線下面積（AUC）分別為0.698、0.711、0.645，GSE39582則為0.542、0.578、0.569。本研究提出具氧化壓力生物學背景之NET相關CRC分子亞型，並建立經外部驗證之轉錄體風險模型。研究結果顯示具亞型特異性之免疫與治療特徵，惟臨床轉譯前仍需前瞻性臨床與功能性驗證。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "純資料庫回溯性生物資訊分析，外部驗證集AUC僅0.54-0.58接近隨機猜測，無前瞻臨床驗證，對臨床決策幾無實用性。",
+   "relevance": "低度相關",
+   "relevance_why": "純轉錄體/生物資訊分子分型研究，非外科介入亦無治療決策指引，屬基礎轉譯研究範疇。",
+   "novelty": "仍屬早期",
+   "one_liner": "在TCGA-COADREAD（449例）與GSE39582（566例）CRC世代中，建立NET/氧化壓力相關分子分型與風險模型，驗證集AUC僅0.54-0.58。",
+   "action": "目前不需改變做法：此為回溯性生物資訊探索研究，外部驗證區辨力弱，缺乏前瞻臨床與功能性驗證。",
+   "pico": {
+    "P": "TCGA-COADREAD訓練集（449例腫瘤、39例正常組織）與GSE39582驗證集（566例腫瘤、19例非腫瘤組織）CRC病人轉錄體與臨床資料",
+    "I": "NET相關與氧化壓力相關基因之共識聚類分子分型，及LASSO-Cox多基因預後風險模型",
+    "C": "無對照組（回溯性資料分析，比較C1 vs C2分子亞型及高低風險分層）",
+    "O": "主要：1/3/5年存活AUC；次要：免疫浸潤、腫瘤突變負荷、免疫檢查點分數、藥物敏感性預測"
+   },
+   "effects": [],
+   "key_numbers": [
+    "訓練集(TCGA)1/3/5年AUC：0.698/0.711/0.645",
+    "驗證集(GSE39582)1/3/5年AUC：0.542/0.578/0.569，接近隨機猜測水準",
+    "C1亞型腫瘤突變負荷、免疫檢查點分數較高；C2亞型NET/發炎路徑富集、預後較差（未提供絕對存活數字）"
+   ],
+   "cautions": [
+    "外部驗證集AUC僅0.54-0.58，區辨力薄弱，模型臨床實用性存疑",
+    "純TCGA/GEO資料庫回溯分析，無前瞻性臨床或體外/體內功能驗證，相關性未證實為因果",
+    "藥物敏感性預測僅基於oncoPredict演算法推論，未經實際藥理或臨床試驗驗證"
+   ],
+   "unassessable": [
+    "病人臨床特徵與分期分布",
+    "治療方式與隨訪時間細節",
+    "統計方法之校正與多重比較處理",
+    "利益衝突與資金來源"
+   ],
+   "context_verdict": "再確認",
+   "context": "與先前看過的兩篇TCGA為基礎之CRC預後模型論文（OPISV模型、PCDS模型）同屬一類：皆為資料庫回溯性分子分型/預後建模研究，缺乏前瞻臨床驗證。此篇再次確認此類研究普遍存在外部驗證效度不足的共同弱點。",
+   "added_at": "2026-08-17T06:26:03+08:00"
+  },
+  {
+   "pmid": "42604425",
+   "title": "Evaluation of the Validity and Reliability of the Persian Version of IBDcQ-8 Questionnaire",
+   "journal": "Arch Iran Med",
+   "journal_full": "Archives of Iranian medicine",
+   "issn": "1735-3947",
+   "issn_linking": "1029-2977",
+   "impact_factor": 1.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Feb",
+   "doi": "10.34172/aim.36812",
+   "ptype": "Validation Study",
+   "ptype_list": [
+    "Validation Study"
+   ],
+   "authors": "Moallem S, Malekzadeh M, Kasaeian A, Alatab S, Sima A, Ahadi M",
+   "abstract": "INTRODUCTION: The 8-item Inflammatory Bowel Disease control Questionnaire-8 (IBDcQ-8) is a patient-reported measure designed to capture the core domains of disease control and quality of life. The aim of this study was to evaluate the validity and reliability of the Persian version of the IBDcQ-8 in the Iranian IBD population.\nMETHODS: A standardized forward-backward translation procedure was employed to adapt the questionnaire into Persian. Content validity was evaluated through structured interviews with a panel of 10 evaluators. Construct validity was examined by structured interview and clinical visits of 101 patients. Harvey Bradshaw Index (HBI), partial Mayo score, and IBD Questionnaire (IBDQ) were used as comparator instruments. Patients' responses were compared with clinical global assessment, Harvey Bradshaw Index (HBI), partial Mayo score, IBDQ score , and laboratory markers using Spearman's rank correlation. Test-retest reliability was evaluated by calculating the intraclass correlation coefficient (ICC) between the two subsequent interviews. A P-value<0.05 was considered statistically significant.\nRESULTS: Half of the subjects (n=51 (50.5%)) were female. The mean age was 38 years (SD=14). Sixty-seven patients (66%) had UC. IBDcQ-8 scores showed strong correlations with HBI and IBDQ, and moderate correlations with the partial Mayo score, CRP, and clinical evaluation at the first visit (P-value<0.05). Agreement was excellent for one-day follow-up (ICC=0.82, 95% CI: 0.71-0.89, P<0.001), and moderate for two-week follow-up (ICC=0.61, 95% CI: 0.44-0.73, P<0.001).\nCONCLUSION: The Persian version of the IBDcQ-8 questionnaire demonstrated robust validity and acceptable reliability even when administered by telephone interview, supporting its usefulness for evaluating disease-specific quality of life in patients with IBD and its applicability in future studies.",
+   "watched": [],
+   "related": [],
+   "title_zh": "波斯語版 IBDcQ-8 問卷之效度與信度評估",
+   "abstract_zh": "前言：發炎性腸道疾病控制問卷-8（IBDcQ-8）是一項患者自填量表，用於評估疾病控制與生活品質的核心領域。本研究目的為評估波斯語版 IBDcQ-8 在伊朗 IBD 族群中的效度與信度。\n\n方法：採用標準化正向-反向翻譯程序將問卷改編為波斯語。內容效度透過由 10 位評估者組成之小組進行結構化訪談評估。建構效度則透過對 101 名患者進行結構化訪談與臨床就診評估。以 Harvey Bradshaw 指數（HBI）、部分 Mayo 評分及 IBD 問卷（IBDQ）作為比較工具。患者的回答與臨床整體評估、HBI、部分 Mayo 評分、IBDQ 分數及實驗室指標，以 Spearman 等級相關進行比較。測試-重測信度以計算兩次後續訪談間的組內相關係數（ICC）評估。P 值<0.05 視為統計顯著。\n\n結果：一半受試者（n=51，50.5%）為女性。平均年齡 38 歲（SD=14）。67 名患者（66%）為潰瘍性結腸炎。IBDcQ-8 分數與 HBI 及 IBDQ 呈強相關，與部分 Mayo 評分、CRP 及首次就診臨床評估呈中度相關（P 值<0.05）。一日追蹤的一致性極佳（ICC=0.82，95% CI：0.71-0.89，P<0.001），兩週追蹤的一致性為中度（ICC=0.61，95% CI：0.44-0.73，P<0.001）。\n\n結論：波斯語版 IBDcQ-8 問卷展現出穩健的效度及可接受的信度，即使透過電話訪談進行亦然，支持其在評估 IBD 患者疾病特異性生活品質的實用性，以及未來研究的適用性。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "此為問卷語言驗證研究（非外科介入、非治療效果研究），對台灣大腸直腸外科臨床實務幾無直接應用價值。",
+   "relevance": "低度相關",
+   "relevance_why": "此為波斯語問卷心理測量學驗證研究，非外科介入、非台灣使用之語言版本，與大腸直腸外科手術決策無關。",
+   "novelty": "仍屬早期",
+   "one_liner": "在101名伊朗IBD患者中，驗證波斯語版IBDcQ-8問卷效度與信度，發現與HBI、IBDQ強相關，一日重測ICC=0.82。",
+   "action": "目前不需改變做法；此為特定語言問卷驗證研究，非台灣臨床情境適用，亦非外科介入研究。",
+   "pico": {
+    "P": "101名伊朗IBD患者（66%為UC），另有10位評估者進行內容效度評估",
+    "I": "波斯語版IBDcQ-8問卷（電話與臨床訪談施測）",
+    "C": "無對照組（與HBI、部分Mayo評分、IBDQ、CRP等比較工具做相關性分析）",
+    "O": "主要outcome：建構效度（與臨床指標之相關性）；次要outcome：測試-重測信度（ICC）"
+   },
+   "effects": [],
+   "key_numbers": [
+    "IBDcQ-8與HBI及IBDQ呈強相關，與部分Mayo評分、CRP呈中度相關（p<0.05）",
+    "一日重測信度極佳：ICC=0.82（95% CI 0.71-0.89）",
+    "兩週重測信度降為中度：ICC=0.61（95% CI 0.44-0.73）"
+   ],
+   "cautions": [
+    "樣本量僅101人，且為單一伊朗族群，語言/文化外推性有限",
+    "僅報告相關係數與ICC，未提供效度切點或臨床決策閾值",
+    "兩週重測信度下降（0.82→0.61），可能反映疾病活動度變化而非測量誤差，摘要未討論此差異原因"
+   ],
+   "unassessable": [
+    "盲法",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "抽樣方法（是否連續收案）",
+    "評估者間信度"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-08-17T06:26:03+08:00"
+  },
+  {
+   "pmid": "42601610",
+   "title": "Bio-process development for sustainable, large-scale production of LAB-oligosaccharides as a potential anti-colon-cancer metabolites produced by Lactobacillus acidophilus 20079",
+   "journal": "Microb Cell Fact",
+   "journal_full": "Microbial cell factories",
+   "issn": "1475-2859",
+   "issn_linking": "1475-2859",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1016/j.jece.2025.120249",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Kenawy A, Abo-Zaid G, Taha T, Ragab A, Al-Madboly L, El-Deeb N",
+   "abstract": "Lactic acid bacteria and their metabolites have shown promising biological activities against different types of cancer, esspecially, colon cancer. In our previouse study, we extracted and optimized the production of a mixture of three oligosaccharides from Lactobacillus acidophilus DSMZ 20079 at the laboratory scale using statistical experimental designs and the active oligosaccharide HPLC fraction was identified as LA-EPS-20079. Also, the anticancer activity of the extracted LA-EPS-20079 against colon cancer CaCo-2 cell line was confirmed via the downregulation of the gene expression of Bcl2 and Survivin genes (6). In the present study, we produced a mixture of bioactive oligosaccharides from L. acidophilus DSMZ 20079 in 10 L bioreactor that maintained the anti-colon cancer against CaCo-2 cell line effects, which is a major transition towards the semi industrial level. To that end, a batch fermentation was carried out in a 10 L bioreactor under uncontrolled pH condition, starting at pH 6.0. During the fermentation process, the bacterial cell mass was increased exponentially with a constant specific growth rate (µ) of 0.07 h-1, reaching a maximum biomass of 6.93 g L-1 at 44 h. Also, the concentration of the produced total exooligosaccharides gradually increased and reached a maximum concentration of 1461.43 µg mL-1 at 40 h post-incubation. Furthermore, the glucose consumption rate was 1.21 g L-1 h-1, while the LAB-oligosaccharide production rate reached 96.22 µg mL-1 h-1. Moreover, oligosaccharides chemical composition was studied after scaling up the production process using 1D and 2D proton and carbon NMR, along with monomeric composition analysis. The results indicated that LAB-oligosaccharide is a mixture of oligosaccharides, not a single structure, and the mixture consists of three monomeric sugars; herein, we referred to the oligosaccharide mixture as LAB-oligosaccharide. Additionally, the anticancer activity of LAB- oligosaccharide was tested in samples collected from the bioreactor at 0, 12, 14, 16, 18, 20, 22, 24, 36, 40 and 44 h time points against the CaCo-2 cancer cell line. The results confirmed the in-vitro anticancer activity with maximum inhibition percentages of 72.01% and 81.7% after 22 and 24 h, respectively. On the other hand, to establish an environmentally friendly production process, we evaluated the efficacy of using the bacterial biomass residue after LAB- oligosaccharide extraction as a substrate for bacterial isolates growth to produce industrially important enzymes (Lipases and proteases). In this context, 5 bacterial isolates were found to produce both enzymes. These bacterial isolates were characterized using 16S-rRNA gene sequencing and the relatedness between the isolates was studied using phylogenetic analysis. The results demonstrated that the residual biomass supported the growth of B. subtillis PX205316 (2F) for the production of commercially valuable lipase and protease enzymes, hence, the recommended bioprocess was efficient in producing substrate with potential anticancer properties in a process that is environmentally friendly that promotes environmental sustainability.",
+   "watched": [],
+   "related": [],
+   "title_zh": "以10公升生物反應器進行嗜酸乳桿菌20079產生之乳酸菌寡醣（潛在抗大腸癌代謝物）的永續大規模生產製程開發",
+   "abstract_zh": "乳酸菌及其代謝產物已展現出對抗多種癌症，尤其是大腸癌的潛在生物活性。在我們先前的研究中，已利用統計實驗設計於實驗室規模萃取並最佳化來自嗜酸乳桿菌DSMZ 20079的三種寡醣混合物之產量，並鑑定出具活性的寡醣HPLC分離物LA-EPS-20079。此外，萃取之LA-EPS-20079對抗大腸癌CaCo-2細胞株的抗癌活性已透過下調Bcl2與Survivin基因表現獲得證實。本研究中，我們在10公升生物反應器中生產嗜酸乳桿菌DSMZ 20079之活性寡醣混合物，並維持其對抗CaCo-2細胞株的抗大腸癌效果，此為邁向半工業化規模的重大轉變。為此，在未控制pH條件下（起始pH 6.0）進行批次發酵。發酵過程中，菌體量呈指數成長，比生長速率（μ）恆定為0.07 h-1，於44小時達最大生物量6.93 g/L。所產生之外寡醣總濃度亦逐漸增加，於培養40小時後達最大濃度1461.43 µg/mL。此外，葡萄糖消耗速率為1.21 g/L/h，乳酸菌寡醣生產速率達96.22 µg/mL/h。放大生產製程後，利用一維與二維質子及碳核磁共振（NMR）搭配單醣組成分析研究寡醣化學組成。結果顯示LAB寡醣為混合物而非單一結構，該混合物由三種單醣組成；本文將此寡醣混合物稱為LAB-oligosaccharide。此外，於生物反應器中0、12、14、16、18、20、22、24、36、40及44小時各時間點採樣，測試LAB-oligosaccharide對抗CaCo-2癌細胞株的抗癌活性。結果證實其體外抗癌活性，於22及24小時分別達到最大抑制率72.01%及81.7%。另一方面，為建立環境友善的生產製程，我們評估利用LAB-oligosaccharide萃取後的菌體殘渣作為細菌分離株生長基質，以生產具工業重要性的酵素（脂肪酶及蛋白酶）。在此背景下，發現5株細菌分離株可同時產生此兩種酵素。這些分離株利用16S rRNA基因定序進行鑑定，並透過親緣關係分析研究彼此關係。結果顯示殘餘生物量可支持枯草桿菌PX205316（2F）生長，用以生產具商業價值的脂肪酶與蛋白酶，因此所建議的生物製程能有效產生具潛在抗癌特性的基質，同時促進環境永續性。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "純基礎科學／生物製程開發研究，僅為體外細胞株實驗，無任何動物或人體資料，對台灣大腸直腸外科臨床實務目前無直接應用價值。",
+   "relevance": "低度相關",
+   "relevance_why": "此為菌株發酵製程優化與體外CaCo-2細胞株抗癌活性測試，非臨床試驗、非手術介入，距離臨床應用仍非常遙遠。",
+   "novelty": "仍屬早期",
+   "one_liner": "體外實驗中，以10L生物反應器規模化生產乳酸菌寡醣，對CaCo-2大腸癌細胞株達最高81.7%生長抑制率，尚無動物或人體數據。",
+   "action": "目前不需改變做法；此為臨床前生物製程開發研究，未涉及病人或動物模式，距臨床應用尚遠，僅供研究追蹤。",
+   "pico": {
+    "P": "無病人族群；研究對象為CaCo-2大腸癌細胞株（體外實驗）及發酵製程中的嗜酸乳桿菌DSMZ 20079",
+    "I": "以10公升生物反應器規模化生產之LAB-oligosaccharide（乳酸菌寡醣混合物）",
+    "C": "無對照組（僅比較不同發酵時間點之抑制率，無陰性對照或標準治療對照）",
+    "O": "主要outcome：對CaCo-2細胞株之生長抑制率；次要outcome：菌體生物量、寡醣產率、化學結構鑑定、菌體殘渣再利用生產工業酵素之可行性"
+   },
+   "effects": [],
+   "key_numbers": [
+    "CaCo-2細胞株生長抑制率於24小時達最高81.7%（體外實驗，無人體或動物資料）",
+    "最大生物量6.93 g/L（44小時），寡醣最大產量1461.43 µg/mL（40小時）",
+    "無臨床outcome可供計算ARR/NNT，因無病人或對照組資料"
+   ],
+   "cautions": [
+    "純體外細胞株實驗結果，抗癌活性百分比為替代指標，無法外推至動物或人體療效",
+    "無對照組（如標準化療藥物或陰性對照）比較抑制率，數字意義有限",
+    "研究目的為製程放大與工業化可行性，非療效驗證，與臨床決策無直接關聯"
+   ],
+   "unassessable": [
+    "盲法",
+    "ITT分析",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本分析",
+    "動物或人體安全性資料"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-08-17T06:26:03+08:00"
+  },
+  {
+   "pmid": "42602668",
+   "title": "Enzyme/Reactive Oxygen Species-Dually Activated Hyaluronic Acid Nanocarriers Enable Celastrol Delivery for Site-Specific Therapy of Inflammatory Bowel Diseases and Colorectal Cancer",
+   "journal": "Int J Nanomedicine",
+   "journal_full": "International journal of nanomedicine",
+   "issn": "1178-2013",
+   "issn_linking": "1176-9114",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1016/j.mtbio.2026.102765",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Shi J, Zhang X, Yang L, Wang W, Liu L, Lu T",
+   "abstract": "INTRODUCTION: Conventional oral nanocarriers for intestinal diseases rely on single-responsive mechanisms and target a single pathological stage, failing to address the inflammation-carcinoma continuum. Celastrol (Cel)'s oral translation is limited by poor bioavailability and lack of lesion-specific targeting. To overcome these barriers, we constructed a hyaluronic acid (HA)-functionalized platform featuring dual enzyme/ROS-triggered release and CD44-mediated active targeting (HA@Cel/NPs) for treating ulcerative colitis (UC), colitis-associated colorectal cancer (CAC), and colon cancer.\nMETHODS: HA@Cel/NPs were fabricated using β-cyclodextrin and 4-(hydroxymethyl) phenylboronic acid as dual-responsive linkers. Physicochemical properties, drug release profiles, cellular uptake, anti-inflammatory activity, macrophage polarization, and anticancer activity were systematically evaluated in vitro. In vivo biodistribution and therapeutic efficacy were assessed in UC, CAC, and colon cancer mouse models, with anti-PD-L1 combination therapy in the colon cancer setting.\nRESULTS: HA@Cel/NPs exhibited uniform size (76.87 ± 2.65 nm, PDI 0.166 ± 0.012), stayed stable for 14 days, and achieved ~71% Cel release under high H2O2/α-amylase conditions within 8 h. The nanocarriers enhanced cellular uptake and promoted M1-to-M2 macrophage polarization in inflamed macrophages, while inducing potent CT26 cell apoptosis. Orally administered HA@Cel/NPs alleviated UC severity and suppressed CAC progression, with significantly reduced tumor burden. In colon cancer, intravenous HA@Cel/NPs combined with intraperitoneal anti-PD-L1 significantly boosted CD8⁺ and CD4⁺ T cell infiltration and effectively eradicated established tumors compared with HA@Cel/NPs monotherapy.\nCONCLUSION: HA@Cel/NPs offer a versatile, dual-route platform that bridges inflammation management and cancer immunotherapy, distinguishing itself from single-mechanism or single-disease nanocarriers.",
+   "watched": [],
+   "related": [],
+   "added_at": "2026-08-17T06:26:03+08:00"
+  }
+ ]
+}
