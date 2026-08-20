@@ -1,0 +1,1046 @@
+{
+ "date": "2026-08-21",
+ "generated_at": "2026-08-21T06:35:43+08:00",
+ "count": 14,
+ "papers": [
+  {
+   "pmid": "42613907",
+   "title": "Dietary Titanium Dioxide (E171) Alters the Colon Transcriptome-Evidence From a Human Dietary Intervention Study",
+   "journal": "Mol Nutr Food Res",
+   "journal_full": "Molecular nutrition & food research",
+   "issn": "1613-4133",
+   "issn_linking": "1613-4125",
+   "impact_factor": 4.5,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1002/mnfr.70583",
+   "ptype": "Randomized Controlled Trial",
+   "ptype_list": [
+    "Randomized Controlled Trial"
+   ],
+   "authors": "Bischoff N, Undas A, van Bemmel G, van Herwijnen M, Verheijen M, Van Breda S",
+   "abstract": "Food-grade titanium dioxide (E171) has been removed from the European food market due to concerns about its potential genotoxicity, yet human evidence remains limited. Given its continuous use outside the European Union, clarifying its potential hazard is essential for human risk assessment. In a randomized crossover study, 31 adults consumed 2 mg/kg body weight/day of E171 for 2 weeks, with biospecimens collected after both control and exposure periods. Oral intake resulted in elevated titanium concentrations in feces (CTRL: 6.3 mg/kg; E171: 377 mg/kg). Particle characterization showed a median size of 228 nm, with 9% <100 nm. Systemic oxidative stress increased, evidenced by increased superoxide radical levels in whole blood (p = 0.057). Transcriptomic profiling of colon biopsies revealed activation of 73 pathways linked to oxidative stress, cellular metabolism, and colorectal cancer-associated processes. The observed transcriptional changes were consistent with findings of its proposed mode of action. This human intervention study characterizes the effects of dietary E171 following human gastrointestinal digestion and provides evidence that exposure to dietary E171 induces systemic oxidative stress and transcriptional changes in the colon. These findings strengthen regulatory concerns about E171 as a food additive and its potentially harmful effects on human gastrointestinal health.",
+   "watched": [],
+   "related": [],
+   "title_zh": "飲食性二氧化鈦（E171）改變結腸轉錄體——來自人類飲食介入研究的證據",
+   "abstract_zh": "食品級二氧化鈦（E171）因潛在基因毒性疑慮已從歐盟食品市場下架，但人體證據仍有限。鑑於其在歐盟以外地區持續使用，釐清其潛在危害對人體風險評估至關重要。在一項隨機交叉研究中，31名成人每日攝取2 mg/kg體重的E171，為期2週，並在對照期與暴露期後分別採集生物檢體。口服攝入導致糞便中鈦濃度升高（對照組：6.3 mg/kg；E171組：377 mg/kg）。顆粒特性分析顯示中位粒徑為228 nm，其中9%小於100 nm。全身性氧化壓力上升，證據為全血中超氧自由基濃度增加（p = 0.057）。結腸切片的轉錄體分析顯示73條與氧化壓力、細胞代謝及大腸直腸癌相關過程有關的路徑被活化。觀察到的轉錄變化與其提出的作用機制一致。這項人體介入研究描述了飲食性E171經人體腸胃消化後的效應，並提供證據顯示飲食性E171暴露會誘發全身性氧化壓力及結腸轉錄變化。這些發現強化了對E171作為食品添加劑及其對人體腸胃健康潛在有害效應的法規疑慮。",
+   "evidence_level": "RCT",
+   "score": 3,
+   "score_reason": "設計為隨機交叉試驗，可信度尚可，但終點皆為機制性替代指標（轉錄體、氧化壓力），與大腸直腸外科臨床決策無直接關聯。",
+   "relevance": "低度相關",
+   "relevance_why": "這是食品添加劑毒理學／機制研究，非手術介入，不影響大腸直腸外科臨床決策。",
+   "novelty": "仍屬早期",
+   "one_liner": "在31名成人中，比較口服E171與對照2週，發現糞便鈦濃度大增（377 vs 6.3 mg/kg）並活化73條氧化壓力／大腸癌相關轉錄路徑。",
+   "action": "目前不需改變做法：此為機制性替代指標研究，無臨床疾病結果數據，不影響手術或篩檢決策。",
+   "pico": {
+    "P": "31名健康成人，隨機交叉試驗",
+    "I": "每日口服2 mg/kg體重E171，為期2週",
+    "C": "對照期（未攝取E171）",
+    "O": "主要：糞便鈦濃度、全血氧化壓力標記、結腸轉錄體路徑活化；次要：顆粒粒徑分布"
+   },
+   "effects": [],
+   "key_numbers": [
+    "糞便鈦濃度：對照6.3 mg/kg vs E171暴露後377 mg/kg（約60倍上升）",
+    "全血超氧自由基上升，但未達統計顯著（p = 0.057）",
+    "結腸轉錄體中73條路徑被活化，與氧化壓力及大腸癌相關過程有關"
+   ],
+   "cautions": [
+    "所有終點皆為替代指標（轉錄體路徑、氧化壓力標記），無臨床疾病結果（如癌症發生率）",
+    "關鍵氧化壓力指標p=0.057未達統計顯著，卻仍被詮釋為「增加」",
+    "樣本數僅31人、暴露僅2週，短期轉錄變化不能外推為長期致癌風險"
+   ],
+   "unassessable": [
+    "盲法",
+    "allocation concealment",
+    "ITT分析",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "轉錄體變化的效應量與信賴區間"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-08-21T06:32:10+08:00"
+  },
+  {
+   "pmid": "42613928",
+   "title": "Effect of Digital Health Interventions on the Nutritional Status and Quality of Life of Patients With Colorectal Cancer: Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+   "journal": "J Med Internet Res",
+   "journal_full": "Journal of medical Internet research",
+   "issn": "1438-8871",
+   "issn_linking": "1438-8871",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.3393/ac.2024.00745.0106",
+   "ptype": "Systematic Review, Meta-Analysis",
+   "ptype_list": [
+    "Systematic Review",
+    "Meta-Analysis",
+    "Review"
+   ],
+   "authors": "Feng X, Wang J, Shi H, Liang R, Zheng W, Han L",
+   "abstract": "BACKGROUND: Digital health interventions may improve clinical outcomes in patients with colorectal cancer (CRC), but their impact on nutritional status (NS) and quality of life (QoL) remains unclear.\nOBJECTIVE: This study systematically evaluated the impact of digital health interventions on the NS and QoL in patients with CRC.\nMETHODS: A systematic search was performed across PubMed, Embase, Cochrane, and Web of Science from inception to March 2026 to identify randomized controlled trials evaluating digital health interventions on NS or QoL in CRC. Two reviewers independently performed screening, data extraction, and risk of bias assessment (Cochrane Risk of Bias Assessment Tool [RoB 1.0]). Meta-analysis used a random-effects model to compute standardized mean differences (SMD) or mean differences (MD) with 95% CIs. Heterogeneity was assessed using I² and τ², and subgroup analyses (intervention duration, intervention method, and scale type) explored sources of heterogeneity. GRADE (Grading of Recommendations Assessment, Development, and Evaluation) was used for evidence quality.\nRESULTS: Eleven RCTs from 7 countries, involving 1210 participants aged 37.7-69.0 years. The meta-analysis shows that digital health interventions have no significant effect on improving NS (MD 2.23, 95% CI -10.50 to 14.97; P=.27), with high heterogeneity (I²=81.8%). The overall analysis of QoL shows that digital health interventions significantly improve the QoL of patients (SMD 0.67, 95% CI 0.14-1.21; P=.02), with a moderate effect size, but there is high heterogeneity (I²=92.9%; τ²=0.5146; 95% prediction intervals -1.04 to 2.38). Subgroup analysis indicates in terms of intervention duration, the effect is not significant in the group with ≤1 month, while it is significant in the groups with 1-3 months and >3 months, but there is no statistical significance in the differences among subgroups (P=.67); in terms of intervention methods, the group with guided intervention has a significant effect and no heterogeneity (SMD 1.16, 95% CI 1.05-1.28; I²=0%, τ²=0, P=.97), the effect of the unsupervised intervention group is zero, and the effect of the combined intervention group is unstable, with significant differences among subgroups (P<.001); in terms of scale types, different QoL measurement tools have certain effects on the effect size, but the differences among subgroups are not significant (P=.99).\nCONCLUSIONS: Digital health interventions have a moderate effect on improving the QoL in patients with CRC, especially when guided interventions are employed, the effect is clearer and more stable. This innovatively identifies \"guided intervention models\" as a key moderator of efficacy, contrasting with prior reviews that focused solely on technology. Our findings provide new evidence highlighting the importance of interpersonal support in digital health applications. In practice, digital tools should integrate professional medical guidance and supervision rather than being implemented in isolation, to more effectively improve health outcomes in patients with CRC.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42491667",
+     "date": "2026-07-24",
+     "title_zh": "照護連續性對發炎性腸道疾病（IBD）患者生活品質與心理狀態之影響：隨機對照試驗之系統性回顧與統合分析",
+     "score": 3,
+     "one_liner": "在12篇RCT、1,246名IBD患者中，照護連續性 vs 常規照護，焦慮SMD -1.98、憂鬱SMD -1.82顯著改善，但復發率無差異（p=0.83）。",
+     "sim": 0.272
+    },
+    {
+     "pmid": "42491667",
+     "date": "2026-07-25",
+     "title_zh": "延續性照護對發炎性腸道疾病（IBD）患者生活品質與心理狀態之影響：隨機對照試驗之系統性回顧與統合分析",
+     "score": 3,
+     "one_liner": "在12篇RCT共1,246名IBD患者中，比較延續性照護與常規照護，焦慮SMD -1.98、憂鬱SMD -1.82顯著改善，復發率無差異(p=0.83)。",
+     "sim": 0.272
+    },
+    {
+     "pmid": "42538503",
+     "date": "2026-08-02",
+     "title_zh": "早期與延遲化療對大腸直腸癌術後病人存活的影響：系統性回顧與統合分析",
+     "score": 6,
+     "one_liner": "在72,873名大腸直腸癌術後病人的11篇世代研究統合分析中，延遲化療較早期化療死亡風險增加（HR 1.32），>8週開始者風險更高（HR 1.47）。",
+     "sim": 0.186
+    }
+   ],
+   "title_zh": "數位健康介入對大腸直腸癌（CRC）患者營養狀態與生活品質（QoL）之影響：隨機對照試驗系統性回顧與統合分析",
+   "abstract_zh": "背景：數位健康介入可能改善大腸直腸癌（CRC）患者的臨床結果，但其對營養狀態（NS）與生活品質（QoL）的影響尚不明確。目的：本研究系統性評估數位健康介入對CRC患者NS與QoL的影響。方法：於PubMed、Embase、Cochrane及Web of Science進行系統性檢索，檢索時間自資料庫建立至2026年3月，納入評估數位健康介入對CRC患者NS或QoL影響之隨機對照試驗。兩位審閱者獨立進行篩選、資料擷取及偏誤風險評估（Cochrane偏誤風險評估工具[RoB 1.0]）。統合分析採用隨機效應模型計算標準化平均差（SMD）或平均差（MD）及95%信賴區間。異質性以I²與τ²評估，並進行次群組分析（介入期間、介入方式、量表類型）以探討異質性來源。以GRADE評估證據品質。結果：納入來自7個國家的11篇RCT，共1210名參與者，年齡37.7-69.0歲。統合分析顯示數位健康介入對改善NS無顯著效果（MD 2.23，95% CI -10.50至14.97；P=.27），異質性高（I²=81.8%）。QoL整體分析顯示數位健康介入顯著改善患者QoL（SMD 0.67，95% CI 0.14-1.21；P=.02），效果量為中等，但異質性高（I²=92.9%；τ²=0.5146；95%預測區間-1.04至2.38）。次群組分析顯示：就介入期間而言，≤1個月組效果不顯著，而1-3個月組及>3個月組效果顯著，但各次群組間差異無統計學意義（P=.67）；就介入方式而言，有指導的介入組效果顯著且無異質性（SMD 1.16，95% CI 1.05-1.28；I²=0%，τ²=0，P=.97），無監督介入組效果為零，混合介入組效果不穩定，各次群組間差異顯著（P<.001）；就量表類型而言，不同QoL測量工具對效果量有一定影響，但次群組間差異不顯著（P=.99）。結論：數位健康介入對改善CRC患者QoL具有中等效果，特別是採用有指導的介入模式時，效果更明確且穩定。本研究創新性地確定「有指導介入模式」為療效的關鍵調節因子，與先前僅關注技術本身的文獻不同。我們的發現提供新證據，強調數位健康應用中人際支持的重要性。在實務上，數位工具應整合專業醫療指導與監督，而非單獨實施，以更有效改善CRC患者的健康結果。",
+   "evidence_level": "統合分析",
+   "score": 4,
+   "score_reason": "QoL主要結果異質性極高、預測區間跨零，整體證據不穩定；且介入為數位工具非手術決策，對台灣大腸直腸外科臨床實作直接影響有限。",
+   "relevance": "低度相關",
+   "relevance_why": "介入為數位健康工具（非手術），主要影響照護模式與生活品質支持，非直接外科決策。",
+   "novelty": "仍屬早期",
+   "one_liner": "在11篇RCT、1210名CRC患者中，數位健康介入對營養狀態無效（MD 2.23, p=.27），QoL中等改善（SMD 0.67, p=.02）但異質性極高。",
+   "action": "目前不需改變手術或營養處置；可留意「有指導式」數位介入對QoL支持的潛力，供照護團隊評估導入，但證據仍不穩定。",
+   "pico": {
+    "P": "11篇RCT、7國、共1210名大腸直腸癌（CRC）患者，年齡37.7-69.0歲",
+    "I": "數位健康介入（含有指導、無監督、混合模式，介入期間不一）",
+    "C": "常規照護或無數位介入之對照組",
+    "O": "主要：營養狀態（NS）、生活品質（QoL）；次要：介入期間、介入方式、量表類型之次群組差異"
+   },
+   "effects": [],
+   "key_numbers": [
+    "營養狀態無顯著改善：MD 2.23（95% CI -10.50至14.97），p=.27，I²=81.8%",
+    "QoL整體中等改善：SMD 0.67（95% CI 0.14-1.21），p=.02，但I²=92.9%、95%預測區間-1.04至2.38",
+    "有指導介入次群組效果最穩定：SMD 1.16（95% CI 1.05-1.28），I²=0%"
+   ],
+   "cautions": [
+    "QoL主要結果異質性極高（I²=92.9%），95%預測區間跨零，實際個別研究效果可能為負",
+    "「有指導介入」亮眼結果來自事後次群組分析，未校正多重比較，可能為過度詮釋",
+    "僅提供SMD/MD而非絕對數值，無法計算ARR/NNT；各研究對照組（常規照護）定義可能不一致"
+   ],
+   "unassessable": [
+    "個別研究失訪率",
+    "試驗註冊狀況",
+    "利益衝突",
+    "發表偏誤評估",
+    "各研究對照組具體內容一致性"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-08-21T06:32:10+08:00"
+  },
+  {
+   "pmid": "42619402",
+   "title": "Ultra-Processed Food Consumption and Cancer Risk: An Umbrella Review of Systematic Reviews and Meta-Analyses",
+   "journal": "J Food Sci",
+   "journal_full": "Journal of food science",
+   "issn": "1750-3841",
+   "issn_linking": "0022-1147",
+   "impact_factor": 4.1,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1111/1750-3841.71367",
+   "ptype": "Systematic Review, Review",
+   "ptype_list": [
+    "Systematic Review",
+    "Review"
+   ],
+   "authors": "Bao J, Cheng X, Yin Y, Sun W, Jiang X, Qian M",
+   "abstract": "Evidence on the association between ultra-processed food (UPF) consumption and cancer risk is inconsistent, and systematic reviews (SRs) and meta-analyses (MAs) are fragmented across different cancer types and study populations. A comprehensive synthesis is needed to evaluate the robustness of the evidence. We therefore conducted an umbrella review (UR) of SRs and MAs to synthesize the available evidence on the association between UPF consumption and the risk of various cancers. PubMed, Embase, Web of Science, and Cochrane Library were systematically searched from inception to January 15, 2026. Seven MAs and one SR were included. The methodological quality of the included reviews was assessed using AMSTAR 2, and the certainty of evidence was evaluated using the GRADE framework. UPF consumption may be associated with increased risks of overall cancer, colorectal cancer, breast cancer, and gastric cancer. Subgroup analyses indicated that age, region, dietary assessment methods, and study design may contribute to differences in the observed associations. According to the GRADE assessment, two associations were rated as low certainty, while eight were rated as very low certainty. The AMSTAR 2 assessment showed that three reviews were of low methodological quality and four were of very low quality. Overall, this umbrella review suggests that UPF consumption may be associated with an increased risk of several cancers, although the overall certainty of the evidence remains low. Further high-quality prospective studies using standardized methods to assess UPF consumption are needed to strengthen the evidence base and inform public health recommendations.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42507279",
+     "date": "2026-07-28",
+     "title_zh": "超加工食品對癌症風險的影響及風險緩解策略",
+     "score": 4,
+     "one_liner": "綜述UPF與癌症關聯之流行病學與機轉研究，統合分析顯示UPF攝取每增10%整體癌症風險增13%，大腸直腸癌關聯最強。",
+     "sim": 0.213
+    },
+    {
+     "pmid": "42507279",
+     "date": "2026-07-29",
+     "title_zh": "超加工食品對癌症風險的影響及風險緩解策略",
+     "score": 4,
+     "one_liner": "綜述整合多項世代研究與統合分析，UPF攝取每增10%整體癌症風險增13%，大腸直腸癌為關聯最強部位。",
+     "sim": 0.213
+    },
+    {
+     "pmid": "42565915",
+     "date": "2026-08-08",
+     "title_zh": "機器手臂大腸直腸手術是否值得其成本？整合臨床結果、學習曲線與經濟證據的雨傘綜述",
+     "score": 6,
+     "one_liner": "整合27篇系統性回顧（逾18萬研究、11萬病人），機器手臂與腹腔鏡大腸直腸手術腫瘤學結果相近，轉開腹率較低，成本隨經驗成熟可能縮小。",
+     "sim": 0.174
+    }
+   ],
+   "title_zh": "超加工食品攝取與癌症風險：系統性回顧與統合分析之雨傘綜述",
+   "abstract_zh": "超加工食品（UPF）攝取與癌症風險之關聯證據並不一致，且系統性回顧（SR）與統合分析（MA）分散於不同癌症類型與研究族群中。因此需要一個全面性的綜合評估來檢視證據的穩健性。我們進行了一項針對SR與MA的雨傘綜述，以整合UPF攝取與各種癌症風險關聯的現有證據。系統性檢索PubMed、Embase、Web of Science及Cochrane Library資料庫，檢索範圍自建庫至2026年1月15日。共納入7篇MA與1篇SR。納入回顧的方法學品質以AMSTAR 2評估，證據確定性以GRADE框架評估。UPF攝取可能與整體癌症、大腸直腸癌、乳癌及胃癌風險增加有關。次群組分析顯示，年齡、地區、飲食評估方法及研究設計可能造成觀察到之關聯差異。根據GRADE評估，兩項關聯被評為低確定性，八項關聯被評為極低確定性。AMSTAR 2評估顯示三篇回顧為低方法學品質，四篇為極低品質。整體而言，本雨傘綜述顯示UPF攝取可能與多種癌症風險增加有關，但整體證據確定性仍偏低。未來需要更多使用標準化方法評估UPF攝取的高品質前瞻性研究，以強化證據基礎並為公共衛生建議提供依據。",
+   "evidence_level": "系統性回顧",
+   "score": 3,
+   "score_reason": "為雨傘綜述整合既有MA，方法學品質與證據確定性偏低（多為極低），且為飲食流行病學議題，對外科臨床決策無直接可操作性。",
+   "relevance": "低度相關",
+   "relevance_why": "屬飲食流行病學與癌症風險關聯研究，非外科介入或手術決策相關，僅可作衛教背景知識。",
+   "novelty": "再確認已知",
+   "one_liner": "在7篇MA及1篇SR中，比較UPF高低攝取族群，發現UPF可能增加整體癌症、大腸直腸癌等風險，但證據確定性多為極低。",
+   "action": "目前不需改變外科臨床做法；證據確定性低，可作衛教參考但不足以擬定介入建議。",
+   "pico": {
+    "P": "納入7篇統合分析、1篇系統性回顧，涵蓋UPF攝取與多種癌症風險關聯之研究",
+    "I": "高UPF攝取",
+    "C": "低UPF攝取",
+    "O": "主要：整體癌症、大腸直腸癌、乳癌、胃癌風險；次要：GRADE證據等級、AMSTAR2方法學品質"
+   },
+   "effects": [],
+   "key_numbers": [
+    "10項關聯中8項為GRADE極低確定性、2項為低確定性",
+    "7篇納入回顧中3篇AMSTAR2評為低品質、4篇為極低品質",
+    "摘要未提供任何絕對風險數字或效果量（僅方向性關聯描述）"
+   ],
+   "cautions": [
+    "摘要僅描述「可能增加風險」方向性關聯，未提供任何HR/RR或絕對風險數字",
+    "納入之原始MA方法學品質多偏低，證據確定性極低，因果推論薄弱",
+    "UPF定義（NOVA分類）異質性大，各研究飲食評估方法不一，可能造成分類偏誤"
+   ],
+   "unassessable": [
+    "各MA原始研究之HR/RR數值",
+    "異質性統計量（I²）",
+    "發表偏誤評估",
+    "利益衝突",
+    "試驗註冊"
+   ],
+   "context_verdict": "再確認",
+   "context": "與先前兩篇同主題論文（皆評分4/10）呼應，同樣指出UPF與大腸直腸癌關聯最強但證據等級低。本篇進一步以AMSTAR2/GRADE系統性評估方法學品質，結論一致，未提供新方向或改變既有結論的證據。",
+   "added_at": "2026-08-21T06:32:10+08:00"
+  },
+  {
+   "pmid": "42623594",
+   "title": "Topical Diclofenac for Prevention of Capecitabine-Induced Hand-Foot Syndrome: A Prospective Real-World Study",
+   "journal": "JCO Glob Oncol",
+   "journal_full": "JCO global oncology",
+   "issn": "2687-8941",
+   "issn_linking": "2687-8941",
+   "impact_factor": 3.8,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1200/GO-26-00151",
+   "ptype": "Multicenter Study, Observational Study",
+   "ptype_list": [
+    "Multicenter Study",
+    "Observational Study"
+   ],
+   "authors": "Akdogan O, Yucel S, Yazici O, Yucel K, Gurler F, Uyar G",
+   "abstract": "PURPOSE: Capecitabine-induced hand-foot syndrome (HFS) is a frequent toxicity that impairs quality of life and may require chemotherapy dose modification. Although prophylactic topical diclofenac showed benefit in a randomized trial, its effectiveness in routine clinical practice remains uncertain. We evaluated the real-world effectiveness of topical diclofenac for prevention of clinically significant capecitabine-induced HFS.\nMETHODS: DICLO-HFS was a prospective, two-center observational study conducted in Türkiye between July 2023 and February 2024. Adults with colorectal or gastric cancer receiving capecitabine-based therapy were managed with either prophylactic 1% topical diclofenac twice daily or active monitoring according to routine practice. HFS was assessed weekly using Common Terminology Criteria for Adverse Events v5.0 by physicians not involved in treatment allocation. The primary end point was incidence of grade ≥2 HFS. Secondary end points included time to onset of grade ≥2 HFS and capecitabine dose reductions attributable to HFS.\nRESULTS: A total of 151 patients were included (71 diclofenac; 80 active monitoring). During a median follow-up of 19.1 weeks, grade ≥2 HFS occurred in 12 (16.9%) of 71 patients receiving diclofenac and 11 (13.8%) of 80 patients under active monitoring (odds ratio [OR], 1.28 [95% CI, 0.52 to 3.10]; P = .591). Time to onset did not differ between groups (log-rank P = .392). HFS-related dose reductions occurred in 24 (33.8%) of 71 and 20 (25.0%) of 80 patients, respectively (OR, 1.53 [95% CI, 0.76 to 3.10]; P = .235). In multivariable analysis, female sex and capecitabine monotherapy were independently associated with grade ≥2 HFS.\nCONCLUSION: In this prospective real-world study, prophylactic topical diclofenac did not reduce clinically significant capecitabine-induced HFS or delay its onset compared with active monitoring. These findings do not support routine diclofenac prophylaxis in everyday practice.",
+   "watched": [
+    "diclofenac"
+   ],
+   "related": [],
+   "title_zh": "局部外用Diclofenac用於預防Capecitabine引起之手足症候群：一項前瞻性真實世界研究",
+   "abstract_zh": "目的：Capecitabine引起的手足症候群（HFS）是常見的毒性反應，會影響生活品質，並可能需要調整化療劑量。雖然預防性外用diclofenac在一項隨機試驗中顯示出益處，但其在常規臨床實務中的療效仍不確定。我們評估外用diclofenac預防臨床顯著Capecitabine誘發HFS的真實世界療效。方法：DICLO-HFS是一項於2023年7月至2024年2月在土耳其進行的前瞻性、雙中心觀察性研究。接受Capecitabine為基礎治療的大腸直腸癌或胃癌成人患者，依常規臨床實務接受預防性1% diclofenac外用（每日兩次）或主動監測。HFS由未參與治療分配的醫師依CTCAE v5.0每週評估。主要終點為grade≥2 HFS的發生率。次要終點包括grade≥2 HFS發生時間以及因HFS導致的Capecitabine劑量減少。結果：共納入151名患者（diclofenac組71人；主動監測組80人）。中位追蹤19.1週期間，diclofenac組71人中12人（16.9%）及主動監測組80人中11人（13.8%）發生grade≥2 HFS（勝算比[OR] 1.28［95% CI, 0.52-3.10］；P=.591）。兩組發生時間無差異（log-rank P=.392）。因HFS導致的劑量減少分別發生於71人中24人（33.8%）及80人中20人（25.0%）（OR 1.53［95% CI, 0.76-3.10］；P=.235）。多變量分析中，女性與Capecitabine單藥治療與grade≥2 HFS獨立相關。結論：在此前瞻性真實世界研究中，預防性外用diclofenac並未降低臨床顯著的Capecitabine誘發HFS發生率，也未延緩其發生，相較於主動監測無顯著差異。這些發現不支持在日常實務中常規使用diclofenac預防。",
+   "evidence_level": "前瞻性世代",
+   "score": 3,
+   "score_reason": "研究設計嚴謹但為非隨機觀察性研究、陰性結果；且主題為化療副作用（HFS）非手術相關，對台灣大腸直腸外科臨床實務（尤其POUR照護）幾乎無直接應用價值。",
+   "relevance": "低度相關",
+   "relevance_why": "此為Capecitabine化療引起手足症候群的預防性研究，非手術介入，與大腸直腸外科手術照護（尤其痔瘡術後POUR）主題完全無關，僅因『diclofenac』關鍵字命中。",
+   "novelty": "結果為陰性",
+   "one_liner": "在151位使用Capecitabine之大腸直腸/胃癌患者中，比較預防性外用diclofenac與主動監測，發現grade≥2手足症候群無顯著差異（16.9% vs 13.8%, OR 1.28）。",
+   "action": "此研究與痔瘡術後導尿/POUR照護無關，目前不需依此改變大腸直腸手術相關流程；僅供腫瘤科同事參考化療副作用處置。",
+   "pico": {
+    "P": "151位接受Capecitabine為基礎治療之大腸直腸癌或胃癌成人患者（diclofenac組71人；主動監測組80人）",
+    "I": "預防性1%外用diclofenac，每日兩次",
+    "C": "主動監測（未使用預防性外用藥）",
+    "O": "主要：grade≥2 HFS發生率；次要：HFS發生時間、因HFS導致之Capecitabine劑量減少"
+   },
+   "effects": [
+    {
+     "outcome": "Grade≥2手足症候群",
+     "ok": true,
+     "i_label": "外用diclofenac",
+     "c_label": "主動監測",
+     "i_rate": 16.9,
+     "c_rate": 13.8,
+     "i_raw": "12/71",
+     "c_raw": "11/80",
+     "arr": 3.2,
+     "benefit": false,
+     "event_bad": true,
+     "nnt": 32,
+     "kind": "NNH",
+     "note": ""
+    },
+    {
+     "outcome": "HFS相關劑量減少",
+     "ok": true,
+     "i_label": "外用diclofenac",
+     "c_label": "主動監測",
+     "i_rate": 33.8,
+     "c_rate": 25.0,
+     "i_raw": "24/71",
+     "c_raw": "20/80",
+     "arr": 8.8,
+     "benefit": false,
+     "event_bad": true,
+     "nnt": 11,
+     "kind": "NNH",
+     "note": ""
+    }
+   ],
+   "key_numbers": [
+    "grade≥2 HFS：diclofenac 16.9% vs 監測 13.8%，OR 1.28（95% CI 0.52-3.10），無統計顯著差異",
+    "劑量減少：diclofenac 33.8% vs 監測 25.0%，OR 1.53（95% CI 0.76-3.10），仍無顯著差異",
+    "本研究與痔瘡術後POUR無關，此主題所需之絕對風險/NNT數據摘要中完全未提供"
+   ],
+   "cautions": [
+    "此研究主題為化療引起HFS，與痔瘡術後POUR完全無關，僅keyword命中diclofenac，不應誤用於導尿決策",
+    "非隨機觀察性研究，分組依臨床常規決定而非隨機分派，可能存在選擇性偏差",
+    "與作者提及之先前RCT結果矛盾（RCT顯示有效），真實世界效果與RCT落差值得留意但非手術議題"
+   ],
+   "unassessable": [
+    "本研究未提供任何POUR相關資訊，故無法評估絕對風險/ARR/NNT",
+    "未探討可改變之POUR危險因子（本研究之危險因子為性別、單藥治療，與HFS相關非POUR）",
+    "未比較麻醉方式、術後止痛策略或導尿策略",
+    "無法用於制定痔瘡術後照護流程",
+    "無法與既有POUR文獻發生率比較",
+    "allocation concealment、盲法、ITT、失訪率、試驗註冊、利益衝突、成本分析等摘要均未提及"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-08-21T06:32:10+08:00"
+  },
+  {
+   "pmid": "42618304",
+   "title": "Outcomes of risankizumab use in adults with Crohn's disease in a real-world setting (ARISE-CD): a multicentre, retrospective cohort study",
+   "journal": "BMJ Open Gastroenterol",
+   "journal_full": "BMJ open gastroenterology",
+   "issn": "2054-4774",
+   "issn_linking": "2054-4774",
+   "impact_factor": 2.6,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1136/bmjgast-2026-002320",
+   "ptype": "Multicenter Study",
+   "ptype_list": [
+    "Multicenter Study"
+   ],
+   "authors": "Butler T, Beard A, Ososanya A, Parr E, Kwok J, Fekadu H",
+   "abstract": "OBJECTIVE: Risankizumab is an interleukin-23 p19 subunit inhibitor, which gained UK approval in May 2023 for the treatment of Crohn's disease. Our aim was to evaluate risankizumab use in a real-world Crohn's disease cohort across North West England.\nMETHODS: ARISE-CD is a retrospective, multicentre cohort study of adults with Crohn's disease across nine hospitals in North West England between May 2024 and April 2025. The primary outcome was treatment persistence at 6 months. Secondary outcomes included steroid-free persistence; steroid-free clinical remission (Crohn's Disease Activity Index (CDAI) <150 or Harvey Bradshaw Index (HBI) <5), biochemical remission (C-reactive protein (CRP) ≤5 mg/L and faecal calprotectin ≤250 µg/g) and reporting of adverse events. The cohort was also stratified by prior ustekinumab exposure.\nRESULTS: 131 patients were included. All patients started risankizumab at least 6 months prior to data collection, with a median of 41 weeks (34-52) follow-up and a median of 2 (1-3) prior advanced therapies. 90% had exposure to prior anti-tumour necrosis factor therapy and 56% had been exposed to ustekinumab therapy. 6-month treatment persistence was 91% and 6-month steroid-free persistence was 84%. There was no difference in treatment persistence stratified by prior ustekinumab exposure. At 6 months, 14 out of 21 (67%) patients were in steroid-free clinical remission, and 15 out of 40 (38%) patients were in biochemical remission. In patients with paired results at baseline and 6 months, there was a significant reduction in median CRP (6 mg/L vs 4 mg/L, p=0.002) and median faecal calprotectin (201 µg/g vs 141 µg/g, p=0.001) at week 24. Prior ustekinumab exposure did not impact rates of steroid-free clinical remission or biochemical remission. No new safety signals were noted.\nCONCLUSION: Risankizumab was effective in a multicentre, real-world cohort of patients with Crohn's disease, both with and without prior ustekinumab exposure. No new safety signals were noted.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42484615",
+     "date": "2026-07-23",
+     "title_zh": "methotrexate用於發炎性腸道疾病：MICI-METHO多中心回溯性世代研究",
+     "score": 3,
+     "one_liner": "在1115名IBD病人（77% CD）中，觀察methotrexate使用型態，持續時間CD 27.7個月、UC 22.4個月，31.7%發生相關不良事件。",
+     "sim": 0.178
+    },
+    {
+     "pmid": "42484615",
+     "date": "2026-07-24",
+     "title_zh": "methotrexate用於發炎性腸道疾病：MICI-METHO多中心回溯性世代研究",
+     "score": 3,
+     "one_liner": "在1115名IBD病人（77% CD）中，觀察methotrexate使用型態，持續時間CD 27.7個月、UC 22.4個月，31.7%發生相關不良事件。",
+     "sim": 0.178
+    },
+    {
+     "pmid": "42333672",
+     "date": "2026-06-23",
+     "title_zh": "治療克隆氏症誘導與維持緩解的生物製劑藥物：網路統合分析",
+     "score": 5,
+     "one_liner": "在66項誘導試驗（n=20,653）中，比較多種生物製劑與安慰劑，發現ustekinumab誘導緩解效果最確定（RR 2.01，NNTB=6）。",
+     "sim": 0.16
+    }
+   ],
+   "title_zh": "Risankizumab用於成人Crohn氏症患者的真實世界使用結果（ARISE-CD）：一項多中心回溯性世代研究",
+   "abstract_zh": "目的：Risankizumab是一種interleukin-23 p19次單元抑制劑，於2023年5月在英國獲批用於治療Crohn氏症。本研究目的為評估risankizumab在英格蘭西北部真實世界Crohn氏症世代中的使用情況。方法：ARISE-CD是一項回溯性、多中心世代研究，納入2024年5月至2025年4月間英格蘭西北部九家醫院的成年Crohn氏症患者。主要結果為6個月時的治療持續率。次要結果包括無類固醇持續率、無類固醇臨床緩解（Crohn's Disease Activity Index (CDAI) <150或Harvey Bradshaw Index (HBI) <5）、生化緩解（C-reactive protein (CRP) ≤5 mg/L且糞便calprotectin ≤250 µg/g）及不良事件報告。世代亦依先前ustekinumab暴露情況分層。結果：共納入131名患者。所有患者開始使用risankizumab至少6個月前，中位追蹤期為41週（34-52），中位先前使用進階治療數為2種（1-3）。90%曾接受過抗腫瘤壞死因子治療，56%曾暴露於ustekinumab治療。6個月治療持續率為91%，6個月無類固醇持續率為84%。依先前ustekinumab暴露分層後，治療持續率無差異。6個月時，21名患者中有14名（67%）達無類固醇臨床緩解，40名患者中有15名（38%）達生化緩解。在基準與6個月皆有配對結果的患者中，第24週時median CRP顯著下降（6 mg/L vs 4 mg/L，p=0.002），median糞便calprotectin亦顯著下降（201 µg/g vs 141 µg/g，p=0.001）。先前ustekinumab暴露並未影響無類固醇臨床緩解率或生化緩解率。未觀察到新的安全性訊號。結論：Risankizumab在多中心真實世界Crohn氏症世代中有效，無論患者是否曾暴露於ustekinumab，且未觀察到新的安全性訊號。",
+   "evidence_level": "回溯性研究",
+   "score": 3,
+   "score_reason": "無對照組的單臂真實世界觀察性研究，樣本量小且次群組（21、40人）估計值不穩定，對大腸直腸外科臨床決策實用性低。",
+   "relevance": "低度相關",
+   "relevance_why": "本篇為Crohn氏症生物製劑藥物治療的真實世界結果，屬消化科藥物治療決策範疇，非外科介入。",
+   "novelty": "仍屬早期",
+   "one_liner": "在131名Crohn氏症患者中，評估risankizumab治療結果，6個月治療持續率91%、無類固醇持續率84%。",
+   "action": "此為藥物治療真實世界數據，多由消化科主導決策，外科醫師目前不需改變轉診或手術適應症判斷。",
+   "pico": {
+    "P": "131名成年Crohn氏症患者（90%曾用過抗TNF、56%曾用過ustekinumab）",
+    "I": "Risankizumab治療",
+    "C": "無對照組（依先前ustekinumab暴露分層比較）",
+    "O": "主要：6個月治療持續率；次要：無類固醇持續率、無類固醇臨床緩解、生化緩解、不良事件"
+   },
+   "effects": [],
+   "key_numbers": [
+    "6個月治療持續率91%，無類固醇持續率84%（單臂，無對照組）",
+    "6個月無類固醇臨床緩解14/21（67%），生化緩解15/40（38%）",
+    "配對患者CRP由6降至4 mg/L（p=0.002），calprotectin由201降至141 µg/g（p=0.001）"
+   ],
+   "cautions": [
+    "無對照組，單臂真實世界觀察，無法排除選擇偏誤或適應症混淆",
+    "無類固醇臨床緩解與生化緩解分母僅21及40人，數據不完整可能造成偏誤",
+    "「無差異」的ustekinumab分層比較未附具體數字或信賴區間，僅文字陳述"
+   ],
+   "unassessable": [
+    "盲法（觀察性研究不適用）",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本分析",
+    "ITT分析方式"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "先前所見論文為methotrexate於IBD使用型態及Crohn氏症誘導緩解生物製劑網路統合分析，主題雖同屬IBD藥物治療但藥物、設計與族群皆不同，無直接相關前作可比較。",
+   "added_at": "2026-08-21T06:32:10+08:00"
+  },
+  {
+   "pmid": "42623071",
+   "title": "Fecal Occult Blood Screening Outcomes Adjusted for Contamination Bias and Nonadherence",
+   "journal": "JAMA Netw Open",
+   "journal_full": "JAMA network open",
+   "issn": "2574-3805",
+   "issn_linking": "2574-3805",
+   "impact_factor": 11.7,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1001/jamanetworkopen.2026.29856",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Blom J, Nyström L, Jonsson H",
+   "abstract": "IMPORTANCE: Population-based colorectal cancer (CRC) screening with fecal occult blood tests (FOBT) is widely implemented. Estimating associations of invitation to and participation in the screening program with CRC mortality is challenging due to lack of valid control groups and uncertainties about optimal follow-up time.\nOBJECTIVE: To estimate associations of invitation to and participation in screening with CRC mortality reduction when adjusting death from CRC diagnosed more than 2 years after cessation of screening and nonadherence.\nDESIGN, SETTING, AND PARTICIPANTS: This prospective cohort study was conducted in the Stockholm-Gotland region of Sweden between 2008 and 2021. Yearly birth cohorts of individuals aged 60 to 69 years (born 1938-1954) were randomly assigned to a study group (SG) invited to screen between 2008 and 2012 or to a control group (CG) who were either invited to screen between 2013 and 2015 or were not invited to screen. Analyses were performed between May 2024 and February 2026.\nEXPOSURE: Invitation to and participation in CRC screening, adjusting for contamination in the SG (exposed), invitations in the CG (not exposed), and nonadherence.\nMAIN OUTCOME AND MEASURES: CRC-specific mortality, defined as CRC in the Cancer Register (2008-2020) or the Swedish Quality Register for Colorectal Cancer (2021), with CRC as underlying cause of death in the Cause of Death Register. Poisson regression was used to estimate mortality rate ratios (RRs) with 95% CIs, adjusting for follow-up year, attained age at follow-up, contamination from CRC deaths diagnosed more than 2 years after screening in the SG, invitations in the CG, and nonadherence.\nRESULTS: The study included 376 511 individuals, with 203 692 in the SG (99 472 men [48.8%]; mean [SD] age at start of follow-up, 63.6 [3.2] years) and 172 819 in the CG (84 705 men [49.0%]; mean [SD] age at start of follow-up, 62.8 [3.5] years). During follow-up, 856 CRC deaths occurred in the SG and 812 CRC deaths occurred in the CG. After adjustment for CRC deaths diagnosed more than 2 years after the last SG invitation (455 deaths) and invitations in the CG (166 deaths), the RR was 0.74 (95% CI, 0.58-0.94), a 26% reduction. After further adjustment for nonadherence in the SG (196 deaths) and participation in the CG (82 deaths), the RR for participation was 0.57 (95% CI, 0.40-0.80), a 43% reduction.\nCONCLUSIONS AND RELEVANCE: In this cohort study of population-based FOBT screening, screening invitation was associated with a 26% reduction in CRC mortality and participation was associated with a 43% reduction, after accounting for contamination and nonadherence. These findings suggest that bias adjustment is important when evaluating screening programs, and these findings support efforts to increase screening uptake.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42555038",
+     "date": "2026-08-06",
+     "title_zh": "組織化糞便免疫化學檢測（FIT）篩檢計畫實施後之大腸直腸癌死亡率",
+     "score": 5,
+     "one_liner": "在西班牙巴斯克地區約220萬人口（2004-2024）中，比較FIT篩檢實施前後CRC死亡率，50-69歲族群死亡率下降50.1%（39.7→19.8/10萬）。",
+     "sim": 0.261
+    },
+    {
+     "pmid": "42424566",
+     "date": "2026-07-09",
+     "title_zh": "48個國家大腸直腸癌死亡率進展：篩檢與早期偵測的影響",
+     "score": 4,
+     "one_liner": "在48個國家1950-2019年CRC死亡率資料中，比較篩檢普及國與否，發現篩檢普及國死亡率顯著下降（SMR<0.70），全球共避免287萬例死亡。",
+     "sim": 0.161
+    }
+   ],
+   "title_zh": "校正污染偏誤與不依從後之糞便潛血篩檢成效分析",
+   "abstract_zh": "重要性：以糞便潛血檢測（FOBT）進行大腸直腸癌（CRC）人群篩檢已廣泛實施。由於缺乏有效對照組及最佳追蹤時間的不確定性，估計篩檢邀請及參與與CRC死亡率之間的關聯具有挑戰性。目的：在校正篩檢中止2年後診斷的CRC死亡及不依從因素後，估計篩檢邀請與參與對CRC死亡率降低的關聯。設計、場所與參與者：本前瞻性世代研究於2008至2021年在瑞典斯德哥爾摩-哥特蘭地區進行。1938-1954年出生、年齡60-69歲的年度出生世代被隨機分配至研究組（SG，於2008-2012年被邀請篩檢）或對照組（CG，於2013-2015年被邀請篩檢或未被邀請）。分析於2024年5月至2026年2月間進行。暴露：邀請及參與CRC篩檢，並校正SG中的污染（暴露）、CG中的邀請（非暴露）及不依從。主要結果與測量：CRC特異性死亡率，定義為癌症登錄（2008-2020年）或瑞典大腸直腸癌品質登錄（2021年）中登記之CRC，且死因登錄中CRC為根本死因。使用Poisson迴歸估計死亡率比（RR）及95%信賴區間，並校正追蹤年、追蹤時達到之年齡、SG中篩檢後2年以上診斷之CRC死亡造成的污染、CG中的邀請及不依從。結果：研究共納入376,511人，其中SG組203,692人（男性99,472人［48.8%］；追蹤起始時平均［標準差］年齡63.6［3.2］歲），CG組172,819人（男性84,705人［49.0%］；追蹤起始時平均［標準差］年齡62.8［3.5］歲）。追蹤期間，SG組發生856例CRC死亡，CG組發生812例。經校正SG最後一次邀請後2年以上診斷之CRC死亡（455例）及CG中的邀請（166例）後，RR為0.74（95% CI, 0.58-0.94），降低26%。進一步校正SG中的不依從（196例）及CG中的參與（82例）後，參與的RR為0.57（95% CI, 0.40-0.80），降低43%。結論與相關性：在此人群基礎FOBT篩檢世代研究中，經校正污染與不依從後，篩檢邀請與CRC死亡率降低26%相關，參與篩檢與降低43%相關。這些發現顯示評估篩檢計畫時偏誤校正的重要性，並支持提升篩檢參與率的努力。",
+   "evidence_level": "前瞻性世代",
+   "score": 5,
+   "score_reason": "大型國家級登錄資料、方法學嚴謹（校正污染與不依從偏誤），但屬篩檢政策研究非手術介入，對外科日常臨床決策直接影響有限。",
+   "relevance": "低度相關",
+   "relevance_why": "本研究評估的是FOBT篩檢計畫對死亡率的影響，屬公衛篩檢政策層級，非手術技術或病人管理介入。",
+   "novelty": "再確認已知",
+   "one_liner": "在37.6萬名60-69歲瑞典民眾中，比較FOBT篩檢邀請與未邀請，校正偏誤後邀請降低CRC死亡26%、參與降低43%。",
+   "action": "篩檢參與仍是降低CRC死亡關鍵，門診鼓勵符合年齡病人接受篩檢；本篇不改變手術決策。",
+   "pico": {
+    "P": "瑞典斯德哥爾摩-哥特蘭地區376,511名60-69歲民眾（1938-1954年出生）",
+    "I": "邀請參加CRC FOBT篩檢（2008-2012年）並校正參與/不依從",
+    "C": "對照組：晚邀請（2013-2015年）或未邀請，並校正污染與參與",
+    "O": "主要outcome：CRC特異性死亡率（校正污染與不依從後之死亡率比RR）"
+   },
+   "effects": [],
+   "key_numbers": [
+    "校正污染與CG邀請後，篩檢邀請之CRC死亡RR=0.74（95% CI 0.58-0.94），降低26%",
+    "進一步校正不依從/參與後，參與篩檢之CRC死亡RR=0.57（95% CI 0.40-0.80），降低43%",
+    "原始未調整死亡數：SG組856例（n=203,692）vs CG組812例（n=172,819）",
+    "本研究未提供調整後兩組絕對死亡率，故無法計算ARR/NNT"
+   ],
+   "cautions": [
+    "屬觀察性世代研究，雖以出生年世代分配邀請，仍非個體隨機化RCT，殘留干擾因子可能存在",
+    "「參與篩檢」為事後依從性分組（類似per-protocol分析），健康篩選偏誤（healthy screener effect）可能誇大效果",
+    "主要結果僅報RR與95% CI，未提供校正後兩組絕對死亡率，無法計算ARR/NNT驗證臨床意義大小"
+   ],
+   "unassessable": [
+    "allocation concealment",
+    "盲法（篩檢研究性質難以盲法）",
+    "ITT vs per-protocol分析細節",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本效益分析"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "本篇與前述兩篇FIT/篩檢死亡率研究方向一致，皆支持篩檢降低CRC死亡率；但本篇補上關鍵方法學缺口——以Poisson迴歸校正污染偏誤與不依從，顯示未校正時篩檢效益可能被低估。",
+   "added_at": "2026-08-21T06:32:10+08:00"
+  },
+  {
+   "pmid": "42620674",
+   "title": "NLRP6 as a candidate segmental barrier to carcinogenesis in the human gut: a hypothesis",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1093/nar/gkaf1238",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Luengo-Gil G, Arroyo A, Hurtado-López A, García-Solano J, Conesa-Zamora P, Tapia-Abellán A",
+   "abstract": "Colorectal cancer (CRC) is a major global health burden, whereas small intestinal cancers are rare despite arising within the same gastrointestinal tract. This disparity suggests that segment-specific epithelial programmes may influence carcinogenesis. NLRP6 is an inflammasome-forming sensor with established roles in epithelial homeostasis, barrier maintenance, mucosal immune surveillance, and host-microbiota interactions. Public human tissue resources, an exploratory reanalysis of currently available single-cell data, and our local colonic cohort, provide hypothesis-generating observations compatible with segmental differences in NLRP6 expression, including very low bulk transcript abundance in human colonic samples. However, the currently available human evidence remains limited and heterogeneous, and does not yet support a simple binary model of presence in the small intestine and absence from the colon. Murine studies nevertheless support biological plausibility, as Nlrp6 deficiency exacerbates inflammation-driven colonic tumourigenesis and impairs epithelial repair. In addition, independent human studies indicate protein-level and clinicopathological relevance of NLRP6 in colonic disease, suggesting that its expression may vary according to segment, cell type, inflammatory context, and disease state. We therefore propose that NLRP6 may function as one candidate component of a segment-restricted epithelial defence and mucosal immune surveillance network in the human gut, potentially shaping CRC-relevant inflammatory and barrier conditions rather than acting as an established human tumour-suppressive mechanism. This model should now be tested through orthogonal human validation, including protein-based assays, spatial and single-cell analyses, and correlation with inflammatory status and clinical outcome, before any biomarker-guided intervention strategies are considered.",
+   "watched": [],
+   "related": [],
+   "title_zh": "NLRP6作為人類腸道致癌作用之潛在節段性屏障：一項假說",
+   "abstract_zh": "大腸直腸癌（CRC）是全球主要健康負擔，然而小腸癌雖發生於同一消化道，卻相對罕見。這種差異提示節段特異性的上皮程式可能影響致癌作用。NLRP6是一種形成炎症體的感應器，已知在上皮同質性維持、屏障功能維持、黏膜免疫監視及宿主-微生物相互作用中扮演重要角色。透過公開的人體組織資源、對現有單細胞資料的探索性再分析，以及我們自己的本地結腸世代研究，提供了與NLRP6表現具節段差異相容的假說生成性觀察，包括人類結腸樣本中極低的整體轉錄本豐度。然而，目前可得的人體證據仍屬有限且異質，尚不足以支持「小腸存在、結腸缺乏」這種簡單二元模式。儘管如此，小鼠研究支持此假說具生物學合理性，因為Nlrp6缺乏會加重炎症驅動的結腸腫瘤發生，並損害上皮修復能力。此外，獨立的人體研究顯示NLRP6在結腸疾病中具有蛋白質層級及臨床病理相關性，提示其表現可能依節段、細胞類型、炎症背景及疾病狀態而異。因此我們提出，NLRP6可能是人類腸道中節段限制性上皮防禦及黏膜免疫監視網絡的其中一個候選組成部分，可能塑造與CRC相關的炎症及屏障條件，而非作為一個已確立的人類腫瘤抑制機制。此模型現應透過正交的人體驗證加以測試，包括蛋白質基礎檢測、空間及單細胞分析，以及與炎症狀態及臨床結果的相關性分析，然後才能考慮任何以生物標記為導向的介入策略。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純假說性綜述，缺乏系統性人體驗證資料，對臨床決策無直接可操作性，主要提供未來研究方向而非可用於實務的證據。",
+   "relevance": "低度相關",
+   "relevance_why": "此為基礎免疫學／分子機制假說綜述，非外科介入或臨床試驗，短期內不影響大腸直腸外科臨床實務。",
+   "novelty": "仍屬早期",
+   "one_liner": "本文提出假說：NLRP6可能是人類腸道節段特異性上皮防禦分子，基於小鼠及有限人體資料推論其與CRC炎症及屏障機制相關。",
+   "action": "目前不需改變做法；此為機制假說綜述，尚無臨床驗證資料或介入策略可供參考。",
+   "pico": {
+    "P": "無明確病人族群；為文獻回顧與假說性論述，涉及公開人體組織資料庫、探索性單細胞再分析及作者本地結腸世代",
+    "I": "NLRP6基因/蛋白表現於腸道上皮之節段分佈假說",
+    "C": "無對照組（非臨床研究）",
+    "O": "主要為理論性推論NLRP6與CRC相關炎症及屏障機制之關聯；次要為呼籲未來以蛋白質、空間及單細胞分析進行人體驗證"
+   },
+   "effects": [],
+   "key_numbers": [
+    "無具體臨床統計數據（events/total 或 rate）可供抽取，全文為敘述性假說",
+    "人類結腸樣本中NLRP6整體轉錄本豐度「極低」，但未提供量化數值",
+    "小鼠研究顯示Nlrp6缺乏會加重腫瘤發生，但無人體對照數字"
+   ],
+   "cautions": [
+    "作者明確承認人體證據有限且異質，動物模型結論不能直接外推至人類",
+    "所謂『節段差異』僅為探索性單細胞再分析及小型本地世代之假說生成觀察，非驗證性結果",
+    "全文無臨床終點、無介入措施，距離可轉譯的臨床應用（如生物標記或治療策略）仍相當遙遠"
+   ],
+   "unassessable": [
+    "樣本量",
+    "統計方法與檢定力",
+    "利益衝突",
+    "研究對象異質性細節",
+    "本地世代研究之具體設計與結果"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-08-21T06:32:10+08:00"
+  },
+  {
+   "pmid": "42614333",
+   "title": "Imbalanced IgA-IgG class switching recombination: a novel mechanism of gut immune dysregulation in inflammatory bowel disease",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1016/j.jaci.2014.02.034",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Chen K, Qing Y, Gao W, Feng W, Tian J, Wang J",
+   "abstract": "Inflammatory bowel disease (IBD) is a chronic intestinal inflammatory disorder with significant disease burden that markedly impairs patients' quality of life. The pathogenesis of IBD is closely associated with hyperactive immunopathological responses. Emerging evidence has established humoral immunity as a crucial contributor to IBD development. Class switch recombination (CSR), the critical process enabling B cells to produce different antibody isotypes, plays a pivotal role in humoral immunity. While healthy intestinal mucosa predominantly contains immunoglobulin A (IgA) that maintains gut homeostasis, immunoglobulin G (IgG) becomes the dominant isotype during IBD and drives chronic inflammation. Therefore, understanding the signals and mechanisms governing antibody CSR may provide deeper insights into IBD pathogenesis. Herein, we review B cell activation pathways, the distinct roles of IgA and IgG in intestinal immunity, CSR-regulating signals, and recent discoveries in the context of IBD, with the aim of identifying novel therapeutic opportunities.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42495645",
+     "date": "2026-07-25",
+     "title_zh": "發炎性腸道疾病中B細胞-體液免疫軸的機制重塑與免疫調控功能",
+     "score": 2,
+     "one_liner": "本綜述提出「B細胞-體液免疫軸」概念框架，整合B細胞分化、TLS形成與抗體效應機制在IBD中的角色，未提供臨床數據。",
+     "sim": 0.234
+    },
+    {
+     "pmid": "42495645",
+     "date": "2026-07-26",
+     "title_zh": "發炎性腸道疾病中B細胞-體液免疫軸的機制重塑與免疫調控功能",
+     "score": 2,
+     "one_liner": "本綜述提出「B細胞-體液免疫軸」概念框架，整合IBD中B細胞分化、TLS形成與抗體效應機制的現有證據，未提供臨床數據。",
+     "sim": 0.234
+    },
+    {
+     "pmid": "42358979",
+     "date": "2026-06-26",
+     "title_zh": "腸道微生物群代謝物在發炎性腸道疾病中的作用：機轉洞見的最新進展",
+     "score": 2,
+     "one_liner": "本綜述整合腸道微生物代謝物（SCFAs、膽酸、色胺酸衍生物）如何透過免疫調節網絡參與IBD致病機制，屬機轉性文獻回顧，無臨床數據。",
+     "sim": 0.164
+    }
+   ],
+   "title_zh": "IgA-IgG類別轉換重組失衡：發炎性腸道疾病中腸道免疫失調的新機制",
+   "abstract_zh": "發炎性腸道疾病（IBD）是一種慢性腸道炎症疾病，疾病負擔顯著，嚴重影響患者生活品質。IBD的致病機轉與過度活化的免疫病理反應密切相關。新興證據顯示體液免疫是IBD發展的重要促成因子。類別轉換重組（CSR）是使B細胞產生不同抗體同型的關鍵過程，在體液免疫中扮演樞紐角色。健康腸黏膜主要含有免疫球蛋白A（IgA）以維持腸道穩態，而在IBD中免疫球蛋白G（IgG）成為主要同型並驅動慢性炎症。因此，了解調控抗體CSR的訊號與機制，可能提供IBD致病機轉更深入的洞見。本文回顧B細胞活化路徑、IgA與IgG在腸道免疫中的不同角色、CSR調控訊號，以及IBD相關的最新發現，旨在尋找新的治療機會。",
+   "evidence_level": "綜述",
+   "score": 1,
+   "score_reason": "純機轉性綜述，無任何臨床數據或試驗結果，與大腸直腸外科臨床決策無直接關聯。",
+   "relevance": "低度相關",
+   "relevance_why": "此為IBD基礎免疫學機轉綜述，非外科介入研究，對日常大腸直腸外科臨床工作幫助有限。",
+   "novelty": "仍屬早期",
+   "one_liner": "本文綜述IgA轉IgG類別轉換重組失衡在IBD致病機轉中的角色，屬概念性機轉回顧，無臨床數據。",
+   "action": "目前不需改變做法，因本文為基礎免疫機轉綜述，未提供可直接應用於外科臨床決策的證據。",
+   "pico": {
+    "P": "無特定病人族群，為IBD免疫機轉之文獻綜述",
+    "I": "無實際介入，討論B細胞類別轉換重組（CSR）相關訊號路徑",
+    "C": "無對照組",
+    "O": "無明確臨床outcome；聚焦於IgA/IgG平衡與IBD致病機轉之機轉性討論"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本文未提供任何臨床試驗數據、發生率或統計數值",
+    "純機轉性綜述，無病人族群或事件數可供抽取",
+    "未涉及外科治療結果或併發症數據"
+   ],
+   "cautions": [
+    "全篇為機轉假說性綜述，無臨床試驗或病人數據支持，不能直接推論臨床意義",
+    "未提供任何治療效果數據，僅為概念框架整理，讀者需注意勿過度延伸解讀為臨床證據",
+    "屬早期機轉研究方向，距離臨床應用（如新藥開發）仍有相當距離"
+   ],
+   "unassessable": [
+    "盲法",
+    "allocation concealment",
+    "ITT",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本分析",
+    "臨床outcome數據"
+   ],
+   "context_verdict": "再確認",
+   "context": "與先前看過的兩篇「B細胞-體液免疫軸」IBD機轉綜述及腸道微生物代謝物綜述高度相似，皆屬IBD免疫機轉性文獻回顧，未提供臨床數據，方向一致但無新增外科相關實用資訊。",
+   "added_at": "2026-08-21T06:32:10+08:00"
+  },
+  {
+   "pmid": "42623182",
+   "title": "Bowel Preparation in Quality Guidelines and Clinical Practice",
+   "journal": "Aliment Pharmacol Ther",
+   "journal_full": "Alimentary pharmacology & therapeutics",
+   "issn": "1365-2036",
+   "issn_linking": "0269-2813",
+   "impact_factor": 6.8,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jun",
+   "doi": "10.1111/apt.70738",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Schoenfeld P",
+   "abstract": "Optimal bowel cleansing of stool makes it easier to achieve quality indicators for colonoscopy, including identification of sessile serrated lesions and adenomas, cecal intubation and decreases the risk for post-colonoscopy CRC. Recommendations from the US Multi-Society Task Force on Bowel Preparation facilitates this process.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42322361",
+     "date": "2026-06-21",
+     "title_zh": "遵循2020年美國多學會工作小組（USMSTF）息肉切除術後追蹤指引之現況：多中心即時分析",
+     "score": 3,
+     "one_liner": "在452名接受第一次追蹤大腸鏡的病人中，58%過早、13%延遲追蹤，高風險腺瘤病人反而較常延遲（OR 0.096）。",
+     "sim": 0.176
+    },
+    {
+     "pmid": "42366703",
+     "date": "2026-06-29",
+     "title_zh": "高齡患者大腸直腸無蒂鋸齒狀病灶（SSL）的處置",
+     "score": 3,
+     "one_liner": "本綜述整理大腸直腸SSL於高齡患者的處置考量，強調現有監測建議多外推自一般成人證據，高齡特異性資料仍缺乏。",
+     "sim": 0.156
+    }
+   ],
+   "title_zh": "腸道準備在品質指引與臨床實務中的角色",
+   "abstract_zh": "最佳的糞便腸道清潔有助於達成大腸鏡檢查的品質指標，包括無蒂鋸齒狀病灶（SSL）與腺瘤的偵測、迴盲部到達率，並可降低大腸鏡檢查後大腸直腸癌（post-colonoscopy CRC）的風險。美國多學會工作小組（US Multi-Society Task Force）針對腸道準備所提出的建議，有助於促成此一目標的達成。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "摘要僅為一般性論述，未提供任何具體研究數據、方法學或量化結果，對臨床決策的實用性極低。",
+   "relevance": "中度相關",
+   "relevance_why": "腸道準備品質雖影響大腸鏡偵測率與後續大腸直腸癌篩檢效益，但屬內視鏡技術層面，非直接外科介入。",
+   "novelty": "再確認已知",
+   "one_liner": "本文為綜述性質，泛論腸道準備品質與大腸鏡品質指標（SSL/腺瘤偵測率、迴盲部到達率）及大腸鏡後CRC風險之關係。",
+   "action": "目前不需改變做法，此為概念性綜述，無新數據或具體臨床建議可直接應用。",
+   "pico": {
+    "P": "無明確病人族群，泛論接受大腸鏡檢查者",
+    "I": "遵循USMSTF腸道準備品質指引",
+    "C": "無對照組",
+    "O": "大腸鏡品質指標（SSL/腺瘤偵測率、迴盲部到達率）；大腸鏡後CRC風險"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供任何具體數據、發生率或統計檢定結果",
+    "無對照組、無量化前後比較",
+    "僅為概念性陳述，缺乏可驗證的實證數字"
+   ],
+   "cautions": [
+    "摘要極度簡短，缺乏具體研究設計、方法與數據，無法判斷證據強度",
+    "屬於概念性綜述，可能只是重申既有USMSTF指引內容而非提出新證據",
+    "未說明此綜述涵蓋文獻範圍、檢索方法，無法評估其系統性與代表性"
+   ],
+   "unassessable": [
+    "研究設計細節",
+    "文獻檢索方法",
+    "利益衝突",
+    "具體統計數據",
+    "試驗註冊"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。雖然前次看過的論文亦涉及USMSTF相關指引，但主題為息肉切除後追蹤間隔遵循度與高齡SSL處置，與本文聚焦的腸道準備品質議題不同，關聯性不足。",
+   "added_at": "2026-08-21T06:32:10+08:00"
+  },
+  {
+   "pmid": "42623171",
+   "title": "The Clinical Importance of Adequate Bowel Preparation",
+   "journal": "Aliment Pharmacol Ther",
+   "journal_full": "Alimentary pharmacology & therapeutics",
+   "issn": "1365-2036",
+   "issn_linking": "0269-2813",
+   "impact_factor": 6.8,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jun",
+   "doi": "10.1111/apt.70570",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Oldfield E, Johnson D",
+   "abstract": "BACKGROUND: Adequate bowel preparation (BP) is the foundation to successful colonoscopy. Inadequate bowel preparation (IBP) leads to numerous consequences beyond just procedural inconvenience. IBP can obscure polyps, lesions or early signs of colorectal cancer (CRC) while increasing procedure length, shortening surveillance intervals and increasing health care costs. Efforts to improve BP quality, therefore, are critical for high-quality endoscopic examinations, which optimise the success of CRC screening programmes. Achieving adequate BP begins with clearly understanding and grading BP quality on every examination, aiming for a minimum threshold of adequate BP in > 90% of colonoscopies. Additionally, recognition of patient-specific risk factors for IBP allows for tailored instructions and utilisation of navigational and outreach tools along with enhanced educational materials towards optimising BP. Finally, understanding patient preferences and improving the patient experience can increase the chances of succeeding with not only completion of the index examination but also optimising compliance for any repeat examinations across screening, surveillance and diagnostic indications.\nMETHODS: This manuscript will review the current evidence regarding the consequences of IBP, while discussing patient-specific risk factors and barriers to adequate BP, concluding with methods to improve BP adequacy and practical tips for clinicians.",
+   "watched": [],
+   "related": [],
+   "title_zh": "適當腸道準備的臨床重要性",
+   "abstract_zh": "背景：適當的腸道準備（BP）是成功大腸鏡檢查的基礎。腸道準備不足（IBP）會帶來許多超出檢查不便本身的後果。IBP可能掩蓋息肉、病灶或大腸直腸癌（CRC）的早期徵象，同時延長檢查時間、縮短監測追蹤間隔並增加醫療成本。因此，提升腸道準備品質的努力對於高品質內視鏡檢查至關重要，這能優化CRC篩檢計畫的成效。達成適當腸道準備始於清楚理解並評估每次檢查的腸道準備品質，目標是使超過90%的大腸鏡檢查達到適當準備標準。此外，識別患者特有的IBP風險因子，可讓臨床醫師提供個人化指示，並運用導航與外展工具以及強化的教育材料來優化腸道準備。最後，了解患者偏好並改善患者體驗，不僅能提高完成當次檢查的成功機會，也能優化患者在篩檢、監測與診斷各項適應症下重複檢查的配合度。\n\n方法：本文將回顧目前關於IBP後果的證據，同時討論患者特有的風險因子與達成適當腸道準備的障礙，最後總結改善腸道準備適當性的方法與臨床醫師的實用建議。",
+   "evidence_level": "綜述",
+   "score": 4,
+   "score_reason": "為敘述性綜述，無原創數據或統計檢驗，但整理腸道準備品質對CRC篩檢成效的臨床意涵，具教育參考價值。",
+   "relevance": "中度相關",
+   "relevance_why": "腸道準備品質主要為內視鏡/消化科議題，但台灣許多大腸直腸外科醫師亦執行大腸鏡篩檢與監測，故有實務參考價值。",
+   "novelty": "再確認已知",
+   "one_liner": "本文綜述腸道準備不足對息肉偵測、檢查時間、追蹤間隔與醫療成本的影響，並提出改善腸道準備品質（目標>90%達標率）的策略。",
+   "action": "篩檢/監測大腸鏡前，加強高風險患者衛教與個人化準備指示，並常規評估與記錄腸道準備品質分級。",
+   "pico": {
+    "P": "接受大腸鏡檢查（篩檢、監測或診斷用途）之患者，未提供具體人數",
+    "I": "腸道準備品質改善策略（衛教、導航工具、個人化指示）",
+    "C": "無對照組（敘述性綜述，非比較性研究）",
+    "O": "主要：腸道準備適當性、息肉/病灶偵測率；次要：檢查時間、追蹤間隔、醫療成本、患者依從性"
+   },
+   "effects": [],
+   "key_numbers": [
+    "目標：適當腸道準備率應達>90%的大腸鏡檢查",
+    "摘要未提供具體事件數、發生率或相對風險等可計算之數據",
+    "為敘述性綜述，無統計檢定結果可引用"
+   ],
+   "cautions": [
+    "為敘述性綜述而非系統性回顧或統合分析，未說明文獻篩選方法，可能有選擇性引用偏差",
+    "摘要無任何具體數據（發生率、相對風險、信賴區間），結論多為原則性建議",
+    "未區分不同腸道準備劑/方案的比較效果，讀者需查全文了解實證分級與具體建議工具"
+   ],
+   "unassessable": [
+    "文獻檢索策略與納入排除標準",
+    "作者利益衝突與資金來源",
+    "具體干預措施（如特定清腸劑、給藥時間）之比較效果數據",
+    "本文是否有同儕審查系統性方法學品質評估"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-08-21T06:32:10+08:00"
+  },
+  {
+   "pmid": "42622733",
+   "title": "Parastomal hernia in the difficult patient: is Tophat plasty the solution?",
+   "journal": "Hernia",
+   "journal_full": "Hernia : the journal of hernias and abdominal wall surgery",
+   "issn": "1248-9204",
+   "issn_linking": "1248-9204",
+   "impact_factor": 2.7,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1001/jamasurg.2022.7978",
+   "ptype": "Observational Study",
+   "ptype_list": [
+    "Observational Study"
+   ],
+   "authors": "Tb J, T S, Te B",
+   "abstract": "PURPOSE: The aim of the study was to evaluate the safety, feasibility and short- and long - term outcomes following the Tophat plasty - a complete extra-abdominal procedure - for parastomal hernia.\nMETHODS: A prospective observational single-center study including all patients operated with Tophat plasty at a regional tertiary referral university hospital in the period 2020-2024.\nRESULTS: Twenty- three patients were treated with the Tophat plasty. All procedures were performed by two surgeons. The median age was 70 years. Fifteen of the patients were males. Twelve patients had an ileal conduit, 7 had a colostomy and 4 had an ileostomy. The most common indication for surgery was obstruction, and three patients were operated in an acute setting. Medium operating time was 213 minutes. Two patients had recurrence after previous surgery for parastomal hernia. Three had concomitant incisional hernias. Ten patients had complications of which were registered according to the Clavien-Dindo classification. The median hospital stay was 6 days, and median follow-up was 34 months. Three (13%) recurrences were identified, of which two (9%) needed intervention.  CONCLUSION: The Tophat plasty is an effective method for the treatment of parastomal hernias in cases where lateralization of the stoma is not feasible, intra-abdominal mesh placement has to be avoided, or when access to the abdominal cavity is challenging.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42371163",
+     "date": "2026-06-29",
+     "title_zh": "新生兒肛門直腸畸形之單一造口部位分離式結腸造口術",
+     "score": 3,
+     "one_liner": "在61名接受單一部位分離式結腸造口術的ARM新生兒中，術後併發症發生率20%，CM IIIb級併發症3%。",
+     "sim": 0.157
+    }
+   ],
+   "title_zh": "困難病人的造口旁疝：Tophat整形術是解方嗎？",
+   "abstract_zh": "目的：本研究旨在評估Tophat整形術——一種完全腹腔外的手術方式——用於治療造口旁疝的安全性、可行性，以及短期與長期結果。方法：本研究為前瞻性觀察性單中心研究，納入2020年至2024年間於一區域級三級轉診大學醫院接受Tophat整形術的所有病人。結果：共23名病人接受Tophat整形術治療。所有手術由兩位外科醫師執行。病人中位年齡為70歲，其中15名為男性。12名病人有迴腸導管，7名有結腸造口，4名有迴腸造口。最常見的手術指徵為阻塞，其中3名病人為急性狀況下接受手術。中位手術時間為213分鐘。2名病人曾因造口旁疝手術後復發。3名病人合併切口疝。10名病人發生併發症，依Clavien-Dindo分類登記。中位住院天數為6天，中位追蹤時間為34個月。共發現3例（13%）復發，其中2例（9%）需要再次介入處理。結論：在無法將造口外側化、必須避免腹腔內網膜置放、或腹腔進入困難的情況下，Tophat整形術是治療造口旁疝的有效方法。",
+   "evidence_level": "病例系列",
+   "score": 4,
+   "score_reason": "單中心前瞻性病例系列（n=23）、無對照組，證據等級低，僅適合作為困難個案技術選項參考，非可改變常規治療決策的證據。",
+   "relevance": "中度相關",
+   "relevance_why": "造口旁疝修補為大腸直腸外科日常議題，但Tophat plasty為特殊情境下的niche技術，且部分病例為泌尿科迴腸導管患者。",
+   "novelty": "仍屬早期",
+   "one_liner": "在23名困難型造口旁疝患者中，接受Tophat整形術修補，中位追蹤34個月後復發率13%，9%需再次介入。",
+   "action": "對造口無法外側化、須避免腹內網膜、或腹腔進入困難的複雜造口旁疝病人，可將Tophat plasty列入手術選項考慮，但仍需更多比較性研究佐證。",
+   "pico": {
+    "P": "23名造口旁疝病人，屬於造口無法外側化、須避免腹腔內網膜置放、或腹腔進入困難之困難個案（12名迴腸導管、7名結腸造口、4名迴腸造口）",
+    "I": "Tophat整形術（完全腹腔外手術方式）",
+    "C": "無對照組",
+    "O": "主要outcome：復發率；次要outcome：併發症（Clavien-Dindo分級）、住院天數、手術時間"
+   },
+   "effects": [],
+   "key_numbers": [
+    "復發率13%（3/23），其中9%（2/23）需再次介入處理",
+    "併發症發生率43%（10/23），依Clavien-Dindo分級登記",
+    "中位手術時間213分鐘，中位住院6天，中位追蹤34個月"
+   ],
+   "cautions": [
+    "無對照組，無法判斷Tophat plasty相對於傳統網膜修補或造口重置術的優劣",
+    "樣本量小（n=23）且單中心，兩位術者操作，結果外推性與可重現性有限",
+    "併發症僅提及Clavien-Dindo分級登記但摘要未列出各級分佈，嚴重併發症比例無法評估"
+   ],
+   "unassessable": [
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "Clavien-Dindo各級分佈明細",
+    "統計方法與信賴區間"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-08-21T06:32:10+08:00"
+  },
+  {
+   "pmid": "42618835",
+   "title": "Early-Onset Colorectal Cancer: From Epidemiologic Shift to Life-Course Carcinogenesis and Age-Attuned Care",
+   "journal": "Curr Oncol Rep",
+   "journal_full": "Current oncology reports",
+   "issn": "1534-6269",
+   "issn_linking": "1523-3790",
+   "impact_factor": 5.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1007/s11136-024-03857-z",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Grześkiewicz-Szostak M, Gęca K, Skórzewska M",
+   "abstract": "PURPOSE OF REVIEW: Early-onset colorectal cancer (EOCRC), conventionally defined as colorectal cancer diagnosed before the age of 50 years, has become one of the most important and unsettling epidemiologic shifts in gastrointestinal oncology. This review critically synthesizes recent evidence on EOCRC epidemiology, risk architecture, life-course carcinogenesis, molecular and microbiome-associated mechanisms, diagnostic delay, screening limitations, treatment considerations, and survivorship needs, with the aim of reframing EOCRC as an age-attuned clinical and biological challenge rather than a simple early presentation of conventional colorectal cancer.\nRECENT FINDINGS: Recent population-based analyses confirm that EOCRC incidence is increasing across multiple countries and birth cohorts, with a disproportionate contribution of distal colon and rectal cancers. These data suggest that the rise of EOCRC is unlikely to be explained by improved detection alone and instead points toward changing generational exposures. Contemporary studies have moved the field beyond hereditary predisposition as the dominant explanatory model: although germline syndromes remain essential to identify, most EOCRC is sporadic or incompletely explained by known inherited risk. Recent literature increasingly implicates metabolic dysfunction, obesity, westernized dietary patterns, early-life exposures, inflammation, antibiotic-associated microbial disruption, and host-microbiome disequilibrium. Particularly important are emerging genomic data linking colibactin-associated mutational signatures to younger-onset disease, supporting the hypothesis that microbial genotoxicity may imprint early driver events long before clinical diagnosis. In parallel, recent clinical studies show that EOCRC is frequently symptomatic, yet diagnosis is commonly delayed because alarm features such as rectal bleeding, abdominal pain, altered bowel habits, and anaemia are often underestimated in younger adults. EOCRC is best understood as a heterogeneous, life-course disease shaped by the convergence of inherited susceptibility, environmental and metabolic exposures, microbiome-mediated biology, tumour site, diagnostic-system factors, and survivorship context. Lowering the average-risk screening age to 45 years is necessary but insufficient, because many cases still occur below routine screening thresholds. A modern EOCRC strategy must therefore combine risk-adapted prevention, improved family-history capture, timely investigation of red-flag symptoms, systematic germline and tumour profiling, and treatment planning that accounts for decades of survivorship. Future progress will depend on moving beyond age alone toward integrated models that connect epidemiology, exposome biology, microbial mutagenesis, precision early detection, and age-specific care.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42324895",
+     "date": "2026-06-22",
+     "title_zh": "人口學、出生與父母特徵與早發型大腸直腸癌（EOCRC）風險之關聯：加州人群基礎巢式病例對照研究",
+     "score": 4,
+     "one_liner": "在加州1221名EOCRC病例與61,050名對照中，發現男性、西班牙裔、高出生體重、父親年齡≥35歲與較高風險，母親外國出生與較低風險相關（OR多在1.1-1.6間）。",
+     "sim": 0.157
+    }
+   ],
+   "title_zh": "早發型大腸直腸癌：從流行病學轉變到生命歷程致癌機制與年齡調適照護",
+   "abstract_zh": "本綜述目的：早發型大腸直腸癌（EOCRC，傳統定義為50歲前診斷之大腸直腸癌）已成為胃腸腫瘤學領域最重要且令人不安的流行病學轉變之一。本綜述批判性整合近期關於EOCRC流行病學、風險架構、生命歷程致癌機制、分子與微生物群相關機制、診斷延遲、篩檢限制、治療考量及存活後需求的證據，目的是將EOCRC重新定義為一種需年齡調適的臨床與生物學挑戰，而非傳統大腸直腸癌的單純早發表現。\n\n近期發現：以人群為基礎的近期分析證實，多個國家與出生世代中EOCRC發生率持續上升，其中遠端大腸與直腸癌佔比不成比例地高。這些數據顯示EOCRC的上升不太可能單純由偵測改善所解釋，而指向世代間暴露的改變。當代研究已將該領域推展至超越遺傳易感性作為主要解釋模型：儘管遺傳性症候群仍須被辨識，但大多數EOCRC屬於散發性或無法完全以已知遺傳風險解釋。近期文獻日益指向代謝功能障礙、肥胖、西化飲食模式、生命早期暴露、發炎、抗生素相關微生物群破壞及宿主-微生物群失衡。特別重要的是，新興的基因體數據將colibactin相關突變訊號與較年輕發病的疾病相連結，支持微生物基因毒性可能在臨床診斷前數十年就已刻印早期驅動事件的假說。同時，近期臨床研究顯示EOCRC經常有症狀，但診斷常因直腸出血、腹痛、排便習慣改變及貧血等警示徵象在年輕成人中常被低估而延遲。EOCRC最好被理解為一種異質性、生命歷程性疾病，由遺傳易感性、環境與代謝暴露、微生物群介導的生物學、腫瘤位置、診斷系統因素及存活後照護背景交互作用所形成。將平均風險篩檢年齡下降至45歲是必要但不足的措施，因為許多病例仍發生在常規篩檢門檻以下。因此，現代EOCRC策略必須結合風險調適性預防、改善家族史蒐集、及時調查警示症狀、系統性生殖細胞與腫瘤分子分析，以及考量數十年存活期的治療規劃。未來進展將取決於超越單純年齡因素，轉向連結流行病學、暴露體生物學、微生物致突變、精準早期偵測及年齡特異性照護的整合模型。",
+   "evidence_level": "綜述",
+   "score": 5,
+   "score_reason": "整合近期EOCRC流行病學與機制證據，有助於臨床脈絡理解，但屬敘事性綜述無新原始數據，對台灣實務決策的直接改變有限。",
+   "relevance": "高度相關",
+   "relevance_why": "EOCRC發生率上升是大腸直腸外科日常臨床決策（篩檢、症狀警示、治療規劃）的重要議題。",
+   "novelty": "仍屬早期",
+   "one_liner": "本篇綜述整合EOCRC流行病學、colibactin相關致癌機制、診斷延遲與篩檢限制之近期證據，未提供新原始數據。",
+   "action": "對年輕（<50歲）病人有警示症狀（出血、貧血、排便習慣改變）者，應提高警覺、避免因年齡低估而延遲檢查與轉診。",
+   "pico": {
+    "P": "無特定研究族群，為EOCRC（<50歲診斷大腸直腸癌）相關文獻之綜合整理",
+    "I": "無介入措施（敘述性文獻整合）",
+    "C": "無對照組",
+    "O": "無單一主要結果；涵蓋流行病學趨勢、致癌機制、診斷延遲、篩檢策略與存活後照護等主題"
+   },
+   "effects": [],
+   "key_numbers": [
+    "無法提供具體絕對數字（%）或事件數，因本篇為敘事綜述，未列出統合分析之定量數據",
+    "強調45歲篩檢年齡下降「必要但不足」，多數EOCRC仍發生在此門檻以下（未附具體比例）",
+    "指出colibactin相關突變訊號與較年輕發病相關，但為關聯性描述，非因果驗證數據"
+   ],
+   "cautions": [
+    "敘事性綜述非系統性回顧，未說明文獻篩選方法，可能存在選擇性引用偏誤",
+    "colibactin致癌機制描述屬相關性推論，摘要中未提供因果驗證的定量證據",
+    "多項結論（如飲食、抗生素暴露）缺乏具體效應量數字，難以評估其臨床意義大小"
+   ],
+   "unassessable": [
+    "納入文獻之研究設計與品質",
+    "統合分析方法（若有）",
+    "利益衝突",
+    "本綜述之系統性/文獻檢索策略",
+    "具體風險比或信賴區間數值"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "前作為加州EOCRC人口學風險因子的巢式病例對照研究，本篇綜述則將此類人口學/暴露因子納入更廣泛的生命歷程致癌機制框架（含微生物群、colibactin訊號），提供更完整的病因學脈絡，但未直接驗證或矛盾前作發現。",
+   "added_at": "2026-08-21T06:32:10+08:00"
+  },
+  {
+   "pmid": "42622964",
+   "title": "Mechanism of neoantigen generation and advances in neoantigen-based immunotherapies in colorectal cancer",
+   "journal": "Med Oncol",
+   "journal_full": "Medical oncology (Northwood, London, England)",
+   "issn": "1559-131X",
+   "issn_linking": "1357-0560",
+   "impact_factor": 4.7,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1152/physrev.00038.2010",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Wang N, Xia Y, Wang P, He Y, Zhao K, Zhang Z",
+   "abstract": "Colorectal cancer (CRC) is a leading cause of cancer-related morbidity and mortality worldwide. Conventional therapeutic modalities-such as surgery, chemotherapy, and radiotherapy-yield suboptimal outcomes in advanced or recurrent disease, while immune checkpoint inhibitors demonstrate durable clinical benefit almost exclusively in the microsatellite instability-high (MSI-H) subset, which constitutes only ~ 15% of CRC cases. This stark therapeutic gap underscores an unmet medical need for novel, mechanism-driven immunotherapies. Tumor neoantigens-immunogenic peptides arising from somatic mutations and exclusively presented on malignant cells-represent highly promising targets for precision immunotherapy owing to their strict tumor-restricted expression and negligible risk of on-target, off-tumor toxicity. This review outlines the molecular mechanisms driving neoantigen generation in CRC, including frameshift mutations, single-nucleotide variants, alternative RNA splicing, and circular RNA-derived epitopes. We further delineate the immunological cascade by which these neoantigens are processed, presented via MHC molecules, and recognized by antigen-specific CD8+ and CD4+ T cells to elicit potent antitumor immunity. Subsequently, we evaluate neoantigen-directed therapeutic platforms, encompassing personalized neoantigen vaccines (peptide-, RNA-, and dendritic cell-based formulations, as well as innovative combinatorial delivery systems) and adoptive T-cell therapies-including tumor-infiltrating lymphocyte (TIL), chimeric antigen receptor T cells (CAR-T) and T cell receptor-engineered T cells (TCR-T)-that are engineered to recognize neoantigen-derived epitopes. Although challenges-including low tumor mutational burden (TMB), adaptive immune evasion, and spatially heterogeneous neoantigen expression-continue to impede broad clinical efficacy, emerging solutions-such as engineered exosome-based delivery, pharmacologic induction of neoantigen presentation (e.g., via RECTAS), and rationally designed combination regimens (e.g., with 5-fluorouracil or bevacizumab)-are demonstrating encouraging preclinical activity. Looking forward, strategic targeting of clonal driver mutation-derived neoantigens and accelerated clinical development of next-generation neoantigen vaccine platforms hold significant potential to redefine the treatment paradigm for patients with CRC.",
+   "watched": [],
+   "related": [],
+   "title_zh": "大腸直腸癌中新抗原生成機轉及新抗原導向免疫治療進展",
+   "abstract_zh": "大腸直腸癌（CRC）是全球癌症相關發病率與死亡率的主要原因之一。傳統治療方式—包括手術、化學治療與放射治療—在晚期或復發疾病中效果不佳，而免疫檢查點抑制劑幾乎只在微衛星不穩定高（MSI-H）亞群中展現持久的臨床效益，該亞群僅佔CRC病例的約15%。這種明顯的治療落差凸顯了對新型、機轉導向免疫治療的未被滿足的醫療需求。腫瘤新抗原—由體突變產生且僅在惡性細胞上呈現的免疫原性肽—由於其嚴格的腫瘤限制性表現及微乎其微的脫靶毒性風險，代表了精準免疫治療的高度潛力靶點。本綜述概述了驅動CRC新抗原生成的分子機轉，包括框移突變、單核苷酸變異、替代性RNA剪接以及環狀RNA衍生的抗原決定位。我們進一步闡述這些新抗原經處理、經MHC分子呈現、並被抗原特異性CD8+與CD4+ T細胞辨識以引發強效抗腫瘤免疫的免疫級聯反應。接著，我們評估以新抗原為導向的治療平台，包括個人化新抗原疫苗（肽類、RNA、樹突細胞為基礎的配方，以及創新的組合式遞送系統）以及被工程改造以辨識新抗原衍生抗原決定位的過繼性T細胞療法—包括腫瘤浸潤淋巴細胞（TIL）、嵌合抗原受體T細胞（CAR-T）以及T細胞受體工程化T細胞（TCR-T）。儘管諸如低腫瘤突變負荷（TMB）、適應性免疫逃逸以及空間異質性新抗原表現等挑戰持續阻礙廣泛的臨床療效，但新興解決方案—如工程化外泌體遞送、藥理誘導新抗原呈現（例如透過RECTAS）以及理性設計的組合療法（例如與5-氟尿嘧啶或貝伐珠單抗併用）—已展現令人鼓舞的前臨床活性。展望未來，針對克隆驅動突變衍生新抗原的策略性靶向，以及加速下一代新抗原疫苗平台的臨床開發，具有重大潛力可重新定義CRC患者的治療模式。",
+   "evidence_level": "綜述",
+   "score": 3,
+   "score_reason": "純機轉導向綜述，無原創臨床數據，短期內對台灣大腸直腸外科臨床決策無直接可操作性，僅供背景知識參考。",
+   "relevance": "低度相關",
+   "relevance_why": "內容為免疫治療機轉與前臨床平台整理，非外科介入，且技術多仍處於臨床前階段，尚無可直接應用於病人照護的具體建議。",
+   "novelty": "仍屬早期",
+   "one_liner": "本綜述整理CRC腫瘤新抗原生成機轉，並回顧新抗原疫苗與TIL/CAR-T/TCR-T等過繼性T細胞療法之研究進展與挑戰，未提供臨床療效數據。",
+   "action": "目前不需改變臨床做法；可作為MDT討論免疫治療新趨勢之背景知識，留意後續相關臨床試驗結果。",
+   "pico": {
+    "P": "無特定病人族群，為CRC新抗原免疫治療文獻綜述",
+    "I": "新抗原導向治療平台（個人化疫苗、TIL、CAR-T、TCR-T）",
+    "C": "無對照組",
+    "O": "綜述新抗原生成機轉、免疫辨識級聯及治療平台之前臨床概念與挑戰；無量化臨床療效指標"
+   },
+   "effects": [],
+   "key_numbers": [
+    "MSI-H僅佔CRC病例約15%，此為免疫檢查點抑制劑主要獲益族群",
+    "摘要未提供任何具體臨床試驗療效百分比或統計數字",
+    "全文以機轉與治療平台概念性整理為主，無可供NNT/ARR計算之數據"
+   ],
+   "cautions": [
+    "本文為綜述而非原創研究，證據多來自前臨床/機轉層面，缺乏人體臨床試驗療效數據",
+    "未提供任何具體療效統計數字，難以評估各新療法之實際臨床效益或安全性",
+    "綜述可能存在選擇性引用及作者觀點偏誤，具體結論需查證原始研究文獻"
+   ],
+   "unassessable": [
+    "盲法",
+    "分配隱藏",
+    "ITT分析",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本分析",
+    "具體臨床試驗數據"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-08-21T06:32:10+08:00"
+  },
+  {
+   "pmid": "42615757",
+   "title": "EVIDENCE OF THE INFLUENCE OF GLUCAGON-LIKE PEPTIDE ANALOGS IN INFLAMMATORY BOWEL DISEASE: A SCOPING REVIEW",
+   "journal": "Arq Gastroenterol",
+   "journal_full": "Arquivos de gastroenterologia",
+   "issn": "1678-4219",
+   "issn_linking": "0004-2803",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1590/S0004-2803.24612026-028",
+   "ptype": "Scoping Review",
+   "ptype_list": [
+    "Scoping Review"
+   ],
+   "authors": "Rezende L, Adour C, Bertoldi G, Brito M, Conceição F, Pacheco M",
+   "abstract": "BACKGROUND: Inflammatory bowel disease is a chronic, immune-mediated condition characterized by relapsing intestinal inflammation and progressive tissue damage. Despite advances in biological and small-molecule therapies, a considerable proportion of patients experience suboptimal response, treatment intolerance, or persistent disease activity. In parallel, the growing prevalence of obesity and type 2 diabetes among individuals with inflammatory bowel disease has raised interest in therapeutic agents capable of modulating both metabolic dysfunction and intestinal inflammation. Glucagon-like peptide-1 and glucagon-like peptide-2 receptor agonists have demonstrated anti-inflammatory and intestinotrophic properties in experimental and clinical settings, suggesting a potential role in this population.\nOBJECTIVE: To systematically map and synthesize current scientific evidence regarding the effects of glucagon-like peptide-1 and glucagon-like peptide-2 receptor agonists in patients with inflammatory bowel disease.\nMETHODS: A scoping review was conducted following established methodological frameworks for evidence synthesis. A comprehensive search of electronic databases was performed to identify pre-clinical, observational, and interventional studies evaluating the effects of glucagon-like peptide-1 and glucagon-like peptide-2 receptor agonists in inflammatory bowel disease. Studies were screened according to predefined eligibility criteria. Data extraction focused on mechanisms of action, inflammatory markers, clinical outcomes, safety profile, and therapeutic implications.\nRESULTS: Pre-clinical studies consistently demonstrated that glucagon-like peptide-1 receptor agonists reduce intestinal inflammation through modulation of immune signaling pathways, suppression of pro-inflammatory cytokines, and enhancement of epithelial barrier integrity. Observational human studies suggest potential clinical benefits, including reduction in disease activity and decreased need for corticosteroid escalation in selected patients. Glucagon-like peptide-2 analogs showed pronounced effects on mucosal regeneration, epithelial proliferation, and improved nutrient absorption, particularly in patients with Crohn's disease and intestinal failure. Overall, the available evidence indicates promising metabolic and intestinal benefits; however, most studies were limited by small sample sizes and heterogeneous designs.\nCONCLUSION: Glucagon-like peptide-based therapies represent a promising adjunctive strategy in inflammatory bowel disease due to their anti-inflammatory and regenerative properties. Nevertheless, high-quality randomized controlled trials focusing on diseasespecific clinical, endoscopic, and safety outcomes are necessary to establish their efficacy and therapeutic positioning in routine care.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42589612",
+     "date": "2026-08-14",
+     "title_zh": "耳穴迷走神經刺激於發炎性腸道疾病：機轉洞見與生物標記導向的治療反應評估",
+     "score": 1,
+     "one_liner": "本綜述整理ta-VNS對IBD病人免疫、腸屏障、微生物及自律神經生物標記的可能影響，證據仍屬臨床前期初步階段。",
+     "sim": 0.166
+    },
+    {
+     "pmid": "42589612",
+     "date": "2026-08-15",
+     "title_zh": "耳廓迷走神經刺激於發炎性腸道疾病之應用：機轉洞見與基於生物標記的治療反應評估",
+     "score": 2,
+     "one_liner": "綜述經皮耳廓迷走神經刺激（ta-VNS）對IBD免疫、腸道屏障、微生物與自律神經生物標記之潛在調控機轉，證據仍屬初步臨床前階段。",
+     "sim": 0.166
+    },
+    {
+     "pmid": "42514322",
+     "date": "2026-07-30",
+     "title_zh": "尿石素在腸道發炎與癌症交會處的角色—敘事性回顧",
+     "score": 1,
+     "one_liner": "本篇敘事回顧整理UroA於IBD與CRC中抗發炎、抗氧化、免疫調節及抗癌機制的臨床前證據，強調仍需臨床試驗驗證。",
+     "sim": 0.164
+    }
+   ],
+   "title_zh": "腸促胰泬素類似物（GLP）於發炎性腸道疾病之影響證據：範疇性文獻回顧",
+   "abstract_zh": "背景：發炎性腸道疾病是一種慢性、免疫介導的疾病，特徵為反覆發作的腸道發炎與進行性組織損傷。儘管生物製劑與小分子藥物治療已有進展，仍有相當比例的病人反應不佳、無法耐受治療或疾病持續活動。同時，發炎性腸道疾病病人中肥胖與第2型糖尿病的盛行率日益增加，引發對能同時調節代謝功能異常與腸道發炎之治療藥物的興趣。GLP-1與GLP-2受體促效劑在實驗與臨床情境中已展現抗發炎與腸道滋養特性，暗示其在此族群中可能扮演角色。\n\n目的：系統性地整理並綜合現有關於GLP-1與GLP-2受體促效劑在發炎性腸道疾病病人中作用的科學證據。\n\n方法：依循既定的證據綜整方法學框架進行範疇性文獻回顧。針對評估GLP-1與GLP-2受體促效劑在發炎性腸道疾病中效果的前臨床、觀察性及介入性研究，進行電子資料庫全面檢索。研究依預先設定的納入條件篩選。資料萃取重點包括作用機轉、發炎標記、臨床結果、安全性概況及治療意涵。\n\n結果：前臨床研究一致顯示GLP-1受體促效劑透過調節免疫訊號路徑、抑制促發炎細胞激素及增強上皮屏障完整性，來減少腸道發炎。人體觀察性研究顯示可能的臨床效益，包括疾病活性下降及部分病人減少類固醇升級需求。GLP-2類似物則對黏膜再生、上皮增生及營養吸收改善展現顯著效果，特別是在克隆氏症與腸道衰竭病人中。整體而言，現有證據顯示具前景的代謝與腸道效益；然而多數研究受限於樣本量小及研究設計異質性。\n\n結論：以GLP為基礎的治療因其抗發炎與再生特性，代表發炎性腸道疾病中一種有前景的輔助策略。然而，仍需針對疾病特異性臨床、內視鏡及安全性結果進行高品質隨機對照試驗，以確立其療效與在常規照護中的治療定位。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "屬非隨機、無統合分析之範疇性文獻回顧，僅整理前臨床與觀察性證據，缺乏具體數據，且介入為藥物代謝調控而非外科相關措施，對大腸直腸外科臨床實務幾無直接影響。",
+   "relevance": "低度相關",
+   "relevance_why": "此篇聚焦於GLP-1/GLP-2藥物在IBD內科治療與代謝調控角色，非外科手術介入，與大腸直腸外科日常決策關聯性低。",
+   "novelty": "仍屬早期",
+   "one_liner": "在IBD相關前臨床與觀察性研究中，範疇性回顧GLP-1/GLP-2受體促效劑之機轉與初步臨床效益，證據仍屬早期且無具體統計數值。",
+   "action": "目前不需改變做法；此為早期機轉性範疇回顧，非手術相關且缺乏RCT數據，可待未來高品質試驗結果出爐再評估。",
+   "pico": {
+    "P": "發炎性腸道疾病病人（前臨床、觀察性及介入性研究，未提供具體人數）",
+    "I": "GLP-1與GLP-2受體促效劑",
+    "C": "無對照組（範疇性回顧，非統合分析）",
+    "O": "主要：發炎標記、疾病活性、黏膜再生、安全性；次要：類固醇升級需求、營養吸收改善"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供任何具體百分比、事件數或信賴區間，僅為敘述性整理",
+    "GLP-2類似物對黏膜再生效果「顯著」但無量化數據支持",
+    "所有引用研究皆標明樣本量小、設計異質，證據強度有限"
+   ],
+   "cautions": [
+    "範疇性回顧非統合分析，未做研究品質評估或效應量彙整，結論偏描述性",
+    "前臨床（動物）機轉證據直接外推至人體臨床效益，因果關係尚未確立",
+    "摘要完全無量化數據（無百分比、p值、CI），無法評估效果大小或統計顯著性"
+   ],
+   "unassessable": [
+    "研究總數與各研究樣本量",
+    "納入研究之品質評估工具",
+    "利益衝突",
+    "試驗註冊",
+    "追蹤時間與失訪率",
+    "成本效益分析"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。先前看過的文獻聚焦於耳穴迷走神經刺激與尿石素在IBD中的機轉角色，與本篇探討之GLP-1/GLP-2受體促效劑屬不同藥物類別與作用途徑，無直接關聯性。",
+   "added_at": "2026-08-21T06:32:10+08:00"
+  }
+ ]
+}
