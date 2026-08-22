@@ -1,0 +1,700 @@
+{
+ "date": "2026-08-23",
+ "generated_at": "2026-08-23T06:29:53+08:00",
+ "count": 10,
+ "papers": [
+  {
+   "pmid": "42626667",
+   "title": "Comparison of PCR-based high-resolution melting curve analysis and immunohistochemistry in detecting microsatellite instability in colorectal cancer: a retrospective consistency study",
+   "journal": "PeerJ",
+   "journal_full": "PeerJ",
+   "issn": "2167-8359",
+   "issn_linking": "2167-8359",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1016/j.labinv.2026.106078",
+   "ptype": "Comparative Study",
+   "ptype_list": [
+    "Comparative Study"
+   ],
+   "authors": "Chen Y, Lan R, Lv Q, Han G",
+   "abstract": "OBJECTIVE: Microsatellite instability (MS I) is an important biomarker for the prognosis and immunotherapy indications of colorectal cancer (CRC). Traditional detection methods such as immunohistochemistry (I HC) and polymerase chain reaction (PCR)-based capillary electrophoresis (PCR-CE) are widely used, but there are limitations such as strong subjectivity and time-consuming result judgment. This study aims to evaluate the polymerase chain reaction-high-resolution melting curve (PCR-HRM) as a fast, high-throughput MS I detection method.\nMETHODS: Tumor samples of 251 CRC patients were analyzed. PCR-HRM and IHC methods are used to evaluate the status of MSI. If the results of PCR-HRM and IHC are inconsistent, the gold standard PCR-CE method is used for confirmation testing.\nRESULTS: In this study cohort, 20.3% (51/251) of patients had MSI-H or mismatch repair defect (dMMR). PCR-HRM and IHC have excellent consistency, with an overall consistency rate of 99.20% and a Kappa coefficient of 0.971 (P < 0.01). Compared with IHC, the sensitivity of PCR-HRM is 98.04% and the specificity is 99.50%. In the case of inconsistency of PCR-HRM and IHC results, PCR-CE confirms the accuracy of PCR-HRM. These differences are attributed to biological phenomena, such as the presence of mutant proteins but functional inactivation (leading to false negative results in IHC) and human factors before analysis (leading to false positive results in IHC).\nCONCLUSION: PCR-HRM is a high-precision, low-cost and efficient MSI screening method. It does not require the PCR post-processing required by the traditional method, thus simplifying the workflow. In addition, it also avoids potential problems related to IHC results. Our research shows that PCR-HRM can be a powerful tool to guide the decision-making of colorectal cancer treatment.",
+   "watched": [],
+   "related": [],
+   "title_zh": "PCR-based高解析熔解曲線分析與免疫組織化學法檢測大腸直腸癌微衛星不穩定性之比較：回溯性一致性研究",
+   "abstract_zh": "目的：微衛星不穩定性（MSI）是大腸直腸癌（CRC）預後與免疫治療適應症的重要生物標記。傳統檢測方法如免疫組織化學（IHC）與PCR毛細管電泳法（PCR-CE）廣泛使用，但存在主觀性強、結果判讀耗時等限制。本研究旨在評估PCR高解析熔解曲線分析（PCR-HRM）作為快速、高通量MSI檢測方法的價值。方法：分析251名CRC患者的腫瘤檢體，以PCR-HRM與IHC兩種方法評估MSI狀態。若PCR-HRM與IHC結果不一致，則以金標準PCR-CE法進行確認檢測。結果：本研究世代中，20.3%（51/251）患者為MSI-H或錯配修復缺陷（dMMR）。PCR-HRM與IHC具有極佳的一致性，整體一致率為99.20%，Kappa係數為0.971（P < 0.01）。以IHC為比較基準，PCR-HRM的敏感性為98.04%，特異性為99.50%。在PCR-HRM與IHC結果不一致的案例中，PCR-CE證實PCR-HRM結果的準確性。這些差異可歸因於生物學現象，例如突變蛋白存在但功能失活（導致IHC偽陰性結果）以及分析前的人為因素（導致IHC偽陽性結果）。結論：PCR-HRM是一種高精確度、低成本且高效的MSI篩檢方法，不需傳統方法所需的PCR後處理步驟，因而簡化工作流程。此外，它也避免了與IHC結果相關的潛在問題。本研究顯示PCR-HRM可作為指導大腸直腸癌治療決策的有力工具。",
+   "evidence_level": "回溯性研究",
+   "score": 5,
+   "score_reason": "方法學驗證扎實但屬單中心回溯性診斷一致性研究，樣本數中等，對外科醫師直接臨床決策影響有限，主要影響病理科檢測流程選擇。",
+   "relevance": "中度相關",
+   "relevance_why": "MSI狀態攸關CRC免疫治療與Lynch症候群篩檢決策，但本文核心是檢測方法學而非外科介入本身。",
+   "novelty": "再確認已知",
+   "one_liner": "在251名CRC病人中，比較PCR-HRM與IHC檢測MSI，發現兩者一致率99.20%（Kappa 0.971），敏感性98.04%、特異性99.50%。",
+   "action": "了解PCR-HRM為潛在快速MSI篩檢替代方案，但實務決策仍需與病理科討論檢測平台選擇，非外科端可獨立改變之做法。",
+   "pico": {
+    "P": "251名大腸直腸癌患者的腫瘤檢體",
+    "I": "PCR-HRM檢測MSI狀態",
+    "C": "IHC檢測MSI/dMMR狀態（不一致時以PCR-CE金標準確認）",
+    "O": "主要：PCR-HRM與IHC一致性、敏感性、特異性；次要：不一致原因分析"
+   },
+   "effects": [],
+   "key_numbers": [
+    "MSI-H/dMMR盛行率20.3%（51/251）",
+    "PCR-HRM與IHC整體一致率99.20%，Kappa係數0.971（P<0.01）",
+    "以IHC為基準，PCR-HRM敏感性98.04%，特異性99.50%"
+   ],
+   "cautions": [
+    "以IHC為比較基準本身非完美金標準，不一致案例才用PCR-CE確認，存在參考標準選擇性驗證的循環偏誤風險",
+    "單中心回溯性研究，未提及判讀者是否盲法、樣本選取標準與檢體品質控制",
+    "敏感性/特異性基於小比例不一致案例（僅2例）計算，信賴區間可能極寬但摘要未報告"
+   ],
+   "unassessable": [
+    "判讀者盲法",
+    "樣本選取是否連續性收案",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本效益分析細節",
+    "多中心可重複性"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-08-23T06:26:51+08:00"
+  },
+  {
+   "pmid": "42627455",
+   "title": "The endocannabinoidome-microbiota axis in obesity: a potential link to colorectal cancer development",
+   "journal": "J Physiol Biochem",
+   "journal_full": "Journal of physiology and biochemistry",
+   "issn": "1877-8755",
+   "issn_linking": "1138-7548",
+   "impact_factor": 5.1,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1016/j.biopha.2024.116416",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Ávila Alpino G, Brasiel P, Almeida M, Dutra Luquetti S",
+   "abstract": "Colorectal cancer (CRC) is a multifactorial disease strongly influenced by genetic and environmental factors, as well as by immune and metabolic disorders such as obesity and gut dysbiosis. Recent evidence highlights the interplay between the endocannabinoidome (eCBome) and the gut microbiota as a central regulatory axis of intestinal homeostasis, metabolism, and immune responses. Although no studies have directly investigated this functional interaction in the CRC context, recent evidence suggests that dysfunction of the eCBome-microbiota axis, commonly observed in obesity, may influence colorectal tumorigenesis by impairing intestinal barrier integrity, increasing endotoxemia and immune dysregulation, altering microbial metabolite production, and activating NF-κB-mediated pro-tumorigenic signaling pathway. This is the first review to comprehensively integrate current evidence linking obesity-associated eCBome-microbiota dysfunction with CRC-related mechanisms and to propose potential pathways through which this interaction may influence CRC pathogenesis, providing a framework to guide future studies and support the development of novel preventive and therapeutic strategies for CRC.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42356295",
+     "date": "2026-06-26",
+     "title_zh": "從腸漏到脆弱的大腦：肥胖相關腸道屏障失效於大腸直腸癌與認知功能障礙中的角色",
+     "score": 2,
+     "one_liner": "本綜述提出肥胖相關腸道屏障破壞可能透過腸腦軸連結CRC進展與認知功能障礙，屬理論性「雙屏障失效」模型，無臨床數據佐證。",
+     "sim": 0.223
+    },
+    {
+     "pmid": "42558900",
+     "date": "2026-08-07",
+     "title_zh": "腸道中岩藻糖代謝作為連結發炎、免疫與癌症的中樞軸",
+     "score": 1,
+     "one_liner": "本綜述整理岩藻糖代謝在IBD、CRC、NEC中的角色，提出其作為診斷生物標記與治療標的潛力，未附臨床數據。",
+     "sim": 0.194
+    },
+    {
+     "pmid": "42558900",
+     "date": "2026-08-08",
+     "title_zh": "岩藻糖代謝作為連結腸道發炎、免疫與癌症的核心軸",
+     "score": 1,
+     "one_liner": "本綜述整理岩藻糖代謝在IBD、CRC與NEC中調控上皮屏障、免疫與腫瘤進展的機轉，屬概念性整理無臨床數據。",
+     "sim": 0.194
+    }
+   ],
+   "title_zh": "肥胖中的內源性大麻素體－微生菴軸：與大腸直腸癌發生的潛在連結",
+   "abstract_zh": "大腸直腸癌（CRC）是一種多因子疾病，深受基因與環境因子，以及免疫和代謝異常（如肥胖與腸道菌群失衡）的強烈影響。近期證據強調內源性大麻素體（eCBome）與腸道菌群之間的交互作用，作為調控腸道恆定、代謝與免疫反應的核心軸。雖然目前尚無研究直接在CRC情境下探討此功能性交互作用，但近期證據顯示，肥胖中常見的eCBome－微生菴軸功能失調，可能透過破壞腸道屏障完整性、增加內毒素血症與免疫失調、改變微生物代謝產物之產生，以及活化NF-κB介導的促腫瘤訊號路徑，來影響大腸直腸腫瘤發生。這是首篇全面整合現有證據，將肥胖相關eCBome－微生菴功能失調與CRC相關機轉連結起來的綜述，並提出此交互作用可能影響CRC致病機轉的潛在路徑，提供一個框架以引導未來研究，並支持CRC新型預防與治療策略的發展。",
+   "evidence_level": "綜述",
+   "score": 1,
+   "score_reason": "純理論性機轉綜述，完全無臨床數據、無人體或動物實驗結果，對臨床決策無直接參考價值。",
+   "relevance": "低度相關",
+   "relevance_why": "屬基礎科學／機轉假說綜述，非外科介入或臨床研究，與大腸直腸外科日常臨床決策無關。",
+   "novelty": "仍屬早期",
+   "one_liner": "本綜述提出肥胖相關內源性大麻素體與腸道菌群失調可能透過腸道屏障破壞、內毒素血症等機轉促進CRC發生，屬理論框架，無實證數據。",
+   "action": "目前不需改變做法；此為機轉假說綜述，無臨床試驗或介入數據可供臨床應用。",
+   "pico": {
+    "P": "無明確病人族群（綜述文章，非臨床研究）",
+    "I": "無（探討eCBome與腸道菌群交互作用之機轉）",
+    "C": "無對照組",
+    "O": "無實際outcome數據；僅提出理論性致癌路徑假說"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本文未提供任何臨床或實驗數據、發生率、風險比或p值",
+    "作者明確指出目前無研究直接驗證此軸與CRC之關聯",
+    "全文屬機轉假說推論，無量化結果可供引用"
+   ],
+   "cautions": [
+    "全文為推測性機轉綜述，作者自承無直接證據支持eCBome-微生菴軸與CRC之因果關係",
+    "所提路徑（NF-κB活化、內毒素血症等）多為間接推論，非直接因果證據",
+    "無任何人體或動物實驗數據佐證，僅為未來研究方向之框架"
+   ],
+   "unassessable": [
+    "盲法",
+    "allocation concealment",
+    "ITT",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本分析",
+    "樣本量與研究設計（因無實際研究）"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-08-23T06:26:51+08:00"
+  },
+  {
+   "pmid": "42625444",
+   "title": "Chronic stress-induced brain-derived small extracellular vesicles promote colorectal cancer through Treg differentiation",
+   "journal": "Clin Transl Med",
+   "journal_full": "Clinical and translational medicine",
+   "issn": "2001-1326",
+   "issn_linking": "2001-1326",
+   "impact_factor": 7.9,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.3389/fpsyt.2015.00006",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Ni H, Ling Y, Tang T, Liu Y, Chai Z, Qing S",
+   "abstract": "BACKGROUND: Chronic stress is increasingly recognised as a risk factor for poor prognosis in colorectal cancer (CRC) through sustained activation of the hypothalamic-pituitary-adrenal (HPA) axis and sympathetic nervous system, yet the mechanisms by which psychological stress signals are transmitted from the central nervous system to the peripheral tumour immune microenvironment remain poorly understood. Brain-derived small extracellular vesicles (BD-sEVs), which can cross the blood-brain barrier, represent potential mediators of this neuroimmune crosstalk.\nMETHODS: A chronic restraint stress (CRS) mouse model was established in both subcutaneous (MC38) and orthotopic (CT26) CRC models. BD-sEVs were enriched from plasma using anti-L1 cell adhesion molecule (L1CAM) antibodies and characterised by transmission electron microscopy and nanoparticle tracking analysis. Multichannel flow cytometry was used to analyse immune cell populations in the tumour microenvironment. Mechanistic studies included microRNA (miRNA) sequencing, single-cell RNA sequencing, co-immunoprecipitation, mass spectrometry, mitochondrial function assessment and mitochondrial DNA (mtDNA) detection. Clinical validation was performed in a retrospective cohort (n = 67) and a prospective cohort (n = 37) of CRC patients, with anxiety levels assessed by the Hamilton Anxiety Rating Scale (HAMA).\nRESULTS: We show that chronic stress-activated brain regions remodel the miRNA cargo of circulating BD-sEVs, which are taken up by CD4+ naïve T cells within the tumour microenvironment, promoting regulatory T-cell (Treg) differentiation and immunosuppressive function. Mechanistically, stress-responsive miRNAs (miR-342-3p, miR-15a-5p and miR-381-3p) upregulate phorbol-12-myristate-13-acetate-induced protein 1 (NOXA), which directly binds the mitochondrial chaperone heat shock protein 60 (HSP60) and inhibits its chaperone activity, triggering selective mtDNA release into the cytoplasm. Cytosolic mtDNA activates the cyclic GMP‒AMP synthase (cGAS)‒stimulator of interferon genes (STING)‒type I interferon (IFN-I) pathway, driving Treg differentiation independently of the canonical myeloid cell leukaemia 1 (MCL-1)-dependent apoptotic pathway. Clinically, intratumoural CD4+NOXA/Forkhead box P3 (FOXP3) expression correlates significantly with patient anxiety scores and predicts adverse survival outcomes.\nCONCLUSION: Our study reveals an immunosuppressive 'chronic stress‒BD-sEV‒NOXA‒HSP60‒Treg' axis and provides crucial mechanistic insights into the psychoneuroimmunological contributions to cancer progression and novel targets for therapeutic intervention.\nKEY POINTS: Chronic stress promotes the differentiation of regulatory T cells (Treg) in the tumour microenvironment through brain-derived small extracellular vesicles (BD-sEVs) to inhibit antitumour immunity. Mechanistically, BD-sEV-induced phorbol-12-myristate-13-acetate-induced protein 1 (NOXA) binds heat shock protein 60 (HSP60) and inhibits its chaperone activity, triggering mitochondrial DNA (mtDNA) release and activation of the cyclic GMP‒AMP synthase (cGAS)‒stimulator of interferon genes (STING) pathway to drive Treg differentiation. The stress‒BD-sEV‒NOXA‒HSP60‒Treg axis is a key pathway that connects psychological stress with peripheral tumour immunosuppression. The expression of NOXA and Forkhead box P3 (FOXP3) in clinical tumour samples correlates with the level of anxiety and may serve as potential prognostic biomarkers.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42342167",
+     "date": "2026-06-25",
+     "title_zh": "HSP27在自體免疫疾病中的角色：情境依賴性調控與臨床潛力",
+     "score": 1,
+     "one_liner": "綜述HSP27在十種自體免疫疾病（含IBD）中的雙重免疫調控機轉，探討其作為生物標記與治療靶點的前臨床潛力，尚無臨床應用數據。",
+     "sim": 0.173
+    }
+   ],
+   "title_zh": "慢性壓力誘導的腦源性小型細胞外囊泡透過調節性T細胞（Treg）分化促進大腸直腸癌進展",
+   "abstract_zh": "背景：慢性壓力透過持續活化下視丘-垂體-腎上腺軸（HPA axis）與交感神經系統，已被認為是大腸直腸癌（CRC）預後不良的風險因子，但心理壓力訊號如何從中樞神經系統傳遞至周邊腫瘤免疫微環境的機轉仍不清楚。腦源性小型細胞外囊泡（BD-sEVs）能穿越血腦屏障，可能是此神經免疫溝通的媒介。\n\n方法：在皮下（MC38）與原位（CT26）兩種CRC小鼠模型中建立慢性束縛壓力（CRS）模型。使用抗L1細胞黏附分子（L1CAM）抗體從血漿中富集BD-sEVs，並以穿透式電子顯微鏡與奈米粒子追蹤分析進行特徵鑑定。以多通道流式細胞儀分析腫瘤微環境中的免疫細胞群。機轉研究包括microRNA（miRNA）測序、單細胞RNA測序、共免疫沉澱、質譜分析、線粒體功能評估與線粒體DNA（mtDNA）檢測。臨床驗證於一個回溯性世代（n=67）與一個前瞻性世代（n=37）的CRC病人中進行，焦慮程度以漢氏焦慮評分表（HAMA）評估。\n\n結果：我們發現慢性壓力活化的腦區會重塑循環中BD-sEVs的miRNA貨物，這些囊泡被腫瘤微環境中的CD4+初始T細胞攝取，促進調節性T細胞（Treg）分化與免疫抑制功能。機轉上，壓力反應性miRNAs（miR-342-3p、miR-15a-5p、miR-381-3p）上調phorbol-12-myristate-13-acetate誘導蛋白1（NOXA），該蛋白直接結合線粒體分子伴侶熱休克蛋白60（HSP60）並抑制其分子伴侶活性，觸發mtDNA選擇性釋放至細胞質。細胞質mtDNA活化環狀GMP-AMP合成酶（cGAS）-干擾素基因刺激因子（STING）-I型干擾素（IFN-I）路徑，獨立於典型骨髓細胞白血病1（MCL-1）依賴性凋亡路徑而驅動Treg分化。臨床上，腫瘤內CD4+NOXA/Forkhead box P3（FOXP3）表現與病人焦慮評分顯著相關，並可預測不良存活結果。\n\n結論：本研究揭示了一條免疫抑制性的「慢性壓力-BD-sEV-NOXA-HSP60-Treg」軸，為心理神經免疫學對癌症進展的貢獻提供關鍵機轉洞見，並提出新的治療靶點。\n\n重點：慢性壓力透過腦源性小型細胞外囊泡（BD-sEVs）促進腫瘤微環境中調節性T細胞（Treg）分化以抑制抗腫瘤免疫。機轉上，BD-sEV誘導的NOXA結合HSP60並抑制其分子伴侶活性，觸發mtDNA釋放並活化cGAS-STING路徑以驅動Treg分化。壓力-BD-sEV-NOXA-HSP60-Treg軸是連結心理壓力與周邊腫瘤免疫抑制的關鍵路徑。臨床腫瘤樣本中NOXA與FOXP3的表現與焦慮程度相關，可能作為潛在預後生物標記。",
+   "evidence_level": "其他",
+   "score": 3,
+   "score_reason": "紮實的機轉研究並有小型人體驗證，但屬基礎轉譯科學，無治療性介入或臨床試驗，對外科日常決策實用性低。",
+   "relevance": "低度相關",
+   "relevance_why": "純機轉／轉譯研究，未涉及手術或任何可執行的臨床介入，僅提供病理生理學背景知識。",
+   "novelty": "仍屬早期",
+   "one_liner": "在CRC小鼠模型與67+37例病人世代中，發現慢性壓力經BD-sEV促進Treg分化，NOXA/FOXP3表現與焦慮評分及不良存活相關。",
+   "action": "目前不需改變做法；此為機轉研究，未測試任何可用於病人的治療或篩檢工具。",
+   "pico": {
+    "P": "MC38/CT26小鼠CRC模型；回溯性世代67例與前瞻性世代37例CRC病人",
+    "I": "慢性束縛壓力（動物）／腫瘤內NOXA-FOXP3表現與HAMA焦慮評分（人體）",
+    "C": "無壓力對照小鼠；無明確人體對照組",
+    "O": "主要：Treg分化、腫瘤免疫抑制機轉；次要：NOXA/FOXP3表現與焦慮評分、存活之相關性"
+   },
+   "effects": [],
+   "key_numbers": [
+    "臨床驗證世代規模：回溯性67例、前瞻性37例，樣本量小",
+    "腫瘤內CD4+NOXA/FOXP3表現與病人焦慮評分（HAMA）顯著相關，未提供具體數值",
+    "NOXA/FOXP3表現可預測較差存活結果，但摘要未給出HR或p值"
+   ],
+   "cautions": [
+    "小鼠壓力模型結果外推至人體癌症進展需謹慎，物種與壓力強度差異大",
+    "人體世代僅為相關性分析，無法確立因果關係，且未控制其他預後因子",
+    "臨床世代樣本量小（67與37例），且摘要未提供統計檢定值或信賴區間"
+   ],
+   "unassessable": [
+    "p 值與信賴區間",
+    "盲法",
+    "ITT 分析",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "人體世代之混淆因子調整方式"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-08-23T06:26:51+08:00"
+  },
+  {
+   "pmid": "42629119",
+   "title": "Discovery and synthesis of 3-amino glycyrrhizin derivative containing guanidyl with anti-colorectal cancer activity",
+   "journal": "Chin J Nat Med",
+   "journal_full": "Chinese journal of natural medicines",
+   "issn": "1875-5364",
+   "issn_linking": "1875-5364",
+   "impact_factor": 7.5,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Sep",
+   "doi": "10.1016/S1875-5364(26)61210-1",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Liu J, Zhang J, Wu T, Jin T, Zhao Q, He D",
+   "abstract": "Colorectal cancer is considered to be a highly immune-related disease, and the severe chronic inflammatory stress in the tumor microenvironment (TME) greatly impedes the effective prognosis and treatment of colorectal cancer. Based on a dual strategy, anti-proliferation and inhibition of inflammatory factor HMGB1, a series of GN-derivatives were synthesized and screened for their anticancer efficacy, and compound 22 showed the strongest anti-proliferative activity against HCT116 cells, with IC50 value 13.1 μmol·L-1. To improve the solubility, compounds 23-40 were synthesized and then evaluated for activities against colon cancer cells. Finally, compounds 23 and 24 with good water solubility were screened as target molecules. In anti-proliferation tests, both displayed the strongest activity on CT26 cells, with IC50 value 1.1 and 1.4 μmol·L-1, respectively; in the cloning tests, they also showed a strong anti-proliferative activity against CT26 cells; moreover, they promoted apoptosis, and blocked cells in G2/M phase in a concentration-dependent manner; in Western Blot tests, they decreased the levels of cyclin A2, cyclin B1 and CDK1 in a concentration-dependent manner. In anti-inflammation aspect, both them displayed strong anti-inflammation activity; compound 23 reduced the levels of NO in both RAW264.7 cells and CT26 cells in the anti-inflammatory tests, and the IC50 values were 10.3 and 1.1 µmol·L-1, respectively; Western Blot showed 23 decreased the levels of HMGB1, RAGE, TNF-α, IL-6, IL-1 and COX-2 in a dose-dependent manner. In animal tests, compound 23 reduced the volume and weight of tumor more obviously than compound 24 and 5-FU, and its effect was a dose-dependent. In summary, compound 23 has therapeutic effect for the treatment of colorectal cancer in some degree, and it has potential to be a candidate for treatment of colorectal cancer.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42418254",
+     "date": "2026-07-08",
+     "title_zh": "新型苯并咪唑衍生物之設計、合成與評估：作為HIF-1α抑制劑之YC-1類似物，具抗大腸癌潛力",
+     "score": 2,
+     "one_liner": "在HCT-116大腸癌細胞株與荷瘤小鼠模型中，新化合物9o相較YC-1展現更強HIF-1α抑制與抗腫瘤活性（IC50=33.85 μM，抑制率79.59%）。",
+     "sim": 0.157
+    },
+    {
+     "pmid": "42411798",
+     "date": "2026-07-07",
+     "title_zh": "1,2,3-三唑連結查耳酮作為抗癌藥物之優勢骨架",
+     "score": 2,
+     "one_liner": "在FaDu、CaCo-2、A549等癌細胞株中，測試三唑-查耳酮衍生物6c/6e/6f，發現其可降低細胞存活率並具初步選擇性（IC50<50µM）。",
+     "sim": 0.155
+    }
+   ],
+   "title_zh": "含胍基之3-胺基甘草酸衍生物的發現與合成：具抗大腸直腸癌活性",
+   "abstract_zh": "大腸直腸癌被認為是高度免疫相關疾病，腫瘤微環境（TME）中嚴重的慢性發炎壓力大大阻礙了大腸直腸癌的有效預後與治療。基於抗增殖與抑制發炎因子HMGB1的雙重策略，研究者合成並篩選了一系列GN衍生物的抗癌療效，其中化合物22對HCT116細胞展現最強抗增殖活性，IC50值為13.1 μmol/L。為改善溶解度，進一步合成化合物23-40並評估其對大腸癌細胞的活性。最終篩選出水溶性良好的化合物23與24作為目標分子。在抗增殖試驗中，兩者對CT26細胞均展現最強活性，IC50值分別為1.1與1.4 μmol/L；在克隆形成試驗中，兩者對CT26細胞亦展現強效抗增殖活性；此外，兩者以濃度依賴方式促進細胞凋亡，並將細胞阻滯於G2/M期；西方點墨法顯示，兩者以濃度依賴方式降低cyclin A2、cyclin B1與CDK1的表現量。在抗發炎方面，兩者均展現強效抗發炎活性；化合物23在RAW264.7細胞與CT26細胞的抗發炎試驗中降低NO水平，IC50值分別為10.3與1.1 µmol/L；西方點墨法顯示化合物23以劇量依賴方式降低HMGB1、RAGE、TNF-α、IL-6、IL-1與COX-2的表現量。在動物試驗中，化合物23相較化合物24與5-FU更明顯地降低腫瘤體積與重量，且其效果呈劇量依賴性。總結而言，化合物23在某種程度上對大腸直腸癌治療具有療效，具有作為大腸直腸癌治療候選藥物的潛力。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "純細胞株與動物模型之藥物化學/藥理學前驅研究，無任何臨床數據，距離人體應用尚遠，對臨床實務無直接參考價值。",
+   "relevance": "低度相關",
+   "relevance_why": "屬於基礎藥物開發研究，非外科介入且尚未進入臨床試驗階段，與大腸直腸外科日常診療決策無關。",
+   "novelty": "仍屬早期",
+   "one_liner": "在HCT116/CT26大腸癌細胞株與小鼠腫瘤模型中，測試新合成之甘草酸衍生物23/24，發現其具抗增殖與抗發炎活性（IC50約1.1-1.4 μmol/L）。",
+   "action": "目前不需改變做法，此為早期藥物化學前驅研究，尚無臨床試驗數據可供參考。",
+   "pico": {
+    "P": "HCT116、CT26大腸癌細胞株；RAW264.7巨噬細胞株；荷瘤小鼠模型（人數/樣本數未載明）",
+    "I": "新合成之含胍基3-胺基甘草酸衍生物（化合物22、23、24等）",
+    "C": "5-FU（僅動物試驗）；不同化合物間比較",
+    "O": "主要：細胞抗增殖活性（IC50）、腫瘤體積/重量；次要：細胞凋亡、細胞週期阻滯、發炎因子（HMGB1、RAGE、TNF-α、IL-6、IL-1、COX-2）表現"
+   },
+   "effects": [],
+   "key_numbers": [
+    "化合物23對CT26細胞抗增殖IC50=1.1 μmol/L，化合物24為1.4 μmol/L",
+    "化合物23對RAW264.7與CT26細胞NO抑制IC50分別為10.3與1.1 μmol/L",
+    "動物試驗中化合物23降低腫瘤體積/重量效果優於化合物24與5-FU，但無提供絕對數值"
+   ],
+   "cautions": [
+    "全為細胞株與動物模型結果，未有任何人體臨床數據，外推至臨床治療風險極高",
+    "動物試驗僅描述「更明顯降低」腫瘤體積/重量，未提供絕對數值、統計檢定或信賴區間",
+    "樣本量（動物數、重複次數）完全未載明，無法評估結果穩定性與可重複性"
+   ],
+   "unassessable": [
+    "動物實驗樣本數",
+    "統計方法與p值",
+    "毒性/安全性資料",
+    "利益衝突",
+    "後續臨床試驗計畫"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。雖然先前看過的兩篇同屬抗大腸癌小分子化合物之基礎藥物開發研究，但其化合物類別（苯并咪唑衍生物、三唑-查耳酮）與作用機制（HIF-1α抑制）與本篇之甘草酸衍生物及HMGB1相關發炎路徑並無直接關聯，屬各自獨立之藥物化學探索。",
+   "added_at": "2026-08-23T06:26:51+08:00"
+  },
+  {
+   "pmid": "42627549",
+   "title": "Establishing a sustainable and high-utilization robot-assisted surgery platform in a regional cancer center: insights from a multidisciplinary, break-even-guided operational strategy",
+   "journal": "J Robot Surg",
+   "journal_full": "Journal of robotic surgery",
+   "issn": "1863-2491",
+   "issn_linking": "1863-2483",
+   "impact_factor": 4.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1503/cjs.002523",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Teraishi F, Hasegawa Y, Takahashi K, Kato Y, Takahashi R, Okabayashi H",
+   "abstract": "Adoption of robot-assisted surgery (RAS) in regional non-urban cancer centers is constrained by high fixed costs and insufficient case volumes to achieve financial sustainability. Break-even thresholds vary widely (120-300 cases/year) across institution types; however, operational models for resource-constrained settings remain poorly characterized. To evaluate whether a financially sustainable, high-utilization RAS platform centered on colorectal cancer surgery can be established in a regional, non-urban cancer center through a four-phase, cross-departmental, volume-driven strategy guided by break-even analysis. A single da Vinci Xi system was shared across surgical departments. Annual fixed costs totaled ¥47,500,000, incremental revenue was ¥650,000/case, and variable instrument costs were ¥300,000, ¥350,000, and ¥400,000. A four-phase strategy was implemented: anchoring volume through urology, expanding into colorectal surgery via structured proctorship, broadening colorectal indications, and dynamically allocating robotic capacity across departments. Annual RAS volume reached 254 cases in 2025, exceeding the break-even threshold of 200-250 cases across cost scenarios. Robot-assisted colorectal surgery increased fifteen-fold between April and October 2025, stabilizing at 6-9 cases/month. Weekday utilization reached 1.2-1.5 cases/day in high-volume months and remained at or above 100% throughout the maturation phase. A sensitivity analysis confirmed that procedural volume, not instrument cost variation, is the dominant determinant of financial sustainability. A sustainable, high-utilization RAS platform is achievable within 18-24 months using a four-phase, volume-driven strategy. Under Japan's reimbursement structure, 200-250 annual cases represent the critical break-even threshold. This framework offers a transferable roadmap for non-urban cancer centers facing barriers to adoption.",
+   "watched": [],
+   "related": [],
+   "title_zh": "在區域癌症中心建立可持續且高利用率的機器手臂手術平台：以多科合作、損益平衡導向之營運策略觀察",
+   "abstract_zh": "機器手臂手術（RAS）在非都會型區域癌症中心的推廣，受限於高固定成本與病例量不足，難以達到財務可持續性。不同機構類型的損益平衡門檻差異甚大（每年120-300例），但資源受限情境下的營運模式仍缺乏明確描述。本研究目的為評估：是否能透過以損益平衡分析為指引的四階段、跨科室、量能驅動策略，在非都會型區域癌症中心建立以大腸直腸癌手術為核心、財務可持續且高利用率的RAS平台。單一台da Vinci Xi系統由多個外科部門共用。年度固定成本共4,750萬日圓，每例增量收入為65萬日圓，變動器械成本分別為30萬、35萬、40萬日圓。實施四階段策略：先以泌尿科建立量能基礎，再透過結構化proctorship擴展至大腸直腸外科，接著擴大大腸直腸手術適應症範圍，最後在各科間動態分配機器手臂使用量能。2025年年度RAS手術量達254例，超過各成本情境下200-250例的損益平衡門檻。機器手臂大腸直腸手術在2025年4月至10月間增加達15倍，穩定在每月6-9例。工作日利用率在高量月份達每日1.2-1.5例，且在成熟階段維持在100%或以上。敏感度分析證實，手術量而非器械成本變異，才是財務可持續性的主要決定因素。研究結論：透過四階段、量能驅動策略，可在18-24個月內建立可持續、高利用率的RAS平台。在日本的給付結構下，每年200-250例為關鍵的損益平衡門檻。此框架為面臨採用障礙的非都會型癌症中心提供可轉移的路線圖。",
+   "evidence_level": "其他",
+   "score": 3,
+   "score_reason": "單一機構的營運／財務案例報告，無病人臨床結果、無對照組，且成本結構完全基於日本給付制度，對台灣臨床決策的直接可轉移性有限。",
+   "relevance": "低度相關",
+   "relevance_why": "主題為機器手臂手術平台的行政與財務營運策略，非手術技術或病人臨床結果，對日常臨床決策幫助有限，較適合部門主管或行政規劃參考。",
+   "novelty": "仍屬早期",
+   "one_liner": "單一日本區域癌症中心透過四階段跨科策略，18-24個月內使RAS年量達254例，超過200-250例損益平衡門檻。",
+   "action": "目前不需改變臨床做法；此為單一機構財務營運報告，無病人手術結果數據，僅可作為規劃機器手臂平台量能策略的參考。",
+   "pico": {
+    "P": "單一日本區域非都會型癌症中心（機構層級研究，非個別病人族群）",
+    "I": "四階段跨科室、量能驅動之機器手臂手術平台建置策略",
+    "C": "無對照組（單一機構前後觀察）",
+    "O": "主要：年度RAS手術量是否達損益平衡門檻（200-250例）；次要：手術量成長趨勢、工作日利用率、敏感度分析結果"
+   },
+   "effects": [],
+   "key_numbers": [
+    "2025年RAS年量達254例，超過200-250例損益平衡門檻",
+    "大腸直腸機器手臂手術2025年4-10月增加15倍，穩定於每月6-9例",
+    "成熟階段工作日利用率達100%以上，敏感度分析顯示手術量為財務可持續性主因"
+   ],
+   "cautions": [
+    "單一機構、無對照組、觀察期短，結果可能受該院特殊條件（人力、個案結構）影響，外部有效性存疑",
+    "財務數字（固定成本、給付、器械成本）完全基於日本給付制度，無法直接套用至台灣健保體系",
+    "全文未報告任何病人臨床結果（併發症、腫瘤學結果、住院天數等），僅為營運量能與財務分析"
+   ],
+   "unassessable": [
+    "病人臨床結果（併發症率、腫瘤學結果）",
+    "試驗設計相關項目（盲法、ITT、失訪率）本質上不適用於此類營運研究",
+    "利益衝突",
+    "成本分析方法之細節（是否含人力、維護成本等）"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-08-23T06:26:51+08:00"
+  },
+  {
+   "pmid": "42627056",
+   "title": "Inflammatory bowel disease treatment: Mechanisms to clinical translation (Review)",
+   "journal": "Int J Mol Med",
+   "journal_full": "International journal of molecular medicine",
+   "issn": "1791-244X",
+   "issn_linking": "1107-3756",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.3892/ijmm.2026.5961",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Tang S, Gou G, Liu Y, Wang F, Shu F, Deng Y",
+   "abstract": "Inflammatory bowel disease (IBD) is a group of chronic, relapsing and systemic inflammatory disorders primarily affecting the gastrointestinal tract, including Crohn's disease, ulcerative colitis and rarer distinct subtypes such as indeterminate colitis. IBD has shown a marked shift in global epidemiology, with increasing incidence in newly industrialized regions across Africa, Asia and Latin America. The pathogenesis of IBD reflects a complex interplay between genetic susceptibility, mucosal immune dysregulation, intestinal barrier dysfunction, microbial dysbiosis and environmental exposures. Clinically, conventional therapy, including 5‑aminosalicylic acid, corticosteroids and conventional immunosuppressants, is limited by incomplete efficacy and safety concerns. Alternative therapeutic strategies included biological agents (anti‑tumor necrosis factor α, anti‑integrin, anti‑IL‑12/23 and anti‑tumor necrosis factor‑like ligand 1A), small‑molecule inhibitors (JAK inhibitors, tyrosine kinase 2 inhibitors, sphingosine‑1‑phosphate receptor modulators and NLRP3 inhibitors), microbiome‑based interventions (fecal microbiota transplantation, probiotics and engineered microbes) and regenerative approaches (mesenchymal stem cells and intestinal organoids). The present review aimed to summarize mechanistic insights and clinical evidence for established and emerging therapies and discusses current challenges and future directions for individualized, disease‑modifying treatment of IBD.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42358979",
+     "date": "2026-06-26",
+     "title_zh": "腸道微生物群代謝物在發炎性腸道疾病中的作用：機轉洞見的最新進展",
+     "score": 2,
+     "one_liner": "本綜述整合腸道微生物代謝物（SCFAs、膽酸、色胺酸衍生物）如何透過免疫調節網絡參與IBD致病機制，屬機轉性文獻回顧，無臨床數據。",
+     "sim": 0.165
+    },
+    {
+     "pmid": "42353131",
+     "date": "2026-06-26",
+     "title_zh": "腸炎轉譯動物模型：從大小鼠到豬與迷你豬平台",
+     "score": 1,
+     "one_liner": "本綜述整理IBD實驗動物模型（大小鼠至豬/迷你豬），討論其病理特徵與轉譯應用潛力，無臨床數據。",
+     "sim": 0.16
+    },
+    {
+     "pmid": "42549219",
+     "date": "2026-08-05",
+     "title_zh": "JAK1優先抑制策略在難治性發炎性腸道疾病中的應用：將Upadacitinib重新定義為快速免疫再校正策略",
+     "score": 2,
+     "one_liner": "本文提出「快速免疫再校正」假說框架，解釋JAK1優先抑制劑upadacitinib在難治性IBD中快速控制炎症的現象，屬機轉推論非實證數據。",
+     "sim": 0.157
+    }
+   ],
+   "title_zh": "發炎性腸道疾病治療：從機轉到臨床轉譯（綜述）",
+   "abstract_zh": "發炎性腸道疾病（IBD）是一組慢性、復發性且具全身性的發炎疾病，主要影響胃腸道，包括克隆氏症、潰瘍性結腸炎及較罕見的獨立亞型如未定型結腸炎。IBD的全球流行病學已出現明顯轉變，在非洲、亞洲及拉丁美洲等新興工業化地區發生率上升。IBD的致病機轉反映了遺傳易感性、黏膜免疫失調、腸道屏障功能障礙、微生物菌相失衡與環境暴露之間複雜的交互作用。臨床上，傳統療法，包括5-胺基水楊酸、皮質類固醇及傳統免疫抑制劑，療效不完全且存在安全性疑慮，因而受限。替代治療策略包括生物製劑（抗腫瘤壞死因子α、抗整合素、抗IL-12/23及抗腫瘤壞死因子樣配體1A）、小分子抑制劑（JAK抑制劑、酪胺酸激酶2抑制劑、鞘胺醇1-磷酸受體調節劑及NLRP3抑制劑）、微生物群相關介入（糞便微菌叢移植、益生菌及工程化微生物）以及再生醫學方法（間質幹細胞及腸道類器官）。本綜述旨在總結已確立及新興療法的機轉洞見與臨床證據，並討論IBD個體化、疾病修飾治療目前面臨的挑戰與未來方向。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純機轉性文獻綜述，無原始臨床數據或統合分析，對大腸直腸外科日常手術決策幾乎無直接實用性。",
+   "relevance": "低度相關",
+   "relevance_why": "內容聚焦IBD藥物與再生醫學治療機轉，非手術介入，對大腸直腸外科實務參考價值有限。",
+   "novelty": "仍屬早期",
+   "one_liner": "本綜述整理IBD傳統療法、生物製劑、小分子藥物、微生物療法與再生醫學之機轉與臨床證據，未提供新原始數據。",
+   "action": "目前不需改變做法；可作為與腸胃內科團隊討論IBD藥物治療選項時的背景知識參考。",
+   "pico": {
+    "P": "發炎性腸道疾病病人（綜述性文章，無特定研究人數）",
+    "I": "多種治療策略：生物製劑、小分子抑制劑、微生物群介入、再生醫學方法",
+    "C": "無對照組（綜述文獻，非原始研究）",
+    "O": "總結各類療法之機轉與臨床證據；無具體量化outcome"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供任何絕對數字、事件率或統計檢定結果",
+    "純機轉與治療分類整理，無原始臨床試驗數據可供計算ARR/NNT",
+    "無手術相關outcome（如手術率、併發症率）數據"
+   ],
+   "cautions": [
+    "綜述性文章非系統性回顧，摘要未說明文獻篩選方法，可能存在選擇性引用偏誤",
+    "涵蓋機轉與新興療法但未提供療效之量化臨床證據，無法評估實際效果大小",
+    "內容以藥物與再生醫學為主，完全未觸及IBD手術治療（如全大腸切除、迴腸貯袋等）之角色"
+   ],
+   "unassessable": [
+    "研究設計與文獻篩選方法",
+    "利益衝突",
+    "是否為系統性文獻回顧或敘述性綜述",
+    "各項療法之具體療效數據",
+    "外科治療相關內容"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "先前看過的論文分別聚焦IBD微生物代謝物機轉、動物模型及JAK1抑制劑機轉假說；本篇為更廣泛之綜述，涵蓋這些主題（微生物介入、JAK抑制劑）並擴展至生物製劑、再生醫學等其他治療類別，屬於機轉性文獻的延伸整合，非新增臨床證據。",
+   "added_at": "2026-08-23T06:26:51+08:00"
+  },
+  {
+   "pmid": "42625075",
+   "title": "Conversations in rectal cancer treatment: a qualitative study of multidisciplinary clinician perspective into non-operative management decision-making discussions",
+   "journal": "Support Care Cancer",
+   "journal_full": "Supportive care in cancer : official journal of the Multinational Association of Supportive Care in Cancer",
+   "issn": "1433-7339",
+   "issn_linking": "0941-4355",
+   "impact_factor": 3.4,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1002/pon.947",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Alagoz E, Gutierrez-Meza D, De Roo A",
+   "abstract": "PURPOSE: For select patients with locally advanced rectal cancer (LARC) who achieve a clinical complete response after neoadjuvant therapy, non-operative management (NOM) offers an alternative to surgery but introduces uncertainty and an intensive surveillance burden. Decisions between NOM and surgery are preference-sensitive and evolve as treatment response becomes clearer. How clinicians operationalize shared decision-making (SDM) for NOM remains poorly understood. We aimed to characterize clinician communication strategies and decision processes surrounding NOM, focusing on risk framing and management of uncertainty.\nMETHODS: Eighteen colorectal surgeons, medical oncologists, and radiation oncologists from two academic medical centers completed 30-60-min semi-structured interviews. Transcripts were coded inductively and analyzed using constant comparison methods and iterative codebook development.\nRESULTS: Clinicians described discussions about NOM as a longitudinal, multidisciplinary process that unfolds across multiple encounters and clinical specialties, with medical oncologists and surgeons contributing at different points along the treatment trajectory. Complex information was organized through evidence-based explanations and various risk-framing approaches, allowing patients to engage in iterative deliberation while setting clear expectations about the conditional nature of NOM and the demands of ongoing surveillance. The timing and emphasis of discussions varied by treatment phase and clinical role, which supported gradual patient understanding but also created the potential for unrealistic expectations when recommendations from the treatment team were not clearly aligned.\nCONCLUSION: Decision-making about NOM for LARC unfolds over time under clinical uncertainty and across specialties. Structured, phase-specific communication and improved interprofessional alignment may strengthen shared decision-making in this preference-sensitive context.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42346248",
+     "date": "2026-06-25",
+     "title_zh": "直腸癌病人接受非手術治療（NOM）之觀點：一項質性研究",
+     "score": 4,
+     "one_liner": "在14名成功接受NOM的直腸癌病人中，質性訪談發現避免造口與對醫師信任是決策關鍵，監測期心理負擔存在但滿意度仍高。",
+     "sim": 0.266
+    }
+   ],
+   "title_zh": "直腸癌治療中的對話：多學科臨床醫師觀點下非手術治療決策討論之質性研究",
+   "abstract_zh": "目的：對於接受新輔助治療後達到臨床完全緩解的局部進行性直腸癌（LARC）病人，非手術治療（NOM）提供了手術以外的替代選擇，但也帶來不確定性與密集監測的負擔。NOM與手術之間的決策具偏好敏感性，且隨治療反應逐漸明朗而演變。臨床醫師如何在NOM情境中落實共享決策（SDM），目前仍不甚清楚。本研究旨在描述臨床醫師針對NOM的溝通策略與決策過程，聚焦於風險框架呈現與不確定性管理。方法：來自兩家學術醫學中心的18位大腸直腸外科醫師、腫瘤內科醫師與放射腫瘤科醫師，完成30至60分鐘的半結構式訪談。逐字稿以歸納方式編碼，並以持續比較法與反覆修訂編碼簿進行分析。結果：臨床醫師描述有關NOM的討論是一個縱向、跨學科的過程，橫跨多次看診與多個臨床專科，腫瘤內科醫師與外科醫師在治療歷程的不同階段各自扮演角色。複雜資訊透過實證基礎的解釋與多種風險框架方式加以組織，使病人得以進行反覆的審慎思考，同時清楚設定對NOM條件性本質與持續監測要求的期望。討論的時機與重點因治療階段與臨床角色而異，這雖有助於病人逐步理解，但當治療團隊的建議未能明確一致時，也可能造成不切實際的期望。結論：LARC的NOM決策在臨床不確定性下，跨越時間與專科逐步展開。結構化、依治療階段而定的溝通，以及改善跨專業間的一致性，可能有助於強化此偏好敏感情境下的共享決策。",
+   "evidence_level": "其他",
+   "score": 4,
+   "score_reason": "質性研究樣本小（18位醫師、2中心），無病人結果或決策品質量化資料，對臨床決策的直接實用性有限，但點出跨團隊溝通不一致的實務痛點值得留意。",
+   "relevance": "中度相關",
+   "relevance_why": "NOM已是LARC臨床實務的一部分，但本篇聚焦醫師溝通行為而非治療效果或適應症選擇。",
+   "novelty": "仍屬早期",
+   "one_liner": "在2中心18位大腸直腸外科／腫瘤科醫師中，訪談發現NOM決策溝通跨專科進行，但團隊建議不一致時易致病人期望落差。",
+   "action": "目前不需改變治療決策，但可檢視所屬多科團隊在NOM溝通時機與內容是否一致，減少病人混淆。",
+   "pico": {
+    "P": "18位大腸直腸外科醫師、腫瘤內科醫師、放射腫瘤科醫師（來自2家學術醫學中心）",
+    "I": "半結構式訪談，探討NOM決策溝通策略",
+    "C": "無對照組",
+    "O": "主要：臨床醫師溝通策略與決策過程特徵；次要：風險框架呈現方式與不確定性管理"
+   },
+   "effects": [],
+   "key_numbers": [
+    "18位臨床醫師（外科、腫瘤內科、放射腫瘤科）接受30-60分鐘訪談",
+    "研究來自2家學術醫學中心，屬質性設計，無量化療效或決策結果數據",
+    "未報告任何病人層面的滿意度、決策衝突或臨床結果數字"
+   ],
+   "cautions": [
+    "質性研究樣本僅18名醫師、來自2中心，結果可推廣性與外部效度有限",
+    "無病人端結果資料，無法確認溝通策略是否真正改善決策品質或臨床結果",
+    "訪談內容為醫師自陳，可能與實際臨床溝通行為有落差（社會期許偏誤）"
+   ],
+   "unassessable": [
+    "盲法",
+    "ITT",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "編碼者間信度是否達成共識未詳述"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "前作從病人角度質性探討NOM決策心理與滿意度，本篇則從多學科臨床醫師角度切入，補上SDM討論中「醫療端」的溝通策略與挑戰，兩篇合看可較完整呈現NOM共享決策的雙方視角，但皆屬早期探索性研究，證據等級相近。",
+   "added_at": "2026-08-23T06:26:51+08:00"
+  },
+  {
+   "pmid": "42627798",
+   "title": "Association between Ulcerative Colitis, mental health, and Quality of Life in a Pakistani cohort: A cross-sectional analysis",
+   "journal": "PLoS One",
+   "journal_full": "PloS one",
+   "issn": "1932-6203",
+   "issn_linking": "1932-6203",
+   "impact_factor": 2.8,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1371/journal.pone.0356531",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Mushtaq S, Saeed S, Khan A, Akhtar T, Abbas S, Ashraf B",
+   "abstract": "BACKGROUND: Ulcerative colitis (UC) is chronic inflammatory bowel disease that significantly impairs both physical and psychological well-being. This study explores the prevalence of depression and its impact on quality-of-life (QoL) among UC patients in Pakistan, aiming to inform integrated care approaches in a setting where mental health often remains under-addressed.\nMETHODOLOGY: A cross-sectional study was conducted at outpatient IBD clinics of Gastroenterology department of Holy Family Hospital, Rawalpindi, from February 2024 to May 2025. Data were collected using structured forms covering demographics, clinical history, and disease severity (assessed via Mayo Score and Montreal classification). Psychological status was evaluated using HADS and BDI-II, while QoL was assessed using the IBDQ-32.\nRESULT: Among 101 UC patients, anxiety was present in 21.8% and depression in 17.8% patients. The mean IBDQ score was 150 ± 32.9, with 12.9% reporting poor QoL, 60.4% good QoL, and 1% excellent QoL. Disease severity showed significant positive correlations with anxiety (ρ = 0.42,p = 0.001) and depression (ρ = 0.38,p = 0.002), and strong negative correlation with QoL (ρ = -0.51,p < 0.001). Kruskal-Wallis tests confirmed significant differences in psychological distress and QoL across severity groups (p < 0.05). Multivariable regression identified Mayo score, HADS-A, HADS-D, and disease extent as significant negative predictors of IBDQ score (p < 0.05).\nCONCLUSION: This study underscores strong correlation between higher Mayo scores, together with elevated levels of anxiety and depression, and poorer QoL as measured by IBDQ among patients with UC in Pakistan. Therefore, there is an important consideration to explore the psychological burden and QoL impairments faced by UC patients in Pakistan to inform holistic management strategies.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42433067",
+     "date": "2026-07-11",
+     "title_zh": "評估原發性免疫缺陷病患的睡眠、疲勞與生活品質",
+     "score": 2,
+     "one_liner": "在49名原發性免疫缺陷成人病患中，評估睡眠、疲勞與生活品質，發現睡眠差與疲勞正相關（r=0.623）、與生理QoL負相關（r=-0.491）。",
+     "sim": 0.166
+    },
+    {
+     "pmid": "42433067",
+     "date": "2026-07-12",
+     "title_zh": "評估原發性免疫缺陷病患的睡眠、疲勞與生活品質",
+     "score": 2,
+     "one_liner": "在49名原發性免疫缺陷成人病患中，評估睡眠、疲勞與生活品質，發現睡眠差與疲勞正相關（r=0.623）、與生理QoL負相關（r=-0.491）。",
+     "sim": 0.166
+    },
+    {
+     "pmid": "42433067",
+     "date": "2026-07-13",
+     "title_zh": "評估原發性免疫缺陷病患的睡眠、疲勞與生活品質",
+     "score": 2,
+     "one_liner": "在49名原發性免疫缺陷成人病患中，評估睡眠、疲勞與生活品質，發現睡眠差與疲勞正相關（r=0.623）、與生理QoL負相關（r=-0.491）。",
+     "sim": 0.166
+    }
+   ],
+   "title_zh": "巴基斯坦世代研究：潰瘍性大腸炎、心理健康與生活品質的相關性——橫斷面分析",
+   "abstract_zh": "背景：潰瘍性大腸炎（UC）是一種慢性發炎性腸道疾病，顯著損害生理與心理健康。本研究探討巴基斯坦UC患者中憂鬱的盛行率及其對生活品質（QoL）的影響，期望為當地心理健康常被忽視的環境提供整合照護的參考依據。方法：本橫斷面研究於2024年2月至2025年5月間，在拉瓦爾品第Holy Family Hospital胃腸科門診IBD診所進行。使用結構化表格收集人口學資料、臨床病史與疾病嚴重度（以Mayo分數與蒙特婁分類評估）。心理狀態以HADS與BDI-II評估，生活品質以IBDQ-32評估。結果：101名UC患者中，21.8%有焦慮、17.8%有憂鬱。平均IBDQ分數為150±32.9，12.9%生活品質差、60.4%良好、1%優異。疾病嚴重度與焦慮（ρ=0.42，p=0.001）及憂鬱（ρ=0.38，p=0.002）呈顯著正相關，與生活品質呈強負相關（ρ=-0.51，p<0.001）。Kruskal-Wallis檢定證實各嚴重度分組間心理困擾與生活品質存在顯著差異（p<0.05）。多變項回歸分析顯示Mayo分數、HADS-A、HADS-D與疾病範圍為IBDQ分數的顯著負向預測因子（p<0.05）。結論：本研究強調巴基斯坦UC患者中，較高Mayo分數合併升高的焦慮與憂鬱程度，與較差的IBDQ生活品質之間存在強烈相關性。因此，探討巴基斯坦UC患者所面臨的心理負擔與生活品質損害，對制定全面性管理策略具有重要意義。",
+   "evidence_level": "橫斷面",
+   "score": 2,
+   "score_reason": "單中心小樣本（n=101）橫斷面觀察研究，屬內科/心理層面議題，非手術介入，對台灣大腸直腸外科臨床實務參考價值有限。",
+   "relevance": "低度相關",
+   "relevance_why": "本研究聚焦UC患者心理健康與生活品質之相關性，非外科介入或手術決策相關議題。",
+   "novelty": "再確認已知",
+   "one_liner": "在101名巴基斯坦UC患者中，觀察疾病嚴重度與焦慮憂鬱及生活品質，發現Mayo分數與QoL呈強負相關（ρ=-0.51）。",
+   "action": "目前不需改變外科做法；此為內科/心理層面橫斷面觀察研究，非手術介入或治療決策相關文獻。",
+   "pico": {
+    "P": "101名巴基斯坦門診潰瘍性大腸炎患者",
+    "I": "無介入；觀察疾病嚴重度（Mayo score）、焦慮/憂鬱程度（HADS、BDI-II）",
+    "C": "無對照組（依疾病嚴重度分組比較）",
+    "O": "主要：IBDQ-32生活品質分數；次要：焦慮/憂鬱盛行率與疾病嚴重度之相關性"
+   },
+   "effects": [],
+   "key_numbers": [
+    "焦慮盛行率21.8%，憂鬱盛行率17.8%（101名UC患者中）",
+    "疾病嚴重度（Mayo）與QoL呈強負相關 ρ=-0.51，p<0.001",
+    "平均IBDQ分數150±32.9；60.4%達良好QoL，12.9%QoL差"
+   ],
+   "cautions": [
+    "橫斷面設計僅能顯示相關性，無法確立因果關係或推論心理狀態與疾病嚴重度的先後順序",
+    "單中心巴基斯坦樣本（n=101），文化與醫療環境差異大，外部效度對台灣人群存疑",
+    "僅報告相關係數（ρ）與p值，未提供信賴區間或絕對事件數，難以評估效應量大小"
+   ],
+   "unassessable": [
+    "盲法（橫斷面設計不適用）",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "取樣方法是否具代表性"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。先前列出的論文為原發性免疫缺陷病患睡眠疲勞相關研究，與本篇UC心理健康與生活品質主題無實質關聯。",
+   "added_at": "2026-08-23T06:26:51+08:00"
+  },
+  {
+   "pmid": "42629759",
+   "title": "Global burden of esophagus cancer, stomach cancer and colon and rectal cancer from 1990 to 2050: A cross-sectional study",
+   "journal": "Medicine (Baltimore)",
+   "journal_full": "Medicine",
+   "issn": "1536-5964",
+   "issn_linking": "0025-7974",
+   "impact_factor": 2.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1097/MD.0000000000050376",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Wang R, Liu W",
+   "abstract": "Esophageal cancer, stomach cancer, and colon and rectal cancer (CRC), as the main components of gastrointestinal tract cancer (GTC), represent significant obstacles to reducing the global cancer burden. Therefore, obtaining an epidemiological characteristic of the 3 major GTCs is highly important. This study aims to analyze and forecast the changing trends in the burden of the 3 major GTCs, offering a certain theoretical foundation for cancer public health policymakers. The data utilized in this study were all sourced from the Global Burden of Disease study 2021. Specifically, the case numbers and age-standardized rate (ASR) for prevalence, death, and disability-adjusted life years of esophageal cancer, stomach cancer, and CRC were included. Additionally, the estimated annual percentage change of the 3 major GTCs was computed for the period spanning from 1990 to 2021 across 5 distinct socio-demographic index and 21 Global Burden of Disease regions. Moreover, a Bayesian age-period-cohort model was constructed to project the disease burden of the 3 major GTCs from 2022 to 2050. From 1990 to 2021, the number of cases of the 3 major GTCs showed an overall increasing trend. Regarding ASRs, with the exception of the increasing age-standardized prevalence rate of CRC, the ASRs of the remaining GTCs demonstrated a downward trend. The disease burden of the 3 GTCs was higher among males compared to females, predominantly affecting individuals aged 50 and above. The regions with notable ASRs of the 3 major GTCs were East Asia and high-income Asia. The prediction outcomes also suggested that, apart from the age-standardized prevalence rate of CRC, the burden of the 3 major GTCs might display a decreasing trend in the next 29 years. Although the ASRs of the 3 primary types of GTC exhibit a downward trend, the case counts of these types still maintain a relatively high baseline level. Consequently, conducting GTC screening in specific regions, developing relevant health policies and popularizing disease-related knowledge continue to hold critical significance.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42391207",
+     "date": "2026-07-02",
+     "title_zh": "中國癌症登記地區大腸直腸癌死亡率之時空型態與預測：基於多重模型之全國性研究",
+     "score": 3,
+     "one_liner": "分析中國2005-2018年CRC死亡登記資料，發現都市死亡率下降（APC -1.21%）但農村上升（AAPC 0.59%），預測至2035年整體緩升。",
+     "sim": 0.211
+    }
+   ],
+   "title_zh": "1990年至2050年全球食道癌、胃癌與大腸直腸癌負擔：一項橫斷面研究",
+   "abstract_zh": "食道癌、胃癌與大腸直腸癌（CRC）是胃腸道癌症（GTC）的主要組成部分，是降低全球癌症負擔的重大障礙。因此，取得這三大GTC的流行病學特徵極為重要。本研究旨在分析並預測三大GTC負擔的變化趨勢，為癌症公共衛生政策制定者提供理論基礎。本研究資料全數來自2021年全球疾病負擔研究（GBD）。具體而言，納入食道癌、胃癌與大腸直腸癌的病例數與年齡標準化盛行率、死亡率及失能調整生命年（DALY）的年齡標準化率（ASR）。此外，計算了1990年至2021年間五個不同社會人口指數與21個GBD地區的三大GTC估計年度變化百分比。並建構貝氏年齡-時期-世代模型，以預測2022年至2050年三大GTC的疾病負擔。1990年至2021年間，三大GTC病例數整體呈上升趨勢。就ASR而言，除CRC的年齡標準化盛行率呈上升趨勢外，其餘GTC的ASR均呈下降趨勢。三種GTC的疾病負擔男性高於女性，主要影響50歲以上族群。ASR顯著的地區為東亞與高收入亞洲地區。預測結果亦顯示，除CRC的年齡標準化盛行率外，未來29年三大GTC的負擔可能呈下降趨勢。儘管三種主要GTC類型的ASR呈下降趨勢，但這些癌症的病例數仍維持相對較高的基準水平。因此，在特定地區進行GTC篩檢、制定相關衛生政策及普及疾病相關知識，仍具有重要意義。",
+   "evidence_level": "橫斷面研究",
+   "score": 3,
+   "score_reason": "為GBD資料庫的描述性流行病學分析加預測模型，方法可信但屬生態學研究層級，對台灣大腸直腸外科臨床決策無直接指導價值。",
+   "relevance": "低度相關",
+   "relevance_why": "純全球公共衛生流行病學趨勢分析，無任何外科介入或臨床處置建議。",
+   "novelty": "再確認已知",
+   "one_liner": "分析1990-2021年全球GBD資料並預測至2050年，發現CRC年齡標準化盛行率持續上升，其餘胃腸道癌症ASR呈下降趨勢。",
+   "action": "目前不需改變做法；此為全球流行病學趨勢與預測分析，未提供可改變臨床處置的介入證據。",
+   "pico": {
+    "P": "全球人口，1990-2021年GBD 2021資料庫，涵蓋食道癌、胃癌、大腸直腸癌病例",
+    "I": "無介入，為描述性流行病學分析與貝氏APC模型預測",
+    "C": "無對照組（比較對象為不同時間點、性別、地區、SDI分層）",
+    "O": "主要outcome：病例數、盛行率/死亡率/DALY之年齡標準化率(ASR)及EAPC；預測至2050年之趨勢"
+   },
+   "effects": [],
+   "key_numbers": [
+    "1990-2021年三大GTC病例數整體上升，唯獨CRC標準化盛行率持續上升，其餘ASR下降",
+    "疾病負擔男性高於女性，主要好發於50歲以上族群",
+    "東亞與高收入亞洲地區ASR最為顯著；預測2022-2050年除CRC盛行率外，其餘負擔呈下降趨勢"
+   ],
+   "cautions": [
+    "屬生態學層級描述性研究，資料為GBD模型化估計值，非直接觀測資料，跨國資料品質差異大",
+    "2050年預測係基於貝氏APC模型長期外推，假設未來無重大醫療政策或篩檢介入改變，推論風險高",
+    "摘要僅提供趨勢描述與EAPC，缺乏具體絕對數字與信賴區間，無法評估效應量precision"
+   ],
+   "unassessable": [
+    "GBD模型估計方法與驗證細節",
+    "各國/地區原始資料完整性與品質差異",
+    "資金來源與利益衝突",
+    "統計方法之敏感性分析"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "前作聚焦中國大陸CRC死亡率的時空型態與預測，本篇則擴展至全球尺度，同時涵蓋食道癌、胃癌與CRC三大胃腸道癌症之負擔預測，方法學類似（均採用趨勢預測模型）但地理範疇更廣、結論仍一致指出CRC相關指標持續上升。",
+   "added_at": "2026-08-23T06:26:51+08:00"
+  },
+  {
+   "pmid": "42627202",
+   "title": "Feasibility and cost of partnering with social media influencers to promote colorectal cancer screening",
+   "journal": "Health Educ Res",
+   "journal_full": "Health education research",
+   "issn": "1465-3648",
+   "issn_linking": "0268-1153",
+   "impact_factor": 1.6,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1093/her/cyag024",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Orom H, Allard N, Nguyen T",
+   "abstract": "There is considerable interest in collaborating with social media influencers to promote health messages, but little evidence demonstrating how this might be done in organizations with few resources or experience. We tested the feasibility and cost of partnering with social media nano- and micro-influencers to promote colorectal cancer (CRC) screening messages. We identified 16 US influencers through an online influencer marketing campaign platform. To test if influencers would create theory-consistent content, we provided them with recommended CRC screening information and guidelines for including one of four message strategies (threat, efficacy, threat and efficacy, information only). Influencers created and posted one video promoting CRC screening on their Instagram Reels and Stories, June-July, 2025. Engagement metrics were collected 1 month after posting. The videos were viewed 89 764 times (M = 5610, SD = 5545), and cost $0.13 per view. They did not elicit resistance; comments were 96% positive, 4% neutral, 0% negative, and engagement rates were high (mean = 7.9%). Influencers were largely able to follow written guidance for including theory-based content in their posts. In light of the rise in social media use, including among middle-aged and older adults, partnerships between public health organizations and social media influencers could expand health message reach.",
+   "watched": [],
+   "related": [],
+   "title_zh": "與社群媒體網紅合作推廣大腸直腸癌篩檢之可行性與成本評估",
+   "abstract_zh": "與社群媒體網紅合作推廣健康訊息備受關注，但對於資源或經驗有限的組織該如何執行，證據甚少。我們測試了與社群媒體奈米級與微型網紅合作，推廣大腸直腸癌（CRC）篩檢訊息的可行性與成本。我們透過線上網紅行銷平台找到16位美國網紅。為測試網紅是否能製作符合理論架構的內容，我們提供其CRC篩檢建議資訊，以及四種訊息策略之一的指引（威脅、效能、威脅加效能、僅資訊）。網紅於2025年6-7月在其Instagram Reels與限時動態上製作並發布一支推廣CRC篩檢的影片。發布一個月後收集互動指標。影片共被觀看89,764次（平均值=5610，標準差=5545），每次觀看成本為0.13美元。未引起抵制反應；留言96%為正面、4%中立、0%負面，互動率偏高（平均=7.9%）。網紅大致能依循書面指引製作以理論為基礎的內容。鑑於社群媒體使用率上升（包括中老年族群），公共衛生組織與社群媒體網紅之合作，可能有助於擴大健康訊息觸及範圍。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "單臂可行性研究，無對照組，僅測量觸及率與互動率等行銷指標，未測量實際篩檢行為改變，對臨床外科實務幾無直接參考價值。",
+   "relevance": "低度相關",
+   "relevance_why": "屬公共衛生行銷／健康傳播介入研究，非外科治療或篩檢臨床決策，與大腸直腸外科日常執業關聯極低。",
+   "novelty": "仍屬早期",
+   "one_liner": "在16位美國社群網紅參與下，測試推廣CRC篩檢影片之可行性，觀看近9萬次、每次觀看成本0.13美元、留言96%正面。",
+   "action": "目前不需改變做法；此研究未評估篩檢率或臨床結果，僅為行銷可行性初探，不影響外科診療決策。",
+   "pico": {
+    "P": "16位美國社群媒體奈米級與微型網紅",
+    "I": "提供CRC篩檢資訊與訊息策略指引後，由網紅自行製作並發布推廣影片",
+    "C": "無對照組",
+    "O": "主要outcome：影片觀看次數、每次觀看成本、留言情緒分佈、互動率；次要outcome：網紅是否能遵循理論導向內容指引"
+   },
+   "effects": [],
+   "key_numbers": [
+    "影片總觀看89,764次，平均每支5610次，成本每次觀看0.13美元",
+    "留言情緒：96%正面、4%中立、0%負面",
+    "平均互動率7.9%，未測量實際篩檢完成率或行為改變"
+   ],
+   "cautions": [
+    "主要outcome為觸及率與互動率等替代指標，並未測量實際CRC篩檢預約或完成率，無法推論對篩檢行為之真實影響",
+    "無對照組，無法排除選擇偏誤（自願參與網紅、平台演算法推播偏好正面內容）",
+    "樣本僅16位網紅、單一平台（Instagram），外部效度與可推廣性有限，且無長期追蹤"
+   ],
+   "unassessable": [
+    "盲法",
+    "ITT分析",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本效益分析（僅有觀看成本，無篩檢完成之成本效益）",
+    "實際篩檢率或健康結果"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-08-23T06:26:51+08:00"
+  }
+ ]
+}
