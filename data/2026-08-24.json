@@ -1,0 +1,785 @@
+{
+ "date": "2026-08-24",
+ "generated_at": "2026-08-24T06:29:00+08:00",
+ "count": 10,
+ "papers": [
+  {
+   "pmid": "42630503",
+   "title": "On-Treatment Grade 3-4 Neutropenia and Clinical Outcomes with Trifluridine/Tipiracil in Refractory Metastatic Colorectal Cancer: ReTrITA Real-World Evidence",
+   "journal": "Oncol Res",
+   "journal_full": "Oncology research",
+   "issn": "1555-3906",
+   "issn_linking": "0965-0407",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.5414/CP204410",
+   "ptype": "Multicenter Study",
+   "ptype_list": [
+    "Multicenter Study"
+   ],
+   "authors": "Signorelli C, Basso M, Anghelone A, Calegari M, Passardi A, Gallio C",
+   "abstract": "Background: Trifluridine/tipiracil (T) is a standard treatment for refractory metastatic colorectal cancer (mCRC). In randomized trials, treatment-emergent neutropenia has been associated with improved outcomes, suggesting a potential link with drug activity. However, evidence from routine clinical practice remains limited. This sub-analysis of the multicenter ReTrITA study evaluated the association between severe neutropenia and clinical outcomes in a real-world setting. Methods: Patients with refractory mCRC treated with T within the ReTrITA cohort were included. Patients were stratified according to the occurrence of grade 3-4 neutropenia. Overall survival (OS) and progression-free survival (PFS) were estimated using the Kaplan-Meier method and compared with the log-rank test. Hazard ratios (HRs) and 95% confidence intervals (CIs) were calculated using Cox models. Results: Among 843 patients, 271 (32.1%) developed grade 3-4 neutropenia. The occurrence of severe neutropenia was significantly associated with improved survival outcomes. Median OS was 10.9 months versus 7.6 months, HR 0.64; 95% CI, 0.55-0.75; p < 0.0001), and median PFS was 4.3 months versus 3.3 months (HR 0.63; 95% CI, 0.55-0.73; p < 0.0001) in patients with versus without neutropenia, respectively. Conclusions: In this large real-world cohort, grade 3-4 neutropenia during T treatment was associated with significantly improved OS and PFS, supporting its role as a potential on-treatment prognostic marker. Prospective studies are warranted to confirm these findings.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42474934",
+     "date": "2026-07-21",
+     "title_zh": "MSI-H/dMMR轉移性大腸直腸癌一線免疫治療對比化療：第三期試驗之系統性回顧與統合分析",
+     "score": 5,
+     "one_liner": "在超過600名MSI-H/dMMR轉移性大腸直腸癌病人中，統合2篇第三期試驗，一線免疫治療較化療顯著改善PFS(HR 0.61)與OS(HR 0.77)。",
+     "sim": 0.213
+    },
+    {
+     "pmid": "42474934",
+     "date": "2026-07-22",
+     "title_zh": "MSI-H/dMMR轉移性大腸直腸癌一線免疫治療對比化療：第三期試驗之系統性回顧與統合分析",
+     "score": 5,
+     "one_liner": "在超過600名MSI-H/dMMR轉移性大腸直腸癌病人中，統合2篇第三期試驗，一線免疫治療較化療顯著改善PFS(HR 0.61)與OS(HR 0.77)。",
+     "sim": 0.213
+    },
+    {
+     "pmid": "42543992",
+     "date": "2026-08-04",
+     "title_zh": "某三級醫療中心轉移性大腸直腸癌之臨床病理特徵與預後：一項雙向性觀察研究",
+     "score": 2,
+     "one_liner": "在印度單中心60名mCRC病人中，分析預後因子，發現腹膜轉移（OS HR 2.83）與分化不良（OS HR 3.05）為獨立不良預後因子。",
+     "sim": 0.21
+    }
+   ],
+   "title_zh": "難治性轉移性大腸直腸癌病人接受Trifluridine/Tipiracil治療期間第3-4級嗜中性球低下與臨床結果之關聯：ReTrITA真實世界證據",
+   "abstract_zh": "背景：Trifluridine/tipiracil（T）是難治性轉移性大腸直腸癌（mCRC）的標準治療藥物。在隨機試驗中，治療相關性嗜中性球低下與較佳的治療結果有關，暗示其可能與藥物活性有關聯。然而，來自常規臨床實務的證據仍然有限。此為多中心ReTrITA研究之次分析，評估在真實世界情境中，嚴重嗜中性球低下與臨床結果之間的關聯。方法：納入ReTrITA世代中接受T治療的難治性mCRC病人，依是否發生第3-4級嗜中性球低下分組。以Kaplan-Meier法估計總生存期（OS）與無惡化存活期（PFS），並以log-rank檢定比較。以Cox模型計算風險比（HR）與95%信賴區間（CI）。結果：在843名病人中，271名（32.1%）發生第3-4級嗜中性球低下。嚴重嗜中性球低下的發生與較佳的生存結果顯著相關。有無嗜中性球低下病人的中位OS分別為10.9個月對7.6個月（HR 0.64；95% CI，0.55-0.75；p < 0.0001），中位PFS分別為4.3個月對3.3個月（HR 0.63；95% CI，0.55-0.73；p < 0.0001）。結論：在此大型真實世界世代中，T治療期間發生第3-4級嗜中性球低下與顯著改善的OS及PFS相關，支持其作為潛在治療中預後標記的角色。仍需前瞻性研究證實此發現。",
+   "evidence_level": "回溯性研究",
+   "score": 3,
+   "score_reason": "回溯性次分析，未說明是否處理免疫時間偏誤（immortal time bias），僅再確認RCT已知現象，對台灣大腸直腸外科臨床決策幾無直接影響。",
+   "relevance": "低度相關",
+   "relevance_why": "本篇聚焦於藥物腫瘤科使用T治療難治性mCRC的預後標記，非外科介入或手術決策範疇。",
+   "novelty": "再確認已知",
+   "one_liner": "在843名難治性mCRC接受T治療病人中，發生第3-4級嗜中性球低下者（32.1%）OS達10.9個月，優於無此情形者的7.6個月（HR 0.64）。",
+   "action": "目前不需改變外科做法；此為腫瘤內科用藥監測議題，僅供跨科討論病人預後參考。",
+   "pico": {
+    "P": "難治性mCRC接受Trifluridine/tipiracil治療病人（n=843，ReTrITA世代次分析）",
+    "I": "治療期間發生第3-4級嗜中性球低下（271人，32.1%）",
+    "C": "未發生第3-4級嗜中性球低下（572人）",
+    "O": "主要：總生存期OS、無惡化存活期PFS；次要：無"
+   },
+   "effects": [],
+   "key_numbers": [
+    "中位OS：有嗜中性球低下10.9個月 vs 無7.6個月，HR 0.64（95% CI 0.55-0.75）",
+    "中位PFS：有嗜中性球低下4.3個月 vs 無3.3個月，HR 0.63（95% CI 0.55-0.73）",
+    "271/843（32.1%）病人發生第3-4級嗜中性球低下"
+   ],
+   "cautions": [
+    "極可能存在免疫時間偏誤：須存活夠久並持續用藥才會出現嗜中性球低下，人為誇大其與存活的關聯",
+    "相關性非因果性，不可反推誘導骨髓抑制以改善預後，摘要未提及劑量調整策略",
+    "此為事後次分析（post-hoc sub-analysis），非ReTrITA研究預設之主要終點"
+   ],
+   "unassessable": [
+    "是否採用landmark分析或時間依變數Cox模型以校正免疫時間偏誤",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "劑量調整與治療持續時間細節",
+    "多變量校正之其他預後因子"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。",
+   "added_at": "2026-08-24T06:26:28+08:00"
+  },
+  {
+   "pmid": "42630799",
+   "title": "The potential connection between inflammatory bowel disease and Alzheimer's disease: mechanistic insights and therapeutic implications",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.2147/dddt.s506545",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Peng L, Wu Z, Yuan X, Zhou C, Fu H",
+   "abstract": "Inflammatory bowel disease (IBD) and Alzheimer's disease (AD) are two chronic conditions previously considered pathologically unrelated. However, accumulating epidemiological evidence suggests that patients with IBD may have an elevated risk. This review systematically analyzes the mechanistic links between IBD and AD, emphasizing the roles of gut microbiota dysbiosis, systemic and neuroinflammation, and glymphatic dysfunction. We propose a putative conceptual framework incorporating the 'gut-glymphatic axis' as a potential conduit through which IBD-associated microbial and immune perturbations may influence AD pathology. Key pathways include short-chain fatty acids, tryptophan metabolites, trimethylamine N-oxide, and bile acids, all of which modulate neuroinflammation and amyloid-β clearance. Additionally, circadian disruption and impaired aquaporin-4 polarity in the glymphatic system may represent novel links between intestinal inflammation and neurodegenerative changes. Preclinical animal models suggest that colitis exacerbates AD-like pathology via NLRP3 inflammasome activation, neutrophil infiltration, and microglial dysfunction. Natural bioactive compounds-such as ginsenosides, curcumin, baicalin, berberine, and magnolol-show dual therapeutic potential in both IBD and AD by targeting shared inflammatory and microbiota pathways. However, validated comorbidity models and clinical trials are lacking. This review provides a scientifically grounded basis for future mechanistic studies and integrated interventions for IBD-AD comorbidity.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42358979",
+     "date": "2026-06-26",
+     "title_zh": "腸道微生物群代謝物在發炎性腸道疾病中的作用：機轉洞見的最新進展",
+     "score": 2,
+     "one_liner": "本綜述整合腸道微生物代謝物（SCFAs、膽酸、色胺酸衍生物）如何透過免疫調節網絡參與IBD致病機制，屬機轉性文獻回顧，無臨床數據。",
+     "sim": 0.202
+    },
+    {
+     "pmid": "42352943",
+     "date": "2026-06-26",
+     "title_zh": "小檗鹼在發炎性腸道疾病中的角色：微生物群-免疫-屏障軸的整合調控",
+     "score": 1,
+     "one_liner": "本綜述整理小檗鹼調控IBD微生物群-免疫-屏障軸的機制與遞送策略，指出臨床證據仍有限、以臨床前研究為主。",
+     "sim": 0.179
+    },
+    {
+     "pmid": "42524083",
+     "date": "2026-07-31",
+     "title_zh": "發炎性腸道疾病中的肺部損傷：腸道屏障破壞、腸-肺軸重塑與治療相關肺毒性",
+     "score": 2,
+     "one_liner": "本篇綜述整理IBD相關肺部損傷之機轉（腸道屏障、菌群代謝物、免疫遷移、藥物毒性），未提供臨床試驗數據。",
+     "sim": 0.178
+    }
+   ],
+   "title_zh": "發炎性腸道疾病與阿茲海默症之間的潛在關聯：機轉洞見與治療意涵",
+   "abstract_zh": "發炎性腸道疾病（IBD）與阿茲海默症（AD）過去被認為是兩種病理上無關的慢性疾病。然而，累積的流行病學證據顯示，IBD患者可能有較高的（阿茲海默症）風險。本綜述系統性分析IBD與AD之間的機轉關聯，強調腸道菌群失衡、全身性與神經發炎、以及類淋巴系統功能障礙的角色。我們提出一個假設性概念架構，納入「腸-類淋巴軸」作為IBD相關微生物與免疫擾動可能影響AD病理的潛在通道。關鍵路徑包括短鏈脂肪酸、色胺酸代謝物、氧化三甲胺、以及膽酸，這些皆可調節神經發炎與類澱粉蛋白清除。此外，晝夜節律紊亂與類淋巴系統中水通道蛋白-4極性受損，可能是腸道發炎與神經退化性變化之間的新關聯。臨床前動物模型顯示，結腸炎透過NLRP3發炎小體活化、嗜中性球浸潤、以及微膠細胞功能障礙而加劇AD樣病理。天然生物活性化合物——如人參皂苷、薑黃素、黃芩苷、小檗鹼、厚朴酚——透過標靶共同的發炎與菌群路徑，在IBD與AD中皆展現雙重治療潛力。然而，目前仍缺乏經驗證的共病模型與臨床試驗。本綜述為未來機轉研究與IBD-AD共病整合介入提供科學基礎。",
+   "evidence_level": "綜述",
+   "score": 1,
+   "score_reason": "純機轉性綜述，無任何臨床試驗或人體數據，且主題（腸-腦軸、阿茲海默症）與大腸直腸外科臨床實務完全無關。",
+   "relevance": "低度相關",
+   "relevance_why": "純基礎機轉綜述，探討IBD與阿茲海默症的假設性神經免疫路徑，非外科介入亦非可操作的臨床議題。",
+   "novelty": "仍屬早期",
+   "one_liner": "本文提出「腸-類淋巴軸」概念架構，推論IBD可能透過菌群/發炎路徑增加阿茲海默症風險，僅為機轉假說整理，無臨床數據。",
+   "action": "目前不需改變做法：純機轉性綜述，無臨床試驗或手術相關數據，與大腸直腸外科日常診療無直接關聯。",
+   "pico": {
+    "P": "無特定病人族群，為機轉性文獻綜述",
+    "I": "無介入，整理IBD與AD之間可能的病理生理連結（腸道菌群、神經發炎、類淋巴系統）",
+    "C": "無對照組",
+    "O": "無明確臨床outcome；僅提出假說性機轉框架與未來研究方向"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供任何臨床試驗數據、發生率或風險比數字",
+    "全文僅描述流行病學觀察與臨床前動物模型結果，無量化人體數據",
+    "作者明確指出「缺乏經驗證的共病模型與臨床試驗」"
+   ],
+   "cautions": [
+    "全文為機轉假說整理，未提供任何人體臨床試驗證據，結論不可外推至臨床決策",
+    "所謂IBD增加AD風險僅based於「流行病學證據」，摘要未附具體風險數值或信賴區間，因果關係未證實",
+    "天然化合物（薑黃素、小檗鹼等）雙重治療潛力僅基於臨床前研究推論，過度延伸至治療意涵"
+   ],
+   "unassessable": [
+    "因本篇為純機轉綜述，無臨床試驗設計，故盲法、ITT、失訪率、試驗註冊、利益衝突、成本分析等項目皆不適用評估"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。雖然先前看過的論文同屬IBD機轉性綜述系列，但主題（腸道代謝物、小檗鹼、肺部損傷）與本篇聚焦之IBD-阿茲海默症腦-腸軸連結無直接科學關聯。",
+   "added_at": "2026-08-24T06:26:28+08:00"
+  },
+  {
+   "pmid": "42631483",
+   "title": "Prebiotic and Chemopreventive Potential of Digested Cooked Huitlacoche (Ustilago maydis) in Human HT-29 Colon Cancer Cells",
+   "journal": "J Food Sci",
+   "journal_full": "Journal of food science",
+   "issn": "1750-3841",
+   "issn_linking": "0022-1147",
+   "impact_factor": 4.1,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1039/C8FO00850G",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Rebollar-García A, Luzardo-Ocampo I, Arvizu-Medrano S, Pool H, Loarca-Piña G, Velásquez-Jiménez D",
+   "abstract": "Huitlacoche (Ustilago maydis) is a popular and widely consumed edible fungus that infects corn, inducing gall formation rich in phenolic compounds. During consumption, huitlacoche-based phenolic compounds are affected by gastrointestinal conditions, thereby altering their bioaccessibility and, in turn, their prebiotic and chemopreventive potential. This study investigated the in vitro chemopreventive effects of cooked huitlacoche on human colon cancer cells (HT-29) and its prebiotic potential. Cooked huitlacoche underwent in vitro gastrointestinal digestion, followed by colonic fermentation, to evaluate the bioaccessibility of phenolic compounds and antioxidant capacity at each stage. The prebiotic potential was monitored by Lactobacillus gasseri growth in the presence of the nondigestible fraction of huitlacoche (NDF-H). Additionally, the chemopreventive effect of the colonic fermentation extract of huitlacoche (FE-H) was evaluated on HT-29 colon cancer cells. The cooking process increased (p < 0.05) total dietary fiber (+9.60%) while reducing other micronutrients. The concentrations of selected phenolic compounds increase during the gastric phase (benzoic acid: 265-fold; and 4-hydroxybenzoic acid: 19.13-fold). During in vitro human-gut colonic fermentation, acetic, propionic, and butyric acids were detected (up to 3.06-7.08 mmol/L). FE-H induced cytotoxic effects in HT-29 cells (LC50: 33.34% v/v) due to necrosis and caspase-3/7 activation, without being cytotoxic in human non-tumoral Hs 738 St./int. Moreover, digested huitlacoche promoted L. gasseri growth. Overall, cooked huitlacoche components are bioaccessible during in vitro gastrointestinal digestion and suggest chemopreventive and prebiotic potential. PRACTICAL APPLICATIONS: The consumption of cooked huitlacoche may have beneficial effects, supporting its classification as a functional food with chemopreventive and prebiotic properties. These properties stem from the dietary fiber content and antioxidant compounds.",
+   "watched": [],
+   "related": [],
+   "title_zh": "消化後熟胭脂霉（Ustilago maydis）對人類HT-29大腸癌細胞之益生元與化學預防潛力研究",
+   "abstract_zh": "胭脂霉（Ustilago maydis）是一種廣受食用的真菌，會感染玉米並誘發富含酚類化合物之膨大組織（黑穗病癌）。食用過程中，胭脂霉來源之酚類化合物會受胃腸道條件影響，改變其生物可利用性，進而影響其益生元與化學預防潛力。本研究探討熟胭脂霉對人類大腸癌細胞（HT-29）的體外化學預防效果及其益生元潛力。熟胭脂霉經體外胃腸消化後接續進行結腸發酵，以評估各階段酚類化合物之生物可利用性與抗氧化能力。益生元潛力則透過在胭脂霉非消化部分（NDF-H）存在下觀察嗜酸乳桿菌（Lactobacillus gasseri）之生長情況來監測。此外，也評估胭脂霉結腸發酵萃取物（FE-H）對HT-29大腸癌細胞之化學預防效果。烹煮過程使總膳食纖維增加（+9.60%，p<0.05），同時降低其他微量營養素。特定酚類化合物濃度於胃相階段顯著增加（苯甲酸：增加265倍；4-羥基苯甲酸：增加19.13倍）。體外人類腸道結腸發酵過程中，檢測到乙酸、丙酸與丁酸（濃度達3.06-7.08 mmol/L）。FE-H對HT-29細胞誘發細胞毒性效應（LC50：33.34% v/v），機制與壞死及caspase-3/7活化有關，且對人類非腫瘤性Hs 738 St./int細胞無細胞毒性。此外，消化後之胭脂霉可促進嗜酸乳桿菌生長。整體而言，熟胭脂霉成分於體外胃腸消化過程中具生物可利用性，並顯示具化學預防與益生元潛力。實務應用：食用熟胭脂霉可能具有益處，支持其作為具化學預防與益生元特性之功能性食品的分類。此特性源於其膳食纖維含量與抗氧化化合物。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "純體外細胞實驗（基礎食品科學研究），無動物或人體資料，對臨床大腸直腸外科決策幾無直接參考價值。",
+   "relevance": "低度相關",
+   "relevance_why": "此為體外細胞株與食品化學研究，非外科介入或臨床試驗，與大腸直腸外科臨床決策無直接關聯。",
+   "novelty": "仍屬早期",
+   "one_liner": "在HT-29大腸癌細胞體外實驗中，消化後胭脂霉發酵萃取物誘發細胞毒性（LC50 33.34% v/v），對非腫瘤細胞無毒性。",
+   "action": "目前不需改變做法，此為體外基礎研究，尚無動物或人體證據支持臨床應用。",
+   "pico": {
+    "P": "體外實驗：人類HT-29大腸癌細胞株與Hs 738非腫瘤細胞株",
+    "I": "熟胭脂霉經體外消化後之結腸發酵萃取物（FE-H）與非消化部分（NDF-H）",
+    "C": "無對照組（比較未處理細胞或不同消化階段樣本）",
+    "O": "主要：HT-29細胞毒性（LC50）、凋亡機制；次要：益生菌生長、酚類生物可利用性、SCFA產量"
+   },
+   "effects": [],
+   "key_numbers": [
+    "FE-H對HT-29細胞LC50為33.34% v/v，對非腫瘤Hs 738細胞無毒性",
+    "胃相階段苯甲酸增加265倍，4-羥基苯甲酸增加19.13倍",
+    "結腸發酵產生短鏈脂肪酸（乙酸/丙酸/丁酸）3.06-7.08 mmol/L"
+   ],
+   "cautions": [
+    "純體外細胞株實驗，無動物或人體資料，不可直接推論臨床化學預防效果",
+    "以細胞毒性（LC50）作為替代指標，未評估長期致癌抑制或存活相關結果",
+    "未提供實驗重複次數、統計檢定方法細節，樣本規模與變異性難以評估"
+   ],
+   "unassessable": [
+    "人體臨床效果",
+    "劇量換算至人體攝取量之可行性",
+    "長期安全性",
+    "利益衝突",
+    "資金來源"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-08-24T06:26:28+08:00"
+  },
+  {
+   "pmid": "42632912",
+   "title": "A qualitative analysis of colon capsule endoscopy using a novel GP-led, home-delivered service model in the Western Isles, Scotland",
+   "journal": "Rural Remote Health",
+   "journal_full": "Rural and remote health",
+   "issn": "1445-6354",
+   "issn_linking": "1445-6354",
+   "impact_factor": 3.5,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.22605/RRH9978",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Shearman T, Watson A, Macleod C",
+   "abstract": "INTRODUCTION: A novel GP-led, home-delivered colon capsule endoscopy (CCE) service was developed and delivered in the remote Western Isles, Scotland. This service model may address issues faced by rural dwellers in accessing traditional colonoscopies. Staff perspectives on the development, delivery and impact of this service model may assist decision-makers and future researchers in understanding the nuances of CCE delivery models in rural areas.\nMETHODS: An interview schedule was developed and participants were recruited from an estimated population of 27 staff members involved in the CCE service. Purposive sampling was used to ensure participants were from diverse job families and work locations, capturing the service from different perspectives. Participants undertook semi-structured interviews on Microsoft Teams between July and September 2024. We used an iterative grounded-theory approach to theme generation using broad interview topics as a guide to ensure the analysis met the research aims. Data were analysed using thematic analysis five-stage approach.\nRESULTS: Eleven participants from Scotland's National Health Service (NHS) boards, including NHS Western Isles, NHS Highland and NHS National Services Scotland, underwent interview. Job families represented included medical, nursing and administrative. Participants identified unique enablers and barriers to the development and delivery of the service. The island's remote geography, for example, was an enabler in the development of the unique service model but occasionally a barrier during service delivery. Advantages and disadvantages were broadly grouped into those for patients, staff and the healthcare system. Advantages included reduced patient travel and improved job satisfaction. Participants did not identify significant risks with this service model. There was some uncertainty and disagreement regarding certain service impacts, including economic benefit and impacts on the endoscopy service.\nDISCUSSION: Other services may find participant reflections on the enablers, barriers and risk management strategies of this service useful when considering similar changes. Participant reflections on their own experiences, including advantages and disadvantages for staff, can be taken at face value whereas reflections on the patient experience require further evaluation with patients themselves. There was uncertainty and disagreement about some of the impacts of the service and its economic benefit, where limited conclusions may be drawn without further research.\nCONCLUSION: Our research identified key enablers and barriers to the development and delivery of GP-led, hospital-at-home delivered CCE in a remote part of Scotland. While participants expressed broad agreement about advantages and disadvantages of the service, including significant benefits for staff, some of these require further evaluation from the patient perspective. Similarly, there were areas where participants were uncertain or disagreed about the impact of the service, requiring further quantitative and economic evaluation.",
+   "watched": [],
+   "related": [],
+   "title_zh": "以質性分析探討蘇格蘭西部群島一種新型「家庭醫師主導、居家送達」大腸膠囊內視鏡（CCE）服務模式",
+   "abstract_zh": "前言：在蘇格蘭偏遠的西部群島發展並執行了一種新型「家庭醫師主導、居家送達」大腸膠囊內視鏡（CCE）服務。此服務模式可能解決偏鄉居民在取得傳統大腸鏡檢查上所面臨的困難。工作人員對此服務模式之發展、執行與影響的觀點，或可協助決策者與未來研究者理解偏鄉地區CCE服務模式的細節。\n\n方法：研究團隊設計訪談大綱，並自約27名參與CCE服務的工作人員中招募受訪者。採用立意抽樣以確保受訪者來自不同職類與工作地點，藉此從不同角度捕捉此服務。受訪者於2024年7月至9月間透過Microsoft Teams接受半結構式訪談。研究採用反覆進行的紮根理論取向進行主題生成，以廣泛的訪談主題作為指引，確保分析符合研究目的。資料以五階段主題分析法進行分析。\n\n結果：來自蘇格蘭國民保健署（NHS）各委員會（包括NHS Western Isles、NHS Highland與NHS National Services Scotland）的11名參與者接受訪談，職類涵蓋醫療、護理與行政人員。參與者指出此服務發展與執行過程中的獨特促進因素與障礙。舉例而言，島嶼的偏遠地理環境在服務模式發展階段是促進因素，但在服務執行時偶爾成為障礙。優缺點大致可分為對病人、工作人員與醫療體系三方面。優點包括減少病人往返交通與提升工作人員工作滿意度。參與者並未指出此服務模式有重大風險。對於部分服務影響，包括經濟效益與對內視鏡服務的衝擊，存在一定程度的不確定性與意見分歧。\n\n討論：其他單位在考慮類似變革時，或可參考本研究參與者對此服務促進因素、障礙與風險管理策略的反思。參與者對自身經驗（包括對工作人員的優缺點）的反思可直接採信，但對病人經驗的反思仍需進一步向病人本身進行評估。對於服務的部分影響及其經濟效益，存在不確定性與意見分歧，在缺乏進一步研究下僅能得出有限的結論。\n\n結論：本研究確認了在蘇格蘭偏遠地區發展與執行「家庭醫師主導、居家式」CCE服務的關鍵促進因素與障礙。雖然參與者對此服務的優缺點（包括對工作人員的顯著益處）大致有共識，但部分益處仍需從病人角度進一步評估。同樣地，參與者對此服務的部分影響存在不確定性或意見分歧，需要進一步的量化與經濟評估研究。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "質性訪談研究（n=11），僅反映工作人員主觀觀感，無臨床結果數據，且服務模式與台灣醫療體系高度不相容，對臨床決策參考價值極低。",
+   "relevance": "低度相關",
+   "relevance_why": "本文為蘇格蘭偏鄉GP主導居家CCE服務之質性人員觀感研究，非外科介入亦非診斷效能數據，台灣醫療地理與體系差異大，難以直接應用。",
+   "novelty": "仍屬早期",
+   "one_liner": "在蘇格蘭西部群島CCE服務的11名工作人員中，質性訪談發現此居家CCE模式對病人交通與員工滿意度有正面觀感，經濟效益尚不明確。",
+   "action": "目前不需改變做法：此為國外偏鄉服務模式之人員觀感質性研究，無臨床結果數據，不影響台灣現行大腸鏡/CCE安排流程。",
+   "pico": {
+    "P": "蘇格蘭西部群島CCE服務相關工作人員，自約27名中招募11名受訪（醫療、護理、行政人員）",
+    "I": "GP主導、居家送達之大腸膠囊內視鏡（CCE）服務模式",
+    "C": "無正式對照組（訪談中隱含與傳統大腸鏡服務比較）",
+    "O": "主要：工作人員對服務發展與執行之促進因素、障礙、優缺點之質性主題；次要：對病人與醫療系統影響、經濟效益之不確定性"
+   },
+   "effects": [],
+   "key_numbers": [
+    "共11名工作人員完成訪談（自估計27名相關人員中招募）",
+    "本研究無量化臨床結果（如診斷率、完成率、病人滿意度分數）可供計算",
+    "參與者對經濟效益與內視鏡服務衝擊之看法存在不確定性與分歧，未有共識"
+   ],
+   "cautions": [
+    "為質性研究，僅反映工作人員主觀觀感，非病人結果或診斷效能數據，無法評估CCE臨床效益",
+    "樣本數極小（n=11），且受訪者為服務參與者本身，可能存在自我報告與立場偏誤",
+    "作者自陳病人觀點需另行研究，經濟效益與系統衝擊仍無定論，結論僅適用於原情境（蘇格蘭偏鄉）"
+   ],
+   "unassessable": [
+    "盲法（質性研究不適用）",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本分析（作者明確指出尚待研究）",
+    "訪談者與受訪者關係之影響"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。",
+   "added_at": "2026-08-24T06:26:28+08:00"
+  },
+  {
+   "pmid": "42629759",
+   "title": "Global burden of esophagus cancer, stomach cancer and colon and rectal cancer from 1990 to 2050: A cross-sectional study",
+   "journal": "Medicine (Baltimore)",
+   "journal_full": "Medicine",
+   "issn": "1536-5964",
+   "issn_linking": "0025-7974",
+   "impact_factor": 2.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1097/MD.0000000000050376",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Wang R, Liu W",
+   "abstract": "Esophageal cancer, stomach cancer, and colon and rectal cancer (CRC), as the main components of gastrointestinal tract cancer (GTC), represent significant obstacles to reducing the global cancer burden. Therefore, obtaining an epidemiological characteristic of the 3 major GTCs is highly important. This study aims to analyze and forecast the changing trends in the burden of the 3 major GTCs, offering a certain theoretical foundation for cancer public health policymakers. The data utilized in this study were all sourced from the Global Burden of Disease study 2021. Specifically, the case numbers and age-standardized rate (ASR) for prevalence, death, and disability-adjusted life years of esophageal cancer, stomach cancer, and CRC were included. Additionally, the estimated annual percentage change of the 3 major GTCs was computed for the period spanning from 1990 to 2021 across 5 distinct socio-demographic index and 21 Global Burden of Disease regions. Moreover, a Bayesian age-period-cohort model was constructed to project the disease burden of the 3 major GTCs from 2022 to 2050. From 1990 to 2021, the number of cases of the 3 major GTCs showed an overall increasing trend. Regarding ASRs, with the exception of the increasing age-standardized prevalence rate of CRC, the ASRs of the remaining GTCs demonstrated a downward trend. The disease burden of the 3 GTCs was higher among males compared to females, predominantly affecting individuals aged 50 and above. The regions with notable ASRs of the 3 major GTCs were East Asia and high-income Asia. The prediction outcomes also suggested that, apart from the age-standardized prevalence rate of CRC, the burden of the 3 major GTCs might display a decreasing trend in the next 29 years. Although the ASRs of the 3 primary types of GTC exhibit a downward trend, the case counts of these types still maintain a relatively high baseline level. Consequently, conducting GTC screening in specific regions, developing relevant health policies and popularizing disease-related knowledge continue to hold critical significance.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42391207",
+     "date": "2026-07-02",
+     "title_zh": "中國癌症登記地區大腸直腸癌死亡率之時空型態與預測：基於多重模型之全國性研究",
+     "score": 3,
+     "one_liner": "分析中國2005-2018年CRC死亡登記資料，發現都市死亡率下降（APC -1.21%）但農村上升（AAPC 0.59%），預測至2035年整體緩升。",
+     "sim": 0.211
+    }
+   ],
+   "title_zh": "1990年至2050年全球食道癌、胃癌與大腸直腸癌（CRC）之疾病負擔：橫斷面研究",
+   "abstract_zh": "食道癌、胃癌與大腸直腸癌（CRC）作為胃腸道癌症（GTC）的主要組成，是降低全球癌症負擔的重大障礙。因此，掌握這三大GTC的流行病學特徵極為重要。本研究旨在分析並預測這三大GTC疾病負擔的變化趨勢，為癌症公共衛生政策制定者提供理論基礎。本研究資料全數來自2021年全球疾病負擔研究（GBD 2021）。具體而言，納入了食道癌、胃癌與CRC之盛行率、死亡率及失能調整生命年（DALY）的病例數與年齡標準化率（ASR）。此外，計算了1990年至2021年間，跨5種不同社會人口指數（SDI）與21個GBD區域的三大GTC之估計年百分比變化（EAPC）。同時，建構貝氏年齡－時期－世代模型，以預測2022年至2050年三大GTC的疾病負擔。1990年至2021年間，三大GTC的病例數整體呈上升趨勢。就ASR而言，除CRC的年齡標準化盛行率呈上升趨勢外，其餘GTC的ASR均呈下降趨勢。三種GTC的疾病負擔在男性中均高於女性，且主要影響50歲以上族群。東亞與高收入亞洲地區三大GTC的ASR特別顯著。預測結果亦顯示，除CRC年齡標準化盛行率外，未來29年三大GTC的負擔可能呈下降趨勢。儘管三種主要GTC的ASR呈下降趨勢，其病例數仍維持相對高的基準水準。因此，在特定地區進行GTC篩檢、制定相關衛生政策及普及疾病相關知識，仍具有重要意義。",
+   "evidence_level": "橫斷面",
+   "score": 3,
+   "score_reason": "純描述性GBD資料分析與預測模型，無介入比較，對臨床決策無直接指引，僅供公衛政策參考。",
+   "relevance": "低度相關",
+   "relevance_why": "純流行病學負擔與預測研究，非外科介入，不影響手術或治療決策。",
+   "novelty": "再確認已知",
+   "one_liner": "分析1990-2021年全球GBD資料並預測至2050年，發現CRC年齡標準化盛行率持續上升，餘GTC指標下降，東亞負擔最高。",
+   "action": "目前不需改變做法；此為全球流行病學描述性研究，無臨床介入資訊可供借鏡。",
+   "pico": {
+    "P": "全球人口，資料來源為GBD 2021研究（涵蓋食道癌、胃癌、CRC病例）",
+    "I": "時間趨勢觀察（1990-2021）與貝氏年齡-時期-世代模型預測（2022-2050）",
+    "C": "無對照組（描述性趨勢分析，比較不同性別、年齡、SDI分區、GBD區域）",
+    "O": "主要：盛行率、死亡率、DALY之病例數與ASR；次要：EAPC、性別/年齡/區域分佈"
+   },
+   "effects": [],
+   "key_numbers": [
+    "CRC年齡標準化盛行率為三大GTC中唯一呈上升趨勢者，其餘均下降",
+    "疾病負擔集中於男性、50歲以上族群，東亞與高收入亞洲ASR最高",
+    "預測至2050年，除CRC盛行率外，其餘GTC負擔指標呈下降趨勢"
+   ],
+   "cautions": [
+    "生態學研究，僅描述群體層級相關性，無法推論個人層級因果關係",
+    "摘要未提供任何具體ASR數值、信賴區間或p值，僅有趨勢方向敘述",
+    "貝氏預測模型至2050年，長期外推存在高度不確定性，未報告模型驗證或誤差範圍"
+   ],
+   "unassessable": [
+    "GBD原始資料品質與各國通報偏誤",
+    "模型假設與驗證方法",
+    "利益衝突",
+    "資金來源"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "前作僅聚焦中國CRC死亡率之時空分析，本篇則擴大至全球三大胃腸道癌症（含CRC）並延伸預測至2050年，補上全球視角與跨癌別比較的缺口，但兩者皆屬描述性流行病學研究，無法互相驗證因果或治療效果。",
+   "added_at": "2026-08-24T06:26:28+08:00"
+  },
+  {
+   "pmid": "42629638",
+   "title": "A Novel Approach for Analyzing Non-Proportional Hazards With Long-Term Survivors: The Defective Yang-Prentice Model",
+   "journal": "Biom J",
+   "journal_full": "Biometrical journal. Biometrische Zeitschrift",
+   "issn": "1521-4036",
+   "issn_linking": "0323-3847",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1007/978-1-4757-3294-8_6",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Calsavara V",
+   "abstract": "In survival analysis, addressing non-proportional hazards and the presence of long-term survivors poses substantial methodological challenges, as traditional models often fail to capture these features adequately. To overcome these limitations, a novel long-term survival model is proposed that integrates the Yang and Prentice framework with a defective Gompertz distribution. The proposed model provides a robust approach for analyzing time-to-event data with non-proportional hazards and a cure fraction. Comprehensive simulation studies and an application to colorectal cancer data illustrate its flexibility in capturing time-varying hazard ratios and long-term survivors, making it a useful alternative to existing methods.",
+   "watched": [],
+   "related": [],
+   "title_zh": "分析具長期存活者之非比例風險資料的新方法：缺陷型Yang-Prentice模型",
+   "abstract_zh": "在存活分析中，處理非比例風險與長期存活者的存在構成重大方法學挑戰，因傳統模型往往無法充分捕捉這些特徵。為克服此限制，本研究提出一種新穎的長期存活模型，將Yang and Prentice架構與缺陷型Gompertz分布相結合。此模型為分析具非比例風險與治癒比例（cure fraction）的存活時間資料，提供了穩健的分析方法。透過完整的模擬研究，以及應用於大腸直腸癌資料，展示此模型在捕捉隨時間變化之風險比與長期存活者方面的彈性，使其成為現有方法之外的實用替代選擇。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "純統計方法學論文，無臨床試驗設計或病人結果數據，對臨床決策無直接實用性，僅對從事存活分析研究的學者有參考價值。",
+   "relevance": "低度相關",
+   "relevance_why": "這是統計模型開發論文，非外科介入或臨床研究，僅將大腸直腸癌資料作為模型示範案例。",
+   "novelty": "仍屬早期",
+   "one_liner": "提出結合Yang-Prentice架構與缺陷型Gompertz分布的新統計模型，以模擬與大腸直腸癌資料示範可處理非比例風險與治癒比例。",
+   "action": "目前不需改變臨床做法；此為統計方法學論文，供未來研究者於分析長期存活資料時參考使用。",
+   "pico": {
+    "P": "無明確病人族群（方法學論文，以大腸直腸癌存活資料作為模型示範用途，未提供人數）",
+    "I": "缺陷型Yang-Prentice存活模型（統計方法）",
+    "C": "既有存活分析模型（未明確列出比較方法名稱）",
+    "O": "模型對非比例風險與治癒比例的捕捉能力（模擬研究與實際資料應用之擬合表現）"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供任何具體病人數、追蹤時間或量化效果指標",
+    "無HR、存活率或p值等可供讀者判讀的統計數字",
+    "屬模擬研究＋案例示範性質，非臨床療效比較"
+   ],
+   "cautions": [
+    "純方法學論文，摘要未報告病人數、追蹤期間、資料來源等基本研究資訊",
+    "大腸直腸癌資料僅作模型示範用途，非前瞻性臨床驗證，不可直接推論至臨床決策",
+    "無任何量化效果數字（HR、存活率、p值等），無法評估臨床意義或模型優劣程度"
+   ],
+   "unassessable": [
+    "病人樣本數",
+    "追蹤期間",
+    "資料來源與族群特徵",
+    "模型效能之具體統計數值",
+    "利益衝突",
+    "研究設計細節"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-08-24T06:26:28+08:00"
+  },
+  {
+   "pmid": "42631605",
+   "title": "LncRNA SLC12A9-AS1 Drives Malignant Progression in Colorectal Cancer by Regulating miR-139-3p",
+   "journal": "J Vis Exp",
+   "journal_full": "Journal of visualized experiments : JoVE",
+   "issn": "1940-087X",
+   "issn_linking": "1940-087X",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.3791/72546",
+   "ptype": "Video-Audio Media",
+   "ptype_list": [
+    "Video-Audio Media"
+   ],
+   "authors": "Zhao S, Zhang S, Tan Q, Luo Y, Wu X",
+   "abstract": "This study investigated the function of long noncoding RNA SLC12A9-AS1 in colorectal cancer (CRC) cells and its potential regulatory mechanism. Reverse transcription-quantitative polymerase chain reaction (RT-qPCR) was used to measure SLC12A9-AS1 and miR-139-3p expression in CRC cell lines. Cell viability was assessed using the Cell Counting Kit-8 (CCK-8) assay, whereas migration and invasion were evaluated using permeable cell culture insert assays. The interaction between SLC12A9-AS1 and miR-139-3p was examined using dual-luciferase reporter (DLR) and RNA immunoprecipitation (RIP) assays. SLC12A9-AS1 was significantly upregulated, whereas miR-139-3p was downregulated, in CRC cells. Silencing SLC12A9-AS1 markedly reduced cell viability, migration, invasion, and epithelial-mesenchymal transition (EMT). The DLR and RIP assays supported an interaction between SLC12A9-AS1 and miR-139-3p. In addition, inhibition of miR-139-3p reversed the suppressive effects of SLC12A9-AS1 knockdown on malignant cellular phenotypes. Collectively, these findings indicate that SLC12A9-AS1 is abnormally overexpressed in CRC cells and that its knockdown attenuates malignant phenotypes, at least in part through regulation of miR-139-3p. These results provide new in vitro experimental evidence for understanding the molecular mechanisms involved in CRC pathogenesis.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42371737",
+     "date": "2026-06-29",
+     "title_zh": "MiR-30a-5p 透過靶向Vimentin抑制ERK訊息傳遞路徑，抑制大腸直腸癌細胞之遷移與上皮間質轉化",
+     "score": 2,
+     "one_liner": "在CRC細胞株中，比較miR-30a-5p過表現與對照，發現其可抑制遷移與EMT，機轉為靶向vimentin並抑制ERK路徑。",
+     "sim": 0.279
+    },
+    {
+     "pmid": "42370439",
+     "date": "2026-06-29",
+     "title_zh": "miR-145 透過調控 SNAI1 及 cAMP/PKA 訊息路徑抑制大腸直腸癌之進展與轉移",
+     "score": 2,
+     "one_liner": "在大腸癌細胞株（DLD1、HCT116）中，比較SNAI1與miR-145過度表現，發現miR-145可抑制SNAI1誘導之cAMP/PKA活化、細胞侵犯與存活。",
+     "sim": 0.213
+    },
+    {
+     "pmid": "42411497",
+     "date": "2026-07-07",
+     "title_zh": "槲寄生多糖（Huaier）透過降低P-糖蛋白並誘導Nrf2/SLC7A11/GPX4依賴性鐵死亡，使抗藥性大腸直腸癌細胞對Oxaliplatin重新敏感",
+     "score": 2,
+     "one_liner": "在OXA抗藥性CRC細胞株中，比較OXA單獨與OXA+Huaier多糖聯合處理，發現聯合治療經Nrf2/SLC7A11/GPX4路徑誘導鐵死亡以逆轉抗藥性（機制層級，無具體數值）。",
+     "sim": 0.204
+    }
+   ],
+   "title_zh": "LncRNA SLC12A9-AS1 透過調控 miR-139-3p 驅動大腸直腸癌之惡性進展",
+   "abstract_zh": "本研究探討長非編碼RNA SLC12A9-AS1在大腸直腸癌（CRC）細胞中的功能及其潛在調控機轉。以RT-qPCR測量CRC細胞株中SLC12A9-AS1與miR-139-3p之表現量。以CCK-8試驗評估細胞存活率，以穿透式細胞培養插入試驗評估遷移與侵犯能力。以雙螢光素酶報告基因試驗（DLR）及RNA免疫沉澱試驗（RIP）檢驗SLC12A9-AS1與miR-139-3p之交互作用。結果顯示SLC12A9-AS1在CRC細胞中顯著上調，而miR-139-3p則下降。剔除SLC12A9-AS1可顯著降低細胞存活率、遷移、侵犯及上皮間質轉化（EMT）。DLR與RIP試驗支持SLC12A9-AS1與miR-139-3p之間存在交互作用。此外，抑制miR-139-3p可逆轉SLC12A9-AS1剔除對惡性細胞表現型之抑制效果。總結而言，這些發現顯示SLC12A9-AS1在CRC細胞中異常過度表現，其剔除可減輕惡性表現型，至少部分透過調控miR-139-3p達成。此結果為理解CRC致病分子機轉提供新的體外實驗證據。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "純細胞株體外機轉研究，無動物模型、無病人資料，與臨床決策無直接關聯，僅具基礎科學參考價值。",
+   "relevance": "低度相關",
+   "relevance_why": "純基礎研究（細胞株層級的lncRNA/miRNA機轉），非外科介入、無臨床應用價值。",
+   "novelty": "仍屬早期",
+   "one_liner": "在CRC細胞株中，比較SLC12A9-AS1剔除與對照，發現其抑制細胞存活、遷移、侵犯及EMT，機轉涉及miR-139-3p調控。",
+   "action": "目前不需改變做法：此為體外機轉研究，無病人資料，不影響臨床手術或治療決策。",
+   "pico": {
+    "P": "大腸直腸癌細胞株（未提供具體株名與樣本重複次數）",
+    "I": "SLC12A9-AS1 剔除（knockdown）",
+    "C": "對照組（未剔除細胞）；另以miR-139-3p抑制劑做救援實驗",
+    "O": "主要：細胞存活率、遷移、侵犯、EMT表現；次要：SLC12A9-AS1與miR-139-3p之交互作用（DLR、RIP）"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供任何具體數值（%、p值、CI），僅描述方向性結果（上調/下調、增加/減少）",
+    "無法計算ARR或NNT，因缺乏絕對數字",
+    "研究結論限於體外細胞層級，無動物或人體驗證資料"
+   ],
+   "cautions": [
+    "完全是細胞株體外實驗，無動物模型驗證，結論外推至人體CRC致病機轉為過度詮釋",
+    "摘要無任何具體數值、p值或信賴區間，僅文字描述方向，無法判斷效應量大小",
+    "無樣本重複次數、無統計方法說明，難以評估研究嚴謹度"
+   ],
+   "unassessable": [
+    "樣本重複次數",
+    "統計方法",
+    "細胞株來源與代數",
+    "利益衝突",
+    "是否有動物實驗佐證",
+    "臨床病人組織驗證"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "與先前看過的miR-30a-5p、miR-145、Huaier三篇同屬CRC細胞株層級的lncRNA/miRNA機轉研究，皆為體外實驗、無臨床數據，屬同一類基礎研究延伸，臨床實用性同樣有限。",
+   "added_at": "2026-08-24T06:26:28+08:00"
+  },
+  {
+   "pmid": "42630712",
+   "title": "A Phase II Clinical Trial of Chemotherapy Rechallenge with or without Targeted Therapy in Refractory Metastatic Colorectal Cancer",
+   "journal": "Oncol Res",
+   "journal_full": "Oncology research",
+   "issn": "1555-3906",
+   "issn_linking": "0965-0407",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1001/jamaoncol.2022.7136",
+   "ptype": "Clinical Trial, Phase II",
+   "ptype_list": [
+    "Clinical Trial, Phase II"
+   ],
+   "authors": "Wang C, Huang M, Li W, Sheng X, Zhao X, Zhu X",
+   "abstract": "Background: Patients with refractory metastatic colorectal cancer (mCRC) face limited treatment options after failure of standard therapies. This single-arm, phase II study aimed to evaluate the efficacy and safety of rechallenge strategies using previously effective regimens in late-line mCRC. Methods: Patients who progressed after ≥2 lines of prior chemotherapy, with a prior progression-free survival (PFS) ≥4 months and a ≥4-month treatment-free interval on that regimen were enrolled. Patients received rechallenge chemotherapy (oxaliplatin-, irinotecan-, or raltitrexed-based) with or without targeted agents (bevacizumab or cetuximab). Primary endpoint was investigator-assessed PFS. Secondary endpoints included objective response rate (ORR), disease control rate (DCR), overall survival (OS), and safety. Results: Forty-three patients were enrolled (31 received chemotherapy plus targeted agents; 12 received chemotherapy alone). One patient discontinued treatment, leaving 42 patients evaluable for tumor response. The median PFS and OS were 3.97 months (95% CI: 2.46-5.48) and 13.03 months (95% CI: 9.68-16.38), respectively, while the ORR and DCR were 2.4% and 61.9%. Subgroup analysis showed that patients receiving chemotherapy plus targeted agents had higher DCRs (80.0% for bevacizumab-based regimens and 72.7% for cetuximab-based regimens vs. 18.2% for chemotherapy alone;) and longer median PFS (4.17 and 4.50 months vs. 1.57 months, respectively). Grade 3 or 4 adverse events were reported in 39.5% of patients, with no severe adverse events or treatment-related deaths observed. Conclusion: Chemotherapy rechallenge strategies, particularly when combined with targeted agents, demonstrated promising clinical activity and acceptable safety in selected heavily pretreated patients with mCRC who previously achieved sustained disease control.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42421558",
+     "date": "2026-07-09",
+     "title_zh": "Surufatinib合併FOLFOX/FOLFIRI對比FOLFOXIRI作為轉移性大腸直腸癌二線治療之隨機第二期試驗",
+     "score": 4,
+     "one_liner": "在57名二線mCRC病人中，比較surufatinib合併雙藥與三藥化療，ORR相近（35.7% vs 39.3%），但雙藥組OS較長（19.0 vs 10.9個月）。",
+     "sim": 0.266
+    },
+    {
+     "pmid": "42360560",
+     "date": "2026-06-27",
+     "title_zh": "轉移性大腸直腸癌二線FOLFIRI併用Ramucirumab依前線生物製劑暴露之臨床結果：前使用Bevacizumab與前使用Anti-EGFR族群之回溯性比較",
+     "score": 3,
+     "one_liner": "在85名接受二線FOLFIRI+Ramucirumab之mCRC病人中，前用Anti-EGFR組（n=30）ORR、PFS、OS均優於前用Bevacizumab組（n=55），但兩組RAS狀態與腫瘤側嚴重不平衡。",
+     "sim": 0.236
+    },
+    {
+     "pmid": "42608395",
+     "date": "2026-08-19",
+     "title_zh": "個人化標靶藥物合併全程新輔助治療（TNT）用於高風險直腸癌之多世代、生物標記導向第二期試驗（TRAINER研究）",
+     "score": 5,
+     "one_liner": "在96名高風險LARC病人中，以生物標記分派bevacizumab或cetuximab合併TNT，整體CR率達40%（36/96），無對照組。",
+     "sim": 0.236
+    }
+   ],
+   "title_zh": "難治性轉移性大腸直腸癌之化療再挑戰合併或不合併標靶治療：第二期臨床試驗",
+   "abstract_zh": "背景：難治性轉移性大腸直腸癌（mCRC）病人在標準治療失敗後治療選擇有限。本單臂第二期研究旨在評估晚線mCRC病人使用先前有效方案進行「再挑戰」策略之療效與安全性。方法：納入條件為先前接受≥2線化療後疾病惡化、該方案先前無惡化存活期（PFS）≥4個月、且該方案治療空窗期≥4個月之病人。病人接受再挑戰化療（以oxaliplatin、irinotecan或raltitrexed為基礎），併用或不併用標靶藥物（bevacizumab或cetuximab）。主要終點為研究者評估之PFS，次要終點包括客觀反應率（ORR）、疾病控制率（DCR）、整體存活（OS）及安全性。結果：共納入43名病人（31人接受化療合併標靶藥物；12人僅接受化療）。1名病人中止治療，42名病人可評估腫瘤反應。中位PFS為3.97個月（95% CI: 2.46–5.48），中位OS為13.03個月（95% CI: 9.68–16.38），ORR為2.4%，DCR為61.9%。亞群分析顯示，接受化療合併標靶藥物之病人DCR較高（bevacizumab方案組80.0%、cetuximab方案組72.7% vs 化療單獨組18.2%），中位PFS也較長（分別為4.17個月與4.50個月 vs 1.57個月）。39.5%病人發生3或4級不良事件，未觀察到嚴重不良事件或治療相關死亡。結論：化療再挑戰策略，尤其合併標靶藥物時，在經篩選、曾達持續疾病控制之重度預治療mCRC病人中，展現出令人期待的臨床活性與可接受之安全性。",
+   "evidence_level": "前瞻性世代",
+   "score": 3,
+   "score_reason": "單臂第二期試驗，樣本數小（n=43）且化療±標靶之關鍵比較為非隨機亞群分析，混雜因子未控制，臨床可信度與可轉譯性有限。",
+   "relevance": "中度相關",
+   "relevance_why": "屬全身性藥物治療策略而非外科介入，但涉及大腸直腸外科團隊常需協同處理的晚線mCRC病人整體治療規劃。",
+   "novelty": "仍屬早期",
+   "one_liner": "在43名難治性mCRC病人中，化療再挑戰合併標靶治療 vs 化療單獨，DCR達80%（bevacizumab組）vs 18.2%，PFS 4.17 vs 1.57個月。",
+   "action": "目前不需改變做法：此為單臂小樣本試驗，化療+標靶 vs 化療單獨為未隨機亞群比較，尚不足以據此調整晚線mCRC治療決策。",
+   "pico": {
+    "P": "43名難治性mCRC病人，先前≥2線化療失敗、該方案先前PFS≥4個月且治療空窗≥4個月",
+    "I": "再挑戰化療（oxaliplatin/irinotecan/raltitrexed based）合併標靶藥物（bevacizumab或cetuximab），n=31",
+    "C": "再挑戰化療單獨，n=12（單臂試驗內之非隨機亞群比較）",
+    "O": "主要：研究者評估PFS；次要：ORR、DCR、OS、安全性"
+   },
+   "effects": [
+    {
+     "outcome": "疾病控制率（DCR）：Bevacizumab合併化療 vs 化療單獨",
+     "ok": true,
+     "i_label": "Bevacizumab+化療",
+     "c_label": "化療單獨",
+     "i_rate": 80.0,
+     "c_rate": 18.2,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 61.8,
+     "benefit": true,
+     "event_bad": false,
+     "nnt": 2,
+     "kind": "NNT",
+     "note": ""
+    },
+    {
+     "outcome": "疾病控制率（DCR）：Cetuximab合併化療 vs 化療單獨",
+     "ok": true,
+     "i_label": "Cetuximab+化療",
+     "c_label": "化療單獨",
+     "i_rate": 72.7,
+     "c_rate": 18.2,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 54.5,
+     "benefit": true,
+     "event_bad": false,
+     "nnt": 2,
+     "kind": "NNT",
+     "note": ""
+    }
+   ],
+   "key_numbers": [
+    "整體：中位PFS 3.97個月（95% CI 2.46-5.48）、OS 13.03個月（95% CI 9.68-16.38）",
+    "ORR僅2.4%，DCR 61.9%，療效主要來自疾病穩定而非腫瘤縮小",
+    "3-4級不良事件39.5%，無治療相關死亡"
+   ],
+   "cautions": [
+    "化療+標靶 vs 化療單獨為單臂試驗內非隨機亞群分析，未校正RAS/BRAF狀態等混雜因子",
+    "ORR僅2.4%，主要療效指標DCR含大量SD，可能高估臨床實質效益",
+    "樣本數極小（12 vs 31，且再分兩種標靶藥物），信賴區間寬，結果不穩定"
+   ],
+   "unassessable": [
+    "RAS/BRAF突變狀態分佈是否平衡",
+    "前線治療暴露細節",
+    "失訪率／ITT分析方式",
+    "試驗註冊資訊",
+    "利益衝突聲明"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。先前看過的論文主要探討mCRC不同線別之標靶合併化療方案或直腸癌新輔助治療，與本篇聚焦之「再挑戰」策略族群及設計不同，無直接關聯。",
+   "added_at": "2026-08-24T06:26:28+08:00"
+  },
+  {
+   "pmid": "42630485",
+   "title": "PSMB9 Promotes the Malignant Progression of Colorectal Cancer by Regulating the PI3K/Akt Pathway",
+   "journal": "Oncol Res",
+   "journal_full": "Oncology research",
+   "issn": "1555-3906",
+   "issn_linking": "0965-0407",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.4049/immunohorizons.2000092",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Gao W, Zheng X, Hu Y, Zou R, Zhou Y, Song X",
+   "abstract": "Background: As a core component of the immunoproteasome, the β1i subunit (proteasome 20S subunit beta 9, PSMB9) is involved in antigen processing and presentation and regulates anti-tumor immune responses. PSMB9 is aberrantly overexpressed in colorectal cancer. However, the precise mechanisms through which PSMB9 contributes to the initiation, progression, and immune regulation of colorectal cancer remain unclear. This study aims to investigate the expression characteristics and biological functions of PSMB9 in colorectal cancer, and to further elucidate the molecular pathways underlying its role in colorectal cancer initiation and progression. The findings are expected to provide a theoretical basis for the development of targeted therapeutic strategies against colorectal cancer. Methods: PSMB9 expression in colorectal cancer was analyzed using the TCGA, GEO, GEPIA, and HPA databases, and further validated in normal colonic epithelial cells and colorectal cancer cell lines by RT-qPCR and Western blot. Lentiviral transduction was used to establish stably transduced HCT116 and SW480 cell lines with PSMB9 knockdown and overexpression, respectively. Cell proliferation, migration, and invasion were assessed by CCK-8, colony formation, wound healing, and Transwell assays. Key proteins of the PI3K/Akt signaling pathway were detected by Western blot. Results: PSMB9 was significantly upregulated at both the mRNA and protein levels in colorectal cancer tissues and cell lines. PSMB9 knockdown significantly inhibited the proliferation, migration, and invasion of colorectal cancer cells, while overexpression enhanced these malignant phenotypes. Mechanistically, PSMB9 exerted oncogenic effects through activation of the PI3K/Akt signaling pathway. Conclusions: PSMB9 promotes the malignant progression of colorectal cancer by regulating the PI3K/Akt signaling pathway.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42418248",
+     "date": "2026-07-08",
+     "title_zh": "Picroside II 透過調控 Notch1 訊號路徑抑制大腸直腸癌細胞進展",
+     "score": 2,
+     "one_liner": "在 SW480 與 SW620 兩株大腸癌細胞中，比較不同濃度 Picroside II 處理與未處理，發現可劑量依賴性抑制增殖、遷移、侵襲及 Notch1 路徑表現。",
+     "sim": 0.219
+    },
+    {
+     "pmid": "42370439",
+     "date": "2026-06-29",
+     "title_zh": "miR-145 透過調控 SNAI1 及 cAMP/PKA 訊息路徑抑制大腸直腸癌之進展與轉移",
+     "score": 2,
+     "one_liner": "在大腸癌細胞株（DLD1、HCT116）中，比較SNAI1與miR-145過度表現，發現miR-145可抑制SNAI1誘導之cAMP/PKA活化、細胞侵犯與存活。",
+     "sim": 0.212
+    },
+    {
+     "pmid": "42470494",
+     "date": "2026-07-20",
+     "title_zh": "利用加權基因共表現網路分析（WGCNA）與機器學習探討大腸直腸癌惡性進展之機制",
+     "score": 2,
+     "one_liner": "在CRC細胞株與異種移植小鼠模型中，發現TFAP4-CDK1軸促進增殖、侵襲與糖解，敲低TFAP4可抑制體內腫瘤生長。",
+     "sim": 0.211
+    }
+   ],
+   "title_zh": "PSMB9 透過調控 PI3K/Akt 訊息路徑促進大腸直腸癌之惡性進展",
+   "abstract_zh": "背景：作為免疫蛋白酶體的核心組成成分，β1i 次單元（蛋白酶體20S次單元beta 9，PSMB9）參與抗原處理與呈現，並調控抗腫瘤免疫反應。PSMB9 在大腸直腸癌中異常過度表現。然而，PSMB9 促進大腸直腸癌起始、進展及免疫調控的確切機制仍不清楚。本研究旨在探討 PSMB9 在大腸直腸癌中的表現特徵與生物學功能，並進一步闡明其在大腸直腸癌起始與進展中所涉及的分子路徑。研究結果預期為開發針對大腸直腸癌的靶向治療策略提供理論基礎。方法：利用 TCGA、GEO、GEPIA 及 HPA 資料庫分析 PSMB9 在大腸直腸癌中的表現，並以 RT-qPCR 及 Western blot 於正常大腸上皮細胞與大腸直腸癌細胞株中進一步驗證。使用慢病毒轉導技術於 HCT116 與 SW480 細胞株中分別建立穩定表現 PSMB9 knockdown 及過度表現之細胞株。以 CCK-8、colony formation、wound healing 及 Transwell 試驗評估細胞增殖、遷移及侵襲能力。以 Western blot 偵測 PI3K/Akt 訊息路徑之關鍵蛋白。結果：PSMB9 在大腸直腸癌組織與細胞株中，mRNA 與蛋白質層級皆顯著上調。PSMB9 knockdown 顯著抑制大腸直腸癌細胞之增殖、遷移及侵襲，而過度表現則增強這些惡性表型。機制上，PSMB9 透過活化 PI3K/Akt 訊息路徑發揮致癌作用。結論：PSMB9 透過調控 PI3K/Akt 訊息路徑促進大腸直腸癌之惡性進展。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "純細胞株與資料庫基礎研究，無動物模型或臨床數據，距臨床應用甚遠，對台灣大腸直腸外科臨床實務無直接參考價值。",
+   "relevance": "低度相關",
+   "relevance_why": "純基礎分子機轉研究（細胞株層級），非外科介入或臨床研究，無法直接應用於病人照護。",
+   "novelty": "仍屬早期",
+   "one_liner": "在大腸癌細胞株（HCT116、SW480）中，比較 PSMB9 knockdown 與過度表現，發現其透過 PI3K/Akt 路徑調控增殖、遷移與侵襲能力。",
+   "action": "目前不需改變做法。此為細胞層級機轉研究，未涉及病人資料或治療策略，尚無臨床應用性。",
+   "pico": {
+    "P": "大腸直腸癌細胞株（HCT116、SW480）與正常大腸上皮細胞；輔以 TCGA/GEO/GEPIA/HPA 資料庫組織表現分析",
+    "I": "PSMB9 knockdown（基因抑制）",
+    "C": "PSMB9 過度表現 vs 對照組（無病人層級對照組）",
+    "O": "主要：細胞增殖、遷移、侵襲能力；次要：PI3K/Akt 路徑關鍵蛋白表現"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要僅描述方向性結果（knockdown 抑制、過度表現增強），未提供具體數值、倍數或 p 值",
+    "無病人層級臨床數據，無法計算任何絕對風險或 NNT",
+    "無陰性結果報告"
+   ],
+   "cautions": [
+    "純細胞株實驗，缺乏動物體內模型與臨床樣本驗證，機轉推論外部效度未知",
+    "摘要未提供任何具體數值或統計檢定結果，僅有方向性描述，證據強度弱",
+    "相關性（PSMB9高表現與惡性表型）被直接詮釋為因果機轉，缺乏更多獨立驗證"
+   ],
+   "unassessable": [
+    "盲法",
+    "樣本量",
+    "統計方法與p值",
+    "利益衝突",
+    "動物實驗（本研究未包含）",
+    "成本分析"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "與先前看過的三篇同屬大腸癌細胞株基礎分子機轉研究（Picroside II/Notch1、miR-145/SNAI1、TFAP4-CDK1），皆為體外訊息路徑探討，性質高度相似，同樣屬早期基礎研究，臨床應用性均低。",
+   "added_at": "2026-08-24T06:26:28+08:00"
+  },
+  {
+   "pmid": "42630475",
+   "title": "Differential Tumor Response and Conversion Outcomes Associated with First-Line Biologic Strategies in Liver-Limited RAS Wild-Type Metastatic Colorectal Cancer",
+   "journal": "Oncol Res",
+   "journal_full": "Oncology research",
+   "issn": "1555-3906",
+   "issn_linking": "0965-0407",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1016/j.ejca.2015.06.116",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Chiang S, Chen M, Lin C, Huang Y, Chiang F, Yang S",
+   "abstract": "Background: Anti-EGFR therapy is widely used as first-line treatment for RAS wild-type metastatic colorectal cancer (mCRC), particularly in patients with left-sided tumors. In liver-limited disease, maximizing tumor shrinkage may facilitate conversion to resectability; however, comparative real-world evidence among panitumumab, cetuximab, and bevacizumab remains limited. This study aimed to compare the clinical outcomes of these biologic agents in patients with RAS wild-type mCRC. Methods: We retrospectively analyzed 241 patients with RAS wild-type mCRC treated with first-line chemotherapy plus panitumumab (n = 76), cetuximab (n = 80), or bevacizumab (n = 85) between 2016 and 2024. Outcomes included depth of response (DpR), objective response rate (ORR), disease control rate (DCR), conversion surgery rate, progression-free survival (PFS), and overall survival (OS). Results: Overall, panitumumab demonstrated superior tumor response, achieving the highest ORR (69.7%) and conversion surgery rate (34.2%), although PFS and OS were comparable among treatment groups. In patients with liver-limited disease, panitumumab was associated with a higher conversion surgery rate than bevacizumab (50.0% vs. 19.4%) and a trend toward longer OS. Right-sided primary tumors and BRAF mutation remained independent predictors of poorer OS. Conclusions: Panitumumab-based therapy was associated with deeper tumor shrinkage and higher conversion rates, particularly in liver-limited mCRC. These findings suggest that greater cytoreduction may increase opportunities for local treatment in selected patients. However, given the retrospective nature of the study, the findings should be considered hypothesis-generating and require prospective validation.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42360560",
+     "date": "2026-06-27",
+     "title_zh": "轉移性大腸直腸癌二線FOLFIRI併用Ramucirumab依前線生物製劑暴露之臨床結果：前使用Bevacizumab與前使用Anti-EGFR族群之回溯性比較",
+     "score": 3,
+     "one_liner": "在85名接受二線FOLFIRI+Ramucirumab之mCRC病人中，前用Anti-EGFR組（n=30）ORR、PFS、OS均優於前用Bevacizumab組（n=55），但兩組RAS狀態與腫瘤側嚴重不平衡。",
+     "sim": 0.312
+    },
+    {
+     "pmid": "42474934",
+     "date": "2026-07-21",
+     "title_zh": "MSI-H/dMMR轉移性大腸直腸癌一線免疫治療對比化療：第三期試驗之系統性回顧與統合分析",
+     "score": 5,
+     "one_liner": "在超過600名MSI-H/dMMR轉移性大腸直腸癌病人中，統合2篇第三期試驗，一線免疫治療較化療顯著改善PFS(HR 0.61)與OS(HR 0.77)。",
+     "sim": 0.23
+    },
+    {
+     "pmid": "42474934",
+     "date": "2026-07-22",
+     "title_zh": "MSI-H/dMMR轉移性大腸直腸癌一線免疫治療對比化療：第三期試驗之系統性回顧與統合分析",
+     "score": 5,
+     "one_liner": "在超過600名MSI-H/dMMR轉移性大腸直腸癌病人中，統合2篇第三期試驗，一線免疫治療較化療顯著改善PFS(HR 0.61)與OS(HR 0.77)。",
+     "sim": 0.23
+    }
+   ],
+   "title_zh": "肝臟局限型RAS野生型轉移性大腸直腸癌：不同一線生物製劑策略之腫瘤反應差異與轉換手術結果",
+   "abstract_zh": "背景：Anti-EGFR治療廣泛用於RAS野生型轉移性大腸直腸癌（mCRC）之一線治療，特別是左側腫瘤病人。在肝臟局限疾病中，最大化腫瘤縮小可能有助於轉換為可切除性；然而，panitumumab、cetuximab與bevacizumab三者之真實世界比較證據仍有限。本研究旨在比較這些生物製劑在RAS野生型mCRC病人中的臨床結果。方法：我們回溯性分析2016至2024年間接受一線化療併用panitumumab（n=76）、cetuximab（n=80）或bevacizumab（n=85）治療之241名RAS野生型mCRC病人。結果指標包括反應深度（DpR）、客觀反應率（ORR）、疾病控制率（DCR）、轉換手術率、無惡化存活期（PFS）與整體存活期（OS）。結果：整體而言，panitumumab展現最優異的腫瘤反應，達到最高ORR（69.7%）與轉換手術率（34.2%），但各治療組間PFS與OS相當。在肝臟局限疾病病人中，panitumumab之轉換手術率高於bevacizumab（50.0% vs. 19.4%），且OS呈現較長之趨勢。右側原發腫瘤與BRAF突變仍為較差OS之獨立預測因子。結論：以panitumumab為基礎之治療與更深的腫瘤縮小及更高的轉換率相關，尤其在肝臟局限型mCRC中。這些發現顯示更大程度的細胞減積可能增加特定病人接受局部治療的機會。然而，鑑於本研究之回溯性性質，這些發現應被視為假說產生性質，需要前瞻性驗證。",
+   "evidence_level": "回溯性研究",
+   "score": 3,
+   "score_reason": "回溯性、非隨機分配藥物之三臂比較，肝限局亞組樣本可能存在選擇偏差，作者自承為假說產生性研究，需前瞻驗證。",
+   "relevance": "高度相關",
+   "relevance_why": "直接涉及大腸直腸外科最關心的肝臟局限轉移性大腸癌轉換手術決策與生物製劑選擇。",
+   "novelty": "仍屬早期",
+   "one_liner": "在241名RAS wild-type mCRC病人中，比較panitumumab、cetuximab、bevacizumab一線治療，panitumumab轉換手術率最高（34.2%），肝限局病人達50.0% vs bevacizumab 19.4%。",
+   "action": "目前不需改變一線用藥選擇；MDT討論邊緣可切除肝轉移病人時可納入此假說性資料參考，仍待前瞻性試驗驗證。",
+   "pico": {
+    "P": "241名RAS野生型mCRC病人，2016-2024接受一線化療併生物製劑（panitumumab 76人、cetuximab 80人、bevacizumab 85人）",
+    "I": "Panitumumab為基礎之一線治療",
+    "C": "Cetuximab或Bevacizumab為基礎之一線治療",
+    "O": "主要：ORR、轉換手術率；次要：DpR、DCR、PFS、OS"
+   },
+   "effects": [
+    {
+     "outcome": "肝臟局限疾病轉換手術率",
+     "ok": true,
+     "i_label": "Panitumumab",
+     "c_label": "Bevacizumab",
+     "i_rate": 50.0,
+     "c_rate": 19.4,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 30.6,
+     "benefit": true,
+     "event_bad": false,
+     "nnt": 3,
+     "kind": "NNT",
+     "note": ""
+    }
+   ],
+   "key_numbers": [
+    "整體ORR：panitumumab 69.7%最高，其餘兩組具體數字未於摘要列出",
+    "整體轉換手術率：panitumumab 34.2%最高，其餘兩組具體數字未列出",
+    "肝限局病人轉換手術率：panitumumab 50.0% vs bevacizumab 19.4%，OS僅呈趨勢未附統計數值"
+   ],
+   "cautions": [
+    "回溯性、非隨機分配生物製劑，肝限局病人選用panitumumab可能已受臨床可切除性評估影響，選擇偏差風險高",
+    "肝限局亞組OS「趨勢」未提供p值或信賴區間，可能未達統計顯著",
+    "三組樣本數不均（76/80/85），摘要未說明基礎特徵是否平衡或是否有多變量校正"
+   ],
+   "unassessable": [
+    "ITT分析",
+    "失訪率",
+    "利益衝突",
+    "試驗註冊",
+    "基礎特徵平衡狀況",
+    "多變量校正後之HR與信賴區間"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-08-24T06:26:28+08:00"
+  }
+ ]
+}
