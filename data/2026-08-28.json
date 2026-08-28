@@ -1,0 +1,1381 @@
+{
+ "date": "2026-08-28",
+ "generated_at": "2026-08-28T14:04:44+08:00",
+ "count": 18,
+ "papers": [
+  {
+   "pmid": "42658496",
+   "title": "A Multilevel Intervention to Identify Individuals for Genetic Testing and Treatment: The IGNITE-TX Pilot Randomized Clinical Trial",
+   "journal": "JAMA Netw Open",
+   "journal_full": "JAMA network open",
+   "issn": "2574-3805",
+   "issn_linking": "2574-3805",
+   "impact_factor": 11.7,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1001/jamanetworkopen.2026.30668",
+   "ptype": "Randomized Controlled Trial",
+   "ptype_list": [
+    "Randomized Controlled Trial"
+   ],
+   "authors": "Jorgensen K, Agusti N, Coffin T, Barajas K, Iniesta M, Bednar E",
+   "abstract": "IMPORTANCE: Cascade genetic testing (CGT) is a key strategy for cancer prevention in families with hereditary breast and ovarian cancer syndrome (HBOC) and Lynch syndrome (LS), yet uptake among at-risk relatives remains persistently low, particularly in medically underserved populations where structural and informational barriers limit access to genetic services.\nOBJECTIVE: To evaluate the feasibility and preliminary effects of IGNITE-TX (Identifying Individuals for Genetic Testing and Treatment), a scalable, bilingual, navigator-supported digital intervention designed to increase CGT uptake among at-risk relatives of individuals with HBOC or LS.\nDESIGN, SETTING, AND PARTICIPANTS: In this 2 × 2 factorial pilot randomized clinical trial, probands with HBOC or LS self-enrolled online from October 1, 2023, to February 15, 2025, after recruitment through clinical, laboratory, and community pathways across the US and invited their at-risk relatives to participate. Families were cluster-randomized to 4 study arms (1:1:1:1); outcomes were assessed at 6 months.\nINTERVENTIONS: Usual care with standard printed materials (arm 1); no-cost telegenetic counseling and testing, self-initiated by the at-risk relative (arm 2); IGNITE-TX, comprising proactive family genetic navigator support and access to a bilingual digital education and decision-support platform (arm 3); or IGNITE-TX plus no-cost telegenetic counseling and testing with navigator-assisted access (arm 4).\nMAIN OUTCOMES AND MEASURES: Feasibility outcomes were enrollment and survey completion at baseline and 6 months. Secondary outcomes were CGT completion among at-risk relatives, informed decision-making, and readiness along the genetic testing pathway.\nRESULTS: In this pilot randomized clinical trial, 60 probands (median age, 46.5 [range, 20-83] years; 59 female [98.3%]) and 144 at-risk relatives (median age, 39 [range, 18-87] years; 71 female [49.3%]) were enrolled. Among at-risk relatives, 99 (68.8%) reported at least 1 structural barrier to care. A total of 58 probands (97.2%) and 117 at-risk relatives (81.3%) completed the 6-month survey. Among at-risk relatives, 1 of 29 (3.4%) completed CGT in arm 1, 8 of 39 (20.5%) in arm 2, 17 of 30 (56.7%) in arm 3, and 36 of 46 (78.3%) in arm 4. Compared with non-IGNITE-TX arms, at-risk relatives in IGNITE-TX arms showed greater CGT completion (odds ratio, 26.9; 95% CI, 2.4-59.5), informed decision-making (48 of 60 [80.0%] vs 8 of 57 [14.0%]; P < .001), and readiness to pursue CGT (action stage: 53 of 61 [86.9%] vs 9 of 55 [16.4%]; P < .001).\nCONCLUSIONS AND RELEVANCE: In this pilot randomized clinical trial, IGNITE-TX was feasible to deliver in a community-recruited cohort with structural barriers to care and was associated with higher CGT completion and improved informed decision-making and readiness compared with non-IGNITE-TX arms. These findings support further evaluation of IGNITE-TX as a scalable navigation model for equitable hereditary cancer care.\nTRIAL REGISTRATION: ClinicalTrials.gov Identifier: NCT05677048.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42377955",
+     "date": "2026-06-30",
+     "title_zh": "遺傳性癌症風險家族中連鎖基因檢測（cascade testing）的差異",
+     "score": 5,
+     "one_liner": "在22,932名帶Lynch症候群或HBOC致病變異的probands中，僅24.24%家族成員接受連鎖檢測，男性、少數族裔、無癌症病史者較低。",
+     "sim": 0.203
+    },
+    {
+     "pmid": "42341482",
+     "date": "2026-06-25",
+     "title_zh": "誰會拒絕基因諮詢？族群基因體篩檢計畫參與者中基因諮詢拒絕率之評估",
+     "score": 3,
+     "one_liner": "在603名PWGS帶有致病性基因變異者中，描述GC接受率60.4%、拒絕率27.7%，拒絕者多見於HBOC，常見原因為已知風險（41.9%）。",
+     "sim": 0.161
+    }
+   ],
+   "title_zh": "多層次介入以識別需接受基因檢測與治療之個案：IGNITE-TX 先驅隨機臨床試驗",
+   "abstract_zh": "重要性：連鎖基因檢測（cascade genetic testing, CGT）是遺傳性乳癌卵巢癌症候群（HBOC）與Lynch症候群（LS）家族中預防癌症的關鍵策略，但高風險親屬的接受率持續偏低，特別是在結構性與資訊性障礙限制基因服務可及性的醫療服務不足族群中。\n\n目的：評估IGNITE-TX（Identifying Individuals for Genetic Testing and Treatment）的可行性與初步效果，此為一項可擴展、雙語、有導航員支持的數位介入，設計目的為提升HBOC或LS個案高風險親屬的CGT接受率。\n\n設計、場域與參與者：本2×2因子設計先驅隨機臨床試驗中，HBOC或LS的probands經臨床、實驗室與社區途徑招募後，於2023年10月1日至2025年2月15日期間自行線上註冊，並邀請其高風險親屬參與。家族以群集隨機分配至4個研究組（1:1:1:1）；於6個月時評估結果。\n\n介入：標準照護（附印刷資料）（第1組）；免費遠端基因諮詢與檢測，由高風險親屬自行發起（第2組）；IGNITE-TX，包含主動式家族基因導航員支持及雙語數位教育與決策支援平台的使用權（第3組）；或IGNITE-TX加上導航員協助之免費遠端基因諮詢與檢測（第4組）。\n\n主要結果與測量：可行性結果為基準與6個月時的註冊與問卷完成率。次要結果為高風險親屬的CGT完成率、知情決策，以及在基因檢測路徑上的準備度。\n\n結果：本先驅隨機臨床試驗共納入60名probands（中位年齡46.5歲，範圍20-83歲；59名女性[98.3%]）與144名高風險親屬（中位年齡39歲，範圍18-87歲；71名女性[49.3%]）。高風險親屬中，99人（68.8%）報告至少有1項照護結構性障礙。58名probands（97.2%）與117名高風險親屬（81.3%）完成6個月問卷。高風險親屬中，第1組29人中1人（3.4%）完成CGT，第2組39人中8人（20.5%），第3組30人中17人（56.7%），第4組46人中36人（78.3%）。與非IGNITE-TX組相比，IGNITE-TX組高風險親屬顯示較高的CGT完成率（勝算比26.9；95% CI 2.4-59.5）、知情決策（48/60[80.0%] vs 8/57[14.0%]；P<.001），及CGT追求準備度（行動期：53/61[86.9%] vs 9/55[16.4%]；P<.001）。\n\n結論與意義：本先驅隨機臨床試驗顯示，IGNITE-TX在具有照護結構性障礙的社區招募族群中具可行性，並與較高的CGT完成率、改善的知情決策及準備度相關，優於非IGNITE-TX組。這些發現支持進一步評估IGNITE-TX作為公平遺傳性癌症照護之可擴展導航模式。\n\n試驗註冊：ClinicalTrials.gov識別碼：NCT05677048。",
+   "evidence_level": "RCT",
+   "score": 4,
+   "score_reason": "設計嚴謹的先驅RCT但樣本量極小（144名親屬）、屬美國特定醫療體系之導航員介入，對台灣大腸直腸外科臨床操作直接參考價值有限。",
+   "relevance": "低度相關",
+   "relevance_why": "此為基因諮詢/導航介入研究，非外科手術或大腸直腸癌治療介入，雖涉及Lynch症候群但主體是社會服務模式而非臨床決策。",
+   "novelty": "仍屬早期",
+   "one_liner": "在144名HBOC/Lynch症候群家族高風險親屬中，IGNITE-TX導航介入使CGT完成率達56.7-78.3%，遠高於一般照護3.4%。",
+   "action": "目前不需改變外科實務；可留意將確診Lynch症候群病人轉介至有主動基因諮詢導航支援的機構，以提升家族篩檢率。",
+   "pico": {
+    "P": "60名HBOC或LS的probands及144名其高風險親屬，於美國社區招募",
+    "I": "IGNITE-TX（主動式基因導航員支持＋雙語數位教育決策平台，第3、4組）",
+    "C": "標準照護（第1組）或親屬自行發起之免費遠端基因諮詢（第2組）",
+    "O": "主要：招募與6個月問卷完成率（可行性）；次要：CGT完成率、知情決策、檢測準備度"
+   },
+   "effects": [
+    {
+     "outcome": "連鎖基因檢測（CGT）完成率",
+     "ok": true,
+     "i_label": "IGNITE-TX+導航協助遠端檢測(第4組)",
+     "c_label": "標準照護(第1組)",
+     "i_rate": 78.3,
+     "c_rate": 3.4,
+     "i_raw": "36/46",
+     "c_raw": "1/29",
+     "arr": 74.8,
+     "benefit": true,
+     "event_bad": false,
+     "nnt": 1,
+     "kind": "NNT",
+     "note": ""
+    },
+    {
+     "outcome": "知情決策達成",
+     "ok": true,
+     "i_label": "IGNITE-TX組",
+     "c_label": "非IGNITE-TX組",
+     "i_rate": 80.0,
+     "c_rate": 14.0,
+     "i_raw": "48/60",
+     "c_raw": "8/57",
+     "arr": 66.0,
+     "benefit": true,
+     "event_bad": false,
+     "nnt": 2,
+     "kind": "NNT",
+     "note": ""
+    },
+    {
+     "outcome": "檢測準備度（行動期）",
+     "ok": true,
+     "i_label": "IGNITE-TX組",
+     "c_label": "非IGNITE-TX組",
+     "i_rate": 86.9,
+     "c_rate": 16.4,
+     "i_raw": "53/61",
+     "c_raw": "9/55",
+     "arr": 70.5,
+     "benefit": true,
+     "event_bad": false,
+     "nnt": 1,
+     "kind": "NNT",
+     "note": ""
+    }
+   ],
+   "key_numbers": [
+    "CGT完成率：第1組3.4% vs 第4組78.3%，絕對差異約75個百分點",
+    "IGNITE-TX vs 非IGNITE-TX的CGT完成勝算比26.9（95% CI 2.4-59.5），信賴區間極寬",
+    "知情決策達成率80.0% vs 14.0%，P<.001，但為次要結果且非硬臨床終點"
+   ],
+   "cautions": [
+    "先驅試驗樣本極小（每組僅29-46名親屬），OR信賴區間寬達2.4-59.5，估計不精確",
+    "以家族為單位群集隨機分配，非個案層級隨機，可能有群集效應未完全校正",
+    "probands 98.3%為女性、自行線上招募，族群代表性與可否推廣至一般臨床（含台灣）場域尚待驗證"
+   ],
+   "unassessable": [
+    "盲法",
+    "allocation concealment",
+    "ITT分析",
+    "利益衝突",
+    "成本分析",
+    "長期臨床結果（如實際癌症預防效益）"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "先前兩篇皆為觀察性研究，顯示Lynch/HBOC家族連鎖基因檢測接受率偏低（約24-60%）。本篇則是首篇針對此問題設計介入的先驅RCT，證實主動導航模式可顯著提升CGT完成率，補上「如何改善低接受率」的實證缺口。",
+   "added_at": "2026-08-28T14:01:41+08:00"
+  },
+  {
+   "pmid": "42645693",
+   "title": "Robotic versus laparoscopic resection for transverse colon and splenic flexure cancer: a systematic review and meta-analysis",
+   "journal": "J Robot Surg",
+   "journal_full": "Journal of robotic surgery",
+   "issn": "1863-2491",
+   "issn_linking": "1863-2483",
+   "impact_factor": 4.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1007/s13304-021-01159-4",
+   "ptype": "Systematic Review, Meta-Analysis",
+   "ptype_list": [
+    "Systematic Review",
+    "Meta-Analysis",
+    "Comparative Study",
+    "Review"
+   ],
+   "authors": "Monsellato I, Palucci M, Marotta F, Basso C, Alagia M, Giannone F",
+   "abstract": "Transverse colon and splenic flexure cancer resections are technically demanding because of variable vascular anatomy, multiquadrant dissection, and proximity to the pancreas and spleen. This systematic review and meta-analysis compared robotic and laparoscopic outcomes and separately summarized published robotic experience. MEDLINE/PubMed, Embase/Ovid, Scopus, and the Cochrane Database of Systematic Reviews were searched through 18 July 2026. Six non-randomized comparative studies included 167 robotic and 296 laparoscopic patients. Overall morbidity (risk ratio [RR] 1.02, 95% confidence interval [CI] 0.72-1.45), major morbidity (RR 0.61, 95% CI 0.27-1.34), anastomotic leakage (RR 0.62, 95% CI 0.22-1.79), reoperation, and lymph-node yield did not differ significantly. Conversion occurred in 0 of 149 robotic and 14 of 278 laparoscopic procedures (Peto odds ratio 0.19, 95% CI 0.06-0.62), although events were sparse. Robotic surgery was associated with a shorter hospital stay (mean difference - 1.01 days, 95% CI -1.66 to -0.37), whereas operative time was highly heterogeneous. Across 10 robotic cohorts comprising 201 patients, pooled overall morbidity was 22.4%, major morbidity 4.9%, anastomotic leakage 3.0%, and R0 resection 98.4%; no 30-day death occurred among 183 reporting patients. Robotic resection is feasible and provides short-term and pathological outcomes comparable with laparoscopy. The shorter hospital stay and lower observed conversion rate suggest clinical advantages, supporting robotic surgery as a valuable minimally invasive option in experienced centers while awaiting confirmation from standardized prospective studies.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42579032",
+     "date": "2026-08-12",
+     "title_zh": "全機器人低前位切除術（TR-LAR）與傳統腹腔鏡手術治療直腸癌之比較：系統性回顧與統合分析",
+     "score": 5,
+     "one_liner": "在5篇研究比較TR-LAR與L-LAR的統合分析中，機器人手術時間多43.2分鐘但轉開腹率低20%，其他腫瘤與併發症指標無差異。",
+     "sim": 0.234
+    },
+    {
+     "pmid": "42579032",
+     "date": "2026-08-13",
+     "title_zh": "全機器人低前位切除術（TR-LAR）與傳統腹腔鏡手術治療直腸癌之比較：系統性回顧與統合分析",
+     "score": 5,
+     "one_liner": "在5篇研究比較TR-LAR與L-LAR治療直腸癌中，全機器人手術時間多43.2分鐘（p=0.008），轉開腹率低20%（p=0.02），其他結果無顯著差異。",
+     "sim": 0.234
+    },
+    {
+     "pmid": "42377471",
+     "date": "2026-06-30",
+     "title_zh": "單孔機器人與腹腔鏡經肛門微創手術（TAMIS）治療直腸腫瘤之首次比較分析：手術效率與臨床結果",
+     "score": 5,
+     "one_liner": "在108名接受TAMIS之直腸腫瘤病人中，單孔機器人組手術時間較短（44.6 vs 57.5分，p=0.026）、住院天數較短（1.47 vs 2.51天，p<0.001）。",
+     "sim": 0.22
+    }
+   ],
+   "title_zh": "機器人手術與腹腔鏡手術治療橫結腸與脾曲癌之比較：系統性回顧與統合分析",
+   "abstract_zh": "橫結腸與脾曲癌切除因血管解剖變異、多象限剝離、且鄰近胰臟與脾臟，手術技術要求高。本系統性回顧與統合分析比較機器人與腹腔鏡手術之結果，並另外彙整已發表的機器人手術經驗。檢索MEDLINE/PubMed、Embase/Ovid、Scopus及Cochrane系統性回顧資料庫，檢索至2026年7月18日。共納入6篇非隨機比較研究，包含167名機器人手術病人與296名腹腔鏡手術病人。整體併發症（風險比[RR] 1.02，95%信賴區間[CI] 0.72-1.45）、主要併發症（RR 0.61，95% CI 0.27-1.34）、吻合口洩漏（RR 0.62，95% CI 0.22-1.79）、再次手術、淋巴結摘取數目均無顯著差異。轉開腹發生率：機器人組149例中0例，腹腔鏡組278例中14例（Peto勝算比0.19，95% CI 0.06-0.62），惟事件數稀少。機器人手術住院天數較短（平均差異-1.01天，95% CI -1.66至-0.37），而手術時間異質性極高。在10個機器人手術世代、共201名病人中，彙整整體併發症率為22.4%，主要併發症率4.9%，吻合口洩漏率3.0%，R0切除率98.4%；183名有報告資料之病人中無30天死亡。機器人切除術是可行的，且短期與病理結果與腹腔鏡相當。較短的住院天數與較低的觀察轉開腹率顯示臨床優勢，支持機器人手術在經驗豐富的中心作為有價值的微創選項，惟仍待標準化前瞻性研究確認。",
+   "evidence_level": "統合分析",
+   "score": 5,
+   "score_reason": "納入研究全為非隨機回溯性比較，樣本量小且轉開腹事件極稀少，證據等級有限；但主題聚焦於技術困難的橫結腸/脾曲癌，臨床實用性尚可。",
+   "relevance": "高度相關",
+   "relevance_why": "橫結腸與脾曲癌手術是大腸直腸外科技術挑戰之一，機器人平台選擇直接影響臨床決策。",
+   "novelty": "仍屬早期",
+   "one_liner": "在6篇非隨機研究、167名機器人與296名腹腔鏡治療橫結腸/脾曲癌病人中，機器人組住院天數短1.01天，轉開腹率0/149 vs 14/278。",
+   "action": "經驗豐富中心可考慮機器人手術治療橫結腸/脾曲癌以縮短住院天數與降低轉開腹風險，但因證據等級低，暫不需全面改變現有腹腔鏡策略。",
+   "pico": {
+    "P": "橫結腸與脾曲癌接受微創切除之病人，共6篇比較研究163名機器人與296名腹腔鏡病人；另10篇機器人世代共201名病人",
+    "I": "機器人輔助結腸切除術",
+    "C": "腹腔鏡結腸切除術",
+    "O": "主要outcome：整體併發症、主要併發症、吻合口洩漏、轉開腹率、住院天數；次要outcome：再次手術、淋巴結摘取數、R0切除率、30天死亡率"
+   },
+   "effects": [
+    {
+     "outcome": "轉開腹率",
+     "ok": true,
+     "i_label": "機器人手術",
+     "c_label": "腹腔鏡手術",
+     "i_rate": 0.0,
+     "c_rate": 5.0,
+     "i_raw": "0/149",
+     "c_raw": "14/278",
+     "arr": 5.0,
+     "benefit": true,
+     "event_bad": true,
+     "nnt": 20,
+     "kind": "NNT",
+     "note": ""
+    }
+   ],
+   "key_numbers": [
+    "轉開腹率：機器人0/149 vs 腹腔鏡14/278，事件數稀少，結果不穩定（Peto OR 0.19, 95% CI 0.06-0.62）",
+    "住院天數：機器人組平均短1.01天（95% CI -1.66至-0.37）",
+    "整體併發症無差異：RR 1.02（95% CI 0.72-1.45），CI跨過1"
+   ],
+   "cautions": [
+    "全為非隨機回溯性研究，外科醫師選擇病人做機器人手術可能有選案偏誤，難以排除confounding",
+    "轉開腹事件僅14例，事件稀少導致信賴區間寬且結果不穩定，不宜過度解讀因果",
+    "手術時間異質性極高但未提供統合估計值，各研究間手術技術、學習曲線差異未說明"
+   ],
+   "unassessable": [
+    "allocation concealment",
+    "盲法",
+    "ITT分析",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "各研究病人選擇標準是否一致",
+    "長期腫瘤學結果（局部復發、五年存活）"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。之前看過的論文為機器人與腹腔鏡直腸癌LAR及TAMIS之比較，解剖部位與手術挑戰（骨盆腔操作）與本篇橫結腸/脾曲癌（多象限剝離、鄰近胰脾）不同，臨床情境不直接可比。",
+   "added_at": "2026-08-28T14:01:41+08:00"
+  },
+  {
+   "pmid": "42656563",
+   "title": "Examining the link between tooth loss and multiple health outcomes: a comprehensive synthesis of evidence from meta-analyses",
+   "journal": "Front Public Health",
+   "journal_full": "Frontiers in public health",
+   "issn": "2296-2565",
+   "issn_linking": "2296-2565",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1186/s12912-022-01051-5",
+   "ptype": "Systematic Review, Meta-Analysis",
+   "ptype_list": [
+    "Systematic Review",
+    "Meta-Analysis"
+   ],
+   "authors": "Song S, Xie W, Huang S, He J, Chen L, Liu F",
+   "abstract": "OBJECTIVES: Evidence linking tooth loss to various systemic health consequences is summarized and evaluated in this umbrella review. Evidence gaps are identified, and recommendations for the development of public oral health measures are provided.\nMETHODS: This prospective registered umbrella review was conducted in accordance with the PRISMA guidelines. To identify meta-analyses of observational studies that have explored the link between tooth loss and systemic health outcomes, systematic literature searches were conducted in PubMed, the Web of Science, MEDLINE, and the Cochrane Library from the inception of the databases through September 2025. Methodological quality and evidence strength were evaluated using AMSTAR-2, GRADE, and credibility assessments.\nRESULTS: An examination of 27 meta-analyses containing 40 distinct estimates revealed that tooth loss was linked to increased risks of cardiovascular diseases, several types of cancer, neurodegenerative diseases, metabolic disorders, mental disorders, and respiratory diseases. Dose-response analyses revealed incremental risks with increasing numbers of teeth lost for several outcomes, including cardiovascular diseases, all-cause mortality, esophageal cancer, lung cancer, colorectal cancer, cognitive decline, and dementia. However, the comprehensive evidence quality was predominantly rated as low or very low, with significant heterogeneity and potential biases noted.\nCONCLUSION: This umbrella review synthesizes evidence demonstrating that tooth loss is consistently linked to increased risks of multiple detrimental health consequences, underscoring its importance in systemic health rather than merely being a local dental issue. Oral health and holistic health management, especially among older adults people, should be considered to help reduce the risk of various systemic illnesses.\nSYSTEMATIC REVIEW REGISTRATION: https://www.crd.york.ac.uk/PROSPERO/view/CRD420251149566.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42619402",
+     "date": "2026-08-21",
+     "title_zh": "超加工食品攝取與癌症風險：系統性回顧與統合分析之雨傘綜述",
+     "score": 3,
+     "one_liner": "在7篇MA及1篇SR中，比較UPF高低攝取族群，發現UPF可能增加整體癌症、大腸直腸癌等風險，但證據確定性多為極低。",
+     "sim": 0.263
+    },
+    {
+     "pmid": "42619402",
+     "date": "2026-08-22",
+     "title_zh": "超加工食品攝取與癌症風險：系統性回顧與統合分析的雨傘綜述",
+     "score": 3,
+     "one_liner": "雨傘綜述納入7篇MA、1篇SR，發現UPF攝取可能與大腸直腸癌等多種癌症風險上升有關，但GRADE多為低／極低確定性。",
+     "sim": 0.263
+    },
+    {
+     "pmid": "42454054",
+     "date": "2026-07-16",
+     "title_zh": "阻塞性肺病（OLD）與發炎性腸道疾病（IBD）之相關性：系統性回顧與統合分析",
+     "score": 4,
+     "one_liner": "統合分析30篇觀察性研究，探討OLD與IBD雙向關聯，發現IBD增加後續氣喘/COPD風險、反之亦然，CD關聯最明顯。",
+     "sim": 0.183
+    }
+   ],
+   "title_zh": "探討牙齒脱失與多重健康結果之關聯：統合分析證據之綜合整理",
+   "abstract_zh": "目的：本雨傘綜述總結並評估牙齒脱失與各種全身健康後果之間關聯的證據。並指出證據缺口，提供公共口腔健康措施發展之建議。\n方法：本前瞻性註冊之雨傘綜述依循PRISMA指引進行。為找出探討牙齒脱失與全身健康結果關聯之觀察性研究統合分析，於PubMed、Web of Science、MEDLINE及Cochrane Library自資料庫建立起至2025年9月進行系統性文獻搜尋。方法學品質與證據強度以AMSTAR-2、GRADE及可信度評估進行評鑑。\n結果：檢視27篇統合分析、包含40個獨立效應量，發現牙齒脱失與心血管疾病、多種癌症、神經退化疾病、代謝疾病、精神疾病及呼吸道疾病之風險增加有關。劍量反應分析顯示，對於數項結果（包括心血管疾病、全因死亡率、食道癌、肺癌、大腸直腸癌、認知衰退及失智症），隨著失去牙齒數量增加，風險呈遞增趨勢。然而，整體證據品質多評為低或極低，並存在顯著異質性及潛在偏誤。\n結論：本雨傘綜述綜合證據顯示牙齒脱失持續與多種不良健康後果之風險增加相關，強調其在全身健康中的重要性，而非僅是局部牙科問題。應考量口腔健康與整體健康管理，特別是在老年族群中，以協助降低各種全身性疾病之風險。\n系統性回顧註冊：https://www.crd.york.ac.uk/PROSPERO/view/CRD420251149566。",
+   "evidence_level": "統合分析",
+   "score": 2,
+   "score_reason": "為觀察性研究之雨傘綜述，證據多為低/極低確定性，且非外科治療性研究，對大腸直腸外科臨床決策實用性極低。",
+   "relevance": "低度相關",
+   "relevance_why": "主題為牙科健康與全身多重疾病之觀察性關聯，大腸直腸癌僅為其中一項次要結果，非手術或治療性介入研究。",
+   "novelty": "再確認已知",
+   "one_liner": "27篇統合分析(40效應量)顯示牙齒脱失與心血管病、癌症(含CRC)等多重疾病風險上升有關，證據多為低/極低確定性。",
+   "action": "目前不需改變做法，此為觀察性牙科健康與全身疾病關聯之雨傘綜述，非大腸直腸外科治療性研究。",
+   "pico": {
+    "P": "27篇統合分析、40個獨立效應量之觀察性研究族群（未特定總人數）",
+    "I": "牙齒脱失（暴露）",
+    "C": "牙齒無脱失或脱失數較少者",
+    "O": "主要：心血管疾病、多種癌症(含大腸直腸癌)、神經退化疾病、代謝疾病、精神疾病、呼吸道疾病風險；次要：劍量反應下之全因死亡率"
+   },
+   "effects": [],
+   "key_numbers": [
+    "納入27篇統合分析、40個獨立效應量，整體證據品質多評為低或極低（GRADE）",
+    "大腸直腸癌、食道癌、肺癌等呈劍量反應關係（掉牙越多風險越高），但摘要未附具體HR/OR數值",
+    "摘要僅描述風險方向性增加，全文未提供任何絕對風險數字或信賴區間"
+   ],
+   "cautions": [
+    "觀察性研究之統合分析無法確立因果關係，牙齒脱失可能是社經地位、共病或生活習慣之混雜代理指標",
+    "整體證據品質多為低/極低，異質性高，將關聯過度詮釋為臨床建議需謹慎",
+    "摘要通篇未提供絕對風險、HR/OR數值或信賴區間，僅有方向性結論，難以評估效應大小"
+   ],
+   "unassessable": [
+    "AMSTAR-2具體評分結果",
+    "各outcome之HR/OR數值與信賴區間",
+    "發表偏誤評估",
+    "納入研究之I²異質性數值",
+    "大腸直腸癌相關原始研究之篇數與樣本量"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-08-28T14:01:41+08:00"
+  },
+  {
+   "pmid": "42646603",
+   "title": "Sodium Butyrate Therapy in Ulcerative Colitis: A Systematic Review of Preclinical and Clinical Evidence",
+   "journal": "Med Sci (Basel)",
+   "journal_full": "Medical sciences (Basel, Switzerland)",
+   "issn": "2076-3271",
+   "issn_linking": "2076-3271",
+   "impact_factor": 5.9,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1080/07853890.2025.2470958",
+   "ptype": "Systematic Review, Review",
+   "ptype_list": [
+    "Systematic Review",
+    "Review"
+   ],
+   "authors": "Golea G, Ilieș R, Caziuc A, Andraș D, Ilie-Ene A, Seicean R",
+   "abstract": "Background/Objectives: Sodium butyrate, a short-chain fatty acid produced by gut microbial fermentation of dietary fiber, has attracted increasing interest as a potential adjunctive therapy for ulcerative colitis (UC) because of its anti-inflammatory, barrier-protective, and immunomodulatory properties. This systematic review aimed to evaluate the current clinical and preclinical evidence regarding the efficacy and mechanisms of sodium butyrate in UC. Methods: A systematic review was conducted in accordance with the PRISMA 2020 guidelines and registered in PROSPERO (CRD420261437741). PubMed/MEDLINE, Scopus, Web of Science, ClinicalTrials.gov and the WHO International Clinical Trials Registry Platform were searched from February through April 2026. Eligible clinical and experimental studies investigating oral or rectal administration of sodium butyrate in UC or experimental colitis were included. Risk of bias was assessed using RoB 2, ROBINS-I, or the SYRCLE tool according to study design. Results: Twenty-two studies were included, comprising ten clinical trials, one prospective observational study and eleven preclinical animal studies. In adults diagnosed with UC, oral sodium butyrate, particularly microencapsulated formulations, demonstrated encouraging effects as an adjunct to standard therapy by improving clinical remission rates, quality of life and reducing disease activity and inflammatory biomarkers. Evidence in pediatric inflammatory bowel disease remained inconsistent. Studies evaluating rectal sodium butyrate enemas reported variable clinical efficacy despite evidence of local biological activity. Preclinical studies consistently demonstrated reduced intestinal inflammation, improved epithelial barrier integrity, modulation of oxidative stress, favorable alterations of the gut microbiota, and regulation of several mechanistic pathways identified across individual preclinical studies, including PI3K/AKT/mTOR, WNT/ERK, ERK/STAT3, autophagy and ferroptosis. Conclusions: Current evidence suggests that sodium butyrate represents a promising adjunctive therapeutic strategy for UC, supported by consistent mechanistic findings and encouraging clinical results, particularly with oral formulations. However, the available clinical evidence remains heterogeneous, and larger, well-designed randomized controlled trials with standardized formulations and treatment protocols are required before its routine clinical implementation can be considered.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42389518",
+     "date": "2026-07-02",
+     "title_zh": "腸道菌叢代謝物丁酸鹽透過增強自噬相關訊號傳導減輕DSS誘導結腸炎之腸道發炎反應",
+     "score": 2,
+     "one_liner": "在DSS誘導結腸炎小鼠模型中，口服丁酸鈉透過增強自噬訊號（ATG16L1、LC3-II上升）減輕腸道發炎與屏障破壞。",
+     "sim": 0.188
+    },
+    {
+     "pmid": "42615757",
+     "date": "2026-08-20",
+     "title_zh": "升糖素樣胜肽類似物對發炎性腸道疾病影響之證據：一篇範疇性文獻回顧（Scoping Review）",
+     "score": 2,
+     "one_liner": "本篇為scoping review，整理臨床前與觀察性研究，顯示GLP-1/GLP-2促效劑可能減少IBD腸道發炎並促進黏膜再生，證據仍屬初期。",
+     "sim": 0.179
+    },
+    {
+     "pmid": "42615757",
+     "date": "2026-08-21",
+     "title_zh": "腸促胰泬素類似物（GLP）於發炎性腸道疾病之影響證據：範疇性文獻回顧",
+     "score": 2,
+     "one_liner": "在IBD相關前臨床與觀察性研究中，範疇性回顧GLP-1/GLP-2受體促效劑之機轉與初步臨床效益，證據仍屬早期且無具體統計數值。",
+     "sim": 0.179
+    }
+   ],
+   "title_zh": "丁酸鈉治療潰瘍性結腸炎：臨床前與臨床證據之系統性回顧",
+   "abstract_zh": "背景/目的：丁酸鈉是腸道微生物發酵膳食纖維所產生的短鏈脂肪酸，因其抗發炎、保護腸道屏障及免疫調節特性，被視為潰瘍性結腸炎（UC）潛在輔助治療而受到越來越多關注。本系統性回顧旨在評估目前關於丁酸鈉在UC中療效與機轉的臨床與臨床前證據。方法：本研究依循PRISMA 2020準則進行，並登錄於PROSPERO（CRD420261437741）。於2026年2月至4月搜尋PubMed/MEDLINE、Scopus、Web of Science、ClinicalTrials.gov及WHO國際臨床試驗註冊平台。納入研究口服或直腸投予丁酸鈉於UC或實驗性結腸炎之臨床與實驗性研究。依研究設計以RoB 2、ROBINS-I或SYRCLE工具評估偏誤風險。結果：共納入22篇研究，包括10篇臨床試驗、1篇前瞻性觀察研究及11篇臨床前動物研究。在確診UC的成人中，口服丁酸鈉，特別是微膠囊配方，作為標準治療輔助手段展現令人鼓舞的效果，可改善臨床緩解率、生活品質，並降低疾病活動度與發炎生物標記。兒童發炎性腸道疾病之證據仍不一致。評估直腸丁酸鈉灌腸的研究報告臨床療效不一，儘管有局部生物活性之證據。臨床前研究一致顯示腸道發炎減少、上皮屏障完整性改善、氧化壓力調節、腸道菌叢有利改變，以及多項機轉路徑之調控，包括PI3K/AKT/mTOR、WNT/ERK、ERK/STAT3、自噬與鐵死亡等個別臨床前研究中所辨識之路徑。結論：目前證據顯示丁酸鈉是UC一項有潛力的輔助治療策略，獲得一致的機轉發現與令人鼓舞的臨床結果支持，尤其是口服配方。然而，現有臨床證據仍具異質性，在其常規臨床應用可被考慮之前，需要更大規模、設計良好、採用標準化配方與治療方案的隨機對照試驗。",
+   "evidence_level": "系統性回顧",
+   "score": 3,
+   "score_reason": "雖登錄PROSPERO且方法嚴謹，但納入研究異質性高、多為小型試驗與動物研究，結論仍為早期；對大腸直腸外科手術決策無直接影響。",
+   "relevance": "低度相關",
+   "relevance_why": "此為UC藥物輔助治療（非手術介入）之系統性回顧，屬消化內科用藥範疇，與大腸直腸外科手術決策關聯有限。",
+   "novelty": "仍屬早期",
+   "one_liner": "系統性回顧22篇研究（10臨床試驗、1前瞻觀察、11動物研究），發現口服丁酸鈉可能改善UC臨床緩解率，但證據異質且仍屬早期。",
+   "action": "目前不需改變做法：此為藥物輔助療法之早期證據，UC手術適應症（如藥物難治、穿孔、癌變）判斷不受影響。",
+   "pico": {
+    "P": "潰瘍性結腸炎或實驗性結腸炎患者/動物模型（22篇研究：10臨床試驗、1前瞻觀察、11動物研究）",
+    "I": "口服或直腸投予丁酸鈉（含微膠囊配方）",
+    "C": "標準治療或安慰劑（各研究不一）；部分無明確對照組",
+    "O": "主要：臨床緩解率、疾病活動度、發炎生物標記；次要：生活品質、腸道屏障功能、腸道菌叢、機轉路徑調節"
+   },
+   "effects": [],
+   "key_numbers": [
+    "共納入22篇研究：10篇臨床試驗、1篇前瞻性觀察研究、11篇臨床前動物研究",
+    "口服丁酸鈉（尤其微膠囊配方）改善臨床緩解率與生活品質，但摘要未提供具體數值",
+    "兒童IBD證據不一致；直腸灌腸療效變異大，具體數字均未於摘要中提供"
+   ],
+   "cautions": [
+    "摘要無任何具體百分比、事件數或信賴區間，僅質性描述『改善』『令人鼓舞』，難以評估效果大小",
+    "混合臨床試驗與動物研究做整體結論，機轉路徑多來自動物模型，外推至人類需謹慎",
+    "作者自陳證據異質性高，樣本量小，尚無法支持常規臨床應用，此為早期綜整而非確證性證據"
+   ],
+   "unassessable": [
+    "個別試驗樣本大小",
+    "盲法與allocation concealment",
+    "失訪率",
+    "ITT分析",
+    "利益衝突",
+    "統合分析之量化效果值（此為敘述性系統性回顧，未做meta-analysis）"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "本篇與先前看過之丁酸鹽於DSS結腸炎小鼠模型的機轉研究（自噬訊號）主題高度相關，本篇進一步系統性整合該機轉證據並延伸至人類臨床試驗層級，但結論仍維持早期、證據不足以改變臨床實務的一致評價。",
+   "added_at": "2026-08-28T14:01:41+08:00"
+  },
+  {
+   "pmid": "42658927",
+   "title": "A necroptotic-to-apoptotic signaling axis underlies inflammatory bowel disease",
+   "journal": "Science",
+   "journal_full": "Science (New York, N.Y.)",
+   "issn": "1095-9203",
+   "issn_linking": "0036-8075",
+   "impact_factor": 47.3,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1126/science.aeh7112",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Pang J, Al-Ani A, Patel K, Zhou Y, Young S, Chen J",
+   "abstract": "Inflammatory bowel disease (IBD) is a chronic condition caused by altered cytokine signaling, maladaptive immunity, dysbiosis, and intestinal barrier dysfunction. Although current therapies aim to correct these imbalances to induce remission, most patients ultimately relapse, suggesting that key pathogenic mechanisms persist. Here, we identified aberrant epithelial cell death signaling as an underlying feature of IBD that arises in patients in remission and on advanced therapy. Mechanistically, nascent inflammation skewed epithelial cells into an M1-macrophage-like transcriptional state that promoted RIPK1-independent necroptotic signaling. This signaling then triggered inducible nitric oxide synthase-assisted mitochondrial apoptosis of absorptive epithelial cells and PUMA-mediated intestinal stem cell death. Thus, aberrant epithelial cell death signaling represents a hallmark of IBD that occurs early in mucosal lesion development, persists despite current therapeutic strategies, and predicts clinical relapse.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42514322",
+     "date": "2026-07-30",
+     "title_zh": "尿石素在腸道發炎與癌症交會處的角色—敘事性回顧",
+     "score": 1,
+     "one_liner": "本篇敘事回顧整理UroA於IBD與CRC中抗發炎、抗氧化、免疫調節及抗癌機制的臨床前證據，強調仍需臨床試驗驗證。",
+     "sim": 0.154
+    }
+   ],
+   "title_zh": "壞死性凋亡到凋亡的訊號傳導軸為發炎性腸道疾病（IBD）的病理基礎",
+   "abstract_zh": "發炎性腸道疾病（IBD）是一種由細胞因子訊號改變、失調的免疫反應、菌群失衡及腸道屏障功能障礙所導致的慢性疾病。雖然目前的治療目標是糾正這些失衡以誘導緩解，但大多數患者最終仍會復發，這表示關鍵的致病機制持續存在。在此，我們發現異常的上皮細胞死亡訊號傳導是IBD的一項潛在特徵，這在處於緩解期且接受先進治療的患者中也會出現。機制上，初期發炎會使上皮細胞轉變為類似M1巨噬細胞的轉錄狀態，此狀態會促進不依賴RIPK1的壞死性凋亡（necroptotic）訊號傳導。此訊號接著會透過誘導型一氧化氮合酶（iNOS）協助的線粒體凋亡途徑，導致吸收性上皮細胞死亡，並透過PUMA介導腸道幹細胞死亡。因此，異常的上皮細胞死亡訊號傳導是IBD的一項標誌性特徵，在黏膜病灶發展早期即出現，儘管接受目前的治療策略仍持續存在，並可預測臨床復發。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "此為機轉層級的基礎/轉譯研究（Science等級可信度高），但無臨床試驗設計、無手術相關介入，對大腸直腸外科臨床決策無立即實用性。",
+   "relevance": "低度相關",
+   "relevance_why": "純機轉研究，探討IBD上皮細胞死亡訊號傳導路徑，非外科介入或手術決策相關議題。",
+   "novelty": "仍屬早期",
+   "one_liner": "在IBD患者與模式系統中，發現異常的壞死性凋亡至凋亡訊號軸早期出現且於緩解期仍持續存在，並可預測臨床復發。",
+   "action": "目前不需改變外科做法；此為機轉研究，尚無臨床應用或治療標的證據，僅供未來藥物開發參考。",
+   "pico": {
+    "P": "IBD患者（含緩解期及接受先進治療者）與相關動物/細胞模型；具體人數摘要未載明",
+    "I": "檢測上皮細胞死亡訊號傳導路徑（RIPK1非依賴性壞死性凋亡、iNOS介導線粒體凋亡、PUMA介導幹細胞死亡）",
+    "C": "無對照組（機轉描述性研究，非介入性比較試驗）",
+    "O": "主要：異常上皮細胞死亡訊號是否為IBD早期且持續存在之特徵；次要：是否可預測臨床復發"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供具體樣本數、事件數或統計數值（p值、CI等）",
+    "核心宣稱為訊號路徑存在且與復發相關，但未附上量化預測力數據",
+    "無對照組比較數據可供計算絕對風險或NNT"
+   ],
+   "cautions": [
+    "機轉研究非臨床試驗，「預測復發」的因果推論證據強度有限，需臨床驗證",
+    "摘要未提供樣本數、統計方法或效應量，無法評估研究規模與可信區間",
+    "研究對象與方法（人類樣本 vs 動物模型比例）摘要未清楚說明，難以判斷外推性"
+   ],
+   "unassessable": [
+    "樣本數",
+    "統計方法與p值",
+    "人類樣本與動物模型比例",
+    "利益衝突",
+    "研究設計細節",
+    "臨床追蹤期與復發定義"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。先前列出的尿石素敘事回顧探討的是天然化合物對腸道發炎/癌症的機轉，與本篇探討的上皮細胞死亡訊號路徑機轉主題不同，缺乏直接關聯性。",
+   "added_at": "2026-08-28T14:01:41+08:00"
+  },
+  {
+   "pmid": "42649501",
+   "title": "Programmable ZBTB7A RNA N6-methyladenosine site-specific demethylation suppresses colorectal cancer liver metastasis",
+   "journal": "Mol Cancer",
+   "journal_full": "Molecular cancer",
+   "issn": "1476-4598",
+   "issn_linking": "1476-4598",
+   "impact_factor": 42.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1002/anie.201807942",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Chen X, Zhao S, Liu B, Fan Y, Qiu H, Ren L",
+   "abstract": "Colorectal cancer liver metastasis (CRLM) is the primary cause of CRC-related mortality, with inevitable chemoresistance to targeted therapies and immunotherapy. N6-methyladenosine (m6A), as a crucial epigenetic regulator of gene expression and cellular physiology, involved in the pathogenesis of CRLM. Precise manipulation of m6A modifications could offer a non-pharmacological precision treatment for many diseases. However, the precise editing of m6A modification in regulating CRLM progression remains elusive. Here we integrated multi-omics and identified zinc finger and BTB domain-containing 7A (ZBTB7A) as an m6A-modified transcription factor that promoted CRLM. Mechanistically, METTL3-mediated m6A modification of ZBTB7A facilitated recognition by the m6A reader YTHDF1/3 complex, enhancing its translation and expression. This m6A-dependent regulation promoted CRLM progression via activation of the ARHGAP26/Rho GTPase signaling axis. Notably, we applied a targeted RNA m6A erasure (TRME) system to achieve site-specific demethylation at a single site (m6A_site_411666) within ZBTB7A mRNA, without perturbing m6A abundance. Temporal demethylation at this site is sufficient to inhibit the CRC cell migration. This study unveils the critical role of the METTL3/ZBTB7A/ARHGAP26 axis in the process of m6A-mediated CRLM and positions m6A precise editing as a promising therapy in the preclinical treatment of CRLM.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42500682",
+     "date": "2026-07-26",
+     "title_zh": "大腸直腸癌肝轉移：機制與治療",
+     "score": 2,
+     "one_liner": "本文綜述CRLM的免疫耐受微環境機制、現行治療選項與新興策略，未提供原創臨床療效數據。",
+     "sim": 0.182
+    },
+    {
+     "pmid": "42500682",
+     "date": "2026-07-27",
+     "title_zh": "大腸直腸癌肝轉移：機制與治療",
+     "score": 2,
+     "one_liner": "本文綜述CRLM免疫耐受微環境機制與現行/新興治療策略，未提供任何原創臨床試驗數據或療效比較。",
+     "sim": 0.182
+    },
+    {
+     "pmid": "42352951",
+     "date": "2026-06-26",
+     "title_zh": "大腸直腸癌中的N7-甲基鳥苷（m7G）修飾：分子機轉與臨床意涵",
+     "score": 2,
+     "one_liner": "本文綜述m7G RNA修飾（METTL1/WDR4、eIF4E等）在大腸直腸癌致病、進展、預後與治療中的分子機轉，屬純機轉整理無臨床數據。",
+     "sim": 0.18
+    }
+   ],
+   "title_zh": "可編程ZBTB7A RNA N6-甲基腺嘌呤（m6A）位點特異性去甲基化抑制大腸直腸癌肝轉移",
+   "abstract_zh": "大腸直腸癌肝轉移（CRLM）是大腸直腸癌相關死亡的主要原因，且對標靶治療與免疫治療存在不可避免的化療抗藥性。N6-甲基腺嘌呤（m6A）作為基因表達與細胞生理的關鍵表觀遺傳調節因子，參與CRLM的致病機轉。精確操控m6A修飾可為許多疾病提供非藥物性精準治療。然而，精確編輯m6A修飾以調控CRLM進展的機制仍不明確。本研究整合多重體學分析，鑑定出鋅指與BTB域含蛋白7A（ZBTB7A）為一種促進CRLM的m6A修飾轉錄因子。機制上，METTL3所介導的ZBTB7A m6A修飾促進m6A讀取蛋白YTHDF1/3複合體的識別，增強其轉譯與表達。此m6A依賴性調控透過活化ARHGAP26/Rho GTPase訊號軸促進CRLM進展。值得注意的是，我們應用靶向RNA m6A去除（TRME）系統，在ZBTB7A mRNA內單一位點（m6A_site_411666）達成位點特異性去甲基化，且不影響整體m6A豐度。該位點的暫時性去甲基化足以抑制大腸直腸癌細胞的遷移能力。本研究揭示METTL3/ZBTB7A/ARHGAP26軸在m6A介導CRLM過程中的關鍵角色，並將m6A精確編輯定位為CRLM前臨床治療中的一種有潛力的療法。",
+   "evidence_level": "其他",
+   "score": 1,
+   "score_reason": "純基礎分子機轉研究（細胞株與可能的動物模式），無人體臨床數據，對台灣大腸直腸外科臨床實務目前無直接應用價值。",
+   "relevance": "低度相關",
+   "relevance_why": "屬於基礎科學／分子機轉研究，非外科介入或臨床試驗，短期內不影響臨床決策。",
+   "novelty": "仍屬早期",
+   "one_liner": "在CRLM細胞模型中，發現METTL3/ZBTB7A/ARHGAP26軸促進轉移，位點特異性m6A去甲基化可抑制癌細胞遷移能力。",
+   "action": "目前不需改變做法；此為前臨床分子機轉研究，尚無人體或動物療效數據可轉化為臨床決策。",
+   "pico": {
+    "P": "大腸直腸癌肝轉移相關細胞模型（未提供病人人數，屬細胞/分子層級研究）",
+    "I": "位點特異性m6A去甲基化（TRME系統，靶向ZBTB7A mRNA m6A_site_411666）",
+    "C": "無對照組（或未去甲基化之對照細胞，摘要未明確給出對照設計細節）",
+    "O": "主要：CRC細胞遷移能力；次要：ZBTB7A表達、METTL3/YTHDF1/3/ARHGAP26/Rho GTPase訊號軸活性"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供任何絕對數值（如轉移抑制率、存活率），僅描述機轉與定性結果",
+    "無人體臨床數據，無法計算ARR/NNT",
+    "「暫時性去甲基化足以抑制遷移」為定性描述，未附具體百分比或統計值"
+   ],
+   "cautions": [
+    "全文為細胞層級（可能含動物模式）機轉研究，無人體臨床試驗數據，外推至病人治療效果為過度延伸",
+    "摘要未提供任何統計檢定、p值或信賴區間，無法評估效應量的統計可信度",
+    "『遷移抑制』為替代指標，與臨床實際轉移抑制或病人存活結果之間仍有巨大轉譯落差"
+   ],
+   "unassessable": [
+    "樣本量／動物或細胞實驗設計細節",
+    "統計方法與p值",
+    "是否有活體動物模式驗證",
+    "利益衝突",
+    "臨床可轉譯性與安全性"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-08-28T14:01:41+08:00"
+  },
+  {
+   "pmid": "42658168",
+   "title": "Beyond the drug: autoimmune predisposition to DRESS syndrome",
+   "journal": "Proc (Bayl Univ Med Cent)",
+   "journal_full": "Proceedings (Baylor University. Medical Center)",
+   "issn": "1525-3252",
+   "issn_linking": "0899-8280",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Sep",
+   "doi": "10.1080/08998280.2026.2669448",
+   "ptype": "Multicenter Study",
+   "ptype_list": [
+    "Multicenter Study"
+   ],
+   "authors": "Verma K, Nguyen K, Alam Z, Goldstein D, Cutts K, Tarbox M",
+   "abstract": "BACKGROUND: Drug reaction with eosinophilia and systemic symptoms (DRESS) syndrome is a rare, severe hypersensitivity reaction characterized by rash, hematologic abnormalities, and multiorgan involvement. Although DRESS is typically triggered by medications, interindividual variability suggests a role for host-related factors. This study investigated whether underlying autoimmune diseases increase susceptibility to DRESS.\nMETHODS: A retrospective, propensity score-matched case-control analysis was conducted using a large multicenter database, comparing 1128 patients with DRESS to 1128 controls matched by age, sex, and race. Autoimmune comorbidities were identified through ICD-10 codes encompassing systemic and organ-specific conditions.\nRESULTS: Several autoimmune diseases were significantly more prevalent in patients with DRESS, including hypothyroidism (odds ratio [OR] 1.56; 95% confidence interval [CI] 1.24-1.96; P < 0.001), type 2 diabetes mellitus (OR 1.58; 95% CI 1.31-1.91; P < 0.001), rheumatoid arthritis (OR 2.17; 95% CI 1.36-3.46; P < 0.001), psoriasis (OR 2.28; 95% CI 1.28-4.06; P = 0.004), inflammatory bowel disease (OR 1.81; 95% CI 1.08-3.04; P = 0.02), and mixed connective tissue disease (OR 2.59; 95% CI 1.52-4.44; P < 0.001).\nCONCLUSION: These findings highlight the importance of heightened vigilance when prescribing high-risk medications to patients with autoimmune diseases and underscore the need for prospective studies exploring genetic and immunologic mechanisms linking autoimmunity and drug hypersensitivity.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42357492",
+     "date": "2026-06-26",
+     "title_zh": "奈米藥物遞送系統於慢性自體免疫疾病之研究進展：聚焦糖尿病、發炎性腸道疾病與類風濕性關節炎",
+     "score": 2,
+     "one_liner": "本文綜述奈米藥物遞送系統於DM、IBD、RA三種慢性自體免疫疾病之應用進展，屬機制性文獻回顧，無臨床試驗數據。",
+     "sim": 0.15
+    }
+   ],
+   "title_zh": "藥物之外：DRESS 症候群的自體免疫易感性",
+   "abstract_zh": "背景：藥物反應合併嗜伊紅性白血球增多及全身症狀（DRESS）症候群是一種罕見且嚴重的過敏反應，特徵為皮疹、血液學異常及多器官受累。雖然DRESS通常由藥物引發，但個體間的差異性提示宿主相關因子可能扮演角色。本研究探討潛在自體免疫疾病是否會增加DRESS的易感性。\n\n方法：本研究為回溯性、傾向分數配對的病例對照分析，使用大型多中心資料庫，比較1128名DRESS患者與1128名依年齡、性別、種族配對之對照組。自體免疫共病症透過ICD-10碼辨識，涵蓋全身性及器官特異性疾病。\n\n結果：多種自體免疫疾病在DRESS患者中顯著更為常見，包括甲狀腺功能低下（勝算比[OR] 1.56；95%信賴區間[CI] 1.24-1.96；P < 0.001）、第二型糖尿病（OR 1.58；95% CI 1.31-1.91；P < 0.001）、類風濕性關節炎（OR 2.17；95% CI 1.36-3.46；P < 0.001）、乾癬（OR 2.28；95% CI 1.28-4.06；P = 0.004）、發炎性腸道疾病（OR 1.81；95% CI 1.08-3.04；P = 0.02），以及混合性結締組織病（OR 2.59；95% CI 1.52-4.44；P < 0.001）。\n\n結論：這些發現凸顯在為自體免疫疾病患者開立高風險藥物時，應提高警覺的重要性，並強調需要前瞻性研究進一步探討連結自體免疫與藥物過敏之遺傳與免疫機制。",
+   "evidence_level": "病例對照",
+   "score": 2,
+   "score_reason": "此為皮膚科／過敏免疫領域回溯性病例對照研究，與大腸直腸外科臨床決策無直接關聯，僅IBD一項與本科系間接相關。",
+   "relevance": "低度相關",
+   "relevance_why": "本文主題為DRESS症候群與自體免疫疾病之關聯，非外科介入研究，僅IBD為間接相關族群，對大腸直腸外科臨床決策幾無實用性。",
+   "novelty": "仍屬早期",
+   "one_liner": "在1128名DRESS患者與1128名配對對照中，發現IBD等多種自體免疫疾病與DRESS風險增加相關（IBD OR 1.81）。",
+   "action": "目前不需改變做法；此為過敏免疫領域研究，IBD僅為次要發現之一，未提供可直接應用於外科臨床決策的資訊。",
+   "pico": {
+    "P": "1128名DRESS症候群患者，與1128名依年齡、性別、種族配對之對照組",
+    "I": "存在自體免疫共病症（如IBD、RA、乾癬等）",
+    "C": "無自體免疫共病症之配對對照組",
+    "O": "主要outcome：DRESS症候群發生之勝算比；次要：各項自體免疫疾病與DRESS之關聯強度"
+   },
+   "effects": [],
+   "key_numbers": [
+    "IBD患者DRESS勝算比為1.81（95% CI 1.08-3.04，P=0.02），為六項自體免疫疾病中最低者之一",
+    "混合性結締組織病OR最高達2.59（95% CI 1.52-4.44，P<0.001）",
+    "本研究僅提供OR，未報告各組絕對發生率或事件數，無法計算ARR/NNT"
+   ],
+   "cautions": [
+    "回溯性病例對照設計僅能顯示關聯性，無法確立自體免疫疾病與DRESS之因果關係",
+    "摘要僅提供OR與信賴區間，未報告各組絕對發生率，無法評估臨床意義大小",
+    "以ICD-10碼辨識共病症可能有分類誤差，且未說明觸發DRESS之具體藥物種類"
+   ],
+   "unassessable": [
+    "盲法",
+    "allocation concealment",
+    "ITT分析",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "各組絕對發生率",
+    "觸發藥物種類與劑量資訊"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。前次閱讀紀錄為奈米藥物遞送系統之機制性文獻回顧，與本篇DRESS症候群之自體免疫病例對照研究主題無關聯。",
+   "added_at": "2026-08-28T14:01:41+08:00"
+  },
+  {
+   "pmid": "42647761",
+   "title": "Genomic Landscape of Early-Onset Colorectal Cancer: A Comparative Analysis With Average-Onset Metastatic Colorectal Cancer in a Real-World NGS Cohort",
+   "journal": "JCO Precis Oncol",
+   "journal_full": "JCO precision oncology",
+   "issn": "2473-4284",
+   "issn_linking": "2473-4284",
+   "impact_factor": 4.7,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1200/PO-26-00184",
+   "ptype": "Comparative Study",
+   "ptype_list": [
+    "Comparative Study"
+   ],
+   "authors": "Shin J, Lee E, Ha S, Lim S, Cho Y, Park Y",
+   "abstract": "PURPOSE: The incidence of early-onset colorectal cancer (EOCRC), defined as colorectal cancer (CRC) diagnosed before age 50 years, has been rising globally, in contrast to declining rates in older populations. However, despite its distinct clinical features, the genomic characteristics of EOCRC and its biological relationship to average-onset CRC (AOCRC) remain incompletely defined, particularly in the metastatic setting.\nMETHODS: We conducted a genomic analysis of patients with metastatic CRC who underwent next-generation sequencing (NGS) as part of routine clinical practice. Using targeted NGS panels (TruSight Oncology 500 and Oncomine Comprehensive Assay), we analyzed the genomic landscape of 1,892 patients, including 376 with EOCRC and 1,516 with AOCRC. Genomic alteration frequencies were compared between age groups, and age-stratified analyses were performed to evaluate associations between patient age and recurrent genomic alterations.\nRESULTS: The overall genomic landscape was largely similar between EOCRC and AOCRC, with comparable frequencies of canonical CRC drivers, including TP53, APC, and KRAS. MYC alterations were significantly more frequent in EOCRC than in AOCRC. By contrast, age-stratified analyses revealed an inverse association between age at diagnosis and alteration rates in specific DNA damage repair-related genes and tumor suppressor genes, including BRCA2, BARD1, FAT1, HIST1H1C, and LRP1B, whereas canonical drivers showed no significant age-dependent trends.\nCONCLUSION: In metastatic disease, EOCRC shares a conserved canonical genomic backbone with AOCRC, indicating that it is not a genomically distinct entity. Nevertheless, limited binary differences involving MYC and broader age-dependent enrichment of specific DNA damage response-related alterations suggest that CRC arising at younger age may reflect distinct age-associated biological vulnerabilities.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42349246",
+     "date": "2026-06-26",
+     "title_zh": "極早發型轉移性大腸直腸癌的獨特分子與臨床侵襲性：30-39歲與40-49歲患者之存活與基因體差異",
+     "score": 4,
+     "one_liner": "在264名轉移性早發大腸直腸癌患者中（30-39歲65人 vs 40-49歲199人），發現30-39歲組OS較短（30.0 vs 38.0月，HR 0.67）且KRAS突變較多。",
+     "sim": 0.245
+    }
+   ],
+   "title_zh": "早發型大腸直腸癌之基因體全貌：真實世界NGS世代中與一般發病年齡轉移性大腸直腸癌之比較分析",
+   "abstract_zh": "目的：早發型大腸直腸癌（EOCRC，定義為50歲前診斷）的發生率在全球持續上升，與老年族群發生率下降形成對比。然而，儘管EOCRC具有獨特的臨床特徵，其基因體特徵及與一般發病年齡大腸直腸癌（AOCRC）的生物學關係仍未完全釐清，尤其是在轉移性疾病的情境下。方法：我們對接受次世代定序（NGS）作為常規臨床照護一部分的轉移性大腸直腸癌病患進行基因體分析。使用標靶NGS套組（TruSight Oncology 500與Oncomine Comprehensive Assay），分析了1,892名病患的基因體全貌，其中包含376名EOCRC與1,516名AOCRC。比較不同年齡層間基因體變異頻率，並進行年齡分層分析以評估病患年齡與常見基因體變異之間的關聯。結果：EOCRC與AOCRC整體基因體全貌大致相似，包括TP53、APC與KRAS等典型大腸直腸癌驅動基因的頻率相當。相較之下，MYC變異在EOCRC中顯著較AOCRC常見。另一方面，年齡分層分析顯示診斷年齡與特定DNA損傷修復相關基因及腫瘤抑制基因（包括BRCA2、BARD1、FAT1、HIST1H1C與LRP1B）之變異率呈反向關聯，而典型驅動基因則未顯示顯著的年齡相關趨勢。結論：在轉移性疾病中，EOCRC與AOCRC共享保守的典型基因體骨架，顯示EOCRC並非基因體上截然不同的疾病實體。然而，涉及MYC的有限二元差異，以及特定DNA損傷反應相關變異更廣泛的年齡相關富集，顯示年輕發病之大腸直腸癌可能反映出獨特的年齡相關生物脆弱性。",
+   "evidence_level": "回溯性研究",
+   "score": 4,
+   "score_reason": "樣本數大（1,892人）具描述價值，但純屬基因體關聯性分析，未連結治療反應或存活結果，對外科臨床決策直接實用性低。",
+   "relevance": "中度相關",
+   "relevance_why": "EOCRC是外科臨床上日益常見族群，但本篇為基因體描述性研究，非手術或治療介入，對開刀決策無直接影響。",
+   "novelty": "仍屬早期",
+   "one_liner": "在1,892名轉移性大腸直腸癌病患中（EOCRC 376人 vs AOCRC 1,516人），發現整體基因體骨架相似，僅MYC與部分DNA修復基因隨年齡有差異。",
+   "action": "目前不需改變做法：此為描述性基因體關聯研究，未提供治療或篩檢上可立即應用的具體建議。",
+   "pico": {
+    "P": "1,892名接受NGS檢測之轉移性大腸直腸癌病患，其中EOCRC（<50歲）376人、AOCRC（≥50歲）1,516人",
+    "I": "診斷年齡（早發型 vs 一般發病年齡），以NGS偵測基因體變異",
+    "C": "EOCRC vs AOCRC 兩組比較",
+    "O": "主要：基因體變異頻率（TP53、APC、KRAS、MYC等）；次要：年齡與特定DNA損傷修復基因（BRCA2、BARD1、FAT1、HIST1H1C、LRP1B）變異率之關聯"
+   },
+   "effects": [],
+   "key_numbers": [
+    "TP53、APC、KRAS等典型驅動基因頻率在EOCRC與AOCRC間相似（摘要未附具體百分比）",
+    "MYC變異在EOCRC顯著較AOCRC常見（摘要未附具體百分比或p值）",
+    "典型驅動基因未顯示顯著年齡相關趨勢（陰性結果，具體p值未提供）"
+   ],
+   "cautions": [
+    "純基因體描述性研究，未連結治療反應、PFS或OS等臨床結果，意義僅止於假說產生",
+    "摘要未提供任何具體百分比、信賴區間或p值，僅以「顯著」「相似」等定性描述，無法評估效應量大小",
+    "使用兩種不同NGS套組（TruSight 500與Oncomine），基因涵蓋範圍不同可能造成偵測偏差，摘要未說明如何校正"
+   ],
+   "unassessable": [
+    "多重比較是否經統計校正（multiple testing correction）",
+    "原發腫瘤部位分布（右側/左側）是否影響基因體結果",
+    "檢體來源（組織 vs ctDNA）與治療線別對NGS結果之影響",
+    "利益衝突與經費來源",
+    "EOCRC與AOCRC兩組臨床特徵（如腫瘤分期、治療史）是否平衡"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "前作聚焦30-39歲極早發族群存活較差且KRAS突變較多；本篇以更大樣本（EOCRC<50 vs AOCRC）分析，卻發現典型驅動基因（含KRAS）並無顯著年齡相關趨勢，兩者對KRAS與年齡關聯的結論存在張力，值得注意年齡切點與族群定義不同可能是原因。",
+   "added_at": "2026-08-28T14:01:41+08:00"
+  },
+  {
+   "pmid": "42647596",
+   "title": "LTBP4 deficiency induces MRC1+/CD44+ macrophages to drive cancer progression in preclinical colorectal cancer models",
+   "journal": "Sci Transl Med",
+   "journal_full": "Science translational medicine",
+   "issn": "1946-6242",
+   "issn_linking": "1946-6234",
+   "impact_factor": 15.6,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1126/scitranslmed.aeb2189",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Ji S, Du S, Miao G, Yang X, Wang H, Li X",
+   "abstract": "The tumor microenvironment is crucial for cancer progression, but the mechanisms underlying the tumor-immune cell interactions in it remain poorly understood. Here, we identified latent transforming growth factor-β (TGFβ) binding protein 4 (LTBP4) deficiency in colorectal cancer (CRC) as a critical driver that reprogrammed tumor-associated macrophages (TAMs) and induced a distinct subset, which promoted tumor progression by coordinating immune evasion and extracellular matrix (ECM) remodeling. Clinically, LTBP4 deficiency correlated with CRC progression and poor patient survival. Ltbp4 knockout markedly promoted tumor growth and metastasis in immunocompetent mice, an effect attenuated in immunodeficient hosts, establishing the essential role of host immunity in mediating the effects of LTBP4 deficiency. Single-cell RNA sequencing revealed that LTBP4 deficiency induced a mannose receptor C-type 1-positive (MRC1+)/CD44+ TAM subset and correlated with reduced CD8+ T cell infiltration. Mechanistically, LTBP4 deficiency increased active TGFβ1 levels, which acted in a paracrine manner to up-regulate MRC1 in TAMs, whereas autocrine signaling induced HAS2 (hyaluronan synthase 2) expression and hyaluronan production to increase CD44. CD44 signaling in TAMs up-regulated matrix metalloproteinases for collagen degradation, whereas MRC1 mediated collagen internalization, cooperatively remodeling the ECM to facilitate tumor invasion. The TGFβ1-driven MRC1+/CD44+ TAMs further suppressed CD8+ T cell function by diminishing the C-X-C motif chemokine ligand 16-C-X-C motif chemokine receptor 6 (CXCL16-CXCR6) axis. Therapeutically, targeted depleting MRC1+/CD44+ TAMs enhanced the efficacy of PD-1 (programmed cell death-1) blockade in LTBP4-deficient tumors. Our study positions LTBP4 as a key modulator of tumor progression and reveals a therapeutic strategy for LTBP4-deficient CRC.",
+   "watched": [],
+   "related": [],
+   "title_zh": "LTBP4缺失誘導MRC1+/CD44+巨噬細胞驅動大腸直腸癌進展：前臨床模式研究",
+   "abstract_zh": "腫瘤微環境對癌症進展至關重要，但其中腫瘤與免疫細胞交互作用的機制仍不清楚。本研究發現大腸直腸癌（CRC）中潛在轉化生長因子-β（TGFβ）結合蛋白4（LTBP4）的缺失，是重新編程腫瘤相關巨噬細胞（TAMs）並誘導出一個獨特亞群的關鍵驅動因子，該亞群透過協調免疫逃逸與細胞外基質（ECM）重塑來促進腫瘤進展。臨床上，LTBP4缺失與CRC進展及患者較差的存活相關。在免疫功能正常小鼠中，Ltbp4基因剔除顯著促進腫瘤生長與轉移，此效應在免疫缺陷宿主中減弱，確立了宿主免疫在介導LTBP4缺失效應中的必要作用。單細胞RNA測序顯示，LTBP4缺失誘導出甘露糖受體C型1陽性（MRC1+）/CD44+的TAM亞群，並與CD8+ T細胞浸潤減少相關。機制上，LTBP4缺失增加活性TGFβ1水平，該因子以旁分泌方式上調TAM中的MRC1，而自分泌訊號則誘導HAS2（玻尿酸合成酶2）表達與玻尿酸產生，進而增加CD44。TAM中的CD44訊號上調基質金屬蛋白酶以降解膠原蛋白，而MRC1則介導膠原蛋白的內化，兩者共同重塑ECM以促進腫瘤侵襲。TGFβ1驅動的MRC1+/CD44+ TAMs進一步透過減弱C-X-C motif趨化因子配體16-C-X-C motif趨化因子受體6（CXCL16-CXCR6）軸來抑制CD8+ T細胞功能。治療上，靶向清除MRC1+/CD44+ TAMs可增強PD-1阻斷劑在LTBP4缺失腫瘤中的療效。本研究確立LTBP4為腫瘤進展的關鍵調節因子，並揭示了針對LTBP4缺失型CRC的治療策略。",
+   "evidence_level": "其他",
+   "score": 3,
+   "score_reason": "機制紮實的前臨床基礎研究（小鼠模型+單細胞測序），科學價值高但屬純基礎研究，離臨床應用尚遠，對台灣大腸直腸外科日常實務無直接影響。",
+   "relevance": "低度相關",
+   "relevance_why": "屬於腫瘤免疫微環境的基礎機制研究，非外科介入，也非可立即應用的臨床工具或指引。",
+   "novelty": "仍屬早期",
+   "one_liner": "在LTBP4基因剔除小鼠CRC模型中，比較免疫功能正常與免疫缺陷宿主，發現LTBP4缺失透過MRC1+/CD44+ TAM亞群促進腫瘤生長轉移並抑制CD8+ T細胞。",
+   "action": "目前不需改變做法：此為小鼠與細胞層級的機制研究，尚無人體治療數據，僅供未來免疫治療合併策略研究參考。",
+   "pico": {
+    "P": "大腸直腸癌小鼠模型（免疫功能正常與免疫缺陷小鼠）；人類CRC病人族群相關性分析（未提供具體人數）",
+    "I": "Ltbp4基因剔除；靶向清除MRC1+/CD44+ TAMs併用PD-1阻斷劑",
+    "C": "野生型（LTBP4正常）小鼠；單用PD-1阻斷劑",
+    "O": "主要：腫瘤生長、轉移、CD8+ T細胞浸潤；次要：患者存活相關性、ECM重塑機制"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供具體人體病人數、存活率或p值等可量化的絕對數字",
+    "小鼠實驗結果為定性描述（顯著促進腫瘤生長轉移），未提供事件數/總數可供ARR計算",
+    "臨床相關性僅描述「LTBP4缺失與較差存活相關」，未附統計量"
+   ],
+   "cautions": [
+    "全為小鼠與細胞層級前臨床研究，尚無人體臨床試驗數據支持治療策略",
+    "人類臨床相關性僅描述為correlation，未提供病人數、HR或p值，無法評估其統計強度",
+    "「靶向清除MRC1+/CD44+ TAMs增強PD-1療效」僅在小鼠模型中驗證，距臨床應用仍有相當距離"
+   ],
+   "unassessable": [
+    "人體病人樣本數",
+    "存活相關性之統計數據(HR/CI/p值)",
+    "試驗設計細節（本研究非臨床試驗，故盲法/ITT/失訪率等不適用）",
+    "利益衝突",
+    "成本分析"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-08-28T14:01:41+08:00"
+  },
+  {
+   "pmid": "42659516",
+   "title": "Comparative margins between colorectal carcinoma and peritumoral injected methylene blue",
+   "journal": "Arq Bras Cir Dig",
+   "journal_full": "Arquivos brasileiros de cirurgia digestiva : ABCD = Brazilian archives of digestive surgery",
+   "issn": "2317-6326",
+   "issn_linking": "0102-6720",
+   "impact_factor": 1.8,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1590/0102-672020260000023e1952",
+   "ptype": "Comparative Study",
+   "ptype_list": [
+    "Comparative Study"
+   ],
+   "authors": "Cardoso P, Petroianu A",
+   "abstract": "BACKGROUND: Removal of malignant tumors with free margins is pivotal in oncological surgery.\nAIMS: To verify the correspondence between the histological growth of colon and rectal adenocarcinomas and how extensively methylene blue diffuses when injected into peritumoral mucosal tissue to understand if the dye margin can guide the correct margin for tumor removal, and also if there is an association between the lymph nodes stained by methylene blue and the presence of metastases.\nMETHODS: This study was conducted with 13 patients with colon or rectal adenocarcinoma. Immediately before the operation, all patients underwent colonoscopy and peritumoral methylene blue injection. Radical resection consisted of the removal of the colon or rectum segment beyond the blue-stained margins, in a monobloc, with the meso and regional lymph nodes. Tumor margins, peritumoral lymphatic density, stained margins, and removed lymph nodes were analyzed.\nRESULTS: In all operative specimens, tumor-free margins were within the blue-stained area. There was no association between the presence of metastases and the dye in the lymph nodes examined.\nCONCLUSIONS: Preoperative peritumoral endoscopic injection of methylene blue spreads the dye beyond the limits of colon and rectal adenocarcinomas, determining reliable free margins for tumor resection, but does not indicate the presence of regional lymph node metastases.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42427264",
+     "date": "2026-07-10",
+     "title_zh": "複方亞甲藍（亞甲藍+羅哌卡因）與脂質體布比卡因用於混合痔手術後疼痛控制之比較：基於臨床研究的綜合分析",
+     "score": 4,
+     "one_liner": "在150名混合痔切除術患者中，比較脂質體布比卡因與複方亞甲藍肛周浸潤，發現前者72小時累積疼痛評分及類鴉片需求皆顯著較低。",
+     "sim": 0.154
+    },
+    {
+     "pmid": "42427264",
+     "date": "2026-07-12",
+     "title_zh": "複方亞甲藍（亞甲藍+羅哌卡因）與脂質體布比卡因用於混合痔手術後疼痛控制之比較：基於臨床研究的綜合分析",
+     "score": 4,
+     "one_liner": "在150名混合痔切除術患者中，比較脂質體布比卡因與複方亞甲藍肛周浸潤，發現前者72小時累積疼痛評分及類鴉片需求皆顯著較低。",
+     "sim": 0.154
+    }
+   ],
+   "title_zh": "大腸直腸癌腫瘤邊界與腫瘤周邊注射亞甲藍染色範圍之比較",
+   "abstract_zh": "背景：以無腫瘤殘留邊界切除惡性腫瘤，是腫瘤外科手術的核心原則。目的：驗證大腸直腸腺癌的組織學生長範圍，與腫瘤周邊黏膜下注射亞甲藍後染料擴散範圍之間的對應關係，以了解染料邊界是否能作為腫瘤切除的正確邊界指引；同時探討亞甲藍染色淋巴結與轉移之間是否存在關聯。方法：本研究納入13名大腸或直腸腺癌患者。手術前即刻進行大腸鏡檢查並於腫瘤周邊注射亞甲藍。根治性切除範圍為超過藍染邊界之腸段，連同腸繫膜及區域淋巴結整塊（monobloc）切除。分析腫瘤邊界、腫瘤周邊淋巴密度、染色邊界及切除之淋巴結。結果：所有手術標本中，無腫瘤殘留之邊界皆位於藍染區域內。染料標記之淋巴結與轉移之存在之間並無關聯。結論：手術前經內視鏡於腫瘤周邊注射亞甲藍，其擴散範圍超過大腸直腸腺癌之腫瘤邊界，可作為判定腫瘤切除可靠無腫瘤邊界之依據，但無法指示區域淋巴結轉移之存在。",
+   "evidence_level": "病例系列",
+   "score": 3,
+   "score_reason": "僅13例單一中心、無對照組之描述性研究，屬技術可行性驗證階段，尚不足以改變臨床邊界判斷或淋巴結清掃策略。",
+   "relevance": "中度相關",
+   "relevance_why": "與大腸直腸癌手術邊界判定技術相關，但樣本極小、屬早期概念驗證，非可直接應用之臨床證據。",
+   "novelty": "仍屬早期",
+   "one_liner": "在13名大腸直腸癌患者中，觀察腫瘤周邊注射亞甲藍之染色範圍，發現100%手術標本無腫瘤邊界皆落於藍染區內，但染色淋巴結與轉移無關聯。",
+   "action": "目前不需改變做法；此為小樣本可行性研究，亞甲藍邊界定位技術尚未驗證足以取代標準病理邊界評估或淋巴結清掃準則。",
+   "pico": {
+    "P": "13名大腸或直腸腺癌患者",
+    "I": "手術前經內視鏡於腫瘤周邊黏膜下注射亞甲藍，切除超過藍染邊界之腸段",
+    "C": "無對照組（同一批病人內比較染料邊界與實際組織學無腫瘤邊界、染色淋巴結與轉移之對應關係）",
+    "O": "主要：無腫瘤殘留邊界是否位於藍染範圍內；次要：染色淋巴結與淋巴結轉移之關聯性"
+   },
+   "effects": [],
+   "key_numbers": [
+    "樣本僅13例，屬小規模可行性研究，無統計檢定力估計",
+    "13/13（100%）手術標本無腫瘤邊界皆位於亞甲藍染色範圍內",
+    "染色淋巴結與轉移無關聯（陰性結果，未提供p值或信賴區間）"
+   ],
+   "cautions": [
+    "無對照組，僅在同批病人內部比較染料範圍與病理邊界，無法排除觀察者偏誤",
+    "樣本量極小（n=13），單一中心，結果外推性有限",
+    "主要結論僅為解剖/組織學替代指標，未提供長期腫瘤學結果（局部復發、存活）"
+   ],
+   "unassessable": [
+    "盲法",
+    "病理判讀是否雙盲",
+    "隨訪時間與失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "淋巴結轉移關聯之統計方法與信賴區間"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。此前已讀論文為混合痔術後疼痛控制相關研究，主題與本篇大腸直腸癌手術邊界判定技術無關聯。",
+   "added_at": "2026-08-28T14:01:41+08:00"
+  },
+  {
+   "pmid": "42656730",
+   "title": "Crosstalk between m6A modification and metabolic reprogramming in colorectal cancer: from the immune microenvironment to clinical applications",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1126/scitranslmed.adp9805",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Zhao L, Yin Z, Ji C, Wu Y, Gao H, Yuan H",
+   "abstract": "N6-methyladenosine (m6A) modification is the most common epigenetic alteration in eukaryotic mRNA, significantly impacting metabolic reprogramming and the tumor microenvironment (TME) of colorectal cancer (CRC) by dynamically regulating RNA metabolic processes. Recent studies indicate that m6A modification interacts with CRC metabolic reprogramming, fostering an immunosuppressive TME. Specifically, m6A modification promotes CRC progression by regulating glucose, lipid, and amino acid metabolism while inhibiting the activity of antitumor immune cells (such as T cells, natural killer cells, and macrophages) and activating tumor immunosuppressive cells (including tumor-associated macrophages, myeloid-derived suppressor cells, regulatory T cells, tumor-associated neutrophils, and cancer-associated fibroblasts). This article systematically reviews the molecular mechanisms through which m6A modification drives the malignant progression of CRC via metabolic regulation, elucidates the metabolic network involving m6A modification and its role in shaping TME, and discusses the clinical potential of targeting m6A modification and/or metabolic pathways, offering novel research avenues for CRC treatment.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42635814",
+     "date": "2026-08-26",
+     "title_zh": "賴氨酸特異性去甲基化酶1 (KDM1A/LSD1) 在調控大腸直腸癌腫瘤免疫微環境中的雙重角色及其抑制劑",
+     "score": 2,
+     "one_liner": "綜述整理KDM1A/LSD1調控CRC腫瘤增殖與免疫微環境的雙重機轉，並提出其抑制劑可能增強ICI療效於pMMR CRC，但無量化臨床數據。",
+     "sim": 0.223
+    },
+    {
+     "pmid": "42352951",
+     "date": "2026-06-26",
+     "title_zh": "大腸直腸癌中的N7-甲基鳥苷（m7G）修飾：分子機轉與臨床意涵",
+     "score": 2,
+     "one_liner": "本文綜述m7G RNA修飾（METTL1/WDR4、eIF4E等）在大腸直腸癌致病、進展、預後與治療中的分子機轉，屬純機轉整理無臨床數據。",
+     "sim": 0.219
+    },
+    {
+     "pmid": "42346101",
+     "date": "2026-06-25",
+     "title_zh": "大腸直腸癌的決定因子：連結生物標記、治療與飲食-微生物軸的整合性免疫代謝框架",
+     "score": 2,
+     "one_liner": "本文為概念性綜述，提出CRC腫瘤-免疫-宿主代謝共同演化的整合框架，強調MSS型CRC免疫治療抗藥的代謝機轉，無臨床數據。",
+     "sim": 0.184
+    }
+   ],
+   "title_zh": "大腸直腸癌中 m6A 修飾與代謝重編程的交互作用：從免疫微環境到臨床應用",
+   "abstract_zh": "N6-methyladenosine (m6A) 修飾是真核生物 mRNA 中最常見的表觀遺傳修飾，透過動態調控 RNA 代謝過程，顯著影響大腸直腸癌 (CRC) 的代謝重編程與腫瘤微環境 (TME)。近期研究顯示，m6A 修飾與 CRC 代謝重編程相互作用，促成免疫抑制性的 TME。具體而言，m6A 修飾透過調控葡萄糖、脂質與胺基酸代謝來促進 CRC 進展，同時抑制抗腫瘤免疫細胞（如 T 細胞、自然殺手細胞與巨噬細胞）的活性，並活化腫瘤免疫抑制細胞（包括腫瘤相關巨噬細胞、骨髓來源抑制細胞、調節性 T 細胞、腫瘤相關嗜中性球與癌症相關纖維母細胞）。本文系統性回顧 m6A 修飾透過代謝調控驅動 CRC 惡性進展的分子機轉，闡明涉及 m6A 修飾的代謝網絡及其在塑造 TME 中的角色，並討論針對 m6A 修飾及/或代謝路徑作為治療靶點的臨床潛力，為 CRC 治療提供新的研究方向。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純機轉性綜述，無任何臨床數據、病人族群或治療效果數字，對臨床決策無直接參考價值。",
+   "relevance": "低度相關",
+   "relevance_why": "純基礎分子機轉整理，非外科介入，短期內不影響大腸直腸外科臨床實務。",
+   "novelty": "仍屬早期",
+   "one_liner": "本文為綜述，整理 m6A 修飾如何透過代謝重編程調控 CRC 腫瘤微環境與免疫抑制，無臨床數據。",
+   "action": "目前不需改變做法，此為純機轉綜述，無病人層級數據可供臨床應用。",
+   "pico": {
+    "P": "無病人族群（純機轉綜述，非臨床研究）",
+    "I": "無明確介入（討論 m6A 修飾相關分子機轉）",
+    "C": "無對照組",
+    "O": "無臨床 outcome；僅討論分子機轉與潛在治療靶點"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本文未提供任何量化臨床數據、發生率或統計檢定結果",
+    "所有內容均為分子機轉描述，無病人數、無療效數字",
+    "無陰性或陽性臨床結果可報告"
+   ],
+   "cautions": [
+    "全文為機轉性綜述，無臨床試驗數據，不可直接推論至病人治療決策",
+    "所述 m6A 與代謝/免疫交互作用多來自細胞或動物模型，因果關係尚待人體驗證",
+    "『臨床潛力』與『新治療方向』為作者推測性陳述，非已驗證之療效"
+   ],
+   "unassessable": [
+    "盲法",
+    "allocation concealment",
+    "ITT",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本分析",
+    "樣本量與統計方法"
+   ],
+   "context_verdict": "再確認",
+   "context": "與先前看過的 KDM1A/LSD1、m7G、免疫代謝框架等綜述相似，均屬 CRC 分子機轉/表觀遺傳修飾整理，再次確認此類文獻目前多停留在機轉假說階段，缺乏可轉譯的臨床數據。",
+   "added_at": "2026-08-28T14:01:41+08:00"
+  },
+  {
+   "pmid": "42643261",
+   "title": "Can tissue immune states shape the risk of hyperprogressive disease?",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.21037/jtd.2018.12.47",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Moya I",
+   "abstract": "Immune checkpoint inhibitors (ICIs) have transformed cancer therapy by unlocking antitumor T-cell responses across multiple cancer types. However, a subset of patients experience rapid acceleration of disease progression shortly after ICI initiation, a phenomenon termed hyperprogressive disease (HPD). Although HPD remains clinically heterogeneous, emerging evidence suggests that HPD is not solely a stochastic anomaly, but may result from an immune rewiring failure triggered by checkpoint release in chronically inflamed, myeloid-dominated, or tolerogenic host organs that are permissive for tumor growth. Mechanistic studies in metabolic dysfunction-associated steatohepatitis (MASH)-associated hepatocellular carcinoma show that PD-1 blockade can fail to restore effective antitumor immunity and instead exacerbate pathogenic T-cell-mediated injury. Related findings in colitis-associated colorectal cancer, chronic lung inflammation, and glioblastoma suggest how pre-existing immune circuits shaped by inflammation, fibrosis, metabolic dysfunction, or immune privilege can constrain productive immune rewiring. We synthesize these organ-specific archetypes into an organ-context model in which ICIs act not by generating de novo immunity, but by amplifying pre-existing immune programs. In this model, checkpoint release may lead to either productive tumor control or maladaptive activation and accelerated progression, depending on the baseline immune architecture of the host tissue. Understanding HPD through the lens of organ-context immune wiring has major translational implications for predictive biomarkers, stratification strategies, and the design of context-aware immunotherapy.",
+   "watched": [],
+   "related": [],
+   "title_zh": "組織免疫狀態是否能塑造超進展疾病（Hyperprogressive Disease, HPD）的風險？",
+   "abstract_zh": "免疫檢查點抑制劑（ICIs）透過解放抗腫瘤T細胞反應，已改變多種癌症的治療方式。然而，部分病人在開始ICI治療後不久，會經歷疾病快速加速惡化的現象，稱為超進展疾病（HPD）。雖然HPD在臨床上仍具異質性，但新興證據顯示HPD並非純粹隨機的異常現象，而可能源自於慢性發炎、骨髓細胞主導或耐受性宿主器官中，檢查點釋放所引發的免疫重新編排失敗，這類器官環境有利於腫瘤生長。針對代謝功能障礙相關脂肪肝炎（MASH）相關肝細胞癌的機制研究顯示，PD-1阻斷可能無法恢復有效的抗腫瘤免疫，反而加劇病理性T細胞介導的損傷。在大腸炎相關大腸直腸癌、慢性肺部發炎及膠質母細胞瘤的相關研究發現，顯示由發炎、纖維化、代謝功能障礙或免疫豁免所塑造的既存免疫迴路，可能限制有效免疫重新編排的產生。我們將這些器官特異性的原型整合成一個器官-環境模型，在此模型中，ICIs並非產生全新免疫反應，而是放大既存的免疫程式。在此模型下，檢查點釋放可能導致有效腫瘤控制，或導致適應不良的活化與加速進展，取決於宿主組織的基礎免疫架構。透過器官環境免疫連結的視角理解HPD，對預測性生物標記、分層策略及環境感知式免疫治療的設計具有重大轉譯意涵。",
+   "evidence_level": "綜述",
+   "score": 3,
+   "score_reason": "純機制性綜述，無原始數據或臨床試驗結果，對大腸直腸外科臨床決策無直接可操作性，僅具概念啟發價值。",
+   "relevance": "低度相關",
+   "relevance_why": "大腸炎相關大腸直腸癌僅為文中多個器官案例之一，主軸為ICI治療機制與HPD的免疫學理論，非外科介入或臨床決策指引。",
+   "novelty": "仍屬早期",
+   "one_liner": "本文提出理論模型，說明器官特異性慢性發炎免疫環境可能決定ICI治療後發生超進展疾病（HPD）的風險，未提供臨床數據。",
+   "action": "目前不需改變做法：此為機制性綜述，無具體臨床試驗數據或治療建議可供大腸直腸外科病人管理參考。",
+   "pico": {
+    "P": "無明確病人族群（綜述整合MASH-HCC、大腸炎相關CRC、慢性肺發炎、膠質母細胞瘤等機制研究）",
+    "I": "免疫檢查點抑制劑（ICIs）於慢性發炎/免疫耐受性器官環境中的作用",
+    "C": "無對照組",
+    "O": "主要探討：HPD發生機轉與器官免疫架構的關聯；次要：轉譯應用於生物標記與分層策略"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本文為理論綜述，未提供任何量化臨床數據、事件數或統計檢定結果",
+    "無RCT或世代研究數值可供ARR/NNT計算",
+    "所有結論基於跨器官機制研究之定性整合，非直接臨床證據"
+   ],
+   "cautions": [
+    "純機制假說綜述，尚無臨床試驗或人體大腸直腸癌族群數據驗證此模型",
+    "大腸炎相關CRC僅為引用文獻中的一個例子，並非本文核心研究對象",
+    "器官-環境模型為作者提出之理論框架，因果關係尚待前瞻性研究證實"
+   ],
+   "unassessable": [
+    "盲法",
+    "allocation concealment",
+    "ITT",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本分析",
+    "樣本數",
+    "統計方法"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-08-28T14:01:41+08:00"
+  },
+  {
+   "pmid": "42654262",
+   "title": "High-Amylose Starch and Human Health: Microbiota Modulation, Metabolic Reprogramming, and Disease Prevention",
+   "journal": "Nutrients",
+   "journal_full": "Nutrients",
+   "issn": "2072-6643",
+   "issn_linking": "2072-6643",
+   "impact_factor": 5.8,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.3390/nu18162682",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Suzauddula M, Wang W, Shi Y",
+   "abstract": "High-amylose starch (HAS) is composed predominantly of linear α-1,4-linked glucose units and is high in resistant starch content. Its unique physicochemical properties and gut fermentation dynamics confer multiple health benefits. This review summarizes HAS digestion, its interactions with gut microbes, and its systemic effects. HAS intake can reshape the gut microbiota by enriching beneficial taxa such as Bifidobacterium, Faecalibacterium, and Akkermansia, while suppressing harmful bacteria like Escherichia coli and Clostridium difficile. These microbial shifts enhance short-chain fatty acid production, improve gut barrier integrity, and reduce inflammation. HAS also demonstrates therapeutic potential in obesity, type 2 diabetes, chronic kidney disease, and colorectal cancer by improving insulin sensitivity, reducing glycemic variability, and modulating oncogenic pathways. Collectively, dietary incorporation of HAS represents a promising functional strategy to support gut and systemic health across diverse physiological contexts.",
+   "watched": [],
+   "related": [],
+   "title_zh": "高澱粉直鏈玉米澱粉與人類健康：微生物群調節、代謝重編程與疾病預防",
+   "abstract_zh": "高直鏈澱粉（HAS）主要由線性α-1,4糖苷鍵連結的葡萄糖單位組成，具有高抗性澱粉含量。其獨特的物理化學特性與腸道發酵動力學賦予多重健康益處。本綜述總結HAS的消化過程、與腸道微生物的交互作用，以及其全身性效應。HAS攝取可重塑腸道菌群，增加有益菌種如雙歧桿菌（Bifidobacterium）、普拉梭菌（Faecalibacterium）與阿克曼氏菌（Akkermansia），同時抑制有害菌如大腸桿菌（Escherichia coli）與困難梭狀芽孢桿菌（Clostridium difficile）。這些微生物變化可增強短鏈脂肪酸的產生、改善腸道屏障完整性，並減少發炎反應。HAS在肥胖、第二型糖尿病、慢性腎臟病及大腸直腸癌方面亦展現治療潛力，透過改善胰島素敏感性、降低血糖變異性，以及調節致癌路徑。總體而言，飲食中納入HAS代表一種具前景的功能性策略，可支持腸道與全身健康於多種生理情境中。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純敘述性綜述，無原始臨床數據或試驗結果，僅整理機轉假說，對臨床決策無直接指引價值。",
+   "relevance": "低度相關",
+   "relevance_why": "此為基礎營養科學／機轉綜述，非外科介入研究，與大腸直腸外科臨床決策無直接關聯。",
+   "novelty": "仍屬早期",
+   "one_liner": "本綜述整理高直鏈澱粉（HAS）如何調節腸道菌群與代謝路徑，並提及其在大腸直腸癌等疾病的潛在治療角色，但未提供臨床試驗數據。",
+   "action": "目前不需改變做法：此為機轉性綜述，無具體臨床試驗結果可轉化為病人照護建議。",
+   "pico": {
+    "P": "無特定病人族群（綜述文章，非臨床研究）",
+    "I": "高直鏈澱粉（HAS）攝取",
+    "C": "無對照組",
+    "O": "腸道菌群組成變化、短鏈脂肪酸產生、腸道屏障功能、代謝疾病（肥胖、糖尿病、慢性腎病、大腸直腸癌）風險調節之機轉描述"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供任何具體數值、百分比、p值或信賴區間",
+    "所有結論均為敘述性描述，非量化統計結果",
+    "無法計算 ARR 或 NNT，因無原始臨床試驗數據"
+   ],
+   "cautions": [
+    "此為綜述文章，非原始研究，結論來自多篇異質性研究整合，可能過度推論機轉至臨床療效",
+    "摘要將腸道菌群變化與疾病預防直接連結，但相關性未必代表因果關係",
+    "完全未提供人體臨床試驗的絕對數據，無法評估實際臨床效益大小"
+   ],
+   "unassessable": [
+    "研究設計細節",
+    "納入文獻範疇與篩選標準",
+    "利益衝突",
+    "是否有系統性文獻搜尋方法",
+    "臨床試驗人數與追蹤期"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-08-28T14:01:41+08:00"
+  },
+  {
+   "pmid": "42654241",
+   "title": "Dietary Adjuvanticity in the Modern Plant Exposome: Implications for Immune-Mediated Inflammatory Diseases",
+   "journal": "Nutrients",
+   "journal_full": "Nutrients",
+   "issn": "2072-6643",
+   "issn_linking": "2072-6643",
+   "impact_factor": 5.8,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.3390/nu18162662",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Barta Z, Posta E, Gyarmati E, Baranyi J, Fekete I, Zold E",
+   "abstract": "Immune-mediated inflammatory diseases (IMIDs) arise from interactions among genetic susceptibility, epithelial barrier function, microbiota, diet, and other environmental exposures. Modern diets influence mucosal immunity not only through fibre intake, food processing, and microbiota composition, but also through a less explored exposure layer: plant-derived molecules with potential immune activity. Crop breeding, intensive agriculture, global trade, gluten-free substitutes, and plant-based food technologies have changed the spectrum, dose, concentration, and matrix in which plant defence proteins, antinutritional factors, endogenous toxicants, and novel plant antigens reach the intestinal surface. In this structured, hypothesis-generating narrative review, we propose dietary adjuvanticity as a mechanistic framework for considering how selected food-derived molecules may amplify mucosal immune responsiveness, modify antigen presentation, disturb barrier function, or lower tolerance thresholds without necessarily acting as classical autoantigens. The framework differs from general food-derived immunomodulation, nutritional exposomics, and diet-microbiota-host interaction models by focusing specifically on adjuvant-like immune amplification at the intestinal mucosa. The ASIA concept is used only in Shoenfeld's functional sense, as an analogy for exogenous immune amplification through innate activation, danger signalling, bystander activation, epitope spreading, and loss of tolerance in susceptible hosts; it is not applied as a dietary diagnosis. Wheat amylase-trypsin inhibitors, gluten epitopes, lectins, potato glycoalkaloids, saponins, quinoa prolamins, emerging legume proteins, L-canavanine, and tolerance-promoting plant substrates are discussed with explicit separation of established clinical evidence, strong mechanistic evidence, preclinical/ex vivo evidence, and speculative disease-modifier hypotheses. Overall, plant-derived exposures are best interpreted as potential modifiers within the IMID exposome, not as primary causes of autoimmunity. Testing this model will require defined exposures, food-matrix and processing studies, biomarkers of barrier and immune activation, patient stratification, and controlled human studies.",
+   "watched": [],
+   "related": [],
+   "title_zh": "現代植物暴露組中的飲食佐劑效應：對免疫介導發炎性疾病的意涵",
+   "abstract_zh": "免疫介導發炎性疾病（IMIDs）源自遺傳易感性、上皮屏障功能、微生物群、飲食及其他環境暴露之間的交互作用。現代飲食不僅透過纖維攝取、食品加工及微生物群組成影響黏膜免疫，還透過一個較少被探討的暴露層面：具有潛在免疫活性的植物來源分子。作物育種、集約農業、全球貿易、無麩質替代品及植物性食品技術，已改變植物防禦蛋白、抗營養因子、內源性毒素及新型植物抗原到達腸道表面的種類、劑量、濃度與基質。在這篇結構化、假說生成型的敘述性回顧中，我們提出「飲食佐劑效應」作為一個機制性框架，用以思考特定食物來源分子如何在不必然作為典型自身抗原的情況下，放大黏膜免疫反應、改變抗原呈現、擾亂屏障功能或降低耐受閾值。此框架不同於一般食物來源免疫調節、營養暴露組學及飲食—微生物群—宿主交互作用模型，而是特別聚焦於腸道黏膜上的類佐劑免疫放大作用。文中僅在Shoenfeld的功能性意義上使用ASIA概念，作為外源性免疫放大（透過先天免疫活化、危險訊號、旁觀者活化、抗原決定位擴散及易感宿主耐受喪失）的類比，而非作為一種飲食性診斷。文中討論了小麥澱粉酶胰蛋白酶抑制劑、麩質抗原決定位、凝集素、馬鈴薯糖生物鹼、皂苷、藜麥醇溶蛋白、新興豆類蛋白、L-刀豆胺酸及促進耐受性的植物基質，並明確區分已確立的臨床證據、強機制證據、臨床前/離體證據，以及推測性的疾病調節假說。整體而言，植物來源暴露最好被理解為IMID暴露組中的潛在調節因子，而非自身免疫的主要病因。要驗證此模型，將需要明確定義的暴露、食品基質與加工研究、屏障與免疫活化的生物標記、病人分層，以及對照性人體研究。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純假說生成型敘述性回顧，無原始臨床或試驗數據，對大腸直腸外科臨床決策幾乎無立即實用性。",
+   "relevance": "低度相關",
+   "relevance_why": "屬於飲食免疫學機制性假說探討，非外科介入，與大腸直腸外科日常手術決策無直接關聯。",
+   "novelty": "仍屬早期",
+   "one_liner": "本文提出「飲食佐劑效應」概念性框架，假設多種植物來源分子可能放大黏膜免疫反應並促成IMID，屬假說階段無臨床數據。",
+   "action": "目前不需改變做法；此為機制性假說回顧，無原始數據可轉化為臨床決策，僅供IBD病理生理背景閱讀參考。",
+   "pico": {
+    "P": "無特定研究族群（概念性框架，涵蓋一般IMID/IBD相關族群）",
+    "I": "飲食中植物來源分子（如ATI、麩質抗原決定位、凝集素、糖生物鹼等）之「佐劑效應」暴露",
+    "C": "無對照組",
+    "O": "無實測結果；主要為提出黏膜免疫放大、屏障擾亂、耐受喪失之機制性假說框架"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本文為敘述性回顧，未提供任何原始事件數、發生率或效應量數據",
+    "所有討論之分子—疾病關聯均被作者自行分級為機制性/臨床前/推測性證據，非確立因果",
+    "無統計檢定、無信賴區間、無臨床終點數字可供摘錄"
+   ],
+   "cautions": [
+    "全文為假說生成型敘述性回顧，非系統性回顧，無原始數據可驗證因果關係",
+    "作者明確將多數植物分子—IMID關聯列為推測性或機制性證據，讀者易誤讀為臨床已證實",
+    "無人體對照試驗支持，多數證據來自離體/臨床前研究，外推至臨床需謹慎"
+   ],
+   "unassessable": [
+    "文獻回顧無原始數據，故隨機分配、盲法、ITT、失訪率、試驗註冊等方法學項目不適用於本文",
+    "利益衝突與資金來源未於摘要中提及"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-08-28T14:01:41+08:00"
+  },
+  {
+   "pmid": "42645635",
+   "title": "GLP-1 Receptor Agonists and Obesity Related Cancers: What We Know So Far",
+   "journal": "Curr Oncol Rep",
+   "journal_full": "Current oncology reports",
+   "issn": "1534-6269",
+   "issn_linking": "1523-3790",
+   "impact_factor": 5.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1111/dom.70394",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Raja N, Kandagari N",
+   "abstract": "PURPOSE OF REVIEW: Obesity increases the risk of at least 13 malignancies. Glucagon-like peptide-1 receptor agonists (GLP-1RAs) produce substantial weight loss and improve metabolic and inflammatory pathways implicated in carcinogenesis. This review critically examines the preclinical, epidemiologic, randomized-trial, and emerging oncology evidence linking these agents to obesity-related cancer incidence and outcomes.\nRECENT FINDINGS: Large observational cohorts generally associate GLP-1RA exposure with a lower incidence of composite obesity-related cancers, with relative risk reductions of approximately 7-30% in most diabetes- and obesity-based populations. The most consistent favorable associations have been observed in hepatocellular, colorectal, endometrial, ovarian, and pancreatic cancers. However, these findings remain vulnerable to residual confounding, comparator selection, surveillance bias, and insufficient follow-up. Meta-analyses of randomized trials have not demonstrated a significant reduction in overall cancer incidence and have reported inconsistent site-specific signals, including thyroid and colorectal cancer. Preclinical studies support both indirect metabolic effects and potentially direct tumor and immune effects through insulin/IGF-1, cAMP/PKA, PI3K/Akt/mTOR, AMPK, and NF-κB signaling. Early retrospective studies in patients with active cancer suggest possible associations with improved survival or reduced progression, but causality has not been established. GLP-1RAs should currently be prescribed for approved metabolic indications rather than specifically for cancer prevention or treatment. Their role as metabolic modifiers of cancer risk and outcomes is promising but unresolved. Long-term prospective studies with cancer-specific endpoints, body-composition assessment, and integrated tumor and host biomarkers are needed to identify which populations and tumor types may benefit.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42615757",
+     "date": "2026-08-20",
+     "title_zh": "升糖素樣胜肽類似物對發炎性腸道疾病影響之證據：一篇範疇性文獻回顧（Scoping Review）",
+     "score": 2,
+     "one_liner": "本篇為scoping review，整理臨床前與觀察性研究，顯示GLP-1/GLP-2促效劑可能減少IBD腸道發炎並促進黏膜再生，證據仍屬初期。",
+     "sim": 0.195
+    },
+    {
+     "pmid": "42615757",
+     "date": "2026-08-21",
+     "title_zh": "腸促胰泬素類似物（GLP）於發炎性腸道疾病之影響證據：範疇性文獻回顧",
+     "score": 2,
+     "one_liner": "在IBD相關前臨床與觀察性研究中，範疇性回顧GLP-1/GLP-2受體促效劑之機轉與初步臨床效益，證據仍屬早期且無具體統計數值。",
+     "sim": 0.195
+    }
+   ],
+   "title_zh": "GLP-1受體促效劑與肥胖相關癌症：目前所知為何",
+   "abstract_zh": "綜述目的：肥胖至少會增加13種惡性腫瘤的風險。升糖素樣胜肽-1受體促效劑（GLP-1RAs）可產生顯著體重減輕，並改善與致癌作用相關的代謝及發炎路徑。本綜述批判性檢視臨床前、流行病學、隨機試驗以及新興腫瘤學證據，探討這類藥物與肥胖相關癌症發生率及預後之關聯。\n\n近期發現：大型觀察性世代研究普遍發現GLP-1RA暴露與複合式肥胖相關癌症發生率降低有關，在大多數糖尿病及肥胖族群中相對風險降低約7-30%。最一致的有利關聯見於肝細胞癌、大腸直腸癌、子宮內膜癌、卵巢癌及胰臟癌。然而，這些發現仍容易受殘餘干擾因子、比較組選擇、監測偏差及追蹤時間不足所影響。隨機試驗的統合分析並未顯示整體癌症發生率有顯著降低，且報告了不一致的部位特異性訊號，包括甲狀腺癌及大腸直腸癌。臨床前研究支持間接代謝效應及可能透過胰島素/IGF-1、cAMP/PKA、PI3K/Akt/mTOR、AMPK及NF-κB訊號傳遞路徑產生的直接腫瘤及免疫效應。針對活性癌症患者的早期回溯性研究顯示可能與存活改善或疾病進展減緩有關，但因果關係尚未確立。GLP-1RAs目前應依核准之代謝適應症開立，而非特別用於癌症預防或治療。其作為癌症風險及預後代謝調節因子的角色雖具前景，但仍未定論。需要具備癌症特異性終點、體組成評估及整合腫瘤與宿主生物標記的長期前瞻性研究，以辨識哪些族群及腫瘤類型可能受益。",
+   "evidence_level": "綜述",
+   "score": 3,
+   "score_reason": "為敘述性綜述而非系統性回顧，整合證據本身承認因果未確立、RCT結果與觀察性研究矛盾，對臨床決策無直接指引價值。",
+   "relevance": "中度相關",
+   "relevance_why": "大腸直腸癌為文中提及有利關聯的癌種之一，但此為藥物流行病學議題，非外科介入，對日常手術決策無直接影響。",
+   "novelty": "仍屬早期",
+   "one_liner": "綜述整合觀察性研究（顯示GLP-1RA與肥胖相關癌症相對風險降低7-30%）與RCT統合分析（未顯示整體癌症發生率下降）的矛盾證據。",
+   "action": "目前不需改變做法；GLP-1RA仍應依代謝適應症開立，不可用於CRC預防或治療，且不影響現行CRC患者用藥決策。",
+   "pico": {
+    "P": "肥胖及糖尿病族群（含大腸直腸癌等13種肥胖相關癌症風險），具體人數未提供",
+    "I": "GLP-1受體促效劑暴露",
+    "C": "非GLP-1RA使用者（觀察性研究）；安慰劑或標準治療（RCT統合分析）",
+    "O": "主要：複合式肥胖相關癌症發生率；次要：特定癌種（肝細胞癌、大腸直腸癌、子宮內膜癌、卵巢癌、胰臟癌、甲狀腺癌）發生率及活性癌症患者存活/疾病進展"
+   },
+   "effects": [],
+   "key_numbers": [
+    "觀察性世代研究：GLP-1RA暴露與複合式肥胖相關癌症相對風險降低約7-30%（僅相對風險，無絕對數值）",
+    "RCT統合分析：整體癌症發生率無顯著降低（未附具體數值或CI）",
+    "部位特異性訊號不一致，甲狀腺癌與大腸直腸癌結果矛盾（觀察性研究有利，RCT不一致）"
+   ],
+   "cautions": [
+    "觀察性資料明確存在殘餘干擾因子、比較組選擇偏差及監測偏差，作者已自承",
+    "僅提供相對風險範圍（7-30%），完全未附絕對風險、事件數或信賴區間，無法評估真實效應大小",
+    "觀察性研究與RCT統合分析結果矛盾（前者有利、後者無顯著性），因果關係尚未確立卻易被過度解讀"
+   ],
+   "unassessable": [
+    "各研究之絕對事件數與樣本量",
+    "追蹤時間長度",
+    "p值與信賴區間",
+    "研究間異質性評估",
+    "利益衝突聲明"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。之前看過的兩篇為GLP-1/GLP-2促效劑於發炎性腸道疾病（IBD）之範疇性回顧，探討機轉與腸道發炎，與本篇聚焦GLP-1RA對肥胖相關癌症風險及預後之主題並無實質關聯。",
+   "added_at": "2026-08-28T14:01:41+08:00"
+  },
+  {
+   "pmid": "42654785",
+   "title": "Anal HPV in Kidney Transplant Recipients: A Closer Look at Pathogenesis and Clinical Management",
+   "journal": "Pathogens",
+   "journal_full": "Pathogens (Basel, Switzerland)",
+   "issn": "2076-0817",
+   "issn_linking": "2076-0817",
+   "impact_factor": 3.8,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.3390/pathogens15080848",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Moretti S, Pavone Cossut M, Tiberi A, Pietroletti R, Unfer V",
+   "abstract": "Kidney transplant recipients (KTRs) face a significantly elevated risk of persistent high-risk human papillomavirus (HR-HPV) infection and subsequent anal squamous cell carcinoma (ASCC) due to chronic immunosuppressive therapy impairing immunosurveillance. Despite the markedly increased risk of ASCC in this vulnerable cohort, standardized screening protocols and optimal clinical management guidelines are not exhaustive. Chronically compromised immunosurveillance permits prolonged HR-HPV carriage and viral genome integration, driving oncogenesis via the E6 and E7 oncoproteins. While calcineurin inhibitors exert pro-oncogenic effects, transitioning to mTOR inhibitors offers distinct antiproliferative and antiviral advantages. Early detection relies on risk-stratified screening utilizing digital anorectal examination, anal cytology, and high-resolution anoscopy. For managing anal intraepithelial neoplasia, traditional topical agents and minimally invasive ablative procedures are widely used, although high recurrence rates present a major clinical challenge. This review analyzes HPV pathogenesis and clinical management in KTRs, evaluating the impact of immunosuppressive regimens and exploring innovative diagnostic and therapeutic strategies. To address viral persistence without compromising the allograft, integrating novel non-invasive, target-specific nutraceuticals may represent an interesting complementary approach. Ultimately, mitigating post-transplant ASCC requires a multidisciplinary strategy that couples early localized screening with tailored systemic immunosuppression.",
+   "watched": [],
+   "related": [],
+   "title_zh": "腎臟移植受者的肛門HPV感染：致病機轉與臨床處置的深入探討",
+   "abstract_zh": "腎臟移植受者（KTRs）因慢性免疫抑制治療損害免疫監視功能，面臨顯著升高的持續性高危型人類乳突病毒（HR-HPV）感染風險，進而增加肛門鱗狀細胞癌（ASCC）的發生率。儘管此高風險族群的ASCC風險明顯上升，標準化篩檢方案與最佳臨床處置指引仍不完備。慢性受損的免疫監視使HR-HPV得以長期存續並發生病毒基因體整合，透過E6與E7致癌蛋白驅動癌化過程。鈣調磷酸酶抑制劑（calcineurin inhibitors）具有促癌效應，而轉換為mTOR抑制劑則展現出獨特的抗增生與抗病毒優勢。早期偵測仰賴風險分層篩檢，包括肛門指診（DARE）、肛門細胞學檢查與高解析度肛門鏡檢查（HRA）。針對肛門上皮內贌瘤（AIN）的處置，傳統局部藥物與微創消融手術被廣泛使用，然而高復發率仍是主要臨床挑戰。本綜述分析KTRs中HPV的致病機轉與臨床處置，評估免疫抑制方案的影響，並探討創新的診斷與治療策略。為在不損害移植腎功能的前提下應對病毒持續存在，整合新型非侵入性、目標特異性營養補充品可能是值得關注的輔助策略。最終，降低移植後ASCC風險需要多學科整合策略，結合早期局部篩檢與量身訂做的全身性免疫抑制方案。",
+   "evidence_level": "綜述",
+   "score": 4,
+   "score_reason": "敘述性文獻回顧，無原始數據或統合分析方法，對臨床決策提供概念框架但缺乏可直接改變實務的具體證據等級。",
+   "relevance": "中度相關",
+   "relevance_why": "腎移植患者的肛門HPV/ASCC篩檢與AIN處置屬大腸直腸外科高解析度肛門鏡執業範疇，但多數台灣中心此類病人由多科團隊共同照護，非單一外科決策。",
+   "novelty": "仍屬早期",
+   "one_liner": "本綜述整理腎臟移植受者中HR-HPV致癌機轉、免疫抑制藥物選擇與AIN篩檢處置現況，未提供新的比較性數據。",
+   "action": "對長期追蹤的腎移植病人，考慮納入DARE、肛門細胞學與HRA篩檢流程；AIN處置後高復發率需與腎科討論免疫抑制調整，目前無新證據改變現行做法。",
+   "pico": {
+    "P": "腎臟移植受者（KTRs），未提供具體人數（綜述性質）",
+    "I": "HPV致病機轉分析、免疫抑制藥物選擇（CNI vs mTOR抑制劑）、篩檢與AIN處置策略",
+    "C": "無對照組（敘述性綜述，非統合分析）",
+    "O": "主要：ASCC與AIN的病理機轉與臨床管理現況；次要：新興診斷/治療策略（含營養補充品）"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本文為敘述性綜述，未提供具體事件數、發生率或統計數據可供ARR/NNT計算",
+    "強調CNI促癌效應 vs mTOR抑制劑抗腫瘤/抗病毒優勢，但無量化比較數據",
+    "AIN處置後高復發率被提及為主要臨床挑戰，但未給出具體復發率數字"
+   ],
+   "cautions": [
+    "敘述性綜述無系統性文獻搜尋方法說明，證據來源與篩選標準不明，可能存在選擇性引用偏誤",
+    "免疫抑制藥物轉換建議（CNI→mTOR）缺乏具體RCT或世代研究數據支持，屬機轉推論",
+    "『高復發率』『新型營養補充品輔助策略』等描述缺乏量化證據，可能過度延伸尚屬理論階段的介入方式"
+   ],
+   "unassessable": [
+    "文獻搜尋策略與系統性方法",
+    "納入研究之證據等級與數量",
+    "利益衝突",
+    "具體篩檢或治療方案之成效數據",
+    "試驗註冊",
+    "統計方法"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-08-28T14:01:41+08:00"
+  },
+  {
+   "pmid": "42654435",
+   "title": "Exosomes in Colorectal Cancer: From Tumor Biology to Diagnostic and Therapeutic Applications",
+   "journal": "Medicina (Kaunas)",
+   "journal_full": "Medicina (Kaunas, Lithuania)",
+   "issn": "1648-9144",
+   "issn_linking": "1010-660X",
+   "impact_factor": 2.9,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.3390/medicina62081538",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Topal U, Zamur C",
+   "abstract": "Colorectal cancer (CRC) remains a leading cause of cancer-related morbidity and mortality worldwide despite advances in screening, surgical techniques, and systemic therapies. In recent years, exosomes-nanoscale extracellular vesicles involved in intercellular communication-have emerged as critical regulators of CRC biology. Exosomes mediate tumor progression, metastatic dissemination, immune evasion, and therapeutic resistance through the transfer of bioactive molecules including proteins, lipids, and non-coding RNAs. Moreover, exosomes have gained increasing attention as promising liquid biopsy tools and therapeutic platforms due to their stability, biocompatibility, and ability to reflect tumor molecular dynamics. This review provides a comprehensive overview of exosome biogenesis, molecular composition, and their functional roles in CRC pathogenesis. We further discuss their diagnostic and prognostic value, involvement in therapeutic resistance, and emerging therapeutic applications, with particular emphasis on translational and surgical oncology implications. Finally, we highlight current limitations and future perspectives for clinical integration of exosome-based strategies in CRC management.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42461452",
+     "date": "2026-07-17",
+     "title_zh": "大腸直腸癌中致癌性長鏈非編碼RNA PVT1：ceRNA介導腫瘤進展之機轉與臨床意涵",
+     "score": 2,
+     "one_liner": "本文綜述PVT1作為ceRNA促進大腸直腸癌進展之分子機轉，並討論其作為生物標記之潛力，無臨床數據。",
+     "sim": 0.193
+    },
+    {
+     "pmid": "42461452",
+     "date": "2026-07-18",
+     "title_zh": "大腸直腸癌中致癌性長鏈非編碼RNA PVT1：ceRNA介導腫瘤進展之機轉與臨床意涵",
+     "score": 2,
+     "one_liner": "本文綜述PVT1作為ceRNA促進大腸直腸癌進展之分子機轉，並討論其作為生物標記之潛力，無臨床數據。",
+     "sim": 0.193
+    },
+    {
+     "pmid": "42500682",
+     "date": "2026-07-26",
+     "title_zh": "大腸直腸癌肝轉移：機制與治療",
+     "score": 2,
+     "one_liner": "本文綜述CRLM的免疫耐受微環境機制、現行治療選項與新興策略，未提供原創臨床療效數據。",
+     "sim": 0.186
+    }
+   ],
+   "title_zh": "大腸直腸癌中的外泌體：從腫瘤生物學到診斷與治療應用",
+   "abstract_zh": "大腸直腸癌（CRC）儘管在篩檢、手術技術與全身性治療上有所進展，仍是全球癌症相關罹病率與死亡率的主要原因。近年來，外泌體——參與細胞間通訊的奈米級細胞外囊泡——已成為CRC生物學中的關鍵調控因子。外泌體透過轉運蛋白質、脂質與非編碼RNA等生物活性分子，介導腫瘤進展、轉移擴散、免疫逃逸與治療抗性。此外，由於外泌體具穩定性、生物相容性，且能反映腫瘤分子動態，其作為液態切片工具與治療平台的潛力也日益受到關注。本綜述全面概述外泌體的生合成、分子組成及其在CRC致病機轉中的功能角色。我們進一步討論其診斷與預後價值、在治療抗性中的參與，以及新興治療應用，特別著重於轉譯醫學與外科腫瘤學的意涵。最後，我們強調外泌體相關策略在CRC臨床整合上目前的限制與未來展望。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純機轉綜述，無原創臨床數據、無病人族群，對臨床決策無直接可操作性。",
+   "relevance": "低度相關",
+   "relevance_why": "屬基礎轉譯研究綜述，非外科介入或臨床試驗，短期內不影響臨床決策。",
+   "novelty": "仍屬早期",
+   "one_liner": "本文綜述外泌體在大腸直腸癌生物學中的角色，探討其作為診斷生物標記與治療平台之潛力，無臨床數據。",
+   "action": "目前不需改變做法；純機轉綜述，無病人層級數據可供臨床應用參考。",
+   "pico": {
+    "P": "無特定病人族群（綜述文章）",
+    "I": "外泌體之生物學角色與潛在應用（非臨床介入）",
+    "C": "無對照組",
+    "O": "無原創臨床outcome數據；討論診斷/預後價值與治療抗性機轉"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本文未提供任何臨床試驗數據、事件數或統計量",
+    "全文為機轉性描述與文獻整理，無量化療效或診斷準確度數字",
+    "無陰性或陽性臨床結果可供摘錄"
+   ],
+   "cautions": [
+    "純綜述性質，無原創數據，所有結論皆基於既有文獻整理，需查證原始研究品質",
+    "外泌體作為生物標記/治療平台之討論多屬概念性，距臨床應用仍有相當距離",
+    "未提供任何診斷準確度（敏感度/特異度）或治療效果之具體數字，無法評估實證強度"
+   ],
+   "unassessable": [
+    "盲法",
+    "allocation concealment",
+    "ITT",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本分析",
+    "納入文獻之系統性搜尋方法"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-08-28T14:01:41+08:00"
+  },
+  {
+   "pmid": "42656144",
+   "title": "Functions of the EGFR in health and disease",
+   "journal": "Philos Trans R Soc Lond B Biol Sci",
+   "journal_full": "Philosophical transactions of the Royal Society of London. Series B, Biological sciences",
+   "issn": "1471-2970",
+   "issn_linking": "0962-8436",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1098/rstb.2024.0497",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Bauer T, Holcmann M, Sibilia M",
+   "abstract": "The epidermal growth factor receptor (EGFR) is a critical mediator of cellular physiology, and its deregulation is implicated in a broad spectrum of pathological conditions, ranging from skin disorders to epithelial malignancies and brain tumours. Although lack of EGFR signalling primarily affects skin and brain development and tissue homeostasis, aberrant EGFR activation through overexpression or mutation converts the receptor into a potent oncogenic driver. This occurs particularly in human cancers such as glioblastoma, non-small-cell lung carcinoma, colorectal cancer, hepatocellular carcinoma, pancreatic ductal adenocarcinoma and head and neck squamous cell carcinoma. Genetically engineered mouse models have been instrumental in advancing our understanding of EGFR biology by elucidating mechanisms of disease initiation and progression, and by enabling the preclinical evaluation of novel therapeutic strategies. The ability to manipulate EGFR expression and activity in a spatiotemporally controlled manner in mice has allowed us to dissect its complex signalling pathways and their downstream effects, revealing unexpected functions of EGFR and enhancing its relevance for translational research. In this paper, we focus on the context-specific roles of EGFR during tumourigenesis, the therapeutic relevance of EGFR inhibition in cancer and the molecular mechanisms underlying skin toxicities associated with EGFR-targeted therapies. This article is part of the discussion meeting issue 'Epidermal growth factor receptor after 40 years'.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42397650",
+     "date": "2026-07-03",
+     "title_zh": "表皮生長因子受體抑制劑於局部晚期與轉移性肛門鱗狀上皮細胞癌之療效：系統性回顧與統合分析",
+     "score": 5,
+     "one_liner": "在404名局部晚期或轉移性ASCC病人的12篇研究統合分析中，EGFR抑制劑併用化放療/全身治療，客觀反應率52%，中位OS 11.9個月。",
+     "sim": 0.194
+    },
+    {
+     "pmid": "42391843",
+     "date": "2026-07-03",
+     "title_zh": "6PPDQ透過增強EGF/EGFR訊號傳導促進大腸直腸癌惡性進展",
+     "score": 2,
+     "one_liner": "體外／體內實驗顯示環境污染物6PPDQ透過EGFR/ERK/AKT路徑促進大腸直腸癌細胞增殖與侵襲，並加速裸鼠腫瘤生長。",
+     "sim": 0.158
+    }
+   ],
+   "title_zh": "EGFR於健康與疾病中的功能",
+   "abstract_zh": "表皮生長因子受體（EGFR）是細胞生理學的關鍵調節者，其失調與廣泛的病理狀況有關，範圍從皮膚疾病到上皮性惡性腫瘤及腦瘤。雖然EGFR訊號傳導缺乏主要影響皮膚與腦部發育及組織恆定，但透過過度表現或突變導致的異常EGFR活化，會將該受體轉變為強效的致癌驅動因子。這特別發生於人類癌症，例如膠質母細胞瘤、非小細胞肺癌、大腸直腸癌、肝細胞癌、胰臟導管腺癌及頭頸部鱗狀細胞癌。基因工程小鼠模型在推進我們對EGFR生物學的理解上扮演重要角色，闡明了疾病起始與進展的機制，並促成新治療策略的臨床前評估。在小鼠身上以時空可控方式操縱EGFR表現與活性的能力，讓我們得以解析其複雜的訊號傳導路徑及其下游效應，揭示EGFR的意外功能並增進其在轉譯研究上的相關性。本文聚焦於EGFR在腫瘤發生過程中因情境而異的角色、EGFR抑制在癌症治療上的臨床意義，以及EGFR標靶治療相關皮膚毒性的分子機制。本文為'表皮生長因子受體40週年'討論會議專刊之一部分。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純機制性基礎生物學綜述，無臨床試驗數據或原始研究結果，對台灣大腸直腸外科日常臨床決策無直接可操作性。",
+   "relevance": "低度相關",
+   "relevance_why": "為跨多種癌症的EGFR基礎生物學綜述，非大腸直腸外科手術或臨床治療決策相關之原始研究。",
+   "novelty": "再確認已知",
+   "one_liner": "本文綜述EGFR訊號傳導於皮膚腦部發育及多種上皮癌（含大腸直腸癌）致癌機轉的角色，並討論EGFR標靶治療引發皮膚毒性之分子機制。",
+   "action": "目前不需改變做法；此為基礎生物學綜述，未提供任何臨床試驗數據或具體治療建議。",
+   "pico": {
+    "P": "無特定病人族群；綜述涵蓋多種EGFR相關疾病與癌症（含大腸直腸癌）及基因工程小鼠模型研究",
+    "I": "無介入（綜述性文章）",
+    "C": "無對照組",
+    "O": "討論EGFR訊號傳導機制、致癌角色、EGFR抑制之治療意義及相關皮膚毒性分子機轉"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供任何臨床試驗之絕對數據、事件率或信賴區間",
+    "僅列舉EGFR驅動之癌症種類（膠質母細胞瘤、肺癌、大腸直腸癌等），無量化比較",
+    "無新穎統計結果可供ARR/NNT計算"
+   ],
+   "cautions": [
+    "純屬機制性敘述綜述，無臨床數據，無法直接指導手術或藥物治療決策",
+    "涵蓋多種癌症但對大腸直腸癌未提供specific新發現或可操作建議",
+    "敘述性綜述缺乏系統性文獻回顧方法學，可能存在作者選擇性引用偏誤"
+   ],
+   "unassessable": [
+    "盲法",
+    "ITT",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本分析",
+    "此為敘述性綜述，無原始研究方法學可供評估"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "本文提供EGFR訊號傳導於多種癌症（含大腸直腸癌）致癌機轉之廣泛機制性背景，可作為先前兩篇EGFR/CRC及EGFR/ASCC相關研究的上游生物學脈絡，但未針對其臨床發現進行直接驗證或延伸。",
+   "added_at": "2026-08-28T14:01:41+08:00"
+  }
+ ]
+}
