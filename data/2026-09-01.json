@@ -1,0 +1,736 @@
+{
+ "date": "2026-09-01",
+ "generated_at": "2026-09-01T09:09:52+08:00",
+ "count": 10,
+ "papers": [
+  {
+   "pmid": "42670816",
+   "title": "The use of digital health tools in the management of inflammatory bowel disease: a systematic review",
+   "journal": "Minerva Gastroenterol (Torino)",
+   "journal_full": "Minerva gastroenterology",
+   "issn": "2724-5365",
+   "issn_linking": "2724-5985",
+   "impact_factor": 1.5,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Sep",
+   "doi": "10.23736/S2724-5985.26.04128-8",
+   "ptype": "Systematic Review",
+   "ptype_list": [
+    "Systematic Review"
+   ],
+   "authors": "Meddi G, Mencaroni C, Schiavoni E, Ribaudi E, Amato S, Napolitano D",
+   "abstract": "BACKGROUND: Inflammatory bowel diseases (IBD), including Crohn's disease and ulcerative colitis, are chronic immune-mediated disorders characterized by a relapsing-remitting course and progressive intestinal damage with a significant impact on patients' quality of life and healthcare system. Traditional care models, based on periodic outpatient checkups, are often insufficient to ensure continuous disease monitoring and timely intervention in the event of a flare-up. In this context, the use of digital health tools represents a potentially innovative strategy to improve clinical and self-management of the disease. The aim of this systematic review is to investigate which digital health tools are currently used to support the management of patients with inflammatory bowel disease (IBD), including Crohn's disease and ulcerative colitis.\nMETHODS: This systematic review was conducted and reported in accordance with the PRISMA 2020 guidelines. Searches of PubMed, CINAHL, Web of Science, Scopus, and the Cochrane Library were made covering literature from 2006 to 2025.\nRESULTS: Fifteen articles were analyzed, paying attention to the themes of general characteristics, methodological quality, digital health tools utilized, topics of interest of the studies and acceptability and usability.\nCONCLUSIONS: DHTs are promising tools for managing chronic conditions such as IBD, but require further refinement and adaptation to population-specific needs.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42613928",
+     "date": "2026-08-20",
+     "title_zh": "數位健康介入對大腸直腸癌（CRC）患者營養狀態與生活品質之影響：隨機對照試驗之系統性回顧與統合分析",
+     "score": 5,
+     "one_liner": "在1210名CRC病人（11篇RCT）中，比較數位健康介入與常規照護，QoL顯著改善（SMD 0.67）但異質性極高，NS無顯著差異。",
+     "sim": 0.184
+    },
+    {
+     "pmid": "42613928",
+     "date": "2026-08-21",
+     "title_zh": "數位健康介入對大腸直腸癌（CRC）患者營養狀態與生活品質（QoL）之影響：隨機對照試驗系統性回顧與統合分析",
+     "score": 4,
+     "one_liner": "在11篇RCT、1210名CRC患者中，數位健康介入對營養狀態無效（MD 2.23, p=.27），QoL中等改善（SMD 0.67, p=.02）但異質性極高。",
+     "sim": 0.184
+    },
+    {
+     "pmid": "42441552",
+     "date": "2026-07-15",
+     "title_zh": "發炎性腸道疾病新興生物標記範疇性回顧：邁向精準醫學之診斷與治療管理",
+     "score": 2,
+     "one_liner": "回顧27篇2021-2025年研究，整理IBD新興生物標記（體學、AI、生物感測器）之診斷與預後潛力，未提供臨床可用之量化效能數據。",
+     "sim": 0.159
+    }
+   ],
+   "title_zh": "數位健康工具於發炎性腸道疾病（IBD）管理之應用：系統性回顧",
+   "abstract_zh": "背景：發炎性腸道疾病（IBD），包括克隆氏症與潰瘍性大腸炎，是一種慢性免疫介導疾病，具有復發與緩解交替的病程及漸進性腸道損傷，對病人生活品質及醫療系統造成重大影響。傳統以定期門診追蹤為基礎的照護模式，往往不足以確保疾病的持續監測及在急性發作時的及時介入。在此背景下，數位健康工具的使用代表一種潛在的創新策略，可改善疾病的臨床照護與自我管理。本系統性回顧的目的為調查目前用於支持IBD（包括克隆氏症與潰瘍性大腸炎）病人管理的數位健康工具種類。\n方法：本系統性回顧依循PRISMA 2020指引進行並撰寫報告。檢索PubMed、CINAHL、Web of Science、Scopus及Cochrane Library資料庫，涵蓋2006年至2025年之文獻。\n結果：共分析15篇文章，聚焦於一般特徵、方法學品質、所使用之數位健康工具、研究主題及可接受度與可用性等議題。\n結論：數位健康工具是管理如IBD等慢性疾病的具潛力工具，但仍需進一步精進並依人群特定需求調整。",
+   "evidence_level": "系統性回顧",
+   "score": 2,
+   "score_reason": "摘要僅為敘述性整理15篇文章、無統合分析與量化成效數據，且主題聚焦IBD自我管理數位工具而非大腸直腸外科議題，實用性極低。",
+   "relevance": "低度相關",
+   "relevance_why": "本篇探討IBD病人自我管理用的數位健康工具，屬非手術性介入，與大腸直腸外科臨床決策關聯性低。",
+   "novelty": "仍屬早期",
+   "one_liner": "在15篇研究中，敘述性回顧IBD病人使用之數位健康工具種類、方法學品質與可用性，未提供量化臨床成效數據。",
+   "action": "目前不需改變做法，因本篇未提供任何可量化的臨床成效數據，且主題非大腸直腸手術相關。",
+   "pico": {
+    "P": "IBD病人（克隆氏症及潰瘍性大腸炎），共納入15篇研究",
+    "I": "各類數位健康工具（DHTs）",
+    "C": "無對照組（本篇為敘述性系統性回顧，非統合分析）",
+    "O": "主要：數位健康工具種類、方法學品質；次要：可接受度與可用性"
+   },
+   "effects": [],
+   "key_numbers": [
+    "共納入15篇文章，檢索文獻涵蓋2006-2025年",
+    "摘要未提供任何量化臨床成效指標（如flare發生率、住院率、就醫次數）",
+    "結論為敘述性陳述：DHTs具潛力但需進一步優化與人群適配，無統計數據支持"
+   ],
+   "cautions": [
+    "全篇為敘述性系統性回顧，無統合分析，缺乏可比較的量化證據",
+    "摘要未說明納入15篇研究之設計類型（RCT vs 觀察性），證據等級不明確",
+    "主題為IBD病人自我管理數位工具，非大腸直腸外科手術或治療決策相關議題"
+   ],
+   "unassessable": [
+    "納入研究之設計類型與品質評分細節",
+    "試驗註冊",
+    "利益衝突",
+    "各數位工具實際效果之量化數據",
+    "異質性評估與發表偏誤"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "與前作（數位健康介入於CRC病人營養/QoL之統合分析）同屬數位健康工具應用主題，但本篇聚焦IBD而非CRC、且僅為敘述性回顧未提供任何量化效果數據，證據強度明顯較前作弱。",
+   "added_at": "2026-09-01T09:07:50+08:00"
+  },
+  {
+   "pmid": "42671704",
+   "title": "Comparison of surgical outcomes between robot-assisted and laparoscopic right colectomy for colon cancer: a single-center cohort study",
+   "journal": "J Robot Surg",
+   "journal_full": "Journal of robotic surgery",
+   "issn": "1863-2491",
+   "issn_linking": "1863-2483",
+   "impact_factor": 4.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1186/s12893-024-02593-y",
+   "ptype": "Comparative Study",
+   "ptype_list": [
+    "Comparative Study"
+   ],
+   "authors": "Kasashima H, Fukuoka T, Naito N, Yonemitsu K, Seki Y, Kuroda K",
+   "abstract": "To assess the feasibility of robot-assisted right colectomy (RRC) for right-sided colon cancer by comparing its short-term surgical outcomes with those of laparoscopic right colectomy (LRC). We retrospectively reviewed consecutive patients undergoing elective right colectomy for stage I-III colon adenocarcinoma (LRC, n = 75; RRC, n = 50). The primary endpoint was overall 30-day postoperative morbidity; overall survival (OS), relapse-free survival (RFS), and other perioperative measures were secondary. A pre-specified exploratory analysis measured anastomotic time on intraoperative video in patients receiving an intracorporeal anastomosis (IA; robotic, n = 10; laparoscopic, n = 3). Median follow-up was 22.6 months. Baseline characteristics were balanced. Blood loss was lower with RRC (median 5 vs. 10 mL, p = 0.005), a clinically irrelevant difference, while operative time was longer (290 vs. 251 min, p = 0.05); setup and docking took a median of 24.5 min and console time 211.5 min. IA was used far more often in RRC (88.0% vs. 6.7%, p < 0.001). Morbidity, Clavien-Dindo grade ≥ III events, leakage, and hospital stay were similar. Robotic IA (n = 10) was faster than laparoscopic IA (n = 3; 33.4 vs. 40.7 min, p = 0.049), though underpowered. Neither OS nor RFS differed (log-rank p = 0.12 and 0.13). RRC was as safe as LRC perioperatively, with no difference in early OS or RFS, although the study was not powered for equivalence. The shorter robotic anastomotic time, observed despite greater institutional experience with laparoscopic IA, is hypothesis-generating and merits confirmation in adequately powered studies.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42604816",
+     "date": "2026-08-18",
+     "title_zh": "機器人輔助與腹腔鏡大腸切除術體內吻合之短期預後比較：單中心研究合併系統性回顧與統合分析",
+     "score": 4,
+     "one_liner": "在77名大腸癌病人(機器人26/腹腔鏡51)及統合11篇研究中，比較機器人與腹腔鏡體內吻合，機器人手術時間多54分鐘但出血量少14mL，其餘無差異。",
+     "sim": 0.25
+    },
+    {
+     "pmid": "42543847",
+     "date": "2026-08-04",
+     "title_zh": "單孔與多孔機器人右半結腸切除術之比較：短期結果與取標本部位對術後疼痛之影響",
+     "score": 3,
+     "one_liner": "在49名機器人右半結腸切除病人中，比較SP與Xi平台，SP手術時間較短，且經Pfannenstiel取標本疼痛低於經臍取標本(p=0.0062)。",
+     "sim": 0.225
+    },
+    {
+     "pmid": "42543847",
+     "date": "2026-08-05",
+     "title_zh": "單孔機器人與多孔機器人右半結腸切除術之比較：短期結果與取出切口位置對術後疼痛之影響",
+     "score": 4,
+     "one_liner": "在49名機器人右半結腸切除病人中，SP手術時間較短(244 vs 309分)，且SP合併Pfannenstiel切口疼痛低於臍部切口(p=0.0062)。",
+     "sim": 0.225
+    }
+   ],
+   "title_zh": "機器人輔助與腹腔鏡右半結腸切除術治療大腸癌之手術預後比較：單中心世代研究",
+   "abstract_zh": "為評估機器人輔助右半結腸切除術（RRC）用於右側大腸癌之可行性，本研究比較其短期手術結果與腹腔鏡右半結腸切除術（LRC）。我們回溯性檢視接受選擇性右半結腸切除術之第I-III期大腸腺癌連續病人（LRC組n=75；RRC組n=50）。主要終點為術後30天整體併發症率；次要終點包括整體存活（OS）、無復發存活（RFS）及其他手術週期指標。一項預先設定的探索性分析，針對接受體內吻合（IA）的病人，測量術中影片中的吻合時間（機器人組n=10；腹腔鏡組n=3）。中位追蹤時間為22.6個月。基線特徵組間平衡。RRC組出血量較低（中位數5 vs 10 mL，p=0.005），但此差異無臨床意義；手術時間較長（290 vs 251分鐘，p=0.05）；準備與對接時間中位數為24.5分鐘，操作台時間為211.5分鐘。RRC組使用IA的比例遠高於LRC組（88.0% vs 6.7%，p<0.001）。併發症率、Clavien-Dindo分級≥III事件、吻合口滲漏及住院天數兩組相似。機器人IA（n=10）比腹腔鏡IA（n=3）更快（33.4 vs 40.7分鐘，p=0.049），但檢定力不足。OS與RFS均無差異（log-rank p=0.12及0.13）。RRC在手術週期方面與LRC同樣安全，早期OS或RFS無差異，惟本研究並未針對等效性進行檢定力計算。機器人吻合時間較短的發現，即使在機構對腹腔鏡IA經驗更豐富的情況下仍觀察到，屬於假說產生性質，值得在檢定力充足的研究中進一步驗證。",
+   "evidence_level": "回溯性研究",
+   "score": 3,
+   "score_reason": "單中心小型回溯性研究，樣本量小且多項次分析（IA吻合時間僅10 vs 3人）明顯underpowered，主要結論多為陰性/無差異，臨床可信度與實用性有限。",
+   "relevance": "中度相關",
+   "relevance_why": "機器人右半結腸切除術在台灣醫學中心已逐漸普及，但本篇證據等級與樣本量不足以支撐臨床決策改變。",
+   "novelty": "仍屬早期",
+   "one_liner": "在125名右半結腸切除病人（LRC 75人 vs RRC 50人）中，比較機器人與腹腔鏡手術，手術時間RRC較長（290 vs 251分，p=0.05），併發症與OS/RFS無差異。",
+   "action": "目前不需改變做法。機器人右半結腸切除術可視為安全選項，但本研究樣本小、underpowered，不足以確立優勢或等效性。",
+   "pico": {
+    "P": "接受選擇性右半結腸切除術之第I-III期大腸腺癌病人共125人（LRC n=75；RRC n=50）",
+    "I": "機器人輔助右半結腸切除術（RRC）",
+    "C": "腹腔鏡右半結腸切除術（LRC）",
+    "O": "主要：術後30天整體併發症率；次要：OS、RFS、出血量、手術時間、IA吻合時間、住院天數"
+   },
+   "effects": [],
+   "key_numbers": [
+    "手術時間：RRC 290分 vs LRC 251分，p=0.05（邊緣顯著，臨床意義存疑）",
+    "體內吻合時間（探索性亞組）：機器人33.4分 vs 腹腔鏡40.7分，p=0.049，但僅10 vs 3人",
+    "OS/RFS無差異：log-rank p=0.12與0.13，但研究未針對等效性設計檢定力"
+   ],
+   "cautions": [
+    "主要終點30天併發症率僅描述為「similar」，未提供具體百分比或絕對數字，無法計算ARR",
+    "吻合時間亞組分析樣本極小（10 vs 3人），作者自承underpowered，屬假說產生性質不可推論",
+    "回溯性單中心研究，追蹤僅22.6個月，OS/RFS的「無差異」不足以推論長期腫瘤學等效性"
+   ],
+   "unassessable": [
+    "盲法",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "ITT分析",
+    "統計檢定力事前計算"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "與前作1（機器人vs腹腔鏡體內吻合短期預後比較）主題高度相關，同樣發現機器人出血量較少但手術時間較長；本篇進一步聚焦右半結腸切除，並提出機器人IA吻合時間較短的探索性發現，但同樣受限於極小樣本，屬假說產生階段，尚無法與前作直接矛盾或確認。",
+   "added_at": "2026-09-01T09:07:50+08:00"
+  },
+  {
+   "pmid": "42671395",
+   "title": "The gut microbiota-tryptophan metabolism-immune axis in inflammatory bowel disease: Mechanisms and therapeutic prospects",
+   "journal": "Hum Vaccin Immunother",
+   "journal_full": "Human vaccines & immunotherapeutics",
+   "issn": "2164-554X",
+   "issn_linking": "2164-5515",
+   "impact_factor": 4.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Dec",
+   "doi": "10.1080/21645515.2026.2719313",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Wang T, Wang X, Yuan W",
+   "abstract": "The gut microbiota-tryptophan (TRP) metabolism-immune axis is one of the core pathogenic mechanisms in inflammatory bowel disease (IBD). Physiologically, gut microbes convert dietary TRP into bioactive metabolites that regulate intestinal immune balance and barrier function via AHR. In IBD, this axis enters a vicious cycle of dysbiosis, metabolic disruption, and immune imbalance - characterized by reduced beneficial bacteria, excessive 5‑HT production, and kynurenine pathway overactivation - which drives T‑cell dysregulation, aberrant macrophage polarization, and compromised barrier integrity. Therapeutic strategies are shifting from single‑target to integrated approaches, combining probiotics, engineered bacteria, AHR agonists, IDO1 inhibitors, immunomodulators, and ROS‑responsive nanomedicines. By achieving multi‑node synergistic remodeling, this review provides a theoretical foundation for systemic strategies that coordinate microbial regulation, metabolic intervention, and immune targeting, thereby offering new avenues for the effective treatment of IBD.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42358979",
+     "date": "2026-06-26",
+     "title_zh": "腸道微生物群代謝物在發炎性腸道疾病中的作用：機轉洞見的最新進展",
+     "score": 2,
+     "one_liner": "本綜述整合腸道微生物代謝物（SCFAs、膽酸、色胺酸衍生物）如何透過免疫調節網絡參與IBD致病機制，屬機轉性文獻回顧，無臨床數據。",
+     "sim": 0.196
+    },
+    {
+     "pmid": "42396665",
+     "date": "2026-07-03",
+     "title_zh": "全身性疾病中的口腔-腸道軸：屏障-代謝-免疫三維調控模型（綜述）",
+     "score": 2,
+     "one_liner": "本文提出口腔-腸道軸失調的屏障-代謝-免疫三維理論框架，屬概念性分類與機制假說，未涉及臨床試驗數據。",
+     "sim": 0.17
+    },
+    {
+     "pmid": "42495627",
+     "date": "2026-07-25",
+     "title_zh": "腸道菌群衍生代謝物在胃腸道癌症中的作用：透過色胺酸-芳香烴受體（AhR）軸之免疫調節機制與轉譯觀點",
+     "score": 2,
+     "one_liner": "本文綜述腸道菌群代謝物（SCFAs、膽酸、色胺酸-AhR軸）在胃腸道癌症中的免疫調節機轉，屬概念性整理，無臨床數據。",
+     "sim": 0.164
+    }
+   ],
+   "title_zh": "腸道菌群-色胺酸(TRP)代謝-免疫軸在發炎性腸道疾病(IBD)中的角色：機轉與治療展望",
+   "abstract_zh": "腸道菌群-色胺酸(TRP)代謝-免疫軸是發炎性腸道疾病(IBD)的核心致病機轉之一。在生理狀態下，腸道菌群將飲食中的色胺酸轉化為具生物活性的代謝物，透過芳香烴受體(AHR)調節腸道免疫平衡與屏障功能。在IBD中，此軸線進入菌群失衡、代謝紊亂與免疫失衡的惡性循環——特徵為有益菌減少、5-HT過度產生、以及犬尿氨酸路徑過度活化——進而驅動T細胞失調、巨噬細胞極化異常，以及屏障完整性受損。治療策略正從單一標靶轉向整合性方法，結合益生菌、工程菌、AHR促進劑、IDO1抑制劑、免疫調節劑，以及ROS反應性奈米藥物。透過達成多節點協同重塑，本綜述為協調菌群調控、代謝干預與免疫標靶之全身性策略提供理論基礎，為IBD的有效治療提供新途徑。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純機轉性綜述，無任何臨床試驗數據或人體介入結果，對台灣大腸直腸外科臨床決策幾無直接實用性。",
+   "relevance": "低度相關",
+   "relevance_why": "此為基礎機轉整理，非外科介入或臨床試驗，屬IBD免疫學/腸道菌群研究範疇，非大腸直腸外科日常決策工具。",
+   "novelty": "仍屬早期",
+   "one_liner": "本綜述整理腸道菌群-色胺酸-免疫軸在IBD致病機轉，並提出益生菌、AHR促進劑、IDO1抑制劑等整合治療理論框架，無臨床數據。",
+   "action": "目前不需改變做法；此為機轉性綜述，無臨床試驗或手術相關數據可供決策參考。",
+   "pico": {
+    "P": "無明確病人族群（綜述文章，非臨床研究）",
+    "I": "無（描述腸道菌群-色胺酸代謝-免疫軸機轉與潛在治療策略概念）",
+    "C": "無對照組",
+    "O": "無具體outcome；主題為機轉整理與治療前景展望"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本文為純機轉性綜述，未提供任何臨床試驗數據、事件數或百分比",
+    "所提及的AHR促進劑、IDO1抑制劑、奈米藥物等策略均無臨床療效數字",
+    "無statistically可評估之陰性或陽性結果可供摘錄"
+   ],
+   "cautions": [
+    "全文為機轉假說整理，缺乏任何臨床試驗或人體資料支持所提治療策略",
+    "所提『整合性治療』多為理論推論，尚未有實證支持其臨床效益",
+    "無法區分相關性與因果性，機轉描述可能過度簡化腸道菌群-免疫交互作用複雜性"
+   ],
+   "unassessable": [
+    "研究設計",
+    "病人族群與人數",
+    "盲法",
+    "allocation concealment",
+    "ITT分析",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本分析"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "與前作論文1（腸道微生物代謝物於IBD中的機轉綜述）主題高度重疊，皆涵蓋色胺酸代謝路徑；本篇更聚焦於色胺酸-AHR免疫軸並額外整理潛在治療策略（AHR促進劑、IDO1抑制劑、奈米藥物），屬機轉性延伸而非新增臨床證據。",
+   "added_at": "2026-09-01T09:07:50+08:00"
+  },
+  {
+   "pmid": "42671667",
+   "title": "Repositioning transanal total mesorectal excision in the robotic era",
+   "journal": "J Robot Surg",
+   "journal_full": "Journal of robotic surgery",
+   "issn": "1863-2491",
+   "issn_linking": "1863-2483",
+   "impact_factor": 4.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1111/ans.19302",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Li H, Shen T, Shen X",
+   "abstract": "Low rectal cancer lies deep in the pelvis, close to the pelvic autonomic nerves and urogenital structures. Surgery must therefore balance oncological clearance, sphincter preservation, and functional outcomes. Total mesorectal excision (TME) remains the fundamental oncological principle across open, laparoscopic, robotic, and transanal approaches. A deep, narrow male pelvis, obesity, a very low tumor, fibrosis after neoadjuvant treatment, and restricted distal transection can make transabdominal TME technically demanding. Robotic transabdominal TME (rTME) provides three-dimensional high-definition visualization, wristed instruments, tremor filtration, and a stable operating platform. These features address several limitations of conventional laparoscopy. rTME may therefore be suitable for most patients with mid-to-low rectal cancer when distal dissection and transection remain controllable from above. Against this background, the role of transanal total mesorectal excision (TaTME) should be reassessed rather than dismissed. Current evidence neither renders TaTME obsolete nor establishes a universal advantage across all low rectal cancers. Instead, TaTME is better positioned as a selective technical complement for very low tumors, restricted distal exposure or transection, and composite difficult-pelvis scenarios. At the same time, the development of robot-assisted TaTME (R-TaTME), hybrid TaTME, single-port robotic systems, and flexible transanal platforms offers new technological avenues. These platforms may improve procedural stability and instrument dexterity during transanal surgery. This review reappraises TaTME in the robotic era, focusing on indication refinement, pathological quality, training and quality assurance, functional preservation, and platform development.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42474600",
+     "date": "2026-07-21",
+     "title_zh": "2026年直腸癌機器人手術：證據的階層式評析",
+     "score": 6,
+     "one_liner": "敘述性綜述整合REAL試驗等證據，指出機器人TME於中低位直腸癌3年局部復發率1.6% vs. 4.0%優於腹腔鏡。",
+     "sim": 0.175
+    },
+    {
+     "pmid": "42474600",
+     "date": "2026-07-22",
+     "title_zh": "2026年直腸癌機器人手術：證據的階層式評析",
+     "score": 6,
+     "one_liner": "敘述性綜述整合REAL試驗等證據，指出機器人TME於中低位直腸癌3年局部復發率1.6% vs. 4.0%優於腹腔鏡。",
+     "sim": 0.175
+    },
+    {
+     "pmid": "42551037",
+     "date": "2026-08-05",
+     "title_zh": "中低位直腸癌經肛門與腹腔鏡全直腸繫膜切除術（TME）之生活品質、腸道功能與長期腫瘤學結果比較（Ta-LaTME研究）：多中心隨機開放標籤試驗",
+     "score": 6,
+     "one_liner": "在105名中低位直腸癌病人（LaTME 57 vs TaTME 59）中，比較TME術式，5年局部復發6.4% vs 3.7%、重度LARS 30% vs 44%，均未達統計顯著。",
+     "sim": 0.175
+    }
+   ],
+   "title_zh": "在機器人時代重新定位經肛門全直腸繫膜切除術（TaTME）",
+   "abstract_zh": "低位直腸癌深藏於骨盆腔內，緊鄰骨盆自主神經與泌尿生殖結構。手術必須在腫瘤廓清、肛門括約肌保留與功能結果之間取得平衡。全直腸繫膜切除術（TME）仍是開腹、腹腔鏡、機器人與經肛門各種手術途徑共同遵循的腫瘤學基本原則。深窄的男性骨盆腔、肥胖、極低位腫瘤、新輔助治療後纖維化、以及遠端切線受限，都會使經腹TME在技術上更具挑戰性。經腹機器人TME（rTME）提供三維高解析度視野、腕式器械、震顫過濾與穩定操作平台，能改善傳統腹腔鏡的若干限制。因此，當遠端解剖與切線仍可由上方操作控制時，rTME可能適合大多數中低位直腸癌患者。在此背景下，經肛門全直腸繫膜切除術（TaTME）的角色應該被重新評估，而非直接放棄。目前證據既未使TaTME過時，也未證實其在所有低位直腸癌中具有普遍優勢。相反，TaTME更適合定位為針對極低位腫瘤、遠端顯露或切線受限、以及複合性困難骨盆情境的選擇性技術輔助手段。同時，機器人輔助TaTME（R-TaTME）、混合式TaTME、單孔機器人系統及可彎式經肛門平台等新技術發展，可能改善經肛門手術過程中的操作穩定性與器械靈活度。本綜述在機器人時代重新評估TaTME，聚焦於適應症精進、病理品質、訓練與品質保證、功能保留，以及平台發展。",
+   "evidence_level": "綜述",
+   "score": 4,
+   "score_reason": "為敘述性綜述、非系統性方法學，無原始數據或統計分析，僅提供專家觀點整理，可作為臨床思路參考但不足以改變實務。",
+   "relevance": "高度相關",
+   "relevance_why": "直接討論中低位直腸癌手術術式選擇（TaTME vs rTME），是台灣大腸直腸外科日常決策的核心議題。",
+   "novelty": "仍屬早期",
+   "one_liner": "敘述性綜述重新評估機器人時代TaTME的定位，主張其為極低位腫瘤或困難骨盆的選擇性輔助，而非過時或萬用術式。",
+   "action": "可讀作觀點更新，了解R-TaTME、混合式TaTME等新平台發展趨勢；目前無新數據，實務決策仍依現有RCT結果。",
+   "pico": {
+    "P": "中低位直腸癌病人（未提供具體人數，為概念性討論）",
+    "I": "經肛門全直腸繫膜切除術（TaTME）及其衍生平台（R-TaTME、混合式TaTME、單孔機器人系統）",
+    "C": "經腹機器人TME（rTME）",
+    "O": "適應症精進、病理品質、訓練與品質保證、功能保留；無明確主要結果指標"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供任何量化數據（事件數、發生率、HR/RR等）",
+    "作者主張TaTME適用於極低位腫瘤與複合困難骨盆情境，屬敘述性結論非統計結果",
+    "無原始研究數據支持，僅為文獻整合觀點"
+   ],
+   "cautions": [
+    "為敘述性綜述而非系統性回顧，未說明文獻檢索方法，可能有選擇性引用偏誤",
+    "結論（TaTME應定位為選擇性輔助）為作者觀點整理，非統計檢驗結果",
+    "摘要中無任何量化數據或信賴區間可供驗證，論述可信度難以評估"
+   ],
+   "unassessable": [
+    "文獻檢索策略",
+    "納入研究之品質評估",
+    "利益衝突",
+    "原始數據來源與統計方法",
+    "主要結果之量化證據"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "此篇延伸前兩篇機器人TME證據階層綜述與Ta-LaTME試驗的主題，進一步在機器人平台興起背景下重新定位TaTME角色，但本身未提供新的量化證據，僅為觀點性延伸討論。",
+   "added_at": "2026-09-01T09:07:50+08:00"
+  },
+  {
+   "pmid": "42671316",
+   "title": "Cancer cell-selective ectopic expression of CD20 as an antigen enables rituximab repurposing for solid tumour immunotherapy",
+   "journal": "Clin Transl Med",
+   "journal_full": "Clinical and translational medicine",
+   "issn": "2001-1326",
+   "issn_linking": "2001-1326",
+   "impact_factor": 7.9,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Sep",
+   "doi": "10.1002/ctm2.70804",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Kong Z, Wang Y, Zhao Y, Wang L, Fan Z, Shu Y",
+   "abstract": "BACKGROUND: Despite the clinical success of cancer immunotherapies, their efficacy is often compromised by antigen-related problems, including downregulation, loss, and off-tumour toxicity.\nMETHODS: To overcome these limitations that challenge the current immunotherapies dependent on native antigens, we here describe a new cancer immunotherapy strategy that artificially and specifically expresses a clinically validated antigen on variant tumours and thus repurposes clinical antibody drugs to treat cancers not belonging to their indications. To authenticate the strategy, we delivered a CD20 gene under the control of an NF-κB-specific promoter to tumours by adeno-associated virus and then treated them with a CD20 antibody, rituximab.\nRESULTS: We found that CD20 was selectively expressed in tumours, and subsequent rituximab treatment engaged multiple antibody-dependent effector mechanisms, including NK-cell-mediated ADCC and macrophage-mediated ADCP. We demonstrated that this strategy is effective not only in variant-cultivated cancer cells, HCT116 spheroids, and patient-derived organoids of human colorectal cancer, but also in a humanized mouse with an HCT116 xenograft and immunocompetent mouse with an MC38 transplant. The strategy showed high cancer cell specificity in both in vitro and in vivo models, resulting in high therapeutic efficacy.\nCONCLUSION: This strategy thus creates a new modality of cancer immune-redirection therapy by repurposing both the clinically validated antigen and antibody.\nKEY POINTS: TRAP enables tumour-selective ectopic expression of the clinically validated antigen CD20, overcoming antigen limitations in solid tumour immunotherapy. TRAP repurposes anti-CD20 antibodies to engage diverse immune effector mechanisms, including ADCC, ADCP, and CDC. TRAP demonstrates antitumour efficacy across cellular, 3D tumour spheroid, patient-derived organoid, and in vivo solid tumour models.",
+   "watched": [],
+   "related": [],
+   "title_zh": "癌細胞選擇性異位表現CD20作為抗原，使rituximab得以重新應用於實體腫瘤免疫治療",
+   "abstract_zh": "背景：儘管癌症免疫治療已獲得臨床成功，但其療效常因抗原相關問題而受損，包括抗原下調、喪失，以及非腫瘤毒性。方法：為克服目前依賴原生抗原之免疫治療所面臨的這些限制，我們在此描述一種新的癌症免疫治療策略，此策略能人工且特異性地在變異腫瘤上表現一個經臨床驗證的抗原，從而將臨床抗體藥物重新應用於治療非其原適應症之癌症。為驗證此策略，我們利用腺相關病毒（AAV）將CD20基因置於NF-κB特異性啟動子控制下遞送至腫瘤，然後以CD20抗體rituximab進行治療。結果：我們發現CD20被選擇性地表現於腫瘤中，隨後的rituximab治療啟動了多種抗體依賴性效應機制，包括NK細胞介導的ADCC與巨噬細胞介導的ADCP。我們證實此策略不僅在變異培養的癌細胞、HCT116球狀體及人類大腸直腸癌患者衍生類器官中有效，在具有HCT116異體移植之人源化小鼠及具有MC38移植之免疫功能完整小鼠中亦有效。此策略在體外及體內模型中均展現高度癌細胞特異性，並產生高治療效力。結論：此策略透過重新應用經臨床驗證的抗原及抗體，創造了一種新型態的癌症免疫重新導向治療模式。重點：TRAP使腫瘤選擇性異位表現經臨床驗證的抗原CD20成為可能，克服實體腫瘤免疫治療中的抗原限制。TRAP重新應用抗CD20抗體以啟動多種免疫效應機制，包括ADCC、ADCP及CDC。TRAP在細胞、3D腫瘤球狀體、患者衍生類器官及體內實體腫瘤模型中展現抗腫瘤療效。",
+   "evidence_level": "其他",
+   "score": 3,
+   "score_reason": "純preclinical基礎/轉譯研究（細胞、類器官、小鼠模型），概念新穎但無人體數據，對明日臨床決策無直接實用性。",
+   "relevance": "低度相關",
+   "relevance_why": "此為基因治療結合抗體之基礎轉譯研究，非外科介入，距臨床應用（人體試驗）尚遙遠。",
+   "novelty": "仍屬早期",
+   "one_liner": "在大腸直腸癌細胞、類器官及小鼠模型中，測試AAV遞送NF-κB調控CD20基因後以rituximab治療，展現腫瘤選擇性殺傷效果。",
+   "action": "目前不需改變做法；此為早期基礎研究，尚無人體試驗數據，距臨床轉譯應用尚遠。",
+   "pico": {
+    "P": "大腸直腸癌細胞株（HCT116）、MC38小鼠腫瘤模型、患者衍生類器官、人源化及免疫功能完整小鼠（無明確人數，preclinical模型）",
+    "I": "AAV遞送NF-κB特異性啟動子控制之CD20基因，後續以rituximab治療",
+    "C": "無對照組（或未表現CD20之對照細胞/腫瘤模型，摘要未明確描述）",
+    "O": "主要：CD20腫瘤選擇性表現、ADCC/ADCP免疫效應機制啟動；次要：抗腫瘤治療效力"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供任何量化數據（如腫瘤縮小百分比、存活率、反應率）",
+    "涵蓋多種preclinical模型（細胞、球狀體、類器官、兩種小鼠模型）但均為敘述性結果",
+    "無p值、無信賴區間、無絕對數字可供ARR/NNT計算"
+   ],
+   "cautions": [
+    "純preclinical研究，僅細胞、類器官及小鼠模型，完全無人體安全性或療效數據",
+    "摘要未提供任何量化療效數字（腫瘤抑制率、存活曲線等），僅敘述性結論「高療效」",
+    "NF-κB為發炎相關轉錄因子，非腫瘤特異，脫靶（非腫瘤組織異位表現CD20）風險摘要未討論"
+   ],
+   "unassessable": [
+    "人體安全性與免疫原性",
+    "AAV載體長期表現持久度與致癌風險",
+    "實際腫瘤穿透效率與遞送方式的臨床可行性",
+    "成本與製造可擴展性"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-09-01T09:07:50+08:00"
+  },
+  {
+   "pmid": "42671662",
+   "title": "BRAF V600E-Mutated Metastatic Colorectal Cancer: Practical Management in the Post-BREAKWATER Era",
+   "journal": "J Gastrointest Cancer",
+   "journal_full": "Journal of gastrointestinal cancer",
+   "issn": "1941-6636",
+   "issn_linking": "",
+   "impact_factor": 2.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1200/JCO.2016.71.4394",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Sagawa T, Nagashima H, Fujikawa K",
+   "abstract": "INTRODUCTION: BRAF V600E-mutated metastatic colorectal cancer (mCRC) is a biologically distinct subtype characterized by right-sided predominance, frequent overlap with serrated-pathway biology, and historically poor outcomes with conventional chemotherapy. Therapeutic progress has been driven by the recognition that BRAF inhibition alone is inadequate in colorectal cancer because adaptive epidermal growth factor receptor (EGFR)-mediated feedback rapidly restores MAPK signaling.\nMETHODS: This narrative review evaluates the clinical development and practical integration of BRAF-targeted therapy in BRAF V600E-mutated mCRC, with particular emphasis on first-line treatment, MMR/MSI status, patient fitness, and treatment sequencing in the post-BREAKWATER era.\nRESULTS: Combined BRAF and EGFR inhibition established encorafenib plus cetuximab as a standard option after prior therapy. The phase 3 BREAKWATER program has now moved BRAF-targeted treatment into first-line practice by demonstrating improved outcomes with encorafenib plus cetuximab combined with fluoropyrimidine-basedchemotherapy, including mFOLFOX6 and FOLFIRI backbones. These data define a chemo-targeted approach for fit patients with non-MSI-H/dMMR disease. For MSI-H/dMMR tumors, first-line immune checkpoint blockade should be prioritized irrespective of BRAF V600E status unless immunotherapy is absolutely contraindicated.\nCONCLUSION: Important uncertainties remain regarding whether BRAF/EGFR targeting should be added to immunotherapy in MSI-H/dMMR disease, as well as the management of frail or oxaliplatin-ineligible patients, maintenance therapy, local treatment integration, and sequencing after frontline encorafenib exposure. Treatment selection in the post- BREAKWATER era should therefore integrate molecular context, patient fitness, and remaining evidence gaps.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42423856",
+     "date": "2026-07-09",
+     "title_zh": "轉移性大腸直腸癌二線後治療選擇：細胞毒性救援療法、抗血管新生藥物、再挑戰策略與生物標記導向治療的實用排序",
+     "score": 5,
+     "one_liner": "本文綜述 mCRC 二線後治療（regorafenib、FTD/TPI、fruquintinib）與生物標記導向療法，提出情境式排序框架，非原創試驗數據。",
+     "sim": 0.245
+    },
+    {
+     "pmid": "42474934",
+     "date": "2026-07-21",
+     "title_zh": "MSI-H/dMMR轉移性大腸直腸癌一線免疫治療對比化療：第三期試驗之系統性回顧與統合分析",
+     "score": 5,
+     "one_liner": "在超過600名MSI-H/dMMR轉移性大腸直腸癌病人中，統合2篇第三期試驗，一線免疫治療較化療顯著改善PFS(HR 0.61)與OS(HR 0.77)。",
+     "sim": 0.221
+    },
+    {
+     "pmid": "42474934",
+     "date": "2026-07-22",
+     "title_zh": "MSI-H/dMMR轉移性大腸直腸癌一線免疫治療對比化療：第三期試驗之系統性回顧與統合分析",
+     "score": 5,
+     "one_liner": "在超過600名MSI-H/dMMR轉移性大腸直腸癌病人中，統合2篇第三期試驗，一線免疫治療較化療顯著改善PFS(HR 0.61)與OS(HR 0.77)。",
+     "sim": 0.221
+    }
+   ],
+   "title_zh": "BRAF V600E突變轉移性大腸直腸癌：後BREAKWATER時代的實務處置",
+   "abstract_zh": "前言：BRAF V600E突變轉移性大腸直腸癌（mCRC）是生物學上獨特的亞型，以右側腫瘤為主、常與serrated pathway生物學重疊，傳統化療預後不佳。治療進展源自於認知到單獨BRAF抑制在大腸直腸癌中並不足夠，因為適應性表皮生長因子受體（EGFR）媒介的回饋機制會迅速恢復MAPK訊號傳導。方法：本敘述性綜述評估BRAF標靶治療在BRAF V600E突變mCRC中的臨床發展與實務整合，特別聚焦於一線治療、MMR/MSI狀態、病人體能狀況，以及後BREAKWATER時代的治療排序。結果：BRAF與EGFR聯合抑制已確立encorafenib加cetuximab為先前治療後的標準選項之一。第三期BREAKWATER試驗計畫現已將BRAF標靶治療推進至一線臨床實務，證實encorafenib加cetuximab併用fluoropyrimidine為基礎的化療（包括mFOLFOX6與FOLFIRI骨架）可改善治療結果。這些數據為體能良好、非MSI-H/dMMR疾病的病人定義出一種化療加標靶的治療策略。對於MSI-H/dMMR腫瘤，無論BRAF V600E狀態如何，除非免疫治療絕對禁忌，一線免疫檢查點阻斷治療應優先考慮。結論：仍存在重要的不確定性，包括MSI-H/dMMR疾病中是否應在免疫治療上加入BRAF/EGFR標靶治療、體能虛弱或不適合使用oxaliplatin病人的處置、維持治療、局部治療的整合，以及一線使用encorafenib後的後續治療排序。後BREAKWATER時代的治療選擇因此應整合分子背景、病人體能狀況與現存的證據缺口。",
+   "evidence_level": "綜述",
+   "score": 4,
+   "score_reason": "為敘述性綜述，無原創試驗數據或統計量化結果，對台灣大腸直腸外科臨床決策的直接實用性有限，但可作為MDT討論mCRC全身治療排序的背景知識。",
+   "relevance": "中度相關",
+   "relevance_why": "討論的是mCRC全身性藥物治療排序，屬腫瘤內科主導議題，但涉及轉移性疾病MDT決策與轉化性手術病人的分子分型參考。",
+   "novelty": "再確認已知",
+   "one_liner": "敘述性綜述整合BREAKWATER試驗，說明BRAF V600E mCRC非MSI-H/dMMR病人一線應用encorafenib+cetuximab+化療，MSI-H/dMMR則優先免疫治療。",
+   "action": "目前不需改變手術做法；但BRAF V600E mCRC病人轉診MDT前應先確認MMR/MSI狀態，以決定一線全身治療方向。",
+   "pico": {
+    "P": "BRAF V600E突變轉移性大腸直腸癌病人（敘述性綜述，未提供特定人數）",
+    "I": "BRAF/EGFR標靶治療（encorafenib+cetuximab）併用fluoropyrimidine為基礎化療",
+    "C": "傳統化療 / 免疫檢查點阻斷治療（依MSI狀態）",
+    "O": "一線治療結果改善（未提供具體數值）；治療排序建議"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供BREAKWATER試驗具體療效數值（PFS/OS百分比、HR或信賴區間）",
+    "無原創統計數據可供ARR/NNT計算，本篇僅為敘述性整合",
+    "MSI-H/dMMR病人建議一線優先免疫治療，此結論與既有第三期試驗統合分析方向一致"
+   ],
+   "cautions": [
+    "敘述性綜述非原創試驗，結論多基於單一BREAKWATER試驗詮釋，缺乏獨立驗證數據",
+    "摘要未報告任何具體療效數字、p值或信賴區間，無法評估效應大小",
+    "MSI-H/dMMR疾病是否應加做BRAF/EGFR標靶治療仍屬作者承認的證據缺口，非確立建議"
+   ],
+   "unassessable": [
+    "樣本數",
+    "統計方法與檢定",
+    "盲法",
+    "ITT分析",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本分析"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "本篇與前作MSI-H/dMMR一線免疫治療統合分析（PFS HR 0.61、OS HR 0.77）方向一致，再確認MSI-H/dMMR病人應優先免疫治療；同時延伸補充BRAF V600E這一特定分子亞型在非MSI-H/dMMR病人中的BREAKWATER標靶治療策略，屬於互補的分子分型面向。",
+   "added_at": "2026-09-01T09:07:50+08:00"
+  },
+  {
+   "pmid": "42670367",
+   "title": "Establishing the Median Effective Dose of Tegileridine for Immediate Postoperative Analgesia Following Laparoscopic Colorectal Cancer Surgery: A Sequential Dose-Finding Study",
+   "journal": "Drug Des Devel Ther",
+   "journal_full": "Drug design, development and therapy",
+   "issn": "1177-8881",
+   "issn_linking": "1177-8881",
+   "impact_factor": 6.1,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.2147/DDDT.S628865",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Guo M, Wang T, Lin S, Hu H, Hou J, Zhang C",
+   "abstract": "BACKGROUND: To determine the median effective dose (ED50) of tegileridine for immediate postoperative analgesia following laparoscopic colorectal cancer surgery (LCRS), and to evaluate its safety profile.\nMETHODS: A modified Dixon's up-and-down sequential method was employed, starting with an initial tegileridine dose of 15 µg/kg and a dose ratio of 1:1.1. Patients undergoing elective LCRS received a standardized multimodal analgesic background, including a transversus abdominis plane block and intraoperative sufentanil, and received intravenous tegileridine 10 minutes before the end of surgery. A blinded investigator assessed pain using the Numerical Rating Scale (NRS) at 15 and 30 minutes, and 2 hours post-extubation. Effective analgesia was defined as an NRS score ≤ 3 without rescue analgesia within 2 hours. The ED50 was calculated using probit regression analysis. Hemodynamic variables and adverse events were documented, and safety was followed until postoperative day 2.\nRESULTS: Analysis of the 40 patients revealed that the ED50 of tegileridine for LCRS was 7.311 μg/kg (95% confidence interval [CI]: 2.044 to 9.194). Adverse events were mild and no serious adverse events were observed. In the PACU, 5/40 patients (12.5%) experienced adverse events (hypoxaemia, nausea, vomiting, and dizziness). By postoperative day 2, the cumulative incidence was 17.5% (predominantly dizziness and nausea).\nCONCLUSION: This exploratory study provides a preliminary ED50 estimate for tegileridine in immediate post-LCRS analgesia within a multimodal regimen, with a favorable short-term safety profile. However, the wide CI limits these findings; larger studies are needed to validate dose-response relationships and better define clinically relevant effective doses.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42427264",
+     "date": "2026-07-10",
+     "title_zh": "複方亞甲藍（亞甲藍+羅哌卡因）與脂質體布比卡因用於混合痔手術後疼痛控制之比較：基於臨床研究的綜合分析",
+     "score": 4,
+     "one_liner": "在150名混合痔切除術患者中，比較脂質體布比卡因與複方亞甲藍肛周浸潤，發現前者72小時累積疼痛評分及類鴉片需求皆顯著較低。",
+     "sim": 0.188
+    },
+    {
+     "pmid": "42427264",
+     "date": "2026-07-12",
+     "title_zh": "複方亞甲藍（亞甲藍+羅哌卡因）與脂質體布比卡因用於混合痔手術後疼痛控制之比較：基於臨床研究的綜合分析",
+     "score": 4,
+     "one_liner": "在150名混合痔切除術患者中，比較脂質體布比卡因與複方亞甲藍肛周浸潤，發現前者72小時累積疼痛評分及類鴉片需求皆顯著較低。",
+     "sim": 0.188
+    }
+   ],
+   "title_zh": "確立特格利定（tegileridine）用於腹腔鏡大腸直腸癌手術後即時止痛之半數有效劑量：序列劑量遞增研究",
+   "abstract_zh": "背景：本研究旨在確立特格利定用於腹腔鏡大腸直腸癌手術（LCRS）後即時止痛之半數有效劑量（ED50），並評估其安全性。方法：採用改良式 Dixon up-and-down 序列法，初始劑量為 15 µg/kg，劑量比為 1:1.1。接受選擇性 LCRS 的病人接受標準化多模式止痛方案，包括腹橫肌平面阻斷及術中舒芬太尼，並於手術結束前 10 分鐘靜脈給予特格利定。盲化研究者於拔管後 15 分鐘、30 分鐘及 2 小時以數字疼痛評分量表（NRS）評估疼痛。有效止痛定義為 2 小時內 NRS ≤ 3 且未使用救援止痛藥。ED50 以 probit 回歸分析計算。記錄血流動力學變數與不良事件，並追蹤安全性至術後第 2 天。結果：分析 40 名病人後發現，特格利定用於 LCRS 之 ED50 為 7.311 μg/kg（95% 信賴區間：2.044 至 9.194）。不良事件皆屬輕微，未觀察到嚴重不良事件。於恢復室（PACU）中，5/40 名病人（12.5%）發生不良事件（低血氧、噁心、嘔吐及暈眩）。至術後第 2 天，累積發生率為 17.5%（主要為暈眩及噁心）。結論：本探索性研究提供特格利定於多模式方案中用於 LCRS 術後即時止痛之初步 ED50 估計值，短期安全性尚可。然而信賴區間過寬限制了此結果之推論，需要更大規模研究以驗證劑量-反應關係並更明確定義臨床相關有效劑量。",
+   "evidence_level": "其他",
+   "score": 3,
+   "score_reason": "僅 40 人、單臂劑量遞增設計、無對照組，且 95% CI 極寬（2.044–9.194），僅屬麻醉新藥探索性早期研究，對外科臨床決策尚無直接影響力。",
+   "relevance": "中度相關",
+   "relevance_why": "族群為腹腔鏡大腸直腸癌術後病人，與大腸直腸外科工作相關，但介入為麻醉科主導之新藥劑量摸索，非外科決策，且藥物在台灣未必可取得。",
+   "novelty": "仍屬早期",
+   "one_liner": "在40名腹腔鏡大腸直腸癌手術病人中，以劑量遞增法估算特格利定術後止痛ED50為7.311 μg/kg（95% CI 2.044–9.194）。",
+   "action": "目前不需改變做法：此為新藥早期劑量探索研究，樣本極小、無對照組，尚未進入臨床可用階段。",
+   "pico": {
+    "P": "接受選擇性腹腔鏡大腸直腸癌手術之病人，共40人",
+    "I": "手術結束前10分鐘靜脈給予特格利定，劑量以Dixon up-and-down序列法遞增/遞減",
+    "C": "無對照組（單臂劑量遞增設計）",
+    "O": "主要：ED50（2小時內NRS≤3且未使用救援止痛藥）；次要：不良事件發生率、血流動力學變化"
+   },
+   "effects": [],
+   "key_numbers": [
+    "ED50為7.311 μg/kg，95% CI 2.044–9.194（區間極寬，精確度低）",
+    "PACU不良事件發生率12.5%（5/40，低血氧、噁心、嘔吐、暈眩）",
+    "術後第2天累積不良事件發生率17.5%（主要為暈眩及噁心）"
+   ],
+   "cautions": [
+    "樣本僅40人、無對照組，屬單臂探索性劑量研究，結果外推性極低",
+    "95% CI跨度達2.044–9.194，區間過寬，ED50估計不精確",
+    "特格利定為新藥，其於台灣核准狀態、上市與可取得性摘要未提及，臨床適用性存疑"
+   ],
+   "unassessable": [
+    "盲法細節（僅提及評估者盲化）",
+    "allocation concealment",
+    "ITT分析",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本分析"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-09-01T09:07:50+08:00"
+  },
+  {
+   "pmid": "42670815",
+   "title": "Exploring spiritual needs in inflammatory bowel disease: a qualitative study protocol adopting the think-aloud method",
+   "journal": "Minerva Gastroenterol (Torino)",
+   "journal_full": "Minerva gastroenterology",
+   "issn": "2724-5365",
+   "issn_linking": "2724-5985",
+   "impact_factor": 1.5,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Sep",
+   "doi": "10.23736/S2724-5985.26.04147-1",
+   "ptype": "Validation Study",
+   "ptype_list": [
+    "Validation Study"
+   ],
+   "authors": "Martinato M, Tasson L, Bonato M, Varagnolo C, Monaco E, Lorenzon G",
+   "abstract": "BACKGROUND: Spirituality may influence coping and quality of life in inflammatory bowel disease (IBD), yet spiritual needs are rarely assessed systematically in routine care. The Spiritual Needs Questionnaire - Extended Version (SpNQ-EV) and the Interpretation of Illness Questionnaire (IIQ) explore spiritual needs and illness meanings but require cross-cultural adaptation and content validation for use in the Italian IBD context.\nMETHODS: This protocol describes a qualitative questionnaire validation study using think-aloud cognitive interviews. Purposive sampling with planned heterogeneity and saturation-based stopping will be used to recruit adult IBD patients and healthcare professionals from two Italian IBD outpatient centers. Participants will complete the Italian versions of the questionnaires while verbalizing their thoughts, followed by retrospective probing guided by Tourangeau's cognitive model and a brief debriefing. Interviews will be audio-recorded, anonymized, and analyzed item-by-item in a matrix using predefined problem codes complemented by inductive coding. Inter-coder reliability will be assessed on a subset of transcripts; AI-assisted coding will be explored using de-identified text under human oversight.\nRESULTS: As this manuscript represents a research protocol, no empirical results have been generated at this stage. This protocol describes a structured approach to evaluating the content validity of two questionnaires, emphasizing transparency in translation, cognitive testing, and item-revision decision rules. The combined use of concurrent think-aloud and retrospective probing will enable observation of real-time cognitive processes and clarification of ambiguous responses. The inclusion of both patients and healthcare professionals will provide complementary perspectives. The exploratory use of AI-assisted coding may offer efficiencies for segment classification in large item-by-item matrices.\nCONCLUSIONS: Rigorously adapted and content-validated Italian versions of the SpNQ-EV and IIQ may support both research and clinical practice by providing a shared language for exploring existential and spiritual dimensions of living with IBD, supporting future psychometric validation and implementation of spiritual and interpretation of illness assessment.",
+   "watched": [],
+   "related": [],
+   "title_zh": "探索發炎性腸道疾病（IBD）患者的靈性需求：採用「有聲思考法」的質性研究計畫書",
+   "abstract_zh": "背景：靈性可能影響發炎性腸道疾病（IBD）患者的應對能力與生活品質，然而靈性需求在常規照護中很少被系統性評估。靈性需求問卷擴展版（SpNQ-EV）與疾病詮釋問卷（IIQ）可探討靈性需求與疾病意義，但在義大利IBD情境下使用前，需要進行跨文化調適與內容效度驗證。方法：本計畫書描述一項採用有聲思考法認知訪談的問卷驗證質性研究。將採用目的性取樣、預先規劃異質性、並以資料飽和作為停止收案準則，從兩個義大利IBD門診中心招募成年IBD患者與醫療專業人員。參與者將在完成義大利語版問卷的同時口頭表達其思考過程，隨後依循Tourangeau認知模型進行回溯式探詢，並進行簡短的訪後討論。訪談將全程錄音、去識別化，並以預先定義的問題編碼結合歸納式編碼，逐題進行矩陣分析。將於部分逐字稿中評估編碼者間信度；並將在人工監督下，探索以去識別化文本進行AI輔助編碼。結果：由於本文為研究計畫書，目前尚無實證結果產出。本計畫書描述了一套用於評估兩份問卷內容效度的結構化方法，強調翻譯、認知測試與題項修訂決策規則的透明度。同時採用即時有聲思考法與回溯式探詢，將有助於觀察即時認知過程並釐清模糊回應。納入患者與醫療專業人員雙方，將提供互補的觀點。AI輔助編碼的探索性應用，可能為大型逐題矩陣的段落分類提供效率上的助益。結論：經嚴謹調適並完成內容效度驗證的義大利語版SpNQ-EV與IIQ，可望支持研究與臨床實務，為探討IBD患者存在與靈性層面提供共通語言，並為未來心理計量驗證與靈性及疾病詮釋評估之落實奠定基礎。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "此為問卷驗證研究計畫書，尚無實證結果，且主題為靈性需求評估工具在義大利語境的效度驗證，與大腸直腸外科臨床決策幾無關聯。",
+   "relevance": "低度相關",
+   "relevance_why": "非外科介入、非台灣情境，且為IBD內科心理靈性照護工具開發，未涉及手術決策或術式比較。",
+   "novelty": "仍屬早期",
+   "one_liner": "此為研究計畫書，描述如何以有聲思考法驗證義大利語版靈性需求問卷（SpNQ-EV）與疾病詮釋問卷（IIQ）於IBD患者中的內容效度，尚無結果。",
+   "action": "目前不需改變做法：此為方法學計畫書，無臨床資料，且非外科相關議題，可略過全文，待未來實證結果發表再評估。",
+   "pico": {
+    "P": "義大利兩處IBD門診中心之成年IBD患者與醫療專業人員（採目的性取樣，人數未定，以飽和為停止準則）",
+    "I": "以有聲思考法（think-aloud）進行認知訪談，測試義大利語版SpNQ-EV與IIQ問卷",
+    "C": "無對照組（為問卷驗證計畫書，無比較性介入）",
+    "O": "主要：問卷內容效度、題項問題編碼與修訂建議；次要：編碼者間信度、AI輔助編碼可行性（本文尚無實證結果）"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本文為研究計畫書，尚無任何實證數據或結果產出",
+    "樣本數未定，僅說明採目的性取樣與資料飽和為停止準則",
+    "無統計檢定、無p值、無效果量可供摘錄"
+   ],
+   "cautions": [
+    "此為計畫書（protocol），無任何實證結果，無法評估工具效度或臨床效用",
+    "研究對象為IBD內科病人，非大腸直腸外科手術族群，臨床適用性有限",
+    "AI輔助編碼為探索性應用，其效度與可靠性尚待驗證，摘要未提供評估方法細節"
+   ],
+   "unassessable": [
+    "樣本量",
+    "盲法",
+    "ITT分析",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "統計分析方法細節",
+    "效度驗證結果"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。",
+   "added_at": "2026-09-01T09:07:50+08:00"
+  },
+  {
+   "pmid": "42670814",
+   "title": "Longitudinal effects of a nurse-led self-management intervention in inflammatory bowel disease",
+   "journal": "Minerva Gastroenterol (Torino)",
+   "journal_full": "Minerva gastroenterology",
+   "issn": "2724-5365",
+   "issn_linking": "2724-5985",
+   "impact_factor": 1.5,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Sep",
+   "doi": "10.23736/S2724-5985.26.04138-0",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Rivera-Sequeiros A, Torres-Dominguez Y, Izquierdo-Macias M, Murciano-Gonzalo F, Milanes-Guisado Y",
+   "abstract": "BACKGROUND: Despite its significant psychological burden, long-term psychosocial effects of nurse-led self-management interventions in IBD remain understudied. This study assessed longitudinal changes in psychosocial outcomes following a structured self-management program, and the moderating role of family functioning.\nMETHODS: A single-center, non-randomized, single-arm longitudinal study was conducted in 60 IBD adults in remission who participated in a nurse-led multidisciplinary psychoeducational program in Spain. HRQoL (CCVEII-9), perceived stress (PSS-14), anxiety and depression (HADS), and family functioning (Family APGAR) were assessed at five time points over 12 months. Linear mixed-effects models evaluated temporal changes and moderating role of baseline family functioning.\nRESULTS: HRQoL improved significantly over 12 months (β=+6.18, 95% CI: 3.53 to 8.82; P<0.001), exceeding a clinically meaningful threshold. Depressive symptoms showed a significant sustained reduction (P=0.036; β=-0.92, 95% CI: -1.66 to -0.19 at 12 months). Perceived stress showed a non-significant decreasing trend (P=0.054), reaching significance at 6 months (β=-1.93, 95% CI: -3.63 to -0.22; P=0.028). Anxiety remained stable (P=0.471). Family functioning moderated trajectories for perceived stress (P=0.004), depression (P<0.001), and anxiety (P<0.001), with a non-significant trend for HRQoL (P=0.056); participants with normal family functioning showed earlier and stronger improvements.\nCONCLUSIONS: Longitudinal evidence suggests that a nurse-led psychoeducational intervention was associated with sustained improvements in HRQoL and depressive symptoms in IBD. The moderating role of family functioning in outcomes underscores the value of integrating family-sensitive self-management programs into IBD nursing care.",
+   "watched": [],
+   "related": [],
+   "title_zh": "護理師主導的自我管理介入對發炎性腸道疾病患者的縱向影響",
+   "abstract_zh": "背景：儘管發炎性腸道疾病（IBD）帶來顯著的心理負擔，護理師主導的自我管理介入之長期心理社會效應仍未被充分研究。本研究評估結構化自我管理計畫後心理社會結果的縱向變化，以及家庭功能的調節作用。\n方法：本單中心、非隨機、單組縱向研究於西班牙納入60名處於緩解期的IBD成年患者，參與護理師主導之多學科心理教育計畫。於12個月內五個時間點評估健康相關生活品質（HRQoL, CCVEII-9）、感知壓力（PSS-14）、焦慮與憂鬱（HADS）以及家庭功能（Family APGAR）。以線性混合效應模型評估時間變化及基準家庭功能的調節作用。\n結果：HRQoL在12個月內顯著改善（β=+6.18，95% CI：3.53 至 8.82；P<0.001），超過臨床有意義的門檻。憂鬱症狀顯示顯著且持續的降低（P=0.036；12個月時 β=-0.92，95% CI：-1.66 至 -0.19）。感知壓力呈現不顯著的下降趨勢（P=0.054），於6個月時達到顯著（β=-1.93，95% CI：-3.63 至 -0.22；P=0.028）。焦慮則維持穩定（P=0.471）。家庭功能對感知壓力（P=0.004）、憂鬱（P<0.001）及焦慮（P<0.001）的軌跡具調節作用，對HRQoL則呈不顯著趨勢（P=0.056）；家庭功能正常的參與者顯示更早且更強的改善。\n結論：縱向證據顯示護理師主導的心理教育介入與IBD患者HRQoL及憂鬱症狀的持續改善相關。家庭功能在結果中的調節作用，凸顯將家庭敏感型自我管理計畫納入IBD護理照護的價值。",
+   "evidence_level": "前瞻性世代",
+   "score": 3,
+   "score_reason": "單組無對照、單中心小樣本（n=60），無法排除自然病程或介入本身以外因素造成改善，對台灣大腸直腸外科手術決策實用性低。",
+   "relevance": "低度相關",
+   "relevance_why": "此為護理心理教育介入對IBD心理社會結果的影響，屬非外科介入，與大腸直腸外科手術決策關聯有限。",
+   "novelty": "仍屬早期",
+   "one_liner": "在60名緩解期IBD成年患者中，經12個月護理師主導心理教育介入後，HRQoL顯著改善（β=+6.18）、憂鬱症狀顯著降低，但無對照組。",
+   "action": "目前不需改變外科診療流程；可留意轉介合適IBD病人參與此類護理心理支持計畫作為輔助照護，非手術決策依據。",
+   "pico": {
+    "P": "60名處於緩解期的IBD成年患者（西班牙單中心）",
+    "I": "護理師主導的多學科心理教育自我管理計畫",
+    "C": "無對照組（單組前後追蹤設計）",
+    "O": "主要：HRQoL、感知壓力、焦慮、憂鬱之縱向變化；次要：家庭功能對上述結果的調節作用"
+   },
+   "effects": [],
+   "key_numbers": [
+    "HRQoL於12個月改善 β=+6.18（95% CI 3.53–8.82，P<0.001），超過臨床有意義門檻",
+    "憂鬱症狀12個月時 β=-0.92（95% CI -1.66–-0.19，P=0.036）",
+    "焦慮無顯著變化（P=0.471），感知壓力趨勢未達整體顯著（P=0.054）"
+   ],
+   "cautions": [
+    "單組無對照設計，改善可能來自自然病程、回歸均值或關注效應，非必然歸因於介入本身",
+    "單中心小樣本（n=60），外部推論性與統計檢力有限",
+    "多重次群組（家庭功能調節）分析且部分p值臨界（0.054、0.056），存在多重比較與過度解讀風險"
+   ],
+   "unassessable": [
+    "對照組比較",
+    "隨機分派與盲法",
+    "ITT分析",
+    "失訪率／脫落率",
+    "試驗註冊",
+    "利益衝突揭露",
+    "成本分析"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-09-01T09:07:50+08:00"
+  },
+  {
+   "pmid": "42669634",
+   "title": "Building on Routinely Collected Health Data for Precision Population Care in Inflammatory Bowel Disease",
+   "journal": "Healthc Q",
+   "journal_full": "Healthcare quarterly (Toronto, Ont.)",
+   "issn": "1929-6347",
+   "issn_linking": "1710-2774",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.12927/hcq.2026.27911",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Postill G, Benchimol E",
+   "abstract": "The growing burden of multimorbidity among individuals with inflammatory bowel disease (IBD) presents a critical challenge for health systems, as it signals the need to shift from single-disease-focused care to integrated multimorbidity-focused care. Recent Canadian population-based research has demonstrated that multimorbidity in IBD follows distinct patterns and that these patterns can be leveraged using machine learning (ML) to predict premature mortality. This column draws on two recent studies evaluating populations with IBD - one identifying multimorbidity clustering among individuals with IBD and another applying ML to predict premature death from non-IBD chronic conditions - to explore how these findings can inform health system planning, clinical care and policy decision-making.",
+   "watched": [],
+   "related": [],
+   "title_zh": "以常規收集的健康資料建構發炎性腸道疾病（IBD）之精準人群照護",
+   "abstract_zh": "發炎性腸道疾病（IBD）患者中日益加重的多重共病負擔，對醫療系統構成重大挑戰，顯示需從單一疾病導向照護轉變為整合性多重共病導向照護。近期加拿大以人群為基礎的研究顯示，IBD 中的多重共病呈現特定模式，且可利用機器學習（ML）運用這些模式來預測早期死亡。本專欄文章援引兩篇近期評估 IBD 人群的研究——一篇辨識 IBD 患者中的多重共病聚集模式，另一篇應用機器學習預測非 IBD 慢性疾病導致的早期死亡——探討這些發現如何用於健康系統規劃、臨床照護與政策決策。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "此為政策評論專欄，非原始研究，未提供可評估之方法學或數據，對台灣大腸直腸外科臨床實務幾無直接可操作性。",
+   "relevance": "低度相關",
+   "relevance_why": "內容聚焦於 IBD 多重共病之健康系統規劃與政策層面，非外科介入或手術決策相關。",
+   "novelty": "仍屬早期",
+   "one_liner": "本文為評論專欄，援引兩篇研究討論 IBD 多重共病聚集模式與機器學習預測非 IBD 慢性病導致早期死亡之應用，未提供原始數據。",
+   "action": "目前不需改變做法；此為政策/健康系統規劃討論，非外科臨床證據，可略過全文。",
+   "pico": {
+    "P": "未明確說明（引用兩篇加拿大人群研究，未提供本文樣本人數）",
+    "I": "機器學習模型用於預測 IBD 患者之非 IBD 慢性病早期死亡風險；多重共病聚集分析",
+    "C": "無對照組（本文為評論性質，非原始比較研究）",
+    "O": "本文未提供主要/次要 outcome 之具體數據，僅討論政策與照護規劃意涵"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供任何具體數字、事件數或統計檢定結果",
+    "本文為評論/專欄性質，非原始研究，無量化 outcome 可供評估",
+    "所引用之兩篇原始研究細節（樣本量、ML 模型效能）未在此摘要中呈現"
+   ],
+   "cautions": [
+    "本文為政策評論，非原始研究，無法評估研究設計或統計方法之嚴謹性",
+    "所引用兩篇研究之關鍵數據（如 ML 模型 AUC、共病聚集之統計顯著性）皆未在摘要中提供",
+    "『多重共病』與『早期死亡』之因果關係僅為討論性質，非本文直接驗證"
+   ],
+   "unassessable": [
+    "研究設計細節",
+    "樣本量",
+    "統計方法",
+    "ML 模型效能指標",
+    "利益衝突",
+    "資料來源真實數據"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-09-01T09:07:50+08:00"
+  }
+ ]
+}
