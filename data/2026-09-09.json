@@ -1,0 +1,855 @@
+{
+ "date": "2026-09-09",
+ "generated_at": "2026-09-09T07:59:38+08:00",
+ "count": 11,
+ "papers": [
+  {
+   "pmid": "42704036",
+   "title": "The role of particle therapy in the treatment of locally recurrent rectal cancer: a systematic review",
+   "journal": "Radiol Oncol",
+   "journal_full": "Radiology and oncology",
+   "issn": "1581-3207",
+   "issn_linking": "1318-2099",
+   "impact_factor": 2.3,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Sep",
+   "doi": "10.1080/17434440.2016.1195682",
+   "ptype": "Systematic Review",
+   "ptype_list": [
+    "Systematic Review"
+   ],
+   "authors": "Perpar A, Georg P, Ermenc A",
+   "abstract": "BACKGROUND: Colorectal cancer is a common malignancy. Advancements in multimodality treatment have improved outcomes. About 2-10% of patients will have a local recurrence even after optimal treatment. Salvage surgical treatment is the treatment of choice, however, in posterior and lateral recurrences, surgery is linked to a high rate of treatment-related morbidity. Some recurrences remain unresectable even after neoadjuvant treatment.\nMATERIALS AND METHODS: A systematic literature review was performed to search for studies on curative-intent radiation therapy (RT) with photons, stereotactic body radiation therapy (SBRT) and particle beam therapy. The aim of the literature search was to define the role of particle therapy in the treatment of patients with unresectable or inoperable local recurrences of rectal cancer where neoadjuvant treatment is unlikely to result in downstaging, leaving patients with RT as the only curative treatment option.\nRESULTS: 32 studies which fulfil the criteria were identified. In general, SBRT and particle beam therapy permitted the application of significantly higher doses to the target without a concomitant increase in treatment-related toxicities.\nCONCLUSIONS: For unresectable and inoperable locally recurrent rectal cancer ablative radiotherapy techniques such as SBRT and particle beam therapy offer a curative treatment approach as an alternative to surgery. SBRT can be offered for small local and nodal recurrences, while particle beam therapy can be offered for larger recurrences and complex shapes spanning several anatomical compartments as well. Further research is needed to stratify patients according to their need and eligibility for the different possible modalities of curative-intent RT.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42556960",
+     "date": "2026-08-07",
+     "title_zh": "全程新輔助治療（TNT）於局部進展期直腸癌之治療角色",
+     "score": 4,
+     "one_liner": "本文回顧局部進展期直腸癌治療從手術、輔助治療到全程新輔助治療（TNT）的歷史演變，並討論手術角色是否可被取代。",
+     "sim": 0.187
+    },
+    {
+     "pmid": "42556960",
+     "date": "2026-08-08",
+     "title_zh": "全直腸新輔助治療（TNT）在局部進展期直腸癌治療中的應用",
+     "score": 3,
+     "one_liner": "本文為敘述性綜述，回顧直腸癌治療由手術、輔助治療演變至全直腸新輔助治療（TNT）的歷史脈絡與腫瘤學意義。",
+     "sim": 0.187
+    }
+   ],
+   "title_zh": "粒子治療在局部復發性直腸癌治療中的角色：一篇系統性回顧",
+   "abstract_zh": "背景：大腸直腸癌是常見的惡性腫瘤。多模式治療的進展已改善其預後。約2-10%的患者即使接受最佳治療後仍會發生局部復發。搶救性手術是首選治療方式，然而對於後側及側方復發，手術與高治療相關併發症率相關。部分復發病灶即使經過新輔助治療後仍無法切除。\n\n方法：進行系統性文獻回顧，搜尋以光子放射治療（RT）、立體定位身體放射治療（SBRT）及粒子束治療進行根治性放射治療的研究。文獻搜尋之目的為界定粒子治療在治療無法切除或無法手術之直腸癌局部復發患者中的角色，此類患者新輔助治療不太可能達到降期效果，使放射治療成為唯一的根治性治療選擇。\n\n結果：共identified出32篇符合條件的研究。整體而言，SBRT與粒子束治療能在不伴隨治療相關毒性增加的情況下，對目標病灶施加顯著較高的劑量。\n\n結論：對於無法切除及無法手術之局部復發直腸癌，如SBRT與粒子束治療等消融性放射治療技術，提供了手術之外的根治性治療替代方案。SBRT可用於較小的局部及淋巴結復發，而粒子束治療則可用於較大、形狀複雜且跨越多個解剖腔室的復發病灶。仍需進一步研究以根據患者需求及各種根治性放射治療模式之適用性進行分層。",
+   "evidence_level": "系統性回顧",
+   "score": 4,
+   "score_reason": "僅為敘述性系統回顧、無統合分析與定量合併數據，但對台灣少數無法手術之復發直腸癌病人轉介放腫時具參考價值。",
+   "relevance": "中度相關",
+   "relevance_why": "討論對象為無法手術切除的局部復發直腸癌，非大腸直腸外科主要處置範疇，但影響轉診放腫的決策。",
+   "novelty": "仍屬早期",
+   "one_liner": "系統性回顧32篇研究，比較光子RT、SBRT與粒子束治療於無法手術之局部復發直腸癌，發現後兩者可提升劑量而毒性未增加（無定量合併數據）。",
+   "action": "對無法手術切除之局部復發直腸癌病人，可考慮轉診放腫評估SBRT或粒子束治療作為根治性替代方案。",
+   "pico": {
+    "P": "無法切除或無法手術之局部復發直腸癌患者（納入32篇研究，未提供合併總人數）",
+    "I": "SBRT 或粒子束放射治療",
+    "C": "傳統光子放射治療",
+    "O": "主要：局部控制、治療相關毒性；次要：可切除性轉換、根治可能性"
+   },
+   "effects": [],
+   "key_numbers": [
+    "多模式治療後局部復發率約2-10%，此為背景流行病學數字，非介入效果",
+    "無兩組頭對頭絕對數字比較，無法計算ARR或NNT",
+    "結論「劇量提升但毒性未增加」僅為敘述性總結，缺乏具體毒性發生率數字"
+   ],
+   "cautions": [
+    "屬敘述性系統回顧，未做統合分析，缺乏定量合併效果值，證據強度有限",
+    "納入研究間治療模式（光子/SBRT/粒子）、劇量、族群異質性極高，未提及品質評估方法",
+    "毒性未增加之結論可能受發表偏誤或選案偏誤影響，長期腫瘤控制與存活數據摘要中未提供"
+   ],
+   "unassessable": [
+    "納入研究之品質評估工具",
+    "異質性統計檢定",
+    "PRISMA流程細節",
+    "利益衝突",
+    "試驗註冊",
+    "長期存活與局部控制絕對數字"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。先前閱讀之論文聚焦於局部進展期直腸癌之全程新輔助治療（TNT），與本篇討論之無法手術局部復發直腸癌放射治療角色為不同臨床情境，無直接關聯。",
+   "added_at": "2026-09-09T07:57:06+08:00"
+  },
+  {
+   "pmid": "42704578",
+   "title": "Evidence Gap in Managing Lateral Pelvic Lymph Nodes in Rectal Cancer: a Systematic Review of Radiation Boost Strategies",
+   "journal": "J Gastrointest Cancer",
+   "journal_full": "Journal of gastrointestinal cancer",
+   "issn": "1941-6636",
+   "issn_linking": "",
+   "impact_factor": 2.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Sep",
+   "doi": "10.1055/s-0036-1580632",
+   "ptype": "Systematic Review, Review",
+   "ptype_list": [
+    "Systematic Review",
+    "Review"
+   ],
+   "authors": "Pinar S, Wong T, Mitchell T, Kong C",
+   "abstract": "PURPOSE: Lateral pelvic lymph node (LPLN) involvement is a significant predictor of local recurrence in patients with locally advanced rectal cancer (LARC). While lateral pelvic lymph node dissection (LPLND) is routinely used in some countries to manage suspicious nodes, it is associated with increased morbidity and is not widely adopted in Western practice. Radiation boost (dose escalation) to involved LPLNs during neoadjuvant chemoradiotherapy (nCRT) has emerged as a potential non-surgical alternative. Despite increasing adoption of radiation boost to clinically involved LPLNs, there remains limited evidence defining its safety, oncologic benefit, and role relative to LPLND.\nMETHODS: A systematic search of MEDLINE, EMBASE, ClinicalTrials.gov, and Cochrane databases was conducted following PRISMA guidelines. Studies were included if they reported outcomes of radiation dose escalation specifically targeting radiologically suspicious LPLNs in the context of nCRT.\nRESULTS: Ten retrospective cohort studies encompassing 482 radiation boosted patients were included. Boost doses ranged from 35.0 to 60.2 Gy. Rates of Grade 2-3 toxicity ranged from 28.0% to 39.3% across individual studies, with only one study reporting a single Grade 4 adverse event. Across individual studies, reported nodal response rates ranged from 62.3% to 100%. Comparative studies suggest that radiation boost may improve local control and reduce LPLN recurrence.\nCONCLUSION: Current retrospective evidence suggests that radiation dose escalation to involved LPLNs is a promising treatment strategy; however, the available data are limited by retrospective study designs and substantial clinical heterogeneity. Given the absence of prospective evidence and lack of consensus in current guidelines, an important evidence gap remains. Well-designed prospective trials are warranted to define the role of LPLN boost relative to LPLND.",
+   "watched": [],
+   "related": [],
+   "title_zh": "直腸癌側骨盆淋巴結處理之證據缺口：放射線劇量加強策略的系統性回顧",
+   "abstract_zh": "目的：側骨盆淋巴結（LPLN）侵犯是局部進行性直腸癌（LARC）患者局部復發的重要預測因子。雖然側骨盆淋巴結廓清術（LPLND）在某些國家已常規用於處理疑似淋巴結，但其與較高的併發症相關，且未廣泛被西方臨床採用。在新輔助放化療（nCRT）期間對受侵犯的LPLN進行放射線劇量加強（劇量提升）已成為一種潛在的非手術替代方案。儘管對臨床上受侵犯的LPLN採用放射線劇量加強的作法日益增加，但關於其安全性、腫瘤學益處，以及相對於LPLND的角色，證據仍然有限。方法：依照PRISMA指引，針對MEDLINE、EMBASE、ClinicalTrials.gov及Cochrane資料庫進行系統性文獻搜尋。納入報告針對放射學上疑似LPLN於nCRT情境下進行劇量提升結果的研究。結果：共納入10篇回溯性世代研究，總計482名接受放射線劇量加強的患者。劇量加強範圍為35.0至60.2 Gy。各研究間第2-3級毒性發生率為28.0%至39.3%，僅一篇研究報告單一第4級不良事件。各研究間報告的淋巴結反應率為62.3%至100%。比較性研究顯示放射線劇量加強可能改善局部控制並降低LPLN復發。結論：目前的回溯性證據顯示，對受侵犯LPLN進行放射線劇量提升是一項具潛力的治療策略；然而現有資料受限於回溯性研究設計及顯著的臨床異質性。由於缺乏前瞻性證據且目前指引缺乏共識，重要的證據缺口仍然存在。需要設計良好的前瞻性試驗以確立LPLN劇量加強相對於LPLND的角色。",
+   "evidence_level": "系統性回顧",
+   "score": 5,
+   "score_reason": "議題對亞洲/台灣大腸直腸外科極具臨床意義，但納入的10篇皆為回溯性研究，異質性大且無統合分析數據，證據強度不足以改變實務。",
+   "relevance": "高度相關",
+   "relevance_why": "LPLN處理（LPLND vs. 放療劇量加強）是東西方臨床實務差異的核心爭議之一，直接影響台灣直腸癌手術決策。",
+   "novelty": "仍屬早期",
+   "one_liner": "系統性回顧10篇回溯性研究（482人），LPLN放射劇量加強於nCRT，淋巴結反應率62.3-100%，但缺乏前瞻性證據確立其角色。",
+   "action": "目前不需改變做法；LPLN仍依現行LPLND或標準nCRT策略處理，待前瞻性試驗結果出爐再評估劇量加強角色。",
+   "pico": {
+    "P": "局部進行性直腸癌合併放射學上疑似側骨盆淋巴結（LPLN）侵犯之患者，共10篇回溯性研究、482名接受放射劇量加強患者",
+    "I": "新輔助放化療（nCRT）期間對受侵犯LPLN進行放射線劇量加強（35.0-60.2 Gy）",
+    "C": "各研究間比較對象不一（部分為標準劇量nCRT或LPLND，摘要未統一說明）",
+    "O": "主要：淋巴結反應率、局部控制/LPLN復發；次要：第2-4級毒性發生率"
+   },
+   "effects": [],
+   "key_numbers": [
+    "第2-3級毒性發生率28.0%-39.3%（各研究間範圍，非pooled數據）",
+    "淋巴結反應率62.3%-100%（各研究間範圍，異質性大）",
+    "482名患者、10篇回溯性研究，劇量加強範圍35.0-60.2 Gy"
+   ],
+   "cautions": [
+    "全部10篇皆為回溯性世代研究，無RCT，證據等級低且易受選擇偏誤影響",
+    "未進行統合分析（無pooled效果量），僅呈現各研究範圍，異質性極大難以綜合判斷",
+    "「比較性研究顯示可能改善局部控制」未附絕對數字或信賴區間，屬摘要式結論，過度詮釋風險高"
+   ],
+   "unassessable": [
+    "失訪率",
+    "利益衝突",
+    "發表偏誤評估",
+    "各原始研究之ITT分析",
+    "成本分析"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-09-09T07:57:06+08:00"
+  },
+  {
+   "pmid": "42704554",
+   "title": "Staying minimally invasive: robotic versus laparoscopic colorectal cancer surgery in a propensity-weighted Italian multicentre cohort",
+   "journal": "J Robot Surg",
+   "journal_full": "Journal of robotic surgery",
+   "issn": "1863-2491",
+   "issn_linking": "1863-2483",
+   "impact_factor": 4.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Sep",
+   "doi": "10.1007/s11701-026-03562-8",
+   "ptype": "Multicenter Study, Comparative Study",
+   "ptype_list": [
+    "Multicenter Study",
+    "Comparative Study"
+   ],
+   "authors": "Giordano A, Marano L, Lamacchia G, Andreuccetti J, Brillantino A, Farina M",
+   "abstract": "To compare conversion to open surgery after intended robotic versus laparoscopic colorectal cancer resection in routine multicentre practice. This secondary post hoc analysis of the retrospective ATOCCS cohort included elective, curative-intent resections performed during 2022-2024 at Italian centres using both approaches. Propensity-score overlap weighting with centre indicators and multiple imputation addressed measured confounding and missing covariates. Centre-clustered models estimated adjusted risks, risk differences, and risk ratios. The primary cohort comprised 2,284 patients at 23 centres (1,408 laparoscopic; 876 robotic); conversion was evaluable in 2,278. Conversion occurred in 108/1,403 (7.7%) laparoscopic and 16/875 (1.8%) robotic procedures. Adjusted risks were 9.2% and 2.2%, respectively (risk difference, - 7.0 percentage points; 95% CI, - 11.1 to - 2.8; risk ratio, 0.24; 95% CI, 0.09-0.65; P=0.001). Within-centre propensity-score matching produced a similar risk difference (- 7.6 percentage points; 95% CI, - 11.3 to - 4.0). Major morbidity and reoperation did not differ detectably. Robotic surgery was associated with 42.8 min longer adjusted operative time (95% CI, 18.5-67.0), while the length-of-stay ratio was 0.91 (95% CI, 0.82-1.01). In dual-approach centres, intended robotic surgery was associated with fewer conversions but longer operations and no demonstrated improvement in the principal postoperative outcomes. Residual confounding precludes causal or superiority claims. Trial registration: ClinicalTrials.gov NCT07718919.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42474808",
+     "date": "2026-07-21",
+     "title_zh": "機器人輔助與腹腔鏡全大腸直腸切除術之預後比較",
+     "score": 6,
+     "one_liner": "在2035名接受TPC病人中，比較機器人與腹腔鏡，機器人轉開腹率較低（5.5% vs 8.8%）但手術時間多78分鐘，腎臟併發症與器官腔感染較多。",
+     "sim": 0.234
+    },
+    {
+     "pmid": "42474808",
+     "date": "2026-07-22",
+     "title_zh": "機器人輔助與腹腔鏡全大腸直腸切除術之預後比較",
+     "score": 6,
+     "one_liner": "在2035名接受TPC病人中，比較機器人與腹腔鏡，機器人轉開腹率較低（5.5% vs 8.8%）但手術時間多78分鐘，腎臟併發症與器官腔感染較多。",
+     "sim": 0.234
+    },
+    {
+     "pmid": "42645693",
+     "date": "2026-08-27",
+     "title_zh": "機器人手術與腹腔鏡手術治療橫結腸及脾曲癌之比較：系統性回顧與統合分析",
+     "score": 5,
+     "one_liner": "在167名機器人手術與296名腹腔鏡手術病人（橫結腸/脾曲癌，6篇研究）中，機器人組住院天數短1.01天、轉開腹0/149 vs 14/278，其餘併發症無差異。",
+     "sim": 0.211
+    }
+   ],
+   "title_zh": "維持微創：義大利多中心佇列中機器人輔助與腹腔鏡大腸直腸癌手術之傾向性加權比較",
+   "abstract_zh": "目的為比較常規多中心臨床實務中，計劃性機器人輔助與腹腔鏡大腸直腸癌切除術後轉開腹之情形。本研究為ATOCCS回溯性佇列的次要事後分析，納入2022-2024年間義大利各中心以兩種術式進行的擇期、根治性切除病例。以中心指標進行傾向分數重疊加權（overlap weighting）並搭配多重插補，處理已測量之干擾因子與遺漏共變項。中心叢集模型（centre-clustered models）估計調整後風險、風險差與風險比。主要佇列共2,284名病人，來自23個中心（腹腔鏡1,408人；機器人876人）；轉開腹可評估者2,278人。轉開腹發生於腹腔鏡108/1,403例（7.7%）及機器人16/875例（1.8%）。調整後風險分別為9.2%與2.2%（風險差-7.0個百分點；95% CI，-11.1至-2.8；風險比0.24；95% CI，0.09-0.65；P=0.001）。中心內傾向分數配對得到相似的風險差（-7.6個百分點；95% CI，-11.3至-4.0）。重大併發症與再手術率未偵測到顯著差異。機器人手術與調整後手術時間延長42.8分鐘相關（95% CI，18.5-67.0），住院天數比值為0.91（95% CI，0.82-1.01）。在兩種術式並存的中心中，計劃性機器人手術與較少轉開腹相關，但手術時間較長，且主要術後結果並無明顯改善。殘留干擾因子使本研究無法宣稱因果關係或優越性。試驗註冊：ClinicalTrials.gov NCT07718919。",
+   "evidence_level": "回溯性研究",
+   "score": 5,
+   "score_reason": "多中心大樣本、有傾向分數加權設計，但本質為回溯性研究，作者自承殘留干擾因子無法做因果推論，對台灣實務參考價值中等。",
+   "relevance": "高度相關",
+   "relevance_why": "機器人與腹腔鏡大腸直腸癌手術之選擇為台灣大腸直腸外科日常臨床決策的核心議題。",
+   "novelty": "再確認已知",
+   "one_liner": "在2284名大腸直腸癌手術病人（23中心）中，比較機器人與腹腔鏡，機器人組轉開腹率較低（調整後2.2% vs 9.2%），但手術時間多42.8分鐘。",
+   "action": "轉開腹率降低可作為選擇機器人手術的考量之一，但因回溯性研究有殘留干擾因子，不足以改變常規適應症選擇。",
+   "pico": {
+    "P": "2284名接受擇期根治性大腸直腸癌切除病人（23個義大利中心，腹腔鏡1408人、機器人876人）",
+    "I": "計劃性機器人輔助手術",
+    "C": "計劃性腹腔鏡手術",
+    "O": "主要outcome：轉開腹率；次要outcome：重大併發症、再手術率、手術時間、住院天數"
+   },
+   "effects": [
+    {
+     "outcome": "轉開腹（未調整）",
+     "ok": true,
+     "i_label": "機器人",
+     "c_label": "腹腔鏡",
+     "i_rate": 1.8,
+     "c_rate": 7.7,
+     "i_raw": "16/875",
+     "c_raw": "108/1403",
+     "arr": 5.9,
+     "benefit": true,
+     "event_bad": true,
+     "nnt": 17,
+     "kind": "NNT",
+     "note": ""
+    }
+   ],
+   "key_numbers": [
+    "轉開腹率：機器人1.8% vs 腹腔鏡7.7%（未調整），調整後2.2% vs 9.2%，RR 0.24（95% CI 0.09-0.65）",
+    "手術時間：機器人組多42.8分鐘（95% CI 18.5-67.0）",
+    "重大併發症、再手術率無顯著差異；住院天數比0.91（95% CI 0.82-1.01，跨1未達顯著）"
+   ],
+   "cautions": [
+    "回溯性研究，作者自承殘留干擾因子（residual confounding）無法宣稱因果或優越性",
+    "轉開腹率降低未能轉化為主要術後結果（重大併發症、再手術）的實質改善",
+    "病人被分配至機器人或腹腔鏡的臨床決策依據未知，可能存在術式選擇偏差"
+   ],
+   "unassessable": [
+    "失訪率",
+    "缺失資料實際比例",
+    "利益衝突",
+    "長期腫瘤學結果（復發、存活）",
+    "成本分析"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "前作聚焦於全大腸直腸切除術（TPC）及橫結腸/脾曲癌等特定術式，本研究擴大至一般大腸直腸癌手術，同樣呈現機器人組轉開腹率較低、手術時間較長的一致模式，但更強調殘留干擾因子限制因果推論。",
+   "added_at": "2026-09-09T07:57:06+08:00"
+  },
+  {
+   "pmid": "42708860",
+   "title": "Long-Term Mortality in Diabetic Foot Disease is Higher Than That of Overall Cancer: Results From Three International Cohorts",
+   "journal": "Diabetes Metab Res Rev",
+   "journal_full": "Diabetes/metabolism research and reviews",
+   "issn": "1520-7560",
+   "issn_linking": "1520-7552",
+   "impact_factor": 8.3,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Sep",
+   "doi": "10.1002/dmrr.70221",
+   "ptype": "Comparative Study",
+   "ptype_list": [
+    "Comparative Study"
+   ],
+   "authors": "Zeng Q, Tang Z, Chen X, Zhan L, Balasubramanian V, Chen Z",
+   "abstract": "BACKGROUND: Guidelines suggest that the risk of mortality in diabetic foot disease (DFD) is comparable to that of cancer; however, high-quality evidence is lacking. We aimed to compare the mortality of DFD with that of various cancers based on data from international cohorts.\nMETHODS: We defined DFD according to the IWGDF 2023 guidelines, and cancer was defined based on the ICD-10 codes. We included 527, 1784, and 601 patients with DFD and 1219, 100,643, and 152 patients with cancer from the National Health and Nutrition Examination Survey (NHANES), UK Biobank (UKB), and Chongqing Diabetes Registration (CDR) cohorts, respectively. We compared the risk of mortality between DFD and overall or site-specific cancers in the same cohort.\nRESULTS: Patients with DFD showed 38%, 45%, and 499% higher risks of mortality than patients with overall cancer in the NHANES, UKB, and CDR. For site-specific cancer, the risk of mortality was significantly higher in DFD than in skin cancer (hazard ratio 10.69, 95% CI: 1.37-2.07 in NHANSE; 3.8, 3.72-448 in UKB), breast cancer (1.35, 1.0-1.83 in NHANSE; 1.95, 1.67-227 in UKB), and prostate cancer (1.4, 1.8-179 in NHANSE; 2.61, 2.35-289 in UKB). The mortality rate of DFD is similar to that of most types of cancer, such as colon cancer, lymphoma, and kidney cancer, and is lower than that of a minority of cancers, including lung, pancreatic, and liver cancers.\nCONCLUSION: Patients with DFD have a higher risk of mortality than overall cancer, particularly skin, breast, and prostate cancers.",
+   "watched": [],
+   "related": [],
+   "title_zh": "糖尿病足病之長期死亡率高於整體癌症：三個國際世代研究之結果",
+   "abstract_zh": "背景：指引建議糖尿病足病（DFD）的死亡風險與癌症相當；然而，目前缺乏高品質證據。我們旨在根據國際世代研究資料，比較DFD與各種癌症的死亡率。方法：我們依據IWGDF 2023指引定義DFD，並依據ICD-10代碼定義癌症。我們納入了來自NHANES、UK Biobank（UKB）及重慶糖尿病登記（CDR）世代分別527、1784、601名DFD患者，以及1219、100643、152名癌症患者。我們在同一世代中比較DFD與整體或特定部位癌症之間的死亡風險。結果：DFD患者在NHANES、UKB及CDR中，死亡風險分別比整體癌症患者高38%、45%、499%。就特定部位癌症而言，DFD的死亡風險顯著高於皮膚癌（風險比10.69，95% CI：1.37-2.07於NHANES；3.8，3.72-448於UKB）、乳癌（1.35，1.0-1.83於NHANES；1.95，1.67-227於UKB）及前列腺癌（1.4，1.8-179於NHANES；2.61，2.35-289於UKB）。DFD的死亡率與多數癌症類型相似，如大腸癌、淋巴瘤及腎癌，並低於少數癌症，包括肺癌、胰臟癌及肝癌。結論：DFD患者的死亡風險高於整體癌症，特別是皮膚癌、乳癌及前列腺癌。",
+   "evidence_level": "回溯性研究",
+   "score": 3,
+   "score_reason": "議題與方法對糖尿病足照護有意義，但與大腸直腸外科臨床決策幾乎無直接關聯，且摘要數字（信賴區間）明顯有誤植疑慮。",
+   "relevance": "低度相關",
+   "relevance_why": "主題為糖尿病足病與癌症死亡率比較，非大腸直腸外科介入或大腸癌治療研究，大腸癌僅為比較項目之一。",
+   "novelty": "再確認已知",
+   "one_liner": "在三個國際世代（NHANES、UKB、CDR，DFD患者527/1784/601人）中，比較糖尿病足病與整體癌症死亡率，發現DFD死亡風險高出38%-499%。",
+   "action": "目前不需改變大腸直腸外科做法；此研究為糖尿病足病與癌症死亡率之流行病學比較，非本科手術或治療介入研究。",
+   "pico": {
+    "P": "來自NHANES（527人）、UKB（1784人）、CDR（601人）三世代之糖尿病足病（DFD）患者，及各世代1219、100643、152名癌症患者",
+    "I": "罹患糖尿病足病（DFD，依IWGDF 2023定義）",
+    "C": "罹患整體癌症或特定部位癌症（依ICD-10定義）",
+    "O": "主要：全因死亡風險比較；次要：與皮膚癌、乳癌、前列腺癌、大腸癌、肺癌等特定部位癌症之死亡風險比較"
+   },
+   "effects": [],
+   "key_numbers": [
+    "DFD死亡風險高於整體癌症：NHANES高38%、UKB高45%、CDR高499%",
+    "DFD死亡風險高於皮膚癌、乳癌、前列腺癌（各世代HR均>1）",
+    "DFD死亡率與大腸癌、淋巴瘤、腎癌相近，但低於肺癌、胰臟癌、肝癌"
+   ],
+   "cautions": [
+    "摘要多處信賴區間數字明顯有誤植（如1.37-2.07對應HR10.69），數據可信度需查全文核實",
+    "三世代族群基礎特徵、追蹤時間、癌症分期異質性大，比較結果易受未校正confounding影響",
+    "僅提供相對死亡風險（HR或%差異），未附絕對死亡率或存活曲線，難判斷臨床實際意義"
+   ],
+   "unassessable": [
+    "追蹤時間長度",
+    "校正變項（如年齡、共病、癌症分期）",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-09-09T07:57:06+08:00"
+  },
+  {
+   "pmid": "42708790",
+   "title": "Mesalazine enteric-coated tablets combined with retention enema for symptom alleviation in mild to moderate E2-type active ulcerative colitis: A retrospective comparative cohort study",
+   "journal": "Pak J Pharm Sci",
+   "journal_full": "Pakistan journal of pharmaceutical sciences",
+   "issn": "3105-9686",
+   "issn_linking": "1011-601X",
+   "impact_factor": 0.6,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Dec",
+   "doi": "10.36721/PJPS.2026.39.12.332.1",
+   "ptype": "Comparative Study",
+   "ptype_list": [
+    "Comparative Study"
+   ],
+   "authors": "Zhang R, Wang S, Yang M, Yang C, Yang D, Zhao Y",
+   "abstract": "BACKGROUND: Ulcerative colitis (UC) is a chronic inflammatory bowel disease impacting quality of life. Combination oral and topical mesalazine is guideline-recommended for left-sided UC, but real-world data remain limited.\nOBJECTIVES: This retrospective study evaluated the efficacy and safety of mesalazine enteric-coated tablets plus a retention enema in patients with mild-to-moderate E2-type (left-sided) active UC.\nMETHODS: Patients with mild to moderate E2-type active UC treated at a single center from January 2021 to December 2022 were retrospectively screened. After applying inclusion and exclusion criteria, 88 patients were included and assigned to either the study group (mesalazine enteric-coated tablets 1.0 g four times daily plus mesalazine retention enema 4.0 g once daily) or the control group (oral mesalazine enteric-coated tablets 1.0 g four times daily alone) based on clinical availability and patient preference. Treatment duration was 30 days. Outcomes included clinical efficacy (using modified local criteria and Mayo score components), symptom relief and time to improvement, endoscopic findings (Mayo Endoscopic Subscore), and adverse events.\nRESULTS: The \"effective\" rate was significantly higher in the study group (77.27% vs. 34.09%; OR=6.58, P<0.001). Symptom relief rate was 97.73% vs. 72.73% (OR=13.44, P=0.002). Symptom improvement times were shorter in the study group (all P<0.05). Post-treatment Mayo Endoscopic Subscore was lower in the study group (1.14±0.41 vs. 2.05±0.65; mean difference -0.91, P<0.001). Ulcer and congestion/edema incidences were lower in the study group (6.82% and 18.18% vs. 25.00% and 47.73%). Adverse events were mild and comparable between groups (13.64% vs. 11.36%, P=0.746).\nCONCLUSION: Mesalazine enteric-coated tablets combined with retention enema demonstrated superior efficacy compared to oral monotherapy for short-term symptom relief and mucosal healing in patients with mild to moderate E2-type active UC, with a favorable safety profile. Larger prospective studies with longer follow-up are needed to confirm these findings and evaluate long-term outcomes.",
+   "watched": [],
+   "related": [],
+   "title_zh": "美沙拉腦腸溶片併用保留灌腸對輕至中度E2型（左側）活動性潰瘍性大腸炎症狀緩解之回溯性比較世代研究",
+   "abstract_zh": "背景：潰瘍性大腸炎（UC）為影響生活品質之慢性發炎性腸道疾病。指引建議左側UC使用口服併局部美沙拉腦治療，但真實世界資料仍有限。目的：本回溯性研究評估美沙拉腦腸溶片併用保留灌腸於輕至中度E2型（左側）活動性UC病人之療效與安全性。方法：回溯篩選2021年1月至2022年12月於單一中心接受治療之輕至中度E2型活動性UC病人。經納入排除條件後，共納入88名病人，依臨床可得性與病人偏好分配至研究組（美沙拉腦腸溶片1.0g每日四次併美沙拉腦保留灌腸4.0g每日一次）或對照組（單獨口服美沙拉腦腸溶片1.0g每日四次）。治療期間為30天。結果指標包括臨床療效（採用修改後局部標準及Mayo評分組分）、症狀緩解及改善時間、內視鏡發現（Mayo內視鏡子分數）及不良事件。結果：研究組「有效」率顯著較高（77.27% vs. 34.09%；OR=6.58，P<0.001）。症狀緩解率為97.73% vs. 72.73%（OR=13.44，P=0.002）。研究組症狀改善時間較短（所有P<0.05）。治療後Mayo內視鏡子分數研究組較低（1.14±0.41 vs. 2.05±0.65；平均差-0.91，P<0.001）。潰瘍及充血/水腫發生率研究組較低（6.82%及18.18% vs. 25.00%及47.73%）。不良事件輕微且兩組相當（13.64% vs. 11.36%，P=0.746）。結論：美沙拉腦腸溶片併用保留灌腸在輕至中度E2型活動性UC病人之短期症狀緩解及黏膜癒合方面優於口服單一療法，安全性良好。需要更大型前瞻性研究及更長追蹤期以確認此結果並評估長期預後。",
+   "evidence_level": "回溯性研究",
+   "score": 3,
+   "score_reason": "非隨機分配（依臨床可得性與病人偏好）致選擇性偏差明顯，單中心小樣本、追蹤僅30天，且此為既有指引建議療法之確認性資料，對大腸直腸外科臨床決策幫助有限。",
+   "relevance": "低度相關",
+   "relevance_why": "此為UC藥物治療（美沙拉腦劑型組合）之內科管理研究，非外科介入，主要屬胃腸內科領域。",
+   "novelty": "再確認已知",
+   "one_liner": "在88名輕至中度E2型UC病人中，比較口服美沙拉腦併灌腸與單獨口服，有效率77.27% vs 34.09%（OR=6.58, p<0.001）。",
+   "action": "目前不需改變外科做法；此為內科藥物治療研究，可留意作為MDT討論參考，非手術路徑相關。",
+   "pico": {
+    "P": "輕至中度E2型（左側）活動性潰瘍性大腸炎病人，共88人",
+    "I": "美沙拉腦腸溶片1.0g四次/日 + 美沙拉腦保留灌腸4.0g/日，共30天",
+    "C": "單獨口服美沙拉腦腸溶片1.0g四次/日，共30天",
+    "O": "主要：臨床有效率、症狀緩解率；次要：症狀改善時間、Mayo內視鏡子分數、不良事件"
+   },
+   "effects": [
+    {
+     "outcome": "臨床有效率",
+     "ok": true,
+     "i_label": "美沙拉腦+灌腸組",
+     "c_label": "口服單一療法組",
+     "i_rate": 77.3,
+     "c_rate": 34.1,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 43.2,
+     "benefit": true,
+     "event_bad": false,
+     "nnt": 2,
+     "kind": "NNT",
+     "note": ""
+    },
+    {
+     "outcome": "症狀緩解率",
+     "ok": true,
+     "i_label": "美沙拉腦+灌腸組",
+     "c_label": "口服單一療法組",
+     "i_rate": 97.7,
+     "c_rate": 72.7,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 25.0,
+     "benefit": true,
+     "event_bad": false,
+     "nnt": 4,
+     "kind": "NNT",
+     "note": ""
+    }
+   ],
+   "key_numbers": [
+    "有效率 77.27% vs 34.09%，OR=6.58, p<0.001（絕對差約43個百分點）",
+    "症狀緩解率 97.73% vs 72.73%，OR=13.44, p=0.002",
+    "不良事件無差異：13.64% vs 11.36%, p=0.746（安全性相近）"
+   ],
+   "cautions": [
+    "分組依「臨床可得性與病人偏好」而非隨機分配，選擇性偏差風險極高，可能高估療效",
+    "追蹤僅30天，無法評估復發率或長期黏膜癒合，短期結果不可直接推論長期預後",
+    "單中心小樣本（88人分兩組），OR雖大但未附信賴區間，結果穩定性存疑"
+   ],
+   "unassessable": [
+    "隨機分配與allocation concealment",
+    "盲法",
+    "ITT分析",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本分析"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-09-09T07:57:06+08:00"
+  },
+  {
+   "pmid": "42707746",
+   "title": "The aspiration of precision glucocorticoid pharmacotherapy in immune-mediated diseases: where do we stand in integrating pharmacogenomics and biomarkers for individualized treatment?",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1038/gim.2016.87",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Colina M, Campana G",
+   "abstract": "Glucocorticoids remain among the most widely prescribed immunosuppressive and anti-inflammatory agents worldwide, yet their clinical use is complicated by substantial inter-individual variability in both therapeutic response and adverse effects. Despite decades of clinical experience, glucocorticoid prescribing remains largely empirical, with limited integration of precision medicine approaches that could optimize therapeutic outcomes while minimizing toxicity. This review synthesizes current evidence on emerging precision approaches to glucocorticoid therapy across three key domains: pharmacogenomic determinants (including variants in NR3C1, FKBP5, CYP3A4/5, and ABCB1) that modulate immune cell responsiveness to glucocorticoids; pharmacokinetic variability and model-informed precision dosing strategies; and disease-specific biomarker-guided approaches across major immune-mediated conditions including respiratory diseases, rheumatologic conditions, inflammatory bowel disease, polymyalgia rheumatica, and critical illness. Genetic variants in glucocorticoid receptor signaling and drug metabolism pathways have suggested some associations with treatment response and adverse effects, although none are yet acknowledged as clinically actionable by consensus resources. Disease-specific immunological biomarkers including eosinophil counts, inflammatory cytokines, and pharmacodynamic endpoints suggest the promise of individualized dose optimization. Risk stratification for glucocorticoid-induced osteoporosis-mediated through OPG/RANKL signaling and monocyte-osteoclast crosstalk-incorporating both clinical factors and pharmacogenetic markers may facilitate targeted prevention strategies. The integration of pharmacogenomic testing, immune biomarker monitoring, and pharmacokinetic modeling represents an aspirational paradigm shift from empirical dosing to individualized immunomodulatory therapy. It should be acknowledged that, as of the time of writing, this precision framework remains largely investigational: routine clinical practice continues to rely predominantly on indication-specific regimens and empirical tapering protocols. This review is explicitly forward-looking, aiming to outline a research agenda for precision glucocorticoid therapy in immune-mediated diseases.",
+   "watched": [],
+   "related": [],
+   "title_zh": "免疫介導疾病中精準糖皮質素藥物治療的展望：藥物基因體學與生物標記在個人化治療整合上的現況",
+   "abstract_zh": "糖皮質素仍是全球最廣泛使用的免疫抑制劑與抗發炎藥物之一，然而其臨床使用因治療反應與不良反應存在顯著個體間差異而變得複雜。儘管已有數十年的臨床經驗，糖皮質素的處方仍大多依賴經驗性判斷，精準醫療方法的整合有限，而這些方法本可優化治療結果並減少毒性。本綜述整合了目前關於糖皮質素治療精準方法的證據，涵蓋三大領域：藥物基因體學決定因子（包括NR3C1、FKBP5、CYP3A4/5、ABCB1的變異）調節免疫細胞對糖皮質素的反應性；藥物動力學變異性與模型導引之精準劑量策略；以及跨主要免疫介導疾病（包括呼吸道疾病、風濕性疾病、發炎性腸道疾病、風濕性多發性肌痛及重症疾病）的疾病特異性生物標記導引方法。糖皮質素受體訊號傳遞與藥物代謝路徑中的基因變異已顯示與治療反應及不良反應有一定關聯，但目前尚無任何變異被共識性資源認定為具臨床可行動性。疾病特異性免疫學生物標記，包括嗜伊紅性白血球計數、發炎性細胞激素及藥效學終點，顯示個人化劑量優化的潛力。透過OPG/RANKL訊號傳遞及單核球-破骨細胞相互作用進行糖皮質素誘發骨質疏鬆症的風險分層，結合臨床因子與藥物基因體標記，可能有助於制定針對性的預防策略。整合藥物基因體檢測、免疫生物標記監測及藥物動力學模型，代表從經驗性劑量轉向個人化免疫調節治療的理想典範轉移。應當承認，截至撰稿時，此精準框架仍大多屬於研究性質：常規臨床實務仍主要依賴適應症特異性療程與經驗性減量方案。本綜述明確地面向未來，旨在為免疫介導疾病之精準糖皮質素治療勾勒研究議程。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純概念性綜述，無新臨床數據，且主題聚焦於藥物基因體學而非外科手術決策，對大腸直腸外科臨床實務幾乎無直接參考價值。",
+   "relevance": "低度相關",
+   "relevance_why": "此文為糖皮質素精準用藥的藥物基因體學綜述，非外科介入研究，雖IBD患者可能用類固醇，但內容非針對外科決策。",
+   "novelty": "仍屬早期",
+   "one_liner": "綜述糖皮質素精準用藥於免疫疾病（含IBD）之藥物基因體學、藥動學與生物標記研究現況，作者強調此框架仍屬研究性質、尚無臨床可行動變異。",
+   "action": "目前不需改變做法；此文屬理論性綜述，未提供可立即應用於IBD手術決策或類固醇劑量調整的具體證據。",
+   "pico": {
+    "P": "無特定病人族群（綜述文章，涵蓋多種免疫介導疾病如氣喘、類風濕性關節炎、IBD、重症等）",
+    "I": "藥物基因體學檢測、藥動學模型導引劑量、疾病特異性生物標記導引之糖皮質素治療",
+    "C": "傳統經驗性糖皮質素處方與減量方案",
+    "O": "主要：治療反應與不良反應之個體差異機轉探討；次要：骨質疏鬆風險分層策略"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本文為概念性綜述，摘要未提供任何具體臨床事件數、發生率或效果量數據",
+    "作者明確指出目前無任何基因變異被共識資源認定具臨床可行動性",
+    "未有量化的ARR、NNT或HR等可供抽取之統計數字"
+   ],
+   "cautions": [
+    "純綜述性質，無原始臨床試驗數據，結論多為「潛力」「展望」等推測性語言，非實證結論",
+    "涵蓋範疇極廣（呼吸道、風濕、IBD、重症等），內容淺碰各領域，缺乏對IBD或外科情境的深入分析",
+    "作者自承此框架「大多屬於研究性質」，目前無法轉譯為臨床可行動之處方改變"
+   ],
+   "unassessable": [
+    "盲法",
+    "allocation concealment",
+    "ITT",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本分析（因非臨床試驗，此綜述無相關設計）"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-09-09T07:57:06+08:00"
+  },
+  {
+   "pmid": "42706545",
+   "title": "Computational identification and experimental validation of shared diagnostic biomarkers and gene signatures across HLA-B27-associated immune-mediated diseases",
+   "journal": "J Transl Med",
+   "journal_full": "Journal of translational medicine",
+   "issn": "1479-5876",
+   "issn_linking": "1479-5876",
+   "impact_factor": 9.7,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1038/ni.2714",
+   "ptype": "Validation Study, Research Support, Non-U.S. Gov't",
+   "ptype_list": [
+    "Validation Study",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "authors": "Zhu X, Liang C, Xu Z, Zhao X, Shi L, He J",
+   "abstract": "BACKGROUND: HLA-B27 is strongly associated with a spectrum of immune-mediated diseases, including axial spondyloarthritis (axSpA), psoriatic arthritis (PsA), inflammatory bowel disease (IBD), and acute anterior uveitis (AAU). However, the shared molecular mechanisms and cross-disease diagnostic biomarkers remain poorly defined. This study aimed to identify common gene signatures and potential diagnostic biomarkers across HLA-B27-related diseases using bioinformatics analysis and experimental validation.\nMETHODS: Gene expression datasets for axSpA, PsA, ulcerative colitis (UC), Crohn's disease (CD), and AAU were retrieved from the Gene Expression Omnibus (GEO) database. Disease-specific diagnostic genes were identified via differential expression analysis, least absolute shrinkage and selection operator (LASSO) regression, and receiver operating characteristic (ROC) curve analysis (AUC > 0.9). Shared biomarkers were determined by intersecting differentially expressed genes (DEGs) across all five diseases. Protein-protein interaction (PPI) networks, functional enrichment analyses, and single-sample gene set enrichment analysis (ssGSEA) were performed to explore biological pathways and immune infiltration patterns. Competing endogenous RNA (ceRNA)-transcription factor (TF) regulatory networks were constructed, and potential therapeutic agents were predicted using the Drug-Gene Interaction Database (DGIdb). Finally, the expression of candidate genes was validated by RT-qPCR and Western blot in peripheral blood mononuclear cells (PBMCs) from patients with ankylosing spondylitis (AS) and UC.\nRESULTS: A total of 2485, 380, 2682, 2232, and 481 DEGs were identified for axSpA, PsA, UC, CD, and AAU, respectively, with ABCD2 being the only shared biomarker across all five diseases. Disease-specific diagnostic gene panels were established (3 genes for axSpA, 6 for PsA, 15 for UC, 9 for CD, and 4 for AAU). Two major gene clusters were uncovered: an arthritis-related cluster (LAG3, IL15, PRF1, TBX21, IL2RB) and an extra-articular disease-related cluster (IL6, FN1, F2R, HIF1A, ANGPT2). Immune infiltration profiles varied significantly across diseases. Regulatory network analysis revealed complex ceRNA-TF interactions and identified several candidate drugs. In PBMCs, ABCD2 was upregulated in AS and UC, PRF1 in AS, and FN1, IL-6, and F2R in UC.\nCONCLUSION: This study identifies ABCD2 as a potential cross-disease biomarker and two context-dependent key gene clusters for HLA-B27-associated immune-mediated diseases, providing exploratory candidates for future research.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42358961",
+     "date": "2026-06-26",
+     "title_zh": "透過整合機器學習與加權基因共表現網路分析（WGCNA）鑑定發炎性腸道疾病（IBD）之氧化壓力相關生物標記",
+     "score": 2,
+     "one_liner": "利用WGCNA與機器學習分析公開基因表現資料，鑑定LCN2、APP、TNFSF4三基因作為IBD氧化壓力標記，AUC 0.754-0.805。",
+     "sim": 0.178
+    },
+    {
+     "pmid": "42421947",
+     "date": "2026-07-09",
+     "title_zh": "整合單細胞轉錄體學與孟德爾隨機化分析：BTN3A2作為貝西氏病與發炎性腸道疾病（IBD）共同保護因子之研究",
+     "score": 3,
+     "one_liner": "在BD與IBD患者scRNA-seq及EAU小鼠模型中，發現BTN3A2為兩疾病共享之保護基因，其下降與眼部及腸道發炎相關。",
+     "sim": 0.175
+    },
+    {
+     "pmid": "42370017",
+     "date": "2026-06-29",
+     "title_zh": "從基因表現到候選生物標記：潰瘍性大腸炎中嗜中性球胞外捕捉網（NETs）形成路徑之水通道蛋白-9（Aquaporin-9）",
+     "score": 1,
+     "one_liner": "在60名受試者（健康對照/新診斷UC/難治UC各20人）中，比較AQP9等NET基因表現，發現AQP9區分UC敏感性83%、特異性68%。",
+     "sim": 0.159
+    }
+   ],
+   "title_zh": "計算方法鑑定並實驗驗證HLA-B27相關免疫疾病之共同診斷生物標記與基因特徵",
+   "abstract_zh": "背景：HLA-B27與一系列免疫相關疾病密切相關，包括中軸型脊椎關節炎（axSpA）、乾癬性關節炎（PsA）、發炎性腸道疾病（IBD）及急性前葡萄膜炎（AAU）。然而，這些疾病間共同的分子機制與跨疾病診斷生物標記仍不明確。本研究旨在利用生物資訊學分析與實驗驗證，鑑定HLA-B27相關疾病間共同的基因特徵與潛在診斷生物標記。\n\n方法：從Gene Expression Omnibus（GEO）資料庫取得axSpA、PsA、潰瘍性大腸炎（UC）、克隆氏症（CD）及AAU之基因表現資料集。透過差異表現分析、LASSO回歸及ROC曲線分析（AUC > 0.9）鑑定各疾病特異性診斷基因。以五種疾病之差異表現基因（DEGs）取交集，確定共同生物標記。進行蛋白質-蛋白質交互作用（PPI）網路、功能富集分析及單樣本基因集富集分析（ssGSEA），以探討生物路徑與免疫浸潤模式。並構建ceRNA-轉錄因子（TF）調控網路，並利用Drug-Gene Interaction Database（DGIdb）預測潛在治療藥物。最後，於僵直性脊椎炎（AS）與UC患者之周邊血單核細胞（PBMCs）中，以RT-qPCR及西方墨點法驗證候選基因表現。\n\n結果：axSpA、PsA、UC、CD及AAU分別鑑定出2485、380、2682、2232及481個DEGs，其中ABCD2為五種疾病共同之唯一生物標記。建立疾病特異性診斷基因套組（axSpA 3個基因、PsA 6個、UC 15個、CD 9個、AAU 4個）。發現兩大基因群集：關節炎相關群集（LAG3、IL15、PRF1、TBX21、IL2RB）及關節外疾病相關群集（IL6、FN1、F2R、HIF1A、ANGPT2）。各疾病間免疫浸潤特徵有顯著差異。調控網路分析顯示複雜的ceRNA-TF交互作用，並鑑定出多個候選藥物。在PBMCs中，ABCD2在AS及UC中上調，PRF1在AS中上調，FN1、IL-6及F2R在UC中上調。\n\n結論：本研究鑑定出ABCD2為HLA-B27相關免疫疾病之潛在跨疾病生物標記，以及兩個情境依賴性關鍵基因群集，為未來研究提供探索性候選標記。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "純生物資訊學探索性研究，僅以少量PBMC樣本做初步分子驗證，無臨床診斷或治療應用，對大腸直腸外科臨床實務幾無直接影響。",
+   "relevance": "低度相關",
+   "relevance_why": "屬基礎轉譯研究，非外科介入，雖涉及UC/CD但焦點為跨疾病分子生物標記探索，非臨床可用工具。",
+   "novelty": "仍屬早期",
+   "one_liner": "透過GEO資料庫五種HLA-B27相關疾病基因表現分析，鑑定ABCD2為跨疾病共同生物標記，並於AS/UC患者PBMC初步驗證。",
+   "action": "目前不需改變做法，此為探索性基礎研究，尚無臨床診斷或治療應用價值。",
+   "pico": {
+    "P": "GEO資料庫中axSpA、PsA、UC、CD、AAU患者基因表現資料集；驗證階段納入AS與UC患者PBMC樣本",
+    "I": "生物資訊學分析（DEG、LASSO、ROC、PPI、ssGSEA、ceRNA-TF網路）鑑定共同生物標記",
+    "C": "無對照組（各疾病間比較，非治療性對照）",
+    "O": "主要：跨疾病共同診斷基因（ABCD2）；次要：疾病特異性診斷基因panel、免疫浸潤模式、候選藥物預測"
+   },
+   "effects": [],
+   "key_numbers": [
+    "五疾病DEG數：axSpA 2485、PsA 380、UC 2682、CD 2232、AAU 481個",
+    "各疾病診斷基因panel AUC > 0.9（僅內部資料集驗證）",
+    "ABCD2為唯一五疾病共同DEG；PBMC中AS及UC均上調"
+   ],
+   "cautions": [
+    "AUC>0.9為訓練集內部表現，未經獨立外部隊列驗證，可能過度配適",
+    "PBMC驗證樣本數與人群特徵摘要未提供，統計檢定力未知",
+    "相關性非因果性，基因表現差異無法直接推論致病機轉或臨床應用"
+   ],
+   "unassessable": [
+    "樣本量細節",
+    "驗證隊列人數與收案條件",
+    "統計顯著性（p值/信賴區間）",
+    "利益衝突",
+    "資料集品質與異質性校正方式"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "與先前看過的IBD生物標記生物資訊學研究（WGCNA、scRNA-seq/MR、AQP9）同屬探索性基因表現/機器學習找標記之類型研究，本篇將範圍擴大至HLA-B27相關疾病譜（含IBD），延伸了同類研究之疾病廣度，但同樣屬早期探索、證據等級低。",
+   "added_at": "2026-09-09T07:57:06+08:00"
+  },
+  {
+   "pmid": "42703979",
+   "title": "Preoperative Predictors of Anastomotic Leak Following Digestive Cancer Surgery: A Retrospective Cohort Study",
+   "journal": "Chirurgia (Bucur)",
+   "journal_full": "Chirurgia (Bucharest, Romania : 1990)",
+   "issn": "1221-9118",
+   "issn_linking": "1221-9118",
+   "impact_factor": 1.1,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.21614/chirurgia.3294",
+   "ptype": "Observational Study",
+   "ptype_list": [
+    "Observational Study"
+   ],
+   "authors": "Ghirlea O, Olariu S, Murariu M",
+   "abstract": "BACKGROUND: Anastomotic leak remains one of the most severe complications in digestive oncologic surgery, significantly impacting postoperative morbidity and mortality.\nMETHODS: A retrospective observational study was conducted. We collected and analyzed the data for 394 patients with digestive cancer, of which 248 received resection with primary anastomosis. The following variables were analyzed: tumor origin distribution, body mass index (BMI), gender, age, smoking status, tumor stage, American Society of Anesthesiologists score (ASA), hemoglobin levels and surgical indication (elective or emergency).\nRESULTS: Anastomotic leakage occurred in 38,4% of cases. Univariate analysis showed significant associations with ASA >= 3, advanced tumor stage, emergency surgery, smoking, underweight BMI, and anemia severity (risk increased in a severity-dependent manner). Multivariate analysis identified ASA >= 3 (OR 9.60; p<0.001), mild anemia (OR 3.11; p=0.005), moderate/severe anemia (OR 7.63; p<0.001), and advanced tumor stage (OR 2.43; p=0.018) as independent predictors.\nCONCLUSIONS: Preoperative physiological status and anemia severity are independently associated with anastomotic leak following digestive cancer surgery. The graded effect of anemia suggests a potentially modifiable risk factor amenable to preoperative optimization. Advanced malignancy (stages III and IV) plays an independent role in anastomotic leakage incidence.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42478982",
+     "date": "2026-07-22",
+     "title_zh": "術後第三天生物標記預測大腸直腸癌手術後吻合口滲漏之比較表現—回溯性世代研究",
+     "score": 4,
+     "one_liner": "在166名大腸直腸癌吻合手術病人中，比較多種POD3生物標記預測吻合口滲漏能力，發現CAR預測力最佳（OR=1.91）。",
+     "sim": 0.222
+    },
+    {
+     "pmid": "42478982",
+     "date": "2026-07-23",
+     "title_zh": "術後第三天生物標記預測大腸直腸癌手術後吻合口滲漏之比較表現—回溯性世代研究",
+     "score": 4,
+     "one_liner": "在166名大腸直腸癌吻合手術病人中，比較多種POD3生物標記預測吻合口滲漏能力，發現CAR預測力最佳（OR=1.91）。",
+     "sim": 0.222
+    },
+    {
+     "pmid": "42525629",
+     "date": "2026-07-31",
+     "title_zh": "衣索比亞癌症手術結果研究：一項為期7天的多中心前瞻性觀察世代研究",
+     "score": 2,
+     "one_liner": "在衣索比亞46家醫院265例癌症手術病人中，觀察術後7天結果，發現31.7%發生併發症、1.9%死亡。",
+     "sim": 0.195
+    }
+   ],
+   "title_zh": "消化道癌症手術後吻合口滲漏之術前預測因子：一項回溯性世代研究",
+   "abstract_zh": "背景：吻合口滲漏仍是消化道腫瘤手術中最嚴重的併發症之一，顯著影響術後併發症發生率與死亡率。方法：本研究為回溯性觀察性研究。收集並分析394名消化道癌症病人的資料，其中248人接受切除合併原位吻合手術。分析變項包括：腫瘤原發部位分布、身體質量指數(BMI)、性別、年齡、吸菸狀態、腫瘤期別、美國麻醉醫學會分數(ASA)、血紅素水平及手術適應症（選擇性或急診）。結果：吻合口滲漏發生率為38.4%。單變項分析顯示，ASA≥3、晚期腫瘤期別、急診手術、吸菸、體重過輕(BMI過低)及貧血嚴重度（風險隨嚴重度呈遞增關係）皆與吻合口滲漏有顯著相關。多變項分析確認ASA≥3（OR 9.60；p<0.001）、輕度貧血（OR 3.11；p=0.005）、中重度貧血（OR 7.63；p<0.001），以及晚期腫瘤期別（OR 2.43；p=0.018）為獨立預測因子。結論：術前生理狀態與貧血嚴重度與消化道癌症手術後吻合口滲漏獨立相關。貧血的分級效應提示這是一個可透過術前優化改善的潛在可矯正危險因子。晚期惡性腫瘤（第三期與第四期）在吻合口滲漏發生中扮演獨立角色。",
+   "evidence_level": "回溯性研究",
+   "score": 4,
+   "score_reason": "回溯性單一世代、無外部驗證，且38.4%的整體吻合口滲漏率遠高於文獻常見水準，可信度存疑；貧血分級效應提供可矯正因子概念但無法改變既有臨床共識。",
+   "relevance": "中度相關",
+   "relevance_why": "研究族群為混合型消化道癌症（非純大腸直腸），但吻合口滲漏危險因子概念可部分延伸應用於大腸直腸手術。",
+   "novelty": "再確認已知",
+   "one_liner": "在394名消化道癌症病人（248例吻合手術）中，分析術前因子，發現ASA≥3使滲漏風險增加9.6倍、中重度貧血增加7.6倍。",
+   "action": "目前不需改變做法；但可作為提醒：對高危險病人（ASA≥3、中重度貧血、晚期腫瘤）加強術前貧血矯正評估。",
+   "pico": {
+    "P": "394名消化道癌症病人，其中248人接受切除合併原位吻合手術",
+    "I": "術前危險因子：ASA分數、貧血嚴重度、腫瘤期別、BMI、吸菸、手術適應症等",
+    "C": "無對照組（同一世代內比較有滲漏與無滲漏病人之特徵）",
+    "O": "主要outcome：吻合口滲漏發生率；次要outcome：各術前因子之獨立預測力(OR)"
+   },
+   "effects": [],
+   "key_numbers": [
+    "整體吻合口滲漏率38.4%，遠高於文獻常見5-15%，需留意定義或收案偏誤",
+    "中重度貧血OR 7.63（p<0.001）；輕度貧血OR 3.11（p=0.005）",
+    "ASA≥3 OR 9.60（p<0.001）；晚期腫瘤期別OR 2.43（p=0.018）"
+   ],
+   "cautions": [
+    "38.4%滲漏率異常偏高，可能反映滲漏定義寬鬆、收案偏誤或分母計算問題，外推性存疑",
+    "族群為混合「消化道癌症」（非純大腸直腸），且僅248例接受吻合手術，異質性高",
+    "僅報告OR與p值，未提供信賴區間，無法評估估計精確度；回溯性設計無法排除殘留干擾因子"
+   ],
+   "unassessable": [
+    "盲法（回溯性研究不適用）",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "吻合口滲漏的明確定義（如Clavien-Dindo分級）",
+    "OR的信賴區間",
+    "單中心或多中心設計",
+    "248例吻合手術中滲漏率的確切分母計算方式"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "前作聚焦術後第三天生物標記（如CAR）預測吻合口滲漏，本篇則從術前因子（ASA、貧血、腫瘤期別）切入，二者互補但方法與族群不同，皆屬觀察性研究、證據等級相近。",
+   "added_at": "2026-09-09T07:57:06+08:00"
+  },
+  {
+   "pmid": "42708526",
+   "title": "Association Between Bowel Urgency and Intestinal Ultrasound Parameters in Ulcerative Colitis: Insights Into Transmural Inflammation and Symptom Pathophysiology",
+   "journal": "United European Gastroenterol J",
+   "journal_full": "United European gastroenterology journal",
+   "issn": "2050-6414",
+   "issn_linking": "2050-6406",
+   "impact_factor": 6.4,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Sep",
+   "doi": "10.1002/ueg2.70293",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Serizawa K, Sagami S, Umeda S, Asonuma K, Komatsu M, Shibui S",
+   "abstract": "BACKGROUND: Bowel urgency (BU) is a key symptom of ulcerative colitis (UC), often impairing the quality of life. This study aimed to identify intestinal ultrasound parameters associated with BU, given that UC may also have transmural involvement, and compare these with endoscopic activity and biomarkers.\nMETHODS: In this single-centre prospective study, UC patients undergoing colonoscopy between January 31 and September 27, 2023 were enrolled. Transabdominal and transperineal ultrasound were performed to evaluate bowel wall thickness (BWT), including individual layers (mucosa, submucosa, and muscularis propria), and colour Doppler signal (CDS) in the sigmoid colon and rectum. BU was defined according to the Simple Clinical Colitis Activity Index urgency subscore.\nRESULTS: Of 59 patients, 33 (56%) reported BU. Compared with those without BU, patients with BU had significantly higher C-reactive protein, Mayo Endoscopic Subscore (MES), BWT (descending colon, sigmoid colon, rectum), CDS (sigmoid colon, rectum), and submucosal and muscularis propria thickness in the sigmoid colon (all p < 0.05). Mucosal thickness and faecal calprotectin were not significantly different (p = 0.11 and p = 0.48, respectively). In MES-adjusted logistic regression, submucosal (p < 0.01) and muscularis propria (p = 0.03) thickness remained associated with BU, whereas mucosal thickness did not (p = 0.97). Receiver operating characteristic analysis showed that sigmoid submucosal thickness had greater diagnostic accuracy than mucosal thickness (AUC 0.77 vs. 0.62, p < 0.05).\nCONCLUSIONS: Sigmoid submucosal thickening was associated with BU and suggests that transmural inflammation may contribute to symptom pathophysiology.\nTRIAL REGISTRATION: UMIN000050099.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42371204",
+     "date": "2026-06-29",
+     "title_zh": "小兒發炎性腸道疾病中腸道超音波應用之最新進展",
+     "score": 2,
+     "one_liner": "本綜述整理小兒IBD腸道超音波之最新進展，提出BWT<2.5mm新閾值與CMFI腸繫膜脂肪量化指數，仍待更多驗證。",
+     "sim": 0.193
+    }
+   ],
+   "title_zh": "潰瘍性大腸炎患者排便急迫感與腸道超音波參數之關聯：透壁發炎與症狀病理機轉之探討",
+   "abstract_zh": "背景：排便急迫感（BU）是潰瘍性大腸炎（UC）的關鍵症狀，常影響生活品質。本研究旨在鑑定與BU相關的腸道超音波參數，並比較這些參數與內視鏡活動度及生物標記之關係，因UC亦可能有透壁性侵犯。方法：本單中心前瞻性研究納入2023年1月31日至9月27日間接受大腸鏡檢查之UC患者。以經腹及經會陰超音波評估腸壁厚度（BWT），包括各分層（黏膜、黏膜下層、肌肉層），以及乙狀結腸與直腸之彩色多普勒訊號（CDS）。BU依據Simple Clinical Colitis Activity Index急迫感次量表定義。結果：59名患者中，33名（56%）報告有BU。與無BU者相比，有BU患者之C反應蛋白、Mayo內視鏡評分（MES）、BWT（降結腸、乙狀結腸、直腸）、CDS（乙狀結腸、直腸）及乙狀結腸黏膜下層與肌肉層厚度皆顯著較高（皆p<0.05）。黏膜厚度與糞便鈣蛋白則無顯著差異（分別p=0.11、p=0.48）。經MES校正之邏輯回歸分析顯示，黏膜下層厚度（p<0.01）及肌肉層厚度（p=0.03）仍與BU相關，而黏膜厚度則無相關（p=0.97）。ROC分析顯示乙狀結腸黏膜下層厚度之診斷準確度優於黏膜厚度（AUC 0.77 vs. 0.62，p<0.05）。結論：乙狀結腸黏膜下層增厚與BU相關，提示透壁性發炎可能參與症狀病理機轉。試驗註冊：UMIN000050099。",
+   "evidence_level": "橫斷面",
+   "score": 3,
+   "score_reason": "設計嚴謹且有明確統計方法，但樣本量小（n=59）、單中心、橫斷面設計，且主題屬UC內科症狀機轉研究，對大腸直腸外科臨床決策幫助有限。",
+   "relevance": "低度相關",
+   "relevance_why": "此為潰瘍性大腸炎內科症狀病理機轉與影像學研究，非手術介入或外科決策相關議題。",
+   "novelty": "仍屬早期",
+   "one_liner": "在59例UC病人中，比較有無排便急迫感，發現乙狀結腸黏膜下層厚度與急迫感相關（AUC 0.77 vs 黏膜厚度0.62）。",
+   "action": "目前不需改變外科做法；此為UC症狀機轉之超音波研究，非手術介入或手術時機決策依據。",
+   "pico": {
+    "P": "59名接受大腸鏡檢查之潰瘍性大腸炎患者",
+    "I": "經腹及經會陰腸道超音波測量腸壁分層厚度與彩色多普勒訊號",
+    "C": "有排便急迫感（n=33）vs 無排便急迫感（n=26）",
+    "O": "主要：超音波參數與排便急迫感之關聯；次要：與內視鏡活動度（MES）、CRP、糞便鈣蛋白之比較"
+   },
+   "effects": [],
+   "key_numbers": [
+    "59例中33例（56%）有排便急迫感",
+    "乙狀結腸黏膜下層厚度診斷急迫感AUC 0.77，優於黏膜厚度AUC 0.62（p<0.05）",
+    "糞便鈣蛋白於有無急迫感兩組間無顯著差異（p=0.48）"
+   ],
+   "cautions": [
+    "單中心小樣本（n=59）橫斷面設計，僅能顯示關聯性，無法確立因果關係",
+    "BU定義依主觀問卷次量表，可能受多重混雜因子影響，未提及是否校正",
+    "多項超音波參數同時檢測且未明確說明是否校正多重比較，p<0.05風險偏高"
+   ],
+   "unassessable": [
+    "盲法",
+    "失訪率",
+    "ITT分析",
+    "利益衝突",
+    "樣本量計算依據"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "前作為小兒IBD腸道超音波應用綜述，本篇則以成人UC族群前瞻性收案，具體驗證超音波分層厚度（尤其黏膜下層）與排便急迫感之臨床關聯，補上前作提及仍待驗證的實證資料缺口。",
+   "added_at": "2026-09-09T07:57:06+08:00"
+  },
+  {
+   "pmid": "42703520",
+   "title": "Chlorogenic Acid in Antitumor Therapy: Multi-Pathway Mechanisms, Nanocarrier-Mediated Smart Delivery, and Synergistic Combinatorial Strategies",
+   "journal": "Int J Nanomedicine",
+   "journal_full": "International journal of nanomedicine",
+   "issn": "1178-2013",
+   "issn_linking": "1176-9114",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1039/d5cc07234d",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Duan H, He J, Wang R, Wu J, Ding H",
+   "abstract": "Malignant tumors remain a global public health challenge with high morbidity and mortality. Conventional therapies are limited by severe adverse effects and drug resistance. Chlorogenic acid (CGA), a widely distributed phenolic compound, has emerged as a promising antitumor agent due to its excellent biocompatibility and multi-targeted bioactivities, including antioxidant, anti-inflammatory, immunomodulatory, and pro-apoptotic. This review systematically summarizes the molecular mechanisms underlying the antitumor activity of CGA, focusing on three core aspects: (1) regulation of key signaling pathways (Janus kinase-signal transducer and activator of transcription (JAK-STAT), Mitogen-Activated Protein Kinase (MAPK), Nuclear factor kappa-B (NF-κB)) in tumor cells; (2) enhancement of host antitumor immune function through immune‑cell activation and cytokine‑network modulation; and (3) induction of tumor cell apoptosis via B-cell lymphoma 2 (Bcl-2) family regulation, oxidative stress, and metabolite synergy. Furthermore, we highlight recent advances in nanocarrier-facilitated delivery of CGA, including metal-based nanocomposites, metal oxide nanoparticles, and functionalized liposomes, and establish a horizontal comparison table to analyze their respective delivery efficiency, tumor accumulation, biosafety and immune activation capacity, which effectively overcome its pharmacokinetic shortcomings, such as short circulation half‑life and poor tumor accumulation. Additionally, synergistic antitumor effects achieved by combining CGA with chemotherapy drugs or immune checkpoint inhibitors across melanoma, lung cancer, colon cancer and hepatocellular carcinoma models are comprehensively discussed. This review provides a comprehensive theoretical foundation for the further development of CGA as a promising antitumor agent and its clinical translation, and outlining operable key challenges and future research directions.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42433343",
+     "date": "2026-07-11",
+     "title_zh": "奈米醫學遞送系統重塑大腸直腸癌免疫抑制微環境：標靶免疫檢查點抑制劑的協同策略與機制",
+     "score": 3,
+     "one_liner": "本文綜述奈米醫學遞送系統與免疫檢查點抑制劑於CRC治療的協同機制與研究進展，屬機制性文獻回顧，無臨床試驗數據。",
+     "sim": 0.203
+    },
+    {
+     "pmid": "42433343",
+     "date": "2026-07-12",
+     "title_zh": "奈米醫學遞送系統重塑大腸直腸癌免疫抑制微環境：標靶免疫檢查點抑制劑的協同策略與機制",
+     "score": 3,
+     "one_liner": "本文綜述奈米醫學遞送系統與免疫檢查點抑制劑於CRC治療的協同機制與研究進展，屬機制性文獻回顧，無臨床試驗數據。",
+     "sim": 0.203
+    },
+    {
+     "pmid": "42433343",
+     "date": "2026-07-13",
+     "title_zh": "奈米醫學遞送系統重塑大腸直腸癌免疫抑制微環境：標靶免疫檢查點抑制劑的協同策略與機制",
+     "score": 3,
+     "one_liner": "本文綜述奈米醫學遞送系統與免疫檢查點抑制劑於CRC治療的協同機制與研究進展，屬機制性文獻回顧，無臨床試驗數據。",
+     "sim": 0.203
+    }
+   ],
+   "title_zh": "綠原酸於抗腫瘤治療之應用：多路徑機制、奈米載體智慧遞送與協同聯合策略",
+   "abstract_zh": "惡性腫瘤因其高罹病率與死亡率，仍是全球公共衛生的一大挑戰。傳統療法受限於嚴重副作用與抗藥性。綠原酸（CGA）是一種廣泛分布的酚類化合物，因其優異的生物相容性與多靶點生物活性（包括抗氧化、抗炎、免疫調節與促凋亡作用），已成為具潛力的抗腫瘤藥物。本綜述系統性總結CGA抗腫瘤活性的分子機制，聚焦三大核心面向：(1) 調控腫瘤細胞內關鍵訊號路徑（JAK-STAT、MAPK、NF-κB）；(2) 透過免疫細胞活化與細胞因子網絡調節增強宿主抗腫瘤免疫功能；(3) 經由Bcl-2家族調控、氧化壓力與代謝物協同作用誘導腫瘤細胞凋亡。此外，本文亦重點介紹奈米載體輔助CGA遞送的最新進展，包括金屬基奈米複合物、金屬氧化物奈米粒子及功能化脂質體，並建立橫向比較表分析其遞送效率、腫瘤蓄積、生物安全性與免疫活化能力，以有效克服CGA藥物動力學上的缺陷，如循環半衰期短與腫瘤蓄積不佳。另外，本文全面討論CGA與化療藥物或免疫檢查點抑制劑併用在黑色素瘤、肺癌、大腸癌與肝細胞癌模型中所達成的協同抗腫瘤效果。本綜述為CGA作為潛力抗腫瘤藥物的進一步開發及臨床轉譯提供了全面的理論基礎，並闡明可操作的關鍵挑戰與未來研究方向。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純機制性文獻綜述，無任何臨床試驗或人體數據，對台灣大腸直腸外科臨床實務無直接應用價值。",
+   "relevance": "低度相關",
+   "relevance_why": "屬基礎藥理與奈米遞送機制綜述，非外科介入，且無大腸直腸癌特異性臨床數據。",
+   "novelty": "仍屬早期",
+   "one_liner": "本文綜述綠原酸（CGA）之多路徑抗腫瘤機制、奈米載體遞送策略及與化療/免疫治療併用之協同效果，屬機制性文獻回顧。",
+   "action": "目前不需改變做法；此為基礎機制綜述，無臨床試驗數據，不影響現行大腸直腸癌治療方針。",
+   "pico": {
+    "P": "無特定病人族群（文獻綜述，非臨床研究）",
+    "I": "綠原酸（CGA）之抗腫瘤機制與奈米載體遞送系統",
+    "C": "無對照組",
+    "O": "無具體臨床outcome；綜述聚焦訊號路徑調控、免疫活化與細胞凋亡機制"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本文無臨床試驗數據或量化outcome可供評估",
+    "所有討論皆基於細胞/動物模型之機制研究，非人體臨床結果",
+    "缺乏任何絕對數值、p值或信賴區間可供引用"
+   ],
+   "cautions": [
+    "全篇為機制性綜述，無臨床試驗、無人體數據，結論不可直接應用於病人",
+    "奈米載體遞送效率與腫瘤蓄積數據僅來自前臨床（動物/細胞）模型，尚需驗證",
+    "與化療/免疫治療之協同效果僅見於動物腫瘤模型，缺乏人體安全性與療效證據"
+   ],
+   "unassessable": [
+    "臨床試驗設計相關項目（盲法、allocation concealment、ITT、失訪率、試驗註冊、利益衝突）均不適用，因本文非臨床研究"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "與前作（奈米醫學遞送系統重塑CRC免疫微環境）主題相近，皆屬奈米載體結合免疫/化療策略之機制性綜述，本文聚焦特定化合物CGA，延伸探討其分子機制與遞送優化，但同樣缺乏臨床試驗數據，實用性有限。",
+   "added_at": "2026-09-09T07:57:06+08:00"
+  },
+  {
+   "pmid": "42703176",
+   "title": "An Insight into the Emerging Role of Extracellular Vesicle-derived Noncoding RNAs in Colorectal Cancer",
+   "journal": "Microrna",
+   "journal_full": "MicroRNA (Shariqah, United Arab Emirates)",
+   "issn": "2211-5374",
+   "issn_linking": "",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1038/s41392-023-01382-y",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Jayaraman V, Apthi S, Datta L, Palaniyandi K, Gnanasampanthapandian D",
+   "abstract": "Colorectal cancer (CRC) ranks among the most frequent and lethal cancers globally, with early detection remaining a significant challenge because of asymptomatic early stages and limitations of current screening methods. This underscores the pressing need for new, non-invasive biomarkers for early CRC detection to enhance patient outcomes. Advancements in the molecular biology of cancer have highlighted the importance of non-coding RNAs (ncRNAs) in the genesis and progression of CRC. Exosomal non-coding RNAs (ncRNAs), microRNAs (miRNAs), circular RNAs (circRNAs), and long non-coding RNAs (lncRNAs) have shown promise in this regard. These molecules, carried by small extracellular vesicles known as exosomes, are key players in cell communication and have been associated with the regulation of essential cancer pathways, including cell proliferation, metastasis, and drug resistance. This review discusses the potential of exosomal ncRNAs as innovative biomarkers and therapeutic targets in CRC. This study covers their role in cancer biology, the challenges in their application, and future directions for leveraging these ncRNAs to advance CRC diagnosis and treatment. Exploring exosomal ncRNAs opens new avenues for enhancing CRC management through early detection and targeted therapy, potentially transforming oncology patient care.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42654435",
+     "date": "2026-08-28",
+     "title_zh": "大腸直腸癌中的外泌體：從腫瘤生物學到診斷與治療應用",
+     "score": 2,
+     "one_liner": "本文綜述外泌體在大腸直腸癌生物學中的角色，探討其作為診斷生物標記與治療平台之潛力，無臨床數據。",
+     "sim": 0.225
+    },
+    {
+     "pmid": "42654435",
+     "date": "2026-08-29",
+     "title_zh": "外泌體在大腸直腸癌中的角色：從腫瘤生物學到診斷與治療應用",
+     "score": 2,
+     "one_liner": "本文綜述外泌體在大腸直腸癌腫瘤生物學、液體活檢與治療應用中的角色，未提供原創臨床數據或療效數字。",
+     "sim": 0.225
+    },
+    {
+     "pmid": "42382781",
+     "date": "2026-07-01",
+     "title_zh": "大腸直腸癌通訊網絡中的外泌體 microRNA：對轉移、治療抗性與精準醫學的意義",
+     "score": 2,
+     "one_liner": "本綜述整理外泌體miRNA在大腸直腸癌轉移、治療抗性及精準醫學中的機制角色，強調臨床轉譯仍受限於標準化不足。",
+     "sim": 0.214
+    }
+   ],
+   "title_zh": "深入探討細胞外囊泡衍生非編碼RNA在大腸直腸癌中新興角色之洞見",
+   "abstract_zh": "大腸直腸癌（CRC）是全球最常見且致死率最高的癌症之一，由於早期無症狀且現行篩檢方法有其限制，早期偵測仍是一大挑戰。這凸顯了開發新型、非侵入性生物標記以協助CRC早期偵測、改善病人預後的迫切需求。癌症分子生物學的進展已凸顯非編碼RNA（ncRNA）在CRC發生與進展中的重要性。外泌體非編碼RNA（ncRNA）、微小RNA（miRNA）、環狀RNA（circRNA）及長鏈非編碼RNA（lncRNA）在此領域展現出潛力。這些分子由稱為外泌體的小型細胞外囊泡攜帶，是細胞間通訊的關鍵角色，並與細胞增生、轉移及藥物抗性等重要癌症路徑之調控有關。本綜述討論外泌體ncRNA作為CRC創新生物標記及治療靶點之潛力。本研究涵蓋其在癌症生物學中的角色、應用上的挑戰，以及未來如何運用這些ncRNA推進CRC診斷與治療的方向。探索外泌體ncRNA為透過早期偵測與精準治療改善CRC管理開闢新途徑，可能為腫瘤病人照護帶來轉變。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純機制性綜述，無原創臨床數據、無療效數字，對台灣大腸直腸外科臨床決策目前無直接實用性。",
+   "relevance": "低度相關",
+   "relevance_why": "純基礎分子生物學綜述，非外科介入，無法轉譯為明天臨床可用的決策。",
+   "novelty": "仍屬早期",
+   "one_liner": "本綜述整理外泌體ncRNA（miRNA、circRNA、lncRNA）在大腸直腸癌診斷與治療中的潛在角色，無臨床數據。",
+   "action": "目前不需改變做法；此為機制性綜述，無臨床試驗數據可供治療或篩檢決策參考。",
+   "pico": {
+    "P": "無特定病人族群（綜述文章，非臨床研究）",
+    "I": "無明確介入（討論外泌體ncRNA作為生物標記與治療靶點之潛力）",
+    "C": "無對照組",
+    "O": "無具體outcome數據；僅討論未來研究方向與挑戰"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本文為綜述，未提供任何臨床數據、發生率或統計檢定結果",
+    "未提供敏感度/特異度等診斷性數字，僅概念性討論生物標記潛力",
+    "未提供治療反應率或存活數據"
+   ],
+   "cautions": [
+    "全文為機制性綜述，無原創數據，結論僅為概念性推論而非證實之因果關係",
+    "未提及任何臨床試驗、樣本量或驗證研究，生物標記潛力仍屬理論階段",
+    "外泌體ncRNA檢測標準化與臨床轉譯之障礙未在摘要中量化說明"
+   ],
+   "unassessable": [
+    "盲法",
+    "allocation concealment",
+    "ITT",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本分析",
+    "樣本量",
+    "統計方法"
+   ],
+   "context_verdict": "再確認",
+   "context": "與之前看過的三篇外泌體ncRNA綜述主題高度重疊，皆為機制性文獻回顧，再次確認此領域仍停留在早期基礎研究階段，尚無臨床轉譯數據。",
+   "added_at": "2026-09-09T07:57:06+08:00"
+  }
+ ]
+}
