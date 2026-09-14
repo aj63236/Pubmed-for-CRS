@@ -1,0 +1,811 @@
+{
+ "date": "2026-09-14",
+ "generated_at": "2026-09-14T08:01:54+08:00",
+ "count": 10,
+ "papers": [
+  {
+   "pmid": "42731022",
+   "title": "A therapeutic atlas of monogenic inflammatory bowel disease",
+   "journal": "J Crohns Colitis",
+   "journal_full": "Journal of Crohn's & colitis",
+   "issn": "1876-4479",
+   "issn_linking": "1873-9946",
+   "impact_factor": 10.3,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Sep",
+   "doi": "10.1053/j.gastro.2019.11.019",
+   "ptype": "Systematic Review",
+   "ptype_list": [
+    "Systematic Review"
+   ],
+   "authors": "Yeh P, Charlesworth J, Taylor H, Ashton J, Nash K, Lam K",
+   "abstract": "BACKGROUND AND AIMS: Evidence-based, mechanism-guided therapies are urgently needed for treating monogenic inflammatory bowel disease (mIBD). For such rare diseases, mechanistic insight is essential to guide treatment when conventional clinical trials are often not feasible. We aimed to summarize literature-based evidence and to identify knowledge gaps.\nMETHODS: We conducted a systematic review of published manuscripts evaluating the therapeutic efficacy in mIBD. We quantified and compared the global therapeutic response score across treatments and conditions. In a subset of conditions, biomarkers of longitudinal therapeutic response were evaluated in comparison to non-monogenic pediatric IBD cohorts.\nRESULTS: Responses to 35 therapeutics across the 102 known genetic causes of mIBD were evaluated in 241 articles and 669 patients, summarizing 302 gene-drug responses. The efficacy of at least one pharmacological intervention was identified in 61% (n = 62/102) of the mIBD conditions, highlighting a major unmet need for effective medications in many others. Gene- and pathway-specific responses were demonstrated for several therapies, including allogeneic hematopoietic stem cell transplantation, gene therapy, and advanced therapies such as anti-TNF agents, IL-1 inhibitors, mTOR inhibitors, as well as eculizumab in CD55 deficiency, abatacept in CTLA4 deficiency, and the immunometabolic agent empagliflozin in glycogen storage disease type 1b.\nCONCLUSIONS: This study highlights the potential of precision medicine approaches tailored to genetic and pathway-specific mechanisms, while underscoring the urgent need for effective therapies in many monogenic conditions that remain without established treatment options.",
+   "watched": [],
+   "related": [],
+   "title_zh": "單基因型發炎性腸道疾病的治療圖譜",
+   "abstract_zh": "背景與目的：對於單基因型發炎性腸道疾病（mIBD）的治療，迫切需要以實證為基礎、機轉導向的療法。對於這類罕見疾病，由於傳統臨床試驗往往不可行，機轉層面的洞察對指導治療至關重要。本研究目的為總結文獻證據並找出知識缺口。方法：我們針對評估mIBD治療效果的已發表文獻進行系統性回顧。我們量化並比較各療法與各疾病間的整體治療反應分數。在部分疾病子群中，我們評估了縱向治療反應的生物標記，並與非單基因型的小兒IBD族群進行比較。結果：我們評估了102種已知mIBD致病基因中，35種療法的反應，共納入241篇文獻、669名患者，總結出302組基因-藥物反應。至少一種藥物治療有效的證據，見於61%（62/102）的mIBD疾病，凸顯許多其他疾病仍存在有效藥物的重大未滿足需求。多項療法展現出基因與路徑特異性的反應，包括異體造血幹細胞移植、基因治療，以及進階療法如抗TNF製劑、IL-1抑制劑、mTOR抑制劑，還有eculizumab用於CD55缺乏症、abatacept用於CTLA4缺乏症、以及免疫代謝藥物empagliflozin用於第1b型肝醣儲積症。結論：本研究凸顯了針對基因與路徑特異性機轉的精準醫療潛力，同時強調許多仍無確立治療選項的單基因型疾病，迫切需要有效療法。",
+   "evidence_level": "系統性回顧",
+   "score": 2,
+   "score_reason": "屬於罕見兒科單基因型IBD的藥物治療系統性回顧，證據多來自個案報告/系列，與大腸直腸外科臨床實務幾無直接關聯。",
+   "relevance": "低度相關",
+   "relevance_why": "本文聚焦於罕見單基因型IBD之內科藥物治療與精準醫療，非大腸直腸外科手術族群或介入。",
+   "novelty": "仍屬早期",
+   "one_liner": "在102種單基因型IBD（241篇文獻、669名患者）中盤點35種療法，發現61%疾病有至少一種有效藥物治療證據。",
+   "action": "目前不需改變做法；此為兒科遺傳性IBD藥物治療圖譜，非大腸直腸外科手術決策相關文獻。",
+   "pico": {
+    "P": "102種單基因型IBD致病基因、241篇文獻、669名患者",
+    "I": "35種藥物/細胞治療（含anti-TNF、IL-1抑制劑、mTOR抑制劑、造血幹細胞移植、基因治療等）",
+    "C": "無正式對照組（跨基因-藥物配對之描述性總結）",
+    "O": "主要outcome：基因/疾病特異性治療反應率；次要：縱向生物標記反應（與非單基因型小兒IBD比較）"
+   },
+   "effects": [],
+   "key_numbers": [
+    "61%（62/102）mIBD疾病有至少一種藥物治療有效證據，其餘39%仍無有效療法",
+    "共納入241篇文獻、669名患者，總結302組基因-藥物反應配對",
+    "特定基因-藥物對應：CD55缺乏症用eculizumab、CTLA4缺乏症用abatacept、肝醣儲積症1b型用empagliflozin"
+   ],
+   "cautions": [
+    "證據來源多為個案報告與小型系列，非對照試驗，因果推論薰陷極大",
+    "『治療反應分數』為作者自訂量化指標，其效度與可重複性摘要未說明",
+    "每種基因型病例數極少，難以排除發表偏誤與選擇性報告"
+   ],
+   "unassessable": [
+    "系統性回顧之搜尋策略與偏誤風險評估方法",
+    "試驗註冊",
+    "利益衝突",
+    "納入研究之品質評估工具",
+    "失訪率／追蹤完整性"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-09-14T07:58:52+08:00"
+  },
+  {
+   "pmid": "42728635",
+   "title": "Modified Albert-Lembert coloanal anastomosis with diverting ileostomy versus Turnbull-Cutait pull-through delayed coloanal anastomosis after intersphincteric resection for low rectal cancer: a single-center retrospective comparative study",
+   "journal": "World J Surg Oncol",
+   "journal_full": "World journal of surgical oncology",
+   "issn": "1477-7819",
+   "issn_linking": "1477-7819",
+   "impact_factor": 2.8,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1001/jamasurg.2024.2262",
+   "ptype": "Comparative Study",
+   "ptype_list": [
+    "Comparative Study"
+   ],
+   "authors": "Li M, Liang H, Wang X, Yang Z, Yang L, Lian G",
+   "abstract": "BACKGROUND: Reconstruction after intersphincteric resection (ISR) for low rectal cancer remains technically challenging. Turnbull-Cutait pull-through delayed coloanal anastomosis (DCAA) has been used as a sphincter-preserving delayed reconstructive strategy, but it requires exteriorization of the colon and a planned second-stage perineal procedure. To improve anastomotic stability after ISR, we performed modified Albert-Lembert coloanal anastomosis (MALA) with diverting ileostomy. This study aimed to compare the short-term clinical outcomes of MALA with diverting ileostomy versus DCAA after ISR for low rectal cancer.\nMETHODS: This single-center retrospective comparative study was conducted at Henan Provincial People's Hospital. Between February 2023 and October 2025, consecutive patients with low rectal cancer who underwent laparoscopic ISR followed by hand-sewn coloanal anastomosis were reviewed. Among them, 58 patients underwent Turnbull-Cutait pull-through delayed coloanal anastomosis (DCAA group), and 42 patients underwent modified Albert-Lembert one-stage coloanal anastomosis with diverting ileostomy (MALA group). Clinical outcomes were compared between the two groups. The primary outcome was overall postoperative morbidity within 30 days after the first surgery.\nRESULTS: A total of 100 patients were included, with 58 in the DCAA group and 42 in the MALA group. Baseline demographic, clinical, and tumor characteristics were comparable between the two groups. The 30-day overall postoperative morbidity rates were 32.8% and 23.8% in the DCAA and MALA groups, respectively, with no statistically significant between-group difference (P = 0.378). No statistically significant differences were observed in the rates of Clavien-Dindo grade I-II complications (19.0% vs. 16.7%, P = 0.799) or grade III or higher complications (13.8% vs. 7.1%, P = 0.350). Operative time (201.8 ± 28.6 min vs. 206.5 ± 32.4 min, P = 0.463), intraoperative blood loss [60 mL (range, 30-150) vs. 60 mL (range, 30-110), P = 0.408], harvested lymph nodes [19 (range, 15-23) vs. 22 (range, 16-24), P = 0.356], R0 resection rate (100% vs. 100%, P = 1.000), and postoperative hospital stay [15 days (range, 13-21) vs. 14 days (range, 12-20), P = 0.225] did not differ significantly between the two groups.\nCONCLUSIONS: MALA with diverting ileostomy is a technically feasible sphincter-preserving reconstructive strategy in selected patients undergoing laparoscopic ISR for low rectal cancer, and no statistically significant difference in 30-day postoperative morbidity was observed between the MALA and DCAA groups.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42579032",
+     "date": "2026-08-12",
+     "title_zh": "全機器人低前位切除術（TR-LAR）與傳統腹腔鏡手術治療直腸癌之比較：系統性回顧與統合分析",
+     "score": 5,
+     "one_liner": "在5篇研究比較TR-LAR與L-LAR的統合分析中，機器人手術時間多43.2分鐘但轉開腹率低20%，其他腫瘤與併發症指標無差異。",
+     "sim": 0.174
+    },
+    {
+     "pmid": "42579032",
+     "date": "2026-08-13",
+     "title_zh": "全機器人低前位切除術（TR-LAR）與傳統腹腔鏡手術治療直腸癌之比較：系統性回顧與統合分析",
+     "score": 5,
+     "one_liner": "在5篇研究比較TR-LAR與L-LAR治療直腸癌中，全機器人手術時間多43.2分鐘（p=0.008），轉開腹率低20%（p=0.02），其他結果無顯著差異。",
+     "sim": 0.174
+    },
+    {
+     "pmid": "42604816",
+     "date": "2026-08-18",
+     "title_zh": "機器人輔助與腹腔鏡大腸切除術體內吻合之短期預後比較：單中心研究合併系統性回顧與統合分析",
+     "score": 4,
+     "one_liner": "在77名大腸癌病人(機器人26/腹腔鏡51)及統合11篇研究中，比較機器人與腹腔鏡體內吻合，機器人手術時間多54分鐘但出血量少14mL，其餘無差異。",
+     "sim": 0.169
+    }
+   ],
+   "title_zh": "改良式Albert-Lembert結腸肛管吻合術合併保護性迴腸造口術，與Turnbull-Cutait拖出式延遲結腸肛管吻合術，於低位直腸癌括約肌間切除術（ISR）後之比較：單中心回溯性比較研究",
+   "abstract_zh": "背景：低位直腸癌括約肌間切除術（ISR）後的重建仍具技術挑戰性。Turnbull-Cutait拖出式延遲結腸肛管吻合術（DCAA）已被用作保留括約肌之延遲重建策略，但需將結腸外置並規劃第二階段會陰部手術。為改善ISR後吻合的穩定性，我們施行改良式Albert-Lembert結腸肛管吻合術（MALA）合併保護性迴腸造口術。本研究旨在比較MALA合併保護性迴腸造口術與DCAA於低位直腸癌ISR後之短期臨床結果。\n\n方法：本單中心回溯性比較研究於河南省人民醫院進行。自2023年2月至2025年10月，連續納入接受腹腔鏡ISR併手工縫合結腸肛管吻合之低位直腸癌患者。其中58例接受Turnbull-Cutait拖出式延遲結腸肛管吻合術（DCAA組），42例接受改良式Albert-Lembert一期結腸肛管吻合合併保護性迴腸造口術（MALA組）。比較兩組臨床結果。主要結果為首次手術後30天內整體術後併發症發生率。\n\n結果：共納入100例患者，DCAA組58例，MALA組42例。兩組基本人口學、臨床及腫瘤特徵相當。DCAA組與MALA組30天整體術後併發症發生率分別為32.8%與23.8%，兩組間無統計學顯著差異（P=0.378）。Clavien-Dindo I-II級併發症發生率（19.0% vs. 16.7%，P=0.799）與III級以上併發症發生率（13.8% vs. 7.1%，P=0.350）亦無統計學顯著差異。手術時間（201.8±28.6分鐘 vs. 206.5±32.4分鐘，P=0.463）、術中出血量[60毫升（範圍30-150）vs. 60毫升（範圍30-110），P=0.408]、取得淋巴結數[19顆（範圍15-23）vs. 22顆（範圍16-24），P=0.356]、R0切除率（100% vs. 100%，P=1.000）及術後住院天數[15天（範圍13-21）vs. 14天（範圍12-20），P=0.225]兩組間亦無顯著差異。\n\n結論：MALA合併保護性迴腸造口術在經選擇的接受腹腔鏡ISR之低位直腸癌患者中，是技術上可行的保留括約肌重建策略，且與DCAA相比，30天術後併發症發生率無統計學顯著差異。",
+   "evidence_level": "回溯性研究",
+   "score": 4,
+   "score_reason": "單中心回溯性、非隨機分組比較，樣本量偏小（42 vs 58），主要結果為陰性且信賴區間未提供，僅可作技術可行性參考。",
+   "relevance": "高度相關",
+   "relevance_why": "低位直腸癌ISR後重建方式選擇是台灣大腸直腸外科醫師日常臨床決策議題。",
+   "novelty": "結果為陰性",
+   "one_liner": "在100例低位直腸癌腹腔鏡ISR患者（58例DCAA、42例MALA）中，30天總體併發症率無顯著差異（32.8% vs 23.8%，p=0.378）。",
+   "action": "可考慮MALA合併保護性迴腸造口作為DCAA之替代選項以避免二階段會陰手術，但證據仍薰弱，暫不建議全面改變現行做法。",
+   "pico": {
+    "P": "2023-2025年於河南省人民醫院接受腹腔鏡ISR之低位直腸癌患者，共100例",
+    "I": "改良式Albert-Lembert一期結腸肛管吻合合併保護性迴腸造口術（MALA，42例）",
+    "C": "Turnbull-Cutait拖出式延遲結腸肛管吻合術（DCAA，58例）",
+    "O": "主要：術後30天整體併發症率；次要：Clavien-Dindo分級併發症、手術時間、出血量、淋巴結數、R0切除率、住院天數"
+   },
+   "effects": [
+    {
+     "outcome": "30天整體術後併發症",
+     "ok": true,
+     "i_label": "MALA",
+     "c_label": "DCAA",
+     "i_rate": 23.8,
+     "c_rate": 32.8,
+     "i_raw": "10/42",
+     "c_raw": "19/58",
+     "arr": 8.9,
+     "benefit": true,
+     "event_bad": true,
+     "nnt": 11,
+     "kind": "NNT",
+     "note": ""
+    },
+    {
+     "outcome": "Clavien-Dindo III級以上併發症",
+     "ok": true,
+     "i_label": "MALA",
+     "c_label": "DCAA",
+     "i_rate": 7.1,
+     "c_rate": 13.8,
+     "i_raw": "3/42",
+     "c_raw": "8/58",
+     "arr": 6.7,
+     "benefit": true,
+     "event_bad": true,
+     "nnt": 15,
+     "kind": "NNT",
+     "note": ""
+    }
+   ],
+   "key_numbers": [
+    "30天整體併發症：DCAA 32.8% vs MALA 23.8%，差異未達統計顯著（p=0.378）",
+    "III級以上併發症：DCAA 13.8% vs MALA 7.1%，差異未達統計顯著（p=0.350）",
+    "手術時間、出血量、淋巴結數、住院天數等次要指標兩組均無顯著差異"
+   ],
+   "cautions": [
+    "非隨機分組，患者分配方式未說明，可能存在選擇性偏誤（何種病人被選為MALA或DCAA不明）",
+    "樣本量小（42 vs 58），對於III級以上併發症等較低發生率事件statistically underpowered，無法排除臨床重要差異",
+    "僅追蹤30天短期結果，未提供吻合口功能、LARS或腫瘤學長期結果（局部復發、存活）"
+   ],
+   "unassessable": [
+    "分組分配方法（selection criteria）",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "長期腫瘤學及功能性結果（LARS、局部復發、存活）",
+    "信賴區間"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。之前看過的論文皆為機器人與腹腔鏡手術方式之比較，與本篇探討的ISR後吻合重建技術（MALA vs DCAA）主題不同，無直接關聯。",
+   "added_at": "2026-09-14T07:58:52+08:00"
+  },
+  {
+   "pmid": "42731874",
+   "title": "Epigenetic plus cytokine therapy induces stem-like CD8+ T-cell reservoirs and intratumoral immune niches to overcome anti-PD-1 resistance",
+   "journal": "J Immunother Cancer",
+   "journal_full": "Journal for immunotherapy of cancer",
+   "issn": "2051-1426",
+   "issn_linking": "2051-1426",
+   "impact_factor": 11.7,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Sep",
+   "doi": "10.1136/jitc-2026-015228",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Minnar C, Miyamoto M, Khelifa A, Lui G, Lothstein K, Meler A",
+   "abstract": "BACKGROUND: Checkpoint blockade (CPB) has limited efficacy in patients with colorectal cancer (CRC), warranting improved therapeutic strategies capable of remodeling the tumor microenvironment. Stem-like TCF1+CD8+ T cells, cytotoxic CD8+ T cells, and lymphoid aggregates have been associated with CPB responsiveness, either individually or as coordinated immune hubs.\nMETHODS: We evaluated the combination of αPD-1, the class I histone deacetylase inhibitor entinostat, and the IL-15 superagonist N-803 in CPB-resistant murine CRC and breast cancer models with varying antigen presentation deficiencies. Proteomic, transcriptomic, spatial, and functional analyses were completed to identify treatment-specific immune remodeling. Translational relevance was assessed using publicly available CPB-treated cancer genomic datasets and functional assays with patient-derived peripheral blood mononuclear cells (PBMCs).\nRESULTS: Triple therapy increased stem-like TCF1+CD8+ T cells in tumor-draining lymph nodes and tumors, concomitant with increased intratumoral cytotoxic GZMB+CD8+ T cells. Therapeutic efficacy was associated with remodeling of the tumor microenvironment, uniquely marked by enrichment of intratumoral immune niches comprising TCF1+ and cytotoxic CD8+ T cells, type 1 conventional dendritic cells, and B cells, along with concerted cytokine and chemokine production. A transcriptional signature derived from triple therapy-induced immune niches predicted favorable clinical responses across multiple CPB-experienced cancer cohorts. These responses were functionally corroborated by increased markers of cytotoxicity in patient-derived PBMCs in vitro.\nCONCLUSIONS: Treatment with entinostat, N-803, and αPD-1 boosts anti-tumor intratumoral immune niches comprising TCF1+CD8+ T cells. Collectively, these findings suggest that TCF1+CD8+ T cell immune niches previously associated with αPD-1 responsiveness and lacking in non-responders, including most CRC patients, may be restored by the addition of entinostat and N-803 to αPD-1 therapy to treat αPD-1-refractory patients.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42331382",
+     "date": "2026-06-22",
+     "title_zh": "CD8 T細胞分泌IL-10協調抗VEGFR-2/PD-1治療後NK細胞早期募集與抗腫瘤免疫",
+     "score": 2,
+     "one_liner": "在大腸直腸癌小鼠模型中，探討VEGFR-2/PD-1雙阻斷療法機轉，發現CD8 T細胞分泌IL-10為驅動NK細胞募集、達成抗腫瘤效果的關鍵中介機轉。",
+     "sim": 0.161
+    },
+    {
+     "pmid": "42409796",
+     "date": "2026-07-07",
+     "title_zh": "腫瘤引流淋巴結透過富集腫瘤反應性效應耗竭型CD8+ T細胞來形塑腫瘤微環境",
+     "score": 4,
+     "one_liner": "整合多體學分析MSI與MSS大腸直腸癌，發現腫瘤引流淋巴結富集效應耗竭CD8+ T細胞前驅族群，可能是MSI良好免疫反應的機轉。",
+     "sim": 0.157
+    }
+   ],
+   "title_zh": "表觀遺傳合併細胞激素療法誘導幹樣CD8+ T細胞庫與腫瘤內免疫壁龕以克服抗PD-1抗藥性",
+   "abstract_zh": "背景：免疫檢查點阻斷（CPB）在大腸直腸癌（CRC）患者中療效有限，需要能重塑腫瘤微環境的改良治療策略。幹樣TCF1+CD8+ T細胞、細胞毒性CD8+ T細胞及淋巴聚集體，無論個別存在或作為協同免疫樞紐，皆與CPB反應性相關。\n方法：我們在具有不同抗原呈現缺陷的CPB抗藥性小鼠大腸直腸癌與乳癌模型中，評估αPD-1、第一類組蛋白去乙醯化酶抑制劑entinostat與IL-15超級促效劑N-803三者聯合治療。透過蛋白質組學、轉錄組學、空間分析及功能性分析，確認治療特異性的免疫重塑。並利用公開的CPB治療癌症基因體資料庫及患者周邊血單核細胞（PBMC）功能性試驗，評估其轉譯相關性。\n結果：三聯療法增加了腫瘤引流淋巴結及腫瘤內幹樣TCF1+CD8+ T細胞，並伴隨腫瘤內細胞毒性GZMB+CD8+ T細胞增加。治療效果與腫瘤微環境重塑相關，其特徵為腫瘤內免疫壁龕中TCF1+及細胞毒性CD8+ T細胞、第一型傳統樹突細胞及B細胞的富集，並伴隨協同的細胞激素與趨化因子產生。源自三聯療法誘導免疫壁龕的轉錄特徵，可預測多個CPB治療癌症族群的良好臨床反應。這些反應在患者來源PBMC的體外試驗中，經細胞毒性標記增加獲得功能性證實。\n結論：以entinostat、N-803與αPD-1治療可促進含TCF1+CD8+ T細胞的抗腫瘤腫瘤內免疫壁龕。整體而言，這些發現顯示先前與αPD-1反應性相關、而在無反應者（包括大多數CRC患者）中缺乏的TCF1+CD8+ T細胞免疫壁龕，可能藉由在αPD-1療法中加入entinostat與N-803而獲得恢復，以治療αPD-1抗藥性患者。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "純小鼠模型基礎轉譯研究，僅以公開資料庫與PBMC體外試驗佐證，無任何人體臨床療效數據，對臨床決策無直接參考價值。",
+   "relevance": "低度相關",
+   "relevance_why": "屬基礎免疫機轉研究，非外科介入，且無人體臨床試驗數據，與大腸直腸外科日常臨床決策幾無關聯。",
+   "novelty": "仍屬早期",
+   "one_liner": "在CPB抗藥性小鼠CRC與乳癌模型中，三聯療法（entinostat+N-803+αPD-1）增加腫瘤內幹樣TCF1+CD8+ T細胞及免疫壁龕，並於PBMC體外試驗中呈現細胞毒性增強。",
+   "action": "目前不需改變做法：此為小鼠模型與體外機轉研究，尚無人體臨床療效數據可供外科或腫瘤治療決策參考。",
+   "pico": {
+    "P": "CPB抗藥性小鼠大腸直腸癌與乳癌模型；並使用公開CPB治療癌症基因體資料庫與患者PBMC進行轉譯分析",
+    "I": "αPD-1 + entinostat（HDAC抑制劑） + N-803（IL-15超級促效劑）三聯療法",
+    "C": "未明確說明對照組細節（可能為單藥或未治療組，摘要未列出組別人數與數據）",
+    "O": "主要：腫瘤內TCF1+CD8+ T細胞與細胞毒性CD8+ T細胞及免疫壁龕形成；次要：轉錄特徵預測臨床反應、PBMC體外細胞毒性標記"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供絕對數值（如腫瘤縮小率、存活率），僅為質性免疫細胞群體變化描述",
+    "轉錄特徵可預測多個CPB治療癌症族群的良好臨床反應，但未附具體預測準確度數字",
+    "無人體臨床試驗療效數據，僅有小鼠模型與PBMC體外功能性驗證"
+   ],
+   "cautions": [
+    "純小鼠模型結果，物種間免疫機轉差異可能導致人體療效無法直接外推",
+    "'轉錄特徵預測臨床反應'為回溯性資料庫關聯分析，非前瞻性臨床試驗驗證，因果關係未證實",
+    "PBMC體外細胞毒性標記增加僅為機轉佐證，非臨床療效終點，不能等同腫瘤縮小或存活改善"
+   ],
+   "unassessable": [
+    "盲法",
+    "allocation concealment",
+    "ITT",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本分析",
+    "人體臨床試驗設計細節"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "與先前兩篇CRC免疫治療CD8+ T細胞機轉研究同屬探討如何強化CD8+ T細胞抗腫瘤反應以克服CRC對免疫治療抗藥性的研究方向，但機轉標的不同（本篇聚焦表觀遺傳藥物+IL-15促效劑誘導幹樣TCF1+CD8+ T細胞壁龕，前作分別聚焦IL-10驅動NK細胞募集及腫瘤引流淋巴結CD8+ T細胞前驅族群）。三者皆屬早期基礎/轉譯研究，尚無臨床應用階段證據。",
+   "added_at": "2026-09-14T07:58:52+08:00"
+  },
+  {
+   "pmid": "42729463",
+   "title": "CEA-targeted CAR-NK cells derived from embryonic stem cells exhibit potent anti-tumor activity against colorectal cancer",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.3389/fbioe.2025.1716975",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Li G, Zhao L, Shen J, Wang H, He J, Liu Y",
+   "abstract": "BACKGROUND: Carcinoembryonic antigen (CEA) is overexpressed in most colorectal cancers (CRC) and serves as a promising immunotherapeutic target. However, current immune cell therapies against CRC show limited clinical efficacy, and the lack of renewable, standardized cell sources hampers broader application. The present study aimed to establish a scalable source of CEA-targeted natural killer (NK) cells from engineered human embryonic stem cells (hESCs).\nMETHODS: hESCs were genetically engineered to express a CEA‑specific chimeric antigen receptor (CAR). The modified hESCs were subsequently differentiated into NK cells, yielding a homogeneous population of CAR hESC-NK cells. In vitro cytotoxicity against CEA-high CRC cell lines was evaluated using LDH and IFN-γ release assays. For in vivo assessment, we established a xenograft mouse model bearing CEA-positive CRC tumors. Following adoptive transfer of CAR-hESC-NK cells, tumor growth was monitored by bioluminescence imaging, overall survival was recorded for Kaplan-Meier analysis, and the persistence of transferred cells in peripheral blood was examined by flow cytometric analysis at serial time points.\nRESULTS: In vitro, CAR hESC‑NK cells demonstrated potent and specific cytotoxicity against CEA-high CRC cell lines, along with significantly enhanced cytokine secretion compared to unmodified NK cells. In the xenograft model, adoptive transfer of CAR hESC‑NK cells resulted in marked tumor growth inhibition and prolonged survival, with no observable off‑target toxicity. Importantly, the CAR CEA‑ESC line maintained stable transgene expression and could serve as a renewable seed cell source.\nCONCLUSION: We have established a scalable platform for producing CEA‑targeted NK cells from engineered hESCs, providing an off‑the‑shelf, homogeneous cell product with robust antitumor activity. This strategy provides effective and specific immunotherapy against CEA-positive colorectal cancer and holds potential for other CEA-expressing malignancies.",
+   "watched": [],
+   "related": [],
+   "title_zh": "CEA靶向、源自胚胎幹細胞的CAR-NK細胞對大腸直腸癌展現強效抗腫瘤活性",
+   "abstract_zh": "背景：癌胚抗原（CEA）在大多數大腸直腸癌（CRC）中過度表現，是極具潛力的免疫治療靶點。然而目前針對CRC的免疫細胞治療臨床效果有限，且缺乏可再生、標準化的細胞來源限制了廣泛應用。本研究旨在建立一個以基因工程人類胚胎幹細胞（hESC）為來源、可規模化生產CEA靶向自然殺手（NK）細胞的平台。方法：以基因工程方式使hESC表現CEA特異性嵌合抗原受體（CAR），再將經修飾的hESC誘導分化為NK細胞，產生均質的CAR hESC-NK細胞群。體外實驗使用LDH及IFN-γ釋放試驗評估其對CEA高表現CRC細胞株的細胞毒性。體內實驗則建立帶有CEA陽性CRC腫瘤的異體移植小鼠模型，於過繼性輸注CAR-hESC-NK細胞後，以生物發光影像監測腫瘤生長，記錄整體存活以進行Kaplan-Meier分析，並於多個時間點以流式細胞術檢測輸注細胞在周邊血中的持續性。結果：體外實驗顯示，CAR hESC-NK細胞對CEA高表現CRC細胞株具有強效且specific的細胞毒性，且細胞激素分泌較未修飾NK細胞顯著增強。在異體移植模型中，過繼性輸注CAR hESC-NK細胞可顯著抑制腫瘤生長並延長存活，且未觀察到脫靶毒性。此外，CAR CEA-ESC細胞株維持穩定的轉基因表現，可作為可再生的種子細胞來源。結論：我們建立了一個可規模化生產CEA靶向NK細胞的工程化hESC平台，提供一種現成、均質且具強效抗腫瘤活性的細胞產品。此策略為CEA陽性大腸直腸癌提供有效且specific的免疫治療，並對其他表現CEA的惡性腫瘤亦具潛力。",
+   "evidence_level": "其他",
+   "score": 3,
+   "score_reason": "僅為體外與小鼠異體移植模型的基礎轉譯研究，無人體數據，對臨床決策目前無直接參考價值。",
+   "relevance": "低度相關",
+   "relevance_why": "純基礎/轉譯細胞治療研究，動物實驗階段，非外科介入，距離臨床應用尚遠。",
+   "novelty": "仍屬早期",
+   "one_liner": "在CEA陽性CRC細胞株與異體移植小鼠模型中，CAR-hESC-NK細胞展現強效體外毒殺與體內腫瘤抑制、延長存活效果。",
+   "action": "目前不需改變做法；此為細胞治療平台之動物與體外實驗階段，尚無人體試驗或臨床應用數據。",
+   "pico": {
+    "P": "CEA高表現CRC細胞株（體外）；CEA陽性CRC異體移植小鼠模型（體內，動物數未提供）",
+    "I": "CAR-hESC-NK細胞（CEA特異性CAR基因工程改造之胚胎幹細胞衍生NK細胞）",
+    "C": "體外：未修飾NK細胞；體內：對照組設計未明確描述",
+    "O": "主要：體外細胞毒性、細胞激素分泌；體內腫瘤生長抑制、整體存活、周邊血細胞持續性"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供腫瘤抑制率、存活率等具體數值，僅以'marked'、'prolonged'等描述性字詞呈現",
+    "細胞毒性與細胞激素分泌僅描述為'顯著增強'，未附具體百分比或p值",
+    "無脫靶毒性之觀察為定性描述，缺乏毒性評估之量化數據"
+   ],
+   "cautions": [
+    "全為體外及小鼠動物實驗，無任何人體臨床數據，結果外推至病人風險極高",
+    "摘要僅用'marked'、'significantly'等定性詞彙描述效果，未提供具體數值、p值或信賴區間",
+    "動物數量、重複實驗次數、統計方法及對照組設計均未說明，證據強度難以評估"
+   ],
+   "unassessable": [
+    "動物數量與統計方法",
+    "對照組設計細節",
+    "p值與信賴區間",
+    "長期毒性與CRS風險",
+    "利益衝突",
+    "試驗設計是否經動物倫理審查",
+    "細胞產品之GMP可行性與成本"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-09-14T07:58:52+08:00"
+  },
+  {
+   "pmid": "42729387",
+   "title": "Integrated multi-omics, network pharmacology, and experimental validation reveal the protective mechanisms of curcumol against DSS-induced ulcerative colitis",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1016/j.ijbiomac.2024.133726",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Shu F, Chen K, Song Y, Li J, Shen M, Guo Z",
+   "abstract": "BACKGROUND: Ulcerative colitis (UC) is a chronic relapsing inflammatory bowel disease characterized by mucosal immune imbalance, epithelial barrier disruption, and intestinal dysbiosis. Curcumol (CUR) possesses anti-inflammatory and immunomodulatory activities; however, the multilevel mechanisms underlying its protective effects against dextran sulfate sodium (DSS)-induced UC remain incompletely understood.\nMETHODS: A mouse model of UC was established in C57BL/6J mice using 3% DSS. CUR or 5-aminosalicylic acid (5-ASA) was administered once daily beginning on the first day of DSS exposure, with 5-ASA serving as a phenotypic positive control. The protective effects of CUR were evaluated based on body weight change, disease activity index (DAI), colon length, histopathological alterations, inflammatory cytokine levels, and barrier-related molecules. Based on the pharmacodynamic and phenotypic evaluation, the high-dose CUR group was selected for subsequent mechanistic studies, including fecal 16S rRNA gene sequencing, fecal untargeted metabolomics, colonic transcriptome sequencing, analysis of public human UC transcriptomic datasets, and integrative network pharmacology, followed by experimental validation of key candidate molecules.\nRESULTS: CUR significantly ameliorated DSS-induced body weight loss, reduced DAI scores, preserved colon length, and alleviated histopathological injury. CUR also decreased the levels of TNF-α, IL-1β, IL-6, and IL-17, restored goblet cell abundance, and partially restored the protein expression of MUC2, claudin-1, ZO-1, and occludin. Moreover, these protective effects were generally more pronounced in the high-dose CUR group, with significant between-dose differences observed for selected endpoints (P < 0.05). Further exploratory analyses showed that high-dose CUR partially restored gut microbial diversity and reshaped community structure while partially reversing DSS-induced metabolic disturbances. Integrative analysis of mouse colonic transcriptomics, public human UC transcriptomic datasets, and network pharmacology converged on SPP1 and CD44 as candidate hub genes and implicated the PI3K/Akt signaling pathway as a key candidate pathway altered by DSS exposure and modulated by CUR. Experimental validation further demonstrated that high-dose CUR reduced the expression of SPP1, CD44, and PIK3CB and decreased the p-p85/p85 and p-Akt/Akt ratios. Multiplex immunofluorescence further showed a reduction in the macrophage-associated fraction of SPP1-positive cells after high-dose CUR intervention.\nCONCLUSIONS: Concurrent administration of CUR exerted protective effects in a DSS-induced mouse model of UC by reducing inflammation and mucosal barrier injury and partially normalizing gut microbial and fecal metabolic profiles. These effects were associated with attenuation of SPP1/CD44/PI3K/Akt-related signaling, suggesting that this signaling network may contribute to CUR-mediated protection against DSS-induced UC.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42606759",
+     "date": "2026-08-18",
+     "title_zh": "重組人類胸腺素β4（Thymosin β4）透過抑制礦物皮質素受體訊號傳導改善實驗性結腸炎與腸道纖維化",
+     "score": 2,
+     "one_liner": "在Tmsb4x基因缺失小鼠與DSS誘導結腸炎模型中，比較給予rhTβ4與未給予，發現可改善存活率並減輕纖維化，機轉與MR訊號抑制有關。",
+     "sim": 0.23
+    },
+    {
+     "pmid": "42606759",
+     "date": "2026-08-19",
+     "title_zh": "重組人類胸腺素β4透過抑制礦物皮質素受體訊號傳導改善實驗性結腸炎與腸道纖維化",
+     "score": 2,
+     "one_liner": "在DSS誘導結腸炎小鼠模型中，比較rhTβ4給藥與未給藥，發現可改善存活率、減少發炎與纖維化，機轉涉及抑制MR訊號。",
+     "sim": 0.23
+    },
+    {
+     "pmid": "42389518",
+     "date": "2026-07-02",
+     "title_zh": "腸道菌叢代謝物丁酸鹽透過增強自噬相關訊號傳導減輕DSS誘導結腸炎之腸道發炎反應",
+     "score": 2,
+     "one_liner": "在DSS誘導結腸炎小鼠模型中，口服丁酸鈉透過增強自噬訊號（ATG16L1、LC3-II上升）減輕腸道發炎與屏障破壞。",
+     "sim": 0.219
+    }
+   ],
+   "title_zh": "整合多體學、網絡藥理學與實驗驗證揭示薑黃烯（Curcumol）對抗DSS誘導潰瘍性大腸炎之保護機制",
+   "abstract_zh": "背景：潰瘍性大腸炎（UC）是一種慢性復發性發炎性腸道疾病，特徵為黏膜免疫失衡、上皮屏障破壞與腸道菌叢失調。薑黃烯（CUR）具有抗發炎與免疫調節活性；然而其對抗葡聚糖硫酸鈉（DSS）誘導UC之多層次保護機轉仍未完全闡明。方法：以3% DSS建立C57BL/6J小鼠UC模型。自DSS暴露第一天起每日給予CUR或5-胺基水楊酸（5-ASA），以5-ASA作為表現型陽性對照。透過體重變化、疾病活動指數（DAI）、大腸長度、組織病理變化、發炎細胞激素濃度及屏障相關分子評估CUR保護效果。根據藥效與表現型評估結果，選取高劑量CUR組進行後續機轉研究，包括糞便16S rRNA基因定序、糞便非標靶代謝體學、大腸轉錄體定序、公開人類UC轉錄體資料庫分析，以及整合式網絡藥理學，並對候選關鍵分子進行實驗驗證。結果：CUR顯著改善DSS誘導之體重下降、降低DAI分數、維持大腸長度並減輕組織病理損傷。CUR亦降低TNF-α、IL-1β、IL-6及IL-17濃度，恢復杯狀細胞數量，並部分恢復MUC2、claudin-1、ZO-1及occludin蛋白表現。此外，這些保護效果在高劑量CUR組通常更為明顯，部分終點觀察到劑量間顯著差異（P < 0.05）。進一步探索性分析顯示，高劑量CUR部分恢復腸道菌叢多樣性並重塑群落結構，同時部分逆轉DSS誘導之代謝紊亂。整合小鼠大腸轉錄體學、公開人類UC轉錄體資料庫及網絡藥理學分析，聚焦於SPP1與CD44作為候選核心基因，並指出PI3K/Akt訊號通路為受DSS暴露改變並受CUR調節之關鍵候選通路。實驗驗證進一步顯示，高劑量CUR降低SPP1、CD44及PIK3CB表現，並降低p-p85/p85與p-Akt/Akt比值。多重免疫螢光進一步顯示，高劑量CUR介入後SPP1陽性細胞中巨噬細胞相關比例降低。結論：同時給予CUR透過減少發炎與黏膜屏障損傷、部分正常化腸道菌叢與糞便代謝譜，於DSS誘導UC小鼠模型中發揮保護效果。這些效果與SPP1/CD44/PI3K/Akt相關訊號減弱有關，提示此訊號網絡可能參與CUR介導對抗DSS誘導UC之保護作用。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "純動物實驗與體外機轉研究，無任何人體或外科臨床數據，對台灣大腸直腸外科臨床實務目前無直接應用價值。",
+   "relevance": "低度相關",
+   "relevance_why": "此為DSS誘導小鼠UC模型之基礎機轉研究，非外科介入亦非人體臨床試驗，與大腸直腸外科日常診療關聯極低。",
+   "novelty": "仍屬早期",
+   "one_liner": "在DSS誘導UC小鼠模型中，比較高劑量薑黃烯與對照，發現可經SPP1/CD44/PI3K/Akt訊號改善腸道發炎與屏障損傷。",
+   "action": "目前不需改變做法；此為動物機轉研究，尚無人體證據，不影響UC或大腸直腸外科臨床處置。",
+   "pico": {
+    "P": "C57BL/6J小鼠（3% DSS誘導UC模型），具體隻數未於摘要中說明",
+    "I": "薑黃烯（CUR，含高、低劑量）",
+    "C": "未給藥對照組；另設5-ASA作為表現型陽性對照",
+    "O": "主要：體重變化、DAI、大腸長度、組織病理、發炎細胞激素、屏障蛋白表現；次要：腸道菌叢多樣性、代謝體變化、SPP1/CD44/PI3K/Akt訊號路徑分子表現"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要僅報告方向性結果（改善、降低、恢復），未提供具體事件數或百分比可供ARR/NNT計算",
+    "高劑量CUR組於部分終點顯著優於低劑量組（P < 0.05），但未提供具體數值或信賴區間",
+    "此為機轉性動物研究，無臨床終點（如復發率、住院率、手術率）可供評估"
+   ],
+   "cautions": [
+    "純動物模型研究，DSS急性結腸炎與人類慢性UC病程差異大，機轉發現能否轉譯至臨床尚不明確",
+    "多體學（16S、代謝體、轉錄體）與網絡藥理學分析多屬探索性、假說產生性質，未經獨立世代驗證",
+    "摘要僅給P值方向性描述，未提供具體效應量、信賴區間或樣本數，難以判斷統計效力與可重複性"
+   ],
+   "unassessable": [
+    "樣本數（小鼠隻數）",
+    "隨機分組方式",
+    "盲法",
+    "統計方法細節",
+    "利益衝突",
+    "各組具體數值與信賴區間"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "與先前看過的胸腺素β4、丁酸鹽等DSS誘導結腸炎小鼠模型論文屬同類基礎機轉研究，皆探討天然/內源性化合物經不同訊號路徑（本篇為SPP1/CD44/PI3K/Akt）減輕腸道發炎與屏障損傷，機轉標的不同但研究典範一致，均屬臨床前期、與外科實務關聯有限之工作。",
+   "added_at": "2026-09-14T07:58:52+08:00"
+  },
+  {
+   "pmid": "42729228",
+   "title": "Intratumoral Bacillus regulating colorectal cancer liver metastasis: links to lipid metabolism and APOE+ macrophages",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.3389/fmicb.2023.1100873",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Chu J, Huang H, Hu Y, Wang Q, Yuan T, Huang S",
+   "abstract": "INTRODUCTION: Colorectal cancer liver metastasis (CRLM) develops in a hepatic niche where tumor cells encounter organ‑specific microbial, metabolic, and immune constraints. The role of intratumoral bacteria in this metastatic ecosystem remains incompletely defined.\nMETHODS: We analyzed tumor and peritumoral tissues from 20 patients with non‑metastatic colorectal cancer (CRC) and 20 patients with CRLM by 5R 16S rDNA sequencing, untargeted metabolomics, and functional assays. Public datasets were used for single‑cell analysis of the tumor immune microenvironment.\nRESULTS: Primary colorectal lesions and paired liver metastases showed distinct microbial structures. Liver metastatic lesions had lower microbial diversity, and 73 genera differed between CRLM primary tumors and liver metastases. Bacillus was enriched in metastatic tumors and was associated with fatty‑acid‑related microbial pathways, serum CEA and CA19‑9 levels, and lipid‑related metabolites that accumulated in liver metastases. Bacillus supernatant increased SW480 and SW620 cell migration and proliferation in vitro, with the strongest activity at a multiplicity of infection (MOI)‑equivalent of 20. In an intrasplenic CRLM model, viable Bacillus and Bacillus supernatant increased metastatic tumor growth, whereas antibiotic intervention reduced this effect. Metabolomic profiling detected enrichment of lipids and lipid‑like molecules, including carnitine‑ and bile‑acid‑related metabolites, in liver metastatic lesions. Single‑cell analysis of public datasets showed remodeling of the tumor immune microenvironment (TIME) and identified APOE⁺ macrophages as lipid‑associated myeloid cells with broad ligand‑receptor communication with epithelial, immune, and stromal compartments.\nDISCUSSION: Together, these findings provide evidence that Bacillus promotes metastatic phenotypes and reveal associations among intratumoral Bacillus, lipid‑related metabolic alterations, and APOE+ macrophage‑associated communication signatures in CRLM.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42358994",
+     "date": "2026-06-26",
+     "title_zh": "大腸直腸癌肝轉移：免疫抑制微環境、訊息傳遞路徑與新興治療策略",
+     "score": 3,
+     "one_liner": "本綜述整理 CRLM 免疫抑制微環境機制（T 細胞耗竭、免疫抑制細胞擴增）與新興治療策略，無原創臨床數據。",
+     "sim": 0.193
+    },
+    {
+     "pmid": "42500682",
+     "date": "2026-07-26",
+     "title_zh": "大腸直腸癌肝轉移：機制與治療",
+     "score": 2,
+     "one_liner": "本文綜述CRLM的免疫耐受微環境機制、現行治療選項與新興策略，未提供原創臨床療效數據。",
+     "sim": 0.184
+    },
+    {
+     "pmid": "42500682",
+     "date": "2026-07-27",
+     "title_zh": "大腸直腸癌肝轉移：機制與治療",
+     "score": 2,
+     "one_liner": "本文綜述CRLM免疫耐受微環境機制與現行/新興治療策略，未提供任何原創臨床試驗數據或療效比較。",
+     "sim": 0.184
+    }
+   ],
+   "title_zh": "腫瘤內芽孢桿菌調控大腸直腸癌肝轉移：與脂質代謝及APOE+巨噬細胞的關聯",
+   "abstract_zh": "前言：大腸直腸癌肝轉移（CRLM）發生於肝臟特有的微環境中，腫瘤細胞在此遭遇器官特異性的微生物、代謝與免疫限制。腫瘤內細菌在此轉移生態系統中的角色尚未完全明確。\n\n方法：我們以5R 16S rDNA測序、非靶向代謝組學及功能性試驗，分析20名非轉移性大腸直腸癌（CRC）患者及20名CRLM患者的腫瘤與腫瘤旁組織。並利用公開資料集進行腫瘤免疫微環境的單細胞分析。\n\n結果：原發大腸直腸病灶與配對的肝轉移病灶顯示出不同的微生物結構。肝轉移病灶的微生物多樣性較低，CRLM原發腫瘤與肝轉移之間有73個屬（genera）存在差異。芽孢桿菌（Bacillus）在轉移性腫瘤中富集，並與脂肪酸相關的微生物代謝路徑、血清CEA及CA19-9水平，以及在肝轉移中累積的脂質相關代謝物有關。芽孢桿菌上清液在體外增加了SW480及SW620細胞的遷移與增殖能力，於感染倍數（MOI）等效值20時活性最強。在脾內注射CRLM模型中，活菌芽孢桿菌及其上清液增加了轉移性腫瘤生長，而抗生素干預則降低此效應。代謝組學分析在肝轉移病灶中檢測到脂質及類脂質分子的富集，包括與肉鹼及膽酸相關的代謝物。公開資料集的單細胞分析顯示腫瘤免疫微環境（TIME）發生重塑，並鑑定出APOE+巨噬細胞為與上皮、免疫及間質細胞群間具有廣泛配體-受體通訊的脂質相關骨髓細胞。\n\n討論：綜合這些發現，證據顯示芽孢桿菌促進轉移表型，並揭示腫瘤內芽孢桿菌、脂質相關代謝變化，以及APOE+巨噬細胞相關通訊特徵在CRLM中的關聯。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "純機制性轉譯研究（人體組織相關性分析+體外+動物模型），無臨床療效或治療決策數據，對臨床實務無直接指導意義。",
+   "relevance": "低度相關",
+   "relevance_why": "純基礎轉譯研究，探討腫瘤內微生物與代謝機制，非外科介入或臨床治療比較。",
+   "novelty": "仍屬早期",
+   "one_liner": "在20名CRC與20名CRLM患者組織中，發現芽孢桿菌於肝轉移富集，並在動物模型中促進轉移性腫瘤生長。",
+   "action": "目前不需改變做法：此為機制性基礎研究，未涉及可直接應用之臨床治療或篩檢決策。",
+   "pico": {
+    "P": "20名非轉移性CRC患者及20名CRLM患者之腫瘤/腫瘤旁組織；並輔以SW480/SW620細胞株及脾內注射小鼠CRLM模型",
+    "I": "腫瘤內芽孢桿菌（Bacillus）之存在與富集程度；活菌或其上清液暴露",
+    "C": "CRC原發腫瘤 vs CRLM肝轉移組織之微生物結構比較；動物模型中抗生素干預 vs 無干預",
+    "O": "主要：微生物多樣性/組成差異、體外細胞遷移增殖、動物模型轉移性腫瘤生長；次要：脂質代謝物累積、CEA/CA19-9相關性、APOE+巨噬細胞通訊特徵"
+   },
+   "effects": [],
+   "key_numbers": [
+    "CRLM原發腫瘤與肝轉移之間有73個微生物屬存在差異（無臨床outcome對應數值）",
+    "芽孢桿菌上清液對SW480/SW620細胞遷移增殖之促進，在MOI等效值20時最強（僅體外定性描述）",
+    "動物模型中抗生素干預降低芽孢桿菌誘導之轉移性腫瘤生長（未提供具體絕對數值）"
+   ],
+   "cautions": [
+    "人體組織僅20 vs 20例，屬相關性分析，無法建立因果關係",
+    "核心證據來自體外細胞株及小鼠脾內注射模型，外推至人類臨床情境有限",
+    "未提供多變量校正或統計顯著性細節（如p值、信賴區間），因果強度難以判斷"
+   ],
+   "unassessable": [
+    "盲法",
+    "混雜因子校正",
+    "統計檢定方法與p值/信賴區間細節",
+    "利益衝突",
+    "試驗註冊",
+    "樣本選取偏誤"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "先前看過的論文均為CRLM免疫抑制微環境之綜述，未提供原創數據。本篇則提供原創的微生物體、代謝組學及功能性實驗數據，為先前綜述中提及的機制假說補上具體的實驗證據（如芽孢桿菌、APOE+巨噬細胞）。",
+   "added_at": "2026-09-14T07:58:52+08:00"
+  },
+  {
+   "pmid": "42729291",
+   "title": "Development and validation of a hypoglycemia risk prediction model for hospitalized type 2 diabetes patients following laparoscopic colorectal cancer resection: a retrospective cohort study",
+   "journal": "Front Endocrinol (Lausanne)",
+   "journal_full": "Frontiers in endocrinology",
+   "issn": "1664-2392",
+   "issn_linking": "1664-2392",
+   "impact_factor": 5.7,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1136/bmjopen-2024-087426",
+   "ptype": "Validation Study",
+   "ptype_list": [
+    "Validation Study"
+   ],
+   "authors": "Zhuo Y, Zheng Y, Xu J, Li X, Huang W, Ji L",
+   "abstract": "OBJECTIVE: To identify factors associated with postoperative hypoglycemia among inpatients with type 2 diabetes mellitus (T2DM) receiving laparoscopic colorectal cancer (CRC) resection, and to construct a predictive model for assessing hypoglycemia risk.\nMETHODS: This retrospective cohort study collected data on hospitalized T2DM patients who underwent laparoscopic CRC resection between January 2021 and June 2023, and randomized them into a training and an internal validation cohorts in a 7:3 ratio. Multivariate logistic regression was used to build a prediction model for in-hospital hypoglycemia after laparoscopic CRC resection and identify independent predictors for level 1 and level 2 hypoglycemia.\nRESULTS: Among 720 hospitalized T2DM patients receiving laparoscopic CRC resection, the overall incidence of postoperative hypoglycemia was 16.7% (120 patients), including 98 level 1 cases and 22 level 2 cases. A multivariable predictive model was developed using five independent predictors: long T2DM duration, low preoperative day-1 fasting plasma glucose (FPG), American Society of Anes- thesiologists physical status grade > II, prolonged postoperative fasting, and prior long-term insulin therapy. The model yielded an area under the receiver operating characteristic curve (AUC) of 0.817 (95% confidence interval [CI], 0.774-0.859) in the training cohort and 0.751 (95% CI, 0.669-0.833) in the validation cohort for hypoglycemia prediction. Level 1 postoperative hypoglycemia was independently predicted by long T2DM duration, low preoperative day-1 FPG, and prolonged postoperative fasting; while level 2 hypoglycemia was associated with low body mass index (BMI), low pre- operative day-1 FPG, and elevated neutrophil (NEUT) proportion on postoperative day 3.\nCONCLUSIONS: The nomogram prediction model constructed in this study provided reliable risk estimation for postoperative hypoglycemia in hospitalized patients with T2DM undergoing laparoscopic CRC resection, and might serve as a practical adjunct to inform individualized clinical decisions and optimize perioperative glycemic management.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42478980",
+     "date": "2026-07-22",
+     "title_zh": "COLOSSUS-AI：人工智慧預測大腸直腸手術術後結果之前導性研究",
+     "score": 3,
+     "one_liner": "在310名大腸直腸手術病人中，以梯度提升機器學習模型預測術後不良結果（發生率38.7%），內部驗證AUC達0.886。",
+     "sim": 0.176
+    },
+    {
+     "pmid": "42478980",
+     "date": "2026-07-23",
+     "title_zh": "COLOSSUS-AI：人工智慧預測大腸直腸手術術後結果之前導性研究",
+     "score": 3,
+     "one_liner": "在310名大腸直腸手術病人中，以梯度提升機器學習模型預測術後不良結果（發生率38.7%），內部驗證AUC達0.886。",
+     "sim": 0.176
+    },
+    {
+     "pmid": "42493839",
+     "date": "2026-07-25",
+     "title_zh": "術前預後營養指數(PNI)與第I-III期大腸直腸癌長期預後及術後併發症之關聯",
+     "score": 5,
+     "one_liner": "在3045名第I-III期CRC根治術病人中，比較低PNI(<43.4)與高PNI，發現低PNI組5年OS 59.0% vs 80.0%（p<0.001）。",
+     "sim": 0.169
+    }
+   ],
+   "title_zh": "腹腔鏡大腸直腸癌切除術後住院第2型糖尿病病人低血糖風險預測模型之建立與驗證：回溯性世代研究",
+   "abstract_zh": "目的：探討接受腹腔鏡大腸直腸癌（CRC）切除術之住院第2型糖尿病（T2DM）病人術後發生低血糖之相關因子，並建立低血糖風險預測模型。方法：本回溯性世代研究收集2021年1月至2023年6月間接受腹腔鏡CRC切除術之住院T2DM病人資料，並以7:3比例隨機分為訓練組與內部驗證組。以多變量邏輯回歸建立腹腔鏡CRC切除術後院內低血糖之預測模型，並找出第1級與第2級低血糖之獨立預測因子。結果：720名接受腹腔鏡CRC切除術之住院T2DM病人中，術後低血糖整體發生率為16.7%（120人），其中第1級98例、第2級22例。多變量預測模型納入五項獨立預測因子：糖尿病病程長、術前第一天空腹血糖（FPG）低、美國麻醉醫學會（ASA）分級>II、術後禁食時間延長、以及長期使用胰島素治療史。此模型於訓練組之ROC曲線下面積（AUC）為0.817（95%信賴區間0.774-0.859），於驗證組為0.751（95%信賴區間0.669-0.833）。第1級術後低血糖獨立預測因子為糖尿病病程長、術前第一天FPG低、術後禁食時間延長；第2級低血糖則與低身體質量指數（BMI）、術前第一天FPG低、以及術後第3天嗜中性球比例升高相關。結論：本研究建立之列線圖（nomogram）預測模型可對住院接受腹腔鏡CRC切除術之T2DM病人術後低血糖提供可靠風險估計，可作為輔助個別化臨床決策及優化圍術期血糖管理之實用工具。",
+   "evidence_level": "回溯性研究",
+   "score": 4,
+   "score_reason": "單中心回溯性研究，僅做同批病人拆分之內部驗證（非外部驗證），驗證組AUC信賴區間偏寬（0.669-0.833），對台灣臨床立即可用性有限但概念方向合理。",
+   "relevance": "中度相關",
+   "relevance_why": "涉及CRC手術病人圍術期血糖管理，屬於術後照護範疇而非手術技術本身，對大腸直腸外科醫師有輔助參考價值。",
+   "novelty": "仍屬早期",
+   "one_liner": "在720名接受腹腔鏡CRC切除之T2DM住院病人中，建立低血糖預測模型，驗證組AUC達0.751（16.7%發生低血糖）。",
+   "action": "目前不需改變做法；可留意糖尿病病程長、術前FPG低、ASA>II、術後禁食久、長期用胰島素之病人的血糖監測頻率。",
+   "pico": {
+    "P": "720名2021-2023年接受腹腔鏡CRC切除術之住院T2DM病人",
+    "I": "多變量邏輯回歸建立之低血糖預測模型（含5項預測因子）",
+    "C": "無對照組（單一模型內部訓練/驗證拆分）",
+    "O": "主要outcome：術後院內低血糖發生（整體16.7%）；次要：第1級與第2級低血糖各自之獨立預測因子"
+   },
+   "effects": [],
+   "key_numbers": [
+    "術後低血糖整體發生率16.7%（120/720），第1級98例、第2級22例",
+    "模型AUC：訓練組0.817（95% CI 0.774-0.859），驗證組0.751（95% CI 0.669-0.833）",
+    "第2級（較嚴重）低血糖與低BMI、低術前FPG、術後第3天NEUT比例升高相關"
+   ],
+   "cautions": [
+    "僅做同一資料集7:3內部拆分驗證，非獨立外部驗證，模型泛化性未知",
+    "驗證組AUC信賴區間寬（0.669-0.833），且樣本量僅720人，過度配適風險存在",
+    "回溯性單中心設計，未提及校準曲線（calibration）或臨床決策曲線（DCA）分析結果"
+   ],
+   "unassessable": [
+    "外部驗證",
+    "校準度（calibration）",
+    "決策曲線分析",
+    "失訪率／缺失資料處理",
+    "利益衝突",
+    "試驗註冊"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。COLOSSUS-AI雖同屬大腸直腸手術預測模型研究，但預測目標為一般術後不良結果而非特定之低血糖併發症，臨床問題不同；PNI研究則聚焦長期腫瘤預後，與本篇圍術期血糖管理主題無直接關聯。",
+   "added_at": "2026-09-14T07:58:52+08:00"
+  },
+  {
+   "pmid": "42730478",
+   "title": "Development and internal validation of a prediction model for early anastomotic leak after minimally invasive esophagectomy: a prospective cohort study",
+   "journal": "Ann Med",
+   "journal_full": "Annals of medicine",
+   "issn": "1365-2060",
+   "issn_linking": "0785-3890",
+   "impact_factor": 4.9,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Dec",
+   "doi": "10.1080/07853890.2026.2726636",
+   "ptype": "Validation Study",
+   "ptype_list": [
+    "Validation Study"
+   ],
+   "authors": "Feng Z, Ren X, Xue M, Bao P, Xu H, Gao F",
+   "abstract": "BACKGROUND: Anastomotic leak (AL) remains a complication after minimally invasive esophagectomy (MIE), affecting 10-20% of patients and increasing morbidity and mortality. Although local conduit perfusion and systemic nutritional status are central to anastomotic healing, no validated bedside tool integrates quantitative early endoscopic findings with systemic indicators to predict postoperative AL.\nMETHODS: This prospective single-center cohort study enrolled 583 patients who underwent MIE at Tangdu Hospital. Standardized endoscopy within 72 h quantified gastric conduit ischemic length, and postoperative serum albumin was measured. Multivariable logistic regression and receiver operating characteristic (ROC) analysis identified independent predictors and optimal cutoffs to develop a risk-stratification system. A Lasso-regularized logistic regression (Lasso LR) model was developed and internally validated (7:3 split), with performance assessed by area under the curve (AUC), calibration curves, and decision curve analysis. Associations with ECCG-defined AL severity were also assessed.\nRESULTS: Gastric conduit ischemic length ≥3.5 cm (OR 3.361, p = 0.043) and postoperative serum albumin <31.75 g/L (OR 0.886, p < 0.001) were independent predictors. The Lasso LR model achieved an internal validation AUC of 0.727 (95% CI: 0.641-0.810). The risk-stratification system yielded AL rates of 11.00%, 22.73%, and 73.68% across low-, medium-, and high-risk groups (p < 0.001). Both predictors correlated with ECCG severity. A nomogram and web-based calculators were developed for bedside use.\nCONCLUSION: Quantitative gastric conduit ischemic length and postoperative serum albumin enabled individualized AL risk assessment within 72 h after MIE. By integrating local perfusion and systemic healing capacity, the model and digital tools provide a framework for early targeted postoperative management.\nTRIAL REGISTRATION: Chinese Clinical Trial Registry, ChiCTR2100054550. Registered December 19, 2021, https://www.chictr.org.cn/.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42478980",
+     "date": "2026-07-22",
+     "title_zh": "COLOSSUS-AI：人工智慧預測大腸直腸手術術後結果之前導性研究",
+     "score": 3,
+     "one_liner": "在310名大腸直腸手術病人中，以梯度提升機器學習模型預測術後不良結果（發生率38.7%），內部驗證AUC達0.886。",
+     "sim": 0.197
+    },
+    {
+     "pmid": "42478980",
+     "date": "2026-07-23",
+     "title_zh": "COLOSSUS-AI：人工智慧預測大腸直腸手術術後結果之前導性研究",
+     "score": 3,
+     "one_liner": "在310名大腸直腸手術病人中，以梯度提升機器學習模型預測術後不良結果（發生率38.7%），內部驗證AUC達0.886。",
+     "sim": 0.197
+    },
+    {
+     "pmid": "42478982",
+     "date": "2026-07-22",
+     "title_zh": "術後第三天生物標記預測大腸直腸癌手術後吻合口滲漏之比較表現—回溯性世代研究",
+     "score": 4,
+     "one_liner": "在166名大腸直腸癌吻合手術病人中，比較多種POD3生物標記預測吻合口滲漏能力，發現CAR預測力最佳（OR=1.91）。",
+     "sim": 0.161
+    }
+   ],
+   "title_zh": "微創食道切除術後早期吻合口滲漏預測模型之建立與內部驗證：前瞻性世代研究",
+   "abstract_zh": "背景：吻合口滲漏（AL）仍是微創食道切除術（MIE）後的併發症，影響10-20%病人，並增加病病率與死亡率。雖然局部管道灌流與全身營養狀態對吻合口癒合至關重要，但目前尚無經驗證的床邊工具能整合量化的早期內視鏡發現與全身指標來預測術後AL。方法：本前瞻性單中心世代研究於唐都醫院納入583名接受MIE的病人。以標準化內視鏡檢查於72小時內量化胃管缺血長度，並測量術後血清白蛋白。以多變項邏輯回歸與受試者工作特徵曲線（ROC）分析找出獨立預測因子與最佳切點，建立風險分層系統。以Lasso正規化邏輯回歸（Lasso LR）建立模型並進行內部驗證（7:3分割），以曲線下面積（AUC）、校準曲線與決策曲線分析評估表現。同時評估與ECCG定義AL嚴重度之關聯。結果：胃管缺血長度≥3.5公分（OR 3.361，p=0.043）與術後血清白蛋白<31.75 g/L（OR 0.886，p<0.001）為獨立預測因子。Lasso LR模型內部驗證AUC達0.727（95% CI：0.641-0.810）。風險分層系統顯示低、中、高風險組之AL發生率分別為11.00%、22.73%、73.68%（p<0.001）。兩項預測因子均與ECCG嚴重度相關。並開發了列線圖與網頁版計算器供床邊使用。結論：量化胃管缺血長度與術後血清白蛋白可在MIE後72小時內進行個人化AL風險評估。此模型與數位工具整合局部灌流與全身癒合能力，提供早期針對性術後照護之框架。試驗註冊：中國臨床試驗註冊中心，ChiCTR2100054550，2021年12月19日註冊。",
+   "evidence_level": "前瞻性世代",
+   "score": 3,
+   "score_reason": "僅單中心內部驗證、AUC僅0.727區辨力有限，且研究對象為食道切除術而非大腸直腸手術，對台灣大腸直腸外科臨床實用性極低。",
+   "relevance": "低度相關",
+   "relevance_why": "研究對象為微創食道切除術（食道癌）病人，非大腸直腸手術，解剖部位與吻合方式完全不同。",
+   "novelty": "仍屬早期",
+   "one_liner": "在583名微創食道切除術病人中，以胃管缺血長度與術後白蛋白建立AL預測模型，內部驗證AUC 0.727。",
+   "action": "目前不需改變做法；此為食道切除術預測模型，非大腸直腸手術族群，無法直接外推應用。",
+   "pico": {
+    "P": "583名接受微創食道切除術（MIE）之病人（單中心前瞻性世代）",
+    "I": "以術後72小時內視鏡量化胃管缺血長度＋術後血清白蛋白建立之Lasso LR預測模型",
+    "C": "無對照組（為預測模型建立與內部驗證研究）",
+    "O": "主要：吻合口滲漏（AL）發生；次要：ECCG定義之AL嚴重度分級"
+   },
+   "effects": [
+    {
+     "outcome": "吻合口滲漏率（風險分層：高風險 vs 低風險組）",
+     "ok": true,
+     "i_label": "高風險組",
+     "c_label": "低風險組",
+     "i_rate": 73.7,
+     "c_rate": 11.0,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 62.7,
+     "benefit": false,
+     "event_bad": true,
+     "nnt": 2,
+     "kind": "NNH",
+     "note": ""
+    }
+   ],
+   "key_numbers": [
+    "AL預測模型內部驗證AUC 0.727（95% CI 0.641-0.810），區辨力屬中等偏弱",
+    "風險分層AL發生率：低11.00% vs 中22.73% vs 高73.68%（p<0.001）",
+    "缺血長度≥3.5cm（OR 3.361, p=0.043）、白蛋白<31.75g/L（OR 0.886, p<0.001）為獨立預測因子"
+   ],
+   "cautions": [
+    "僅單中心內部驗證（7:3分割），無外部驗證，AUC僅0.727，實際臨床適用性未知",
+    "缺血長度與白蛋白切點為事後ROC分析最佳化所得，易過度配適，需外部世代重現",
+    "研究族群為食道切除術病人，與大腸直腸吻合口生理機轉不同，不可直接外推"
+   ],
+   "unassessable": [
+    "失訪率",
+    "利益衝突",
+    "外部驗證",
+    "盲法（預測模型研究通常不適用）",
+    "ITT分析"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。先前列出的論文皆為大腸直腸手術族群（AI預測模型、POD3生物標記），此篇為食道切除術病人的獨立研究，手術部位與病人族群不同，無直接關聯。",
+   "added_at": "2026-09-14T07:58:52+08:00"
+  },
+  {
+   "pmid": "42732402",
+   "title": "Research Advances in Nanodrugs Targeting Lipid Metabolism Reprogramming for Colorectal Cancer Therapy",
+   "journal": "Int J Nanomedicine",
+   "journal_full": "International journal of nanomedicine",
+   "issn": "1178-2013",
+   "issn_linking": "1176-9114",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1186/1476-4598-12-126",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Tang J, Liu M, Zhang R, Li Q, Wang S, Wang Y",
+   "abstract": "Colorectal cancer (CRC) remains a major global health burden, with limited efficacy of conventional treatments due to tumor heterogeneity, drug resistance, and systemic toxicity. Lipid metabolism reprogramming has emerged as a hallmark of CRC progression, influencing tumor growth, metastasis, and therapy resistance. Concurrently, nanomedicine offers innovative platforms for targeted drug delivery to to inhibit tumor progression by intervening in the lipid metabolism, including modulation of lipid synthesis, uptake, storage, and cholesterol metabolism. This review provides an integrated perspective, systematically summarizing therapeutic strategies and research progress on nanodrugs targeting lipid metabolic reprogramming in CRC. We highlight nanoplatforms engineered to deliver inhibitors of key enzymes and signaling pathways, such as PI3K/AKT and Wnt/β-catenin. Representative nanoplatforms are discussed to illustrate diverse strategies for regulating lipid metabolic vulnerabilities in CRC, such as carrier-free nanoparticles, RBC membrane-coated nanocages and cholesterol-responsive nanoparticles. We also discuss the challenges in clinical translation, including tumor heterogeneity, biosafety, large-scale production, and clinical validation. Furthermore, we provide insight into translational challenges, emerging trends, and future directions for integrating lipid-targeted nanotherapies into clinical practice.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42433343",
+     "date": "2026-07-11",
+     "title_zh": "奈米醫學遞送系統重塑大腸直腸癌免疫抑制微環境：標靶免疫檢查點抑制劑的協同策略與機制",
+     "score": 3,
+     "one_liner": "本文綜述奈米醫學遞送系統與免疫檢查點抑制劑於CRC治療的協同機制與研究進展，屬機制性文獻回顧，無臨床試驗數據。",
+     "sim": 0.25
+    },
+    {
+     "pmid": "42433343",
+     "date": "2026-07-12",
+     "title_zh": "奈米醫學遞送系統重塑大腸直腸癌免疫抑制微環境：標靶免疫檢查點抑制劑的協同策略與機制",
+     "score": 3,
+     "one_liner": "本文綜述奈米醫學遞送系統與免疫檢查點抑制劑於CRC治療的協同機制與研究進展，屬機制性文獻回顧，無臨床試驗數據。",
+     "sim": 0.25
+    },
+    {
+     "pmid": "42433343",
+     "date": "2026-07-13",
+     "title_zh": "奈米醫學遞送系統重塑大腸直腸癌免疫抑制微環境：標靶免疫檢查點抑制劑的協同策略與機制",
+     "score": 3,
+     "one_liner": "本文綜述奈米醫學遞送系統與免疫檢查點抑制劑於CRC治療的協同機制與研究進展，屬機制性文獻回顧，無臨床試驗數據。",
+     "sim": 0.25
+    }
+   ],
+   "title_zh": "奈米藥物標靶脂質代謝重編程用於大腸直腸癌治療之研究進展",
+   "abstract_zh": "大腸直腸癌（CRC）仍是全球主要健康負擔，傳統治療因腫瘤異質性、藥物抗性與全身毒性而療效有限。脂質代謝重編程已成為CRC進展的一項標誌，影響腫瘤生長、轉移與治療抗性。同時，奈米醫學提供創新平台，透過介入脂質代謝（包括調節脂質合成、攝取、儲存及膽固醇代謝）進行標靶藥物遞送以抑制腫瘤進展。本綜述提供整合性觀點，系統性總結針對CRC脂質代謝重編程之奈米藥物治療策略與研究進展。我們著重介紹經設計以遞送關鍵酵素與訊號路徑（如PI3K/AKT與Wnt/β-catenin）抑制劑的奈米平台。文中討論代表性奈米平台以說明調節CRC脂質代謝脆弱性之多元策略，例如無載體奈米粒子、紅血球膜包覆奈米籠及膽固醇反應性奈米粒子。我們也討論臨床轉譯上的挑戰，包括腫瘤異質性、生物安全性、大規模生產與臨床驗證。此外，我們提供對轉譯挑戰、新興趨勢及未來將脂質標靶奈米治療整合入臨床實務方向之見解。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純機制性文獻綜述，無任何臨床試驗或人體數據，對台灣大腸直腸外科臨床實務目前無直接應用價值。",
+   "relevance": "低度相關",
+   "relevance_why": "屬基礎/轉譯研究層次的奈米藥物遞送機制綜述，非外科介入，距臨床應用仍遙遠。",
+   "novelty": "仍屬早期",
+   "one_liner": "本綜述整理奈米藥物標靶CRC脂質代謝重編程（合成、攝取、儲存、膽固醇代謝）之研究進展與臨床轉譯挑戰。",
+   "action": "目前不需改變做法；此為機制性綜述，無臨床數據可供決策參考。",
+   "pico": {
+    "P": "無特定病人族群，為文獻綜述",
+    "I": "奈米藥物標靶脂質代謝重編程（如無載體奈米粒子、紅血球膜包覆奈米籠、膽固醇反應性奈米粒子）",
+    "C": "無對照組",
+    "O": "無明確outcome，僅綜述機制與轉譯挑戰"
+   },
+   "effects": [],
+   "key_numbers": [
+    "無任何臨床試驗數據或統計數字，全文為機制與平台描述性綜述",
+    "無患者人數、無事件率、無p值或信賴區間可供抽取",
+    "無對照組設計，屬於敘述性文獻回顧"
+   ],
+   "cautions": [
+    "全文無臨床試驗數據，僅為實驗室/前臨床機制綜述，無法直接評估對病人之療效或安全性",
+    "作者列出多種奈米平台（無載體奈米粒子、RBC膜奈米籠等）但均缺乏人體驗證，屬概念階段",
+    "文中承認臨床轉譯挑戰（異質性、生產放大、臨床驗證）尚未解決，距臨床應用有相當距離"
+   ],
+   "unassessable": [
+    "盲法",
+    "allocation concealment",
+    "ITT",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本分析",
+    "樣本數（因無臨床研究）"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "與之前看過的奈米醫學遞送系統標靶CRC免疫微環境綜述屬同類機制性文獻回顧，主題從免疫檢查點轉為脂質代謝，皆無臨床試驗數據，對外科實務參考價值有限。",
+   "added_at": "2026-09-14T07:58:52+08:00"
+  },
+  {
+   "pmid": "42732298",
+   "title": "Engineering Small Extracellular Vesicles for Colon-Targeted Delivery: Microenvironment-Responsive Design, Therapeutic Mechanisms, and Clinical Translation",
+   "journal": "Int J Nanomedicine",
+   "journal_full": "International journal of nanomedicine",
+   "issn": "1178-2013",
+   "issn_linking": "1176-9114",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1016/j.trac.2025.118621",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Liu G, Li M, Liu J, Li Y, Huang X, Guo X",
+   "abstract": "Small extracellular vesicles (sEVs) are endogenous lipid-bilayer nanovesicles that combine cargo protection, biological membrane compatibility, and modifiable surface recognition. For colon-targeted delivery, their value depends on engineering them to withstand gastric acidity and proteolysis, negotiate the mucus barrier, and respond to colon-specific cues, including the distal gastrointestinal pH profile, microbiota-derived enzymes, inflammatory reactive oxygen species, and lesion-associated receptors such as integrins, CD44, and folate receptors. This review critically compares sEVs with conventional colon-targeted drug delivery systems and summarizes sEV biogenesis, cargo sorting, isolation, characterization, exogenous and endogenous loading, surface engineering, and passive, active, and stimuli-responsive targeting strategies. Therapeutic applications are evaluated in inflammatory bowel disease and colorectal cancer, with attention to epithelial barrier restoration, immune regulation, macrophage polarization, apoptosis, tumor-microenvironment remodeling, and emerging intestinal indications such as irritable bowel syndrome. Recent clinical trials, Good Manufacturing Practice requirements, potency and release specifications, safety assessment, and regulatory uncertainties are also discussed. A disease- and route-oriented decision framework is proposed to connect cargo properties, administration route, target-cell biology, manufacturing feasibility, and clinically meaningful endpoints. Although engineered sEVs remain investigational and no therapeutic product has achieved full regulatory approval, integration of microfluidic manufacturing, organ-on-chip validation, artificial intelligence-assisted design, and image-guided precision delivery may improve reproducibility and translational readiness.",
+   "watched": [],
+   "related": [],
+   "title_zh": "工程化小型外泌體用於大腸靶向給藥：微環境反應性設計、治療機轉與臨床轉譯",
+   "abstract_zh": "小型外泌體（sEVs）是內源性脂雙層奈米囊泡，兼具貨物保護、生物膜相容性與可修飾表面辨識能力。對於大腸靶向給藥而言，其價值取決於能否經工程化改造以耐受胃酸與蛋白酶水解、穿越黏液屏障，並對大腸特異性訊號產生反應，包括遠端消化道pH值分布、微生物群衍生酵素、發炎性活性氧，以及病灶相關受體如integrin、CD44與葉酸受體。本綜述批判性地比較sEVs與傳統大腸靶向給藥系統，並總結sEV的生物合成、貨物分選、分離、特性鑑定、外源性與內源性載入、表面工程，以及被動、主動與刺激反應性靶向策略。文中評估其在發炎性腸道疾病與大腸直腸癌的治療應用，關注上皮屏障修復、免疫調節、巨噬細胞極化、凋亡、腫瘤微環境重塑，以及新興腸道適應症如大腸激躁症。文中亦討論近期臨床試驗、優良製造規範（GMP）要求、效力與釋放規格、安全性評估及法規不確定性。本文提出一套以疾病與給藥途徑為導向的決策框架，連結貨物特性、給藥途徑、目標細胞生物學、製造可行性與具臨床意義的終點指標。儘管工程化sEVs仍屬研究性質，尚無治療產品獲得完整法規核准，但微流體製造、器官晶片驗證、人工智慧輔助設計與影像引導精準給藥的整合，可能提升其再現性與轉譯準備度。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純基礎/轉譯研究綜述，無臨床數據，對台灣大腸直腸外科臨床實務目前完全無直接應用性，僅供研究興趣參考。",
+   "relevance": "低度相關",
+   "relevance_why": "屬奈米藥物載體工程綜述，非外科介入，無臨床試驗數據，尚無核准產品，與臨床決策無關。",
+   "novelty": "仍屬早期",
+   "one_liner": "本文綜述工程化外泌體作為大腸靶向給藥載體的設計策略與轉譯現況，尚無臨床療效數據可供評估。",
+   "action": "目前不需改變做法；此為基礎科學/藥物載體工程綜述，無任何可用於臨床病人的實證數據。",
+   "pico": {
+    "P": "無病人族群（綜述文章，非臨床研究）",
+    "I": "工程化小型外泌體（sEVs）作為大腸靶向給藥載體",
+    "C": "傳統大腸靶向給藥系統（如口服劑型、微脂粒等）",
+    "O": "摘要未提供具體臨床outcome數據；聚焦於製造技術、靶向機轉與轉譯可行性之討論"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供任何具體臨床數據、事件數或百分比",
+    "無任何比較組的量化療效數字",
+    "作者明確指出尚無工程化sEV產品獲得完整法規核准"
+   ],
+   "cautions": [
+    "本文為敘述性綜述，非系統性回顧或統合分析，無原始臨床數據可供評估療效",
+    "所有討論的療效機轉（免疫調節、腫瘤微環境重塑等）均來自基礎/動物研究層次，非人體臨床證據",
+    "作者自承此技術仍屬「investigational」，將前臨床潛力與臨床可行性混談，讀者需留意過度樂觀詮釋"
+   ],
+   "unassessable": [
+    "盲法",
+    "allocation concealment",
+    "ITT分析",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本分析",
+    "樣本數"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-09-14T07:58:52+08:00"
+  }
+ ]
+}
