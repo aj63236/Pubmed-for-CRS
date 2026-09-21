@@ -1,0 +1,801 @@
+{
+ "date": "2026-09-21",
+ "generated_at": "2026-09-21T08:02:39+08:00",
+ "count": 11,
+ "papers": [
+  {
+   "pmid": "42761652",
+   "title": "CD200-CD200R as a myeloid immune checkpoint in solid tumors: mechanisms, context-dependent functions, and therapeutic opportunities",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1186/s13045-020-00989-w",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Sahu M, Ezhil I, Akkanapally V, Kumar A, Liu J, Basu S",
+   "abstract": "CD200 and its receptor CD200R form a myeloid-centered immune checkpoint that normally restrains myeloid activation and limits tissue damage, but many solid tumors co-opt this pathway to suppress antitumor immunity. CD200-CD200R signaling is highly context-dependent, varying even among models of the same cancer type. In melanoma and breast carcinoma, it can either suppress protumor inflammation or promote tumor growth and metastasis depending on the model, whereas in neuroblastoma; glioblastoma and other central nervous system tumors; cutaneous and head and neck squamous cell carcinoma; colorectal cancer; and several endocrine, ovarian, and pancreatic cancers, it consistently suppresses macrophage, dendritic cell, natural killer cell, and CD8+ T-cell activation, impairs phagocytosis and antigen presentation, and drives immunosuppressive infiltration. Non-small cell lung cancer and renal cell carcinoma emerge as two additional, less-characterized but clinically important contexts warranting further investigation. CD200R1-CD200 has also recently been identified as a macrophage phagocytosis checkpoint that functions independently of CD47-SIRPα, placing it within the expanding family of innate immune checkpoints. Rather than treating CD200-CD200R as a universally protumorigenic target, we propose a context-dependent framework-incorporating tumor type, microenvironmental architecture, and dominant myeloid and lymphoid programs-to guide tumor-specific therapeutic strategies in solid cancers.",
+   "watched": [],
+   "related": [],
+   "title_zh": "CD200-CD200R作為實體腫瘤中骨髓系免疫檢查點：機制、情境依賴性功能與治療機會",
+   "abstract_zh": "CD200與其受體CD200R構成一個以骨髓系細胞為中心的免疫檢查點，正常情況下可抑制骨髓系細胞活化並限制組織損傷，但許多實體腫瘤會劫持此路徑以抑制抗腫瘤免疫。CD200-CD200R訊號傳導具高度情境依賴性，即使在同一癌症類型的不同模型間也有差異。在黑色素瘤與乳癌中，此路徑可能依模型不同而抑制促腫瘤發炎反應，或促進腫瘤生長與轉移；而在神經母細胞瘤、神經膠質瘤及其他中樞神經系統腫瘤、皮膚與頭頸部鱗狀細胞癌、大腸直腸癌，以及多種內分泌、卵巢與胰臟癌中，此路徑則一致地抑制巨噬細胞、樹突狀細胞、自然殺手細胞與CD8+ T細胞活化，損害吞噬作用與抗原呈現，並驅動免疫抑制性細胞浸潤。非小細胞肺癌與腎細胞癌則是另外兩個特徵較不明確但臨床上重要的情境，值得進一步研究。CD200R1-CD200近期也被證實是獨立於CD47-SIRPα之外的巨噬細胞吞噬檢查點，使其成為日益擴大的先天性免疫檢查點家族的一員。我們提出一個情境依賴性框架，納入腫瘤類型、微環境結構、以及主導的骨髓系與淋巴系程式，以指導實體癌症中特定腫瘤類型的治療策略，而非將CD200-CD200R視為普遍促腫瘤的治療靶點。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純機制性綜述，無臨床數據、無介入性研究，對大腸直腸外科臨床決策無直接參考價值。",
+   "relevance": "低度相關",
+   "relevance_why": "此為基礎免疫學機制綜述，非外科介入研究，CRC僅為文中提及的多個癌種之一，無臨床應用數據。",
+   "novelty": "仍屬早期",
+   "one_liner": "本綜述整合CD200-CD200R免疫檢查點在多種實體腫瘤（含CRC）中的機制與情境依賴性作用，提出治療框架構想。",
+   "action": "目前不需改變做法；此為基礎機制綜述，無臨床試驗數據可轉化為治療決策。",
+   "pico": {
+    "P": "無特定病人族群（綜述文獻，涵蓋多種實體腫瘤的基礎與轉譯研究）",
+    "I": "無（綜述CD200-CD200R訊號路徑）",
+    "C": "無對照組",
+    "O": "無臨床outcome；討論機制與潛在治療靶點方向"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本文為機制性綜述，未提供任何臨床試驗數據、發生率或統計數字",
+    "CD200-CD200R在CRC中的作用方向為一致抑制抗腫瘤免疫（無量化數據）",
+    "無法提供ARR、NNT或風險比等可供臨床判斷之數字"
+   ],
+   "cautions": [
+    "純綜述無原創臨床數據，結論多來自動物模型與體外研究，無法直接外推至人類CRC病人",
+    "CD200-CD200R在不同癌種甚至同癌種不同模型中作用方向相反，機制解讀高度異質性，難有明確治療建議",
+    "目前無任何提及CD200/CD200R標的藥物之臨床試驗結果，屬早期轉譯概念階段"
+   ],
+   "unassessable": [
+    "盲法",
+    "allocation concealment",
+    "ITT",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本分析",
+    "臨床療效數據"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-09-21T07:59:36+08:00"
+  },
+  {
+   "pmid": "42761775",
+   "title": "MicroRNAs in immune-related diseases: mechanism, functions and therapeutic perspectives",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1016/j.jaci.2019.12.905",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Tunç T, Yaman Ozer S, Misir S",
+   "abstract": "MicroRNAs (miRNAs) are evolutionarily conserved, non-coding RNA molecules approximately 18-25 nucleotides in length that regulate gene expression at the post-transcriptional level. Their principal mechanism of action is post-transcriptional gene silencing via RNA interference, achieved by binding to complementary sequences within target messenger RNAs (mRNAs). Accumulating evidence has highlighted the pivotal role of miRNAs in the development, differentiation, and function of immune cells, as well as in maintaining immune homeostasis. A more comprehensive understanding of the complex molecular networks governed by these miRNAs may provide valuable insights into disease mechanisms, facilitate clinical decision-making, and ultimately improve patient outcomes. The remarkable stability of miRNAs, together with their presence in the systemic circulation encapsulated within extracellular vesicles, has attracted considerable interest in their clinical application. These characteristics make circulating miRNAs promising candidates as diagnostic biomarkers for the early detection of disease and as prognostic indicators for disease progression and evaluating therapeutic efficacy. Furthermore, an increasing number of miRNA-based studies across diverse immune-related disorders have revealed their potential as therapeutic targets. The integration of synergistic therapeutic strategies and complementary miRNA-based approaches may further enhance treatment efficacy and contribute to the development of novel precision-medicine interventions for immune-related diseases. In this review, we comprehensively discuss the biogenesis and biological functions of miRNAs and examine their regulatory roles in the pathogenesis of rheumatoid arthritis (RA), inflammatory bowel disease (IBD), multiple sclerosis (MS), psoriasis, systemic lupus erythematosus (SLE), and atopic dermatitis (AD). We are also evaluating the potential of these miRNAs as diagnostic and prognostic biomarkers, and their promising properties as therapeutic targets in the treatment of immune system-related diseases. These selected diseases represent key immune disorders in which miRNAs serve as strong biomarker candidates for early diagnosis (diagnostic) and disease course (prognostic) due to their stability in systemic circulation and their presence within extracellular vesicles. These six diseases constitute the cluster of \"immune-related disorders,\" where miRNA-based studies are steadily increasing, and these molecules hold the highest potential as novel therapeutic targets.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42703176",
+     "date": "2026-09-08",
+     "title_zh": "大腸直腸癌中細胞外囊泡衍生非編碼RNA新興角色之探討",
+     "score": 2,
+     "one_liner": "本綜述整理外泌體ncRNA（miRNA、circRNA、lncRNA）在CRC中作為診斷生物標記與治療靶點之潛力，無臨床數據。",
+     "sim": 0.192
+    },
+    {
+     "pmid": "42703176",
+     "date": "2026-09-09",
+     "title_zh": "深入探討細胞外囊泡衍生非編碼RNA在大腸直腸癌中新興角色之洞見",
+     "score": 2,
+     "one_liner": "本綜述整理外泌體ncRNA（miRNA、circRNA、lncRNA）在大腸直腸癌診斷與治療中的潛在角色，無臨床數據。",
+     "sim": 0.192
+    },
+    {
+     "pmid": "42654435",
+     "date": "2026-08-28",
+     "title_zh": "大腸直腸癌中的外泌體：從腫瘤生物學到診斷與治療應用",
+     "score": 2,
+     "one_liner": "本文綜述外泌體在大腸直腸癌生物學中的角色，探討其作為診斷生物標記與治療平台之潛力，無臨床數據。",
+     "sim": 0.18
+    }
+   ],
+   "title_zh": "微小RNA在免疫相關疾病中的角色：機制、功能與治療展望",
+   "abstract_zh": "微小RNA（miRNA）是演化上保守的非編碼RNA分子，長度約18-25個核苷酸，在轉錄後層級調控基因表現。其主要作用機制為透過RNA干擾與目標信使RNA（mRNA）中互補序列結合，達成轉錄後基因沉默。愈來愈多證據顯示miRNA在免疫細胞的發育、分化與功能，以及維持免疫平衡上扮演關鍵角色。更全面理解這些miRNA所調控的複雜分子網路，可能有助於了解疾病機制、協助臨床決策，並最終改善病人預後。miRNA具有顯著的穩定性，且以包覆於細胞外囊泡的形式存在於全身循環中，這使其臨床應用備受關注。這些特性使循環miRNA成為早期疾病診斷的潛在生物標記，以及疾病進展與治療效果評估的預後指標。此外，愈來愈多針對各種免疫相關疾病的miRNA研究，揭示其作為治療靶點的潛力。整合協同治療策略與互補的miRNA相關方法，可能進一步提升治療效果，並促進針對免疫相關疾病的新型精準醫療介入之發展。本綜述全面討論miRNA的生合成與生物功能，並檢視其在類風濕性關節炎（RA）、發炎性腸道疾病（IBD）、多發性硬化症（MS）、乾癬、系統性紅斑性狼瘡（SLE）與異位性皮膚炎（AD）致病機轉中的調控角色。我們也評估這些miRNA作為診斷與預後生物標記的潛力，以及其在免疫系統相關疾病治療中作為治療靶點的前景。這些精選疾病代表關鍵的免疫疾病，由於miRNA在全身循環中的穩定性及存在於細胞外囊泡中，使其成為早期診斷（診斷用）與疾病病程（預後用）的強力生物標記候選者。這六種疾病構成「免疫相關疾病」的群集，miRNA相關研究正穩定增加，且這些分子在作為新型治療靶點方面具有最高潛力。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純機制性綜述，無任何臨床試驗或病人數據，且疾病範疇（RA、MS、乾癬、SLE、AD）與大腸直腸外科臨床實務關聯極低，即使提及IBD亦非手術相關內容。",
+   "relevance": "低度相關",
+   "relevance_why": "主題為多種免疫疾病之miRNA基礎機制探討，非大腸直腸癌或外科介入，臨床實用性極低。",
+   "novelty": "仍屬早期",
+   "one_liner": "本綜述整理miRNA在RA、IBD、MS、乾癬、SLE、AD六種免疫疾病中的機制與作為診斷/治療標記之潛力，無臨床數據。",
+   "action": "目前不需改變做法，此為基礎機制綜述，缺乏臨床試驗數據，與大腸直腸外科手術決策無直接關聯。",
+   "pico": {
+    "P": "無特定病人族群，為文獻綜述（涵蓋RA、IBD、MS、乾癬、SLE、AD相關研究）",
+    "I": "miRNA生合成與功能機制探討",
+    "C": "無對照組",
+    "O": "miRNA作為診斷/預後生物標記與治療靶點之潛力；無具體臨床outcome數據"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供任何具體臨床數據、事件數或統計指標",
+    "全文以機制與潛力描述為主，無診斷準確度或治療效果數字",
+    "六種疾病中IBD雖與腸道相關，但未區分是否為CRC或手術病人族群"
+   ],
+   "cautions": [
+    "純機制性綜述，無臨床試驗或病人資料，結論多為「潛力」性質，非確立結果",
+    "涵蓋六種異質性免疫疾病，缺乏針對單一疾病或大腸直腸外科情境的深入分析",
+    "未提供任何生物標記之敏感度/特異度或治療效果之絕對數字，無法評估臨床可行性"
+   ],
+   "unassessable": [
+    "盲法",
+    "allocation concealment",
+    "ITT",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本分析",
+    "研究方法（納入文獻的系統性搜尋策略）"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。先前看過的論文聚焦於大腸直腸癌中外泌體ncRNA的角色，本篇則探討miRNA在RA、MS、乾癬、SLE、AD等多種免疫疾病（非CRC特異）中的機制，主題範疇不同。",
+   "added_at": "2026-09-21T07:59:36+08:00"
+  },
+  {
+   "pmid": "42761459",
+   "title": "SLC25 in intestinal inflammation: mechanisms, pathological roles, and therapeutic implications",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1152/ajpgi.00312.2011",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Xu J, Zuo Z, Wang P, He T, Xun L, An Y",
+   "abstract": "Inflammatory bowel diseases (IBD) represent a spectrum of chronic gastrointestinal disorders fueled by a complex multifactorial interplay, where mitochondrial dysfunction has emerged as a critical contributor. The SLC25 family of mitochondrial transporters mediates the exchange of essential metabolites across the mitochondrial inner membrane, serving as pivotal regulators of cellular energy homeostasis in both the intestinal epithelium and immune cells. Accumulating evidence indicates that dysregulation of SLC25-dependent metabolic transport disrupts the crosstalk between cellular metabolism and immune signaling, driving chronic intestinal inflammation. This review comprehensively examines the pathological roles of SLC25 proteins across three interconnected dimensions: epithelial barrier disruption, immune dysregulation, and host-microbiota metabolic crosstalk. Specifically, we synthesize current findings on how altered SLC25 function compromises the intestinal barrier via oxidative stress and energy deficits, skews immune cell polarization toward pro-inflammatory states, and perpetuates a vicious cycle of microbial dysbiosis. Ultimately, this review provides a comprehensive theoretical basis for the central role of SLC25-mediated metabolic reprogramming in IBD pathogenesis, and establishes a critical mechanistic foundation for the development of novel metabolism-targeted therapeutics and diagnostic biomarkers.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42455958",
+     "date": "2026-07-16",
+     "title_zh": "潰瘍性結腸炎之粒線體功能障礙：致病機轉與新興治療",
+     "score": 3,
+     "one_liner": "本文綜述粒線體功能障礙在UC致病機轉中的角色，並介紹MitoQ、ClpP活化劑、工程益生菌等三類早期/臨床前治療策略。",
+     "sim": 0.238
+    },
+    {
+     "pmid": "42455958",
+     "date": "2026-07-17",
+     "title_zh": "潰瘍性結腸炎之粒線體功能障礙：致病機轉與新興治療",
+     "score": 3,
+     "one_liner": "本文綜述粒線體功能障礙在UC致病機轉中的角色，並介紹MitoQ、ClpP活化劑、工程益生菌等三類早期/臨床前治療策略。",
+     "sim": 0.238
+    },
+    {
+     "pmid": "42758364",
+     "date": "2026-09-19",
+     "title_zh": "線粒體代謝物轉運蛋白：大腸直腸癌代謝重編程、表觀遺傳調控與治療脆弱性的交會點",
+     "score": 2,
+     "one_liner": "本綜述整理CRC中線粒體代謝物轉運蛋白（MPC、CIC、SLC1A5_var）於代謝重編程及表觀遺傳調控中的角色，屬機制性討論。",
+     "sim": 0.227
+    }
+   ],
+   "title_zh": "SLC25家族在腸道發炎中的角色：機轉、病理生理意義與治療意涵",
+   "abstract_zh": "發炎性腸道疾病（IBD）代表一系列由複雜多因子交互作用驅動的慢性胃腸道疾病，其中粒線體功能障礙已成為關鍵致病因子。SLC25家族粒線體轉運蛋白負責介導必需代謝物跨越粒線體內膜的交換，在腸道上皮細胞與免疫細胞中扮演細胞能量homeostasis的核心調控者。累積證據顯示，SLC25依賴性代謝轉運的失調會破壞細胞代謝與免疫訊號傳遞之間的交互作用，進而驅動慢性腸道發炎。本綜述從三個相互關聯的層面全面檢視SLC25蛋白的病理角色：上皮屏障破壞、免疫失調、以及宿主-微生物群代謝交互作用。具體而言，我們整合了目前關於SLC25功能改變如何透過氧化壓力與能量不足損害腸道屏障、使免疫細胞極化偏向促發炎狀態、並持續維持微生物菌群失衡惡性循環的研究發現。最終，本綜述為SLC25介導的代謝重編程在IBD致病機轉中的核心角色提供全面的理論基礎，並為開發新型代謝靶向治療藥物與診斷生物標記建立關鍵的機制基礎。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純機制性綜述，無臨床數據、無治療試驗結果，對大腸直腸外科臨床實務無直接指引價值。",
+   "relevance": "低度相關",
+   "relevance_why": "為基礎機轉綜述，聚焦IBD粒線體代謝，非外科介入，對大腸直腸外科日常診療無直接影響。",
+   "novelty": "仍屬早期",
+   "one_liner": "本綜述整理SLC25粒線體轉運蛋白家族在IBD中如何透過上皮屏障、免疫失調與菌群交互作用促進慢性腸道發炎的機轉。",
+   "action": "目前不需改變做法，此為機制性綜述，無臨床試驗或治療數據可供外科決策參考。",
+   "pico": {
+    "P": "無特定病人族群（機轉綜述，非臨床研究）",
+    "I": "無（綜述SLC25家族粒線體轉運蛋白之病理生理機轉）",
+    "C": "無對照組",
+    "O": "無臨床outcome；綜述聚焦上皮屏障、免疫調控與宿主-微生物代謝交互作用之機轉"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本文為機制性綜述，無臨床試驗數據、無事件數或發生率可供抽取",
+    "無統計檢定結果、無p值或信賴區間",
+    "無法計算ARR或NNT，因無任何臨床outcome數據"
+   ],
+   "cautions": [
+    "全篇為機轉性理論綜述，未提供任何人體臨床試驗或治療效果數據",
+    "所提「治療靶點」與「生物標記」皆為理論推論，尚無臨床驗證",
+    "內容聚焦IBD而非大腸直腸癌，與外科臨床決策關聯薄弱"
+   ],
+   "unassessable": [
+    "盲法",
+    "allocation concealment",
+    "ITT",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本分析（本研究非臨床試驗，上述項目均不適用）"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "與先前看過的兩篇粒線體功能障礙於UC致病機轉綜述主題高度重疊，本篇進一步聚焦SLC25轉運蛋白家族這一特定分子機轉，屬同系列基礎機制性綜述的延伸，皆停留在理論階段未有臨床應用數據。",
+   "added_at": "2026-09-21T07:59:36+08:00"
+  },
+  {
+   "pmid": "42761343",
+   "title": "The tumor immune microenvironment of thyroid cancer and colorectal cancer: cellular crosstalk and therapeutic implications",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1016/j.annonc.2023.05.002",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Zhang G, Xing C, Gong Y",
+   "abstract": "Thyroid cancer (TC) and colorectal cancer are common malignancies of the endocrine and gastrointestinal systems, respectively, and continue to impose a substantial global disease burden. The tumor immune microenvironment (TIME) plays a central role in tumor initiation, progression, and therapeutic response; however, the cellular composition and intercellular communication networks within the TIME exhibit marked heterogeneity between these two malignancies. Recent advances in single-cell sequencing and spatial transcriptomics have revealed complex and dynamic alterations in immune cell subsets, stromal cell functions, cytokine networks, and metabolic programs within the TIME. In particular, bidirectional communication between tumor cells and immune cells has emerged as a critical determinant of immune evasion and therapeutic resistance. Nevertheless, most existing studies have focused on individual tumor types, and systematic comparisons of the shared and distinct features of the TIME in thyroid cancer and colorectal cancer remain limited. Moreover, combination therapeutic strategies targeting the TIME are still under active investigation. This review systematically compares the immune microenvironments of thyroid cancer (TC) and colorectal cancer (CRC), highlighting the development of more precise and effective immunotherapeutic strategies for thyroid cancer and colorectal cancer.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42570160",
+     "date": "2026-08-10",
+     "title_zh": "泛癌症分析揭示PABPC1L在免疫調控與治療反應中的多面性角色",
+     "score": 1,
+     "one_liner": "在33種癌症的泛癌症生物資訊分析與CRC/GC細胞株實驗中，發現PABPC1L過表達與不良預後、PD-L1相關性及5-FU抗藥性有關。",
+     "sim": 0.183
+    },
+    {
+     "pmid": "42753707",
+     "date": "2026-09-19",
+     "title_zh": "單細胞解析發炎性腸道疾病藥物反應與抗藥性：細胞特徵與精準治療",
+     "score": 2,
+     "one_liner": "本綜述整合單細胞與空間多體學研究，提出免疫失調、基質重塑、上皮重編程三大細胞特徵解釋IBD治療抗藥性機轉，屬機轉假說整理，無臨床數據。",
+     "sim": 0.168
+    },
+    {
+     "pmid": "42654435",
+     "date": "2026-08-28",
+     "title_zh": "大腸直腸癌中的外泌體：從腫瘤生物學到診斷與治療應用",
+     "score": 2,
+     "one_liner": "本文綜述外泌體在大腸直腸癌生物學中的角色，探討其作為診斷生物標記與治療平台之潛力，無臨床數據。",
+     "sim": 0.165
+    }
+   ],
+   "title_zh": "甲狀腺癌與大腸直腸癌的腫瘤免疫微環境：細胞間交互作用與治療意涵",
+   "abstract_zh": "甲狀腺癌（TC）與大腸直腸癌分別是內分泌系統與胃腸系統中常見的惡性腫瘤，持續造成重大的全球疾病負擔。腫瘤免疫微環境（TIME）在腫瘤起始、進展與治療反應中扮演核心角色；然而，這兩種惡性腫瘤在TIME內的細胞組成與細胞間通訊網絡上呈現明顯異質性。單細胞測序與空間轉錄組學的最新進展，已揭示TIME內免疫細胞亞群、基質細胞功能、細胞因子網絡與代謝程序的複雜且動態變化。特別是，腫瘤細胞與免疫細胞之間的雙向通訊已成為免疫逃逸與治療抗藥性的關鍵決定因素。然而，現有研究多聚焦於單一腫瘤類型，系統性比較甲狀腺癌與大腸直腸癌TIME共同與相異特徵的研究仍有限。此外，針對TIME的聯合治療策略仍在積極研究中。本綜述系統性比較甲狀腺癌（TC）與大腸直腸癌（CRC）的免疫微環境，強調發展更精準且有效的甲狀腺癌與大腸直腸癌免疫治療策略。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純機轉性綜述，無原創臨床或實驗數據，對台灣大腸直腸外科臨床決策幾無直接實用性。",
+   "relevance": "低度相關",
+   "relevance_why": "屬跨癌種免疫微環境機轉整理，非外科介入、無臨床試驗數據，對日常手術與治療決策幫助有限。",
+   "novelty": "仍屬早期",
+   "one_liner": "本綜述比較甲狀腺癌與大腸直腸癌的腫瘤免疫微環境異同，探討細胞間通訊與免疫治療策略發展方向，無原創數據。",
+   "action": "目前不需改變做法；此為機轉性綜述，無臨床試驗數據可供臨床決策參考。",
+   "pico": {
+    "P": "無特定病人族群（綜述文獻，非臨床研究）",
+    "I": "無介入（比較甲狀腺癌與大腸直腸癌之腫瘤免疫微環境特徵）",
+    "C": "無對照組",
+    "O": "無明確outcome；聚焦於免疫細胞組成、細胞間通訊機轉與潛在免疫治療策略之文獻整理"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本文為綜述，未提供原創臨床數據、事件數或統計檢定結果",
+    "無法計算ARR或NNT，因無對照組臨床試驗數據",
+    "無陰性或陽性結果可供量化評估"
+   ],
+   "cautions": [
+    "純機轉假說整理，缺乏臨床試驗數據支持，不可直接推論至臨床治療決策",
+    "跨癌種比較（甲狀腺癌vs大腸直腸癌）機轉異同，未必能外推至個別病人",
+    "綜述文獻可能存在作者選擇性引用偏誤，摘要未說明文獻篩選方法"
+   ],
+   "unassessable": [
+    "研究方法（文獻篩選標準）",
+    "利益衝突",
+    "是否為系統性文獻回顧或敘述性綜述",
+    "資金來源"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。雖然先前看過的論文（PABPC1L泛癌症分析、IBD單細胞綜述、CRC外泌體綜述）皆屬機轉性/基礎研究範疇，但主題與本篇甲狀腺癌與大腸直腸癌免疫微環境比較無直接關聯，不宜硬掰連結。",
+   "added_at": "2026-09-21T07:59:36+08:00"
+  },
+  {
+   "pmid": "42762326",
+   "title": "Phenotypic switching of gastrointestinal smooth muscle cells and the regulatory role of macrophages: a literature review",
+   "journal": "Inflamm Res",
+   "journal_full": "Inflammation research : official journal of the European Histamine Research Society ... [et al.]",
+   "issn": "1420-908X",
+   "issn_linking": "1023-3830",
+   "impact_factor": 6.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Sep",
+   "doi": "10.1038/nature14966",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Fan J, Jiang Y, Luan X, Wang X, Wang X, Zhang X",
+   "abstract": "BACKGROUND: Gastrointestinal motility disorders are closely associated with dysfunction of smooth muscle cells (SMCs), and phenotypic switching of SMCs serves as a critical pathological basis for this process. Under a chronic inflammatory microenvironment, SMCs can transform into a synthetic phenotype and contribute to complications such as intestinal fibrosis. Macrophages, as the predominant immune cell population in the gastrointestinal tract, have an unclear role in regulating the phenotypic switching of SMCs, and the underlying mechanisms remain poorly understood.\nFINDINGS: This article systematically reviews the regulatory mechanisms underlying gastrointestinal smooth muscle phenotypic switching, and highlights the potential role of macrophages in regulating gastrointestinal smooth muscle phenotypic switching and summarizes the underlying mechanisms, including inflammatory responses, microbial interactions, and neural regulation.\nCONCLUSIONS: The macrophage‑smooth muscle axis provides new perspectives for understanding the pathogenesis of inflammatory bowel disease (IBD) and may serve as a reference for exploring potential therapeutic strategies for gastrointestinal motility disorders.",
+   "watched": [],
+   "related": [],
+   "title_zh": "腸胃道平滑肌細胞的表型轉換及巨噬細胞的調控角色：文獻回顧",
+   "abstract_zh": "背景：腸胃道動力障礙與平滑肌細胞（SMC）功能失調密切相關，而SMC的表型轉換是此過程的關鍵病理基礎。在慢性發炎微環境下，SMC可轉變為合成型表型，進而導致腸道纖維化等併發症。巨噬細胞作為腸胃道中主要的免疫細胞群，其在調控SMC表型轉換中的角色尚不明確，相關機轉仍知之甚少。發現：本文系統性回顧了腸胃道平滑肌表型轉換的調控機轉，並強調巨噬細胞在調控腸胃道平滑肌表型轉換中可能扮演的角色，總結其潛在機轉，包括發炎反應、微生物交互作用及神經調控。結論：巨噬細胞—平滑肌軸為理解發炎性腸道疾病（IBD）的致病機轉提供了新的視角，並可能為探索腸胃道動力障礙的潛在治療策略提供參考。",
+   "evidence_level": "綜述",
+   "score": 3,
+   "score_reason": "純基礎機轉文獻回顧，無臨床數據或治療建議，對日常大腸直腸外科臨床決策無直接可用性，僅供理解IBD纖維化病理生理背景。",
+   "relevance": "低度相關",
+   "relevance_why": "為基礎科學機轉綜述，非外科介入、無臨床試驗數據，與手術決策無直接關聯。",
+   "novelty": "仍屬早期",
+   "one_liner": "文獻回顧探討腸道慢性發炎中平滑肌細胞表型轉換與巨噬細胞調控機轉的關聯，聚焦IBD相關腸道纖維化的病理生理機轉。",
+   "action": "目前不需改變做法；此為機轉性綜述，無可直接應用於手術或臨床決策的資料，可作為理解IBD狹窄纖維化背景知識參考。",
+   "pico": {
+    "P": "無病人族群（文獻回顧，非臨床研究）",
+    "I": "無介入（綜述巨噬細胞對SMC表型轉換的調控機轉）",
+    "C": "無對照組",
+    "O": "無明確outcome；主題為總結SMC表型轉換與巨噬細胞調控之分子機轉"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本文為機轉性文獻回顧，無臨床試驗數據、無事件數或發生率可供抽取",
+    "無統計檢定、p值或信賴區間",
+    "無法提供ARR/NNT等臨床決策數字"
+   ],
+   "cautions": [
+    "本篇為綜述而非原創研究，結論多為機轉推論，尚未有臨床試驗證實",
+    "巨噬-平滑肌軸與IBD致病機轉的因果關係僅為假說性論述，非因果證據",
+    "無任何人體或動物實驗數據支持，無法評估研究品質或偏誤"
+   ],
+   "unassessable": [
+    "研究設計",
+    "樣本量",
+    "統計方法",
+    "利益衝突",
+    "臨床可行性"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-09-21T07:59:36+08:00"
+  },
+  {
+   "pmid": "42761415",
+   "title": "Spatial niches of the colorectal cancer microbiome: differences, interrelationships, and clinical implications of fecal, mucosal, and intratumoral microbiota",
+   "journal": "Front Cell Infect Microbiol",
+   "journal_full": "Frontiers in cellular and infection microbiology",
+   "issn": "2235-2988",
+   "issn_linking": "2235-2988",
+   "impact_factor": 5.5,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.3390/cancers13194799",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Yu M, Shi X, Li D, Li Y, Sun M",
+   "abstract": "Colorectal cancer (CRC) is one of the most common malignancies worldwide and a leading cause of cancer-related mortality. The gut microbiome has attracted growing attention because of its involvement in CRC initiation and progression, early detection, prognostic evaluation, and therapeutic response. However, CRC microbiome studies continue to face inconsistent findings and limited reproducibility, partly because of differences in specimen type. Directly comparing microbial signals from fecal, mucosal, and intratumoral samples may therefore bias mechanistic interpretation and mislead clinical translation. From a spatial-niche perspective, this review summarizes the distinct characteristics, formation mechanisms, interrelationships, and clinical implications of fecal, mucosal, and intratumoral microbiota during CRC progression. We further propose a \"seed bank-colonizers-specialized populations\" model to conceptualize the continuous but non-equivalent hierarchy among these niches. By providing a clearer spatially stratified framework, this review aims to help move CRC microbiome research beyond descriptive associations toward precision-oriented applications supported by mechanistic interpretability, reproducible evidence, and clinical translatability.",
+   "watched": [],
+   "related": [],
+   "title_zh": "大腸直腸癌微生物群的空間生態位：糞便、黏膜與腫瘤內微生物群的差異、相互關係與臨床意義",
+   "abstract_zh": "大腸直腸癌（CRC）是全球最常見的惡性腫瘤之一，也是癌症相關死亡的主要原因。腸道微生物群因其參與CRC的發生與進展、早期偵測、預後評估及治療反應而受到日益增加的關注。然而，CRC微生物群研究持續面臨結果不一致與可重複性有限的問題，部分原因來自標本類型的差異。直接比較糞便、黏膜與腫瘤內樣本的微生物訊號，可能使機制詮釋產生偏誤，並誤導臨床轉譯。本綜述從空間生態位的角度，總結CRC進展過程中糞便、黏膜與腫瘤內微生物群各自的特徵、形成機制、相互關係及臨床意義。我們進一步提出「種子庫—殖民者—特化群體」模型，用以概念化這些生態位之間連續但非等同的層級關係。透過提供更清晰的空間分層框架，本綜述旨在協助CRC微生物群研究從描述性關聯，邁向具有機制可解釋性、可重複證據與臨床轉譯性的精準導向應用。",
+   "evidence_level": "綜述",
+   "score": 3,
+   "score_reason": "純概念性綜述，無原始數據或臨床試驗結果，對日常外科臨床決策實用性低，僅適合對微生物體研究方向感興趣者參考。",
+   "relevance": "低度相關",
+   "relevance_why": "屬於基礎/轉譯醫學概念性綜述，非外科介入或治療建議，短期內不影響臨床照護。",
+   "novelty": "仍屬早期",
+   "one_liner": "綜述提出「種子庫—殖民者—特化群體」模型，描述CRC中糞便、黏膜、腫瘤內微生物群的空間層級關係，屬概念框架、無臨床數據。",
+   "action": "目前不需改變做法；此為概念性綜述，尚無可直接應用於病人分層或治療決策的具體工具或證據。",
+   "pico": {
+    "P": "無特定病人族群，為文獻概念性回顧（非原始研究）",
+    "I": "無（非介入性研究）",
+    "C": "無對照組",
+    "O": "無量化主要/次要結果，僅提出概念性分類模型"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本文為綜述，未提供任何原始定量數據、事件數或風險比",
+    "無統計分析、無p值、無信賴區間可供評估",
+    "所提「種子庫-殖民者-特化群體」模型尚屬理論框架，未經臨床驗證"
+   ],
+   "cautions": [
+    "屬概念性模型提案，非實證驗證結果，臨床可信度與可重複性尚待證實",
+    "綜述性質可能將相關性描述過度詮釋為機制性因果關係",
+    "無原始研究支持，缺乏可供臨床應用的具體切點或標準化方法"
+   ],
+   "unassessable": [
+    "因屬綜述文獻，無隨機分組、盲法、allocation concealment、ITT、失訪率、試驗註冊、利益衝突等項目可評估"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-09-21T07:59:36+08:00"
+  },
+  {
+   "pmid": "42760391",
+   "title": "MicroRNA-122 as a regulator and biomarker of liver disease",
+   "journal": "J Mol Med (Berl)",
+   "journal_full": "Journal of molecular medicine (Berlin, Germany)",
+   "issn": "1432-1440",
+   "issn_linking": "0946-2716",
+   "impact_factor": 5.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Sep",
+   "doi": "10.1146/annurev-virology-110615-042409",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Ahmadova S, Wicik Z, Mucha J, Palatini J, Ziętal K, Mirowska-Guzel D",
+   "abstract": "MicroRNA-122 (miR-122) is the most abundant liver-specific microRNA, comprising ~ 70% of the hepatic miRNA pool, and a central regulator of lipid metabolism, inflammation, fibrosis, viral replication, and hepatocarcinogenesis. This review synthesizes experimental, clinical, and molecular evidence on the role of miR-122 across the spectrum of liver disease, including metabolic dysfunction-associated fatty liver disease (MAFLD) and steatohepatitis (MASH), drug-induced acute liver injury, hepatitis B and C virus (HBV/HCV) infection, hepatocellular carcinoma (HCC), and colorectal cancer liver metastasis. Mechanistically, miR-122 governs hepatic lipogenesis through the Sirt1/LKB1/AMPK axis, modulates inflammation via LPS/TLR-4/FoxO3 signaling, and exerts tumor-suppressive and antiviral effects through Cyclin G1/p53, HO-1, NDRG3, GALNT10, PEG10, and NEGR1. A recurring theme is the compartment- and stage-dependent behavior of miR-122: hepatic expression declines with disease progression, whereas circulating levels rise with hepatocyte injury, reconciling apparently contradictory reports and underscoring the importance of specimen source and disease stage in biomarker interpretation. We further contrast the etiology-specific regulation of miR-122 in HBV- versus HCV-associated disease, in which epigenetic silencing and interferon-linked mechanisms drive divergent expression. Finally, we critically appraise the failed clinical translation of anti-miR-122 therapeutics (miravirsen, RG-101), highlighting viral resistance, safety liabilities, and the tumor-suppressor paradox that constrains inhibition-based strategies. Collectively, miR-122 emerges as a minimally invasive biomarker and a biologically informative, though therapeutically challenging, target in liver disease.",
+   "watched": [],
+   "related": [],
+   "title_zh": "MicroRNA-122 作為肝臟疾病之調節因子與生物標記",
+   "abstract_zh": "MicroRNA-122（miR-122）是最豐富的肝臟特異性微小RNA，約佔肝臟miRNA總量的70%，是脂質代謝、發炎、纖維化、病毒複製及肝癌發生的核心調節因子。本綜述整合實驗、臨床及分子層面證據，闡述miR-122在肝臟疾病譜中的角色，涵蓋代謝功能障礙相關脂肪肝病（MAFLD）與脂肪性肝炎（MASH）、藥物誘發急性肝損傷、B型與C型肝炎病毒（HBV/HCV）感染、肝細胞癌（HCC）以及大腸直腸癌肝轉移。機轉上，miR-122透過Sirt1/LKB1/AMPK軸調控肝臟脂質生成，經由LPS/TLR-4/FoxO3訊號路徑調節發炎反應，並透過Cyclin G1/p53、HO-1、NDRG3、GALNT10、PEG10及NEGR1發揮抑癌與抗病毒作用。一個反覆出現的主題是miR-122在不同腔室及疾病階段的行為差異：肝臟表現隨疾病進展而下降，而循環中濃度則隨肝細胞損傷而上升，此發現調和了看似矛盾的報告，並強調檢體來源與疾病階段在生物標記詮釋上的重要性。本文進一步對比HBV與HCV相關疾病中miR-122的病因特異性調控，其中表觀遺傳沉默與干擾素相關機轉驅動了不同的表現模式。最後，本文批判性地檢討抗miR-122治療藥物（miravirsen、RG-101）臨床轉譯失敗的原因，包括病毒抗藥性、安全性問題，以及抑癌矛盾（tumor-suppressor paradox）限制了以抑制為基礎的策略。總體而言，miR-122是一個微創的生物標記，也是一個生物學上具啟發性、但治療上具挑戰性的肝臟疾病治療靶點。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純分子機轉綜述，非臨床試驗或介入性研究，對大腸直腸外科臨床決策無直接可操作性，僅供背景知識參考。",
+   "relevance": "低度相關",
+   "relevance_why": "全篇聚焦肝臟疾病分子機轉與生物標記，大腸直腸癌肝轉移僅為附帶提及，非外科介入研究。",
+   "novelty": "仍屬早期",
+   "one_liner": "本綜述整理miR-122在肝臟疾病（含MAFLD、病毒性肝炎、HCC、大腸直腸癌肝轉移）中的分子機轉與生物標記角色，並檢討抗miR-122療法臨床失敗原因。",
+   "action": "目前不需改變做法；此為基礎分子機轉綜述，無具體臨床試驗數據可直接應用於大腸直腸癌肝轉移病人處置。",
+   "pico": {
+    "P": "無特定病人族群（綜述性文章，涵蓋多種肝臟疾病）",
+    "I": "無單一介入；探討miR-122作為調節因子及生物標記",
+    "C": "無對照組",
+    "O": "miR-122在肝臟疾病中的機轉角色與臨床生物標記／治療靶點潛力"
+   },
+   "effects": [],
+   "key_numbers": [
+    "miR-122佔肝臟miRNA總量約70%，為肝臟特異性最高的microRNA",
+    "抗miR-122藥物miravirsen、RG-101臨床轉譯失敗，因病毒抗藥性與安全性問題",
+    "肝臟表現量隨疾病進展下降，但循環濃度隨肝損傷上升，兩者呈相反趨勢"
+   ],
+   "cautions": [
+    "純綜述文章，無原始臨床試驗數據，結論多為機轉推論而非因果證據",
+    "大腸直腸癌肝轉移僅為附帶提及主題之一，非文章核心，臨床應用性存疑",
+    "摘要未提供任何具體研究之樣本數、效果量或統計檢定，無法評估證據強度"
+   ],
+   "unassessable": [
+    "盲法",
+    "allocation concealment",
+    "ITT",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本分析",
+    "原始研究之樣本數與統計方法"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-09-21T07:59:36+08:00"
+  },
+  {
+   "pmid": "42762400",
+   "title": "Rethinking Restrictive Diets in IBD: Toward an Inclusion-Focused Nutritional Paradigm",
+   "journal": "Curr Gastroenterol Rep",
+   "journal_full": "Current gastroenterology reports",
+   "issn": "1534-312X",
+   "issn_linking": "1522-8037",
+   "impact_factor": 4.1,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Sep",
+   "doi": "10.1093/ecco-jcc/jjx071",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Cunha B, Alter A, Berschback M, Park S, Gold S, Schneider Y",
+   "abstract": "PURPOSE OF REVIEW: Patient-initiated elimination diets are widely adopted by those with inflammatory bowel disease (IBD), yet the evidence supporting their long-term use remains limited and their risks are increasingly recognized. Some common elimination diets utilized by patients include the specific carbohydrate diet (SCD), low-FODMAP diet, and gluten-free and dairy-free diets. This narrative review critically examines the role of self-initiated restrictive dietary strategies in IBD management, evaluating the evidence for and against common elimination-based approaches, and contrasts these with emerging data supporting more inclusive dietary patterns.\nRECENT FINDINGS: Sustained elimination diets carry meaningful risks: malnutrition, micronutrient deficiency, sarcopenia, gut microbial dysbiosis, food anxiety, and avoidant/restrictive food intake disorder (ARFID). Current evidence demonstrates that the Mediterranean diet performs comparably to more restrictive approaches in inducing symptomatic remission, and generally is not associated with adverse nutritional and psychosocial consequences. Contemporary recommendations from several gastrointestinal societies discourage long-term elimination diets and favor inclusive, nutritionally adequate patterns, particularly the Mediterranean diet, as a preferred dietary framework for most patients with IBD, though supporting evidence remains largely observational and randomized controlled trial data are limited. We propose a paradigm shift from dietary exclusion toward inclusion, diversity, and nutritional adequacy, with registered dietitians as essential partners in IBD care. When elimination is clinically indicated, it should be time-limited, goal-directed, and followed by structured food reintroduction. Moving beyond restriction represents not a retreat from dietary focus, but its maturation, aligning nutritional guidance with the principles of patient-centered, evidence-based disease management.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42363489",
+     "date": "2026-06-27",
+     "title_zh": "緩解期發炎性腸道疾病患者迴避/侵入性攝食障礙（ARFID）之潛在剖面分析：橫斷面研究",
+     "score": 3,
+     "one_liner": "在239名緩解期IBD患者中，以潛在剖面分析區分ARFID風險，發現58.2%屬高風險組，與就業狀況、飲食生活品質、腸胃焦慮相關。",
+     "sim": 0.192
+    },
+    {
+     "pmid": "42451156",
+     "date": "2026-07-16",
+     "title_zh": "DASH飲食、地中海飲食與植物性飲食對女性癌症風險之影響：based on飲食品質指標之敘述性回顧",
+     "score": 2,
+     "one_liner": "本綜述整理DASH、地中海、植物性飲食指標與女性乳癌、大腸直腸癌、卵巢癌風險之關聯，大腸直腸癌與DASH/地中海飲食呈一致負相關。",
+     "sim": 0.176
+    },
+    {
+     "pmid": "42451156",
+     "date": "2026-07-17",
+     "title_zh": "DASH飲食、地中海飲食與植物性飲食對女性癌症風險之影響：based on飲食品質指標之敘述性回顧",
+     "score": 2,
+     "one_liner": "本綜述整理DASH、地中海、植物性飲食指標與女性乳癌、大腸直腸癌、卵巢癌風險之關聯，大腸直腸癌與DASH/地中海飲食呈一致負相關。",
+     "sim": 0.176
+    }
+   ],
+   "title_zh": "重新思考IBD的限制性飲食：邁向以「納入」為核心的營養新模式",
+   "abstract_zh": "綜述目的：發炎性腸道疾病（IBD）患者廣泛採用患者自發性的排除飲食法，然而支持其長期使用的證據有限，其風險也日益受到重視。患者常用的排除飲食包括特定碳水化合物飲食（SCD）、低FODMAP飲食，以及無麩質、無乳製品飲食。本敘述性回顧批判性檢視患者自發限制性飲食策略在IBD管理中的角色，評估支持與反對常見排除性飲食法的證據，並將其與新興支持更具包容性飲食模式的資料進行對比。\n\n近期發現：持續性排除飲食帶來實質風險：營養不良、微量營養素缺乏、肌少症、腸道微生物菌群失衡、食物焦慮，以及迴避性/侵入性攝食障礙（ARFID）。目前證據顯示，地中海飲食在誘導症狀緩解方面表現與更具限制性的方法相當，且通常不伴隨不良的營養與心理社會後果。多個消化系醫學會的當代建議不鼓勵長期採用排除飲食，而傾向於支持包容性、營養充足的飲食模式，特別是地中海飲食，作為大多數IBD患者的優先飲食框架，儘管支持證據仍以觀察性研究為主，隨機對照試驗資料有限。我們提出從飲食排除轉向納入、多樣性與營養充足性的典範轉移，並主張註冊營養師應是IBD照護中不可或缺的夥伴。當臨床上確有排除飲食之需要時，應設定時限、以目標為導向，並隨後進行結構化的食物重新引入。超越限制性飲食不代表放棄對飲食的重視，而是其成熟化，使營養指導與以患者為中心、實證為基礎的疾病管理原則相符。",
+   "evidence_level": "綜述",
+   "score": 3,
+   "score_reason": "屬敘述性綜述、非系統性彙整，證據多為觀察性研究，且主題為IBD內科營養管理，與大腸直腸外科臨床決策關聯度低。",
+   "relevance": "低度相關",
+   "relevance_why": "本文聚焦IBD患者的飲食排除策略與營養管理，屬消化內科／營養介入範疇，非外科手術或圍術期處置議題。",
+   "novelty": "仍屬早期",
+   "one_liner": "本篇敘述性綜述整理IBD限制性飲食（SCD、低FODMAP等）之風險，並提出以地中海飲食為主的包容性營養模式取代長期排除飲食。",
+   "action": "目前不需改變外科做法；可轉知營養師/胃腸內科團隊，作為IBD病人術前術後飲食諮詢的參考資訊。",
+   "pico": {
+    "P": "發炎性腸道疾病（IBD）患者（無特定人數，屬綜述非單一研究）",
+    "I": "地中海飲食等包容性飲食模式",
+    "C": "SCD、低FODMAP、無麩質/無乳製品等排除性飲食",
+    "O": "主要：症狀緩解、營養狀態、心理社會影響（食物焦慮、ARFID）；次要：腸道菌群變化"
+   },
+   "effects": [],
+   "key_numbers": [
+    "地中海飲食誘導症狀緩解效果與限制性飲食「相當」，但摘要未提供具體數值",
+    "支持證據主要為觀察性研究，隨機對照試驗資料有限（摘要明確聲明）",
+    "排除飲食風險包括營養不良、肌少症、菌群失衡、ARFID，但無量化發生率數據"
+   ],
+   "cautions": [
+    "敘述性綜述非系統性回顧，未說明文獻選取方法，可能存在作者選擇性引用偏誤",
+    "核心論點（地中海飲食優於排除飲食）主要基於觀察性研究，因果推論證據力不足",
+    "摘要無任何量化比較數字（無事件數、無風險比），無法評估效應量大小"
+   ],
+   "unassessable": [
+    "文獻搜尋方法",
+    "納入研究品質評估",
+    "利益衝突",
+    "特定飲食間量化比較數據"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "本文提及限制性飲食與ARFID風險之關聯，與前作【IBD患者ARFID潛在剖面分析】呼應，補充了ARFID風險背後的飲食行為機制與臨床因應建議（時限化、結構化再引入）。",
+   "added_at": "2026-09-21T07:59:36+08:00"
+  },
+  {
+   "pmid": "42761260",
+   "title": "Chronic hepatitis B and perioperative chemotherapy efficacy in colorectal liver metastases: an exploratory analysis of clinical and mechanistic evidence",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1093/cid/cix1118",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Cheng C, Tong S, Mo S, Cai S, Peng J, Hu X",
+   "abstract": "BACKGROUND: The optimal choice of chemotherapy regimen for resectable colorectal liver metastases (CRLM) is still undetermined. The study aimed to estimate the impact of perioperative or adjuvant chemotherapy on disease-free survival (DFS), and explore the underlying mechanisms which influence chemotherapy efficacy.\nMETHODS: Eight hundred twenty-two patients undergoing curative resection of CRLM were retrospectively collected from May 2018 to December 2023. Treatment effects between perioperative and adjuvant chemotherapy were compared in full subgroup analyses by Kaplan-Meier and Cox proportional hazards methods. Single-cell RNA sequencing and tumor derived organoids were used to explore the molecular mechanisms.\nRESULTS: After propensity score matching, 630 patients were enrolled with ratio 1:1 in adjuvant and perioperative chemotherapy group. The median DFS in adjuvant and perioperative group was comparable with 28 and 32.5 months, respectively (HR = 0.99, P = 0.945). Perioperative chemotherapy was associated with improved DFS (25 vs. 13 months, P = 0.039) in patients with a clinical risk score (CRS) of 5. Notably, within the high-risk CRS 4-5 population receiving perioperative chemotherapy, patients with chronic hepatitis B (CHB) had significantly worse DFS (HR = 4.31, 95% CI 1.93-9.64; P < 0.001). Single-cell analyses revealed TSPAN8+ stem-like epithelial cells were enriched in sample with CHB. TSPAN8 knockdown sensitized colorectal cancer cells to 5-fluorouracil, and anti-TSPAN8 antibody showed synergistic efficacy with 5-fluorouracil in patient-derived liver metastasis organoids. In addition, the enhanced SPP1-CD44 signaling between TSPAN8+ epithelial cells and SPP1+ macrophages also contributed to 5-fluorouracil resistance.\nCONCLUSIONS: Higher CRS identify a subgroup of CRLM patients who may derive greater benefit from perioperative chemotherapy. HBV-related serological profiles is a potential predictor of chemotherapy resistance. The exploratory findings warrants further validation.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42470074",
+     "date": "2026-07-20",
+     "title_zh": "圍術期預後營養指數(PNI)動態變化預測大腸直腸癌肝轉移切除術後之復發與存活",
+     "score": 5,
+     "one_liner": "在108名CRLM肝切除病人中，比較術後PNI較術前下降(低組)與未下降(高組)，發現低組復發HR 3.788、死亡HR 4.484。",
+     "sim": 0.201
+    },
+    {
+     "pmid": "42379715",
+     "date": "2026-07-01",
+     "title_zh": "法國大腸直腸癌肝轉移根治性切除病患之循環腫瘤DNA研究：GERCOR G-118 CLIMES PRODIGE 77前瞻性多中心世代研究計畫書",
+     "score": 3,
+     "one_liner": "在232名接受CRLM根治性切除病患中，將評估術前ctDNA狀態與DFS之關聯性——此為研究計畫書，尚無結果數據。",
+     "sim": 0.16
+    },
+    {
+     "pmid": "42500682",
+     "date": "2026-07-26",
+     "title_zh": "大腸直腸癌肝轉移：機制與治療",
+     "score": 2,
+     "one_liner": "本文綜述CRLM的免疫耐受微環境機制、現行治療選項與新興策略，未提供原創臨床療效數據。",
+     "sim": 0.157
+    }
+   ],
+   "title_zh": "慢性B型肝炎與大腸直腸癌肝轉移圍術期化療療效：臨床與機轉之探索性分析",
+   "abstract_zh": "背景：可切除大腸直腸癌肝轉移(CRLM)的最佳化療方案選擇仍未確定。本研究旨在評估圍術期或輔助化療對無病存活(DFS)之影響，並探討影響化療療效的潛在機轉。方法：回溯性收集2018年5月至2023年12月間接受CRLM根治性切除之822名病患。以Kaplan-Meier法及Cox比例風險模型進行完整亞群分析，比較圍術期化療與輔助化療之治療效果。並運用單細胞RNA測序及腫瘤來源類器官探討分子機轉。結果：經傾向分數配對後，共630名病患以1:1比例納入輔助化療組與圍術期化療組。輔助組與圍術期組之中位DFS相當，分別為28個月與32.5個月(HR=0.99, P=0.945)。在臨床風險評分(CRS)為5之病患中，圍術期化療與DFS改善相關(25個月 vs 13個月，P=0.039)。值得注意的是，在接受圍術期化療的高風險CRS 4-5族群中，合併慢性B型肝炎(CHB)之病患DFS顯著較差(HR=4.31, 95% CI 1.93-9.64；P<0.001)。單細胞分析顯示TSPAN8+幹細胞樣上皮細胞在CHB樣本中富集。TSPAN8基因敲低可增加大腸直腸癌細胞對5-氟尿嘧啶之敏感性，且抗TSPAN8抗體在病患來源肝轉移類器官中與5-氟尿嘧啶展現協同療效。此外，TSPAN8+上皮細胞與SPP1+巨噬細胞間增強之SPP1-CD44訊號傳導亦促成5-氟尿嘧啶抗藥性。結論：較高CRS可辨識出一群可能從圍術期化療獲益更多之CRLM病患亞群。HBV相關血清學特徵可能是化療抗藥性之潛在預測因子。此探索性發現仍需進一步驗證。",
+   "evidence_level": "回溯性研究",
+   "score": 3,
+   "score_reason": "回溯性世代研究，多重事後亞群分析未校正多重比較，機轉部分僅為體外/類器官探索性證據，作者自承需進一步驗證，可信度有限。",
+   "relevance": "中度相關",
+   "relevance_why": "台灣為B型肝炎地區性流行區，CHB與化療反應之關聯值得留意，但此為早期探索性發現，尚無法直接改變臨床決策。",
+   "novelty": "仍屬早期",
+   "one_liner": "在822名(PSM後630名)CRLM根治性切除病人中，比較圍術期與輔助化療，整體DFS無差異(HR=0.99)，但高風險CRS合併CHB者化療反應明顯較差(HR=4.31)。",
+   "action": "目前不需改變常規化療選擇；可留意高CRS合併慢性B肝患者化療反應可能較差，此為探索性發現待前瞻驗證。",
+   "pico": {
+    "P": "822名接受CRLM根治性切除病人(2018/5-2023/12)，PSM後630名，1:1分輔助化療組與圍術期化療組",
+    "I": "圍術期化療",
+    "C": "輔助化療",
+    "O": "主要：無病存活(DFS)；次要：依CRS及CHB狀態之亞群DFS差異、TSPAN8/SPP1-CD44訊號與5-FU抗藥性機轉"
+   },
+   "effects": [],
+   "key_numbers": [
+    "整體DFS無差異：輔助28個月 vs 圍術期32.5個月，HR=0.99，P=0.945",
+    "CRS=5亞群：圍術期25個月 vs 13個月，P=0.039(無95% CI)",
+    "CRS4-5合併CHB者DFS顯著較差：HR=4.31 (95% CI 1.93-9.64)，P<0.001"
+   ],
+   "cautions": [
+    "CRS=5及CHB×CRS4-5均為多重事後亞群分析，未校正多重比較，易產生假陽性結果",
+    "亞群樣本量可能很小，HR估計信賴區間寬(1.93-9.64)，精確度有限",
+    "機轉研究(單細胞、類器官)僅為體外探索性證據，能否外推至臨床療效尚待驗證"
+   ],
+   "unassessable": [
+    "失訪率",
+    "利益衝突",
+    "試驗註冊",
+    "PSM後兩組基線特徵平衡細節",
+    "各亞群(CRS=5、CHB組)實際樣本數"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作——先前列出的論文分別為PNI預測CRLM復發、ctDNA研究計畫書、CRLM機轉綜述，均與本篇聚焦之圍術期化療策略及CHB相關化療抗藥性議題無直接關聯。",
+   "added_at": "2026-09-21T07:59:36+08:00"
+  },
+  {
+   "pmid": "42762153",
+   "title": "Non-Invasive Colorectal Cancer Screening Using Stool- and Blood-Based Tests: Evidence, Feasibility, and Equity Considerations",
+   "journal": "J Vis Exp",
+   "journal_full": "Journal of visualized experiments : JoVE",
+   "issn": "1940-087X",
+   "issn_linking": "1940-087X",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Sep",
+   "doi": "10.3791/70478",
+   "ptype": "Video-Audio Media, Review",
+   "ptype_list": [
+    "Video-Audio Media",
+    "Review"
+   ],
+   "authors": "Wang H, Chen R, Ying Y, Shi J, Wang M",
+   "abstract": "Colorectal cancer (CRC) remains a major cause of cancer incidence and mortality worldwide. Because colonoscopy is resource-intensive and participation is incomplete, non-invasive screening tests are central to population-level prevention. This review synthesizes recent evidence on fecal immunochemical testing (FIT), multi-omics stool DNA-FIT (mt-sDNA-FIT), multi-omics stool RNA-FIT (mt-sRNA-FIT), and blood-based assays, with emphasis on screening of asymptomatic individuals at average risk, the distinction between cancer detection and advanced precancerous lesion detection, and the operational requirements needed to translate test performance into public health benefit. FIT remains the most scalable first-line option in many programs because it is inexpensive, repeatable, and supported by evidence from organized screening. Its performance depends on hemoglobin threshold, sampling and handling, lesion biology, repeated adherence, and colonoscopy completion after a positive result. Molecular stool assays generally improve single-application sensitivity for CRC and advanced precancerous lesions but reduce specificity and increase costs and demand for colonoscopy. Blood-based assays may improve acceptability among people who decline stool testing or colonoscopy; however, current evidence indicates reduced detection of advanced precancerous lesions, limiting their preventive value when used as direct replacements for stool-based strategies. Implementation barriers occur across the screening pathway, including invitation, test access, sample return, laboratory processing, result communication, diagnostic colonoscopy, pathology, treatment access, and registry tracking. Future progress should prioritize risk-adapted screening, validated molecular and multiomics biomarkers, and artificial intelligence-assisted triage, and equitable program design. The most defensible strategy is not universal adoption of a single assay but a resource-stratified pathway that matches screening modality to population risk, patient acceptability, and system capacity.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42555038",
+     "date": "2026-08-06",
+     "title_zh": "組織化糞便免疫化學檢測（FIT）篩檢計畫實施後之大腸直腸癌死亡率",
+     "score": 5,
+     "one_liner": "在西班牙巴斯克地區約220萬人口（2004-2024）中，比較FIT篩檢實施前後CRC死亡率，50-69歲族群死亡率下降50.1%（39.7→19.8/10萬）。",
+     "sim": 0.203
+    },
+    {
+     "pmid": "42425152",
+     "date": "2026-07-10",
+     "title_zh": "多標靶糞便DNA檢測與糞便免疫化學檢測之比較：以種族與族裔分層之全國性後續大腸鏡追蹤評估",
+     "score": 4,
+     "one_liner": "在362,646名美國陽性糞便篩檢受試者中，比較mt-sDNA與FIT/FOBT，發現後續大腸鏡依從性77.1% vs 45.1%，各種族皆同。",
+     "sim": 0.201
+    },
+    {
+     "pmid": "42425152",
+     "date": "2026-07-12",
+     "title_zh": "多標靶糞便DNA檢測與糞便免疫化學檢測之比較：以種族與族裔分層之全國性後續大腸鏡追蹤評估",
+     "score": 4,
+     "one_liner": "在362,646名美國陽性糞便篩檢受試者中，比較mt-sDNA與FIT/FOBT，發現後續大腸鏡依從性77.1% vs 45.1%，各種族皆同。",
+     "sim": 0.201
+    }
+   ],
+   "title_zh": "使用糞便與血液檢測進行非侵入性大腸直腸癌篩檢：證據、可行性與公平性考量",
+   "abstract_zh": "大腸直腸癌（CRC）仍是全球癌症發生率與死亡率的主要原因。由於大腸鏡耗費資源且參與率不完全，非侵入性篩檢檢測對於群體層級的預防至關重要。本綜述整合近期關於糞便免疫化學檢測（FIT）、多體學糞便DNA-FIT（mt-sDNA-FIT）、多體學糞便RNA-FIT（mt-sRNA-FIT）以及血液檢測的證據，重點放在平均風險無症狀個體的篩檢、癌症偵測與進行性癌前病變偵測之間的區分，以及將檢測表現轉化為公共衛生效益所需的操作要求。FIT在許多篩檢計畫中仍是最具擴展性的第一線選項，因其便宜、可重複，且有組織化篩檢的證據支持。其表現取決於血紅素閾值、採樣與處理、病灶生物學特性、重複性配合度，以及陽性結果後的大腸鏡完成率。分子糞便檢測通常能提升單次應用對CRC與進行性癌前病變的敏感度，但會降低特異度並增加成本與大腸鏡需求。血液檢測可能提升拒絕糞便檢測或大腸鏡者的接受度；然而現有證據顯示其對進行性癌前病變的偵測能力較低，若作為糞便策略的直接替代方案，將限制其預防價值。實施障礙貫穿整個篩檢路徑，包括邀請、檢測可及性、樣本返回、實驗室處理、結果溝通、診斷性大腸鏡、病理、治療可及性以及登記追蹤。未來進展應優先發展風險調整式篩檢、經驗證之分子與多體學生物標記，以及人工智慧輔助分級，並著重公平性計畫設計。最具說服力的策略並非普遍採用單一檢測，而是資源分層路徑，將篩檢模式與人群風險、病人接受度及系統容量相匹配。",
+   "evidence_level": "綜述",
+   "score": 3,
+   "score_reason": "為敘述性綜述，無系統性搜尋方法描述、無具體量化數據，僅整合既有觀點，可信度與臨床直接可操作性有限。",
+   "relevance": "中度相關",
+   "relevance_why": "篩檢策略影響病人分期與轉介來源，但非直接外科介入，對日常手術決策無立即影響。",
+   "novelty": "再確認已知",
+   "one_liner": "本綜述比較FIT、分子糞便檢測（mt-sDNA/RNA-FIT）與血液檢測於CRC篩檢之敏感度、特異度與可行性取捨，未提供具體數據。",
+   "action": "目前不需改變臨床做法；可作為與消化內科／篩檢團隊溝通篩檢策略趨勢的參考資料。",
+   "pico": {
+    "P": "無症狀、平均風險之大腸直腸癌篩檢族群（敘述性文獻整合，非特定研究人數）",
+    "I": "分子糞便檢測（mt-sDNA-FIT、mt-sRNA-FIT）與血液檢測",
+    "C": "傳統糞便免疫化學檢測（FIT）",
+    "O": "主要：CRC與進行性癌前病變偵測率；次要：可行性、成本、公平性、大腸鏡完成率"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供任何具體百分比、p值或信賴區間，全為敘述性質性結論",
+    "分子糞便檢測：敏感度提升但特異度下降，增加大腸鏡需求量（無數字）",
+    "血液檢測：對進行性癌前病變偵測力較低，限制其預防價值（無數字）"
+   ],
+   "cautions": [
+    "為敘述性綜述，摘要未描述系統性搜尋方法或文獻篩選標準，可能有選擇性引用偏誤",
+    "全文無任何量化數據支持結論，讀者需自行查證原始研究之絕對數字",
+    "JoVE為影音教學期刊，此類證據整合文章之嚴謹度與傳統系統性回顧不同，需謹慎解讀其權威性"
+   ],
+   "unassessable": [
+    "文獻搜尋策略",
+    "納入排除標準",
+    "文獻品質評估方法",
+    "利益衝突",
+    "經費來源",
+    "成本效益分析細節"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "本文為綜述，整合了FIT篩檢死亡率效益（前作1）與mt-sDNA vs FIT依從性比較（前作2、3）等主題，提供更全面的篩檢策略框架，但未新增原始數據，僅做概念性整合。",
+   "added_at": "2026-09-21T07:59:36+08:00"
+  },
+  {
+   "pmid": "42762145",
+   "title": "Biopolymeric Approaches for Colon Cancer Treatment: A Comprehensive Review of Polysaccharide-based Delivery Systems",
+   "journal": "J Vis Exp",
+   "journal_full": "Journal of visualized experiments : JoVE",
+   "issn": "1940-087X",
+   "issn_linking": "1940-087X",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Sep",
+   "doi": "10.3791/70872",
+   "ptype": "Video-Audio Media, Review",
+   "ptype_list": [
+    "Video-Audio Media",
+    "Review"
+   ],
+   "authors": "Yi T, Kumar P, Karwasra R, Sharma N, Behare M, Linkang X",
+   "abstract": "Globally, colon cancer remains one of the leading causes of mortality. Multidrug resistance, systemic toxicity, and poor tumor selectivity significantly limit conventional chemotherapy. This review highlights the need for localized therapy to increase efficacy and minimize systemic side effects. Colon-targeted drug delivery systems (CDDS) are designed and developed to overcome these challenges. Both natural and synthetic polysaccharides act as carriers in CDDS because of their biodegradability, biocompatibility, pH- and enzyme-responsiveness, and mucoadhesive properties. Polysaccharides such as chitosan, dextran, pectin, alginate, and hyaluronic acid have been formulated into nanoparticles, microparticles, and hydrogels, enabling controlled and site-specific delivery. These carriers deliver chemotherapeutics, nucleic acids, and immunotherapeutics, as well as theranostic agents that combine imaging and therapy. Preclinical evidence demonstrates significant translational potential for polysaccharide-based CDDS. However, clinical trials remain limited, which highlights the gap between laboratory findings and clinical applications. Major challenges in colon-targeted drug delivery include variability in polysaccharide sources and quality, difficulties in large-scale manufacturing, and regulatory challenges. Addressing these challenges will be essential to move towards commercialization and clinical adoption. Personalized therapy through microbiome profiling, integration with nanotechnology and bioinformatics, and smart, biosensor-responsive carriers will be the focus going forward. Polysaccharide-based CDDS provide safer, more effective, and more personalized treatment with continued research to optimize delivery and overcome existing limitations.",
+   "watched": [],
+   "related": [],
+   "title_zh": "大腸癌治療的生物聚合物方法：多醣類藥物傳遞系統之全面性回顧",
+   "abstract_zh": "大腸癌在全球仍是主要死因之一。多重抗藥性、全身毒性及腫瘤選擇性不佳，明顯限制了傳統化療的效果。本篇綜述強調需要局部治療以提升療效並降低全身性副作用。大腸靶向藥物傳遞系統（CDDS）即為克服這些挑戰而設計開發。天然與合成多醣類因具生物可分解性、生物相容性、pH與酵素反應性及黏膜黏附特性，可作為CDDS的載體。殼聚糖、右旋糖苷、果膠、海藻酸與玻尿酸等多醣類已被製成奈米粒子、微粒子及水凝膠，可達到控制釋放與位置特異性傳遞。這些載體可傳遞化療藥物、核酸、免疫治療劑，以及結合影像與治療的診療劍（theranostic agents）。前臨床證據顯示多醣類CDDS具有顯著的轉譯潛力，然而臨床試驗仍相當有限，凸顯實驗室發現與臨床應用之間的落差。大腸靶向藥物傳遞的主要挑戰包括多醣來源與品質的變異性、大規模製造的困難，以及法規挑戰。解決這些挑戰對於邁向商業化與臨床採用至關重要。未來重點方向包括透過微生物體分析進行個人化治療、與奈米科技及生物資訊學整合，以及智能、生物感測器反應型載體。多醣類CDDS透過持續研究以優化傳遞並克服現有限制，可提供更安全、更有效且更個人化的治療。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純屬藥物傳遞系統的前臨床材料科學綜述，無任何臨床或病人數據，對日常大腸直腸外科臨床決策幾無實用性。",
+   "relevance": "低度相關",
+   "relevance_why": "內容為奈米/多醣藥物載體之基礎與轉譯前研究，非外科介入，且臨床試驗尚未成熟，與日常手術或臨床照護決策無直接關聯。",
+   "novelty": "仍屬早期",
+   "one_liner": "本綜述整理多醣類（殼聚糖、果膠、海藻酸等）大腸靶向藥物傳遞系統之前臨床進展，指出臨床試驗證據仍有限。",
+   "action": "目前不需改變做法；此為前臨床藥物傳遞平台綜述，無病人數據或臨床試驗結果可供臨床應用參考。",
+   "pico": {
+    "P": "無特定病人族群（綜述文章，非臨床研究）",
+    "I": "多醣類（殼聚糖、右旋糖苷、果膠、海藻酸、玻尿酸）製成之大腸靶向奈米/微粒子/水凝膠藥物傳遞系統",
+    "C": "無對照組",
+    "O": "主要為描述性：藥物傳遞系統特性與轉譯潛力；未提供具體療效或安全性數據"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供任何具體療效、毒性或臨床試驗數字",
+    "作者明確指出「臨床試驗仍相當有限」，證據仍停留在前臨床階段",
+    "無量化之腫瘤反應率、存活率或副作用發生率可供引用"
+   ],
+   "cautions": [
+    "全文為前臨床/材料科學層面綜述，缺乏人體臨床試驗數據，不可直接推論至臨床療效",
+    "屬敘述性綜述而非系統性回顧，選文標準與偏誤風險不明",
+    "文章可能誇大轉譯潛力（'significant translational potential'），但摘要中無具體數據支持此論述"
+   ],
+   "unassessable": [
+    "研究方法（納入文獻標準）",
+    "利益衝突",
+    "資金來源",
+    "同儕審查嚴謹度",
+    "是否有系統性文獻搜尋策略"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-09-21T07:59:36+08:00"
+  }
+ ]
+}
