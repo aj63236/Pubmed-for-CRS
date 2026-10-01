@@ -1,6 +1,6 @@
 {
  "date": "2026-09-30",
- "generated_at": "2026-09-30T09:55:24+08:00",
+ "generated_at": "2026-10-01T09:09:42+08:00",
  "count": 10,
  "papers": [
   {
@@ -32,7 +32,44 @@
      "sim": 0.162
     }
    ],
-   "added_at": "2026-09-30T09:10:02+08:00"
+   "title_zh": "有氧運動對大腸直腸癌存活者循環T細胞與NK細胞的影響：一項隨機試驗之次分析",
+   "abstract_zh": "前言：有氧運動可改善大腸直腸癌患者的無病存活與整體存活。本研究檢驗一項假說：此存活益處的關鍵機轉，與運動誘發之發炎與免疫改善有關。方法：本試驗將60名第I-III期大腸直腸癌存活者隨機分配至12週居家有氧運動組或對照組。終點包括以珠粒式磁性免疫檢測法測量的血漿sCD30、sGP130、IL-1β、IL-2，以及以流式細胞儀量化的循環T細胞亞群（CD4+與CD8+之naïve、中央記憶、效應記憶、終末分化效應記憶TEMRA）與NK細胞亞群比例。結果：運動訓練使sCD30降低[-153.1 pg/mL（95% CI: -249.5, -56.7）；p=0.014]，但相較對照組並未降低sGP130、IL-1β或IL-2。運動訓練使靜止態NKG2D-/NKG2C+ NK細胞比例增加[2.75%（95% CI: 0.34, 5.15）；p=0.03]，以及CD56+bright KLRG1-/NKG2C+ NK細胞比例增加[4.46%（95% CI: 1.32, 7.60）；p=0.006]，相較對照組。在對照組中，sCD30與naive CD8+ T細胞呈負相關[r=-0.51（95% CI: -0.82, 0.03）；p=0.04]，而sGP130[r=0.46（95% CI: -0.09, 0.72）；p=0.01]與IL-2與CD8+ TEMRA頻率呈正相關[r=0.50（95% CI: 0.06, 0.78）；p=0.02]；這些關聯在運動組中未達統計顯著。結論：在這項隨機試驗的次要、探索性分析中，有氧運動重塑了大腸直腸癌存活者發炎-免疫軸的部分面向。這些發現有助於精進我們對運動如何改善大腸癌存活者無病存活與整體存活之生物機轉的理解。",
+   "evidence_level": "RCT",
+   "score": 3,
+   "score_reason": "小樣本（n=60）之探索性次分析，終點為免疫標記而非臨床結果，對外科臨床決策幾無直接應用價值。",
+   "relevance": "低度相關",
+   "relevance_why": "此為運動介入之免疫機轉研究，非外科手術相關，且終點為替代生物標記而非臨床結果。",
+   "novelty": "仍屬早期",
+   "one_liner": "在60名第I-III期大腸直腸癌存活者中，比較12週有氧運動與對照，運動使sCD30下降153.1 pg/mL且NK細胞亞群增加2.75-4.46%。",
+   "action": "目前不需改變外科做法；此為運動機轉之免疫標記探索性研究，非臨床結果，僅供機轉研究參考。",
+   "pico": {
+    "P": "60名第I-III期大腸直腸癌存活者",
+    "I": "12週居家有氧運動",
+    "C": "常規照護（對照組）",
+    "O": "主要：血漿發炎標記（sCD30、sGP130、IL-1β、IL-2）與循環T細胞/NK細胞亞群比例；次要：標記與細胞亞群之相關性"
+   },
+   "effects": [],
+   "key_numbers": [
+    "sCD30降低153.1 pg/mL（95% CI -249.5至-56.7，p=0.014）",
+    "NKG2D-/NKG2C+ NK細胞增加2.75%（95% CI 0.34-5.15，p=0.03）",
+    "sGP130、IL-1β、IL-2無顯著改變（相較對照組）"
+   ],
+   "cautions": [
+    "終點為生物標記/替代指標，非存活、復發等臨床結果，不能直接推論存活益處",
+    "樣本量僅60人，為次要探索性分析，多重比較未見校正，多數CI寬且貼近0",
+    "標記與T細胞相關性為觀察性關聯，非因果證據，且僅在對照組達顯著"
+   ],
+   "unassessable": [
+    "分派隱藏",
+    "盲法",
+    "ITT分析",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。前述PHYSSURG-C為不同運動介入試驗，探討術後認知與日常活動功能，與本篇之免疫機轉終點及族群設計不同，無直接關聯。",
+   "added_at": "2026-10-01T09:09:42+08:00"
   },
   {
    "pmid": "42809127",
@@ -81,7 +118,43 @@
      "sim": 0.197
     }
    ],
-   "added_at": "2026-09-30T09:10:02+08:00"
+   "title_zh": "皮下注射Infliximab作為兒童及青少年發炎性腸道疾病維持治療：系統性回顧與統合分析",
+   "abstract_zh": "未標示：皮下注射Infliximab目前僅核准用於成人發炎性腸道疾病之維持治療，兒童相關證據僅來自小型世代研究，且從未被統合分析。本研究旨在評估皮下注射Infliximab作為兒童及青少年發炎性腸道疾病維持治療之療效、藥物動力學、免疫原性與安全性。我們檢索MEDLINE、Embase、Web of Science、CENTRAL及試驗註冊資料庫，自資料庫建立至2026年7月12日。納入條件為至少5名18歲以下兒童，接受皮下注射Infliximab治療（由靜脈注射轉換或直接起始）之觀察性世代研究與病例系列。單臂比例以隨機效應模型合併分析。共納入5個世代研究（162名兒童；113名[70%]克隆氏症、45名[28%]潰瘍性大腸炎、4名[2%]未分類）。中位追蹤時間約6個月（範圍12週至12個月），治療持續率為89.8%（95% CI 72.6-99.0），最接近6個月時間點之臨床緩解率為90.2%（61.3-100）。轉換後血清Infliximab濃度大約倍增（合併平均值由11.4增至21.9 µg/mL），新產生抗藥物抗體者罕見（0.7%）。臨床復發發生率為4.8%，嚴重不良事件為1.5%，注射部位反應為11.0%。證據確定性為低至極低。\n\n結論：在兒童發炎性腸道疾病患者中，由靜脈轉換為皮下注射Infliximab後，能維持臨床緩解並持續藥物暴露，中斷治療率低且安全性可接受。由於幾乎所有兒童都是在緩解期進行轉換，這些資料並不能證明直接起始皮下注射可誘導緩解，此點需前瞻性研究確認。\n\n研究計畫註冊：PROSPERO CRD420261469356（2026年8月4日註冊）。\n\n已知資訊：皮下注射Infliximab可維持穩定藥物暴露，目前僅核准用於成人發炎性腸道疾病之維持治療；兒童使用為仿單外用法，證據僅來自小型單中心世代研究。\n\n新知：此為首篇限定於兒童族群之統合分析（5個世代研究，162名患者），治療持續率與臨床緩解率皆接近90%，轉換後血清濃度大約倍增，嚴重不良事件罕見。",
+   "evidence_level": "統合分析",
+   "score": 2,
+   "score_reason": "證據等級低至極低、單臂無對照組、樣本小（162人）且非手術族群，與大腸直腸外科臨床決策無直接關聯。",
+   "relevance": "低度相關",
+   "relevance_why": "此為兒童IBD藥物治療（皮下注射Infliximab）之研究，非外科介入，與大腸直腸外科手術決策無關。",
+   "novelty": "仍屬早期",
+   "one_liner": "在162名兒童IBD病人中，評估由靜脈轉為皮下注射Infliximab之維持治療，發現治療持續率89.8%、臨床緩解率90.2%（單臂無對照組）。",
+   "action": "目前不需改變做法：此為兒童內科IBD藥物治療研究，非大腸直腸外科手術相關議題。",
+   "pico": {
+    "P": "162名兒童及青少年發炎性腸道疾病患者（113名克隆氏症、45名潰瘍性大腸炎、4名未分類）",
+    "I": "皮下注射Infliximab（由靜脈注射轉換或直接起始）",
+    "C": "無對照組（單臂統合分析）",
+    "O": "主要outcome：治療持續率、臨床緩解率；次要outcome：血清藥物濃度、抗藥物抗體產生率、臨床復發率、嚴重不良事件、注射部位反應"
+   },
+   "effects": [],
+   "key_numbers": [
+    "治療持續率89.8%（95% CI 72.6-99.0），臨床緩解率90.2%（61.3-100）",
+    "血清Infliximab濃度轉換後倍增，由11.4增至21.9 µg/mL",
+    "臨床復發4.8%，嚴重不良事件1.5%，注射部位反應11.0%"
+   ],
+   "cautions": [
+    "單臂無對照組，無法確立因果關係或與靜脈注射比較之相對效果",
+    "幾乎所有兒童在緩解期才轉換用藥，結果無法外推至直接起始治療能否誘導緩解",
+    "證據確定性為低至極低，樣本僅162人、追蹤時間短且異質（12週至12個月）"
+   ],
+   "unassessable": [
+    "盲法",
+    "allocation concealment",
+    "ITT分析",
+    "失訪率",
+    "利益衝突"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。先前看過的論文為兒童IBD使用不同生物製劑（infliximab vs adalimumab）之感染風險比較及upadacitinib治療研究，主題與本篇（皮下注射劑型轉換之藥物動力學與療效）不同，無直接關聯。",
+   "added_at": "2026-10-01T09:09:42+08:00"
   },
   {
    "pmid": "42803779",
@@ -128,7 +201,44 @@
      "sim": 0.193
     }
    ],
-   "added_at": "2026-09-30T09:10:02+08:00"
+   "title_zh": "評估基於心理健康照護App之疲勞管理計畫用於緩解期發炎性腸道疾病患者：隨機對照試驗計畫書",
+   "abstract_zh": "背景：疲勞仍是影響發炎性腸道疾病（IBD）患者生活品質的主要未解決問題，即使在臨床緩解期亦然。需要可擴展的心理學方法來支持有效的疲勞管理。目的：本研究之目的為評估一項多元件行動認知行為介入套件對緩解期IBD患者疲勞管理之有效性，並探討與介入參與度及有效性相關之因素。方法：本研究為開放標籤、等候名單對照之隨機對照試驗。合格參與者為診斷克隆氏症或潰瘍性結腸炎、符合緩解標準且至少有輕度疲勞的成人（≥18歲）。參與者依疾病類型、性別及基線疲勞嚴重度以分層區塊隨機分配，比例為1:1。介入為以7週認知行為治療為核心之教育課程之多元件行動介入套件，並輔以輔助性支持訊息。主要outcome為疲勞，以Functional Assessment of Chronic Illness Therapy-Fatigue（FACIT-F）量表測量；次要outcome為自我效能，以13項Inflammatory Bowel Disease Self-Efficacy Scale Short Form（IBD-SES13）測量。所需樣本數為每組175人。結果：參與者招募自2025年7月28日開始，至2026年2月24日結束。共502名處於臨床緩解期之IBD患者同意參與並接受合格性評估。其中351人符合合格條件並完成隨機分配，另有151人（30.0%）因FACIT-F分數達40分以上而被排除。目前追蹤仍在進行中。臨床outcome數據將於追蹤完成後進行分析，結果預計於2027年投稿發表。結論：本研究可能對參與者參與度及多元件行動認知行為介入套件對IBD患者疲勞之潛在影響提供有價值的知識。研究發現將有助於未來介入方案之優化，並為大規模評估與實施工作提供參考。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "本文僅為試驗計畫書，尚無任何臨床結果數據可供判讀，且介入非外科相關，對大腸直腸外科臨床決策幾無立即參考價值。",
+   "relevance": "低度相關",
+   "relevance_why": "介入對象為緩解期IBD患者之心理健康App疲勞管理，非外科介入，亦非大腸直腸癌手術族群。",
+   "novelty": "仍屬早期",
+   "one_liner": "在351名緩解期IBD患者中，將接受行動認知行為疲勞介入與等候名單對照分組，FACIT-F結果尚未公布。",
+   "action": "目前不需改變做法，本文僅為試驗設計與招募報告，無任何臨床outcome數據。",
+   "pico": {
+    "P": "緩解期克隆氏症或潰瘍性結腸炎成人患者，符合輕度以上疲勞，351人完成隨機分配（502人評估合格性）",
+    "I": "以7週認知行為治療為核心之多元件行動介入套件，含輔助支持訊息",
+    "C": "等候名單對照（標準照護）",
+    "O": "主要：FACIT-F疲勞量表分數；次要：IBD-SES13自我效能量表分數"
+   },
+   "effects": [],
+   "key_numbers": [
+    "共502名IBD緩解期患者接受合格性評估，351人（69.9%）符合條件並隨機分配",
+    "151人（30.0%）因FACIT-F分數≥40（疲勞程度未達標準）而被排除",
+    "所需樣本數為每組175人，目前追蹤進行中，臨床結果預計2027年發表"
+   ],
+   "cautions": [
+    "本文為協定/招募報告，無任何疲勞或自我效能之臨床結果數據可供評估效果",
+    "開放標籤設計（open-label）加上等候名單對照，易受安慰劑效應及期待效應影響，缺乏盲法",
+    "對象為IBD緩解期患者而非大腸直腸癌手術病人，臨床族群與外科決策情境不同"
+   ],
+   "unassessable": [
+    "主要與次要outcome之實際數據",
+    "追蹤完成率與失訪率",
+    "ITT分析",
+    "allocation concealment細節",
+    "試驗註冊資訊",
+    "利益衝突揭露"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。先前看過之論文為大腸直腸癌手術病人之護理導航/運動介入研究，族群（IBD緩解期 vs 大腸直腸癌手術）、介入模式（行動App認知行為治療 vs 護理個案管理/運動）皆不同，不具直接關聯性。",
+   "added_at": "2026-10-01T09:09:42+08:00"
   },
   {
    "pmid": "42806446",
@@ -150,7 +260,43 @@
    "abstract": "BACKGROUND: Right-sided colon cancer (RSCC) exhibits distinct characteristics, yet specific prognostic determinants remain insufficiently defined. This multicentre retrospective study evaluated clinicopathological and surgical factors influencing survival in a real-world cohort undergoing curative resection for non-metastatic RSCC.\nMETHODS: We analysed 800 adults undergoing curative-intent resection for non-metastatic RSCC across 28 centres (2018-2024). The primary outcome was 3-year overall survival (OS). Multivariate Cox model identified prognostic factors. An exploratory, post hoc subgroup analysis evaluated the impact of complete mesocolic excision (CME) on OS, stratified by tumour anatomical subsite.\nRESULTS: The mean age was 62.8 years, and 24% required emergency surgery. CME was performed in 57.1% of patients, with baseline characteristics reflecting significant real-world selection bias against CME in complex clinical presentations. At 3 years (OS: 86%), multivariate analysis identified age (HR 1.071, 95% CI: 1.023-1.122, p = 0.004) and adjacent organ invasion (HR 3.642, 95% CI: 1.360-9.750, p = 0.010) as independent mortality predictors. Unadjusted post hoc analysis suggested CME was associated with improved OS for ascending colon and hepatic flexure tumours (p = 0.003).\nCONCLUSION: Although CME showed an exploratory site-specific survival advantage, the critical lack of molecular profiling (MSI, RAS, BRAF) prevents adjustment for major biological confounders. Consequently, these findings are strictly hypothesis-generating, highlighting real-world surgical bias and require prospective multi-institutional validation before altering standard practice.",
    "watched": [],
    "related": [],
-   "added_at": "2026-09-30T09:10:02+08:00"
+   "title_zh": "非轉移性右側大腸腺癌之預後因子：來自 ATCCR 資料庫的多中心回溯性分析",
+   "abstract_zh": "背景：右側大腸癌（RSCC）具有獨特的臨床病理特徵，但其特定預後決定因子仍未被充分定義。本多中心回溯性研究評估在真實世界世代中，接受根治性切除之非轉移性 RSCC 病人的臨床病理與手術因子對存活的影響。方法：我們分析了 2018-2024 年間、28 個中心、共 800 名接受根治性意圖切除之非轉移性 RSCC 成人病人。主要結果為 3 年整體存活率（OS）。以多變量 Cox 模型辨識預後因子。並進行一項探索性、事後（post hoc）次群組分析，依腫瘤解剖位置分層評估完整腸繫膜切除術（CME）對 OS 的影響。結果：平均年齡 62.8 歲，24% 需接受急診手術。57.1% 的病人接受了 CME，基線特徵顯示在複雜臨床表現中對 CME 有顯著的真實世界選擇偏誤。3 年時（OS：86%），多變量分析顯示年齡（HR 1.071，95% CI：1.023-1.122，p=0.004）與鄰近器官侵犯（HR 3.642，95% CI：1.360-9.750，p=0.010）為獨立的死亡預測因子。未調整的事後分析顯示，CME 與升結腸及肝曲腫瘤之較佳 OS 有關（p=0.003）。結論：雖然 CME 顯示出探索性、位置特異性的存活優勢，但缺乏分子分型（MSI、RAS、BRAF）這一關鍵限制，使得無法調整主要的生物學干擾因子。因此，這些發現嚴格上屬於產生假說性質，凸顯了真實世界的手術選擇偏誤，在改變標準臨床實務之前，需要前瞻性多機構驗證。",
+   "evidence_level": "回溯性研究",
+   "score": 4,
+   "score_reason": "多中心大樣本但為回溯性、CME分析為未調整事後次群組，且作者自己承認缺乏分子分型此關鍵干擾因子，結論不可行動化。",
+   "relevance": "高度相關",
+   "relevance_why": "右側大腸癌之CME爭議與預後因子分析為大腸直腸外科日常臨床決策核心議題。",
+   "novelty": "仍屬早期",
+   "one_liner": "在800名非轉移性右側大腸癌病人中，年齡與鄰近器官侵犯（HR 3.642）為獨立死亡預測因子；CME於升結腸/肝曲腫瘤有未調整存活優勢（p=0.003）。",
+   "action": "CME決策維持現行個案化考量，不因此篇改變手術策略；此為假說產生研究，待前瞻性驗證後再評估。",
+   "pico": {
+    "P": "800名接受根治性切除之非轉移性右側大腸腺癌成人病人（28個中心，2018-2024）",
+    "I": "完整腸繫膜切除術（CME）",
+    "C": "非CME（傳統切除）",
+    "O": "主要：3年整體存活率；次要：多變量預後因子（年齡、鄰近器官侵犯等）"
+   },
+   "effects": [],
+   "key_numbers": [
+    "整體3年OS為86%（未分組，全體800人）",
+    "鄰近器官侵犯為獨立死亡預測因子，HR 3.642（95% CI 1.360-9.750，p=0.010）",
+    "CME於升結腸/肝曲腫瘤有存活優勢，但僅p=0.003，未提供絕對存活率差異或調整後HR"
+   ],
+   "cautions": [
+    "CME次群組分析為事後（post hoc）、未調整分析，且基線已知有嚴重選擇偏誤（複雜病例較少接受CME）",
+    "缺乏分子分型（MSI、RAS、BRAF）等關鍵預後干擾因子，作者自承無法排除混淆",
+    "回溯性設計無法建立因果關係，CME存活優勢可能反映病人選擇而非手術效果本身"
+   ],
+   "unassessable": [
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "missing data處理方式",
+    "各中心手術品質與病理報告一致性"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-10-01T09:09:42+08:00"
   },
   {
    "pmid": "42803842",
@@ -198,7 +344,46 @@
      "sim": 0.243
     }
    ],
-   "added_at": "2026-09-30T09:10:02+08:00"
+   "title_zh": "新輔助放化療後直腸癌手術：機器人手術與腹腔鏡手術之比較",
+   "abstract_zh": "新輔助放化療可改善局部進行性直腸癌之局部控制，但治療相關纤維化與組織變化會限制骨盆腔內解剖，使全直腸系膜切除術（TME）技術上更具挑戰性。機器人平台可能提升靈活度與視野，但在這一特定接受過前處理的族群中，其相對於腹腔鏡的比較價值仍不明確。研究檢索PubMed、Scopus與Cochrane Library，自建庫起至2026年8月30日止。兩位審查者獨立篩選文獻、擷取資料並評估偏誤風險。納入之研究比較新輔助放化療後接受機器人與腹腔鏡直腸癌手術之病人。以隨機效應模型合併風險比（RR）與平均差（MD），並使用小樣本調整信賴區間。以中位數為基礎之摘要以既定方法轉換。非隨機研究使用ROBINS-I評估，唯一的先驅型隨機試驗使用RoB 2評估；證據確定性以GRADE判定。共納入19篇報告，代表18個獨立世代、6,538名參與者；其中15個世代納入至少一項統合分析。主要併發症（RR 1.42，95% CI 0.75–2.70；p=0.217；I²=0.0%；k=6）、次要併發症（RR 0.94，95% CI 0.51–1.74；p=0.812；I²=33.0%；k=6）、吻合口滲漏（RR 0.82，95% CI 0.54–1.24；p=0.311；I²=0.0%；k=11）及住院天數（MD -1.29，95% CI -3.18–0.60；p=0.163；I²=88.2%；k=13）皆無明顯差異。機器人手術降低轉開腹率（RR 0.38，95% CI 0.15–0.94；p=0.039；I²=0.0%；k=11），但延長手術時間（MD 37.29分鐘，95% CI 1.24–73.34；p=0.044；I²=89.4%；k=11）。整體併發症（p=0.596）、環周邊緣陽性率（p=0.995）、完整TME達成率（p=0.306）及失血量（p=0.459）皆無明顯差異。新輔助放化療後，機器人與腹腔鏡直腸癌手術之併發症與病理結果大致相當。機器人手術可能以較長手術時間為代價降低轉開腹率，但殘留混淆因子、學習曲線效應與顯著異質性使整體優越性之宣稱無法成立。仍需限定於標準化新輔助路徑的大型多中心試驗。",
+   "evidence_level": "統合分析",
+   "score": 6,
+   "score_reason": "樣本量大（6538人）且針對特定放化療後族群填補文獻缺口，但主要由非隨機研究組成、關鍵指標異質性極高（I²達88-89%），可信度中等。",
+   "relevance": "高度相關",
+   "relevance_why": "直接針對LARC新輔助放化療後之機器人與腹腔鏡TME比較，是台灣大腸直腸外科日常決策核心議題。",
+   "novelty": "再確認已知",
+   "one_liner": "在6,538名新輔助放化療後直腸癌病人（18世代）中，比較機器人與腹腔鏡TME，機器人組轉開腹率較低（RR 0.38）但手術時間長37分鐘。",
+   "action": "放化療後直腸癌手術式選擇不需改變；若團隊機器人經驗成熟，可作為降低轉開腹風險之考量，但病理與併發症結果無差異。",
+   "pico": {
+    "P": "接受新輔助放化療後之直腸癌手術病人，共6,538人（18個獨立世代，19篇報告）",
+    "I": "機器人輔助直腸癌手術（TME）",
+    "C": "腹腔鏡直腸癌手術（TME）",
+    "O": "主要outcome：主要/次要併發症、吻合口滲漏、住院天數、轉開腹率、手術時間；次要：整體併發症、環周邊緣陽性率、完整TME率、失血量"
+   },
+   "effects": [],
+   "key_numbers": [
+    "轉開腹率：機器人組較低，RR 0.38（95% CI 0.15–0.94，p=0.039，k=11）",
+    "手術時間：機器人組多37.29分鐘（95% CI 1.24–73.34，p=0.044，I²=89.4%）",
+    "吻合口滲漏無差異：RR 0.82（95% CI 0.54–1.24，p=0.311，I²=0%，k=11）"
+   ],
+   "cautions": [
+    "多數為非隨機回溯性研究（ROBINS-I），僅1篇pilot RCT，殘留混淆因子風險高",
+    "手術時間與住院天數異質性極高（I²=88-89%），結果穩定性存疑",
+    "缺乏長期腫瘤預後資料（局部復發、DFS、OS），僅呈現短期併發症與病理指標"
+   ],
+   "unassessable": [
+    "allocation concealment",
+    "盲法",
+    "ITT分析",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本分析",
+    "長期腫瘤學結果"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "此篇與先前TR-LAR vs L-LAR直腸癌統合分析呈現一致模式（機器人降低轉開腹率但延長手術時間），並將此比較延伸至新輔助放化療後這一特定高難度族群，填補了該次群組的證據缺口。",
+   "added_at": "2026-10-01T09:09:42+08:00"
   },
   {
    "pmid": "42805764",
@@ -227,7 +412,44 @@
      "sim": 0.192
     }
    ],
-   "added_at": "2026-09-30T09:10:02+08:00"
+   "title_zh": "原位APMV-4病毒疫苗接種可增強大腸直腸癌對低劑量抗CTLA-4治療的全身性免疫反應",
+   "abstract_zh": "背景：大腸直腸癌（CRC）常伴隨慢性發炎與高度免疫抑制，使其對免疫治療產生抗性。溶瘤病毒治療的多重免疫刺激機制，使其成為一種吸引人的策略，可用於使腫瘤對免疫檢查點阻斷（ICB）治療更為敏感。本研究介紹一種新興的溶瘤病毒療法rAPMV-4，該病毒已在CRC與黑色素瘤的前臨床模型中顯示療效。\n\n方法：我們透過在微衛星穩定（MSS）型CRC的單側與雙側腫瘤前臨床模型中，進一步描述對此病毒療法的反應，來擴展APMV-4已建立的療效證據。為了研究病毒的局部與全身性效應，我們利用RNA-seq、高維度流式細胞儀分析與細胞激素分析，描述腫瘤、引流淋巴結及血清中的反應。\n\n結果：rAPMV-4誘導快速但短暫的干擾素訊號傳導，以及早期抗原呈現與T細胞活化的特徵。與人類CRC隊列的比較顯示，病毒誘導了轉錄體從間質型CMS4轉變為「免疫高度活化」CMS1亞型的轉變，此亞型預測對ICB治療反應良好。利用這些對病毒治療反應與抗性的特徵，我們設計了一種合理的聯合治療策略，結合低劑量抗CTLA-4，此策略逆轉了調節性T細胞（Treg）的活化，並改善CD4與CD8 T細胞的功能失調，導致更強效的全身性腫瘤清除。\n\n結論：本研究支持rAPMV-4單獨使用或聯合治療，作為CRC的有效療法，值得進一步臨床開發。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "純小鼠前臨床機轉研究，尚無人體臨床數據，對台灣大腸直腸外科臨床決策目前無直接實用性。",
+   "relevance": "低度相關",
+   "relevance_why": "此為基礎免疫腫瘤學研究（小鼠模型、溶瘤病毒機轉），非外科介入，距離臨床應用尚遠。",
+   "novelty": "仍屬早期",
+   "one_liner": "在MSS型CRC小鼠模型中，比較rAPMV-4病毒治療併低劑量抗CTLA-4與單獨治療，發現聯合治療可逆轉Treg活化並增強腫瘤清除。",
+   "action": "目前不需改變做法，此為前臨床動物機轉研究，尚無人體療效或安全性資料可供參考。",
+   "pico": {
+    "P": "微衛星穩定（MSS）型CRC單側與雙側腫瘤小鼠模型（人數/鼠數未載明）",
+    "I": "rAPMV-4溶瘤病毒併低劑量抗CTLA-4",
+    "C": "rAPMV-4單獨治療 vs 未治療對照",
+    "O": "主要：干擾素訊號、T細胞活化、腫瘤微環境轉錄體亞型轉變；次要：全身性腫瘤清除效果"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供具體事件數、存活率或腫瘤縮小率等絕對數值",
+    "轉錄體由CMS4轉為CMS1亞型，屬機轉性替代指標，非臨床硬終點",
+    "聯合治療效果以「更強效全身性腫瘤清除」描述，未附具體統計數字"
+   ],
+   "cautions": [
+    "全文皆為小鼠模型結果，CMS亞型轉變為替代指標，不能直接推論人體臨床療效",
+    "未提供具體樣本數、存活曲線、p值或信賴區間，難以評估效應大小與統計把握度",
+    "「支持進一步臨床開發」屬作者主觀詮釋，目前無任何人體試驗數據佐證"
+   ],
+   "unassessable": [
+    "樣本數（動物數）",
+    "統計方法與p值/信賴區間",
+    "盲法與隨機分組方式",
+    "利益衝突",
+    "試驗註冊",
+    "人體安全性與劇毒性資料"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "與先前看過的VG161溶瘤病毒小鼠CRC研究主題相近，皆屬溶瘤病毒重塑腫瘤免疫微環境的前臨床機轉研究，本篇進一步探討與低劑量抗CTLA-4聯合治療的協同效應，但兩者皆屬早期動物研究，尚無臨床轉譯證據。",
+   "added_at": "2026-10-01T09:09:42+08:00"
   },
   {
    "pmid": "42804694",
@@ -264,7 +486,44 @@
      "sim": 0.156
     }
    ],
-   "added_at": "2026-09-30T09:10:02+08:00"
+   "title_zh": "腫瘤血管特徵與大腸直腸癌特異性死亡率之關係",
+   "abstract_zh": "重要性：大腸直腸癌（CRC）腫瘤血管之表型與形態異質性已日益受到重視，但其臨床意義尚不明確。目的：探討特定腫瘤血管特徵是否與CRC特異性死亡率相關。設計、場域與參與者：本研究採用前瞻性世代腫瘤生物庫方法（PCIBM），分析來自Nurses' Health Study與Health Professionals Follow-up Study的資料，共記錄4476例新發CRC病例並收集切除腫瘤組織標本。免疫螢光染色於2024年7月30日至8月14日進行，資料分析於2024年12月至2025年6月進行。暴露因子：以in situ多光譜免疫螢光評估腫瘤血管特徵，該檢測針對ACKR1、CD34、CD36、KDR、LAMB1、MADCAM1及KRT，並結合機器學習描述腫瘤血管。血管依形態分類為微小型、塌陷型、通暢型與不規則型。以多變項調整Cox比例風險回歸模型評估CRC死亡率。主要結果與測量：以多變項調整Cox比例風險回歸模型評估CRC特異性死亡率。結果：共837名CRC患者成功完成腫瘤血管分析（診斷時年齡中位數[IQR]為69[63-75]歲；女性466例[56%]）。經審查病例之追蹤期中位數（IQR）為11.8（8.7-14.7）年，共發生628例全因死亡，其中263例為CRC特異性死亡。多變項調整之CRC特異性死亡率風險比（HR）如下：整體CD34+血管密度第四分位數（vs第一分位數）HR為0.39（95% CI，0.25-0.60；趨勢P<.001）；微小型CD34+血管比例第四分位數HR為0.48（95% CI，0.31-0.74；趨勢P=.004）；CD34+CD36+血管比例最高類別（vs最低類別）HR為1.58（95% CI，1.07-2.32；趨勢P=.004）；CD34+LAMB1+血管比例最高類別HR為1.78（95% CI，1.22-2.61；趨勢P<.001）。結論與相關性：本項基於PCIBM之CRC患者研究顯示，較高之整體CD34+血管密度與較佳預後相關，而較高之CD34+CD36+及CD34+LAMB1+血管比例則與較差預後相關。這些發現提示腫瘤血管系統可能作為預後生物標記及潛在治療靶點。",
+   "evidence_level": "前瞻性世代",
+   "score": 5,
+   "score_reason": "資料來源為大型前瞻性世代（NHS/HPFS）且追蹤期長達近12年，方法嚴謹，但屬早期生物標記探索性研究，非臨床試驗，目前無法直接轉譯為臨床決策。",
+   "relevance": "低度相關",
+   "relevance_why": "屬病理免疫螢光生物標記探索研究，非外科介入或治療決策，目前無臨床可用檢測工具。",
+   "novelty": "仍屬早期",
+   "one_liner": "在837名CRC病人中分析腫瘤血管特徵，CD34+血管密度高者死亡風險降61%(HR 0.39)，CD34+CD36+血管比例高者增58%(HR 1.58)。",
+   "action": "目前不需改變做法，此為早期血管生物標記探索性研究，尚無可用於臨床之檢測或治療工具。",
+   "pico": {
+    "P": "837名成功完成腫瘤血管分析之CRC病人（來自NHS/HPFS世代，診斷時年齡中位數69歲），追蹤期中位數11.8年",
+    "I": "以多光譜免疫螢光評估腫瘤血管特徵（整體CD34+密度、微小型血管比例、CD34+CD36+、CD34+LAMB1+比例）",
+    "C": "各特徵第四分位數 vs 第一分位數（或最高 vs 最低類別）",
+    "O": "主要：CRC特異性死亡率；次要：未特別列出"
+   },
+   "effects": [],
+   "key_numbers": [
+    "整體CD34+血管密度Q4 vs Q1，CRC死亡HR 0.39(95%CI 0.25-0.60)",
+    "CD34+CD36+血管比例最高類別，CRC死亡HR 1.58(95%CI 1.07-2.32)",
+    "CD34+LAMB1+血管比例最高類別，CRC死亡HR 1.78(95%CI 1.22-2.61)"
+   ],
+   "cautions": [
+    "觀察性世代研究，僅呈現相關性非因果關係，血管標記可能反映腫瘤生物學而非可干預靶點",
+    "多種血管亞型同時分析，未說明是否校正多重比較，可能有偽陽性風險",
+    "僅報告HR與信賴區間，無絕對死亡率數字，難以評估臨床實際效應大小"
+   ],
+   "unassessable": [
+    "失訪率",
+    "利益衝突",
+    "試驗註冊",
+    "外部驗證",
+    "病理判讀是否盲法",
+    "標本代表性與選樣偏差（4476例中僅837例成功分析）"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-10-01T09:09:42+08:00"
   },
   {
    "pmid": "42802838",
@@ -311,7 +570,44 @@
      "sim": 0.155
     }
    ],
-   "added_at": "2026-09-30T09:10:02+08:00"
+   "title_zh": "胜肽-藥物共軛體（PDC）於消化系統腫瘤治療之進展",
+   "abstract_zh": "消化系統腫瘤，包括胃癌、肝細胞癌、胰臟癌與大腸直腸癌，為全球最常見且致死率最高的惡性腫瘤群之一，發生率與死亡率皆高。儘管化學治療持續發展，此傳統療法普遍存在腫瘤特異性不足、藥物抗藥性與療效有限等問題。精準靶向策略如抗體-藥物共軛體（ADC）與胜肽-藥物共軛體（PDC）結合細胞靶向遞送與強效抗腫瘤活性，已於消化系統腫瘤中展現治療潛力。相較於ADC，PDC具有分子量較低、腫瘤穿透力較佳、免疫原性風險較低等優勢。前臨床研究顯示PDC可增強腫瘤特異性藥物累積並減少對正常組織的損傷，有望彌補傳統化療的不足。本綜述系統性整理近期消化系統腫瘤PDC研究進展，聚焦於靶點選擇與PDC設計策略。文中重點介紹靶向integrin、GPC3、EGFR、HER2、transferrin receptor及VEGFR之代表性PDC於消化系統腫瘤中的應用。基於前臨床發現與早期臨床結果，本文提出PDC於消化系統腫瘤治療未來發展方向之見解。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純機制性綜述，無臨床試驗數據，僅整理前臨床與早期概念，對台灣大腸直腸外科臨床決策幾無立即實用性。",
+   "relevance": "低度相關",
+   "relevance_why": "屬藥物遞送平台的機制性綜述，非外科介入，且多數證據為前臨床階段，與大腸直腸外科手術決策無直接關聯。",
+   "novelty": "仍屬早期",
+   "one_liner": "本文綜述PDC（胜肽-藥物共軛體）於胃癌、肝癌、胰臟癌、大腸直腸癌等消化系統腫瘤中靶向integrin、GPC3、EGFR、HER2等的前臨床與早期臨床進展。",
+   "action": "目前不需改變做法；本文為藥物開發平台綜述，無具體臨床試驗數據可供大腸直腸外科手術或全身治療決策參考。",
+   "pico": {
+    "P": "消化系統腫瘤（胃癌、肝癌、胰臟癌、大腸直腸癌）相關文獻，無特定人數",
+    "I": "胜肽-藥物共軛體（PDC）",
+    "C": "無對照組（綜述性文章，比較對象為傳統化療與ADC概念性討論）",
+    "O": "無明確outcome數據；文中討論腫瘤特異性藥物遞送、療效與安全性之前臨床/早期臨床概念"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本文未提供任何具體臨床試驗數據、發生率或統計數字",
+    "所有討論皆基於前臨床研究與早期臨床概念，無法計算ARR/NNT",
+    "無陰性或正性療效的量化結果可供引用"
+   ],
+   "cautions": [
+    "純綜述性文章，無原始臨床試驗數據，結論多為前臨床推論，尚未證實臨床療效",
+    "涵蓋多種腫瘤類型與多個靶點，缺乏針對大腸直腸癌的專一性分析",
+    "'早期臨床結果'描述模糊，摘要未提供具體試驗名稱、人數或療效數字"
+   ],
+   "unassessable": [
+    "試驗設計",
+    "樣本量",
+    "統計方法",
+    "臨床試驗階段",
+    "利益衝突",
+    "具體療效數據"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。先前看過的文獻聚焦於HER2標靶治療於mCRC之臨床應用排序，以及奈米醫學遞送系統，雖同屬藥物遞送/標靶治療領域，但本文為PDC平台技術綜述，涵蓋範圍與切入角度不同，無直接延伸或矛盾關係。",
+   "added_at": "2026-10-01T09:09:42+08:00"
   },
   {
    "pmid": "42808355",
@@ -358,7 +654,39 @@
      "sim": 0.177
     }
    ],
-   "added_at": "2026-09-30T09:10:02+08:00"
+   "title_zh": "家族性大腸腺瘤性息肉症相關Desmoid疾病：全面性回顧",
+   "abstract_zh": "背景：家族性大腸腺瘤性息肉症（FAP）相關的desmoid疾病是FAP中罕見但重要的表現，仍是主要的罹病與死亡原因。與散發性desmoid最常發生於腹壁或腹外部位不同，約70%的FAP相關desmoid發生於腹內，通常位於小腸腸繫膜。這些病灶可造成腸道與輸尿管阻塞、敗血症、腸衰竭與死亡。本綜述總結目前關於FAP相關desmoid疾病之致病機轉、危險因子、診斷、監測與治療的證據，並指出關鍵證據缺口。\n方法：依照PRISMA方法學，於Medline、Embase、PROSPERO、Cochrane、Campbell與Joanna Briggs Institute資料庫進行文獻搜尋。納入截至2025年8月為止，與desmoid疾病、FAP相關desmoid疾病及FAP相關之原始研究、綜述與指引。資料以主題方式進行敘述性整理與綜合。\n結果：由生殖細胞APC致病性變異加上體細胞第二次打擊所導致的異常Wnt/β-catenin訊號路徑，是FAP相關desmoid疾病發展的基礎。已確立的危險因子包括APC遠端變異、desmoid家族史陽性，以及先前腹部手術史。對於已確診FAP的病人，診斷通常依臨床影像即可，常規切片一般並非必要，除非在特定情況下。積極監測目前建議為多數病人的第一線處置，因為許多病灶維持穩定或自發性消退。手術主要保留用於併發症，特別是小腸腸繫膜疾病，因手術併發症風險高，且完整切除並未證實有存活益處。全身性治療適用於進展性或有症狀的疾病。酪胺酸激酶抑制劑與γ-secretase抑制劑nirogacestat已在隨機試驗中證實療效，但FAP相關疾病病人僅佔納入病人的一小部分。非類固醇消炎藥與抗雌激素藥物的使用證據仍有限。\n結論：關於最佳影像策略、侵襲性疾病之預測因子、臨床上有意義的試驗終點，以及FAP特定治療演算法，仍存在重要證據缺口。需要在基因學上明確定義的FAP族群中進行專門研究，以改善風險分層與治療。",
+   "evidence_level": "綜述",
+   "score": 6,
+   "score_reason": "系統性文獻搜尋方法嚴謹，整理實用且切合臨床決策，但為敘述性綜述無新數據，且藥物試驗中FAP族群比例小，外推證據有限。",
+   "relevance": "高度相關",
+   "relevance_why": "FAP相關desmoid雖罕見，但為大腸直腸外科醫師照護FAP病人術後主要罹病與死亡原因，管理策略直接影響臨床決策。",
+   "novelty": "再確認已知",
+   "one_liner": "本綜述整理FAP相關desmoid疾病之致病機轉、危險因子、診斷與治療現況，確認積極監測為多數病人首選、手術僅保留於併發症。",
+   "action": "FAP病人desmoid以影像追蹤為主，避免常規切片；除阻塞、敗血症等併發症外避免積極手術；進展性病灶考慮全身性藥物治療並轉診相關團隊。",
+   "pico": {
+    "P": "FAP相關desmoid疾病病人（文獻回顧，無特定人數）",
+    "I": "無（敘述性文獻回顧，非介入性研究）",
+    "C": "無對照組",
+    "O": "致病機轉、危險因子、診斷策略、監測與治療方式之現有證據總結；次要：治療缺口與未來研究方向"
+   },
+   "effects": [],
+   "key_numbers": [
+    "約70%的FAP相關desmoid為腹內病灶，多發生於小腸腸繫膜",
+    "危險因子包括APC遠端變異、desmoid家族史陽性、先前腹部手術史（皆為質性描述，無絕對風險數字）",
+    "全身性藥物（酪胺酸激酶抑制劑、nirogacestat）於RCT證實有效，但FAP病人僅佔受試者一小部分"
+   ],
+   "cautions": [
+    "為敘述性綜述，非統合分析，未提供可量化比較的效果數據",
+    "所引用系統性藥物RCT中FAP相關病人僅佔一小部分，療效證據外推至FAP族群風險高",
+    "手術避免完整切除之建議基於「缺乏存活益處證據」，並非直接高品質RCT證實無益"
+   ],
+   "unassessable": [
+    "納入原始研究之隨機分派方法、盲法、ITT分析、失訪率、試驗註冊、利益衝突（本篇為綜述，未逐一揭露原始研究細節）"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "此篇綜述涵蓋之危險因子（家族史、APC基因型）與前兩篇回溯性世代研究之絕對風險數據方向一致，並補充診斷、監測與全身性治療等前作未涉及之管理層面，較第三篇手術綜述更聚焦於desmoid本身之最新證據與缺口。",
+   "added_at": "2026-10-01T09:09:42+08:00"
   },
   {
    "pmid": "42804491",
@@ -378,7 +706,45 @@
    "abstract": "Individuals with inflammatory bowel disease (IBD) are at increased risk of herpes zoster (HZ). Using a matched cohort design, we evaluated the vaccine effectiveness (VE) of recombinant zoster vaccine (RZV) against HZ among IBD patients aged ≥18 years. Within the Kaiser Permanente Southern California population, individuals who received 2 RZV doses were matched up to 1:3 to RZV-unvaccinated individuals. Individuals were followed from 31 days after the receipt of the 2nd RZV dose until the occurrence of a censoring event. VE was calculated using Cox proportional hazards regression. A self-controlled case series analysis was used to compare the rate of flares in the 30‑day risk window following vaccination with the comparison window among RZV recipients using conditional Poisson regression. The adjusted VE of 2 RZV doses (≥4 weeks apart) against HZ was 65.4% (95% confidence interval [CI]: 40.6%-79.9%) in all IBD patients, 62.7% (17.2%-83.2%) in ulcerative colitis patients, and 70.2% (34.5%-86.4%) in Crohn's disease patients. The VE of 2 doses administered 4 weeks-6 months apart in IBD patients was 62.9% (34.3%-79.1%). The rate ratio for IBD flares was 0.80 (95% CI: 0.58-1.12). In conclusion, RZV provided protection against HZ in IBD patients with no increased risk of IBD flares observed.\nHerpes zoster, commonly known as shingles, is a painful skin rash that develops from reactivation of the virus that causes chickenpox. People with inflammatory bowel disease (IBD), including ulcerative colitis or Crohn’s disease, have a higher risk of developing shingles, especially if they receive medications that lower their immune response. A vaccine against shingles, known as RZV for “recombinant zoster vaccine,” is available. In this study, we looked at the health records of adults aged 18 years or older with IBD who had received RZV to see how often they developed shingles compared with adults with IBD who had not received the vaccine. We also looked to see if there was a higher risk of a person’s IBD symptoms suddenly getting worse in the 30 days after RZV vaccination. For our study, we used electronic health records of people who received healthcare services with Kaiser Permanente Southern California between 2018 and 2024. We found that adults with IBD who received 2 doses of RZV given at least 4 weeks apart were 65% less likely to develop shingles than adults with IBD who didn’t receive the vaccine. In adults with IBD who received at least 1 dose of RZV, we found that vaccination did not increase the risk of IBD symptoms suddenly getting worse. Overall, our results show that RZV provides some protection against developing shingles in adults with IBD and does not increase the risk of a flare-up of IBD symptoms.",
    "watched": [],
    "related": [],
-   "added_at": "2026-09-30T09:10:02+08:00"
+   "title_zh": "簡短報告：重組帶狀疱疹疫苗（RZV）在18歲以上發炎性腸道疾病（IBD）患者中的有效性與安全性：配對世代研究與自身對照病例系列研究",
+   "abstract_zh": "發炎性腸道疾病（IBD）患者罹患帶狀疱疹（HZ）的風險增加。本研究採用配對世代研究設計，評估重組帶狀疱疹疫苗（RZV）在18歲以上IBD患者中對抗HZ的疫苗效力（VE）。在Kaiser Permanente Southern California人群中，接受2劑RZV的個案以最多1:3比例與未接種RZV者配對。個案自第2劑RZV接種後31天開始追蹤，直至發生審查事件為止。VE以Cox比例風險回歸計算。另採用自身對照病例系列分析，以條件式Poisson回歸比較RZV接種者在接種後30天風險窗口與比較窗口中IBD惡化（flare）的發生率。結果顯示：2劑RZV（間隔≥4週）在所有IBD患者中對抗HZ的調整後VE為65.4%（95%信賴區間[CI]：40.6%–79.9%），潰瘍性結腸炎患者為62.7%（17.2%–83.2%），克隆氏症患者為70.2%（34.5%–86.4%）。若2劑間隔為4週至6個月，IBD患者的VE為62.9%（34.3%–79.1%）。IBD惡化的率比為0.80（95% CI：0.58–1.12）。結論：RZV對IBD患者提供對抗HZ的保護效果，且未觀察到IBD惡化風險增加。",
+   "evidence_level": "回溯性研究",
+   "score": 6,
+   "score_reason": "設計嚴謹（配對世代加自身對照病例系列雙重分析），樣本來自大型健保資料庫，但屬回溯性研究且無絕對事件數可供驗證，對大腸直腸外科手術決策直接影響有限。",
+   "relevance": "中度相關",
+   "relevance_why": "IBD患者常為大腸直腸外科術前後管理對象，疫苗接種諮詢屬照護一環，但本文非外科介入研究。",
+   "novelty": "可能改變實務",
+   "one_liner": "在IBD成人患者（配對世代研究）中，接種2劑RZV對比未接種者，帶狀疱疹風險降低65.4%（95% CI 40.6–79.9%），且未增加IBD惡化風險（RR 0.80）。",
+   "action": "可對使用免疫抑制劑或生物製劑的IBD病人，於術前術後照護中主動建議接種RZV，不需因擔心誘發flare而延遲。",
+   "pico": {
+    "P": "Kaiser Permanente Southern California系統內18歲以上IBD患者（潰瘍性結腸炎及克隆氏症，具體人數未於摘要說明）",
+    "I": "接種2劑重組帶狀疱疹疫苗（RZV），間隔≥4週或4週至6個月",
+    "C": "未接種RZV之配對個案（世代研究）；接種者自身接種後30天風險窗口 vs 比較窗口（自身對照病例系列）",
+    "O": "主要outcome：帶狀疱疹（HZ）發生率／疫苗效力；次要outcome：接種後30天內IBD惡化（flare）率比"
+   },
+   "effects": [],
+   "key_numbers": [
+    "整體IBD患者VE 65.4%（95% CI 40.6–79.9%），未提供絕對發生率，無法計算ARR/NNT",
+    "潰瘍性結腸炎VE 62.7%（17.2–83.2%）；克隆氏症VE 70.2%（34.5–86.4%）",
+    "接種後30天內IBD惡化率比0.80（95% CI 0.58–1.12），無顯著增加但CI跨1"
+   ],
+   "cautions": [
+    "僅報告VE（源自HR）與相對率比，摘要無絕對事件數/發生率，無法驗證絕對效益大小",
+    "回溯性配對世代研究可能存在健康接種者偏差（healthy vaccinee bias）及殘餘干擾因子",
+    "flare安全性結論的95% CI（0.58–1.12）跨越1，樣本可能不足以排除中等程度風險增加"
+   ],
+   "unassessable": [
+    "盲法",
+    "allocation concealment",
+    "ITT分析",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "各組絕對人數與事件數"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-10-01T09:09:42+08:00"
   }
  ]
 }
