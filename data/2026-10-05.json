@@ -1,0 +1,818 @@
+{
+ "date": "2026-10-05",
+ "generated_at": "2026-10-05T08:38:06+08:00",
+ "count": 10,
+ "papers": [
+  {
+   "pmid": "42828702",
+   "title": "Learning curves in robotic and laparoscopic colorectal surgery: a systematic review",
+   "journal": "J Robot Surg",
+   "journal_full": "Journal of robotic surgery",
+   "issn": "1863-2491",
+   "issn_linking": "1863-2483",
+   "impact_factor": 4.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1111/codi.16266",
+   "ptype": "Systematic Review, Review",
+   "ptype_list": [
+    "Systematic Review",
+    "Review"
+   ],
+   "authors": "Nocera F, Wiedemann F, Müller P, Billeter A, Angehrn F, Müller B",
+   "abstract": "OBJECTIVE: To evaluate and compare learning-curve assessment in laparoscopic and robotic colorectal surgery and to develop a standardized framework for future learning-curve reporting.\nBACKGROUND: Learning curves in minimally invasive colorectal surgery are widely reported, but inconsistent definitions limit interpretability and comparability. This systematic review analyzed learning-curve assessment in laparoscopic and robotic colorectal surgery and proposes a standardized framework.\nMETHODS: MEDLINE, Web of Science, and CENTRAL were systematically searched according to PRISMA guidelines (registered in PROSPERO, CRD42026128860). Included were randomized, prospective, and retrospective studies on learning curves in colorectal surgery. Primary outcome was the number of procedures required to reach the initial learning phase. Secondary outcomes included definitions of learning curves, analytical methods, and classification of learning phases. Analyses were stratified by procedure type (colon vs. rectal resections), and pooled breakpoint regression was used to identify learning phases.\nRESULTS: A total of 114 studies comprising 167 learning-curve analyses were included. CUSUM or risk-adjusted CUSUM was used in 66.4% of analyses, whereas 33.3% applied arbitrary definitions; operative time was the most frequently used endpoint (79.6%). Operative-time plateaus were identified after 38 colonic and 56 rectal procedures. Reported median competency thresholds were numerically lower for robotic than laparoscopic surgery in colonic resections (24 vs. 30 cases; p = 0.659) and rectal resections (28 vs. 38 cases; p = 0.140), but these differences were not statistically significant.\nCONCLUSIONS: Learning-curve assessment in minimally invasive colorectal surgery remains heterogeneous. Robotic series report numerically lower competency thresholds than laparoscopic series; however, this likely reflects skill transfer from prior laparoscopic experience and modern training pathways rather than an intrinsically shorter learning curve of the robotic platform. Differences in prior surgeon experience, training, and study era limit direct comparison. Standardized assessment and prospective studies with comparable baseline exposure are needed.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42565915",
+     "date": "2026-08-08",
+     "title_zh": "機器手臂大腸直腸手術是否值得其成本？整合臨床結果、學習曲線與經濟證據的雨傘綜述",
+     "score": 6,
+     "one_liner": "整合27篇系統性回顧（逾18萬研究、11萬病人），機器手臂與腹腔鏡大腸直腸手術腫瘤學結果相近，轉開腹率較低，成本隨經驗成熟可能縮小。",
+     "sim": 0.244
+    },
+    {
+     "pmid": "42565915",
+     "date": "2026-08-09",
+     "title_zh": "機器手臂大腸直腸手術是否值得其成本？整合臨床結果、學習曲線與經濟證據之雨傘綜述",
+     "score": 4,
+     "one_liner": "彙整27篇系統性回顧（>180研究、>110,000病人），比較機器手臂與腹腔鏡大腸直腸手術，發現腫瘤學結果相當、轉開腹率降低，成本隨經驗成熟可能縮小。",
+     "sim": 0.244
+    },
+    {
+     "pmid": "42667338",
+     "date": "2026-08-30",
+     "title_zh": "機器手臂平台轉換對大腸直腸癌手術短期預後之影響",
+     "score": 3,
+     "one_liner": "在121例大腸直腸癌機器手臂手術中（Si組49例 vs X/Xi組72例），發現新平台組多象限手術增加、主刀端時間稍長（p=0.05），但總手術時間、住院天數與術後併發症相當。",
+     "sim": 0.241
+    }
+   ],
+   "title_zh": "機器手臂與腹腔鏡大腸直腸手術學習曲線之系統性回顧",
+   "abstract_zh": "目的：評估並比較腹腔鏡與機器手臂大腸直腸手術學習曲線的評估方式，並建立未來學習曲線報告之標準化框架。\n背景：微創大腸直腸手術的學習曲線已被廣泛報告，但定義不一致限制了可解讀性與可比性。本系統性回顧分析腹腔鏡與機器手臂大腸直腸手術的學習曲線評估方式，並提出標準化框架。\n方法：依PRISMA準則系統性搜尋MEDLINE、Web of Science與CENTRAL（已於PROSPERO註冊，編號CRD42026128860）。納入隨機、前瞻性與回溯性學習曲線相關研究。主要結果為達到初始學習階段所需手術例數。次要結果包括學習曲線定義、分析方法與學習階段分類。分析依手術類型（結腸 vs 直腸切除）分層，並使用合併斷點迴歸（pooled breakpoint regression）界定學習階段。\n結果：共納入114篇研究，包含167筆學習曲線分析。66.4%的分析使用CUSUM或風險校正CUSUM，33.3%使用武斷定義；手術時間是最常用的終點指標（79.6%）。手術時間平台期在結腸切除38例、直腸切除56例後出現。報告的勝任門檻中位數，機器手臂在結腸切除（24 vs 30例；p=0.659）與直腸切除（28 vs 38例；p=0.140）均在數字上低於腹腔鏡，但這些差異未達統計顯著。\n結論：微創大腸直腸手術的學習曲線評估仍高度異質。機器手臂系列報告的勝任門檻在數字上低於腹腔鏡系列，然而此現象更可能反映先前腹腔鏡經驗的技能轉移與現代訓練路徑，而非機器手臂平台本身具有較短的學習曲線。先前手術經驗、訓練方式與研究年代的差異限制了直接比較。仍需標準化評估方式與基線暴露相當的前瞻性研究。",
+   "evidence_level": "系統性回顧",
+   "score": 5,
+   "score_reason": "方法學異質性高（定義、終點不一），且主要結論（機器手臂與腹腔鏡學習曲線無顯著差異）未達統計顯著，對臨床決策直接影響有限，但對訓練規劃有參考價值。",
+   "relevance": "中度相關",
+   "relevance_why": "此文聚焦訓練/教育面向的學習曲線方法學，而非直接病人臨床結果，較適合訓練計畫擬定者參考。",
+   "novelty": "再確認已知",
+   "one_liner": "整合114篇研究167筆學習曲線分析，比較機器手臂與腹腔鏡勝任門檻，結腸24 vs 30例（p=0.659）、直腸28 vs 38例（p=0.140），均未達顯著差異。",
+   "action": "目前不需改變臨床做法；可作為新進主治醫師訓練規劃參考，但機器手臂「學習曲線較短」此說法缺乏統計支持，勿過度宣稱。",
+   "pico": {
+    "P": "114篇大腸直腸微創手術學習曲線相關研究，共167筆學習曲線分析",
+    "I": "機器手臂大腸直腸手術學習曲線評估",
+    "C": "腹腔鏡大腸直腸手術學習曲線評估",
+    "O": "主要：達初始學習階段所需手術例數（勝任門檻）；次要：學習曲線定義、分析方法、學習階段分類"
+   },
+   "effects": [],
+   "key_numbers": [
+    "手術時間平台期：結腸38例、直腸56例後出現",
+    "結腸勝任門檻：機器手臂24例 vs 腹腔鏡30例，p=0.659（未達顯著）",
+    "直腸勝任門檻：機器手臂28例 vs 腹腔鏡38例，p=0.140（未達顯著）"
+   ],
+   "cautions": [
+    "66.4%用CUSUM但33.3%用武斷定義，各研究學習曲線定義極度異質，可比性差",
+    "主要終點以手術時間（79.6%）為替代指標，未必反映真正腫瘤學或功能性能力",
+    "機器手臂門檻數字較低但統計不顯著，且混雜先前腹腔鏡經驗轉移效應，不可解讀為機器手臂更易學"
+   ],
+   "unassessable": [
+    "各納入研究的手術者先前經驗、訓練背景、研究年代差異未能在摘要中評估",
+    "斷點迴歸分析（breakpoint regression）的統計品質與異質性檢定結果未提供",
+    "各研究失訪率、利益衝突、資金來源等未提及"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "先前兩篇雨傘綜述聚焦機器手臂與腹腔鏡的腫瘤學結果與成本效益比較，本篇則補上訓練/學習曲線這個未被涵蓋的面向，顯示機器手臂學習曲線數字上較短但未達統計顯著，與成本效益隨經驗成熟改善的前作論點互補。",
+   "added_at": "2026-10-05T08:36:04+08:00"
+  },
+  {
+   "pmid": "42829457",
+   "title": "Malignancy in patients with acromegaly: a multicenter study across the Gulf region",
+   "journal": "Ann Saudi Med",
+   "journal_full": "Annals of Saudi medicine",
+   "issn": "0975-4466",
+   "issn_linking": "0256-4947",
+   "impact_factor": 1.8,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.5144/0256-4947.2026.368",
+   "ptype": "Multicenter Study, Observational Study",
+   "ptype_list": [
+    "Multicenter Study",
+    "Observational Study"
+   ],
+   "authors": "AlDahmani K, Mahzari M, Elhadd T, Aziz F, Ekhzaimy A, Jaber T",
+   "abstract": "BACKGROUND: Chronic growth hormone and insulin-like growth factor 1 excess may promote tumorigenesis, but the magnitude of malignancy risk in acromegaly remains uncertain and regional data from the Gulf are limited.\nOBJECTIVE: To describe the frequency, spectrum, detection, outcomes, and clinical correlates of malignancy among patients with acromegaly treated across Gulf tertiary centers.\nDESIGN: Multicenter retrospective observational study.\nSETTING: Five tertiary centers across Saudi Arabia, Qatar, and the United Arab Emirates.\nPATIENTS AND METHODS: Medical records of patients aged >16 years with acromegaly who were evaluated from 2010 through 2024 were reviewed. Demographic, disease, treatment, cancer-testing, and malignancy data were collected. Group comparisons were descriptive and exploratory because only 10 malignancies occurred.\nMAIN OUTCOME MEASURES: Documented malignancy frequency, cancer type, method of detection, stage, treatment, outcome, and clinical correlates.\nSAMPLE SIZE: 157 patients.\nRESULTS: The mean age was 47.1 years, 101 patients (64.3%) were male, and the mean disease duration was 9.4 years. Malignancy was documented in 10 patients (6.4%), most commonly papillary thyroid carcinoma (8/10). Two of the eight papillary thyroid carcinomas were classified as T1a (≤10 mm); exact pathology measurements were not consistently available. One patient had colorectal cancer, and one had prostate cancer. Exploratory comparisons showed that patients with malignancy were older than those without malignancy (mean age, 56.6 vs 46.5 years; P=.039). The remaining comparisons were inconclusive. All patients with malignancy were in remission or had an excellent response at the last documented follow-up.\nCONCLUSION: Malignancy was documented in 6.4% (10 out of 157) in this multi-center Gulf acromegaly cohort, predominantly papillary thyroid carcinoma. The findings support individualized surveillance based on population guidance, symptoms, family history, and clinical findings rather than an acromegaly-specific screening program.\nLIMITATIONS: Retrospective design, small number of malignancy events, missing data, lack of a population comparator, and nonstandardized cancer testing may introduce selection and detection biases.",
+   "watched": [],
+   "related": [],
+   "title_zh": "肢端肥大症患者之惡性腫瘤：波斯灣地區多中心研究",
+   "abstract_zh": "背景：長期生長激素與類胰島素生長因子1過量可能促進腫瘤生成，但肢端肥大症患者惡性腫瘤風險的程度仍不確定，且波斯灣地區的區域性資料有限。目的：描述波斯灣三級醫療中心肢端肥大症患者中惡性腫瘤的發生率、種類、偵測方式、預後及臨床相關因子。設計：多中心回溯性觀察研究。場所：沙烏地阿拉伯、卡達、阿拉伯聯合大公國共五個三級醫療中心。病人與方法：回顧2010年至2024年間年齡大於16歲、經評估確診肢端肥大症之病人病歷。收集人口學、疾病、治療、癌症篩檢及惡性腫瘤相關資料。因僅發生10例惡性腫瘤，組間比較僅為描述性與探索性。主要結果指標：記錄之惡性腫瘤發生率、癌症類型、偵測方式、分期、治療及預後、臨床相關因子。樣本數：157名病人。結果：平均年齡47.1歲，101名（64.3%）為男性，平均病程9.4年。10名病人（6.4%）被記錄有惡性腫瘤，最常見為甲狀腺乳突癌（8/10）。8例甲狀腺乳突癌中有2例分類為T1a（≤10mm）；確切病理測量值並非一致可得。1名病人有大腸直腸癌，1名有攝護腺癌。探索性比較顯示有惡性腫瘤之病人較無惡性腫瘤者年長（平均年齡56.6歲 vs 46.5歲；P=.039）。其餘比較結果不具決定性。所有惡性腫瘤病人於最後一次記錄追蹤時皆已緩解或反應極佳。結論：此波斯灣多中心肢端肥大症世代中，6.4%（10/157）病人被記錄有惡性腫瘤，以甲狀腺乳突癌為主。研究結果支持依據族群指引、症狀、家族史及臨床發現進行個別化監測，而非肢端肥大症專屬之篩檢計畫。限制：回溯性設計、惡性腫瘤事件數少、資料缺失、缺乏族群對照組、以及非標準化的癌症檢測，可能引入選擇性與偵測性偏誤。",
+   "evidence_level": "回溯性研究",
+   "score": 2,
+   "score_reason": "樣本小、事件數僅10例、無族群對照組，且與大腸直腸外科實務幾乎無直接關聯（僅1例CRC），對臨床決策參考價值低。",
+   "relevance": "低度相關",
+   "relevance_why": "本研究主題為內分泌科肢端肥大症患者之整體惡性腫瘤監測，非大腸直腸手術介入，且CRC僅佔1/10案例。",
+   "novelty": "仍屬早期",
+   "one_liner": "在157名肢端肥大症病人中，描述性分析發現6.4%（10人）併發惡性腫瘤，以甲狀腺乳突癌為主，僅1例大腸直腸癌。",
+   "action": "目前不需改變做法：樣本中大腸直腸癌僅1例，不足以支持針對肢端肥大症病人制定專屬大腸鏡篩檢策略。",
+   "pico": {
+    "P": "157名肢端肥大症病人（波斯灣五個三級醫療中心，2010-2024）",
+    "I": "無特定介入，為觀察性描述研究",
+    "C": "無對照組（僅組內比較：有惡性腫瘤 vs 無惡性腫瘤）",
+    "O": "主要：惡性腫瘤發生率、類型、分期、治療與預後；次要：與惡性腫瘤相關之臨床因子"
+   },
+   "effects": [],
+   "key_numbers": [
+    "惡性腫瘤整體發生率 6.4%（10/157），其中甲狀腺乳突癌占8/10",
+    "大腸直腸癌僅1例（1/157），攝護腺癌1例",
+    "有惡性腫瘤者較年長：平均56.6歲 vs 46.5歲，P=.039"
+   ],
+   "cautions": [
+    "事件數僅10例，統計檢定力極低，年齡差異等結果僅供探索性參考",
+    "無一般族群對照組，無法判斷此惡性腫瘤發生率是否高於或低於背景族群",
+    "非標準化癌症篩檢流程，可能造成偵測偏誤（detection bias），低估或高估實際發生率"
+   ],
+   "unassessable": [
+    "失訪率",
+    "利益衝突",
+    "試驗註冊",
+    "病理測量資料完整性（作者自述不一致）",
+    "ITT分析（不適用於此觀察性設計）"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-10-05T08:36:04+08:00"
+  },
+  {
+   "pmid": "42828167",
+   "title": "Spatial multi-omics-guided drug development in inflammatory bowel disease: from mucosal immune niches to precision therapy",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1016/j.immuni.2025.08.009",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Wang H, Zhao X, Yang J",
+   "abstract": "Crohn's disease and ulcerative colitis are now treated with an expanding set of biologics and small molecules, yet treatment selection remains largely empirical. Primary non-response, secondary loss of response, incomplete mucosal healing, fibrostenosis, and fistulizing disease show that conventional clinical, endoscopic, and bulk molecular markers do not capture how disease is organized within tissue. This review argues that the inflamed intestine is better viewed as a set of spatially structured mucosal immune niches rather than as uniform inflammation, with epithelial, myeloid, lymphoid, stromal, vascular, neural, and microbiome-associated cells communicating through defined cytokine and ligand-receptor circuits. In this framework, mucosal immune niches can be considered functional tissue units that link tissue-resolved mechanisms to therapeutic target discovery, pharmacodynamic assessment, biomarker qualification, and biomarker-enriched trial design. Single-cell atlases and spatial multi-omics, interpreted through computational modeling, can identify disease-driving cellular neighborhoods, ligand-receptor circuits, and compartment-specific vulnerabilities in both diseases. We discuss how these spatial features may inform target discovery, mechanism-of-action validation, patient stratification, response prediction, and trial design, using pathways such as TNF, IL-23, OSM, TL1A, integrins, JAK-STAT, and S1P as examples. At present, the realistic value of spatial data lies in generating mechanistic hypotheses, defining pharmacodynamic endpoints, and enriching trials, not in guiding routine treatment selection. Most candidate spatial biomarkers remain at the discovery or early translational stage and require standardized sampling, harmonized computation, longitudinal assessment, and multicenter validation. A staged translational path is proposed, moving from disease-specific atlases to spatial pharmacodynamic endpoints and adaptive precision trials, while also offering a comparative framework for studying chronic inflammation across mucosal organs.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42753707",
+     "date": "2026-09-19",
+     "title_zh": "單細胞解析發炎性腸道疾病藥物反應與抗藥性：細胞特徵與精準治療",
+     "score": 2,
+     "one_liner": "本綜述整合單細胞與空間多體學研究，提出免疫失調、基質重塑、上皮重編程三大細胞特徵解釋IBD治療抗藥性機轉，屬機轉假說整理，無臨床數據。",
+     "sim": 0.188
+    },
+    {
+     "pmid": "42688560",
+     "date": "2026-09-04",
+     "title_zh": "解構調節性T細胞（Treg）的多樣性與功能失調：推動自體免疫與發炎性疾病中Treg療法的發展",
+     "score": 1,
+     "one_liner": "本文綜述Treg細胞異質性與功能失調在異位性皮膚炎、IBD、SLE、第一型糖尿病中的角色，提出概念性治療框架，屬前臨床機轉整理。",
+     "sim": 0.15
+    },
+    {
+     "pmid": "42688560",
+     "date": "2026-09-05",
+     "title_zh": "解析調節性T細胞（Treg）的多樣性與功能失調，以推動自體免疫與發炎性疾病中Treg導向治療的發展",
+     "score": 1,
+     "one_liner": "本綜述整合多重體學研究，提出Treg異質性與功能失調在自體免疫疾病（含IBD）中的四軸概念框架，屬機轉層面整理，無臨床數據。",
+     "sim": 0.15
+    }
+   ],
+   "title_zh": "空間多體學引導之發炎性腸道疾病藥物開發：從黏膜免疫微環境到精準治療",
+   "abstract_zh": "克隆氏症與潰瘍性結腸炎目前可用的生物製劑與小分子藥物種類日益增多，但治療選擇仍大致仰賴經驗。原發性無反應、續發性反應喪失、黏膜癒合不完全、纖維化狹窄與廔管形成等現象顯示，傳統臨床、內視鏡與整體（bulk）分子標記無法捕捉疾病在組織內的空間組織方式。本綜述主張，發炎的腸道更適合被視為一組空間結構化的黏膜免疫微環境（niche），而非均質性發炎，其中上皮、骨髓、淋巴、基質、血管、神經與微生物相關細胞透過特定的細胞激素與配體-受體迴路相互溝通。在此架構下，黏膜免疫微環境可視為功能性組織單位，將組織層級的機轉與治療標的發現、藥效學評估、生物標記鑑定及生物標記富集化試驗設計連結起來。單細胞圖譜與空間多體學經由計算模型解讀後，可辨識兩種疾病中驅動疾病的細胞鄰域、配體-受體迴路及區室特異性弱點。本文討論這些空間特徵如何為標的發現、作用機轉驗證、病人分層、反應預測及試驗設計提供資訊，並以TNF、IL-23、OSM、TL1A、整合素（integrins）、JAK-STAT與S1P等路徑為例說明。目前，空間資料的實際價值在於產生機轉假說、定義藥效學終點及富集試驗族群，而非指導常規治療選擇。大多數候選空間生物標記仍處於發現或早期轉譯階段，需要標準化取樣、統一化計算方法、縱向評估及多中心驗證。本文提出一條分階段轉譯路徑，從疾病特異性圖譜進展至空間藥效學終點與適應性精準試驗，同時也為研究黏膜器官間慢性發炎提供比較性架構。",
+   "evidence_level": "綜述",
+   "score": 1,
+   "score_reason": "純機轉假說性綜述，無臨床數據、無具體試驗結果，對大腸直腸外科日常臨床決策幾乎無直接實用性。",
+   "relevance": "低度相關",
+   "relevance_why": "聚焦IBD藥物開發的基礎轉譯機轉與空間多體學方法論，非外科介入或手術相關議題。",
+   "novelty": "仍屬早期",
+   "one_liner": "本綜述提出以空間多體學解析IBD黏膜免疫微環境，作為藥物標的發現與精準試驗設計的概念架構，無臨床數據。",
+   "action": "目前不需改變做法；此為IBD藥物開發之基礎機轉綜述，與大腸直腸外科手術決策無直接關聯。",
+   "pico": {
+    "P": "無特定病人族群（概念性綜述，非臨床研究）",
+    "I": "空間多體學與單細胞圖譜分析方法",
+    "C": "無對照組",
+    "O": "無實際臨床outcome；討論標的發現、藥效學終點、生物標記與試驗設計之未來應用方向"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本文未提供任何臨床試驗數據或量化結果，純屬機轉性綜述",
+    "無患者人數、無效果量、無p值或信賴區間可供評估",
+    "作者明確聲明空間生物標記目前僅能用於假說產生，尚不能指導常規治療"
+   ],
+   "cautions": [
+    "全文為概念性綜述，無原始臨床數據，結論皆為理論推演而非實證",
+    "以TNF、IL-23等路徑舉例說明僅為示範性質，非驗證性結果",
+    "作者自承多數空間生物標記仍處發現階段，過度推論至臨床應用風險高"
+   ],
+   "unassessable": [
+    "研究設計",
+    "樣本數",
+    "統計方法",
+    "利益衝突",
+    "臨床試驗註冊",
+    "外科相關outcome"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-10-05T08:36:04+08:00"
+  },
+  {
+   "pmid": "42828152",
+   "title": "Progress on the regulation of colorectal cancer and cardio-oncology by the gut microbiota and nutrients",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1128/msystems.01450-24",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Liu A, Tan R, Zhou X, Wang P, Wang X",
+   "abstract": "As one of the most common malignant tumors worldwide, the pathogenesis of colorectal cancer (CRC) was complex. Recent studies have revealed that dysbiosis of the gut microbiota and abnormal nutritional metabolism played a key role in the occurrence and development of tumors. With the rapid development of cardio-oncology, the cardiovascular toxicity risks faced by CRC patients during radiotherapy, chemotherapy, targeted therapy, and immunotherapy have become increasingly prominent, emerging as a key factor affecting long-term patient outcomes. However, there was currently a lack of systematic integration regarding the mechanisms underlying the interplay between the gut microbiota, nutritional interventions, and cardio-oncology in the management of CRC. This article aims to review the mechanisms underlying the interaction between CRC and the gut microbiota, the effects of nutritional interventions on the gut microbiota and tumor progression, and the important role of cardio-oncology in the treatment of CRC. This review examines the emerging evidence on how gut microbiota and nutrition interact to influence CRC development, progression, and therapeutic response, and proposes a theoretical basis for integrating these insights into multidisciplinary comprehensive treatment strategies.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42589697",
+     "date": "2026-08-14",
+     "title_zh": "營養作為氧化壓力調節因子於癌症預防與治療之角色",
+     "score": 2,
+     "one_liner": "敘述性回顧整理飲食型態、營養素與氧化壓力調節在多種癌症（含大腸直腸癌）預防與治療中的機轉關聯，未提供具體臨床試驗數據。",
+     "sim": 0.203
+    },
+    {
+     "pmid": "42589697",
+     "date": "2026-08-15",
+     "title_zh": "營養作為癌症預防與治療中氧化壓力的調節因子",
+     "score": 1,
+     "one_liner": "本篇敘事回顧整理飲食、營養素與氧化壓力調節在多種癌症（含大腸直腸癌）預防與治療中的關聯，呼籲需更多大型RCT驗證。",
+     "sim": 0.203
+    },
+    {
+     "pmid": "42627455",
+     "date": "2026-08-22",
+     "title_zh": "肥胖中的內源性大麻素組-腸道微生物軸：與大腸直腸癌發展之潛在連結",
+     "score": 1,
+     "one_liner": "本綜述提出肥胖相關eCBome-腸道微生物軸失調可能透過屏障破壞、內毒素血症、NF-κB活化等機轉影響CRC發生，屬理論推論、無直接研究證實。",
+     "sim": 0.169
+    }
+   ],
+   "title_zh": "腸道微生物群與營養素調控大腸直腸癌及心臟腫瘤學之研究進展",
+   "abstract_zh": "大腸直腸癌（CRC）為全球最常見惡性腫瘤之一，其發病機制複雜。近期研究顯示，腸道菌群失衡與營養代謝異常在腫瘤發生與發展中扮演關鍵角色。隨著心臟腫瘤學的快速發展，CRC患者於放療、化療、標靶治療及免疫治療期間所面臨的心血管毒性風險日益顯著，成為影響患者長期預後的重要因素。然而，目前對於腸道菌群、營養介入與心臟腫瘤學在CRC治療管理中交互作用機制，仍缺乏系統性整合。本文旨在綜述CRC與腸道菌群交互作用之機制、營養介入對腸道菌群與腫瘤進展之影響，以及心臟腫瘤學在CRC治療中的重要角色。本綜述檢視腸道菌群與營養如何交互影響CRC發生、進展及治療反應之新興證據，並提出將此類見解整合至多學科綜合治療策略之理論基礎。",
+   "evidence_level": "綜述",
+   "score": 1,
+   "score_reason": "純機轉性敘述回顧，無原始臨床數據或試驗結果，對臨床決策無直接可操作性。",
+   "relevance": "低度相關",
+   "relevance_why": "內容為腸道菌群、營養與心臟腫瘤學機轉之理論整合，非外科介入或可直接應用於臨床決策之證據。",
+   "novelty": "仍屬早期",
+   "one_liner": "本文綜述腸道菌群、營養介入與心臟腫瘤學在CRC發生、進展及治療反應中的機轉交互作用，屬理論整合，無臨床試驗數據。",
+   "action": "目前不需改變做法，此為機轉性綜述，未提供可直接應用於臨床之證據或數據。",
+   "pico": {
+    "P": "無特定病人族群（綜述文章，非原始研究）",
+    "I": "腸道菌群調控與營養介入（機轉層面討論）",
+    "C": "無對照組",
+    "O": "無具體臨床outcome；討論CRC發生發展機轉與心臟腫瘤學風險"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本文未提供任何具體臨床試驗數據、事件數或發生率",
+    "全文為機轉性敘述整合，無量化結果可供引用",
+    "作者呼籲未來需系統性整合相關證據，顯示目前證據尚不成熟"
+   ],
+   "cautions": [
+    "純機轉性綜述，無原始臨床數據，無法評估因果關係或臨床效益",
+    "涵蓋主題廣泛（菌群、營養、心臟腫瘤學），易流於理論推論而缺乏聚焦證據",
+    "摘要未說明文獻篩選方法，非系統性回顧，可能存在選擇性引用偏誤"
+   ],
+   "unassessable": [
+    "文獻篩選方法",
+    "證據等級分級",
+    "利益衝突",
+    "是否經同行系統性方法學審查"
+   ],
+   "context_verdict": "再確認",
+   "context": "與先前兩篇「營養與氧化壓力調節癌症」綜述性質相似，同屬機轉性敘述回顧、缺乏臨床試驗數據，再次確認此類主題目前仍停留於理論整合階段，尚無法轉化為臨床實務建議。",
+   "added_at": "2026-10-05T08:36:04+08:00"
+  },
+  {
+   "pmid": "42827773",
+   "title": "Neutrophil extracellular traps in colorectal cancer: a paradoxical nexus of tumor defense and disease progression",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1002/path.6378",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Ge Y, Kong W, Qian Y, Sun Y, Zhu G, Li J",
+   "abstract": "Neutrophil extracellular traps (NETs) are extracellular networks of decondensed chromatin and granular proteins generated by neutrophils in response to activating stimuli. Growing evidence indicates that NETs participate in colorectal cancer (CRC) development through their interactions with chronic inflammation, immune regulation, coagulation, and tumor progression. However, their biological effects vary across disease settings, and the regulatory mechanisms specific to CRC have not been fully clarified. This review examines the roles of NETs at different stages of CRC, including the transition from inflammation to cancer, primary tumor growth, metastatic spread, treatment resistance, and CRC-associated complications. We discuss CRC-related mechanisms of NET formation involving tumor-derived chemokines, stromal cells, microbial dysbiosis, oncogenic signals, and ROS-dependent pathways. Available evidence also suggests that NETs are not uniformly pro-tumorigenic. We therefore describe a \"paradoxical nexus\" in which their effects depend on tumor genotype, neutrophil phenotype, immune context, and the stimulus inducing NET formation. In addition, we review NET-related biomarkers, detection methods, and therapeutic approaches, while considering the evidence required for their clinical application and for context-specific treatment of CRC.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42687197",
+     "date": "2026-09-04",
+     "title_zh": "大腸直腸癌中的嗜中性球胞外誘捕網（NETs）：從發炎性致癌到肝轉移的情境依賴角色與治療靶點",
+     "score": 2,
+     "one_liner": "本綜述整理NETs在大腸直腸癌發炎性致癌、原發腫瘤及肝轉移中情境依賴的機轉角色，無原創臨床數據。",
+     "sim": 0.333
+    },
+    {
+     "pmid": "42687197",
+     "date": "2026-09-05",
+     "title_zh": "大腸直腸癌中的嗜中性球細胞外陷阱（NETs）：從發炎性致癌到肝轉移及治療靶點的情境依賴性角色",
+     "score": 2,
+     "one_liner": "本綜述整理NETs在CRC發炎致癌、肝轉移及免疫調節中情境依賴性角色的機轉證據，未提供原創臨床數據。",
+     "sim": 0.333
+    },
+    {
+     "pmid": "42601732",
+     "date": "2026-08-17",
+     "title_zh": "基於NET相關基因與氧化壓力相關訊號傳導之大腸直腸癌分子亞型與預後模型",
+     "score": 2,
+     "one_liner": "在TCGA-COADREAD（449例）與GSE39582（566例）CRC世代中，建立NET/氧化壓力相關分子分型與風險模型，驗證集AUC僅0.54-0.58。",
+     "sim": 0.214
+    }
+   ],
+   "title_zh": "大腸直腸癌中的嗜中性球胞外誘捕網：腫瘤防禦與疾病進展的矛盾交會點",
+   "abstract_zh": "嗜中性球胞外誘捕網（NETs）是嗜中性球在受刺激活化後產生的去凝縮染色質與顆粒蛋白所構成的細胞外網狀結構。愈來愈多證據顯示，NETs透過與慢性發炎、免疫調節、凝血及腫瘤進展的交互作用，參與大腸直腸癌（CRC）的發展。然而，其生物效應在不同疾病情境下有所差異，且CRC特有的調控機轉尚未完全釐清。本綜述檢視NETs在CRC不同階段的角色，包括從發炎到癌症的轉變、原發腫瘤生長、轉移擴散、治療抗藥性及CRC相關併發症。我們討論了涉及腫瘤衍生趨化因子、基質細胞、微生物菌叢失衡、致癌訊號及ROS依賴路徑的CRC相關NET形成機轉。現有證據也顯示NETs並非一致地促進腫瘤生成。因此我們描述了一種「矛盾交會」現象，其效應取決於腫瘤基因型、嗜中性球表現型、免疫情境及誘發NET形成的刺激物。此外，我們回顧了NET相關生物標記、偵測方法及治療策略，同時考量其臨床應用及CRC情境特異性治療所需的證據。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純機轉綜述，無原創臨床數據，對臨床決策無直接指引，僅供研究背景參考。",
+   "relevance": "低度相關",
+   "relevance_why": "屬基礎機轉綜述，無手術或治療介入數據，對日常外科臨床決策幫助有限。",
+   "novelty": "仍屬早期",
+   "one_liner": "本文綜述NETs在CRC發炎致癌、腫瘤生長、轉移及治療抗藥性中情境依賴的矛盾角色，無原創臨床數據。",
+   "action": "目前不需改變做法，此為機轉綜述無臨床試驗數據，僅供研究方向參考。",
+   "pico": {
+    "P": "無特定病人族群（文獻綜述）",
+    "I": "無（綜述NETs相關機轉文獻）",
+    "C": "無對照組",
+    "O": "無具體臨床outcome；聚焦NETs生物標記、偵測方法與治療潛力討論"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本文為機轉綜述，未提供可量化之臨床數據或統計結果"
+   ],
+   "cautions": [
+    "純綜述文章，無原創臨床試驗或世代研究數據支持",
+    "NETs效應呈現雙重矛盾性，機轉複雜，臨床應用證據尚不充分",
+    "未提供具體生物標記之敏感性/特異性或臨床驗證數據"
+   ],
+   "unassessable": [
+    "研究設計",
+    "樣本數",
+    "統計方法",
+    "利益衝突",
+    "臨床驗證數據"
+   ],
+   "context_verdict": "再確認",
+   "context": "與前三篇NET相關綜述/分子分型研究主題高度重疊，同樣聚焦NETs在CRC中的機轉角色，皆為低臨床實用性之基礎研究，再次確認此領域仍處機轉探索階段，尚無成熟臨床應用證據。",
+   "added_at": "2026-10-05T08:36:04+08:00"
+  },
+  {
+   "pmid": "42827850",
+   "title": "Integrated single-cell and bulk tissue analyses reveal distinct macrophage subtypes and a candidate prognostic signature in colorectal cancer: implications for tumor immune characterization",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1016/j.ijmedinf.2025.106170",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Chen H, Li Z, Lin Z, Wan L, Gong Y, Lv Z",
+   "abstract": "INTRODUCTION: Colorectal cancer (CRC) represents a major global health burden, marked by high morbidity and mortality rates that place a considerable strain on healthcare systems.\nMETHODS: This study leveraged integrated bioinformatic analyses, single-cell RNA sequencing, and clinical sample validation to investigate the role of macrophage-related genes (MRGs) in CRC, with the goal of deepening our understanding of the complex interplay within the tumor microenvironment.\nRESULTS: Differential expression analysis comparing CRC tumor and normal tissues in the TCGA-COADREAD cohort identified 1,962 differentially expressed genes (DEGs). In parallel, a predefined set of 1,719 MRGs was curated from public databases and the literature to define the macrophage-related biological context. By integrating the bulk transcriptomic DEGs, single-cell macrophage subtype-specific genes, and the predefined MRG set, we identified eight hub macrophage-related DEGs (MRDEGs) implicated in CRC. Functional enrichment analysis of these eight MRDEGs revealed significant roles in immune-regulatory processes, including leukocyte chemotaxis, eosinophil chemotaxis, chemokine receptor binding, and the chemokine signaling pathway. From these eight hub MRDEGs, we selected CCL24 and MMP12 via LASSO-Cox regression to construct a prognostic risk model. Immune infiltration analysis using CIBERSORT revealed significant differences (p < 0.05) in the abundance of nine immune cell types (including M0/M2 Macrophages, CD8+ T cells, T follicular helper cells, regulatory T cells (Tregs), memory B cells, monocytes, eosinophils, and neutrophils) between the risk groups defined by this macrophage-related signature. Drug sensitivity analysis further revealed that the high-risk group was significantly less responsive to sorafenib (p < 0.05). The model provides candidate molecular clues for further investigation of the CRC immune microenvironment and prognostic stratification related to macrophage biology. We further performed experimental validation of the differentially expressed genes using clinical CRC samples and assessed their expression at both the transcriptional and protein levels.\nDISCUSSION: This study provides a candidate prognostic stratification model that requires further validation in independent cohorts and prospective studies, offering a macrophage-related prognostic clue for future investigations.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42601732",
+     "date": "2026-08-17",
+     "title_zh": "基於NET相關基因與氧化壓力相關訊號傳導之大腸直腸癌分子亞型與預後模型",
+     "score": 2,
+     "one_liner": "在TCGA-COADREAD（449例）與GSE39582（566例）CRC世代中，建立NET/氧化壓力相關分子分型與風險模型，驗證集AUC僅0.54-0.58。",
+     "sim": 0.237
+    },
+    {
+     "pmid": "42358991",
+     "date": "2026-06-26",
+     "title_zh": "整合單細胞與空間轉錄體學揭示大腸直腸癌免疫景觀及NKT-Th1特徵",
+     "score": 2,
+     "one_liner": "在整合單細胞、空間轉錄體與九個CRC隊列中，發現NKT-Th1相關基因評分（NTRG）與存活及免疫治療反應相關，但屬探索性生物標記研究。",
+     "sim": 0.188
+    },
+    {
+     "pmid": "42433376",
+     "date": "2026-07-11",
+     "title_zh": "IL21主要由CXCL13相關CD4+ T細胞亞群產生並形塑大腸直腸癌免疫微環境",
+     "score": 2,
+     "one_liner": "利用單細胞定序、組織染色與小鼠模型，發現大腸直腸癌中CXCL13+CD4+T細胞為IL21主要來源，並影響腫瘤免疫微環境相關基因表現。",
+     "sim": 0.163
+    }
+   ],
+   "title_zh": "整合單細胞與大量組織分析揭示大腸直腸癌中不同巨噬細胞亞型及候選預後特徵：對腫瘤免疫特徵化之意義",
+   "abstract_zh": "前言：大腸直腸癌（CRC）是全球重大健康負擔，具高發病率與死亡率，對醫療系統造成相當大的壓力。方法：本研究利用整合生物資訊分析、單細胞RNA定序與臨床樣本驗證，探討巨噬細胞相關基因（MRGs）在CRC中的角色，以深入了解腫瘤微環境中的複雜交互作用。結果：比較TCGA-COADREAD世代中CRC腫瘤組織與正常組織的差異表現分析，鑑定出1,962個差異表現基因（DEGs）。同時，從公開資料庫與文獻整理出預先定義的1,719個MRGs，以界定巨噬細胞相關的生物學背景。整合大量轉錄體DEGs、單細胞巨噬細胞亞型特異性基因與預先定義的MRG集，鑑定出八個與CRC相關的核心巨噬細胞相關DEGs（MRDEGs）。這八個MRDEGs的功能富集分析顯示其在免疫調節過程中具重要角色，包括白血球化學趨化、嗜酸性球化學趨化、趨化因子受體結合及趨化因子訊號傳導路徑。從這八個核心MRDEGs中，透過LASSO-Cox回歸選出CCL24與MMP12建構預後風險模型。使用CIBERSORT進行免疫浸潤分析顯示，風險組間（由此巨噬細胞相關特徵定義）在九種免疫細胞類型（包括M0/M2巨噬細胞、CD8+ T細胞、濾泡輔助T細胞、調節性T細胞（Tregs）、記憶性B細胞、單核細胞、嗜酸性球及嗜中性球）的豐度上存在顯著差異（p < 0.05）。藥物敏感性分析further顯示高風險組對sorafenib的反應顯著較差（p < 0.05）。該模型為進一步研究與巨噬細胞生物學相關的CRC免疫微環境及預後分層提供候選分子線索。我們further使用臨床CRC樣本對差異表現基因進行實驗驗證，並評估其在轉錄層次與蛋白層次的表現。討論：本研究提供一個候選預後分層模型，需在獨立世代與前瞻性研究中進一步驗證，為未來研究提供巨噬細胞相關的預後線索。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "純探索性生物資訊/生物標記研究，無臨床結果數據、無獨立世代驗證，對外科臨床決策無直接實用性。",
+   "relevance": "低度相關",
+   "relevance_why": "屬於基礎轉譯研究（生物標記與分子分型），非外科介入或臨床治療決策研究。",
+   "novelty": "仍屬早期",
+   "one_liner": "在TCGA-COADREAD等CRC世代中，整合單細胞與大量轉錄體分析建立CCL24/MMP12巨噬細胞預後模型，風險組間9種免疫細胞與sorafenib敏感性有差異(p<0.05)。",
+   "action": "目前不需改變做法，此為探索性分子分型研究，未經獨立世代驗證，無法用於臨床決策。",
+   "pico": {
+    "P": "TCGA-COADREAD CRC世代（樣本數未具體標明）及臨床驗證樣本",
+    "I": "巨噬細胞相關基因表現分析，以LASSO-Cox建構CCL24/MMP12預後風險模型",
+    "C": "高風險組 vs 低風險組（無傳統對照組）",
+    "O": "主要：預後風險分層；次要：免疫細胞浸潤差異、藥物敏感性（sorafenib）"
+   },
+   "effects": [],
+   "key_numbers": [
+    "9種免疫細胞浸潤在高低風險組間有顯著差異(p<0.05)，但未提供具體百分比數值",
+    "高風險組對sorafenib反應顯著較差(p<0.05)，無絕對反應率數據可供判讀",
+    "鑑定出8個核心巨噬細胞相關DEGs，最終篩選CCL24與MMP12建模"
+   ],
+   "cautions": [
+    "純探索性生物標記研究，僅報告p值，未提供生存率、HR或信賴區間等臨床可用數據",
+    "預後模型(CCL24/MMP12)未經獨立世代驗證，作者自述為其限制",
+    "藥物敏感性為電腦計算預測結果，非臨床試驗數據，不可外推至實際用藥決策"
+   ],
+   "unassessable": [
+    "臨床樣本數與分期資訊",
+    "追蹤時間與生存數據",
+    "統計方法細節",
+    "利益衝突",
+    "試驗註冊"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "與先前看過的NET基因分型、NKT-Th1免疫景觀、IL21/CXCL13等CRC免疫微環境生物標記研究同屬一類早期探索性分子研究，本篇將焦點延伸至巨噬細胞相關基因與CCL24/MMP12預後模型，但同樣缺乏臨床驗證，對外科決策無直接影響。",
+   "added_at": "2026-10-05T08:36:04+08:00"
+  },
+  {
+   "pmid": "42829521",
+   "title": "Simultaneous Quantification of Vedolizumab, Ustekinumab, and Infliximab in Human Serum by LC-MS/MS: Application to Therapeutic Drug Monitoring in Inflammatory Bowel Disease",
+   "journal": "Drug Des Devel Ther",
+   "journal_full": "Drug design, development and therapy",
+   "issn": "1177-8881",
+   "issn_linking": "1177-8881",
+   "impact_factor": 6.1,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.3390/ijms241210379",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Zhang Y, Wang N, Zheng W, Liu R, Li L, Zhao X",
+   "abstract": "PURPOSE: With the expanding use of therapeutic monoclonal antibodies (mAbs) in inflammatory bowel disease (IBD), there is a critical need for robust, multiplex analytical tools to support therapeutic drug monitoring (TDM) and pharmacokinetic studies. This study aimed to develop and validate a rapid and sensitive liquid chromatography-tandem mass spectrometry (LC-MS/MS) method for the simultaneous quantification of infliximab (IFX), vedolizumab (VDZ), and ustekinumab (UST) in human serum.\nPATIENTS AND METHODS: A universal immunocapture strategy utilizing Protein G magnetic beads was used to enrich total IgG from human serum. Samples were subjected to tryptic digestion and analyzed in multiple reaction monitoring (MRM) mode, with rituximab as a full-process internal standard. Method validation was performed in accordance with regulatory guidelines, evaluating linearity, precision, accuracy, selectivity, recovery, matrix effect, and stability. The validated method was subsequently applied to residual serum samples from IBD patients undergoing treatment.\nRESULTS: The method demonstrated excellent linearity (R2>0.99) over the concentration ranges of 0.5-100 μg/mL for IFX and UST, and 1-200 μg/mL for VDZ. Total precision ranged from 1.1% to 14.9%, and accuracy ranged from -12.1% to 14.5%. Validation parameters, including selectivity, carryover, recovery, matrix effects, dilution integrity, and stability, were all within acceptable criteria. Analysis of the 37 clinical samples revealed marked inter-individual variability in drug concentrations. However, the absence of key covariates (eg, body weight and dosing history) precluded a formal pharmacokinetic analysis or attribution of this variability to specific clinical factors.\nCONCLUSION: The developed LC-MS/MS method provides a practical, specific, and reproducible tool for the multiplex quantification of therapeutic mAbs. Based on a preliminary exploratory study of 37 patient samples, this method demonstrates analytical feasibility and serves as a promising tool for pharmacokinetic research; however, its definitive clinical applicability and readiness for routine TDM require further confirmation through cross-platform comparison, incurred sample reanalysis, and external validation in larger cohorts.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42667246",
+     "date": "2026-08-31",
+     "title_zh": "銜接化學發光免疫分析法與液相層析串聯質譜法於Infliximab監測之落差：方法學驗證與臨床可比較性研究",
+     "score": 3,
+     "one_liner": "在52份小兒IBD血漿樣本中，比較CLIA與LC-MS/MS測量Infliximab濃度，發現相關性強（r=0.91）但平均相對偏差達67.9%、分類一致性僅52%。",
+     "sim": 0.303
+    },
+    {
+     "pmid": "42609342",
+     "date": "2026-08-19",
+     "title_zh": "優化貝西氏症（Behçet's disease）抗TNF治療：治療藥物監測（TDM）的角色",
+     "score": 2,
+     "one_liner": "本文為綜述，討論貝西氏症患者使用anti-TNF治療時導入治療藥物監測（TDM）的理論基礎與現有證據，尚無貝西氏症專屬谷濃度標準。",
+     "sim": 0.154
+    },
+    {
+     "pmid": "42609342",
+     "date": "2026-08-20",
+     "title_zh": "優化貝西氏症（Behçet's disease）的Anti-TNF治療：治療性藥物監測（TDM）的角色",
+     "score": 2,
+     "one_liner": "本文為綜述，討論在貝西氏症anti-TNF治療中導入TDM（谷濃度、抗藥抗體）的理論基礎，惟尚缺乏疾病特異性驗證閾值。",
+     "sim": 0.154
+    }
+   ],
+   "title_zh": "以LC-MS/MS同時定量人類血清中Vedolizumab、Ustekinumab與Infliximab：應用於發炎性腸道疾病之治療藥物監測",
+   "abstract_zh": "目的：隨著治療性單株抗體（mAbs）在發炎性腸道疾病（IBD）中應用日益擴大，迫切需要穩健、多重分析工具以支援治療藥物監測（TDM）與藥物動力學研究。本研究旨在開發並驗證一種快速、靈敏的液相層析串聯質譜法（LC-MS/MS），用於同時定量人類血清中的infliximab（IFX）、vedolizumab（VDZ）與ustekinumab（UST）。患者與方法：採用Protein G磁珠之通用免疫捕獲策略，從人類血清中富集總IgG。樣本經胰蛋白酶消化後，以多重反應監測（MRM）模式進行分析，並以rituximab作為全流程內標。方法驗證依照法規指引進行，評估線性、精密度、準確度、選擇性、回收率、基質效應與穩定性。驗證後之方法隨後應用於接受治療之IBD患者的剩餘血清樣本。結果：該方法在IFX與UST濃度範圍0.5-100 μg/mL、VDZ濃度範圍1-200 μg/mL內展現優異線性（R2>0.99）。總精密度範圍為1.1%至14.9%，準確度範圍為-12.1%至14.5%。驗證參數包括選擇性、殘留、回收率、基質效應、稀釋完整性與穩定性均符合可接受標準。對37份臨床樣本的分析顯示藥物濃度存在明顯個體間差異。然而，由於缺乏關鍵共變量（如體重與給藥紀錄），無法進行正式藥物動力學分析或將此變異歸因於特定臨床因素。結論：所開發之LC-MS/MS方法提供了一種實用、specific且可重現的多重定量治療性單株抗體工具。基於37份患者樣本之初步探索性研究，此方法展現分析可行性，可作為藥物動力學研究之有潛力工具；然而，其確切臨床適用性與常規TDM之準備程度，仍需透過跨平台比較、incurred sample reanalysis及更大規模世代之外部驗證進一步確認。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "此為分析方法學驗證研究（LC-MS/MS測定法），非臨床試驗，且主題為IBD藥物監測而非大腸直腸外科介入，對臨床實務無直接參考價值。",
+   "relevance": "低度相關",
+   "relevance_why": "此為IBD生物製劑血中濃度定量方法學研究，與大腸直腸外科手術或臨床決策無直接關聯。",
+   "novelty": "仍屬早期",
+   "one_liner": "開發LC-MS/MS同時定量IFX、VDZ、UST三種生物製劑的方法，並於37份IBD病人血清樣本展現分析可行性，但缺乏共變量無法做PK分析。",
+   "action": "目前不需改變做法：此為檢驗方法學驗證研究，非外科介入或臨床試驗，與大腸直腸外科日常決策無關。",
+   "pico": {
+    "P": "37份接受治療之IBD患者剩餘血清樣本（方法驗證部分無病人族群，為實驗室樣本）",
+    "I": "LC-MS/MS多重免疫捕獲質譜法同時定量IFX、VDZ、UST",
+    "C": "無對照組（方法學驗證研究，無其他平台之頭對頭比較）",
+    "O": "主要：方法學效能指標（線性R2、精密度、準確度、回收率、基質效應、穩定性）；次要：37例臨床樣本藥物濃度之個體間變異"
+   },
+   "effects": [],
+   "key_numbers": [
+    "線性佳：R2>0.99（IFX/UST 0.5-100 μg/mL，VDZ 1-200 μg/mL）",
+    "總精密度1.1%-14.9%，準確度-12.1%至14.5%，均符合法規可接受範圍",
+    "37例臨床樣本濃度變異大，但因缺乏體重、給藥史等共變量，無法做正式PK分析"
+   ],
+   "cautions": [
+    "樣本數僅37例且無共變量資料，作者自承無法做PK分析或歸因臨床因素，結論僅止於分析可行性",
+    "無跨平台（如ELISA）之頭對頭比較，無法確認與現行臨床TDM檢驗之一致性",
+    "尚未進行incurred sample reanalysis及外部大型世代驗證，臨床適用性未定，作者本身亦明確指出此限制"
+   ],
+   "unassessable": [
+    "試驗註冊",
+    "利益衝突",
+    "成本分析",
+    "與現行臨床TDM平台之可比較性"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "與前作1（CLIA vs LC-MS/MS測定Infliximab之方法學驗證）同屬TDM分析方法學主題，但本篇進一步擴展為同時定量三種生物製劑（IFX、VDZ、UST）的多重LC-MS/MS方法，補上了多重定量平台的開發，惟同樣缺乏跨平台一致性驗證。",
+   "added_at": "2026-10-05T08:36:04+08:00"
+  },
+  {
+   "pmid": "42828597",
+   "title": "Beyond total operative time: phase-specific robotic efficiency and postoperative morbidity following colorectal resection - a multisurgeon cohort study",
+   "journal": "J Robot Surg",
+   "journal_full": "Journal of robotic surgery",
+   "issn": "1863-2491",
+   "issn_linking": "1863-2483",
+   "impact_factor": 4.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1111/codi.13210",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Amin M, Abosheisha M, Salama M, Lim M",
+   "abstract": "Robotic colorectal surgery is associated with longer operative times than conventional laparoscopic approaches, yet total operative duration is a composite measure comprising fundamentally different procedural components. It remains unknown as to whether postoperative morbidity is attributable to overall operative length or to specific phases of the robotic procedure. A retrospective single-centre cohort study at York and Scarborough NHS Foundation Trust, UK, included consecutive robotic colorectal resections performed by eight consultant surgeons (Surgeons A-H). Two prespecified cohorts were analysed: Cohort A (primary, N = 490) with complete knife-to-skin and case-completion timestamps; Cohort B (nested, N = 138) with complete intraoperative phase timestamps across six predefined phases. The primary outcome was a composite comprising prespecified postoperative complications, readmission and return to theatre within 30 days, plus all-cause mortality within 90 days. Multivariable binary logistic regression was used to examine associations with total operative duration; restricted cubic splines were used as an exploratory assessment of functional form. In Cohort A (N = 490), the primary composite endpoint occurred in 113 patients (23.1%). Median total operative time was 354 min (IQR 270-442). On multivariable analysis, each additional 30 min of operative duration was independently associated with increased odds of the composite endpoint (adjusted OR 1.08, 95% CI 1.01-1.17, p = 0.036). Greater within-programme cumulative case experience was associated with lower odds of morbidity (OR 0.82 per 10 additional cases, 95% CI 0.73-0.92, p < 0.001). In Cohort B (N = 138; 41 events), no individual operative phase reached statistical significance in the originally fitted adjusted phase models; these phase-level analyses are exploratory and should not be interpreted as evidence that any individual phase is unrelated to morbidity. A longer total operative duration was independently associated with our composite morbidity endpoints after adjustment for age, within-programme case experience, operating surgeon and procedure type. Within the smaller nested phase-timing cohort, no individual phase revealed a statistically significant independent association. These phase-level findings are exploratory and do not establish whether console or non-console components mediate the association observed with total operative duration.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42400183",
+     "date": "2026-07-04",
+     "title_zh": "手術時間對高齡大腸直腸癌病人術後嚴重併發症之影響：多中心回溯性研究",
+     "score": 5,
+     "one_liner": "在1316名≥80歲大腸直腸癌手術病人中，比較手術時間≥250分與<250分，發現≥250分術後嚴重併發症風險增加（OR 1.966）。",
+     "sim": 0.189
+    },
+    {
+     "pmid": "42356163",
+     "date": "2026-06-26",
+     "title_zh": "累積外科醫師經驗與左側及節段性大腸直腸切除併一次性吻合術後吻合口滲漏之關係：單中心七年回溯性研究",
+     "score": 4,
+     "one_liner": "在315名左側/節段性大腸直腸切除病人中，比較不同累積手術經驗之外科醫師，發現經驗與吻合口滲漏無顯著關聯（OR 1.12，p=0.597）。",
+     "sim": 0.171
+    },
+    {
+     "pmid": "42667338",
+     "date": "2026-08-30",
+     "title_zh": "機器手臂平台轉換對大腸直腸癌手術短期預後之影響",
+     "score": 3,
+     "one_liner": "在121例大腸直腸癌機器手臂手術中（Si組49例 vs X/Xi組72例），發現新平台組多象限手術增加、主刀端時間稍長（p=0.05），但總手術時間、住院天數與術後併發症相當。",
+     "sim": 0.165
+    }
+   ],
+   "title_zh": "超越總手術時間：大腸直腸機器手臂手術各階段效率與術後併發症之多外科醫師世代研究",
+   "abstract_zh": "機器手臂大腸直腸手術的手術時間較傳統腹腔鏡手術長，然而總手術時間是由性質截然不同的各個流程組成的複合指標。目前尚不清楚術後併發症是歸因於整體手術時長，還是機器手臂手術中特定階段所致。本研究為英國York and Scarborough NHS Foundation Trust之單中心回溯性世代研究，納入由八位主治醫師（醫師A-H）連續執行之機器手臂大腸直腸切除手術。分析兩個預先設定的世代：世代A（主要分析，N=490）具完整從劃刀至結束案例之時間戳記；世代B（巢狀分析，N=138）具六個預先定義手術階段之完整術中時間戳記。主要結果為複合指標，包含預先設定之術後併發症、30天內再入院與返回手術室，加上90天內全因死亡率。採用多變項二元邏輯迴歸分析與總手術時間之相關性；以限制性立方樣條作為功能形式之探索性評估。在世代A（N=490）中，主要複合終點發生於113名病人（23.1%）。中位總手術時間為354分鐘（IQR 270-442）。多變項分析顯示，每增加30分鐘手術時間，與複合終點勝算增加獨立相關（調整後OR 1.08，95% CI 1.01-1.17，p=0.036）。計畫內累積手術經驗越多，與較低的併發症勝算相關（每增加10例OR 0.82，95% CI 0.73-0.92，p<0.001）。在世代B（N=138；41例事件）中，原始校正階段模型顯示無任何單一手術階段達統計顯著；這些階段層級分析屬探索性，不應解讀為任何個別階段與併發症無關之證據。調整年齡、計畫內手術經驗、主刀醫師與術式類型後，較長的總手術時間與本研究之複合併發症終點獨立相關。在較小的巢狀階段計時世代中，無任何個別階段顯示統計上顯著之獨立相關性。這些階段層級發現屬探索性，並未確立主刀端或非主刀端成分是否為總手術時間與併發症相關性之中介因素。",
+   "evidence_level": "回溯性研究",
+   "score": 5,
+   "score_reason": "單中心回溯性研究、方法學尚可但效應量不大（CI接近1），階段層級分析樣本過小而為陰性結果，對臨床決策的即時影響有限。",
+   "relevance": "高度相關",
+   "relevance_why": "直接探討機器手臂大腸直腸手術的手術時間與術後併發症關係，對從事機器手臂手術的外科醫師具實務參考價值。",
+   "novelty": "再確認已知",
+   "one_liner": "於490例機器手臂大腸直腸手術病人中，手術時間每增30分鐘，複合併發症風險上升（aOR 1.08），階段層級分析未達顯著。",
+   "action": "機器手臂手術宜留意總手術時間與累積經驗對併發症之影響；個別手術階段效應尚無定論，暫不需調整分期策略。",
+   "pico": {
+    "P": "英國單中心連續接受機器手臂大腸直腸切除手術病人：世代A N=490，世代B（巢狀）N=138",
+    "I": "較長總手術時間（世代A）、特定手術階段時長（世代B）",
+    "C": "較短總手術時間；不同階段時長（連續變項分析，非二分組對照）",
+    "O": "主要：30天內術後併發症、再入院、返回手術室及90天全因死亡之複合終點；次要：各階段與複合終點之獨立相關性"
+   },
+   "effects": [],
+   "key_numbers": [
+    "複合併發症終點發生率 23.1%（113/490例）",
+    "手術時間每增30分鐘，複合終點勝算上升：aOR 1.08（95% CI 1.01-1.17，p=0.036）",
+    "累積手術經驗每增10例，併發症勝算下降：OR 0.82（95% CI 0.73-0.92，p<0.001）"
+   ],
+   "cautions": [
+    "主要結果為複合指標（併發症+再入院+返回手術室+死亡），異質事件合併恐掩蓋個別機轉差異",
+    "世代B僅138例、41事件，階段層級分析為探索性且樣本過小，陰性結果可能為偽陰性而非真正無關",
+    "aOR 1.08之95% CI下限僅1.01，接近無效值，單中心回溯性設計亦存在殘餘干擾因子風險"
+   ],
+   "unassessable": [
+    "盲法",
+    "ITT分析",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "選樣偏誤之具體程度"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "與前作1（手術時間≥250分與高齡病人嚴重併發症OR 1.966）方向一致，本篇以連續變項（每30分鐘aOR 1.08）在一般機器手臂族群中再確認手術時間與併發症的關聯。與前作2（累積經驗與吻合口滲漏無關）不同，本篇發現累積經驗與複合併發症終點顯著相關，但兩者所測結果（特定吻合口滲漏 vs. 複合終點）不同，未必真正矛盾。",
+   "added_at": "2026-10-05T08:36:04+08:00"
+  },
+  {
+   "pmid": "42828425",
+   "title": "Limited English Proficiency and Self-Reported Lifetime Use of Colorectal Cancer Screening Tests Among Asian Origin Groups in California: A Cross-Sectional Study",
+   "journal": "Cancer Control",
+   "journal_full": "Cancer control : journal of the Moffitt Cancer Center",
+   "issn": "1526-2359",
+   "issn_linking": "1073-2748",
+   "impact_factor": 3.1,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1177/10732748261494374",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Tsai M, Coughlin S, Lee A, Lee M, Zhu H, Wang X",
+   "abstract": "IntroductionAsian Americans have lower colorectal cancer (CRC) screening rates compared with other racial/ethnic groups in the United States (U.S.). Moreover, individuals with limited English proficiency (LEP) face additional challenges in understanding and accessing healthcare. We examined the association between seven Asian origin groups and lifetime use of CRC screening [home fecal occult blood test (FOBT) and endoscopy], stratified by LEP status.MethodsData from the 2021-2022 California Health Interview Survey were analyzed (n=23,785 respondents aged 50-75 years). Asian origin groups (Chinese, Filipino, Japanese, Korean, South Asian, Vietnamese, Others) and LEP were exposures of interest. Ever having lifetime use of FOBT and endoscopy screening were outcomes of interest. Weighted multivariable logistic regression was performed.ResultsThe highest prevalence of FOBT screening use were observed in Vietnamese respondents with LEP (57.6%); however, the lowest prevalence of FOBT screening use was found among Filipino (16.6%) respondents with LEP (p-value=0.014). In adjusted analysis, Chinese and Filipino with LEP had 50% (OR, 0.50; 95%, 0.28-0.90) and 90% (OR, 0.10; 95%, 0.03-0.27) lower odds of having lifetime FOBT use, respectively. For those without LEP, South Asians had 46% (OR, 0.54; 95%, 0.38-0.77) lower odds of having lifetime FOBT use, and Chinese and Korean had 35% (OR, 0.65; 95%, 0.51-0.84) and 52% (OR, 0.48; 95%, 0.33-0.69) lower odds of having lifetime endoscopy use, respectively.ConclusionFOBT screening disparities are evident among Chinese and Filipino Americans with LEP. These findings highlight the complexity of CRC screening disparities across Asian origin groups and suggest the need for further investigation.\nAsian Americans in the United States are less likely to receive recommended colorectal cancer (CRC) screening compared to other racial and ethnic groups. People who have limited English proficiency (LEP) may face additional barriers, such as difficulty understanding healthcare information, communicating with healthcare providers, or navigating the healthcare system. This study examined how CRC screening varies across seven Asian origin groups in California, and whether language proficiency affects screening use. We analyzed data from the 2021–2022 California Health Interview Survey among eligible adults aged 50–75. The study looked at two types of CRC screening: stool-based tests (fecal occult blood test; FOBT) and endoscopy procedures. We compared screening rates across Asian ethnic groups and by whether individuals had LEP. Among individuals with LEP, Vietnamese participants had the highest rate of FOBT screening (57.6%), while Filipino participants had the lowest (16.6%). Further, Chinese individuals with LEP were about 50% less likely, and Filipino individuals with LEP were about 90% less likely, to have received FOBT screening compared to others. Among individuals without LEP, South Asians were less likely to use FOBT, while Chinese and Korean participants were less likely to have undergone endoscopy. Overall, the study highlights significant disparities in CRC screening use among Asian origin groups, especially among those with LEP. These findings suggest that language barriers play an important role in access to preventive healthcare for CRC.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42425152",
+     "date": "2026-07-10",
+     "title_zh": "多標靶糞便DNA檢測與糞便免疫化學檢測之比較：以種族與族裔分層之全國性後續大腸鏡追蹤評估",
+     "score": 4,
+     "one_liner": "在362,646名美國陽性糞便篩檢受試者中，比較mt-sDNA與FIT/FOBT，發現後續大腸鏡依從性77.1% vs 45.1%，各種族皆同。",
+     "sim": 0.199
+    },
+    {
+     "pmid": "42425152",
+     "date": "2026-07-12",
+     "title_zh": "多標靶糞便DNA檢測與糞便免疫化學檢測之比較：以種族與族裔分層之全國性後續大腸鏡追蹤評估",
+     "score": 4,
+     "one_liner": "在362,646名美國陽性糞便篩檢受試者中，比較mt-sDNA與FIT/FOBT，發現後續大腸鏡依從性77.1% vs 45.1%，各種族皆同。",
+     "sim": 0.199
+    },
+    {
+     "pmid": "42821506",
+     "date": "2026-10-04",
+     "title_zh": "歐洲郵寄糞便免疫化學檢測（FIT）計畫與大腸直腸癌篩檢教育程度不平等之差異中之差異分析",
+     "score": 3,
+     "one_liner": "在24個歐洲國家20萬餘名50-74歲受訪者中，比較有無全國郵寄FIT計畫，終生篩檢參與率增加28.3個百分點。",
+     "sim": 0.157
+    }
+   ],
+   "title_zh": "英語能力受限與加州亞裔族群自述終生大腸直腸癌篩檢使用率之橫斷面研究",
+   "abstract_zh": "前言：相較於美國其他種族/族裔，亞裔美國人的大腸直腸癌（CRC）篩檢率較低。此外，英語能力受限（LEP）者在理解與使用醫療資源上面臨額外挑戰。本研究檢視七個亞裔起源族群與終生CRC篩檢使用（居家糞便潛血檢查FOBT及內視鏡）之關聯，並依LEP狀態分層分析。\n方法：分析2021-2022年加州健康訪談調查資料（受訪者n=23,785，年齡50-75歲）。暴露變項為亞裔起源族群（華人、菲律賓人、日本人、韓國人、南亞人、越南人、其他）與LEP狀態。結果變項為終生FOBT與內視鏡篩檢使用情形。採用加權多變量邏輯迴歸分析。\n結果：LEP越南裔受訪者FOBT篩檢盛行率最高（57.6%）；LEP菲律賓裔受訪者盛行率最低（16.6%）（p值=0.014）。校正分析顯示，LEP華裔與菲律賓裔終生FOBT使用的勝算分別低50%（OR 0.50，95% CI 0.28-0.90）與90%（OR 0.10，95% CI 0.03-0.27）。在無LEP者中，南亞裔終生FOBT使用勝算低46%（OR 0.54，95% CI 0.38-0.77）；華裔與韓裔終生內視鏡使用勝算分別低35%（OR 0.65，95% CI 0.51-0.84）與52%（OR 0.48，95% CI 0.33-0.69）。\n結論：FOBT篩檢差異在LEP華裔與菲律賓裔美國人中明顯存在。此發現凸顯亞裔起源族群間CRC篩檢差異的複雜性，建議需進一步研究。",
+   "evidence_level": "橫斷面",
+   "score": 2,
+   "score_reason": "方法學為自述式橫斷面調查，無法推論因果，且研究族群與議題（美國亞裔篩檢行為差異）對台灣臨床實務幾無直接應用價值。",
+   "relevance": "低度相關",
+   "relevance_why": "此為美國特定移民族群的篩檢行為流行病學調查，非手術介入，與台灣大腸直腸外科日常診療決策無直接關聯。",
+   "novelty": "再確認已知",
+   "one_liner": "在加州23,785名50-75歲亞裔美籍受訪者中，依LEP狀態分層比較七個亞裔族群，發現LEP菲律賓裔FOBT終生使用率最低(16.6%)、越南裔最高(57.6%)。",
+   "action": "目前不需改變做法；此為美國特定族群篩檢政策與公衛研究，與台灣大腸直腸外科臨床處置無直接相關。",
+   "pico": {
+    "P": "2021-2022年加州健康訪談調查，50-75歲亞裔美籍受訪者（n=23,785）",
+    "I": "七個亞裔起源族群分類（華、菲、日、韓、南亞、越、其他）及LEP狀態",
+    "C": "各族群與LEP狀態間相互比較，無單一介入對照組",
+    "O": "主要：終生FOBT與內視鏡篩檢使用率；次要：依族群與LEP分層之校正勝算比"
+   },
+   "effects": [
+    {
+     "outcome": "LEP族群終生FOBT篩檢使用率",
+     "ok": true,
+     "i_label": "LEP越南裔",
+     "c_label": "LEP菲律賓裔",
+     "i_rate": 57.6,
+     "c_rate": 16.6,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 41.0,
+     "benefit": true,
+     "event_bad": false,
+     "nnt": 2,
+     "kind": "NNT",
+     "note": ""
+    }
+   ],
+   "key_numbers": [
+    "LEP越南裔FOBT使用率57.6% vs LEP菲律賓裔16.6%，差距達41個百分點 (p=0.014)",
+    "LEP華裔終生FOBT使用勝算降低50% (OR 0.50, 95% CI 0.28-0.90)",
+    "LEP菲律賓裔終生FOBT使用勝算降低90% (OR 0.10, 95% CI 0.03-0.27)"
+   ],
+   "cautions": [
+    "橫斷面自述式資料，僅能呈現關聯，無法確認因果關係，且自述篩檢史易有回憶偏誤",
+    "多重次族群×多篩檢方式×LEP狀態之比較未提及多重檢定校正，部分結果可能為偽陽性",
+    "未說明各族群LEP亞組實際樣本數，部分信賴區間寬（如OR 0.10, CI 0.03-0.27），估計值不穩定"
+   ],
+   "unassessable": [
+    "問卷回應率/失訪率",
+    "校正模型中納入哪些共變項",
+    "試驗/調查註冊",
+    "利益衝突",
+    "因果機制或介入後續追蹤"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "先前閱讀的論文聚焦於糞便篩檢工具（mt-sDNA vs FIT）依從性之種族分層比較及歐洲郵寄FIT計畫成效，與本篇針對美國亞裔內部次族群及語言能力對終生篩檢使用率影響之橫斷面調查，研究族群、介入與結果指標均不同，故列為無相關前作。",
+   "added_at": "2026-10-05T08:36:04+08:00"
+  },
+  {
+   "pmid": "42827381",
+   "title": "Pattern-Based P53 Immunohistochemistry Predicts Recurrence in Colorectal Liver Metastases Without Complete Pathologic Response After Neoadjuvant Chemotherapy",
+   "journal": "Cancer Rep (Hoboken)",
+   "journal_full": "Cancer reports (Hoboken, N.J.)",
+   "issn": "2573-8348",
+   "issn_linking": "2573-8348",
+   "impact_factor": 2.5,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1002/cnr2.70701",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Ho P, Nguyen D, Hao V, Tran G, Trung L, Van Hoang T",
+   "abstract": "BACKGROUND: Aberrant p53 expression may have prognostic significance in colorectal cancer; however, its role in patients with colorectal liver metastases (CRLM) who receive neoadjuvant chemotherapy but do not achieve pathological complete response (pCR) remains unclear.\nAIMS: We evaluated whether aberrant p53 expression assessed by immunohistochemistry (IHC) predicts recurrence-free survival (RFS) in patients with CRLM receiving neoadjuvant FOLFOXIRI followed by resection without achieving pCR.\nMETHODS AND RESULTS: A prospective cohort study was conducted on 39 patients with CRLM who met the inclusion criteria. All patients received neoadjuvant chemotherapy with the FOLFOXIRI regimen. Following surgical resection of both primary colorectal tumors and liver metastases, none of the patients achieved pCR. Immunohistochemistry was performed to assess p53 expression in resected liver metastasis specimens using a pattern-based interpretation model. RFS was analyzed using univariate and multivariate Cox proportional hazards models. Aberrant p53 expression was observed in 20 patients (51.3%). In univariate analysis, aberrant p53 expression (HR = 2.20; 95% CI: 1.02-4.71; p = 0.043), total tumor size > 6 cm (HR = 5.62; 95% CI: 2.31-13.68; p < 0.001), number of liver metastases > 4 (HR = 4.41; 95% CI: 1.59-12.26; p = 0.004), and positive surgical margin (HR = 2.62; 95% CI: 1.16-5.91; p = 0.021) were significantly associated with recurrence. In multivariate analysis, aberrant p53 expression (HR = 3.78; 95% CI: 1.56-9.15; p = 0.003) and total tumor size > 6 cm (HR = 5.23; 95% CI: 1.56-17.55; p = 0.007) remained independent prognostic factors for shorter RFS.cnr270701_RedLinePDF.\nCONCLUSION: Aberrant p53 expression, as assessed by immunohistochemistry on post-neoadjuvant chemotherapy specimens, is an independent prognostic factor for early recurrence in patients with CRLM who did not achieve pCR. Together with total tumor size, aberrant p53 expression may serve as a useful marker for risk stratification and personalized postoperative treatment strategies in this high-risk patient population.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42470074",
+     "date": "2026-07-20",
+     "title_zh": "圍術期預後營養指數(PNI)動態變化預測大腸直腸癌肝轉移切除術後之復發與存活",
+     "score": 5,
+     "one_liner": "在108名CRLM肝切除病人中，比較術後PNI較術前下降(低組)與未下降(高組)，發現低組復發HR 3.788、死亡HR 4.484。",
+     "sim": 0.231
+    },
+    {
+     "pmid": "42379759",
+     "date": "2026-07-01",
+     "title_zh": "手術因子與術後免疫狀態對大腸直腸癌肝轉移切除後預後之影響",
+     "score": 4,
+     "one_liner": "在118名CRLM肝切除病人中，術後併發症、手術時間>300分、失血>320ml為獨立不良預後因子，術後LMR與生存相關。",
+     "sim": 0.226
+    },
+    {
+     "pmid": "42380904",
+     "date": "2026-07-01",
+     "title_zh": "大腸直腸肝轉移病人於全身性治療後，將手術延遲超過六週可降低術後併發症發生率，且無腫瘤學結果受損之證據",
+     "score": 4,
+     "one_liner": "在159名CRLM病人中，比較全身性治療後手術延遲≥42天與≤41天，發現CCI≥30發生率48.7% vs 31.3%（p=0.023），腫瘤學結果無差異。",
+     "sim": 0.2
+    }
+   ],
+   "title_zh": "新輔助化療後未達病理完全反應之大腸直腸癌肝轉移患者：基於型態之P53免疫組織化學染色可預測復發",
+   "abstract_zh": "背景：異常p53表現可能在大腸直腸癌中具預後意義；然而，在接受新輔助化療但未達病理完全反應（pCR）之大腸直腸癌肝轉移（CRLM）患者中，其角色尚不明確。目的：我們評估以免疫組織化學（IHC）評估之異常p53表現，是否能預測接受新輔助FOLFOXIRI化療後手術切除但未達pCR之CRLM患者的無復發存活（RFS）。方法與結果：本前瞻性世代研究納入39名符合條件之CRLM患者，所有患者均接受FOLFOXIRI新輔助化療方案。於原發大腸直腸腫瘤及肝轉移病灶手術切除後，無一患者達到pCR。對切除之肝轉移標本以基於型態之判讀模式進行p53表現IHC評估。使用單變量及多變量Cox比例風險模型分析RFS。20名患者（51.3%）出現異常p53表現。單變量分析顯示，異常p53表現（HR = 2.20；95% CI：1.02-4.71；p = 0.043）、腫瘤總大小>6公分（HR = 5.62；95% CI：2.31-13.68；p < 0.001）、肝轉移數目>4個（HR = 4.41；95% CI：1.59-12.26；p = 0.004）及手術邊緣陽性（HR = 2.62；95% CI：1.16-5.91；p = 0.021）均與復發顯著相關。多變量分析中，異常p53表現（HR = 3.78；95% CI：1.56-9.15；p = 0.003）及腫瘤總大小>6公分（HR = 5.23；95% CI：1.56-17.55；p = 0.007）仍為RFS較短之獨立預後因子。結論：以免疫組織化學評估新輔助化療後標本之異常p53表現，是未達pCR之CRLM患者早期復發的獨立預後因子。異常p53表現連同腫瘤總大小，可能作為此高風險患者群風險分層及個人化術後治療策略之有用標記。",
+   "evidence_level": "前瞻性世代",
+   "score": 4,
+   "score_reason": "單中心小樣本(n=39)前瞻性生物標記研究，結果具假說產生價值但缺乏外部驗證與標準化判讀，對臨床立即實用性有限。",
+   "relevance": "中度相關",
+   "relevance_why": "CRLM是大腸直腸外科常見處理族群，但本篇屬病理分子標記預後研究而非外科介入，對日常手術決策影響間接。",
+   "novelty": "仍屬早期",
+   "one_liner": "在39名未達pCR之CRLM新輔助FOLFOXIRI病人中，異常p53 IHC表現(51.3%)獨立預測較差RFS（多變量HR 3.78）。",
+   "action": "目前不需改變做法；p53 pattern-based IHC判讀未標準化、樣本小，暫作風險分層參考需更大規模驗證後再考慮常規送驗。",
+   "pico": {
+    "P": "39名CRLM患者，接受新輔助FOLFOXIRI化療後手術切除原發腫瘤及肝轉移，均未達病理完全反應(pCR)",
+    "I": "肝轉移切除標本之異常p53表現（基於型態之IHC判讀）",
+    "C": "正常/野生型p53表現模式",
+    "O": "主要outcome：無復發存活(RFS)；次要：腫瘤總大小、肝轉移數目、手術邊緣狀態對復發之影響"
+   },
+   "effects": [],
+   "key_numbers": [
+    "20/39(51.3%)患者呈現異常p53表現",
+    "多變量分析：異常p53表現HR 3.78 (95% CI 1.56-9.15, p=0.003)獨立預測復發",
+    "腫瘤總大小>6cm HR 5.23 (95% CI 1.56-17.55, p=0.007)為另一獨立因子"
+   ],
+   "cautions": [
+    "樣本量僅39人且單中心，HR信賴區間寬（如5.23 CI 1.56-17.55），結果不穩定需外部驗證",
+    "僅報HR/CI無絕對復發率或事件數，無法計算ARR/NNT評估臨床實際效應大小",
+    "p53 pattern-based IHC判讀方法主觀性高，跨病理科再現性及判讀者間一致性未提及"
+   ],
+   "unassessable": [
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "病理判讀是否對outcome盲法",
+    "總體存活(OS)資料",
+    "多重比較校正"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "先前瀏覽之CRLM肝切除預後研究聚焦於PNI、LMR等全身性發炎/營養指標及手術因子；本篇改從腫瘤分子病理角度（p53 IHC）補充另一風險分層工具，但族群限定未達pCR者，機轉與先前研究不同，可視為同一臨床問題（CRLM術後復發預測）之延伸但非直接延續。",
+   "added_at": "2026-10-05T08:36:04+08:00"
+  }
+ ]
+}
