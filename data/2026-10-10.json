@@ -1,0 +1,673 @@
+{
+ "date": "2026-10-10",
+ "generated_at": "2026-10-10T09:37:01+08:00",
+ "count": 10,
+ "papers": [
+  {
+   "pmid": "42853034",
+   "title": "Building Engagement Using Financial Incentives for Colorectal Cancer Screening (BENEFIT-C) in a Rural Louisiana Federally Qualified Health Center",
+   "journal": "Health Serv Res",
+   "journal_full": "Health services research",
+   "issn": "1475-6773",
+   "issn_linking": "0017-9124",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Apr",
+   "doi": "10.1111/1475-6773.70011",
+   "ptype": "Randomized Controlled Trial",
+   "ptype_list": [
+    "Randomized Controlled Trial"
+   ],
+   "authors": "Perry L, Peacock E, LeBlanc A, Williams L, Wiltz G, Krousel-Wood M",
+   "abstract": "OBJECTIVE: To evaluate the preliminary effectiveness and feasibility of a community-engaged financial incentive intervention for increasing colorectal cancer (CRC) screening in a rural, low-resource primary care setting.\nSTUDY SETTING AND DESIGN: A feasibility pilot trial at a federally qualified health center in the Acadiana region, Louisiana. Participants were identified via electronic health records (EHR), recruited by telephone, and randomized to intervention (n = 25) or control (n = 25). Both groups received incentives for flu and COVID-19 vaccines. The intervention group also received incentives for CRC screening. Fisher's Exact tests evaluated between-group differences in completion of CRC screening (primary outcome), flu, and COVID-19 vaccines 2 months post-enrollment.\nDATA SOURCES AND ANALYTIC SAMPLE: Eligible patients were aged 45-75, due for CRC screening, and English-speaking. From November 11, 2023 to March 31, 2024, completion of each outcome was obtained from the EHR.\nPRINCIPAL FINDINGS: 57% of interested individuals were eligible; 94% of eligible individuals enrolled. Participants were 70% female, 42% Black, 24% uninsured, with a mean age of 52.4 years. Completion of CRC screening was higher in the intervention versus control group (17 [68%] vs. 8 [32%], p = 0.02).\nCONCLUSION: Financial incentives significantly increased completion of CRC screening. Future research should confirm findings in larger samples and evaluate cost-effectiveness to inform health system policies.",
+   "watched": [],
+   "related": [],
+   "title_zh": "運用財務激勵促進大腸直腸癌篩檢參與（BENEFIT-C）：路易斯安那州鄉村聯邦合格醫療中心之研究",
+   "abstract_zh": "目的：評估一項社區參與式財務激勵介入措施，在鄉村、資源有限的基層醫療場域中，提升大腸直腸癌（CRC）篩檢完成率的初步效果與可行性。研究場域與設計：於路易斯安那州 Acadiana 地區一家聯邦合格醫療中心進行之可行性先驅試驗。參與者透過電子健康紀錄（EHR）篩選，以電話招募，並隨機分配至介入組（n=25）或對照組（n=25）。兩組皆接受流感與 COVID-19 疫苗接種之激勵金。介入組額外接受 CRC 篩檢之激勵金。以 Fisher's Exact test 評估兩組間入組後 2 個月時 CRC 篩檢完成率（主要結果）、流感與 COVID-19 疫苗接種完成率之差異。資料來源與分析樣本：符合條件者為 45-75 歲、應接受 CRC 篩檢且會說英語之病人。自 2023 年 11 月 11 日至 2024 年 3 月 31 日，各項結果完成情形皆由 EHR 取得。主要發現：有興趣者中 57% 符合資格；符合資格者中 94% 完成入組。參與者 70% 為女性、42% 為黑人、24% 無保險，平均年齡 52.4 歲。CRC 篩檢完成率介入組高於對照組（17 人 [68%] vs. 8 人 [32%]，p=0.02）。結論：財務激勵顯著提升 CRC 篩檢完成率。未來研究應在更大樣本中驗證此發現，並評估成本效益以供健康政策參考。",
+   "evidence_level": "RCT",
+   "score": 3,
+   "score_reason": "僅 50 人之單中心可行性先驅試驗，追蹤僅 2 個月，且為美國特定醫療保險情境下之篩檢促進介入，與台灣大腸直腸外科臨床實務（手術決策、腫瘤治療）關聯度極低。",
+   "relevance": "低度相關",
+   "relevance_why": "此為篩檢行為促進之公衛介入研究，非外科治療或手術決策相關，且美國無保險族群財務激勵機制不適用於台灣全民健保體系。",
+   "novelty": "仍屬早期",
+   "one_liner": "在美國鄉村 FQHC 的 50 名待篩檢病人中，比較財務激勵 vs. 無額外激勵，CRC 篩檢完成率 68% vs 32%（p=0.02）。",
+   "action": "目前不需改變做法；此為美國基層醫療篩檢促進之可行性試驗，非外科治療介入，不影響台灣大腸直腸外科臨床決策。",
+   "pico": {
+    "P": "美國路易斯安那州鄉村聯邦合格醫療中心，45-75歲、應接受CRC篩檢之病人共50人",
+    "I": "CRC篩檢財務激勵（另加流感/COVID疫苗激勵）",
+    "C": "僅流感/COVID疫苗激勵（無CRC篩檢激勵）",
+    "O": "主要：入組後2個月CRC篩檢完成率；次要：流感、COVID-19疫苗接種完成率"
+   },
+   "effects": [
+    {
+     "outcome": "CRC篩檢完成（2個月內）",
+     "ok": true,
+     "i_label": "財務激勵組",
+     "c_label": "對照組",
+     "i_rate": 68.0,
+     "c_rate": 32.0,
+     "i_raw": "17/25",
+     "c_raw": "8/25",
+     "arr": 36.0,
+     "benefit": true,
+     "event_bad": false,
+     "nnt": 3,
+     "kind": "NNT",
+     "note": ""
+    }
+   ],
+   "key_numbers": [
+    "CRC篩檢完成率 68% vs 32%，p=0.02（ARR約36%，NNT≈3，由程式計算供參）",
+    "有興趣者中57%符合資格，符合資格者94%完成入組，顯示招募可行性高",
+    "樣本僅50人、單中心、追蹤僅2個月，統計檢力有限"
+   ],
+   "cautions": [
+    "樣本量極小（各組25人），為可行性先驅試驗，非正式效能試驗，結果需大樣本驗證",
+    "追蹤僅2個月，無法評估長期篩檢行為改變或臨床終點（如腫瘤分期、死亡率）",
+    "介入無法盲性（財務激勵顯而易見），且美國無保險族群情境與台灣健保制度差異大，外部效度低"
+   ],
+   "unassessable": [
+    "盲法（介入性質無法盲性）",
+    "allocation concealment",
+    "ITT分析",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本效益分析（作者指出留待未來研究）"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-10-10T09:34:58+08:00"
+  },
+  {
+   "pmid": "42848619",
+   "title": "SYSTEMATIC REVIEW AND BRAZILIAN EXPERT CONSENSUS ON THE USE OF BIOSIMILARS IN INFLAMMATORY BOWEL DISEASE: BRAZILIAN ORGANIZATION FOR CROHN'S AND COLITIS",
+   "journal": "Arq Gastroenterol",
+   "journal_full": "Arquivos de gastroenterologia",
+   "issn": "1678-4219",
+   "issn_linking": "0004-2803",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1016/j.jval.2014.08.805",
+   "ptype": "Systematic Review, Consensus Statement",
+   "ptype_list": [
+    "Systematic Review",
+    "Consensus Statement"
+   ],
+   "authors": "Flores C, Penna F, Imbrizi M, Martins A, Fróes R, Mello M",
+   "abstract": "BACKGROUND: Biologics improve outcomes in inflammatory bowel disease, but high costs restrict access and strain healthcare resources. Biosimilars lower costs, expand access, and support sustainable IBD care.\nOBJECTIVE: Provide clear, evidence-based answers on biosimilar use in IBD across clinical, therapeutic, and economic domains to guide safe implementation and informed decision-making.\nMETHODS: GEDIIB conducted a PICO-structured systematic review across multiple databases and trial registries. We extracted clinically relevant outcomes and performed systematic review. We assessed risk of bias with RoB 2.0 and ROBINS-I and graded certainty using GRADE. A structured Delphi process with two voting rounds and external validation finalized recommendations, with consensus predefined at 85 percent or higher.\nRESULTS: Anti-TNF biosimilars and originator biologics have similar efficacy, safety, immunogenicity, treatment persistence, and mucosal healing in biologic-naive patients and after switching, with no clinically meaningful differences in adverse events, loss of response, or discontinuation. Data on multiple switches do not indicate harm, though evidence remains limited. Pediatric studies suggest similar profiles, with lower precision. Economic evaluations show substantial cost savings and improved access, supporting the sustainability of the health system.\nCONCLUSION: Biosimilars represent a viable, safe, and cost-effective option for IBD management. We recommend structured switching strategies, clear communication with patients, and continuous clinical monitoring. Additional robust studies should strengthen evidence in specific populations and clinical scenarios.\nCONTEXTO:: Os medicamentos biológicos melhoraram significativamente os desfechos clínicos na doença inflamatória intestinal (DII); entretanto, seus elevados custos limitam o acesso ao tratamento e impõem um impacto considerável aos sistemas de saúde. Os biossimilares reduzem custos, ampliam o acesso aos tratamentos e contribuem para a sustentabilidade da assistência aos pacientes com DII.\nOBJETIVO:: Fornecer respostas claras e baseadas em evidências sobre o uso de biossimilares na DII, abrangendo aspectos clínicos, terapêuticos e econômicos, a fim de orientar sua implementação segura e subsidiar a tomada de decisões informadas.\nMÉTODOS:: A Organização Brasileira de Crohn e Colite (GEDIIB) conduziu uma revisão sistemática estruturada segundo a metodologia PICO, abrangendo múltiplas bases de dados e registros de ensaios clínicos. Foram extraídos desfechos clinicamente relevantes e realizada uma revisão sistemática. O risco de viés foi avaliado por meio das ferramentas RoB 2.0 e ROBINS-I, e a certeza da evidência foi classificada utilizando a metodologia GRADE. As recomendações foram elaboradas e validadas por meio de um processo Delphi estruturado, composto por duas rodadas de votação e de validação externa, tendo como consenso a concordância igual ou superior a 85%.\nRESULTADOS:: Os biossimilares anti-TNF e os biológicos originadores apresentam eficácia, segurança, imunogenicidade, persistência terapêutica e cicatrização mucosa semelhantes, tanto em pacientes virgens de tratamento biológico quanto após a troca do medicamento originador para o biossimilar. Não foram observadas diferenças clinicamente relevantes na ocorrência de eventos adversos, na perda de resposta ou na descontinuação do tratamento. Os dados disponíveis sobre múltiplas trocas não sugerem prejuízo clínico, embora as evidências permaneçam limitadas. Estudos pediátricos apontam perfis comparáveis de eficácia e segurança, porém com menor precisão das estimativas. Avaliações econômicas demonstram uma economia substancial de recursos e a ampliação do acesso ao tratamento, favorecendo a sustentabilidade dos sistemas de saúde.\nCONCLUSÃO:: Os biossimilares representam uma alternativa viável, segura e custo-efetiva para o manejo da DII. Recomenda-se a adoção de estratégias estruturadas de troca terapêutica, de comunicação clara com os pacientes e de monitoramento clínico contínuo. Estudos adicionais, metodologicamente robustos, são necessários para fortalecer as evidências em populações específicas e em cenários clínicos particulares.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42484112",
+     "date": "2026-07-24",
+     "title_zh": "幽門螺旋桿菌超越胃部：當故事改變之時",
+     "score": 2,
+     "one_liner": "本文綜述H. pylori感染與貧血、ITP、大腸直腸癌、心血管疾病、神經疾病的關聯性證據，結論指出因果性仍待前瞻性研究釐清。",
+     "sim": 0.192
+    }
+   ],
+   "title_zh": "發炎性腸道疾病使用生物相似藥之系統性回顧與巴西專家共識：巴西克隆氏症與大腸炎組織（GEDIIB）",
+   "abstract_zh": "背景：生物製劑顯著改善發炎性腸道疾病（IBD）的臨床結果，但高昂費用限制治療可近性，並對醫療系統造成沉重負擔。生物相似藥可降低成本、擴大治療可近性，並有助於IBD照護的永續性。目的：針對IBD使用生物相似藥的臨床、治療與經濟層面，提供明確且以實證為基礎的解答，以指導安全導入與知情決策。方法：巴西克隆氏症與大腸炎組織（GEDIIB）依PICO架構進行系統性回顧，涵蓋多個資料庫與試驗登錄系統。萃取具臨床意義的結果並執行系統性回顧。以RoB 2.0與ROBINS-I評估偏誤風險，並以GRADE系統評定證據確定性。透過結構化Delphi流程（兩輪投票與外部驗證）完成建議，共識預設門檻為85%以上。結果：抗TNF生物相似藥與原廠生物製劑在療效、安全性、免疫原性、治療持續性及黏膜癒合方面表現相近，無論是生物製劑初治病人或轉換治療後皆然，在不良事件、治療反應喪失或停藥方面無具臨床意義的差異。多次轉換的資料未顯示有害性，但證據仍有限。兒童族群研究顯示相似的療效與安全性輪廓，但估計精確度較低。經濟評估顯示生物相似藥可大幅節省成本、提升治療可近性，有助於醫療系統的永續性。結論：生物相似藥為IBD治療提供可行、安全且具成本效益的選項。建議採用結構化轉換策略、與病人清楚溝通，並持續臨床監測。需要更多方法學嚴謹的研究，以強化特定族群與臨床情境下的證據。",
+   "evidence_level": "系統性回顧",
+   "score": 4,
+   "score_reason": "方法學嚴謹（GRADE、Delphi共識），但內容聚焦於IBD藥物治療與生物相似藥轉換，非大腸直腸外科手術議題，對外科日常決策實用性有限。",
+   "relevance": "低度相關",
+   "relevance_why": "本文探討生物相似藥於IBD藥物治療之療效與經濟性，屬腸胃科/內科用藥決策範疇，非外科手術介入。",
+   "novelty": "再確認已知",
+   "one_liner": "系統性回顧與巴西專家共識指出，抗TNF生物相似藥與原廠生物製劑在IBD病人中療效、安全性相近，無具臨床意義差異。",
+   "action": "目前不需改變外科做法；可留意轉診IBD病人之生物相似藥轉換策略，必要時與腸胃科團隊溝通手術時機與藥物假期安排。",
+   "pico": {
+    "P": "發炎性腸道疾病（IBD）病人，含生物製劑初治與轉換治療族群（未提供具體人數）",
+    "I": "抗TNF生物相似藥（含初次使用及自原廠藥轉換）",
+    "C": "原廠抗TNF生物製劑",
+    "O": "主要：療效、安全性、免疫原性、治療持續性、黏膜癒合；次要：不良事件、反應喪失、停藥率、經濟成本"
+   },
+   "effects": [],
+   "key_numbers": [
+    "共識投票門檻設定為≥85%，為方法學標準而非臨床效果數據",
+    "摘要未提供具體事件數、發生率或信賴區間，僅作定性描述「無臨床意義差異」",
+    "兒童族群證據精確度較低，多次轉換資料仍有限"
+   ],
+   "cautions": [
+    "摘要全文未提供任何絕對數字（事件數、發生率、OR/RR/HR及CI），無法量化效果大小",
+    "結論多為定性敘述（如「無臨床意義差異」），缺乏統計檢定結果支持",
+    "多次藥物轉換、兒童族群等次群組證據量少、精確度低，卻仍給出正面建議，有過度推論風險"
+   ],
+   "unassessable": [
+    "納入研究數量與異質性",
+    "各研究的失訪率",
+    "試驗註冊情形",
+    "利益衝突",
+    "GRADE證據等級的具體分級結果",
+    "原始研究之盲法與ITT分析"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-10-10T09:34:58+08:00"
+  },
+  {
+   "pmid": "42844247",
+   "title": "Histone H4K5 lactylation-driven feedback loop modulates glycerol-linked immunosuppressive activity of tumor-associated T regulatory cells",
+   "journal": "Signal Transduct Target Ther",
+   "journal_full": "Signal transduction and targeted therapy",
+   "issn": "2059-3635",
+   "issn_linking": "2059-3635",
+   "impact_factor": 81.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1371/journal.pone.0015150",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Wang W, Kong B, Huang C, Xiong K, Su C, Lu Y",
+   "abstract": "Tumor metastasis is the leading cause of death for more than 90% of cancer patients, with colorectal cancer (CRC) mainly spreading to the liver. The colon and liver possess distinct nutritional microenvironments, yet how these differences shape the tumor immune landscape remains unclear. Using single-cell analysis of autologous samples from CRC patients with liver metastases, we identified a distinct CD177+GK+ regulatory T (Treg) cell subset in metastatic lesions. Spatial transcriptomics revealed that these GK+ Tregs localize at the tumor-adjacent interface and interact with immunosuppressive macrophages. Moreover, a selective clonal selection was observed in the metastatic niche, leading to the super-amplification of metastasis-associated clones of GK+ Tregs, suggesting a dominant role of these clones in metastatic immune evasion. Mechanistically, glycerol-derived lactate promotes H4K5 histone lactylation, which upregulates FOXP3 and subsequently GK expression, creating a positive feedback loop that amplifies Treg immunosuppressive activity. Blocking the glycerol metabolic pathway in Tregs combined with anti-PD-1 therapy synergistically curbs tumor progression. Pan-cancer analyses further confirm the potent suppressive activity of CD177+GK+ Tregs across multiple cancer types. Collectively, our findings highlight glycerol metabolism and histone lactylation as critical drivers of Treg-mediated immune evasion, offering new strategies to reprogram the immunosuppressive tumor microenvironment for enhanced cancer therapy.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42358994",
+     "date": "2026-06-26",
+     "title_zh": "大腸直腸癌肝轉移：免疫抑制微環境、訊息傳遞路徑與新興治療策略",
+     "score": 3,
+     "one_liner": "本綜述整理 CRLM 免疫抑制微環境機制（T 細胞耗竭、免疫抑制細胞擴增）與新興治療策略，無原創臨床數據。",
+     "sim": 0.183
+    },
+    {
+     "pmid": "42393838",
+     "date": "2026-07-03",
+     "title_zh": "人類大腸直腸癌中DP8α調節性T細胞的腫瘤內富集與抑制活性",
+     "score": 3,
+     "one_liner": "在CRC病人腫瘤與配對正常黏膜中，比較DP8α Treg族群，發現其於腫瘤內顯著富集且具CD39/CD73依賴之T細胞抑制活性。",
+     "sim": 0.18
+    },
+    {
+     "pmid": "42683268",
+     "date": "2026-09-03",
+     "title_zh": "肝臟微環境驅動之大腸直腸癌肝轉移免疫抑制生態位及其治療性重塑",
+     "score": 2,
+     "one_liner": "本綜述整理大腸直腸癌肝轉移中肝臟微環境驅動之免疫抑制機制與潛在治療重塑策略，無原創臨床數據。",
+     "sim": 0.154
+    }
+   ],
+   "title_zh": "組蛋白H4K5乳酸化驅動的正向回饋迴路調控腫瘤相關調節性T細胞之甘油連結免疫抑制活性",
+   "abstract_zh": "腫瘤轉移是超過90%癌症患者死亡的主要原因，大腸直腸癌（CRC）主要轉移至肝臟。大腸與肝臟具有截然不同的營養微環境，然而這些差異如何塑造腫瘤免疫景觀仍不清楚。本研究利用CRC肝轉移患者自體配對樣本進行單細胞分析，鑑定出轉移病灶中一個獨特的CD177+GK+調節性T（Treg）細胞亞群。空間轉錄體學顯示這些GK+ Treg定位於腫瘤鄰近界面，並與免疫抑制性巨噬細胞交互作用。此外，在轉移微環境中觀察到選擇性的純系選殖現象，導致轉移相關GK+ Treg純系被超額放大，提示這些純系在轉移性免疫逃逸中扮演主導角色。機制上，甘油衍生的乳酸促進H4K5組蛋白乳酸化，進而上調FOXP3並隨之提升GK表現，形成一個放大Treg免疫抑制活性的正向回饋迴路。在Treg中阻斷甘油代謝路徑並結合抗PD-1療法可協同抑制腫瘤進展。泛癌症分析進一步證實CD177+GK+ Treg在多種癌症類型中具有強效抑制活性。總體而言，本研究結果凸顯甘油代謝與組蛋白乳酸化是Treg介導免疫逃逸的關鍵驅動因子，為重新編程免疫抑制性腫瘤微環境以增強癌症治療提供新策略。",
+   "evidence_level": "其他",
+   "score": 3,
+   "score_reason": "機制扎實、發表於高品質期刊，但純屬基礎研究（單細胞、空間轉錄體、動物模型），無人體臨床數據，對臨床實務無直接可操作性。",
+   "relevance": "低度相關",
+   "relevance_why": "純基礎免疫機制研究，非外科介入，短期內不會改變手術或臨床決策。",
+   "novelty": "仍屬早期",
+   "one_liner": "在CRC肝轉移患者樣本中，鑑定CD177+GK+ Treg亞群，發現其透過甘油代謝/H4K5乳酸化放大免疫抑制活性並促進轉移逃逸。",
+   "action": "目前不需改變做法；此為基礎機制研究，未涉及手術或現行藥物治療決策。",
+   "pico": {
+    "P": "CRC肝轉移患者自體配對樣本（單細胞分析，確切人數未載明）；並輔以小鼠模型與泛癌症資料庫分析",
+    "I": "阻斷Treg甘油代謝路徑並結合抗PD-1治療",
+    "C": "未阻斷甘油代謝路徑（僅抗PD-1或對照）",
+    "O": "主要：CD177+GK+ Treg免疫抑制機制、H4K5組蛋白乳酸化路徑；次要：腫瘤進展抑制效果（動物模型）"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供人體臨床樣本數、事件數或絕對風險數字，僅為機制性描述",
+    "動物實驗顯示阻斷甘油代謝合併anti-PD-1可協同抑制腫瘤進展，但無具體數據",
+    "無p值、信賴區間或統計量呈現於摘要中"
+   ],
+   "cautions": [
+    "全文屬機制研究，無臨床療效或安全性數據，距離臨床應用尚遠",
+    "「協同抑制腫瘤進展」僅於動物模型呈現，外推至人體治療效果需謹慎",
+    "樣本量、統計方法、病人數均未揭露，無法評估研究穩健性"
+   ],
+   "unassessable": [
+    "樣本量",
+    "統計方法與p值/信賴區間",
+    "臨床試驗註冊",
+    "利益衝突",
+    "盲法/ITT（本研究非臨床試驗，不適用）"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "與先前兩篇CRLM免疫抑制微環境綜述（評分3/2）及DP8α Treg論文（評分3）主題高度相關，皆聚焦CRC/CRLM中Treg介導之免疫逃逸機制。本篇進一步鑑定出CD177+GK+這一新Treg亞群及其甘油代謝/組蛋白乳酸化驅動機制，補充了先前綜述中提及但未深入闡明的具體分子路徑。",
+   "added_at": "2026-10-10T09:34:58+08:00"
+  },
+  {
+   "pmid": "42852635",
+   "title": "cGAS‑STING pathway in digestive tract cancer: From molecular mechanisms to therapeutic applications (Review)",
+   "journal": "Int J Oncol",
+   "journal_full": "International journal of oncology",
+   "issn": "1791-2423",
+   "issn_linking": "1019-6439",
+   "impact_factor": 7.3,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.3892/ijo.2026.5944",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Chen T, Zhang J, Sun J, Zhang H, Huang D, Ye H",
+   "abstract": "As a classic cytosolic DNA sensor, the cyclic GMP‑AMP synthase (cGAS)‑stimulator of interferon genes (STING) pathway contributes to the secretion of multiple inflammatory molecules and functions as a suppressor or promoter in tumor development. Currently, the effect of this pathway on digestive tract cancer types remains unclear, which may be due to its paradoxical roles in different cell types. Tumor cells in digestive cancer often employ multiple mechanisms to inhibit this pathway activation, which then restricts the infiltration of antitumor immune cells and facilitates the formation of an immunosuppressive microenvironment. However, cGAS‑STING pathway activation also influences the function of multiple immune cells. For example, while it mainly potentiates the function of dendritic cells and natural killer cells in the tumor microenvironment, it can also promote macrophage polarization into the immunosuppressive M2 subset. To improve the understanding of the cGAS‑STING pathway in digestive cancer types, the present article systematically reviews the regulatory mechanism and effects of this pathway across different malignancies of the digestive system, including oral cavity, esophageal, gastric, hepatobiliary, pancreatic and colorectal cancer. Furthermore, the present review examines potential stimulatory strategies and future directions to utilize this pathway against tumors, such as inducing DNA damage, removing cell‑intrinsic inhibitory signals and direct activation by agonists. Overall, the present review aims to provide new perspectives and ideas for leveraging the cGAS‑STING pathway to exert antitumor effects by highlighting the changes and roles of this pathway in digestive tract cancer types.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42625444",
+     "date": "2026-08-23",
+     "title_zh": "慢性壓力誘導的腦源性小型細胞外囊泡透過調節性T細胞（Treg）分化促進大腸直腸癌進展",
+     "score": 3,
+     "one_liner": "在CRC小鼠模型與67+37例病人世代中，發現慢性壓力經BD-sEV促進Treg分化，NOXA/FOXP3表現與焦慮評分及不良存活相關。",
+     "sim": 0.235
+    },
+    {
+     "pmid": "42335237",
+     "date": "2026-06-23",
+     "title_zh": "免疫細胞內源性STING活化透過AA介導的ACSL4乳酸化抑制驅動大腸直腸癌腫瘤鐵死亡",
+     "score": 2,
+     "one_liner": "在CRC細胞株與小鼠模型中，發現免疫細胞STING活化透過AA抑制ACSL4乳酸化促進腫瘤鐵死亡，並與PD-1阻斷劑協同抑制腫瘤。",
+     "sim": 0.193
+    },
+    {
+     "pmid": "42756094",
+     "date": "2026-09-19",
+     "title_zh": "傳統中醫藥重塑大腸直腸癌免疫微環境：機轉與治療展望",
+     "score": 2,
+     "one_liner": "本綜述整理TCM複方與單方於臨床前模型中調控CRC免疫微環境（抗原呈現、T細胞、腸道菌群等）之機轉假說，尚無臨床證據。",
+     "sim": 0.155
+    }
+   ],
+   "title_zh": "消化道癌症中的cGAS-STING路徑：從分子機轉到治療應用（綜述）",
+   "abstract_zh": "環狀GMP-AMP合成酶（cGAS）-干擾素基因刺激蛋白（STING）路徑作為經典的細胞質DNA感測器，參與多種發炎分子的分泌，並在腫瘤發展中發揮抑制或促進的功能。目前此路徑對消化道癌症的影響仍不明確，可能是因為其在不同細胞類型中具有矛盾的角色。消化道癌症中的腫瘤細胞常採用多種機轉抑制此路徑的活化，進而限制抗腫瘤免疫細胞的浸潤，並促進免疫抑制性微環境的形成。然而，cGAS-STING路徑活化也會影響多種免疫細胞的功能。例如，雖然它主要增強腫瘤微環境中樹突細胞與自然殺手細胞的功能，但也可能促進巨噬細胞向免疫抑制性M2亞群極化。為增進對消化道癌症中cGAS-STING路徑的理解，本文系統性回顧此路徑在消化系統不同惡性腫瘤（包括口腔、食道、胃、肝膽、胰臟及大腸直腸癌）中的調控機轉與作用。此外，本綜述探討潛在的刺激策略與未來方向，以利用此路徑對抗腫瘤，例如誘導DNA損傷、移除細胞內在抑制訊號，以及透過激動劑直接活化。總體而言，本綜述希望透過強調此路徑在消化道癌症中的變化與角色，為利用cGAS-STING路徑發揮抗腫瘤效果提供新的視角與思路。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純基礎機轉綜述，無臨床試驗數據，對大腸直腸外科臨床決策無直接可操作性。",
+   "relevance": "低度相關",
+   "relevance_why": "此為分子機轉綜述，非外科介入或臨床試驗，與手術決策無直接關聯。",
+   "novelty": "仍屬早期",
+   "one_liner": "本綜述整理cGAS-STING路徑在消化道癌症（含大腸直腸癌）中促癌/抑癌矛盾角色的分子機轉與潛在治療策略。",
+   "action": "目前不需改變做法；此為基礎機轉綜述，無臨床數據可直接應用於病人處置。",
+   "pico": {
+    "P": "無特定病人族群（綜述文獻，涵蓋口腔、食道、胃、肝膽、胰臟、大腸直腸癌之基礎研究）",
+    "I": "cGAS-STING路徑活化／抑制機轉探討",
+    "C": "無對照組",
+    "O": "主要：整理該路徑在腫瘤微環境中的免疫調節機轉；次要：探討未來治療策略（DNA損傷誘導、移除抑制訊號、激動劑）"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本篇為機轉綜述，無臨床試驗絕對數字可供抽取",
+    "無人體臨床試驗數據，僅整合既有細胞/動物研究機轉假說",
+    "無統計檢定結果（p值、HR、OR等）可報告"
+   ],
+   "cautions": [
+    "純機轉綜述，無臨床試驗支持，所有結論均為細胞/動物研究外推，尚未證實臨床因果關係",
+    "cGAS-STING在不同細胞類型呈現促癌/抑癌矛盾作用，作者承認機轉尚不明確，易被過度解讀為治療靶點",
+    "無人體試驗數據佐證，現階段治療策略（激動劑等）仍停留在概念階段，距臨床應用尚遠"
+   ],
+   "unassessable": [
+    "盲法",
+    "allocation concealment",
+    "ITT",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本分析（本篇為綜述，無相關設計）"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。列出的前作雖同屬大腸直腸癌免疫微環境相關主題，但機轉標的（Treg/BD-sEV、STING-ACSL4鐵死亡、中醫藥）與本篇cGAS-STING綜述無直接延伸或矛盾關係，故不硬掰關聯。",
+   "added_at": "2026-10-10T09:34:58+08:00"
+  },
+  {
+   "pmid": "42854107",
+   "title": "Plasma lipopolysaccharide-binding protein (LBP), a proxy for intestinal permeability, relates to clinicopathological and immunological disease activity in inflammatory bowel disease patients at diagnosis and during disease course",
+   "journal": "J Crohns Colitis",
+   "journal_full": "Journal of Crohn's & colitis",
+   "issn": "1876-4479",
+   "issn_linking": "1873-9946",
+   "impact_factor": 10.3,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1093/ecco-jcc/jjag146",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Barendregt D, Tuk B, Hulleman-van Haaften D, Camman A, Calado B, Grillmaier M",
+   "abstract": "BACKGROUND AND AIMS: Intestinal barrier healing is the treatment goal in ulcerative colitis (UC) and Crohn's disease (CD). Despite this, systematic analyses of the relationship between intestinal permeability and clinicopathological and immunological disease activity at diagnosis and during follow-up are lacking. Therefore, we assessed this relationship using plasma lipopolysaccharide-binding protein (LBP)-an indirect biomarker of systemic exposure to bacterial endotoxins-as a proxy for intestinal permeability, in a uniquely well-characterized pediatric inflammatory bowel disease (IBD) cohort.\nMETHODS: LBP was measured in 1083 longitudinal plasma samples of newly diagnosed pediatric UC (n = 61), CD (n = 115) (PIBD-SETQuality and TISKids prospective cohorts; median follow-up 628 days), and controls (IBD-negative, n = 33; healthy, n = 28). Its relationship with clinicopathological parameters and plasma immune proteomics was examined.\nRESULTS: Plasma LBP was elevated and associated with clinicopathological disease activity in therapy-naive CD and UC. In UC, but not CD, LBP related to disease extent, and strongly and independently correlated to endoscopic and histological disease activity, providing additional explanatory value beyond routinely used blood-based biomarkers and inflammatory mediators (including CRP and IL-6). LBP correlated with disease-specific immune profiles linked to severe disease (IL-17/neutrophil/IFN-γ-related profile in UC; IFN-γ-related profile in CD). LBP decreased after induction therapy with corticosteroids in UC, and after exclusive enteral nutrition or anti-TNF (but not corticosteroids) in CD. LBP remained associated with clinicopathological disease activity during follow-up, particularly in UC.\nCONCLUSIONS: Plasma LBP relates to clinicopathological and immunological disease activity in IBD-especially UC-at diagnosis and during follow-up, and provides complementary information to routinely used blood-based biomarkers, arguing this simple, inexpensive parameter should be (re)considered for monitoring mucosal inflammation in UC.",
+   "watched": [],
+   "related": [],
+   "added_at": "2026-10-10T09:34:58+08:00"
+  },
+  {
+   "pmid": "42846765",
+   "title": "Gut microbiome-driven mechanisms in inflammatory bowel disease-associated interstitial lung disease: from dysbiosis to therapeutic implications",
+   "journal": "Front Cell Infect Microbiol",
+   "journal_full": "Frontiers in cellular and infection microbiology",
+   "issn": "2235-2988",
+   "issn_linking": "2235-2988",
+   "impact_factor": 5.5,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1186/s13054-024-05006-x",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Yang Y, Zhang D, Liu W",
+   "abstract": "Inflammatory bowel disease (IBD) is a chronic, relapsing immune-mediated disorder of the gastrointestinal tract. Interstitial lung disease (ILD) associated with inflammatory bowel disease has been receiving increasing attention. With advances in the gut-lung axis theory, accumulating epidemiological and mechanistic evidence indicates that the association between IBD and ILD is not coincidental or merely driven by drug toxicity, but rather reflects a systemic disease spectrum involving microbiome dysbiosis and cross-organ immune dialogue. This article presents a critical narrative review that systematically summarizes the mechanisms underlying IBD-related ILD, focusing on causal evidence from large cohort and Mendelian randomization studies. It also looks at how gut microbial metabolites remotely regulate lung immune homeostasis, the inflammatory cascades triggered by gut barrier disruption and bacterial translocation, and the therapeutic potential of microbiome-based interventions. This article examines the main limitations and controversies, including the limited accuracy of animal models, the unclear causal link between microbial changes and disease onset, and the challenges in selecting clinical trial endpoints. It also outlines future research directions, focusing on integrating multi-omics, non-invasive diagnostic models, and strategies to distinguish drug-induced lung injury from primary disease involvement. This review aims to elucidate the pathogenesis of this cross-organ disease spectrum and to provide a theoretical foundation for both basic research and clinical translation.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42524083",
+     "date": "2026-07-31",
+     "title_zh": "發炎性腸道疾病中的肺部損傷：腸道屏障破壞、腸-肺軸重塑與治療相關肺毒性",
+     "score": 2,
+     "one_liner": "本篇綜述整理IBD相關肺部損傷之機轉（腸道屏障、菌群代謝物、免疫遷移、藥物毒性），未提供臨床試驗數據。",
+     "sim": 0.267
+    },
+    {
+     "pmid": "42378711",
+     "date": "2026-06-30",
+     "title_zh": "發炎性腸道疾病中間質性肺病的風險與預後：丹麥全國性人口世代研究證據",
+     "score": 5,
+     "one_liner": "在53591名IBD患者與267955名配對對照中，IBD組45年ILD累積發生率2.1% vs 對照組0.9%，aHR 2.1。",
+     "sim": 0.194
+    },
+    {
+     "pmid": "42712961",
+     "date": "2026-09-10",
+     "title_zh": "益生菌衍生胞外囊泡作為發炎性腸道疾病潛在奈米免疫治療平台：臨床醫師觀點",
+     "score": 2,
+     "one_liner": "本文綜述益生菌衍生胞外囊泡於IBD中調節腸屏障與免疫的機轉及治療潛力，屬機制性文獻回顧，無原創數據。",
+     "sim": 0.183
+    }
+   ],
+   "title_zh": "腸道微生物群驅動發炎性腸道疾病相關間質性肺病之機轉：從菌群失調到治療意涵",
+   "abstract_zh": "發炎性腸道疾病（IBD）是一種慢性、復發性、免疫介導的胃腸道疾病。與IBD相關的間質性肺病（ILD）正受到越來越多關注。隨著腸-肺軸理論的進展，越來越多流行病學與機轉證據顯示，IBD與ILD之間的關聯並非偶然或僅由藥物毒性所驅動，而是反映了涉及微生物群失調與跨器官免疫對話的全身性疾病譜。本文以批判性敘述綜述方式，系統性總結IBD相關ILD之潛在機轉，重點聚焦於來自大型世代研究與孟德爾隨機化研究的因果證據。本文亦探討腸道微生物代謝物如何遠距調節肺部免疫穩態、腸道屏障破壞與細菌轉移所引發的炎症級聯反應，以及以微生物群為基礎的治療潛力。本文檢視主要限制與爭議，包括動物模型準確性有限、微生物變化與疾病發生之間因果關係不明確，以及臨床試驗終點選擇之挑戰。本文亦概述未來研究方向，聚焦於整合多體學、非侵入性診斷模型，以及區分藥物誘發肺損傷與原發疾病累及之策略。本綜述旨在闡明此跨器官疾病譜之致病機轉，並為基礎研究與臨床轉譯提供理論基礎。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純機轉性敘述綜述，無原創臨床數據，與大腸直腸外科手術決策幾無直接關聯。",
+   "relevance": "低度相關",
+   "relevance_why": "主題為IBD相關肺部疾病之腸-肺軸機轉，非外科介入或手術相關議題。",
+   "novelty": "仍屬早期",
+   "one_liner": "本文為敘述性綜述，整理IBD相關ILD之腸道微生物群機轉與治療潛力，未提供原創臨床數據或療效數字。",
+   "action": "目前不需改變做法；此為機轉性綜述，無手術或臨床決策相關之實證數據。",
+   "pico": {
+    "P": "無原創研究對象，為敘述性綜述文章",
+    "I": "無（綜述探討腸道微生物群機轉與潛在微生物治療）",
+    "C": "無對照組",
+    "O": "無量化主要結果；討論機轉假說與未來研究方向"
+   },
+   "effects": [],
+   "key_numbers": [
+    "無提供絕對發生率、事件數或效應量數據",
+    "僅為機轉性敘述整理，未附具體統計結果",
+    "本文明確承認因果關係尚不明確，缺乏臨床試驗終點共識"
+   ],
+   "cautions": [
+    "此為敘述性綜述而非系統性回顧，缺乏明確文獻篩選方法與品質評估",
+    "機轉推論多來自動物模型與相關性研究，因果關係未經臨床試驗驗證",
+    "無任何原創人體數據或效應量，無法作為臨床決策依據"
+   ],
+   "unassessable": [
+    "研究設計與文獻篩選方法",
+    "利益衝突",
+    "樣本來源與品質分級",
+    "是否有系統性文獻搜尋流程"
+   ],
+   "context_verdict": "再確認",
+   "context": "與前述IBD相關肺部損傷機轉綜述（評分2/10）主題高度重疊，本文進一步整合孟德爾隨機化與世代研究證據，但仍屬機轉性敘述，未超越既有綜述之臨床實用性。與丹麥世代研究（ILD累積發生率2.1% vs 0.9%, aHR 2.1）互為背景引用，但本文本身無新數據。",
+   "added_at": "2026-10-10T09:34:58+08:00"
+  },
+  {
+   "pmid": "42851492",
+   "title": "Ulcerative colitis, but not Crohn's disease, displays demographically and clinically driven mucosal immune heterogeneity: implications for patient stratification",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1016/j.cell.2019.06.029",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "De Prado Á, Soleto I, de Castro C, Baldán-Martín M, Del Hierro A, Martínez P",
+   "abstract": "BACKGROUND: Inflammatory bowel disease (IBD) encompasses Crohn's disease (CD) and ulcerative colitis (UC), two conditions with distinct immunopathological profiles despite shared inflammatory pathways. Comparative mucosal and systemic immune characterisation across disease subtypes and clinical variables remains limited. This study aimed to map leukocyte dysregulation in tissue and blood from patients with CD and UC compared to controls.\nMETHODS: Intestinal tissue and blood samples were obtained from 35 controls and endoscopically active IBD patients, including 54 with CD and 74 with UC. Leukocyte subsets were identified using a 29-marker spectral cytometry panel combining hierarchical gating with unsupervised clustering and dimensionality reduction. Immune composition was stratified by disease location, biological sex, age and endoscopic severity.\nRESULTS: Hierarchical gating identified 41 mucosal and 42 circulating immune subsets; unsupervised clustering resolved 51 mucosal and 62 blood clusters. Both diseases displayed dysregulated mucosal immunity relative to controls but with distinct signatures: while CD was mainly T-cell biased, UC showed a mixed infiltrate with an increased relative proportion of NK, NKT and IgG+ B-cells. UC also exhibited substantially greater immunological heterogeneity than CD when stratified by biological sex, age and severity, with effects predominantly confined to the mucosa. Ileal and colonic CD showed minor immunological differences.\nCONCLUSIONS: UC displayed more prominent subgroup-associated mucosal immune heterogeneity than CD, particularly according to biological sex, age and endoscopic severity. These findings support tissue-resolved patient stratification in UC and highlight the limited sensitivity of blood-based biomarkers to reflect mucosal immune alterations.",
+   "watched": [],
+   "related": [],
+   "title_zh": "潰瘍性結腸炎而非克隆氏症呈現受人口學與臨床因素驅動的黏膜免疫異質性：對病人分層的意義",
+   "abstract_zh": "背景：發炎性腸道疾病（IBD）包含克隆氏症（CD）與潰瘍性結腸炎（UC），兩者雖共享發炎路徑，但免疫病理特徵截然不同。目前針對不同疾病亞型與臨床變項進行黏膜與全身性免疫比較的研究仍有限。本研究旨在描繪CD與UC病人相較於對照組在組織與血液中的白血球失調情形。方法：從35名對照組及內視鏡下呈現活動性的IBD病人（54名CD、74名UC）取得腸道組織與血液檢體。使用具29個標記的光譜細胞儀（spectral cytometry）面板，結合階層式分群（hierarchical gating）與非監督式分群及降維分析，鑑定白血球亞群。免疫組成依疾病位置、生理性別、年齡與內視鏡嚴重度進行分層分析。結果：階層式分群鑑定出41個黏膜與42個循環免疫亞群；非監督式分群則解析出51個黏膜與62個血液分群。兩種疾病相較於對照組皆呈現黏膜免疫失調，但訊號各異：CD主要以T細胞為主，而UC則呈現混合浸潤，NK細胞、NKT細胞與IgG+ B細胞的相對比例增加。當依生理性別、年齡與嚴重度分層時，UC展現顯著大於CD的免疫異質性，此效應主要侷限於黏膜而非血液。迴腸與結腸型CD之間的免疫差異輕微。結論：UC相較於CD呈現更顯著的、與亞群相關的黏膜免疫異質性，特別是依生理性別、年齡與內視鏡嚴重度分層時。此發現支持UC應採取以組織為基礎的病人分層策略，並凸顯血液生物標記對反映黏膜免疫變化的敏感度有限。",
+   "evidence_level": "橫斷面",
+   "score": 3,
+   "score_reason": "方法學紮實（高維度細胞分析），但為探索性基礎免疫學研究，無臨床結果指標，對外科臨床決策尚無直接實用性。",
+   "relevance": "低度相關",
+   "relevance_why": "本研究為免疫表型基礎研究，非手術介入或外科相關臨床結果，與大腸直腸外科日常決策無直接關聯。",
+   "novelty": "仍屬早期",
+   "one_liner": "在35名對照、54名CD、74名UC病人中，以光譜細胞儀比較黏膜與血液免疫亞群，發現UC依性別/年齡/嚴重度有較大異質性。",
+   "action": "目前不需改變做法；此為基礎免疫表型研究，未涉及手術決策、尚無臨床可操作的分層工具。",
+   "pico": {
+    "P": "35名健康對照、54名活動性CD病人、74名活動性UC病人",
+    "I": "以29標記光譜細胞儀分析腸道組織與血液白血球亞群",
+    "C": "CD vs UC vs 對照組；並依性別、年齡、內視鏡嚴重度分層比較",
+    "O": "主要：黏膜與循環免疫亞群組成差異；次要：依人口學/臨床變項之異質性程度"
+   },
+   "effects": [],
+   "key_numbers": [
+    "共納入35名對照、54名CD、74名UC病人進行免疫表型分析",
+    "鑑定出41個黏膜、42個循環免疫亞群（階層式分群）",
+    "非監督式分群解析出51個黏膜、62個血液免疫分群"
+   ],
+   "cautions": [
+    "僅為免疫表型橫斷面描述，無臨床結果（如疾病活動度改善、手術率）作為終點",
+    "依性別/年齡/嚴重度多重分層比較，屬探索性次群組分析，未提及多重比較校正",
+    "摘要未報告統計檢定方法與p值/信賴區間，僅文字描述「顯著」「substantially greater」"
+   ],
+   "unassessable": [
+    "多重比較校正方式",
+    "病人用藥狀況與疾病病程對結果的干擾",
+    "檢體採集時間點與治療介入的關係",
+    "盲法、試驗註冊、利益衝突"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-10-10T09:34:58+08:00"
+  },
+  {
+   "pmid": "42851426",
+   "title": "Pantetheinase Vanin-1 potentiates agonist-induced STING activation via S-cysteaminylation",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1016/j.celrep.2023.113040",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Liao X, Fu J, Xie C, Liu S, Wang X, Hu M",
+   "abstract": "Stimulator of interferon genes (STING) is a key player in innate immunity, and its dysregulation has been implicated in autoimmune and inflammatory diseases. The activation of STING is regulated by multiple factors, including post-translational modifications (PTMs), but the regulatory network of these PTMs remains incompletely characterized. Here, we report that vascular non-inflammatory molecule-1 (Vanin-1) facilitates STING activation and provide evidence supporting S-cysteaminylation as a previously unrecognized modification of STING. Mechanistically, Vanin-1 hydrolyzes pantetheine to pantothenic acid (vitamin B5) and cysteamine, an aminothiol that promotes S-cysteaminylation of STING at three conserved cysteine residues within the transmembrane domain and potentiates agonist-induced STING activation without directly activating STING. Genetic and pharmacological inhibition of Vanin-1 attenuated STING signaling induced by STING agonists and ameliorated DSS-induced colitis in vivo. Together, our findings reveal a novel regulatory role for Vanin-1 in the cGAS-STING pathway and suggest that Vanin-1 may represent a potential therapeutic target for inflammatory diseases characterized by aberrant cGAS-STING activation.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42335237",
+     "date": "2026-06-23",
+     "title_zh": "免疫細胞內源性STING活化透過AA介導的ACSL4乳酸化抑制驅動大腸直腸癌腫瘤鐵死亡",
+     "score": 2,
+     "one_liner": "在CRC細胞株與小鼠模型中，發現免疫細胞STING活化透過AA抑制ACSL4乳酸化促進腫瘤鐵死亡，並與PD-1阻斷劑協同抑制腫瘤。",
+     "sim": 0.224
+    }
+   ],
+   "title_zh": "Pantetheinase Vanin-1 透過S-半胱胺化作用增強促效劑誘導的STING活化",
+   "abstract_zh": "干擾素基因刺激因子（STING）是先天性免疫的關鍵角色，其失調與自體免疫及發炎性疾病有關。STING的活化受多種因子調控，包括轉譯後修飾（PTM），但這些PTM的調控網絡仍未完全釐清。本研究發現，血管非發炎分子-1（Vanin-1）可促進STING活化，並提供證據證實S-半胱胺化是一種先前未被認識的STING修飾方式。機制上，Vanin-1將pantetheine水解為泛酸（維生素B5）及半胱胺（cysteamine），後者是一種胺硫醇，可促進STING穿膜域內三個保守半胱胺酸殘基的S-半胱胺化，並增強促效劑誘導的STING活化，但本身不直接活化STING。基因及藥理學抑制Vanin-1可減弱由STING促效劑誘導的STING訊息傳遞，並在體內改善DSS誘導的大腸炎。總結而言，本研究揭示了Vanin-1在cGAS-STING路徑中的新調控角色，並建議Vanin-1可能是以異常cGAS-STING活化為特徵的發炎性疾病的潛在治療標的。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "純基礎機轉研究，細胞與小鼠DSS大腸炎模型，未涉及人體或外科介入，對臨床實務無直接參考價值。",
+   "relevance": "低度相關",
+   "relevance_why": "此為基礎免疫分子機轉研究（STING修飾），非大腸直腸癌外科臨床議題，亦非人體試驗。",
+   "novelty": "仍屬早期",
+   "one_liner": "在細胞與DSS誘導大腸炎小鼠模型中，發現Vanin-1透過S-半胱胺化增強STING活化，抑制Vanin-1可改善大腸炎。",
+   "action": "目前不需改變做法；此為基礎機轉研究，未涉及人體或外科處置，無法轉譯為臨床行動。",
+   "pico": {
+    "P": "CRC細胞株、STING相關細胞模型及DSS誘導大腸炎小鼠模型（人數：無，動物/細胞實驗）",
+    "I": "Vanin-1基因或藥理學抑制",
+    "C": "未抑制Vanin-1之對照組（野生型/未處理）",
+    "O": "主要：STING訊息傳遞活性、S-半胱胺化修飾程度；次要：DSS大腸炎嚴重度"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供具體量化數據（如發生率、存活率），僅質性描述訊息傳遞增強/減弱",
+    "DSS大腸炎模型中抑制Vanin-1可「改善」大腸炎，但未附具體臨床或組織學評分數字",
+    "STING三個保守半胱胺酸殘基被修飾，但未提供修飾比例或劑量反應數據"
+   ],
+   "cautions": [
+    "僅動物與細胞模型，DSS大腸炎模型與人類發炎性腸病或CRC病生理機轉差異大，外推風險高",
+    "摘要無具體統計數字（無p值、信賴區間、絕對數據），無法評估效應量大小",
+    "機轉研究距臨床應用（如藥物開發、人體試驗）仍有相當距離，novelty雖高但轉譯價值未知"
+   ],
+   "unassessable": [
+    "盲法",
+    "ITT分析",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本分析",
+    "樣本數/重複次數"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。先前論文聚焦於CRC腫瘤細胞內STING活化驅動鐵死亡及與PD-1阻斷劑之協同抗腫瘤效果，而本篇探討Vanin-1透過S-半胱胺化修飾增強STING活化並應用於DSS大腸炎模型，兩者雖同涉STING路徑，但生物情境（腫瘤免疫 vs. 腸道發炎）與機轉完全不同，不構成延伸或矛盾關係。",
+   "added_at": "2026-10-10T09:34:58+08:00"
+  },
+  {
+   "pmid": "42845214",
+   "title": "Inhibition of WNT signaling sensitizes CRC cells to anti-tumor effects of retinoids: basis for new drug combinations in oncology",
+   "journal": "Cancer Biol Ther",
+   "journal_full": "Cancer biology & therapy",
+   "issn": "1555-8576",
+   "issn_linking": "1538-4047",
+   "impact_factor": 5.7,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Dec",
+   "doi": "10.1080/15384047.2026.2732738",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Hunsu V, Facey C, Opdenaker L, Boman B",
+   "abstract": "Our Goal is to sensitize human colorectal cancer (CRC) to the differentiation-inducing effects of retinoic acid (RA) agents by suppressing WNT signaling. Previously, we reported that the WNT and RA pathways are functionally linked, and in CRC, APC mutation generates a WNT:RA imbalance leading to incomplete differentiation and stem cell (SC) overpopulation. Hypothesis: Therapeutically inhibiting WNT signaling enhances the ability of retinoid agents to induce growth suppression and differentiation. We tested drug combinations of: (1) anti-WNT agents (Sulindac & Piroxicam) that produce anti-tumor activity in humans and animals harboring germline APC mutations, with (2) RA agents (All-trans-RA, 9-cis RA) and RA metabolism blocking agent (CYP26A1 inhibitors Liarozole and Talarozole), which inhibit proliferation and induce differentiation of CRC cell lines. Results: The combined effect of anti-WNT agents and RA drugs shows additive or synergistic responses in CRC cell lines compared to single agents. Drug combinations decrease the proportion of aldehyde dehydrogenase-positive SCs and increase neuroendocrine cell differentiation in CRC cells that show a synergistic response to treatment. NanoString profiling shows that therapeutically decreasing WNT signaling in CRC cells significantly changes the effect of RA signaling on gene expression. Treating human CRC organoid cultures and PDX mouse models with WNT:RA-based drug combinations led to greater anti-tumor activity as compared to individual agents. Conclusion: Inhibiting WNT signaling effectively sensitizes CRC cells to the anti-tumor effects of retinoids. These findings have important clinical significance for designing new drug combinations against CRC.",
+   "watched": [],
+   "related": [],
+   "title_zh": "抑制WNT訊號傳遞可增強大腸直腸癌細胞對類視黃酸抗腫瘤效果的敏感性：腫瘤學新藥物組合的基礎",
+   "abstract_zh": "我們的目標是透過抑制WNT訊號傳遞，使人類大腸直腸癌（CRC）對類視黃酸（RA）藥物誘導分化的效果更敏感。先前我們曾報告WNT與RA路徑在功能上有所連結，在CRC中，APC突變會造成WNT:RA失衡，導致分化不完全及幹細胞（SC）過度增生。假說：以藥物治療性地抑制WNT訊號傳遞可增強類視黃酸藥物誘導生長抑制與分化的能力。我們測試了以下藥物組合：（1）抗WNT藥物（Sulindac及Piroxicam），此類藥物在帶有APC生殖系突變的人類及動物中已顯示抗腫瘤活性；與（2）RA藥物（All-trans-RA、9-cis RA）及RA代謝阻斷劑（CYP26A1抑制劑Liarozole及Talarozole），這些藥物可抑制CRC細胞株增生並誘導分化。結果：與單一藥物相比，抗WNT藥物與RA藥物的組合效果在CRC細胞株中呈現加成性或協同性反應。藥物組合降低了醛去氫酶陽性幹細胞的比例，並增加對治療呈現協同反應的CRC細胞中神經內分泌細胞分化。NanoString基因表現分析顯示，以藥物治療性地降低CRC細胞中的WNT訊號傳遞，會顯著改變RA訊號對基因表現的影響。以WNT:RA為基礎的藥物組合治療人類CRC類器官培養及病人衍生異種移植（PDX）小鼠模型，相較於單一藥物顯示出更強的抗腫瘤活性。結論：抑制WNT訊號傳遞可有效使CRC細胞對類視黃酸的抗腫瘤效果更敏感。這些發現對於設計對抗CRC的新藥物組合具有重要的臨床意義。",
+   "evidence_level": "其他",
+   "score": 3,
+   "score_reason": "純基礎／臨床前研究（細胞株、類器官、PDX小鼠），機制有趣但距離臨床應用尚遠，對台灣大腸直腸外科日常實務無直接參考價值。",
+   "relevance": "低度相關",
+   "relevance_why": "此為細胞與動物模型的藥理機轉研究，非外科介入，也非人體臨床試驗，與手術決策無直接關聯。",
+   "novelty": "仍屬早期",
+   "one_liner": "在CRC細胞株、類器官及PDX小鼠模型中，比較抗WNT藥物併用RA藥物與單一藥物，發現併用組抗腫瘤活性具加成或協同效果。",
+   "action": "目前不需改變做法：此為臨床前機轉研究，尚無人體試驗數據，僅供日後藥物研發方向參考。",
+   "pico": {
+    "P": "人類CRC細胞株、CRC類器官培養、病人衍生異種移植（PDX）小鼠模型（未提供具體例數）",
+    "I": "抗WNT藥物（Sulindac、Piroxicam）併用RA藥物（ATRA、9-cis RA）或CYP26A1抑制劑（Liarozole、Talarozole）",
+    "C": "單一藥物治療",
+    "O": "主要：腫瘤細胞生長抑制、分化誘導程度（加成/協同效應）；次要：幹細胞比例變化、神經內分泌分化、基因表現變化"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供具體數值（如抑制率%、腫瘤體積縮小百分比），僅定性描述「加成或協同」效果",
+    "無p值、信賴區間或事件發生率等可供計算ARR/NNT的數據",
+    "PDX模型結果為陰性對照之外的質性描述，缺乏量化抗腫瘤效果數字"
+   ],
+   "cautions": [
+    "屬臨床前研究（細胞株、類器官、動物模型），結果不能直接外推至人體治療效果",
+    "摘要全程未提供任何量化數據（如百分比、p值），無法評估效果大小或統計顯著性",
+    "藥物組合之安全性、劑量轉換及人體耐受性未於摘要中討論，距臨床應用仍有很大距離"
+   ],
+   "unassessable": [
+    "樣本數／重複實驗次數",
+    "統計方法與p值",
+    "動物模型數量",
+    "利益衝突",
+    "是否有臨床試驗後續規劃"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-10-10T09:34:58+08:00"
+  },
+  {
+   "pmid": "42848258",
+   "title": "Engineered mesenchymal stem cell-derived small extracellular vesicles delivering miR-124 suppress colorectal cancer progression through EZH2 downregulation and attenuation of STAT3 signaling",
+   "journal": "Med Oncol",
+   "journal_full": "Medical oncology (Northwood, London, England)",
+   "issn": "1559-131X",
+   "issn_linking": "1357-0560",
+   "impact_factor": 4.7,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1038/s41392-025-02312-w",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Behzadi Andouhjerdi R, Hosseini F, Hosseinzadeh N, Zivari S, Salkhordeh S, Mohammadi M",
+   "abstract": "Colorectal cancer (CRC) progression is driven by dysregulated molecular pathways and epigenetic alterations, including enhancer of zeste homolog 2 (EZH2)-mediated histone methylation and STAT3 hyperactivation. While microRNA-124 (miR-124) acts as a tumor suppressor by targeting EZH2, its clinical translation is hindered by delivery challenges. Here, we engineered mesenchymal stem cell-derived small extracellular vesicles (MSC-sEVs) to deliver miR-124, exploiting their tumor-homing capacity and biocompatibility to suppress CRC progression. Bioinformatic analysis of clinical datasets revealed miR-124 downregulation in CRC tissues, correlating with advanced stages and poor prognosis. Lentiviral transduction enabled efficient miR-124 packaging into MSC-sEVs, which were internalized by CRC cells, restoring functional miR-124 levels. Mechanistically, miR-124 directly silenced EZH2, thereby suppressing its oncogenic activity. This led to attenuated STAT3 phosphorylation-a dual effect that inhibited proliferation, migration, and epithelial-mesenchymal transition (EMT) in CRC cells. In vitro, MSC-sEV-miR-124 induced apoptosis, sensitized cells to 5-fluorouracil, and reversed chemoresistance via EZH2 downregulation. In vivo, MSC-sEV-miR-124 significantly reduced tumor growth in BALB/c mice, downregulated EZH2/STAT3 signaling, and suppressed Ki-67 and EMT markers in xenografts. This study provides proof-of-concept that engineered MSC-sEVs can serve as a delivery platform for miR-124 in murine CRC models, offering a dual-targeting strategy against EZH2 and STAT3 to disrupt CRC progression. Our findings suggest that EV-based miRNA delivery warrants further investigation as a strategy to modulate the tumor microenvironment, providing a foundation for development aimed at overcoming epigenetic and oncogenic signaling barriers in CRC therapy.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42371737",
+     "date": "2026-06-29",
+     "title_zh": "MiR-30a-5p 透過靶向Vimentin抑制ERK訊息傳遞路徑，抑制大腸直腸癌細胞之遷移與上皮間質轉化",
+     "score": 2,
+     "one_liner": "在CRC細胞株中，比較miR-30a-5p過表現與對照，發現其可抑制遷移與EMT，機轉為靶向vimentin並抑制ERK路徑。",
+     "sim": 0.257
+    },
+    {
+     "pmid": "42390648",
+     "date": "2026-07-02",
+     "title_zh": "骨髓間質幹細胞來源外泌體透過miR-148a-3p/Ets-1路徑抑制細胞焦亡對發炎性腸道疾病之治療效果",
+     "score": 1,
+     "one_liner": "在DSS誘導小鼠IBD模型與LPS+ATP刺激腸上皮細胞中，BMSC外泌體透過miR-148a-3p靶向Ets-1抑制細胞焦亡，改善疾病嚴重度。",
+     "sim": 0.16
+    }
+   ],
+   "title_zh": "工程化間質幹細胞來源小型細胞外囊泡遞送miR-124，透過下調EZH2及減弱STAT3訊息傳遞抑制大腸直腸癌進展",
+   "abstract_zh": "大腸直腸癌（CRC）的進展是由失調的分子路徑與表觀遺傳改變所驅動，包括EZH2（enhancer of zeste homolog 2）介導的組蛋白甲基化與STAT3過度活化。雖然microRNA-124（miR-124）透過靶向EZH2發揮腫瘤抑制作用，但其臨床轉譯受限於遞送上的挑戰。本研究中，我們利用間質幹細胞來源小型細胞外囊泡（MSC-sEVs）的腫瘤歸巢能力與生物相容性，工程化其以遞送miR-124，藉此抑制CRC進展。臨床資料集的生物資訊分析顯示miR-124在CRC組織中表現下調，且與較晚期分期及較差預後相關。慢病毒轉導使miR-124能有效包裝進MSC-sEVs中，此囊泡可被CRC細胞內化，恢復功能性miR-124濃度。機轉上，miR-124直接沉默EZH2，進而抑制其致癌活性，導致STAT3磷酸化減弱——此雙重效應抑制了CRC細胞的增生、遷移及上皮間質轉化（EMT）。在體外實驗中，MSC-sEV-miR-124誘導細胞凋亡，使細胞對5-fluorouracil更敏感，並透過下調EZH2逆轉化療抗藥性。在體內實驗中，MSC-sEV-miR-124顯著降低BALB/c小鼠的腫瘤生長，下調EZH2/STAT3訊息傳遞，並抑制異種移植瘤中的Ki-67與EMT標記物。本研究提供概念驗證，證實工程化MSC-sEVs可做為miR-124在小鼠CRC模型中的遞送平台，提供同時靶向EZH2與STAT3以阻斷CRC進展的雙重標靶策略。我們的發現顯示，以細胞外囊泡為基礎的miRNA遞送值得進一步研究，做為調控腫瘤微環境的策略，並為克服CRC治療中表觀遺傳與致癌訊息傳遞障礙的後續開發提供基礎。",
+   "evidence_level": "其他",
+   "score": 1,
+   "score_reason": "純基礎／轉譯研究（細胞株與小鼠異種移植模型），無人體數據，距離臨床應用極遠，對台灣大腸直腸外科實務無直接參考價值。",
+   "relevance": "低度相關",
+   "relevance_why": "為體外細胞實驗與小鼠模型之基礎研究，非外科介入也非人體臨床數據，與臨床決策無直接關聯。",
+   "novelty": "仍屬早期",
+   "one_liner": "在CRC細胞株與BALB/c小鼠異種移植模型中，MSC外泌體遞送miR-124可下調EZH2/STAT3，抑制腫瘤生長並逆轉化療抗藥性。",
+   "action": "目前不需改變做法，此為臨床前基礎研究，尚無人體數據，距臨床應用尚遠。",
+   "pico": {
+    "P": "CRC細胞株（體外）及BALB/c小鼠異種移植模型（體內），無人類病人族群",
+    "I": "工程化MSC來源小型細胞外囊泡遞送miR-124（MSC-sEV-miR-124）",
+    "C": "未處理對照組／空載體對照（摘要未明確列出確切對照組設計）",
+    "O": "主要：腫瘤增生、遷移、EMT、凋亡、5-FU化療敏感性；次要：腫瘤體積、EZH2/STAT3訊號、Ki-67表現"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要僅提供機轉性與定性描述（如「顯著降低」），未提供絕對數值、百分比或統計檢定結果",
+    "無人體樣本數可供評估外部效度",
+    "體內實驗動物數、腫瘤體積絕對數值、p值等摘要均未揭露"
+   ],
+   "cautions": [
+    "完全為臨床前研究（細胞株+小鼠），結果能否轉譯至人類CRC病人尚屬未知，不應過度推論至臨床",
+    "摘要未提供任何絕對數值、信賴區間或p值，僅用「顯著」「下調」等定性描述，無法評估效應量大小",
+    "動物模型樣本數、分組方式、statistical power 等關鍵方法學細節摘要未揭露"
+   ],
+   "unassessable": [
+    "動物實驗樣本數",
+    "統計檢定方法與p值",
+    "盲法／隨機分組",
+    "利益衝突",
+    "此遞送平台之安全性與毒性數據",
+    "人體可行性"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "雖與先前看過的miR-30a-5p及BMSC外泌體miR-148a-3p論文同屬miRNA／外泌體機轉研究，但標的基因（EZH2/STAT3 vs vimentin/ERK 或 Ets-1）與疾病模型不同，機轉路徑無直接延伸或矛盾關係，故視為無相關前作。",
+   "added_at": "2026-10-10T09:34:58+08:00"
+  }
+ ]
+}
