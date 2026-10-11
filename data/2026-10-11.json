@@ -1,0 +1,789 @@
+{
+ "date": "2026-10-11",
+ "generated_at": "2026-10-11T08:47:33+08:00",
+ "count": 11,
+ "papers": [
+  {
+   "pmid": "42853034",
+   "title": "Building Engagement Using Financial Incentives for Colorectal Cancer Screening (BENEFIT-C) in a Rural Louisiana Federally Qualified Health Center",
+   "journal": "Health Serv Res",
+   "journal_full": "Health services research",
+   "issn": "1475-6773",
+   "issn_linking": "0017-9124",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Apr",
+   "doi": "10.1111/1475-6773.70011",
+   "ptype": "Randomized Controlled Trial",
+   "ptype_list": [
+    "Randomized Controlled Trial"
+   ],
+   "authors": "Perry L, Peacock E, LeBlanc A, Williams L, Wiltz G, Krousel-Wood M",
+   "abstract": "OBJECTIVE: To evaluate the preliminary effectiveness and feasibility of a community-engaged financial incentive intervention for increasing colorectal cancer (CRC) screening in a rural, low-resource primary care setting.\nSTUDY SETTING AND DESIGN: A feasibility pilot trial at a federally qualified health center in the Acadiana region, Louisiana. Participants were identified via electronic health records (EHR), recruited by telephone, and randomized to intervention (n = 25) or control (n = 25). Both groups received incentives for flu and COVID-19 vaccines. The intervention group also received incentives for CRC screening. Fisher's Exact tests evaluated between-group differences in completion of CRC screening (primary outcome), flu, and COVID-19 vaccines 2 months post-enrollment.\nDATA SOURCES AND ANALYTIC SAMPLE: Eligible patients were aged 45-75, due for CRC screening, and English-speaking. From November 11, 2023 to March 31, 2024, completion of each outcome was obtained from the EHR.\nPRINCIPAL FINDINGS: 57% of interested individuals were eligible; 94% of eligible individuals enrolled. Participants were 70% female, 42% Black, 24% uninsured, with a mean age of 52.4 years. Completion of CRC screening was higher in the intervention versus control group (17 [68%] vs. 8 [32%], p = 0.02).\nCONCLUSION: Financial incentives significantly increased completion of CRC screening. Future research should confirm findings in larger samples and evaluate cost-effectiveness to inform health system policies.",
+   "watched": [],
+   "related": [],
+   "title_zh": "利用財務誘因提升大腸直腸癌篩檢參與度（BENEFIT-C）：於路易斯安那州鄉村聯邦合格健康中心之研究",
+   "abstract_zh": "目的：評估社區參與式財務誘因介入措施，在鄉村、資源有限的基層照護場域中，提升大腸直腸癌（CRC）篩檢率之初步成效與可行性。研究場域與設計：於路易斯安那州Acadiana地區一家聯邦合格健康中心進行可行性先驅試驗。參與者透過電子病歷（EHR）篩選，以電話招募，並隨機分配至介入組（n=25）或對照組（n=25）。兩組皆接受流感疫苗與COVID-19疫苗之財務誘因，介入組額外接受大腸直腸癌篩檢之財務誘因。以Fisher精確檢定評估兩組在登記後2個月，大腸直腸癌篩檢完成率（主要結果）、流感疫苗與COVID-19疫苗接種完成率之組間差異。資料來源與分析樣本：符合資格之病患年齡介於45-75歲、符合大腸直腸癌篩檢時機、且能使用英語溝通。自2023年11月11日至2024年3月31日，各項結果之完成情形皆由電子病歷取得。主要發現：57%有興趣者符合資格；94%符合資格者完成註冊。參與者70%為女性、42%為黑人、24%無保險，平均年齡52.4歲。介入組大腸直腸癌篩檢完成率高於對照組（17人[68%] vs. 8人[32%]，p=0.02）。結論：財務誘因顯著提升大腸直腸癌篩檢完成率。未來研究應於更大樣本中確認此發現，並評估成本效益以供醫療體系政策參考。",
+   "evidence_level": "RCT",
+   "score": 3,
+   "score_reason": "小型（n=50）可行性先驅試驗，僅2個月追蹤且為美國特定醫療保險體系下的介入，對台灣全民健保已涵蓋篩檢之臨床實務參考價值有限。",
+   "relevance": "低度相關",
+   "relevance_why": "此為美國醫療政策／財務誘因介入研究，非外科手術或診療決策，且台灣健保體系與美國FQHC保險結構差異極大。",
+   "novelty": "仍屬早期",
+   "one_liner": "在美國鄉村FQHC中50位45-75歲符合篩檢資格病患，比較財務誘因與無額外誘因，發現介入組篩檢完成率較高（68% vs 32%, p=0.02）。",
+   "action": "目前不需改變做法；台灣健保已涵蓋糞便潛血篩檢，此為美國特定醫療保險體系下小樣本可行性試驗，外推性有限。",
+   "pico": {
+    "P": "美國路易斯安那州鄉村聯邦合格健康中心，45-75歲符合大腸直腸癌篩檢時機之病患共50人（介入組25人、對照組25人）",
+    "I": "大腸直腸癌篩檢財務誘因（兩組皆有流感/COVID-19疫苗誘因，介入組額外有篩檢財務誘因）",
+    "C": "僅接受流感/COVID-19疫苗財務誘因之對照組",
+    "O": "主要：登記後2個月內完成大腸直腸癌篩檢率；次要：流感疫苗、COVID-19疫苗接種完成率"
+   },
+   "effects": [
+    {
+     "outcome": "大腸直腸癌篩檢完成率",
+     "ok": true,
+     "i_label": "財務誘因組",
+     "c_label": "對照組",
+     "i_rate": 68.0,
+     "c_rate": 32.0,
+     "i_raw": "17/25",
+     "c_raw": "8/25",
+     "arr": 36.0,
+     "benefit": true,
+     "event_bad": false,
+     "nnt": 3,
+     "kind": "NNT",
+     "note": ""
+    }
+   ],
+   "key_numbers": [
+    "篩檢完成率 68%（17/25）vs 32%（8/25），p=0.02，差距36個百分點，NNT≈3",
+    "57%有興趣者符合資格，94%符合資格者完成註冊，顯示招募可行性佳",
+    "追蹤時間僅2個月，未評估長期篩檢依從性或大腸癌發現率/死亡率"
+   ],
+   "cautions": [
+    "樣本數極小（每組25人），p=0.02在此規模下結果脆弱，信賴區間未提供",
+    "僅2個月短期追蹤，無法評估長期篩檢依從性、瘜肉偵測率或臨床終點（死亡率）",
+    "美國FQHC保險／財務誘因模式與台灣全民健保免費篩檢體系差異大，外推性低"
+   ],
+   "unassessable": [
+    "allocation concealment",
+    "盲法（財務誘因介入難以盲化）",
+    "ITT分析",
+    "失訪率細節",
+    "試驗註冊",
+    "利益衝突",
+    "成本效益分析（作者稱未來研究將評估）"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-10-11T08:45:01+08:00"
+  },
+  {
+   "pmid": "42852635",
+   "title": "cGAS‑STING pathway in digestive tract cancer: From molecular mechanisms to therapeutic applications (Review)",
+   "journal": "Int J Oncol",
+   "journal_full": "International journal of oncology",
+   "issn": "1791-2423",
+   "issn_linking": "1019-6439",
+   "impact_factor": 7.3,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.3892/ijo.2026.5944",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Chen T, Zhang J, Sun J, Zhang H, Huang D, Ye H",
+   "abstract": "As a classic cytosolic DNA sensor, the cyclic GMP‑AMP synthase (cGAS)‑stimulator of interferon genes (STING) pathway contributes to the secretion of multiple inflammatory molecules and functions as a suppressor or promoter in tumor development. Currently, the effect of this pathway on digestive tract cancer types remains unclear, which may be due to its paradoxical roles in different cell types. Tumor cells in digestive cancer often employ multiple mechanisms to inhibit this pathway activation, which then restricts the infiltration of antitumor immune cells and facilitates the formation of an immunosuppressive microenvironment. However, cGAS‑STING pathway activation also influences the function of multiple immune cells. For example, while it mainly potentiates the function of dendritic cells and natural killer cells in the tumor microenvironment, it can also promote macrophage polarization into the immunosuppressive M2 subset. To improve the understanding of the cGAS‑STING pathway in digestive cancer types, the present article systematically reviews the regulatory mechanism and effects of this pathway across different malignancies of the digestive system, including oral cavity, esophageal, gastric, hepatobiliary, pancreatic and colorectal cancer. Furthermore, the present review examines potential stimulatory strategies and future directions to utilize this pathway against tumors, such as inducing DNA damage, removing cell‑intrinsic inhibitory signals and direct activation by agonists. Overall, the present review aims to provide new perspectives and ideas for leveraging the cGAS‑STING pathway to exert antitumor effects by highlighting the changes and roles of this pathway in digestive tract cancer types.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42625444",
+     "date": "2026-08-23",
+     "title_zh": "慢性壓力誘導的腦源性小型細胞外囊泡透過調節性T細胞（Treg）分化促進大腸直腸癌進展",
+     "score": 3,
+     "one_liner": "在CRC小鼠模型與67+37例病人世代中，發現慢性壓力經BD-sEV促進Treg分化，NOXA/FOXP3表現與焦慮評分及不良存活相關。",
+     "sim": 0.227
+    },
+    {
+     "pmid": "42851426",
+     "date": "2026-10-10",
+     "title_zh": "Pantetheinase Vanin-1 透過S-半胱胺化作用增強促效劑誘導的STING活化",
+     "score": 2,
+     "one_liner": "在細胞與DSS誘導大腸炎小鼠模型中，發現Vanin-1透過S-半胱胺化增強STING活化，抑制Vanin-1可改善大腸炎。",
+     "sim": 0.205
+    },
+    {
+     "pmid": "42335237",
+     "date": "2026-06-23",
+     "title_zh": "免疫細胞內源性STING活化透過AA介導的ACSL4乳酸化抑制驅動大腸直腸癌腫瘤鐵死亡",
+     "score": 2,
+     "one_liner": "在CRC細胞株與小鼠模型中，發現免疫細胞STING活化透過AA抑制ACSL4乳酸化促進腫瘤鐵死亡，並與PD-1阻斷劑協同抑制腫瘤。",
+     "sim": 0.186
+    }
+   ],
+   "title_zh": "消化道癌症中的 cGAS-STING 路徑：從分子機制到治療應用（綜述）",
+   "abstract_zh": "作為經典的細胞質DNA感測器，環狀GMP-AMP合成酶（cGAS）-干擾素基因刺激蛋白（STING）路徑參與多種發炎分子的分泌，並在腫瘤發展中扮演抑制者或促進者的角色。目前，此路徑對消化道癌症類型的影響仍不明確，這可能是由於其在不同細胞類型中具有矛盾的角色。消化道癌症中的腫瘤細胞常採用多種機制抑制此路徑的活化，進而限制抗腫瘤免疫細胞的浸潤，並促成免疫抑制性微環境的形成。然而，cGAS-STING路徑的活化也會影響多種免疫細胞的功能。例如，雖然它主要增強腫瘤微環境中樹突狀細胞與自然殺手細胞的功能，但也可能促進巨噬細胞極化為免疫抑制性的M2亞型。為增進對消化道癌症中cGAS-STING路徑的理解，本文系統性地回顧此路徑在消化系統不同惡性腫瘤（包括口腔癌、食道癌、胃癌、肝膽癌、胰臟癌與大腸直腸癌）中的調控機制與作用。此外，本綜述也檢視了潛在的刺激策略與未來方向，以利用此路徑對抗腫瘤，例如誘導DNA損傷、移除細胞內在抑制訊號，以及透過促效劑直接活化。總體而言，本綜述旨在透過強調此路徑在消化道癌症類型中的變化與角色，為利用cGAS-STING路徑發揮抗腫瘤作用提供新的觀點與想法。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純機制性文獻綜述，無原創臨床數據或試驗結果，對台灣大腸直腸外科臨床決策無直接實用性。",
+   "relevance": "低度相關",
+   "relevance_why": "純基礎分子機制綜述，非外科介入、非臨床試驗，無可直接應用於手術或病人照護的資訊。",
+   "novelty": "仍屬早期",
+   "one_liner": "綜述cGAS-STING路徑在消化道癌症（含大腸直腸癌）中免疫調控的分子機制與未來治療策略，無原創臨床數據。",
+   "action": "目前不需改變做法；此為基礎機制綜述，無臨床試驗或病人數據可供手術或治療決策參考。",
+   "pico": {
+    "P": "無特定病人族群，涵蓋口腔、食道、胃、肝膽、胰臟及大腸直腸癌相關文獻回顧",
+    "I": "cGAS-STING路徑之分子機制與潛在活化策略（誘導DNA損傷、移除抑制訊號、促效劑活化）",
+    "C": "無對照組",
+    "O": "主要：腫瘤微環境中免疫細胞功能調控機制；次要：潛在抗腫瘤治療方向"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本文為機制綜述，無原創量化數據、事件數或統計結果可供摘錄",
+    "未提供任何病人世代、存活率或治療反應率等臨床數字",
+    "所述機制（M2極化、DC/NK活化）均為描述性陳述，無統計效應量"
+   ],
+   "cautions": [
+    "純機制綜述無臨床試驗數據，結論無法直接轉譯為臨床決策或治療建議",
+    "cGAS-STING在不同細胞類型中呈現矛盾角色（抑制者/促進者），作者雖點出但未釐清何時適用何種機轉",
+    "所提治療策略（促效劑活化等）多來自臨床前細胞與動物模型，人體療效與安全性未知"
+   ],
+   "unassessable": [
+    "研究設計品質評估項目（如ITT、失訪率、試驗註冊、利益衝突）不適用於本綜述文章",
+    "文獻回顧之系統性方法（如是否為系統性文獻回顧、篩選標準）摘要未說明"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "此篇為廣泛涵蓋消化道癌症（含CRC）之cGAS-STING路徑機制綜述，與先前看過的第3篇（CRC中STING活化透過ACSL4乳酸化驅動腫瘤鐵死亡之機制研究）屬同一分子路徑主題，可視為該類基礎機制研究提供更全面的背景脈絡，但本身未提供新的實驗數據。",
+   "added_at": "2026-10-11T08:45:01+08:00"
+  },
+  {
+   "pmid": "42854107",
+   "title": "Plasma lipopolysaccharide-binding protein (LBP), a proxy for intestinal permeability, relates to clinicopathological and immunological disease activity in inflammatory bowel disease patients at diagnosis and during disease course",
+   "journal": "J Crohns Colitis",
+   "journal_full": "Journal of Crohn's & colitis",
+   "issn": "1876-4479",
+   "issn_linking": "1873-9946",
+   "impact_factor": 10.3,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1038/s41598-020-75306-z",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Barendregt D, Tuk B, Hulleman-van Haaften D, Camman A, Calado B, Grillmaier M",
+   "abstract": "BACKGROUND AND AIMS: Intestinal barrier healing is the treatment goal in ulcerative colitis (UC) and Crohn's disease (CD). Despite this, systematic analyses of the relationship between intestinal permeability and clinicopathological and immunological disease activity at diagnosis and during follow-up are lacking. Therefore, we assessed this relationship using plasma lipopolysaccharide-binding protein (LBP)-an indirect biomarker of systemic exposure to bacterial endotoxins-as a proxy for intestinal permeability, in a uniquely well-characterized pediatric inflammatory bowel disease (IBD) cohort.\nMETHODS: LBP was measured in 1083 longitudinal plasma samples of newly diagnosed pediatric UC (n = 61), CD (n = 115) (PIBD-SETQuality and TISKids prospective cohorts; median follow-up 628 days), and controls (IBD-negative, n = 33; healthy, n = 28). Its relationship with clinicopathological parameters and plasma immune proteomics was examined.\nRESULTS: Plasma LBP was elevated and associated with clinicopathological disease activity in therapy-naive CD and UC. In UC, but not CD, LBP related to disease extent, and strongly and independently correlated to endoscopic and histological disease activity, providing additional explanatory value beyond routinely used blood-based biomarkers and inflammatory mediators (including CRP and IL-6). LBP correlated with disease-specific immune profiles linked to severe disease (IL-17/neutrophil/IFN-γ-related profile in UC; IFN-γ-related profile in CD). LBP decreased after induction therapy with corticosteroids in UC, and after exclusive enteral nutrition or anti-TNF (but not corticosteroids) in CD. LBP remained associated with clinicopathological disease activity during follow-up, particularly in UC.\nCONCLUSIONS: Plasma LBP relates to clinicopathological and immunological disease activity in IBD-especially UC-at diagnosis and during follow-up, and provides complementary information to routinely used blood-based biomarkers, arguing this simple, inexpensive parameter should be (re)considered for monitoring mucosal inflammation in UC.",
+   "watched": [],
+   "related": [],
+   "title_zh": "血漿脂多醣結合蛋白(LBP)作為腸道通透性之替代指標，與發炎性腸道疾病患者診斷時及病程中臨床病理學及免疫學疾病活動度之相關性",
+   "abstract_zh": "背景與目的：腸道屏障癒合是潰瘍性結腸炎(UC)與克隆氏症(CD)的治療目標。儘管如此，關於腸道通透性與診斷時及追蹤期間臨床病理學及免疫學疾病活動度之關係，目前仍缺乏系統性分析。因此，我們使用血漿脂多醣結合蛋白(LBP)——一種反映全身性暴露於細菌內毒素的間接生物標記——作為腸道通透性的替代指標，在一個特徵完整的小兒發炎性腸道疾病(IBD)世代中評估此關係。\n\n方法：於新診斷之小兒UC(n=61)、CD(n=115)（來自PIBD-SETQuality與TISKids前瞻性世代研究；中位追蹤期628天）及對照組（IBD陰性n=33；健康者n=28）共1083個縱向血漿樣本中測量LBP，並檢視其與臨床病理參數及血漿免疫蛋白體學之關係。\n\n結果：在未接受治療的CD及UC病人中，血漿LBP升高並與臨床病理疾病活動度相關。在UC（但非CD）中，LBP與疾病範圍相關，且與內視鏡及組織學疾病活動度呈強烈且獨立的相關性，提供超越常規血液生物標記及發炎介質（包括CRP與IL-6）的額外解釋力。LBP與疾病特異性、與嚴重疾病相關的免疫特徵相關（UC為IL-17/嗜中性球/IFN-γ相關特徵；CD為IFN-γ相關特徵）。UC病人接受類固醇誘導治療後LBP下降，CD病人接受全腸道營養或抗TNF治療後（但非類固醇）LBP下降。追蹤期間LBP持續與臨床病理疾病活動度相關，尤其在UC中更為明顯。\n\n結論：血漿LBP與IBD（尤其是UC）在診斷時及追蹤期間的臨床病理學及免疫學疾病活動度相關，並提供常規血液生物標記之外的互補資訊，主張此簡單、低成本的參數應被（重新）考慮用於監測UC的黏膜發炎。",
+   "evidence_level": "前瞻性世代",
+   "score": 3,
+   "score_reason": "方法學紮實但為小兒內科生物標記觀察性研究，與大腸直腸外科臨床決策（手術適應症、術式選擇）幾乎無直接關聯。",
+   "relevance": "低度相關",
+   "relevance_why": "此為小兒IBD的非手術生物標記研究，與成人大腸直腸外科日常臨床實務（手術決策、術後處置）無直接關係。",
+   "novelty": "仍屬早期",
+   "one_liner": "在小兒新診斷IBD患者(UC 61人、CD 115人)中，測量血漿LBP，發現其與UC之內視鏡及組織學疾病活動度強烈相關。",
+   "action": "目前不需改變做法——此為小兒腸胃科生物標記探索性研究，非外科介入，對手術決策無直接影響。",
+   "pico": {
+    "P": "新診斷小兒IBD患者：UC 61人、CD 115人；對照組IBD陰性33人、健康28人，共1083個縱向血漿樣本",
+    "I": "血漿LBP測量（作為腸道通透性替代指標）",
+    "C": "無對照組（觀察性相關性分析，與CRP、IL-6等常規標記比較解釋力）",
+    "O": "主要：LBP與臨床病理及內視鏡/組織學疾病活動度之相關性；次要：LBP對治療反應之變化"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供具體數值（如AUC、相關係數r值、p值），僅以文字描述「強烈且獨立相關」",
+    "追蹤樣本數達1083個，世代規模尚屬充足，但效應量大小無法由摘要判斷",
+    "無絕對風險或治療效果百分比可供計算ARR/NNT"
+   ],
+   "cautions": [
+    "僅為相關性分析，未提供具體統計數值(如相關係數、p值、CI)，無法判斷效應強度",
+    "研究族群為兒童IBD，外推至成人臨床意義與適用性不明",
+    "LBP作為監測工具之臨床切點、敏感度/特異度未於摘要中呈現，距臨床應用尚遠"
+   ],
+   "unassessable": [
+    "盲法",
+    "ITT分析",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "具體統計數值(相關係數、p值、CI)",
+    "LBP診斷切點之敏感度/特異度"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-10-11T08:45:01+08:00"
+  },
+  {
+   "pmid": "42855147",
+   "title": "Geriatric Assessment-Based Stratification to Evaluate Treatment Intensity, Quality of Life, and Survival in Older Patients With Metastatic Colorectal Cancer: Protocol for a Prospective Observational Study",
+   "journal": "JMIR Res Protoc",
+   "journal_full": "JMIR research protocols",
+   "issn": "1929-0748",
+   "issn_linking": "1929-0748",
+   "impact_factor": 1.6,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.2196/94561",
+   "ptype": "Observational Study",
+   "ptype_list": [
+    "Observational Study"
+   ],
+   "authors": "Hiramatsu T, Okazaki I, Hosokawa K, Yoshimatsu K, Nagasaka T",
+   "abstract": "BACKGROUND: Older patients with metastatic colorectal cancer (mCRC) are a heterogeneous population with wide variability in functional status, frailty, cognition, nutritional reserve, and comorbidity burden. Treatment decisions are often guided primarily by chronological age and performance status, which may not adequately capture vulnerability or patient-centered outcomes in this population.\nOBJECTIVE: The primary aim of this study is to prospectively evaluate the association of baseline geriatric assessment (GA)-derived frailty with overall survival in older patients with mCRC receiving first-line systemic therapy in routine clinical practice; secondary aims are to evaluate the associations of frailty with initial treatment intensity and early changes in quality of life (QOL).\nMETHODS: Baseline GA includes activities of daily living, instrumental activities of daily living, the Clinical Frailty Scale, the Mini-Cog, nutritional assessment, the Charlson Comorbidity Index (excluding cancer-related items), and the Eastern Cooperative Oncology Group (ECOG) performance status. Blood-based prognostic biomarkers, including the prognostic nutritional index and neutrophil-to-lymphocyte ratio, are also collected. Initial treatment intensity is defined according to the first-line systemic regimen selected at baseline, whereas subsequent local therapies are recorded separately. QOL is assessed using the European Organisation for Research and Treatment of Cancer Quality of Life Questionnaire Core 30 (EORTC QLQ-C30) at baseline and 8 to 12 weeks after treatment initiation.\nRESULTS: This study was registered in the UMIN Clinical Trials Registry (UMIN000060489) on April 1, 2026. This study received no external funding. Participant recruitment began on April 1, 2026 (the first participant enrolled in June 2026) and is planned to continue for approximately 2.5 years (projected completion: October 2028), with an anticipated sample size of approximately 100 participants; an early QOL follow-up is scheduled for 8 to 12 weeks after treatment initiation for each participant. As of the submission of this revised manuscript (August 2026), 4 participants had been enrolled, baseline QOL assessments had been completed for all 4 participants, and the 8- to 12-week follow-up QOL assessments had been completed for 3 participants; no outcome data were available. Analysis of the primary outcome will be conducted after final survival follow-up, with the main results anticipated for publication in 2030.\nCONCLUSIONS: This protocol describes a pragmatic GA-based observational framework to examine associations between pretreatment vulnerability, initial treatment intensity, survival outcomes, and patient-reported QOL in older patients with mCRC. Given the exploratory, hypothesis-generating design, the study is expected to generate clinically relevant hypotheses for individualized, patient-centered treatment strategies and future geriatric oncology research.\nTRIAL REGISTRATION: UMIN Clinical Trials Registry UMIN000060489; https://tinyurl.com/3mn563er.\nINTERNATIONAL REGISTERED REPORT IDENTIFIER (IRRID): DERR1-10.2196/94561.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42380848",
+     "date": "2026-07-01",
+     "title_zh": "腸胃道癌症病患的運動與營養術前強化：評估可行性、安全性及對生活品質影響的前瞻性對照試驗",
+     "score": 4,
+     "one_liner": "在GI癌症手術病患（n=38，32人完成）中比較術前運動營養強化與常規照護，發現可行安全，PCS僅單尾檢定顯著改善+4.25分。",
+     "sim": 0.188
+    },
+    {
+     "pmid": "42425570",
+     "date": "2026-07-10",
+     "title_zh": "禁食模擬飲食對接受根治性切除之大腸直腸癌病患長期預後的影響：一項多中心、前瞻性、隨機對照試驗方案",
+     "score": 3,
+     "one_liner": "在602名中國第三期CRC根治性切除病患中，比較FMD介入與對照組，評估3年DFS——此為試驗方案，尚無結果數據。",
+     "sim": 0.158
+    }
+   ],
+   "title_zh": "基於老年評估之分層以評估轉移性大腸直腸癌老年病患之治療強度、生活品質與存活：前瞻性觀察性研究方案",
+   "abstract_zh": "背景：轉移性大腸直腸癌（mCRC）老年病患是一個異質性族群，在功能狀態、衰弱程度、認知功能、營養儲備及共病負擔上差異極大。治療決策常主要依據實際年齡與體能狀態（performance status），但這可能無法充分反映此族群的脆弱性或以病患為中心的結果。\n\n目的：本研究主要目的為前瞻性評估基線老年評估（GA）所衍生之衰弱指標，與接受第一線全身性治療之mCRC老年病患整體存活之關聯；次要目的為評估衰弱與初始治療強度及早期生活品質（QOL）變化之關聯。\n\n方法：基線GA包括日常生活活動能力（ADL）、工具性日常生活活動能力（IADL）、臨床衰弱量表（Clinical Frailty Scale）、Mini-Cog認知篩檢、營養評估、Charlson共病指數（排除癌症相關項目）及東岸腫瘤協作組織（ECOG）體能狀態。同時收集血液型預後生物標記，包括預後營養指數及嗜中性球／淋巴球比值。初始治療強度依基線所選第一線全身性療法定義，後續局部治療則另行記錄。QOL於基線及治療開始後8至12週，以歐洲癌症研究與治療組織生活品質問卷核心30題（EORTC QLQ-C30）評估。\n\n結果：本研究已於2026年4月1日在UMIN臨床試驗註冊中心註冊（UMIN000060489）。本研究未接受外部資助。參與者招募於2026年4月1日開始（第一位參與者於2026年6月入組），預計持續約2.5年（預計完成日期：2028年10月），預期樣本數約100人；每位參與者安排於治療開始後8至12週進行早期QOL追蹤。截至本修訂版手稿投稿時（2026年8月），已有4名參與者入組，4名參與者均已完成基線QOL評估，3名已完成8至12週追蹤QOL評估；尚無結果數據可供分析。主要結果之分析將於最終存活追蹤完成後進行，主要結果預計於2030年發表。\n\n結論：本研究方案描述一個務實的、基於GA的觀察性架構，用以檢視mCRC老年病患治療前脆弱性、初始治療強度、存活結果與病患自評QOL之間的關聯。鑑於此為探索性、假說產生型設計，預期本研究將為個人化、以病患為中心之治療策略及未來老年腫瘤學研究，產生具臨床相關性之假說。\n\n試驗註冊：UMIN臨床試驗註冊中心 UMIN000060489；https://tinyurl.com/3mn563er。\n\n國際註冊報告識別碼（IRRID）：DERR1-10.2196/94561。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "此為研究方案公告，尚無任何結果數據（僅4名病患入組），對臨床決策目前無直接參考價值，僅供追蹤後續發表。",
+   "relevance": "低度相關",
+   "relevance_why": "聚焦於mCRC老年病患之全身性藥物治療強度決策與腫瘤內科導向之老年評估，非外科介入或手術決策相關。",
+   "novelty": "仍屬早期",
+   "one_liner": "一項規劃納入約100名mCRC老年病患之前瞻性觀察研究方案，擬評估老年評估衰弱指標與存活、治療強度、QOL之關聯，目前僅4人入組，無結果數據。",
+   "action": "目前不需改變做法，此僅為研究方案公告，尚無任何療效或存活數據可供參考，建議標記待2030年結果發表後追蹤。",
+   "pico": {
+    "P": "接受第一線全身性治療之轉移性大腸直腸癌老年病患，預計約100人（目前僅4人入組）",
+    "I": "基線老年評估（GA，含ADL/IADL/Clinical Frailty Scale/Mini-Cog/營養評估/CCI/ECOG）分層",
+    "C": "無對照組（觀察性世代研究）",
+    "O": "主要：整體存活與GA衍生衰弱指標之關聯；次要：初始治療強度、治療後8-12週QOL（EORTC QLQ-C30）變化"
+   },
+   "effects": [],
+   "key_numbers": [
+    "計畫樣本數約100人，目前僅4人入組，尚無結果數據",
+    "研究追蹤規劃約2.5年，預計2028年10月完成收案",
+    "主要結果預計於2030年發表，現階段無法提供任何療效或存活數字"
+   ],
+   "cautions": [
+    "本篇僅為研究方案（protocol），無任何結果數據，不可據此做臨床判斷",
+    "探索性、假說產生型設計（hypothesis-generating），無對照組，未來結果仍需謹慎解讀因果關係",
+    "目前入組人數僅4人，遠低於目標100人，是否能如期完成招募仍有不確定性"
+   ],
+   "unassessable": [
+    "主要結果（存活）",
+    "次要結果（治療強度、QOL變化）",
+    "失訪率",
+    "ITT分析",
+    "利益衝突",
+    "統計檢定力/樣本數計算依據",
+    "盲法（觀察性研究通常不適用）"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-10-11T08:45:01+08:00"
+  },
+  {
+   "pmid": "42851492",
+   "title": "Ulcerative colitis, but not Crohn's disease, displays demographically and clinically driven mucosal immune heterogeneity: implications for patient stratification",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1016/j.cell.2019.06.029",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "De Prado Á, Soleto I, de Castro C, Baldán-Martín M, Del Hierro A, Martínez P",
+   "abstract": "BACKGROUND: Inflammatory bowel disease (IBD) encompasses Crohn's disease (CD) and ulcerative colitis (UC), two conditions with distinct immunopathological profiles despite shared inflammatory pathways. Comparative mucosal and systemic immune characterisation across disease subtypes and clinical variables remains limited. This study aimed to map leukocyte dysregulation in tissue and blood from patients with CD and UC compared to controls.\nMETHODS: Intestinal tissue and blood samples were obtained from 35 controls and endoscopically active IBD patients, including 54 with CD and 74 with UC. Leukocyte subsets were identified using a 29-marker spectral cytometry panel combining hierarchical gating with unsupervised clustering and dimensionality reduction. Immune composition was stratified by disease location, biological sex, age and endoscopic severity.\nRESULTS: Hierarchical gating identified 41 mucosal and 42 circulating immune subsets; unsupervised clustering resolved 51 mucosal and 62 blood clusters. Both diseases displayed dysregulated mucosal immunity relative to controls but with distinct signatures: while CD was mainly T-cell biased, UC showed a mixed infiltrate with an increased relative proportion of NK, NKT and IgG+ B-cells. UC also exhibited substantially greater immunological heterogeneity than CD when stratified by biological sex, age and severity, with effects predominantly confined to the mucosa. Ileal and colonic CD showed minor immunological differences.\nCONCLUSIONS: UC displayed more prominent subgroup-associated mucosal immune heterogeneity than CD, particularly according to biological sex, age and endoscopic severity. These findings support tissue-resolved patient stratification in UC and highlight the limited sensitivity of blood-based biomarkers to reflect mucosal immune alterations.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42446529",
+     "date": "2026-07-15",
+     "title_zh": "評估血清人類半乳糖凝集素3作為發炎性腸道疾病活性指標並與糞便鈣衛蛋白比較",
+     "score": 3,
+     "one_liner": "在40名活動期IBD病人與40名對照中，比較血清galectin 3與糞便鈣衛蛋白，發現galectin 3診斷準確度達99.6%（切點>5.199 µg/ml）。",
+     "sim": 0.151
+    },
+    {
+     "pmid": "42446529",
+     "date": "2026-07-16",
+     "title_zh": "評估血清人類半乳糖凝集素3作為發炎性腸道疾病活性指標並與糞便鈣衛蛋白比較",
+     "score": 3,
+     "one_liner": "在40名活動期IBD病人與40名對照中，比較血清galectin 3與糞便鈣衛蛋白，發現galectin 3診斷準確度達99.6%（切點>5.199 µg/ml）。",
+     "sim": 0.151
+    }
+   ],
+   "title_zh": "潰瘍性結腸炎（而非克隆氏症）呈現受人口學與臨床因素驅動的黏膜免疫異質性：對病人分層的意義",
+   "abstract_zh": "背景：發炎性腸道疾病（IBD）包含克隆氏症（CD）與潰瘍性結腸炎（UC），兩者雖共享發炎路徑，但免疫病理特徵截然不同。目前跨疾病亞型與臨床變項的黏膜與全身免疫比較性特徵描述仍有限。本研究旨在繪製CD與UC病人相對於對照組的組織與血液白血球失調圖譜。方法：收取35名對照者與內視鏡下活動期IBD病人（54名CD、74名UC）的腸道組織與血液檢體。使用29標記的光譜細胞儀面板，結合階層式分群與非監督式分群及降維分析來鑑定白血球亞群。依疾病位置、生理性別、年齡與內視鏡嚴重度進行免疫組成分層。結果：階層式分群鑑定出41種黏膜與42種循環免疫亞群；非監督式分群則解析出51種黏膜與62種血液分群。CD與UC相對於對照組皆呈現黏膜免疫失調，但訊號不同：CD主要以T細胞偏移為主，UC則呈現混合性浸潤，NK、NKT與IgG+ B細胞的相對比例增加。UC在依生理性別、年齡與嚴重度分層時，呈現顯著較CD更大的免疫異質性，且此效應主要侷限於黏膜。迴腸型與結腸型CD之間的免疫差異輕微。結論：UC較CD呈現更顯著的亞群相關黏膜免疫異質性，尤其依生理性別、年齡與內視鏡嚴重度而異。這些發現支持UC應採取組織層級的病人分層，並凸顯血液生物標記對反映黏膜免疫變化的敏感度有限。",
+   "evidence_level": "橫斷面",
+   "score": 2,
+   "score_reason": "基礎免疫機制研究，無手術介入或臨床決策數據，對大腸直腸外科日常臨床實務幾無直接應用價值。",
+   "relevance": "低度相關",
+   "relevance_why": "純粹基礎免疫學／生物標記研究，非外科介入，不涉及手術決策或治療選擇。",
+   "novelty": "仍屬早期",
+   "one_liner": "在35名對照與128名IBD病人（CD 54、UC 74）中，以光譜細胞儀比較黏膜與血液免疫亞群，發現UC異質性遠大於CD。",
+   "action": "目前不需改變做法；此為基礎免疫機制研究，未提供可直接應用於外科治療決策的證據。",
+   "pico": {
+    "P": "35名健康對照與128名內視鏡下活動期IBD病人（54名CD、74名UC）",
+    "I": "腸道組織與血液的29標記光譜細胞儀免疫分析，依性別、年齡、嚴重度分層",
+    "C": "CD vs UC vs 對照組之間比較",
+    "O": "主要：黏膜與循環免疫細胞亞群組成差異；次要：疾病亞型間異質性程度"
+   },
+   "effects": [],
+   "key_numbers": [
+    "鑑定出41種黏膜與42種循環免疫亞群（階層式分群）",
+    "非監督式分群解析出51種黏膜與62種血液免疫分群",
+    "UC依性別/年齡/嚴重度分層時異質性顯著大於CD（未附具體統計量）"
+   ],
+   "cautions": [
+    "橫斷面研究，僅描述免疫組成差異，無法推論因果或疾病進程",
+    "樣本數有限（UC 74、CD 54），且分層後各亞組人數可能更小，統計把握度存疑",
+    "未提供p值或信賴區間佐證異質性差異的統計顯著性，結論偏向探索性"
+   ],
+   "unassessable": [
+    "試驗設計細節",
+    "病人選取標準與排除條件",
+    "統計方法與顯著性檢定",
+    "利益衝突",
+    "長期追蹤或臨床結果關聯"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。之前看過的論文為IBD血清生物標記（galectin-3）診斷研究，與本篇黏膜免疫細胞亞群機制研究主題不同，無直接關聯。",
+   "added_at": "2026-10-11T08:45:01+08:00"
+  },
+  {
+   "pmid": "42851426",
+   "title": "Pantetheinase Vanin-1 potentiates agonist-induced STING activation via S-cysteaminylation",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1016/j.celrep.2023.113040",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Liao X, Fu J, Xie C, Liu S, Wang X, Hu M",
+   "abstract": "Stimulator of interferon genes (STING) is a key player in innate immunity, and its dysregulation has been implicated in autoimmune and inflammatory diseases. The activation of STING is regulated by multiple factors, including post-translational modifications (PTMs), but the regulatory network of these PTMs remains incompletely characterized. Here, we report that vascular non-inflammatory molecule-1 (Vanin-1) facilitates STING activation and provide evidence supporting S-cysteaminylation as a previously unrecognized modification of STING. Mechanistically, Vanin-1 hydrolyzes pantetheine to pantothenic acid (vitamin B5) and cysteamine, an aminothiol that promotes S-cysteaminylation of STING at three conserved cysteine residues within the transmembrane domain and potentiates agonist-induced STING activation without directly activating STING. Genetic and pharmacological inhibition of Vanin-1 attenuated STING signaling induced by STING agonists and ameliorated DSS-induced colitis in vivo. Together, our findings reveal a novel regulatory role for Vanin-1 in the cGAS-STING pathway and suggest that Vanin-1 may represent a potential therapeutic target for inflammatory diseases characterized by aberrant cGAS-STING activation.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42335237",
+     "date": "2026-06-23",
+     "title_zh": "免疫細胞內源性STING活化透過AA介導的ACSL4乳酸化抑制驅動大腸直腸癌腫瘤鐵死亡",
+     "score": 2,
+     "one_liner": "在CRC細胞株與小鼠模型中，發現免疫細胞STING活化透過AA抑制ACSL4乳酸化促進腫瘤鐵死亡，並與PD-1阻斷劑協同抑制腫瘤。",
+     "sim": 0.222
+    },
+    {
+     "pmid": "42852635",
+     "date": "2026-10-10",
+     "title_zh": "消化道癌症中的cGAS-STING路徑：從分子機轉到治療應用（綜述）",
+     "score": 2,
+     "one_liner": "本綜述整理cGAS-STING路徑在消化道癌症（含大腸直腸癌）中促癌/抑癌矛盾角色的分子機轉與潛在治療策略。",
+     "sim": 0.205
+    },
+    {
+     "pmid": "42663768",
+     "date": "2026-08-30",
+     "title_zh": "轉譯後修飾在潰瘍性結腸炎致病機轉中的調控角色",
+     "score": 1,
+     "one_liner": "本文回顧磷酸化、醣化、泛素化等多種轉譯後修飾在UC致病機轉中調控免疫與上皮完整性的角色，屬機制性綜述無臨床數據。",
+     "sim": 0.153
+    }
+   ],
+   "title_zh": "Pantetheinase Vanin-1 透過S-半胱胺化作用增強激動劑誘導的STING活化",
+   "abstract_zh": "干擾素基因刺激因子（STING）是先天性免疫的關鍵角色，其失調與自體免疫及發炎性疾病有關。STING的活化受多種因子調控，包括轉譯後修飾（PTMs），但這些PTM的調控網絡尚未完整闡明。本研究發現血管性非發炎分子-1（Vanin-1）可促進STING活化，並提供證據支持S-半胱胺化作用是一種先前未被認識的STING修飾。機轉上，Vanin-1將泛硫乙胺（pantetheine）水解為泛酸（維生素B5）與半胱胺（一種胺基硫醇），後者促進STING穿膜域內三個保守半胱胺酸殘基的S-半胱胺化，並增強激動劑誘導的STING活化，但本身不直接活化STING。基因與藥理學抑制Vanin-1可減弱STING激動劑誘導的STING訊號傳導，並改善體內DSS誘導的結腸炎。總之，本研究揭示Vanin-1在cGAS-STING路徑中的新調控角色，並提示Vanin-1可能是以異常cGAS-STING活化為特徵之發炎性疾病的潛在治療靶點。",
+   "evidence_level": "其他",
+   "score": 1,
+   "score_reason": "純小鼠模型機轉研究，無任何臨床數據、無人體試驗，對大腸直腸外科臨床實務完全無直接應用性。",
+   "relevance": "低度相關",
+   "relevance_why": "純基礎分子機轉研究（DSS誘導小鼠結腸炎模型），非外科介入、非大腸直腸癌臨床研究。",
+   "novelty": "仍屬早期",
+   "one_liner": "在小鼠DSS結腸炎模型中，發現Vanin-1透過半胱胺促進STING蛋白S-半胱胺化修飾而增強其活化，抑制Vanin-1可改善結腸炎。",
+   "action": "目前不需改變做法；此為小鼠機轉研究，無人體數據、無手術或治療決策相關性。",
+   "pico": {
+    "P": "小鼠DSS誘導結腸炎模型；體外細胞株（無人類臨床病人）",
+    "I": "Vanin-1基因/藥理學抑制",
+    "C": "未抑制Vanin-1之對照組",
+    "O": "STING訊號活化程度；DSS結腸炎嚴重度"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供任何絕對數值（事件數、發生率、p值或信賴區間）",
+    "僅描述機轉性發現，無定量臨床或病理學數據可供抽取",
+    "DSS結腸炎改善程度未具體量化（如疾病活動指數分數）"
+   ],
+   "cautions": [
+    "純動物/細胞模型研究，結果無法直接外推至人類大腸直腸疾病或癌症",
+    "DSS誘導結腸炎模型與臨床發炎性腸病或CRC致病機轉存在重大物種與模型差異",
+    "摘要完全未提供量化數據，無法評估效應大小或統計顯著性"
+   ],
+   "unassessable": [
+    "盲法",
+    "ITT分析",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "樣本數",
+    "統計方法與p值"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "雖然先前閱讀過的論文同屬cGAS-STING路徑相關機轉研究，但本篇聚焦於Vanin-1與STING的S-半胱胺化修飾機轉，主題與前作重疊有限，且前作評分亦極低，故不強行建立關聯。",
+   "added_at": "2026-10-11T08:45:01+08:00"
+  },
+  {
+   "pmid": "42855213",
+   "title": "PET/MR Imaging of the Gastrointestinal Tract",
+   "journal": "Magn Reson Imaging Clin N Am",
+   "journal_full": "Magnetic resonance imaging clinics of North America",
+   "issn": "1557-9786",
+   "issn_linking": "1064-9689",
+   "impact_factor": 2.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.1016/j.mric.2026.06.011",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Bhinder K, Ammirabile A, Zarrintan A, Jadoon A, Goenka A",
+   "abstract": "PET/MR imaging combines molecular PET data with multiparametric MR imaging in a single reduced-radiation examination of the gastrointestinal tract. For oncologic indications, the hybrid modality adds value in hepatic metastasis detection, locoregional staging, and posttreatment response assessment. Radiotracers beyond fluorodeoxyglucose, including fibroblast activation protein inhibitor ligands and somatostatin receptor analogs, expand diagnostic reach in tumors with low glycolytic activity and in neuroendocrine disease. For inflammatory bowel disease, PET/MR enterography assists with selected questions such as differentiation of inflammatory from fibrotic strictures. This review evaluates current evidence supporting PET/MR imaging across oncologic and nononcologic gastrointestinal applications.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42640498",
+     "date": "2026-08-26",
+     "title_zh": "大腸直腸癌肝轉移組織病理生長模式之非侵入性分子影像特徵",
+     "score": 3,
+     "one_liner": "本綜述提出以PET分子影像（FDG、RGD、FAPI等）非侵入性預測CRLM的三種組織病理生長模式，屬假說階段，尚無臨床驗證數據。",
+     "sim": 0.184
+    }
+   ],
+   "title_zh": "胃腸道之PET/MR影像",
+   "abstract_zh": "PET/MR影像結合分子PET資料與多參數MR影像，可在單次檢查中以較低輻射劑量完成胃腸道檢查。在腫瘤學應用上，此混合影像模式在肝轉移偵測、局部區域分期及治療後反應評估上具有附加價值。除了氟去氧葡萄糖（FDG）外，纖維母細胞活化蛋白抑制劑配體（FAPI）與生長抑素受體類似物等新型放射性示蹤劑，擴展了在低糖解活性腫瘤及神經內分泌疾病中的診斷範圍。對於發炎性腸病，PET/MR腸造影檢查有助於解決特定臨床問題，例如區分發炎性與纖維化狹窄。本綜述評估目前支持PET/MR影像於腫瘤學與非腫瘤學胃腸道應用之證據。",
+   "evidence_level": "綜述",
+   "score": 3,
+   "score_reason": "純敘述性綜述，未提供原始臨床試驗數據或量化診斷準確度，對台灣大腸直腸外科日常決策的即時實用性有限。",
+   "relevance": "中度相關",
+   "relevance_why": "內容涉及CRC肝轉移偵測與局部分期等外科決策上游的影像議題，但本身屬影像技術綜述而非外科介入比較。",
+   "novelty": "仍屬早期",
+   "one_liner": "本綜述整理PET/MR於胃腸道腫瘤（含大腸直腸癌肝轉移偵測、局部分期、治療後反應評估）及發炎性腸病之應用現況，未提供新實證數據。",
+   "action": "目前不需改變做法；可留意PET/MR及新型示蹤劑（FAPI、SSTR類似物）於CRLM偵測之潛力發展，待前瞻性驗證成熟後再評估導入。",
+   "pico": {
+    "P": "未指定特定人數，泛論接受胃腸道PET/MR影像檢查之病人族群（綜述性質）",
+    "I": "PET/MR影像，含FDG、FAPI配體、生長抑素受體類似物等示蹤劑",
+    "C": "無對照組（為綜述文章，非單一研究之頭對頭比較）",
+    "O": "肝轉移偵測力、局部區域分期準確度、治療後反應評估、IBD狹窄性質鑑別（發炎性vs纖維化）"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供任何偵測率、敏感度/特異度或樣本數等量化數據",
+    "未列出PET/MR與PET/CT或單純MR之頭對頭比較數字",
+    "無統計檢定或信賴區間可供引用"
+   ],
+   "cautions": [
+    "本文為敘述性綜述，未提供原始研究數據或統計檢定，證據等級低",
+    "未說明各引用研究之病人數與黃金標準比對方式，無法判斷偵測準確度是否可信",
+    "新型示蹤劑（FAPI、SSTR類似物）多屬小型或單中心研究，臨床普及度與成本效益均未知"
+   ],
+   "unassessable": [
+    "研究設計細節",
+    "樣本數",
+    "盲法",
+    "ITT",
+    "失訪率",
+    "成本效益分析",
+    "利益衝突"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "前作聚焦於PET分子影像預測CRLM組織病理生長模式（假說階段、無臨床驗證），本篇則是PET/MR於全消化道（含CRLM肝轉移偵測）更廣泛的綜述。兩者皆屬早期、非直接可改變手術決策的分子影像證據，彼此互補但都尚未成熟到可臨床應用。",
+   "added_at": "2026-10-11T08:45:01+08:00"
+  },
+  {
+   "pmid": "42855209",
+   "title": "Imaging Updates in Inflammatory Bowel Disease",
+   "journal": "Magn Reson Imaging Clin N Am",
+   "journal_full": "Magnetic resonance imaging clinics of North America",
+   "issn": "1557-9786",
+   "issn_linking": "1064-9689",
+   "impact_factor": 2.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.1016/j.mric.2026.06.008",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Consul N, Rimola J, Al-Hawary M, Wasnik A",
+   "abstract": "Magnetic resonance enterography (MRE) is a key noninvasive imaging modality for the diagnosis and longitudinal assessment of inflammatory bowel disease (IBD), particularly Crohn's disease. The global burden of IBD is increasing, with millions affected in North America and Europe and rapidly rising incidence in Asia and Africa. Standardized acquisition protocols improve consistency and diagnostic accuracy. As therapeutic options expand and patient outcomes improve, MRE interpretation has evolved beyond detection toward disease phenotype characterization and prognostic indicator assessment. Integration of MRE findings with updated disease activity indices and response criteria is essential to guide clinical decision-making in contemporary IBD care.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42509009",
+     "date": "2026-07-29",
+     "title_zh": "磁振腸造影（MRE）與腸道超音波（IUS）於克隆氏症治療反應評估之診斷準確性比較（MANTRA）：多中心、非隨機、多組別、前瞻性世代比較研究計畫書",
+     "score": 2,
+     "one_liner": "在155名克隆氏症病患中，計畫比較MRE與IUS對治療反應分類之準確性，目前僅為研究計畫書，尚無結果數據。",
+     "sim": 0.253
+    }
+   ],
+   "title_zh": "發炎性腸道疾病之影像學新進展",
+   "abstract_zh": "磁振腸造影（MRE）是發炎性腸道疾病（IBD），尤其是克隆氏症，診斷與長期追蹤的重要非侵入性影像工具。IBD的全球疾病負擔持續增加，北美與歐洲已有數百萬患者受影響，亞洲與非洲的發生率則快速上升。標準化的檢查流程有助於提升一致性與診斷準確度。隨著治療選項擴展、病患預後改善，MRE的判讀已從單純偵測病灶，演進至疾病表型分類與預後指標評估。將MRE發現與更新後的疾病活動度指數及治療反應標準整合，對於指導當代IBD臨床決策至關重要。",
+   "evidence_level": "綜述",
+   "score": 3,
+   "score_reason": "純敘述性綜述，無原始數據或量化結果，對台灣大腸直腸外科日常手術決策的直接實用性有限，偏向放射科/內科參考。",
+   "relevance": "低度相關",
+   "relevance_why": "內容聚焦MRE影像判讀技術演進，非外科介入或手術決策相關，屬放射診斷學範疇。",
+   "novelty": "仍屬早期",
+   "one_liner": "本文為綜述，概述MRE在IBD（尤其克隆氏症）診斷與病程追蹤中，從病灶偵測演進至表型與預後評估的角色。",
+   "action": "目前不需改變做法；此為影像學綜述無具體數據，可留意未來MRE預後指標整合進多科會診的發展。",
+   "pico": {
+    "P": "發炎性腸道疾病（主要為克隆氏症）患者，無具體人數",
+    "I": "磁振腸造影（MRE）影像判讀之更新進展",
+    "C": "無對照組",
+    "O": "無明確定義之主要outcome；討論範疇包含病灶偵測、表型分類、預後指標評估"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供任何具體發生率、百分比或統計數據",
+    "僅描述IBD全球負擔上升趨勢，無量化數字",
+    "無治療反應或預後指標之絕對數值"
+   ],
+   "cautions": [
+    "此為敘述性綜述，無原始研究數據，結論缺乏實證支持強度",
+    "無法得知文獻選取方法是否系統化，可能存在選擇性引用偏誤",
+    "未提供任何具體診斷準確性數字（如敏感度/特異度），僅為概念性描述"
+   ],
+   "unassessable": [
+    "研究設計細節",
+    "文獻篩選方法",
+    "利益衝突",
+    "是否為系統性文獻回顧",
+    "引用文獻之證據等級"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。先前看過的MANTRA研究計畫書雖同屬MRE於克隆氏症應用領域，但為前瞻性診斷準確性研究計畫書且尚無結果，與本篇純敘述性綜述性質不同，無法建立具體延伸或矛盾關係。",
+   "added_at": "2026-10-11T08:45:01+08:00"
+  },
+  {
+   "pmid": "42855208",
+   "title": "MR Imaging of Anal Cancer",
+   "journal": "Magn Reson Imaging Clin N Am",
+   "journal_full": "Magnetic resonance imaging clinics of North America",
+   "issn": "1557-9786",
+   "issn_linking": "1064-9689",
+   "impact_factor": 2.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.1016/j.mric.2026.06.007",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Young P, Golia Pernicka J, Jing A, Ernst R, Rauch G",
+   "abstract": "High-resolution pelvic MR imaging is central to the diagnosis, staging, treatment planning, and posttreatment assessment of anal squamous cell carcinoma (SCCA), the most common malignancy of the anal canal. Accurate imaging interpretation requires detailed knowledge of anal canal anatomy, lymphatic drainage, and optimized MR imaging technique. MR imaging provides excellent evaluation of primary tumor extent, while nodal and distant staging are enhanced by computed tomography (CT) and FDG-PET/CT. Imaging directly informs contemporary chemoradiation strategies and surveillance. Human papillomavirus (HPV) is implicated in nearly 90% of SCCA, is vaccine-preventable, and HPV ctDNA shows promise for response assessment and relapse prediction.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42333496",
+     "date": "2026-06-23",
+     "title_zh": "人類乳突病毒16型E6血清陽性率與HIV感染男性肛門疾病嚴重度之關聯：巢式病例對照研究",
+     "score": 3,
+     "one_liner": "在846名MSM中比較HPV16 E6血清陽性率於肛門HPV感染、HSIL、肛門癌與對照組，發現多數OR不顯著（肛門癌OR 1.5，95%CI 0.3-9.0）。",
+     "sim": 0.17
+    }
+   ],
+   "title_zh": "肛門癌之磁振造影檢查",
+   "abstract_zh": "高解析度骨盆腔磁振造影（MR imaging）在肛門鱗狀細胞癌（SCCA，肛管最常見的惡性腫瘤）之診斷、分期、治療計畫擬定及治療後評估中扮演核心角色。準確的影像判讀需要詳細了解肛管解剖構造、淋巴引流路徑，以及最佳化的MR造影技術。MR造影可提供原發腫瘤範圍的優良評估，而淋巴結與遠端分期則可藉由電腦斷層（CT）及FDG-PET/CT加強評估。影像直接影響當代化放療策略之制定與追蹤監測。人類乳突病毒（HPV）與近90%的SCCA相關，可透過疫苗預防，而HPV ctDNA在治療反應評估與復發預測方面展現潛力。",
+   "evidence_level": "綜述",
+   "score": 4,
+   "score_reason": "為影像技術與解剖學教育性綜述，無原創研究數據，對臨床決策的即時實用性有限，但有助於建立肛門癌分期與追蹤之影像學基礎知識。",
+   "relevance": "中度相關",
+   "relevance_why": "肛門SCCA多以化放療為主要治療，外科介入有限（如切片、EUA、挽救性APR），本文偏重影像判讀而非手術決策。",
+   "novelty": "再確認已知",
+   "one_liner": "本文綜述MR造影於肛門鱗狀細胞癌的解剖、分期、治療計畫與追蹤角色，並提及HPV ctDNA作為反應評估新興指標。",
+   "action": "目前不需改變做法；可作為與放射科討論肛門癌分期影像報告時的背景知識參考。",
+   "pico": {
+    "P": "不適用（綜述文章，無特定研究族群）",
+    "I": "高解析度骨盆腔MR造影（搭配CT、FDG-PET/CT）",
+    "C": "無對照組",
+    "O": "不適用；文中討論原發腫瘤分期準確度、治療計畫擬定、治療後追蹤評估、HPV ctDNA反應預測潛力"
+   },
+   "effects": [],
+   "key_numbers": [
+    "HPV與近90%的肛門SCCA相關（無具體數值區間或信賴區間）",
+    "文中未提供MR造影分期準確度之敏感度/特異度數據",
+    "HPV ctDNA用於反應評估與復發預測，但摘要未附具體效能數據"
+   ],
+   "cautions": [
+    "綜述文章無原創試驗數據，所有結論缺乏可供評估之統計效度",
+    "HPV ctDNA僅描述為「shows promise」，屬早期探索性應用，尚未有具體臨床驗證數據",
+    "未提供MR造影分期與病理分期一致性之準確度數字，無法評估臨床實用價值"
+   ],
+   "unassessable": [
+    "此為綜述文章，不適用隨機分配、盲法、ITT、失訪率等試驗設計評估項目",
+    "無法得知文中引用證據的原始研究品質與異質性",
+    "無利益衝突或資金來源資訊"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作。先前看過的HPV16 E6血清學論文聚焦於HIV/MSM族群肛門病變風險預測，與本文探討之MR影像分期技術屬不同層面議題，無直接關聯。",
+   "added_at": "2026-10-11T08:45:01+08:00"
+  },
+  {
+   "pmid": "42855207",
+   "title": "MR imaging of Rectal Cancer",
+   "journal": "Magn Reson Imaging Clin N Am",
+   "journal_full": "Magnetic resonance imaging clinics of North America",
+   "issn": "1557-9786",
+   "issn_linking": "1064-9689",
+   "impact_factor": 2.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.1016/j.mric.2026.06.006",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Kassam Z, Lee S, Maheshwari E, Wasnik A",
+   "abstract": "MR imaging strengthens contemporary management of rectal cancer by depicting tumor extent, mesorectal fascia proximity, and nodal disease with exquisite anatomic detail. Both standardized technique and synoptic reporting improve reproducibility and multidisciplinary planning. Accurate T-category assignment, measurement of the circumferential resection margin, and recognition of extramural vascular invasion/tumor deposits stratify risk and help to triage patients into surgical, neoadjuvant or \"watch-and-wait\" pathways. Station-based evaluation of lateral pelvic nodes is critical to develop local control strategies. On restaging, a descriptive T2 + diffusion-weighted imaging framework differentiates treatment-related fibrosis from residual tumor to support organ-preserving options when appropriate.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42388096",
+     "date": "2026-07-02",
+     "title_zh": "全直腸新輔助治療（TNT）後之磁振造影：以治療導向反應評估作為觀察等待（Watch-and-Wait）處置之報告依據",
+     "score": 6,
+     "one_liner": "本文回顧TNT後直腸癌MRI再分期策略，說明以DWI+內視鏡取代TRG以更安全篩選W&W候選病人。",
+     "sim": 0.169
+    }
+   ],
+   "title_zh": "直腸癌之磁振造影檢查",
+   "abstract_zh": "磁振造影（MRI）藉由精細描繪腫瘤範圍、與直腸繫膜筋膜之距離及淋巴結病變，強化了當代直腸癌的治療管理。標準化的掃描技術與結構化報告（synoptic reporting）可提升可重現性與多科團隊治療規劃之品質。精準的T分期、環周切除緣（circumferential resection margin, CRM）之測量，以及壁外血管侵犯（extramural vascular invasion）／腫瘤沉積（tumor deposits）之辨識，有助於風險分層，並協助將病人分流至手術、新輔助治療或『觀察等待（watch-and-wait）』等不同路徑。以站別（station-based）評估側方骨盆淋巴結，對於發展局部控制策略至關重要。在重新分期（restaging）時，描述性的T2加權合併擴散加權影像（DWI）架構可區分治療後纖維化與殘餘腫瘤，在適當情況下支持器官保留的治療選項。",
+   "evidence_level": "綜述",
+   "score": 4,
+   "score_reason": "為敘述性回顧文章，無新數據或原始研究結果，但系統性整理了直腸癌MRI分期與再分期的臨床應用架構，對臨床實務具教育性參考價值。",
+   "relevance": "高度相關",
+   "relevance_why": "MRI分期是大腸直腸外科決定手術、新輔助治療或觀察等待策略的核心工具，直接影響臨床決策流程。",
+   "novelty": "再確認已知",
+   "one_liner": "本文回顧直腸癌MRI於T分期、CRM、EMVI、側方淋巴結評估及再分期之應用架構，未提供新數據。",
+   "action": "目前不需改變做法；可作為內部教學或建立標準化MRI報告範本之參考資料，而非改變治療決策依據。",
+   "pico": {
+    "P": "直腸癌病人（文獻回顧，無具體研究人數）",
+    "I": "標準化MRI掃描技術與結構化（synoptic）報告，含T2+DWI再分期架構",
+    "C": "無對照組",
+    "O": "T分期準確度、CRM評估、EMVI/腫瘤沉積辨識、側方淋巴結評估；次要：區分治療後纖維化與殘餘腫瘤以支持器官保留策略"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本文未提供任何量化數據、敏感度/特異度或統計檢定結果",
+    "為概念性架構整理，非原始研究，無絕對風險或信賴區間可引用",
+    "陰性/中性發現：全文未報告任何比較性結果"
+   ],
+   "cautions": [
+    "此為敘述性回顧，無原始病人數據，無法評估證據強度或偏誤風險",
+    "未提及任何具體準確度數字（如CRM判讀之敏感度/特異度），論述多為定性描述",
+    "多科團隊實務成效高度仰賴判讀者經驗與中心間技術落差，文中未討論此變異性"
+   ],
+   "unassessable": [
+    "研究設計與樣本數",
+    "選樣偏誤",
+    "判讀者間一致性（inter-observer agreement）",
+    "利益衝突",
+    "文獻回顧之系統性方法（是否為系統性回顧或任意選文）"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "前作聚焦於TNT後以MRI（DWI+內視鏡）篩選觀察等待候選病人之再分期策略；本文則更廣泛涵蓋直腸癌MRI全流程（初始T分期、CRM、EMVI、側方淋巴結、再分期），可視為對前作主題的脈絡性延伸與補充架構。",
+   "added_at": "2026-10-11T08:45:01+08:00"
+  },
+  {
+   "pmid": "42855206",
+   "title": "Imaging of Colonic Malignancies",
+   "journal": "Magn Reson Imaging Clin N Am",
+   "journal_full": "Magnetic resonance imaging clinics of North America",
+   "issn": "1557-9786",
+   "issn_linking": "1064-9689",
+   "impact_factor": 2.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.1016/j.mric.2026.06.005",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Darwish A, Lalwani N, Kanmaniraja D, Yee J",
+   "abstract": "This comprehensive review outlines current imaging strategies for the evaluation and management of colonic malignancies. It explores anatomic considerations, histologic subtypes with distinct imaging features, and the evolving role of advanced modalities such as computed tomography colonography, radiomics, and MR spectroscopy. Emphasis is placed on tumor detection, accurate staging, response assessment, and surgical planning. Radiologists play a pivotal role in optimizing care across all phases of disease.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42508937",
+     "date": "2026-07-30",
+     "title_zh": "發炎性腸道疾病之組織學活動性：臨床重要性與病理評估",
+     "score": 3,
+     "one_liner": "本文回顧IBD組織學活動度評估之術語、評分系統與判讀方式，未提供原始研究數據或臨床試驗結果。",
+     "sim": 0.156
+    }
+   ],
+   "title_zh": "大腸惡性腫瘤之影像學評估",
+   "abstract_zh": "本篇綜合性文獻回顧概述了目前用於評估與管理大腸惡性腫瘤之影像策略。內容探討解剖學考量、具有不同影像特徵之組織學亞型，以及電腦斷層大腸鏡檢查（CT colonography）、放射基因組學（radiomics）與磁共振光譜（MR spectroscopy）等進階影像模式之演進角色。文章強調腫瘤偵測、精確分期、治療反應評估與手術規劃。放射科醫師在疾病各階段之照護優化中扮演關鍵角色。",
+   "evidence_level": "綜述",
+   "score": 3,
+   "score_reason": "純敘述性綜述、無原始數據或統計檢定，對臨床決策之即時實用性有限，主要適合放射科背景讀者。",
+   "relevance": "中度相關",
+   "relevance_why": "影像分期與手術規劃與大腸直腸外科相關，但本文偏重放射科視角，缺乏具體可直接應用於外科決策之數據。",
+   "novelty": "仍屬早期",
+   "one_liner": "本綜述整理大腸癌影像策略，涵蓋CT colonography、radiomics、MR spectroscopy於偵測、分期與手術規劃之應用現況。",
+   "action": "目前不需改變做法；此為影像技術綜述，無原始數據可直接改變臨床決策，可作背景知識參考。",
+   "pico": {
+    "P": "無特定病人人數，為大腸惡性腫瘤影像學文獻之綜合回顧",
+    "I": "CT colonography、radiomics、MR spectroscopy等多種進階影像模式",
+    "C": "無對照組",
+    "O": "腫瘤偵測率、分期準確度、治療反應評估、手術規劃效益"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供任何具體敏感度、特異度或分期準確率數字",
+    "未比較不同影像模式間之絕對效能差異",
+    "無原始世代或病人數據可供計算效應量"
+   ],
+   "cautions": [
+    "本文為敘述性綜述，無原始研究數據或統計檢定，無法評估實際診斷效能",
+    "未說明CT colonography、radiomics、MR spectroscopy各自之敏感度/特異度等量化指標",
+    "文章主要以放射科醫師為讀者群，手術規劃建議未具體化，外科臨床應用價值有限"
+   ],
+   "unassessable": [
+    "文獻選取方法",
+    "利益衝突",
+    "原始研究來源與品質評估",
+    "試驗註冊"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-10-11T08:45:01+08:00"
+  }
+ ]
+}
