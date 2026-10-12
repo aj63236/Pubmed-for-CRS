@@ -1,0 +1,631 @@
+{
+ "date": "2026-10-12",
+ "generated_at": "2026-10-12T09:08:53+08:00",
+ "count": 9,
+ "papers": [
+  {
+   "pmid": "42858222",
+   "title": "Chronological age and failure to rescue after colorectal cancer surgery: A multicentre cohort study",
+   "journal": "Aging Clin Exp Res",
+   "journal_full": "Aging clinical and experimental research",
+   "issn": "1720-8319",
+   "issn_linking": "1594-0667",
+   "impact_factor": 4.7,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Sep",
+   "doi": "10.1007/s11701-026-03778-8",
+   "ptype": "Multicenter Study",
+   "ptype_list": [
+    "Multicenter Study"
+   ],
+   "authors": "Cwaliński T, Kazanowski M, Piątkowski J, Ciesielski M, Januszkiewicz M, Bigus Z",
+   "abstract": "BACKGROUND: Whether advancing chronological age is associated more strongly with serious postoperative events or with survival after an event remains uncertain.\nAIMS: To compare the association of chronological age with major postoperative events and failure to rescue after colorectal cancer surgery.\nMETHODS: We analyzed 1,124 adults treated at five Polish centers between January 2022 and August 2025. Major events were Clavien-Dindo ≥grade IIIa; failure to rescue was cumulative 90-day death after such an event. Chronological age was analysed per 10-year increase. Multivariable logistic regression examined major events and Firth regression examined failure to rescue.\nRESULTS: Major events occurred in 145 patients; failure to rescue was evaluable in 134 and occurred in 24. Chronological age was not associated with major events (adjusted odds ratio per decade 1.09, 95% confidence interval 0.89-1.33) or nonfatal major morbidity. Failure-to-rescue odds increased per decade (odds ratio 2.02, 95% confidence interval 1.21-3.63); model-standardized probabilities were 11.1% at age 65 and 32.5% at age 85 years. Sensitivity analyses were directionally consistent, but the interval included no association when every model-eligible missing post-event outcome was assigned to death.\nDISCUSSION: The chronological-age gradient was concentrated in survival after a serious event. Frailty and physiological reserve were not measured; reduced reserve remains a plausible explanation rather than a demonstrated mechanism.\nCONCLUSIONS: Chronological age may help identify patients who warrant intensified postoperative surveillance and early escalation, while formal geriatric and frailty assessment remains necessary to characterize biological vulnerability.",
+   "watched": [],
+   "related": [],
+   "title_zh": "實齡與大腸直腸癌手術後「搶救失敗」之關聯：多中心世代研究",
+   "abstract_zh": "背景：實際年齡增加究竟與嚴重術後事件的發生較相關，還是與事件發生後的存活率較相關，目前尚不清楚。目的：比較實際年齡與大腸直腸癌手術後重大術後事件及搶救失敗（failure to rescue）之關聯。方法：分析2022年1月至2025年8月間，波蘭五個醫學中心收治的1,124名成人病患。重大事件定義為Clavien-Dindo分級≥IIIa；搶救失敗定義為發生此類事件後90天內累積死亡。以每增加10歲分析實際年齡，多變量邏輯回歸分析重大事件，Firth回歸分析搶救失敗。結果：145名病人發生重大事件；搶救失敗可評估者134人，其中24人發生。實際年齡與重大事件無關（校正後每十年勝算比1.09，95%信賴區間0.89-1.33），亦與非致命性重大併發症無關。搶救失敗之勝算隨每十年增加而上升（勝算比2.02，95%信賴區間1.21-3.63）；模型標準化機率顯示65歲時為11.1%，85歲時為32.5%。敏感度分析方向一致，但當所有模型可納入的缺失事件後結果皆被歸類為死亡時，信賴區間則涵蓋無相關性。討論：年齡梯度效應集中於嚴重事件發生後的存活率。本研究未測量衰弱（frailty）與生理儲備，儲備降低仍僅為合理推測機轉，而非已證實的機制。結論：實際年齡或可協助辨識需加強術後監測與及早升級處置的病人，但仍需正式老年醫學與衰弱評估以描述生物學脆弱性。",
+   "evidence_level": "回溯性研究",
+   "score": 5,
+   "score_reason": "概念有趣（年齡影響存活而非併發症發生率），但FTR事件僅24例、信賴區間寬，且最壞情境敏感度分析使結果失去顯著性，證據尚不穩固。",
+   "relevance": "中度相關",
+   "relevance_why": "主題為大腸直腸癌手術高齡病人照護，但屬觀察性假說生成研究，未直接改變手術適應症或術式選擇。",
+   "novelty": "仍屬早期",
+   "one_liner": "在1,124名CRC術後病人中，年齡與主要併發症無關(OR1.09)，但與術後搶救失敗死亡風險上升相關(OR2.02/十年)。",
+   "action": "對高齡病人術後一旦發生重大併發症，應加強密切監測與及早升級處置，但不需改變手術適應症選擇。",
+   "pico": {
+    "P": "2022/01-2025/08間波蘭五中心收治之1,124名大腸直腸癌手術成人病患",
+    "I": "實際年齡（每增加10歲）",
+    "C": "無對照組（連續變項之觀察性關聯分析）",
+    "O": "主要outcome：Clavien-Dindo≥IIIa重大術後事件、90天內搶救失敗（事件後死亡）；次要：非致命性重大併發症"
+   },
+   "effects": [
+    {
+     "outcome": "搶救失敗（重大事件後90天死亡，模型標準化預測機率）",
+     "ok": true,
+     "i_label": "85歲",
+     "c_label": "65歲",
+     "i_rate": 32.5,
+     "c_rate": 11.1,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 21.4,
+     "benefit": false,
+     "event_bad": true,
+     "nnt": 5,
+     "kind": "NNH",
+     "note": ""
+    }
+   ],
+   "key_numbers": [
+    "主要術後事件發生率145/1124（約12.9%），與年齡無顯著關聯（OR 1.09/十年，95%CI 0.89-1.33）",
+    "搶救失敗24/134例（17.9%），年齡每增10歲風險上升（OR 2.02，95%CI 1.21-3.63）",
+    "模型預測死亡機率：65歲11.1% vs 85歲32.5%，但最壞情境敏感度分析下CI涵蓋無相關"
+   ],
+   "cautions": [
+    "搶救失敗僅134例、24事件，樣本小且使用Firth回歸，顯示資料稀疏、結果不穩定",
+    "最壞情境敏感度分析（缺失結果皆設為死亡）後信賴區間涵蓋無相關，核心結果脆弱",
+    "未測量衰弱(frailty)與生理儲備，年齡可能為混淆因子之代理變項，無法確立因果機轉"
+   ],
+   "unassessable": [
+    "研究設計為前瞻性或回溯性收案未明確說明",
+    "多變量模型納入之共病/風險因子細節未揭露",
+    "整體病患失訪率與資料完整性未詳述",
+    "試驗註冊、利益衝突未提及"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-10-12T09:05:50+08:00"
+  },
+  {
+   "pmid": "42857020",
+   "title": "Multipathway pharmacological interventions targeting liver-derived immune resistance in colorectal cancer liver metastasis",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1038/nbt.3836",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Chen M, Qin S, Zhan Y, Wang Q",
+   "abstract": "Immune checkpoint inhibitors provide durable benefit in mismatch repair-deficient colorectal cancer, but most microsatellite-stable tumors remain resistant, particularly in the presence of liver metastases. Immune resistance in colorectal cancer liver metastasis reflects both baseline MSS-CRC mechanisms, including low neoantigenicity, limited T-cell priming and tumor-intrinsic immune exclusion, and liver-specific or liver-amplified mechanisms, including tolerogenic antigen presentation by hepatic resident cells, macrophage-mediated loss of tumor-reactive T cells, and hepatic stromal, vascular and metabolic remodeling. Across early-phase and retrospective studies, responses to checkpoint-based combinations have been observed more often in patients without active liver metastases, but these exploratory subgroup findings do not yet establish independent predictive value or clinical causality. Antiangiogenic agents, multikinase inhibitors, myeloid- and stromal-targeted therapies, innate immune activation, and liver-directed interventions may partially overcome these barriers, but single-pathway strategies have shown limited efficacy. This Mini Review summarizes the mechanisms and clinical evidence of liver-mediated immune resistance and proposes organ-informed, mechanism-matched therapeutic strategies for colorectal cancer liver metastasis.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42683268",
+     "date": "2026-09-03",
+     "title_zh": "肝臟微環境驅動之大腸直腸癌肝轉移免疫抑制生態位及其治療性重塑",
+     "score": 2,
+     "one_liner": "本綜述整理大腸直腸癌肝轉移中肝臟微環境驅動之免疫抑制機制與潛在治療重塑策略，無原創臨床數據。",
+     "sim": 0.238
+    },
+    {
+     "pmid": "42683268",
+     "date": "2026-09-04",
+     "title_zh": "肝臟微環境驅動之大腸直腸癌肝轉移免疫抑制生態位及其治療性重塑",
+     "score": 2,
+     "one_liner": "本綜述整理大腸直腸癌肝轉移免疫抑制微環境三層機制（肝臟耐受性生態位、局部抑制、全身性肝臟匱竭效應），未提供原創臨床數據。",
+     "sim": 0.238
+    },
+    {
+     "pmid": "42445193",
+     "date": "2026-07-15",
+     "title_zh": "傳統中醫藥作為微衛星穩定型大腸直腸癌免疫檢查點阻斷治療之潛在屏障導向增敏策略：從抗性機轉到轉譯驗證",
+     "score": 2,
+     "one_liner": "本綜述整理TCM複方（如真氣扶正顆粒、電針等）可能透過免疫代謝與微生物群調控增強MSS-CRC對ICI反應，但直接臨床證據仍有限。",
+     "sim": 0.179
+    }
+   ],
+   "title_zh": "針對大腸直腸癌肝轉移中肝臟來源免疫抗性之多路徑藥理學介入策略",
+   "abstract_zh": "免疫檢查點抑制劑在錯配修復缺陷型大腸直腸癌中提供持久效益，但大多數微衛星穩定型（MSS）腫瘤仍具抗性，尤其在合併肝轉移時更為明顯。大腸直腸癌肝轉移的免疫抗性反映了基礎MSS-CRC機制（包括低新抗原性、有限的T細胞致敏作用、腫瘤內在性免疫排除）以及肝臟特異性或肝臟放大的機制（包括肝臟常駐細胞之耐受性抗原呈現、巨噬細胞介導之腫瘤反應性T細胞喪失、以及肝臟間質、血管與代謝重塑）。在早期臨床試驗與回溯性研究中，無活動性肝轉移的患者對檢查點相關聯合療法的反應較常見，但這些探索性次群組發現尚未確立獨立預測價值或臨床因果關係。抗血管新生藥物、多重激酶抑制劑、骨髓與間質靶向療法、先天免疫活化及肝臟導向介入可能部分克服這些障礙，但單一路徑策略的療效有限。本迷你綜述總結了肝臟介導免疫抗性的機制與臨床證據，並提出以器官為基礎、機制匹配的大腸直腸癌肝轉移治療策略。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純綜述文章，無原創臨床數據，對大腸直腸外科日常臨床決策幾無直接實用性。",
+   "relevance": "低度相關",
+   "relevance_why": "內容聚焦免疫腫瘤學機制與藥理學策略，非外科介入，與外科手術決策關聯性低。",
+   "novelty": "仍屬早期",
+   "one_liner": "本綜述整理MSS型大腸直腸癌肝轉移之肝臟免疫抗性機制，並提出多路徑藥理學介入策略構想，無原創臨床數據。",
+   "action": "目前不需改變做法；此為機制性綜述，無可直接應用於外科臨床決策之數據。",
+   "pico": {
+    "P": "無特定人數；概念性聚焦於MSS型大腸直腸癌肝轉移患者",
+    "I": "多路徑藥理學介入（抗血管新生、多重激酶抑制、骨髓/間質靶向、先天免疫活化、肝臟導向治療）",
+    "C": "無對照組",
+    "O": "無量化主要結果；綜述免疫抗性機制與潛在治療策略"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供任何量化數據、事件數或百分比",
+    "僅描述「無活動性肝轉移患者反應較常見」，未附具體數字",
+    "無p值、信賴區間或統計檢定結果"
+   ],
+   "cautions": [
+    "全文為機制性綜述，無原創臨床試驗數據，結論僅屬假說層級",
+    "文中明確承認次群組反應差異為探索性發現，尚未確立因果關係或預測價值",
+    "多路徑治療策略僅為理論整合，缺乏臨床試驗驗證其組合療效"
+   ],
+   "unassessable": [
+    "盲法",
+    "allocation concealment",
+    "ITT",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本分析",
+    "原始研究設計細節"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "與前兩篇肝轉移免疫抑制微環境綜述主題高度重疊，同樣聚焦肝臟驅動之免疫抗性機制，本篇進一步延伸至多路徑藥理學介入策略之理論建構，但仍無原創臨床數據。",
+   "added_at": "2026-10-12T09:05:50+08:00"
+  },
+  {
+   "pmid": "42858147",
+   "title": "Challenges and opportunities facing inflammatory bowel disease in Sub-Saharan Africa: towards a contextually relevant research and practice agenda",
+   "journal": "J Crohns Colitis",
+   "journal_full": "Journal of Crohn's & colitis",
+   "issn": "1876-4479",
+   "issn_linking": "1873-9946",
+   "impact_factor": 10.3,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1093/ecco-jcc/jjag135",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Cooper S, Watermeyer G, Levin D, Mhlaba Z, Davidson K, Bernstein C",
+   "abstract": "Inflammatory bowel disease (IBD), comprising Crohn's disease and ulcerative colitis, has traditionally been considered a disease of Western, industrialized countries. Over the past few decades, however, many Sub-Saharan African (SSA) countries have experienced significant increases in cases. Yet, IBD remains highly neglected in SSA with most research conducted in high-income settings and treatment guidelines geared towards these settings. An emerging body of research on the sub-continent is highlighting several unique realities, dilemmas, and priorities facing IBD, and the need for evidence-based approaches that are more locally relevant and contextually tailored. In this viewpoint article we synthesize the challenges facing IBD in SSA and propose a research and practice agenda for addressing these, building on several promising initiatives already under way. Ultimately, we make a call to the international IBD community, researchers, funders, and policymakers to recognize the importance of IBD in SSA and join efforts to remedy global disparities in the quality, accessibility, and equity of IBD care.",
+   "watched": [],
+   "related": [],
+   "title_zh": "撒哈拉以南非洲發炎性腸道疾病面臨的挑戰與機會：邁向具情境relevance的研究與實務議程",
+   "abstract_zh": "發炎性腸道疾病（IBD），包含克隆氏症與潰瘍性結腸炎，傳統上被認為是西方工業化國家的疾病。然而，過去數十年間，許多撒哈拉以南非洲（SSA）國家的病例數顯著增加。儘管如此，IBD 在 SSA 仍高度被忽視，大多數研究於高收入地區進行，治療指引也多針對這些地區設計。該次大陸上新興的研究凸顯出 IBD 面臨的數個獨特現實、困境與優先議題，以及建立更具在地關聯性、情境化實證方法的必要性。本篇觀點文章綜整 SSA 地區 IBD 面臨的挑戰，並基於若干已在進行中的具前景計畫，提出因應的研究與實務議程。最終，我們呼籲國際 IBD 社群、研究者、資助者與政策制定者正視 IBD 在 SSA 的重要性，共同致力改善全球 IBD 照護品質、可及性與公平性的落差。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "這是一篇觀點型文章，聚焦於撒哈拉以南非洲的醫療政策與研究議程，無臨床數據可供外科決策參考，對台灣大腸直腸外科實務幾無直接應用價值。",
+   "relevance": "低度相關",
+   "relevance_why": "本文探討 IBD 在撒哈拉以南非洲的流行病學與政策挑戰，非外科介入研究，與台灣臨床情境無直接關聯。",
+   "novelty": "仍屬早期",
+   "one_liner": "一篇觀點文章，探討撒哈拉以南非洲 IBD 照護與研究的落差，呼籲建立在地化研究與實務議程，無臨床數據。",
+   "action": "目前不需改變做法；此文為政策倡議性質，無可直接應用於台灣大腸直腸外科臨床實務的具體數據或建議。",
+   "pico": {
+    "P": "無特定病人族群；討論對象為撒哈拉以南非洲的 IBD 病患群體與醫療體系",
+    "I": "無介入；為政策與研究議程倡議",
+    "C": "無對照組",
+    "O": "無量化 outcome；討論議題為研究優先序、照護可及性與公平性"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本文為觀點文章，無量化臨床數據可供摘錄"
+   ],
+   "cautions": [
+    "此為觀點/倡議性文章，非原創研究，無法提供可評估的證據等級或臨床效益數據",
+    "內容多為質性論述與政策呼籲，缺乏具體統計數字支持其論點",
+    "與台灣臨床情境（高收入、已開發醫療體系）差異極大，結論不可直接外推"
+   ],
+   "unassessable": [
+    "研究方法",
+    "樣本數",
+    "統計分析",
+    "利益衝突",
+    "試驗註冊"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-10-12T09:05:50+08:00"
+  },
+  {
+   "pmid": "42859913",
+   "title": "Revisiting Cell Death in Colorectal Cancer: The Rise of Ferroptosis as a Therapeutic Opportunity",
+   "journal": "J Cell Physiol",
+   "journal_full": "Journal of cellular physiology",
+   "issn": "1097-4652",
+   "issn_linking": "0021-9541",
+   "impact_factor": 4.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1002/jcp.70237",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Altamimi A, Elemam N, Kalady M, Talaat I",
+   "abstract": "Colorectal cancer (CRC) remains a global health concern and a leading cause of cancer mortality, where therapeutic resistance persists as the central barrier to sustained response. Most conventional therapies rely on apoptosis, but CRC frequently resists through p53 alterations, anti-apoptotic BCL-2 upregulation, and drug efflux mechanisms. Here, we explore unconventional cell death pathways, focusing on ferroptosis, as a strategy to overcome apoptosis-dependent therapeutic resistance in CRC. We discussed the molecular mechanisms of ferroptosis, including GPX4 blockade, iron dysregulation, and lipid metabolism remodeling, and emphasized their implications for drug-resistant CRC. Then, necroptosis, pyroptosis, and autophagy were discussed in relation to their crosstalk with ferroptosis. Preclinical models show that ferroptosis inducers (e.g., erastin, RSL3, talaroconvolutin) selectively kill chemoresistant CRC, including KRAS-mutant CRC, and potentiate the efficacy of conventional regimens. The therapeutic duality of autophagy, pyroptosis, and necroptosis in CRC is discussed, with emphasis on ferroptosis's ability to circumvent traditional mechanisms of resistance. Yet, clinical translation is hindered by insufficient pharmacokinetics, systemic toxicity, limited biomarker availability, tumor heterogeneity, compensatory antioxidant pathways, and the need for safer delivery platforms. We propose that ferroptosis is most likely to enter CRC therapy through rational combinations, biomarker-guided patient selection, and tumor-targeted delivery platforms rather than as a stand-alone cytotoxic strategy.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42678591",
+     "date": "2026-09-02",
+     "title_zh": "自體免疫疾病中的調控性細胞死亡：分子機轉與治療機會",
+     "score": 1,
+     "one_liner": "本綜述整理ferroptosis、pyroptosis、necroptosis等多種調控性細胞死亡路徑在14種自體免疫疾病（含IBD）致病機轉中的角色，屬前臨床機轉整理，無臨床數據。",
+     "sim": 0.178
+    },
+    {
+     "pmid": "42678591",
+     "date": "2026-09-03",
+     "title_zh": "自體免疫疾病中的調節性細胞死亡：分子機轉與治療機會",
+     "score": 1,
+     "one_liner": "本綜述整理ferroptosis、pyroptosis等7種調節性細胞死亡路徑在14種自體免疫疾病中的分子機轉，屬前臨床機轉整合，無臨床數據。",
+     "sim": 0.178
+    },
+    {
+     "pmid": "42732402",
+     "date": "2026-09-14",
+     "title_zh": "奈米藥物標靶脂質代謝重編程用於大腸直腸癌治療之研究進展",
+     "score": 2,
+     "one_liner": "本綜述整理奈米藥物標靶CRC脂質代謝重編程（合成、攝取、儲存、膽固醇代謝）之研究進展與臨床轉譯挑戰。",
+     "sim": 0.155
+    }
+   ],
+   "title_zh": "重新審視大腸直腸癌中的細胞死亡：鐵死亡（Ferroptosis）作為治療契機的崛起",
+   "abstract_zh": "大腸直腸癌（CRC）仍是全球健康隱憂及癌症死亡主因，其中治療抗性持續是維持治療反應的核心障礙。多數傳統療法仰賴細胞凋亡（apoptosis），但CRC常透過p53突變、抗凋亡蛋白BCL-2上調及藥物外排機制產生抗性。本文探討非傳統細胞死亡路徑，聚焦於鐵死亡（ferroptosis），作為克服CRC中依賴細胞凋亡之治療抗性的策略。我們討論了鐵死亡的分子機轉，包括GPX4阻斷、鐵代謝失調及脂質代謝重塑，並強調其對抗藥性CRC的意義。接著討論了necroptosis、pyroptosis及自噬（autophagy）與鐵死亡的交互作用。臨床前模型顯示，鐵死亡誘導劑（如erastin、RSL3、talaroconvolutin）能選擇性殺死化療抗性CRC細胞（包括KRAS突變型CRC），並增強傳統療法之療效。文中亦討論了自噬、pyroptosis及necroptosis在CRC中的雙重治療性角色，並強調鐵死亡規避傳統抗藥機轉的能力。然而，臨床轉譯仍受限於藥物動力學不足、全身性毒性、生物標誌物有限、腫瘤異質性、代償性抗氧化路徑，以及對更安全遞送平台的需求。我們提出，鐵死亡最可能透過合理的藥物組合、生物標誌物導向之病人篩選，以及腫瘤標靶遞送平台進入CRC治療，而非作為單一細胞毒性策略。",
+   "evidence_level": "綜述",
+   "score": 1,
+   "score_reason": "純機轉綜述，完全無臨床數據、無人體試驗，對臨床決策無直接參考價值。",
+   "relevance": "低度相關",
+   "relevance_why": "屬基礎分子機轉整理，非外科介入或臨床治療決策相關。",
+   "novelty": "仍屬早期",
+   "one_liner": "本綜述整理鐵死亡等調控性細胞死亡路徑於CRC治療抗性中的分子機轉，全屬臨床前概念，無人體數據。",
+   "action": "目前不需改變做法：無臨床試驗數據，僅為機轉假說整理，尚無法轉譯至病人治療。",
+   "pico": {
+    "P": "無特定病人族群，綜述聚焦CRC臨床前模型與細胞株",
+    "I": "鐵死亡誘導劑（erastin、RSL3、talaroconvolutin）等概念性介入",
+    "C": "無對照組",
+    "O": "無臨床outcome；僅討論分子機轉與臨床前抗腫瘤效果"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本篇未提供任何人體或統計數據，純屬機轉性綜述",
+    "所有效果描述均來自臨床前（preclinical）模型，無絕對數字可供ARR/NNT計算",
+    "無陰性結果報告，因無實驗設計"
+   ],
+   "cautions": [
+    "全文無臨床試驗或人體數據，結論僅適用於細胞/動物模型，外推至病人需高度謹慎",
+    "作者明確承認臨床轉譯障礙（藥物動力學、毒性、生物標誌物缺乏），顯示技術仍處早期階段",
+    "綜述性質可能存在選擇性引用偏誤，缺乏系統性方法學（非systematic review）"
+   ],
+   "unassessable": [
+    "研究方法學品質",
+    "利益衝突",
+    "文獻篩選標準",
+    "是否為系統性綜述或敘述性綜述"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "與前兩篇「自體免疫疾病調控性細胞死亡」綜述主題相近，同屬ferroptosis/pyroptosis/necroptosis機轉整理系列，但聚焦疾病從自體免疫轉為CRC，補上CRC治療抗性此一缺口，惟仍停留在臨床前機轉層次，無新增臨床證據。",
+   "added_at": "2026-10-12T09:05:50+08:00"
+  },
+  {
+   "pmid": "42859914",
+   "title": "SIRT3-Dependent Actions of Berberine: From Molecular Therapies to Toxicity",
+   "journal": "J Biochem Mol Toxicol",
+   "journal_full": "Journal of biochemical and molecular toxicology",
+   "issn": "1099-0461",
+   "issn_linking": "1095-6670",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1002/jbt.71126",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Shackebaei D, Miraghaee S, Farhadi F, Akbarzadeh A, Yarmohammadi F",
+   "abstract": "Berberine, an alkaloid with broad bioactive properties, exerts its pleiotropic effects by modulating SIRT3, a mitochondrial NAD+-dependent deacetylase. This review examines the dual role of SIRT3 as a target of berberine in the management of various disorders while also addressing its associated toxicological profiles. The antihyperglycemic effects of berberine are mediated through SIRT3 inhibition, which promotes hyperacetylation of complex I subunits, degradation of MPC1, an increased AMP/ATP ratio, AMPK activation, and suppression of PEPCK1, collectively resulting in the inhibition of gluconeogenesis. In contrast, the hypolipidemic, cardioprotective, and hepatoprotective effects of berberine are associated with SIRT3 activation, which facilitating adipose tissue remodeling, enhancing β-oxidation in NAFLD, promoting lipophagy in diabetic cardiomyopathy, and mitigates doxorubicin-induced cardiotoxicity. Furthermore, berberine exhibits antitumor duality, exerting contrasting effects in colorectal cancer and hepatoma models, and demonstrates versatile mitochondrial metabolic reprogramming in polycystic ovarian syndrome. Notably, ocular toxicity associated with berberine has been linked to SIRT3 inhibition in photoreceptors cells. Overall, the therapeutic versatility of berberine is fundamentally associated with its context-dependent modulation of SIRT3, positioning it as a promising mitochondrial epigenetics modulator for conditions such as metabolic syndrome, NAFLD, and DCM. However, its therapeutic application must be carefully balanced against organ-specific toxicity risks.",
+   "watched": [],
+   "related": [],
+   "title_zh": "小檀堿（Berberine）依賴SIRT3的作用：從分子治療到毒性",
+   "abstract_zh": "小檀堿（Berberine）是一種具有廣泛生物活性的生物鹼，其多效性作用是透過調節SIRT3（一種線粒體NAD+依賴性去乙醯化酶）來實現的。本綜述探討SIRT3作為小檀堿在多種疾病治療中的雙重角色靶點，同時也探討其相關毒理學特徵。小檀堿的抗高血糖效果是透過SIRT3抑制來介導的，這會促進complex I次單元的過度乙醯化、MPC1的降解、增加AMP/ATP比值、活化AMPK，以及抑制PEPCK1，共同導致糖質新生的抑制。相反地，小檀堿的降血脂、心臟保護及肝臟保護效果則與SIRT3活化有關，這會促進脂肪組織重塑、增強NAFLD中的β氧化、促進糖尿病心肌病變中的脂噬作用，並減輕doxorubicin引起的心臟毒性。此外，小檀堿展現出抗腫瘤的雙重性，在大腸直腸癌與肝癌模型中表現出相反的作用，並在多囊性卵巢症候群中展現多樣性的線粒體代謝重編程。值得注意的是，小檀堿相關的眼毒性已被連結至光受體細胞中的SIRT3抑制。總體而言，小檀堿的治療多樣性從根本上與其對SIRT3的情境依賴性調節有關，使其成為代謝症候群、NAFLD及糖尿病心肌病變等疾病的一種有潛力的線粒體表觀遺傳調節劑。然而，其治療應用必須審慎權衡器官特異性的毒性風險。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純分子機制綜述，無臨床試驗數據，與大腸直腸外科臨床決策幾乎無直接關聯，僅提及大腸直腸癌作為基礎研究背景之一。",
+   "relevance": "低度相關",
+   "relevance_why": "這是基礎分子生物學綜述，探討SIRT3訊號路徑，非外科介入或臨床治療研究，大腸直腸癌僅被提及一句話作為機制範例。",
+   "novelty": "仍屬早期",
+   "one_liner": "本綜述整理小檀堿透過SIRT3調控代謝、心肝保護及抗腫瘤的分子機制，其中大腸直腸癌僅為提及的機制範例之一。",
+   "action": "目前不需改變做法；此為基礎機制綜述，無臨床數據可直接應用於大腸直腸癌病人治療決策。",
+   "pico": {
+    "P": "無特定病人族群（綜述文獻，整合細胞與動物模型研究）",
+    "I": "小檀堿（Berberine）對SIRT3的調節作用",
+    "C": "無對照組",
+    "O": "綜述SIRT3在代謝、心臟、肝臟保護及抗腫瘤效果中的分子機制；次要討論眼毒性"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本篇為機制綜述，無臨床試驗數據或統計效量可供引用",
+    "大腸直腸癌僅被提及呈現「抗腫瘤雙重性」，無具體數據支持",
+    "無法提供ARR、NNT或存活率等臨床實用數字"
+   ],
+   "cautions": [
+    "此為基礎科學綜述，所有結論均來自細胞或動物模型，無法直接外推至人體臨床應用",
+    "大腸直腸癌部分僅以「對比效果」（contrasting effects）一語概括，未提供具體機制或數據細節",
+    "綜述文章本身不含原始研究設計，無法評估研究品質、樣本量或統計方法"
+   ],
+   "unassessable": [
+    "試驗設計",
+    "樣本量",
+    "統計方法",
+    "利益衝突",
+    "臨床劑量與人體藥物動力學資料"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-10-12T09:05:50+08:00"
+  },
+  {
+   "pmid": "42857268",
+   "title": "Intraoperative margin assessment in colorectal cancer via AI-enhanced multiphoton microscopy",
+   "journal": "J Biomed Opt",
+   "journal_full": "Journal of biomedical optics",
+   "issn": "1560-2281",
+   "issn_linking": "1083-3668",
+   "impact_factor": 3.3,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1016/j.cell.2009.10.027",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Lai Q, Lin Z, Xi G, He J, Wang G, Zhang J",
+   "abstract": "SIGNIFICANCE: Identifying residual tumors at the resection margins is crucial for individuals undergoing colorectal cancer (CRC) surgery. Accurate margin assessment can help minimize residual tumor while avoiding unnecessary removal of healthy tissue.\nAIM: This study uses label-free multiphoton microscopy to visualize collagen architecture and develops a feature-enhanced deep-learning model to distinguish CRC from margin-adjacent normal tissue.\nAPPROACH: Margin-adjacent normal and carcinoma tissues were imaged using multiphoton microscopy, and 142 quantitative collagen features were extracted from SHG images. We propose PVT-Enhanced, a feature-fusion model that integrates handcrafted collagen features with deep image features derived from PVTv2-b5 through an attention-based fusion strategy. Its performance was compared with LASSO-LR, three convolutional neural networks, and image-only PVTv2-b5.\nRESULTS: SHG imaging showed relatively coherent fiber orientation, longer and more continuous collagen fibers, and higher fiber density in margin-adjacent normal tissue, whereas carcinoma tissue showed more disorganized orientation, shorter and more fragmented fibers, and lower fiber density. The PVT-Enhanced model achieved an accuracy of 86.9%, an AUC of 0.923, and a specificity of 96.4%. Only 5 of 137 margin-adjacent normal images were misclassified as CRC.\nCONCLUSIONS: Our findings suggest that the PVT-Enhanced framework combined with SHG imaging allows accurate, rapid, and label-free tissue characterization that may support intraoperative margin assessment in CRC surgery.",
+   "watched": [],
+   "related": [],
+   "title_zh": "大腸直腸癌術中切緣評估：AI 強化多光子顯微術",
+   "abstract_zh": "意義：對接受大腸直腸癌（CRC）手術的病人而言，辨識切除邊緣是否殘留腫瘤至關重要。準確的切緣評估有助於減少腫瘤殘留，同時避免不必要地切除健康組織。\n目的：本研究利用免標記多光子顯微術觀察膠原蛋白結構，並開發一個特徵增強深度學習模型，以區分 CRC 與切緣鄰近正常組織。\n方法：使用多光子顯微術對切緣鄰近正常組織與癌組織進行影像擷取，並從二次諧波（SHG）影像中提取 142 個量化膠原特徵。我們提出 PVT-Enhanced，一種融合手工膠原特徵與 PVTv2-b5 深度影像特徵的特徵融合模型，透過注意力機制進行融合，並與 LASSO-LR、三種卷積神經網路、以及僅使用影像的 PVTv2-b5 進行效能比較。\n結果：SHG 影像顯示切緣鄰近正常組織具有較一致的纖維方向、較長且連續的膠原纖維、以及較高的纖維密度；而癌組織則呈現較紊亂的方向、較短且破碎的纖維、以及較低的纖維密度。PVT-Enhanced 模型達到 86.9% 準確率、AUC 0.923、特異度 96.4%。137 張切緣鄰近正常影像中僅 5 張被誤判為 CRC。\n結論：研究結果顯示 PVT-Enhanced 架構結合 SHG 影像可進行準確、快速、免標記的組織特徵分析，可能有助於 CRC 手術中的術中切緣評估。",
+   "evidence_level": "診斷性研究",
+   "score": 3,
+   "score_reason": "僅為 ex vivo 影像分類的技術可行性研究，無患者層級數據、無敏感度報告、無術中實際驗證，距臨床應用尚遠。",
+   "relevance": "中度相關",
+   "relevance_why": "切緣評估對大腸直腸外科重要，但此為早期影像AI技術開發，非可直接應用的臨床工具。",
+   "novelty": "仍屬早期",
+   "one_liner": "以 SHG 影像搭配 PVT-Enhanced 深度學習模型區分 CRC 與正常切緣組織，達準確率 86.9%、AUC 0.923、特異度 96.4%。",
+   "action": "目前不需改變做法，此為實驗室影像AI可行性研究，尚未有術中即時應用或前瞻性臨床驗證數據。",
+   "pico": {
+    "P": "CRC 手術切除標本中的切緣鄰近正常組織與癌組織（樣本數以影像張數報告，患者人數未明確說明）",
+    "I": "多光子顯微術（SHG 影像）結合 PVT-Enhanced 特徵融合深度學習模型",
+    "C": "LASSO-LR、三種卷積神經網路、僅影像的 PVTv2-b5",
+    "O": "主要：區分 CRC 與正常組織的準確率、AUC、特異度；次要：膠原纖維形態學差異"
+   },
+   "effects": [],
+   "key_numbers": [
+    "PVT-Enhanced 模型準確率 86.9%，AUC 0.923，特異度 96.4%",
+    "137 張切緣鄰近正常影像中，5 張被誤判為 CRC（假陽性率約 3.6%）",
+    "敏感度數值摘要中未報告，無法判斷偽陰性（漏抓腫瘤）風險"
+   ],
+   "cautions": [
+    "未報告敏感度，切緣評估最致命的錯誤是漏抓殘留腫瘤（偽陰性），僅談特異度不足",
+    "為 ex vivo 固定/切片影像分析，與真實術中即時組織狀態及操作條件可能有差異",
+    "樣本量僅以影像張數呈現，未說明病人數、腫瘤分期分佈，外部驗證未提及"
+   ],
+   "unassessable": [
+    "病人總數",
+    "敏感度",
+    "外部驗證",
+    "與傳統病理對照的一致性細節",
+    "術中即時操作可行性",
+    "成本與時間效益",
+    "利益衝突"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-10-12T09:05:50+08:00"
+  },
+  {
+   "pmid": "42858313",
+   "title": "Robotic Beyond Total Mesorectal Excision With Synchronous Perineal Flap Reconstruction: Feasibility and Early Outcomes",
+   "journal": "Int J Med Robot",
+   "journal_full": "The international journal of medical robotics + computer assisted surgery : MRCAS",
+   "issn": "1478-596X",
+   "issn_linking": "1478-5951",
+   "impact_factor": 2.4,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1016/j.ejso.2024.108308",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Alharbi A, Iqbal M, Dowsett D, Rudge E, Shah H, Kapur S",
+   "abstract": "BACKGROUND: Advanced rectal and anal malignancies often require dissections beyond total mesorectal planes for improved oncological outcomes. While minimally invasive techniques facilitate this approach, they result in larger perineal defects, creating reconstructive challenges. Robotic-assisted surgery enhances precision, visualisation, and ergonomics, potentially optimising outcomes. However, data on robotics beyond total mesorectal excision (bTME) remain limited. This study evaluated robotic bTME and synchronous gracilis or PAP (profunda artery perforator) flap reconstruction.\nMETHODS: This retrospective case series reviewed 10 patients with locally advanced or recurrent anorectal cancer who underwent elective robotic bTME with synchronous perineal gracilis or PAP flap reconstruction.\nRESULTS: Median operative time was 465 minutes. Gracilis flap harvest was concurrent. No major flap-related complications or reoperations. R0 resection was achieved in 80%. At 1-year, local recurrence was 0%, distant metastases 30%, and disease-free survival 70%.\nCONCLUSION: Robotics bTME with synchronous gracilis or PAP flap reconstruction is feasible, efficient, and oncologically safe.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42341212",
+     "date": "2026-06-24",
+     "title_zh": "延伸型腹會陰切除術後會陰部關閉：膠原蛋白植入物 vs. 臀大肌皮瓣之比較——NEAPE 隨機對照試驗",
+     "score": 6,
+     "one_liner": "在接受延伸型 APE 之患者（n=83）中，比較 APCI 植入物與 GMF 皮瓣，6 個月時功能不良比例 71% vs 60%，未達非劣性（風險差 -11%）。",
+     "sim": 0.162
+    }
+   ],
+   "title_zh": "機器手臂超全直腸繫膜切除術（bTME）合併同期會陰皮瓣重建：可行性與早期結果",
+   "abstract_zh": "背景：晚期直腸與肛門惡性腫瘤常需進行超越全直腸繫膜平面的切除以改善腫瘤學結果。雖然微創技術有助於此類手術，但會造成較大的會陰部缺損，帶來重建上的挑戰。機器手臂輔助手術可提升精確度、視野與人體工學，可能有助於優化結果。然而，關於機器手臂超全直腸繫膜切除術（bTME）的資料仍有限。本研究評估機器手臂bTME合併同期薄肌（gracilis）或股深動脈穿通枝（PAP）皮瓣重建。方法：此回溯性病例系列回顧了10位接受擇期機器手臂bTME合併同期會陰部薄肌或PAP皮瓣重建的局部晚期或復發性肛門直腸癌患者。結果：手術時間中位數為465分鐘。薄肌皮瓣採取為同時進行。無重大皮瓣相關併發症或再次手術。R0切除率達80%。1年時，局部復發率為0%，遠端轉移率為30%，無病存活率為70%。結論：機器手臂bTME合併同期薄肌或PAP皮瓣重建具可行性、具效率，且在腫瘤學上安全。",
+   "evidence_level": "病例系列",
+   "score": 3,
+   "score_reason": "僅10例回溯性病例系列、無對照組、追蹤僅1年，證據力薄弱，但提供複雜多科整合手術的早期可行性資訊，對特定中心規劃此類手術有參考價值。",
+   "relevance": "中度相關",
+   "relevance_why": "處理局部晚期／復發肛門直腸癌的機器手臂bTME合併皮瓣重建，屬次專科整合術式，多數中心不常規施行。",
+   "novelty": "仍屬早期",
+   "one_liner": "在10位局部晚期或復發肛門直腸癌病人中，施行機器手臂bTME合併同期薄肌或PAP皮瓣重建，R0切除率80%、1年局部復發0%。",
+   "action": "目前不需改變做法；僅為單中心10例可行性報告，若考慮導入此術式需待更大樣本與長期追蹤數據。",
+   "pico": {
+    "P": "10位接受擇期手術之局部晚期或復發性肛門直腸癌患者",
+    "I": "機器手臂超全直腸繫膜切除術（bTME）合併同期薄肌或PAP皮瓣重建",
+    "C": "無對照組",
+    "O": "主要：手術可行性、R0切除率、皮瓣相關併發症；次要：1年局部復發率、遠端轉移率、無病存活率"
+   },
+   "effects": [],
+   "key_numbers": [
+    "R0切除率80%（8/10例）",
+    "1年局部復發率0%，遠端轉移率30%，無病存活率70%",
+    "手術時間中位數465分鐘，無重大皮瓣相關併發症或再次手術"
+   ],
+   "cautions": [
+    "樣本數僅10例，屬初步可行性報告，統計效力極低，無法推論一般族群結果",
+    "追蹤時間僅1年，對局部晚期/復發癌症而言過短，無法評估真正腫瘤學結局",
+    "無對照組（如傳統腹腔鏡或開腹bTME），無法判斷機器手臂是否真正優於既有術式"
+   ],
+   "unassessable": [
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本分析",
+    "長期（>1年）腫瘤學結果",
+    "皮瓣功能性與生活品質評估"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-10-12T09:05:50+08:00"
+  },
+  {
+   "pmid": "42856051",
+   "title": "A protocol for the development of a core descriptor and core outcome set for acute left-sided diverticulitis",
+   "journal": "Colorectal Dis",
+   "journal_full": "Colorectal disease : the official journal of the Association of Coloproctology of Great Britain and Ireland",
+   "issn": "1463-1318",
+   "issn_linking": "1462-8910",
+   "impact_factor": 2.3,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1093/bjs/znac052",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "CODD‐ Collaborative for Outcomes in Diverticular Disease",
+   "abstract": "BACKGROUND: Diverticulitis is a common emergency general surgical condition that affects patients worldwide. Research remains heterogeneous, meaning the provision of high-quality, evidence-based care for these patients remains a challenge. We aimed therefore to complete a core outcome and core descriptor set for acute left-sided diverticulitis.\nMETHODS: An international team set out to develop a COS and CDS using Core Outcome Measures in Effectiveness Trials (COMET) guidance. The production of a longlist of domains will initially be completed. This will initially involve a systematic review to identify different descriptors and outcomes. Patient engagement through a minimum of two focus groups with patients will be completed to ensure the completeness of the final lists. The final lists of descriptors and outcomes will then be prioritised utilising a sequential, multi-round international electronic Delphi of healthcare professionals, with patients contributing to the COS development. A final consensus meeting will then be held to ratify the final components of the COS.\nDISSEMINATION: The results of this COS and CDS will be presented internationally at conferences and published in open access journals. Further dissemination through professional networks, the executive group and patient groups utilising patient friendly material will also be completed.",
+   "watched": [],
+   "related": [],
+   "title_zh": "急性左側大腸憩室炎核心描述指標與核心結果指標集之建立計畫書",
+   "abstract_zh": "背景：憩室炎是全球常見的急診外科疾病。目前相關研究異質性高，導致對這類病人提供高品質、證據為本的照護仍具挑戰。因此我們旨在為急性左側大腸憩室炎建立一套核心結果指標集（COS）與核心描述指標集（CDS）。\n方法：一個國際團隊依循 COMET（Core Outcome Measures in Effectiveness Trials）指引著手發展 COS 與 CDS。首先將完成領域長清單的製作，此階段將先進行系統性文獻回顧，以找出不同的描述指標與結果指標。接著將透過至少兩場病人焦點團體進行病人參與，以確保最終清單的完整性。描述指標與結果指標的最終清單，將透過多輪、連續性的國際電子化德菲法（Delphi）調查醫療專業人員進行優先排序，病人也將參與 COS 的發展過程。最後將召開共識會議，以確立 COS 的最終內容。\n傳播：此 COS 與 CDS 的研究結果將於國際會議發表，並發表於開放取用期刊。另將透過專業網絡、執行小組及病人團體，利用病人易懂的材料進一步傳播。",
+   "evidence_level": "其他",
+   "score": 3,
+   "score_reason": "這是一篇方法學計畫書（protocol），尚無任何臨床結果可供判斷療效或預後，對明天的臨床決策沒有直接影響力，但對未來研究標準化有長期價值。",
+   "relevance": "中度相關",
+   "relevance_why": "憩室炎是大腸直腸外科常見急症，但此文僅為未來研究方法制定的計畫書，非臨床研究成果。",
+   "novelty": "仍屬早期",
+   "one_liner": "一篇國際協作計畫書，說明如何透過系統性文獻回顧、病人焦點團體與德菲法，建立急性左側憩室炎的核心結果與描述指標集。",
+   "action": "目前不需改變做法；此為未來研究方法制定的計畫書，尚無臨床結果或指引可供採用。",
+   "pico": {
+    "P": "急性左側大腸憩室炎病人（人數未提及，為計畫書階段）",
+    "I": "發展核心結果指標集（COS）與核心描述指標集（CDS）之方法流程",
+    "C": "無對照組",
+    "O": "主要：產出經國際共識認可之 COS 與 CDS；次要：無"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本文為計畫書（protocol），無任何臨床結果數據可供摘錄",
+    "方法包含系統性回顧、至少兩場病人焦點團體、多輪國際德菲法",
+    "最終將召開共識會議確立 COS 內容，尚無時間表或結果"
+   ],
+   "cautions": [
+    "此為方法學計畫書，非臨床試驗結果，無法評估療效或預後意義",
+    "摘要未提供系統性回顧的文獻篩選標準、焦點團體與德菲法參與者人數",
+    "最終 COS/CDS 是否能提升研究品質與臨床照護，仍待未來驗證"
+   ],
+   "unassessable": [
+    "盲法",
+    "allocation concealment",
+    "ITT",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本分析",
+    "樣本量",
+    "系統性回顧之篩選方法與納入文獻數"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-10-12T09:05:50+08:00"
+  },
+  {
+   "pmid": "42858027",
+   "title": "Notch Receptor 2 Drives Epithelial-Mesenchymal Transition and M2-Like Macrophage Polarization in Human Colorectal Cancer Tissues and HCT116 Cells",
+   "journal": "J Vis Exp",
+   "journal_full": "Journal of visualized experiments : JoVE",
+   "issn": "1940-087X",
+   "issn_linking": "1940-087X",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.3791/72652",
+   "ptype": "Video-Audio Media",
+   "ptype_list": [
+    "Video-Audio Media"
+   ],
+   "authors": "Lin X, Wang S, Sun M, Zhang C, Wei C, Yang C",
+   "abstract": "Despite advances in understanding colorectal cancer (CRC) biology, how tumor-cell signaling coordinates epithelial-mesenchymal transition (EMT) with macrophage polarization remains incompletely defined. We investigated whether NOTCH2 expression is associated with EMT and with a GATA3/IL-4-dependent macrophage-polarizing phenotype in CRC. NOTCH2 expression and prognostic associations were analyzed using TCGA data and validated in 20 paired CRC and adjacent normal tissue (ANT) specimens. Gain- and loss-of-function experiments in HCT116 cells assessed proliferation, migration, invasion, EMT markers, GATA3, and IL-4. A Transwell co-culture system containing transfected HCT116 cells and peripheral blood mononuclear cells (PBMCs) was used to evaluate CD206-positive M2-like macrophage polarization, and IL-4 neutralization was used to test the contribution of IL-4. NOTCH2 was increased in CRC tissues, and higher NOTCH2 expression was associated with poorer overall survival. NOTCH2 overexpression increased CRC-cell proliferation, migration, invasion, Vimentin, GATA3, and IL-4, while reducing E-cadherin; NOTCH2 silencing produced the opposite changes. Clinical tissues showed increased NOTCH2, GATA3, IL-4, CD163, and Vimentin, together with reduced E-cadherin. In co-culture, NOTCH2 overexpression increased the proportion of CD206-positive M2-like cells, whereas NOTCH2 knockdown reduced it. IL-4 neutralization significantly attenuated the increase in CD206-positive cells induced by NOTCH2 overexpression. These findings support associations among NOTCH2-associated malignant phenotypes, EMT, altered GATA3/IL-4 expression, and IL-4-dependent M2-like macrophage polarization in CRC, while direct transcriptional regulation of the GATA3/IL-4 axis remains to be established.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42418248",
+     "date": "2026-07-08",
+     "title_zh": "Picroside II 透過調控 Notch1 訊號路徑抑制大腸直腸癌細胞進展",
+     "score": 2,
+     "one_liner": "在 SW480 與 SW620 兩株大腸癌細胞中，比較不同濃度 Picroside II 處理與未處理，發現可劑量依賴性抑制增殖、遷移、侵襲及 Notch1 路徑表現。",
+     "sim": 0.289
+    },
+    {
+     "pmid": "42371737",
+     "date": "2026-06-29",
+     "title_zh": "MiR-30a-5p 透過靶向Vimentin抑制ERK訊息傳遞路徑，抑制大腸直腸癌細胞之遷移與上皮間質轉化",
+     "score": 2,
+     "one_liner": "在CRC細胞株中，比較miR-30a-5p過表現與對照，發現其可抑制遷移與EMT，機轉為靶向vimentin並抑制ERK路徑。",
+     "sim": 0.204
+    },
+    {
+     "pmid": "42634209",
+     "date": "2026-08-25",
+     "title_zh": "KDM6B-DKK1軸的表觀遺傳活化透過Wnt/β-Catenin相關EMT促進大腸直腸癌腹膜轉移",
+     "score": 2,
+     "one_liner": "在CRC細胞株與小鼠腹膜轉移模型中，比較DKK1 knockdown/過表現與對照，發現DKK1經KDM6B調控Wnt/β-catenin-EMT促進腹膜轉移。",
+     "sim": 0.194
+    }
+   ],
+   "title_zh": "NOTCH2受體驅動人類大腸直腸癌組織與HCT116細胞之上皮間質轉化（EMT）及M2樣巨噬細胞極化",
+   "abstract_zh": "儘管對大腸直腸癌（CRC）生物學的理解已有進展，腫瘤細胞訊息傳遞如何協調上皮間質轉化（EMT）與巨噬細胞極化仍未完全釐清。本研究探討NOTCH2表現是否與EMT及GATA3/IL-4依賴性的巨噬細胞極化表型相關。利用TCGA資料分析NOTCH2表現與預後關聯，並以20對CRC與鄰近正常組織（ANT）檢體進行驗證。在HCT116細胞中進行功能增強與功能喪失實驗，評估增殖、遷移、侵襲、EMT標記、GATA3與IL-4。使用含轉染HCT116細胞與周邊血單核細胞（PBMCs）的Transwell共培養系統評估CD206陽性M2樣巨噬細胞極化，並以IL-4中和實驗測試IL-4的貢獻。結果顯示NOTCH2在CRC組織中表現增加，較高的NOTCH2表現與較差的整體存活相關。NOTCH2過表現增加CRC細胞增殖、遷移、侵襲、Vimentin、GATA3及IL-4，同時降低E-cadherin；NOTCH2靜默則產生相反變化。臨床組織顯示NOTCH2、GATA3、IL-4、CD163及Vimentin增加，E-cadherin降低。在共培養系統中，NOTCH2過表現增加CD206陽性M2樣細胞比例，而NOTCH2剔除則降低此比例。IL-4中和顯著減弱NOTCH2過表現所誘導的CD206陽性細胞增加。這些發現支持NOTCH2相關惡性表型、EMT、GATA3/IL-4表現改變，以及IL-4依賴性M2樣巨噬細胞極化之間的關聯，惟GATA3/IL-4軸的直接轉錄調控機制仍待建立。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "純細胞株與小規模配對組織之機轉研究，無臨床介入或治療意涵，對台灣大腸直腸外科臨床決策無直接實用性。",
+   "relevance": "低度相關",
+   "relevance_why": "為基礎分子機轉研究（細胞株+20對組織驗證），非外科介入或可改變臨床處置的研究。",
+   "novelty": "仍屬早期",
+   "one_liner": "在HCT116細胞與20對CRC/正常組織中，操控NOTCH2表現，發現其促進EMT並透過IL-4誘導M2樣巨噬細胞極化。",
+   "action": "目前不需改變做法，此為基礎機轉研究，尚無臨床應用或藥物標的證據。",
+   "pico": {
+    "P": "HCT116大腸癌細胞株；TCGA資料庫；20對CRC與鄰近正常組織檢體",
+    "I": "NOTCH2過表現／基因靜默",
+    "C": "對照組（空載體／未處理細胞）",
+    "O": "主要：增殖、遷移、侵襲、EMT標記（Vimentin、E-cadherin）、CD206陽性M2樣巨噬細胞比例；次要：整體存活、GATA3/IL-4表現"
+   },
+   "effects": [],
+   "key_numbers": [
+    "較高NOTCH2表現與較差整體存活相關（摘要未提供HR或p值）",
+    "NOTCH2過表現增加CD206陽性M2樣細胞比例，knockdown則降低（無絕對數值）",
+    "IL-4中和可顯著減弱NOTCH2過表現誘導之M2極化效應（無絕對數值）"
+   ],
+   "cautions": [
+    "全為體外細胞株與小樣本（n=20）組織驗證，無法外推至臨床病人預後或治療反應",
+    "存活分析僅描述「相關」未提供HR/CI/p值，因果關係未確立",
+    "作者自承GATA3/IL-4軸的直接轉錄調控機制尚未證實，僅為關聯性發現"
+   ],
+   "unassessable": [
+    "盲法",
+    "allocation concealment",
+    "ITT",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本分析",
+    "樣本選取偏誤"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "與先前看過的CRC細胞株EMT機轉研究（Picroside II/Notch1、miR-30a-5p、KDM6B-DKK1）屬同類型早期基礎研究，皆聚焦EMT相關訊息路徑；本篇額外延伸至腫瘤免疫微環境（M2巨噬細胞極化）角度，但仍停留在機轉探索階段，未見治療或臨床應用進展。",
+   "added_at": "2026-10-12T09:05:50+08:00"
+  }
+ ]
+}
