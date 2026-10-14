@@ -1,0 +1,891 @@
+{
+ "date": "2026-10-14",
+ "generated_at": "2026-10-14T09:04:00+08:00",
+ "count": 11,
+ "papers": [
+  {
+   "pmid": "42865121",
+   "title": "Cancer Risk in Haemodialysis Patients Compared With That in the General Population: A Multicenter Questionnaire-Based Study in Okinawa, Japan",
+   "journal": "Nephrology (Carlton)",
+   "journal_full": "Nephrology (Carlton, Vic.)",
+   "issn": "1440-1797",
+   "issn_linking": "1320-5358",
+   "impact_factor": 2.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1111/nep.70293",
+   "ptype": "Multicenter Study, Comparative Study",
+   "ptype_list": [
+    "Multicenter Study",
+    "Comparative Study"
+   ],
+   "authors": "Arakawa Y, Ishida Y, Higa A, Tana T, Moromizato T, Kohagura K",
+   "abstract": "AIM: Dialysis patients face a heightened risk of cancer, particularly kidney cancer. The global aging of dialysis patients suggests that managing cancer may become a critical factor in future healthcare. Given that the chronic uremic state is a cancer risk factor, dialysis patients may face an elevated risk for all cancers. However, the epidemiology of nonkidney cancers, such as colorectal cancer, remains to be fully elucidated.\nMETHODS: This was a retrospective cohort study targeting 74 dialysis facilities in Okinawa Prefecture, Japan. The subjects were patients who received dialysis for a minimum of 90 days between 2015 and 2019 and were diagnosed with cancer after initiating dialysis during this period. The cancer incidence ratio for the study population (21 655 person-years) was then compared with that of the general Okinawan population using standardized incidence ratios.\nRESULTS: A total of 404 cancer cases were collected from 56 facilities (76%). The standardized incidence ratios for all cancers was 1.36, with the risk of kidney cancer increasing with longer dialysis vintage. Patients with a dialysis vintage of less than 2 years showed an increased risk of colorectal and lung cancer. The risk of breast cancer was similar to that of the general population.\nCONCLUSION: The present study revealed that not all cancer risks were increased among patients receiving haemodialysis. Screening for colorectal and lung cancer in the first 2 years after commencement of dialysis may be important. Further research is needed to determine the efficacy of this approach for patients receiving dialysis.",
+   "watched": [],
+   "related": [],
+   "title_zh": "透析患者與一般人口之癌症風險比較：日本沖繩多中心問卷調查研究",
+   "abstract_zh": "目的：透析患者面臨較高的癌症風險，尤其是腎臟癌。隨著全球透析患者高齡化，癌症管理可能成為未來醫療的關鍵議題。由於慢性尿毒症狀態是癌症危險因子，透析患者可能面臨所有癌症的風險上升。然而，非腎臟癌（如大腸直腸癌）的流行病學仍未完全闡明。方法：本研究為回溯性世代研究，對象為日本沖繩縣74家透析機構。研究對象為2015年至2019年間接受透析至少90天、且於開始透析後此期間內被診斷為癌症的患者。以標準化發生比(standardized incidence ratios)將研究族群（21655人年）之癌症發生率與沖繩一般人口比較。結果：共自56家機構（76%）收集到404例癌症病例。所有癌症之標準化發生比為1.36，腎臟癌風險隨透析年數增長而上升。透析年數少於2年的患者，大腸直腸癌與肺癌風險上升。乳癌風險與一般人口相近。結論：本研究顯示並非所有癌症風險在血液透析患者中皆上升。透析開始後前2年進行大腸直腸癌與肺癌篩檢可能很重要。仍需進一步研究確認此篩檢策略對透析患者的成效。",
+   "evidence_level": "回溯性研究",
+   "score": 4,
+   "score_reason": "問卷式多中心世代研究，僅提供SIR點估計無信賴區間，且<2年風險上升可能為篩檢偵測偏差而非真實因果，對台灣大腸直腸外科臨床改變有限。",
+   "relevance": "中度相關",
+   "relevance_why": "雖非外科介入研究，但提示透析患者（常見共病族群）可能需加強大腸直腸癌篩檢轉介。",
+   "novelty": "仍屬早期",
+   "one_liner": "在沖繩21655人年透析族群（404例癌症）中，與一般人口比較，所有癌症SIR=1.36，透析<2年者大腸直腸癌與肺癌風險上升。",
+   "action": "目前不需改變外科做法；可提醒腎臟科同僚對新透析病人（<2年）加強CRC篩檢轉介意識。",
+   "pico": {
+    "P": "日本沖繩74家透析機構中，2015-2019年間透析≥90天並於期間診斷癌症之患者，共404例癌症（21655人年）",
+    "I": "接受血液透析之患者",
+    "C": "沖繩一般人口（標準化發生比較）",
+    "O": "主要：全癌症標準化發生比(SIR)；次要：依透析年數分層之各癌別（腎癌、大腸直腸癌、肺癌、乳癌）風險"
+   },
+   "effects": [],
+   "key_numbers": [
+    "所有癌症SIR=1.36（透析患者整體癌症發生率較一般人口高36%，無CI）",
+    "透析<2年患者：大腸直腸癌與肺癌風險上升（摘要未附絕對數字或CI）",
+    "乳癌風險與一般人口相近（陰性結果，無顯著差異之統計量未提供）"
+   ],
+   "cautions": [
+    "透析<2年風險上升可能反映新透析病人接受較密集醫療檢查而揭露既有癌症之偵測偏差，非真實因果",
+    "摘要僅給SIR點估計，未附信賴區間或p值，無法判斷統計顯著性",
+    "問卷式多中心研究，僅76%機構回覆，可能存在選擇性偏差及資料完整性疑慮"
+   ],
+   "unassessable": [
+    "信賴區間",
+    "統計顯著性檢定",
+    "失訪率",
+    "利益衝突",
+    "試驗註冊",
+    "成本分析"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-10-14T09:00:27+08:00"
+  },
+  {
+   "pmid": "42862502",
+   "title": "CT-based multi-station lymph-node radiomics for preoperative prediction of lymph node metastasis in colorectal cancer: a proof-of-concept comparison with primary-tumor radiomics",
+   "journal": "Eur Radiol Exp",
+   "journal_full": "European radiology experimental",
+   "issn": "2509-9280",
+   "issn_linking": "2509-9280",
+   "impact_factor": 4.7,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.4251/wjgo.v16.i5.1849",
+   "ptype": "Comparative Study",
+   "ptype_list": [
+    "Comparative Study"
+   ],
+   "authors": "Lin Z, Wang J, Chen H, Bao Q, Xu M, Yang S",
+   "abstract": "OBJECTIVE: Accurate preoperative prediction of lymph node metastasis (LNM) in colorectal cancer remains challenging using conventional CT assessment. This proof-of-concept study compared CT-based multi-station lymph-node radiomics with primary-tumor radiomics for patient-level preoperative prediction of LNM.\nMATERIALS AND METHODS: This single-center retrospective study included patients with pathologically confirmed colorectal cancer who underwent preoperative contrast-enhanced CT and surgical resection. Patients were divided into training and validation cohorts. Radiomics features were extracted from the primary tumor and visible regional lymph nodes across multiple nodal stations. Three radiomics strategies were developed and compared: primary-tumor radiomics, multi-station lymph-node radiomics, and combined radiomics. Model performance was assessed using the area under the receiver operating characteristic curve (AUC), calibration analysis, decision curve analysis, and five-fold cross-validation. Pairwise AUCs were compared using the DeLong test. A clinical-radiomic model was further constructed by integrating the optimal radiomics strategy with preoperative clinical variables.\nRESULTS: In the validation cohort, the multi-station lymph-node radiomics model outperformed the primary-tumor radiomics model for predicting LNM (AUC, 0.864 versus 0.637; p = 0.0055). The combined radiomics model achieved an AUC of 0.840, without significant improvement over the lymph-node model (p = 0.2211). After integration with clinical variables, the clinical-radiomic model achieved an AUC of 0.879.\nCONCLUSION: CT-based multi-station lymph-node radiomics showed significantly higher validation performance than primary-tumor radiomics for patient-level preoperative LNM prediction in colorectal cancer. However, this single-center proof-of-concept model is not ready for direct clinical implementation and requires multicenter external validation before clinical translation.\nKEY POINTS: Question Can CT-based multi-station lymph-node radiomics improve preoperative nodal metastasis prediction beyond primary-tumor radiomics in patients with surgically treated colorectal cancer? Findings Multi-station lymph-node radiomics achieved higher validation performance than primary-tumor radiomics for patient-level prediction of pathological lymph-node metastasis in colorectal cancer. Relevance statement CT-based multi-station lymph-node radiomics may support individualized preoperative nodal risk stratification in colorectal cancer, but multicenter validation and prospective evaluation are required before clinical translation.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42842824",
+     "date": "2026-10-08",
+     "title_zh": "使用常規收集之臨床資料預測大腸直腸癌術前淋巴結轉移：多中心回溯性機器學習模型建立與外部驗證研究",
+     "score": 4,
+     "one_liner": "在2725名CRC病人中，以6項常規臨床資料建立RF模型預測術前LNM，外部驗證AUROC 0.776，優於cT單獨預測（0.707，p<.001）。",
+     "sim": 0.276
+    },
+    {
+     "pmid": "42842824",
+     "date": "2026-10-09",
+     "title_zh": "使用常規收集之臨床資料進行大腸直腸癌術前淋巴結轉移預測：多中心回溯性機器學習模型開發與外部驗證研究",
+     "score": 4,
+     "one_liner": "在2725名CRC病人（內部1074、外部驗證1651）中，六預測因子RF模型預測LNM，外部AUROC 0.776優於cT單獨0.707（p<.001）。",
+     "sim": 0.276
+    },
+    {
+     "pmid": "42747720",
+     "date": "2026-09-17",
+     "title_zh": "放射組學驅動之影像生物標記用於預測局部進展期直腸癌化放療反應",
+     "score": 5,
+     "one_liner": "在615名LARC患者中，合併放射組學-臨床模型預測pCR之AUC達0.887，優於單獨臨床模型的0.723，但外部驗證僅限單一中心。",
+     "sim": 0.204
+    }
+   ],
+   "title_zh": "基於CT之多站淋巴結放射組學用於大腸直腸癌淋巴結轉移之術前預測：與原發腫瘤放射組學之概念驗證比較研究",
+   "abstract_zh": "目的：使用傳統CT評估來準確預測大腸直腸癌淋巴結轉移（LNM）仍具挑戰性。本概念驗證研究比較以CT為基礎的多站淋巴結放射組學與原發腫瘤放射組學，用於病人層級的術前LNM預測。材料與方法：此單中心回溯性研究納入經病理確診之大腸直腸癌病人，術前皆接受對比增強CT及手術切除。病人分為訓練組與驗證組。從原發腫瘤及多個淋巴結站之可見區域淋巴結提取放射組學特徵。開發並比較三種放射組學策略：原發腫瘤放射組學、多站淋巴結放射組學、合併放射組學。模型表現以接收者操作特徵曲線下面積（AUC）、校正分析、決策曲線分析及五折交叉驗證評估。成對AUC比較使用DeLong檢定。進一步整合最佳放射組學策略與術前臨床變項，建立臨床-放射組學模型。結果：在驗證組中，多站淋巴結放射組學模型預測LNM之表現優於原發腫瘤放射組學模型（AUC 0.864 vs 0.637；p = 0.0055）。合併放射組學模型AUC為0.840，相較淋巴結模型並無顯著改善（p = 0.2211）。整合臨床變項後，臨床-放射組學模型AUC達0.879。結論：以CT為基礎的多站淋巴結放射組學在大腸直腸癌病人層級術前LNM預測上，驗證表現顯著優於原發腫瘤放射組學。然而此單中心概念驗證模型尚未準備好直接臨床應用，須經多中心外部驗證後方可轉譯至臨床。重點：問題——CT為基礎的多站淋巴結放射組學能否優於原發腫瘤放射組學改善手術治療之大腸直腸癌病人術前淋巴結轉移預測？發現——多站淋巴結放射組學在病人層級預測病理淋巴結轉移之驗證表現優於原發腫瘤放射組學。相關性陳述——CT為基礎的多站淋巴結放射組學可能有助於大腸直腸癌個人化術前淋巴結風險分層，但臨床轉譯前需多中心驗證與前瞻性評估。",
+   "evidence_level": "回溯性研究",
+   "score": 3,
+   "score_reason": "單中心回溯性概念驗證研究，摘要未提供病人人數與絕對數字，作者自承不可直接用於臨床，實用性有限。",
+   "relevance": "中度相關",
+   "relevance_why": "術前LNM預測攸關手術分期決策，但本篇屬影像放射組學概念驗證階段，非外科介入本身。",
+   "novelty": "仍屬早期",
+   "one_liner": "在CRC病人中，比較多站淋巴結radiomics與原發腫瘤radiomics預測LNM，驗證組AUC 0.864 vs 0.637（p=0.0055）。",
+   "action": "目前不需改變臨床做法；此為單中心概念驗證模型，尚待多中心外部驗證後再評估術前LNM分期應用價值。",
+   "pico": {
+    "P": "病理確診之大腸直腸癌病人，術前接受對比增強CT並接受手術切除（實際人數摘要未載明）",
+    "I": "CT多站淋巴結放射組學模型；合併放射組學模型；臨床-放射組學整合模型",
+    "C": "原發腫瘤放射組學模型",
+    "O": "主要：驗證組AUC預測病理LNM；次要：校正分析、決策曲線分析、五折交叉驗證"
+   },
+   "effects": [],
+   "key_numbers": [
+    "驗證組AUC：多站淋巴結放射組學0.864 vs 原發腫瘤放射組學0.637，p=0.0055",
+    "合併放射組學AUC 0.840，較淋巴結模型未顯著改善，p=0.2211",
+    "臨床-放射組學整合模型AUC達0.879（最佳表現）"
+   ],
+   "cautions": [
+    "摘要未提供訓練/驗證組實際病人人數，樣本規模不明，結果穩定性存疑",
+    "單中心、回溯性、無外部驗證，作者自承不可直接臨床應用",
+    "僅報告AUC，無絕對風險或信賴區間，無法評估臨床實際預測準確度與臨界值表現"
+   ],
+   "unassessable": [
+    "病人總人數",
+    "訓練/驗證組分配方式",
+    "外部驗證",
+    "淋巴結判讀之觀察者間一致性",
+    "失訪率",
+    "利益衝突",
+    "成本分析"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "前作（論文1、2）以常規臨床資料建立ML模型預測CRC術前LNM，外部驗證AUC 0.776；本篇改以CT放射組學取代臨床資料，驗證組AUC達0.864，顯示影像特徵可能提供更高預測力，但本篇僅單中心概念驗證，尚無外部驗證，證據強度較前作弱，兩者互補但不可直接比較優劣。",
+   "added_at": "2026-10-14T09:00:27+08:00"
+  },
+  {
+   "pmid": "42860475",
+   "title": "Single-port robotic and conventional multiport laparoscopic colectomy for colon cancer: an overlap-weighted comparison of perioperative and oncologic outcomes",
+   "journal": "J Robot Surg",
+   "journal_full": "Journal of robotic surgery",
+   "issn": "1863-2491",
+   "issn_linking": "1863-2483",
+   "impact_factor": 4.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1007/s11701-026-04065-2",
+   "ptype": "Comparative Study",
+   "ptype_list": [
+    "Comparative Study"
+   ],
+   "authors": "Jo M, Lee H, Kim H, Chung S, Noh G",
+   "abstract": "Comparative evidence for single-port colectomy with robotic system remains limited, particularly for long-term cancer control. We compared perioperative recovery and oncologic outcomes following single-port robotic surgery (SPRS) and conventional multiport laparoscopic surgery (CMLS) in colon cancer. This retrospective study screened 710 patients treated surgically between March 2019 and February 2025. The analytic cohort was balanced with propensity score overlap weighting (PSOW), after which operative, postoperative, pathologic, and survival data were compared. The analysis included 472 patients (142 SPRS and 330 CMLS). PSOW balanced the four covariates specified in the propensity model. SPRS had a longer mean operative time (255.0 vs. 197.5 min, p < 0.001), but no patient required open conversion (0.0% vs. 3.1%, p = 0.011). Compared with CMLS, SPRS was followed by earlier passage of flatus (2.4 vs. 3.4 days), earlier tolerance of a soft diet (3.3 vs. 4.8 days), and a shorter postoperative stay (7.5 vs. 8.5 days) (all p ≤ 0.001). Pain scores through postoperative day 5 were lower after SPRS (all p < 0.001), whereas complication rates and pathologic measures were similar. Three-year relapse-free survival (RFS) was 95.2% after SPRS and 95.1% after CMLS (p = 0.835); the corresponding overall survival (OS) were 97.2% and 94.8% (p = 0.104). Surgical modality was not an independent predictor of RFS or OS. Within the available follow-up, SPRS provided oncologic results comparable to CMLS while being associated with less postoperative pain and enhanced recovery. These data support SPRS as a feasible approach for selected patients with colon cancer.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42576257",
+     "date": "2026-08-12",
+     "title_zh": "單孔機器人手術與單孔腹腔鏡手術治療直腸癌之短期比較結果：多中心回溯性研究",
+     "score": 4,
+     "one_liner": "在110名直腸癌低前位/內括約肌切除病人中（56 SPRS vs 54 SILS），SPRS手術時間更短（180 vs 318分，p<0.001）、併發症更少（8.9% vs 27.8%）。",
+     "sim": 0.318
+    },
+    {
+     "pmid": "42576257",
+     "date": "2026-08-13",
+     "title_zh": "單孔機械手臂手術與單孔腹腔鏡手術治療直腸癌之短期比較結果：多中心回溯性研究",
+     "score": 4,
+     "one_liner": "在110名接受LAR或ISR之直腸癌病人中，SPRS較SILS手術時間更短(180 vs 318分)、併發症更少(8.9% vs 27.8%)。",
+     "sim": 0.318
+    },
+    {
+     "pmid": "42543847",
+     "date": "2026-08-04",
+     "title_zh": "單孔與多孔機器人右半結腸切除術之比較：短期結果與取標本部位對術後疼痛之影響",
+     "score": 3,
+     "one_liner": "在49名機器人右半結腸切除病人中，比較SP與Xi平台，SP手術時間較短，且經Pfannenstiel取標本疼痛低於經臍取標本(p=0.0062)。",
+     "sim": 0.225
+    }
+   ],
+   "title_zh": "單孔機器人手術與傳統多孔腹腔鏡結腸切除術治療結腸癌：傾向分數重疊加權之手術前後及腫瘤學結果比較",
+   "abstract_zh": "關於單孔機器人結腸切除術的比較性證據仍有限，尤其是長期癌症控制方面的資料。本研究比較單孔機器人手術（SPRS）與傳統多孔腹腔鏡手術（CMLS）治療結腸癌在手術前後恢復及腫瘤學結果上的差異。本回溯性研究篩選了2019年3月至2025年2月間接受手術治療的710名病人。分析世代經傾向分數重疊加權（PSOW）平衡後，比較手術、術後、病理及存活資料。分析納入472名病人（142名SPRS，330名CMLS）。PSOW平衡了傾向模型中指定的四個共變量。SPRS平均手術時間較長（255.0 分 vs 197.5 分，p < 0.001），但無病人需轉開腹（0.0% vs 3.1%，p = 0.011）。與CMLS相比，SPRS術後排氣時間較早（2.4 天 vs 3.4 天）、較早能耐受軟質飲食（3.3 天 vs 4.8 天）、術後住院天數較短（7.5 天 vs 8.5 天）（以上皆p ≤ 0.001）。術後第5天前的疼痛評分SPRS較低（皆p < 0.001），而併發症發生率及病理學指標則相似。SPRS術後3年無復發存活率（RFS）為95.2%，CMLS為95.1%（p = 0.835）；相對應的整體存活率（OS）分別為97.2%與94.8%（p = 0.104）。手術方式並非RFS或OS的獨立預測因子。在現有追蹤期間內，SPRS提供與CMLS相當的腫瘤學結果，同時伴隨較少的術後疼痛與較佳的加速復原。這些資料支持SPRS作為部分經篩選結腸癌病人之可行手術方式。",
+   "evidence_level": "回溯性研究",
+   "score": 5,
+   "score_reason": "採用PSOW統計方法減少干擾，但本質仍為回溯性研究，追蹤期僅3年，轉開腹絕對差異極小，臨床可信度中等但對台灣結腸癌手術決策有參考價值。",
+   "relevance": "高度相關",
+   "relevance_why": "結腸癌微創手術方式選擇是大腸直腸外科日常臨床決策，單孔機器人平台在台灣醫學中心已逐漸普及。",
+   "novelty": "再確認已知",
+   "one_liner": "在472名結腸癌病人（142 SPRS vs 330 CMLS）中，SPRS手術時間較長但恢復較快、轉開腹率較低，3年RFS與OS無顯著差異。",
+   "action": "可於無高危轉換因子之經篩選結腸癌病人考慮SPRS以縮短恢復期，惟證據仍屬回溯性，暫不需全面改變標準流程。",
+   "pico": {
+    "P": "710名接受手術之結腸癌病人，經PSOW平衡後分析472名（142 SPRS，330 CMLS）",
+    "I": "單孔機器人手術（SPRS）",
+    "C": "傳統多孔腹腔鏡手術（CMLS）",
+    "O": "主要：手術時間、轉開腹率、術後恢復（排氣、進食、住院天數）、疼痛評分、病理結果；次要：3年無復發存活（RFS）、整體存活（OS）"
+   },
+   "effects": [
+    {
+     "outcome": "轉開腹率",
+     "ok": true,
+     "i_label": "SPRS",
+     "c_label": "CMLS",
+     "i_rate": 0.0,
+     "c_rate": 3.1,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 3.1,
+     "benefit": true,
+     "event_bad": true,
+     "nnt": 32,
+     "kind": "NNT",
+     "note": ""
+    },
+    {
+     "outcome": "3年無復發存活率(RFS)",
+     "ok": true,
+     "i_label": "SPRS",
+     "c_label": "CMLS",
+     "i_rate": 95.2,
+     "c_rate": 95.1,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 0.1,
+     "benefit": true,
+     "event_bad": false,
+     "nnt": 1000,
+     "kind": "NNT",
+     "note": ""
+    },
+    {
+     "outcome": "3年整體存活率(OS)",
+     "ok": true,
+     "i_label": "SPRS",
+     "c_label": "CMLS",
+     "i_rate": 97.2,
+     "c_rate": 94.8,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 2.4,
+     "benefit": true,
+     "event_bad": false,
+     "nnt": 42,
+     "kind": "NNT",
+     "note": ""
+    }
+   ],
+   "key_numbers": [
+    "3年RFS 95.2% vs 95.1%，p=0.835，無統計顯著差異",
+    "3年OS 97.2% vs 94.8%，p=0.104，無統計顯著差異",
+    "轉開腹率0% vs 3.1%（p=0.011），術後住院7.5天 vs 8.5天"
+   ],
+   "cautions": [
+    "回溯性研究，雖用PSOW平衡四個共變量，仍可能存在殘留或未測量干擾因子",
+    "腫瘤學追蹤僅3年，對結腸癌長期復發與存活而言仍嫌過短",
+    "轉開腹率絕對差異極小（0% vs 3.1%），非預設主要終點，解讀需謹慎"
+   ],
+   "unassessable": [
+    "是否單一或多中心設計",
+    "失訪率",
+    "利益衝突",
+    "手術醫師經驗與學習曲線",
+    "傾向模型中四個共變量的具體內容",
+    "病人選取標準細節"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "先前看過的單孔機器人研究皆聚焦於直腸癌（SPRS vs SILS），本篇則將單孔機器人應用延伸至結腸癌，並以傳統多孔腹腔鏡為對照，同時首次補上3年腫瘤學長期結果（RFS/OS），填補先前短期結果研究的缺口。",
+   "added_at": "2026-10-14T09:00:27+08:00"
+  },
+  {
+   "pmid": "42866448",
+   "title": "The role of metabolic crosstalk between Intestinal epithelial cells and immune cells in inflammatory bowel disease and targeting strategies",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.3389/fimmu.2026.1854880",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Li H, Wang B, Shi X, Tian L, Li B, Zhou T",
+   "abstract": "Inflammatory bowel disease (IBD) is a chronic immune-mediated inflammatory disorder characterized by disruption of the intestinal epithelial barrier and dysregulated immune responses. IBD pathogenesis is intricately linked to the metabolic reprogramming of the intestinal epithelial cells (IECs), which are central to both barrier maintenance and immune crosstalk. Mitochondrial dysfunction in the IECs leads to energy deficit, oxidative stress, and barrier failure, which activates the adjacent immune cells and establishes a vicious cycle of inflammation. This review focuses on the key role of the mitochondrial metabolism in IBD with a specific focus on the remodeling of the glucose, lipid, and amino acid metabolic pathways in epithelial and immune cells. We elaborate on the specific regulatory mechanisms underlying these metabolic processes and the functions of metabolic products as signaling molecules in cell-cell communication. In addition to causing energy crises and barrier defects in epithelial cells, metabolic remodeling directly controls the activation of immune cells and their polarization toward a pro-inflammatory phenotype. Thus, a deeper understanding of mitochondrial metabolism underlying IBD would provide a crucial theoretical foundation for developing novel precision therapies targeting metabolism. Additionally, elucidating these metabolic networks would provide new therapeutic opportunities for restoring homeostasis in IBD.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42761459",
+     "date": "2026-09-21",
+     "title_zh": "SLC25家族在腸道發炎中的角色：機轉、病理生理意義與治療意涵",
+     "score": 2,
+     "one_liner": "本綜述整理SLC25粒線體轉運蛋白家族在IBD中如何透過上皮屏障、免疫失調與菌群交互作用促進慢性腸道發炎的機轉。",
+     "sim": 0.332
+    },
+    {
+     "pmid": "42358979",
+     "date": "2026-06-26",
+     "title_zh": "腸道微生物群代謝物在發炎性腸道疾病中的作用：機轉洞見的最新進展",
+     "score": 2,
+     "one_liner": "本綜述整合腸道微生物代謝物（SCFAs、膽酸、色胺酸衍生物）如何透過免疫調節網絡參與IBD致病機制，屬機轉性文獻回顧，無臨床數據。",
+     "sim": 0.237
+    },
+    {
+     "pmid": "42371165",
+     "date": "2026-06-29",
+     "title_zh": "微生物群-粒線體軸：連結代謝功能失調與神經退化性疾病",
+     "score": 1,
+     "one_liner": "本文綜述腸道微生物-粒線體軸機轉，連結代謝失調至帕金森氏症、阿茲海默症等神經退化疾病，無臨床數據。",
+     "sim": 0.231
+    }
+   ],
+   "title_zh": "腸上皮細胞與免疫細胞間代謝串擾在發炎性腸道疾病中的角色及標靶治療策略",
+   "abstract_zh": "發炎性腸道疾病（IBD）是一種慢性免疫媒介發炎疾病，特徵為腸上皮屏障破壞與免疫反應失調。IBD的致病機轉與腸上皮細胞（IECs）的代謝重編程密切相關，而這些細胞在屏障維持與免疫串擾中扮演核心角色。IECs的粒線體功能失調會導致能量缺損、氧化壓力與屏障失能，進而活化鄰近免疫細胞，建立發炎的惡性循環。本綜述聚焦於粒線體代謝在IBD中的關鍵角色，特別著重上皮細胞與免疫細胞中葡萄糖、脂質與胺基酸代謝路徑的重塑。我們詳述這些代謝過程背後的特定調控機轉，以及代謝產物作為細胞間通訊訊號分子的功能。除了造成上皮細胞的能量危機與屏障缺陷外，代謝重塑也直接控制免疫細胞的活化及其向促發炎表型的極化。因此，更深入了解IBD背後的粒線體代謝，將為開發標靶代謝的新型精準療法提供關鍵理論基礎。此外，闡明這些代謝網絡將為恢復IBD體內恆定提供新的治療機會。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純機轉性綜述，無任何臨床試驗或人體數據，對大腸直腸外科臨床決策無直接實用性。",
+   "relevance": "低度相關",
+   "relevance_why": "屬於IBD基礎免疫代謝機轉研究，非外科介入，對大腸直腸外科手術決策無直接影響。",
+   "novelty": "仍屬早期",
+   "one_liner": "本綜述整理IEC與免疫細胞間粒線體代謝（葡萄糖、脂質、胺基酸）如何交互促進IBD發炎，屬機轉回顧無臨床數據。",
+   "action": "目前不需改變做法；此為基礎機轉綜述，無臨床試驗結果可直接應用於病人處置。",
+   "pico": {
+    "P": "無特定病人族群（機轉性綜述，非臨床研究）",
+    "I": "腸上皮細胞與免疫細胞間粒線體代謝重編程（葡萄糖、脂質、胺基酸路徑）",
+    "C": "無對照組",
+    "O": "討論IBD致病機轉與潛在代謝標靶治療方向；無實際臨床outcome數據"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未提供任何臨床試驗數據、發生率或統計數字",
+    "全文為機轉性敘述，無法計算ARR/NNT等臨床指標",
+    "無患者族群、無對照組、無outcome可供量化評估"
+   ],
+   "cautions": [
+    "純機轉性綜述，完全無臨床試驗或人體數據支持，無法評估實際療效",
+    "所述代謝標靶治療仍屬理論階段，距臨床應用尚遠，不可直接外推至病人照護",
+    "無具體治療介入之試驗結果，僅整理既有機轉文獻，可能存在作者選擇性引用偏誤"
+   ],
+   "unassessable": [
+    "隨機分派與盲法",
+    "allocation concealment",
+    "ITT分析",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本效益分析"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "與前作關於SLC25粒線體轉運蛋白及腸道微生物代謝物在IBD中角色的綜述主題高度重疊，同樣聚焦粒線體代謝與腸道發炎機轉，屬同系列基礎研究延伸，均無新臨床證據。",
+   "added_at": "2026-10-14T09:00:27+08:00"
+  },
+  {
+   "pmid": "42866402",
+   "title": "Myeloid control of dendritic cell priming after mechanical HIFU in colorectal cancer: implications for PD-1/PD-L1 blockade",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.3389/fimmu.2026.1998296",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Liao Y, Yang X, Du X",
+   "abstract": "Mechanical high-intensity focused ultrasound releases tumor antigens and danger signals. It provides a potential substrate for immune checkpoint blockade. However, antigen release does not necessarily generate productive dendritic cell priming. In colorectal cancer, this transition occurs within a mucosal microenvironment shaped by epithelial barrier integrity, microbial exposure and myeloid clearance. Neutrophils can support epithelial repair or reinforce tumor-associated suppression. Macrophages remove apoptotic granulocytes and regulate inflammatory resolution. They can also restrain dendritic cell cytokine production. These context-dependent functions may determine whether mechanically released antigens initiate cytotoxic immunity or enter a nonproductive clearance response. This mini review integrates intestinal myeloid homeostasis with experimental evidence for mechanical ultrasound ablation and PD-1/PD-L1 blockade. It distinguishes antigen uptake from cross-presentation, protective resolution from tumor-permissive suppression, and colorectal evidence from observations in other tumor models. Functional dendritic cell readouts, lineage-resolved checkpoint measurements and concurrent barrier assessment provide a framework for evaluating combination therapy. The therapeutic objective is to preserve mucosal protection while sustaining antigen-specific immunity.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42555643",
+     "date": "2026-08-06",
+     "title_zh": "以檢查點絕緣三重訊號人工抗原呈現細胞驅動抗原傳遞與全身性抗腫瘤免疫",
+     "score": 2,
+     "one_liner": "在多個小鼠腫瘤模型（含MC38）中，比較OncoAPC人工抗原呈現細胞疫苗與傳統DC疫苗，發現OncoAPC對轉移性腫瘤負荷有較佳抑制效果。",
+     "sim": 0.155
+    },
+    {
+     "pmid": "42535750",
+     "date": "2026-08-01",
+     "title_zh": "PD-1/PD-L1軸的藥理調控：從腸炎中的免疫耐受到大腸直腸癌中的免疫逃逸",
+     "score": 3,
+     "one_liner": "本篇綜述整理PD-1/PD-L1軸在腸炎與大腸直腸癌中的雙相角色，並回顧nivolumab、pembrolizumab於dMMR/MSI-H CRC之臨床證據與抗藥機轉。",
+     "sim": 0.15
+    },
+    {
+     "pmid": "42535750",
+     "date": "2026-08-02",
+     "title_zh": "PD-1/PD-L1軸的藥理學調控：從大腸炎的免疫耐受性到大腸直腸癌的免疫逃逸",
+     "score": 3,
+     "one_liner": "本文綜述PD-1/PD-L1軸在IBD與CRC中的雙相角色機轉，以及現有ICI（nivolumab、pembrolizumab）臨床應用與抗藥性挑戰。",
+     "sim": 0.15
+    }
+   ],
+   "title_zh": "機械式高強度聚焦超音波（HIFU）後大腸直腸癌中骨髓系細胞對樹突狀細胞引發作用的調控：對PD-1/PD-L1阻斷治療之意義",
+   "abstract_zh": "機械式高強度聚焦超音波會釋放腫瘤抗原與危險訊號，為免疫檢查點阻斷提供潛在的作用基礎。然而，抗原釋放並不必然產生有效的樹突狀細胞引發（priming）。在大腸直腸癌中，此一轉變發生於由上皮屏障完整性、微生物暴露及骨髓系細胞清除作用所形塑的黏膜微環境之中。嗜中性球可支持上皮修復，亦可強化腫瘤相關的免疫抑制。巨噬細胞清除凋亡的顆粒球並調節發炎消退，同時也可能抑制樹突狀細胞的細胞激素產生。這些依賴情境而異的功能，可能決定機械釋放的抗原究竟會啟動細胞毒殺性免疫，抑或進入非生產性的清除反應。本迷你綜述整合腸道骨髓系細胞恆定與機械式超音波消融及PD-1/PD-L1阻斷的實驗證據，區分抗原攝取與交叉呈現、保護性消退與腫瘤容許性抑制、以及大腸直腸癌證據與其他腫瘤模型觀察之差異。功能性樹突狀細胞讀出指標、譜系解析的檢查點測量，以及同步屏障評估，提供評估合併治療的架構。其治療目標為在維持黏膜保護的同時，維繫抗原特異性免疫反應。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純機轉性迷你綜述，無任何臨床或動物實驗數據，僅提出概念性框架，對臨床決策幾乎無直接幫助。",
+   "relevance": "低度相關",
+   "relevance_why": "屬基礎免疫機轉討論，聚焦HIFU消融後骨髓系細胞與DC交互作用，非外科手術介入，與日常臨床決策距離甚遠。",
+   "novelty": "仍屬早期",
+   "one_liner": "本文為概念性迷你綜述，整合骨髓系細胞與樹突狀細胞交互作用機轉，探討機械式HIFU合併PD-1/PD-L1阻斷於大腸直腸癌的理論基礎。",
+   "action": "目前不需改變做法；此為機轉假說性綜述，無臨床數據可供參考，僅供研究方向思考。",
+   "pico": {
+    "P": "無特定病人族群；為機轉性文獻回顧，整合既有動物模型與體外實驗觀察",
+    "I": "機械式HIFU消融合併PD-1/PD-L1免疫檢查點阻斷",
+    "C": "無對照組",
+    "O": "主要：樹突狀細胞引發效能與骨髓系細胞調控機轉；次要：提出合併治療評估框架"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本文無量化臨床或實驗數據，純為機轉性論述與框架提案",
+    "無樣本數、無事件率、無統計檢定結果可供摘錄",
+    "作者明確定位此為「評估框架」而非結果報告"
+   ],
+   "cautions": [
+    "全文無實證數據支持，所有論述皆為假說性機轉推論，尚未經實驗驗證",
+    "多數證據引用自其他腫瘤模型，作者自承大腸直腸癌直接證據有限",
+    "將機轉關聯直接推論至臨床合併治療效益，存在過度詮釋風險"
+   ],
+   "unassessable": [
+    "研究設計、樣本數、統計方法、利益衝突、試驗註冊等皆不適用，因本文為無原始數據之機轉性迷你綜述"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "與前述PD-1/PD-L1於大腸直腸癌之機轉綜述（評分3/10）主題相關，皆聚焦免疫檢查點阻斷機轉；本篇進一步聚焦骨髓系細胞對DC引發的調控及與機械式HIFU消融合併治療之理論框架，為前作補充更細緻的細胞層級機轉討論，但同樣缺乏臨床數據。",
+   "added_at": "2026-10-14T09:00:27+08:00"
+  },
+  {
+   "pmid": "42866390",
+   "title": "Macrophage states and immunometabolic adaptation in peritoneal metastases from colorectal cancer",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.3389/fimmu.2026.1974770",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Chen W, Wei J, Wang Y, Sun L, Ye Y, Sun K",
+   "abstract": "Immunotherapy responses in colorectal cancer peritoneal metastases (CRCPM) are not determined by mismatch repair (MMR) status alone. Most MMR-proficient/microsatellite-stable (pMMR/MSS) tumors have low baseline sensitivity, while MMR-deficient/microsatellite instability-high (dMMR/MSI-H) tumors do not respond uniformly, particularly in patients with ascites. This Mini Review compares evidence across compartments and disease stages: human associations, macrophage-resolved functional studies and interventions altering immunotherapy efficacy in mice. Human ascites and tissue studies identify resident-like and monocyte-associated macrophages, including C1Q+ and SPP1+ states, but shared markers do not establish equivalent functions or origins. During niche conditioning and early seeding, ABCA9-dependent cholesterol handling, tumor-derived lysophosphatidic acid signaling and TLR4-CXCL10 activation can support local T-cell-mediated tumor control, although these studies did not test immune checkpoint blockade (ICB) or adoptive cell therapy (ACT). In established disease, SPP1-associated macrophage-intrinsic peroxisome proliferator-activated receptor-γ (PPARγ) programming and extracellular SPP1-CD44 signaling restrain CD8+ T cells, and SPP1 perturbation improves anti-PD-1 and ACT responses in mice. The relative contributions of these routes to treatment rescue remain unresolved. TIM-4 and MerTK provide distinct non-metabolic constraints. Human evidence for the resistance-associated SPP1 state remains cross-sectional. Lipid-related pathways in CRCPM models thus have opposing immune effects rather than acting as a single metabolic switch.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42353833",
+     "date": "2026-06-26",
+     "title_zh": "微衛星表型作為大腸直腸癌免疫治療指引：現況與未來展望",
+     "score": 3,
+     "one_liner": "本文為綜述，總結MSI-H/dMMR與MSS/pMMR大腸直腸癌對免疫檢查點抑制劑反應差異之分子機轉與現行治療策略。",
+     "sim": 0.154
+    }
+   ],
+   "title_zh": "大腸直腸癌腹膜轉移中的巨噬細胞狀態與免疫代謝適應",
+   "abstract_zh": "大腸直腸癌腹膜轉移（CRCPM）對免疫治療的反應並非僅由錯配修復（MMR）狀態決定。大多數錯配修復完整／微衛星穩定（pMMR/MSS）腫瘤對免疫治療基礎敏感性低，而錯配修復缺陷／微衛星不穩定高（dMMR/MSI-H）腫瘤的反應也不一致，尤其是在有腹水的病人中。本篇迷你綜述比較了跨腔室、跨疾病階段的證據：人體關聯性研究、巨噬細胞功能性研究，以及小鼠模型中改變免疫治療療效的介入研究。人體腹水與組織研究發現了類似常駐型與單核球相關的巨噬細胞，包括 C1Q+ 與 SPP1+ 狀態，但共享的標記並不代表功能或來源相同。在生態棲位形成與早期種植階段，ABCA9 依賴性膽固醇處理、腫瘤來源的溶血磷脂酸（LPA）訊號傳導，以及 TLR4-CXCL10 活化，可支持局部 T 細胞媒介的腫瘤控制，不過這些研究並未測試免疫檢查點阻斷（ICB）或過繼性細胞治療（ACT）。在疾病確立後，與 SPP1 相關的巨噬細胞內在過氧化體增殖物活化受體γ（PPARγ）程式化，以及細胞外 SPP1-CD44 訊號傳導會抑制 CD8+ T 細胞，而在小鼠中干擾 SPP1 可改善抗 PD-1 與 ACT 的反應。這些途徑對治療挽救的相對貢獻尚未釐清。TIM-4 與 MerTK 提供了不同的非代謝性限制機制。與抗藥性相關之 SPP1 狀態的人體證據目前僅限於橫斷面研究。因此，CRCPM 模型中與脂質相關的路徑具有相反的免疫效應，而非作為單一的代謝開關運作。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純機轉性迷你綜述，證據多來自小鼠模型與橫斷面人體研究，無臨床試驗數據，對臨床實務決策無直接可操作性。",
+   "relevance": "低度相關",
+   "relevance_why": "本文為基礎／轉譯免疫代謝機轉綜述，無手術介入或臨床療效數據，對外科日常決策幫助有限。",
+   "novelty": "仍屬早期",
+   "one_liner": "本綜述整理 CRCPM 中巨噬細胞狀態（如 SPP1+、C1Q+）與脂質代謝路徑如何調控免疫治療反應，多數證據來自小鼠模型。",
+   "action": "目前不需改變做法；此為機轉性綜述，尚無可直接應用於臨床決策或治療選擇的數據。",
+   "pico": {
+    "P": "大腸直腸癌腹膜轉移（CRCPM）病人與小鼠模型，無具體人數（綜述性質）",
+    "I": "巨噬細胞狀態（C1Q+、SPP1+）與相關脂質代謝路徑（如 ABCA9、PPARγ、SPP1-CD44）",
+    "C": "無對照組（文獻回顧性質，比較不同研究發現）",
+    "O": "主要：免疫檢查點阻斷（ICB）與過繼性細胞治療（ACT）之療效調控機轉；次要：T 細胞功能、腫瘤微環境特性"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本文未提供任何絕對數值、事件率或信賴區間，純屬機轉性文獻回顧",
+    "SPP1 干擾可改善小鼠抗 PD-1 與 ACT 反應，但未給出具體反應率數字",
+    "人體 SPP1 抗藥性狀態證據僅限橫斷面研究，無前瞻性或介入性人體數據"
+   ],
+   "cautions": [
+    "主要證據來自小鼠模型，機轉是否能外推至人體臨床療效尚未證實",
+    "人體相關證據多為橫斷面關聯性研究，無法確立因果關係",
+    "多數早期niche formation研究未測試ICB或ACT，臨床意義推論有過度延伸之虞"
+   ],
+   "unassessable": [
+    "盲法",
+    "allocation concealment",
+    "ITT",
+    "失訪率",
+    "試驗註冊",
+    "利益衝突",
+    "成本分析",
+    "樣本數"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "前作綜述聚焦MSI-H/MSS腫瘤對免疫檢查點抑制劑反應差異之分子機轉；本文進一步聚焦腹膜轉移此一特殊腔室，解釋為何即使dMMR/MSI-H腫瘤在有腹水病人中反應仍不一致，補上巨噬細胞與脂質代謝層面的機轉缺口。",
+   "added_at": "2026-10-14T09:00:27+08:00"
+  },
+  {
+   "pmid": "42865601",
+   "title": "Research progress on intestinal probiotics-mediated protection of the intestinal mucosal barrier in ulcerative colitis",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1016/j.ijpharm.2026.126963",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Ma G, Deng S",
+   "abstract": "Ulcerative colitis (UC) is a major subtype of inflammatory bowel disease characterized by a chronic, relapsing course. Its pathogenesis involves complex interactions among gut microbial dysbiosis, epithelial barrier disruption, dysregulated immune responses, and oxidative stress. Impairment of the intestinal mucosal barrier facilitates the translocation of luminal antigens, bacteria, and microbial metabolites into the mucosa, thereby aggravating local inflammation. Probiotics may help maintain barrier homeostasis by reshaping the gut microbial community, reinforcing epithelial and mucus barriers, modulating mucosal immunity, and reducing oxidative injury. This review summarizes recent evidence on the protective effects of probiotics, including Lactobacillus spp., Bifidobacterium spp., and Akkermansia muciniphila, on the intestinal mucosal barrier in UC. Current findings suggest that probiotics can inhibit pathogen adhesion and colonization, enhance the production of beneficial metabolites such as short-chain fatty acids and tryptophan-derived compounds, and promote the expression of tight-junction proteins, including ZO-1, occludin, claudin-1, and claudin-4, as well as mucins such as MUC1 and MUC2. These effects may be mediated through the regulation of NF-κB, NLRP3, aryl hydrocarbon receptor (AhR), mitogen-activated protein kinase (MAPK), and related signaling pathways, thereby attenuating inflammation and oxidative stress and promoting epithelial repair. Combination strategies involving probiotics and prebiotics, traditional Chinese medicine-derived components, postbiotics, fecal microbiota transplantation, or novel delivery systems may improve microbial engraftment, enhance colon-targeted delivery, and strengthen microbiota remodeling and barrier repair. Nevertheless, the available evidence remains limited by substantial strain specificity, insufficient clinical validation, and the absence of standardized intervention protocols. Further multi-omics studies and well-designed clinical trials are warranted to clarify the efficacy, mechanisms, optimal dosing, and safety of these interventions in UC.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42358979",
+     "date": "2026-06-26",
+     "title_zh": "腸道微生物群代謝物在發炎性腸道疾病中的作用：機轉洞見的最新進展",
+     "score": 2,
+     "one_liner": "本綜述整合腸道微生物代謝物（SCFAs、膽酸、色胺酸衍生物）如何透過免疫調節網絡參與IBD致病機制，屬機轉性文獻回顧，無臨床數據。",
+     "sim": 0.219
+    },
+    {
+     "pmid": "42352943",
+     "date": "2026-06-26",
+     "title_zh": "小檗鹼在發炎性腸道疾病中的角色：微生物群-免疫-屏障軸的整合調控",
+     "score": 1,
+     "one_liner": "本綜述整理小檗鹼調控IBD微生物群-免疫-屏障軸的機制與遞送策略，指出臨床證據仍有限、以臨床前研究為主。",
+     "sim": 0.217
+    },
+    {
+     "pmid": "42495627",
+     "date": "2026-07-25",
+     "title_zh": "腸道菌群衍生代謝物在胃腸道癌症中的作用：透過色胺酸-芳香烴受體（AhR）軸之免疫調節機制與轉譯觀點",
+     "score": 2,
+     "one_liner": "本文綜述腸道菌群代謝物（SCFAs、膽酸、色胺酸-AhR軸）在胃腸道癌症中的免疫調節機轉，屬概念性整理，無臨床數據。",
+     "sim": 0.212
+    }
+   ],
+   "title_zh": "腸道益生菌介導潰瘍性結腸炎腸黏膜屏障保護作用之研究進展",
+   "abstract_zh": "潰瘍性結腸炎（UC）是發炎性腸道疾病的主要亞型，以慢性反覆發作病程為特徵。其致病機轉涉及腸道菌群失衡、上皮屏障破壞、免疫反應失調及氧化壓力間複雜的交互作用。腸黏膜屏障受損會促進管腔內抗原、細菌及微生物代謝物轉位進入黏膜，加劇局部發炎。益生菌可能透過重塑腸道微生物群落、強化上皮與黏液屏障、調節黏膜免疫及減少氧化損傷，來協助維持屏障恆定。本綜述彙整近期關於益生菌（包括乳酸桿菌屬、雙歧桿菌屬及Akkermansia muciniphila）對UC腸黏膜屏障保護作用的證據。目前研究發現益生菌可抑制病原體黏附與定殖、增加短鏈脂肪酸及色胺酸衍生物等有益代謝物的產生，並促進緊密連接蛋白（包括ZO-1、occludin、claudin-1、claudin-4）及黏蛋白（如MUC1、MUC2）的表現。這些作用可能透過調控NF-κB、NLRP3、芳香烴受體（AhR）、絲裂原活化蛋白激酶（MAPK）等相關訊號通路來介導，進而減輕發炎與氧化壓力並促進上皮修復。結合益生菌與益生元、中藥來源成分、後生元、糞便微生物移植或新型遞送系統的組合策略，可能改善微生物定植、強化結腸標靶遞送，並加強菌群重塑與屏障修復。然而，現有證據仍受限於顯著的菌株特異性、臨床驗證不足，以及缺乏標準化介入方案。未來需要更多多體學研究及設計良好的臨床試驗，以釐清這些介入措施在UC中的療效、機轉、最佳劑量及安全性。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純機轉性文獻回顧，無原創臨床數據，且益生菌對UC屏障保護為內科消化道議題，與大腸直腸外科手術實務關聯極低。",
+   "relevance": "低度相關",
+   "relevance_why": "純屬UC內科機轉與益生菌治療的綜述，非外科介入，對大腸直腸外科日常臨床決策幾無直接影響。",
+   "novelty": "仍屬早期",
+   "one_liner": "本文綜述益生菌（乳酸桿菌、雙歧桿菌、Akkermansia）透過多重訊號路徑保護UC腸黏膜屏障的機轉，無臨床試驗數據。",
+   "action": "目前不需改變做法；此為機轉性綜述，無臨床療效數據可直接應用於UC或外科病人照護。",
+   "pico": {
+    "P": "潰瘍性結腸炎相關之腸黏膜屏障機轉（無特定人數，屬綜述）",
+    "I": "益生菌（乳酸桿菌、雙歧桿菌、Akkermansia muciniphila等）及相關組合策略",
+    "C": "無對照組",
+    "O": "主要：腸黏膜屏障相關分子機轉（緊密連接蛋白、黏蛋白表現、訊號路徑調控）；次要：臨床應用前景與限制"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本文為機轉性綜述，未提供任何臨床試驗之絕對數字、事件率或信賴區間",
+    "作者自承證據受限於菌株特異性、臨床驗證不足、缺乏標準化介入方案",
+    "無統合分析或RCT數據可供ARR/NNT計算"
+   ],
+   "cautions": [
+    "全文為臨床前機轉整理，無人體臨床試驗數據，不可直接外推至病人照護",
+    "益生菌效果具高度菌株特異性，不同研究結果難以互相比較或推論通則",
+    "作者明確指出缺乏標準化介入方案與足夠臨床驗證，結論應謹慎解讀"
+   ],
+   "unassessable": [
+    "研究設計細節（無原始試驗）",
+    "樣本數",
+    "試驗註冊",
+    "利益衝突",
+    "臨床療效之統計檢定"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-10-14T09:00:27+08:00"
+  },
+  {
+   "pmid": "42862350",
+   "title": "Inflammatory bowel disease and breast cancer: epidemiological evidence, shared biology, and clinical management",
+   "journal": "Inflamm Res",
+   "journal_full": "Inflammation research : official journal of the European Histamine Research Society ... [et al.]",
+   "issn": "1420-908X",
+   "issn_linking": "1023-3830",
+   "impact_factor": 6.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1186/s43094-025-00825-3",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Han Q, Zhang X, Li S",
+   "abstract": "OBJECTIVE AND DESIGN: This narrative review examines epidemiological, genetic, mechanistic, microbial, and therapeutic evidence concerning inflammatory bowel disease (IBD) and breast cancer.\nMETHODS: Relevant literature was identified through targeted PubMed searches completed through May 2026 and reference-list screening. Evidence was selected for its relevance to epidemiology, candidate mechanisms, microbiome-related pathways, and treatment interactions.\nRESULTS: Pooled cohort evidence does not show a significant overall increase in breast cancer risk among patients with IBD. Several inflammatory, stromal, microbial, and endocrine pathways are relevant to both diseases, although most evidence comes from separate study populations and experimental models. Studies of patients with prior malignancy have not shown a clear increase in new or recurrent cancer during commonly used IBD therapies, but few analyses have focused specifically on breast cancer. Microbiome-directed treatments have been studied in IBD and, more recently, in oncology; their value for patients with both diseases is unknown.\nCONCLUSIONS: Current evidence does not support classifying IBD as a breast cancer risk state. The main clinical concern is the interaction between treatments for the two diseases, which requires individualized assessment and coordinated gastroenterology and oncology care.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42514308",
+     "date": "2026-07-30",
+     "title_zh": "發炎性腸道疾病的飲食療法及其對疾病活性與腸道菌相之影響",
+     "score": 2,
+     "one_liner": "本文回顧IBD飲食療法對疾病活性與腸道菌相的影響，指出證據異質且機轉未明，未提供新臨床數據。",
+     "sim": 0.179
+    }
+   ],
+   "title_zh": "發炎性腸道疾病與乳癌：流行病學證據、共同生物學機轉與臨床處置",
+   "abstract_zh": "目的與設計：本敘述性回顧檢視發炎性腸道疾病（IBD）與乳癌之間在流行病學、遺傳學、機轉、微生物相及治療方面的相關證據。方法：透過PubMed檢索至2026年5月之相關文獻及參考文獻篩選，納入與流行病學、候選機轉、微生物相相關路徑及治療交互作用相關之證據。結果：綜合世代研究證據顯示，IBD病人罹患乳癌之整體風險並未顯著增加。多個發炎、間質、微生物及內分泌路徑與兩種疾病皆有關聯，但多數證據來自不同的研究族群與實驗模型。針對曾罹患惡性腫瘤病人的研究顯示，常用IBD治療並未明顯增加新發或復發癌症風險，但針對乳癌的分析仍少。微生物相導向治療已應用於IBD及近期腫瘤學領域，但對同時罹患兩種疾病病人的價值尚屬未知。結論：目前證據不支持將IBD列為乳癌風險狀態。主要臨床關注點在於兩種疾病治療之間的交互作用，需要個別化評估並整合腸胃科與腫瘤科照護。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "敘述性回顧非原創數據，主題為IBD與乳癌風險及治療交互作用，與大腸直腸外科手術實務無直接關聯。",
+   "relevance": "低度相關",
+   "relevance_why": "主題聚焦IBD內科治療與乳癌風險評估，非大腸直腸外科手術介入或術式比較。",
+   "novelty": "再確認已知",
+   "one_liner": "本篇回顧IBD與乳癌之流行病學及機轉證據，結論IBD整體乳癌風險未顯著增加，主要議題為治療交互作用。",
+   "action": "目前不需改變做法；此為內科/腫瘤科跨科照護議題，非大腸直腸外科手術決策範疇。",
+   "pico": {
+    "P": "無特定人數，為文獻回顧（IBD與乳癌相關研究族群）",
+    "I": "無單一介入，回顧IBD治療與乳癌風險相關性",
+    "C": "無對照組",
+    "O": "乳癌風險；治療交互作用與個別化照護建議"
+   },
+   "effects": [],
+   "key_numbers": [
+    "綜合世代研究：IBD病人乳癌整體風險未顯著增加（無絕對數字）",
+    "IBD治療於曾罹癌病人中未明顯增加新發或復發癌症（證據有限）",
+    "微生物相導向治療對同時罹患IBD與乳癌病人之效益仍未知"
+   ],
+   "cautions": [
+    "敘述性回顧非系統性統合分析，未提供量化風險估計值或信賴區間",
+    "證據多來自分開的研究族群與動物模型，機轉推論可能過度外推",
+    "聚焦乳癌之IBD治療安全性分析數量稀少，結論證據強度有限"
+   ],
+   "unassessable": [
+    "研究選取標準",
+    "是否利益衝突",
+    "文獻品質評估方法",
+    "成本分析"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-10-14T09:00:27+08:00"
+  },
+  {
+   "pmid": "42860445",
+   "title": "Augmenting colonoscopy with artificial intelligence and robotic assistance: a human-factors scoping review toward a task-based shared autonomy paradigm",
+   "journal": "J Robot Surg",
+   "journal_full": "Journal of robotic surgery",
+   "issn": "1863-2491",
+   "issn_linking": "1863-2483",
+   "impact_factor": 4.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.3390/healthcare13172154",
+   "ptype": "Scoping Review, Review",
+   "ptype_list": [
+    "Scoping Review",
+    "Review"
+   ],
+   "authors": "Manfredi L, Annicchiarico A, Gravante G",
+   "abstract": "Colonoscopy is central to colorectal cancer prevention but remains a high-demand psychomotor and cognitive procedure, characterized by operator dependency, variable performance, and substantial physical and mental workload. Increasing evidence links procedural quality and safety to clinician-related factors, including musculoskeletal strain, fatigue, and non-technical skills. Concurrently, artificial intelligence (AI) and robotic technologies are emerging as potential tools to address these limitations. We conducted a scoping review with narrative synthesis of literature on human factors, ergonomics, AI, robotic technologies, and shared autonomy in colonoscopy and surgical robotics. Evidence synthesis: Colonoscopy performance remains limited by non-negligible miss rates and variability driven by both technical and human factors. Ergonomic constraints and cognitive workload contribute significantly to operator strain and may affect vigilance and decision-making. AI systems-including computer-aided detection (CADe), diagnosis (CADx), and quality monitoring-have demonstrated improvements in detection metrics and procedural standardisation, although concerns regarding cognitive offloading and potential deskilling persist. In parallel, emerging robotic and soft-robotic platforms aim to enhance navigation, improve procedural ergonomics, and reduce operator musculoskeletal strain, although clinical evidence remains limited. These technologies converge within a task-based shared-autonomy paradigm integrating physical, perceptual, and cognitive augmentation, with different procedural tasks operating at different levels of human-system control. A task-based shared-autonomy framework may provide a coherent model for integrating AI and robotics into colonoscopy while preserving human supervision and clinical judgement. Future developments should prioritise human-centred design, workflow integration, and multidimensional evaluation strategies to ensure safe and effective clinical implementation.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42737839",
+     "date": "2026-09-16",
+     "title_zh": "計算模型在大腸直腸癌與癌前病變偵測中的角色",
+     "score": 3,
+     "one_liner": "本篇範疇綜述整理AI於大腸鏡之應用，發現CADe確立可提升ADR，CADx等技術證據仍有限且異質性高，未提供新量化數據。",
+     "sim": 0.204
+    },
+    {
+     "pmid": "42737839",
+     "date": "2026-09-17",
+     "title_zh": "計算模型在大腸直腸癌與癌前病變偵測中的角色",
+     "score": 3,
+     "one_liner": "本篩選型綜述整理大腸鏡AI（CADe/CADx）文獻，結論CADe證據強、CADx證據仍不足以支持resect-and-discard策略。",
+     "sim": 0.204
+    },
+    {
+     "pmid": "42782409",
+     "date": "2026-09-26",
+     "title_zh": "超越機器手臂平台：人工智慧與大腸直腸手術中智慧手術生態系統的興起",
+     "score": 2,
+     "one_liner": "本文為概念性敘事綜述，提出將AI與機器手臂整合為「智慧手術生態系統」應用於大腸直腸手術路徑，未提供臨床試驗數據。",
+     "sim": 0.152
+    }
+   ],
+   "title_zh": "以人工智慧與機器人輔助強化大腸鏡檢查：邁向以任務為基礎之共享自主範式的人因學範疇綜述",
+   "abstract_zh": "大腸鏡檢查是大腸直腸癌預防的核心，但仍是高需求的精神運動與認知程序，具有操作者依賴性、表現變異大、以及顯著的生理與心理工作負荷等特徵。越來越多證據顯示，程序品質與安全性與臨床醫師相關因素有關，包括肌肉骨骼勞損、疲勞及非技術性技能。同時，人工智慧（AI）與機器人技術正興起為可能解決這些限制的工具。我們針對大腸鏡檢查與手術機器人領域中有關人因、人體工學、AI、機器人技術與共享自主的文獻，進行了含敘事綜合的範疇綜述。證據綜合：大腸鏡檢查表現仍受限於不可忽視的漏診率，以及由技術與人為因素共同驅動的變異性。人體工學限制與認知工作負荷顯著造成操作者勞損，並可能影響警覺性與決策。AI系統——包括電腦輔助偵測（CADe）、診斷（CADx）與品質監測——已證實能改善偵測指標並促進程序標準化，惟對認知卸載與潛在去技能化的疑慮仍存在。與此同時，新興的機器人與軟性機器人平台旨在增強導航、改善程序中的人體工學並降低操作者肌肉骨骼勞損，惟臨床證據仍有限。這些技術匯聚成一種以任務為基礎的共享自主範式，整合了生理、知覺與認知層面的增強，不同的程序任務在不同層級的人機控制下運作。以任務為基礎的共享自主框架，可能為整合AI與機器人技術進入大腸鏡檢查、同時保留人類監督與臨床判斷，提供一個一致的模型。未來發展應優先考量以人為中心的設計、工作流程整合及多面向評估策略，以確保安全有效的臨床導入。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "純概念性範疇綜述，無任何臨床試驗或量化新數據，對臨床決策無直接指引價值，僅提供未來研究框架。",
+   "relevance": "低度相關",
+   "relevance_why": "聚焦大腸鏡檢查（篩檢程序）之人因工程與AI/機器人概念框架，非大腸直腸外科手術介入。",
+   "novelty": "仍屬早期",
+   "one_liner": "本篇範疇綜述整理大腸鏡人因學、AI與機器人文獻，提出「任務式共享自主」概念框架，未提供臨床試驗數據。",
+   "action": "目前不需改變做法；此為概念性框架文章，無可直接應用於臨床或手術決策之數據。",
+   "pico": {
+    "P": "大腸鏡檢查與手術機器人領域相關文獻（無特定病人族群，文獻回顧性質）",
+    "I": "AI（CADe/CADx/品質監測）與機器人/軟性機器人輔助技術",
+    "C": "無對照組（敘事性範疇綜述）",
+    "O": "主要：提出任務式共享自主概念框架；次要：討論人因、人體工學、認知負荷與去技能化議題"
+   },
+   "effects": [],
+   "key_numbers": [
+    "本篇為概念性綜述，未提供任何可量化之事件數、發生率或效應量數據",
+    "未進行統合分析，無ARR/NNT可計算",
+    "結論僅為框架性建議，無臨床結果數據"
+   ],
+   "cautions": [
+    "屬概念性敘事/範疇綜述，無原始臨床試驗數據，結論僅為研究方向建議，不可直接用於臨床決策",
+    "未說明文獻篩選方法學嚴謹度（如系統性檢索策略、納入排除標準、品質評估），可信度難以判斷",
+    "將CADe/CADx成效與機器人人體工學效益並列討論，但機器人臨床證據摘要中明言「仍有限」，不應過度推論其臨床效益"
+   ],
+   "unassessable": [
+    "文獻檢索策略與納入標準",
+    "是否有系統性品質評估",
+    "利益衝突",
+    "資金來源"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "與先前兩篇CADe/CADx範疇綜述及「智慧手術生態系統」概念綜述高度重疊主題，本篇進一步加入人因工程與共享自主框架視角，但同樣未提供新臨床量化數據，屬同系列概念性文章的延伸。",
+   "added_at": "2026-10-14T09:00:27+08:00"
+  },
+  {
+   "pmid": "42864905",
+   "title": "Melatonin Suppresses Colorectal Cancer Alongside Coordinated Changes in H3K4me3Q5ser and m6A Modifications",
+   "journal": "J Pineal Res",
+   "journal_full": "Journal of pineal research",
+   "issn": "1600-079X",
+   "issn_linking": "0742-3098",
+   "impact_factor": 7.5,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.1111/jpi.70192",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Zhang W, Yuan L, Yu D, Qi S, Liu C, Wang D",
+   "abstract": "Melatonin has demonstrated antitumor activity in various cancer models, but its effects may depend on the therapeutic dose and cellular environment. We found that melatonin at millimolar concentrations significantly downregulated transglutaminase 2 (TGM2), histone serotonylation (H3K4me3Q5ser), and YTHDF1/m6A (N6-methyladenosine) in a colorectal cancer model. Cross-interference between TGM2 and YTHDF1 supports a link between these regulatory processes, while molecular docking, pharmacological interventions, and co-immunoprecipitation experiments suggest the existence of a signaling pathway involving melatonin and the HTR2B receptor. A combined analysis of CHIP-seq and meRIP-seq identified salt-induced kinase 1 (SIK1) as a potential downstream target, and SIK1 interference affected the proliferation and migration of colorectal cancer. Collectively, these findings support a working model in which melatonin-induced tumor suppression is associated with coordinated changes in TGM2/H3K4me3Q5ser and YTHDF1-associated m6A regulation, with SIK1 emerging as a potential convergent downstream effector.",
+   "watched": [],
+   "related": [],
+   "title_zh": "褪黑激素透過協調H3K4me3Q5ser與m6A修飾變化抑制大腸直腸癌",
+   "abstract_zh": "褪黑激素已在多種癌症模型中展現抗腫瘤活性，但其效果可能取決於治療劑量及細胞環境。我們發現毫莫耳濃度的褪黑激素能顯著下調轉麩醯胺酸酶2（TGM2）、組蛋白血清素化（H3K4me3Q5ser）以及YTHDF1/m6A（N6-甲基腺苷）在大腸直腸癌模型中的表現。TGM2與YTHDF1之間的交叉干擾支持這兩個調控過程之間存在關聯，而分子對接、藥理學介入及共免疫沉澱實驗則顯示存在一條涉及褪黑激素與HTR2B受體的訊號傳導路徑。結合CHIP-seq與meRIP-seq分析鑑定出鹽誘導激酶1（SIK1）為潛在下游標靶，SIK1的干擾會影響大腸直腸癌的增殖與遷移。總體而言，這些發現支持一個工作模型：褪黑激素誘導的腫瘤抑制作用與TGM2/H3K4me3Q5ser及YTHDF1相關m6A調控的協調變化有關，而SIK1則為潛在的匯聚下游效應分子。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "純細胞/分子機轉研究，無臨床或動物體內數據，對大腸直腸外科臨床實務目前無直接應用價值。",
+   "relevance": "低度相關",
+   "relevance_why": "純基礎分子機轉研究，非手術介入、非臨床試驗，與外科日常決策無關。",
+   "novelty": "仍屬早期",
+   "one_liner": "在大腸直腸癌細胞模型中，毫莫耳濃度褪黑激素透過TGM2/H3K4me3Q5ser與YTHDF1/m6A路徑，經SIK1抑制腫瘤增殖與遷移。",
+   "action": "目前不需改變做法，此為細胞層級機轉探索，無人體或動物體內療效與安全性數據。",
+   "pico": {
+    "P": "大腸直腸癌細胞模型（細胞株，未標示確切人數/樣本數）",
+    "I": "毫莫耳濃度褪黑激素處理",
+    "C": "無對照組（或未處理對照，摘要未明確說明）",
+    "O": "主要：TGM2、H3K4me3Q5ser、YTHDF1/m6A表現變化；次要：SIK1下游效應、細胞增殖與遷移能力"
+   },
+   "effects": [],
+   "key_numbers": [
+    "使用濃度為毫莫耳（millimolar）等級，遠高於生理或臨床可用劑量",
+    "無人體或動物體內數據，僅細胞層級機轉驗證",
+    "缺乏絕對數值（如抑制百分比、IC50等）可供量化比較"
+   ],
+   "cautions": [
+    "純細胞模型研究，無動物體內或人體臨床數據，結論不可直接外推至病人治療",
+    "所用褪黑激素劑量為毫莫耳級，遠超生理及現行補充劑量，臨床可行性與安全性未知",
+    "訊號路徑多以「suggest」、「support a working model」描述，屬相關性推論，因果機轉尚未完全證實"
+   ],
+   "unassessable": [
+    "人體臨床療效與安全性",
+    "動物體內（in vivo）效果",
+    "劑量換算至臨床可用劑量的可行性",
+    "長期致癌/抑癌效果",
+    "利益衝突聲明",
+    "樣本數（細胞實驗重複次數）"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-10-14T09:00:27+08:00"
+  },
+  {
+   "pmid": "42862221",
+   "title": "Mechanisms of phosphorylation in colitis regulation: PP2Acα as an emerging therapeutic target for inflammatory bowel disease",
+   "journal": "Mol Biol Rep",
+   "journal_full": "Molecular biology reports",
+   "issn": "1573-4978",
+   "issn_linking": "0301-4851",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1080/15548627.2019.1635384",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Wu G, Wang C, Fang C, Li J",
+   "abstract": "Post-translational modification(PTM) is the terminal regulatory step of gene expression, directly regulating protein function through reversible or irreversible chemical modifications, enabling cells to rapidly respond to internal and external environmental stimuli. Among various post-translational modifications (PTMs), the dynamic balance between phosphorylation and dephosphorylation constitutes the molecular switch for inflammatory signal transduction, and disruption of this balance is an important cause of the persistent non-healing of inflammatory bowel disease (IBD). The catalytic subunit of protein phosphatase 2 A, PP2Acα(encoded by the PPP2CA gene), as the predominant serine/threonine phosphatase in the body, accounts for more than 70% of serine/threonine phosphatase activity in mammalian tissues and has been proven to play a key role in inflammatory diseases such as rheumatoid arthritis. However, the specific regulatory network, targets, and mechanisms of PPP2CA in IBD have not yet been systematically elucidated. This review aims to summarize the regulatory role of PTMs (especially phosphorylation/dephosphorylation) in IBD, deeply explore the structure and function of PPP2CA and its potential mechanisms in intestinal inflammation, and propose core scientific questions for future research, providing a new theoretical perspective for IBD therapeutic strategies targeting PPP2CA.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42663768",
+     "date": "2026-08-30",
+     "title_zh": "轉譯後修飾在潰瘍性結腸炎致病機轉中的調控角色",
+     "score": 1,
+     "one_liner": "本文回顧磷酸化、醣化、泛素化等多種轉譯後修飾在UC致病機轉中調控免疫與上皮完整性的角色，屬機制性綜述無臨床數據。",
+     "sim": 0.251
+    },
+    {
+     "pmid": "42677782",
+     "date": "2026-09-02",
+     "title_zh": "MYPT1 作為生物標記與治療靶點的新興功能",
+     "score": 2,
+     "one_liner": "本綜述整理MYPT1異構體在血管張力調節中的分子機轉，並列舉其表現異常與多種疾病（含大腸癌）的關聯，屬機轉層級討論。",
+     "sim": 0.156
+    },
+    {
+     "pmid": "42677782",
+     "date": "2026-09-03",
+     "title_zh": "MYPT1作為生物標記與治療靶點的新興角色",
+     "score": 2,
+     "one_liner": "本綜述整理MYPT1異構體在血壓調節與多種疾病（含大腸癌）中的分子角色，探討其作為生物標記與治療靶點的潛力。",
+     "sim": 0.156
+    }
+   ],
+   "title_zh": "磷酸化機轉在腸炎調控中的角色：PP2Acα作為發炎性腸道疾病新興治療標的",
+   "abstract_zh": "轉譯後修飾(PTM)是基因表現的終端調控步驟，透過可逆或不可逆的化學修飾直接調控蛋白質功能，使細胞能快速回應內外環境刺激。在各種轉譯後修飾中，磷酸化與去磷酸化之間的動態平衡構成發炎訊號傳導的分子開關，此平衡的破壞是發炎性腸道疾病(IBD)持續無法癒合的重要原因。蛋白磷酸酶2A的催化次單元PP2Acα（由PPP2CA基因編碼），作為體內最主要的絲胺酸/蘇胺酸磷酸酶，佔哺乳類組織中絲胺酸/蘇胺酸磷酸酶活性的70%以上，已被證實在類風濕性關節炎等發炎性疾病中扮演關鍵角色。然而，PPP2CA在IBD中的具體調控網絡、標的與機轉尚未被系統性闡明。本綜述旨在總結PTM（特別是磷酸化/去磷酸化）在IBD中的調控角色，深入探討PPP2CA的結構與功能及其在腸道發炎中的潛在機轉，並提出未來研究的核心科學問題，為針對PPP2CA的IBD治療策略提供新的理論觀點。",
+   "evidence_level": "綜述",
+   "score": 1,
+   "score_reason": "純機制性綜述，無任何臨床數據、無人體試驗、非手術介入，對大腸直腸外科臨床決策無直接實用性。",
+   "relevance": "低度相關",
+   "relevance_why": "本文為基礎分子機轉綜述，聚焦PP2Acα磷酸化與IBD致病機轉，非外科介入亦無臨床數據。",
+   "novelty": "仍屬早期",
+   "one_liner": "本篇綜述探討PP2Acα磷酸酶在IBD發炎訊號調控中的分子機轉，提出其作為未來治療標的之理論可能性，尚無臨床數據。",
+   "action": "目前不需改變做法；此為基礎機轉綜述，無臨床試驗數據可供外科決策參考。",
+   "pico": {
+    "P": "無特定病人族群（文獻綜述，非臨床研究）",
+    "I": "PP2Acα/PPP2CA 磷酸化調控機轉（理論探討）",
+    "C": "無對照組",
+    "O": "無臨床outcome；討論PTM調控IBD發炎的分子機轉"
+   },
+   "effects": [],
+   "key_numbers": [
+    "無臨床數據可供抽取，本文僅為機制性文獻綜述",
+    "PP2Acα佔哺乳類絲胺酸/蘇胺酸磷酸酶活性70%以上（基礎生化數據，非臨床outcome）",
+    "無人體試驗結果、無統計檢定、無絕對風險數字"
+   ],
+   "cautions": [
+    "本文為純機制綜述，無原創實驗數據或臨床試驗，結論僅為理論推測",
+    "未提供任何人體或動物實驗之量化結果，無法評估因果關係強度",
+    "與大腸直腸外科臨床決策無直接關聯，屬基礎醫學範疇"
+   ],
+   "unassessable": [
+    "研究設計",
+    "樣本數",
+    "統計方法",
+    "利益衝突",
+    "臨床應用時程"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "added_at": "2026-10-14T09:00:27+08:00"
+  }
+ ]
+}
