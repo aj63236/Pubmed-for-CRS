@@ -5,6 +5,9 @@
 """
 import importlib.util, json, os, shutil, sys, tempfile
 from pathlib import Path
+from unittest.mock import patch
+
+import validate_data as vd
 
 os.environ["ANTHROPIC_API_KEY"] = "sk-test-fake"
 os.environ["USE_BATCH"] = "1"
@@ -91,16 +94,20 @@ def mk(pmid, title="Paper"):
 
 def with_tmp_data(fn):
     tmp = Path(tempfile.mkdtemp())
-    old = fp.DATA_DIR
+    old, old_cache = fp.DATA_DIR, fp.CACHE_FILE
     fp.DATA_DIR = tmp
+    fp.CACHE_FILE = tmp / "_cache_v3.json"
     try:
         fn(tmp)
     finally:
-        fp.DATA_DIR = old
+        fp.DATA_DIR, fp.CACHE_FILE = old, old_cache
         shutil.rmtree(tmp, ignore_errors=True)
 
 
 print("\n── Batch API ──")
+
+# 測試不可把真實快取覆蓋成假的 PMID，否則下次收集會重複付費。
+real_cache_before = fp.CACHE_FILE.read_bytes() if fp.CACHE_FILE.exists() else None
 
 # 1. 定價確實是 5 折
 sync = fp.price_of("claude-sonnet-5", batch=False)
@@ -193,6 +200,101 @@ check("thinking 區塊在前也抓得到 text",
       fp.parse_summary({"content": [{"type": "thinking", "thinking": "…"},
                                     {"type": "text", "text": json.dumps(GOOD)}],
                         "stop_reason": "end_turn", "usage": {}})["score"] == 7)
+
+# 8. 分類欄位不可混用：2026-10-15 曾把 context_verdict 填進 novelty，
+#    直到整天的資料驗證才失敗，連其他正常論文都無法發布。
+def summary_body(**changes):
+    return {"content": [{"type": "text", "text": json.dumps({**GOOD, **changes})}],
+            "stop_reason": "end_turn", "usage": {}}
+
+
+for field, allowed in vd.ENUMS.items():
+    for value in sorted(allowed):
+        parsed = fp.parse_summary(summary_body(**{field: f" {value} "}))
+        check(f"合法 {field}={value!r} 保留且去除空白", parsed[field] == value)
+
+
+def rejects_enum(field, value):
+    try:
+        fp.parse_summary(summary_body(**{field: value}))
+    except ValueError as e:
+        return field in str(e)
+    return False
+
+
+for field, value in (("novelty", "與前作矛盾"), ("relevance", "超級相關"),
+                     ("context_verdict", "可能改變實務"), ("novelty", []),
+                     ("context_verdict", []), ("relevance", 7),
+                     ("novelty", None), ("novelty", ""),
+                     ("relevance", None), ("relevance", "")):
+    check(f"拒絕不合法 {field}={value!r}，不猜測臨床分類", rejects_enum(field, value))
+
+check("非必要 context_verdict=null 視為空白",
+      fp.parse_summary(summary_body(context_verdict=None))["context_verdict"] == "")
+
+for field in ("novelty", "relevance", "context_verdict"):
+    missing = {k: v for k, v in GOOD.items() if k != field}
+    try:
+        parsed = fp.parse_summary({"content": [{"type": "text", "text": json.dumps(missing)}]})
+        accepted = True
+    except ValueError as e:
+        accepted = False
+        check(f"缺少必要 {field} 的錯誤指出欄位", field in str(e))
+    check(f"只有非必要 context_verdict 可省略（{field}）",
+          accepted == (field == "context_verdict"))
+
+
+def t_invalid_enum(tmp):
+    papers = [mk("42868087"), mk("40222222")]
+    cache = {}
+    messages = {"42868087": summary_body(novelty="與前作矛盾"),
+                "40222222": summary_body()}
+    ok, fail, _, _ = fp.merge_batch_results(papers, messages, cache, fp.stamp())
+    check("一篇分類非法不影響其他批次結果", ok == 1 and fail == 1)
+    check("分類非法的摘要不寫進論文或快取，正常摘要仍保留",
+          "title_zh" not in papers[0] and "42868087" not in cache
+          and papers[1]["title_zh"] == GOOD["title_zh"] and "40222222" in cache)
+    fp.save(papers, "2026-10-15")
+    errors, _ = vd.check_day(tmp / "2026-10-15.json")
+    check("批次分類錯誤不再阻擋整日資料驗證", not errors, str(errors))
+
+    # 驗證器仍須攔下任何繞過解析器的錯誤資料。
+    invalid = {**papers[1], "novelty": "與前作矛盾"}
+    errors, _ = vd.check_paper(invalid, "test")
+    check("資料驗證仍嚴格拒絕非法 novelty", any("novelty" in e for e in errors))
+with_tmp_data(t_invalid_enum)
+
+
+# 同步路徑應重試模型輸出的分類錯誤，而不是儲存錯誤或猜一個預設值。
+class SummaryResponse:
+    status_code = 200
+
+    def __init__(self, body):
+        self.body = body
+
+    def raise_for_status(self):
+        pass
+
+    def json(self):
+        return self.body
+
+
+with patch.object(fp.requests, "post", side_effect=[
+    SummaryResponse(summary_body(novelty="與前作矛盾")),
+    SummaryResponse(summary_body(novelty="仍屬早期")),
+]) as post, patch.object(fp.time, "sleep"):
+    result = fp.summarize(mk("42868087"))
+    check("同步遇到非法分類會重試並保留有效結果",
+          post.call_count == 2 and result is not None and result["novelty"] == "仍屬早期")
+
+with patch.object(fp.requests, "post", return_value=SummaryResponse(
+    summary_body(novelty="與前作矛盾"))) as post, patch.object(fp.time, "sleep"):
+    result = fp.summarize(mk("42868087"))
+    check("同步分類持續錯誤只重試 MAX_RETRY 次，不回傳錯誤摘要",
+          post.call_count == fp.MAX_RETRY and result is None)
+
+real_cache_after = fp.CACHE_FILE.read_bytes() if fp.CACHE_FILE.exists() else None
+check("所有批次測試都不修改真實快取", real_cache_after == real_cache_before)
 
 print("\n" + "═" * 56)
 print(f"  通過 {len(PASS)} · 失敗 {len(FAIL)}")

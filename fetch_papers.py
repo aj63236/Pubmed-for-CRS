@@ -608,6 +608,8 @@ PROMPT = """你是大腸直腸外科資深主治醫師，同時熟悉實證醫�
 你手上只有**摘要**。allocation concealment、盲法、ITT、失訪率、試驗註冊、利益衝突這些，摘要通常不會寫。
 **絕對不可以憑空推測或編造。** 沒寫的就列進 unassessable，不要硬填。
 醫師會拿這個做臨床判斷，寧可誠實說不知道，也不要猜。
+novelty 與 context_verdict 是不同欄位，必須各自使用列出的選項；
+「與前作矛盾」只能填在 context_verdict，不能當成 novelty。
 
 輸出格式：
 
@@ -990,9 +992,14 @@ def parse_summary(body):
             out = []
         return out[:cap] if cap else out
 
-    def one_of(v, allowed, default=""):
-        v = str(v or "").strip()
-        return v if v in allowed else (v if v else default)
+    def one_of(field, allowed):
+        v = data.get(field)
+        v = "" if v is None else (v.strip() if isinstance(v, str) else v)
+        if not isinstance(v, str) or v not in allowed:
+            # 不猜測臨床分類，也不把非法值寫進快取後才讓整日驗證失敗。
+            # 同步呼叫端會重試；批次呼叫端會略過此篇摘要、保留其他結果。
+            raise ValueError(f"{field} 不是合法值 → {v!r}")
+        return v
 
     pico = data.get("pico")
     pico = pico if isinstance(pico, dict) else {}
@@ -1011,10 +1018,10 @@ def parse_summary(body):
         "score":          score,
         "score_reason":   str(data.get("score_reason", "")).strip(),
 
-        "relevance":      one_of(data.get("relevance"),
+        "relevance":      one_of("relevance",
                                  {"高度相關", "中度相關", "低度相關"}),
         "relevance_why":  str(data.get("relevance_why", "")).strip(),
-        "novelty":        one_of(data.get("novelty"),
+        "novelty":        one_of("novelty",
                                  {"可能改變實務", "再確認已知", "仍屬早期", "結果為陰性"}),
 
         "one_liner":      str(data.get("one_liner", "")).strip(),
@@ -1025,8 +1032,8 @@ def parse_summary(body):
         "key_numbers":    as_list(data.get("key_numbers"), 4),
         "cautions":       as_list(data.get("cautions"), 3),
         "unassessable":   as_list(data.get("unassessable")),
-        "context_verdict": one_of(data.get("context_verdict"),
-                                  {"再確認", "與前作矛盾", "延伸前作", "無相關前作"}),
+        "context_verdict": one_of("context_verdict",
+                                  {"再確認", "與前作矛盾", "延伸前作", "無相關前作", ""}),
         "context":        str(data.get("context", "")).strip(),
     }
     clean["_usage"] = {
