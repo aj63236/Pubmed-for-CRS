@@ -66,7 +66,7 @@ def main():
     ap.add_argument("--from", dest="start", required=True, help="起始日 YYYY-MM-DD")
     ap.add_argument("--to", dest="end", default=None, help="結束日 YYYY-MM-DD（預設今天）")
     ap.add_argument("--max-per-day", type=int, default=10, help="每天最多幾篇（預設 10）")
-    ap.add_argument("--dry-run", action="store_true", help="只試算，不呼叫 Claude、不花錢")
+    ap.add_argument("--dry-run", action="store_true", help="只試算，不呼叫 AI、不花錢")
     ap.add_argument("--skip-existing", action="store_true", default=True,
                     help="已存在的日期檔案就跳過（預設開啟）")
     ap.add_argument("--force", action="store_true", help="即使檔案已存在也重跑")
@@ -113,9 +113,15 @@ def main():
     fp.rebuild_search_index()
 
     if not fp.API_KEY and not args.dry_run:
-        print("\n❌ 沒有 ANTHROPIC_API_KEY，無法產生摘要。")
-        print("   先設定：export ANTHROPIC_API_KEY='sk-ant-...'")
+        print("\n❌ 沒有可用 API key，無法產生摘要。")
+        print("   請在 GitHub Actions secrets 設定 OPENAI_API_KEY。")
         sys.exit(1)
+
+    if not args.dry_run and fp.pending_path().exists():
+        fp.resume_pending(fp.load_cache())
+        if fp.pending_path().exists():
+            print("⏸️  待領批次尚未解決，先停止回補，避免重複付費。")
+            return
 
     # ── 第一階段：掃描每天有幾篇 ──
     print("\n🔍 掃描 PubMed...")
@@ -150,7 +156,7 @@ def main():
             print(f"  {ds}  —")
         time.sleep(0.35)   # 對 NCBI 客氣一點
 
-    # 實際會送去 Claude 的篇數 = 每天取前 max_per_day
+    # 實際會送去 AI 的篇數 = 每天取前 max_per_day
     # 每天約 = 高分 N 篇 + Review（保守估平均 4 篇）
     REV_EST = 4 if fp.INCLUDE_REVIEWS else 0
     to_fetch = sum(min(len(ids), args.max_per_day + REV_EST) for _, ids in plan)
@@ -289,11 +295,11 @@ def main():
         done_days += 1
         print()
 
-    cost = tok_in / 1e6 * p_in + tok_out / 1e6 * p_out
+    cost = sum(u["estimated_cost_usd"] for u in fp.USAGE_LEDGER)
     print("─" * 58)
     print(f"  完成 {done_days} 天")
     print(f"  Token：{tok_in:,} in / {tok_out:,} out")
-    print(f"  實際費用：約 ${cost:.2f} USD")
+    print(f"  領回 / 同步回應估計費用：約 ${cost:.2f} USD（以帳單為準）")
     print("─" * 58)
     print("\n🎉 回補完成！記得 git add data/ && git commit && git push\n")
 

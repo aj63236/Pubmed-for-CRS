@@ -3,24 +3,35 @@
 腸嚐新知 — 每日 PubMed 文獻收集 + AI 摘要
 =========================================
 1. 用 Entrez date (edat) 抓「最近幾天新上架 PubMed」的大腸直腸外科論文
-2. 對每篇呼叫 Claude 產生：中文標題 / 完整中文摘要 / 臨床重點 / 臨床影響
+2. 對每篇呼叫 GPT-6.1 Sol（OpenAI Batch） 產生：中文標題 / 完整中文摘要 / 臨床重點 / 臨床影響
 3. 已處理過的 PMID 會存進 cache，不會重複計費
 4. 輸出結構化 JSON 到 data/，網站直接讀取（零延遲）
 
-環境變數：ANTHROPIC_API_KEY
+環境變數：OPENAI_API_KEY（遷移相容：ANTHROPIC_API_KEY）
 """
 
-import os, re, json, math, time, datetime, requests
+import os, re, json, math, time, datetime, uuid, hashlib, subprocess, requests
+from openai_summary import response_request, response_text
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
 # ─────────────────────────── 設定 ───────────────────────────
-API_KEY     = os.environ.get("ANTHROPIC_API_KEY", "").strip()
-# 想換模型就改這裡，或設環境變數 MODEL
-# claude-sonnet-5   ← 預設。8/31 前促銷價 $2/$10，比 Sonnet 4.6 便宜且更新
-# claude-haiku-4-5-20251001  ← 便宜 3 倍，但批判性分析與 NNT 計算會變差
-# claude-opus-4-8   ← 最強但貴一倍
-MODEL       = os.environ.get("MODEL", "").strip() or "claude-sonnet-5"
+OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "").strip()
+ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "").strip()
+# Auto uses OpenAI whenever configured. The migration fallback is only for a
+# missing key, never for an OpenAI request failure or an unavailable model.
+PROVIDER = os.environ.get("LLM_PROVIDER", "auto").strip().lower() or "auto"
+if PROVIDER == "auto":
+    PROVIDER = "openai" if OPENAI_API_KEY or not ANTHROPIC_API_KEY else "anthropic"
+if PROVIDER not in {"openai", "anthropic"}:
+    raise ValueError("LLM_PROVIDER must be auto, openai, or anthropic")
+API_KEY = OPENAI_API_KEY if PROVIDER == "openai" else ANTHROPIC_API_KEY
+# Separate names prevent an old repository MODEL=claude-* overriding Sol.
+MODEL = ((os.environ.get("OPENAI_MODEL", "").strip() or "gpt-6.1-sol")
+         if PROVIDER == "openai" else
+         (os.environ.get("MODEL", "").strip() or "claude-sonnet-5"))
+OPENAI_REASONING_EFFORT = os.environ.get("OPENAI_REASONING_EFFORT", "medium").strip()
+OPENAI_MAX_OUTPUT_TOKENS = int(os.environ.get("OPENAI_MAX_OUTPUT_TOKENS", "12000"))
 DAYS_BACK   = 2      # 抓最近 N 天新上架的論文
 SCAN_LIMIT   = 120   # 每天最多「掃描」幾篇（跟 PubMed 拿資料是免費的）
 MAX_RESULTS  = 10    # 每天取幾篇「高分文章」（付費）
@@ -47,9 +58,10 @@ BATCH_WAIT_MIN   = int(os.environ.get("BATCH_WAIT_MIN", "45"))   # 這次最多�
 BATCH_POLL_SEC   = 30                                            # 官方建議 30–60 秒
 PENDING_FILE     = "_batch_pending.json"
 
-# 每 1M token 單價（USD）。價格會變，以 Anthropic 官網為準。
+# 每 1M token 單價（USD）；以供應商實際帳單為準。
 PRICING = {
-    "claude-sonnet-5":   (2.00, 10.00),   # 8/31 前促銷；9/1 起變 (3, 15)
+    "gpt-6.1-sol":      (2.00, 10.00),
+    "claude-sonnet-5":   (3.00, 15.00),   # 2026-09-01 起，舊路徑相容
     "claude-sonnet-4-6": (3.00, 15.00),
     "claude-opus-4-8":   (5.00, 25.00),
     "claude-haiku-4-5":  (1.00,  5.00),
@@ -57,12 +69,23 @@ PRICING = {
 BATCH_DISCOUNT = 0.5      # Batch API 一律 5 折（input 與 output 都是）
 
 
-def api_headers():
-    return {
-        "content-type": "application/json",
-        "x-api-key": API_KEY,
-        "anthropic-version": "2023-06-01",
-    }
+def api_headers(provider=None, multipart=False):
+    provider = provider or PROVIDER
+    if provider == "openai":
+        headers = {"Authorization": "Bearer " + OPENAI_API_KEY}
+    else:
+        headers = {"x-api-key": ANTHROPIC_API_KEY, "anthropic-version": "2023-06-01"}
+    if not multipart:
+        headers["content-type"] = "application/json"
+    return headers
+
+
+def summary_request(prompt):
+    if PROVIDER == "openai":
+        return response_request(prompt, MODEL, OPENAI_REASONING_EFFORT,
+                                OPENAI_MAX_OUTPUT_TOKENS)
+    return {"model": MODEL, "max_tokens": MAX_TOKENS,
+            "messages": [{"role": "user", "content": prompt}]}
 
 
 # 研究設計權重：外科醫師眼中，一篇 DCR 的 RCT 勝過一篇 Lancet 的綜述
@@ -458,6 +481,32 @@ def price_of(model, batch=None):
     return (p[0] * BATCH_DISCOUNT, p[1] * BATCH_DISCOUNT) if batch else p
 
 
+# Per-run usage ledger. Output tokens already INCLUDE reasoning tokens.
+USAGE_LEDGER = []
+
+
+def record_usage(body, batch):
+    usage = body.get("usage") or {}
+    model = body.get("model") or body.get("_summary_model") or MODEL
+    is_openai = "output" in body or body.get("object") == "response"
+    p_in, p_out = price_of(model, batch=batch)
+    tin, tout = usage.get("input_tokens", 0), usage.get("output_tokens", 0)
+    details = usage.get("input_tokens_details") or {}
+    cached = details.get("cached_tokens", 0) if is_openai else usage.get("cache_read_input_tokens", 0)
+    writes = details.get("cache_write_tokens", 0) if is_openai else usage.get("cache_creation_input_tokens", 0)
+    uncached = max(0, tin - cached - writes) if is_openai else tin
+    cache_rate = 0.05 if model.startswith("gpt-6.1-sol") else 0.1
+    estimate = (uncached * p_in + cached * p_in * cache_rate +
+                writes * p_in * 1.25 + tout * p_out) / 1e6
+    entry = {"provider": "openai" if is_openai else "anthropic", "model": model,
+             "batch": batch, "input_tokens": tin, "output_tokens": tout,
+             "cached_tokens": cached, "cache_write_tokens": writes,
+             "reasoning_tokens": (usage.get("output_tokens_details") or {}).get("reasoning_tokens", 0),
+             "estimated_cost_usd": estimate}
+    USAGE_LEDGER.append(entry)
+    return entry
+
+
 # ── 時區 ──
 # GitHub Actions 跑在 UTC。workflow 排在 UTC 22:00（= 台灣隔天 06:00），
 # 若直接用 datetime.now() / date.today()，會拿到 UTC 的「前一天 22 點」，
@@ -681,6 +730,7 @@ novelty 與 context_verdict 是不同欄位，必須各自使用列出的選項�
    - 完全緩解、存活、保肛成功       → false
 4. 最多 3 個最重要的 outcome。
 5. 寧可留空，也不要編數字。
+6. 若 schema 要求 events、total、rate 都存在，未提供的數字填 null，不能用 0 代替未知。
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -698,12 +748,13 @@ def log(msg=""):
 
 
 def load_cache():
-    if CACHE_FILE.exists():
-        try:
-            return json.loads(CACHE_FILE.read_text(encoding="utf-8"))
-        except Exception:
-            return {}
-    return {}
+    if not CACHE_FILE.exists():
+        return {}
+    # A corrupt cache is not an empty cache: fail closed to prevent rebilling.
+    cache = json.loads(CACHE_FILE.read_text(encoding="utf-8"))
+    if not isinstance(cache, dict) or any(not isinstance(v, dict) for v in cache.values()):
+        raise ValueError("Invalid summary cache; refusing paid regeneration")
+    return cache
 
 
 def save_cache(cache):
@@ -711,9 +762,9 @@ def save_cache(cache):
     # 只保留最近 600 篇，避免無限膨脹
     if len(cache) > 600:
         cache = dict(list(cache.items())[-600:])
-    CACHE_FILE.write_text(
-        json.dumps(cache, ensure_ascii=False, indent=1), encoding="utf-8"
-    )
+    tmp = CACHE_FILE.with_suffix(".tmp")
+    tmp.write_text(json.dumps(cache, ensure_ascii=False, indent=1), encoding="utf-8")
+    tmp.replace(CACHE_FILE)
 
 
 # ───────────────────────── PubMed ──────────────────────────
@@ -879,6 +930,8 @@ def extract_text(body):
         content[1] = {"type": "text", "text": "..."}
     所以要掃過所有區塊，只挑出 type == "text" 的。
     """
+    if "output" in body or body.get("object") == "response":
+        return response_text(body)
     blocks = body.get("content") or []
     parts = [
         b.get("text", "")
@@ -978,6 +1031,8 @@ def parse_summary(body):
 
     text = extract_text(body)
     data = json.loads(clean_json(text))
+    if not isinstance(data, dict):
+        raise ValueError("摘要 JSON 必須是 object")
 
     if not data.get("abstract_zh"):
         raise ValueError("abstract_zh 為空")
@@ -1036,10 +1091,30 @@ def parse_summary(body):
                                   {"再確認", "與前作矛盾", "延伸前作", "無相關前作", ""}),
         "context":        str(data.get("context", "")).strip(),
     }
+    for field in ("title_zh", "abstract_zh", "evidence_level", "one_liner", "action"):
+        if not isinstance(data.get(field), str) or not clean[field]:
+            raise ValueError(f"{field} 為空或型別不符")
+    if score is None or not clean["key_numbers"] or not clean["cautions"]:
+        raise ValueError("score / key_numbers / cautions 不完整")
+    if not any(clean["pico"].values()):
+        raise ValueError("pico 四個欄位全空")
+    if "output" in body or body.get("object") == "response":
+        if (not isinstance(data.get("cautions"), list) or len(data["cautions"]) != 3
+                or len(clean["cautions"]) != 3 or not all(clean["pico"].values())):
+            raise ValueError("OpenAI 摘要須有三條非空 cautions 與完整 PICO")
+        clean["summary_provider"] = "openai"
+        clean["summary_model"] = body.get("model") or body.get("_summary_model") or MODEL
+    else:
+        clean["summary_provider"] = "anthropic"
+        clean["summary_model"] = body.get("model") or body.get("_summary_model") or "claude-sonnet-5"
     clean["_usage"] = {
         "in": usage.get("input_tokens", 0),
         "out": usage.get("output_tokens", 0),
+        "reasoning": (usage.get("output_tokens_details") or {}).get("reasoning_tokens", 0),
+        "cached": (usage.get("input_tokens_details") or {}).get("cached_tokens", 0),
+        "cache_write": (usage.get("input_tokens_details") or {}).get("cache_write_tokens", 0),
     }
+    clean["summary_usage"] = usage
     return clean
 
 
@@ -1054,13 +1129,10 @@ def summarize(paper, related=None):
         body = None          # 讓 except 區塊能檢查實際收到什麼
         try:
             r = requests.post(
-                "https://api.anthropic.com/v1/messages",
+                ("https://api.openai.com/v1/responses" if PROVIDER == "openai" else
+                 "https://api.anthropic.com/v1/messages"),
                 headers=api_headers(),
-                json={
-                    "model": MODEL,
-                    "max_tokens": MAX_TOKENS,
-                    "messages": [{"role": "user", "content": prompt}],
-                },
+                json=summary_request(prompt),
                 timeout=90,
             )
 
@@ -1080,6 +1152,7 @@ def summarize(paper, related=None):
 
             r.raise_for_status()
             body = r.json()
+            record_usage(body, batch=False)
             return parse_summary(body)
 
         except json.JSONDecodeError:
@@ -1117,114 +1190,134 @@ def summarize(paper, related=None):
 # 結果順序「不保證」跟送出順序一致，所以一律用 custom_id 比對，不能用索引。
 
 
-def _api(method, url, **kw):
-    """對 Anthropic API 的請求，帶指數退避重試。
-
-    只重試「暫時性」錯誤（429 / 5xx / 連線問題）。
-    4xx 是請求本身有問題，重試只是白費 —— 這是 NCBI 那次學到的同一件事。
-    """
-    for attempt in range(1, MAX_RETRY + 1):
+def _api(method, url, provider=None, retries=True, **kw):
+    """Retry only transient reads/uploads, never ambiguous paid batch creation."""
+    attempts = MAX_RETRY if retries else 1
+    for attempt in range(1, attempts + 1):
         try:
-            r = requests.request(method, url, headers=api_headers(), timeout=120, **kw)
-            if r.status_code == 429 or r.status_code >= 500:
-                wait = 5 * attempt
-                log(f"      ⏳ HTTP {r.status_code}，{wait}s 後重試（{attempt}/{MAX_RETRY}）...")
-                time.sleep(wait)
-                continue
-            r.raise_for_status()
-            return r
-        except requests.RequestException as e:
-            if attempt == MAX_RETRY:
+            r = requests.request(method, url,
+                headers=api_headers(provider, multipart="files" in kw), timeout=120, **kw)
+        except requests.RequestException:
+            if attempt == attempts:
                 raise
-            log(f"      ⚠️  連線問題（{attempt}/{MAX_RETRY}）：{e}")
-            time.sleep(3 * attempt)
+        else:
+            if r.status_code != 429 and r.status_code < 500:
+                # A 4xx is not transient. Do not catch and accidentally retry it.
+                r.raise_for_status()
+                return r
+            if attempt == attempts:
+                r.raise_for_status()
+                raise RuntimeError(f"HTTP {r.status_code}")
+        time.sleep(5 * attempt)
     raise RuntimeError("重試用盡")
 
 
-def batch_submit(jobs):
-    """jobs = [(custom_id, prompt)] → 回傳 batch_id。
+def batch_submit(jobs, submission_id=None):
+    """Upload JSONL then create an OpenAI Responses batch (24-hour window)."""
+    if PROVIDER == "openai":
+        lines = [json.dumps({"custom_id": cid, "method": "POST",
+                  "url": "/v1/responses", "body": summary_request(prompt)},
+                  ensure_ascii=False) for cid, prompt in jobs]
+        if len({cid for cid, _ in jobs}) != len(jobs):
+            raise ValueError("Duplicate batch custom_id")
+        data = ("\n".join(lines) + "\n").encode("utf-8")
+        file_id = _api("POST", "https://api.openai.com/v1/files",
+            data={"purpose": "batch"}, files={"file": (
+                f"pubmed-{submission_id or uuid.uuid4().hex}.jsonl", data,
+                "application/jsonl")}).json()["id"]
+        if submission_id:
+            update_pending(input_file_id=file_id, input_sha256=hashlib.sha256(data).hexdigest(),
+                           state="submitting")
+        payload = {"input_file_id": file_id, "endpoint": "/v1/responses",
+                   "completion_window": "24h",
+                   "metadata": {"app": "pubmed-for-crs",
+                                "submission_id": submission_id or uuid.uuid4().hex}}
+        return _api("POST", "https://api.openai.com/v1/batches",
+                    retries=False, json=payload).json()["id"]
+    payload = {"requests": [{"custom_id": cid, "params": summary_request(prompt)}
+                            for cid, prompt in jobs]}
+    if submission_id:
+        update_pending(state="submitting")
+    return _api("POST", "https://api.anthropic.com/v1/messages/batches",
+                retries=False, json=payload).json()["id"]
 
-    custom_id 規則：1–64 字元，只能是英數、連字號、底線。
-    PMID 是純數字，符合規則，但還是加個前綴以免未來換 key 時踩到。
-    """
-    payload = {"requests": [
-        {
-            "custom_id": cid,
-            "params": {
-                "model": MODEL,
-                "max_tokens": MAX_TOKENS,
-                "messages": [{"role": "user", "content": prompt}],
-            },
-        }
-        for cid, prompt in jobs
-    ]}
-    r = _api("POST", "https://api.anthropic.com/v1/messages/batches", json=payload)
-    return r.json()["id"]
+
+def batch_status(batch_id, provider=None):
+    provider = provider or PROVIDER
+    base = ("https://api.openai.com/v1/batches" if provider == "openai"
+            else "https://api.anthropic.com/v1/messages/batches")
+    return _api("GET", f"{base}/{batch_id}", provider=provider).json()
 
 
-def batch_status(batch_id):
-    return _api("GET", f"https://api.anthropic.com/v1/messages/batches/{batch_id}").json()
+def batch_ended(status_obj, provider=None):
+    provider = provider or PROVIDER
+    if provider == "openai":
+        return status_obj.get("status") in {"completed", "failed", "expired", "cancelled"}
+    return status_obj.get("processing_status") == "ended"
 
 
-def batch_wait(batch_id, max_wait_min=None):
-    """輪詢到 processing_status == "ended"。
-
-    等不到就回 None —— 這**不是**錯誤：批次還在跑，錢已經付了，
-    下次 workflow 會把它領回來。所以絕對不能在這裡重送。
-    """
+def batch_wait(batch_id, max_wait_min=None, provider=None):
+    """A wait timeout leaves the paid job pending; it is never resubmitted."""
+    provider = provider or PROVIDER
     if max_wait_min is None:
         max_wait_min = BATCH_WAIT_MIN
     deadline = time.time() + max_wait_min * 60
-    waited = 0
     while True:
-        st = batch_status(batch_id)
-        if st.get("processing_status") == "ended":
-            c = st.get("request_counts", {})
-            log(f"   ✅ 批次完成：成功 {c.get('succeeded', 0)}"
-                f" · 錯誤 {c.get('errored', 0)}"
-                f" · 過期 {c.get('expired', 0)}"
-                f" · 取消 {c.get('canceled', 0)}")
+        st = batch_status(batch_id, provider)
+        if batch_ended(st, provider):
+            log(f"   批次結束：{st.get('status') or st.get('processing_status')} "
+                f"{st.get('request_counts', {})}")
             return st
         if time.time() >= deadline:
-            log(f"   ⏸️  已等 {waited // 60} 分鐘，批次還沒結束。")
-            log("      這不是錯誤 —— 批次仍在處理，費用已經產生。")
-            log("      batch_id 已存檔，下次跑會直接領回，不會重複付費。")
+            log("   ⏸️  批次仍在處理；已保存 batch_id，下次直接領回，不重送。")
             return None
         time.sleep(BATCH_POLL_SEC)
-        waited += BATCH_POLL_SEC
-        if waited % 300 == 0:
-            c = st.get("request_counts", {})
-            log(f"      ⏳ 處理中… 已等 {waited // 60} 分鐘"
-                f"（完成 {c.get('succeeded', 0)}/{sum(c.values()) if c else '?'}）")
 
 
-def batch_fetch(status_obj):
-    """取回 .jsonl，回傳 {custom_id: message}。失敗的那幾筆不會出現在結果裡。"""
-    url = status_obj.get("results_url")
-    if not url:
-        return {}, {"errored": 0, "expired": 0}
-
-    r = _api("GET", url)
-    out, bad = {}, {"errored": 0, "expired": 0}
-
-    for line in r.text.splitlines():
-        line = line.strip()
-        if not line:
-            continue
-        try:
+def batch_fetch(status_obj, provider=None):
+    """Download success AND error files; join unordered results by custom_id."""
+    provider = provider or PROVIDER
+    if provider == "openai":
+        urls = [f"https://api.openai.com/v1/files/{status_obj[k]}/content"
+                for k in ("output_file_id", "error_file_id") if status_obj.get(k)]
+    else:
+        urls = [status_obj["results_url"]] if status_obj.get("results_url") else []
+    out, bad = {}, {"errored": 0, "expired": 0, "_seen_ids": []}
+    for url in urls:
+        r = _api("GET", url, provider=provider)
+        for line in r.text.splitlines():
+            if not line.strip():
+                continue
+            # Malformed result files must retain pending state for recovery,
+            # rather than silently discarding paid summaries.
             row = json.loads(line)
-        except json.JSONDecodeError:
-            continue
-        cid = row.get("custom_id")
-        res = row.get("result") or {}
-        kind = res.get("type")
-        if kind == "succeeded":
-            out[cid] = res.get("message") or {}
-        elif kind in ("errored", "expired", "canceled"):
-            # errored / expired / canceled 都不收費，可以安心重送
-            bad[kind if kind in bad else "errored"] = bad.get(kind, 0) + 1
-            err = (res.get("error") or {}).get("error", {})
-            log(f"      ⚠️  {cid} {kind}：{err.get('type', '')} {err.get('message', '')[:80]}")
+            cid = row.get("custom_id")
+            if not cid:
+                raise ValueError("Batch result missing custom_id")
+            if cid in bad["_seen_ids"]:
+                raise ValueError(f"Duplicate batch result: {cid}")
+            bad["_seen_ids"].append(cid)
+            if provider == "openai":
+                res = row.get("response") or {}
+                if not row.get("error") and res.get("status_code") == 200:
+                    if cid in out:
+                        raise ValueError(f"Duplicate batch result: {cid}")
+                    out[cid] = res.get("body") or {}
+                    continue
+                err = row.get("error") or (res.get("body") or {}).get("error") or {}
+                kind = "expired" if err.get("code") == "batch_expired" else "errored"
+            else:
+                res = row.get("result") or {}
+                if res.get("type") == "succeeded":
+                    out[cid] = res.get("message") or {}
+                    continue
+                kind = "expired" if res.get("type") == "expired" else "errored"
+                err = (res.get("error") or {}).get("error") or {}
+            bad[kind] += 1
+            bad.setdefault("_errors", []).append(row)
+            log(f"      ⚠️  {cid} {kind}：{err.get('code') or err.get('type', '')}")
+    if status_obj.get("errors"):
+        log(f"   ⚠️  批次驗證錯誤：{status_obj['errors']}")
     return out, bad
 
 
@@ -1236,26 +1329,72 @@ def pending_path():
     return DATA_DIR / PENDING_FILE
 
 
-def save_pending(batch_id, date_str, papers):
-    """把 batch_id 和「還沒有摘要的論文」一起存起來，好讓下次能接手。"""
+def save_pending(batch_id, date_str, papers, submission_id=None):
+    """Persist provider/model too: a legacy Anthropic job stays Anthropic."""
     DATA_DIR.mkdir(parents=True, exist_ok=True)
-    pending_path().write_text(json.dumps({
-        "batch_id": batch_id,
-        "date": date_str,
-        "submitted_at": stamp(),
-        "papers": papers,
-    }, ensure_ascii=False, indent=1), encoding="utf-8")
-    log(f"   📌 batch_id 已存檔（{batch_id}）")
+    payload = {"batch_id": batch_id, "date": date_str, "submitted_at": stamp(),
+               "provider": PROVIDER, "model": MODEL, "papers": papers,
+               "submission_id": submission_id,
+               "state": "submitted" if batch_id else "preparing"}
+    _write_pending(payload)
+    log(f"   📌 批次狀態已存檔（{batch_id or submission_id}）")
+
+
+def _write_pending(payload):
+    path = pending_path()
+    tmp = path.with_suffix(".tmp")
+    tmp.write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
+    tmp.replace(path)
+    # In Actions, commit BEFORE a paid create request and again after receiving
+    # its ID. A runner timeout/cancellation cannot erase the only recovery key.
+    if os.environ.get("BATCH_CHECKPOINT", "0") == "1":
+        root = Path(__file__).resolve().parent
+        subprocess.run(["bash", str(root / ".github/scripts/checkpoint_batch.sh")],
+                       cwd=root, check=True)
+
+
+def update_pending(**changes):
+    pending = load_pending()
+    if pending is None:
+        raise RuntimeError("Pending batch journal disappeared")
+    pending.update(changes)
+    _write_pending(pending)
 
 
 def load_pending():
     f = pending_path()
     if not f.exists():
         return None
-    try:
-        return json.loads(f.read_text(encoding="utf-8"))
-    except Exception:
+    # A corrupt journal is a blocker, never permission to submit another job.
+    pending = json.loads(f.read_text(encoding="utf-8"))
+    if not isinstance(pending, dict):
+        raise ValueError("Invalid pending batch journal")
+    return pending
+
+
+def recover_openai_submission(pending):
+    """Find a created job after a lost POST response, without paid resubmission."""
+    marker = pending.get("submission_id")
+    if not marker or pending.get("state") != "submitting":
         return None
+    matches, after = [], None
+    while True:
+        params = {"limit": 100}
+        if after:
+            params["after"] = after
+        page = _api("GET", "https://api.openai.com/v1/batches", provider="openai",
+                    params=params).json()
+        matches += [b["id"] for b in page.get("data", [])
+                    if (b.get("metadata") or {}).get("submission_id") == marker]
+        if not page.get("has_more"):
+            break
+        next_after = page.get("last_id")
+        if not next_after or next_after == after:
+            raise ValueError("Invalid batches pagination")
+        after = next_after
+    if len(matches) > 1:
+        raise RuntimeError("Multiple batches have this submission_id; manual review required")
+    return matches[0] if matches else None
 
 
 def clear_pending():
@@ -1273,6 +1412,10 @@ def merge_batch_results(papers, messages, cache, now):
             fail += 1
             p.setdefault("added_at", now)
             continue
+        usage = body.get("usage") or {}
+        tok_in += usage.get("input_tokens", 0)
+        tok_out += usage.get("output_tokens", 0)
+        record_usage(body, batch=True)
         try:
             result = parse_summary(body)
         except Exception as e:
@@ -1281,13 +1424,50 @@ def merge_batch_results(papers, messages, cache, now):
             p.setdefault("added_at", now)
             continue
         usage = result.pop("_usage", {})
-        tok_in  += usage.get("in", 0)
-        tok_out += usage.get("out", 0)
         result["added_at"] = now
         p.update(result)
         cache[p["pmid"]] = result
         ok += 1
     return ok, fail, tok_in, tok_out
+
+
+def preserve_batch_results(papers, messages, bad, status_obj, provider=None):
+    """Keep the latest raw result for auditing failed/refused/incomplete summaries."""
+    path = DATA_DIR / "_batch_results.json"
+    payload = {"batch_id": status_obj.get("id"), "provider": provider or PROVIDER,
+               "retrieved_at": stamp(), "status": status_obj,
+               "messages": messages, "failures": bad}
+    tmp = path.with_suffix(".tmp")
+    tmp.write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
+    tmp.replace(path)
+    expected = {p["pmid"] for p in papers}
+    seen = set(bad.get("_seen_ids", []))
+    # Validation failure can have no rows because no request was executed.
+    if status_obj.get("status") == "cancelled":
+        # OpenAI cancellation promises partial results, not rows for work that
+        # never started. Reconcile the completed/failed counts before accepting.
+        counts = status_obj.get("request_counts") or {}
+        if (len(messages) != counts.get("completed", 0) or
+                bad["errored"] + bad["expired"] != counts.get("failed", 0)):
+            raise ValueError("Incomplete cancelled-batch results; retaining pending journal")
+    elif status_obj.get("status") != "failed" and seen != expected:
+        raise ValueError("Incomplete or mismatched batch results; retaining pending journal")
+    if seen - expected:
+        raise ValueError("Unexpected custom_id in batch results")
+
+
+def merge_day(papers, date_str):
+    """Recover only changed papers without dropping previously cached day rows."""
+    path = DATA_DIR / f"{date_str}.json"
+    existing = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    combined = {p["pmid"]: p for p in existing.get("papers", [])}
+    for p in papers:
+        old = combined.get(p["pmid"], {})
+        # A failed/retried batch must never downgrade a previously good paper.
+        if old.get("title_zh") and old.get("abstract_zh") and not p.get("title_zh"):
+            continue
+        combined[p["pmid"]] = p
+    save(list(combined.values()), date_str)
 
 
 def summarize_batch(papers, date_str, cache, now):
@@ -1296,18 +1476,37 @@ def summarize_batch(papers, date_str, cache, now):
     回傳 (成功, 失敗, tok_in, tok_out, 是否還在跑)。
     最後那個是 True 時，代表批次尚未結束 —— 呼叫端**不可以**當成失敗去重送。
     """
+    if pending_path().exists():
+        raise RuntimeError("An unresolved batch already exists; refusing duplicate submission")
     jobs = [(p["pmid"], build_summary_prompt(p, p.get("related"))) for p in papers]
 
     log(f"   📤 送出批次：{len(jobs)} 篇（Batch API，同步價 5 折）")
-    batch_id = batch_submit(jobs)
-    save_pending(batch_id, date_str, papers)
+    # Local request validation must fail before creating a recovery journal.
+    for _, prompt in jobs:
+        summary_request(prompt)
+    submission_id = uuid.uuid4().hex
+    save_pending(None, date_str, papers, submission_id)
+    try:
+        batch_id = batch_submit(jobs, submission_id)
+    except requests.HTTPError as exc:
+        # A definitive rejected request did not create a paid batch. Network
+        # timeouts and 5xx remain ambiguous and MUST keep their journal.
+        status = exc.response.status_code if exc.response is not None else 0
+        if status in {400, 401, 403, 404, 413, 415, 422, 429}:
+            clear_pending()
+        raise
+    update_pending(batch_id=batch_id, state="submitted")
 
     st = batch_wait(batch_id)
     if st is None:
         return 0, 0, 0, 0, True
 
     messages, _bad = batch_fetch(st)
+    preserve_batch_results(papers, messages, _bad, st)
     ok, fail, ti, to = merge_batch_results(papers, messages, cache, now)
+    # Persist good results before removing the only durable recovery handle.
+    save_cache(cache)
+    merge_day(papers, date_str)
     clear_pending()
     return ok, fail, ti, to, False
 
@@ -1321,33 +1520,52 @@ def resume_pending(cache):
     batch_id = pend.get("batch_id")
     date_str = pend.get("date")
     papers   = pend.get("papers") or []
-    if not batch_id or not papers:
+    provider = pend.get("provider", "anthropic")  # old journals were Anthropic
+    if provider not in {"openai", "anthropic"} or not papers or not date_str:
+        raise ValueError("Invalid pending batch metadata; keeping journal")
+    if pend.get("state") == "preparing":
+        log("   尚未送出付費批次；清除前置上傳中斷的存檔，下次可安全重試。")
         clear_pending()
+        return False
+    key = OPENAI_API_KEY if provider == "openai" else ANTHROPIC_API_KEY
+    if not key:
+        log(f"   ⚠️  待領批次需要 {provider} API key；保留存檔，不送新批次。")
+        return False
+    if not batch_id and provider == "openai":
+        batch_id = recover_openai_submission(pend)
+        if batch_id:
+            update_pending(batch_id=batch_id, state="submitted")
+    if not batch_id:
+        log("   ⚠️  批次送出狀態未確認；保留存檔，請在供應商後台確認後再處理。")
         return False
 
     log(f"\n📥 有上次沒領完的批次：{batch_id}（{date_str}，{len(papers)} 篇）")
 
     try:
-        st = batch_status(batch_id)
+        st = batch_status(batch_id, provider)
     except Exception as e:
         log(f"   ⚠️  查不到批次狀態：{e}（保留存檔，下次再試）")
         return False
 
-    if st.get("processing_status") != "ended":
-        st = batch_wait(batch_id)
+    if not batch_ended(st, provider):
+        st = batch_wait(batch_id, provider=provider)
         if st is None:
             return False
 
-    messages, _bad = batch_fetch(st)
+    messages, _bad = batch_fetch(st, provider)
+    preserve_batch_results(papers, messages, _bad, st, provider)
+    for body in messages.values():
+        body["_summary_model"] = pend.get("model", "claude-sonnet-5")
     now = stamp()
+    usage_start = len(USAGE_LEDGER)
     ok, fail, ti, to = merge_batch_results(papers, messages, cache, now)
     log(f"   ✅ 領回 {ok} 篇（失敗 {fail} 篇）")
 
     if ok:
-        save(papers, date_str)
+        merge_day(papers, date_str)
         save_cache(cache)
-        p_in, p_out = price_of(MODEL)
-        log(f"   💰 這批費用約 ${ti / 1e6 * p_in + to / 1e6 * p_out:.4f} USD")
+        estimate = sum(u["estimated_cost_usd"] for u in USAGE_LEDGER[usage_start:])
+        log(f"   💰 這批估計費用約 ${estimate:.4f} USD（以帳單為準）")
 
     clear_pending()
     return bool(ok)
@@ -1454,13 +1672,17 @@ def rebuild_search_index():
 
 # ───────────────────────── 主程式 ──────────────────────────
 def main():
+    USAGE_LEDGER.clear()
     today = today_tw().strftime("%Y-%m-%d")
     log("=" * 56)
     log(f"  腸嚐新知 · 每日文獻收集   {today}")
     log("=" * 56)
 
     if not API_KEY:
-        log("⚠️  未偵測到 ANTHROPIC_API_KEY —— 只會存原文，不產生中文摘要")
+        log("⚠️  未偵測到 API key —— 只會存原文，不產生中文摘要")
+
+    if PROVIDER == "anthropic" and not OPENAI_API_KEY:
+        log("⚠️  尚未設定 OPENAI_API_KEY，暫用原 Anthropic 路徑；設定後新摘要自動使用 Sol。")
 
     # 先修補舊資料 + 重建索引（在任何 return 之前）
     # 索引重建放這裡，是為了「就算今天一篇新論文都沒有，
@@ -1471,12 +1693,15 @@ def main():
     # 先接手上次沒領完的批次。
     # 那些結果**已經付過錢**了，不領回來就是純粹的損失 —— 而且
     # 若不先清掉 pending，下面又會送一批新的，等於同一批論文付兩次。
-    if USE_BATCH and API_KEY:
+    if pending_path().exists():
         try:
             resume_pending(load_cache())
         except Exception as e:
             log(f"⚠️  領取待處理批次時出錯：{type(e).__name__}: {e}")
             log("   存檔保留，下次再試。")
+        if pending_path().exists():
+            log("⏸️  待領批次尚未解決，這次不送新摘要，避免重複付費。")
+            return
 
     log(f"\n🔍 搜尋 PubMed（最近 {DAYS_BACK} 天新上架）...")
     ids = search_pubmed()
@@ -1570,7 +1795,7 @@ def main():
             for p in todo:
                 p.setdefault("added_at", now)
             log("\n💾 先存已完成的部分（批次結果下次補上）...")
-            save(papers, today)
+            merge_day(papers, today)
             save_cache(cache)
             log("\n" + "═" * 56)
             log(f"  批次處理中 —— {len(todo)} 篇的摘要會在下次執行時補齊")
@@ -1604,10 +1829,10 @@ def main():
     save_cache(cache)
 
     log("\n💾 儲存結果...")
-    save(papers, today)
+    merge_day(papers, today)
 
     p_in, p_out = price_of(MODEL)
-    cost = tok_in / 1e6 * p_in + tok_out / 1e6 * p_out
+    cost = sum(u["estimated_cost_usd"] for u in USAGE_LEDGER)
 
     n_watch = sum(1 for p in papers if p.get("watched"))
     n_rev   = sum(1 for p in papers if is_review(p))
@@ -1617,7 +1842,7 @@ def main():
     log("  今日結算")
     log("─" * 56)
     log(f"  PubMed 掃描        {total} 篇")
-    log(f"  送 Claude 分析      {len(papers)} 篇")
+    log(f"  送 AI 分析      {len(papers)} 篇")
     log(f"    🔖 追蹤命中       {n_watch} 篇")
     log(f"    📖 Review        {n_rev} 篇")
     log(f"  快取命中           {n_cached} 篇（不收費）")
@@ -1627,7 +1852,7 @@ def main():
     log("─" * 56)
     log(f"  Token   {tok_in:,} in / {tok_out:,} out")
     log(f"  model   {MODEL}  (${p_in}/${p_out} per MTok)")
-    log(f"  本次費用  約 ${cost:.4f} USD")
+    log(f"  本次領回 / 同步回應估計費用  約 ${cost:.4f} USD（含推理；以帳單為準）")
     log("═" * 56)
     log("\n🎉 完成\n")
 

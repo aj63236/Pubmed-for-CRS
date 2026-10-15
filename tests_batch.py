@@ -9,9 +9,12 @@ from unittest.mock import patch
 
 import validate_data as vd
 
+os.environ["LLM_PROVIDER"] = "anthropic"
+os.environ["OPENAI_API_KEY"] = ""
+os.environ["MODEL"] = "claude-sonnet-5"
 os.environ["ANTHROPIC_API_KEY"] = "sk-test-fake"
 os.environ["USE_BATCH"] = "1"
-os.environ["BATCH_WAIT_MIN"] = "1"
+os.environ["BATCH_WAIT_MIN"] = "0"
 
 spec = importlib.util.spec_from_file_location("fp", Path(__file__).parent / "fetch_papers.py")
 fp = importlib.util.module_from_spec(spec)

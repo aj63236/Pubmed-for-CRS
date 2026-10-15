@@ -1,8 +1,52 @@
 # 腸嚐新知
 
-每日自動抓 PubMed 大腸直腸外科新論文，用 Claude 產生中文摘要，發佈到網站。
+每日自動抓 PubMed 大腸直腸外科新論文，用 GPT-6.1 Sol（OpenAI Batch）產生中文摘要，發佈到網站。
 
 **網站：** https://aj63236.github.io/Pubmed-for-CRS/
+
+---
+
+## GPT-6.1 Sol / OpenAI Batch 設定
+
+1. 在本專案 **Settings → Secrets and variables → Actions → New repository secret**
+   設定 `OPENAI_API_KEY`。請直接在 GitHub 輸入，不要放入程式、日誌、issue 或聊天。
+2. **Actions → 每日文獻收集 → Run workflow**，使用 `main`，跑一次驗證。
+   log 應顯示 `model: gpt-6.1-sol` 和「Batch API 5 折」。
+3. 批次允許 24 小時完成。一次 workflow 最多等 45 分鐘；未完成會保存狀態，
+   下一次執行領回，避免重送。每日與回補共用鎖，不可同時修改資料。
+
+預設 `LLM_PROVIDER=auto`：有 OpenAI key 就用 Sol；尚未設定時暫用原本 Anthropic
+key，日誌會明確提醒。**OpenAI 請求失敗不會改用另一家 API 或立即重送付費批次。**
+也可在 Actions Variables 設 `LLM_PROVIDER=openai`，要求只使用 OpenAI。
+舊的 `MODEL` 變數只影響 Anthropic；OpenAI 使用 `OPENAI_MODEL`（預設 `gpt-6.1-sol`）。
+
+- `USE_BATCH=1`（預設）：保留 Batch input/output 五折；`0` 為較貴的即時路徑。
+- `OPENAI_REASONING_EFFORT=medium`（預設）：允許 low / medium / high / xhigh / max。
+- `OPENAI_MAX_OUTPUT_TOKENS=12000`（預設）：包含推理及最終 JSON 的總輸出上限。
+  若回應被截斷、拒絕或分類不合法，不會寫入摘要快取。
+- `BATCH_WAIT_MIN=45`（每日）／`90`（回補）：只控制本次等待，不會取消批次。
+
+既有日檔和已付費的有效 PMID 快取繼續使用，**不會自動重做歷史摘要**。
+新摘要保存 `summary_provider`、`summary_model` 和 `summary_usage` 來源資訊。
+舊的待領 Anthropic 批次仍會向原供應商取回，因此先保留 `ANTHROPIC_API_KEY`，
+直到沒有舊批次需要領取。不要手動刪除未解決的 `data/_batch_pending.json`。
+若送出請求途中斷線，系統會用 submission ID 查回 OpenAI 批次；查不到就停止，
+需先在供應商後台確認，不能當作「沒送出」直接重跑。
+
+使用 Responses API 的嚴格 JSON schema，保留繁中全文摘要、PICO、三條 cautions、
+摘要資訊不足就明說的規則；ARR/NNT/NNH 仍由 Python 根據兩組絕對數字計算。
+最新原始批次結果存於 `data/_batch_results.json`，供回應失敗及計費核對。
+這個專案只傳送公開論文及既有研究關注主題，不適合放入病人資料。
+
+費用是估計值，推理 token 已包含在 output 中，不能重複加計。估價會分別計算
+cached input / cache writes 的價格；實際金額以 OpenAI 帳單為準。
+請勿用舊模型的 token 用量保證新模型每月固定費用。
+
+參考：[模型](https://developers.openai.com/api/docs/models/gpt-6.1-sol)、
+[Batch API](https://developers.openai.com/api/docs/guides/batch)、
+[Structured Outputs](https://developers.openai.com/api/docs/guides/structured-outputs)。
+
+本機無付費測試：`python tests.py && python tests_batch.py && python tests_openai.py`。
 
 ---
 
@@ -102,7 +146,7 @@ ISSN 是關鍵。有些期刊名稱在資料庫裡跟 PubMed 對不上：
 
 **3. 覺得可以接受，再跑一次，這次把「試算模式」取消勾選**
 
-這次會真的呼叫 Claude，跑完自動 commit 並推上去，網站就有資料了。
+這次會真的呼叫 AI，跑完自動 commit 並推上去，網站就有資料了。
 
 38 天 × 8 篇大概要跑 30-50 分鐘，可以關掉瀏覽器，Actions 會在雲端繼續跑。
 
@@ -124,7 +168,7 @@ PubMed 每天有 **60-80 篇**符合條件的論文。流程：
 1. **掃描當天全部**（跟 PubMed 拿資料**免費**）
 2. **本機排序**（免費）：`分數 = 期刊 IF（上限 25，權重 0.5）+ 研究設計權重 × 2`
 3. **選片**：分數最高的 **10 篇** ＋ **當天所有 Review**（上限 8 篇）
-4. 只把選中的送去 Claude（這步才花錢）
+4. 只把選中的送去 AI（這步才花錢）
 
 ### 為什麼研究設計壓過 IF
 

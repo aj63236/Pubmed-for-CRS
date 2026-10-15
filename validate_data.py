@@ -66,7 +66,7 @@ def check_paper(p, where):
     # 有沒有跑過 AI？用 title_zh 判斷
     has_ai = bool(p.get("title_zh"))
     if not has_ai:
-        warns.append(f"{tag}：沒有中文分析（ANTHROPIC_API_KEY 沒設？）")
+        warns.append(f"{tag}：沒有中文分析（API key 未設定或摘要尚待完成？）")
         return errs, warns
 
     for f in AI_REQUIRED:

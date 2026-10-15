@@ -10,7 +10,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: daily-fetch
+  group: literature-data
   cancel-in-progress: false
 
 jobs:
@@ -33,12 +33,26 @@ jobs:
       - name: 安裝套件
         run: pip install -r requirements.txt
 
+      - name: 回歸測試（無網路、無 API 費用）
+        run: |
+          python -u tests.py
+          python -u tests_batch.py
+          python -u tests_openai.py
+
       - name: 收集文獻並生成摘要
+        id: collect
+        continue-on-error: true
         env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # Auto selects OpenAI when configured; no provider fallback on API errors.
+          LLM_PROVIDER: ${{ vars.LLM_PROVIDER || 'auto' }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-6.1-sol' }}
+          OPENAI_REASONING_EFFORT: ${{ vars.OPENAI_REASONING_EFFORT || 'medium' }}
+          OPENAI_MAX_OUTPUT_TOKENS: ${{ vars.OPENAI_MAX_OUTPUT_TOKENS || '12000' }}
           PYTHONUNBUFFERED: "1"
-          # 想換模型：Settings → Secrets and variables → Actions → Variables
-          # 新增 MODEL，值可填 claude-haiku-4-5-20251001（便宜但分析較弱）
+          BATCH_CHECKPOINT: "1"
+          # MODEL 僅供尚未遷移或待領的 Anthropic 路徑使用。
           MODEL: ${{ vars.MODEL }}
           # Batch API：input/output 都是同步價 5 折。
           # 這個工作每天 06:00 自動跑、沒有人在等，正是批次的適用情境。
@@ -47,11 +61,9 @@ jobs:
           BATCH_WAIT_MIN: ${{ vars.BATCH_WAIT_MIN || '45' }}
         run: python -u fetch_papers.py
 
-      - name: 回歸測試（IF 配對 / ARR-NNT 方向 / 追蹤命中）
-        run: python -u tests.py
-
-      - name: 批次路徑測試（不重複付費 / 結果對回 custom_id）
-        run: python -u tests_batch.py
+      - name: 保存批次恢復狀態（收集失敗也保留，不重複付費）
+        if: ${{ always() && steps.collect.outcome != 'skipped' && steps.collect.outcome != '' }}
+        run: bash .github/scripts/checkpoint_batch.sh
 
       - name: 資料驗證（壞資料就不要推上網站）
         run: python -u validate_data.py
@@ -65,5 +77,10 @@ jobs:
             echo "無變更，略過 commit"
           else
             git commit -m "📰 $(TZ=Asia/Taipei date +'%Y-%m-%d') 每日文獻更新"
+            git pull --rebase --autostash origin main
             git push
           fi
+
+      - name: 回報收集失敗（恢復狀態已保存）
+        if: ${{ steps.collect.outcome == 'failure' }}
+        run: exit 1
