@@ -1,0 +1,662 @@
+{
+ "batch_id": null,
+ "date": "2026-10-15",
+ "submitted_at": "2026-10-15T22:26:51+08:00",
+ "provider": "openai",
+ "model": "gpt-6.1-sol",
+ "papers": [
+  {
+   "pmid": "42874103",
+   "title": "Phase 2 Trial of Icotrokinra for Patients with Ulcerative Colitis",
+   "journal": "N Engl J Med",
+   "journal_full": "The New England journal of medicine",
+   "issn": "1533-4406",
+   "issn_linking": "0028-4793",
+   "impact_factor": 84.5,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1056/NEJMoa2604435",
+   "ptype": "Randomized Controlled Trial, Clinical Trial, Phase II",
+   "ptype_list": [
+    "Randomized Controlled Trial",
+    "Clinical Trial, Phase II",
+    "Multicenter Study"
+   ],
+   "authors": "Abreu M, Siegmund B, Surace L, Erondu N, Chen M, Chachu K",
+   "abstract": "BACKGROUND: Monoclonal antibodies targeting the interleukin-23 pathway are effective in treating inflammatory bowel disease. However, these therapies must be administered intravenously or by subcutaneous injection.\nMETHODS: We conducted a phase 2b, double-blind, randomized trial of oral icotrokinra, a peptide that blocks the interleukin-23 receptor, in adults with moderately to severely active ulcerative colitis. Participants were assigned to receive icotrokinra at a once-daily dose of 400 mg, 200 mg, or 100 mg or placebo. The primary end point was clinical response at week 12. Secondary end points included clinical remission, remission of symptoms, and endoscopic improvement at week 12.\nRESULTS: A total of 252 participants underwent randomization: 63 were assigned to the 400-mg group, 62 to the 200-mg group, 64 to the 100-mg group, and 63 to the placebo group. All the doses of icotrokinra were superior to placebo with respect to a clinical response at week 12, which occurred in 63% of the participants in the 400-mg group, 58% in the 200-mg group, and 55% in the 100-mg group, as compared with 27% in the placebo group (P<0.001 for all comparisons with placebo). The percentage of participants with clinical remission at week 12 was also significantly higher in the 400-mg group than in the placebo group (30% vs. 11%, P = 0.006), as were the percentage of participants with symptomatic remission (46% vs. 19%, P<0.001) and the percentage of participants with endoscopic improvement (37% vs. 14%, P = 0.002). Clinical remission at week 12 occurred in 24% of the participants in the 200-mg group (P = 0.054 for the comparison with placebo); in accordance with the fixed-sequence testing procedure to account for multiple comparisons, no further formal testing of secondary end points was conducted. Through week 28, the percentage of participants with adverse events was 60% in the 400-mg group, 66% in the 200-mg group, 66% in the 100-mg group, and 62% in the placebo group. For serious adverse events, the percentages were 2%, 5%, 0%, and 10%, respectively.\nCONCLUSIONS: Among participants with moderately to severely active ulcerative colitis, a clinical response at week 12 was significantly more common with once-daily oral icotrokinra at each of three tested doses than with placebo. (Funded by Johnson & Johnson; ANTHEM-UC ClinicalTrials.gov number, NCT06049017.).",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42796318",
+     "date": "2026-09-27",
+     "title_zh": "Ozanimod治療潰瘍性結腸炎的療效與安全性：一項全希臘真實世界研究",
+     "score": 3,
+     "one_liner": "在79名中度UC患者使用Ozanimod治療中，12週臨床反應77.4%、緩解71.0%，48週反應96.2%（納入停藥失敗後降至52.1%）。",
+     "sim": 0.175
+    },
+    {
+     "pmid": "42796318",
+     "date": "2026-09-28",
+     "title_zh": "Ozanimod治療潰瘍性結腸炎之療效與安全性：泛希臘真實世界研究",
+     "score": 3,
+     "one_liner": "在79名中度UC患者中使用ozanimod，第12週臨床反應率77.4%、緩解率71.0%，第48週持續治療者反應率96.2%（觀察病例法）。",
+     "sim": 0.175
+    },
+    {
+     "pmid": "42470619",
+     "date": "2026-07-20",
+     "title_zh": "Olamkicept 於健康男性中單次及多次遞增劑量（最高至2400mg）之安全性與藥物動力學：第一期、隨機、安慰劑對照、雙盲試驗",
+     "score": 2,
+     "one_liner": "在49名健康男性中，比較Olamkicept（1200-2400mg）SAD/MAD給藥與安慰劑，發現安全性良好、暴露量呈劑量比例增加，22.2%出現新抗體。",
+     "sim": 0.162
+    }
+   ]
+  },
+  {
+   "pmid": "42871149",
+   "title": "Effect of Anterior Quadratus Lumborum Block at the Lateral Supra-Arcuate Ligament Combined with Esketamine on the Quality of Postoperative Recovery After Laparoscopic Radical Surgery for Elderly Patients with Colorectal Cancer: A Randomized Controlled Trial",
+   "journal": "Drug Des Devel Ther",
+   "journal_full": "Drug design, development and therapy",
+   "issn": "1177-8881",
+   "issn_linking": "1177-8881",
+   "impact_factor": 6.1,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1097/MD.0000000000036754",
+   "ptype": "Randomized Controlled Trial",
+   "ptype_list": [
+    "Randomized Controlled Trial"
+   ],
+   "authors": "Dai Z, Yang M, Liu H, Gao X, Zhao X, Wang Y",
+   "abstract": "BACKGROUND: Postoperative pain, opioid exposure and slow recovery remain common concerns in elderly patients undergoing laparoscopic radical resection of colorectal cancer. We assessed whether anterior quadratus lumborum block at the lateral supra-arcuate ligament (QLB-LSAL) combined with low-dose esketamine improves recovery quality.\nMETHODS: In this single-centre, randomized, placebo-controlled trial with blinded outcome assessment, 90 patients aged ≥60 years were assigned to QLB-LSAL with a saline infusion (Group Q), esketamine alone (Group E), or QLB-LSAL with esketamine (Group QE). The prespecified primary endpoint was the QoR-40 total score on postoperative day 3. Esketamine 0.2 mg/kg was given intravenously before induction, followed by 0.2 mg/kg/h until 30 min before the end of surgery in Groups E and QE; Group Q received an equal volume of saline. Longitudinal data were analysed with linear mixed-effects models, with Tukey post-hoc testing and Benjamini-Hochberg correction.\nRESULTS: Eighty-eight patients were analysed (Q=29, E=30, QE=29). On day 3 the QoR-40 total score was higher in Group QE than in Group E (adjusted difference 8.30, 95% CI 4.37-12.23, Tukey P<0.001); the corresponding day-1 difference was 12.07 (95% CI 7.66-16.47, P<0.001). Group QE also showed better comfort and pain scores, lower remifentanil consumption and fewer day-1 pump activations than Group E, and a higher day-1 QoR-40 score than Group Q (P=0.006). Between-group differences in HADS anxiety scores were not significant after adjustment for multiplicity (QE vs Q on day 1, P=0.068). The incidence of adverse events did not differ between groups.\nCONCLUSION: In elderly patients undergoing laparoscopic colorectal cancer surgery, QLB-LSAL combined with low-dose esketamine improved the prespecified day-3 recovery endpoint and reduced early postoperative pain and opioid use compared with esketamine alone; any anxiolytic effect was not confirmed after multiplicity adjustment. Trial registration: ChiCTR2400082301.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42723442",
+     "date": "2026-09-13",
+     "title_zh": "艾司氯胺酮對接受腹腔鏡大腸直腸癌根治性切除術患者術後住院焦慮憂鬱量表（HADS）分數的影響",
+     "score": 4,
+     "one_liner": "在接受腹腔鏡大腸直腸癌根治性切除術病人中，比較誘導期加PCIA使用艾司氯胺酮與傳統麻醉，發現術後第1、3天HADS焦慮憂鬱分數較低（p<0.05）。",
+     "sim": 0.287
+    },
+    {
+     "pmid": "42685302",
+     "date": "2026-09-04",
+     "title_zh": "微創大腸直腸癌手術後之外科直肌鞘阻滯（SRSB）與腹腔鏡雙側雙重腹橫肌平面阻滯（BD-TAP block）比較：對恢復影響之隨機臨床試驗",
+     "score": 6,
+     "one_liner": "在320名微創大腸直腸癌手術病人中，比較IV-PCA單獨、SRSB、BD-TAP阻滯，BD-TAP使24小時QoR-15分數提升10.44分（p=0.003），SRSB未達顯著優越。",
+     "sim": 0.228
+    },
+    {
+     "pmid": "42685302",
+     "date": "2026-09-05",
+     "title_zh": "微創大腸直腸癌手術後外科醫師執行腹直肌鞘阻斷（SRSB）與腹腔鏡雙側橫腹肌平面阻斷（BD-TAP）對恢復影響之隨機對照試驗",
+     "score": 7,
+     "one_liner": "在320名接受微創大腸直腸癌手術病人中，比較IV-PCA單獨、SRSB與BD-TAP，發現BD-TAP使24小時QoR-15提升10.44分（p=0.003），SRSB未達顯著。",
+     "sim": 0.228
+    }
+   ]
+  },
+  {
+   "pmid": "42873277",
+   "title": "Longitudinal plasma phosphorylated neurofilament-heavy chain levels in oxaliplatin-induced peripheral neuropathy: a prospective multi-institutional exploratory study",
+   "journal": "Cancer Chemother Pharmacol",
+   "journal_full": "Cancer chemotherapy and pharmacology",
+   "issn": "1432-0843",
+   "issn_linking": "0344-5704",
+   "impact_factor": 2.5,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1136/rapm-2024-106229",
+   "ptype": "Multicenter Study, Randomized Controlled Trial",
+   "ptype_list": [
+    "Multicenter Study",
+    "Randomized Controlled Trial"
+   ],
+   "authors": "Motoo Y, Shinozaki K, Miura M, Takagi T, Ito S, Yoshida N",
+   "abstract": "PURPOSE: Reliable circulating biomarkers for chemotherapy-induced peripheral neuropathy (CIPN) remain lacking. Phosphorylated neurofilament-heavy chain (pNF-H) is an axon-oriented biomarker of neuroaxonal injury, but its clinical relevance in oxaliplatin-induced peripheral neuropathy has not been established. We evaluated the feasibility and longitudinal behavior of plasma pNF-H in patients receiving oxaliplatin-based chemotherapy.\nMETHODS: This prospective multi-institutional exploratory study included patients with unresectable or recurrent colorectal cancer receiving CapeOX plus bevacizumab as part of the NYX study, a randomised trial of ninjin'yoeito (NYT; TJ-108, Tsumura & Co., Tokyo, Japan), a twelve-ingredient Kampo herbal extract, at 9.0 g/day for 24 weeks in the NYT arm. Plasma samples were collected at baseline, at clinically assessed CIPN onset (follow-up 1), and at the time of neuropathy resolution, at cycle 9, or at discontinuation, whichever came first (follow-up 2). Plasma pNF-H concentrations were measured by enzyme-linked immunosorbent assay. CIPN was assessed using CTCAE version 5.0.\nRESULTS: Thirty patients with evaluable plasma samples were included. Plasma pNF-H levels showed substantial inter-individual variability without a consistent temporal pattern. Compared with baseline and CIPN onset, plasma pNF-H levels at follow-up 2 were modestly but significantly increased. However, plasma pNF-H levels were not associated with the onset, severity, or persistence of clinically assessed CIPN.\nCONCLUSIONS: Although longitudinal plasma pNF-H measurement was technically feasible, pNF-H did not function as a clinically meaningful biomarker for oxaliplatin-induced peripheral neuropathy. These findings may reflect a pathophysiological mismatch between dorsal root ganglion neuronal cell body injury and the axon-oriented biological specificity of pNF-H.",
+   "watched": [],
+   "related": []
+  },
+  {
+   "pmid": "42875765",
+   "title": "Routine versus postoperative CRP/CT guided selective diverting ileostomy after laparoscopic low anterior resection for rectal cancer: a comparative randomized controlled trial",
+   "journal": "BMC Surg",
+   "journal_full": "BMC surgery",
+   "issn": "1471-2482",
+   "issn_linking": "1471-2482",
+   "impact_factor": 2.4,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1007/s13304-026-02625-7",
+   "ptype": "Randomized Controlled Trial, Comparative Study",
+   "ptype_list": [
+    "Randomized Controlled Trial",
+    "Comparative Study"
+   ],
+   "authors": "Moaz A, Barakat K, Elshazly W, Zaki Y, Badawy A, Hegazy B",
+   "abstract": "BACKGROUND: Diverting ileostomy is routinely used to protect the anastomosis after laparoscopic low anterior resection (LAR) for rectal cancer, but it exposes most patients to stoma-related morbidity even though only a minority develop a true anastomotic leak. This trial evaluated whether a postoperative C-reactive protein (CRP) and computed tomography (CT) guided selective ileostomy strategy could reduce the rate of ileostomy formation compared with routine diversion.\nMETHODS: In this RCT, 200 patients with stage II or III middle or lower third rectal cancer undergoing laparoscopic LAR were randomized 1:1 to a CRP/CT-guided selective ileostomy group (n = 100) or a routine diverting ileostomy group (n = 100). In the CRP/CT group, serum CRP was measured daily from postoperative day 1; a threshold of 114 mg/L on day 3 or a rise greater than 15 mg/L per day triggered confirmatory contrast-enhanced CT, with ileostomy formed only if findings were suspicious for leak. The primary outcome was the stoma-free status throughout the 12-month follow-up.\nRESULTS: Baseline demographic and tumor characteristics were similar between groups (all p > 0.05). Ileostomy formation was markedly lower in the CRP/CT group than the routine group (22.0% vs. 100.0%, p < 0.001). Anastomotic leak rates did not differ (0% vs. 1.0%, p = 1.000), nor did overall complication rates (31.0% vs. 32.0%, p = 0.879). Operative time (148.4 ± 14.0 vs. 166.6 ± 13.1 min, p < 0.001) and intraoperative blood loss (168.9 ± 28.2 vs. 197.3 ± 39.7 mL, p < 0.001) were significantly lower in the CRP/CT group. Stoma-related complications were far less frequent with the selective strategy (3.0% vs. 30.0%, p < 0.001). The CRP/CT group reported significantly better global health status, physical functioning, and emotional functioning scores (all p < 0.001).\nCONCLUSION: A postoperative CRP/CT-guided selective ileostomy strategy reduces the need for diverting ileostomy after laparoscopic low anterior resection for rectal cancer while improving operative outcomes and quality of life; however, confirmed leakage was infrequent in both groups. This approach may serve as an alternative to routine diversion in appropriately monitored surgical units.\nTRIAL REGISTRATION: This trial was retrospectively registered at ClinicalTrials.gov (Identifier: NCT07722533) on July 17, 2026.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42579032",
+     "date": "2026-08-12",
+     "title_zh": "全機器人低前位切除術（TR-LAR）與傳統腹腔鏡手術治療直腸癌之比較：系統性回顧與統合分析",
+     "score": 5,
+     "one_liner": "在5篇研究比較TR-LAR與L-LAR的統合分析中，機器人手術時間多43.2分鐘但轉開腹率低20%，其他腫瘤與併發症指標無差異。",
+     "sim": 0.237
+    },
+    {
+     "pmid": "42579032",
+     "date": "2026-08-13",
+     "title_zh": "全機器人低前位切除術（TR-LAR）與傳統腹腔鏡手術治療直腸癌之比較：系統性回顧與統合分析",
+     "score": 5,
+     "one_liner": "在5篇研究比較TR-LAR與L-LAR治療直腸癌中，全機器人手術時間多43.2分鐘（p=0.008），轉開腹率低20%（p=0.02），其他結果無顯著差異。",
+     "sim": 0.237
+    },
+    {
+     "pmid": "42728635",
+     "date": "2026-09-14",
+     "title_zh": "改良式Albert-Lembert結腸肛管吻合術合併保護性迴腸造口術，與Turnbull-Cutait拖出式延遲結腸肛管吻合術，於低位直腸癌括約肌間切除術（ISR）後之比較：單中心回溯性比較研究",
+     "score": 4,
+     "one_liner": "在100例低位直腸癌腹腔鏡ISR患者（58例DCAA、42例MALA）中，30天總體併發症率無顯著差異（32.8% vs 23.8%，p=0.378）。",
+     "sim": 0.234
+    }
+   ]
+  },
+  {
+   "pmid": "42872337",
+   "title": "Belgian protocol for indication and selection of patients with unresectable colorectal cancer liver metastases eligible for liver transplantation",
+   "journal": "Acta Gastroenterol Belg",
+   "journal_full": "Acta gastro-enterologica Belgica",
+   "issn": "1784-3227",
+   "issn_linking": "1784-3227",
+   "impact_factor": 1.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.51821/89.3.14956",
+   "ptype": "Guideline",
+   "ptype_list": [
+    "Guideline"
+   ],
+   "authors": "Rasschaert G, Vandermeulen M, Van den Eynde M, Eker H, Vandamme T, Bracke B",
+   "abstract": "BACKGROUND AND STUDY AIMS: Colorectal cancer (CRC) is common in Western countries, about 50% of patients develop liver metastases (CLM). While local CLM therapies can achieve 5-year survival up to 60%, most patients eventually become unresectable (uCLM) and have poor outcomes with systemic treatment alone. Prospective studies, including SECA I and II and the TransMet trial, showed that in carefully selected patients, liver transplantation (LTx) can achieve survival outcomes comparable to standard LTx indications. The aim of this work was to develop a harmonized national consensus protocol for the indication and selection of uCLM patients eligible for LTx.\nPATIENTS AND METHODS: Under the coordination of the Belgian Liver & Intestine Advisory Committee (Be-LIAC), all six Belgian transplant centers delegated a transplant surgeon, an oncologist and an hepatologist to a working group that performed a literature review and drafted preliminary criteria. Three successive national meetings and a structured voting refined these criteria in the current protocol.\nRESULTS: Consensus was reached on inclusion and exclusion criteria for LTx in uCLM. Two key conditions are liver-only disease and technically uCLM. Strict requirements include a six months disease stability or response on systemic therapy and an obligatory eight-week treatment holiday. Absolute CEA levels and specific somatic mutations are not excluded. A national Be-LIAC governance model was established, combining local prospective decision-making with central auditing and registry-based evaluation.\nCONCLUSIONS: A harmonized national protocol for LTx inuCLM has been established, ensuring consistent patient selection across all Belgian centers. Stricter criteria and a national governance model aim to optimize outcomes while maintaining ethical allocation of donor organs.",
+   "watched": [],
+   "related": []
+  },
+  {
+   "pmid": "42874562",
+   "title": "Pleiotropic roles of microbial bile acid metabolism in intestinal health and diseases",
+   "journal": "Cell Host Microbe",
+   "journal_full": "Cell host & microbe",
+   "issn": "1934-6069",
+   "issn_linking": "1931-3128",
+   "impact_factor": 23.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1016/j.chom.2026.09.010",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Qi M, Liu X, Gonzalez F",
+   "abstract": "Perturbation of microbial-derived bile acid (BA) metabolism is strongly linked to the pathogenesis of intestinal diseases, including inflammatory bowel disease, enteric infections, and colorectal cancer. Recent advances in artificial intelligence-assisted pipelines have enabled the identification of BA modification reactions, which have uncovered novel targets and the mechanisms contributing to intestinal diseases. In this review, we summarize recent studies on microbial enzymatic pathways and modifications of BAs, and their roles in promoting or preventing intestinal diseases. The mechanisms altering gut microbiota populations and microbial BA metabolic landscapes that influence intestinal diseases are further examined along with how microbial-derived BAs modulate intestinal immune responses. Based on these advances, we suggest different dietary patterns that reshape the gut microbiota community and BAs to prevent intestinal diseases. We further discuss current challenges in basic and translational research on microbial BA modifications in intestinal homeostasis and propose future directions to drive progress in this field.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42344926",
+     "date": "2026-06-25",
+     "title_zh": "腸道微生物膽鹽水解酶作為消化道穩態與疾病之代謝守門者",
+     "score": 2,
+     "one_liner": "本文綜述腸道菌BSH酶如何調控膽酸代謝並與MASLD、IBD、CRC發病機制相關，並展望BSH導向的微菌叢治療策略。",
+     "sim": 0.206
+    },
+    {
+     "pmid": "42358979",
+     "date": "2026-06-26",
+     "title_zh": "腸道微生物群代謝物在發炎性腸道疾病中的作用：機轉洞見的最新進展",
+     "score": 2,
+     "one_liner": "本綜述整合腸道微生物代謝物（SCFAs、膽酸、色胺酸衍生物）如何透過免疫調節網絡參與IBD致病機制，屬機轉性文獻回顧，無臨床數據。",
+     "sim": 0.202
+    },
+    {
+     "pmid": "42627455",
+     "date": "2026-08-22",
+     "title_zh": "肥胖中的內源性大麻素組-腸道微生物軸：與大腸直腸癌發展之潛在連結",
+     "score": 1,
+     "one_liner": "本綜述提出肥胖相關eCBome-腸道微生物軸失調可能透過屏障破壞、內毒素血症、NF-κB活化等機轉影響CRC發生，屬理論推論、無直接研究證實。",
+     "sim": 0.193
+    }
+   ]
+  },
+  {
+   "pmid": "42874557",
+   "title": "Mutant KRAS favors a microbe that signals back",
+   "journal": "Cell Host Microbe",
+   "journal_full": "Cell host & microbe",
+   "issn": "1934-6069",
+   "issn_linking": "1931-3128",
+   "impact_factor": 23.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1016/j.chom.2026.09.007",
+   "ptype": "Comment",
+   "ptype_list": [
+    "Comment"
+   ],
+   "authors": "Jiao N, Zhu L, Zhu R",
+   "abstract": "Tumor genetics and the microbiome both shape colorectal cancer, but their reciprocal interplay remains poorly defined. In this issue of Cell Host & Microbe, Jiao et al. show that mutant KRAS favors Bacteroides acidifaciens, which signals back through a SusF-ARHGEF2 axis to reinforce RAS-MAPK signaling.",
+   "watched": [],
+   "related": []
+  },
+  {
+   "pmid": "42865121",
+   "title": "Cancer Risk in Haemodialysis Patients Compared With That in the General Population: A Multicenter Questionnaire-Based Study in Okinawa, Japan",
+   "journal": "Nephrology (Carlton)",
+   "journal_full": "Nephrology (Carlton, Vic.)",
+   "issn": "1440-1797",
+   "issn_linking": "1320-5358",
+   "impact_factor": 2.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1111/nep.70293",
+   "ptype": "Multicenter Study, Comparative Study",
+   "ptype_list": [
+    "Multicenter Study",
+    "Comparative Study"
+   ],
+   "authors": "Arakawa Y, Ishida Y, Higa A, Tana T, Moromizato T, Kohagura K",
+   "abstract": "AIM: Dialysis patients face a heightened risk of cancer, particularly kidney cancer. The global aging of dialysis patients suggests that managing cancer may become a critical factor in future healthcare. Given that the chronic uremic state is a cancer risk factor, dialysis patients may face an elevated risk for all cancers. However, the epidemiology of nonkidney cancers, such as colorectal cancer, remains to be fully elucidated.\nMETHODS: This was a retrospective cohort study targeting 74 dialysis facilities in Okinawa Prefecture, Japan. The subjects were patients who received dialysis for a minimum of 90 days between 2015 and 2019 and were diagnosed with cancer after initiating dialysis during this period. The cancer incidence ratio for the study population (21 655 person-years) was then compared with that of the general Okinawan population using standardized incidence ratios.\nRESULTS: A total of 404 cancer cases were collected from 56 facilities (76%). The standardized incidence ratios for all cancers was 1.36, with the risk of kidney cancer increasing with longer dialysis vintage. Patients with a dialysis vintage of less than 2 years showed an increased risk of colorectal and lung cancer. The risk of breast cancer was similar to that of the general population.\nCONCLUSION: The present study revealed that not all cancer risks were increased among patients receiving haemodialysis. Screening for colorectal and lung cancer in the first 2 years after commencement of dialysis may be important. Further research is needed to determine the efficacy of this approach for patients receiving dialysis.",
+   "watched": [],
+   "related": []
+  },
+  {
+   "pmid": "42876361",
+   "title": "Functionally declining microbiota in chronic disease: beyond taxonomic loss",
+   "journal": "Gut Microbes",
+   "journal_full": "Gut microbes",
+   "issn": "1949-0984",
+   "issn_linking": "1949-0976",
+   "impact_factor": 15.3,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Dec",
+   "doi": "10.1080/19490976.2026.2748134",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Kim H",
+   "abstract": "Microbiota deterioration in modern human populations has been linked to chronic disease, and taxonomic profiling is increasingly used to understand, diagnose, and guide treatment. Yet such profiles do not fully capture disease-relevant microbiota states. I propose functional decline within retained taxa as a distinct axis of microbiota deterioration, complementary to taxonomic loss. Modern environmental pressures can drive not only taxonomic loss but also directional selection toward variants or lineages with reduced host-beneficial function or increased harmful activity. Two mechanistically characterized systems from studies by my group illustrate this process: antibiotic-selected Akkermansia variants with diminished metabolic benefits, and Faecalibacterium pathobionts that promote disease when dominant over beneficial strains, with supporting evidence from atopic dermatitis and pediatric inflammatory bowel disease. Evidence from additional gut taxa suggests that this pattern may extend beyond these two examples. By integrating this hidden axis of functional decline with the well-established axis of taxonomic loss, the proposed two-axis framework could help clarify inconsistent microbiota-disease associations and guide strain-resolved, function-first approaches to microbiota analysis and intervention.",
+   "watched": [],
+   "related": []
+  },
+  {
+   "pmid": "42868087",
+   "title": "Oncological outcomes of direct versus delayed surgery after neoadjuvant short-course radiotherapy for rectal cancer: national cohort study",
+   "journal": "BJS Open",
+   "journal_full": "BJS open",
+   "issn": "2474-9842",
+   "issn_linking": "2474-9842",
+   "impact_factor": 4.9,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Sep",
+   "doi": "10.1093/bjsopen/zrag146",
+   "ptype": "Comparative Study",
+   "ptype_list": [
+    "Comparative Study"
+   ],
+   "authors": "Azhar N, Lydrup M, Buchwald P",
+   "abstract": "BACKGROUND: After the Stockholm III trial, a trend towards delayed surgery after neoadjuvant short-course radiotherapy (5 × 5 Gy) for rectal cancer has emerged in Sweden, driven by the lower short-term complication rates and similar oncological outcomes. This study aimed to examine long-term oncological outcomes after neoadjuvant short-course radiotherapy, comparing direct versus delayed surgery for rectal cancer in a real-world setting.\nMETHODS: A registry-based retrospective national cohort study was conducted using prospectively collected data from the Swedish Colorectal Cancer Registry. Patients with rectal cancer receiving neoadjuvant neoadjuvant short-course radiotherapy with surgery between 2016 and 2020 were analysed for oncological outcomes (local recurrence, distant metastasis) and overall survival at 3 years, comparing direct surgery, defined as surgery within 7 days after neoadjuvant short-course radiotherapy, and delayed surgery, defined as surgery after 28-90 days. The rate of patients who underwent surgery within the delayed time frame of the Stockholm III trial was also recorded.\nRESULTS: A total of 2080 patients were identified, of whom 1208 (58.1%) underwent direct surgery and 872 had delayed surgery. Of note, only 288 patients underwent resection 28-56 days after neoadjuvant short-course radiotherapy (within the time frame of the Stockholm III trial). Although the pathological complete response rate was higher in the delayed-surgery group compared with the direct-surgery group (6.5% versus 0.4%), 3-year local recurrence and distant metastasis rates were, respectively, 1.0% (12 patients) and 6.8% (82) in the direct-surgery group, and 3.4% (30) and 11.9% (104) in the delayed-surgery group. The adjusted hazard ratios for local recurrence and distant metastasis comparing delayed surgery with direct surgery were 3.60 (95 per cent confidence interval 1.75 to 7.39) and 2.17 (1.58 to 2.96), respectively, whereas the adjusted hazard ratio for overall survival was 1.37 (1.06 to 1.77), favouring the direct-surgery group.\nCONCLUSION: In a real-world setting, the results indicate that few patients in the delayed-surgery group had surgery within the stipulated time frame. Considering this, delayed surgery was associated with a higher risk of local recurrence, distant metastasis, and reduced overall survival.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42495710",
+     "date": "2026-07-25",
+     "title_zh": "以短程放療為基礎的全程新輔助治療併用替雷利珠單抗治療局部進展期直腸癌（Neo-STAR研究）：一項隨機第二期試驗的早期結果",
+     "score": 6,
+     "one_liner": "在118名LARC病人中，比較SCRT-TNT併用tislelizumab與單純SCRT-TNT，pCR達45.3% vs 27.6%（p=0.052，未達統計顯著）。",
+     "sim": 0.191
+    },
+    {
+     "pmid": "42495710",
+     "date": "2026-07-26",
+     "title_zh": "短程放療為基礎之全程新輔助治療（TNT）併用替雷利珠單抗（tislelizumab）用於局部進展期直腸癌（Neo-STAR）：一項隨機第二期試驗之早期結果",
+     "score": 6,
+     "one_liner": "在111名LARC病人中，比較SCRT-TNT併用tislelizumab與SCRT-TNT，pCR率45.3% vs 27.6%（p=0.052），未達統計顯著。",
+     "sim": 0.191
+    },
+    {
+     "pmid": "42501213",
+     "date": "2026-07-27",
+     "title_zh": "在放射治療資源受限地區，全程新輔助治療（TNT）優先化療可提升局部進展期直腸癌之病理完全緩解率（pCR）：一項隨機對照試驗",
+     "score": 5,
+     "one_liner": "在202名LARC患者中，比較TNT（化療優先）與傳統NCRT優先治療，TNT組pCR率55.4% vs 42.57%（p=0.023）。",
+     "sim": 0.173
+    }
+   ]
+  },
+  {
+   "pmid": "42871980",
+   "title": "Immune checkpoint inhibitors and the inflammatory dysregulation: decoding cutaneous and gastrointestinal immune-related adverse events for the allergist and immunologist",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1136/jitc-2021-003731",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Wasim M, Ma G, Wang Y",
+   "abstract": "Immune checkpoint inhibitors (ICIs) targeting programmed cell death protein 1 (PD-1), its ligand (PD-L1), and cytotoxic T-lymphocyte-associated protein 4 (CTLA-4) have revolutionized oncology, yet they unleash a unique spectrum of inflammatory toxicities known as immune-related adverse events (irAEs). Cutaneous and gastrointestinal irAEs represent the most frequent and clinically challenging manifestations encountered by allergists and clinical immunologists. Unlike classical type I-IV hypersensitivity reactions, irAEs arise from disruption of peripheral immune tolerance, leading to T-cell hyperactivation, B-cell dysregulation with IgE and IgG4 skewing, and pro-inflammatory cytokine networks dominated by interleukin (IL)-6, IL-17, and interferon-gamma. IrAEs are best conceptualized as a distinct category of drug-induced autoimmunity, rather than a fifth type of hypersensitivity reaction. This review provides a comprehensive, clinically actionable framework for the practicing allergist. We dissect the divergent pathophysiology of anti-CTLA-4 versus anti-PD-1 toxicities, characterize the full spectrum of cutaneous eruptions and delineate the grading and management of ICI-induced colitis, which mimics inflammatory bowel disease but has distinct immune signatures. We critically evaluate emerging biomarkers (eosinophilia, serum IL-6, and fecal calprotectin) and present an evidence-based algorithm for step-up therapy: from topical corticosteroids and antihistamines for grade 1-2 rash, to systemic corticosteroids for grade 2-3 colitis, and biologic agents (infliximab, vedolizumab, tocilizumab, dupilumab) for corticosteroid-refractory cases. A dedicated section tackles the allergist's most challenging dilemma (rechallenge after severe irAEs) providing evidence-based guidance. We identify critical knowledge gaps: pre-existing atopy as a risk factor, antihistamine prophylaxis utility, and overlapping toxicity management. This review repositions allergists as essential oncology partners, advancing irAE care from crisis response to precision immuno-toxicology.",
+   "watched": [],
+   "related": []
+  },
+  {
+   "pmid": "42871812",
+   "title": "Exploring tumor-derived exosomes as promising antigenic platforms: novel vaccine and immunotherapy strategies for \"cold\" colorectal cancer",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1080/14712598.2020.1813276",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Liu X, Wang X",
+   "abstract": "Colorectal cancer (CRC) remains a formidable clinical challenge, largely due to the prevalence of microsatellite-stable tumors characterized by an immunologically \"cold\" tumor microenvironment (TME) that is resistant to immune checkpoint inhibitors (ICIs). Tumor-derived exosomes (TEXs) play a paradoxical dual role in this landscape. Native TEXs actively orchestrate immune evasion by delivering immunosuppressive molecules, such as programmed cell death 1 ligand 1 (PD-L1) and transforming growth factor-beta (TGF-β), which impair cytotoxic T-cell function and promote the expansion of regulatory T cells and M2 macrophages. Conversely, TEXs possess inherent biocompatibility and naturally harbor a broad repertoire of tumor-associated antigens (TAAs) and major histocompatibility complex (MHC) molecules, positioning them as potential cell-free platforms for cancer vaccination. Current evidence demonstrates that native TEXs establish their immunosuppressive niche primarily through the systemic PD-1/PD-L1 axis and microRNA-driven macrophage polarization. However, preclinical studies indicate that exosome engineering strategies-such as masking surface PD-L1 or loading vesicles with immune adjuvants, siRNAs, or CRISPR components-can effectively neutralize these suppressive traits and amplify antigen presentation. While clinical data in CRC remain limited, engineered TEXs exhibit strong preclinical promise for synergizing with ICIs to reprogram cold CRC into immune-responsive \"hot\" tumors. Advancing these early-stage therapies from the bench to the clinic will require overcoming significant translational hurdles, particularly regarding standardized isolation protocols and scalable manufacturing.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42353833",
+     "date": "2026-06-26",
+     "title_zh": "微衛星表型作為大腸直腸癌免疫治療指引：現況與未來展望",
+     "score": 3,
+     "one_liner": "本文為綜述，總結MSI-H/dMMR與MSS/pMMR大腸直腸癌對免疫檢查點抑制劑反應差異之分子機轉與現行治療策略。",
+     "sim": 0.155
+    }
+   ]
+  },
+  {
+   "pmid": "42866448",
+   "title": "The role of metabolic crosstalk between Intestinal epithelial cells and immune cells in inflammatory bowel disease and targeting strategies",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.2147/ijn.S516260",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Li H, Wang B, Shi X, Tian L, Li B, Zhou T",
+   "abstract": "Inflammatory bowel disease (IBD) is a chronic immune-mediated inflammatory disorder characterized by disruption of the intestinal epithelial barrier and dysregulated immune responses. IBD pathogenesis is intricately linked to the metabolic reprogramming of the intestinal epithelial cells (IECs), which are central to both barrier maintenance and immune crosstalk. Mitochondrial dysfunction in the IECs leads to energy deficit, oxidative stress, and barrier failure, which activates the adjacent immune cells and establishes a vicious cycle of inflammation. This review focuses on the key role of the mitochondrial metabolism in IBD with a specific focus on the remodeling of the glucose, lipid, and amino acid metabolic pathways in epithelial and immune cells. We elaborate on the specific regulatory mechanisms underlying these metabolic processes and the functions of metabolic products as signaling molecules in cell-cell communication. In addition to causing energy crises and barrier defects in epithelial cells, metabolic remodeling directly controls the activation of immune cells and their polarization toward a pro-inflammatory phenotype. Thus, a deeper understanding of mitochondrial metabolism underlying IBD would provide a crucial theoretical foundation for developing novel precision therapies targeting metabolism. Additionally, elucidating these metabolic networks would provide new therapeutic opportunities for restoring homeostasis in IBD.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42761459",
+     "date": "2026-09-21",
+     "title_zh": "SLC25家族在腸道發炎中的角色：機轉、病理生理意義與治療意涵",
+     "score": 2,
+     "one_liner": "本綜述整理SLC25粒線體轉運蛋白家族在IBD中如何透過上皮屏障、免疫失調與菌群交互作用促進慢性腸道發炎的機轉。",
+     "sim": 0.334
+    },
+    {
+     "pmid": "42358979",
+     "date": "2026-06-26",
+     "title_zh": "腸道微生物群代謝物在發炎性腸道疾病中的作用：機轉洞見的最新進展",
+     "score": 2,
+     "one_liner": "本綜述整合腸道微生物代謝物（SCFAs、膽酸、色胺酸衍生物）如何透過免疫調節網絡參與IBD致病機制，屬機轉性文獻回顧，無臨床數據。",
+     "sim": 0.239
+    },
+    {
+     "pmid": "42371165",
+     "date": "2026-06-29",
+     "title_zh": "微生物群-粒線體軸：連結代謝功能失調與神經退化性疾病",
+     "score": 1,
+     "one_liner": "本文綜述腸道微生物-粒線體軸機轉，連結代謝失調至帕金森氏症、阿茲海默症等神經退化疾病，無臨床數據。",
+     "sim": 0.233
+    }
+   ]
+  },
+  {
+   "pmid": "42866402",
+   "title": "Myeloid control of dendritic cell priming after mechanical HIFU in colorectal cancer: implications for PD-1/PD-L1 blockade",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1016/j.ultrasmedbio.2023.04.010",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Liao Y, Yang X, Du X",
+   "abstract": "Mechanical high-intensity focused ultrasound releases tumor antigens and danger signals. It provides a potential substrate for immune checkpoint blockade. However, antigen release does not necessarily generate productive dendritic cell priming. In colorectal cancer, this transition occurs within a mucosal microenvironment shaped by epithelial barrier integrity, microbial exposure and myeloid clearance. Neutrophils can support epithelial repair or reinforce tumor-associated suppression. Macrophages remove apoptotic granulocytes and regulate inflammatory resolution. They can also restrain dendritic cell cytokine production. These context-dependent functions may determine whether mechanically released antigens initiate cytotoxic immunity or enter a nonproductive clearance response. This mini review integrates intestinal myeloid homeostasis with experimental evidence for mechanical ultrasound ablation and PD-1/PD-L1 blockade. It distinguishes antigen uptake from cross-presentation, protective resolution from tumor-permissive suppression, and colorectal evidence from observations in other tumor models. Functional dendritic cell readouts, lineage-resolved checkpoint measurements and concurrent barrier assessment provide a framework for evaluating combination therapy. The therapeutic objective is to preserve mucosal protection while sustaining antigen-specific immunity.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42555643",
+     "date": "2026-08-06",
+     "title_zh": "以檢查點絕緣三重訊號人工抗原呈現細胞驅動抗原傳遞與全身性抗腫瘤免疫",
+     "score": 2,
+     "one_liner": "在多個小鼠腫瘤模型（含MC38）中，比較OncoAPC人工抗原呈現細胞疫苗與傳統DC疫苗，發現OncoAPC對轉移性腫瘤負荷有較佳抑制效果。",
+     "sim": 0.157
+    },
+    {
+     "pmid": "42535750",
+     "date": "2026-08-01",
+     "title_zh": "PD-1/PD-L1軸的藥理調控：從腸炎中的免疫耐受到大腸直腸癌中的免疫逃逸",
+     "score": 3,
+     "one_liner": "本篇綜述整理PD-1/PD-L1軸在腸炎與大腸直腸癌中的雙相角色，並回顧nivolumab、pembrolizumab於dMMR/MSI-H CRC之臨床證據與抗藥機轉。",
+     "sim": 0.153
+    },
+    {
+     "pmid": "42535750",
+     "date": "2026-08-02",
+     "title_zh": "PD-1/PD-L1軸的藥理學調控：從大腸炎的免疫耐受性到大腸直腸癌的免疫逃逸",
+     "score": 3,
+     "one_liner": "本文綜述PD-1/PD-L1軸在IBD與CRC中的雙相角色機轉，以及現有ICI（nivolumab、pembrolizumab）臨床應用與抗藥性挑戰。",
+     "sim": 0.153
+    }
+   ]
+  },
+  {
+   "pmid": "42866390",
+   "title": "Macrophage states and immunometabolic adaptation in peritoneal metastases from colorectal cancer",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1016/j.tranon.2025.102464",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Chen W, Wei J, Wang Y, Sun L, Ye Y, Sun K",
+   "abstract": "Immunotherapy responses in colorectal cancer peritoneal metastases (CRCPM) are not determined by mismatch repair (MMR) status alone. Most MMR-proficient/microsatellite-stable (pMMR/MSS) tumors have low baseline sensitivity, while MMR-deficient/microsatellite instability-high (dMMR/MSI-H) tumors do not respond uniformly, particularly in patients with ascites. This Mini Review compares evidence across compartments and disease stages: human associations, macrophage-resolved functional studies and interventions altering immunotherapy efficacy in mice. Human ascites and tissue studies identify resident-like and monocyte-associated macrophages, including C1Q+ and SPP1+ states, but shared markers do not establish equivalent functions or origins. During niche conditioning and early seeding, ABCA9-dependent cholesterol handling, tumor-derived lysophosphatidic acid signaling and TLR4-CXCL10 activation can support local T-cell-mediated tumor control, although these studies did not test immune checkpoint blockade (ICB) or adoptive cell therapy (ACT). In established disease, SPP1-associated macrophage-intrinsic peroxisome proliferator-activated receptor-γ (PPARγ) programming and extracellular SPP1-CD44 signaling restrain CD8+ T cells, and SPP1 perturbation improves anti-PD-1 and ACT responses in mice. The relative contributions of these routes to treatment rescue remain unresolved. TIM-4 and MerTK provide distinct non-metabolic constraints. Human evidence for the resistance-associated SPP1 state remains cross-sectional. Lipid-related pathways in CRCPM models thus have opposing immune effects rather than acting as a single metabolic switch.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42353833",
+     "date": "2026-06-26",
+     "title_zh": "微衛星表型作為大腸直腸癌免疫治療指引：現況與未來展望",
+     "score": 3,
+     "one_liner": "本文為綜述，總結MSI-H/dMMR與MSS/pMMR大腸直腸癌對免疫檢查點抑制劑反應差異之分子機轉與現行治療策略。",
+     "sim": 0.159
+    }
+   ]
+  },
+  {
+   "pmid": "42865601",
+   "title": "Research progress on intestinal probiotics-mediated protection of the intestinal mucosal barrier in ulcerative colitis",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1016/j.ijpharm.2026.126963",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Ma G, Deng S",
+   "abstract": "Ulcerative colitis (UC) is a major subtype of inflammatory bowel disease characterized by a chronic, relapsing course. Its pathogenesis involves complex interactions among gut microbial dysbiosis, epithelial barrier disruption, dysregulated immune responses, and oxidative stress. Impairment of the intestinal mucosal barrier facilitates the translocation of luminal antigens, bacteria, and microbial metabolites into the mucosa, thereby aggravating local inflammation. Probiotics may help maintain barrier homeostasis by reshaping the gut microbial community, reinforcing epithelial and mucus barriers, modulating mucosal immunity, and reducing oxidative injury. This review summarizes recent evidence on the protective effects of probiotics, including Lactobacillus spp., Bifidobacterium spp., and Akkermansia muciniphila, on the intestinal mucosal barrier in UC. Current findings suggest that probiotics can inhibit pathogen adhesion and colonization, enhance the production of beneficial metabolites such as short-chain fatty acids and tryptophan-derived compounds, and promote the expression of tight-junction proteins, including ZO-1, occludin, claudin-1, and claudin-4, as well as mucins such as MUC1 and MUC2. These effects may be mediated through the regulation of NF-κB, NLRP3, aryl hydrocarbon receptor (AhR), mitogen-activated protein kinase (MAPK), and related signaling pathways, thereby attenuating inflammation and oxidative stress and promoting epithelial repair. Combination strategies involving probiotics and prebiotics, traditional Chinese medicine-derived components, postbiotics, fecal microbiota transplantation, or novel delivery systems may improve microbial engraftment, enhance colon-targeted delivery, and strengthen microbiota remodeling and barrier repair. Nevertheless, the available evidence remains limited by substantial strain specificity, insufficient clinical validation, and the absence of standardized intervention protocols. Further multi-omics studies and well-designed clinical trials are warranted to clarify the efficacy, mechanisms, optimal dosing, and safety of these interventions in UC.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42358979",
+     "date": "2026-06-26",
+     "title_zh": "腸道微生物群代謝物在發炎性腸道疾病中的作用：機轉洞見的最新進展",
+     "score": 2,
+     "one_liner": "本綜述整合腸道微生物代謝物（SCFAs、膽酸、色胺酸衍生物）如何透過免疫調節網絡參與IBD致病機制，屬機轉性文獻回顧，無臨床數據。",
+     "sim": 0.221
+    },
+    {
+     "pmid": "42352943",
+     "date": "2026-06-26",
+     "title_zh": "小檗鹼在發炎性腸道疾病中的角色：微生物群-免疫-屏障軸的整合調控",
+     "score": 1,
+     "one_liner": "本綜述整理小檗鹼調控IBD微生物群-免疫-屏障軸的機制與遞送策略，指出臨床證據仍有限、以臨床前研究為主。",
+     "sim": 0.219
+    },
+    {
+     "pmid": "42495627",
+     "date": "2026-07-25",
+     "title_zh": "腸道菌群衍生代謝物在胃腸道癌症中的作用：透過色胺酸-芳香烴受體（AhR）軸之免疫調節機制與轉譯觀點",
+     "score": 2,
+     "one_liner": "本文綜述腸道菌群代謝物（SCFAs、膽酸、色胺酸-AhR軸）在胃腸道癌症中的免疫調節機轉，屬概念性整理，無臨床數據。",
+     "sim": 0.214
+    }
+   ]
+  },
+  {
+   "pmid": "42870414",
+   "title": "Hybrid Molecular Imaging Using PET/CT and PET/MRI in Inflammatory Bowel Disease: Current Applications, Challenges, and Future Perspectives",
+   "journal": "Med Sci Monit",
+   "journal_full": "Medical science monitor : international medical journal of experimental and clinical research",
+   "issn": "1643-3750",
+   "issn_linking": "1234-1010",
+   "impact_factor": 2.5,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.12659/MSM.953971",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Li Y, Wang M, Liu B, Yuan Z, Yang W, Yao W",
+   "abstract": "Hybrid molecular imaging is increasingly recognized as a valuable tool for the precision management of inflammatory bowel disease (IBD). Driven by the treat-to-target paradigm, the noninvasive quantification of transmural inflammation and the accurate differentiation of stricture phenotypes remain key clinical challenges. Current evidence indicates that although 2-deoxy-2-¹⁸F-fluoro-D-glucose (¹⁸F-FDG) positron emission tomography (PET) can effectively quantify the overall inflammatory burden, the integration of fibroblast activation protein inhibitor (FAPI)-targeted PET imaging provides important complementary value for characterizing fibro-inflammatory remodeling and distinguishing fibrotic strictures. By combining high metabolic sensitivity with high-resolution multiparametric soft-tissue characterization, PET/magnetic resonance imaging (MRI) has demonstrated potential advantages in assessing penetrating complications and facilitating longitudinal therapeutic monitoring. Pediatric and young adult patients requiring long-term follow-up may derive substantial benefit from the reduced radiation exposure offered by integrated PET/MRI systems. To overcome conventional method limitations, including physiologic intestinal uptake and attenuation-correction artifacts, the field is actively exploring novel molecularly targeted tracers, ultra-low-dose long-axial-field-of-view whole-body systems, and artificial intelligence-based image reconstruction techniques. Given that substantial current evidence is derived from small, single-center cohorts and experimental studies, these advanced modalities currently serve as adjunctive, problem-solving tools rather than routine replacements for standard endoscopy or conventional cross-sectional imaging. This review comprehensively evaluates the clinical performance, applicability, and translational barriers of hybrid molecular imaging in IBD, underscoring the urgent need to establish standardized, multicenter consensus protocols that can guide its future implementation in individualized therapeutic strategies.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42855213",
+     "date": "2026-10-11",
+     "title_zh": "胃腸道之PET/MR影像",
+     "score": 3,
+     "one_liner": "本綜述整理PET/MR於胃腸道腫瘤（含大腸直腸癌肝轉移偵測、局部分期、治療後反應評估）及發炎性腸病之應用現況，未提供新實證數據。",
+     "sim": 0.26
+    },
+    {
+     "pmid": "42640498",
+     "date": "2026-08-26",
+     "title_zh": "大腸直腸癌肝轉移組織病理生長模式之非侵入性分子影像特徵",
+     "score": 3,
+     "one_liner": "本綜述提出以PET分子影像（FDG、RGD、FAPI等）非侵入性預測CRLM的三種組織病理生長模式，屬假說階段，尚無臨床驗證數據。",
+     "sim": 0.178
+    },
+    {
+     "pmid": "42824375",
+     "date": "2026-10-03",
+     "title_zh": "繪製腫瘤免疫微環境的物理拓樸：巨觀影像碎形作為大腸直腸癌肝轉移免疫排除表型與治療抗性的替代標記",
+     "score": 3,
+     "one_liner": "在270名CRLM病人中，以MRI/PET碎形結合SII與KRAS建構的IRJS評分預測免疫發炎表型（AUC 0.86-0.92）與整體存活（HR 0.31）。",
+     "sim": 0.154
+    }
+   ]
+  },
+  {
+   "pmid": "42867711",
+   "title": "Mediterranean diet, gut microbiota, and intestinal barrier integrity: implications for digestive and systemic health",
+   "journal": "Antonie Van Leeuwenhoek",
+   "journal_full": "Antonie van Leeuwenhoek",
+   "issn": "1572-9699",
+   "issn_linking": "0003-6072",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.3390/molecules26123483",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Perets T",
+   "abstract": "The Mediterranean diet has gained increasing attention for its effects on gut microbiota, microbial metabolism, intestinal barrier function, and related clinical outcomes. This narrative review critically synthesizes evidence from 51 publications identified through structured searches of PubMed/MEDLINE and Google Scholar, including human intervention studies, observational studies, systematic and narrative reviews, and selected preclinical studies. The available evidence suggests that the MD can influence microbial composition and function, although taxonomic responses vary considerably between populations and study designs. More consistent findings involve microbial metabolic activity, particularly short-chain fatty acid production, bile acid remodeling, and polyphenol-derived metabolites. These changes may contribute to intestinal barrier regulation, mucosal homeostasis, and immune modulation. Human intervention studies provide supportive evidence in inflammatory bowel disease, functional gastrointestinal disorders, obesity, metabolic syndrome, and related conditions, while evidence for neurological, autoimmune, and cancer-related outcomes remains more limited and is often observational or mechanistic. Direct evidence for improved intestinal barrier function is still less extensive than indirect evidence based on inflammatory markers, microbial metabolites, and permeability-related measures. Differences in microbiome methodology, baseline diet, disease status, geographic background, and intervention duration contribute to variability across studies. The MD therefore represents a promising dietary framework for modulating gut microbial function and intestinal homeostasis, but further long-term and mechanistically integrated human studies are needed to define causal pathways and identify individuals most likely to benefit.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42514304",
+     "date": "2026-07-30",
+     "title_zh": "橄欖油作為腸道菌相與腸道健康的調節者：從微生物代謝到宿主反應的敘事性回顧",
+     "score": 2,
+     "one_liner": "本篇敘事性回顧統整橄欖油（VOO/EVOO）與腸道菌相、屏障功能及發炎路徑交互作用的現有證據，人體證據仍有限且異質。",
+     "sim": 0.261
+    },
+    {
+     "pmid": "42356344",
+     "date": "2026-06-26",
+     "title_zh": "鎖定人類腸道微菌叢——傳統療法與精準基因工程之間",
+     "score": 2,
+     "one_liner": "本文綜述腸道微菌叢在多種疾病（含CRC）中的機制角色，並比較傳統療法與工程化微生物療法，但無臨床試驗數據。",
+     "sim": 0.241
+    },
+    {
+     "pmid": "42358979",
+     "date": "2026-06-26",
+     "title_zh": "腸道微生物群代謝物在發炎性腸道疾病中的作用：機轉洞見的最新進展",
+     "score": 2,
+     "one_liner": "本綜述整合腸道微生物代謝物（SCFAs、膽酸、色胺酸衍生物）如何透過免疫調節網絡參與IBD致病機制，屬機轉性文獻回顧，無臨床數據。",
+     "sim": 0.241
+    }
+   ]
+  }
+ ],
+ "submission_id": "4175399424d9407cbc40dfa5a5db3676",
+ "state": "preparing"
+}
