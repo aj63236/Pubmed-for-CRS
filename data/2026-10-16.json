@@ -1,0 +1,1248 @@
+{
+ "date": "2026-10-16",
+ "generated_at": "2026-10-16T08:13:32+08:00",
+ "count": 13,
+ "papers": [
+  {
+   "pmid": "42875775",
+   "title": "RAS pathway mutations orchestrate chromatin reconfiguration and transcriptional rewiring in colorectal cancer",
+   "journal": "Cell Commun Signal",
+   "journal_full": "Cell communication and signaling : CCS",
+   "issn": "1478-811X",
+   "issn_linking": "1478-811X",
+   "impact_factor": 11.6,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1038/s41388-020-1259-7",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Gao Z, Kundu S, Xing P, Davila E, Polavarapu V, Akcan E",
+   "abstract": "BACKGROUND: RAS pathway mutations occur in ~ 40% of colorectal cancers (CRCs), with KRAS- and BRAF- mutant tumors exhibiting distinct mutational, transcriptional, and epigenetic landscapes. Advances in next-generation sequencing enable integrated analyses of multi-omics data, providing insight into their regulatory relationships. To define the molecular programs driven by RAS pathway mutations, we generated isogenic CRC cell models and profiled chromatin accessibility using ATAC-seq.\nMETHODS: We performed ATAC-seq in isogenic HCT116 and RKO models. Mutation-associated changes in genes, regulatory elements, and signaling pathways were identified, together with inferred transcription factor (TF) binding activity. Clinical datasets were analyzed to assess whether features identified in the cell models were recapitulated in patient tumors and whether they were associated with clinical outcomes.\nRESULTS: Isogenic CRC models segregated by RAS pathway mutation status at both epigenetic and transcriptomic levels. Mutation alterations modulated WNT signaling, accompanied by changes in RUNX2 and TCF7L2 expression and binding activity. Comparison between the HCT116 and RKO models identified 85 genes, eight of which displayed reproducible expression patterns across three independent clinical cohorts. TCF7L2 were associated with RAS pathway mutations in patient tumors, with elevated expression level predicting worse overall survival independent of cofactors.\nCONCLUSION: We identified RAS pathway mutation-driven regulatory reprogramming with convergent effects on WNT signaling. TCF7L2 emerged as a key TF, with elevated expression in BRAF-mutant tumors independently associated with poor clinical outcomes. These findings highlight a clinically relevant epigenetic mechanism linking RAS pathway mutations to CRC cell survival maintenance.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42364020",
+     "date": "2026-06-27",
+     "title_zh": "Filgotinib 透過活化 p53 訊號路徑誘導大腸直腸癌細胞凋亡",
+     "score": 2,
+     "one_liner": "在 CRC 細胞株（HCT116、RKO、LoVo）與病人衍生類器官中，Filgotinib 誘導凋亡並抑制增殖，顯示潛在抗腫瘤機轉。",
+     "sim": 0.16
+    }
+   ],
+   "title_zh": "RAS 路徑突變調控大腸直腸癌的染色質重構與轉錄網絡重塑",
+   "abstract_zh": "背景：RAS 路徑突變發生於約 40% 的大腸直腸癌（CRC），其中 KRAS 突變與 BRAF 突變腫瘤呈現不同的突變、轉錄及表觀遺傳特徵。次世代定序的進展使多體學資料的整合分析成為可能，有助於了解這些特徵之間的調控關係。為界定 RAS 路徑突變所驅動的分子程序，我們建立了同基因背景的 CRC 細胞模型，並以 ATAC-seq 分析染色質可及性。\n方法：我們在同基因背景的 HCT116 與 RKO 模型中進行 ATAC-seq，辨識與突變相關的基因、調控元件及訊息傳遞路徑變化，並推估轉錄因子（TF）的結合活性。我們亦分析臨床資料集，以評估細胞模型中辨識出的特徵是否同樣出現在病人腫瘤中，以及這些特徵是否與臨床結果相關。\n結果：同基因背景的 CRC 模型在表觀遺傳與轉錄體層面，皆依 RAS 路徑突變狀態呈現分群。突變狀態的改變調節了 WNT 訊息傳遞，並伴隨 RUNX2 與 TCF7L2 表現及結合活性的變化。比較 HCT116 與 RKO 模型後辨識出 85 個基因，其中 8 個在三個獨立臨床世代中呈現可重現的表現模式。病人腫瘤中的 TCF7L2 與 RAS 路徑突變相關，且其表現量升高可預測較差的整體存活，此關聯獨立於其他共變項。\n結論：我們辨識出 RAS 路徑突變驅動的調控重塑，其對 WNT 訊息傳遞具有匯聚效應。TCF7L2 被辨識為關鍵轉錄因子，在 BRAF 突變腫瘤中，其表現升高與不良臨床結果獨立相關。這些發現凸顯了一項具臨床相關性的表觀遺傳機制，將 RAS 路徑突變與 CRC 細胞存活的維持連結起來。",
+   "evidence_level": "其他",
+   "score": 3,
+   "score_reason": "同基因背景細胞模型搭配三個臨床世代，具機轉探索價值；但摘要未提供臨床樣本數、存活效應量或信賴區間。對外科日常決策的直接效用低，較值得研究腫瘤分子機轉者讀全文。",
+   "relevance": "低度相關",
+   "relevance_why": "主要為細胞與多體學機轉研究，未直接評估手術、圍手術照護或可採行的治療策略。",
+   "novelty": "仍屬早期",
+   "one_liner": "在HCT116、RKO模型（數量未報）中比較RAS突變狀態，辨識85個相關基因。",
+   "action": "目前不需改變做法；勿據此為BRAF突變病人加做TCF7L2檢測，尚無臨床效益驗證。",
+   "pico": {
+    "P": "同基因背景 HCT116 與 RKO 大腸直腸癌細胞模型，以及三個獨立臨床世代；模型重複數與病人人數未報。",
+    "I": "RAS 路徑突變狀態；以 ATAC-seq 與轉錄體分析其調控特徵，並分析病人腫瘤的 TCF7L2 表現。",
+    "C": "不同 RAS 路徑突變狀態的同基因背景模型；臨床表現量比較的分組方式未報。",
+    "O": "染色質可及性、基因表現、推估轉錄因子結合活性與 WNT 訊息傳遞變化；臨床世代中的表現模式及整體存活關聯。摘要未指定主要與次要終點。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "背景：RAS路徑突變約占CRC的40%",
+    "HCT116與RKO模型比較辨識出85個基因",
+    "其中8個基因在3個獨立臨床世代呈可重現表現模式"
+   ],
+   "cautions": [
+    "細胞機轉與病人預後相關性，不等於標靶治療有效。",
+    "存活分析未報人數、HR及信賴區間，無法判斷效應大小。",
+    "多體學篩選涉及多重比較，摘要未交代校正方式。"
+   ],
+   "unassessable": [
+    "細胞模型的具體突變操作、對照設計及生物重複數",
+    "是否進行功能性救援實驗或直接驗證轉錄因子結合",
+    "臨床世代的研究設計、樣本數、納入條件與治療分布",
+    "TCF7L2 表現量的分組閾值及是否預先設定",
+    "存活分析調整的共變項、追蹤時間、失訪與缺失資料處理",
+    "存活效應量、信賴區間及多重比較校正",
+    "實驗盲法、研究預先登錄與利益衝突"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 2967,
+    "input_tokens_details": {
+     "cache_write_tokens": 2964,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1656,
+    "output_tokens_details": {
+     "reasoning_tokens": 215
+    },
+    "total_tokens": 4623
+   },
+   "added_at": "2026-10-16T08:09:52+08:00"
+  },
+  {
+   "pmid": "42877110",
+   "title": "Gut microbiota in genetic diseases: from Mendelian disorders to complex traits",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.3389/fimmu.2026.1908644",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Chen G, Li J, Huang T, Zeng D, Mo L, Li J",
+   "abstract": "As a core component of the human microecosystem, the dynamic balance of the composition and function of gut microbiota is essential to host health. In recent years, numerous studies have demonstrated that gut dysbiosis is not only associated with metabolic diseases and immune disorders but also plays a pivotal role in the pathogenesis of hereditary diseases. Ranging from chromosomal diseases (e.g., Down syndrome), monogenic diseases (e.g., cystic fibrosis, phenylketonuria, familial adenomatous polyposis, hereditary hemolytic anemia), mitochondrial diseases (e.g., Leber's hereditary optic neuropathy, mitochondrial encephalomyopathy) to polygenic hereditary diseases (e.g., inflammatory bowel disease, autism spectrum disorder, obesity and diabetes), gut microbiota can markedly alter the manifestation and severity of disease phenotypes by regulating host immune responses, metabolic pathways and gene expression. Nevertheless, the bidirectional interaction network between host genes and gut microbiota has not been fully elucidated. Most existing studies merely focus on correlation analysis, and in-depth exploration of causal mechanisms remains insufficient. This review elaborates on the mechanisms of gut microbiota in monogenic diseases and hereditary diseases with complex phenotypes. By integrating the latest advances in genomics, metabolomics and microbiomics, it discusses how gut dysbiosis affects disease progression via immune modulation, metabolite reprogramming and epigenetic modification. Meanwhile, this paper summarizes the current status and challenges of clinical translation of microbiota-targeted therapies, such as probiotics and fecal microbiota transplantation(FMT), in the treatment of hereditary diseases. This review aims to provide a microecological perspective for understanding the pathogenesis of hereditary diseases and offer theoretical support for personalized and precise intervention.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42474869",
+     "date": "2026-07-21",
+     "title_zh": "健康與疾病中的腸道微菌叢",
+     "score": 2,
+     "one_liner": "本文綜述腸道微菌叢在健康與疾病（含大腸直腸癌）中的機制角色，並展望微菌叢相關診斷與治療的轉譯前景，無臨床試驗數據。",
+     "sim": 0.186
+    },
+    {
+     "pmid": "42474869",
+     "date": "2026-07-22",
+     "title_zh": "健康與疾病中的腸道微菌叢",
+     "score": 2,
+     "one_liner": "本文綜述腸道微菌叢在健康與疾病（含大腸直腸癌）中的機制角色，並展望微菌叢相關診斷與治療的轉譯前景，無臨床試驗數據。",
+     "sim": 0.186
+    },
+    {
+     "pmid": "42602359",
+     "date": "2026-08-16",
+     "title_zh": "糞便微生物移植（FMT）在癌症治療中的應用與展望",
+     "score": 2,
+     "one_liner": "本綜述整理FMT於癌症治療（含大腸癌、肝癌、黑色素瘤）中調節腫瘤微環境、增強免疫/化療反應之機制與挑戰，無臨床試驗數據。",
+     "sim": 0.184
+    }
+   ],
+   "title_zh": "遺傳疾病中的腸道微菌叢：從孟德爾遺傳疾病到複雜性狀",
+   "abstract_zh": "腸道微菌叢是人體微生態系統的核心組成，其組成與功能的動態平衡對宿主健康至關重要。近年來，許多研究顯示，腸道菌相失衡不僅與代謝疾病及免疫失調相關，也在遺傳疾病的致病機轉中扮演關鍵角色。從染色體疾病（例如唐氏症）、單基因疾病（例如囊性纖維化、苯酮尿症、家族性腺瘤性息肉症、遺傳性溶血性貧血）、粒線體疾病（例如 Leber 氏遺傳性視神經病變、粒線體腦肌病），到多基因遺傳疾病（例如發炎性腸道疾病、自閉症類群障礙、肥胖與糖尿病），腸道微菌叢可藉由調節宿主免疫反應、代謝途徑及基因表現，顯著改變疾病表型的表現與嚴重程度。然而，宿主基因與腸道微菌叢之間的雙向交互作用網絡尚未完全闡明。現有研究大多僅著重於相關性分析，對因果機制的深入探討仍然不足。本綜述詳細闡述腸道微菌叢在單基因疾病及具有複雜表型之遺傳疾病中的作用機制。藉由整合基因體學、代謝體學及微菌叢學的最新進展，本文探討腸道菌相失衡如何透過免疫調節、代謝物重編程及表觀遺傳修飾影響疾病進程。同時，本文總結以微菌叢為標靶的療法，例如益生菌與糞便微生物移植（FMT），在遺傳疾病治療中臨床轉譯的現況與挑戰。本綜述旨在提供理解遺傳疾病致病機轉的微生態觀點，並為個人化與精準介入提供理論支持。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "摘要以機制與轉譯展望為主，未提供系統性檢索方法或可量化的臨床療效。雖涵蓋 FAP 與發炎性腸道疾病，對台灣大腸直腸外科當前決策的直接幫助有限。",
+   "relevance": "中度相關",
+   "relevance_why": "涉及 FAP 與發炎性腸道疾病，但主軸為跨疾病的菌相機制，非外科處置或臨床療效比較。",
+   "novelty": "仍屬早期",
+   "one_liner": "在遺傳疾病族群（人數未報）中，綜述腸菌機制與標靶療法，無組間比較或量化療效。",
+   "action": "目前不需改變做法；勿據此為 FAP 病人新增益生菌或 FMT，摘要未提供臨床效益證據。",
+   "pico": {
+    "P": "涵蓋染色體、單基因、粒線體及多基因遺傳疾病，包括 FAP 與發炎性腸道疾病；研究及病人人數未提供。",
+    "I": "腸道菌相失衡與宿主基因的交互作用，以及益生菌、FMT 等微菌叢標靶療法。",
+    "C": "無對照組；此為綜述，摘要未提供可比較的介入組與對照組。",
+    "O": "討論疾病表型、嚴重程度與進展的機制，以及微菌叢療法的轉譯現況；未指定主要或次要臨床結局。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "納入研究數與總病人人數：摘要未提供。",
+    "益生菌或 FMT 的兩組絕對療效：摘要未提供。",
+    "不良事件率、效應量與信賴區間：摘要未提供。"
+   ],
+   "cautions": [
+    "作者指出現有研究多為相關性分析，不能據此確立菌相致病因果。",
+    "跨疾病機制與轉譯展望，不能直接推論 FAP 病人的治療效益。",
+    "無兩組絕對療效、樣本數或信賴區間，無法判定效益大小與精確度。"
+   ],
+   "unassessable": [
+    "文獻檢索策略、納入與排除標準、涵蓋研究數及研究設計",
+    "納入研究的偏誤風險、證據確定性與發表偏誤",
+    "若納入隨機試驗，其隨機分派、分派隱蔽、盲法、ITT 分析及試驗註冊情形",
+    "納入臨床研究的追蹤時間、失訪率與病人重要結局",
+    "微菌叢療法的劑量、FMT 供者篩選、安全性及成本效益",
+    "資金來源與利益衝突"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "相較前兩篇「健康與疾病中的腸道微菌叢」的一般機制綜述，本篇將焦點延伸至宿主遺傳背景與菌相的雙向作用，並涵蓋 FAP。與先前 FMT 癌症治療綜述同樣討論轉譯挑戰，但疾病範圍不同；本篇摘要仍未提供可支持臨床療效比較的數據。",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3142,
+    "input_tokens_details": {
+     "cache_write_tokens": 3139,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1590,
+    "output_tokens_details": {
+     "reasoning_tokens": 156
+    },
+    "total_tokens": 4732
+   },
+   "added_at": "2026-10-16T08:09:52+08:00"
+  },
+  {
+   "pmid": "42874103",
+   "title": "Phase 2 Trial of Icotrokinra for Patients with Ulcerative Colitis",
+   "journal": "N Engl J Med",
+   "journal_full": "The New England journal of medicine",
+   "issn": "1533-4406",
+   "issn_linking": "0028-4793",
+   "impact_factor": 84.5,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1056/NEJMoa2604435",
+   "ptype": "Randomized Controlled Trial, Clinical Trial, Phase II",
+   "ptype_list": [
+    "Randomized Controlled Trial",
+    "Clinical Trial, Phase II",
+    "Multicenter Study"
+   ],
+   "authors": "Abreu M, Siegmund B, Surace L, Erondu N, Chen M, Chachu K",
+   "abstract": "BACKGROUND: Monoclonal antibodies targeting the interleukin-23 pathway are effective in treating inflammatory bowel disease. However, these therapies must be administered intravenously or by subcutaneous injection.\nMETHODS: We conducted a phase 2b, double-blind, randomized trial of oral icotrokinra, a peptide that blocks the interleukin-23 receptor, in adults with moderately to severely active ulcerative colitis. Participants were assigned to receive icotrokinra at a once-daily dose of 400 mg, 200 mg, or 100 mg or placebo. The primary end point was clinical response at week 12. Secondary end points included clinical remission, remission of symptoms, and endoscopic improvement at week 12.\nRESULTS: A total of 252 participants underwent randomization: 63 were assigned to the 400-mg group, 62 to the 200-mg group, 64 to the 100-mg group, and 63 to the placebo group. All the doses of icotrokinra were superior to placebo with respect to a clinical response at week 12, which occurred in 63% of the participants in the 400-mg group, 58% in the 200-mg group, and 55% in the 100-mg group, as compared with 27% in the placebo group (P<0.001 for all comparisons with placebo). The percentage of participants with clinical remission at week 12 was also significantly higher in the 400-mg group than in the placebo group (30% vs. 11%, P = 0.006), as were the percentage of participants with symptomatic remission (46% vs. 19%, P<0.001) and the percentage of participants with endoscopic improvement (37% vs. 14%, P = 0.002). Clinical remission at week 12 occurred in 24% of the participants in the 200-mg group (P = 0.054 for the comparison with placebo); in accordance with the fixed-sequence testing procedure to account for multiple comparisons, no further formal testing of secondary end points was conducted. Through week 28, the percentage of participants with adverse events was 60% in the 400-mg group, 66% in the 200-mg group, 66% in the 100-mg group, and 62% in the placebo group. For serious adverse events, the percentages were 2%, 5%, 0%, and 10%, respectively.\nCONCLUSIONS: Among participants with moderately to severely active ulcerative colitis, a clinical response at week 12 was significantly more common with once-daily oral icotrokinra at each of three tested doses than with placebo. (Funded by Johnson & Johnson; ANTHEM-UC ClinicalTrials.gov number, NCT06049017.).",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42796318",
+     "date": "2026-09-27",
+     "title_zh": "Ozanimod治療潰瘍性結腸炎的療效與安全性：一項全希臘真實世界研究",
+     "score": 3,
+     "one_liner": "在79名中度UC患者使用Ozanimod治療中，12週臨床反應77.4%、緩解71.0%，48週反應96.2%（納入停藥失敗後降至52.1%）。",
+     "sim": 0.179
+    },
+    {
+     "pmid": "42796318",
+     "date": "2026-09-28",
+     "title_zh": "Ozanimod治療潰瘍性結腸炎之療效與安全性：泛希臘真實世界研究",
+     "score": 3,
+     "one_liner": "在79名中度UC患者中使用ozanimod，第12週臨床反應率77.4%、緩解率71.0%，第48週持續治療者反應率96.2%（觀察病例法）。",
+     "sim": 0.179
+    },
+    {
+     "pmid": "42470619",
+     "date": "2026-07-20",
+     "title_zh": "Olamkicept 於健康男性中單次及多次遞增劑量（最高至2400mg）之安全性與藥物動力學：第一期、隨機、安慰劑對照、雙盲試驗",
+     "score": 2,
+     "one_liner": "在49名健康男性中，比較Olamkicept（1200-2400mg）SAD/MAD給藥與安慰劑，發現安全性良好、暴露量呈劑量比例增加，22.2%出現新抗體。",
+     "sim": 0.165
+    }
+   ],
+   "title_zh": "Icotrokinra 治療潰瘍性結腸炎患者的第 2 期試驗",
+   "abstract_zh": "背景：標靶介白素-23 路徑的單株抗體可有效治療發炎性腸道疾病。然而，這些療法必須透過靜脈輸注或皮下注射給藥。\n方法：我們針對中度至重度活動性潰瘍性結腸炎成人患者，進行一項口服 icotrokinra 的第 2b 期、雙盲、隨機試驗；icotrokinra 是一種阻斷介白素-23 受體的胜肽。參與者被分配接受每日一次 400 mg、200 mg 或 100 mg 的 icotrokinra，或安慰劑。主要終點為第 12 週的臨床反應。次要終點包括第 12 週的臨床緩解、症狀緩解及內視鏡改善。\n結果：共 252 名參與者接受隨機分派：63 名分配至 400 mg 組、62 名至 200 mg 組、64 名至 100 mg 組，以及 63 名至安慰劑組。所有劑量的 icotrokinra 在第 12 週臨床反應方面均優於安慰劑；400 mg 組、200 mg 組及 100 mg 組的臨床反應率分別為 63%、58% 及 55%，安慰劑組則為 27%（所有與安慰劑的比較均為 P<0.001）。第 12 週達到臨床緩解的參與者比例，400 mg 組亦顯著高於安慰劑組（30% vs. 11%，P=0.006）；症狀緩解比例（46% vs. 19%，P<0.001）及內視鏡改善比例（37% vs. 14%，P=0.002）亦然。200 mg 組有 24% 的參與者在第 12 週達到臨床緩解（與安慰劑比較，P=0.054）；依據用於處理多重比較的固定序列檢定程序，未再對次要終點進行進一步正式檢定。截至第 28 週，400 mg 組、200 mg 組、100 mg 組及安慰劑組發生不良事件的參與者比例分別為 60%、66%、66% 及 62%。嚴重不良事件的比例則依序為 2%、5%、0% 及 10%。\n結論：在中度至重度活動性潰瘍性結腸炎參與者中，每日一次口服 icotrokinra 的三種受試劑量，相較於安慰劑，均有顯著較高的第 12 週臨床反應率。（由 Johnson & Johnson 資助；ANTHEM-UC 的 ClinicalTrials.gov 登錄編號：NCT06049017。）",
+   "evidence_level": "RCT",
+   "score": 7,
+   "score_reason": "雙盲隨機安慰劑對照設計，且主要終點與部分次要終點呈現一致療效訊號，值得閱讀全文。但仍是短期第 2b 期試驗，未回答手術需求、長期維持療效或與現行藥物的比較。",
+   "relevance": "中度相關",
+   "relevance_why": "與 UC 多專科治療及手術前藥物選項相關，但未直接評估急性重症救援、手術時機或術後結果。",
+   "novelty": "仍屬早期",
+   "one_liner": "252名中重度UC患者比較口服icotrokinra與安慰劑，400mg組12週反應率63%比27%。",
+   "action": "目前不需改變做法；中重度UC可於多專科會議關注此口服新藥，但尚缺長期與手術相關結果。",
+   "pico": {
+    "P": "252 名中度至重度活動性潰瘍性結腸炎成人患者。",
+    "I": "每日一次口服 icotrokinra：400 mg（63 人）、200 mg（62 人）或 100 mg（64 人）。",
+    "C": "安慰劑（63 人）。",
+    "O": "主要終點：第 12 週臨床反應；次要終點：第 12 週臨床緩解、症狀緩解及內視鏡改善；另報告截至第 28 週的不良事件與嚴重不良事件。"
+   },
+   "effects": [
+    {
+     "outcome": "第 12 週臨床反應",
+     "ok": true,
+     "i_label": "icotrokinra 400 mg",
+     "c_label": "安慰劑",
+     "i_rate": 63.0,
+     "c_rate": 27.0,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 36.0,
+     "benefit": true,
+     "event_bad": false,
+     "nnt": 3,
+     "kind": "NNT",
+     "note": ""
+    },
+    {
+     "outcome": "第 12 週臨床緩解",
+     "ok": true,
+     "i_label": "icotrokinra 400 mg",
+     "c_label": "安慰劑",
+     "i_rate": 30.0,
+     "c_rate": 11.0,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 19.0,
+     "benefit": true,
+     "event_bad": false,
+     "nnt": 5,
+     "kind": "NNT",
+     "note": ""
+    },
+    {
+     "outcome": "第 12 週內視鏡改善",
+     "ok": true,
+     "i_label": "icotrokinra 400 mg",
+     "c_label": "安慰劑",
+     "i_rate": 37.0,
+     "c_rate": 14.0,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 23.0,
+     "benefit": true,
+     "event_bad": false,
+     "nnt": 4,
+     "kind": "NNT",
+     "note": ""
+    }
+   ],
+   "key_numbers": [
+    "12週反應率：400/200/100mg為63/58/55%，安慰劑27%",
+    "400mg緩解率30%比11%，P=0.006",
+    "200mg緩解率24%比11%，P=0.054；未達顯著"
+   ],
+   "cautions": [
+    "主要終點為12週臨床反應，不能推論可減少切除手術或長期復發。",
+    "各組僅62–64人、安全性僅至28週，不能據此認定長期安全。",
+    "未報信賴區間；200mg緩解未達顯著後，後續次要終點停止正式檢定。"
+   ],
+   "unassessable": [
+    "隨機序列產生方式與分派隱蔽",
+    "雙盲的具體執行方式及維持情形",
+    "是否採 ITT 分析、缺失資料處理及失訪率",
+    "臨床反應、臨床緩解與內視鏡改善的操作型定義",
+    "既往進階治療失敗比例、基線疾病特徵及併用藥物",
+    "試驗登錄與預先指定分析計畫的一致性",
+    "作者利益衝突及資助者參與研究的程度",
+    "長期維持療效、無類固醇緩解與手術需求",
+    "成本效益及台灣可近性"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "先前兩筆泛希臘 ozanimod 研究均描述 79 名 UC 患者的口服藥物真實世界結果；本篇延伸至不同機轉的口服 IL-23 受體阻斷胜肽，提供隨機安慰劑對照證據。兩者藥物、族群及分析方式不同，不能直接比較反應率或推論優劣；健康男性的 olamkicept 第一期試驗則無法直接支持本篇 UC 療效。",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3452,
+    "input_tokens_details": {
+     "cache_write_tokens": 3449,
+     "cached_tokens": 0
+    },
+    "output_tokens": 2175,
+    "output_tokens_details": {
+     "reasoning_tokens": 191
+    },
+    "total_tokens": 5627
+   },
+   "added_at": "2026-10-16T08:09:51+08:00"
+  },
+  {
+   "pmid": "42871149",
+   "title": "Effect of Anterior Quadratus Lumborum Block at the Lateral Supra-Arcuate Ligament Combined with Esketamine on the Quality of Postoperative Recovery After Laparoscopic Radical Surgery for Elderly Patients with Colorectal Cancer: A Randomized Controlled Trial",
+   "journal": "Drug Des Devel Ther",
+   "journal_full": "Drug design, development and therapy",
+   "issn": "1177-8881",
+   "issn_linking": "1177-8881",
+   "impact_factor": 6.1,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1097/MD.0000000000036754",
+   "ptype": "Randomized Controlled Trial",
+   "ptype_list": [
+    "Randomized Controlled Trial"
+   ],
+   "authors": "Dai Z, Yang M, Liu H, Gao X, Zhao X, Wang Y",
+   "abstract": "BACKGROUND: Postoperative pain, opioid exposure and slow recovery remain common concerns in elderly patients undergoing laparoscopic radical resection of colorectal cancer. We assessed whether anterior quadratus lumborum block at the lateral supra-arcuate ligament (QLB-LSAL) combined with low-dose esketamine improves recovery quality.\nMETHODS: In this single-centre, randomized, placebo-controlled trial with blinded outcome assessment, 90 patients aged ≥60 years were assigned to QLB-LSAL with a saline infusion (Group Q), esketamine alone (Group E), or QLB-LSAL with esketamine (Group QE). The prespecified primary endpoint was the QoR-40 total score on postoperative day 3. Esketamine 0.2 mg/kg was given intravenously before induction, followed by 0.2 mg/kg/h until 30 min before the end of surgery in Groups E and QE; Group Q received an equal volume of saline. Longitudinal data were analysed with linear mixed-effects models, with Tukey post-hoc testing and Benjamini-Hochberg correction.\nRESULTS: Eighty-eight patients were analysed (Q=29, E=30, QE=29). On day 3 the QoR-40 total score was higher in Group QE than in Group E (adjusted difference 8.30, 95% CI 4.37-12.23, Tukey P<0.001); the corresponding day-1 difference was 12.07 (95% CI 7.66-16.47, P<0.001). Group QE also showed better comfort and pain scores, lower remifentanil consumption and fewer day-1 pump activations than Group E, and a higher day-1 QoR-40 score than Group Q (P=0.006). Between-group differences in HADS anxiety scores were not significant after adjustment for multiplicity (QE vs Q on day 1, P=0.068). The incidence of adverse events did not differ between groups.\nCONCLUSION: In elderly patients undergoing laparoscopic colorectal cancer surgery, QLB-LSAL combined with low-dose esketamine improved the prespecified day-3 recovery endpoint and reduced early postoperative pain and opioid use compared with esketamine alone; any anxiolytic effect was not confirmed after multiplicity adjustment. Trial registration: ChiCTR2400082301.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42723442",
+     "date": "2026-09-13",
+     "title_zh": "艾司氯胺酮對接受腹腔鏡大腸直腸癌根治性切除術患者術後住院焦慮憂鬱量表（HADS）分數的影響",
+     "score": 4,
+     "one_liner": "在接受腹腔鏡大腸直腸癌根治性切除術病人中，比較誘導期加PCIA使用艾司氯胺酮與傳統麻醉，發現術後第1、3天HADS焦慮憂鬱分數較低（p<0.05）。",
+     "sim": 0.287
+    },
+    {
+     "pmid": "42685302",
+     "date": "2026-09-04",
+     "title_zh": "微創大腸直腸癌手術後之外科直肌鞘阻滯（SRSB）與腹腔鏡雙側雙重腹橫肌平面阻滯（BD-TAP block）比較：對恢復影響之隨機臨床試驗",
+     "score": 6,
+     "one_liner": "在320名微創大腸直腸癌手術病人中，比較IV-PCA單獨、SRSB、BD-TAP阻滯，BD-TAP使24小時QoR-15分數提升10.44分（p=0.003），SRSB未達顯著優越。",
+     "sim": 0.232
+    },
+    {
+     "pmid": "42685302",
+     "date": "2026-09-05",
+     "title_zh": "微創大腸直腸癌手術後外科醫師執行腹直肌鞘阻斷（SRSB）與腹腔鏡雙側橫腹肌平面阻斷（BD-TAP）對恢復影響之隨機對照試驗",
+     "score": 7,
+     "one_liner": "在320名接受微創大腸直腸癌手術病人中，比較IV-PCA單獨、SRSB與BD-TAP，發現BD-TAP使24小時QoR-15提升10.44分（p=0.003），SRSB未達顯著。",
+     "sim": 0.232
+    }
+   ],
+   "title_zh": "外側弓狀韌帶上方前側腰方肌阻斷合併艾司氯胺酮對高齡大腸直腸癌病人腹腔鏡根治手術後恢復品質的影響：隨機對照試驗",
+   "abstract_zh": "背景：高齡病人接受腹腔鏡大腸直腸癌根治性切除術後，疼痛、鴉片類藥物暴露及恢復緩慢仍是常見問題。我們評估外側弓狀韌帶上方前側腰方肌阻斷（QLB-LSAL）合併低劑量艾司氯胺酮是否可改善恢復品質。\n方法：本單中心、隨機、安慰劑對照試驗採結果評估者盲法，將90名年齡≥60歲病人分配至QLB-LSAL合併生理食鹽水輸注（Q組）、單用艾司氯胺酮（E組），或QLB-LSAL合併艾司氯胺酮（QE組）。預先指定的主要終點為術後第3天QoR-40總分。E組與QE組於麻醉誘導前靜脈給予艾司氯胺酮0.2 mg/kg，隨後以0.2 mg/kg/h持續輸注至手術結束前30分鐘；Q組接受等體積生理食鹽水。縱向資料以線性混合效應模型分析，並使用Tukey事後檢定及Benjamini-Hochberg校正。\n結果：共88名病人納入分析（Q組29名、E組30名、QE組29名）。第3天QE組QoR-40總分高於E組（校正後差異8.30分，95% CI 4.37–12.23；Tukey P<0.001）；相應的第1天差異為12.07分（95% CI 7.66–16.47，P<0.001）。相較於E組，QE組亦有較佳的舒適度與疼痛分數、較低的瑞芬太尼用量，以及較少的第1天止痛幫浦按壓次數；QE組第1天QoR-40分數亦高於Q組（P=0.006）。經多重比較校正後，各組HADS焦慮分數差異未達統計顯著（第1天QE組對Q組，P=0.068）。各組不良事件發生率無差異。\n結論：在接受腹腔鏡大腸直腸癌手術的高齡病人中，相較於單用艾司氯胺酮，QLB-LSAL合併低劑量艾司氯胺酮改善了預先指定的第3天恢復終點，並減少早期術後疼痛及鴉片類藥物使用；任何抗焦慮效果在多重比較校正後均未獲確認。試驗註冊：ChiCTR2400082301。",
+   "evidence_level": "RCT",
+   "score": 6,
+   "score_reason": "隨機分組、結果評估者盲法、預先指定主要終點及多重比較校正提升可信度，且直接切合高齡大腸直腸手術照護。但僅單中心88人納入分析，缺乏完整組間效應量與安全性絕對數，值得讀全文但不足以直接常規採用。",
+   "relevance": "高度相關",
+   "relevance_why": "直接探討高齡腹腔鏡大腸直腸癌手術的區域阻斷、節省鴉片類藥物及早期恢復。",
+   "novelty": "仍屬早期",
+   "one_liner": "90名高齡大腸直腸癌病人中，阻斷合併艾司氯胺酮較單藥使第3天QoR-40增加8.30分。",
+   "action": "目前不需改變做法；高齡腹腔鏡大腸直腸癌病人常規採用前，先與麻醉科核對阻斷流程及完整安全資料。",
+   "pico": {
+    "P": "90名年齡≥60歲、接受腹腔鏡大腸直腸癌根治性切除術病人；88名納入分析。",
+    "I": "QLB-LSAL合併艾司氯胺酮：誘導前靜脈0.2 mg/kg，續以0.2 mg/kg/h輸注至手術結束前30分鐘（QE組，分析29名）。",
+    "C": "單用艾司氯胺酮（E組，分析30名）；QLB-LSAL合併等體積生理食鹽水輸注（Q組，分析29名）。",
+    "O": "主要終點：術後第3天QoR-40總分；其他報告結果：第1天QoR-40、舒適度與疼痛分數、瑞芬太尼用量、第1天止痛幫浦按壓次數、HADS焦慮分數及不良事件。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "第3天QE較E：QoR-40增8.30分，95% CI 4.37–12.23",
+    "第1天QE較E：增12.07分，95% CI 7.66–16.47",
+    "第1天HADS焦慮QE對Q：校正後P=0.068，未顯著"
+   ],
+   "cautions": [
+    "僅88人分析，且不良事件未報絕對數，不能宣稱同等安全。",
+    "QoR-40反映早期恢復，不能推論重大併發症或長期效益。",
+    "未報第3天QE對Q效應量，無法確認加用艾司氯胺酮效益。"
+   ],
+   "unassessable": [
+    "隨機序列產生方式與分配隱蔽",
+    "病人、麻醉執行者及照護團隊是否盲化，以及阻斷對照方式",
+    "是否採ITT分析；90人中2人未納入分析的原因、組別與失訪情形",
+    "樣本數估算與QoR-40最小臨床重要差異設定",
+    "各組QoR-40原始平均值、變異程度及完整組間比較",
+    "不良事件定義、各組事件數與發生率",
+    "試驗註冊時間、註冊內容與實際報告的一致性",
+    "QLB-LSAL局部麻醉藥配方、劑量及完整技術細節",
+    "背景多模式止痛、ERAS流程與成本效益",
+    "資金來源與利益衝突"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "相較於前述艾司氯胺酮與SRSB／BD-TAP研究，本篇將問題延伸至高齡族群及QLB-LSAL與艾司氯胺酮的合併策略，並以第3天QoR-40為主要終點。先前艾司氯胺酮研究報告早期HADS改善，本篇焦慮差異經多重比較校正後未獲確認；因介入、對照與給藥方案不同，尚不能視為直接矛盾。",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3494,
+    "input_tokens_details": {
+     "cache_write_tokens": 3491,
+     "cached_tokens": 0
+    },
+    "output_tokens": 2229,
+    "output_tokens_details": {
+     "reasoning_tokens": 378
+    },
+    "total_tokens": 5723
+   },
+   "added_at": "2026-10-16T08:09:51+08:00"
+  },
+  {
+   "pmid": "42873277",
+   "title": "Longitudinal plasma phosphorylated neurofilament-heavy chain levels in oxaliplatin-induced peripheral neuropathy: a prospective multi-institutional exploratory study",
+   "journal": "Cancer Chemother Pharmacol",
+   "journal_full": "Cancer chemotherapy and pharmacology",
+   "issn": "1432-0843",
+   "issn_linking": "0344-5704",
+   "impact_factor": 2.5,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1136/rapm-2024-106229",
+   "ptype": "Multicenter Study, Randomized Controlled Trial",
+   "ptype_list": [
+    "Multicenter Study",
+    "Randomized Controlled Trial"
+   ],
+   "authors": "Motoo Y, Shinozaki K, Miura M, Takagi T, Ito S, Yoshida N",
+   "abstract": "PURPOSE: Reliable circulating biomarkers for chemotherapy-induced peripheral neuropathy (CIPN) remain lacking. Phosphorylated neurofilament-heavy chain (pNF-H) is an axon-oriented biomarker of neuroaxonal injury, but its clinical relevance in oxaliplatin-induced peripheral neuropathy has not been established. We evaluated the feasibility and longitudinal behavior of plasma pNF-H in patients receiving oxaliplatin-based chemotherapy.\nMETHODS: This prospective multi-institutional exploratory study included patients with unresectable or recurrent colorectal cancer receiving CapeOX plus bevacizumab as part of the NYX study, a randomised trial of ninjin'yoeito (NYT; TJ-108, Tsumura & Co., Tokyo, Japan), a twelve-ingredient Kampo herbal extract, at 9.0 g/day for 24 weeks in the NYT arm. Plasma samples were collected at baseline, at clinically assessed CIPN onset (follow-up 1), and at the time of neuropathy resolution, at cycle 9, or at discontinuation, whichever came first (follow-up 2). Plasma pNF-H concentrations were measured by enzyme-linked immunosorbent assay. CIPN was assessed using CTCAE version 5.0.\nRESULTS: Thirty patients with evaluable plasma samples were included. Plasma pNF-H levels showed substantial inter-individual variability without a consistent temporal pattern. Compared with baseline and CIPN onset, plasma pNF-H levels at follow-up 2 were modestly but significantly increased. However, plasma pNF-H levels were not associated with the onset, severity, or persistence of clinically assessed CIPN.\nCONCLUSIONS: Although longitudinal plasma pNF-H measurement was technically feasible, pNF-H did not function as a clinically meaningful biomarker for oxaliplatin-induced peripheral neuropathy. These findings may reflect a pathophysiological mismatch between dorsal root ganglion neuronal cell body injury and the axon-oriented biological specificity of pNF-H.",
+   "watched": [],
+   "related": [],
+   "title_zh": "Oxaliplatin 誘發周邊神經病變中血漿磷酸化神經絲重鏈濃度的縱向變化：前瞻性多機構探索性研究",
+   "abstract_zh": "目的：目前仍缺乏可靠的化學治療誘發周邊神經病變（CIPN）循環生物標記。磷酸化神經絲重鏈（pNF-H）是一種反映軸突損傷的神經軸突損傷生物標記，但其在 oxaliplatin 誘發周邊神經病變中的臨床相關性尚未確立。我們評估接受含 oxaliplatin 化學治療患者血漿 pNF-H 測量的可行性及其縱向變化。\n方法：這項前瞻性多機構探索性研究納入 NYX 研究中，接受 CapeOX 加 bevacizumab 治療的無法切除或復發性大腸直腸癌患者。NYX 是一項人參養榮湯（NYT；TJ-108，Tsumura & Co.，日本東京）的隨機試驗；該藥為含十二種成分的漢方萃取製劑，NYT 組每日服用 9.0 g，持續 24 週。血漿樣本於基線、臨床評估確認 CIPN 發生時（追蹤 1），以及神經病變緩解時、第 9 個療程或治療中止時三者最早發生的時間點（追蹤 2）採集。血漿 pNF-H 濃度以酵素連結免疫吸附分析法測定。CIPN 使用 CTCAE 第 5.0 版評估。\n結果：共納入 30 名具有可評估血漿樣本的患者。血漿 pNF-H 濃度呈現明顯的個體間差異，且沒有一致的時間變化模式。相較於基線及 CIPN 發生時，追蹤 2 的血漿 pNF-H 濃度小幅但顯著升高。然而，血漿 pNF-H 濃度與臨床評估的 CIPN 發生、嚴重程度或持續性均無關。\n結論：雖然縱向測量血漿 pNF-H 在技術上可行，但 pNF-H 未能作為 oxaliplatin 誘發周邊神經病變的具臨床意義生物標記。這些結果可能反映背根神經節神經元細胞體損傷，與 pNF-H 偏向反映軸突損傷的生物學特異性之間，存在病理生理上的不匹配。",
+   "evidence_level": "前瞻性世代",
+   "score": 4,
+   "score_reason": "本分析雖嵌套於隨機試驗，實際為30人的前瞻性生物標記研究；摘要未提供效應量、信賴區間或濃度數值。對 oxaliplatin 毒性監測有關，但尚無可直接採用的臨床工具，全文閱讀優先度偏低。",
+   "relevance": "中度相關",
+   "relevance_why": "涉及大腸直腸癌常用 oxaliplatin 的神經毒性，但研究的是探索性血液標記，非外科處置或已驗證的監測策略。",
+   "novelty": "結果為陰性",
+   "one_liner": "30名大腸直腸癌患者比較基線與追蹤pNF-H，未見其與CIPN發生、嚴重度或持續性相關。",
+   "action": "目前不需改變做法；對接受oxaliplatin者，勿依此研究新增pNF-H常規監測或據此調藥。",
+   "pico": {
+    "P": "30名具有可評估血漿樣本、接受 CapeOX 加 bevacizumab 的無法切除或復發性大腸直腸癌患者，來自 NYX 隨機試驗。",
+    "I": "縱向測量血漿 pNF-H，評估其與 CTCAE 5.0 判定之 CIPN 的關係；非本分析中的隨機介入。",
+    "C": "同一患者基線、CIPN 發生時及追蹤2的數值比較；摘要未提供獨立對照組的生物標記結果。",
+    "O": "血漿 pNF-H 測量可行性、縱向濃度變化，以及與 CIPN 發生、嚴重程度及持續性的關聯；摘要未區分主要與次要終點。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "納入30人；各時間點pNF-H絕對濃度未提供",
+    "追蹤2濃度顯著升高，未報差值、p值或信賴區間",
+    "與CIPN發生、嚴重度及持續性無關，未報效應量"
+   ],
+   "cautions": [
+    "僅30人且無效應量或信賴區間，陰性關聯不等於排除標記價值。",
+    "追蹤2混合緩解、第9療程及停藥時間點，濃度變化解讀受限。",
+    "以CTCAE臨床評估為參照；背根神經節與軸突不匹配僅為機轉推測。"
+   ],
+   "unassessable": [
+    "母試驗隨機序列產生方式與分派隱蔽",
+    "臨床CIPN評估者及實驗室檢測者是否盲化",
+    "母試驗是否採ITT分析，以及本生物標記分析的納入策略",
+    "母試驗總人數、未納入原因、失訪率及各時間點樣本缺失情形",
+    "NYT組與對照組的人數、pNF-H結果及NYT對關聯分析的影響",
+    "試驗註冊、預先指定分析計畫及樣本數估算",
+    "pNF-H實際濃度、差值、關聯效應量、確切p值及信賴區間",
+    "累積oxaliplatin劑量、基線神經病變及其他混雜因子的處理",
+    "檢測再現性、臨床判定閾值及診斷準確度",
+    "利益衝突、研究資助及成本分析"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 2921,
+    "input_tokens_details": {
+     "cache_write_tokens": 2918,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1893,
+    "output_tokens_details": {
+     "reasoning_tokens": 265
+    },
+    "total_tokens": 4814
+   },
+   "added_at": "2026-10-16T08:09:51+08:00"
+  },
+  {
+   "pmid": "42875765",
+   "title": "Routine versus postoperative CRP/CT guided selective diverting ileostomy after laparoscopic low anterior resection for rectal cancer: a comparative randomized controlled trial",
+   "journal": "BMC Surg",
+   "journal_full": "BMC surgery",
+   "issn": "1471-2482",
+   "issn_linking": "1471-2482",
+   "impact_factor": 2.4,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1007/s13304-026-02625-7",
+   "ptype": "Randomized Controlled Trial, Comparative Study",
+   "ptype_list": [
+    "Randomized Controlled Trial",
+    "Comparative Study"
+   ],
+   "authors": "Moaz A, Barakat K, Elshazly W, Zaki Y, Badawy A, Hegazy B",
+   "abstract": "BACKGROUND: Diverting ileostomy is routinely used to protect the anastomosis after laparoscopic low anterior resection (LAR) for rectal cancer, but it exposes most patients to stoma-related morbidity even though only a minority develop a true anastomotic leak. This trial evaluated whether a postoperative C-reactive protein (CRP) and computed tomography (CT) guided selective ileostomy strategy could reduce the rate of ileostomy formation compared with routine diversion.\nMETHODS: In this RCT, 200 patients with stage II or III middle or lower third rectal cancer undergoing laparoscopic LAR were randomized 1:1 to a CRP/CT-guided selective ileostomy group (n = 100) or a routine diverting ileostomy group (n = 100). In the CRP/CT group, serum CRP was measured daily from postoperative day 1; a threshold of 114 mg/L on day 3 or a rise greater than 15 mg/L per day triggered confirmatory contrast-enhanced CT, with ileostomy formed only if findings were suspicious for leak. The primary outcome was the stoma-free status throughout the 12-month follow-up.\nRESULTS: Baseline demographic and tumor characteristics were similar between groups (all p > 0.05). Ileostomy formation was markedly lower in the CRP/CT group than the routine group (22.0% vs. 100.0%, p < 0.001). Anastomotic leak rates did not differ (0% vs. 1.0%, p = 1.000), nor did overall complication rates (31.0% vs. 32.0%, p = 0.879). Operative time (148.4 ± 14.0 vs. 166.6 ± 13.1 min, p < 0.001) and intraoperative blood loss (168.9 ± 28.2 vs. 197.3 ± 39.7 mL, p < 0.001) were significantly lower in the CRP/CT group. Stoma-related complications were far less frequent with the selective strategy (3.0% vs. 30.0%, p < 0.001). The CRP/CT group reported significantly better global health status, physical functioning, and emotional functioning scores (all p < 0.001).\nCONCLUSION: A postoperative CRP/CT-guided selective ileostomy strategy reduces the need for diverting ileostomy after laparoscopic low anterior resection for rectal cancer while improving operative outcomes and quality of life; however, confirmed leakage was infrequent in both groups. This approach may serve as an alternative to routine diversion in appropriately monitored surgical units.\nTRIAL REGISTRATION: This trial was retrospectively registered at ClinicalTrials.gov (Identifier: NCT07722533) on July 17, 2026.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42579032",
+     "date": "2026-08-12",
+     "title_zh": "全機器人低前位切除術（TR-LAR）與傳統腹腔鏡手術治療直腸癌之比較：系統性回顧與統合分析",
+     "score": 5,
+     "one_liner": "在5篇研究比較TR-LAR與L-LAR的統合分析中，機器人手術時間多43.2分鐘但轉開腹率低20%，其他腫瘤與併發症指標無差異。",
+     "sim": 0.237
+    },
+    {
+     "pmid": "42579032",
+     "date": "2026-08-13",
+     "title_zh": "全機器人低前位切除術（TR-LAR）與傳統腹腔鏡手術治療直腸癌之比較：系統性回顧與統合分析",
+     "score": 5,
+     "one_liner": "在5篇研究比較TR-LAR與L-LAR治療直腸癌中，全機器人手術時間多43.2分鐘（p=0.008），轉開腹率低20%（p=0.02），其他結果無顯著差異。",
+     "sim": 0.237
+    },
+    {
+     "pmid": "42728635",
+     "date": "2026-09-14",
+     "title_zh": "改良式Albert-Lembert結腸肛管吻合術合併保護性迴腸造口術，與Turnbull-Cutait拖出式延遲結腸肛管吻合術，於低位直腸癌括約肌間切除術（ISR）後之比較：單中心回溯性比較研究",
+     "score": 4,
+     "one_liner": "在100例低位直腸癌腹腔鏡ISR患者（58例DCAA、42例MALA）中，30天總體併發症率無顯著差異（32.8% vs 23.8%，p=0.378）。",
+     "sim": 0.236
+    }
+   ],
+   "title_zh": "直腸癌腹腔鏡低前位切除術後常規保護性迴腸造口與術後CRP／CT引導選擇性迴腸造口之比較：隨機對照試驗",
+   "abstract_zh": "背景：直腸癌腹腔鏡低前位切除術（LAR）後，常規施行保護性迴腸造口以保護吻合口，但僅少數病人會發生真正的吻合口洩漏，多數病人卻因此暴露於造口相關併發症的風險。本試驗評估，相較於常規造口，術後C反應蛋白（CRP）與電腦斷層（CT）引導的選擇性迴腸造口策略，是否能降低迴腸造口建立率。\n方法：本隨機對照試驗納入200名接受腹腔鏡LAR的第II或III期中、下三分之一段直腸癌病人，以1：1隨機分配至CRP／CT引導的選擇性迴腸造口組（n＝100）或常規保護性迴腸造口組（n＝100）。CRP／CT組自術後第1天起每日測量血清CRP；術後第3天CRP達114 mg/L，或每日上升超過15 mg/L，即安排顯影劑增強CT以進一步確認，僅於影像結果疑似洩漏時建立迴腸造口。主要結果為整個12個月追蹤期間均維持無造口狀態。\n結果：兩組基線人口學與腫瘤特徵相近（所有p＞0.05）。CRP／CT組的迴腸造口建立率明顯低於常規組（22.0% vs. 100.0%，p＜0.001）。吻合口洩漏率無差異（0% vs. 1.0%，p＝1.000），整體併發症率亦無差異（31.0% vs. 32.0%，p＝0.879）。CRP／CT組的手術時間（148.4±14.0 vs. 166.6±13.1分鐘，p＜0.001）及術中失血量（168.9±28.2 vs. 197.3±39.7 mL，p＜0.001）均顯著較低。選擇性策略的造口相關併發症明顯較少（3.0% vs. 30.0%，p＜0.001）。CRP／CT組回報的整體健康狀態、身體功能及情緒功能分數均顯著較佳（所有p＜0.001）。\n結論：術後CRP／CT引導的選擇性迴腸造口策略，可降低直腸癌腹腔鏡LAR後對保護性迴腸造口的需求，並改善手術相關結果與生活品質；然而，兩組確診洩漏均不常見。在具備適當監測能力的外科單位，此方法可能成為常規造口的替代策略。\n試驗註冊：本試驗於2026年7月17日在ClinicalTrials.gov回溯性註冊（識別碼：NCT07722533）。",
+   "evidence_level": "RCT",
+   "score": 6,
+   "score_reason": "隨機比較直接切中低位直腸癌術後造口決策，值得讀全文；但僅200例、確診洩漏極少，且為回溯性註冊，尚不足以確認省略預防性造口的安全性。",
+   "relevance": "高度相關",
+   "relevance_why": "直接涉及台灣大腸直腸外科常見的中低位直腸癌LAR保護性造口決策與術後監測。",
+   "novelty": "仍屬早期",
+   "one_liner": "200例中低位直腸癌LAR中，CRP／CT選擇性對比常規造口，造口率22%比100%。",
+   "action": "目前不需改變做法；中低位直腸癌LAR勿僅憑此試驗省略造口，先讀全文釐清安全性。",
+   "pico": {
+    "P": "200名接受腹腔鏡LAR的第II或III期中、下三分之一段直腸癌病人，每組100名。",
+    "I": "術後第1天起每日測量CRP；第3天達114 mg/L或每日上升超過15 mg/L時安排增強CT，僅影像疑似洩漏時建立迴腸造口。",
+    "C": "常規保護性迴腸造口。",
+    "O": "主要結果：整個12個月追蹤期間均維持無造口狀態。其他報告結果：造口建立率、吻合口洩漏、整體及造口相關併發症、手術時間、術中失血量與生活品質。"
+   },
+   "effects": [
+    {
+     "outcome": "迴腸造口建立",
+     "ok": true,
+     "i_label": "CRP／CT引導選擇性造口",
+     "c_label": "常規保護性造口",
+     "i_rate": 22.0,
+     "c_rate": 100.0,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 78.0,
+     "benefit": true,
+     "event_bad": true,
+     "nnt": 1,
+     "kind": "NNT",
+     "note": ""
+    },
+    {
+     "outcome": "吻合口洩漏",
+     "ok": true,
+     "i_label": "CRP／CT引導選擇性造口",
+     "c_label": "常規保護性造口",
+     "i_rate": 0.0,
+     "c_rate": 1.0,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 1.0,
+     "benefit": true,
+     "event_bad": true,
+     "nnt": 100,
+     "kind": "NNT",
+     "note": ""
+    },
+    {
+     "outcome": "造口相關併發症",
+     "ok": true,
+     "i_label": "CRP／CT引導選擇性造口",
+     "c_label": "常規保護性造口",
+     "i_rate": 3.0,
+     "c_rate": 30.0,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 27.0,
+     "benefit": true,
+     "event_bad": true,
+     "nnt": 4,
+     "kind": "NNT",
+     "note": ""
+    }
+   ],
+   "key_numbers": [
+    "造口建立率22.0% vs 100.0%，p＜0.001",
+    "吻合口洩漏0% vs 1.0%，p＝1.000",
+    "整體併發症31.0% vs 32.0%，p＝0.879"
+   ],
+   "cautions": [
+    "確診洩漏極少且未報信賴區間，無顯著差異不代表安全等效。",
+    "主要終點為12個月全程無造口，摘要未直接報告達成率。",
+    "選擇組22%因疑似洩漏造口卻無確診洩漏，須釐清診斷定義。"
+   ],
+   "unassessable": [
+    "隨機序列產生方式與分配隱蔽。",
+    "病人、照護團隊及結果評估者的盲法。",
+    "是否採ITT分析、交叉治療及違反研究方案的處理。",
+    "12個月追蹤完成率、失訪與缺失資料處理。",
+    "回溯性註冊前是否已有預先訂定的研究方案與統計分析計畫。",
+    "樣本數估算依據，以及是否針對洩漏安全性設定非劣性界值。",
+    "洩漏定義、分級、診斷時間，以及疑似洩漏與確診洩漏的判定流程。",
+    "選擇性造口的實際時點、再次手術方式及相關負擔。",
+    "吻合口高度、新輔助治療及其他高風險特徵的分布。",
+    "生活品質量表、測量時點、絕對分數及差異的臨床重要性。",
+    "利益衝突、資金來源及成本效益。"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3543,
+    "input_tokens_details": {
+     "cache_write_tokens": 3540,
+     "cached_tokens": 0
+    },
+    "output_tokens": 2552,
+    "output_tokens_details": {
+     "reasoning_tokens": 479
+    },
+    "total_tokens": 6095
+   },
+   "added_at": "2026-10-16T08:09:51+08:00"
+  },
+  {
+   "pmid": "42872337",
+   "title": "Belgian protocol for indication and selection of patients with unresectable colorectal cancer liver metastases eligible for liver transplantation",
+   "journal": "Acta Gastroenterol Belg",
+   "journal_full": "Acta gastro-enterologica Belgica",
+   "issn": "1784-3227",
+   "issn_linking": "1784-3227",
+   "impact_factor": 1.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.51821/89.3.14956",
+   "ptype": "Guideline",
+   "ptype_list": [
+    "Guideline"
+   ],
+   "authors": "Rasschaert G, Vandermeulen M, Van den Eynde M, Eker H, Vandamme T, Bracke B",
+   "abstract": "BACKGROUND AND STUDY AIMS: Colorectal cancer (CRC) is common in Western countries, about 50% of patients develop liver metastases (CLM). While local CLM therapies can achieve 5-year survival up to 60%, most patients eventually become unresectable (uCLM) and have poor outcomes with systemic treatment alone. Prospective studies, including SECA I and II and the TransMet trial, showed that in carefully selected patients, liver transplantation (LTx) can achieve survival outcomes comparable to standard LTx indications. The aim of this work was to develop a harmonized national consensus protocol for the indication and selection of uCLM patients eligible for LTx.\nPATIENTS AND METHODS: Under the coordination of the Belgian Liver & Intestine Advisory Committee (Be-LIAC), all six Belgian transplant centers delegated a transplant surgeon, an oncologist and an hepatologist to a working group that performed a literature review and drafted preliminary criteria. Three successive national meetings and a structured voting refined these criteria in the current protocol.\nRESULTS: Consensus was reached on inclusion and exclusion criteria for LTx in uCLM. Two key conditions are liver-only disease and technically uCLM. Strict requirements include a six months disease stability or response on systemic therapy and an obligatory eight-week treatment holiday. Absolute CEA levels and specific somatic mutations are not excluded. A national Be-LIAC governance model was established, combining local prospective decision-making with central auditing and registry-based evaluation.\nCONCLUSIONS: A harmonized national protocol for LTx inuCLM has been established, ensuring consistent patient selection across all Belgian centers. Stricter criteria and a national governance model aim to optimize outcomes while maintaining ethical allocation of donor organs.",
+   "watched": [],
+   "related": [],
+   "title_zh": "比利時針對不可切除大腸直腸癌肝轉移病人接受肝臟移植之適應症與篩選規範",
+   "abstract_zh": "背景與研究目的：大腸直腸癌（CRC）在西方國家相當常見，約50%的病人會發生肝轉移（CLM）。雖然CLM的局部治療可使5年存活率達到60%，但多數病人最終會進展為不可切除的肝轉移（uCLM），且單靠全身性治療的預後不佳。包括SECA I、SECA II及TransMet試驗在內的前瞻性研究顯示，經審慎篩選的病人接受肝臟移植（LTx），可獲得與標準LTx適應症相當的存活結果。本研究旨在制定全國一致的共識規範，以確立適合接受LTx之uCLM病人的適應症與篩選條件。\n病人與方法：在比利時肝臟與腸道諮詢委員會（Be-LIAC）的協調下，比利時全部6家移植中心各指派一名移植外科醫師、一名腫瘤科醫師及一名肝臟科醫師，組成工作小組，進行文獻回顧並草擬初步條件。透過連續3次全國會議及結構化投票，將這些條件修訂為目前的規範。\n結果：針對uCLM病人接受LTx的納入與排除條件達成共識。兩項關鍵條件為病灶僅限於肝臟，以及技術上無法切除的CLM。嚴格要求包括接受全身性治療期間，疾病須維持穩定或有治療反應達6個月，以及必須有8週的治療暫停期。不因CEA絕對值或特定體細胞突變而排除病人。另建立全國性的Be-LIAC治理模式，結合各中心的前瞻性決策、中央稽核及以登錄資料為基礎的評估。\n結論：已建立針對uCLM接受LTx的全國一致規範，確保比利時所有中心採用一致的病人篩選方式。更嚴格的條件與全國治理模式，旨在優化治療結果，同時維持符合倫理的捐贈器官分配。",
+   "evidence_level": "其他",
+   "score": 6,
+   "score_reason": "此為6家移植中心共同制定的共識規範，具轉介與跨科討論價值，但不是療效比較研究，摘要亦未報告實際病人結果。台灣若考慮此適應症，仍須評估本地器官分配與執行條件。",
+   "relevance": "高度相關",
+   "relevance_why": "直接涉及不可切除大腸直腸癌肝轉移的治療選擇，以及大腸直腸外科與移植團隊的轉介門檻。",
+   "novelty": "仍屬早期",
+   "one_liner": "比利時6中心制定不可切除肝轉移的移植共識，要求病況穩定或反應達6個月；未比較療效。",
+   "action": "對僅肝轉移、技術上不可切除且全身治療控制達6個月者，提MDT討論移植評估；勿自行停藥8週。",
+   "pico": {
+    "P": "可能適合肝臟移植的不可切除大腸直腸癌肝轉移病人；未提供病人人數。規範由比利時6家移植中心共同制定。",
+    "I": "全國一致的肝臟移植適應症與篩選規範，結合地方決策、中央稽核及登錄評估。",
+    "C": "無對照組",
+    "O": "制定移植納入與排除條件及全國治理模式；未報告病人存活、復發、移植併發症或其他臨床成效。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "6家移植中心參與，經3次全國會議及結構化投票",
+    "全身治療下穩定或有反應須達6個月；停治療8週",
+    "未報病人人數、存活率、復發率或組間療效比較"
+   ],
+   "cautions": [
+    "本篇是共識規範，不能據此認定移植優於全身治療。",
+    "無病人人數、對照組及療效估計，無法量化獲益與傷害。",
+    "8週停治療為篩選要求；摘要未報其進展風險與安全性。"
+   ],
+   "unassessable": [
+    "文獻搜尋策略、納入研究品質評估及證據分級方式",
+    "結構化投票的共識門檻、各項同意比例及異議處理",
+    "完整納入與排除條件，以及技術上不可切除的判定標準",
+    "CEA與特定體細胞突變條件的具體適用範圍",
+    "8週治療暫停期的時序、監測方式與疾病進展處置",
+    "實際收案人數、追蹤完整性、存活、復發與移植相關傷害",
+    "捐贈來源、候補排序、器官分配影響及成本效益",
+    "利益衝突與資金來源"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 2856,
+    "input_tokens_details": {
+     "cache_write_tokens": 2853,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1650,
+    "output_tokens_details": {
+     "reasoning_tokens": 212
+    },
+    "total_tokens": 4506
+   },
+   "added_at": "2026-10-16T08:09:51+08:00"
+  },
+  {
+   "pmid": "42874562",
+   "title": "Pleiotropic roles of microbial bile acid metabolism in intestinal health and diseases",
+   "journal": "Cell Host Microbe",
+   "journal_full": "Cell host & microbe",
+   "issn": "1934-6069",
+   "issn_linking": "1931-3128",
+   "impact_factor": 23.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1016/j.chom.2026.09.010",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Qi M, Liu X, Gonzalez F",
+   "abstract": "Perturbation of microbial-derived bile acid (BA) metabolism is strongly linked to the pathogenesis of intestinal diseases, including inflammatory bowel disease, enteric infections, and colorectal cancer. Recent advances in artificial intelligence-assisted pipelines have enabled the identification of BA modification reactions, which have uncovered novel targets and the mechanisms contributing to intestinal diseases. In this review, we summarize recent studies on microbial enzymatic pathways and modifications of BAs, and their roles in promoting or preventing intestinal diseases. The mechanisms altering gut microbiota populations and microbial BA metabolic landscapes that influence intestinal diseases are further examined along with how microbial-derived BAs modulate intestinal immune responses. Based on these advances, we suggest different dietary patterns that reshape the gut microbiota community and BAs to prevent intestinal diseases. We further discuss current challenges in basic and translational research on microbial BA modifications in intestinal homeostasis and propose future directions to drive progress in this field.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42344926",
+     "date": "2026-06-25",
+     "title_zh": "腸道微生物膽鹽水解酶作為消化道穩態與疾病之代謝守門者",
+     "score": 2,
+     "one_liner": "本文綜述腸道菌BSH酶如何調控膽酸代謝並與MASLD、IBD、CRC發病機制相關，並展望BSH導向的微菌叢治療策略。",
+     "sim": 0.207
+    },
+    {
+     "pmid": "42358979",
+     "date": "2026-06-26",
+     "title_zh": "腸道微生物群代謝物在發炎性腸道疾病中的作用：機轉洞見的最新進展",
+     "score": 2,
+     "one_liner": "本綜述整合腸道微生物代謝物（SCFAs、膽酸、色胺酸衍生物）如何透過免疫調節網絡參與IBD致病機制，屬機轉性文獻回顧，無臨床數據。",
+     "sim": 0.202
+    },
+    {
+     "pmid": "42627455",
+     "date": "2026-08-22",
+     "title_zh": "肥胖中的內源性大麻素組-腸道微生物軸：與大腸直腸癌發展之潛在連結",
+     "score": 1,
+     "one_liner": "本綜述提出肥胖相關eCBome-腸道微生物軸失調可能透過屏障破壞、內毒素血症、NF-κB活化等機轉影響CRC發生，屬理論推論、無直接研究證實。",
+     "sim": 0.193
+    }
+   ],
+   "title_zh": "微生物膽酸代謝在腸道健康與疾病中的多重作用",
+   "abstract_zh": "微生物來源膽酸（BA）代謝的擾動，與腸道疾病的致病機轉密切相關，包括發炎性腸道疾病、腸道感染及大腸直腸癌。近期人工智慧輔助分析流程的進展，使研究者得以辨識膽酸修飾反應，進而揭示新的標的及促成腸道疾病的機轉。在本綜述中，我們彙整近期有關微生物酵素途徑與膽酸修飾的研究，以及它們在促進或預防腸道疾病中的作用。我們進一步探討改變腸道微生物群組成及微生物膽酸代謝樣貌、進而影響腸道疾病的機轉，並檢視微生物來源膽酸如何調節腸道免疫反應。基於這些進展，我們提出可重塑腸道微生物群落與膽酸組成、以預防腸道疾病的不同飲食模式。我們也進一步討論微生物膽酸修飾在腸道恆定中的基礎與轉譯研究目前面臨的挑戰，並提出推動此領域進展的未來方向。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "摘要提供機轉整合，但未呈現文獻搜尋方法、臨床樣本或療效數據，無法判定飲食建議的臨床證據強度。對台灣大腸直腸外科即時決策幫助有限，較值得有微生物或膽酸研究需求者閱讀全文。",
+   "relevance": "低度相關",
+   "relevance_why": "雖涉及IBD與大腸直腸癌，但重點為微生物膽酸代謝機轉，未提供可直接採用的外科或臨床介入證據。",
+   "novelty": "仍屬早期",
+   "one_liner": "本綜述無病人數或組間比較，整理微生物膽酸代謝與腸病機轉，未提供臨床效益數據。",
+   "action": "目前不需改變做法；勿僅據此為IBD或大腸直腸癌病人新增膽酸導向飲食處方。",
+   "pico": {
+    "P": "涵蓋IBD、腸道感染與大腸直腸癌的研究；摘要未提供研究篇數或病人總數。",
+    "I": "微生物膽酸代謝酵素途徑、膽酸修飾，以及重塑菌相與膽酸的飲食模式。",
+    "C": "無對照組",
+    "O": "探討腸道疾病促進或預防機轉、菌相與膽酸代謝變化及腸道免疫調節；未設定臨床主要或次要終點。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "納入研究篇數與病人總數：摘要未提供。",
+    "疾病發生、復發或存活的絕對數值：未提供。",
+    "組間效應、信賴區間及陰性結果：未提供。"
+   ],
+   "cautions": [
+    "機轉與疾病相關性不能證明調整膽酸可改善臨床結局。",
+    "飲食預防建議未附臨床效益數據，不宜直接轉為處方。",
+    "未報兩組絕對風險或效應區間，無法估算效益大小。"
+   ],
+   "unassessable": [
+    "文獻搜尋策略、納入排除條件及研究篩選流程",
+    "納入研究的數量、樣本數與人體／動物／體外研究比例",
+    "原始研究偏誤風險與整體證據確定性",
+    "若納入臨床試驗，其分派隱蔽、盲法、ITT分析、失訪率及試驗註冊",
+    "飲食模式的具體內容、劑量、介入期間、安全性與臨床效益",
+    "利益衝突、資金來源及成本效益"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "相較先前聚焦膽鹽水解酶（BSH）的綜述，本篇涵蓋更廣的微生物膽酸修飾途徑，並納入人工智慧輔助辨識反應及飲食調整的討論。相較先前IBD微生物代謝物綜述，本篇聚焦膽酸，並將疾病範圍延伸至腸道感染與大腸直腸癌；但摘要仍未提供足以支持臨床介入的效益數據。",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3023,
+    "input_tokens_details": {
+     "cache_write_tokens": 3020,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1350,
+    "output_tokens_details": {
+     "reasoning_tokens": 156
+    },
+    "total_tokens": 4373
+   },
+   "added_at": "2026-10-16T08:09:51+08:00"
+  },
+  {
+   "pmid": "42874557",
+   "title": "Mutant KRAS favors a microbe that signals back",
+   "journal": "Cell Host Microbe",
+   "journal_full": "Cell host & microbe",
+   "issn": "1934-6069",
+   "issn_linking": "1931-3128",
+   "impact_factor": 23.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1016/j.chom.2026.09.007",
+   "ptype": "Comment",
+   "ptype_list": [
+    "Comment"
+   ],
+   "authors": "Jiao N, Zhu L, Zhu R",
+   "abstract": "Tumor genetics and the microbiome both shape colorectal cancer, but their reciprocal interplay remains poorly defined. In this issue of Cell Host & Microbe, Jiao et al. show that mutant KRAS favors Bacteroides acidifaciens, which signals back through a SusF-ARHGEF2 axis to reinforce RAS-MAPK signaling.",
+   "watched": [],
+   "related": [],
+   "title_zh": "突變型 KRAS 有利於一種會反向傳遞訊號的微生物",
+   "abstract_zh": "腫瘤遺傳特徵與微生物群皆會形塑大腸直腸癌，但兩者之間的雙向交互作用仍未明確。在本期《Cell Host & Microbe》中，Jiao 等人顯示，突變型 KRAS 有利於 Bacteroides acidifaciens，而此菌會透過 SusF–ARHGEF2 軸反向傳遞訊號，進而強化 RAS–MAPK 訊號傳遞。",
+   "evidence_level": "其他",
+   "score": 3,
+   "score_reason": "這是機制研究的評論，摘要未提供原始研究設計、樣本數或量化結果，無法據此評估因果證據強度。對理解 KRAS 與菌群互動有啟發，但對台灣大腸直腸外科近期決策的實用性有限。",
+   "relevance": "低度相關",
+   "relevance_why": "主題涉及大腸直腸癌機制，但未提供手術、病人照護或可介入菌群的臨床證據。",
+   "novelty": "仍屬早期",
+   "one_liner": "此評論介紹突變型 KRAS 與菌群的回饋機制，未報族群人數、比較組或效應數字。",
+   "action": "目前不需改變做法；勿據此替 KRAS 突變大腸直腸癌病人安排菌群檢測或治療。",
+   "pico": {
+    "P": "大腸直腸癌相關研究；摘要未提供研究對象、模型及樣本數",
+    "I": "突變型 KRAS 與 Bacteroides acidifaciens 的交互作用",
+    "C": "摘要未交代比較對象",
+    "O": "SusF–ARHGEF2 軸與 RAS–MAPK 訊號傳遞；未報臨床結局或主次要終點"
+   },
+   "effects": [],
+   "key_numbers": [
+    "研究樣本數：摘要未提供",
+    "兩組絕對事件數或發生率：摘要未提供",
+    "效應量、信賴區間及陰性結果：均未提供"
+   ],
+   "cautions": [
+    "本文為評論，不能替代 Jiao 等人的原始研究。",
+    "機制訊號不等於臨床獲益，勿外推為菌群治療有效。",
+    "未報樣本數、效應量或信賴區間，無法判斷效果大小。"
+   ],
+   "unassessable": [
+    "原始研究設計、研究模型及是否包含人體資料",
+    "樣本數、比較組設定與基線特徵",
+    "隨機化、分配隱匿及盲法是否適用與如何執行",
+    "ITT 分析、失訪率及缺失資料處理是否適用與如何執行",
+    "機制因果驗證、混雜控制及結果再現性",
+    "試驗註冊、研究計畫與選擇性報告",
+    "利益衝突及資金來源",
+    "臨床療效、安全性與成本效益"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 2563,
+    "input_tokens_details": {
+     "cache_write_tokens": 2560,
+     "cached_tokens": 0
+    },
+    "output_tokens": 997,
+    "output_tokens_details": {
+     "reasoning_tokens": 154
+    },
+    "total_tokens": 3560
+   },
+   "added_at": "2026-10-16T08:09:51+08:00"
+  },
+  {
+   "pmid": "42876361",
+   "title": "Functionally declining microbiota in chronic disease: beyond taxonomic loss",
+   "journal": "Gut Microbes",
+   "journal_full": "Gut microbes",
+   "issn": "1949-0984",
+   "issn_linking": "1949-0976",
+   "impact_factor": 15.3,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Dec",
+   "doi": "10.1080/19490976.2026.2748134",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Kim H",
+   "abstract": "Microbiota deterioration in modern human populations has been linked to chronic disease, and taxonomic profiling is increasingly used to understand, diagnose, and guide treatment. Yet such profiles do not fully capture disease-relevant microbiota states. I propose functional decline within retained taxa as a distinct axis of microbiota deterioration, complementary to taxonomic loss. Modern environmental pressures can drive not only taxonomic loss but also directional selection toward variants or lineages with reduced host-beneficial function or increased harmful activity. Two mechanistically characterized systems from studies by my group illustrate this process: antibiotic-selected Akkermansia variants with diminished metabolic benefits, and Faecalibacterium pathobionts that promote disease when dominant over beneficial strains, with supporting evidence from atopic dermatitis and pediatric inflammatory bowel disease. Evidence from additional gut taxa suggests that this pattern may extend beyond these two examples. By integrating this hidden axis of functional decline with the well-established axis of taxonomic loss, the proposed two-axis framework could help clarify inconsistent microbiota-disease associations and guide strain-resolved, function-first approaches to microbiota analysis and intervention.",
+   "watched": [],
+   "related": [],
+   "title_zh": "慢性疾病中功能衰退的微生物群：超越分類群流失",
+   "abstract_zh": "現代人群的微生物群劣化已被認為與慢性疾病有關，而分類組成分析也日益被用來理解疾病、進行診斷及指引治療。然而，這類分析無法完整呈現與疾病相關的微生物群狀態。我提出，仍保留之分類群內的功能衰退，是微生物群劣化的一個獨立面向，與分類群流失互為補充。現代環境壓力不僅可能導致分類群流失，也可能促成定向選擇，使宿主有益功能降低或有害活性增加的變異株或譜系受到選擇。我研究團隊的研究中，兩個已釐清機轉的系統可說明此過程：經抗生素篩選、代謝益處減弱的 Akkermansia（阿克曼氏菌屬）變異株，以及當其相較於有益菌株占優勢時會促進疾病的 Faecalibacterium（糞桿菌屬）條件致病菌，並有來自異位性皮膚炎及兒童發炎性腸道疾病研究的證據支持。其他腸道分類群的證據顯示，此模式可能不僅限於上述兩個例子。將這個隱藏的功能衰退面向，與已充分確立的分類群流失面向整合後，所提出的雙軸架構可能有助於釐清不一致的微生物群與疾病關聯，並引導具菌株解析度、功能優先的微生物群分析與介入策略。",
+   "evidence_level": "綜述",
+   "score": 4,
+   "score_reason": "提出具機轉基礎的概念架構，但摘要未提供系統性文獻搜尋方法或可量化的臨床效果。對解讀菌相研究有啟發，對台灣大腸直腸外科的即時治療決策幫助有限。",
+   "relevance": "中度相關",
+   "relevance_why": "涉及腸道菌相與兒童發炎性腸道疾病，但未直接評估外科介入、術後結果或成人臨床療效。",
+   "novelty": "仍屬早期",
+   "one_liner": "本綜述以兩個菌群系統提出：菌群即使未流失，仍可能因菌株功能衰退而促進疾病。",
+   "action": "目前不需改變做法；勿僅依菌屬豐度替 IBD 病人選擇菌相介入，本文未提供臨床療效證據。",
+   "pico": {
+    "P": "慢性疾病相關微生物群研究，涵蓋異位性皮膚炎及兒童發炎性腸道疾病；摘要未提供總人數",
+    "I": "保留分類群內的菌株功能衰退，包括抗生素篩選的變異株及條件致病菌占優勢",
+    "C": "無單一臨床對照組；概念上對照僅以分類群流失解釋微生物群劣化的觀點",
+    "O": "宿主有益功能減弱、有害活性增加及疾病促進；未設定單一主要或次要臨床 outcome"
+   },
+   "effects": [],
+   "key_numbers": [
+    "提出雙軸架構：分類群流失與群內功能衰退",
+    "以 2 個機轉系統說明：Akkermansia、Faecalibacterium",
+    "未報樣本數、絕對事件率或陰性結果，無法量化效果"
+   ],
+   "cautions": [
+    "機轉與概念架構不等於菌相介入可改善臨床結局",
+    "核心例證來自作者團隊，文獻選取完整性待查",
+    "未報樣本數、絕對效果或信賴區間，效益大小不明"
+   ],
+   "unassessable": [
+    "文獻搜尋策略、納入排除標準及是否系統性評估偏誤",
+    "各原始研究的設計、樣本數及效應估計精確度",
+    "原始介入研究若適用，其隨機化、分派隱蔽、盲法及 ITT 分析",
+    "原始臨床研究的追蹤期間、失訪率與試驗註冊",
+    "利益衝突與資金來源",
+    "成人 IBD、外科病人及台灣族群的適用性",
+    "菌株層級檢測及功能導向介入的成本與臨床效益"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 2712,
+    "input_tokens_details": {
+     "cache_write_tokens": 2709,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1203,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 3915
+   },
+   "added_at": "2026-10-16T08:09:51+08:00"
+  },
+  {
+   "pmid": "42871980",
+   "title": "Immune checkpoint inhibitors and the inflammatory dysregulation: decoding cutaneous and gastrointestinal immune-related adverse events for the allergist and immunologist",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1136/jitc-2021-003731",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Wasim M, Ma G, Wang Y",
+   "abstract": "Immune checkpoint inhibitors (ICIs) targeting programmed cell death protein 1 (PD-1), its ligand (PD-L1), and cytotoxic T-lymphocyte-associated protein 4 (CTLA-4) have revolutionized oncology, yet they unleash a unique spectrum of inflammatory toxicities known as immune-related adverse events (irAEs). Cutaneous and gastrointestinal irAEs represent the most frequent and clinically challenging manifestations encountered by allergists and clinical immunologists. Unlike classical type I-IV hypersensitivity reactions, irAEs arise from disruption of peripheral immune tolerance, leading to T-cell hyperactivation, B-cell dysregulation with IgE and IgG4 skewing, and pro-inflammatory cytokine networks dominated by interleukin (IL)-6, IL-17, and interferon-gamma. IrAEs are best conceptualized as a distinct category of drug-induced autoimmunity, rather than a fifth type of hypersensitivity reaction. This review provides a comprehensive, clinically actionable framework for the practicing allergist. We dissect the divergent pathophysiology of anti-CTLA-4 versus anti-PD-1 toxicities, characterize the full spectrum of cutaneous eruptions and delineate the grading and management of ICI-induced colitis, which mimics inflammatory bowel disease but has distinct immune signatures. We critically evaluate emerging biomarkers (eosinophilia, serum IL-6, and fecal calprotectin) and present an evidence-based algorithm for step-up therapy: from topical corticosteroids and antihistamines for grade 1-2 rash, to systemic corticosteroids for grade 2-3 colitis, and biologic agents (infliximab, vedolizumab, tocilizumab, dupilumab) for corticosteroid-refractory cases. A dedicated section tackles the allergist's most challenging dilemma (rechallenge after severe irAEs) providing evidence-based guidance. We identify critical knowledge gaps: pre-existing atopy as a risk factor, antihistamine prophylaxis utility, and overlapping toxicity management. This review repositions allergists as essential oncology partners, advancing irAE care from crisis response to precision immuno-toxicology.",
+   "watched": [],
+   "related": [],
+   "title_zh": "免疫檢查點抑制劑與發炎失調：為過敏及免疫專科醫師解析皮膚與胃腸道免疫相關不良事件",
+   "abstract_zh": "針對程式性細胞死亡蛋白 1（PD-1）、其配體（PD-L1）及細胞毒性 T 淋巴球相關蛋白 4（CTLA-4）的免疫檢查點抑制劑（ICIs），已徹底改變腫瘤治療，卻也引發一系列獨特的發炎毒性，稱為免疫相關不良事件（irAEs）。皮膚及胃腸道 irAEs，是過敏專科與臨床免疫專科醫師最常遇到、也最具臨床挑戰的表現。不同於傳統第 I 至 IV 型過敏反應，irAEs 源於周邊免疫耐受遭到破壞，導致 T 細胞過度活化、伴隨 IgE 與 IgG4 偏向的 B 細胞失調，以及以介白素（IL）-6、IL-17 和干擾素 γ 為主的促發炎細胞激素網絡。irAEs 最適合被理解為一種獨立類別的藥物誘發自體免疫現象，而非第五型過敏反應。本綜述為執業中的過敏專科醫師提供全面且可供臨床應用的架構。我們剖析抗 CTLA-4 與抗 PD-1 治療毒性之間不同的病理生理機轉，描述完整的皮疹表現範圍，並闡述 ICI 誘發結腸炎的分級與處置；此類結腸炎雖類似發炎性腸道疾病，卻具有不同的免疫特徵。我們批判性評估新興生物標記（嗜酸性球增多、血清 IL-6 及糞便鈣衛蛋白），並提出以實證為基礎的升階治療流程：從第 1–2 級皮疹使用局部類固醇與抗組織胺，到第 2–3 級結腸炎使用全身性類固醇，再到類固醇難治病例使用生物製劑（infliximab、vedolizumab、tocilizumab、dupilumab）。另設專節處理過敏專科醫師最具挑戰性的難題，即嚴重 irAEs 後重新使用 ICI，並提供實證導向的建議。我們指出幾項關鍵知識缺口：既存異位性體質是否為風險因子、預防性使用抗組織胺的效用，以及重疊毒性的處置。本綜述重新定位過敏專科醫師，使其成為腫瘤照護不可或缺的合作夥伴，推動 irAE 照護從危機應對邁向精準免疫毒理學。",
+   "evidence_level": "綜述",
+   "score": 5,
+   "score_reason": "可作為 ICI 相關結腸炎分級與跨科處置的閱讀入口，但摘要未交代文獻搜尋、證據評讀方式或量化療效。對大腸直腸外科有選擇性實用價值，尚不足以據此改變治療。",
+   "relevance": "中度相關",
+   "relevance_why": "ICI 相關結腸炎與大腸直腸癌照護有交集，但本文主要面向過敏及免疫專科，並非外科介入研究。",
+   "novelty": "再確認已知",
+   "one_liner": "本綜述整理 ICI 皮膚與腸道毒性及升階治療，無比較族群、人數或量化療效。",
+   "action": "目前不需改變做法；遇 ICI 相關腹瀉可讀全文核對分級與升階治療，摘要無比較療效資料。",
+   "pico": {
+    "P": "發生 ICI 相關皮膚或胃腸道不良事件的患者；綜述摘要未提供總人數",
+    "I": "irAEs 機轉、生物標記、分級、升階治療及嚴重事件後重新使用 ICI 的處置架構",
+    "C": "無對照組",
+    "O": "未設定單一主要或次要結局；討論毒性辨識、分級、治療及重新使用 ICI 的決策"
+   },
+   "effects": [],
+   "key_numbers": [
+    "第 1–2 級皮疹：討論局部類固醇與抗組織胺",
+    "第 2–3 級結腸炎：討論全身性類固醇",
+    "未提供樣本數、絕對事件率或組間陰性結果"
+   ],
+   "cautions": [
+    "綜述未呈現量化比較，無法估計治療效益與傷害。",
+    "生物製劑跨皮膚與腸道適應情境，不可視為結腸炎等效選項。",
+    "生物標記與重新使用 ICI 建議未附效能或復發率，勿直接套用。"
+   ],
+   "unassessable": [
+    "文獻搜尋策略、資料庫、搜尋期間及納入排除標準",
+    "納入研究的設計、樣本數、偏誤風險與證據確定性",
+    "各生物製劑針對不同器官毒性的療效、安全性及比較證據",
+    "生物標記的診斷或預測效能、閾值與外部驗證",
+    "嚴重 irAEs 後重新使用 ICI 的選案條件與復發風險",
+    "利益衝突、資金來源及成本分析"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 2943,
+    "input_tokens_details": {
+     "cache_write_tokens": 2940,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1743,
+    "output_tokens_details": {
+     "reasoning_tokens": 266
+    },
+    "total_tokens": 4686
+   },
+   "added_at": "2026-10-16T08:09:51+08:00"
+  },
+  {
+   "pmid": "42871812",
+   "title": "Exploring tumor-derived exosomes as promising antigenic platforms: novel vaccine and immunotherapy strategies for \"cold\" colorectal cancer",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1080/14712598.2020.1813276",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Liu X, Wang X",
+   "abstract": "Colorectal cancer (CRC) remains a formidable clinical challenge, largely due to the prevalence of microsatellite-stable tumors characterized by an immunologically \"cold\" tumor microenvironment (TME) that is resistant to immune checkpoint inhibitors (ICIs). Tumor-derived exosomes (TEXs) play a paradoxical dual role in this landscape. Native TEXs actively orchestrate immune evasion by delivering immunosuppressive molecules, such as programmed cell death 1 ligand 1 (PD-L1) and transforming growth factor-beta (TGF-β), which impair cytotoxic T-cell function and promote the expansion of regulatory T cells and M2 macrophages. Conversely, TEXs possess inherent biocompatibility and naturally harbor a broad repertoire of tumor-associated antigens (TAAs) and major histocompatibility complex (MHC) molecules, positioning them as potential cell-free platforms for cancer vaccination. Current evidence demonstrates that native TEXs establish their immunosuppressive niche primarily through the systemic PD-1/PD-L1 axis and microRNA-driven macrophage polarization. However, preclinical studies indicate that exosome engineering strategies-such as masking surface PD-L1 or loading vesicles with immune adjuvants, siRNAs, or CRISPR components-can effectively neutralize these suppressive traits and amplify antigen presentation. While clinical data in CRC remain limited, engineered TEXs exhibit strong preclinical promise for synergizing with ICIs to reprogram cold CRC into immune-responsive \"hot\" tumors. Advancing these early-stage therapies from the bench to the clinic will require overcoming significant translational hurdles, particularly regarding standardized isolation protocols and scalable manufacturing.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42353833",
+     "date": "2026-06-26",
+     "title_zh": "微衛星表型作為大腸直腸癌免疫治療指引：現況與未來展望",
+     "score": 3,
+     "one_liner": "本文為綜述，總結MSI-H/dMMR與MSS/pMMR大腸直腸癌對免疫檢查點抑制劑反應差異之分子機轉與現行治療策略。",
+     "sim": 0.158
+    }
+   ],
+   "title_zh": "探索腫瘤來源外泌體作為具潛力的抗原平台：「冷」大腸直腸癌的新型疫苗與免疫治療策略",
+   "abstract_zh": "大腸直腸癌（CRC）仍是嚴峻的臨床挑戰，主要原因在於微衛星穩定型腫瘤相當常見，其特徵為免疫學上的「冷」腫瘤微環境（TME），對免疫檢查點抑制劑（ICIs）具有抗性。腫瘤來源外泌體（TEXs）在此情境中扮演矛盾的雙重角色。天然 TEXs 透過傳遞免疫抑制分子，例如程式性細胞死亡蛋白 1 配體 1（PD-L1）與轉化生長因子 β（TGF-β），主動促成免疫逃脫；這些分子會損害細胞毒性 T 細胞功能，並促進調節型 T 細胞與 M2 巨噬細胞的擴增。另一方面，TEXs 具有內在的生物相容性，且天然攜帶種類廣泛的腫瘤相關抗原（TAAs）及主要組織相容性複合體（MHC）分子，因此有望成為癌症疫苗的無細胞平台。目前證據顯示，天然 TEXs 主要透過全身性的 PD-1/PD-L1 軸與微小 RNA 驅動的巨噬細胞極化，建立其免疫抑制性微環境。然而，臨床前研究指出，外泌體工程策略，例如遮蔽表面 PD-L1，或在囊泡內裝載免疫佐劑、siRNA 或 CRISPR 組件，可有效抵消這些抑制特性並增強抗原呈現。儘管 CRC 的臨床資料仍有限，工程化 TEXs 在臨床前研究中展現出與 ICIs 協同作用的強大潛力，可望將冷 CRC 重塑為具有免疫反應的「熱」腫瘤。要將這些早期療法從實驗室推進至臨床，仍須克服重大的轉譯障礙，尤其是標準化分離流程與可規模化製造方面的問題。",
+   "evidence_level": "綜述",
+   "score": 3,
+   "score_reason": "本文提供 TEXs 疫苗平台的機轉與轉譯概念，但摘要未提供人體比較療效或量化結果，無法據此判斷臨床效益。對台灣大腸直腸外科的近期決策幫助有限，較值得有免疫治療轉譯研究需求者讀全文。",
+   "relevance": "中度相關",
+   "relevance_why": "聚焦常見的 MSS 大腸直腸癌免疫抗性，但介入仍以臨床前研究為主，尚非外科常規處置。",
+   "novelty": "仍屬早期",
+   "one_liner": "針對冷CRC（人數未報），綜述天然與工程化TEXs的免疫作用；僅述臨床前潛力，無量化療效。",
+   "action": "目前不需改變做法；對MSS大腸直腸癌病人，勿將TEXs疫苗列為常規治療，人體效益未明。",
+   "pico": {
+    "P": "免疫學上屬「冷」腫瘤的大腸直腸癌，重點為微衛星穩定型（MSS）；綜述涵蓋人數未提供。",
+    "I": "工程化腫瘤來源外泌體，包括遮蔽 PD-L1、裝載免疫佐劑、siRNA 或 CRISPR 組件，以及與 ICIs 併用。",
+    "C": "無單一明確對照組；概念上討論天然與工程化 TEXs。",
+    "O": "未指定主要或次要 outcome；討論免疫抑制、抗原呈現、腫瘤免疫反應及臨床轉譯障礙。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "樣本數與納入研究篇數：摘要未提供",
+    "兩組絕對療效及安全性數據：摘要未提供",
+    "效應量、信賴區間及陰性結果：摘要未提供"
+   ],
+   "cautions": [
+    "臨床前免疫活化不等於人體腫瘤控制或存活改善",
+    "未提供樣本數、對照組或效應量，無法估計效益大小",
+    "天然TEXs具免疫抑制性；工程化後安全性仍待驗證"
+   ],
+   "unassessable": [
+    "文獻搜尋策略、納入排除標準與證據完整性",
+    "納入研究的設計、樣本數及偏誤風險",
+    "如有納入臨床試驗，其分派隱蔽、盲法、ITT、失訪率及試驗註冊",
+    "人體療效、劑量、給藥途徑與長期安全性",
+    "利益衝突與資金來源",
+    "製造品質一致性、成本及台灣臨床可近性"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "前作綜述 MSI-H/dMMR 與 MSS/pMMR 大腸直腸癌對 ICIs 的反應差異及治療策略；本篇進一步聚焦 TEXs 的免疫抑制與抗原載體雙重角色。它延伸了 MSS 冷腫瘤的治療策略討論，但尚未提供足以改變實務的人體比較療效證據。",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 2949,
+    "input_tokens_details": {
+     "cache_write_tokens": 2946,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1429,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 4378
+   },
+   "added_at": "2026-10-16T08:09:51+08:00"
+  },
+  {
+   "pmid": "42870414",
+   "title": "Hybrid Molecular Imaging Using PET/CT and PET/MRI in Inflammatory Bowel Disease: Current Applications, Challenges, and Future Perspectives",
+   "journal": "Med Sci Monit",
+   "journal_full": "Medical science monitor : international medical journal of experimental and clinical research",
+   "issn": "1643-3750",
+   "issn_linking": "1234-1010",
+   "impact_factor": 2.5,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.12659/MSM.953971",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Li Y, Wang M, Liu B, Yuan Z, Yang W, Yao W",
+   "abstract": "Hybrid molecular imaging is increasingly recognized as a valuable tool for the precision management of inflammatory bowel disease (IBD). Driven by the treat-to-target paradigm, the noninvasive quantification of transmural inflammation and the accurate differentiation of stricture phenotypes remain key clinical challenges. Current evidence indicates that although 2-deoxy-2-¹⁸F-fluoro-D-glucose (¹⁸F-FDG) positron emission tomography (PET) can effectively quantify the overall inflammatory burden, the integration of fibroblast activation protein inhibitor (FAPI)-targeted PET imaging provides important complementary value for characterizing fibro-inflammatory remodeling and distinguishing fibrotic strictures. By combining high metabolic sensitivity with high-resolution multiparametric soft-tissue characterization, PET/magnetic resonance imaging (MRI) has demonstrated potential advantages in assessing penetrating complications and facilitating longitudinal therapeutic monitoring. Pediatric and young adult patients requiring long-term follow-up may derive substantial benefit from the reduced radiation exposure offered by integrated PET/MRI systems. To overcome conventional method limitations, including physiologic intestinal uptake and attenuation-correction artifacts, the field is actively exploring novel molecularly targeted tracers, ultra-low-dose long-axial-field-of-view whole-body systems, and artificial intelligence-based image reconstruction techniques. Given that substantial current evidence is derived from small, single-center cohorts and experimental studies, these advanced modalities currently serve as adjunctive, problem-solving tools rather than routine replacements for standard endoscopy or conventional cross-sectional imaging. This review comprehensively evaluates the clinical performance, applicability, and translational barriers of hybrid molecular imaging in IBD, underscoring the urgent need to establish standardized, multicenter consensus protocols that can guide its future implementation in individualized therapeutic strategies.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42855213",
+     "date": "2026-10-11",
+     "title_zh": "胃腸道之PET/MR影像",
+     "score": 3,
+     "one_liner": "本綜述整理PET/MR於胃腸道腫瘤（含大腸直腸癌肝轉移偵測、局部分期、治療後反應評估）及發炎性腸病之應用現況，未提供新實證數據。",
+     "sim": 0.26
+    },
+    {
+     "pmid": "42640498",
+     "date": "2026-08-26",
+     "title_zh": "大腸直腸癌肝轉移組織病理生長模式之非侵入性分子影像特徵",
+     "score": 3,
+     "one_liner": "本綜述提出以PET分子影像（FDG、RGD、FAPI等）非侵入性預測CRLM的三種組織病理生長模式，屬假說階段，尚無臨床驗證數據。",
+     "sim": 0.177
+    },
+    {
+     "pmid": "42824375",
+     "date": "2026-10-03",
+     "title_zh": "繪製腫瘤免疫微環境的物理拓樸：巨觀影像碎形作為大腸直腸癌肝轉移免疫排除表型與治療抗性的替代標記",
+     "score": 3,
+     "one_liner": "在270名CRLM病人中，以MRI/PET碎形結合SII與KRAS建構的IRJS評分預測免疫發炎表型（AUC 0.86-0.92）與整體存活（HR 0.31）。",
+     "sim": 0.153
+    }
+   ],
+   "title_zh": "PET/CT與PET/MRI混合式分子影像於發炎性腸病：目前應用、挑戰與未來展望",
+   "abstract_zh": "混合式分子影像日益被認為是發炎性腸病（IBD）精準管理的重要工具。在達標治療（treat-to-target）模式的推動下，如何非侵入性地量化腸壁全層發炎，以及準確區分狹窄表型，仍是重要的臨床挑戰。目前證據顯示，雖然2-去氧-2-¹⁸F-氟-D-葡萄糖（¹⁸F-FDG）正子斷層造影（PET）可有效量化整體發炎負荷，整合以纖維母細胞活化蛋白抑制劑（FAPI）為標靶的PET影像，對於描述纖維化與發炎性重塑，以及辨識纖維化狹窄，具有重要的互補價值。藉由結合高度代謝偵測敏感度與高解析度、多參數的軟組織特性分析，PET／磁振造影（MRI）在評估穿透性併發症及協助長期治療監測方面，已展現潛在優勢。需要長期追蹤的兒童及年輕成人患者，可能因整合式PET/MRI系統所提供的較低輻射暴露而獲得實質益處。為克服傳統方法的限制，包括腸道生理性攝取與衰減校正偽影，該領域正積極探索新型分子標靶示蹤劑、超低劑量長軸向視野全身影像系統，以及以人工智慧為基礎的影像重建技術。鑑於目前相當部分的證據來自小型、單中心世代研究及實驗性研究，這些先進影像技術現階段應作為輔助性、解決特定臨床疑難的工具，而非例行取代標準內視鏡或傳統橫斷面影像檢查。本綜述全面評估混合式分子影像於IBD的臨床表現、適用性與轉譯障礙，並強調迫切需要建立標準化的多中心共識作業規範，以引導未來將其應用於個人化治療策略。",
+   "evidence_level": "綜述",
+   "score": 3,
+   "score_reason": "可作為IBD新型影像的入門綜述，但摘要未提供診斷效能或病人重要結局的量化資料，且現有證據多來自小型研究。對處理複雜狹窄的團隊有背景閱讀價值，尚不足以改變常規外科決策。",
+   "relevance": "中度相關",
+   "relevance_why": "涉及IBD狹窄及穿透性併發症的評估，但主要討論尚未成熟的影像工具，未直接驗證手術決策或結局。",
+   "novelty": "仍屬早期",
+   "one_liner": "在IBD文獻（人數未報）中，整理FDG、FAPI PET及PET/MRI；無直接比較或量化效益。",
+   "action": "目前不需改變做法；IBD狹窄或穿透性病灶仍依標準評估，勿以PET取代內視鏡或常規影像。",
+   "pico": {
+    "P": "發炎性腸病患者，涵蓋狹窄、穿透性併發症及需長期追蹤者；納入研究數與總人數未報。",
+    "I": "PET/CT、PET/MRI及FDG、FAPI等分子示蹤影像。",
+    "C": "無對照組；敘述性討論標準內視鏡及傳統橫斷面影像，未提供直接比較資料。",
+    "O": "討論發炎負荷量化、狹窄表型辨識、穿透性併發症評估、治療監測與輻射暴露；未指定主要及次要結局。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "納入研究數與總病人數：摘要未提供",
+    "敏感度、特異度及信賴區間：摘要未提供",
+    "輻射劑量與臨床結局差異：摘要未提供"
+   ],
+   "cautions": [
+    "影像表徵潛力不等於能改善手術選擇或病人結局。",
+    "現有證據多為小型單中心及實驗研究，外推受限。",
+    "未報診斷效能、絕對效益或信賴區間，無法量化優勢。"
+   ],
+   "unassessable": [
+    "文獻搜尋策略、搜尋期間及納入排除標準",
+    "納入研究數、總樣本數及各研究設計分布",
+    "納入研究的偏誤風險與證據確定性評估",
+    "狹窄表型判定的參考標準及影像判讀盲法",
+    "與標準檢查直接比較的診斷效能及信賴區間",
+    "影像結果是否改變治療決策或改善病人重要結局",
+    "實際輻射劑量、成本效益及台灣可近性",
+    "綜述是否註冊、資金來源與利益衝突"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "相較先前《胃腸道之PET/MR影像》涵蓋胃腸腫瘤與IBD的廣泛整理，本篇聚焦IBD，延伸討論FAPI、狹窄表型及長期監測的應用。兩者皆屬綜述，不能視為新增臨床驗證；另兩篇CRLM研究與本篇的疾病及臨床問題不同。",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3196,
+    "input_tokens_details": {
+     "cache_write_tokens": 0,
+     "cached_tokens": 3193
+    },
+    "output_tokens": 1666,
+    "output_tokens_details": {
+     "reasoning_tokens": 161
+    },
+    "total_tokens": 4862
+   },
+   "added_at": "2026-10-16T08:09:51+08:00"
+  }
+ ]
+}
