@@ -1,0 +1,589 @@
+{
+ "batch_id": null,
+ "date": "2026-10-17",
+ "submitted_at": "2026-10-17T08:13:15+08:00",
+ "provider": "openai",
+ "model": "gpt-6.1-sol",
+ "papers": [
+  {
+   "pmid": "42880720",
+   "title": "Tofacitinib 20 vs 30 mg in acute severe ulcerative colitis: a double-blind randomized controlled trial",
+   "journal": "J Crohns Colitis",
+   "journal_full": "Journal of Crohn's & colitis",
+   "issn": "1876-4479",
+   "issn_linking": "1873-9946",
+   "impact_factor": 10.3,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1093/ecco-jcc/jjag147",
+   "ptype": "Randomized Controlled Trial, Comparative Study",
+   "ptype_list": [
+    "Randomized Controlled Trial",
+    "Comparative Study"
+   ],
+   "authors": "Singh A, Garg A, Bhardwaj A, Singh D, Thakur A, Kaur L",
+   "abstract": "BACKGROUND & AIMS: Tofacitinib has emerged as a promising therapy for acute severe ulcerative colitis (ASUC) due to its rapid onset of action. We compared the efficacy and safety of tofacitinib 20 mg/day vs 30 mg/day, both administered with intravenous corticosteroids (IVCS), in patients with ASUC.\nMETHODS: This was a double-blind, pilot, randomized controlled trial. Adult patients with ASUC were randomized to receive either tofacitinib 20 mg/day (Group 1) or 30 mg/day (Group 2) along with IVCS (hydrocortisone, 100 mg IV every 6 hours). The primary endpoint was clinical response by day 7. The secondary outcome was the cumulative probability of medical rescue therapy or post discharge escalation of therapy or colectomy within 90 days.\nRESULTS: Seventy-two patients were randomized, with 36 allocated to each treatment group. At day 7, clinical response was achieved in 33/36 (91.7%) patients in Group 1 and 31/36 (86.1%) in Group 2(RR 1.06, 95% CI 0.90-1.25; P = .46). The absolute difference in response rates was 5.6% (95% CI -9.98% to 21.34%). Rescue therapy was required in 3 patients in Group 1 (all received infliximab) and 5 patients in Group 2 (2 underwent colectomy and 3 received infliximab). Event-free survival at 90 days, defined as the absence of rescue therapy, treatment escalation, or colectomy, was similar between groups (83.3% vs 80.2%; log-rank P = .74). Adverse events were predominantly mild, with no reported venous thromboembolism or major adverse cardiovascular events.\nCONCLUSIONS: In this exploratory pilot trial, no statistically significant differences were observed with tofacitinib 30 mg/day compared with 20 mg/day when administered with IVCS.\nCLINICAL TRIAL REGISTRATION NUMBER: Clinical Trials Registry-India: CTRI/2024/10/075098.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42768925",
+     "date": "2026-09-23",
+     "title_zh": "Tacrolimus 與 Infliximab 作為靜脈類固醇難治型急性重症潰瘍性結腸炎(ASUC)之救援治療：多中心世代研究比較其療效與安全性",
+     "score": 6,
+     "one_liner": "在300名IVCS難治型ASUC病人中，比較tacrolimus與infliximab，第14天緩解率無差異(41.6% vs 33.7%, RR 0.87)，但tacrolimus早期反應較慢。",
+     "sim": 0.423
+    },
+    {
+     "pmid": "42768925",
+     "date": "2026-09-24",
+     "title_zh": "Tacrolimus 與 Infliximab 作為靜脈類固醇難治型急性重度潰瘍性大腸炎（ASUC）之搶救治療：多中心世代研究比較其療效與安全性",
+     "score": 6,
+     "one_liner": "在300名IVCS難治型ASUC病人中，比較infliximab與tacrolimus，第14天緩解率相近（41.6% vs 33.7%），但tacrolimus早期反應較慢、大腸切除率有升高趨勢（13.3% vs 20.3%）。",
+     "sim": 0.423
+    },
+    {
+     "pmid": "42468955",
+     "date": "2026-07-19",
+     "title_zh": "托法替尼治療慢性儲袋炎的研究（STOPit）：多中心開放性誘導治療併隨機、雙盲、安慰劑對照維持治療試驗",
+     "score": 2,
+     "one_liner": "此為計畫書，描述將對72名慢性儲袋炎病人進行托法替尼誘導後隨機雙盲安慰劑對照維持治療試驗，尚無結果數據。",
+     "sim": 0.161
+    }
+   ]
+  },
+  {
+   "pmid": "42884177",
+   "title": "Beyond Taxonomy: Fungal Nutraceutical Supplementation Modifies the Functional Potential of the Gut Microbiome in Colorectal Cancer",
+   "journal": "Int J Mol Sci",
+   "journal_full": "International journal of molecular sciences",
+   "issn": "1422-0067",
+   "issn_linking": "1422-0067",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.3390/ijms27198936",
+   "ptype": "Randomized Controlled Trial",
+   "ptype_list": [
+    "Randomized Controlled Trial"
+   ],
+   "authors": "Rodríguez-Costas N, Rodríguez-Blanco A, Expósito C, Cubiella J, Stompel E, Fernández-de-Ana Portela C",
+   "abstract": "The gut microbiome is increasingly recognized as an important determinant of host immune regulation, intestinal homeostasis, and recovery after colorectal cancer (CRC) surgery. Although our previous randomized, double-blind, placebo-controlled clinical trial demonstrated that fungal nutraceutical supplementation with Micodigest® was associated with favorable taxonomic and systemic inflammatory changes in patients undergoing CRC surgery with curative intent, the functional consequences of this intervention remain poorly understood. Here, we performed a functional metagenomic analysis of fecal samples collected from patients enrolled in the original clinical trial to investigate whether Micodigest® supplementation was associated with changes in the functional potential of the gut microbiome. A total of 37 patients were analyzed, including 24 receiving Micodigest® and 13 receiving placebo, with paired samples collected before supplementation and after 4-6 weeks of intervention. Shallow shotgun metagenomic sequencing was performed, and microbial functional potential was characterized using KEGG Orthologues (KOs). Differential abundance analysis identified 14 significantly different KOs between groups at baseline and 23 after intervention, with no overlap between the two sets of orthologues. Following supplementation, Micodigest®-treated patients exhibited increased representation of functions related to CRISPR-associated systems, bacteriophage biology, and chitin-derived carbohydrate utilization, together with reduced representation of nutrient acquisition systems, conjugative transfer, sulfur metabolism, and components of the Wood-Ljungdahl pathway. These functional signatures suggest coordinated changes in microbial ecological adaptation, nutrient utilization, genetic exchange, and metabolic activity following fungal nutraceutical supplementation. Integration with previously reported taxonomic and inflammatory findings supports the hypothesis that Micodigest® may promote coordinated remodeling of the gut microbiome and host-microbiota interactions during the perioperative period. Although the present study cannot establish causality or directly infer microbial activity from metagenomic potential, these findings provide novel functional insights into the microbiome response to fungal nutraceutical supplementation in patients with CRC and highlight functional metagenomics as a valuable complement to taxonomic profiling.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42421950",
+     "date": "2026-07-09",
+     "title_zh": "免疫治療為基礎之全程新輔助治療於直腸癌病人中糞便微菌叢與代謝體之動態變化：與治療反應及毒性之關聯",
+     "score": 4,
+     "one_liner": "在TORCH試驗中MSS LARC病人（102份糞便樣本）中，比較治療反應者與非反應者之糞便微菌叢/代謝體，發現GABA與非反應及T細胞功能異常相關。",
+     "sim": 0.159
+    }
+   ]
+  },
+  {
+   "pmid": "42884731",
+   "title": "The Therapeutic Potential of Berry-Derived and Berry-Based Interventions in Inflammatory Bowel Disease: A Comprehensive Systematic Review of Preclinical and Clinical Evidence",
+   "journal": "Nutrients",
+   "journal_full": "Nutrients",
+   "issn": "2072-6643",
+   "issn_linking": "2072-6643",
+   "impact_factor": 5.8,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.3390/nu18193280",
+   "ptype": "Systematic Review, Review",
+   "ptype_list": [
+    "Systematic Review",
+    "Review"
+   ],
+   "authors": "Passacatini L, Caminiti R, Mazza V, Nucera S, Proietti S, Oppedisano F",
+   "abstract": "INTRODUCTION: Berry-derived and berry-based interventions have gained increasing attention for their potential health benefits. Berries are rich in diverse bioactive compounds, including polyphenols and anthocyanins, which are associated with a broad range of biological activities, particularly antioxidant and anti-inflammatory effects. Over the last decade, numerous studies have focused on berries, particularly those from the Ericaceae family (blueberry, cranberry and bilberry), the Solanaceae family (goji berry, Solanum nigrum berries) and the Elaeocarpaceae family (maqui berry). Berries are considered among the best dietary sources of bioactive compounds (BACs). Among chronic gastrointestinal disorders, inflammatory bowel disease (IBD) mainly includes Crohn's disease (CD) and ulcerative colitis (UC), both chronic inflammatory conditions of the gastrointestinal tract. The multifactorial nature of IBD significantly impairs quality of life and makes disease management particularly challenging, increasing interest in complementary approaches, in addition to pharmacological treatments, such as phytotherapeutic strategies based on plant-derived bioactive compounds and, in particular, berry-derived and berry-based interventions.\nMETHODS: A systematic literature search was conducted using PubMed, Web of Science, and Scopus databases. Specific inclusion and exclusion criteria were applied to identify relevant articles published up to July 2026. After the removal of duplicates and a thorough screening of titles, abstracts, and full texts, a total of 19 studies were included, comprising 16 studies conducted on animal models and 3 clinical studies involving patients. The 3 clinical studies corresponded to 5 publications and involved a total of 68 unique participants, as two publications were secondary analyses of the same patient cohorts. These investigations evaluated the possible effects of berry-derived and berry-based interventions in both experimental models and clinical settings.\nRESULTS: Preclinical studies suggested potential protective effects against intestinal inflammation by reducing pro-inflammatory cytokines, improving epithelial barrier integrity, and restoring gut microbiota composition. The included clinical studies reported improvements in disease activity, fecal calprotectin levels, quality of life, and remission rates in patients with ulcerative colitis. Nevertheless, the available clinical evidence remains limited and heterogeneous, preventing definitive conclusions regarding clinical efficacy.\nCONCLUSIONS: The current clinical data should therefore be considered preliminary. Larger and more rigorous randomized controlled trials are needed to determine whether the biological effects observed in preclinical models translate into clinically relevant benefits in patients with IBD. Overall, preclinical evidence complements clinical findings by providing mechanistic insights that help contextualize and interpret outcomes observed in human studies.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42646603",
+     "date": "2026-08-27",
+     "title_zh": "丁酸鈉治療潰瘍性結腸炎：臨床前與臨床證據之系統性回顧",
+     "score": 3,
+     "one_liner": "系統性回顧22篇研究（10臨床試驗、1前瞻性觀察、11臨床前）評估丁酸鈉輔助治療UC，口服劑型令人鼓舞但整體臨床證據仍異質。",
+     "sim": 0.194
+    },
+    {
+     "pmid": "42646603",
+     "date": "2026-08-28",
+     "title_zh": "丁酸鈉治療潰瘍性結腸炎：臨床前與臨床證據之系統性回顧",
+     "score": 3,
+     "one_liner": "系統性回顧22篇研究（10臨床試驗、1前瞻觀察、11動物研究），發現口服丁酸鈉可能改善UC臨床緩解率，但證據異質且仍屬早期。",
+     "sim": 0.194
+    },
+    {
+     "pmid": "42662509",
+     "date": "2026-08-29",
+     "title_zh": "人參及其生物活性成分在發炎性腸道疾病中的治療潛力：現有證據與未來方向",
+     "score": 1,
+     "one_liner": "本文綜述人參皂苷於動物IBD模式中的抗炎機轉，作者明確指出臨床試驗證據極為有限，尚無人體療效數據。",
+     "sim": 0.178
+    }
+   ]
+  },
+  {
+   "pmid": "42878288",
+   "title": "Preclinical Evaluation of Bacterial Lysates in Murine Disease Models: A Systematic Review",
+   "journal": "Immun Inflamm Dis",
+   "journal_full": "Immunity, inflammation and disease",
+   "issn": "2050-4527",
+   "issn_linking": "2050-4527",
+   "impact_factor": 3.5,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1186/s13059-017-1215-1",
+   "ptype": "Systematic Review, Review",
+   "ptype_list": [
+    "Systematic Review",
+    "Review"
+   ],
+   "authors": "Ancuța D, Coman C",
+   "abstract": "BACKGROUND: Bacterial lysates are biologically active preparations obtained by thermal, mechanical, or chemical inactivation of whole bacterial cells, preserving their immunomodulatory properties.\nMETHODS: This systematic review evaluates preclinical studies published between 2010 and 2025 that investigated bacterial lysates in murine disease models, according to the PRISMA 2020 guideline. A total of 34 original studies met the inclusion criteria. The included studies cover a wide spectrum of pathologies, with respiratory infections and allergic/asthmatic diseases representing the most extensively investigated areas, followed by recurrent urinary tract infections, inflammatory bowel disease, acute lung injury/fibrosis, neuroinflammation, and cancer. Lysates ranged from monobacterial preparations to complex polybacterial formulations (particularly OM-85), administered orally, intranasally, or systematically.\nRESULTS: Key mechanisms include activation of TLRs and NOD receptors, modulation of the NLRP3 inflammasome, T-cell polarization, macrophage remodeling, and induction of trained immunity. Beneficial effects were consistently reported, including reduced allergic inflammation, protection against recurrent infections, barrier restoration, and potentiation of anticancer immunotherapy.\nCONCLUSIONS: The most robust and translationally advanced evidence remains that obtained in respiratory infection models, the original clinical indication of bacterial lysates. Clinical translation is still limited by preparation heterogeneity, lack of standardization, differences between murine and human immunity, and predominance of preventive study designs. Methodological standardization and rigurous bridging studies are needed to realize the therapeutic potential of bacterial lysates.\nTRIAL REGISTRATION: PROSPERO (ID: CRD420261282071).",
+   "watched": [],
+   "related": []
+  },
+  {
+   "pmid": "42878273",
+   "title": "A Review of Detection Probes for Vanin-1: Development and Biological Applications in Various Inflammatory Diseases",
+   "journal": "Chem Biodivers",
+   "journal_full": "Chemistry & biodiversity",
+   "issn": "1612-1880",
+   "issn_linking": "1612-1872",
+   "impact_factor": 2.9,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1021/acs.chemrev.3c00776",
+   "ptype": "Review, Systematic Review",
+   "ptype_list": [
+    "Review",
+    "Systematic Review"
+   ],
+   "authors": "Wang S, Li X",
+   "abstract": "Vascular non-inflammatory molecule-1 (Vanin-1), also known as pantetheinase, is a key enzyme that regulates oxidative stress, inflammatory responses, and metabolic processes by catalyzing the hydrolysis of pantetheine into cysteamine and pantothenic acid. Recent studies have progressively elucidated its pivotal role in various pathological processes, including acute kidney injury (AKI), inflammatory bowel disease (IBD), liver injury, and rheumatoid arthritis (RA). As an important biomarker for early diagnosis and assessment of treatment efficacy, it has attracted widespread attention and driven the rapid development of highly sensitive and specific detection tools. This article provides a systematic review of Vanin-1 probes developed in recent years, covering fluorescent, chemiluminescent, bioluminescent, and electrochemical sensors, with a focus on their molecular design principles, detection mechanisms, performance characteristics, and biological applications. In addition, this article outlines future trends in Vanin-1 probe technologies, providing a comprehensive theoretical and methodological reference to support further basic research and clinical translation applications related to Vanin-1.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42851426",
+     "date": "2026-10-10",
+     "title_zh": "Pantetheinase Vanin-1 透過S-半胱胺化作用增強促效劑誘導的STING活化",
+     "score": 2,
+     "one_liner": "在細胞與DSS誘導大腸炎小鼠模型中，發現Vanin-1透過S-半胱胺化增強STING活化，抑制Vanin-1可改善大腸炎。",
+     "sim": 0.243
+    },
+    {
+     "pmid": "42851426",
+     "date": "2026-10-11",
+     "title_zh": "Pantetheinase Vanin-1 透過S-半胱胺化作用增強激動劑誘導的STING活化",
+     "score": 1,
+     "one_liner": "在小鼠DSS結腸炎模型中，發現Vanin-1透過半胱胺促進STING蛋白S-半胱胺化修飾而增強其活化，抑制Vanin-1可改善結腸炎。",
+     "sim": 0.243
+    }
+   ]
+  },
+  {
+   "pmid": "42886590",
+   "title": "Improving Postpolypectomy Surveillance Decisions Using an Automated Analysis of Colonoscopy and Histopathology Reports: 2-Center Validation Study",
+   "journal": "J Med Internet Res",
+   "journal_full": "Journal of medical Internet research",
+   "issn": "1438-8871",
+   "issn_linking": "1438-8871",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.2196/102789",
+   "ptype": "Validation Study, Multicenter Study",
+   "ptype_list": [
+    "Validation Study",
+    "Multicenter Study"
+   ],
+   "authors": "Zecevic A, De Martino S, Lee J, To V, Bhardwaj V, Sibal R",
+   "abstract": "BACKGROUND: Postpolypectomy surveillance intervals derived from colonoscopy findings and histopathology should be guideline-based, yet these are frequently not adhered to, contributing to under- and oversurveillance. This motivates a more structured and automated approach to improve adherence.\nOBJECTIVE: We developed and evaluated an automated, implementable, guideline-aligned decision support tool that extracts colorectal polyp features from free-text colonoscopy and histopathology reports and produces auditable surveillance recommendations.\nMETHODS: We extracted paired colonoscopy and histopathology reports from a National Health Service (NHS) trust and designed a 4-stage prompting pipeline using open-weight large language models to separate multispecimen histopathology reports into individual containers (\"pots\"), align endoscopic findings with specimens, and normalize each pot into a structured schema. The surveillance intervals were then computed by a deterministic rule engine encoding guideline rules. We evaluated extraction performance on 100 procedures (215 pots), assessed surveillance recommendation performance on a same-site cohort (n=100), and performed external validation on a cohort from a second trust (n=100). A separate retrospective audit compared automated recommendations and observed routine scheduling against a clinician-derived reference based on full electronic health record review in 127 patients.\nRESULTS: Key extraction fields showed end-to-end accuracy (specimen type=0.995; location=0.981; diagnosis=0.981; excision completeness=0.949), with mean report-level pot comprehensiveness of 0.968 (SD 0.112). Overall surveillance recommendation accuracy was 0.96 (95% CI 0.90-0.98) at Guy's and St Thomas' NHS Foundation Trust (GSTT) and 0.93 (95% CI 0.86-0.97) at Sandwell and West Birmingham NHS Trust (SWB) and showed strong class-level performance (no follow-up F1-score of 0.98 at GSTT and 0.97 at SWB; site check F1-score of 0.93 at GSTT and 0.91 at SWB; 3-year follow-up F1-score of 0.86 at GSTT and 0.80 at SWB; cancer alert F1-score of 1.00 at GSTT and 1.00 at SWB). The comparison to current clinical practice showed that the tool would improve guideline adherence primarily by reducing potential undersurveillance.\nCONCLUSIONS: This hybrid approach using open-weight large language models for structured extraction and guideline-encoded rules for decision-making can generate accurate, lightweight, and auditable postpolypectomy surveillance recommendations. Such a tool has the potential to improve safety netting and guideline adherence in NHS colonoscopy workflows.",
+   "watched": [],
+   "related": []
+  },
+  {
+   "pmid": "42879037",
+   "title": "Colitis-associated colorectal carcinogenesis: molecular mechanisms and therapeutic potential",
+   "journal": "Mol Biomed",
+   "journal_full": "Molecular biomedicine",
+   "issn": "2662-8651",
+   "issn_linking": "2662-8651",
+   "impact_factor": 13.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1186/s12951-024-02749-1",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Lu Y, Wang X, Yin C, Wang J, Guo S, Wang Z",
+   "abstract": "Chronic colitis is a major risk factor for colorectal cancer (CRC), particularly for colitis-associated colorectal cancer (CAC), where persistent inflammation drives the transition from mucosal injury to malignant transformation. Accumulating evidence indicates that gut microbiota dysbiosis, epithelial barrier disruption, microbial translocation, chronic immune activation, and aberrant inflammatory signaling collectively contribute to CAC initiation and progression. Sustained inflammation promotes oxidative stress, DNA damage, genetic/epigenetic alterations, and tumor microenvironment remodeling, ultimately facilitating tumor development and immune evasion. These processes form an interconnected pathogenic network linking microbial, inflammatory, genetic, immune, and stromal alterations. This review comprehensively summarizes the key drivers and molecular mechanisms of CAC, covering microbiota and barrier dysfunction, inflammatory signaling, oxidative stress and DNA damage, genetic and epigenetic alterations, and tumor microenvironment remodeling and immune dysregulation. We further review recent advances in diagnostic biomarkers, disease monitoring, chemoprevention, targeted therapies, and emerging interventions, including the potential utility of specific chemokine axes as biomarkers and therapeutic targets. Particular emphasis is placed on the translational challenges of linking mechanistic insights to diagnostic and therapeutic advances, including biomarker validation, stage-specific interventions, and patient stratification across disease progression. By integrating these interconnected mechanisms and therapeutic strategies, this review provides a comprehensive framework for understanding CAC pathogenesis and identifies opportunities for precision prevention, early detection, and multimodal treatment.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42502958",
+     "date": "2026-07-27",
+     "title_zh": "針對驅動大腸直腸癌腫瘤發生的分子與基因路徑進行精準治療",
+     "score": 2,
+     "one_liner": "本文綜述CRC致病相關的Wnt、MAPK、p53、PI3K/AKT等訊號路徑及其精準治療策略，未提供臨床試驗數據。",
+     "sim": 0.235
+    },
+    {
+     "pmid": "42502958",
+     "date": "2026-07-28",
+     "title_zh": "針對驅動大腸直腸癌腫瘤生成之分子與基因路徑進行精準治療",
+     "score": 2,
+     "one_liner": "本綜述整理Wnt/β-catenin、MAPK、p53、PI3K/AKT等訊號路徑於CRC致病機轉中的角色，並討論精準治療策略方向，無原始臨床數據。",
+     "sim": 0.235
+    },
+    {
+     "pmid": "42433082",
+     "date": "2026-07-11",
+     "title_zh": "腸道菌叢視角下的大腸直腸癌全貌：基因突變、表觀遺傳失調與免疫微環境改變之洞察",
+     "score": 3,
+     "one_liner": "本綜述整理腸道菌叢透過突變、表觀遺傳與免疫微環境改變促進CRC發生發展的機制，未提供原始臨床數據。",
+     "sim": 0.235
+    }
+   ]
+  },
+  {
+   "pmid": "42879156",
+   "title": "Organ Preservation and Quality of Life After Total Neoadjuvant Treatment in Rectal Cancer",
+   "journal": "JAMA Netw Open",
+   "journal_full": "JAMA network open",
+   "issn": "2574-3805",
+   "issn_linking": "2574-3805",
+   "impact_factor": 11.7,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1001/jamanetworkopen.2026.39063",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Diefenhardt M, Fokas E, Kosmala R, Polat B, Germer C, Schlenska-Lange A",
+   "abstract": "IMPORTANCE: Data on quality of life (QOL) after total neoadjuvant therapy (TNT) are important for counseling patients on the benefits of watch-and-wait (WW) vs total mesorectal excision (TME) for rectal cancer. A thorough understanding of both options and their long-term impact on bowel, urinary, sexual function, and other QOL domains remains limited.\nOBJECTIVE: To examine the association of organ preservation with QOL and functional outcomes among patients with rectal cancer treated in 2 phase 2 clinical trials.\nDESIGN, SETTING, AND PARTICIPANTS: This unplanned, post hoc, cohort study used data from the CAO/ARO/AIO-12 and CAO/ARO/AIO-16 trials, recruiting participants from June 15, 2015, through October 7, 2020, from 19 centers in Germany. Included patients had cT3 to cT4 or node-positive rectal adenocarcinoma. Total neoadjuvant treatment included chemoradiation therapy combined with induction or consolidation chemotherapy. The statistical analysis was performed from March 6 to December 23, 2025.\nMAIN OUTCOMES AND MEASURES: The association of WW with functional outcomes and QOL was assessed using prospectively recorded EORTC QLQ-C30, EORTC QLQ-CR29, and Wexner score questionnaires. Differences in QOL scores were estimated using adjusted longitudinal and cross-sectional analyses with a predefined clinically meaningful difference of at least 5 points.\nRESULTS: Baseline questionnaires were available from 346 of 385 eligible patients (89.9%; median [range] age, 60 [19-80] years; 257 male [67%]), while available QOL questionnaires decreased over time to 185 (48.1%) at 5 years. Using the longitudinal analytic approach, statistically significant and clinically meaningful differences in favor of WW were noted for fecal incontinence (-21.2 [95% CI, -30.0 to -12.3]; P < .001); stool frequency (-19.8 [95% CI, -27.6 to -11.9]; P < .001); embarrassment (-17.0 [95% CI, -27.4 to -6.6]; P = .002); flatulence (-15.2 [95% CI, -24.4 to -6.0]; P < .001), buttock pain (-11.9 [95% CI, -20.8 to -3.0]; P = .01); social (9.7 [95% CI, 1.1-18.3]; P = .03), physical (10.2 [95% CI, 4.1-16.3]; P = .002), and role (13.9 [95% CI, 4.9-22.9]; P = .003) functioning; and global health status (9.2 [95% CI, 3.2-15.2]; P = .004). These clinically meaningful differences were detectable in both the intended organ preservation and disease-free groups. Patients with sustained clinical complete response at 3 years (n = 29) vs those with pathologic complete response or matched baseline characteristics favored WW for fecal incontinence (-24.0 and -11.6, respectively), stool frequency (-34.6 and -19.1), sore skin (-18.0 and -18.1), buttock pain (-14.7 and -17.6), embarrassment (-41.1 and -20.5), role functioning (19.1 and 10.9), and social functioning (20.0 and 8.4).\nCONCLUSIONS AND RELEVANCE: In the absence of prospective randomized trials, this study provides evidence suggesting long-term clinically meaningful benefits for organ preservation regarding QOL, especially for most gastrointestinal subscales, social functioning, and global health status, over a 5-year period among patients with rectal cancer. As treatment options for patients with rectal cancer now routinely include WW in cases of clinical complete response after TNT, patient-reported QOL measures have become paramount for informed shared decision-making.\nTRIAL REGISTRATION: ClinicalTrials.gov Identifiers: NCT02363374 and NCT03561142.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42551037",
+     "date": "2026-08-05",
+     "title_zh": "中低位直腸癌經肛門與腹腔鏡全直腸繫膜切除術（TME）之生活品質、腸道功能與長期腫瘤學結果比較（Ta-LaTME研究）：多中心隨機開放標籤試驗",
+     "score": 6,
+     "one_liner": "在105名中低位直腸癌病人（LaTME 57 vs TaTME 59）中，比較TME術式，5年局部復發6.4% vs 3.7%、重度LARS 30% vs 44%，均未達統計顯著。",
+     "sim": 0.296
+    },
+    {
+     "pmid": "42551037",
+     "date": "2026-08-06",
+     "title_zh": "中低位直腸癌經肛門全直腸系膜切除術（TaTME）與腹腔鏡全直腸系膜切除術（LaTME）之生活品質、排便功能與長期腫瘤學結果比較（Ta-LaTME研究）：多中心隨機開放標籤試驗",
+     "score": 6,
+     "one_liner": "在116名中低位直腸癌病人中，比較TaTME與LaTME，發現5年腫瘤學結果相近，但TaTME排便症狀負擔較高（重度LARS 44% vs 30%）。",
+     "sim": 0.296
+    },
+    {
+     "pmid": "42551037",
+     "date": "2026-08-07",
+     "title_zh": "中低位直腸癌經肛門全直腸系膜切除術（TaTME）與腹腔鏡全直腸系膜切除術（LaTME）之生活品質、腸道功能與長期腫瘤學結果比較（Ta-LaTME study）：多中心隨機開放標籤試驗",
+     "score": 6,
+     "one_liner": "在116名中低位直腸癌病人中，比較TaTME與LaTME，發現TaTME術後排便症狀較重（重度LARS 44% vs 30%），但5年腫瘤學結果無差異。",
+     "sim": 0.296
+    }
+   ]
+  },
+  {
+   "pmid": "42882498",
+   "title": "The Gut Microbiota-Immunity Axis in Colorectal Cancer: Implications for Immunotherapy and Clinical Translation",
+   "journal": "Cells",
+   "journal_full": "Cells",
+   "issn": "2073-4409",
+   "issn_linking": "2073-4409",
+   "impact_factor": 6.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.3390/cells15191800",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Siemińska I",
+   "abstract": "Colorectal cancer (CRC) arises within a complex microbial ecosystem that may influence carcinogenesis, tumor immunity, and therapeutic response. This is particularly relevant in metastatic disease, where most tumors are microsatellite-stable/mismatch repair-proficient (MSS/pMMR) and derive little meaningful benefit from immune checkpoint inhibitor (ICI) monotherapy. Specific pathobionts, including Fusobacterium nucleatum, enterotoxigenic Bacteroides fragilis, and colibactin-producing Escherichia coli, have been implicated in genotoxic, inflammatory, and checkpoint-related mechanisms that may contribute to tumor progression and immune evasion, whereas selected commensals and microbiota-derived metabolites may support antitumor immunity in a context-dependent manner. This review integrates translational evidence linking microbial taxa and functions, metabolites, neutrophil biology, bacterial extracellular vesicles, and T-cell dysfunction with CRC progression and immunotherapy response. This review critically examines emerging microbiome-directed strategies, including fecal microbiota transplantation, next-generation probiotics, defined bacterial consortia, dietary and perioperative interventions, postbiotics, and bacteriophage-based approaches, as potential means of modifying immune resistance in MSS/pMMR CRC. Although early clinical signals from microbiota-modulating combinations are encouraging, the available evidence remains limited by small cohorts, heterogeneous interventions, and the absence of randomized CRC-specific studies. Microbiome-based biomarkers and therapeutics therefore remain investigational, and standardized sampling, prospective validation, and carefully designed trials will be required before microbiome modulation enters routine CRC care.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42755803",
+     "date": "2026-09-19",
+     "title_zh": "腸道菌群介導MSI-H/dMMR大腸直腸癌對免疫檢查點抑制劑之原發性與後天抗藥性：機轉、生物標記與治療意涵——敘事性文獻回顧",
+     "score": 2,
+     "one_liner": "本文綜述腸道菌群-免疫軸如何影響MSI-H/dMMR CRC對ICI之原發與後天抗藥性機轉及潛在生物標記，無新臨床數據。",
+     "sim": 0.229
+    },
+    {
+     "pmid": "42755803",
+     "date": "2026-09-20",
+     "title_zh": "腸道菌群介導之MSI-H/dMMR大腸直腸癌對免疫檢查點抑制劑的原發性與後天抗藥性：機轉、生物標記與治療意涵之敘述性文獻回顧",
+     "score": 2,
+     "one_liner": "本文為敘述性回顧，整理腸道菌群代謝物（SCFAs、膽酸、色胺酸-AhR、肌苷、多胺）影響MSI-H/dMMR CRC對ICI抗藥性之機轉與潛在生物標記。",
+     "sim": 0.229
+    },
+    {
+     "pmid": "42792919",
+     "date": "2026-09-27",
+     "title_zh": "大腸直腸癌免疫治療中的microRNA：生物標記、抗藥機轉，以及將「冷」腫瘤轉化為「熱」腫瘤的策略",
+     "score": 2,
+     "one_liner": "本綜述整理miRNA如何調控CRC免疫冷腫瘤微環境的多重機轉，並討論其作為ICI反應生物標記與治療靶點之潛力。",
+     "sim": 0.21
+    }
+   ]
+  },
+  {
+   "pmid": "42882474",
+   "title": "Acquired Chemoresistance in Colorectal Cancer: Therapy-Induced Signalling Adaptation, Cellular Plasticity and Mechanism-Guided Therapeutic Strategies",
+   "journal": "Cells",
+   "journal_full": "Cells",
+   "issn": "2073-4409",
+   "issn_linking": "2073-4409",
+   "impact_factor": 6.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Sep",
+   "doi": "10.3390/cells15191776",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Bartusik-Aebisher D, Wilk I, George B, Aebisher D",
+   "abstract": "The effectiveness of chemotherapy in colorectal cancer (CRC) is significantly reduced by acquired chemoresistance to 5-fluorouracil (5-FU), oxaliplatin and irinotecan. This structured narrative review synthesises mechanistic, preclinical, translational and clinical evidence underlying resistance to these agents. Distinct drug-specific molecular mechanisms can underlie acquired chemoresistance, whereas shared adaptive survival processes support treatment persistence and may, in some settings, contribute to the emergence of stable acquired resistance. 5-FU resistance is associated with factors such as altered thymidylate synthase activity, drug catabolism, nucleotide metabolism and apoptosis avoidance, whereas resistance to oxaliplatin involves enhanced deoxyribonucleic acid (DNA) repair, detoxification, reduced platinum accumulation and metabolic adaptation. Irinotecan resistance can involve reduced TOP1 expression or TOP1 mutations, altered SN-38 metabolism, increased drug efflux and enhanced tolerance of replication-associated stress. Alongside these drug-proximal mechanisms, drug-tolerant persister states, stem-like programmes, epithelial-mesenchymal plasticity and multidrug-efflux mechanisms can support treatment survival and tumour repopulation. Evidence linking chemoresistance with Wnt/β-catenin, Notch and Hippo/Yes-associated protein 1 (YAP1) signalling is predominantly preclinical and varies according to treatment context, with stronger direct pathway-specific evidence for 5-FU and oxaliplatin than for irinotecan. This distinction allows direct drug-specific associations to be differentiated from broader roles in adaptive survival, cellular plasticity and tumour repopulation after treatment. Cancer-associated fibroblasts, immune and cytokine signalling, extracellular vesicles, hypoxia and treatment-induced remodelling of the tumour microenvironment can all further influence tumour heterogeneity and non-cell-autonomous resistance. Residual disease, resistant cellular states and therapeutically relevant molecular dependencies may be detected or characterised using circulating tumour DNA, pathway-associated biomarkers, patient-derived organoids and emerging resistance-profiling technologies. These findings show that interactions between drug-specific molecular escape mechanisms, adaptive cellular states and the tumour microenvironment contribute to heterogeneous patterns of treatment survival and acquired chemoresistance. The development of molecularly targeted and mechanism-guided strategies for overcoming resistance in CRC may be supported by defining these mechanisms and their associated biomarkers.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42331068",
+     "date": "2026-06-22",
+     "title_zh": "大腸直腸癌抗藥性的多維度調控網絡：從分子機轉到新型治療對策",
+     "score": 2,
+     "one_liner": "本文綜述CRC化療、標靶治療、免疫治療的抗藥性分子機轉，並討論奈米遞送、ctDNA監測等新興對策，屬機轉性回顧無臨床數據。",
+     "sim": 0.184
+    },
+    {
+     "pmid": "42593691",
+     "date": "2026-08-15",
+     "title_zh": "大腸直腸癌中的R-loop：機制、定位策略與治療契機",
+     "score": 2,
+     "one_liner": "本綜述整理R-loop調控因子（如RNASEH1/2、DDX21、ATR）與CRC發生、轉移及藥物反應的關聯，但證據多屬臨床前階段。",
+     "sim": 0.155
+    }
+   ]
+  },
+  {
+   "pmid": "42884619",
+   "title": "Diffuse Idiopathic Skeletal Hyperostosis (DISH): Potential Links Between Gut Microbiota and Spinal Degenerative Diseases",
+   "journal": "Nutrients",
+   "journal_full": "Nutrients",
+   "issn": "2072-6643",
+   "issn_linking": "2072-6643",
+   "impact_factor": 5.8,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Sep",
+   "doi": "10.3390/nu18193168",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Ibrahim I, Lawrence K, Forte O, Huitt L, Naidu N, Ajibola N",
+   "abstract": "Diffuse Idiopathic Skeletal Hyperostosis (DISH) is a systemic, non-inflammatory skeletal disorder characterized by progressive calcification and ossification of spinal ligaments and entheses. Its strong associations with aging, obesity, type 2 diabetes, and metabolic syndrome raise the possibility that metabolic and inflammatory pathways may contribute to disease development. The gut microbiota participates in nutrient metabolism, short-chain fatty acid production, bile-acid transformation, intestinal-barrier maintenance, and immune regulation; these functions provide a plausible framework for examining whether intestinal dysbiosis may influence spinal and musculoskeletal tissues. This narrative review therefore evaluates the potential relationship between gut microbiota, DISH, and related spinal degenerative diseases. It considers the nutritional, metabolic, immunological, and host-interaction functions of the gut microbiota before examining proposed gut-spine, gut-bone, gut-joint, gut-disc, gut-ligament, and gut-muscle pathways. Particular attention is given to the apparent paradox that most microbiome-bone evidence concerns osteoporosis and bone loss, whereas DISH is characterized by excessive ectopic bone formation. Differences in short-chain fatty acid concentration, receptor expression, local versus systemic signaling, and osteoblast-osteoclast microenvironments may produce divergent skeletal effects, but these mechanisms have not been tested directly in DISH. Recent studies support associations between selected microbial taxa and intervertebral disc degeneration or spinal stenosis; however, direct clinical evidence linking gut microbiota to DISH remains limited. Consequently, dietary modification, probiotics, prebiotics, and fecal microbiota transplantation should be regarded as research considerations rather than established treatments for DISH. Well-characterized case-control and longitudinal studies integrating microbiome profiling, metabolomics, inflammatory markers, and serial imaging are required to determine whether reproducible microbial or metabolite signatures precede DISH onset or progression. The pathways discussed in this review are therefore presented as biologically plausible, testable hypotheses and not as established causal relationships.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42867711",
+     "date": "2026-10-15",
+     "title_zh": "地中海飲食、腸道微生物群與腸道屏障完整性：對消化系統及全身健康的意涵",
+     "score": 3,
+     "one_liner": "彙整51篇文獻、無單一對照，發現地中海飲食可能調節腸道菌相代謝，但未提供合併效應量。",
+     "sim": 0.172
+    },
+    {
+     "pmid": "42356344",
+     "date": "2026-06-26",
+     "title_zh": "鎖定人類腸道微菌叢——傳統療法與精準基因工程之間",
+     "score": 2,
+     "one_liner": "本文綜述腸道微菌叢在多種疾病（含CRC）中的機制角色，並比較傳統療法與工程化微生物療法，但無臨床試驗數據。",
+     "sim": 0.158
+    }
+   ]
+  },
+  {
+   "pmid": "42884585",
+   "title": "Trendy, but Are They Safe? Current Popular Diets and Their Use in Inflammatory Bowel Diseases: Narrative Review",
+   "journal": "Nutrients",
+   "journal_full": "Nutrients",
+   "issn": "2072-6643",
+   "issn_linking": "2072-6643",
+   "impact_factor": 5.8,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Sep",
+   "doi": "10.3390/nu18193133",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Szwarc K, Zagaja K, Ratajczak-Pawłowska A, Mahadea D, Dobrowolska A, Łykowska-Szuber L",
+   "abstract": "Inflammatory bowel disease (IBD) arises from the interplay between genetic susceptibility, immune dysregulation, microbiota, and environmental exposures, with diet potentially contributing to both pathogenesis and management. Patients frequently modify their diet independently, often using different strategies during remission and active symptoms. This narrative review synthesises evidence on patient-accessible dietary patterns and selected structured nutritional therapies across five domains: incident IBD, objective intestinal inflammation, gastrointestinal symptoms and quality of life, nutritional safety, and real-world feasibility. Mediterranean and other minimally processed plant-forward patterns are associated with higher diet quality and potentially favourable microbial and metabolic profiles; however, current trials do not demonstrate consistent superiority for objective remission or mucosal healing. Western and ultra-processed food-rich patterns are associated with incident IBD, whereas evidence for relapse in established disease is less consistent. Low-FODMAP approaches may improve selected symptoms but should not be interpreted as anti-inflammatory therapy. Evidence for ketogenic and intentional carnivore diets remains insufficient for routine use. Exclusive enteral nutrition and the Crohn's Disease Exclusion Diet have distinct, protocolised therapeutic roles, particularly in Crohn's disease. Across strategies, affordability, food security, cooking resources, disease phenotype, nutritional risk, and access to specialist dietetic care determine safe and equitable implementation.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42762400",
+     "date": "2026-09-21",
+     "title_zh": "重新思考IBD的限制性飲食：邁向以「納入」為核心的營養新模式",
+     "score": 3,
+     "one_liner": "本篇敘述性綜述整理IBD限制性飲食（SCD、低FODMAP等）之風險，並提出以地中海飲食為主的包容性營養模式取代長期排除飲食。",
+     "sim": 0.237
+    },
+    {
+     "pmid": "42352981",
+     "date": "2026-06-26",
+     "title_zh": "飲食、腸道菌群與微生物代謝物在發炎性腸道疾病中的角色：從功能性菌群失調到精準營養",
+     "score": 2,
+     "one_liner": "本文為概念性綜述，整理飲食如何經腸道菌群轉化為代謝物影響IBD黏膜免疫，未提供任何臨床試驗數據。",
+     "sim": 0.21
+    },
+    {
+     "pmid": "42589697",
+     "date": "2026-08-14",
+     "title_zh": "營養作為氧化壓力調節因子於癌症預防與治療之角色",
+     "score": 2,
+     "one_liner": "敘述性回顧整理飲食型態、營養素與氧化壓力調節在多種癌症（含大腸直腸癌）預防與治療中的機轉關聯，未提供具體臨床試驗數據。",
+     "sim": 0.198
+    }
+   ]
+  },
+  {
+   "pmid": "42878975",
+   "title": "The multifaceted role of 3-methyladenine in cancer therapy",
+   "journal": "J Physiol Biochem",
+   "journal_full": "Journal of physiology and biochemistry",
+   "issn": "1877-8755",
+   "issn_linking": "1138-7548",
+   "impact_factor": 5.1,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.2147/OTT.S240803",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Laila U, Wang B, Mumtaz M, Gulshad K, Niaz M, Qureshi M",
+   "abstract": "3-Methyladenine (3-MA), an early autophagy inhibitor, blocks autophagosome formation mainly by inhibiting class III phosphatidylinositol 3-kinase (PI3K) vacuolar protein sorting 34, while its concurrent inhibition of class I PI3K can produce opposing effects on autophagic flux depending on nutrient status. This Review examines the context-dependent roles of 3-MA across cancer types. When autophagy serves a pro-survival function, 3-MA-mediated inhibition tends to attenuate this protective response, thereby potentiating the cytotoxicity of chemotherapeutics, targeted drugs, and natural compounds, and helping to overcome acquired resistance. However, in some settings-such as colorectal cancer without therapeutic pressure-autophagy suppression may instead promote epithelial-mesenchymal transition and metastasis. The pharmacokinetic shortcomings and off-target effects of 3-MA have motivated the design of nanocarriers for tumor-specific co-delivery, aiming to improve bioavailability and avoid paradoxical autophagy induction. Ultimately, the lasting contribution of 3-MA may be its utility as a mechanistic probe that uncovers key autophagy regulatory nodes, paving the way for next-generation selective modulators and biomarker-driven strategies.",
+   "watched": [],
+   "related": []
+  },
+  {
+   "pmid": "42883298",
+   "title": "Recent Advances in Small-Molecule-Based Nanovectors for the Treatment of Colorectal Cancer",
+   "journal": "Molecules",
+   "journal_full": "Molecules (Basel, Switzerland)",
+   "issn": "1420-3049",
+   "issn_linking": "1420-3049",
+   "impact_factor": 5.1,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.3390/molecules31193534",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Kibungu C, Mongalo N, Makhafola T",
+   "abstract": "Colorectal cancer (CRC) remains a major global health burden, while conventional systemic therapies are limited by toxicity, drug resistance, suboptimal tumour exposure, and pharmacokinetic constraints. Recent advances in nanotechnology have produced diverse nanosystems including liposomes, dendrimers, polymeric nanoparticles, metallic nanoparticles, mesoporous silica systems, and other hybrid platforms that can improve drug solubility, stability, biodistribution, controlled release, and tumour-directed delivery. Plant-derived small molecules provide an additional source of structurally diverse anticancer candidates, but their clinical development is often constrained by poor aqueous solubility, rapid metabolism, limited bioavailability, and non-specific toxicity. This review critically examines recent progress in nanoscale delivery systems for CRC and evaluates their potential for delivering plant-derived and other bioactive small molecules. Particular emphasis is placed on passive and active targeting, physicochemical determinants of delivery, platform-specific advantages and limitations, preclinical evidence, and the barriers to clinical translation. The review also highlights the distinction between plant-derived and fungal-derived natural products and identifies opportunities for integrating natural products with responsive and ligand-functionalized nanocarriers.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42357492",
+     "date": "2026-06-26",
+     "title_zh": "奈米藥物遞送系統於慢性自體免疫疾病之研究進展：聚焦糖尿病、發炎性腸道疾病與類風濕性關節炎",
+     "score": 2,
+     "one_liner": "本文綜述奈米藥物遞送系統於DM、IBD、RA三種慢性自體免疫疾病之應用進展，屬機制性文獻回顧，無臨床試驗數據。",
+     "sim": 0.245
+    },
+    {
+     "pmid": "42732402",
+     "date": "2026-09-14",
+     "title_zh": "奈米藥物標靶脂質代謝重編程用於大腸直腸癌治療之研究進展",
+     "score": 2,
+     "one_liner": "本綜述整理奈米藥物標靶CRC脂質代謝重編程（合成、攝取、儲存、膽固醇代謝）之研究進展與臨床轉譯挑戰。",
+     "sim": 0.17
+    },
+    {
+     "pmid": "42732402",
+     "date": "2026-09-15",
+     "title_zh": "標靶脂質代謝重編程之奈米藥物於大腸直腸癌治療的研究進展",
+     "score": 2,
+     "one_liner": "本文綜述標靶CRC脂質代謝重編程之奈米藥物遞送策略與機制，屬臨床前概念整理，無臨床試驗數據。",
+     "sim": 0.17
+    }
+   ]
+  },
+  {
+   "pmid": "42879043",
+   "title": "Resistance Phenotypes and Treatment Sequencing After Immune Checkpoint Blockade in MSI-H/dMMR Metastatic Colorectal Cancer: A Review",
+   "journal": "J Gastrointest Cancer",
+   "journal_full": "Journal of gastrointestinal cancer",
+   "issn": "1941-6636",
+   "issn_linking": "",
+   "impact_factor": 2.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1001/jamaoncol.2019.1022",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Sagawa T, Hirakawa M, Nagashima H, Fujikawa K",
+   "abstract": "Immune checkpoint inhibitors (ICIs) have transformed microsatellite instability-high or mismatch repair-deficient metastatic colorectal cancer, but clinically relevant progression still occurs and treatment after progression remains undefined. We performed a clinically oriented narrative review, updated August 8, 2026, and separated direct prospective evidence, retrospective post-ICI evidence, extrapolation from general metastatic colorectal cancer trials, case-level evidence, and biological rationale. In the absence of prospective post-dual-ICI sequencing studies, we propose an evidence-informed conceptual framework. Apparent early progression should prompt confirmation of MSI/MMR status and exclusion of pseudoprogression before classification as early global progression, late systemic progression, or oligoprogression. BRAF V600E is common in MSI-H/dMMR metastatic colorectal cancer and is not an absolute predictor of ICI failure, but it is a major treatment-defining branch after progression. Repeat tissue biopsy or circulating tumor DNA profiling should be selective, used when findings can alter management and without delaying urgent therapy. ctDNA-based molecular residual disease is prognostic after curative-intent colorectal cancer resection, including metastasectomy, but is not validated to direct treatment of radiographically evident post-ICI progression. Oligoprogression warrants multidisciplinary consideration of local therapy, while ICI rechallenge remains investigational. Most recommendations are retrospective or extrapolated; transparent evidence boundaries and prospective post-dual-ICI studies are essential.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42353833",
+     "date": "2026-06-26",
+     "title_zh": "微衛星表型作為大腸直腸癌免疫治療指引：現況與未來展望",
+     "score": 3,
+     "one_liner": "本文為綜述，總結MSI-H/dMMR與MSS/pMMR大腸直腸癌對免疫檢查點抑制劑反應差異之分子機轉與現行治療策略。",
+     "sim": 0.159
+    },
+    {
+     "pmid": "42663748",
+     "date": "2026-08-29",
+     "title_zh": "HER2標靶治療於轉移性大腸直腸癌：現行證據、病人選擇與實務治療排序",
+     "score": 3,
+     "one_liner": "本文綜述HER2陽性mCRC標靶治療現況，涵蓋雙重HER2阻斷、trastuzumab deruxtecan等ADC及新興trastuzumab rezetecan，提出治療排序框架。",
+     "sim": 0.156
+    },
+    {
+     "pmid": "42663748",
+     "date": "2026-08-30",
+     "title_zh": "HER2標靶治療於轉移性大腸直腸癌：現行證據、病人選擇與實務治療排序",
+     "score": 4,
+     "one_liner": "敘述性回顧整理HER2陽性mCRC之HER2導向治療（雙重阻斷、ADC）現行證據與排序框架，但最佳序列仍未確定需前瞻性研究。",
+     "sim": 0.156
+    }
+   ]
+  }
+ ],
+ "submission_id": "4e0f31df8aaf491e9b1c50ba2de81465",
+ "state": "preparing"
+}
