@@ -1,0 +1,338 @@
+{
+ "batch_id": null,
+ "date": "2026-10-19",
+ "submitted_at": "2026-10-19T08:01:12+08:00",
+ "provider": "openai",
+ "model": "gpt-6.1-sol",
+ "papers": [
+  {
+   "pmid": "42891908",
+   "title": "Switching from Intravenous to Subcutaneous Infliximab in Children with Inflammatory Bowel Disease: A Systematic Review and Meta-Analysis",
+   "journal": "Curr Gastroenterol Rep",
+   "journal_full": "Current gastroenterology reports",
+   "issn": "1534-312X",
+   "issn_linking": "1522-8037",
+   "impact_factor": 4.1,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1002/jpn3.70275",
+   "ptype": "Systematic Review, Meta-Analysis",
+   "ptype_list": [
+    "Systematic Review",
+    "Meta-Analysis",
+    "Review"
+   ],
+   "authors": "Spencer E",
+   "abstract": "PURPOSE OF REVIEW: Subcutaneous infliximab (IFX-SC; CT-P13 SC/infliximab-dyyb/Remsima-SC/Zymfentra) is an approved maintenance option after intravenous (IV) induction in adults with inflammatory bowel disease (IBD), but it is not approved for patients < 18 years, and the pediatric evidence remains dispersed across small, largely observational cohorts. This review synthesizes the published pediatric experience of transitioning from IV to SC infliximab, examining maintenance of remission, drug concentrations, safety, and acceptability, and situates it within the adult evidence base and the distinctly pediatric concerns of access and dosing.\nRECENT FINDINGS: A systematic search (PROSPERO: CRD420261465026) identified six independent, non-overlapping pediatric switch cohorts (n = 173). Random-effects proportional meta-analysis yielded pooled treatment persistence of 92% (95%CI 84-98), maintained clinical remission of 93% (95%CI 84-99), and any-cause discontinuation of 8% (95%CI 2-16), most often for injection-site intolerance, disease relapse, or paradoxical dermatitis. New anti-drug antibody formation was rare among the 129 children in cohorts measuring immunogenicity (four children, none sustained) while previously positive antibodies frequently resolved after switching. Steady-state SC concentrations ran roughly 2-fold above prior IV troughs, an expected step-up reflecting sustained subcutaneous exposure. Patient and caregiver satisfaction was high due to decreased school absence and travel, and cost analyses signaled net savings from avoided infusion-center use. The principal barrier was administrative: age-based denial. In appropriately selected children, transition to IFX-SC sustains remission with predictable pharmacokinetics, a reassuring immunogenicity profile, and excellent tolerability, mirroring the adult experience. These observations constitute a well-supported real-world signal and warrant prospective validation and pursuit of pediatric labeling.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42809127",
+     "date": "2026-09-30",
+     "title_zh": "皮下注射Infliximab作為兒童及青少年發炎性腸道疾病維持治療：系統性回顧與統合分析",
+     "score": 2,
+     "one_liner": "在162名兒童IBD病人中，評估由靜脈轉為皮下注射Infliximab之維持治療，發現治療持續率89.8%、臨床緩解率90.2%（單臂無對照組）。",
+     "sim": 0.361
+    },
+    {
+     "pmid": "42809127",
+     "date": "2026-10-01",
+     "title_zh": "皮下注射Infliximab作為兒童及青少年發炎性腸道疾病維持治療：系統性回顧與統合分析",
+     "score": 2,
+     "one_liner": "在162名兒童IBD病人中，評估由靜脈轉為皮下注射Infliximab之維持治療，發現治療持續率89.8%、臨床緩解率90.2%（單臂無對照組）。",
+     "sim": 0.361
+    },
+    {
+     "pmid": "42362204",
+     "date": "2026-06-27",
+     "title_zh": "中東發炎性腸道疾病族群中Anti-TNF免疫原性：發生率、預測因子與情境特異性藥物濃度閾值",
+     "score": 3,
+     "one_liner": "在248名IBD病人314個anti-TNF療程中，比較各種因子與皮下vs靜脈infliximab，發現皮下免疫原性較低（3.8% vs 18.3%，p=0.013）。",
+     "sim": 0.159
+    }
+   ]
+  },
+  {
+   "pmid": "42891583",
+   "title": "Impact of Phosphatidylinositol 3-Kinase and B-Raf Mutations in Rat Sarcoma Wild-Type Metastatic Colorectal Cancer",
+   "journal": "J Vis Exp",
+   "journal_full": "Journal of visualized experiments : JoVE",
+   "issn": "1940-087X",
+   "issn_linking": "1940-087X",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.3791/73962",
+   "ptype": "Video-Audio Media, Systematic Review",
+   "ptype_list": [
+    "Video-Audio Media",
+    "Systematic Review",
+    "Meta-Analysis"
+   ],
+   "authors": "Wang W, Wang T, Qian L, Nie Y",
+   "abstract": "Activating mutations in phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha (PIK3CA) and B-Raf proto-oncogene (BRAF) are hypothesized to confer primary resistance to anti-epidermal growth factor receptor (anti-EGFR) monoclonal antibodies in metastatic colorectal cancer (mCRC). However, the clinical impact of these mutations in patients with rat sarcoma (RAS) wild-type tumors remains incompletely characterized. This systematic review and meta-analysis evaluated the association of PIK3CA and BRAF mutations with clinical outcomes in RAS wild-type mCRC patients receiving first-line EGFR inhibitor therapy. A systematic literature search was conducted across PubMed, Embase, the Cochrane Library, Google Scholar, and OVID from inception through June 2019, following Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines. From 600 screened records, 10 studies comprising 1,478 patients with RAS wild-type mCRC were included. Pooled hazard ratios (HRs) for progression-free survival (PFS) and overall survival (OS), and risk differences (RDs) for objective response rate (ORR), were calculated using fixed- or random-effects models with 95% confidence intervals (CIs). PIK3CA mutations were associated with significantly worse PFS (HR, 1.38; 95% CI, 1.11-1.71; p = 0.004) and OS (HR, 1.58; 95% CI, 1.22-2.05; p < 0.001). BRAF mutations were similarly associated with worse PFS (HR, 1.68; 95% CI, 1.46-1.94; p < 0.001) and OS (HR, 1.27; 95% CI, 1.09-1.49; p = 0.003). No significant difference in ORR was observed for either PIK3CA mutations (RD, -0.12; 95% CI, -0.38 to 0.15; p = 0.38) or BRAF mutations (RD, -0.12; 95% CI, -0.28 to 0.04; p = 0.15) compared with wild-type. These findings confirm that PIK3CA and BRAF mutations are negative prognostic biomarkers in RAS wild-type mCRC, associated with inferior PFS and OS but not ORR. Incorporating BRAF and PIK3CA mutation testing into pretreatment evaluation is supported, and alternative therapeutic strategies for mutation carriers are needed. Prospective validation in larger studies is warranted.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42630475",
+     "date": "2026-08-24",
+     "title_zh": "肝臟局限型RAS野生型轉移性大腸直腸癌：不同一線生物製劑策略之腫瘤反應差異與轉換手術結果",
+     "score": 3,
+     "one_liner": "在241名RAS wild-type mCRC病人中，比較panitumumab、cetuximab、bevacizumab一線治療，panitumumab轉換手術率最高（34.2%），肝限局病人達50.0% vs bevacizumab 19.4%。",
+     "sim": 0.276
+    },
+    {
+     "pmid": "42474934",
+     "date": "2026-07-21",
+     "title_zh": "MSI-H/dMMR轉移性大腸直腸癌一線免疫治療對比化療：第三期試驗之系統性回顧與統合分析",
+     "score": 5,
+     "one_liner": "在超過600名MSI-H/dMMR轉移性大腸直腸癌病人中，統合2篇第三期試驗，一線免疫治療較化療顯著改善PFS(HR 0.61)與OS(HR 0.77)。",
+     "sim": 0.254
+    },
+    {
+     "pmid": "42474934",
+     "date": "2026-07-22",
+     "title_zh": "MSI-H/dMMR轉移性大腸直腸癌一線免疫治療對比化療：第三期試驗之系統性回顧與統合分析",
+     "score": 5,
+     "one_liner": "在超過600名MSI-H/dMMR轉移性大腸直腸癌病人中，統合2篇第三期試驗，一線免疫治療較化療顯著改善PFS(HR 0.61)與OS(HR 0.77)。",
+     "sim": 0.254
+    }
+   ]
+  },
+  {
+   "pmid": "42889432",
+   "title": "Fusobacterium nucleatum: a keystone bridging pathogen in polymicrobial biofilms and host immune dysregulation",
+   "journal": "Front Cell Infect Microbiol",
+   "journal_full": "Frontiers in cellular and infection microbiology",
+   "issn": "2235-2988",
+   "issn_linking": "2235-2988",
+   "impact_factor": 5.5,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1038/s41598-024-62846-x",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Sima J, Ji S, Zhang G, Li S, Sun S, Dong W",
+   "abstract": "Oral infectious diseases such as periodontitis stem from disrupted homeostasis between host immunity and polymicrobial biofilm communities. Fusobacterium nucleatum, a ubiquitous oral commensal, is a key intermediate colonizer with well-documented interspecies coaggregation activity. It has been proposed as a bridging pathobiont that contributes to microbial dysbiosis and immune dysregulation at the host-microbe interface, though its in vivo structural bridging function remains debated. This mini-review synthesizes recent advances in understanding the dual functions of F. nucleatum in interspecies microbial interactions and host pathogenic crosstalk. We first delineate the molecular basis of its structural bridging role, focusing on surface adhesins FadA and Fap2 that mediate interspecies coaggregation, support colonization by late-periodontopathogens such as Porphyromonas gingivalis, and enable epithelial barrier invasion. We then dissect mechanisms by which F. nucleatum modulates innate and adaptive immune responses, propagating chronic inflammatory tissue damage while subverting host clearance pathways. Furthermore, we discuss synergistic pathogenicity with co-occurring pathogens and the systemic implications of disseminated F. nucleatum in extraoral disorders including colorectal cancer and adverse pregnancy outcomes. Finally, we highlight the translational promise of targeting F. nucleatum-mediated adhesion and immunomodulation as an ecological therapeutic strategy for oral infections and their systemic sequelae.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42582119",
+     "date": "2026-08-13",
+     "title_zh": "口腔微生物群在大腸直腸癌發生中的貢獻：多菌種交互作用與毒力決定因子",
+     "score": 2,
+     "one_liner": "本綜述提出「口腔菌叢轉位＋橋接生物」概念框架，整合驅動者-乘客模型，解釋CRC相關多菌種共生體的致病機轉，無臨床數據。",
+     "sim": 0.285
+    },
+    {
+     "pmid": "42582119",
+     "date": "2026-08-14",
+     "title_zh": "口腔微生物群在大腸直腸癌發生中的貢獻：多菌種交互作用與毒力決定因子",
+     "score": 2,
+     "one_liner": "本文為概念性綜述，整合口腔菌種轉位、橋接生物與毒力體框架，提出多菌種共生體可能驅動大腸直腸癌發生的新詮釋角度。",
+     "sim": 0.285
+    },
+    {
+     "pmid": "42378068",
+     "date": "2026-06-30",
+     "title_zh": "口腔感染與全身性疾病之間，具核梭桿菌（Fusobacterium nucleatum）是否為關鍵中介者？機轉洞見與治療意涵",
+     "score": 4,
+     "one_liner": "綜述整理F. nucleatum之毒力因子與訊號路徑如何關聯大腸直腸癌等多項全身性疾病，並展望阻斷黏附素、CRISPR清除等新興治療策略。",
+     "sim": 0.278
+    }
+   ]
+  },
+  {
+   "pmid": "42889067",
+   "title": "Patient-aware single-cell analysis of fibrovascular remodeling in a predominantly colorectal cancer immunotherapy cohort",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1038/nature11252",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Gu Y, Li L, Zhang Y, Tang J, Wang Z, Luo X",
+   "abstract": "BACKGROUND: Cancer-associated fibroblasts (CAFs) and vascular mural cells may shape extracellular matrix organization in colorectal cancer. However, single-cell comparisons are susceptible to unequal cell recovery, ambient RNA, doublets, treatment-stage mixing, and repeated sampling within patients. We investigated fibrovascular remodeling using patients as the inferential unit and distinguished reproducible signals from donor-concentrated and context-dependent findings.\nMETHODS: We reanalyzed a published single-cell RNA sequencing cohort of 22 patients, including 20 with colorectal cancer and 2 with duodenal carcinoma. The primary pericyte analysis included 14 pretreatment matched normal-tumor pairs with at least three pericytes per tissue. We assessed ambient contamination and doublets using DecontX and scDblFinder. CAFs were reclustered at six response-blind resolutions, and the stable parent population was tested by patient-blocked pseudobulk analysis after excluding its dominant donor. Independent CRC single-cell and spatial datasets, a cross-cancer immunotherapy cohort, and TCGA were used for external testing.\nRESULTS: After DecontX correction, tumor pericytes had higher ECM6 scores (median paired change 0.309; false discovery rate [FDR] 0.018). Scores were also higher for the matrix stiffness transcriptional proxy (0.277; FDR 0.012) and the hypoxia/angiogenesis transcriptional program (0.255; FDR 0.028). All three signatures remained significant at the five-pericyte threshold (n=13). COL1A1 and FN1 increased in the analysis, although COL1A1 was borderline in the five-cell sensitivity analysis. Response-blind stability analysis identified a 2,983-cell ECM-remodeling CAF population represented in all 22 patients. After excluding P02, patient-blocked pseudobulk analysis in 15 patients showed higher matrix, inflammatory, and myCAF-related programs and a lower iCAF program. Neither SPP1 nor baseline enrichment in stable disease was supported. In GSE205506, a disjoint 10-gene fibroblast gate retained higher inflammatory and composite CAF scores in non-pCR samples. The highest-scoring unsupervised cluster was donor-concentrated and showed no patient-level association with response. Spatial and cross-cancer analyses yielded mixed or null results.\nCONCLUSIONS: These results support pretreatment fibrovascular transcriptional remodeling at the patient level. They do not establish an SPP1-high response biomarker, a mechanical stiffness phenotype, or causal CAF-to-pericyte signaling. Donor-aware analysis places the rare-cluster observation within a broader, reproducible ECM-remodeling CAF program while defining its evidential limits.",
+   "watched": [],
+   "related": []
+  },
+  {
+   "pmid": "42888871",
+   "title": "International expert consensus on managing elective hernia repair in patients with Crohn's disease using the Delphi method",
+   "journal": "BJS Open",
+   "journal_full": "BJS open",
+   "issn": "2474-9842",
+   "issn_linking": "2474-9842",
+   "impact_factor": 4.9,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Sep",
+   "doi": "10.1093/bjsopen/zrag172",
+   "ptype": "Consensus Statement",
+   "ptype_list": [
+    "Consensus Statement"
+   ],
+   "authors": "Lovén H, Helgstrand F, Friis-Andersen H, Ballecer C, Berrevoet F, Boermeester M",
+   "abstract": "BACKGROUND: Patients with Crohn's disease (CD) may be predisposed to mesh-related complications such as impaired wound healing and fistula formation following hernia repair. With limited evidence and no established guidelines for hernia repair in CD, this Delphi study aimed to establish a hernia expert consensus on elective inguinal, incisional, and parastomal hernia repair in patients with CD.\nMETHODS: A three-round Delphi process including 21 hernia experts from Europe and the USA was conducted between 24 April and 15 October 2025. The primary outcome of interest was a consensus ≥ 75% among participants. Near consensus was defined as ≥ 70% agreement. Statements were developed from participant comments and questionnaire responses. Experts evaluated statements on timing, surgical approach, and mesh selection (synthetic non-absorbable, synthetic absorbable, biosynthetic, biological, and non-mesh) across different CD subtypes in elective inguinal, incisional, and parastomal hernia repair. Patients were categorized into three CD subtypes, namely abdominal fistulizing Crohn's disease (FCD), isolated perianal FCD, and non-FCD, with each assessed in both active and non-active inflammatory disease states.\nRESULTS: Consensus or near consensus was achieved for 12 of 20 items (60%) in Round 1, 17 of 33 items (52%) in Round 2, and 13 of 29 items (45%) in Round 3. Overall, 42 of 72 unique items reached consensus (34 items) or near consensus (8 items). It was suggested that elective hernia repair should be avoided in CD patients with active inflammation, regardless of abdominal FCD or non-FCD. In non-active CD, synthetic non-absorbable mesh was suggested for inguinal, incisional, and parastomal hernia repair. Standard mesh placement was recommended for inguinal hernias, whereas retromuscular or preperitoneal mesh placement was recommended for incisional and parastomal hernias. No consensus was reached to avoid elective repair in isolated perianal FCD with active inflammation. The use of non-mesh repair, synthetic absorbable, biological, or biosynthetic mesh was generally not recommended in the elective setting.\nCONCLUSIONS: Consensus was reached that CD with non-active inflammation does not require deviation from standard hernia repair principles provided that the mesh is positioned in extraperitoneal positions. However, patients with CD may have an increased perioperative risk and the surgical management should be guided by shared decision-making.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42633957",
+     "date": "2026-08-25",
+     "title_zh": "疝氣中心對造口旁疝的最先進處置",
+     "score": 4,
+     "one_liner": "本綜述整理造口旁疝（發生率達50%）處置原則，建議依複雜度選用keyhole/funnel/Sugarbaker等基本或進階術式，反對單純縫合修補。",
+     "sim": 0.236
+    },
+    {
+     "pmid": "42379708",
+     "date": "2026-07-01",
+     "title_zh": "大腸癌局部區域復發定義之共識：一項國際德爾菲研究之研究計畫書",
+     "score": 2,
+     "one_liner": "計畫透過全球德爾菲法，邀集外科、腫瘤、放射、病理專家，就大腸癌局部區域復發定義（解剖位置、診斷標準、切緣、無病間隔）建立共識，尚無結果。",
+     "sim": 0.202
+    },
+    {
+     "pmid": "42622733",
+     "date": "2026-08-21",
+     "title_zh": "困難病人的造口旁疝：Tophat整形術是解方嗎？",
+     "score": 4,
+     "one_liner": "在23名困難型造口旁疝患者中，接受Tophat整形術修補，中位追蹤34個月後復發率13%，9%需再次介入。",
+     "sim": 0.201
+    }
+   ]
+  },
+  {
+   "pmid": "42890836",
+   "title": "Release and Targeting Mechanism of Nanomedicine Delivery System in Inflammatory Bowel Disease",
+   "journal": "Int J Nanomedicine",
+   "journal_full": "International journal of nanomedicine",
+   "issn": "1178-2013",
+   "issn_linking": "1176-9114",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.3390/ijms262211121",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Wang H, Zhou F, Shen M, Zhou S, Ma R, Yu Q",
+   "abstract": "Inflammatory bowel disease (IBD), encompassing Crohn's disease (CD) and ulcerative colitis (UC), arises from multifactorial pathogenesis involving colonic barrier dysfunction, gut microbiota dysbiosis, and aberrant immune regulation. The complexity of these mechanisms poses substantial challenges to achieving curative outcomes, necessitating long-term maintenance therapies. Conventional therapeutic agents (5-aminosalicylic acids, glucocorticoids, immunosuppressants, and biologics) are constrained by inherent limitations including poor solubility, chemical instability, non-specific biodistribution, and off-target toxicity, which collectively compromise therapeutic efficacy and safety. To address these challenges, nanomaterial drug delivery systems (NDDS) have emerged as a transformative strategy to enhance drug solubility, achieve spatiotemporal control, and improve intestinal targeting while reducing systemic exposure. Building upon our prior review that established a taxonomy of NDDS, this review outlines the in vivo delivery mechanisms of nanomedicine delivery systems for IBD, with the organic integration of drug-loading strategies, drug administration routes, stimulus-responsive release, and targeting mechanisms as the core framework. By systematically integrating these multidimensional mechanisms throughout the entire drug administration lifecycle, this review constructs a theoretical framework that combines macroscopic vision with mechanistic depth, laying the foundation for the rational design of next-generation intelligent NDDS and providing systematic theoretical support for improving the treatment efficacy of IBD, minimizing systemic toxicity, and promoting the clinical translation of NDDS.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42841048",
+     "date": "2026-10-08",
+     "title_zh": "發炎性腸道疾病之奈米材料平台工程：遞送機制、治療藥物傳遞與智能材料設計之三維整合",
+     "score": 2,
+     "one_liner": "一篇綜述文章，整合奈米材料遞送平台於IBD治療之工程設計概念，並指出現有動物模型多為急性而非慢性模型之轉譯缺口。",
+     "sim": 0.206
+    },
+    {
+     "pmid": "42841048",
+     "date": "2026-10-09",
+     "title_zh": "發炎性腸道疾病之奈米材料平台工程設計：遞送機制、治療藥物遞送與智能材料設計之三維整合",
+     "score": 2,
+     "one_liner": "本文回顧IBD奈米藥物遞送平台（奈米酶、益生菌奈米載體、刺激反應系統），指出現有研究僅限急性動物模型，臨床轉譯證據仍極早期。",
+     "sim": 0.206
+    },
+    {
+     "pmid": "42883298",
+     "date": "2026-10-17",
+     "title_zh": "以小分子為基礎的奈米載體用於大腸直腸癌治療之最新進展",
+     "score": 2,
+     "one_liner": "本綜述整理CRC小分子奈米遞送平台與轉譯障礙，未報病人人數、組間比較或量化療效。",
+     "sim": 0.193
+    }
+   ]
+  },
+  {
+   "pmid": "42888942",
+   "title": "Objective validation of the Crohn's Anal Fistula Quality of Life questionnaire using quantitative MRI fistula volume in perianal fistulising Crohn's disease",
+   "journal": "Colorectal Dis",
+   "journal_full": "Colorectal disease : the official journal of the Association of Coloproctology of Great Britain and Ireland",
+   "issn": "1463-1318",
+   "issn_linking": "1462-8910",
+   "impact_factor": 2.3,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1136/bmj.c5146",
+   "ptype": "Validation Study",
+   "ptype_list": [
+    "Validation Study"
+   ],
+   "authors": "Anand E, Pelly T, Patel U, Callan R, Kanani R, Hart A",
+   "abstract": "BACKGROUND: The Crohn's Anal Fistula Quality of Life (CAF-QoL) questionnaire is the first disease-specific patient-reported outcome measure (PROM) for perianal fistulising Crohn's disease (pfCD). However, validation against objective measures of disease burden is limited. We evaluated the relationship between CAF-QoL and quantitative MRI fistula volume to determine whether MRI-derived disease burden supports the construct validity of this PROM.\nMETHODS: Adults with pfCD were prospectively recruited from a tertiary referral centre. Patients underwent pelvic MRI and completed CAF-QoL within 3 months of imaging. MRI fistula volume was independently quantified by two radiologists using ITK-SNAP, with concurrent scoring of the Van Assche Index (VAI). Clinical disease activity was assessed using the Perianal Disease Activity Index (PDAI). Associations between MRI measures, CAF-QoL and PDAI were evaluated cross-sectionally and longitudinally.\nRESULTS: Thirty-eight patients were included. MRI fistula volume correlated with both CAF-QoL (ρ = 0.40, p = 0.03) and PDAI (ρ = 0.59, p < 0.001). Patients achieving CAF-QoL remission had significantly smaller fistula volumes than those with active disease (279 vs. 965 mm3, p = 0.04). Longitudinal changes in fistula volume correlated with changes in CAF-QoL (ρ = 0.61, p = 0.02) and PDAI (ρ = 0.74, p ≤ 0.01). There was no significant association between the VAI and either CAF-QoL or PDAI. Inter-observer agreement for MRI volume measurement was excellent (ICC = 0.995).\nCONCLUSION: Quantitative MRI fistula volume provides objective construct validation of the CAF-QoL questionnaire and captures clinically meaningful disease burden in pfCD. Combined assessment of MRI fistula volume and CAF-QoL may provide complementary imaging and patient-reported endpoints for clinical practice and future therapeutic trials. Larger prospective multicentre studies are warranted.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42778235",
+     "date": "2026-09-25",
+     "title_zh": "評估Upadacitinib治療對抗腫瘤壞死因子治療失敗之活動性肛門周圍瘻管化Crohn氏症患者療效與安全性之多中心前瞻性觀察性研究：研究方案",
+     "score": 2,
+     "one_liner": "研究方案：計劃於90名抗TNF治療失敗之活動性肛門周圍瘻管化Crohn氏症成人患者中，觀察upadacitinib於第12週的臨床與影像學瘻管複合反應率，尚無結果數據。",
+     "sim": 0.19
+    }
+   ]
+  },
+  {
+   "pmid": "42888642",
+   "title": "Research trends and hotspots in colorectal cancer screening: Bibliometric and visualization analysis (2015-2024)",
+   "journal": "Medicine (Baltimore)",
+   "journal_full": "Medicine",
+   "issn": "1536-5964",
+   "issn_linking": "0025-7974",
+   "impact_factor": 2.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1097/MD.0000000000051198",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Zhou J, Zhou H, Xu J, Wang M, Liu L, Tang X",
+   "abstract": "BACKGROUND: Colorectal cancer (CRC), is a highly prevalent malignant tumor worldwide, and early screening is key to improving its prognosis. Currently, CRC screening research is growing exponentially, but its core research hotspots, evolutionary trends, and interdisciplinary features are not clear. In this study, we used bibliometric analysis to analyze the distribution of literature, research hotspots, and cutting-edge developments in the field of CRC screening worldwide, and to provide a scientific basis for optimizing screening strategies.\nMETHODS: Publications on CRC screening from 2015 to 2024 were retrieved from the Web of Science Core Collection. VOSviewer (v1.6.20), RStudio (v4.4.1), and CiteSpace (v6.4.2) were used for bibliometric and visual analyses. The main analyses included publication trends, countries, authors, journals, references, and keywords.\nRESULT: A total of 3245 publications were included in the analysis. Global publications on CRC screening showed a steady upward trend over the past decade, with an annual growth rate of 2.17%. The United States contributed the highest number of publications, and the University of North Carolina ranked as the most productive institution. GASTROENTEROLOGY and GUT were the most frequently cited journals in this field. Lansdorp‑Vogelaar I was among the most prolific authors. The most cited article was \"CRC screening for average-risk adults: 2018 guideline update from the American Cancer Society.\" Keyword analysis showed that the research hotspots in this field included colonoscopy, biomarker, adenoma detection rate, artificial intelligence, etc.\nCONCLUSION: Current research in CRC screening focuses on traditional screening methods, population-related factors, and emerging technologies, particularly artificial intelligence. Stronger international collaboration and interdisciplinary studies are needed to advance the field.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42755779",
+     "date": "2026-09-19",
+     "title_zh": "具核梭桿菌（Fusobacterium nucleatum）與大腸直腸癌之全球研究趨勢：文獻計量學與視覺化分析",
+     "score": 1,
+     "one_liner": "分析2000-2025年F. nucleatum與CRC相關文獻（中國708篇、美國584篇），描述發表趨勢與關鍵詞群集，未提供臨床outcome。",
+     "sim": 0.369
+    },
+    {
+     "pmid": "42755779",
+     "date": "2026-09-20",
+     "title_zh": "梭桿菌屬（Fusobacterium nucleatum）與大腸直腸癌之全球研究趨勢：文獻計量學與視覺化分析",
+     "score": 1,
+     "one_liner": "分析2000-2025年F. nucleatum與CRC相關文獻（中國708篇、美國584篇、義大利119篇），描述發表趨勢、機構與關鍵詞群集，無臨床數據。",
+     "sim": 0.369
+    },
+    {
+     "pmid": "42432908",
+     "date": "2026-07-11",
+     "title_zh": "大腸直腸癌病人術後腸阻塞之研究趨勢與熱點：文獻計量學分析（1992-2024）",
+     "score": 2,
+     "one_liner": "分析1992-2024年間334篇大腸直腸癌術後腸阻塞相關文獻，發現研究焦點已從手術技術轉向加速康復與吻合口滲漏。",
+     "sim": 0.292
+    }
+   ]
+  }
+ ],
+ "submission_id": "a23c6bef21614f5096480dfce31f752c",
+ "state": "preparing"
+}
