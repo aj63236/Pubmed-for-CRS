@@ -1,0 +1,582 @@
+{
+ "batch_id": null,
+ "date": "2026-10-21",
+ "submitted_at": "2026-10-21T08:27:41+08:00",
+ "provider": "openai",
+ "model": "gpt-6.1-sol",
+ "papers": [
+  {
+   "pmid": "42896861",
+   "title": "Safety and tolerability of anti-toll-like receptor 3, monoclonal antibody PRV-300 in patients with moderate-to-severe ulcerative colitis: a randomized phase 1B clinical trial (PULSE)",
+   "journal": "J Crohns Colitis",
+   "journal_full": "Journal of Crohn's & colitis",
+   "issn": "1876-4479",
+   "issn_linking": "1873-9946",
+   "impact_factor": 10.3,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1093/ibd/izac240",
+   "ptype": "Randomized Controlled Trial, Clinical Trial, Phase I",
+   "ptype_list": [
+    "Randomized Controlled Trial",
+    "Clinical Trial, Phase I"
+   ],
+   "authors": "Pokryszka J, Comer G, Richmond C, Leon F, Reinisch W",
+   "abstract": "BACKGROUND & AIMS: PRV-300 is a fully human IgG4κ monoclonal antibody that binds the extracellular domain of human toll-like receptor 3, which is overexpressed in the inflamed colonic epithelium in patients with inflammatory bowel disease. This study aimed at proving its safety and efficacy in patients with ulcerative colitis (UC).\nMETHODS: Patients with moderate-to-severe UC (Mayo Clinical Score [MCS] 6-12) were randomized to receive 7 doses of PRV-300 intravenously or matched placebo (PBO). After a 12-week treatment period, participants underwent an 8-week follow-up. The primary endpoint was to assess the safety and tolerability of PRV-300. Secondary endpoints included assessment of pharmacodynamics, pharmacokinetics, immunogenicity, and endoscopic disease activity.\nRESULTS: In total, 38 patients were randomized (28 in PRV-300 arm, 9 in placebo arm), of whom 32 completed the trial (24 and 8, respectively). Although TEAEs and TE-SAEs were numerically higher with PRV-300 than placebo (50.0% vs 11.1% and 39.3% vs 0.0%, respectively), the drug was well-tolerated, with only 7.1% (2/28) discontinuing therapy due to AEs and most events being mild, non-specific, or related to underlying disease. In colonic biopsies, PRV-300 had a greater, albeit not statistically significant, effect on the downregulation of TLR3 expression, but not on a UC gene expression signature. No differences in MCS and endoscopic severity were observed.\nCONCLUSIONS: While PRV-300 demonstrated an acceptable safety profile, TLR3 blockade did not translate into clinical benefit despite exploratory evidence of target engagement. Our results are challenging a pivotal role of the mode-of-action for the pathogenesis of UC (funded by Provention Bio).\nCLINICAL TRIAL REGISTRATION NUMBER: ClinicalTrials.gov (NCT03849599).",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42874103",
+     "date": "2026-10-15",
+     "title_zh": "Icotrokinra 治療潰瘍性結腸炎患者的第 2 期試驗",
+     "score": 7,
+     "one_liner": "252名中重度UC患者比較口服icotrokinra與安慰劑，400mg組12週反應率63%比27%。",
+     "sim": 0.219
+    },
+    {
+     "pmid": "42874103",
+     "date": "2026-10-16",
+     "title_zh": "Icotrokinra 治療潰瘍性結腸炎患者的第 2 期試驗",
+     "score": 7,
+     "one_liner": "252名中重度UC患者比較口服icotrokinra與安慰劑，400mg組12週反應率63%比27%。",
+     "sim": 0.219
+    },
+    {
+     "pmid": "42503008",
+     "date": "2026-07-27",
+     "title_zh": "Olamkicept 於健康日本男性中最高2400mg劑量之安全性與藥物動力學：第一期、隨機、安慰劑對照、雙盲試驗",
+     "score": 2,
+     "one_liner": "在24名健康日本男性中，比較單次Olamkicept（1200-2400mg）與安慰劑，發現安全性良好、暴露量呈劑量比例增加。",
+     "sim": 0.188
+    }
+   ]
+  },
+  {
+   "pmid": "42900273",
+   "title": "Comparative perioperative and oncological outcomes of the da Vinci Xi versus Si robotic surgical systems in rectal cancer surgery: a systematic review and meta-analysis",
+   "journal": "J Robot Surg",
+   "journal_full": "Journal of robotic surgery",
+   "issn": "1863-2491",
+   "issn_linking": "1863-2483",
+   "impact_factor": 4.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1007/s00464-014-3855-5",
+   "ptype": "Systematic Review, Meta-Analysis",
+   "ptype_list": [
+    "Systematic Review",
+    "Meta-Analysis",
+    "Comparative Study",
+    "Review"
+   ],
+   "authors": "Magalhães I, de Oliveira Paixão F, Tamura G, Averbach P",
+   "abstract": "The da Vinci Xi replaced the Si with a boom-mounted architecture intended to remove the re-docking and multiquadrant limits on pelvic access. Whether it changes outcomes in rectal cancer surgery is unresolved: existing syntheses pooled rectal with colonic resection. Five databases, Google Scholar and citation graphs were searched to August 2026, without language or design restriction, for comparative studies reporting outcomes separately by platform in rectal cancer resection. Screening, extraction and risk-of-bias assessment were done in duplicate. Random-effects models with a Hartung-Knapp adjustment were used; certainty was rated with GRADE. Eight non-randomised cohorts (843 patients; 380 Xi, 463 Si) were included. Pooling all five cohorts reporting operative time, the mean difference was - 27.7 min (95% confidence interval - 80.4 to + 25.0; I² 95%); restricted to the four reporting means with standard deviations, thus conditional on excluding the largest cohort, it was - 50.6 min (- 69.4 to - 31.7). Docking time was shorter with the Xi in all three reporting cohorts, which defined it differently or not at all. The evidence is very uncertain about the effect of platform on anastomotic leak (risk ratio 0.53, 0.24 to 1.14), complications, conversion, reoperation, margin involvement and specimen quality; certainty was very low throughout. The evidence is very uncertain about the effect of the da Vinci Xi compared with the Si on perioperative and oncological outcomes in rectal cancer, and functional outcomes have not been compared. Because the platforms were compared across periods, centres and levels of experience, no estimate isolates the platform.PROSPERO registration CRD420261480007, registered 18 August 2026, before data extraction.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42579032",
+     "date": "2026-08-12",
+     "title_zh": "全機器人低前位切除術（TR-LAR）與傳統腹腔鏡手術治療直腸癌之比較：系統性回顧與統合分析",
+     "score": 5,
+     "one_liner": "在5篇研究比較TR-LAR與L-LAR的統合分析中，機器人手術時間多43.2分鐘但轉開腹率低20%，其他腫瘤與併發症指標無差異。",
+     "sim": 0.188
+    },
+    {
+     "pmid": "42579032",
+     "date": "2026-08-13",
+     "title_zh": "全機器人低前位切除術（TR-LAR）與傳統腹腔鏡手術治療直腸癌之比較：系統性回顧與統合分析",
+     "score": 5,
+     "one_liner": "在5篇研究比較TR-LAR與L-LAR治療直腸癌中，全機器人手術時間多43.2分鐘（p=0.008），轉開腹率低20%（p=0.02），其他結果無顯著差異。",
+     "sim": 0.188
+    },
+    {
+     "pmid": "42645693",
+     "date": "2026-08-27",
+     "title_zh": "機器人手術與腹腔鏡手術治療橫結腸及脾曲癌之比較：系統性回顧與統合分析",
+     "score": 5,
+     "one_liner": "在167名機器人手術與296名腹腔鏡手術病人（橫結腸/脾曲癌，6篇研究）中，機器人組住院天數短1.01天、轉開腹0/149 vs 14/278，其餘併發症無差異。",
+     "sim": 0.186
+    }
+   ]
+  },
+  {
+   "pmid": "42897465",
+   "title": "Diagnostic accuracy of Neutrophil Gelatinase-Associated Lipocalin (NGAL) for inflammatory bowel disease: a systematic review and bivariate diagnostic meta-analysis",
+   "journal": "BMC Gastroenterol",
+   "journal_full": "BMC gastroenterology",
+   "issn": "1471-230X",
+   "issn_linking": "1471-230X",
+   "impact_factor": 3.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Sep",
+   "doi": "10.7326/0003-4819-140-3-200402030-00010",
+   "ptype": "Systematic Review, Meta-Analysis",
+   "ptype_list": [
+    "Systematic Review",
+    "Meta-Analysis"
+   ],
+   "authors": "Yu T, Meng F, Ma K, Wang C",
+   "abstract": "OBJECTIVE: To systematically assess the diagnostic accuracy of neutrophil gelatinase-associated lipocalin (NGAL) for inflammatory bowel disease (IBD) and to compare its performance with fecal calprotectin (FC), C-reactive protein (CRP), and erythrocyte sedimentation rate (ESR) using marker-specific diagnostic test accuracy meta-analysis.\nMETHODS: PubMed, Embase, and the Cochrane Library were searched for diagnostic studies using endoscopy and/or histopathology as the reference standard. The primary synthesis used directly reported complete four-cell table data and marker-specific bivariate random-effects models (Reitsma). Exploratory analyses using sensitivity/specificity records were performed only as supplementary checks because patient populations, thresholds, sample types, and reference standards were not sufficiently exchangeable for a formal diagnostic network meta-analysis. Subgroup feasibility, direct-data sensitivity checks, continuity correction use, and Deeks funnel plot asymmetry were assessed.\nRESULTS: Seventy-eight studies with 148 diagnostic records were included. The primary bivariate analysis was based on 27 directly reported complete four-cell records, including 11 FC, 7 CRP, 5 ESR, and 4 NGAL records; 85 sensitivity/specificity records were used only for supplementary exploratory analyses. NGAL showed a pooled sensitivity of 90.9% (95% CI: 66.1%-98.1%) and specificity of 76.1% (95% CI: 42.4%-93.2%), but the estimate was imprecise and underpowered because only 13 NGAL records and 4 complete four-cell records were available. Exploratory network diagnostics did not support clinically interpretable ranking.\nCONCLUSION: NGAL may have high sensitivity for IBD diagnosis, but current evidence is preliminary, heterogeneous, and based on very limited complete four-cell data. NGAL should not be interpreted as a replacement for FC or as a stand-alone diagnostic test. Larger prospective studies with standardized thresholds, sample types, and reference standards are needed.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42533341",
+     "date": "2026-08-01",
+     "title_zh": "電腦輔助偵測（CAD）診斷任意大小、≤5mm及6-9mm大腸直腸息肉之準確性：統合分析",
+     "score": 5,
+     "one_liner": "統合19篇研究，CAD偵測任意大小大腸息肉之敏感度0.94、特異度0.91，AUC 0.97，各尺寸分層結果相近。",
+     "sim": 0.174
+    },
+    {
+     "pmid": "42533341",
+     "date": "2026-08-02",
+     "title_zh": "電腦輔助偵測（CAD）對任意大小、≤5mm及6-9mm大腸直腸息肉之診斷準確度：統合分析",
+     "score": 5,
+     "one_liner": "統合19篇研究，CAD偵測任意大小息肉之敏感度0.94、特異度0.91，6-9mm息肉AUC降至0.92，準確度隨息肉變小而略降但仍高。",
+     "sim": 0.174
+    },
+    {
+     "pmid": "42446529",
+     "date": "2026-07-15",
+     "title_zh": "評估血清人類半乳糖凝集素3作為發炎性腸道疾病活性指標並與糞便鈣衛蛋白比較",
+     "score": 3,
+     "one_liner": "在40名活動期IBD病人與40名對照中，比較血清galectin 3與糞便鈣衛蛋白，發現galectin 3診斷準確度達99.6%（切點>5.199 µg/ml）。",
+     "sim": 0.154
+    }
+   ]
+  },
+  {
+   "pmid": "42897542",
+   "title": "Patient-derived organoids for precision oncology in colorectal cancer: from tumor modeling to clinical translation",
+   "journal": "Mol Cancer",
+   "journal_full": "Molecular cancer",
+   "issn": "1476-4598",
+   "issn_linking": "1476-4598",
+   "impact_factor": 42.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1126/science.aah5043",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Lupo B, Catalano I, Trusolino L",
+   "abstract": "Precision oncology in colorectal cancer (CRC) has been profoundly informed by genomic and transcriptomic profiling, yet molecular stratification remains only partially predictive of therapeutic benefit. This reflects a broader challenge: moving from static molecular information to dynamic, adaptive, and time-resolved predictions of drug response for individual patients along their clinical history. In CRC, this challenge is compounded by extensive inter- and intratumoral heterogeneity, clonal evolution, chromosomal instability, phenotypic plasticity and tumor-microenvironment (TME) interactions, all of which reshape therapeutic vulnerabilities over time.Patient-derived organoids (PDOs) have emerged as a functional platform to address this gap, with CRC providing one of the most fertile contexts for their development and application. By preserving key histopathological, molecular, and phenotypic features of parental tumors while remaining experimentally tractable, expandable, and amenable to pharmacological and genetic perturbation, PDOs add a functional layer to precision oncology in CRC. Living organoid biobanks and ex vivo screening studies have shown that PDOs can capture interpatient heterogeneity, uncover mechanisms of sensitivity and resistance, and, in selected contexts, mirror clinical responses to chemotherapy and targeted agents. The same experimental tractability has made these systems powerful tools for investigating tumor initiation and clonal evolution, while enabling exploration of cellular plasticity through the lens of dynamic cellular hierarchies. In parallel, next-generation CRC organoid systems incorporating stromal and immune components may extend functional testing to TME-dependent processes, including response to immunotherapy.In this review, we discuss the conceptual foundations of organoid technology and its emergence as a functional precision oncology platform in CRC. We examine how CRC organoids have advanced understanding of tumor initiation, evolution, chromosomal instability, and phenotypic plasticity; summarize their applications in drug discovery, therapy-response prediction, and resistance modeling; and highlight the development of next-generation multicellular organoid systems incorporating immune and stromal components. Finally, we address the major technical, biological, and clinical challenges that must be overcome to translate PDO-based approaches into robust and clinically actionable tools for precision medicine.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42340051",
+     "date": "2026-06-24",
+     "title_zh": "從基因體變異到功能性腫瘤生物學：整合類器官與器官晶片技術於大腸直腸癌之應用",
+     "score": 2,
+     "one_liner": "本文綜述 CRC 基因演化，並介紹病人來源類器官與器官晶片技術如何整合以連結基因變異與腫瘤功能表現，屬技術平台綜述。",
+     "sim": 0.308
+    },
+    {
+     "pmid": "42335960",
+     "date": "2026-06-24",
+     "title_zh": "腸道類器官於臨床應用之最新進展與限制",
+     "score": 2,
+     "one_liner": "本文綜述腸道類器官作為CRC前臨床研究模型之進展與限制，尚無臨床試驗數據，技術仍處於轉譯研究早期階段。",
+     "sim": 0.226
+    },
+    {
+     "pmid": "42589602",
+     "date": "2026-08-14",
+     "title_zh": "病人來源類器官於胃腸道疾病之應用：現況、限制與未來展望",
+     "score": 2,
+     "one_liner": "本綜述整理病人來源類器官於胃腸疾病（IBD、感染、遺傳疾病、GI癌症）之應用平台與限制，未提供臨床數據。",
+     "sim": 0.219
+    }
+   ]
+  },
+  {
+   "pmid": "42898377",
+   "title": "Comparative profiling of MAIT cells across gastrointestinal cancers identifies conserved NK receptor dysregulation and HCC-specific defects in cytotoxicity and XBP1s signaling",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1016/j.cell.2015.05.025",
+   "ptype": "Comparative Study",
+   "ptype_list": [
+    "Comparative Study"
+   ],
+   "authors": "Proß V, Ruhm A, Thole L, Tóth L, Harikumar Parvathy G, Jäger P",
+   "abstract": "BACKGROUND & AIMS: Mucosal-associated invariant T (MAIT) cells are innate-like T lymphocytes with cytotoxic capacity and emerging roles in tumour immunity. While MAIT cells express a diverse repertoire of natural killer (NK) receptors, the functional significance of these receptors in gastrointestinal (GI) cancers remains poorly understood.\nMETHODS: We characterized the NK receptor repertoire and effector function of MAIT cells across five human GI tumour entities: hepatocellular carcinoma (HCC; n = 30), colorectal liver metastases (CRLM; n = 15), colorectal cancer (CRC; n = 17), pancreatic ductal adenocarcinoma (PDAC; n = 17), and gastric cancer (GC; n = 18), and examined the functional phenotype and cytotoxic potential of primary HCC-derived MAIT cells.\nRESULTS: MAIT cell frequencies varied across tumour entities and anatomical compartments, with significant intratumoral depletion in HCC compared with matched peritumoral tissue. Across all tumour entities, tumour-infiltrating MAIT cells consistently exhibited a pronounced downregulation of the activating NK receptor NKG2D. This reduction was also evident in peripheral blood MAIT cells but notably reversed following tumour resection and correlated with clinical outcomes. Functionally, IL-15-induced cytotoxicity was impaired in HCC-derived MAIT cells independently of receptor expression, suggesting additional mechanisms of dysfunction. Mechanistically, we report the expression of the endoplasmic reticulum stress-responsive transcription factor X-box binding protein 1 XBP1s (spliced form of XBP1) in circulating and tissue-resident MAIT cells. XBP1s expression was induced by IL-15 and ER stress but was attenuated in tumour-derived compared with peritumoral MAIT cells, indicating defective ER stress signalling.\nCONCLUSIONS: Together, these findings define a distinct dysfunctional state of tumour-resident MAIT cells in HCC, characterized by defective ER stress responses, and identify impaired NK receptor expression across GI cancers that may contribute to impaired antitumour immunity.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42527030",
+     "date": "2026-07-31",
+     "title_zh": "IL-27 塑造大腸直腸癌中NK細胞的異質性與功能",
+     "score": 2,
+     "one_liner": "在AKPS小鼠CRC腫瘤模型中，IL-27阻斷降低NK細胞浸潤、IFN-γ產生與未成熟亞群比例，人類CRC單細胞資料佐證IL-27訊號上升。",
+     "sim": 0.162
+    },
+    {
+     "pmid": "42527030",
+     "date": "2026-08-01",
+     "title_zh": "IL-27如何塑造大腸直腸癌中NK細胞的異質性與功能",
+     "score": 2,
+     "one_liner": "在CRC小鼠腫瘤模型與人類單細胞資料中，比較IL-27阻斷與否，發現IL-27維持腫瘤內NK細胞浸潤、IFN-γ產生及未成熟亞群比例。",
+     "sim": 0.162
+    }
+   ]
+  },
+  {
+   "pmid": "42900324",
+   "title": "Curcumin analogue FLLL32 induces ferroptosis by targeting the STAT3-GPX4/SLC40A1 axis in colorectal cancer",
+   "journal": "Mol Biomed",
+   "journal_full": "Molecular biomedicine",
+   "issn": "2662-8651",
+   "issn_linking": "2662-8651",
+   "impact_factor": 13.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1007/s11427-022-2167-3",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Wu T, Hao M, Luo Q, Liu S, Zhang Y, Zhang Y",
+   "abstract": "FLLL32 is a curcumin analogue with reported anti-tumor activity, mainly through inhibition of signal transducer and activator of transcription 3 (STAT3) signaling and induction of apoptosis. However, whether FLLL32 regulates ferroptosis in colorectal cancer (CRC) and the underlying mechanism remain unclear. Here, using a patient-derived CRC organoid screening platform, we identified FLLL32 as a potent anti-CRC compound. FLLL32 suppressed CRC organoid growth, inhibited CRC cell proliferation and migration in vitro, and inhibited xenograft tumor growth in vivo. In parallel, FLLL32 induced ferroptosis-associated iron accumulation, reactive oxygen species (ROS) production, lipid peroxidation, mitochondrial morphological and functional abnormalities. The ferroptosis inhibitor Ferrostatin-1 markedly restored FLLL32-impaired cell viability and reduced ROS, whereas the apoptosis inhibitor Z-VAD-FMK showed weaker protection. These findings suggest that ferroptosis is a major contributor to FLLL32-induced cell death, although apoptotic features are also present. Mechanistically, FLLL32 interacted with STAT3, and Glu638 and Met726 contributed to the FLLL32-STAT3 interaction. FLLL32 also suppressed STAT3 Tyr705 phosphorylation and nuclear signaling, thereby disrupting pSTAT3-mediated transcriptional regulation of glutathione peroxidase 4 (GPX4) and solute carrier family 40 member 1 (SLC40A1), weakening lipid peroxide detoxification and cellular iron efflux, promoting intracellular iron accumulation, and enhancing ferroptosis in CRC cells. These findings define a STAT3-GPX4/SLC40A1-dependent mechanism underlying the anti-CRC activity of FLLL32 and support further investigation of STAT3-associated ferroptosis regulation as a potential therapeutic vulnerability in CRC.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42572499",
+     "date": "2026-08-11",
+     "title_zh": "GPR39透過Nrf2/SLC7A11軸抑制鐵死亡並降低大腸直腸癌對抗PD-1免疫治療的敏感性",
+     "score": 2,
+     "one_liner": "在CRC細胞株與MC38小鼠模型中，比較GPR39敲低與對照，發現敲低誘導鐵死亡並增強抗PD-1療效與CD8+ T細胞浸潤。",
+     "sim": 0.297
+    },
+    {
+     "pmid": "42411497",
+     "date": "2026-07-07",
+     "title_zh": "槲寄生多糖（Huaier）透過降低P-糖蛋白並誘導Nrf2/SLC7A11/GPX4依賴性鐵死亡，使抗藥性大腸直腸癌細胞對Oxaliplatin重新敏感",
+     "score": 2,
+     "one_liner": "在OXA抗藥性CRC細胞株中，比較OXA單獨與OXA+Huaier多糖聯合處理，發現聯合治療經Nrf2/SLC7A11/GPX4路徑誘導鐵死亡以逆轉抗藥性（機制層級，無具體數值）。",
+     "sim": 0.292
+    },
+    {
+     "pmid": "42859913",
+     "date": "2026-10-12",
+     "title_zh": "重新審視大腸直腸癌中的細胞死亡：鐵死亡（Ferroptosis）作為治療契機的崛起",
+     "score": 1,
+     "one_liner": "本綜述整理鐵死亡等調控性細胞死亡路徑於CRC治療抗性中的分子機轉，全屬臨床前概念，無人體數據。",
+     "sim": 0.158
+    }
+   ]
+  },
+  {
+   "pmid": "42900293",
+   "title": "Lysine-specific demethylase 1 (LSD1) regulates macrophage plasticity and immune checkpoint expression in colorectal liver metastases",
+   "journal": "Mol Biomed",
+   "journal_full": "Molecular biomedicine",
+   "issn": "2662-8651",
+   "issn_linking": "2662-8651",
+   "impact_factor": 13.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1186/s40425-019-0622-0",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Cives-Losada C, Soldani C, Polidoro M, Franceschini B, Milana F, Gazzillo A",
+   "abstract": "Colorectal liver metastases (CRLM) are a major cause of mortality in colorectal cancer and are characterised by a profoundly immunosuppressive tumour microenvironment in which tumour-associated macrophages (TAMs) play a central role. However, the molecular mechanisms driving TAM plasticity and maintenance remain poorly understood. Here, we investigated macrophage heterogeneity in CRLM and examined the contribution of the epigenetic regulator lysine-specific demethylase 1 (LSD1) to TAM polarisation. Analysis of patient-derived specimens by flow cytometry, immunohistochemistry and transcriptional profiling identified a population of large TAMs (L-TAMs) enriched in the peritumoral niche that displayed an immunosuppressive, M2-like phenotype and was associated with poor clinical outcome. In contrast, smaller TAMs (S-TAMs) exhibited a more inflammatory transcriptional programme, including increased IL1β expression. Tumour-conditioned media reproduced these distinct macrophage phenotypes in vitro, indicating that tumour-derived factors actively shape TAM identity. Pharmacological inhibition of LSD1 using baicalin or INCB059872 reduced the expression of CD206 and the immune checkpoint molecule PD-L1, consistent with macrophage reprogramming away from a tumour-promoting state. Collectively, these findings identify LSD1 as an epigenetic regulator of macrophage plasticity in CRLM, implicated in the maintenance of immunosuppressive TAM phenotypes, and potentially able to induce phenotypic reversion. Our findings identify LSD1 as a regulator of TAM phenotype and support further investigation of LSD1 targeting as a strategy to remodel the metastatic tumour microenvironment and potentially enhance anti-tumour immunity.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42635814",
+     "date": "2026-08-26",
+     "title_zh": "賴氨酸特異性去甲基化酶1 (KDM1A/LSD1) 在調控大腸直腸癌腫瘤免疫微環境中的雙重角色及其抑制劑",
+     "score": 2,
+     "one_liner": "綜述整理KDM1A/LSD1調控CRC腫瘤增殖與免疫微環境的雙重機轉，並提出其抑制劑可能增強ICI療效於pMMR CRC，但無量化臨床數據。",
+     "sim": 0.22
+    },
+    {
+     "pmid": "42358994",
+     "date": "2026-06-26",
+     "title_zh": "大腸直腸癌肝轉移：免疫抑制微環境、訊息傳遞路徑與新興治療策略",
+     "score": 3,
+     "one_liner": "本綜述整理 CRLM 免疫抑制微環境機制（T 細胞耗竭、免疫抑制細胞擴增）與新興治療策略，無原創臨床數據。",
+     "sim": 0.19
+    },
+    {
+     "pmid": "42830367",
+     "date": "2026-10-06",
+     "title_zh": "大腸直腸癌肝轉移中 SPP1+ 巨噬細胞之特性分析及其與新輔助化療抗藥性之相關性",
+     "score": 3,
+     "one_liner": "在 CRLM 病人標本中，鑑定 SPP1+ 巨噬細胞經 SPP1-CD44 軸抑制 CD8+ T 細胞，與 NAC 抗藥性相關，動物模型顯示 SPP1 阻斷加 anti-PD-1 可致腫瘤消退。",
+     "sim": 0.164
+    }
+   ]
+  },
+  {
+   "pmid": "42899005",
+   "title": "IgG N-glycosylation in autoimmune diseases",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.3389/fimmu.2025.1532145",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Pumpe C, Vermeren S",
+   "abstract": "IgG is the most abundant antibody in the human circulation. It carries a single conserved glycosylation site, Asparagine 297, in its Fc domain. This N-glycan is critical for the ability of the antibody to activate immune cells via binding to, and cross-linking Fc receptors in order to elicit functional responses. First documented in the context of rheumatoid arthritis (RA), the IgG N-glycan may undergo changes that are correlated to host health. We present a narrative in-depth comparison of changes incurred by IgG N-glycans in autoimmune diseases; RA, systemic lupus erythematosus, multiple sclerosis, type I diabetes, primary biliary cholangitis and inflammatory bowel disease (Crohn's disease and ulcerative colitis). Based on a systematic literature search, we identify common traits and features that are specific for any one autoimmune disease. Our analysis shows that the single most common trend in most of the conditions analyzed here is increased IgG agalactosylation. Changes to the IgG N-glycan typically accompany and often precede disease onset and flare-ups, while they decrease in remission and pregnancy. The correlation of agalactosylated IgG with inflammatory disease is so striking that the agalactosylated IgG N-glycan has long been viewed as inflammatory and even pathogenic. Yet, despite the association with inflammation, any mechanism by which disease-associated IgG N-glycans may mediate their pro-inflammatory nature remains enigmatic.",
+   "watched": [],
+   "related": []
+  },
+  {
+   "pmid": "42898640",
+   "title": "Why only 3 months? Immunological constraints on CAR-T therapy in gastrointestinal cancers",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1073/pnas.1716266115",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Zeng L, Wei S, Chen N, Xie X",
+   "abstract": "In June 2026, satri-cel/CT041, a chimeric antigen receptor (CAR) T-cell product targeting Claudin18.2, received approval from China's National Medical Products Administration for the treatment of Claudin18.2-positive, HER2-negative advanced gastric/gastroesophageal junction adenocarcinoma after failure of at least two prior lines of therapy. This marks the first CAR-T product approved worldwide for solid tumours. The approval ends the long-standing debate over whether CAR-T cells can be effective against solid malignancies, yet it simultaneously raises a more pointed issue: in its pivotal randomised controlled trial, median progression-free survival was 3.25 months (95% CI 2.86-4.53) with satri-cel against 1.77 months (95% CI 1.61-2.04) with treatment of physician's choice, giving a hazard ratio of 0.37 (95% CI 0.24-0.56). The two medians differ by 1.48 months; that figure marks where each survival distribution is cut in half and is not the benefit any individual patient can expect, and approval does not equate to a cure. Taking this as a starting point, this review systematically dissects the immunological bottlenecks that constrain CAR-T efficacy in gastrointestinal tumours. We first trace the evidence chain from phase I studies through the randomised controlled trial to exploratory adjuvant-therapy settings and then integrate the landscape of targets-Claudin18.2, glypican-3, carcinoembryonic antigen, mesothelin, and CDH17-within a target-tumour matrix encompassing gastric cancer, colorectal cancer, hepatocellular carcinoma, and pancreatic cancer. The core section focuses on four intertwined immunological constraints: spatiotemporal heterogeneity and escape at the antigen level; a therapeutic window shaped jointly by epitope masking within tight junctions and immune privilege of the gastric mucosal stem cell niche-this mechanism not only explains why Claudin18.2-directed CAR-T cells exhibit an acceptable safety profile despite target expression on normal tissues but also provides a paradigm for rational selection of next-generation targets; a suppressive microenvironment composed of regulatory T cells, myeloid-derived suppressor cells, tumour-associated macrophages, transforming growth factor-β, adenosine, and a hypoxic and acidotic metabolic milieu; and CAR-T exhaustion driven by chronic antigen stimulation. We particularly emphasise that metabolic stress and exhaustion are not two parallel obstacles. We put forward a mechanistic model in which persistent antigen stimulation combined with intratumoral hypoxia acts as a \"double hit\": through mitochondrial dysfunction and reactive oxygen species accumulation, the two inputs raise nuclear factor of activated T-cell (NFAT) activity and so drive the TOX/NR4A-dominated exhaustion program. This model is assembled from chronic-infection and mouse tumour systems and has not been tested in human CAR-T cells or in satri-cel-treated patients. We advance it as a framework for organising the four bottlenecks and for explaining why single-point interventions struggle to lift the efficacy ceiling, not as a demonstrated account. On this basis, we discuss strategies such as armouring, logic gating, transcription factor engineering, gene editing, and chemokine receptor modification, along with combination regimens involving checkpoint inhibition, oncolytic viruses, locoregional administration, and microbiome modulation, and we evaluate alternative platforms including CAR-macrophages, CAR-NK cells, and in vivo CAR-T generation. The watershed has been crossed, but the work of turning 3 months into 30 has only just begun.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42538870",
+     "date": "2026-08-03",
+     "title_zh": "CAR-T細胞的製造流程與靜電表面優化可改善肝臟惡性腫瘤的治療效果",
+     "score": 2,
+     "one_liner": "在小鼠肝腫瘤模型中，優化CAR-T製造流程與G8.8 scFv靜電結構，降低T細胞耗竭並提升MC38-EpCAM大腸癌肝轉移模型之抗腫瘤療效。",
+     "sim": 0.159
+    }
+   ]
+  },
+  {
+   "pmid": "42898560",
+   "title": "Gut microbiome-shaped chemotherapy responses across cancer types: mechanisms of resistance, biomarkers, and targeted interventions",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1038/s41591-021-01552-x",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Shao T, Li M, Li S, Pu J, Li C, Guo C",
+   "abstract": "Cytotoxic chemotherapy remains an important component of multimodal treatment for many solid tumors, but resistance and dose-limiting toxicities continue to constrain clinical benefit. The gut microbiome can influence chemotherapy response through microbial drug biotransformation, metabolite signaling, intestinal-barrier integrity, systemic immune regulation, and tumor-cell stress and death pathways. Across solid tumors, the evidence is strongest in colorectal cancer, where clinical associations are supported by increasingly detailed mechanistic and interventional studies; evidence in many extraintestinal cancers remains less mature and is dominated by smaller observational cohorts and selected preclinical models. Importantly, gut-derived systemic effects should be distinguished from local or tumor-associated microbial mechanisms, and direct tumor-cell resistance should be separated from altered drug exposure and toxicity-mediated reductions in relative dose intensity. Microbiota-associated and metabolic biomarkers and microbiota-targeted interventions show potential for treatment stratification, toxicity prediction, and therapeutic modulation, but clinical translation remains limited by heterogeneous cohorts, incomplete causal validation, variable engraftment and strain specificity, and safety and standardization requirements. Overall, the microbiome is best viewed as a cancer- and regimen-specific modifier of chemotherapy rather than a universal determinant of response. Prospective, mechanism-matched studies are needed to establish whether microbiome-guided strategies can improve treatment efficacy, tolerance, and completion.",
+   "watched": [],
+   "related": []
+  },
+  {
+   "pmid": "42898538",
+   "title": "Lipid metabolism: a potential checkpoint for cGAS-STING regulation in colorectal cancer",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1016/j.ebiom.2024.105491",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Qiu Q, Cheng Z, Gu J, Zhang T, Cai M, Wang J",
+   "abstract": "Immunotherapy for colorectal cancer (CRC) continues to face significant challenges, particularly in patients with microsatellite stable (MSS) tumors. The cyclic GMP-AMP synthase-stimulator of interferon genes (cGAS-STING) pathway is a key regulator of innate immunity and has emerged as a promising target for enhancing anti-tumor immune responses. Meanwhile, lipid metabolic reprogramming is a defining hallmark of CRC and contributes to tumor progression, evasion, and therapeutic resistance. Although direct evidence linking lipid metabolism to cGAS-STING signaling in CRC remains limited, accumulating studies from diverse disease models suggest extensive interactions between these two processes. This review summarizes the major features of lipid metabolic reprogramming in CRC and discusses current understanding of cGAS-STING signaling in tumor immunity. We further examine potential mechanisms by which lipid metabolism may influence cGAS-STING activity, including the regulation of mitochondrial DNA release, intracellular trafficking of signaling components and lipid-associated post-translational modifications. Emerging evidence also indicates that cGAS-STING signaling can affect lipid metabolic pathways by regulating lipid metabolic homeostasis and inducing lipid peroxidation-driven ferroptosis. Importantly, microbiota-derived lipid metabolites exert context-dependent effects on cGAS-STING signaling to balance intestinal inflammation and anti-tumor immunity. Finally, we discuss therapeutic strategies targeting lipid metabolism and cGAS-STING signaling, with a particular focus on approaches that may enhance anti-tumor immunity through coordinated metabolic-immune modulation. By bridging metabolic reprogramming with innate immune sensing, we propose that modulating the lipid-cGAS-STING axis could break immune tolerance and offer a distinct therapeutic window for CRC.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42346101",
+     "date": "2026-06-25",
+     "title_zh": "大腸直腸癌的決定因子：連結生物標記、治療與飲食-微生物軸的整合性免疫代謝框架",
+     "score": 2,
+     "one_liner": "本文為概念性綜述，提出CRC腫瘤-免疫-宿主代謝共同演化的整合框架，強調MSS型CRC免疫治療抗藥的代謝機轉，無臨床數據。",
+     "sim": 0.244
+    },
+    {
+     "pmid": "42732402",
+     "date": "2026-09-14",
+     "title_zh": "奈米藥物標靶脂質代謝重編程用於大腸直腸癌治療之研究進展",
+     "score": 2,
+     "one_liner": "本綜述整理奈米藥物標靶CRC脂質代謝重編程（合成、攝取、儲存、膽固醇代謝）之研究進展與臨床轉譯挑戰。",
+     "sim": 0.238
+    },
+    {
+     "pmid": "42732402",
+     "date": "2026-09-15",
+     "title_zh": "標靶脂質代謝重編程之奈米藥物於大腸直腸癌治療的研究進展",
+     "score": 2,
+     "one_liner": "本文綜述標靶CRC脂質代謝重編程之奈米藥物遞送策略與機制，屬臨床前概念整理，無臨床試驗數據。",
+     "sim": 0.238
+    }
+   ]
+  },
+  {
+   "pmid": "42900313",
+   "title": "Later-line Treatment Selection in Metastatic Colorectal Cancer: Trifluridine/Tipiracil Plus Bevacizumab, Regorafenib, and Fruquintinib",
+   "journal": "J Gastrointest Cancer",
+   "journal_full": "Journal of gastrointestinal cancer",
+   "issn": "1941-6636",
+   "issn_linking": "",
+   "impact_factor": 2.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1016/S0140-6736(25)02025-2",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Sagawa T, Hirakawa M, Nagashima H, Fujikawa K",
+   "abstract": "Later-line therapy for metastatic colorectal cancer (mCRC) increasingly requires selection among treatments with different mechanisms, toxicity profiles, and sequencing evidence. Trifluridine/tipiracil plus bevacizumab has robust randomized evidence from SUNLIGHT, but objective response remains uncommon and hematologic toxicity can limit treatment delivery in heavily pretreated patients. Regorafenib and fruquintinib are minimally myelosuppressive oral alternatives, yet they differ in dose strategy, hepatotoxicity, hand-foot skin reaction, hypertension, and proteinuria. This narrative review updates pivotal and recent evidence and proposes an evidence-informed framework that treats hematologic reserve as a clinical fitness construct rather than a fixed laboratory threshold. We additionally examine the clinical implications of low response rates, prior anti-angiogenic exposure, emerging molecular predictors including KRAS G12, evidence in older or vulnerable patients, and recent phase III developments. Current data do not support a validated molecular biomarker for choosing among these three options, and no randomized head-to-head comparison of regorafenib and fruquintinib exists. Accordingly, treatment selection should be individualized according to prior therapies, toxicity vulnerability, organ function, tumor tempo, and patient goals. Hypertension and proteinuria are important selection factors but may also be modifiable treatment-delivery factors. The proposed algorithms and adverse-event radar chart are intended as practical visual syntheses rather than validated guidelines or formal cross-trial comparisons.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42423856",
+     "date": "2026-07-09",
+     "title_zh": "轉移性大腸直腸癌二線後治療選擇：細胞毒性救援療法、抗血管新生藥物、再挑戰策略與生物標記導向治療的實用排序",
+     "score": 5,
+     "one_liner": "本文綜述 mCRC 二線後治療（regorafenib、FTD/TPI、fruquintinib）與生物標記導向療法，提出情境式排序框架，非原創試驗數據。",
+     "sim": 0.248
+    },
+    {
+     "pmid": "42769859",
+     "date": "2026-09-23",
+     "title_zh": "Fruquintinib於腸胃道惡性腫瘤中之毒性：系統性回顧與統合分析",
+     "score": 5,
+     "one_liner": "在4項腸胃道惡性腫瘤隨機試驗(n=1872)統合分析中，比較fruquintinib與對照組，發現三級以上高血壓風險增9倍(RR 9.01)、HFSR/PPE增26倍(RR 26.00)。",
+     "sim": 0.192
+    },
+    {
+     "pmid": "42769859",
+     "date": "2026-09-24",
+     "title_zh": "Fruquintinib於胃腸道惡性腫瘤之毒性：系統性回顧與統合分析",
+     "score": 4,
+     "one_liner": "統合分析4項RCT（n=1872）於GI癌症中比較fruquintinib與對照組，發現3級以上高血壓RR 9.01、HFSR/PPE RR 26.00顯著增加。",
+     "sim": 0.192
+    }
+   ]
+  },
+  {
+   "pmid": "42900270",
+   "title": "Updated cancer risks in lynch syndrome",
+   "journal": "Fam Cancer",
+   "journal_full": "Familial cancer",
+   "issn": "1573-7292",
+   "issn_linking": "1389-9600",
+   "impact_factor": 2.1,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1007/s10689-026-00552-5",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Drogan C, Kupfer S",
+   "abstract": "Lynch syndrome, one of the most common hereditary cancer predisposition syndromes, is caused by pathogenic variants in the mismatch repair genes (MLH1, MSH2, MSH6, PMS2) and the EPCAM gene. Individuals who inherit pathogenic variants in Lynch-associated genes experience increased lifetime risk of colorectal, endometrial, and several other cancer types. Risks of Lynch-associated cancers vary by the affected gene and within each gene, especially for lower penetrance genes. This poses challenges for clinicians to provide patients and families with accurate cancer risk estimates and determine individualized surveillance protocols. Compounding this challenge is that study designs and potential biases could yield different risk estimates. In this review, we present up-to-date Lynch syndrome cancer risk estimates and discuss how study design could impact these risk estimates.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42801369",
+     "date": "2026-09-29",
+     "title_zh": "伊拉克與迦勒底裔Lynch症候群病人中常見出現的MSH2變異：可能的建立者（founder）變異證據",
+     "score": 3,
+     "one_liner": "在53名伊拉克/迦勒底裔Lynch症候群病人中，發現同一MSH2 c.932delA變異普遍存在（88.3%），大腸癌平均發病年齡49.6歲。",
+     "sim": 0.284
+    },
+    {
+     "pmid": "42377955",
+     "date": "2026-06-30",
+     "title_zh": "遺傳性癌症風險家族中連鎖基因檢測（cascade testing）的差異",
+     "score": 5,
+     "one_liner": "在22,932名帶Lynch症候群或HBOC致病變異的probands中，僅24.24%家族成員接受連鎖檢測，男性、少數族裔、無癌症病史者較低。",
+     "sim": 0.202
+    },
+    {
+     "pmid": "42324869",
+     "date": "2026-06-22",
+     "title_zh": "大腸直腸癌中錯配修復蛋白「非典型表達缺失」模式：一個尚未被充分理解的重要染色型態",
+     "score": 6,
+     "one_liner": "569名CRC病人中，僅呈現非典型MMR缺失型態者，30.77%為MSI-H，3.85%可能為Lynch症候群。",
+     "sim": 0.181
+    }
+   ]
+  },
+  {
+   "pmid": "42900259",
+   "title": "Targeting pyroptosis in intestinal and systemic inflammatory diseases: mechanisms and therapeutic opportunities",
+   "journal": "Mol Biol Rep",
+   "journal_full": "Molecular biology reports",
+   "issn": "1573-4978",
+   "issn_linking": "0301-4851",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1016/j.bioactmat.2021.11.027",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Li J, Chen Y, Yu Q, Fu X, Sun J, Zhu L",
+   "abstract": "Pyroptosis is a lytic form of programmed cell death driven by gasdermin cleavage and subsequent plasma membrane pore formation, which triggers cell swelling, lysis, and the release of inflammatory cytokines that amplify tissue injury. Once viewed as an innate antimicrobial defense mechanism, pyroptosis is now recognized as a central pathogenic pathway in both acute and chronic inflammatory diseases, including inflammatory bowel disease (IBD). Its execution proceeds through a cascade of druggable events-inflammasome assembly, caspase activation, and gasdermin pore formation-and it operates within an interconnected cell death network, engaging apoptosis, necroptosis, and ferroptosis under the emerging PANoptosis framework. In the intestine, this network displays striking cell type- and context-dependent duality: gasdermin-mediated death can disrupt the epithelial barrier and exacerbate mucosal inflammation, yet the same effectors support barrier integrity, epithelial repair, and controlled cytokine release. This duality may explain why pyroptosis inhibition, although robustly protective in preclinical colitis models, has so far shown limited clinical efficacy. In this review, we summarize the molecular mechanisms of pyroptotic signaling, its crosstalk with other death pathways, and its roles in intestinal and systemic inflammatory diseases. We then critically evaluate the therapeutic landscape, covering NLRP3 inflammasome inhibitors, regulators of gasdermin post-translational modifications, natural compounds, and nanotechnology-based delivery systems, with emphasis on multi-indication clinical progress and the lessons from recent trial failures. Finally, we highlight priorities for translation-human disease models, tissue-restricted delivery, and biomarker-guided patient stratification-that may convert mechanistic insight into clinical benefit for patients with IBD and related inflammatory disorders.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42775023",
+     "date": "2026-09-24",
+     "title_zh": "巨噬細胞焦亡在發炎性腸道疾病中的角色：機轉洞見、病理角色與治療策略",
+     "score": 1,
+     "one_liner": "本文綜述巨噬細胞焦亡在IBD致病機轉中的角色與潛在治療策略，屬機轉整理，無臨床試驗數據。",
+     "sim": 0.271
+    },
+    {
+     "pmid": "42775023",
+     "date": "2026-09-25",
+     "title_zh": "巨噬細胞焦亡在發炎性腸道疾病中的角色：機轉洞見、病理角色與治療策略",
+     "score": 1,
+     "one_liner": "本文綜述巨噬細胞焦亡在IBD致病機轉中的角色與潛在治療策略，屬機轉整理，無臨床試驗數據。",
+     "sim": 0.271
+    },
+    {
+     "pmid": "42678591",
+     "date": "2026-09-02",
+     "title_zh": "自體免疫疾病中的調控性細胞死亡：分子機轉與治療機會",
+     "score": 1,
+     "one_liner": "本綜述整理ferroptosis、pyroptosis、necroptosis等多種調控性細胞死亡路徑在14種自體免疫疾病（含IBD）致病機轉中的角色，屬前臨床機轉整理，無臨床數據。",
+     "sim": 0.235
+    }
+   ]
+  }
+ ],
+ "submission_id": "4ce0e77ca4fa4222880f1acca49d4c6b",
+ "state": "preparing"
+}
