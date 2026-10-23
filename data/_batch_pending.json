@@ -1,0 +1,194 @@
+{
+ "batch_id": null,
+ "date": "2026-10-23",
+ "submitted_at": "2026-10-23T08:28:34+08:00",
+ "provider": "openai",
+ "model": "gpt-6.1-sol",
+ "papers": [
+  {
+   "pmid": "42902379",
+   "title": "P4HA1⁺ collagen-modifying fibroblasts are associated with pro-tumor niches and therapeutic vulnerabilities in colorectal cancer",
+   "journal": "J Transl Med",
+   "journal_full": "Journal of translational medicine",
+   "issn": "1479-5876",
+   "issn_linking": "1479-5876",
+   "impact_factor": 9.7,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1093/nar/gkae973",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Gui K, Chen Y, Du Q, Lv K, Wang W, Li Z",
+   "abstract": "BACKGROUND: Cancer-associated fibroblasts (CAFs) are a major stromal component of the tumor microenvironment (TME) and actively participate in tumor progression. Although CAF heterogeneity in colorectal cancer (CRC) is increasingly recognized, how individual CAF subpopulations simultaneously coordinate extracellular matrix (ECM) remodeling, angiogenesis, and immune suppression within spatially organized niches remains poorly understood.\nMETHODS: CAF heterogeneity was systematically analyzed by integrating single-cell RNA sequencing, spatial transcriptomics, and bulk transcriptomic data. By combining cell clustering, pseudotime analysis, transcriptional regulatory network inference, spatial deconvolution, and ligand-receptor interaction analysis, we revealed the spatial distribution and cellular communication characteristics of CAF subpopulations. At the same time, machine learning-based prognostic models and transcriptional perturbation analysis were used to evaluate the clinical significance and potential therapeutic value of CAF-related transcriptional programs.\nRESULTS: We identified a prolyl 4-hydroxylase subunit alpha 1 (P4HA1)-positive collagen-modifying CAF subpopulation (P4HA1⁺ CAFs) that was enriched in tumor tissue and exhibited collagen remodeling characteristics. This subpopulation preferentially localized at the tumor-stroma interface, co-localizing with pro-angiogenic endothelial cells, immunosuppressive macrophages, and malignant epithelial cells to form a spatially organized niche with concurrent ECM remodeling, angiogenesis, and immune suppression. P4HA1⁺ CAFs were predicted to engage distinct ligand-receptor axes, including WNT5A-MCAM with endothelial cells, MDK-LRP1 with macrophages, and MDK-NCL with malignant epithelial cells. The MDK-NCL axis was associated with increased RANBP1 expression and enhanced tumor cell proliferation and invasion. Machine learning analysis further identified P4HA1, TIMP1, ARL4C, and SFRP4 as stable core genes associated with poor prognosis. Drug perturbation analysis showed that 2-methoxyestradiol and its combination with the histone deacetylase (HDAC) inhibitor JNJ-26,481,585 may partially reverse the malignant transcriptional program of P4HA1⁺ CAFs.\nCONCLUSIONS: This study characterizes a P4HA1⁺ collagen-modifying CAF subpopulation that resides within a spatially organized multicellular niche and engages distinct signaling axes to simultaneously promote angiogenesis, immune suppression, and tumor cell proliferation in CRC, highlighting its prognostic and potential therapeutic value.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42889067",
+     "date": "2026-10-19",
+     "title_zh": "以病人為分析單位的單細胞分析：以大腸直腸癌為主之免疫治療世代中的纖維血管重塑",
+     "score": 5,
+     "one_liner": "在22人單細胞再分析中，比較14對腫瘤與正常周細胞，ECM6中位配對差0.309。",
+     "sim": 0.171
+    },
+    {
+     "pmid": "42558642",
+     "date": "2026-08-07",
+     "title_zh": "膽管癌中的治療烙印纖維母細胞記憶：重塑癌症相關纖維母細胞（CAF）微環境以促進免疫逃逸與治療抗性復發",
+     "score": 2,
+     "one_liner": "本文提出一個概念框架，描述膽管癌中治療誘導的CAF「記憶」狀態如何促成免疫逃逸與治療抗性復發，屬機制假說性綜述。",
+     "sim": 0.17
+    },
+    {
+     "pmid": "42558642",
+     "date": "2026-08-08",
+     "title_zh": "膽管癌中治療烙印的纖維母細胞記憶：重塑癌症相關纖維母細胞（CAF）微環境以促成免疫逃逸與治療抗性復發",
+     "score": 2,
+     "one_liner": "本文為概念性回顧，提出「治療烙印纖維母細胞記憶」框架，說明治療後 CAF 狀態可能持續促成膽管癌免疫逃逸與復發，未含臨床數據。",
+     "sim": 0.17
+    }
+   ]
+  },
+  {
+   "pmid": "42901978",
+   "title": "Multidisciplinary approach and rehabilitation practice for defecatory disorders in Italy: a snapshot survey on behalf of the Italian Society of Colorectal Surgery (SICCR)",
+   "journal": "Tech Coloproctol",
+   "journal_full": "Techniques in coloproctology",
+   "issn": "1128-045X",
+   "issn_linking": "1123-6337",
+   "impact_factor": 2.6,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1007/s10151-022-02708-8",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Zigiotto D, La Greca G, Elio A, Santoro G, Orlandi S, Pelvic Floor Rehabilitation Group",
+   "abstract": "BACKGROUND: Defecatory disorders and pelvic floor dysfunctions are prevalent and significantly impact quality of life. Due to their multifactorial etiology, a multidisciplinary approach and pelvic floor rehabilitation (PFR) are recommended; however, their implementation varies widely. This study aimed to evaluate current practices in multidisciplinary management and rehabilitation strategies for defecatory disorders in Italy.\nMETHODS: A 25-item, web-based survey was distributed to members of the Italian Society of Colorectal Surgery between May and July 2024. The questionnaire explored the professional background of the responders, the availability and composition of the multidisciplinary team (MDT), and the use of PFR and related clinical practices.\nRESULTS: A total of 183 colorectal surgeons from 20 Italian regions completed the survey. Only 49% reported the presence of a structured MDT, with frequent absence of a urologist, gastroenterologist, and radiologist. Combined pelvic floor surgery was rarely performed, despite its clinical advantages. PFR services were available in just over half of the centers, often without psychological or nutritional support. Rehabilitative techniques varied, with volumetric rehabilitation and tibial nerve stimulation being underutilized. Referral rates to rehabilitation remained low, regardless of institution type or surgical experience. Despite the lack of standardized protocols, a quarter of responders utilized perioperative rehabilitation in the context of rectal prolapse surgery.\nCONCLUSIONS: Significant variability exists in the multidisciplinary and rehabilitative management of defecatory disorders in Italy. To optimize care, greater integration of MDT, wider access to a standardized PFR, and the adoption of combined surgical approaches are needed.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42360508",
+     "date": "2026-06-27",
+     "title_zh": "結構化骨盆底復健計畫對大腸直腸癌合併低前位切除症候群（LARS）存活者之經驗：一項質性研究",
+     "score": 4,
+     "one_liner": "在14位完成結構化PFR計畫的LARS存活者中，質性訪談發現滿意度皆為良好至極佳，並發展出新的行為適應模型（EBAP）。",
+     "sim": 0.202
+    }
+   ]
+  },
+  {
+   "pmid": "42902052",
+   "title": "Laparoscopic surgery is associated with reduced long-term reoperation risk in Crohn's disease",
+   "journal": "Tech Coloproctol",
+   "journal_full": "Techniques in coloproctology",
+   "issn": "1128-045X",
+   "issn_linking": "1123-6337",
+   "impact_factor": 2.6,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1097/DCR.0000000000002446",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Schlager L, Hamidi M, Dengler T, Fallmann B, Krall C, Schreiner P",
+   "abstract": "BACKGROUND: Minimally invasive surgery (MIS) improves short-term outcomes in Crohn's disease (CD), but its impact on long-term surgical recurrence is uncertain.\nMETHODS: The objective of this study was to assess risk factors for surgical recurrence after intestinal resection for CD, with emphasis on surgical approach. A retrospective single-centre study of patients undergoing elective intestinal resection for CD between 1995 and 2020 was conducted. Demographics, disease features, surgical details and complications were analysed. Recurrence was assessed using Kaplan-Meier and Cox regression.\nRESULTS: A total of 641 patients were included, with a mean follow-up of 12.4 years. Mean age at surgery was 38.3 years; mean disease duration was 11.5 years. Laparoscopy was performed in 270 patients, and open surgery in 371. Cumulative recurrence was 25% at 25 years. Kaplan-Meier analysis demonstrated lower cumulative surgical recurrence rates following laparoscopic compared with open surgery (log-rank p = 0.010). In multivariate Cox regression analysis, open surgery was associated with a higher hazard of surgical recurrence (HR 1.76, 95% CI 1.14-2.69), alongside smoking, female sex and microscopically inflamed resection margins. Severe perioperative complications (7.0% overall; 3.3% laparoscopic versus 9.7% open) did not influence recurrence (p = 0.574).\nCONCLUSIONS: Laparoscopic surgery was associated with longer reoperation-free survival and a lower hazard of surgical recurrence in this long-term cohort. Surgical approach may represent a potentially modifiable factor in optimising long-term outcomes in Crohn's disease, alongside smoking cessation and achieving microscopically clear resection margins.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42379757",
+     "date": "2026-07-01",
+     "title_zh": "微創多臟器切除治療cT4b直腸癌之腫瘤學安全性：與開腹手術之多中心比較研究",
+     "score": 3,
+     "one_liner": "在32例cT4b直腸癌MVR病人中(開腹n=9、MIS n=23)，MIS出血量顯著較少(220 vs 2500ml)，病理與3年存活率無差異。",
+     "sim": 0.23
+    },
+    {
+     "pmid": "42342945",
+     "date": "2026-06-25",
+     "title_zh": "腦轉移瘤切除術後影響復發與存活之腫瘤軌跡的圍術期決定因子",
+     "score": 2,
+     "one_liner": "在172名腦轉移切除病人（361病灶）中，發現術中包膜破裂（HR 2.70）、分塊切除（HR 2.22）等為復發之獨立預測因子。",
+     "sim": 0.225
+    },
+    {
+     "pmid": "42839242",
+     "date": "2026-10-09",
+     "title_zh": "急診右側結腸切除治療惡性阻塞：微創與開腹手術之全國性傾向分數配對世代研究",
+     "score": 5,
+     "one_liner": "在1147名惡性阻塞急診右側結腸切除病人中（PSM後各99人），比較MIS與開腹手術，MIS住院天數短3天，併發症OR 0.48。",
+     "sim": 0.213
+    }
+   ]
+  },
+  {
+   "pmid": "42902396",
+   "title": "Randomised, placebo-controlled study to assess the safety and efficacy of Enterosgel® in the treatment of functional abdominal pain in children and young people (ENTOPIC): study protocol for a clinical trial",
+   "journal": "Trials",
+   "journal_full": "Trials",
+   "issn": "1745-6215",
+   "issn_linking": "1745-6215",
+   "impact_factor": 2.1,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1016/j.jpeds.2020.02.032",
+   "ptype": "Clinical Trial Protocol",
+   "ptype_list": [
+    "Clinical Trial Protocol"
+   ],
+   "authors": "Howell C, Nair M, Auth M, Spray C, Basude D, Dodd M",
+   "abstract": "BACKGROUND: Functional abdominal pain disorders (FAPDs) comprise of irritable bowel syndrome, functional dyspepsia, abdominal migraine and functional abdominal pain not otherwise specified. FAPDs are common in children worldwide, decrease health related quality of life, reduce attendance and participation in school and after-school activities similar to children with inflammatory bowel disease, and incur significant health care costs. The aetiology is thought to involve structural and/or functional disruptions in one or more elements of the microbiota-gut-brain axis. Several different treatment approaches are available, reflecting that none is proven to have significant efficacy. The medical device Enterosgel®, a silicon-based intestinal absorbent, adsorbs immune proteins, bacterial breakdown products and bile acids and normalises the intestinal microbiota. Enterosgel® is effective in irritable bowel syndrome with diarrhoea in adults and is available on prescription and over-the-counter. We plan to evaluate the efficacy, tolerability and safety of Enterosgel® in the treatment FAPDs in children and young people.\nMETHODS: In a UK two-centre, parallel arm, randomised, double-blind, placebo-controlled trial, we will recruit children aged 3-18 years diagnosed with a FAPD during a routine health facility assessment and in whom other significant gastrointestinal disorders have been excluded. After an initial 2-week observation phase, eligible children will be randomised 1:1 to receive Enterosgel® or a matching placebo drink twice daily for 4 weeks during the double-blind treatment phase, then all children will receive open-label Enterosgel® treatment for a further 4 weeks. With support from parents/carers, children will record abdominal pain daily using the Wong-Baker FACES Pain Rating Scale. The primary outcome is change in mean daily pain score during the initial observation phase and the double-blind phase in the Enterosgel® versus the placebo arm. Secondary outcomes include change in gastrointestinal symptoms (assessed PedsQL™ 3.0 GIS module) and quality of life (KIDSCREEN-27) recorded at baseline and 6 and 10 weeks. After the initial clinical assessment, all procedures will be conducted remotely with study interventions sent by post.\nDISCUSSION: In the absence of a currently available effective treatment, this study will assess the acceptability, efficacy and safety of Enterosgel® in the treatment of children and young people with FAPDs.\nTRIAL REGISTRATION: ISRCTN ISRCTN16474818. Registered on 21 May 2025, https://www.isrctn.com/ISRCTN16474818.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42514326",
+     "date": "2026-07-30",
+     "title_zh": "VSL#3®可能減少潰瘍性大腸炎緩解期合併IBS樣症狀患者之腹痛與腹脹：一項探索性隨機雙盲安慰劑對照試驗",
+     "score": 3,
+     "one_liner": "在55名UC緩解期合併IBS樣症狀病人中，比較VSL#3®與安慰劑8週，主要症狀緩解終點無顯著差異，僅次群組分析顯示腹痛腹脹改善。",
+     "sim": 0.185
+    },
+    {
+     "pmid": "42468955",
+     "date": "2026-07-19",
+     "title_zh": "托法替尼治療慢性儲袋炎的研究（STOPit）：多中心開放性誘導治療併隨機、雙盲、安慰劑對照維持治療試驗",
+     "score": 2,
+     "one_liner": "此為計畫書，描述將對72名慢性儲袋炎病人進行托法替尼誘導後隨機雙盲安慰劑對照維持治療試驗，尚無結果數據。",
+     "sim": 0.166
+    },
+    {
+     "pmid": "42468955",
+     "date": "2026-07-20",
+     "title_zh": "托法替尼治療慢性儲袋炎的研究（STOPit）：多中心開放性誘導治療併隨機、雙盲、安慰劑對照維持治療試驗",
+     "score": 2,
+     "one_liner": "此為計畫書，描述將對72名慢性儲袋炎病人進行托法替尼誘導後隨機雙盲安慰劑對照維持治療試驗，尚無結果數據。",
+     "sim": 0.166
+    }
+   ]
+  },
+  {
+   "pmid": "42902752",
+   "title": "Non-adherence to diagnostic colonoscopy after positive faecal screening test",
+   "journal": "Dan Med J",
+   "journal_full": "Danish medical journal",
+   "issn": "2245-1919",
+   "issn_linking": "2245-1919",
+   "impact_factor": 1.1,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Sep",
+   "doi": "10.61409/A12251040",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Nielsen C, Al-Noori A, Nielsen N, Gaarden M, Holte K",
+   "abstract": "INTRODUCTION: The Danish Colorectal Cancer Screening Programme has achieved a high adherence, in the 88-90% range, to diagnostic colonoscopy following a positive immunochemical faecal occult blood test (iFOBT). However, a small subgroup does not proceed to colonoscopy. This study investigated factors associated with non-adherence to diagnostic colonoscopy in the North Denmark Region (NDR).\nMETHODS: In 2020, 278 had a positive iFOBT in the NDR and did not undergo subsequent colonoscopy. We conducted a two-part study consisting of 1) a journal audit assessing comorbidity, inflammatory bowel disease (IBD), hospitalisations and colonoscopy history, and 2) a questionnaire exploring self-reported reasons for non-adherence. Among 256 eligible individuals, 169 (66%) completed the questionnaire.\nRESULTS: The journal audit revealed that 25% of non-adherent individuals had an ASA score ≥ 3, 65% had a Charlson Comorbidity Index score ≥ 2 and 10% had known IBD. Furthermore, 20% had undergone a colonoscopy within the preceding two years. Questionnaire responses identified recent colonoscopy (n = 29) and haemorrhoids (n = 30) as frequent reasons for non-adherence. Many respondents reported non-medical reasons, including perceiving themselves as healthy, lacking understanding of the programme or finding colonoscopy unpleasant.\nCONCLUSIONS: Non-adherence to diagnostic colonoscopy after positive iFOBT is often not medically justified. The findings indicate a need for improved patient education. Enhanced general practitioner involvement may help address logistical and informational barriers.\nFUNDING: None.\nTRIAL REGISTRATION: Not relevant.",
+   "watched": [
+    "haemorrhoid"
+   ],
+   "related": []
+  }
+ ],
+ "submission_id": "8c974d193d1141e4b8c48d1b5c03906c",
+ "state": "preparing"
+}
