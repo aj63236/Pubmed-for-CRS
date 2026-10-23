@@ -1,0 +1,761 @@
+{
+ "date": "2026-10-23",
+ "generated_at": "2026-10-23T08:32:12+08:00",
+ "count": 8,
+ "papers": [
+  {
+   "pmid": "42902379",
+   "title": "P4HA1⁺ collagen-modifying fibroblasts are associated with pro-tumor niches and therapeutic vulnerabilities in colorectal cancer",
+   "journal": "J Transl Med",
+   "journal_full": "Journal of translational medicine",
+   "issn": "1479-5876",
+   "issn_linking": "1479-5876",
+   "impact_factor": 9.7,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1093/nar/gkae973",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Gui K, Chen Y, Du Q, Lv K, Wang W, Li Z",
+   "abstract": "BACKGROUND: Cancer-associated fibroblasts (CAFs) are a major stromal component of the tumor microenvironment (TME) and actively participate in tumor progression. Although CAF heterogeneity in colorectal cancer (CRC) is increasingly recognized, how individual CAF subpopulations simultaneously coordinate extracellular matrix (ECM) remodeling, angiogenesis, and immune suppression within spatially organized niches remains poorly understood.\nMETHODS: CAF heterogeneity was systematically analyzed by integrating single-cell RNA sequencing, spatial transcriptomics, and bulk transcriptomic data. By combining cell clustering, pseudotime analysis, transcriptional regulatory network inference, spatial deconvolution, and ligand-receptor interaction analysis, we revealed the spatial distribution and cellular communication characteristics of CAF subpopulations. At the same time, machine learning-based prognostic models and transcriptional perturbation analysis were used to evaluate the clinical significance and potential therapeutic value of CAF-related transcriptional programs.\nRESULTS: We identified a prolyl 4-hydroxylase subunit alpha 1 (P4HA1)-positive collagen-modifying CAF subpopulation (P4HA1⁺ CAFs) that was enriched in tumor tissue and exhibited collagen remodeling characteristics. This subpopulation preferentially localized at the tumor-stroma interface, co-localizing with pro-angiogenic endothelial cells, immunosuppressive macrophages, and malignant epithelial cells to form a spatially organized niche with concurrent ECM remodeling, angiogenesis, and immune suppression. P4HA1⁺ CAFs were predicted to engage distinct ligand-receptor axes, including WNT5A-MCAM with endothelial cells, MDK-LRP1 with macrophages, and MDK-NCL with malignant epithelial cells. The MDK-NCL axis was associated with increased RANBP1 expression and enhanced tumor cell proliferation and invasion. Machine learning analysis further identified P4HA1, TIMP1, ARL4C, and SFRP4 as stable core genes associated with poor prognosis. Drug perturbation analysis showed that 2-methoxyestradiol and its combination with the histone deacetylase (HDAC) inhibitor JNJ-26,481,585 may partially reverse the malignant transcriptional program of P4HA1⁺ CAFs.\nCONCLUSIONS: This study characterizes a P4HA1⁺ collagen-modifying CAF subpopulation that resides within a spatially organized multicellular niche and engages distinct signaling axes to simultaneously promote angiogenesis, immune suppression, and tumor cell proliferation in CRC, highlighting its prognostic and potential therapeutic value.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42889067",
+     "date": "2026-10-19",
+     "title_zh": "以病人為分析單位的單細胞分析：以大腸直腸癌為主之免疫治療世代中的纖維血管重塑",
+     "score": 5,
+     "one_liner": "在22人單細胞再分析中，比較14對腫瘤與正常周細胞，ECM6中位配對差0.309。",
+     "sim": 0.171
+    },
+    {
+     "pmid": "42558642",
+     "date": "2026-08-07",
+     "title_zh": "膽管癌中的治療烙印纖維母細胞記憶：重塑癌症相關纖維母細胞（CAF）微環境以促進免疫逃逸與治療抗性復發",
+     "score": 2,
+     "one_liner": "本文提出一個概念框架，描述膽管癌中治療誘導的CAF「記憶」狀態如何促成免疫逃逸與治療抗性復發，屬機制假說性綜述。",
+     "sim": 0.17
+    },
+    {
+     "pmid": "42558642",
+     "date": "2026-08-08",
+     "title_zh": "膽管癌中治療烙印的纖維母細胞記憶：重塑癌症相關纖維母細胞（CAF）微環境以促成免疫逃逸與治療抗性復發",
+     "score": 2,
+     "one_liner": "本文為概念性回顧，提出「治療烙印纖維母細胞記憶」框架，說明治療後 CAF 狀態可能持續促成膽管癌免疫逃逸與復發，未含臨床數據。",
+     "sim": 0.17
+    }
+   ],
+   "title_zh": "P4HA1⁺ 膠原修飾纖維母細胞與大腸直腸癌的促腫瘤生態位及潛在治療弱點相關",
+   "abstract_zh": "背景：癌症相關纖維母細胞（CAFs）是腫瘤微環境（TME）的主要基質成分，並積極參與腫瘤進展。雖然大腸直腸癌（CRC）的CAF異質性日益受到重視，但個別CAF亞群如何在具有空間組織結構的生態位內，同時協調細胞外基質（ECM）重塑、血管新生及免疫抑制，仍未充分釐清。\n方法：本研究整合單細胞RNA定序、空間轉錄體及整體轉錄體資料，系統性分析CAF異質性。透過結合細胞分群、偽時間分析、轉錄調控網絡推論、空間去卷積及配體—受體交互作用分析，揭示CAF亞群的空間分布與細胞通訊特徵。同時，使用以機器學習為基礎的預後模型及轉錄擾動分析，評估CAF相關轉錄程式的臨床意義與潛在治療價值。\n結果：我們辨識出一個脯胺酸4-羥化酶α1次單元（P4HA1）陽性的膠原修飾CAF亞群（P4HA1⁺ CAFs），此亞群在腫瘤組織中富集，並呈現膠原重塑特徵。此亞群優先分布於腫瘤—基質交界處，與促血管新生的內皮細胞、免疫抑制性巨噬細胞及惡性上皮細胞共同定位，形成具有空間組織結構的生態位，同時呈現ECM重塑、血管新生及免疫抑制。分析預測P4HA1⁺ CAFs會透過不同的配體—受體軸參與交互作用，包括與內皮細胞之間的WNT5A–MCAM、與巨噬細胞之間的MDK–LRP1，以及與惡性上皮細胞之間的MDK–NCL。MDK–NCL軸與RANBP1表現增加，以及腫瘤細胞增殖與侵襲增強相關。機器學習分析進一步辨識出P4HA1、TIMP1、ARL4C及SFRP4為與不良預後相關的穩定核心基因。藥物擾動分析顯示，2-甲氧基雌二醇及其與組蛋白去乙醯酶（HDAC）抑制劑JNJ-26,481,585的合併使用，可能部分逆轉P4HA1⁺ CAFs的惡性轉錄程式。\n結論：本研究描述了一個P4HA1⁺ 膠原修飾CAF亞群，其位於具有空間組織結構的多細胞生態位內，並透過不同訊號軸，同時促進CRC的血管新生、免疫抑制及腫瘤細胞增殖，凸顯其預後與潛在治療價值。",
+   "evidence_level": "其他",
+   "score": 3,
+   "score_reason": "多組學整合提供具研究價值的基質生態位線索，但摘要未報樣本數、效應量或功能驗證細節，難判斷穩健性。對台灣大腸直腸外科的即時決策幫助有限，優先推薦給從事腫瘤微環境轉譯研究者讀全文。",
+   "relevance": "低度相關",
+   "relevance_why": "雖聚焦CRC，但主要為機制與生物資訊研究，未直接評估手術策略或病人治療成效。",
+   "novelty": "仍屬早期",
+   "one_liner": "在CRC多組學資料（人數未報）中，比較CAF亞群，發現P4HA1⁺ CAF與促癌生態位相關，未報效應量。",
+   "action": "目前不需改變做法；勿據此替CRC病人加驗P4HA1或選藥，摘要未提供臨床效益驗證。",
+   "pico": {
+    "P": "大腸直腸癌的單細胞RNA定序、空間轉錄體與整體轉錄體資料；病人數、樣本數及來源未報。",
+    "I": "P4HA1⁺ 膠原修飾CAF及其相關轉錄程式；另進行藥物轉錄擾動分析。",
+    "C": "分析涉及不同CAF亞群及腫瘤組織富集比較，但摘要未完整交代參照組；非臨床治療對照試驗。",
+    "O": "未明定主要與次要終點；分析CAF空間分布、細胞通訊、預後相關基因及藥物逆轉惡性轉錄程式的潛力。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "病人數與樣本數未報，無法判斷資料規模。",
+    "辨識4個預後核心基因；未報絕對存活率或HR。",
+    "藥物擾動未報逆轉幅度、臨床反應率或陰性結果。"
+   ],
+   "cautions": [
+    "空間共定位與配體—受體推論不等於已證實促癌因果。",
+    "藥物轉錄程式逆轉是替代指標，不代表臨床療效。",
+    "未報樣本數、效應量或信賴區間，無法評估精確度。"
+   ],
+   "unassessable": [
+    "資料集來源、收案方式、病人數及各分析的樣本數",
+    "病人是否跨資料集重複，以及是否以病人為統計分析單位",
+    "批次效應處理、混雜因子調整及多重比較校正",
+    "預後終點定義、追蹤時間與失訪情形",
+    "模型訓練與驗證資料的獨立性、資料洩漏風險及外部驗證表現",
+    "配體—受體訊號與藥物效應是否經體外或動物功能實驗驗證",
+    "分析是否預先規劃、研究註冊、資金來源及利益衝突"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "相較先前以22人單細胞資料分析周細胞與纖維血管重塑的研究，本篇轉向P4HA1⁺ CAF，加入空間定位、細胞通訊與候選藥物擾動分析，延伸CRC基質重塑的研究方向。兩篇分析的細胞族群與指標不同，本篇不能視為對前作ECM6結果的直接再驗證，也尚未補上臨床治療效益的證據。",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3385,
+    "input_tokens_details": {
+     "cache_write_tokens": 3382,
+     "cached_tokens": 0
+    },
+    "output_tokens": 2066,
+    "output_tokens_details": {
+     "reasoning_tokens": 312
+    },
+    "total_tokens": 5451
+   },
+   "added_at": "2026-10-23T08:28:34+08:00"
+  },
+  {
+   "pmid": "42901978",
+   "title": "Multidisciplinary approach and rehabilitation practice for defecatory disorders in Italy: a snapshot survey on behalf of the Italian Society of Colorectal Surgery (SICCR)",
+   "journal": "Tech Coloproctol",
+   "journal_full": "Techniques in coloproctology",
+   "issn": "1128-045X",
+   "issn_linking": "1123-6337",
+   "impact_factor": 2.6,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1007/s10151-022-02708-8",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Zigiotto D, La Greca G, Elio A, Santoro G, Orlandi S, Pelvic Floor Rehabilitation Group",
+   "abstract": "BACKGROUND: Defecatory disorders and pelvic floor dysfunctions are prevalent and significantly impact quality of life. Due to their multifactorial etiology, a multidisciplinary approach and pelvic floor rehabilitation (PFR) are recommended; however, their implementation varies widely. This study aimed to evaluate current practices in multidisciplinary management and rehabilitation strategies for defecatory disorders in Italy.\nMETHODS: A 25-item, web-based survey was distributed to members of the Italian Society of Colorectal Surgery between May and July 2024. The questionnaire explored the professional background of the responders, the availability and composition of the multidisciplinary team (MDT), and the use of PFR and related clinical practices.\nRESULTS: A total of 183 colorectal surgeons from 20 Italian regions completed the survey. Only 49% reported the presence of a structured MDT, with frequent absence of a urologist, gastroenterologist, and radiologist. Combined pelvic floor surgery was rarely performed, despite its clinical advantages. PFR services were available in just over half of the centers, often without psychological or nutritional support. Rehabilitative techniques varied, with volumetric rehabilitation and tibial nerve stimulation being underutilized. Referral rates to rehabilitation remained low, regardless of institution type or surgical experience. Despite the lack of standardized protocols, a quarter of responders utilized perioperative rehabilitation in the context of rectal prolapse surgery.\nCONCLUSIONS: Significant variability exists in the multidisciplinary and rehabilitative management of defecatory disorders in Italy. To optimize care, greater integration of MDT, wider access to a standardized PFR, and the adoption of combined surgical approaches are needed.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42360508",
+     "date": "2026-06-27",
+     "title_zh": "結構化骨盆底復健計畫對大腸直腸癌合併低前位切除症候群（LARS）存活者之經驗：一項質性研究",
+     "score": 4,
+     "one_liner": "在14位完成結構化PFR計畫的LARS存活者中，質性訪談發現滿意度皆為良好至極佳，並發展出新的行為適應模型（EBAP）。",
+     "sim": 0.202
+    }
+   ],
+   "title_zh": "義大利排便障礙的多專科處置與復健實務：代表義大利大腸直腸外科醫學會（SICCR）進行的現況問卷調查",
+   "abstract_zh": "背景：排便障礙與骨盆底功能障礙相當常見，且顯著影響生活品質。由於其病因涉及多重因素，建議採取多專科處置與骨盆底復健（PFR）；然而，實際執行情況差異甚大。本研究旨在評估義大利目前排便障礙的多專科管理與復健策略實務。\n方法：於2024年5月至7月間，向義大利大腸直腸外科醫學會會員發送一份包含25個題目的網路問卷。問卷探討填答者的專業背景、多專科團隊（MDT）的可用性與組成，以及PFR與相關臨床實務的使用情況。\n結果：共有來自義大利20個地區的183位大腸直腸外科醫師完成問卷。僅49%回報設有結構化MDT，且團隊經常缺少泌尿科醫師、胃腸科醫師及放射科醫師。儘管合併骨盆底手術具有臨床優勢，實際執行仍相當少見。僅略多於半數的中心提供PFR服務，且往往缺乏心理或營養支持。復健技術各異，其中容積復健與脛神經刺激的使用不足。無論機構類型或手術經驗為何，轉介復健的比例仍然偏低。儘管缺乏標準化流程，仍有四分之一的填答者在直腸脫垂手術情境中使用圍手術期復健。\n結論：義大利排便障礙的多專科與復健管理存在顯著差異。為優化照護，需要更充分整合MDT、擴大標準化PFR的可近性，並採用合併手術策略。",
+   "evidence_level": "橫斷面",
+   "score": 4,
+   "score_reason": "提供183位義大利外科醫師的服務現況，但屬自陳問卷，摘要未提供回覆率或病人結局。可供台灣醫學中心盤點MDT與復健流程，尚不足以支持特定治療策略。",
+   "relevance": "中度相關",
+   "relevance_why": "涉及大腸直腸外科常見的排便障礙與骨盆底照護，但義大利的服務配置未必能直接外推台灣。",
+   "novelty": "再確認已知",
+   "one_liner": "183位義大利外科醫師的無組間比較調查顯示，僅49%回報設有結構化MDT。",
+   "action": "針對排便障礙及直腸脫垂病人，盤點院內MDT與PFR轉介缺口；勿據此擴大合併手術適應症。",
+   "pico": {
+    "P": "義大利20個地區、完成問卷的183位大腸直腸外科醫師",
+    "I": "25題網路問卷，調查排便障礙的MDT配置、PFR服務與臨床實務",
+    "C": "無對照組",
+    "O": "描述MDT可用性與組成、PFR服務及技術、復健轉介與圍手術期復健使用情況；未指定主要與次要結果"
+   },
+   "effects": [],
+   "key_numbers": [
+    "183位外科醫師填答，涵蓋義大利20個地區",
+    "僅49%填答者回報設有結構化MDT",
+    "四分之一填答者於直腸脫垂手術使用圍手術期復健"
+   ],
+   "cautions": [
+    "自陳問卷且未報回覆率，可能有選擇與回報偏差。",
+    "未測量病人結局，無法據此證明PFR或合併手術效益。",
+    "多項結果僅定性描述，未提供精確比例或信賴區間。"
+   ],
+   "unassessable": [
+    "受邀會員總數、回覆率與未回覆者特徵",
+    "填答者是否來自重複中心，以及中心層級分析方式",
+    "問卷效度、信度及MDT與PFR的操作型定義",
+    "不同機構類型或手術經驗的分組數據與統計方法",
+    "病人層級的功能、生活品質與手術安全性結局",
+    "研究預先註冊、資金來源與利益衝突",
+    "台灣醫療體系的適用性與成本效益"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "前作以14位完成PFR的LARS存活者訪談，描述復健經驗與行為適應；本篇改從義大利外科醫師端，補充PFR服務、轉介與MDT配置的執行現況。兩篇族群與研究問題不同，本篇並未驗證前作的滿意度或復健療效。",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 2967,
+    "input_tokens_details": {
+     "cache_write_tokens": 2964,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1539,
+    "output_tokens_details": {
+     "reasoning_tokens": 221
+    },
+    "total_tokens": 4506
+   },
+   "added_at": "2026-10-23T08:28:34+08:00"
+  },
+  {
+   "pmid": "42902052",
+   "title": "Laparoscopic surgery is associated with reduced long-term reoperation risk in Crohn's disease",
+   "journal": "Tech Coloproctol",
+   "journal_full": "Techniques in coloproctology",
+   "issn": "1128-045X",
+   "issn_linking": "1123-6337",
+   "impact_factor": 2.6,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1097/DCR.0000000000002446",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Schlager L, Hamidi M, Dengler T, Fallmann B, Krall C, Schreiner P",
+   "abstract": "BACKGROUND: Minimally invasive surgery (MIS) improves short-term outcomes in Crohn's disease (CD), but its impact on long-term surgical recurrence is uncertain.\nMETHODS: The objective of this study was to assess risk factors for surgical recurrence after intestinal resection for CD, with emphasis on surgical approach. A retrospective single-centre study of patients undergoing elective intestinal resection for CD between 1995 and 2020 was conducted. Demographics, disease features, surgical details and complications were analysed. Recurrence was assessed using Kaplan-Meier and Cox regression.\nRESULTS: A total of 641 patients were included, with a mean follow-up of 12.4 years. Mean age at surgery was 38.3 years; mean disease duration was 11.5 years. Laparoscopy was performed in 270 patients, and open surgery in 371. Cumulative recurrence was 25% at 25 years. Kaplan-Meier analysis demonstrated lower cumulative surgical recurrence rates following laparoscopic compared with open surgery (log-rank p = 0.010). In multivariate Cox regression analysis, open surgery was associated with a higher hazard of surgical recurrence (HR 1.76, 95% CI 1.14-2.69), alongside smoking, female sex and microscopically inflamed resection margins. Severe perioperative complications (7.0% overall; 3.3% laparoscopic versus 9.7% open) did not influence recurrence (p = 0.574).\nCONCLUSIONS: Laparoscopic surgery was associated with longer reoperation-free survival and a lower hazard of surgical recurrence in this long-term cohort. Surgical approach may represent a potentially modifiable factor in optimising long-term outcomes in Crohn's disease, alongside smoking cessation and achieving microscopically clear resection margins.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42379757",
+     "date": "2026-07-01",
+     "title_zh": "微創多臟器切除治療cT4b直腸癌之腫瘤學安全性：與開腹手術之多中心比較研究",
+     "score": 3,
+     "one_liner": "在32例cT4b直腸癌MVR病人中(開腹n=9、MIS n=23)，MIS出血量顯著較少(220 vs 2500ml)，病理與3年存活率無差異。",
+     "sim": 0.23
+    },
+    {
+     "pmid": "42342945",
+     "date": "2026-06-25",
+     "title_zh": "腦轉移瘤切除術後影響復發與存活之腫瘤軌跡的圍術期決定因子",
+     "score": 2,
+     "one_liner": "在172名腦轉移切除病人（361病灶）中，發現術中包膜破裂（HR 2.70）、分塊切除（HR 2.22）等為復發之獨立預測因子。",
+     "sim": 0.225
+    },
+    {
+     "pmid": "42839242",
+     "date": "2026-10-09",
+     "title_zh": "急診右側結腸切除治療惡性阻塞：微創與開腹手術之全國性傾向分數配對世代研究",
+     "score": 5,
+     "one_liner": "在1147名惡性阻塞急診右側結腸切除病人中（PSM後各99人），比較MIS與開腹手術，MIS住院天數短3天，併發症OR 0.48。",
+     "sim": 0.213
+    }
+   ],
+   "title_zh": "腹腔鏡手術與克隆氏症長期再次手術風險降低相關",
+   "abstract_zh": "背景：微創手術（MIS）可改善克隆氏症（CD）的短期結果，但其對長期手術復發的影響仍不確定。\n方法：本研究旨在評估CD腸切除術後手術復發的危險因子，特別著重於手術方式。本研究為單中心回溯性研究，納入1995年至2020年間因CD接受擇期腸切除的病人。分析項目包括人口學資料、疾病特徵、手術細節與併發症。使用Kaplan–Meier方法及Cox迴歸評估復發。\n結果：共納入641名病人，平均追蹤12.4年。手術時平均年齡為38.3歲，平均病程為11.5年。270人接受腹腔鏡手術，371人接受開腹手術。25年累積復發率為25%。Kaplan–Meier分析顯示，腹腔鏡手術後的累積手術復發率低於開腹手術（log-rank p＝0.010）。多變項Cox迴歸分析顯示，開腹手術與較高的手術復發瞬時風險相關（HR 1.76，95% CI 1.14–2.69）；吸菸、女性及顯微鏡下有發炎的切除邊緣也與較高風險相關。嚴重圍手術期併發症的整體發生率為7.0%（腹腔鏡組3.3%，開腹組9.7%），未影響復發（p＝0.574）。\n結論：在此長期世代中，腹腔鏡手術與較長的無再次手術存活期及較低的手術復發瞬時風險相關。除了戒菸及達成顯微鏡下無發炎的切除邊緣，手術方式可能也是優化CD長期結果的一項潛在可調整因素。",
+   "evidence_level": "回溯性研究",
+   "score": 6,
+   "score_reason": "641人且平均追蹤12.4年，值得閱讀全文了解CD術後長期結果。但單中心回溯設計且收案跨25年，術式選擇與治療年代的混雜限制因果推論。",
+   "relevance": "高度相關",
+   "relevance_why": "直接涉及CD腸切除的術式選擇、長期再手術及切緣處理，是大腸直腸外科的臨床決策問題。",
+   "novelty": "仍屬早期",
+   "one_liner": "在641名CD腸切除病人中，比較腹腔鏡與開腹，開腹的手術復發瞬時風險較高（HR 1.76）。",
+   "action": "目前不需改變做法；CD擇期切除仍依病況選術式，勿以本研究支持擴大切緣。",
+   "pico": {
+    "P": "1995至2020年間於單中心接受擇期腸切除的641名CD病人，平均追蹤12.4年。",
+    "I": "腹腔鏡腸切除，270人。",
+    "C": "開腹腸切除，371人。",
+    "O": "手術復發、無再次手術存活期；另分析嚴重圍手術期併發症及其與復發的關聯。摘要未明列主要與次要終點層級。"
+   },
+   "effects": [
+    {
+     "outcome": "嚴重圍手術期併發症",
+     "ok": true,
+     "i_label": "腹腔鏡",
+     "c_label": "開腹",
+     "i_rate": 3.3,
+     "c_rate": 9.7,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 6.4,
+     "benefit": true,
+     "event_bad": true,
+     "nnt": 16,
+     "kind": "NNT",
+     "note": ""
+    }
+   ],
+   "key_numbers": [
+    "25年累積手術復發25%；平均追蹤12.4年",
+    "開腹復發HR 1.76（95% CI 1.14–2.69）",
+    "嚴重併發症3.3% vs 9.7%；與復發無關p＝0.574"
+   ],
+   "cautions": [
+    "回溯收案跨25年，術式選擇、病情及治療年代可能混雜結果。",
+    "切緣發炎僅為相關因子，不能據此主張擴大腸切除範圍。",
+    "未報兩組長期復發絕對率及25年在險人數，無法量化絕對效益。"
+   ],
+   "unassessable": [
+    "術式選擇標準、疾病複雜度與兩組基線可比性",
+    "轉開腹病例的歸組方式",
+    "Cox模型完整調整變項、比例風險假設及年代效應處理",
+    "術後生物製劑等預防性治療及其組間差異",
+    "手術復發與嚴重併發症的操作型定義及結果評估盲法",
+    "失訪率、缺失資料處理、各組追蹤時間與長期在險人數",
+    "研究註冊、利益衝突及成本分析"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3225,
+    "input_tokens_details": {
+     "cache_write_tokens": 3222,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1919,
+    "output_tokens_details": {
+     "reasoning_tokens": 516
+    },
+    "total_tokens": 5144
+   },
+   "added_at": "2026-10-23T08:28:34+08:00"
+  },
+  {
+   "pmid": "42902396",
+   "title": "Randomised, placebo-controlled study to assess the safety and efficacy of Enterosgel® in the treatment of functional abdominal pain in children and young people (ENTOPIC): study protocol for a clinical trial",
+   "journal": "Trials",
+   "journal_full": "Trials",
+   "issn": "1745-6215",
+   "issn_linking": "1745-6215",
+   "impact_factor": 2.1,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1016/j.jpeds.2020.02.032",
+   "ptype": "Clinical Trial Protocol",
+   "ptype_list": [
+    "Clinical Trial Protocol"
+   ],
+   "authors": "Howell C, Nair M, Auth M, Spray C, Basude D, Dodd M",
+   "abstract": "BACKGROUND: Functional abdominal pain disorders (FAPDs) comprise of irritable bowel syndrome, functional dyspepsia, abdominal migraine and functional abdominal pain not otherwise specified. FAPDs are common in children worldwide, decrease health related quality of life, reduce attendance and participation in school and after-school activities similar to children with inflammatory bowel disease, and incur significant health care costs. The aetiology is thought to involve structural and/or functional disruptions in one or more elements of the microbiota-gut-brain axis. Several different treatment approaches are available, reflecting that none is proven to have significant efficacy. The medical device Enterosgel®, a silicon-based intestinal absorbent, adsorbs immune proteins, bacterial breakdown products and bile acids and normalises the intestinal microbiota. Enterosgel® is effective in irritable bowel syndrome with diarrhoea in adults and is available on prescription and over-the-counter. We plan to evaluate the efficacy, tolerability and safety of Enterosgel® in the treatment FAPDs in children and young people.\nMETHODS: In a UK two-centre, parallel arm, randomised, double-blind, placebo-controlled trial, we will recruit children aged 3-18 years diagnosed with a FAPD during a routine health facility assessment and in whom other significant gastrointestinal disorders have been excluded. After an initial 2-week observation phase, eligible children will be randomised 1:1 to receive Enterosgel® or a matching placebo drink twice daily for 4 weeks during the double-blind treatment phase, then all children will receive open-label Enterosgel® treatment for a further 4 weeks. With support from parents/carers, children will record abdominal pain daily using the Wong-Baker FACES Pain Rating Scale. The primary outcome is change in mean daily pain score during the initial observation phase and the double-blind phase in the Enterosgel® versus the placebo arm. Secondary outcomes include change in gastrointestinal symptoms (assessed PedsQL™ 3.0 GIS module) and quality of life (KIDSCREEN-27) recorded at baseline and 6 and 10 weeks. After the initial clinical assessment, all procedures will be conducted remotely with study interventions sent by post.\nDISCUSSION: In the absence of a currently available effective treatment, this study will assess the acceptability, efficacy and safety of Enterosgel® in the treatment of children and young people with FAPDs.\nTRIAL REGISTRATION: ISRCTN ISRCTN16474818. Registered on 21 May 2025, https://www.isrctn.com/ISRCTN16474818.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42514326",
+     "date": "2026-07-30",
+     "title_zh": "VSL#3®可能減少潰瘍性大腸炎緩解期合併IBS樣症狀患者之腹痛與腹脹：一項探索性隨機雙盲安慰劑對照試驗",
+     "score": 3,
+     "one_liner": "在55名UC緩解期合併IBS樣症狀病人中，比較VSL#3®與安慰劑8週，主要症狀緩解終點無顯著差異，僅次群組分析顯示腹痛腹脹改善。",
+     "sim": 0.185
+    },
+    {
+     "pmid": "42468955",
+     "date": "2026-07-19",
+     "title_zh": "托法替尼治療慢性儲袋炎的研究（STOPit）：多中心開放性誘導治療併隨機、雙盲、安慰劑對照維持治療試驗",
+     "score": 2,
+     "one_liner": "此為計畫書，描述將對72名慢性儲袋炎病人進行托法替尼誘導後隨機雙盲安慰劑對照維持治療試驗，尚無結果數據。",
+     "sim": 0.166
+    },
+    {
+     "pmid": "42468955",
+     "date": "2026-07-20",
+     "title_zh": "托法替尼治療慢性儲袋炎的研究（STOPit）：多中心開放性誘導治療併隨機、雙盲、安慰劑對照維持治療試驗",
+     "score": 2,
+     "one_liner": "此為計畫書，描述將對72名慢性儲袋炎病人進行托法替尼誘導後隨機雙盲安慰劑對照維持治療試驗，尚無結果數據。",
+     "sim": 0.166
+    }
+   ],
+   "title_zh": "評估 Enterosgel® 治療兒童與青少年功能性腹痛之安全性與療效的隨機安慰劑對照研究（ENTOPIC）：臨床試驗計畫書",
+   "abstract_zh": "背景：功能性腹痛疾患（FAPDs）包括腸躁症、功能性消化不良、腹部偏頭痛，以及其他未特定的功能性腹痛。FAPDs 在全球兒童中相當常見，會降低健康相關生活品質，並減少到校及參與課內與課後活動的情形，其影響與發炎性腸道疾病兒童相似，且造成可觀的醫療照護費用。其病因被認為涉及微生物相－腸－腦軸中一個或多個組成部分的結構及／或功能失調。目前有數種不同的治療方式，反映出尚無任何一種已被證實具有顯著療效。醫療器材 Enterosgel® 是一種矽基腸道吸附劑，可吸附免疫蛋白、細菌分解產物及膽酸，並使腸道微生物相正常化。Enterosgel® 對成人腹瀉型腸躁症有效，且可透過處方或非處方方式取得。我們計畫評估 Enterosgel® 治療兒童與青少年 FAPDs 的療效、耐受性及安全性。\n方法：這是一項在英國兩個中心進行的平行組、隨機、雙盲、安慰劑對照試驗，將招募在醫療機構例行評估時診斷為 FAPD，且已排除其他重大胃腸道疾病的 3–18 歲兒童。在最初 2 週觀察期後，符合資格的兒童將以 1:1 隨機分派，在雙盲治療期接受 Enterosgel® 或相匹配的安慰劑飲品，每日兩次，共 4 週；之後所有兒童均將接受額外 4 週的開放標籤 Enterosgel® 治療。在父母／照顧者協助下，兒童將使用 Wong-Baker FACES 疼痛評分量表，每日記錄腹痛。主要結果為比較 Enterosgel® 組與安慰劑組，從初始觀察期至雙盲期的平均每日疼痛分數變化。次要結果包括胃腸道症狀變化（以 PedsQL™ 3.0 GIS 模組評估）及生活品質變化（以 KIDSCREEN-27 評估），於基線、第 6 週及第 10 週記錄。初次臨床評估後，所有程序均將遠距進行，研究介入品則以郵寄方式送達。\n討論：在目前缺乏有效治療的情況下，本研究將評估 Enterosgel® 治療兒童與青少年 FAPDs 的可接受性、療效及安全性。\n試驗註冊：ISRCTN ISRCTN16474818。於 2025 年 5 月 21 日註冊，https://www.isrctn.com/ISRCTN16474818。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "這是隨機雙盲試驗的計畫書，尚無療效或安全性結果，不能支持治療決策。研究聚焦兒童功能性腹痛，對台灣大腸直腸外科日常實務的直接價值有限，暫不優先讀全文。",
+   "relevance": "低度相關",
+   "relevance_why": "研究對象為兒童與青少年功能性腹痛患者，介入為非手術治療，與大腸直腸外科核心實務關聯有限。",
+   "novelty": "仍屬早期",
+   "one_liner": "擬於兒童功能性腹痛患者（人數未載）比較Enterosgel與安慰劑4週，尚無療效結果。",
+   "action": "目前不需改變做法；勿據此為兒童功能性腹痛常規開立Enterosgel，須等待試驗結果。",
+   "pico": {
+    "P": "英國兩中心、3–18 歲、經例行評估診斷為 FAPD 且已排除其他重大胃腸道疾病的兒童與青少年；預計人數未載。",
+    "I": "Enterosgel® 每日兩次，雙盲治療 4 週；之後再接受 4 週開放標籤 Enterosgel®。",
+    "C": "相匹配的安慰劑飲品每日兩次，雙盲治療 4 週；之後轉為 4 週開放標籤 Enterosgel®。",
+    "O": "主要：初始觀察期至雙盲期的平均每日疼痛分數變化之組間比較，使用 Wong-Baker FACES 量表。次要：基線、第 6 及第 10 週的胃腸道症狀與生活品質變化；亦計畫評估耐受性、安全性及可接受性。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "納入年齡3–18歲；英國2中心，人數未載",
+    "觀察2週後以1:1分派，雙盲治療4週",
+    "再開放治療4週；尚無疼痛或不良事件數據"
+   ],
+   "cautions": [
+    "僅為計畫書；背景所述成人療效不能外推至兒童。",
+    "安慰劑對照僅4週；後續全用藥無法確認長期比較療效。",
+    "摘要未載樣本數，亦無效應值或信賴區間可供判讀。"
+   ],
+   "unassessable": [
+    "預計樣本數、樣本數估算及統計檢定力",
+    "隨機序列產生方式與分派隱蔽",
+    "雖規劃雙盲，但安慰劑匹配細節與盲法維持成效未載",
+    "ITT 分析、缺失資料處理及多重比較策略",
+    "實際招募、依從性、失訪率與試驗執行情形",
+    "兒童年齡差異及照顧者協助填答對測量的影響",
+    "不良事件定義、監測方法及實際安全性結果",
+    "資金來源、利益衝突及成本效益"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3450,
+    "input_tokens_details": {
+     "cache_write_tokens": 3447,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1727,
+    "output_tokens_details": {
+     "reasoning_tokens": 105
+    },
+    "total_tokens": 5177
+   },
+   "added_at": "2026-10-23T08:28:34+08:00"
+  },
+  {
+   "pmid": "42902752",
+   "title": "Non-adherence to diagnostic colonoscopy after positive faecal screening test",
+   "journal": "Dan Med J",
+   "journal_full": "Danish medical journal",
+   "issn": "2245-1919",
+   "issn_linking": "2245-1919",
+   "impact_factor": 1.1,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Sep",
+   "doi": "10.61409/A12251040",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Nielsen C, Al-Noori A, Nielsen N, Gaarden M, Holte K",
+   "abstract": "INTRODUCTION: The Danish Colorectal Cancer Screening Programme has achieved a high adherence, in the 88-90% range, to diagnostic colonoscopy following a positive immunochemical faecal occult blood test (iFOBT). However, a small subgroup does not proceed to colonoscopy. This study investigated factors associated with non-adherence to diagnostic colonoscopy in the North Denmark Region (NDR).\nMETHODS: In 2020, 278 had a positive iFOBT in the NDR and did not undergo subsequent colonoscopy. We conducted a two-part study consisting of 1) a journal audit assessing comorbidity, inflammatory bowel disease (IBD), hospitalisations and colonoscopy history, and 2) a questionnaire exploring self-reported reasons for non-adherence. Among 256 eligible individuals, 169 (66%) completed the questionnaire.\nRESULTS: The journal audit revealed that 25% of non-adherent individuals had an ASA score ≥ 3, 65% had a Charlson Comorbidity Index score ≥ 2 and 10% had known IBD. Furthermore, 20% had undergone a colonoscopy within the preceding two years. Questionnaire responses identified recent colonoscopy (n = 29) and haemorrhoids (n = 30) as frequent reasons for non-adherence. Many respondents reported non-medical reasons, including perceiving themselves as healthy, lacking understanding of the programme or finding colonoscopy unpleasant.\nCONCLUSIONS: Non-adherence to diagnostic colonoscopy after positive iFOBT is often not medically justified. The findings indicate a need for improved patient education. Enhanced general practitioner involvement may help address logistical and informational barriers.\nFUNDING: None.\nTRIAL REGISTRATION: Not relevant.",
+   "watched": [
+    "haemorrhoid"
+   ],
+   "related": [],
+   "title_zh": "糞便篩檢陽性後未依建議接受診斷性大腸鏡檢查",
+   "abstract_zh": "前言：丹麥大腸直腸癌篩檢計畫中，免疫化學法糞便潛血檢查（iFOBT）陽性後接受診斷性大腸鏡檢查的遵從率已達88–90%。然而，仍有一小群人未繼續接受大腸鏡檢查。本研究探討北丹麥地區（NDR）未依建議接受診斷性大腸鏡檢查的相關因素。\n方法：2020年，NDR有278人iFOBT陽性，但後續未接受大腸鏡檢查。我們進行一項包含兩部分的研究：1）病歷查核，評估共病、發炎性腸道疾病（IBD）、住院情形及大腸鏡檢查史；2）問卷調查，探討受訪者自述未依建議接受檢查的原因。在256名符合資格者中，169人（66%）完成問卷。\n結果：病歷查核顯示，未依建議接受檢查者中，25%的ASA分級≥3，65%的Charlson共病指數≥2，10%有已知IBD。此外，20%曾在前兩年內接受大腸鏡檢查。問卷回答指出，近期接受過大腸鏡檢查（n = 29）及痔瘡（n = 30）是常見的未接受檢查原因。許多受訪者回報非醫療因素，包括自認健康、不了解篩檢計畫，或認為大腸鏡檢查令人不適。\n結論：iFOBT陽性後未依建議接受診斷性大腸鏡檢查，往往缺乏醫療上的正當理由。研究結果顯示需要改善病人教育。加強家庭醫師參與，可能有助於處理安排檢查及資訊方面的障礙。\n經費來源：無。\n試驗註冊：不適用。",
+   "evidence_level": "回溯性研究",
+   "score": 6,
+   "score_reason": "病歷查核搭配問卷可辨識篩檢追蹤障礙，但缺乏遵從者對照，且問卷回覆率僅66%，無法確立危險因子。對台灣糞便潛血陽性追蹤衛教有實用性，但不是痔瘡手術或POUR研究。",
+   "relevance": "高度相關",
+   "relevance_why": "直接涉及大腸直腸癌篩檢陽性後的大腸鏡追蹤，以及病人將出血歸因於痔瘡的臨床溝通問題。",
+   "novelty": "再確認已知",
+   "one_liner": "278名糞篩陽性未做大腸鏡者的病歷與問卷研究，無對照；30名受訪者以痔瘡為未檢原因。",
+   "action": "向糞篩陽性且自認痔瘡出血者說明仍需評估大腸鏡；目前不需改變POUR照護，本篇未研究術後病人。",
+   "pico": {
+    "P": "北丹麥地區2020年iFOBT陽性但後續未接受大腸鏡的278人；256人符合問卷資格，169人完成問卷。",
+    "I": "病歷查核與問卷調查，描述共病、既往大腸鏡及自述未接受檢查的原因。",
+    "C": "無對照組",
+    "O": "未依建議接受診斷性大腸鏡者的臨床特徵與自述原因；摘要未明確區分主要與次要結果。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "問卷完成169/256人（66%）；未研究POUR發生率",
+    "自述未檢原因：痔瘡30人、近期大腸鏡29人",
+    "未檢者20%於前兩年做過大腸鏡；無兩組風險可比較"
+   ],
+   "cautions": [
+    "僅納入未檢者、無遵從者對照，不能確立獨立危險因子",
+    "問卷僅66%回覆，自述原因可能受選擇及回憶偏誤影響",
+    "痔瘡是自述未檢理由，不代表已證實陽性來源或可免大腸鏡"
+   ],
+   "unassessable": [
+    "未提供痔瘡術後POUR絕對風險，無法計算相關ARR、NNT或NNH。",
+    "未研究可介入的POUR危險因子；衛教與家庭醫師介入是否改善大腸鏡遵從率也未經測試。",
+    "未比較麻醉方式、止痛策略、NSAID／diclofenac或導尿策略。",
+    "無法據此判定哪些痔瘡術後病人應預防性導尿或可免導尿。",
+    "未研究POUR，無法與既有文獻比較其發生率高低或解釋差異。",
+    "未說明問卷未回覆者與回覆者的差異、問卷效度及未接受大腸鏡的追蹤判定期間。",
+    "摘要未提供調整混雜因子的分析、估計值信賴區間或利益衝突聲明。"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3105,
+    "input_tokens_details": {
+     "cache_write_tokens": 3102,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1687,
+    "output_tokens_details": {
+     "reasoning_tokens": 267
+    },
+    "total_tokens": 4792
+   },
+   "added_at": "2026-10-23T08:28:34+08:00"
+  },
+  {
+   "pmid": "42902018",
+   "title": "Combination of oral fluoropyrimidines and EGFR-directed antibodies in frail patients with metastatic colorectal cancer: a systematic review",
+   "journal": "J Cancer Res Clin Oncol",
+   "journal_full": "Journal of cancer research and clinical oncology",
+   "issn": "1432-1335",
+   "issn_linking": "0171-5216",
+   "impact_factor": 3.3,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1016/j.annonc.2020.05.024",
+   "ptype": "Systematic Review",
+   "ptype_list": [
+    "Systematic Review"
+   ],
+   "authors": "Hasenburg A, Stintzing S, Stahler A",
+   "abstract": "BACKGROUND: Evidence of treatment strategies in frail patients (i.e. not fit for combination therapies) with unresectable metastatic colorectal cancer (mCRC) is limited to dose-reduced doublet regimens or oral fluoropyrimidines (FP) with bevacizumab. We conducted a systematic review analyzing evidence for oral FPs with epidermal growth factor receptor (EGFR)-directed monoclonal antibodies for patients with RAS wild-type (WT) mCRC across treatment lines.\nMETHODS: We searched PubMed and Cochrane Library for phase II and phase III studies evaluating oral FPs (capecitabine, S-1 or trifluridine/tipiracil (FTD/TPI)) plus EGFR-directed monoclonal antibody (panitumumab or cetuximab) in mCRC. Outcomes included efficacy and safety.\nRESULTS: Seven publications met inclusion criteria (n = 262 patients). First-line data was limited to elderly cohorts receiving capecitabine plus cetuximab or panitumumab with a median progression-free survival (PFS)/median overall survival (OS) of 7.2/17.1 months (cetuximab) and 7.5/23.7 months (panitumumab), respectively. In third-line and beyond, median PFS for the combination of FTD/TPI plus cetuximab or panitumumab ranged from 2.4 (cetuximab) to 5.8 months (panitumumab), and OS from 9.8 (cetuximab) to 14.2 months (panitumumab). S-1 plus cetuximab was associated with a median PFS of 5.5 months and OS of 13.6 months.\nCONCLUSION: While capecitabine should not be used together with anti-EGFR antibodies, FTD/TPI in combination with an EGFR-directed antibody appears feasible, shows promising activity and manageable toxicity profile in RAS WT mCRC potentially offering an alternative for frail patients; prospective trials are needed.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42630475",
+     "date": "2026-08-24",
+     "title_zh": "肝臟局限型RAS野生型轉移性大腸直腸癌：不同一線生物製劑策略之腫瘤反應差異與轉換手術結果",
+     "score": 3,
+     "one_liner": "在241名RAS wild-type mCRC病人中，比較panitumumab、cetuximab、bevacizumab一線治療，panitumumab轉換手術率最高（34.2%），肝限局病人達50.0% vs bevacizumab 19.4%。",
+     "sim": 0.292
+    },
+    {
+     "pmid": "42675036",
+     "date": "2026-09-02",
+     "title_zh": "一線安羅替尼對比貝伐珠單抗併用CapeOX治療RAS/BRAF野生型不可切除轉移性大腸直腸癌（ANCHOR）：多中心前瞻性隨機第三期試驗",
+     "score": 5,
+     "one_liner": "在748名RAS/BRAF野生型不可切除mCRC病人中，比較安羅替尼+CapeOX與貝伐珠單抗+CapeOX，兩組中位PFS皆11.0個月但未達預設非劣性邊界（HR 1.00，95%CI上限1.18＞1.09）。",
+     "sim": 0.271
+    },
+    {
+     "pmid": "42675036",
+     "date": "2026-09-03",
+     "title_zh": "第一線Anlotinib對比Bevacizumab併用CapeOX於RAS/BRAF野生型無法切除轉移性大腸直腸癌（ANCHOR）：多中心前瞻性隨機第三期試驗",
+     "score": 5,
+     "one_liner": "在748名RAS/BRAF野生型mCRC病人中，anlotinib與bevacizumab併CapeOX之PFS相同(HR 1.00)，但未達非劣效邊界且毒性更高。",
+     "sim": 0.271
+    }
+   ],
+   "title_zh": "口服氟嘧啶類藥物合併抗EGFR抗體治療虛弱轉移性大腸直腸癌病人：系統性回顧",
+   "abstract_zh": "背景：對於虛弱（亦即不適合合併治療）且無法切除的轉移性大腸直腸癌（mCRC）病人，治療策略的證據僅限於減量雙藥療法，或口服氟嘧啶類藥物（FP）合併bevacizumab。我們進行系統性回顧，分析口服FP合併表皮生長因子受體（EGFR）標靶單株抗體，用於RAS野生型（WT）mCRC病人不同治療線別的證據。\n方法：我們搜尋PubMed及Cochrane Library，納入評估口服FP〔capecitabine、S-1或trifluridine/tipiracil（FTD/TPI）〕合併抗EGFR單株抗體（panitumumab或cetuximab）治療mCRC的第二期及第三期研究。評估結果包括療效與安全性。\n結果：共有7篇文獻符合納入標準（n＝262名病人）。第一線資料僅限於接受capecitabine合併cetuximab或panitumumab的高齡族群；中位無惡化存活期（PFS）／中位整體存活期（OS）分別為7.2／17.1個月（cetuximab）及7.5／23.7個月（panitumumab）。第三線及更後線治療中，FTD/TPI合併cetuximab或panitumumab的中位PFS介於2.4個月（cetuximab）至5.8個月（panitumumab），中位OS介於9.8個月（cetuximab）至14.2個月（panitumumab）。S-1合併cetuximab的中位PFS為5.5個月，OS為13.6個月。\n結論：雖然capecitabine不應與抗EGFR抗體合併使用，但FTD/TPI合併抗EGFR抗體似乎可行，展現具潛力的抗腫瘤活性及可控制的毒性，可能為虛弱的RAS WT mCRC病人提供另一種選擇；仍需前瞻性試驗。",
+   "evidence_level": "系統性回顧",
+   "score": 5,
+   "score_reason": "聚焦虛弱mCRC的治療缺口，值得參與MDT的醫師選讀全文；但僅7篇、262人，摘要缺乏對照效果、精確度及具體毒性數據，尚不足以改變常規治療。",
+   "relevance": "中度相關",
+   "relevance_why": "涉及台灣常見的高齡或虛弱mCRC病人之全身治療選擇，但未評估轉換切除率或外科結果。",
+   "novelty": "仍屬早期",
+   "one_liner": "在262名mCRC病人中，口服FP併抗EGFR未報組間比較，後線PFS為2.4–5.8月。",
+   "action": "目前不需改變做法；勿僅據此為虛弱RAS WT mCRC病人常規採用FTD/TPI併抗EGFR。",
+   "pico": {
+    "P": "7篇文獻、共262名mCRC病人，回顧聚焦RAS WT；第一線資料限高齡族群，摘要未交代各研究的虛弱定義。",
+    "I": "口服capecitabine、S-1或FTD/TPI合併cetuximab或panitumumab，涵蓋不同治療線別。",
+    "C": "摘要未提供對照組資料，不能將不同研究或方案的存活期視為直接比較。",
+    "O": "療效與安全性；摘要報告中位PFS及OS，未指定主要與次要結果，亦未提供具體毒性數據。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "7篇、262人；第一線PFS 7.2／7.5月，OS 17.1／23.7月",
+    "後線FTD/TPI併抗EGFR：PFS 2.4–5.8月，OS 9.8–14.2月",
+    "S-1併cetuximab：PFS 5.5月、OS 13.6月；未報組間差異"
+   ],
+   "cautions": [
+    "高齡不等於虛弱；摘要未交代虛弱定義，外推目標族群須謹慎。",
+    "僅7篇262人，未報對照效果及信賴區間；不可跨研究比較藥物優劣。",
+    "未列毒性數據，難驗證安全性及不宜併用capecitabine的結論。"
+   ],
+   "unassessable": [
+    "完整搜尋策略、搜尋截止日期及是否限制語言",
+    "研究篩選與資料擷取是否由雙人獨立執行",
+    "納入研究的設計、對照組、個別樣本數及重複族群情形",
+    "偏誤風險評估、證據確定性及發表偏誤",
+    "納入試驗的隨機分派、分派隱蔽、盲法及ITT分析",
+    "失訪率、追蹤時間與結果資料完整性",
+    "各研究的虛弱評估、體能狀態、共病及原發腫瘤側別",
+    "具體不良事件、停藥率、劑量調整及生活品質",
+    "試驗與系統性回顧註冊、研究計畫書",
+    "資助來源、利益衝突及成本效益"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "相較於前述241名RAS WT mCRC病人的一線生物製劑與轉換手術研究，本篇將焦點延伸至虛弱病人及口服FP合併抗EGFR的不同治療線別。它補充低強度全身治療的證據概況，但未提供轉換切除結果，亦不能用跨研究存活數字驗證前作的藥物優劣排序。",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3372,
+    "input_tokens_details": {
+     "cache_write_tokens": 0,
+     "cached_tokens": 3369
+    },
+    "output_tokens": 2106,
+    "output_tokens_details": {
+     "reasoning_tokens": 516
+    },
+    "total_tokens": 5478
+   },
+   "added_at": "2026-10-22T08:31:00+08:00"
+  },
+  {
+   "pmid": "42901989",
+   "title": "Prehabilitation for colon cancer surgery: a systematic review of quality-of-life outcomes and a feasibility study",
+   "journal": "Int J Colorectal Dis",
+   "journal_full": "International journal of colorectal disease",
+   "issn": "1432-1262",
+   "issn_linking": "0179-1958",
+   "impact_factor": 2.9,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1093/bjs/znae056",
+   "ptype": "Systematic Review",
+   "ptype_list": [
+    "Systematic Review"
+   ],
+   "authors": "Stadelhofer M, Dalby H, Thyø A, Emmertsen K",
+   "abstract": "PURPOSE: To evaluate the feasibility of short-term prehabilitation and its impact on quality of life in patients with colorectal cancer through a systematic review and a feasibility study.\nMETHODS: The systematic review was conducted in accordance with the PRISMA guidelines. PubMed, PubPsych, CINAHL, EMBASE, Web of Science and EBSCOhost were searched for studies evaluating quality of life in colorectal cancer patients undergoing prehabilitation. We conducted a prospective non-randomised interventional feasibility study, with a 2-week post-surgery follow-up, enrolling patients diagnosed with colon cancer.\nRESULTS: The systematic review included six studies from 517 unique records for final analysis. Among six studies, evidence for quality-of-life benefits of prehabilitation was conflicting but predominantly favourable, with generally low-to-moderate study quality and substantial heterogeneity. In the feasibility study, 110 patients were eligible for inclusion; 70 (64%) were included, and 63 completed the entire study. Of the 32 patients in the intervention group, compliance > 80% was observed in 66% (nutrition) and 88% (physical activity) of patients, with a median compliance of 100% for both. Quality-of-life outcomes were explored as secondary measures and showed potential favourable trends following prehabilitation.\nCONCLUSION: Evidence on the effect of prehabilitation on quality of life in colorectal cancer remains inconsistent; our feasibility study shows that short-term multimodal prehabilitation is feasible and supports the need for adequately powered trials.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42610486",
+     "date": "2026-08-19",
+     "title_zh": "多模式術前強化（Prehabilitation）相較於無術前強化，用於改善大腸直腸癌手術患者之功能容量、減少術後併發症及提升生活品質",
+     "score": 2,
+     "one_liner": "本文為Cochrane計畫書，宣告未來將系統性評估大腸直腸癌手術患者接受多模式術前強化 vs 無強化之效果，目前尚無數據。",
+     "sim": 0.305
+    },
+    {
+     "pmid": "42610486",
+     "date": "2026-08-20",
+     "title_zh": "多模式術前強化（Prehabilitation）與不進行術前強化在大腸直腸癌手術中對功能容量、術後併發症與生活品質之影響：系統性文獻回顧計畫書",
+     "score": 2,
+     "one_liner": "此為 Cochrane 計畫書，宣告將系統性評估多模式術前強化 vs 不強化對大腸直腸癌手術病人功能容量、併發症與生活品質的影響，尚無結果。",
+     "sim": 0.305
+    },
+    {
+     "pmid": "42588080",
+     "date": "2026-08-14",
+     "title_zh": "大腸直腸癌手術之術前強化（Prehabilitation）：當前證據與臨床觀點之敘事性回顧",
+     "score": 3,
+     "one_liner": "彙整20篇2015-2025年關於CRC手術術前強化的回顧文獻，發現多模式強化可能改善功能容量、部分減少併發症與住院天數，但未提供新數據。",
+     "sim": 0.213
+    }
+   ],
+   "title_zh": "結腸癌手術的術前強化：生活品質結果之系統性回顧與可行性研究",
+   "abstract_zh": "目的：透過系統性回顧及可行性研究，評估短期術前強化的可行性，以及其對大腸直腸癌患者生活品質的影響。\n方法：系統性回顧依循 PRISMA 指引進行。搜尋 PubMed、PubPsych、CINAHL、EMBASE、Web of Science 及 EBSCOhost，納入評估接受術前強化之大腸直腸癌患者生活品質的研究。我們另進行一項前瞻性、非隨機介入性可行性研究，收納確診結腸癌的患者，並追蹤至術後2週。\n結果：系統性回顧從517筆不重複紀錄中，納入6篇研究進行最終分析。這6篇研究對術前強化能否改善生活品質的證據互有歧異，但大多偏向有利；研究品質整體為低至中等，且存在顯著異質性。可行性研究中，110名患者符合納入資格；其中70名（64%）納入研究，63名完成整項研究。介入組32名患者中，營養介入有66%的患者遵從率超過80%，身體活動介入則有88%的患者遵從率超過80%；兩項介入的遵從率中位數均為100%。生活品質結果作為次要指標進行探索，顯示術前強化後可能有改善趨勢。\n結論：術前強化對大腸直腸癌患者生活品質影響的證據仍不一致；我們的可行性研究顯示，短期多模式術前強化具有可行性，並支持進行具足夠統計檢定力之試驗的必要性。",
+   "evidence_level": "系統性回顧",
+   "score": 5,
+   "score_reason": "主題貼近大腸直腸癌術前照護，且兼具系統性回顧與前瞻性可行性資料。但回顧證據品質有限，新研究非隨機且未提供生活品質效應量，較值得規劃術前強化服務者閱讀，尚不足以改變常規照護。",
+   "relevance": "高度相關",
+   "relevance_why": "直接探討結腸癌手術前營養與運動強化的執行可行性，以及大腸直腸癌患者的生活品質。",
+   "novelty": "仍屬早期",
+   "one_liner": "在70名結腸癌患者中，術前強化對照未明，營養／運動遵從率>80%者為66%／88%。",
+   "action": "目前不需改變做法；對擬接受結腸癌手術者，勿僅憑可行性與探索性趨勢宣稱能改善生活品質。",
+   "pico": {
+    "P": "系統性回顧：大腸直腸癌患者，納入6篇研究，總人數未載；可行性研究：110名合資格結腸癌患者中納入70名，63名完成研究。",
+    "I": "術前強化；可行性研究採短期多模式術前強化，包含營養與身體活動介入。",
+    "C": "系統性回顧各研究的比較條件未載；可行性研究的對照組設計、人數及照護內容未交代。",
+    "O": "系統性回顧評估生活品質；可行性研究評估招募、完成研究及介入遵從情形，生活品質為次要探索指標，追蹤至術後2週。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "回顧：517筆不重複紀錄中納入6篇研究",
+    "合資格110人，納入70人（64%），完成63人",
+    "介入32人：遵從率>80%者，營養66%、運動88%"
+   ],
+   "cautions": [
+    "生活品質僅為次要探索指標，改善趨勢不等於療效確立。",
+    "回顧僅6篇、品質低至中等且異質性高，結果不一致。",
+    "可行性研究非隨機、追蹤僅至術後2週，未報生活品質效應量及信賴區間。"
+   ],
+   "unassessable": [
+    "系統性回顧的完整納排條件、搜尋截止日期及研究篩選流程",
+    "納入研究的設計分布、偏誤風險評估工具及各研究評估結果",
+    "回顧是否採統合分析、異質性的量化程度及出版偏誤",
+    "可行性研究的分組依據、對照組設計、基線可比性及混雜因子處理",
+    "分派隱匿與盲法是否適用或實施；研究已明示為非隨機設計",
+    "分析族群、是否採ITT原則，以及未完成研究者的原因與缺失資料處理",
+    "術前強化的確切持續時間、強度及遵從率計算方式",
+    "生活品質量表、基線與追蹤絕對分數、組間效應量及臨床重要差異",
+    "試驗註冊、預先指定結果、樣本數估算、資金來源及利益衝突",
+    "介入安全性、成本效益及長期結果"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "相較先前兩篇尚無結果的Cochrane計畫書，本篇提供6篇研究的生活品質證據整理及新的前瞻性可行性資料，但不能視為那些計畫書的完成成果。相較先前聚焦整體術前強化證據的敘事性回顧，本篇補充生活品質與短期介入遵從情形，仍未確立生活品質療效。",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3183,
+    "input_tokens_details": {
+     "cache_write_tokens": 0,
+     "cached_tokens": 3180
+    },
+    "output_tokens": 1918,
+    "output_tokens_details": {
+     "reasoning_tokens": 424
+    },
+    "total_tokens": 5101
+   },
+   "added_at": "2026-10-22T08:31:00+08:00"
+  },
+  {
+   "pmid": "42902375",
+   "title": "Decoding the human milk virome: a comparative analysis of composition, colonization, and health impacts",
+   "journal": "J Transl Med",
+   "journal_full": "Journal of translational medicine",
+   "issn": "1479-5876",
+   "issn_linking": "1479-5876",
+   "impact_factor": 9.7,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1371/journal.pone.0273343",
+   "ptype": "Comparative Study",
+   "ptype_list": [
+    "Comparative Study"
+   ],
+   "authors": "Yahia S, Murugesan S, Al Khodor S",
+   "abstract": "BACKGROUND: Breast milk (BM) is a complex biological system that not only delivers essential nutrition to the baby, but is also a rich collection of microorganisms, including bacteria, viruses and fungi. Dominated by bacteriophages and eukaryotic viruses, the BM virome plays a role in shaping the infant gut microbiome composition, influencing immune development and long-term health outcomes. Emerging research confirms the vertical transmission of bacteriophages from the mother to her infant via breastfeeding, and the shared viral taxa suggest functional roles in modulating bacterial populations and maintaining gut homeostasis. Disruptions in this early life virome, driven by factors such as maternal health, mode of delivery, and geographic location, have been linked to dysbiosis and disease susceptibility for conditions ranging from inflammatory bowel disease to metabolic disorders.\nMETHODS: A systematic literature search was conducted in NCBI/PUBMED and the European Nucleotide Archive (ENA) using the keywords \"Milk virome,\" \"Milk phage,\" \"Milk phageome,\" and \"Milk metagenome\". After applying our inclusion and exclusion criteria, two studies remained. This comparative analysis explores the composition and diversity of the BM virome across two geographically distinct cohorts-Turkey and the United States-revealing significant differences in viral diversity and composition.\nRESULTS: The Turkish cohort exhibited a significantly higher viral richness and unique taxonomic distributions compared to the USA group. Notably, bacteriophage families like Myoviridae, Siphoviridae, and Podoviridae were shown to be abundant in both populations. The Turkish BM virome featured a higher prevalence of plant- and insect-derived viruses (e.g. Partitiviridae, Tospoviridae), likely tied to dietary or regional agricultural practices.\nCONCLUSIONS: Despite limitations related to sample size and methodological variability, this study emphasizes how dietary habits, environmental exposures, and geographic location may shape the breast milk virome. Further research integrating longitudinal data from a multi-ethnic population, cohorts is essential to fully harness the diagnostic and therapeutic potential of the human milk virome.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42883955",
+     "date": "2026-10-18",
+     "title_zh": "病毒與腸道微生物群的交互作用：對發炎性腸道疾病腸黏膜的意涵",
+     "score": 2,
+     "one_liner": "在IBD族群（人數未報）中，綜整病毒與菌群交互作用，無直接介入比較或可量化臨床效益。",
+     "sim": 0.186
+    }
+   ],
+   "title_zh": "解碼人類母乳病毒體：組成、定殖與健康影響的比較分析",
+   "abstract_zh": "背景：母乳（BM）是一個複雜的生物系統，不僅為嬰兒提供必要營養，也富含包括細菌、病毒與真菌在內的微生物。母乳病毒體以噬菌體與真核生物病毒為主，在塑造嬰兒腸道微生物群組成、影響免疫發育及長期健康結果方面扮演角色。新興研究證實，噬菌體可透過哺乳由母親垂直傳播給嬰兒，而母嬰共享的病毒分類群提示其具有調節細菌族群及維持腸道恆定的功能。母體健康、分娩方式及地理位置等因素所驅動的生命早期病毒體失調，已被發現與菌群失衡及疾病易感性有關，相關疾病涵蓋發炎性腸道疾病至代謝性疾病。\n方法：研究使用「Milk virome」、「Milk phage」、「Milk phageome」及「Milk metagenome」等關鍵字，在 NCBI/PUBMED 與歐洲核苷酸資料庫（ENA）進行系統性文獻搜尋。套用納入與排除標準後，剩下兩項研究。本比較分析探討土耳其與美國兩個地理位置不同世代的母乳病毒體組成與多樣性，揭示病毒多樣性與組成存在顯著差異。\n結果：相較於美國組，土耳其世代呈現顯著較高的病毒豐富度，以及獨特的分類群分布。值得注意的是，兩個族群中皆有豐富的噬菌體科，例如 Myoviridae、Siphoviridae 與 Podoviridae。土耳其母乳病毒體中的植物與昆蟲來源病毒（例如 Partitiviridae、Tospoviridae）出現比例較高，可能與飲食或當地農業活動有關。\n結論：儘管受到樣本數與方法學變異相關限制，本研究強調飲食習慣、環境暴露及地理位置可能如何塑造母乳病毒體。未來必須進一步整合多族裔族群世代的縱向資料，才能充分發揮人類母乳病毒體在診斷與治療上的潛力。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "以系統搜尋取得的兩項研究進行跨世代比較，但摘要未提供樣本數、效應量或臨床結局，可信度與可解讀性有限。與大腸直腸外科日常決策距離遠，非優先閱讀全文的文獻。",
+   "relevance": "低度相關",
+   "relevance_why": "研究聚焦母乳病毒體的地理差異，未直接評估大腸直腸疾病病人、外科介入或臨床結局。",
+   "novelty": "仍屬早期",
+   "one_liner": "在土耳其與美國母乳世代（人數未報）中比較病毒體，土耳其病毒豐富度較高；僅納入2項研究。",
+   "action": "目前不需改變做法；勿據此調整IBD病人的檢測或治療，研究未評估臨床效益。",
+   "pico": {
+    "P": "土耳其與美國兩個母乳研究世代，來自2項研究；母親、嬰兒與檢體數均未報告。",
+    "I": "土耳其世代的母乳病毒體資料。",
+    "C": "美國世代的母乳病毒體資料。",
+    "O": "母乳病毒體組成、多樣性、病毒豐富度與分類群分布；未明確區分主要與次要結局，未報告臨床健康結局。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "納入2項研究，母親、嬰兒及檢體總數未報。",
+    "比較2個國家：土耳其與美國；未報各組絕對值。",
+    "病毒豐富度稱有顯著差異，未報效應量、p值或信賴區間。"
+   ],
+   "cautions": [
+    "病毒體組成屬替代指標，不能推論IBD風險或治療效益。",
+    "跨研究方法差異可能混雜地域差異，飲食解釋未獲因果驗證。",
+    "僅納入2項研究，未報樣本數、差異幅度或信賴區間。"
+   ],
+   "unassessable": [
+    "完整搜尋策略、搜尋日期及納入排除標準",
+    "文獻篩選、資料擷取與研究品質評估流程",
+    "各世代母親、嬰兒與檢體數，以及採樣時間",
+    "定序平台、病毒鑑定方法與跨研究批次效應處理",
+    "飲食、母體健康、分娩方式等混雜因子的測量與校正",
+    "統計檢定、多重比較校正、效應量與信賴區間",
+    "研究計畫或系統性回顧註冊",
+    "資金來源與利益衝突"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3022,
+    "input_tokens_details": {
+     "cache_write_tokens": 3019,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1479,
+    "output_tokens_details": {
+     "reasoning_tokens": 136
+    },
+    "total_tokens": 4501
+   },
+   "added_at": "2026-10-22T08:31:00+08:00"
+  }
+ ]
+}
