@@ -1,0 +1,1269 @@
+{
+ "date": "2026-10-25",
+ "generated_at": "2026-10-25T08:10:22+08:00",
+ "count": 13,
+ "papers": [
+  {
+   "pmid": "42919249",
+   "title": "Effectiveness of artificial intelligence-assisted colonoscopy for colorectal lesion detection: a systematic review and meta-analysis of randomized controlled trials",
+   "journal": "BMC Med Imaging",
+   "journal_full": "BMC medical imaging",
+   "issn": "1471-2342",
+   "issn_linking": "1471-2342",
+   "impact_factor": 3.9,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1177/2050640619850365",
+   "ptype": "Systematic Review, Meta-Analysis",
+   "ptype_list": [
+    "Systematic Review",
+    "Meta-Analysis"
+   ],
+   "authors": "Liu X, Qin J, Zhao Y, Zhang C, Wang D, Jiang T",
+   "abstract": "BACKGROUND: Colonoscopy is the gold standard for colorectal cancer detection and prevention, but its performance depends on operator skill and lesion features. Artificial intelligence (AI)-assisted colonoscopy has been introduced to improve adenoma detection.\nMETHODS: A comprehensive search was conducted in PubMed, Embase, the Cochrane Library, Web of Science, ClinicalTrials.gov, and major Chinese databases to identify randomized controlled trials (RCTs) comparing AI-assisted and conventional colonoscopy. Meta-analyses were performed using Review Manager 5.4 and Stata 14.0. The quality of evidence was graded using the Grading of Recommendations Assessment, Development and Evaluation (GRADE) system, while trial sequential analysis (TSA) was applied to assess the robustness and information sufficiency of the results.\nRESULTS: A total of 46 RCTs encompassing 37,012 participants were included. Compared with conventional colonoscopy, AI-assisted colonoscopy was associated with a higher ADR (RR = 1.22, 95% CI = 1.17-1.27, P < 0.00001), polyp detection rate (PDR: RR = 1.22, 95% CI = 1.16-1.29, P < 0.00001), polyp detection per colonoscopy (PPC: MD = 0.28, 95% CI = 0.21-0.36), and adenoma detection per colonoscopy (APC: MD = 0.22, 95% CI = 0.15-0.29). The detection rate of sessile serrated lesions (SSL) was also higher in the AI-assisted group (RR = 1.20, 95% CI: 1.05-1.36, P = 0.007), whereas no significant difference was observed in advanced adenoma detection rate (AADR).\nCONCLUSIONS: AI-assisted colonoscopy was associated with improvements in several detection-related quality indicators, including ADR, PDR, PPC, APC, and SSL detection rate. However, given the very low GRADE certainty for ADR and PDR and the lack of long-term outcome data, these findings should be interpreted cautiously.\nCLINICAL TRIAL NUMBER: Not applicable.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42379779",
+     "date": "2026-07-01",
+     "title_zh": "電腦輔助偵測系統（CADe）於大腸鏡檢查中在多元臨床條件下提升腺瘤與息肉偵測率之效益研究",
+     "score": 6,
+     "one_liner": "在724名接受大腸鏡病患（PSM配對）中，比較CADe輔助與傳統大腸鏡，發現CADe組整體ADR提升10.2%（40.6% vs 30.4%, p=0.004）。",
+     "sim": 0.301
+    },
+    {
+     "pmid": "42894113",
+     "date": "2026-10-20",
+     "title_zh": "黎巴嫩三級醫院首次篩檢大腸鏡中與腺瘤偵測相關的病人、內視鏡醫師及檢查因素：回溯性世代研究",
+     "score": 5,
+     "one_liner": "在257名首次篩檢者中，比較男女，腺瘤偵測率為52.1%與38.0%。",
+     "sim": 0.272
+    },
+    {
+     "pmid": "42714031",
+     "date": "2026-09-10",
+     "title_zh": "不同AI系統於大腸鏡檢查中依息肉大小偵測效能之比較：系統性回顧與網絡統合分析",
+     "score": 5,
+     "one_liner": "在13篇RCT、4156名受檢者中，比較AI輔助大腸鏡與傳統大腸鏡，發現AI僅對≤5mm息肉偵測有微弱效益（SMD 0.21），對6-9mm及≥10mm息肉幾無差異。",
+     "sim": 0.263
+    }
+   ],
+   "title_zh": "人工智慧輔助大腸鏡對大腸直腸病灶偵測的效益：隨機對照試驗之系統性回顧與統合分析",
+   "abstract_zh": "背景：大腸鏡是大腸直腸癌偵測與預防的黃金標準，但其表現取決於操作者技術及病灶特徵。人工智慧（AI）輔助大腸鏡已被引入，以提升腺瘤偵測率。\n方法：全面搜尋PubMed、Embase、Cochrane Library、Web of Science、ClinicalTrials.gov及主要中文資料庫，以找出比較AI輔助與傳統大腸鏡的隨機對照試驗（RCT）。使用Review Manager 5.4及Stata 14.0進行統合分析。採用建議分級、評估、發展與評價（GRADE）系統評定證據品質，並使用試驗序列分析（TSA）評估結果的穩健性與資訊量是否充足。\n結果：共納入46項RCT，涵蓋37,012名參與者。與傳統大腸鏡相比，AI輔助大腸鏡與較高的腺瘤偵測率（ADR：RR＝1.22，95% CI＝1.17–1.27，P＜0.00001）、息肉偵測率（PDR：RR＝1.22，95% CI＝1.16–1.29，P＜0.00001）、每次大腸鏡檢查偵測的息肉數（PPC：平均差MD＝0.28，95% CI＝0.21–0.36），以及每次大腸鏡檢查偵測的腺瘤數（APC：MD＝0.22，95% CI＝0.15–0.29）相關。AI輔助組的無蒂鋸齒狀病灶（SSL）偵測率也較高（RR＝1.20，95% CI：1.05–1.36，P＝0.007），但進階腺瘤偵測率（AADR）未觀察到顯著差異。\n結論：AI輔助大腸鏡與多項偵測相關品質指標的改善相關，包括ADR、PDR、PPC、APC及SSL偵測率。然而，鑑於ADR與PDR的GRADE證據確定性極低，且缺乏長期結果資料，這些發現應審慎解讀。\n臨床試驗編號：不適用。",
+   "evidence_level": "統合分析",
+   "score": 7,
+   "score_reason": "納入46項RCT、37,012人，值得閱讀全文了解AI偵測效益及證據降級原因；但ADR與PDR證據確定性極低，且未證實進階腺瘤或長期臨床效益，尚不足支持全面改變實務。",
+   "relevance": "高度相關",
+   "relevance_why": "直接涉及大腸直腸外科常用的大腸鏡品質指標與AI設備導入決策。",
+   "novelty": "再確認已知",
+   "one_liner": "在37,012名受檢者中，比較AI與傳統大腸鏡，腺瘤偵測率較高（RR 1.22）。",
+   "action": "目前不需改變做法；勿僅憑此研究為篩檢病人常規導入AI，證據確定性極低且長期效益未明。",
+   "pico": {
+    "P": "46項RCT、共37,012名接受大腸鏡檢查者；具體適應症與族群分布未於摘要交代。",
+    "I": "AI輔助大腸鏡",
+    "C": "傳統大腸鏡",
+    "O": "評估ADR、PDR、PPC、APC、SSL偵測率及AADR；摘要未明確區分主要與次要結果。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "37,012人；ADR RR 1.22，未報絕對率",
+    "每次腺瘤數增加0.22（95% CI 0.15–0.29）",
+    "進階腺瘤偵測率無顯著差異；未報效應值"
+   ],
+   "cautions": [
+    "ADR與PDR證據確定性極低，摘要未交代降級原因。",
+    "偵測率是替代指標，未證實降低大腸直腸癌或死亡。",
+    "未報兩組絕對偵測率，無法估算ARR或NNT。"
+   ],
+   "unassessable": [
+    "納入RCT的隨機序列產生、分派隱蔽及盲法",
+    "納入RCT是否採ITT分析、失訪及排除情形",
+    "系統性回顧的預先註冊、研究計畫及納入RCT的註冊情形",
+    "各資料庫搜尋截止日期、完整納入條件及重複族群處理",
+    "研究間異質性、發表偏誤及敏感度分析結果",
+    "GRADE降級理由與各項結果的完整證據確定性",
+    "TSA的具體結果及所需資訊量是否達標",
+    "AI系統差異、操作者經驗及病灶大小分層效益",
+    "利益衝突、資助來源及成本效益"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "本篇ADR提升的方向與先前724人PSM研究一致，但以46項RCT的統合分析擴大證據範圍，並補充SSL與進階腺瘤結果。相較先前13項RCT、依息肉大小分析的網絡統合分析，本篇呈現整體偵測指標，兩者結果不能直接視為矛盾；仍須讀全文確認病灶大小分層及研究重疊情形。尤其本篇明示ADR與PDR證據確定性極低，研究數較多不代表結論必然更可靠。",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3366,
+    "input_tokens_details": {
+     "cache_write_tokens": 3363,
+     "cached_tokens": 0
+    },
+    "output_tokens": 2015,
+    "output_tokens_details": {
+     "reasoning_tokens": 486
+    },
+    "total_tokens": 5381
+   },
+   "added_at": "2026-10-25T08:07:42+08:00"
+  },
+  {
+   "pmid": "42920002",
+   "title": "Robotic vs. laparoscopic IPAA in a high-volume referral centre: a retrospective observational study",
+   "journal": "J Robot Surg",
+   "journal_full": "Journal of robotic surgery",
+   "issn": "1863-2491",
+   "issn_linking": "1863-2483",
+   "impact_factor": 4.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1007/s10151-025-03285-2",
+   "ptype": "Observational Study, Comparative Study",
+   "ptype_list": [
+    "Observational Study",
+    "Comparative Study"
+   ],
+   "authors": "Galletto G, Violante T, Cardelli S, Calini G, Cuicchi D, Rottoli M",
+   "abstract": "Ileal pouch-anal anastomosis (IPAA) represents the gold standard in ulcerative colitis patients refractory to medical therapy. While laparoscopy is a well-established alternative to open surgery, further comparative evidence between laparoscopy and robotic approaches is required. This study aims to evaluate intraoperative performance and short-term postoperative outcomes in laparoscopic and robotic IPAA in a high-volume referral centre. This retrospective single-centre study evaluated consecutive patients undergoing minimally invasive proctectomy with IPAA and diverting loop ileostomy between 2017 and 2025 at Sant' Orsola University Hospital, Bologna. Demographic, clinical, surgical, and postoperative data were compared between the laparoscopic and robotic cohorts using a propensity score-matched analysis. This study included 169 patients: 131 in the laparoscopic group and 38 in the robotic one. Demographic characteristics were comparable. The robotic cohort presented a lower conversion rate, though this did not reach statistical significance (13.0% vs. 2.6%, p = 0.078). On the other hand, it presented a faster return to oral diet (p < 0.001). Length of stay, duration of surgery and overall postoperative complications were comparable. The laparoscopic cohort experienced more severe complications (7% Clavien-Dindo ≥ III), while the robotic cohort did not exceed a Grade II. No robotic cases required reoperation at 30 days, compared to 2.3% in the laparoscopic group. Robotic IPAA yielded results comparable to laparoscopy regarding length of stay, duration of surgery and rate of complications. However, the robotic approach showcased a trend towards decreased conversion and 30-day reoperation. It was also associated with decreased complication severity, and faster return to an oral diet, suggesting a potential to expedite and enhance postoperative recovery.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42377470",
+     "date": "2026-06-30",
+     "title_zh": "機器人輔助與腹腔鏡迴腸儲袋肛門吻合術（IPAA）短期手術結果比較：系統性回顧與統合分析",
+     "score": 6,
+     "one_liner": "在8篇世代研究、1861名接受IPAA病人中，比較機器人與腹腔鏡，機器人轉開腹率較低（OR 0.25）但手術時間多25分鐘，其他併發症無差異。",
+     "sim": 0.323
+    },
+    {
+     "pmid": "42415466",
+     "date": "2026-07-08",
+     "title_zh": "高度專科化直腸手術教學的安全性如何？一項傾向分數配對之10年世代研究",
+     "score": 6,
+     "one_liner": "在374例PSM配對之LAR/APR/IPAA病人中（每組187例），比較專家執行與受督導教學執行，發現整體病態率無差異（43% vs 46%, p=0.7）。",
+     "sim": 0.24
+    },
+    {
+     "pmid": "42645693",
+     "date": "2026-08-27",
+     "title_zh": "機器人手術與腹腔鏡手術治療橫結腸及脾曲癌之比較：系統性回顧與統合分析",
+     "score": 5,
+     "one_liner": "在167名機器人手術與296名腹腔鏡手術病人（橫結腸/脾曲癌，6篇研究）中，機器人組住院天數短1.01天、轉開腹0/149 vs 14/278，其餘併發症無差異。",
+     "sim": 0.225
+    }
+   ],
+   "title_zh": "高量轉診中心機器人與腹腔鏡 IPAA 之比較：回溯性觀察研究",
+   "abstract_zh": "迴腸儲袋肛門吻合術（IPAA）是藥物治療無效之潰瘍性結腸炎病人的黃金標準治療。腹腔鏡雖已是成熟的開腹手術替代方案，但仍需更多比較腹腔鏡與機器人手術的證據。本研究旨在評估高量轉診中心腹腔鏡與機器人 IPAA 的術中表現及短期術後結果。本單中心回溯性研究評估了2017至2025年間，在波隆那 Sant' Orsola 大學醫院連續接受微創直腸切除、IPAA 及保護性環狀迴腸造口的病人。研究使用傾向分數配對分析，比較腹腔鏡與機器人兩組的人口學、臨床、手術及術後資料。本研究納入169名病人：腹腔鏡組131名，機器人組38名。兩組人口學特徵相當。機器人組的轉開腹率較低，但未達統計顯著差異（腹腔鏡13.0% vs. 機器人2.6%，p＝0.078）。另一方面，機器人組恢復經口飲食較快（p＜0.001）。兩組住院天數、手術時間及整體術後併發症相當。腹腔鏡組出現較嚴重的併發症（7%為 Clavien-Dindo ≥III級），而機器人組的併發症均未超過II級。機器人組無病人在30天內需要再次手術，腹腔鏡組則為2.3%。機器人 IPAA 在住院天數、手術時間及併發症發生率方面，結果與腹腔鏡相當。然而，機器人手術呈現轉開腹及30天再次手術較少的趨勢。此外，機器人手術與較低的併發症嚴重度及較快恢復經口飲食相關，提示其可能加速並改善術後恢復。",
+   "evidence_level": "回溯性研究",
+   "score": 6,
+   "score_reason": "直接比較 IPAA 兩種微創術式並採傾向分數配對，值得執行儲袋手術的團隊讀全文。惟為單中心研究、機器人僅38例，且摘要未交代配對後樣本與平衡度，尚不足以改變術式選擇。",
+   "relevance": "高度相關",
+   "relevance_why": "直接涉及大腸直腸外科 IPAA 的術式選擇與短期安全性，對台灣執行儲袋手術的醫學中心具實用性。",
+   "novelty": "仍屬早期",
+   "one_liner": "169例IPAA比較機器人與腹腔鏡，轉開腹率2.6%對13.0%，未達顯著。",
+   "action": "目前不需改變做法；對擬接受IPAA的病人，勿僅憑此小型回溯研究優先選機器人。",
+   "pico": {
+    "P": "2017至2025年單一高量轉診中心接受微創直腸切除、IPAA及保護性環狀迴腸造口的169名病人；腹腔鏡131名、機器人38名。",
+    "I": "機器人 IPAA",
+    "C": "腹腔鏡 IPAA",
+    "O": "術中表現與短期術後結果，包括轉開腹、手術時間、恢復經口飲食、住院天數、整體及嚴重併發症、30天再次手術；摘要未明確區分主要與次要結果。"
+   },
+   "effects": [
+    {
+     "outcome": "轉開腹",
+     "ok": true,
+     "i_label": "機器人",
+     "c_label": "腹腔鏡",
+     "i_rate": 2.6,
+     "c_rate": 13.0,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 10.4,
+     "benefit": true,
+     "event_bad": true,
+     "nnt": 10,
+     "kind": "NNT",
+     "note": ""
+    },
+    {
+     "outcome": "Clavien-Dindo ≥III級併發症",
+     "ok": true,
+     "i_label": "機器人",
+     "c_label": "腹腔鏡",
+     "i_rate": 0.0,
+     "c_rate": 7.0,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 7.0,
+     "benefit": true,
+     "event_bad": true,
+     "nnt": 14,
+     "kind": "NNT",
+     "note": ""
+    },
+    {
+     "outcome": "30天再次手術",
+     "ok": true,
+     "i_label": "機器人",
+     "c_label": "腹腔鏡",
+     "i_rate": 0.0,
+     "c_rate": 2.3,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 2.3,
+     "benefit": true,
+     "event_bad": true,
+     "nnt": 43,
+     "kind": "NNT",
+     "note": ""
+    }
+   ],
+   "key_numbers": [
+    "轉開腹：機器人2.6% vs 腹腔鏡13.0%，p＝0.078",
+    "Clavien-Dindo ≥III級：機器人0% vs 腹腔鏡7%",
+    "30天再手術0% vs 2.3%；住院、手術時間及整體併發症相當"
+   ],
+   "cautions": [
+    "回溯性單中心比較；選案、年代及學習曲線可能混雜，不能推論因果。",
+    "機器人僅38例；轉開腹差異未顯著且未報信賴區間，零事件不代表零風險。",
+    "恢復飲食較快不等於長期儲袋功能較佳；住院與整體併發症未見差異。"
+   ],
+   "unassessable": [
+    "傾向分數配對變項、配對比例、配對後人數及共變項平衡度",
+    "摘要所列發生率屬配對前或配對後，以及各結果的確切分析分母",
+    "術者經驗、學習曲線及手術年代對結果的影響",
+    "結果評估者是否盲化",
+    "失訪率、資料缺漏及其處理方式",
+    "預先指定的主要結果、研究註冊及分析計畫",
+    "各結果的信賴區間與多重比較處理",
+    "飲食恢復的實際天數、判定標準及兩組照護流程",
+    "長期儲袋功能、儲袋失敗率及生活品質",
+    "利益衝突、研究資助及成本效益"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "相較先前納入8篇世代研究、1861名病人的 IPAA 統合分析，本篇補充單一高量中心的比較資料；轉開腹較少的方向一致，但本篇未達統計顯著。前作顯示機器人手術時間多25分鐘，本篇則未見差異，尚不足以推翻前作；本篇另提供併發症嚴重度與恢復飲食的訊號，但須查全文確認是否已被前作納入，不能直接視為獨立新增證據。",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3266,
+    "input_tokens_details": {
+     "cache_write_tokens": 3263,
+     "cached_tokens": 0
+    },
+    "output_tokens": 2074,
+    "output_tokens_details": {
+     "reasoning_tokens": 223
+    },
+    "total_tokens": 5340
+   },
+   "added_at": "2026-10-25T08:07:42+08:00"
+  },
+  {
+   "pmid": "42919382",
+   "title": "Mechanisms and functions of the TRIM protein family in digestive system cancers",
+   "journal": "J Transl Med",
+   "journal_full": "Journal of translational medicine",
+   "issn": "1479-5876",
+   "issn_linking": "1479-5876",
+   "impact_factor": 9.7,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1186/s40364-025-00773-3",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Xu Y, Jiang Z, Chen X, Yu P",
+   "abstract": "BACKGROUND: Tripartite motif-containing (TRIM) proteins are important RING-type E3 ubiquitin ligases that regulate protein fate and signal transduction through ubiquitin/ubiquitin-like modifications and non-ubiquitination mechanisms. In digestive system cancers, TRIM proteins exert highly context-dependent bidirectional effects. Here, we conceptualize TRIM proteins as signal integration nodes linking ubiquitin-mediated regulation, core signaling pathways, and adaptation to the tumor microenvironment.\nMETHODS: This structured narrative review synthesizes English-language studies indexed in PubMed between January 2010 and October 2025. It focuses on the structural basis, multilevel regulation, molecular networks, phenotypic functions, prognostic relevance, and therapeutic implications of TRIM proteins in esophageal squamous cell carcinoma, gastric cancer, colorectal cancer, hepatocellular carcinoma, and pancreatic ductal adenocarcinoma.\nCONCLUSIONS: The modular architecture of TRIM proteins enables diverse substrate recognition and regulatory outputs. Cross-cancer analysis identifies pathway-convergent, phenotype-convergent, and pathway-phenotype bridging TRIM members that translate dysregulation of core pathways, including Wnt/β-catenin, PI3K/AKT, and p53, into proliferative, cell death-related, metastatic, metabolic, and immune phenotypes. Their functional direction is jointly shaped by tumor type, molecular subtype, substrate status, microenvironmental cues, and treatment context. Selected TRIM members show potential as prognostic biomarkers, risk-stratification indicators, and predictors of therapeutic response, whereas most TRIM-targeted strategies remain preclinical. Future studies should clarify ubiquitin-chain-specific regulatory logic, subtype-specific functions, and multilayered networks, while rigorously evaluating the specificity, safety, and clinical applicability of TRIM-directed combination therapies.",
+   "watched": [],
+   "related": [],
+   "title_zh": "TRIM蛋白家族在消化系統癌症中的機制與功能",
+   "abstract_zh": "背景：含三重基序（TRIM）蛋白是重要的RING型E3泛素連接酶，透過泛素／類泛素修飾與非泛素化機制，調控蛋白質命運及訊息傳遞。在消化系統癌症中，TRIM蛋白具有高度依賴情境的雙向作用。本文將TRIM蛋白概念化為訊號整合節點，連結泛素介導的調控、核心訊息傳遞路徑，以及對腫瘤微環境的適應。\n方法：本篇結構式敘述性綜述整合了2010年1月至2025年10月間收錄於PubMed的英文研究，聚焦於TRIM蛋白在食道鱗狀細胞癌、胃癌、大腸直腸癌、肝細胞癌及胰臟導管腺癌中的結構基礎、多層級調控、分子網絡、表型功能、預後相關性與治療意涵。\n結論：TRIM蛋白的模組化結構使其能辨識多樣的受質，並產生不同的調控結果。跨癌種分析辨識出在訊息路徑上匯聚、在表型上匯聚，以及橋接訊息路徑與表型的TRIM成員；這些成員將包括Wnt/β-catenin、PI3K/AKT及p53在內的核心路徑失調，轉化為增殖、細胞死亡相關、轉移、代謝及免疫表型。其功能方向由腫瘤類型、分子亞型、受質狀態、微環境訊號及治療情境共同決定。部分TRIM成員具有作為預後生物標記、風險分層指標及治療反應預測因子的潛力，但多數TRIM標靶策略仍處於臨床前階段。未來研究應釐清泛素鏈特異性的調控邏輯、亞型特異性功能及多層次網絡，同時嚴謹評估TRIM導向合併療法的專一性、安全性及臨床適用性。",
+   "evidence_level": "綜述",
+   "score": 3,
+   "score_reason": "屬結構式敘述性綜述，摘要未提供研究品質評估或臨床效應量，無法據此判定治療效益。對TRIM轉譯研究有參考價值，但對台灣大腸直腸外科日常決策的直接實用性低。",
+   "relevance": "低度相關",
+   "relevance_why": "雖涵蓋大腸直腸癌，但主軸為分子機制與臨床前標靶策略，未直接評估外科介入或病人結局。",
+   "novelty": "仍屬早期",
+   "one_liner": "綜整消化系統癌症TRIM研究（人數未報），提出情境依賴的雙向作用，未量化臨床效益。",
+   "action": "目前不需改變做法；勿據此替大腸直腸癌病人加做TRIM檢測或選擇標靶治療。",
+   "pico": {
+    "P": "消化系統癌症相關英文研究，涵蓋食道鱗狀細胞癌、胃癌、大腸直腸癌、肝細胞癌及胰臟導管腺癌；研究篇數與病人總數未提供。",
+    "I": "TRIM蛋白的結構、調控、分子網絡、表型功能與潛在治療標靶策略。",
+    "C": "無統一對照組；各原始研究的比較對象未於摘要交代。",
+    "O": "未指定主要或次要outcome；討論腫瘤相關表型、預後關聯、風險分層及治療反應預測潛力。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "文獻範圍：2010年1月至2025年10月",
+    "涵蓋5類消化系統癌症，包含大腸直腸癌",
+    "未提供病人數、絕對療效、安全性或陰性結果數據"
+   ],
+   "cautions": [
+    "機制與預後關聯不等於改善存活，多數標靶策略仍屬臨床前。",
+    "TRIM作用依癌種與情境而異，不宜將跨癌種結果直接套用大腸直腸癌。",
+    "摘要未報納入篇數、效應量或信賴區間，無法量化臨床效益。"
+   ],
+   "unassessable": [
+    "完整檢索式、納入排除標準與文獻篩選流程",
+    "納入研究的設計分布、樣本數及大腸直腸癌證據占比",
+    "原始研究的偏誤風險與證據品質評估",
+    "預後與治療反應標記是否經獨立世代驗證及混雜校正",
+    "人體治療研究的療效、安全性及長期追蹤資料",
+    "綜述計畫註冊、資金來源及利益衝突"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 2861,
+    "input_tokens_details": {
+     "cache_write_tokens": 2858,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1551,
+    "output_tokens_details": {
+     "reasoning_tokens": 184
+    },
+    "total_tokens": 4412
+   },
+   "added_at": "2026-10-25T08:07:42+08:00"
+  },
+  {
+   "pmid": "42914368",
+   "title": "How food structure and processing govern metabolizable energy: a critical review of the food-matrix determinants of energy availability and the limits of the Atwater accounting",
+   "journal": "Food Res Int",
+   "journal_full": "Food research international (Ottawa, Ont.)",
+   "issn": "1873-7145",
+   "issn_linking": "0963-9969",
+   "impact_factor": 8.8,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Dec",
+   "doi": "10.1016/j.foodres.2026.120693",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Louie J",
+   "abstract": "Food energy is usually reported using Atwater factors: composition-based coefficients that treat metabolizable energy as a function of macronutrient mass rather than food structure. Yet a growing food-science literature shows that metabolizable energy can diverge materially from Atwater predictions according to the integrity of the food matrix and the processing applied to it. This review brings energy-accounting and food-structure science into direct contact. It defines where the Atwater system remains useful and where its structural blind spot becomes consequential; clarifies the frequent conflation of digestibility, bioaccessibility, bioavailability and metabolizable energy, and distinguishes physical resistance from chemical inhibition of digestive enzymes while treating the two as coupled rather than independent. It then maps major processing operations to their structural and energetic consequences, and compares methods used to quantify metabolizable energy and nutrient release, including human balance studies, ileostomy and intubation studies, standardised in vitro digestion, dynamic models and in silico approaches. Tree nuts provide the strongest empirical case. Measured metabolizable energy ranges from about 5% below the Atwater value for pistachios to more than 30% below for whole almonds, a divergence that is explained by matrix integrity and lipid encapsulation. Four energetic consequences of matrix disruption are considered: net metabolizable energy, rate of energy release, thermic effect of feeding and colonic salvage. The review concludes that energy values based on composition alone are insufficient for foods whose structure strongly constrains digestion, and that food-composition data, labelling, feeding research and reformulation would benefit from structure-aware measures of delivered energy.",
+   "watched": [],
+   "related": [],
+   "title_zh": "食物結構與加工如何決定可代謝能：食物基質對能量可利用性的決定因素與 Atwater 能量計算法限制之批判性綜述",
+   "abstract_zh": "食物能量通常使用 Atwater 係數表示：這些以組成為基礎的係數，將可代謝能視為巨量營養素質量的函數，而非食物結構的函數。然而，日益增加的食品科學文獻顯示，依食物基質的完整性及其所接受的加工方式而定，可代謝能可能與 Atwater 預測值存在實質差異。本綜述將能量計算與食物結構科學直接連結。本文界定 Atwater 系統在哪些情境下仍然有用，以及其忽略結構的盲點何時會造成重要影響；釐清經常被混為一談的消化率、生物可及性、生物可利用率與可代謝能，並區分物理性阻抗與對消化酵素的化學性抑制，同時將兩者視為相互耦合，而非彼此獨立的作用。接著，本文梳理主要加工操作及其對結構與能量的影響，並比較用於量化可代謝能及營養素釋出的方法，包括人體平衡研究、迴腸造口與腸道插管研究、標準化體外消化、動態模型及電腦模擬方法。樹堅果提供了最有力的實證案例。實測可代謝能與 Atwater 值的差距，從開心果約低 5%，到完整杏仁低逾 30%；此差異可由基質完整性與脂質包埋現象解釋。本文探討基質破壞的四項能量後果：淨可代謝能、能量釋出速率、食物熱效應，以及結腸能量回收。本綜述結論指出，對於結構會強烈限制消化的食物，僅以組成為基礎的能量值並不足夠；食物組成資料、食品標示、餵食研究及配方調整，都可受益於將結構納入考量的實際供應能量測量。",
+   "evidence_level": "綜述",
+   "score": 4,
+   "score_reason": "具機轉整合與營養研究方法學價值，但摘要未交代文獻搜尋、品質評估及證據整合方法，無法確認結論的完整性。對台灣大腸直腸外科屬間接知識，未提供可直接調整圍手術期營養處方的證據。",
+   "relevance": "低度相關",
+   "relevance_why": "主題為食物結構與能量估算，非大腸直腸外科介入，亦未報告手術病人的臨床結局。",
+   "novelty": "再確認已知",
+   "one_liner": "在樣本數未載的食物研究中，比較實測與Atwater預測能量，完整杏仁實測值可低逾30%。",
+   "action": "目前不需改變做法；勿據此調整大腸直腸手術病人的熱量處方，因缺乏直接臨床結局證據。",
+   "pico": {
+    "P": "探討食物基質、加工與能量可利用性的研究；樹堅果為主要實證案例，研究篇數及受試者總數未載。",
+    "I": "食物基質完整性與加工造成的結構改變，以及納入結構因素的可代謝能測量。",
+    "C": "以巨量營養素組成為基礎的 Atwater 預測值；亦討論不同加工操作與測量方法，非單一對照試驗。",
+    "O": "未指定單一主要結局；探討可代謝能及其與 Atwater 預測值的差異、營養素釋出、能量釋出速率、食物熱效應與結腸能量回收。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "開心果實測可代謝能較Atwater預測值約低5%。",
+    "完整杏仁實測可代謝能較Atwater預測值低逾30%。",
+    "摘要未提供絕對能量值、樣本數或信賴區間。"
+   ],
+   "cautions": [
+    "可代謝能是營養生理指標，不能直接推論術後恢復或併發症。",
+    "最強實證來自樹堅果，不宜直接外推至術後飲食或營養配方。",
+    "僅報相對能量差，未提供絕對值、樣本數與信賴區間。"
+   ],
+   "unassessable": [
+    "文獻搜尋策略、資料庫與搜尋期間",
+    "研究納入排除標準及是否系統性選文",
+    "納入研究的品質評估與偏差風險",
+    "各數值所依據的研究設計、樣本數及估計精確度",
+    "納入人體試驗的隨機分派、分派隱蔽、盲法、ITT、失訪率與試驗註冊",
+    "不同食物、加工方式與測量方法間的異質性",
+    "研究經費來源與利益衝突",
+    "對大腸直腸手術病人的適用性及成本效益"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 2831,
+    "input_tokens_details": {
+     "cache_write_tokens": 2828,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1626,
+    "output_tokens_details": {
+     "reasoning_tokens": 234
+    },
+    "total_tokens": 4457
+   },
+   "added_at": "2026-10-25T08:07:42+08:00"
+  },
+  {
+   "pmid": "42919826",
+   "title": "Apoptotic cell overload drives multinucleated giant cell formation after neoadjuvant chemotherapy in colorectal cancer: molecular mechanisms and tumor-suppressive effects",
+   "journal": "Cell Death Dis",
+   "journal_full": "Cell death & disease",
+   "issn": "2041-4889",
+   "issn_linking": "",
+   "impact_factor": 12.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1158/1538-7445.AM2021-LB071",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Xue J, Wang Z, Zhang X, Xu S, Wu S, Sun X",
+   "abstract": "Colorectal cancer is a common digestive malignancy. Neoadjuvant chemotherapy (NAC) can downstage tumors and increase R0 resection rates. In colorectal cancer specimens with favorable pathological regression after NAC, we observed CD68+ multinucleated giant cells (MGCs) preferentially localized in apoptotic cell-rich areas, whereas they were rarely detected in non-NAC specimens. However, the mechanisms driving MGC formation and their functional significance remain unclear. We established an in vitro apoptotic cell-macrophage co-culture system to assess how apoptotic cell burden and efferocytosis regulate macrophage fusion. The TREM2/TYROBP signaling axis was examined using molecular and pharmacological approaches. RNA sequencing, pathway enrichment, lysosome- and metabolism-related transcriptional analyses, and secretory profiling were performed to characterize efferocytosis-induced MGCs. Their effects on colorectal cancer cells and the tumor microenvironment were further evaluated in vitro and in tumor-bearing mouse models. Excessive apoptotic cell burden markedly promoted macrophage fusion and upregulated the fusion-related molecules DCSTAMP/Dcstamp and CDH1/Cdh1. Apoptotic cell overload shifted macrophages from a homeostatic/efferocytic state toward a fusion-prone MGC phenotype. TYROBP/Tyrobp knockdown or loss inhibited macrophage fusion. Mechanistically, apoptotic cell overload activated the TREM2/TYROBP-MAPK/c-FOS-DCSTAMP axis, thereby enhancing DCSTAMP transcription and macrophage fusion. Efferocytosis-induced MGCs showed reduced lysosome-related transcriptional programs and an altered secretory profile, including increased TNF-α expression. Functionally, MGCs inhibited colorectal cancer cell growth in vitro. In tumor-bearing mice, MGCs reduced CD206⁺ macrophage and regulatory T-cell abundance while increasing CD8+ T-cell infiltration, thereby contributing to tumor growth suppression. Together, these findings identify efferocytosis-induced MGCs as a distinct macrophage state with altered lysosomal and secretory programs, anti-tumor activity, and the potential to remodel the tumor microenvironment.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42830367",
+     "date": "2026-10-06",
+     "title_zh": "大腸直腸癌肝轉移中 SPP1+ 巨噬細胞之特性分析及其與新輔助化療抗藥性之相關性",
+     "score": 3,
+     "one_liner": "在 CRLM 病人標本中，鑑定 SPP1+ 巨噬細胞經 SPP1-CD44 軸抑制 CD8+ T 細胞，與 NAC 抗藥性相關，動物模型顯示 SPP1 阻斷加 anti-PD-1 可致腫瘤消退。",
+     "sim": 0.156
+    }
+   ],
+   "title_zh": "凋亡細胞過載驅動大腸直腸癌新輔助化療後多核巨細胞形成：分子機制與腫瘤抑制作用",
+   "abstract_zh": "大腸直腸癌是一種常見的消化道惡性腫瘤。新輔助化療（NAC）可使腫瘤降期並提高R0切除率。在NAC後呈現良好病理退縮的大腸直腸癌檢體中，我們觀察到CD68+多核巨細胞（MGCs）優先分布於富含凋亡細胞的區域，而在未接受NAC的檢體中則很少偵測到。然而，驅動MGC形成的機制及其功能意義仍不清楚。我們建立了體外凋亡細胞與巨噬細胞共培養系統，以評估凋亡細胞負荷及凋亡細胞清除作用（efferocytosis）如何調控巨噬細胞融合。研究使用分子與藥理學方法檢視TREM2/TYROBP訊號軸，並進行RNA定序、路徑富集分析、溶酶體與代謝相關轉錄分析，以及分泌物特徵分析，以描繪凋亡細胞清除作用所誘導之MGCs的特性。研究進一步在體外及荷瘤小鼠模型中，評估其對大腸直腸癌細胞與腫瘤微環境的影響。過量的凋亡細胞負荷明顯促進巨噬細胞融合，並上調融合相關分子DCSTAMP/Dcstamp與CDH1/Cdh1。凋亡細胞過載使巨噬細胞由維持恆定／清除凋亡細胞的狀態，轉向傾向融合的MGC表型。TYROBP/Tyrobp基因敲低或缺失會抑制巨噬細胞融合。在機制上，凋亡細胞過載活化TREM2/TYROBP-MAPK/c-FOS-DCSTAMP軸，進而增強DCSTAMP轉錄與巨噬細胞融合。由凋亡細胞清除作用所誘導的MGCs呈現溶酶體相關轉錄程式減弱，以及分泌物特徵改變，包括TNF-α表現增加。在功能上，MGCs可在體外抑制大腸直腸癌細胞生長。在荷瘤小鼠中，MGCs減少CD206+巨噬細胞與調節型T細胞的數量，同時增加CD8+ T細胞浸潤，從而有助於抑制腫瘤生長。整體而言，這些發現指出，由凋亡細胞清除作用所誘導的MGCs是一種獨特的巨噬細胞狀態，具有改變的溶酶體與分泌程式、抗腫瘤活性，以及重塑腫瘤微環境的潛力。",
+   "evidence_level": "其他",
+   "score": 3,
+   "score_reason": "結合人體檢體觀察、體外機制與小鼠實驗，提供具生物合理性的研究線索；但摘要未報樣本數或量化效應，且無病人臨床效益證據，對目前外科決策的直接價值有限。",
+   "relevance": "低度相關",
+   "relevance_why": "雖涉及大腸直腸癌NAC後的腫瘤微環境，但主要是基礎機制研究，尚無可直接採用的外科介入或臨床檢測策略。",
+   "novelty": "仍屬早期",
+   "one_liner": "在NAC後病理退縮佳的癌檢體（人數未報）中，較未NAC常見MGCs，未報比例。",
+   "action": "目前不需改變做法；對NAC後大腸直腸癌病人，勿依MGCs調整手術或全身治療，尚無臨床效益驗證。",
+   "pico": {
+    "P": "NAC後病理退縮良好的大腸直腸癌人體檢體，以及體外凋亡細胞－巨噬細胞共培養系統與荷瘤小鼠；各部分樣本數均未報。",
+    "I": "凋亡細胞過載與凋亡細胞清除作用誘導的MGCs；另以分子及藥理學方法研究TREM2/TYROBP訊號軸。",
+    "C": "人體觀察比較未接受NAC的檢體；機制實驗包含TYROBP/Tyrobp敲低或缺失，其他實驗對照條件摘要未詳述。",
+    "O": "摘要未指定主要與次要結果；評估巨噬細胞融合、融合相關分子與訊號軸、轉錄及分泌特徵、癌細胞生長、小鼠腫瘤生長與免疫細胞組成。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "人體檢體、細胞及小鼠實驗：樣本數均未報。",
+    "MGCs形成與腫瘤生長抑制：未報絕對值或效應量。",
+    "R0切除、復發及存活：未提供研究結果數據。"
+   ],
+   "cautions": [
+    "人體觀察聚焦病理退縮佳者，不能判定MGCs是療效原因或結果。",
+    "體外與小鼠抑瘤不等於改善病人存活，不能據此調整NAC。",
+    "摘要未報樣本數、效應量、p值或信賴區間，無法判斷精確度。"
+   ],
+   "unassessable": [
+    "人體檢體的來源、納入標準、樣本數及NAC療程",
+    "病理退縮分級、MGCs辨識與定量方法",
+    "各實驗的完整對照條件、生物重複數與樣本數估算",
+    "動物實驗的隨機分組、分派隱蔽及盲法",
+    "樣本排除、缺失資料、動物退出或死亡情形",
+    "統計方法、多重比較處理與效應估計精確度",
+    "研究預先登錄、利益衝突與資金來源"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "前作探討大腸直腸癌肝轉移中SPP1+巨噬細胞與NAC抗藥性的關係；本篇則補充NAC後另一種巨噬細胞狀態，即凋亡細胞清除作用誘導的MGCs及其抑瘤機制。兩篇提示不同巨噬細胞狀態可能具有不同功能，並非直接矛盾；目前不能推定兩種狀態的轉換關係或比較其治療價值。",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3096,
+    "input_tokens_details": {
+     "cache_write_tokens": 3093,
+     "cached_tokens": 0
+    },
+    "output_tokens": 2219,
+    "output_tokens_details": {
+     "reasoning_tokens": 482
+    },
+    "total_tokens": 5315
+   },
+   "added_at": "2026-10-25T08:07:42+08:00"
+  },
+  {
+   "pmid": "42918774",
+   "title": "LncRNA HITT stabilizes SIRT6 to restrain H3/H4 acetylation and suppress colorectal cancer growth",
+   "journal": "Cell Death Dis",
+   "journal_full": "Cell death & disease",
+   "issn": "2041-4889",
+   "issn_linking": "",
+   "impact_factor": 12.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1038/sj.leu.2404464",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Li B, Xiang Z, Liu H, Cheng Q, Wang H, Chen K",
+   "abstract": "Histone post-translational modifications are intimately linked to human diseases, including cancers. While diverse regulatory mechanisms have been described, how long non-coding RNAs (lncRNAs) control histone acetylation remains incompletely understood. Here, integrative bioinformatics analysis implicates the lncRNA HITT (HIF-1α inhibitor at the translation level) in histone modification-related pathways. Mechanistically, HITT selectively suppresses H3/H4 acetylation in colorectal cancer cells. Using siRNA-based loss-of-function screening and pharmacological inhibition, we identify the sirtuin deacetylase SIRT6 as an essential mediator of this effect. HITT directly binds SIRT6 and increases SIRT6 protein abundance by attenuating its association with the E3 ubiquitin ligase mouse double minute 2 homolog (MDM2), thereby reducing MDM2-dependent ubiquitination and proteasomal turnover of SIRT6. Conversely, the SIRT6 agonist MDL-800 upregulates the transcription factor E2F1, thereby promoting E2F1-dependent transcription of HITT. Functionally, increased HITT expression cooperates with MDL-800 to inhibit colorectal cancer cell proliferation in vitro and suppress tumor growth in vivo. Collectively, these findings define a feed-forward HITT-SIRT6 axis that stabilizes SIRT6 and constrains histone H3/H4 acetylation homeostasis, highlighting a potential combination strategy for colorectal cancer therapy.",
+   "watched": [],
+   "related": [],
+   "title_zh": "LncRNA HITT 藉由穩定 SIRT6 限制 H3/H4 乙醯化並抑制大腸直腸癌生長",
+   "abstract_zh": "組蛋白轉譯後修飾與人類疾病（包括癌症）密切相關。儘管已有多種調控機制被描述，長鏈非編碼 RNA（lncRNA）如何控制組蛋白乙醯化，仍未完全釐清。本研究透過整合性生物資訊分析，指出 lncRNA HITT（轉譯層級的 HIF-1α 抑制因子）涉及組蛋白修飾相關路徑。在機制上，HITT 會選擇性抑制大腸直腸癌細胞中的 H3/H4 乙醯化。透過以 siRNA 為基礎的功能喪失篩選及藥理抑制，我們確認 sirtuin 去乙醯酶 SIRT6 是此作用不可或缺的媒介。HITT 直接結合 SIRT6，並藉由減弱 SIRT6 與 E3 泛素連接酶小鼠雙微體 2 同源蛋白（MDM2）的結合，增加 SIRT6 蛋白量，進而減少 MDM2 依賴性的 SIRT6 泛素化及蛋白酶體降解。反過來，SIRT6 致效劑 MDL-800 會上調轉錄因子 E2F1，從而促進 E2F1 依賴性的 HITT 轉錄。在功能上，提高 HITT 表現量可與 MDL-800 共同作用，抑制體外大腸直腸癌細胞增殖，並抑制體內腫瘤生長。整體而言，這些發現界定了一條前饋式 HITT–SIRT6 軸，可穩定 SIRT6 並限制組蛋白 H3/H4 乙醯化的恆定調控，凸顯其作為大腸直腸癌潛在合併治療策略的可能性。",
+   "evidence_level": "其他",
+   "score": 3,
+   "score_reason": "結合生物資訊、功能喪失及藥理實驗探討機制，但摘要未提供樣本數、效應量或不確定性。屬前臨床研究，對台灣大腸直腸外科日常決策的直接實用性低。",
+   "relevance": "低度相關",
+   "relevance_why": "研究聚焦大腸直腸癌的分子機制與前臨床藥物策略，未評估病人療效或外科處置。",
+   "novelty": "仍屬早期",
+   "one_liner": "在大腸直腸癌細胞及體內模型（樣本數未報）中，HITT搭配MDL-800抑制生長；對照與效應量未報。",
+   "action": "目前不需改變做法；勿據此調整大腸直腸癌病人的治療，僅分子轉譯研究者可優先讀全文。",
+   "pico": {
+    "P": "大腸直腸癌細胞及體內腫瘤模型；細胞株、模型種類與樣本數未交代。",
+    "I": "提高 HITT 表現量、SIRT6 致效劑 MDL-800，以及相關 siRNA 功能喪失與藥理抑制實驗。",
+    "C": "摘要未交代各實驗的具體對照條件或單藥比較結果。",
+    "O": "H3/H4 乙醯化、SIRT6 蛋白量及泛素化／降解、E2F1 依賴性 HITT 轉錄、細胞增殖與體內腫瘤生長；未區分主要與次要終點。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "樣本數：細胞實驗與體內模型均未提供。",
+    "細胞增殖抑制：未提供絕對值、效應量或信賴區間。",
+    "體內腫瘤生長：未提供絕對值、p值或陰性結果。"
+   ],
+   "cautions": [
+    "僅細胞與體內腫瘤生長結果，不能推論病人存活或安全性。",
+    "未報樣本數、效應量及信賴區間，無法判斷效果大小與精確度。",
+    "合併效果未量化，不能確認優於單藥或具有協同作用。"
+   ],
+   "unassessable": [
+    "細胞株、體內模型種類、樣本數及生物重複次數",
+    "各實驗對照組、處理劑量及觀察時間",
+    "動物實驗隨機分派、分派隱蔽及盲法",
+    "樣本排除、動物耗損及缺失資料處理",
+    "統計方法、多重比較校正與預先指定終點",
+    "MDL-800 的毒性、藥物動力學及臨床可達暴露量",
+    "合併治療相對單獨處理的效益與協同作用檢定",
+    "研究預先登錄、利益衝突與資金來源"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 2807,
+    "input_tokens_details": {
+     "cache_write_tokens": 2804,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1476,
+    "output_tokens_details": {
+     "reasoning_tokens": 135
+    },
+    "total_tokens": 4283
+   },
+   "added_at": "2026-10-25T08:07:42+08:00"
+  },
+  {
+   "pmid": "42909466",
+   "title": "Dual therapy with tofacitinib and steroids for acute severe ulcerative colitis: a randomized double-blind placebo-controlled trial",
+   "journal": "J Crohns Colitis",
+   "journal_full": "Journal of Crohn's & colitis",
+   "issn": "1876-4479",
+   "issn_linking": "1873-9946",
+   "impact_factor": 10.3,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1093/ecco-jcc/jjag149",
+   "ptype": "Randomized Controlled Trial",
+   "ptype_list": [
+    "Randomized Controlled Trial"
+   ],
+   "authors": "Arora U, Verma M, Madan D, Singh M, Kandasamy D, Narang H",
+   "abstract": "BACKGROUND: One-third of patients with acute severe ulcerative colitis (ASUC) fail intravenous corticosteroids. We evaluated whether adding tofacitinib to corticosteroids reduces treatment failure in ASUC.\nMETHODS: In this single-center, double-blind, placebo-controlled trial, adults with ASUC were randomized 1:1 to tofacitinib (10 mg three times daily for 3 days, then twice daily) or placebo for 5 days alongside corticosteroids. Primary outcome was treatment failure at day 6 (<3-point Lichtiger reduction or total score ≥10, or colectomy). Secondary outcomes were relapse (≥3-point rise with total ≥10), rescue therapy, and colectomy at 90 days. Modified intention-to-treat analysis was performed. (CTRI/2022/11/047186).\nRESULTS: Of 62 randomized patients, 58 were analyzed: 33 in the tofacitinib arm and 25 in the placebo arm. The trial was terminated early because of slow recruitment and did not reach the planned sample size of 98. Day 6 treatment failure was numerically lower with tofacitinib in unadjusted analysis (24.2% vs 36.0%; RR 0.67, 95% CI 0.30-1.51; P = .33) and significantly lower after adjustment for baseline covariate imbalance (adjusted RR 0.47, 95% CI 0.24-0.93; P = .03). At 90 days, colectomy rates were similar (12.1% vs 12.0%; P = 1.0), but more tofacitinib-treated patients remained on assigned therapy (84.4% vs 54.2%) and rescue therapy was lower (HR 0.27, 95% CI 0.09-0.78; P = .01). Serious adverse events occurred in one versus three patients. No deaths occurred with tofacitinib versus two deaths with placebo.\nCONCLUSION: Dual therapy with tofacitinib and steroids in ASUC did not significantly reduce treatment failure at day 6, unless adjustment for baseline imbalance in serum albumin was taken into account. It reduced the need for rescue therapy over 90 days without affecting colectomy risk. Larger clinical trials are required to confirm these findings.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42880720",
+     "date": "2026-10-17",
+     "title_zh": "Tofacitinib 每日20與30 mg治療急性重症潰瘍性結腸炎：雙盲隨機對照試驗",
+     "score": 7,
+     "one_liner": "72名ASUC病人併IVCS，比較20與30mg，第7天反應率91.7%對86.1%，無顯著差異。",
+     "sim": 0.431
+    },
+    {
+     "pmid": "42768925",
+     "date": "2026-09-23",
+     "title_zh": "Tacrolimus 與 Infliximab 作為靜脈類固醇難治型急性重症潰瘍性結腸炎(ASUC)之救援治療：多中心世代研究比較其療效與安全性",
+     "score": 6,
+     "one_liner": "在300名IVCS難治型ASUC病人中，比較tacrolimus與infliximab，第14天緩解率無差異(41.6% vs 33.7%, RR 0.87)，但tacrolimus早期反應較慢。",
+     "sim": 0.313
+    },
+    {
+     "pmid": "42768925",
+     "date": "2026-09-24",
+     "title_zh": "Tacrolimus 與 Infliximab 作為靜脈類固醇難治型急性重度潰瘍性大腸炎（ASUC）之搶救治療：多中心世代研究比較其療效與安全性",
+     "score": 6,
+     "one_liner": "在300名IVCS難治型ASUC病人中，比較infliximab與tacrolimus，第14天緩解率相近（41.6% vs 33.7%），但tacrolimus早期反應較慢、大腸切除率有升高趨勢（13.3% vs 20.3%）。",
+     "sim": 0.313
+    }
+   ],
+   "title_zh": "Tofacitinib 與類固醇雙重療法治療急性重症潰瘍性大腸炎：隨機、雙盲、安慰劑對照試驗",
+   "abstract_zh": "背景：三分之一的急性重症潰瘍性大腸炎（ASUC）病人對靜脈注射類固醇治療失敗。我們評估在類固醇治療中加入 tofacitinib，是否能降低 ASUC 的治療失敗。\n方法：這項單中心、雙盲、安慰劑對照試驗，將成人 ASUC 病人以 1:1 隨機分派接受 tofacitinib（前 3 天每次 10 mg、每日三次，之後改為每日兩次）或安慰劑，共治療 5 天，並同時接受類固醇。主要結果為第 6 天治療失敗（Lichtiger 分數下降不足 3 分、總分 ≥10，或接受大腸切除）。次要結果為 90 天內復發（分數上升 ≥3 分且總分 ≥10）、救援治療及大腸切除。採用修正意向治療分析。（試驗註冊編號：CTRI/2022/11/047186）。\n結果：62 名隨機分派的病人中，58 名納入分析：tofacitinib 組 33 名，安慰劑組 25 名。試驗因收案緩慢而提前終止，未達原訂的 98 人樣本數。未調整分析中，tofacitinib 組第 6 天治療失敗率在數值上較低（24.2% vs 36.0%；RR 0.67，95% CI 0.30–1.51；P＝0.33）；校正基線共變項不平衡後，則顯著較低（調整後 RR 0.47，95% CI 0.24–0.93；P＝0.03）。90 天時，兩組大腸切除率相近（12.1% vs 12.0%；P＝1.0），但 tofacitinib 組有較多病人持續接受原分派治療（84.4% vs 54.2%），且救援治療需求較低（HR 0.27，95% CI 0.09–0.78；P＝0.01）。嚴重不良事件分別發生於 1 名與 3 名病人。Tofacitinib 組無人死亡，安慰劑組則有 2 人死亡。\n結論：在 ASUC 中，tofacitinib 與類固醇雙重療法未能顯著降低第 6 天治療失敗，除非將基線血清白蛋白不平衡納入校正。此療法降低了 90 天內救援治療的需求，但未影響大腸切除風險。仍需更大型臨床試驗確認這些發現。",
+   "evidence_level": "RCT",
+   "score": 6,
+   "score_reason": "雙盲安慰劑對照設計值得閱讀，但提前終止、樣本不足，且主要終點僅校正後達顯著。與 ASUC 外科決策相關，但不足以支持常規加藥或延後手術。",
+   "relevance": "高度相關",
+   "relevance_why": "ASUC 的早期治療失敗、救援治療與大腸切除，直接影響大腸直腸外科會診及手術時機。",
+   "novelty": "仍屬早期",
+   "one_liner": "58名ASUC病人加用tofacitinib或安慰劑，第6天失敗率24.2%比36.0%，未顯著。",
+   "action": "目前不需改變做法；ASUC病人勿因加用tofacitinib而延後救援或手術評估，切除獲益未證實。",
+   "pico": {
+    "P": "成人 ASUC 病人；62 人隨機分派，58 人納入分析（tofacitinib 33 人、安慰劑 25 人）。",
+    "I": "類固醇合併 tofacitinib，前 3 天每次 10 mg、每日三次，其後每日兩次，試驗治療共 5 天。",
+    "C": "類固醇合併安慰劑，共 5 天。",
+    "O": "主要：第 6 天治療失敗（Lichtiger 分數下降不足 3 分、總分 ≥10，或大腸切除）；次要：90 天內復發、救援治療及大腸切除。另報告持續原分派治療、嚴重不良事件與死亡。"
+   },
+   "effects": [
+    {
+     "outcome": "第6天治療失敗（未調整）",
+     "ok": true,
+     "i_label": "Tofacitinib＋類固醇",
+     "c_label": "安慰劑＋類固醇",
+     "i_rate": 24.2,
+     "c_rate": 36.0,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 11.8,
+     "benefit": true,
+     "event_bad": true,
+     "nnt": 8,
+     "kind": "NNT",
+     "note": ""
+    },
+    {
+     "outcome": "90天大腸切除",
+     "ok": true,
+     "i_label": "Tofacitinib＋類固醇",
+     "c_label": "安慰劑＋類固醇",
+     "i_rate": 12.1,
+     "c_rate": 12.0,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 0.1,
+     "benefit": false,
+     "event_bad": true,
+     "nnt": 1000,
+     "kind": "NNH",
+     "note": ""
+    }
+   ],
+   "key_numbers": [
+    "第6天失敗24.2% vs 36.0%，P＝0.33",
+    "校正後RR 0.47（95% CI 0.24–0.93）",
+    "90天切除12.1% vs 12.0%，P＝1.0"
+   ],
+   "cautions": [
+    "主要終點含症狀分數，不能等同避免大腸切除。",
+    "主要終點僅校正後顯著；白蛋白校正是否預設不明。",
+    "提前終止僅分析58人；未調整RR區間0.30–1.51，估計不精確。"
+   ],
+   "unassessable": [
+    "隨機序列產生方式與分派隱蔽。",
+    "雙盲的具體執行方式、涵蓋人員及是否成功。",
+    "修正意向治療的定義、排除4人的原因與組別，以及完整ITT分析結果。",
+    "90天失訪率、缺失資料處理及各結果的實際分析分母。",
+    "白蛋白校正、共變項選擇與統計分析是否預先指定。",
+    "試驗註冊及研究計畫與實際執行、報告的一致性。",
+    "類固醇方案、救援治療及手術啟動標準。",
+    "特定感染與血栓等不良事件細項及長期安全性。",
+    "資金來源、利益衝突與成本效益。"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "先前72人雙盲RCT比較 tofacitinib 每日20與30 mg，回答的是劑量差異；本篇以安慰劑對照，補上在類固醇基礎上加藥是否有效的問題，兩者並不矛盾。先前 tacrolimus 與 infliximab 世代研究針對靜脈類固醇難治者的救援選擇，本篇則評估合併治療，不能據此認定 tofacitinib 優於既有救援藥物。",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3407,
+    "input_tokens_details": {
+     "cache_write_tokens": 3404,
+     "cached_tokens": 0
+    },
+    "output_tokens": 2389,
+    "output_tokens_details": {
+     "reasoning_tokens": 456
+    },
+    "total_tokens": 5796
+   },
+   "added_at": "2026-10-24T08:23:59+08:00"
+  },
+  {
+   "pmid": "42909655",
+   "title": "Protective effect of N-acetylcysteine on oxaliplatin-induced peripheral neuropathy in colorectal cancer: a randomized controlled trial",
+   "journal": "Cancer Chemother Pharmacol",
+   "journal_full": "Cancer chemotherapy and pharmacology",
+   "issn": "1432-0843",
+   "issn_linking": "0344-5704",
+   "impact_factor": 2.5,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1177/1078155219900788",
+   "ptype": "Randomized Controlled Trial",
+   "ptype_list": [
+    "Randomized Controlled Trial"
+   ],
+   "authors": "Hegazy Z, Tawfik S, Elmashad N",
+   "abstract": "PURPOSE: Oxaliplatin-induced peripheral neuropathy (OIPN) is a dose-limiting adverse effect of FOLFOX chemotherapy in colorectal cancer (CRC) patients. We aimed to evaluate the protective effect of N-acetylcysteine (NAC) against OIPN. Additionally, we investigated its mechanistic effects on serum biomarkers including total antioxidant capacity (TAC), interleukin-6 (IL-6), and neurotensin.\nMETHODS: Forty-six patients with stage III or high-risk stage II CRC receiving adjuvant modified FOLFOX-6 chemotherapy were randomized in a 1:1 ratio to receive either oral NAC 1200 mg (effervescent tablets or granules) or placebo one hour before each oxaliplatin infusion for four cycles. Serum levels of TAC, IL-6, and neurotensin were measured before and after treatment. Neuropathy was assessed using the FACT/GOG-NTX-12 and NCI-CTCAE scales, and pain was estimated by using the Brief Pain Inventory-Short Form.\nRESULTS: Neurotensin was significantly decreased in the NAC group compared to controls after treatment (P < 0.001), and was significantly lower post-treatment versus pre-treatment in the NAC group (P = 0.001). IL-6 was significantly reduced in the NAC group versus controls after treatment (P < 0.001), and significantly decreased post-treatment in both groups (P < 0.05). FACT/GOG-NTX-12 and NCI-CTCAE scores were significantly lower in the NAC group at the end of the first two cycles and at the end of treatment (P < 0.05). Pain interference, but not pain severity, was significantly reduced in the NAC group at both time points (P < 0.001).\nCONCLUSION: NAC administration during FOLFOX chemotherapy significantly reduced OIPN severity, pain interference, and serum levels of IL-6 and neurotensin, suggesting both clinical and mechanistic neuroprotective effects.\nCLINICAL REGISTRATION: The study was is registered on ClinicalTrials.gov (ID: NCT07391163).",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42411524",
+     "date": "2026-07-07",
+     "title_zh": "阿魏酸鈉聯合甲鈷胺治療大腸直腸癌患者奧沙利鉑誘發周邊神經病變之回溯性比較研究",
+     "score": 3,
+     "one_liner": "在280名CRC合併OIPN病人中，比較阿魏酸鈉+甲鈷胺與單用甲鈷胺，8週臨床有效率89.47% vs 67.97%。",
+     "sim": 0.22
+    },
+    {
+     "pmid": "42378717",
+     "date": "2026-06-30",
+     "title_zh": "ELECLA試驗：錯配修復功能正常（pMMR）局部進展期大腸癌患者接受含fluoropyrimidine及oxaliplatin之圍術期化療——最終結果",
+     "score": 5,
+     "one_liner": "在120名pMMR局部進展期大腸癌病人中，比較NAC+手術+AC與直接手術+AC，主要終點2年DFS無顯著差異(88.9% vs 83.3%, p=0.34)。",
+     "sim": 0.187
+    }
+   ],
+   "title_zh": "N-acetylcysteine 對大腸直腸癌患者奧沙利鉑誘發周邊神經病變的保護作用：隨機對照試驗",
+   "abstract_zh": "目的：奧沙利鉑誘發周邊神經病變（OIPN）是大腸直腸癌（CRC）患者接受 FOLFOX 化療時的一項劑量限制性不良反應。本研究旨在評估 N-acetylcysteine（NAC）對 OIPN 的保護作用。此外，我們探討其對血清生物標記的機轉性影響，包括總抗氧化能力（TAC）、介白素-6（IL-6）及神經降壓素（neurotensin）。方法：46 名接受術後輔助性 modified FOLFOX-6 化療的第 III 期或高風險第 II 期 CRC 患者，以 1：1 比例隨機分派，於每次奧沙利鉑輸注前一小時口服 NAC 1200 mg（發泡錠或顆粒劑）或安慰劑，共四個療程。於治療前後測量血清 TAC、IL-6 及神經降壓素濃度。神經病變以 FACT/GOG-NTX-12 與 NCI-CTCAE 量表評估，疼痛則以簡明疼痛量表短版（Brief Pain Inventory-Short Form）評估。結果：治療後，NAC 組的神經降壓素較對照組顯著降低（P < 0.001），且 NAC 組治療後較治療前顯著降低（P = 0.001）。治療後，NAC 組的 IL-6 較對照組顯著降低（P < 0.001），且兩組治療後的 IL-6 均顯著下降（P < 0.05）。在前兩個療程結束時及治療結束時，NAC 組的 FACT/GOG-NTX-12 與 NCI-CTCAE 分數均顯著較低（P < 0.05）。在這兩個評估時間點，NAC 組的疼痛干擾程度均顯著減少（P < 0.001），但疼痛強度未顯著減少。結論：在 FOLFOX 化療期間使用 NAC，顯著降低 OIPN 嚴重程度、疼痛干擾程度，以及血清 IL-6 與神經降壓素濃度，提示其具有臨床及機轉層面的神經保護作用。臨床試驗註冊：本研究已於 ClinicalTrials.gov 註冊（編號：NCT07391163）。",
+   "evidence_level": "RCT",
+   "score": 6,
+   "score_reason": "隨機安慰劑對照設計且直接處理常見化療毒性，值得讀全文確認；但僅46人、觀察四個療程，未報絕對效益或信賴區間，尚不足以常規採用。",
+   "relevance": "高度相關",
+   "relevance_why": "直接涉及台灣常見第III期及高風險第II期大腸直腸癌術後FOLFOX的神經毒性預防。",
+   "novelty": "仍屬早期",
+   "one_liner": "46名術後CRC患者比較NAC與安慰劑，NAC組神經病變評分較低（P<0.05），幅度未報。",
+   "action": "目前不需改變做法；術後FOLFOX患者勿據此常規加用NAC，長期效益及抗癌療效影響仍待確認。",
+   "pico": {
+    "P": "46名第III期或高風險第II期大腸直腸癌患者，接受術後輔助性modified FOLFOX-6化療。",
+    "I": "每次奧沙利鉑輸注前一小時口服NAC 1200 mg（發泡錠或顆粒劑），共四個療程。",
+    "C": "安慰劑；以1：1比例隨機分派。",
+    "O": "摘要未區分主要與次要終點；評估FACT/GOG-NTX-12及NCI-CTCAE神經病變分數、疼痛強度與干擾程度，以及血清TAC、IL-6與神經降壓素。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "46人，1：1隨機；NAC 1200 mg，共4療程",
+    "神經病變評分較低：P<0.05，未報兩組絕對值",
+    "疼痛干擾改善P<0.001；疼痛強度未顯著改善"
+   ],
+   "cautions": [
+    "僅46人、四療程，不能外推完整療程的累積或持續性神經毒性。",
+    "僅報P值，無絕對差與信賴區間，無法判定臨床重要性。",
+    "生物標記下降不等於機轉確立，也未交代是否影響抗癌療效。"
+   ],
+   "unassessable": [
+    "隨機序列產生方式與分派隱匿",
+    "患者、醫療人員及結果評估者的盲法",
+    "是否採意向治療分析（ITT）、失訪率及缺失資料處理",
+    "預先指定的主要終點、樣本數估算及多重比較校正",
+    "試驗註冊時點及註冊內容與報告的一致性；摘要已提供註冊編號",
+    "各組基線神經病變程度、共病及實際奧沙利鉑累積劑量",
+    "量表計分方向、實際分數與最小臨床重要差異",
+    "TAC結果、NAC不良反應及服藥依從性",
+    "長期神經病變、化療完成率與腫瘤控制結果",
+    "利益衝突、資金來源及成本效益"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "先前280人的回溯性研究探討阿魏酸鈉合併甲鈷胺治療已發生的OIPN；本篇改以隨機安慰劑對照設計評估NAC的預防作用，延伸至不同藥物及介入時點。其設計層級較高，但樣本小且缺乏效益幅度，不能直接比較兩種策略的優劣。",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3221,
+    "input_tokens_details": {
+     "cache_write_tokens": 3218,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1743,
+    "output_tokens_details": {
+     "reasoning_tokens": 115
+    },
+    "total_tokens": 4964
+   },
+   "added_at": "2026-10-24T08:23:59+08:00"
+  },
+  {
+   "pmid": "42909684",
+   "title": "Biomarkers and future directions for immunotherapy in microsatellite-stable colorectal cancer: a systematic review",
+   "journal": "Mol Biol Rep",
+   "journal_full": "Molecular biology reports",
+   "issn": "1573-4978",
+   "issn_linking": "0301-4851",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1093/gastro/goag009",
+   "ptype": "Systematic Review, Review",
+   "ptype_list": [
+    "Systematic Review",
+    "Review"
+   ],
+   "authors": "Xu J, Ni C, Wang P, Qin L",
+   "abstract": "The mechanisms of resistance to immune checkpoint inhibitors (ICIs) in microsatellite-stable (MSS) colorectal cancer (CRC) have 3 interconnected levels, which provide information to guide different biomarker strategies. There is a critical clinical need, as objective response rates continue to be < 10%. We suggest a biomarker stratification model on the basis of clinical actionability. POLE/POLD1 mutations, recommended by the NCCN Clinical Practice Guidelines in Oncology for Colon Cancer (Version 1.2025), represent true genomic \"hard\" indicators. While the benefit of ICI-containing combination regimens was predicted by the Immunoscore-IC in the AtezoTRIBE trial, the ANICCA-class II study recently questioned the value of anti-PD-1 monotherapy. Defects in homologous recombination repair HRR), ctDNA kinetics and subtyping of CMS1 show promise but need to be prospectively validated. TMB, however, has shown no consistent value as a single biomarker, and MSIs, such as transcriptomic signatures or PD-L1 combined positive scores, have not been proven to be useful. Future prospects involve multiomics algorithms that integrate immune profiling and stromal determinants, liver-directed sensitizing approaches and serial ctDNA monitoring of acquired resistance as viable strategies for further patient selection. These data collectively pave the way toward moving away from the \"cold tumor\" paradigm and toward dynamic, host-integrated testing for precision immunotherapy in MSS CRC.\nThere are three levels of resistance to ICIs in MSS CRC: intrinsic defects, microenvironmental barriers and metastatic immune privilege, and each has different biomarker implications. We suggest a clinically actionable stratification. POLE/POLD1 mutations are genomic “hard” markers per the NCCN. The immunoscore-IC can predict combination but not monotherapy benefits. HRR defects, ctDNA kinetics, and CMS1 subtyping require prospective validation. The TMB, MSI-like signature, and PD-L1 CPS do not have consistent values. Innovations include multiomics integration, liver-targeting sensitization, and ctDNA resistance monitoring. These results suggest that the need for a single marker should be replaced with host-integrated, dynamic approaches for precision immunotherapy.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42353833",
+     "date": "2026-06-26",
+     "title_zh": "微衛星表型作為大腸直腸癌免疫治療指引：現況與未來展望",
+     "score": 3,
+     "one_liner": "本文為綜述，總結MSI-H/dMMR與MSS/pMMR大腸直腸癌對免疫檢查點抑制劑反應差異之分子機轉與現行治療策略。",
+     "sim": 0.168
+    },
+    {
+     "pmid": "42565918",
+     "date": "2026-08-08",
+     "title_zh": "局部進行性直腸癌新輔助治療反應之基因體、轉錄體與分子預測因子：敘事性回顧",
+     "score": 4,
+     "one_liner": "敘事性回顧整理LARC新輔助治療的基因體/轉錄體生物標記，指出MMR缺失與ctDNA清除最一致與治療反應相關，餘證據不一。",
+     "sim": 0.16
+    },
+    {
+     "pmid": "42565918",
+     "date": "2026-08-09",
+     "title_zh": "局部進展期直腸癌新輔助治療反應之基因體、轉錄體與分子預測因子：敘述性綜述",
+     "score": 4,
+     "one_liner": "此綜述整理LARC新輔助治療反應之基因體/轉錄體/ctDNA生物標記證據，指出MMR缺失與動態ctDNA清除最具一致預測性，但TNT特定證據仍有限。",
+     "sim": 0.16
+    }
+   ],
+   "title_zh": "微衛星穩定型大腸直腸癌免疫治療的生物標記與未來方向：系統性回顧",
+   "abstract_zh": "微衛星穩定型（MSS）大腸直腸癌（CRC）對免疫檢查點抑制劑（ICIs）的抗藥機轉具有3個相互關聯的層次，可提供資訊以引導不同的生物標記策略。目前存在迫切的臨床需求，因為客觀反應率持續低於10%。我們依據臨床可行動性，提出一個生物標記分層模型。NCCN《腫瘤臨床實務指引：結腸癌》（第1.2025版）所推薦的POLE/POLD1突變，代表真正的基因體「硬性」指標。雖然Immunoscore-IC在AtezoTRIBE試驗中可預測含ICI之合併療法的效益，但近期ANICCA-class II研究對抗PD-1單藥治療的價值提出質疑。同源重組修復（HRR）缺陷、ctDNA動態變化及CMS1分型展現潛力，但仍需前瞻性驗證。然而，TMB作為單一生物標記並未顯示一致的價值，而MSIs，例如轉錄體特徵或PD-L1綜合陽性分數，也尚未證實具有實用性。未來方向包括整合免疫特徵與間質決定因子的多體學演算法、肝臟導向的增敏策略，以及連續ctDNA監測後天抗藥性，作為進一步篩選病人的可行策略。整體而言，這些資料為擺脫「冷腫瘤」典範、轉向整合宿主因素的動態檢測，以實現MSS CRC精準免疫治療鋪路。\n\nMSS CRC對ICIs的抗藥性有三個層次：內在缺陷、微環境屏障及轉移部位的免疫豁免，各自具有不同的生物標記意涵。我們提出一套具臨床可行動性的分層方式。依據NCCN，POLE/POLD1突變屬於基因體「硬性」標記。Immunoscore-IC可預測合併療法的效益，但無法預測單藥治療的效益。HRR缺陷、ctDNA動態變化及CMS1分型需要前瞻性驗證。TMB、類MSI特徵及PD-L1 CPS並未呈現一致的價值。創新方向包括多體學整合、肝臟標靶增敏及以ctDNA監測抗藥性。這些結果顯示，應以整合宿主因素的動態方法，取代尋求單一標記的需求，以實現精準免疫治療。",
+   "evidence_level": "系統性回顧",
+   "score": 4,
+   "score_reason": "可作為MSS CRC免疫治療標記的閱讀地圖，但摘要未提供系統性搜尋方法、偏誤評估或定量效應，無法確認結論穩健性。對晚期病人MDT討論有用，尚不足以直接改變外科或用藥決策。",
+   "relevance": "中度相關",
+   "relevance_why": "涉及MSS大腸直腸癌的分子檢測與免疫治療選案，與晚期病人MDT相關，但非直接評估外科處置。",
+   "novelty": "仍屬早期",
+   "one_liner": "在MSS CRC文獻（人數未報）中，比較標記可用性；ICI客觀反應率仍＜10%。",
+   "action": "目前不需改變做法；對MSS晚期病人，勿僅憑TMB或PD-L1就新增ICI，先於MDT核對適應症。",
+   "pico": {
+    "P": "MSS大腸直腸癌相關研究；納入研究數、總病人數及各疾病分期人數未報告。",
+    "I": "以POLE/POLD1、Immunoscore-IC、HRR、ctDNA、CMS1、TMB及其他免疫相關標記進行ICI治療分層。",
+    "C": "無統一對照組；摘要討論不同標記及ICI合併療法與單藥治療的證據，未提供直接比較資料。",
+    "O": "ICI治療反應與生物標記的臨床可用性；未明確界定主要及次要結果。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "MSS CRC客觀反應率仍＜10%；未提供對照組",
+    "納入研究數、總病人數及合併效應量均未報",
+    "TMB單獨使用價值不一致；未報絕對療效差異"
+   ],
+   "cautions": [
+    "標記分層模型是作者建議，不能視為已驗證的治療選案工具。",
+    "合併療法與單藥證據來自不同研究，不能推論兩者的直接療效差異。",
+    "僅報反應率＜10%，無分母、對照或信賴區間，無法量化效益。"
+   ],
+   "unassessable": [
+    "搜尋資料庫、搜尋日期、完整搜尋式與納入排除標準",
+    "文獻篩選及資料擷取是否由獨立雙人執行",
+    "納入研究數、樣本數、病人分期及治療線別",
+    "納入研究的偏誤風險、證據確定性及發表偏誤",
+    "各標記的定義、檢測平台、判讀閾值及前瞻性預先設定情形",
+    "所引試驗的隨機分派隱匿、盲法、ITT分析及失訪率",
+    "回顧計畫與所引試驗的註冊情形",
+    "資金來源、利益衝突與成本效益",
+    "摘要首段MSIs一詞的確切定義及其與類MSI特徵的對應"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "相較前作〈微衛星表型作為大腸直腸癌免疫治療指引：現況與未來展望〉概述MSI-H/dMMR與MSS/pMMR的反應差異，本篇進一步聚焦MSS族群內的標記分層與抗藥機轉。它補充POLE/POLD1、Immunoscore-IC及動態ctDNA等選案方向，但摘要不足以證明這套分層能改善臨床結果。",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3304,
+    "input_tokens_details": {
+     "cache_write_tokens": 3301,
+     "cached_tokens": 0
+    },
+    "output_tokens": 2013,
+    "output_tokens_details": {
+     "reasoning_tokens": 329
+    },
+    "total_tokens": 5317
+   },
+   "added_at": "2026-10-24T08:23:59+08:00"
+  },
+  {
+   "pmid": "42912772",
+   "title": "Analysing the implementation and transferability of an enhanced care pathway integrating systematic supportive cancer care and patient-partner support for people living with anal cancer: Protocol for a mixed-methods study in two French cancer centres",
+   "journal": "PLoS One",
+   "journal_full": "PloS one",
+   "issn": "1932-6203",
+   "issn_linking": "1932-6203",
+   "impact_factor": 2.8,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1371/journal.pone.0359705",
+   "ptype": "Multicenter Study",
+   "ptype_list": [
+    "Multicenter Study"
+   ],
+   "authors": "Carillon S, Faure R, Del Rio M, Lemanski C, Tyran M, de Montgolfier S",
+   "abstract": "BACKGROUND: Supportive cancer care (SCC) is essential for comprehensive oncology care. It addresses treatment-related adverse effects, reduces long-term sequelae and improves patients' quality of life. Patient-partner (PP) programmes positively impact psychological well-being, patient empowerment and supportive care. Nevertheless, access to SCC remains inconsistent, fragmented and unequally distributed, while PPs are rarely integrated into routine cancer care pathways. Anal cancer is a predominantly localised cancer with high survival rates. Treatment is associated with acute toxicity and often severe long-term sequelae. This interventional public health research study aims to implement and evaluate an innovative enhanced care pathway combining systematic SCC and structured PP support for all individuals diagnosed with anal cancer living in France. The study will assess the intervention's clinical, organisational, and social effects, and will identify the conditions required for its long-term sustainability and transferability.\nMETHODS AND DESIGN: This is a longitudinal mixed-methods case study conducted in two French Comprehensive Cancer Centres. The intervention entails introducing a systematic, coordinated, and repeated SCC offer together with a structured PP support programme for all patients diagnosed with anal cancer and over 12 months following diagnosis. One centre will implement the enhanced care pathway, while the other will initially provide standard care before progressively adopting the intervention during the transferability phase. Quantitative data will include patient-reported outcomes, clinical information and implementation indicators. Qualitative data exploring implementation processes, organisational changes and contextual determinants, will be collected through observations, semi-structured interviews, focus groups and PP activity logs.\nDISCUSSION: The study's results will provide essential scientific knowledge on the implementation of programmes providing equitable SCC and PP support access to people living with anal cancer. Specifically, by combining implementation research, participatory approaches and mixed-methods evaluation, the project aims to identify the organisational conditions for the sustainable implementation of such programmes for this population, and their successful transferability to other populations living with cancer and to other healthcare settings.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42432992",
+     "date": "2026-07-11",
+     "title_zh": "應用照護級聯（Cascade of Care）框架以指引實證為基礎的肛門癌篩檢指引執行",
+     "score": 4,
+     "one_liner": "本文為概念性綜述，提出以Cascade of Care框架結合執行科學方法，協助各地將2024年新版肛門癌篩檢指引導入臨床實務。",
+     "sim": 0.186
+    },
+    {
+     "pmid": "42432992",
+     "date": "2026-07-12",
+     "title_zh": "應用照護級聯（Cascade of Care）框架以指引實證為基礎的肛門癌篩檢指引執行",
+     "score": 4,
+     "one_liner": "本文為概念性綜述，提出以Cascade of Care框架結合執行科學方法，協助各地將2024年新版肛門癌篩檢指引導入臨床實務。",
+     "sim": 0.186
+    },
+    {
+     "pmid": "42432992",
+     "date": "2026-07-13",
+     "title_zh": "應用照護級聯（Cascade of Care）框架以指引實證為基礎的肛門癌篩檢指引執行",
+     "score": 4,
+     "one_liner": "本文為概念性綜述，提出以Cascade of Care框架結合執行科學方法，協助各地將2024年新版肛門癌篩檢指引導入臨床實務。",
+     "sim": 0.186
+    }
+   ],
+   "title_zh": "分析整合系統性癌症支持性照護與病人夥伴支持之強化照護路徑的執行與可轉移性：於法國兩家癌症中心進行的混合方法研究計畫",
+   "abstract_zh": "背景：癌症支持性照護（SCC）是完整腫瘤照護不可或缺的一環。其處理治療相關不良反應、減少長期後遺症，並改善病人的生活品質。病人夥伴（PP）方案對心理福祉、病人賦權及支持性照護具有正面影響。然而，SCC的可近性仍不一致、零碎且分布不均，而PP也很少被納入常規癌症照護路徑。肛門癌多為局限性癌症，且存活率高。其治療伴隨急性毒性，以及往往相當嚴重的長期後遺症。本介入性公共衛生研究旨在為所有居住於法國且確診肛門癌者，導入並評估一項結合系統性SCC與結構化PP支持的創新強化照護路徑。本研究將評估此介入的臨床、組織與社會層面影響，並辨識其長期持續運作與轉移應用所需的條件。\n方法與設計：本研究是在法國兩家綜合癌症中心進行的縱向混合方法個案研究。介入內容為向所有確診肛門癌的病人，在診斷後12個月期間提供系統性、協調且重複提供的SCC服務，以及結構化PP支持方案。一家中心將導入強化照護路徑，另一家則先提供標準照護，再於可轉移性階段逐步採用此介入。量化資料將包括病人自陳結果、臨床資訊及執行指標。用於探索執行過程、組織變化及情境決定因素的質性資料，將透過觀察、半結構式訪談、焦點團體及PP活動紀錄蒐集。\n討論：本研究結果將提供重要科學知識，說明如何執行可讓肛門癌病人公平取得SCC及PP支持的方案。具體而言，本計畫結合執行研究、參與式取徑及混合方法評估，旨在辨識此類方案於該族群持續執行所需的組織條件，以及成功轉移應用至其他癌症族群與其他醫療照護場域所需的條件。",
+   "evidence_level": "其他",
+   "score": 4,
+   "score_reason": "這是研究計畫，尚無臨床成效資料，不能用來判斷介入效益。對規劃肛門癌支持性照護服務有參考價值，但法國組織模式能否適用台灣仍待評估。",
+   "relevance": "中度相關",
+   "relevance_why": "涉及肛門癌治療後毒性、生活品質與跨專業照護，但重點是服務導入而非外科治療決策。",
+   "novelty": "仍屬早期",
+   "one_liner": "在肛門癌患者（人數未載）中，擬比較整合支持照護及病人夥伴與標準照護，尚無成效數據。",
+   "action": "目前不需改變做法；本篇僅為研究計畫，尚無成效數據可據以調整肛門癌常規照護。",
+   "pico": {
+    "P": "法國兩家綜合癌症中心的肛門癌確診患者；預計收案人數未提供。",
+    "I": "診斷後12個月內，提供系統性、協調且重複提供的SCC服務，結合結構化病人夥伴支持。",
+    "C": "另一中心初期提供標準照護，之後於可轉移性階段逐步導入介入；並非固定不變的對照。",
+    "O": "預計評估病人自陳結果、臨床資訊、執行指標，以及組織與社會影響、持續運作和可轉移性；摘要未界定主要與次要結果。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "2家法國癌症中心，採縱向混合方法研究。",
+    "介入涵蓋確診後12個月的支持性照護與病人夥伴支持。",
+    "尚無收案人數、組間絕對效果或陰性結果可報。"
+   ],
+   "cautions": [
+    "僅為研究計畫；背景所述效益不是本研究結果。",
+    "中心差異及分階段導入的時間效應可能混雜比較。",
+    "未報樣本數、絕對效果或信賴區間，無法估計效益。"
+   ],
+   "unassessable": [
+    "樣本數規劃、估算依據與收案方式",
+    "分派機制及分派隱蔽",
+    "盲法及結果評估者是否獨立",
+    "主要與次要結果的定義、量測工具及評估時間點",
+    "統計分析計畫、混雜因子控制及是否採ITT分析",
+    "失訪率與缺失資料處理",
+    "試驗註冊",
+    "利益衝突",
+    "成本效益及台灣照護體系的可轉移性"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3258,
+    "input_tokens_details": {
+     "cache_write_tokens": 3255,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1912,
+    "output_tokens_details": {
+     "reasoning_tokens": 516
+    },
+    "total_tokens": 5170
+   },
+   "added_at": "2026-10-24T08:23:59+08:00"
+  },
+  {
+   "pmid": "42909261",
+   "title": "Engineering extracellular vesicles for inflammatory bowel disease and colitis-associated colorectal cancer: from therapeutic innovation to clinical translation",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1002/adma.202002054",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Huang M, Yuan J, Muro P, Jin T, Mao F, Zhu W",
+   "abstract": "Inflammatory bowel disease (IBD), encompassing Crohn's disease and ulcerative colitis, is a chronic relapsing inflammatory disorder that increases the risk of colitis-associated colorectal cancer (CAC). Despite major advances in biologics and small-molecule therapies, many patients experience primary or secondary treatment failure, adverse effects, and disease recurrence, underscoring the need for more effective, targeted therapeutic strategies. Extracellular vesicles (EVs), including exosomes, microvesicles, and apoptotic bodies, have emerged as promising nanoscale therapeutic platforms owing to their intrinsic biocompatibility, low immunogenicity, cargo-protective lipid bilayer, and natural ability to mediate intercellular communication. Recent advances in EV engineering have further expanded their therapeutic potential through genetic modification of parental cells, cargo loading, surface functionalization, and hybrid biomaterial systems, enabling enhanced targeting, drug delivery, immune modulation, tissue regeneration, and anti-tumor activity. This review summarizes the biological characteristics of EVs and discusses recent progress in engineering strategies aimed at improving their therapeutic efficacy in IBD and CAC. We critically evaluate current preclinical evidence regarding immunomodulation, restoration of intestinal barrier integrity, regulation of gut microbiota, targeted drug delivery, cancer immunotherapy, and inhibition of metastasis. Finally, we discuss the major translational challenges, including manufacturing standardization, quality control, large-scale production, safety evaluation, regulatory considerations, and future perspectives necessary for successful clinical implementation of engineered EV-based therapies.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42712961",
+     "date": "2026-09-10",
+     "title_zh": "益生菌衍生胞外囊泡作為發炎性腸道疾病潛在奈米免疫治療平台：臨床醫師觀點",
+     "score": 2,
+     "one_liner": "本文綜述益生菌衍生胞外囊泡於IBD中調節腸屏障與免疫的機轉及治療潛力，屬機制性文獻回顧，無原創數據。",
+     "sim": 0.332
+    },
+    {
+     "pmid": "42732298",
+     "date": "2026-09-14",
+     "title_zh": "工程化小型外泌體用於大腸靶向給藥：微環境反應性設計、治療機轉與臨床轉譯",
+     "score": 2,
+     "one_liner": "本文綜述工程化外泌體作為大腸靶向給藥載體的設計策略與轉譯現況，尚無臨床療效數據可供評估。",
+     "sim": 0.228
+    },
+    {
+     "pmid": "42732298",
+     "date": "2026-09-15",
+     "title_zh": "工程化小型細胞外囊泡用於大腸靶向遞送：微環境反應性設計、治療機轉與臨床轉譯",
+     "score": 2,
+     "one_liner": "本文綜述sEV作為大腸靶向藥物載體的工程設計策略，涵蓋IBD與大腸直腸癌應用，屬概念性框架而非臨床證據。",
+     "sim": 0.228
+    }
+   ],
+   "title_zh": "工程化細胞外囊泡用於發炎性腸道疾病與結腸炎相關大腸直腸癌：從治療創新到臨床轉譯",
+   "abstract_zh": "發炎性腸道疾病（IBD）包括克隆氏症與潰瘍性結腸炎，是一種慢性、反覆發作的發炎性疾病，會增加結腸炎相關大腸直腸癌（CAC）的風險。儘管生物製劑與小分子治療已有重大進展，許多病人仍面臨原發性或次發性治療失敗、不良反應及疾病復發，凸顯出對更有效且具標靶性的治療策略之需求。細胞外囊泡（EVs）包括外泌體、微囊泡與凋亡小體，因其固有的生物相容性、低免疫原性、可保護所載物質的脂質雙層，以及介導細胞間通訊的天然能力，已成為備受期待的奈米尺度治療平台。近期EV工程技術的進展，透過來源細胞的基因改造、載荷裝載、表面功能化及混合式生物材料系統，進一步擴展其治療潛力，使其能增強標靶定位、藥物遞送、免疫調節、組織再生與抗腫瘤活性。本綜述整理EV的生物學特性，並討論旨在提升其於IBD與CAC治療效能的工程策略之最新進展。我們批判性評估目前有關免疫調節、腸道屏障完整性恢復、腸道菌相調控、標靶藥物遞送、癌症免疫治療及抑制轉移的臨床前證據。最後，我們討論成功將工程化EV療法導入臨床所需面對的主要轉譯挑戰，包括製造標準化、品質管制、大規模生產、安全性評估、法規考量與未來展望。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "摘要提供工程化EV的臨床前研究與轉譯議題概覽，但未提供研究篩選方法或可核對的療效數據。對台灣大腸直腸外科的即時決策價值低，較值得投入相關轉譯研究者閱讀全文。",
+   "relevance": "低度相關",
+   "relevance_why": "雖涉及IBD與CAC，但重點是臨床前治療平台，摘要未提供可直接指導外科處置的人體比較證據。",
+   "novelty": "仍屬早期",
+   "one_liner": "本文綜述工程化EV於IBD與CAC的治療策略，未報人數、直接比較或臨床效益數值。",
+   "action": "目前不需改變做法；對IBD或CAC病人，勿僅依此綜述改用工程化EV治療。",
+   "pico": {
+    "P": "IBD與CAC相關研究；摘要以臨床前證據為評估重點，未提供研究數或受試人數。",
+    "I": "工程化EV，包括來源細胞基因改造、載荷裝載、表面功能化及混合式生物材料系統。",
+    "C": "未提供統一對照組或各研究的比較方式。",
+    "O": "未指定主要或次要終點；討論免疫調節、腸屏障修復、菌相調控、標靶給藥、癌症免疫治療、抑制轉移及臨床轉譯挑戰。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "納入研究數與受試人數：摘要未提供。",
+    "兩組絕對事件數或發生率：摘要未提供。",
+    "臨床效益、陰性結果及信賴區間：摘要未提供。"
+   ],
+   "cautions": [
+    "臨床前機轉與抗腫瘤活性，不等同人體緩解、預防CAC或存活獲益。",
+    "未報樣本數、絕對效益或信賴區間，無法判斷效果大小與精確度。",
+    "摘要未交代檢索、納入與偏誤評估方法，無法判斷證據是否完整。"
+   ],
+   "unassessable": [
+    "文獻檢索範圍、納入排除標準及是否採系統性方法",
+    "納入研究的數量、模型種類與人體研究占比",
+    "所引研究的偏誤風險及證據確定性",
+    "各工程化EV平台的直接比較效果",
+    "人體長期安全性、有效劑量與給藥途徑",
+    "製造一致性、品質管制及大規模生產的實際驗證結果",
+    "成本效益、台灣法規適用性與臨床可近性",
+    "資金來源與利益衝突"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "相較先前益生菌衍生EV用於IBD的綜述，以及兩篇工程化小型EV大腸靶向遞送綜述，本篇將範圍擴及不同EV類型，並聚焦CAC的癌症免疫治療與抑制轉移。它補充治療平台與製造、品管及法規議題的整理，但摘要仍未提供可改變臨床決策的療效數據。",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3158,
+    "input_tokens_details": {
+     "cache_write_tokens": 3155,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1593,
+    "output_tokens_details": {
+     "reasoning_tokens": 206
+    },
+    "total_tokens": 4751
+   },
+   "added_at": "2026-10-24T08:23:59+08:00"
+  },
+  {
+   "pmid": "42909229",
+   "title": "Gut mycobiome dysbiosis in digestive system cancers: immune remodeling and translational implications",
+   "journal": "Front Cell Infect Microbiol",
+   "journal_full": "Frontiers in cellular and infection microbiology",
+   "issn": "2235-2988",
+   "issn_linking": "2235-2988",
+   "impact_factor": 5.5,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1016/j.cell.2018.08.041",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Ma L, Wang Z, Mao J",
+   "abstract": "Fungal dysbiosis has been reported in colorectal cancer (CRC), gastric cancer (GC), and pancreatic ductal adenocarcinoma (PDAC), but evidence strength differs substantially by tumor type and model system. Human CRC studies provide the broadest ecological evidence, including altered fungal community structure and fungal-bacterial networks. Human GC evidence is mainly cross-sectional and identifies Candida albicans as a candidate tissue-associated signal rather than a proven driver. In PDAC, human tissue studies report fungal signals, whereas causal support for Malassezia-mannose-binding lectin (MBL)-complement and fungal IL-33/type 2 immunity derives principally from mouse perturbation models. This narrative review synthesizes cancer-specific observations, fungal sensing, epithelial injury, immune remodeling, cross-kingdom interactions, and translational implications. We emphasize that low fungal biomass, contamination, transient dietary or environmental fungi, non-standardized sequencing, spatial uncertainty, and reverse causation limit interpretation. Fungal detection does not establish viability, colonization, or tumor causation. Clinical translation will require standardized controls, absolute fungal-load measurements, spatial confirmation, longitudinal cohorts, functional validation, and external testing of whether fungal features add value beyond established clinical, bacterial, metabolic, imaging, and immune markers.",
+   "watched": [],
+   "related": [],
+   "title_zh": "消化系統癌症中的腸道真菌相失衡：免疫重塑與轉譯意涵",
+   "abstract_zh": "大腸直腸癌（CRC）、胃癌（GC）及胰臟導管腺癌（PDAC）均已有真菌相失衡的報告，但證據強度因腫瘤類型與模型系統而有顯著差異。人類 CRC 研究提供了最廣泛的生態學證據，包括真菌群落結構及真菌—細菌網絡的改變。人類 GC 的證據主要來自橫斷面研究，將白色念珠菌辨識為與組織相關的候選訊號，而非已獲證實的致病驅動因子。在 PDAC 中，人類組織研究曾報告真菌訊號；然而，支持馬拉色菌—甘露糖結合凝集素（MBL）—補體，以及真菌相關 IL-33／第 2 型免疫之因果關係的證據，主要來自小鼠擾動實驗模型。本敘述性綜述整合了各癌別的觀察結果、真菌感知、上皮損傷、免疫重塑、跨界交互作用及轉譯意涵。我們強調，真菌生物量低、污染、短暫存在的飲食或環境來源真菌、未標準化的定序方法、空間定位的不確定性，以及反向因果關係，均限制了結果的解讀。偵測到真菌並不代表已證實其具有活性、形成定殖，或造成腫瘤。臨床轉譯將需要標準化的對照措施、真菌絕對負荷量測、空間定位確認、縱向世代研究、功能驗證，以及外部驗證，以確認真菌特徵是否能在既有的臨床、細菌、代謝、影像及免疫標記之外提供額外價值。",
+   "evidence_level": "綜述",
+   "score": 5,
+   "score_reason": "清楚區分人體關聯與動物因果證據，並指出低生物量研究的關鍵偏誤，適合作為研究判讀入門。但屬敘述性綜述，摘要無量化效果或臨床效益驗證，對日常診療的直接實用性有限。",
+   "relevance": "中度相關",
+   "relevance_why": "涉及 CRC 腫瘤微環境與潛在生物標記，但尚無可直接用於外科診療的介入或檢測證據。",
+   "novelty": "仍屬早期",
+   "one_liner": "彙整CRC、胃癌及胰癌真菌研究（總人數未報），指出人體多為關聯，因果支持主要來自小鼠。",
+   "action": "目前不需改變做法；勿僅因CRC病人檢出真菌就抗黴菌治療，摘要未提供臨床獲益證據。",
+   "pico": {
+    "P": "CRC、GC、PDAC 的人體研究及相關模型研究；納入研究數與總人數未報告。",
+    "I": "真菌相失衡、真菌訊號及其與免疫重塑、腫瘤微環境的關聯。",
+    "C": "無單一對照組；各納入研究的比較對象未於摘要交代。",
+    "O": "未指定主要或次要 outcome；討論真菌群落與跨界網絡、免疫機制、因果證據及臨床轉譯需求。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "納入研究數、總人數與各癌別樣本數：摘要未報告。",
+    "兩組絕對事件數、發生率及效果量：摘要未報告。",
+    "臨床效益與陰性結果：摘要未提供量化比較。"
+   ],
+   "cautions": [
+    "偵測到真菌不等於活菌、定殖或致癌；不能據此推導治療效益。",
+    "PDAC因果支持主要來自小鼠；人體關聯仍可能有反向因果。",
+    "未報研究數、樣本數、絕對風險或信賴區間，無法量化效果與精確度。"
+   ],
+   "unassessable": [
+    "文獻搜尋範圍、檢索策略、納入排除標準及選文完整性",
+    "納入研究的偏誤風險評估與整體證據確定性",
+    "各癌別研究數、樣本數、對照組設計及混雜因子調整",
+    "各研究污染控制、定序方法、絕對真菌負荷與空間定位驗證的實作品質",
+    "候選真菌標記的診斷效能、外部驗證及相對既有標記的增額價值",
+    "綜述註冊、經費來源與利益衝突"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 2755,
+    "input_tokens_details": {
+     "cache_write_tokens": 2752,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1407,
+    "output_tokens_details": {
+     "reasoning_tokens": 151
+    },
+    "total_tokens": 4162
+   },
+   "added_at": "2026-10-24T08:23:59+08:00"
+  },
+  {
+   "pmid": "42909517",
+   "title": "Polidocanol foam sclerotherapy for patients with Goligher grade IV hemorrhoidal disease unwilling to undergo surgery: preliminary outcomes from a retrospective study with 6-month follow-up",
+   "journal": "Int J Colorectal Dis",
+   "journal_full": "International journal of colorectal disease",
+   "issn": "1432-1262",
+   "issn_linking": "0179-1958",
+   "impact_factor": 2.9,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1097/DCR.0000000000004147",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Gravante G, De Simone V, Picciariello A, Sorge R, Sileri P, Gallo G",
+   "abstract": "BACKGROUND: Polidocanol foam (PF) sclerotherapy has shown promising results in low- and intermediate-grade hemorrhoidal disease (HD), but evidence in advanced stages remains limited. This study aimed to evaluate patient-reported outcomes following PF sclerotherapy in patients with Goligher grade IV HD who declined surgical treatment.\nMETHODS: This retrospective analysis included patients with Goligher grade IV HD that declined hemorrhoidectomy after appropriate counseling and underwent 3% PF sclerotherapy between June and October 2025. Outcomes were assessed using symptom-focused subsets derived from the PROM-HISS and HDSS instruments at baseline, 7 days, 30 days, and 6 months. Primary outcome was the change in scores over time. Secondary outcomes included need for additional treatment, complications, and subsequent surgery.\nRESULTS: Fifteen patients were included (mean age 58 ± 11 years; 53.3% male). At 6 months, 66.7% of patients requested no further hemorrhoidal treatment. Significant improvements were observed in both scores across all follow-up timepoints (p < 0.05). Pain, bleeding, and prolapse showed the most consistent reductions. One patient (6.7%) required hemorrhoidectomy within 30 days, four patients (26.7%) a second sclerotherapy session. No major complications were observed.\nCONCLUSIONS: In selected patients with Goligher grade IV HD who are unwilling or unfit to undergo surgery, PF sclerotherapy may be associated with short-term symptom improvement and may represent a symptom-oriented minimally invasive option for selected patients unwilling or unfit to undergo surgery.",
+   "watched": [
+    "hemorrhoidectomy",
+    "hemorrhoid"
+   ],
+   "related": [
+    {
+     "pmid": "42755308",
+     "date": "2026-09-19",
+     "title_zh": "單極電燒消融術作為第二至三級痔瘡疾病的微創治療選項",
+     "score": 4,
+     "one_liner": "在61名第II-III級痔瘡患者中，比較切除性痔瘡切除術與單極電燒消融術，MPCA組手術時間及止痛需求較低，但復發3例vs 0例（p=0.102）。",
+     "sim": 0.232
+    },
+    {
+     "pmid": "42755308",
+     "date": "2026-09-20",
+     "title_zh": "單極電燒消融術作為II-III級痔瘡疾病的微創治療選項",
+     "score": 3,
+     "one_liner": "在61名II-III級痔瘡患者中，比較EH（n=32）與MPCA（n=29），MPCA手術時間、止痛需求較少但復發3例vs 0例（p=0.102）。",
+     "sim": 0.232
+    },
+    {
+     "pmid": "42907681",
+     "date": "2026-10-24",
+     "title_zh": "IBD患者接受痔瘡手術真的不安全嗎？IG-IBD之HEAD-IBD多中心研究結果",
+     "score": 4,
+     "one_liner": "在38名IBD痔瘡手術患者中，比較UC與CD，發現手術併發症僅見於UC（5/21，24%）。",
+     "sim": 0.17
+    }
+   ],
+   "title_zh": "Polidocanol泡沫硬化治療用於不願接受手術的Goligher第IV級痔瘡患者：一項追蹤6個月之回溯性研究的初步結果",
+   "abstract_zh": "背景：Polidocanol泡沫（PF）硬化治療在低度與中度痔瘡疾病（HD）已展現令人期待的結果，但晚期疾病的證據仍有限。本研究旨在評估拒絕手術治療之Goligher第IV級HD患者接受PF硬化治療後的病人自陳結果。\n方法：本回溯性分析納入經適當諮詢後拒絕痔瘡切除術，並於2025年6月至10月接受3% PF硬化治療的Goligher第IV級HD患者。於基線、7天、30天及6個月，使用取自PROM-HISS與HDSS量表、聚焦症狀的題目子集評估結果。主要結果為評分隨時間的變化。次要結果包括追加治療需求、併發症及後續手術。\n結果：共納入15名患者（平均年齡58 ± 11歲；男性占53.3%）。至6個月時，66.7%的患者未要求進一步痔瘡治療。兩項評分在所有追蹤時間點均顯著改善（p < 0.05）。疼痛、出血與脫垂的減輕最為一致。1名患者（6.7%）在30天內需要接受痔瘡切除術，4名患者（26.7%）需要第二次硬化治療。未觀察到重大併發症。\n結論：對於經篩選、不願或不適合接受手術的Goligher第IV級HD患者，PF硬化治療可能與短期症狀改善相關，並可能成為這類經篩選、不願或不適合接受手術患者的一種以症狀改善為導向的微創選項。",
+   "evidence_level": "回溯性研究",
+   "score": 3,
+   "score_reason": "僅15人的無對照回溯性研究，且未提供症狀改善幅度，無法確立療效或安全性。對拒絕手術的第IV級痔瘡患者具探索價值，但不足以改變常規照護或POUR預防流程。",
+   "relevance": "高度相關",
+   "relevance_why": "直接涉及第IV級痔瘡的非切除治療選項，但並未研究痔瘡切除術後的尿滯留。",
+   "novelty": "仍屬早期",
+   "one_liner": "15名拒手術的IV級痔瘡患者接受泡沫硬化，無對照；6個月66.7%未要求追加治療。",
+   "action": "目前不需改變痔瘡術後導尿流程；拒手術的IV級患者可討論硬化治療，但須告知證據初步。",
+   "pico": {
+    "P": "15名經適當諮詢後拒絕痔瘡切除術的Goligher第IV級痔瘡患者；平均58 ± 11歲，男性53.3%。",
+    "I": "3% Polidocanol泡沫硬化治療。",
+    "C": "無對照組；比較同一患者治療前後評分。",
+    "O": "主要：PROM-HISS與HDSS症狀題目子集評分隨時間的變化；次要：追加治療需求、併發症與後續手術。評估時間為基線、7天、30天及6個月。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "共15人；6個月66.7%未要求追加痔瘡治療",
+    "30天內手術1人（6.7%）；再硬化4人（26.7%）",
+    "重大併發症0例；未報POUR風險，無法算ARR/NNT"
+   ],
+   "cautions": [
+    "僅15人且無對照；零重大併發症不能證明安全",
+    "採量表題目子集，僅報p值，未給改善幅度或信賴區間",
+    "未要求追加治療不等於治癒；6個月不足判斷長期效果"
+   ],
+   "unassessable": [
+    "POUR定義、事件數與絕對風險；未報告不代表未發生。",
+    "POUR可改變危險因子，以及麻醉方式、止痛策略（含NSAID／diclofenac）或導尿策略的比較。",
+    "哪些患者需要預防性導尿、哪些患者可以免除導尿。",
+    "因未報POUR發生率，無法與既有文獻比較高低或解釋差異。",
+    "評估者盲法、失訪率、缺失資料處理及是否連續收案。",
+    "症狀題目子集的效度、實際評分變化、臨床重要差異及信賴區間。",
+    "重大併發症定義、非重大併發症，以及第二次硬化治療與後續手術患者是否重疊。",
+    "研究註冊、利益衝突與成本分析。",
+    "結論提及不適合手術者，但摘要未交代實際納入多少此類患者。"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "先前兩筆文獻均描述61名第II–III級痔瘡患者接受單極電燒消融或切除術的比較；本篇將非切除微創治療的討論延伸至拒絕手術的第IV級患者，且改用PF硬化治療。疾病分級、治療方式與研究設計不同，不能據此比較療效、安全性或POUR風險，也不能視為對前作結果的再確認。",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3342,
+    "input_tokens_details": {
+     "cache_write_tokens": 3339,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1848,
+    "output_tokens_details": {
+     "reasoning_tokens": 382
+    },
+    "total_tokens": 5190
+   },
+   "added_at": "2026-10-24T08:23:59+08:00"
+  }
+ ]
+}
