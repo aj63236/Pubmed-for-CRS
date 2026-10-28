@@ -1,575 +1,508 @@
 {
- "batch_id": "batch_6adffbf9b7788190bd443569d76265a7",
- "date": "2026-10-27",
- "submitted_at": "2026-10-27T09:18:43+08:00",
+ "batch_id": null,
+ "date": "2026-10-28",
+ "submitted_at": "2026-10-28T09:02:48+08:00",
  "provider": "openai",
  "model": "gpt-6.1-sol",
  "papers": [
   {
-   "pmid": "42929024",
-   "title": "Efficacy of indocyanine green (ICG) angiography in reducing postoperative complications in oesophagectomy: systematic review and meta-analysis",
-   "journal": "Br J Surg",
-   "journal_full": "The British journal of surgery",
-   "issn": "1365-2168",
-   "issn_linking": "0007-1323",
-   "impact_factor": 9.4,
+   "pmid": "42937256",
+   "title": "Associating liver partition and portal vein ligation for staged hepatectomy procedure versus conventional two-stage hepatectomy for colorectal liver metastasis",
+   "journal": "Cochrane Database Syst Rev",
+   "journal_full": "The Cochrane database of systematic reviews",
+   "issn": "1469-493X",
+   "issn_linking": "1361-6137",
+   "impact_factor": 11.1,
    "if_year": "2026",
    "year": "2026",
    "month": "Oct",
-   "doi": "10.1093/bjs/znag134",
-   "ptype": "Systematic Review, Meta-Analysis",
-   "ptype_list": [
-    "Systematic Review",
-    "Meta-Analysis"
-   ],
-   "authors": "Dermanis A, Thompson D, Kamarajah S, Griffiths E",
-   "abstract": "BACKGROUND: Anastomotic leakage after oesophagectomy is common, and associated with significant morbidity and mortality. Indocyanine green (ICG) fluorescence angiography has emerged as a promising intraoperative adjunct for perfusion assessment at the anastomotic site. This study aims to assess the impact of ICG use on anastomotic leakage rates and postoperative outcomes.\nMETHODS: A PRISMA-compliant systematic search of Medline, PubMed, EMBASE, and the Cochrane Library was performed. The primary outcome was anastomotic leakage. Key secondary outcomes were conduit necrosis, mortality, and reoperation; all secondary outcomes were reported. The Risk Of Bias In Non-randomized Studies - of Interventions (ROBINS-I) and Risk of Bias 2 (RoB 2) tools were used for investigating risk of bias. Grading of Recommendations Assessment, Development, and Evaluation (GRADE) was used to assess certainty of evidence. A random-effects meta-analysis and meta-regression as well as subgroup and sensitivity analyses were performed.\nRESULTS: From 902 identified studies, 23 met the inclusion criteria (including 4 RCTs; 2845 patients, of whom 1154 underwent ICG assessment). ICG use was associated with reduced anastomotic leakage rates (OR 0.44 (95% c.i. 0.29 to 0.65), P < 0.001; number needed to treat = 13) and conduit necrosis rates (OR 0.32 (95% c.i. 0.12 to 0.85), P = 0.022). Mortality (OR 1.43 (95% c.i. 0.69 to 2.97), P = 0.335), reoperation (OR 0.84 (95% c.i. 0.51 to 1.39), P = 0.500), severe anastomotic leakage, overall morbidity, readmission, operating time, and length of stay did not differ between groups. Certainty of evidence was low or very low across all outcomes (GRADE), predominantly driven by the observational study design of many of the studies.\nCONCLUSION: Use of ICG appears to be associated with reduced anastomotic leak in oesophagectomy, although certainty of evidence is low. Assessment remains qualitative and operator-dependent.",
-   "watched": [],
-   "related": [
-    {
-     "pmid": "42778806",
-     "date": "2026-09-25",
-     "title_zh": "吲哚青綠螢光血管顯影（ICG-FA）預防大腸直腸手術吻合口洩漏：分級系統性回顧與統合分析暨隨機對照試驗序列分析",
-     "score": 8,
-     "one_liner": "在8篇RCT共4712例大腸直腸手術病人中，ICG-FA對比傳統評估降低整體吻合口洩漏（RR 0.68，ARR 3.6%，NNT約24）。",
-     "sim": 0.295
-    },
-    {
-     "pmid": "42778806",
-     "date": "2026-09-26",
-     "title_zh": "吲哚青綠螢光血管造影（ICG-FA）預防大腸直腸手術吻合口洩漏：隨機對照試驗之分級系統性回顧、統合分析與試驗序列分析",
-     "score": 7,
-     "one_liner": "在8篇RCT共4712名大腸直腸手術病人中，比較ICG-FA與傳統評估，整體吻合口洩漏降低（RR 0.68，ARR 3.6%，NNT≈24）。",
-     "sim": 0.295
-    },
-    {
-     "pmid": "42330313",
-     "date": "2026-06-22",
-     "title_zh": "大網膜瓣加固對食道切除術後吻合口洩漏的影響：納入微創與高流量現代系列的最新證據",
-     "score": 4,
-     "one_liner": "在9篇研究2227例食道切除術病人中，比較大網膜加固與無加固，發現吻合口洩漏降低（RR 0.32，ARR 7.9%，NNT 13）。",
-     "sim": 0.217
-    }
-   ]
-  },
-  {
-   "pmid": "42929021",
-   "title": "Long-term oncological outcomes of robotic versus laparoscopic total mesorectal excision for rectal cancer: COLRAR randomized clinical trial",
-   "journal": "Br J Surg",
-   "journal_full": "The British journal of surgery",
-   "issn": "1365-2168",
-   "issn_linking": "0007-1323",
-   "impact_factor": 9.4,
-   "if_year": "2026",
-   "year": "2026",
-   "month": "Oct",
-   "doi": "10.1093/bjs/znag114",
-   "ptype": "Randomized Controlled Trial, Multicenter Study",
-   "ptype_list": [
-    "Randomized Controlled Trial",
-    "Multicenter Study",
-    "Comparative Study"
-   ],
-   "authors": "Song S, Min B, Park J, Lee K, Kim N, Kim S",
-   "abstract": "BACKGROUND: Long-term oncological equivalence of robotic total mesorectal excision (R-TME) and laparoscopic total mesorectal excision (L-TME) remains unproven. The 5-year outcomes of the COLRAR RCT are reported.\nMETHODS: Adults with cT1-4a Nx M0 rectal adenocarcinoma within 10 cm of the anal verge were randomized 1 : 1 to L-TME or R-TME at three Korean tertiary centres between July 2011 and February 2016. Pre-specified secondary endpoints were 5-year overall, relapse-free, local recurrence-free, and distant recurrence-free survival. Analyses were on a modified intention-to-treat basis.\nRESULTS: Of 295 analysed patients (144 L-TME patients and 151 R-TME patients; median follow-up of 72.6 months), 5-year overall survival (92.6% versus 92.4%; P = 0.838) and relapse-free survival (81.9% versus 83.0%; P = 0.801) were similar. Local recurrence occurred in 4.9% (L-TME) and 1.3% (R-TME); 5-year local recurrence-free and distant recurrence-free survival did not differ (P = 0.076 and P = 0.655). In a post-hoc analysis of 146 patients who received neoadjuvant chemoradiotherapy, 5-year local recurrence-free survival was 98.6% in R-TME patients versus 90.7% in L-TME patients (P = 0.039).\nCONCLUSION: R-TME and L-TME produced equivalent 5-year oncological outcomes. A post-hoc analysis suggested improved local control with robotic surgery after neoadjuvant chemoradiotherapy, requiring confirmation in prospectively designed studies.\nREGISTRATION NUMBER: NCT01423214 (http://www.clinicaltrials.gov).",
-   "watched": [],
-   "related": [
-    {
-     "pmid": "42837183",
-     "date": "2026-10-07",
-     "title_zh": "機器人輔助與腹腔鏡全直腸系膜切除術（TME）後保留腸道（吻合）手術之比較：系統性回顧與統合分析",
-     "score": 6,
-     "one_liner": "在7133名接受TME之直腸癌病人（20篇研究）中，比較R-TME與L-TME，發現R-TME保留腸道手術機率較高（OR 1.43）。",
-     "sim": 0.331
-    },
-    {
-     "pmid": "42837183",
-     "date": "2026-10-08",
-     "title_zh": "機器人輔助與腹腔鏡全直腸系膜切除術（TME）中保留性（吻合）手術之比較：系統性回顧與統合分析",
-     "score": 5,
-     "one_liner": "在20篇研究、7133名直腸癌病人中，比較機器人與腹腔鏡TME，機器人保留吻合機率較高（OR 1.43）。",
-     "sim": 0.331
-    },
-    {
-     "pmid": "42551037",
-     "date": "2026-08-05",
-     "title_zh": "中低位直腸癌經肛門與腹腔鏡全直腸繫膜切除術（TME）之生活品質、腸道功能與長期腫瘤學結果比較（Ta-LaTME研究）：多中心隨機開放標籤試驗",
-     "score": 6,
-     "one_liner": "在105名中低位直腸癌病人（LaTME 57 vs TaTME 59）中，比較TME術式，5年局部復發6.4% vs 3.7%、重度LARS 30% vs 44%，均未達統計顯著。",
-     "sim": 0.228
-    }
-   ]
-  },
-  {
-   "pmid": "42928532",
-   "title": "AZUR-4, a Phase 2, Open Label, Randomized Study of Neoadjuvant Dostarlimab Plus CAPEOX Versus CAPEOX in Previously Untreated T4N0 or Stage III Mismatch Repair Proficient/Microsatellite Stable Resectable Colon Cancer",
-   "journal": "Clin Colorectal Cancer",
-   "journal_full": "Clinical colorectal cancer",
-   "issn": "1938-0674",
-   "issn_linking": "1533-0028",
-   "impact_factor": 2.7,
-   "if_year": "2026",
-   "year": "2026",
-   "month": "Jun",
-   "doi": "10.1016/j.clcc.2026.03.001",
-   "ptype": "Clinical Trial, Phase II, Randomized Controlled Trial",
-   "ptype_list": [
-    "Clinical Trial, Phase II",
-    "Randomized Controlled Trial",
-    "Multicenter Study"
-   ],
-   "authors": "Rasschaert G, Peddle A, Verbandt S, Tejpar S, West N, Ross J",
-   "abstract": "BACKGROUND: Recent evidence has suggested that neoadjuvant chemotherapy may provide clinical benefit for patients with locally advanced colon cancer. Immunotherapy may provide additive or synergistic effects when combined with chemotherapy. This study's objective is to assess the efficacy, safety, and tolerability of neoadjuvant dostarlimab in combination with capecitabine-oxaliplatin (CAPEOX) versus CAPEOX in patients with T4N0 or stage III mismatch repair proficient/microsatellite stable (pMMR/MSS) resectable colon cancer.\nMETHODS: AZUR-4 (NCT06567782) is a multicenter, phase 2, open-label, randomized (3:1 ratio) study of 120 patients across multiple countries. Eligible patients are aged ≥ 18 years with resectable pMMR/MSS colon adenocarcinoma with no prior treatment. Four cycles (21 days) of CAPEOX ± dostarlimab will be administered as neoadjuvant treatment. After completing neoadjuvant treatment, patients will undergo surgery 3 to 6 weeks later, with additional adjuvant chemotherapy administered after surgery at the investigator's discretion; no additional dostarlimab will be administered. Primary endpoints are major pathological response, determined by local assessment, and safety. Secondary endpoints will assess the feasibility and pathological response to the regimen. Exploratory endpoints include biomarker readouts and pathological response rate in biomarker subsets.\nCONCLUSIONS: AZUR-4 will evaluate the effect of neoadjuvant dostarlimab + CAPEOX in patients with previously untreated T4N0 or stage III pMMR/MSS resectable colon cancer, a population for whom improved treatments are urgently needed. The robust sampling and advanced analysis of pretreatment and posttreatment blood, tissue, and tumor samples planned for this trial should assist in elucidating immune profile analyses to support the discovery of novel predictive biomarkers in this population.",
-   "watched": [],
-   "related": [
-    {
-     "pmid": "42638754",
-     "date": "2026-08-26",
-     "title_zh": "含免疫治療之新輔助治療後採觀察等待策略於pMMR/MSS局部進展期直腸癌之多中心真實世界研究",
-     "score": 4,
-     "one_liner": "在25名接受含免疫治療新輔助治療後達cCR的pMMR/MSS LARC病人中採W&W，2年DFS為87.4%，92%避免根治性手術。",
-     "sim": 0.2
-    },
-    {
-     "pmid": "42638754",
-     "date": "2026-08-27",
-     "title_zh": "免疫治療為主之新輔助治療後於pMMR/MSS局部進展期直腸癌採觀察等待（W&W）策略：多中心真實世界研究",
-     "score": 4,
-     "one_liner": "在25名pMMR/MSS LARC病人中，含免疫治療新輔助治療後達cCR並採W&W，中位追蹤26個月，2年DFS 87.4%，92%避免根治手術。",
-     "sim": 0.2
-    },
-    {
-     "pmid": "42378717",
-     "date": "2026-06-30",
-     "title_zh": "ELECLA試驗：錯配修復功能正常（pMMR）局部進展期大腸癌患者接受含fluoropyrimidine及oxaliplatin之圍術期化療——最終結果",
-     "score": 5,
-     "one_liner": "在120名pMMR局部進展期大腸癌病人中，比較NAC+手術+AC與直接手術+AC，主要終點2年DFS無顯著差異(88.9% vs 83.3%, p=0.34)。",
-     "sim": 0.174
-    }
-   ]
-  },
-  {
-   "pmid": "42931879",
-   "title": "Timing of diverting ileostomy closure after low anterior resection for rectal cancer: a GRADE-assessed systematic review and meta-analysis of early and delayed closure",
-   "journal": "Langenbecks Arch Surg",
-   "journal_full": "Langenbeck's archives of surgery",
-   "issn": "1435-2451",
-   "issn_linking": "1435-2443",
-   "impact_factor": 2.2,
-   "if_year": "2026",
-   "year": "2026",
-   "month": "Oct",
-   "doi": "10.1038/s41598-024-79283-5",
+   "doi": "10.1002/14651858.CD014608.pub2",
    "ptype": "Systematic Review, Meta-Analysis",
    "ptype_list": [
     "Systematic Review",
     "Meta-Analysis",
     "Review"
    ],
-   "authors": "Mirza W, Ullah S, Babar M, Nand R, Hiraj U, Soomro I",
-   "abstract": "PURPOSE: To compare early and delayed diverting ileostomy closure after low anterior resection for rectal cancer, focusing on postoperative morbidity and recovery outcomes, and to assess the certainty of available evidence.\nMETHODS: PubMed/MEDLINE, Embase, Scopus, and Web of Science were searched from inception to 26th April, 2026. Five comparative studies (four randomized trials and one prospective cohort; 512 participants) were included. Random-effects meta-analyses evaluated overall post-closure morbidity as the primary outcome and severe complications, index-to-closure interval, postoperative hospital stay, operative time, and reoperation as secondary outcomes. Certainty was assessed using GRADE.\nRESULTS: Overall morbidity occurred in 52/257 patients after early closure and 50/255 after delayed closure (RR 1.06, 95% CI 0.66-1.71; τ²=0.12; I²=40%). Severe complications and reoperation did not differ statistically, with confidence intervals compatible with benefit or harm. The index-to-closure interval was 107.09 days shorter with early closure (95% CI - 153.01 to - 61.17; τ²=2023.39; I²=96%); this process measure was largely inherent to the group definitions. Hospital stay and operative time did not differ statistically.\nCONCLUSION: The available evidence does not demonstrate a statistically significant difference in postoperative morbidity but does not establish equivalence. Early closure may be considered in selected patients after postoperative recovery and assessment of anastomotic integrity; however, these findings do not support routine early closure in all patients.",
+   "authors": "Shiraiwa D, Riera R, Kleinubing D, Linhares M, Supported by the Cochrane Hepato-Biliary Review Group",
+   "abstract": "RATIONALE: Staged surgical procedures, such as two-stage hepatectomy and associating liver partition and portal vein ligation for staged hepatectomy (ALPPS) technique, use the liver regenerative capacity to stimulate growth of the future liver remnant. These procedures can be used in people with extensive colorectal liver metastases when the future liver remnant is too small to allow a safe postoperative recovery after major hepatectomy. Compared with conventional two-stage hepatectomy, although ALPPS results in faster and larger growth of the future liver remnant, the evidence regarding its impact on major postoperative complications, perioperative mortality, recurrence rates, and long-term survival is conflicting.\nOBJECTIVES: To assess the benefits and harms of liver partition and portal vein ligation for a staged hepatectomy (ALPPS) procedure versus conventional two-stage hepatectomy in people with colorectal liver metastases.\nSEARCH METHODS: We searched the Cochrane Hepato-Biliary Group Controlled Trials Register, Cochrane Central Register of Controlled Trials in the Cochrane Library, MEDLINE, Embase, three other databases, online trial registries, grey literature databases, and reference lists of identified studies; we also retrieved additional information from the included trial authors. Our last study search was on 4 December 2025.\nELIGIBILITY CRITERIA: Randomised clinical trials comparing ALPPS versus conventional two-stage hepatectomy in adults with colorectal liver metastases who were unable to undergo complete resection because the future liver remnant was estimated to be < 30% of the total liver volume.\nOUTCOMES: The critical outcomes were perioperative all-cause mortality at 90 days, all-cause mortality, serious adverse events, and health-related quality of life (HRQoL). Other important outcomes included overall survival, disease-free survival, and resection rate. For our primary analysis, we used data at the maximum follow-up, except for perioperative mortality, analysed at 90 days after operation.\nRISK OF BIAS: We used the Risk of Bias 2.0 (RoB 2) tool.\nSYNTHESIS METHODS: We used standard Cochrane methodological procedures to develop the review. We did not perform meta-analysis because only one trial met the inclusion criteria. We expressed dichotomous outcomes as risk ratios (RR), continuous outcomes as mean differences (MD), and time-to-event outcomes as hazard ratios (HR), all with 95% confidence intervals (CIs), using RevMan. We used the GRADE approach to assess the certainty of the evidence.\nINCLUDED STUDIES: The included trial was a six-centre, publicly funded, Scandinavian randomised clinical trial. The trial investigators randomised 100 participants (mean age: 65 ± 10 years; male-to-female ratio: 2.34:1.0). After randomisation, two participants in the ALPPS (1 severe comorbidity; 1 total liver volume > 30%) and one participant in the two-stage hepatectomy group (progressive disease) could not proceed to the intervention and were excluded. One other participant was lost to follow-up after emigrating. The trial was described in 15 publications. The trial provided data for all outcomes of our review. We followed the analytical approach reported by the trial authors, using a modified intention-to-treat population where applicable and available data otherwise.\nSYNTHESIS OF RESULTS: The evidence suggests that ALPPS, compared with two-stage hepatectomy, results in little to no difference in perioperative all-cause mortality at 90 days (RR 1.36, 95% CI 0.32 to 5.76; I2 not applicable; 1 study; 97 participants; low-certainty evidence) and probably results in little to no difference in all-cause mortality at maximum follow-up (93 months) (RR 0.86, 95% CI 0.72 to 1.03; 1 study, 97 participants; moderate-certainty evidence). The trial reported a mean quality-adjusted survival MD of 1.25 quality-adjusted life years (QALY) (95% CI 1.08 to 1.42) for participants randomised to ALPPS, and MD 1.11 QALY (95% CI 0.94 to 1.27) for participants randomised to two-stage hepatectomy, with an estimated MD between the groups of 0.14 QALY (95% CI -0.32 to 0.60). The evidence is very uncertain about the effect of ALPPS, compared with two-stage hepatectomy, on health-related quality of life (MD 0.14, 95% CI -0.26 to 0.54; 1 study, 97 participants; very low-certainty evidence) (maximal follow-up: two years) and on the rate of serious adverse events (maximal follow-up: 30 days) (RR 1.01, 95% CI 0.58 to 1.74; 1 study, 72 participants; very low-certainty evidence). ALPPS probably results in little to no difference in the overall survival of people with colorectal liver metastases (HR 0.72, 95% CI 0.42 to 1.24; 1 study, 97 participants; moderate-certainty evidence) (median 93 months) and results in little to no difference in disease-free survival (HR 0.91, 95% CI 0.59 to 1.40; 1 study, 97 participants; low-certainty evidence) (median 93 months), but probably results in a large increase in resection rates (RR 1.60, 95% CI 1.24 to 2.07; 1 study, 97 participants; moderate-certainty evidence) (maximum follow-up: eight weeks), compared with two-stage hepatectomy. We downgraded the certainty of evidence for risk of bias, indirectness, and imprecision.\nAUTHORS' CONCLUSIONS: Current evidence derives from data from only one randomised clinical trial, with a low number of participants and events. We are very uncertain about the effect of ALPPS on health-related quality of life and the rate of serious adverse events (30 days of follow-up) compared with two-stage hepatectomy. We are uncertain whether there is little to no difference between ALPPS and two-stage hepatectomy in perioperative mortality at 90 days after operation and in disease-free survival. ALPPS, compared with two-stage hepatectomy, probably results in little to no difference in all-cause mortality at maximum follow-up (93 months) and in overall survival of people with colorectal liver metastases (median 93 months), but probably results in a large increase in resection rates (eight-week follow-up). The certainty of the evidence for the presented outcomes was very low, low, or moderate. We lack randomised trials comparing these two strategies to identify the best approach for routine use in surgical practice. Evidence from low- and middle-income countries is lacking. The choice of ALPPS should carefully consider clinical characteristics of the patients. More high-quality trials with large numbers of participants are needed to provide information on the risks and benefits of ALPPS for people with colorectal liver metastases.\nFUNDING: This review does not have dedicated funding.\nREGISTRATION: Protocol: published 08 March 2022, available in the Cochrane Library at https://doi.org/10.1002/14651858.CD014608.",
    "watched": [],
    "related": [
+    {
+     "pmid": "42770376",
+     "date": "2026-09-23",
+     "title_zh": "經肛門管用於預防直腸癌手術後吻合口滲漏",
+     "score": 7,
+     "one_liner": "在4篇RCT共1318名直腸癌術後病人中，比較經肛門管與無處置，整體AL無差異(RR 0.88)，但有保護性造口亞組中肛管反使AL風險增加(RR 2.38)。",
+     "sim": 0.235
+    },
+    {
+     "pmid": "42770376",
+     "date": "2026-09-24",
+     "title_zh": "經肛管引流用於預防直腸癌手術後吻合口滲漏",
+     "score": 7,
+     "one_liner": "在1318名直腸癌手術病人中，比較經肛管與不使用，整體吻合口滲漏無顯著差異（RR 0.88），但有分流造口者滲漏風險反增（RR 2.38）。",
+     "sim": 0.235
+    },
+    {
+     "pmid": "42333672",
+     "date": "2026-06-23",
+     "title_zh": "治療克隆氏症誘導與維持緩解的生物製劑藥物：網路統合分析",
+     "score": 5,
+     "one_liner": "在66項誘導試驗（n=20,653）中，比較多種生物製劑與安慰劑，發現ustekinumab誘導緩解效果最確定（RR 2.01，NNTB=6）。",
+     "sim": 0.211
+    }
+   ]
+  },
+  {
+   "pmid": "42942952",
+   "title": "Immunonutrition vs. Standard Oral Nutritional Supplements in Prehabilitation for Colorectal Cancer Surgery: A Randomized Clinical Trial Assessing Morbidity and Body Composition by Computed Tomography",
+   "journal": "Nutrients",
+   "journal_full": "Nutrients",
+   "issn": "2072-6643",
+   "issn_linking": "2072-6643",
+   "impact_factor": 5.8,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.3390/nu18203381",
+   "ptype": "Randomized Controlled Trial, Comparative Study",
+   "ptype_list": [
+    "Randomized Controlled Trial",
+    "Comparative Study"
+   ],
+   "authors": "Ugalde B, Juez L, Ruiz-Torres I, Perea-Fuentes I, Martos S, DeVicente I",
+   "abstract": "Background/Objectives: Perioperative immunonutrition (IMN) has been proposed to improve outcomes after colorectal surgery. However, the evidence is heterogeneous, and few studies have assessed morbidity together with computed tomography (CT)-derived body composition. We compared IMN with standard oral nutritional supplementation (SONS) in patients undergoing colorectal cancer surgery, evaluating postoperative complications and changes in body composition. Methods: Two-arm open-label randomized clinical trial including sixty patients (SONS: n = 30; IMN: n = 30). Postoperative complications were assessed using the Clavien-Dindo classification, and the Comprehensive Complication Index (CCI). Body composition was quantified using pre- and postoperative CT scans, analyzing the skeletal muscle mass index (SMMI) and psoas area. Results: Baseline characteristics were comparable between groups, except for a higher age in the IMN group (p = 0.036). Overall morbidity was 40% in SONS and 50% in IMN (95%CI: -0.35 to 0.15). No differences were observed in the CCI (14.8 ± 23.1 vs. 15.7 ± 19.0, 95%CI: -11.8 to 10.0). Very major morbidity (Clavien ≥ IIIb) was comparable between groups (p = 0.687). At follow-up there was a decline in handgrip strength in SONS whereas it remained stable in IMN (p = 0.030 for the interaction). Also, there was a decrease in SMMI (-2.33, 95%CI: -1.19 to -3.48 cm2/m2) and psoas area (-1.15, 95%CI: -0.67 to -1.65 cm2) in SONS, whereas in IMN they remained stable: SMMI (-1.48, 95%CI: 1.04 to -3.99 cm2/m2), psoas area (-0.71, 95%CI: 0.36 to 1.78 cm2). Conclusions: IMN did not reduce morbidity compared with SONS when used as prehabilitation for colorectal cancer surgery. Exploratory findings suggested a possible attenuation of postoperative muscle loss with IMN.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42782000",
+     "date": "2026-09-26",
+     "title_zh": "免疫營養對大腸癌手術後感染併發症及存活之影響：一項隨機臨床試驗的長期追蹤結果",
+     "score": 5,
+     "one_liner": "在161名大腸癌手術病人中，免疫營養對5年DFS(80% vs 86%)及OS(88% vs 90%)皆無顯著影響。",
+     "sim": 0.181
+    },
+    {
+     "pmid": "42521230",
+     "date": "2026-07-30",
+     "title_zh": "口服營養補充品對大腸直腸癌術後接受化療病人之化療耐受性與整體存活影響",
+     "score": 5,
+     "one_liner": "在157名大腸直腸癌術後化療病人中，比較ONS加飲食衛教與單純飲食衛教，化療耐受不良率17.5% vs 35.1%(p=0.01)，5年死亡HR 0.58",
+     "sim": 0.174
+    },
+    {
+     "pmid": "42521230",
+     "date": "2026-07-31",
+     "title_zh": "口服營養補充劑對大腸直腸癌術後接受化療病人之化療耐受度與整體存活的影響",
+     "score": 6,
+     "one_liner": "在157名大腸直腸癌術後化療病人中，比較ONS與飲食衛教，化療耐受不良17.5% vs 35.1%，5年死亡HR 0.58(95%CI 0.34-0.98)。",
+     "sim": 0.174
+    }
+   ]
+  },
+  {
+   "pmid": "42942906",
+   "title": "Dietary Polyphenols as Adjunctive Therapy for Inflammatory Bowel Disease: A Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+   "journal": "Nutrients",
+   "journal_full": "Nutrients",
+   "issn": "2072-6643",
+   "issn_linking": "2072-6643",
+   "impact_factor": 5.8,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.3390/nu18203335",
+   "ptype": "Systematic Review, Meta-Analysis",
+   "ptype_list": [
+    "Systematic Review",
+    "Meta-Analysis",
+    "Review"
+   ],
+   "authors": "Dong Y, Xu H, Zhang D, Ren X, Wu X, Zheng Z",
+   "abstract": "BACKGROUND: Dietary polyphenols have been studied as adjunctive therapies for inflammatory bowel disease (IBD), but trials vary in formulation, clinical setting, and outcome definitions. We evaluated efficacy and safety separately for ulcerative colitis (UC) and Crohn's disease (CD).\nMETHODS: We searched MEDLINE/PubMed, China National Knowledge Infrastructure (CNKI), Wanfang, Web of Science, Embase, Cochrane Library, and ClinicalTrials.gov through 20 August 2026. Risk of bias was assessed using Cochrane Risk of Bias 2 (RoB 2). Meta-analyses used MDs, SMDs, or ORs with 95% CIs. Quantitative synthesis was undertaken when studies were sufficiently comparable in clinical setting, outcome definition, and data structure; otherwise, results were summarized using study-level estimates. The protocol was registered with PROSPERO (CRD420261451126).\nRESULTS: Twenty-one reports representing 19 randomized trials and 1048 participants were included. In conventional UC, polyphenols were associated with lower SCCAI scores (MD -1.32, 95% CI -1.81 to -0.83; I2 = 0%), whereas CRP/hs-CRP did not show a clear pooled effect (SMD 0.29, 95% CI -0.32 to 0.90; I2 = 83.7%). IBDQ-9 improved (MD 5.57, 95% CI 2.88 to 8.26). Clinical response favored supplementation (OR 4.90, 95% CI 3.04 to 7.89), as did induction of clinical remission (OR 5.98, 95% CI 3.08 to 11.59; I2 = 22.6%). Supplementation also favored endoscopic remission (OR 10.81, 95% CI 1.67 to 69.93; I2 = 69.4%), but the estimate was imprecise and sensitive to study-level risk of bias. In CD, the two randomized trials were not pooled due to targeting different clinical settings. Safety reporting was heterogeneous and sparse, with no consistent pattern of increased harm across trials.\nCONCLUSIONS: Curcumin has the most extensive adjunctive evidence base in UC but effect estimates for several outcomes were imprecise or sensitive to study design. Evidence in CD is still lacking.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42646603",
+     "date": "2026-08-27",
+     "title_zh": "丁酸鈉治療潰瘍性結腸炎：臨床前與臨床證據之系統性回顧",
+     "score": 3,
+     "one_liner": "系統性回顧22篇研究（10臨床試驗、1前瞻性觀察、11臨床前）評估丁酸鈉輔助治療UC，口服劑型令人鼓舞但整體臨床證據仍異質。",
+     "sim": 0.19
+    },
+    {
+     "pmid": "42646603",
+     "date": "2026-08-28",
+     "title_zh": "丁酸鈉治療潰瘍性結腸炎：臨床前與臨床證據之系統性回顧",
+     "score": 3,
+     "one_liner": "系統性回顧22篇研究（10臨床試驗、1前瞻觀察、11動物研究），發現口服丁酸鈉可能改善UC臨床緩解率，但證據異質且仍屬早期。",
+     "sim": 0.19
+    },
+    {
+     "pmid": "42332476",
+     "date": "2026-06-23",
+     "title_zh": "Etrasimod治療潰瘍性大腸炎之安全性與療效：統合分析證據",
+     "score": 3,
+     "one_liner": "在943名中重度UC患者(3項RCT)中評估etrasimod，發現顯著改善臨床反應、內視鏡改善、臨床及組織學緩解，但未附絕對數字。",
+     "sim": 0.185
+    }
+   ]
+  },
+  {
+   "pmid": "42944996",
+   "title": "Three-week ileostomy closure after colorectal surgery: a multicenter randomized trial of technical and postoperative outcomes",
+   "journal": "Tech Coloproctol",
+   "journal_full": "Techniques in coloproctology",
+   "issn": "1128-045X",
+   "issn_linking": "1123-6337",
+   "impact_factor": 2.6,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1016/j.ejca.2010.01.020",
+   "ptype": "Multicenter Study, Randomized Controlled Trial",
+   "ptype_list": [
+    "Multicenter Study",
+    "Randomized Controlled Trial"
+   ],
+   "authors": "Debakey Y, Mostafa M, Kilany A, Madkour A, Mohamed A, El-Mikkawy A",
+   "abstract": "BACKGROUND: The optimal timing of temporary ileostomy closure following restorative colorectal surgery remains controversial. Although previous randomized studies have demonstrated the feasibility of early closure in carefully selected patients, the influence of closure timing on operative complexity has not been prospectively evaluated. This multicenter randomized controlled trial compared a standardized 3-week ileostomy closure strategy with conventional delayed closure, with particular emphasis on technical and postoperative outcomes.\nMETHODS: In this prospective multicenter randomized controlled trial, 224 patients undergoing restorative colorectal resection with temporary diverting ileostomy were randomized to either early ileostomy closure at 3 weeks (n = 112) or conventional delayed closure (n = 112). Eligibility for reversal required rigorous confirmation of anastomotic healing using standardized clinical and endoscopic assessment, with selective computed tomography using rectal contrast when clinically indicated. The primary outcome was operative complexity, evaluated using operative duration, intraoperative adhesion severity, and the requirement for extended adhesiolysis. Secondary outcomes included postoperative morbidity, Clavien-Dindo complication grade, length of hospital stay, readmission, reoperation, re-diversion, and delay in adjuvant chemotherapy.\nRESULTS: Baseline demographic, clinical, and operative characteristics were comparable between the study groups. Early ileostomy closure was associated with significantly shorter operative duration (90 ± 12 vs. 130 ± 18 min; P < 0.001), substantially lower intraoperative adhesion severity (P = 0.04), and a markedly reduced requirement for extended adhesiolysis (5.4% vs. 21.4%; P < 0.001). Overall postoperative morbidity, Clavien-Dindo grade distribution, postoperative length of stay, readmission, reoperation, and mortality were comparable between groups. Delays in adjuvant chemotherapy occurred only in the early-closure group (3.6%), were limited to 1-4 weeks, and all affected patients subsequently commenced the planned oncologic treatment.\nCONCLUSIONS: In carefully selected patients with confirmed anastomotic healing, 3-week ileostomy closure is a technically feasible and safe strategy following restorative colorectal surgery. Compared with conventional delayed closure, reversal at 3 weeks significantly reduced operative complexity without compromising short-term postoperative outcomes. These findings support selective implementation of a standardized 3-week ileostomy closure strategy and identify operative complexity as a key determinant when selecting the optimal timing of ileostomy reversal.\nGOV IDENTIFIER: NCT05192018.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42931879",
+     "date": "2026-10-27",
+     "title_zh": "直腸癌低位前切除術後保護性迴腸造口關閉時機：早期與延遲關閉之GRADE評估系統性回顧與統合分析",
+     "score": 7,
+     "one_liner": "在512名直腸癌術後病人中，早、晚造口關閉的總併發症未顯著不同（52/257 vs 50/255）。",
+     "sim": 0.328
+    },
     {
      "pmid": "42722914",
      "date": "2026-09-13",
      "title_zh": "直腸癌手術後保護性迴腸造口早期關閉與延遲關閉之比較",
      "score": 6,
      "one_liner": "在387名直腸癌術後病人（9篇RCT）中，比較早期(≤30天)與延遲(≥12週)造口關閉，主要併發症無差異，EC排氣較快且成本較低。",
-     "sim": 0.273
+     "sim": 0.306
     },
     {
-     "pmid": "42728635",
-     "date": "2026-09-14",
-     "title_zh": "改良式Albert-Lembert結腸肛管吻合術合併保護性迴腸造口術，與Turnbull-Cutait拖出式延遲結腸肛管吻合術，於低位直腸癌括約肌間切除術（ISR）後之比較：單中心回溯性比較研究",
-     "score": 4,
-     "one_liner": "在100例低位直腸癌腹腔鏡ISR患者（58例DCAA、42例MALA）中，30天總體併發症率無顯著差異（32.8% vs 23.8%，p=0.378）。",
-     "sim": 0.259
-    },
-    {
-     "pmid": "42728635",
-     "date": "2026-09-15",
-     "title_zh": "低位直腸癌括約肌間切除術（ISR）後：改良Albert-Lembert結腸肛管吻合合併預防性回腸造口 vs Turnbull-Cutait拖出式延遲結腸肛管吻合（DCAA）之單中心回溯性比較研究",
-     "score": 3,
-     "one_liner": "在100名接受腹腔鏡ISR的低位直腸癌病人中（DCAA 58人 vs MALA 42人），比較兩種吻合重建方式，30天總體併發症無差異（32.8% vs 23.8%, p=0.378）。",
-     "sim": 0.259
+     "pmid": "42875765",
+     "date": "2026-10-15",
+     "title_zh": "直腸癌腹腔鏡低前位切除術後常規保護性迴腸造口與術後CRP／CT引導選擇性迴腸造口之比較：隨機對照試驗",
+     "score": 6,
+     "one_liner": "200例中低位直腸癌LAR中，CRP／CT選擇性對比常規造口，造口率22%比100%。",
+     "sim": 0.236
     }
    ]
   },
   {
-   "pmid": "42929025",
-   "title": "Combined versus staged resection of synchronous rectal cancer liver metastases: national target trial emulation",
-   "journal": "Br J Surg",
-   "journal_full": "The British journal of surgery",
-   "issn": "1365-2168",
-   "issn_linking": "0007-1323",
-   "impact_factor": 9.4,
+   "pmid": "42937728",
+   "title": "Effect of Danggui Buxue Medicinal Diet on cancer-related fatigue in anemic colon cancer patients undergoing chemotherapy: A randomized controlled trial (CONSORT-compliant)",
+   "journal": "Medicine (Baltimore)",
+   "journal_full": "Medicine",
+   "issn": "1536-5964",
+   "issn_linking": "0025-7974",
+   "impact_factor": 2.0,
    "if_year": "2026",
    "year": "2026",
    "month": "Oct",
-   "doi": "10.1093/bjs/znag121",
-   "ptype": "Comparative Study",
+   "doi": "10.1097/MD.0000000000051072",
+   "ptype": "Randomized Controlled Trial",
    "ptype_list": [
-    "Comparative Study"
+    "Randomized Controlled Trial"
    ],
-   "authors": "Marchegiani F, Dhote A, Nassar A, Mallet V, Pellat A, Jeddou H",
-   "abstract": "BACKGROUND: Optimal sequencing of rectal and liver resection for patients with resectable synchronous liver metastases (SLM) from rectal cancer remains controversial, and rectal-specific evidence is limited.\nMETHODS: A nationwide target trial (METASYNC-R) was emulated using the French national discharge database (2014-2023). Adults undergoing both rectal and liver resection for rectal cancer with SLM were eligible. Combined resection was compared with staged strategies (rectum- or liver-first within 14 weeks). Inverse probability of treatment weighting (IPTW) estimated the average treatment effect. Thirty-day severe complications (Clavien-Dindo grade ≥III) were analysed using marginal logistic regression with robust variance; overall survival was analysed using IPTW Cox proportional hazards models with cluster-robust standard errors. Landmark analyses at 3, 6, 12, and 24 months addressed potential immortal time bias.\nRESULTS: Among 9632 patients undergoing both resections, 3057 had SLM and 1872 met the eligibility criteria (median age of 64 years); 1365 (73%) underwent combined resection and 507 (27%) underwent staged resection. Severe complications occurred in 39.7% versus 45.3% (P = 0.20); combined surgery was not associated with an increased risk of severe complications (adjusted OR 0.82 (95% c.i. 0.58 to 1.16); P = 0.27). Major hepatectomy independently increased the risk of severe complications (adjusted OR 1.81 (95% c.i. 1.06 to 3.08); P = 0.029). Thirty-day mortality was similar (1.8% versus 1.5%). Median overall survival was 52.4 months (combined) versus 57.3 months (staged) (P = 0.30). Combined surgery was not associated with worse survival (adjusted HR 0.88 (95% c.i. 0.65 to 1.19); P = 0.40), with consistent findings across landmark analyses.\nCONCLUSION: In this nationwide rectal cancer cohort, combined and staged strategies were associated with comparable morbidity and long-term survival. Surgical sequencing should be individualized within multidisciplinary decision-making.\nCombined or staged surgery for rectal cancer with liver spread: which approach is safer? Background and aim Nearly one-third of patients with rectal cancer present with liver metastases at diagnosis. When both sites can be removed, surgeons can operate in one session (combined surgery) or in two steps (staged surgery). The authors compared both strategies for safety and survival. Method The authors used data from all French hospitals (2014–2023) and found 1872 patients who had both rectal and liver surgery. The authors used a method that mimics a clinical trial, using hospital records to make the comparison as fair as possible. Findings Serious problems after surgery—needing further surgery or intensive care—occurred in about 40% of patients in both groups. Median survival was 52 months after combined surgery and 57 months after staged surgery. Neither result was clearly better. Conclusion Neither approach was clearly safer or led to better survival. The choice should be made case by case in a specialist team, based on each patient’s own case.",
+   "authors": "Wang L, Yang L, Wang L, Liang X, Wang Y, Huang B",
+   "abstract": "BACKGROUND: Cancer-related fatigue (CRF) is one of the most common and distressing symptoms experienced by patients undergoing chemotherapy, and no gold standard for the treatment of CRF has been established. This study aimed to evaluate the effects of the Danggui Buxue Medicinal Diet on CRF in patients with chemotherapy-induced anemia following colon cancer surgery.\nMETHODS: A total of 96 patients admitted to the intestinal surgery ward and daytime chemotherapy ward of a tertiary hospital from May 2021 to December 2022 who met the inclusion criteria were selected and randomly divided into 2 groups: 48 patients in the control group and 48 in the experimental group. The control group received standard treatment and nursing care for postoperative chemotherapy for colon cancer, while the experimental group followed the control group's regimen and additionally received the Danggui Buxue Medicinal Diet for 21 consecutive days. Fatigue levels, blood counts, and inflammatory factors were compared before and after the intervention in both groups.\nRESULTS: A total of 86 patients completed the study. After the intervention, the CRF scores in the experimental group were significantly lower than those in the control group (29.14 ± 2.58 vs 44.02 ± 4.25), with a between-group mean difference of -14.88 (95% confidence interval [CI], -16.38 to -13.38; P < .001). Hemoglobin levels were significantly higher in the experimental group than in the control group (115.26 ± 11.72 vs 106.52 ± 12.93), with a mean difference of 8.74 (95% CI, 3.45-14.03; P < .001). Red blood cell counts were also higher in the experimental group (mean difference 0.61; 95% CI, 0.44-0.78; P < .001). In addition, levels of inflammatory factors were significantly reduced, with interleukin-6 showing a mean difference of -16.28 (95% CI, -20.10 to -12.46; P < .001) and tumor necrosis factor-α showing a mean difference of -26.09 (95% CI, -29.80 to -22.38; P < .001).\nCONCLUSION: The Danggui Buxue Medicinal Diet was associated with improvements in CRF, hematological parameters, and inflammatory markers in patients with chemotherapy-induced anemia following colon cancer surgery. These findings suggest that it may have potential as a supportive nutritional intervention for managing CRF in this population.",
    "watched": [],
    "related": [
     {
-     "pmid": "42377123",
-     "date": "2026-06-30",
-     "title_zh": "大腸直腸癌肝寡轉移病人中消融術與全身治療之先後順序：先消融versus延遲消融之全國性分析",
-     "score": 5,
-     "one_liner": "在1047名大腸直腸癌肝寡轉移病人中，比較先消融vs延遲消融併全身治療，發現先消融組PFS(1.48y)與OS(6.94y)皆優於延遲組(0.98y/4.74y)，HR均0.70。",
-     "sim": 0.173
+     "pmid": "42568201",
+     "date": "2026-08-09",
+     "title_zh": "心理行為介入對大腸直腸癌患者癌因性疲憊之效果：一項先導性隨機對照試驗",
+     "score": 3,
+     "one_liner": "在大腸直腸癌治療後患者（n=50）中，比較6週心理行為介入與常規照護，發現CRF顯著改善（p=0.014, g=-0.71），焦慮憂鬱未達顯著。",
+     "sim": 0.158
     },
     {
-     "pmid": "42674686",
-     "date": "2026-09-02",
-     "title_zh": "大腸直腸癌肝轉移切除術後肝內復發：再次肝切除 versus 熱消融術之傾向分數校正分析（併多重插補法）",
-     "score": 6,
-     "one_liner": "在150名CRLM切除後復發病人中，比較再次肝切除(n=94)與消融術(n=56)，發現OS相當(HR=1.330)但消融局部控制較差(LTPFS HR=4.540)、併發症較少。",
-     "sim": 0.17
+     "pmid": "42568201",
+     "date": "2026-08-10",
+     "title_zh": "心理行為介入對大腸直腸癌患者癌因性疲憊之影響：一項先導性隨機對照試驗",
+     "score": 3,
+     "one_liner": "在50名治療後大腸直腸癌患者中，比較6週心理行為介入與常規照護，發現CRF顯著減輕（p=0.014，Hedges' g=-0.71）。",
+     "sim": 0.158
+    },
+    {
+     "pmid": "42568293",
+     "date": "2026-08-09",
+     "title_zh": "運動性術前強化對大腸直腸癌手術後疲勞感之影響：PHYSSURG-C 隨機對照試驗之次分析結果",
+     "score": 4,
+     "one_liner": "在518名大腸直腸癌手術病患中，比較術前術後非監督式運動與常規照護，發現術後4週疲勞感ITT差異3.75分（p=0.05，CI貼近0）。",
+     "sim": 0.158
     }
    ]
   },
   {
-   "pmid": "42931976",
-   "title": "A comparison of extended right hemicolectomy and transverse colectomy with D3 lymph node dissection for pathological stage II/III advanced mid-transverse colon cancer",
-   "journal": "Int J Colorectal Dis",
-   "journal_full": "International journal of colorectal disease",
-   "issn": "1432-1262",
-   "issn_linking": "0179-1958",
-   "impact_factor": 2.9,
+   "pmid": "42934534",
+   "title": "Yield and efficiency of fecal immunochemical tests (FITs) for advanced colorectal neoplasia alone vs. with risk factors or risk prediction models: a descriptive systematic review",
+   "journal": "BMC Gastroenterol",
+   "journal_full": "BMC gastroenterology",
+   "issn": "1471-230X",
+   "issn_linking": "1471-230X",
+   "impact_factor": 3.2,
    "if_year": "2026",
    "year": "2026",
    "month": "Jul",
-   "doi": "10.1007/s00464-011-2071-9",
-   "ptype": "Comparative Study",
+   "doi": "10.1186/s12889-022-14274-7",
+   "ptype": "Systematic Review",
    "ptype_list": [
-    "Comparative Study"
+    "Systematic Review"
    ],
-   "authors": "Ota E, Ozawa M, Nakagawa K, Suwa H, Suwa Y, Endo I",
-   "abstract": "PURPOSE: To date, no study has focused exclusively on D3 lymph node dissection for mid-transverse colon cancer. The present study compared surgical and oncological results following extended right hemicolectomy (exRHC) and transverse colectomy (TC) with standardized D3 lymphadenectomy in patients with locally advanced mid-transverse colon cancer.\nMETHODS: Patients with stage II or III mid-transverse colon cancer who underwent D3 lymphadenectomy with central ligation of the middle colic artery (MCA) between January 2013 and December 2022 were divided into two groups by surgical procedure. We compared patient short- and long-term outcomes between the groups.\nRESULTS: Eighty-three patients (exRHC, n = 56; TC, n = 27) were analyzed. Overall complication rates (35.7% vs. 22.2%, p = 0.458) and Clavien-Dindo grade ≥ 3 complications (10.7% vs. 3.7%, p = 0.418) did not differ significantly between the exRHC and TC groups. In contrast, postoperative ileus occurred more frequently in the exRHC group (16.1% vs. 0%, p = 0.028), and the hospitalization duration was significantly longer in the exRHC group (8 vs. 7 days, p = 0.016). The 3-year relapse free survival (RFS) was 86.3% for exRHC and 80.3% for TC (p = 0.63), and the 3-year overall survival (OS) was 92.6% and 91.6%, respectively (p = 0.778).\nCONCLUSIONS: In advanced mid-transverse colon cancer with D3 lymph node dissection and central MCA ligation, exRHC associated with a higher risk of postoperative ileus and longer hospital stay than TC. Given similar oncologic outcomes, TC may be a more favorable surgical option owing to its faster recovery.",
+   "authors": "Imperiale T, Godfrey M, Thomas M, Sheel V, Hinrichs R",
+   "abstract": "BACKGROUND: Using the fecal immunochemical test (FIT) with risk factors for advanced colorectal neoplasia (AN - the combination of colorectal cancer and advanced precancerous polyps) could improve the yield of colonoscopy in both screening and diagnostic settings. In this systematic review, we evaluated: (1) yield and efficiency of FIT alone vs. FIT plus risk factors for screening and among FIT positive individuals; (2) study quality for these two settings.\nMETHODS: Following literature searches of Ovid MEDLINE and Embase from January 2010 to March 2026, two reviewers independently identified published English-language studies that evaluated FIT performance with and without risk factors among average-risk adults aged ≥ 40 years undergoing screening colonoscopy and among FIT positive subjects, independently extracted descriptive and numerical data, and evaluated study quality. We compared colonoscopy yield and efficiency of FIT alone versus FIT with risk prediction models and risk factors in screening and diagnostic studies.\nRESULTS: From 1891 articles, we identified 9 screening studies and 10 diagnostic studies for a positive FIT. Both groups of studies were homogeneous in design and of good quality. In the nine screening studies, age, sex, BMI, family history of CRC, and smoking were most often used with varying model metrics and varying degrees of discrimination, and with modest-to-moderate improvements in efficiency at the cost of missing a proportion of AN. Among the ten diagnostic studies, the combination of fecal hemoglobin, age, sex, and smoking had the greatest improvement on yield and efficiency, but also missed a small proportion of AN.\nCONCLUSIONS: In the screening setting, the yield of colonoscopy for AN improves when risk factors are used to stratify who is first screened with FIT vs. colonoscopy. In the diagnostic setting, risk factors help prioritize FIT-positive patients for diagnostic colonoscopy because of high risk for AN.",
    "watched": [],
    "related": [
     {
-     "pmid": "42478987",
-     "date": "2026-07-22",
-     "title_zh": "直腸癌手術選擇：系統性回顧與統合分析",
+     "pmid": "42470136",
+     "date": "2026-07-20",
+     "title_zh": "在FIT陽性閾值提供大腸鏡檢查之效果：高齡族群之迴歸不連續分析",
+     "score": 6,
+     "one_liner": "在FIT邊界值(80-120 ng/ml)之71-75歲2773名受試者中，比較大腸鏡轉診與否，10年CRC發生率降45.5%（12.1→6.6/千人年）。",
+     "sim": 0.234
+    },
+    {
+     "pmid": "42762153",
+     "date": "2026-09-21",
+     "title_zh": "使用糞便與血液檢測進行非侵入性大腸直腸癌篩檢：證據、可行性與公平性考量",
+     "score": 3,
+     "one_liner": "本綜述比較FIT、分子糞便檢測（mt-sDNA/RNA-FIT）與血液檢測於CRC篩檢之敏感度、特異度與可行性取捨，未提供具體數據。",
+     "sim": 0.221
+    },
+    {
+     "pmid": "42425152",
+     "date": "2026-07-10",
+     "title_zh": "多標靶糞便DNA檢測與糞便免疫化學檢測之比較：以種族與族裔分層之全國性後續大腸鏡追蹤評估",
      "score": 4,
-     "one_liner": "在3935名直腸癌病人（9篇研究）中，比較LS與OS，發現LS術後併發症較少（OR 0.64），存活與DFS無差異。",
-     "sim": 0.174
-    },
-    {
-     "pmid": "42478987",
-     "date": "2026-07-23",
-     "title_zh": "直腸癌手術選擇：系統性回顧與統合分析",
-     "score": 4,
-     "one_liner": "在3935名直腸癌病人（9篇研究）中，比較LS與OS，發現LS術後併發症較少（OR 0.64），存活與DFS無差異。",
-     "sim": 0.174
-    },
-    {
-     "pmid": "42671704",
-     "date": "2026-09-01",
-     "title_zh": "機器人輔助與腹腔鏡右半結腸切除術治療大腸癌之手術預後比較：單中心世代研究",
-     "score": 3,
-     "one_liner": "在125名右半結腸切除病人（LRC 75人 vs RRC 50人）中，比較機器人與腹腔鏡手術，手術時間RRC較長（290 vs 251分，p=0.05），併發症與OS/RFS無差異。",
-     "sim": 0.168
-    }
-   ]
-  },
-  {
-   "pmid": "42930599",
-   "title": "Online Information-Seeking Behaviour for Major Cancers: A 10-Year Infodemiological Study to Inform Public Health and Health Promotion Priorities in Hungary",
-   "journal": "Med Sci (Basel)",
-   "journal_full": "Medical sciences (Basel, Switzerland)",
-   "issn": "2076-3271",
-   "issn_linking": "2076-3271",
-   "impact_factor": 5.9,
-   "if_year": "2026",
-   "year": "2026",
-   "month": "Oct",
-   "doi": "10.3390/medsci14060681",
-   "ptype": "Observational Study",
-   "ptype_list": [
-    "Observational Study"
-   ],
-   "authors": "Gajdács M, Ilić I, Szabó-Kurucz D, Molnár R, Paulik E, Elmer D",
-   "abstract": "Background/Objectives: To analyse trends in online information-seeking behaviour for five major cancers in Hungary, compare them with global trends, and assess changes during the COVID-19 pandemic, cancer-related awareness campaigns, and major cancer-related events on search activity. Methods: A retrospective observational infodemiological study was conducted using Google Trends™ (GT) data for lung, colorectal, breast, prostate, and pancreatic cancers between 2013 and 2022. Search intensity was assessed using uncorrected relative search volume (RSVraw) as the primary measure, complemented by RSVsens, as an Internet penetration-adjusted sensitivity analysis. Descriptive statistics, parametric tests, time-series and seasonality analyses, Mann-Kendall tests, and joinpoint regression were performed using IBM SPSS Statistics 22.0, PAST 4.03, and Joinpoint 5.3.0 (α: 0.05; 95% confidence interval [CI]). Benjamini-Hochberg (BH) false discovery rate (FDR) correction was applied for multiple testing. Results: Among the cancer types relevant to our study, lung and breast cancer showed the highest reference-adjusted RSV (RSVref: 61) in Hungary, followed by prostate (RSVref: 59), colorectal (RSVref: 52), and pancreatic cancer (RSVref: 11); whereas globally, breast cancer ranked first (RSVref: 49). RSVsens showed significant decreasing trends for all five cancer types (Mann-Kendall, all p < 0.05), with average annual percentage changes (AAPCs) of -5.39% for lung, -4.06% for breast, -3.56% for colorectal, -3.59% for prostate, and -5.23% for pancreatic cancer, respectively (all p < 0.05). Breast and prostate cancers exhibited significant (p < 0.001) and recurring seasonal peaks. During COVID-19 (vs. the pre-pandemic period), mean RSV values decreased by 10-30% across all cancers; only colorectal cancer-related campaigns were associated with a notable increase in search intensity (+66.9%, p = 0.013, q = 0.058), although this association did not remain significant after FDR correction.. Symptom-related searches predominated, whereas screening- and prevention-related queries were infrequent during the study period. Conclusions: GT may be a useful complementary tool for monitoring public interest and evaluating public health communication. The absence of consistent increases in search activity during most campaign periods, together with the predominance of symptom-related queries, suggests that current communication initiatives may have limited measurable visibility in GT search behaviour and highlights the need to strengthen communication on cancer prevention and early detection.",
-   "watched": [],
-   "related": []
-  },
-  {
-   "pmid": "42928056",
-   "title": "The Traditional Chinese Medicine-Gut Microbiota-Colorectal Cancer Axis: Mechanistic Insights and Recent Progress",
-   "journal": "Am J Chin Med",
-   "journal_full": "The American journal of Chinese medicine",
-   "issn": "1793-6853",
-   "issn_linking": "0192-415X",
-   "impact_factor": 7.8,
-   "if_year": "2026",
-   "year": "2026",
-   "month": "",
-   "doi": "10.1142/S0192415X26500783",
-   "ptype": "Review",
-   "ptype_list": [
-    "Review"
-   ],
-   "authors": "Wang B, Dong Y, Liu K, Li S, Huang Y, Li A",
-   "abstract": "Colorectal cancer (CRC) remains a leading cause of global cancer mortality, with gut microbiota (GM) dysbiosis playing a critical role in its pathogenesis. Traditional Chinese Medicine (TCM) offers a holistic, multi-target approach and has shown increasing promise in CRC prevention and treatment through GM modulation. This review systematically proposes the \"TCM-GM-CRC\" axis and elucidates seven interconnected mechanisms through which it mediates the anti-CRC effects of TCM: Reshaping microbial balance by inhibiting pathogens and enriching probiotics; repairing intestinal barrier integrity through upregulation of tight junction proteins and mucin production; suppressing oncogenic and pro-inflammatory signaling pathways by pathogenic bacteria; remodeling the tumor immune microenvironment through immunocyte regulation; modulating microbial metabolites such as short-chain fatty acids, bile acids, and tryptophan derivatives; intervening in CRC cell metabolic reprogramming, including aerobic glycolysis and aberrant lipid metabolism; and inhibiting epithelial-mesenchymal transition and metastasis. Key herbal formulas and active compounds discussed include Canmei Formula, Wu Mei Wan, Gegen Qinlian Decoction, Banxia Xiexin Decoction, and Pien Tze Huang, as well as single compounds such as berberine, evodiamine, curcumin, ginsenoside Rh4, and sophocarpine, which exert anti-CRC effects through distinct GM-mediated pathways. We emphasize the synergistic and multi-dimensional role of TCM in targeting GM and its functional metabolites to combat CRC. To deepen the understanding of the \"TCM-GM-CRC\" interaction mechanisms, future research should integrate multi-omics technologies, germ-free models, fecal microbiota transplantation, and clinical translation. Additionally, the development of \"TCM-plus\" combinatorial strategies, microbiota-targeted nanodelivery systems, and medically formulated foods is advocated to advance CRC precision prevention and treatment centered on GM.",
-   "watched": [],
-   "related": [
-    {
-     "pmid": "42756094",
-     "date": "2026-09-19",
-     "title_zh": "傳統中醫藥重塑大腸直腸癌免疫微環境：機轉與治療展望",
-     "score": 2,
-     "one_liner": "本綜述整理TCM複方與單方於臨床前模型中調控CRC免疫微環境（抗原呈現、T細胞、腸道菌群等）之機轉假說，尚無臨床證據。",
-     "sim": 0.205
-    },
-    {
-     "pmid": "42756094",
-     "date": "2026-09-20",
-     "title_zh": "傳統中醫藥重塑大腸直腸癌免疫微環境：機轉與治療展望",
-     "score": 2,
-     "one_liner": "本綜述整理TCM可能透過調節腫瘤免疫微環境（抗原呈現、T細胞、腸道菌群等）增強CRC抗腫瘤免疫，但證據僅限前臨床動物/細胞模型。",
-     "sim": 0.205
-    },
-    {
-     "pmid": "42495627",
-     "date": "2026-07-25",
-     "title_zh": "腸道菌群衍生代謝物在胃腸道癌症中的作用：透過色胺酸-芳香烴受體（AhR）軸之免疫調節機制與轉譯觀點",
-     "score": 2,
-     "one_liner": "本文綜述腸道菌群代謝物（SCFAs、膽酸、色胺酸-AhR軸）在胃腸道癌症中的免疫調節機轉，屬概念性整理，無臨床數據。",
-     "sim": 0.199
-    }
-   ]
-  },
-  {
-   "pmid": "42929781",
-   "title": "Colorectal cancers with distinct metastatic potential trigger divergent early T cell responses",
-   "journal": "J Exp Med",
-   "journal_full": "The Journal of experimental medicine",
-   "issn": "1540-9538",
-   "issn_linking": "0022-1007",
-   "impact_factor": 11.6,
-   "if_year": "2026",
-   "year": "2027",
-   "month": "Jan",
-   "doi": "10.1084/jem.20261199",
-   "ptype": "Journal Article",
-   "ptype_list": [],
-   "authors": "Saad M, Thoms A, Yin Y, Mamede I, Rahman A, Chen R",
-   "abstract": "Colorectal cancer (CRC) remains a leading cause of mortality, with most cases refractory to immunotherapy. Distinguishing tumor-induced from steady-state mucosal T cell responses represents a critical barrier to understanding CRC immunity. Using orthotopic transplantation of CRC organoids with and without metastatic potential, combined with T cell fate-mapping, we show that nonmetastatic tumors elicit early recruitment of CD8αβ+ and CD4+ T cells with cytotoxic and Th1-like programs, whereas pro-metastatic (pro-Met) tumors induce a naïve-like, hypoactivated state. Tumor-infiltrating CD4+ T cells underwent clonal expansion, including clones recognizing microbial and dietary antigens. T cells physically interacting with tumors, identified by universal LIPSTIC, were enriched for expanded and cytotoxic clones. Fate-mapped T cells from nonmetastatic tumors suppressed tumor growth in an IFN-γ-dependent manner. Mechanistically, pro-Met tumors downregulated MHCII, and Ciita targeting in nonmetastatic organoids reduced CD4+ clonal expansion and led to tumor progression. Together, these findings define divergent early T cell trajectories associated with CRC metastasis, indicating that ineffective local immune engagement precedes metastatic dissemination.",
-   "watched": [],
-   "related": [
-    {
-     "pmid": "42527030",
-     "date": "2026-07-31",
-     "title_zh": "IL-27 塑造大腸直腸癌中NK細胞的異質性與功能",
-     "score": 2,
-     "one_liner": "在AKPS小鼠CRC腫瘤模型中，IL-27阻斷降低NK細胞浸潤、IFN-γ產生與未成熟亞群比例，人類CRC單細胞資料佐證IL-27訊號上升。",
-     "sim": 0.162
-    },
-    {
-     "pmid": "42527030",
-     "date": "2026-08-01",
-     "title_zh": "IL-27如何塑造大腸直腸癌中NK細胞的異質性與功能",
-     "score": 2,
-     "one_liner": "在CRC小鼠腫瘤模型與人類單細胞資料中，比較IL-27阻斷與否，發現IL-27維持腫瘤內NK細胞浸潤、IFN-γ產生及未成熟亞群比例。",
-     "sim": 0.162
-    }
-   ]
-  },
-  {
-   "pmid": "42930589",
-   "title": "From Dysbiosis to Symbiosis: Using the Gut Microbiome to Improve Cancer Outcomes",
-   "journal": "Med Sci (Basel)",
-   "journal_full": "Medical sciences (Basel, Switzerland)",
-   "issn": "2076-3271",
-   "issn_linking": "2076-3271",
-   "impact_factor": 5.9,
-   "if_year": "2026",
-   "year": "2026",
-   "month": "Oct",
-   "doi": "10.3390/medsci14060669",
-   "ptype": "Review",
-   "ptype_list": [
-    "Review"
-   ],
-   "authors": "Nassar S",
-   "abstract": "The gut microbiome has emerged as an important regulator of cancer biology, influencing carcinogenesis, treatment response, and therapy-related toxicity. This narrative review synthesizes current evidence on the mechanistic roles of the gut microbiota in gastrointestinal (GI) cancers and evaluates emerging microbiome-based strategies for improving cancer outcomes. Dysbiosis-characterized by altered microbial diversity, depletion of beneficial functions, and enrichment of disease-associated taxa-may contribute to tumorigenesis through interconnected mechanisms involving chronic inflammation, genotoxicity, metabolic dysregulation, epigenetic alterations, and immune evasion. Key cancer-associated bacteria, including Fusobacterium nucleatum, enterotoxigenic Bacteroides fragilis (ETBF), pks+Escherichia coli, and Helicobacter pylori, illustrate the mechanistic diversity of microbiota-associated carcinogenesis. Beyond cancer initiation, the gut microbiome can influence the efficacy and toxicity of anticancer therapies. In immunotherapy, specific microbial taxa and metabolites modulate antitumor immunity and immune checkpoint inhibitor (ICI) responses, while antibiotic-associated dysbiosis has been linked to poorer outcomes. In chemotherapy, microbial metabolism and microbiota-derived metabolites can alter drug efficacy and toxicity, including modulation of 5-fluorouracil (5-FU) activity. Microbiome-based biomarkers show promise for cancer detection and treatment prediction, with fecal microbial signatures, including F. nucleatum, potentially improving colorectal cancer (CRC) screening when incorporated into multimarker strategies. Therapeutic approaches aimed at restoring microbial symbiosis include fecal microbiota transplantation (FMT), which has shown preliminary potential to restore ICI responsiveness in treatment-refractory melanoma, and probiotic interventions, although clinical evidence remains limited. Emerging engineered microbial therapeutics, including tumor-targeting bacteria designed to deliver localized immunostimulatory payloads, are advancing toward clinical translation. Despite substantial progress, important challenges remain, including methodological heterogeneity, lack of standardized protocols, confounding factors, and unresolved safety concerns. Personalized strategies integrating microbial features with host characteristics and treatment context may ultimately enable more effective microbiome-based approaches to improve cancer outcomes.",
-   "watched": [],
-   "related": [
-    {
-     "pmid": "42882498",
-     "date": "2026-10-17",
-     "title_zh": "大腸直腸癌的腸道菌群—免疫軸：對免疫治療與臨床轉譯的意涵",
-     "score": 3,
-     "one_liner": "在CRC文獻（人數未報）中，整理菌群調節與免疫治療反應，無直接組間比較或量化效益。",
-     "sim": 0.31
-    },
-    {
-     "pmid": "42882498",
-     "date": "2026-10-18",
-     "title_zh": "大腸直腸癌的腸道菌群—免疫軸：對免疫治療與臨床轉譯的意涵",
-     "score": 3,
-     "one_liner": "在CRC文獻（人數未報）中，整理菌群調節與免疫治療反應，無直接組間比較或量化效益。",
-     "sim": 0.31
-    },
-    {
-     "pmid": "42843354",
-     "date": "2026-10-09",
-     "title_zh": "糞便微生物叢移植（FMT）在困難梭菌感染之外的應用：適應症擴展、機轉與未來方向",
-     "score": 2,
-     "one_liner": "本篇綜述探討FMT於CDI外之適應症（IBD、IBS、代謝/神經疾病）的機轉與證據，結論效益異質且有限，無具體數據。",
+     "one_liner": "在362,646名美國陽性糞便篩檢受試者中，比較mt-sDNA與FIT/FOBT，發現後續大腸鏡依從性77.1% vs 45.1%，各種族皆同。",
      "sim": 0.213
     }
    ]
   },
   {
-   "pmid": "42930461",
-   "title": "Marine-Derived Polysaccharides Against Ulcerative Colitis: Sources, Structures, and Multi-Target Mechanisms",
-   "journal": "Mar Drugs",
-   "journal_full": "Marine drugs",
-   "issn": "1660-3397",
-   "issn_linking": "1660-3397",
-   "impact_factor": 5.7,
+   "pmid": "42942505",
+   "title": "Diagnostic Accuracy of VE1 Immunohistochemistry for BRAF p.V600E in Colorectal Carcinoma: A Systematic Review",
+   "journal": "Medicina (Kaunas)",
+   "journal_full": "Medicina (Kaunas, Lithuania)",
+   "issn": "1648-9144",
+   "issn_linking": "1010-660X",
+   "impact_factor": 2.9,
    "if_year": "2026",
    "year": "2026",
-   "month": "Sep",
-   "doi": "10.3390/md24100332",
-   "ptype": "Review",
+   "month": "Oct",
+   "doi": "10.3390/medicina62101974",
+   "ptype": "Systematic Review, Review",
    "ptype_list": [
+    "Systematic Review",
     "Review"
    ],
-   "authors": "Zheng D, Wang X, Xiang Y, Wei S, Chen R, Lu Q",
-   "abstract": "Marine-derived polysaccharides have emerged as promising bioactive candidates for alleviating ulcerative colitis (UC), a chronic inflammatory bowel disease with limited therapeutic options. This review systematically summarizes recent advances in the sources, preparation methods, structural features, and multi-target mechanisms of these polysaccharides from seaweeds, marine animals, and microorganisms. Key physicochemical parameters, including molecular weight, monosaccharide composition, glycosidic linkages, and sulfation patterns, critically influence their anti-colitis efficacy. Mechanistically, these macromolecules synergistically restore gut microbiota homeostasis (e.g., promoting short-chain fatty acids and secondary bile acids), suppress inflammatory pathways (NF-κB, MAPK, and NLRP3), regulate immune responses (inhibiting dendritic cell and Th1/Th17 activation), alleviate oxidative stress via the Nrf2/HO-1 pathway, and reinforce intestinal epithelial barrier integrity (upregulating tight junction proteins and mucins). Although systematic toxicological characterization remains limited, the generally favorable safety profiles reported in preclinical studies, together with their multi-target nature, suggest that marine polysaccharides hold great potential as functional foods or adjunctive therapies for UC. However, challenges remain in structural heterogeneity, batch-to-batch consistency, and limited clinical validation. Future efforts should prioritize structure-activity relationship elucidation, advanced analytical characterization, bioavailability and gastrointestinal fate studies, standardization and quality control, comparative evaluation against conventional therapies and other natural products, and well-designed clinical trials to facilitate translation from bench to bedside.",
+   "authors": "Șușu O, Botoncea M, Serac G, Beleaua M, Sipos T, Tăurean O",
+   "abstract": "Background and Objectives: BRAF p.V600E status has diagnostic, prognostic, and therapeutic relevance in colorectal carcinoma. Molecular assays remain the reference methods, whereas mutation-specific BRAF (VE1 clone) immunohistochemistry offers a rapid tissue-based alternative. We evaluated VE1-molecular concordance and factors affecting diagnostic performance. Materials and Methods: PubMed/MEDLINE, Scopus, and Web of Science were searched in August 2025 and updated on 27 July 2026 for English-language original studies published from 2014 through the update date. Eligible reports applied VE1 and a recognized molecular reference method to the same colorectal carcinoma specimens or a defined overlapping cohort. Study selection and data extraction were performed by one reviewer and independently verified by a second reviewer. Risk of bias and applicability were assessed at the estimate level with QUADAS-3. Because of substantial clinical and methodological heterogeneity, no meta-analysis was performed, and the findings were synthesized descriptively. Results: Of 704 database records, 358 unique records were screened; 38 full-text reports were assessed and 28 were included. Twenty-three reports or defined subcohorts provided complete or clearly reconstructible 2 × 2 comparisons. Sensitivity ranged from 74.6% to 100% and specificity from 66.7% to 100%. Most optimized protocols exceeded 90% for both measures, whereas selected sampling, weak or focal staining, post hoc thresholds, protocol effects, and selective molecular verification reduced reliability. Conclusions: VE1 immunohistochemistry may provide a rapid, locally validated triage method for detecting BRAF p.V600E in colorectal carcinoma. However, substantial heterogeneity and recurrent risk-of-bias concerns limit the generalizability of the available estimates and do not support universal substitution for molecular testing. Equivocal, technically inadequate, or clinically discordant results require molecular clarification.",
+   "watched": [],
+   "related": []
+  },
+  {
+   "pmid": "42937757",
+   "title": "Comparative efficacy of common adjuvant treatments after resection of colorectal liver metastases: A systematic review and network meta-analysis",
+   "journal": "Medicine (Baltimore)",
+   "journal_full": "Medicine",
+   "issn": "1536-5964",
+   "issn_linking": "0025-7974",
+   "impact_factor": 2.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1097/MD.0000000000051187",
+   "ptype": "Systematic Review, Network Meta-Analysis",
+   "ptype_list": [
+    "Systematic Review",
+    "Network Meta-Analysis",
+    "Comparative Study"
+   ],
+   "authors": "Zhou Y, Wang Q, Liu L, Wang X, Xue M, Xu J",
+   "abstract": "BACKGROUND: Although adjuvant strategies such as systemic chemotherapy, regional nonsystemic chemotherapy, and ablation have been applied, the optimal adjuvant therapeutic strategy for resectable colorectal liver metastases remains uncertain in terms of overall survival and disease-free survival. This network meta-analysis aimed to determine the optimal adjuvant therapeutic strategy for patients with colorectal liver metastases.\nMETHODS: We searched potentially eligible studies in PubMed, Embase, Cochrane Central Register of Controlled Trials, and China National Knowledge Infrastructure databases until July 2026. Pooled disease-free survival (DFS) and overall survival (OS) were estimated using R software.\nRESULTS: Eighteen studies including 18 reports were included. For the DFS, except for adjuvant hepatic arterial infusion chemotherapy (CT, HAIC) concomitant with intravenous CT, adjuvant CT and perioperative CT significantly improved DFS compared with surgery and adjuvant HAIC. There was no statistical difference between all therapeutic strategies for OS. Adjuvant HAIC concomitant with intravenous CT had the highest probability of being the best treatment for improving DFS (85.01%), followed by perioperative CT (11.75%) and adjuvant CT (3.17%); however, adjuvant HAIC concomitant with intravenous CT had the highest probability of being the best adjuvant treatment for improving OS (52.46%), followed by perioperative CT (40.25%) and adjuvant HAIC (5.25%).\nCONCLUSION: Adjuvant CT may be the best for improving DFS, but perioperative CT may be the best for improving OS. However, the results should be validated further.",
    "watched": [],
    "related": [
     {
-     "pmid": "42865601",
-     "date": "2026-10-14",
-     "title_zh": "腸道益生菌介導潰瘍性結腸炎腸黏膜屏障保護作用之研究進展",
-     "score": 2,
-     "one_liner": "本文綜述益生菌（乳酸桿菌、雙歧桿菌、Akkermansia）透過多重訊號路徑保護UC腸黏膜屏障的機轉，無臨床試驗數據。",
-     "sim": 0.162
+     "pmid": "42761260",
+     "date": "2026-09-21",
+     "title_zh": "慢性B型肝炎與大腸直腸癌肝轉移圍術期化療療效：臨床與機轉之探索性分析",
+     "score": 3,
+     "one_liner": "在822名(PSM後630名)CRLM根治性切除病人中，比較圍術期與輔助化療，整體DFS無差異(HR=0.99)，但高風險CRS合併CHB者化療反應明顯較差(HR=4.31)。",
+     "sim": 0.245
     },
     {
-     "pmid": "42865601",
-     "date": "2026-10-15",
-     "title_zh": "腸道益生菌介導潰瘍性結腸炎腸黏膜屏障保護作用之研究進展",
-     "score": 2,
-     "one_liner": "UC益生菌綜述（人數未報）整理屏障保護機轉，未提供組間比較或臨床效益數據。",
-     "sim": 0.162
+     "pmid": "42372745",
+     "date": "2026-06-30",
+     "title_zh": "可切除大腸直腸腹膜轉移病人：術前後全身性治療 vs 單純手術之隨機對照試驗（CAIRO6）",
+     "score": 8,
+     "one_liner": "在351名可切除大腸直腸腹膜單純轉移病人中，比較術前後全身性治療+CRS-HIPEC與單純手術，整體存活44 vs 39個月無顯著差異（HR 0.85，p=0.28）。",
+     "sim": 0.17
     },
     {
-     "pmid": "42495627",
-     "date": "2026-07-25",
-     "title_zh": "腸道菌群衍生代謝物在胃腸道癌症中的作用：透過色胺酸-芳香烴受體（AhR）軸之免疫調節機制與轉譯觀點",
-     "score": 2,
-     "one_liner": "本文綜述腸道菌群代謝物（SCFAs、膽酸、色胺酸-AhR軸）在胃腸道癌症中的免疫調節機轉，屬概念性整理，無臨床數據。",
-     "sim": 0.162
+     "pmid": "42538503",
+     "date": "2026-08-02",
+     "title_zh": "早期與延遲化療對大腸直腸癌術後病人存活的影響：系統性回顧與統合分析",
+     "score": 6,
+     "one_liner": "在72,873名大腸直腸癌術後病人的11篇世代研究統合分析中，延遲化療較早期化療死亡風險增加（HR 1.32），>8週開始者風險更高（HR 1.47）。",
+     "sim": 0.159
     }
    ]
   },
   {
-   "pmid": "42928308",
-   "title": "Robotic rectal cancer surgery: oncological and functional outcomes, technical pitfalls, and unresolved controversies",
-   "journal": "J Robot Surg",
-   "journal_full": "Journal of robotic surgery",
-   "issn": "1863-2491",
-   "issn_linking": "1863-2483",
-   "impact_factor": 4.2,
+   "pmid": "42933393",
+   "title": "Hepatic steatosis in inflammatory bowel disease: practical questions and evidence-based answers",
+   "journal": "J Crohns Colitis",
+   "journal_full": "Journal of Crohn's & colitis",
+   "issn": "1876-4479",
+   "issn_linking": "1873-9946",
+   "impact_factor": 10.3,
    "if_year": "2026",
    "year": "2026",
    "month": "Oct",
-   "doi": "10.1159/000545418",
+   "doi": "10.1093/ecco-jcc/jjag175",
    "ptype": "Review",
    "ptype_list": [
     "Review"
    ],
-   "authors": "Zhu X, Yang X, Wang T, Wang T, Wang Y, Wang Y",
-   "abstract": "Total mesorectal excision (TME) remains the curative operation for rectal cancer. The male pelvis, obesity, and a narrow anal canal make rectal dissection the most demanding step in abdominal surgery, even for experienced surgeons. Robotic systems were introduced to address these constraints by providing a stable three-dimensional view, wristed instruments, and ergonomic control beyond that of conventional laparoscopy. Two decades after the first robotic TME, randomized trials (ROLARR and REAL), transanal TME trials, and more than a dozen meta-analyses permit a more measured assessment. To make that assessment clear and comparable, we organize it around a prespecified core set of outcome parameters rather than every metric reported in the literature: the primary oncological and surgical-quality outcomes are conversion to open surgery, circumferential resection margin (CRM) involvement, completeness of the mesorectal specimen, and long-term locoregional recurrence and disease-free survival; the primary functional outcomes are bowel, urinary, and sexual function, measured with validated instruments at fixed time points. Overall survival, distal margin, lymph node yield, general morbidity and anastomotic leak, operative time, blood loss, length of stay, quality of life, and cost are treated as secondary outcomes. Against this core set, robotic surgery consistently reduces conversion to open surgery. In the most informative recent trial, it also improved circumferential resection margin quality and three-year locoregional control in high-risk middle and low rectal cancers, without affecting overall survival. Functional benefits, including earlier recovery of urinary function and modest improvements in bowel and sexual outcomes, are plausible but supported by low-certainty evidence. Distinct pitfalls remain, ranging from arm collision and docking errors to distal-plane deviation and anastomotic failure, and the approach is slower and more expensive than laparoscopy. This review summarizes the oncological and functional evidence, relates technical errors to the operative sequence, and examines unresolved controversies: which patients benefit most, how robotics compares with transanal dissection, and whether fluorescence imaging, neuromonitoring, and new competing platforms alter the balance.",
+   "authors": "Gisbert J, Lucendo A, Chaparro M",
+   "abstract": "Hepatic steatosis is among the most frequent hepatobiliary abnormalities in inflammatory bowel disease (IBD), but its clinical interpretation is increasingly complex. This narrative review provides evidence-based guidance for gastroenterologists managing adults with IBD and hepatic steatosis. Cohort and meta-analytic evidence indicates that hepatic steatosis affects approximately one-quarter to one-third of patients with IBD, although estimates vary according to diagnostic method, population selection, disease phenotype, metabolic burden, and study design. Metabolic dysfunction-associated steatotic liver disease (MASLD) provides a useful framework for patients with cardiometabolic dysfunction, but a steatosis-centered approach is more inclusive in IBD because it accommodates lean or undernourished patients, inflammation-associated phenotypes, ileal or bile acid-related mechanisms, alcohol overlap, medication-related vulnerability, and mixed presentations. The main clinical priority is not merely to detect liver fat, but to identify meaningful fibrosis, cardiometabolic risk, and modifiable contributors. Normal aminotransferases do not exclude steatosis or fibrosis. Screening should be risk-based rather than universal. Fibrosis-4 index can be used pragmatically for initial triage in stable adults, but its IBD-specific limitations require cautious interpretation; transient elastography is most useful as a secondary fibrosis assessment or as a combined first test when readily available. Follow-up should be driven by fibrosis and cardiometabolic risk rather than by IBD alone, and hepatology referral should be reserved for elevated liver stiffness, persistent or cholestatic liver-test abnormalities, portal-hypertension features, suspected alternative liver disease, discordant tests, or clinically significant hepatic dysfunction. Hepatic steatosis alone should not determine IBD drug selection, although liver dysfunction and treatment-specific hepatotoxicity may modify monitoring or therapeutic choices.",
+   "watched": [],
+   "related": []
+  },
+  {
+   "pmid": "42942943",
+   "title": "Microbiota-Associated Metabolites as Biomarkers and Therapeutic Opportunities in Inflammatory Bowel Disease",
+   "journal": "Nutrients",
+   "journal_full": "Nutrients",
+   "issn": "2072-6643",
+   "issn_linking": "2072-6643",
+   "impact_factor": 5.8,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.3390/nu18203372",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Krysa K, Musz P, Ryś G, Serafin P, Wachowiak D, Jarmakiewicz-Czaja S",
+   "abstract": "Inflammatory bowel diseases, such as Crohn's disease and ulcerative colitis, are chronic inflammatory conditions of the gastrointestinal tract characterized by periods of active disease and remission. Their pathogenesis is multifactorial and involves genetic predisposition, immune response, environmental factors, and alterations in gut microbiota composition and function. Growing evidence suggests that gut microbiota-associated metabolites not only reflect disease activity but also participate in regulating the immune response and maintaining the integrity of the intestinal barrier. The most important groups of metabolites associated with inflammatory bowel diseases include short-chain fatty acids, bile acids, and tryptophan derivatives. Reduced fecal butyrate and acetate concentrations have been reported in inflammatory bowel diseases, although the diagnostic value of fecal short-chain fatty acids remains uncertain. Potential therapeutic approaches include short-chain fatty acid supplementation, particularly sodium butyrate, and dietary interventions aimed at increasing short-chain fatty acid concentrations; however, the clinical efficacy of short-chain fatty acid supplementation remains inconclusive, and evidence for dietary interventions is limited. In the future, the use of gut microbiota metabolites may be based on personalized strategies grounded in multiomic data, enabling precise modulation of the microbiota-metabolite-immune system axis.",
    "watched": [],
    "related": [
     {
-     "pmid": "42474600",
-     "date": "2026-07-21",
-     "title_zh": "2026年直腸癌機器人手術：證據的階層式評析",
-     "score": 6,
-     "one_liner": "敘述性綜述整合REAL試驗等證據，指出機器人TME於中低位直腸癌3年局部復發率1.6% vs. 4.0%優於腹腔鏡。",
-     "sim": 0.276
+     "pmid": "42358979",
+     "date": "2026-06-26",
+     "title_zh": "腸道微生物群代謝物在發炎性腸道疾病中的作用：機轉洞見的最新進展",
+     "score": 2,
+     "one_liner": "本綜述整合腸道微生物代謝物（SCFAs、膽酸、色胺酸衍生物）如何透過免疫調節網絡參與IBD致病機制，屬機轉性文獻回顧，無臨床數據。",
+     "sim": 0.298
     },
     {
-     "pmid": "42474600",
-     "date": "2026-07-22",
-     "title_zh": "2026年直腸癌機器人手術：證據的階層式評析",
-     "score": 6,
-     "one_liner": "敘述性綜述整合REAL試驗等證據，指出機器人TME於中低位直腸癌3年局部復發率1.6% vs. 4.0%優於腹腔鏡。",
-     "sim": 0.276
+     "pmid": "42646603",
+     "date": "2026-08-27",
+     "title_zh": "丁酸鈉治療潰瘍性結腸炎：臨床前與臨床證據之系統性回顧",
+     "score": 3,
+     "one_liner": "系統性回顧22篇研究（10臨床試驗、1前瞻性觀察、11臨床前）評估丁酸鈉輔助治療UC，口服劑型令人鼓舞但整體臨床證據仍異質。",
+     "sim": 0.255
     },
     {
-     "pmid": "42671667",
-     "date": "2026-09-01",
-     "title_zh": "在機器人時代重新定位經肛門全直腸繫膜切除術（TaTME）",
-     "score": 4,
-     "one_liner": "敘述性綜述重新評估機器人時代TaTME的定位，主張其為極低位腫瘤或困難骨盆的選擇性輔助，而非過時或萬用術式。",
-     "sim": 0.275
+     "pmid": "42646603",
+     "date": "2026-08-28",
+     "title_zh": "丁酸鈉治療潰瘍性結腸炎：臨床前與臨床證據之系統性回顧",
+     "score": 3,
+     "one_liner": "系統性回顧22篇研究（10臨床試驗、1前瞻觀察、11動物研究），發現口服丁酸鈉可能改善UC臨床緩解率，但證據異質且仍屬早期。",
+     "sim": 0.255
     }
    ]
   },
   {
-   "pmid": "42930172",
-   "title": "Circulating Tumor DNA (ctDNA) for Minimal Residual Disease (MRD) Detection in Colorectal Cancer (CRC): Current Evidence, Clinical Applications, and Future Directions",
-   "journal": "Curr Oncol",
-   "journal_full": "Current oncology (Toronto, Ont.)",
-   "issn": "1718-7729",
-   "issn_linking": "1198-0052",
-   "impact_factor": 3.6,
+   "pmid": "42935770",
+   "title": "Modulation of Toll-like receptor signaling by intestinal bacteria in colorectal cancer",
+   "journal": "Front Cell Infect Microbiol",
+   "journal_full": "Frontiers in cellular and infection microbiology",
+   "issn": "2235-2988",
+   "issn_linking": "2235-2988",
+   "impact_factor": 5.5,
    "if_year": "2026",
    "year": "2026",
-   "month": "Oct",
-   "doi": "10.3390/curroncol33100606",
+   "month": "",
+   "doi": "10.1172/jci.insight.150607",
    "ptype": "Review",
    "ptype_list": [
     "Review"
    ],
-   "authors": "Hyde H, Mageau E, Leduc C, Madhu M, Dickinson N, Nisa T",
-   "abstract": "Minimal residual disease (MRD) is a major contributor to colorectal cancer (CRC) recurrence following curative-intent treatment, yet conventional surveillance methods may fail to detect residual disease at its earliest stages. Circulating tumor DNA (ctDNA) has emerged as a minimally invasive biomarker for MRD detection and postoperative monitoring. We conducted a structured PubMed-based literature review and included 94 publications evaluating ctDNA in CRC. Across the literature, postoperative ctDNA positivity was consistently associated with increased recurrence risk and poorer disease-free and overall survival, while serial monitoring improved detection sensitivity and enabled assessment of treatment response. ctDNA frequently identified molecular recurrence approximately 2.5-11.5 months before conventional surveillance. Both tumor-informed and tumor-naive strategies were represented, using PCR/ddPCR, targeted next-generation sequencing, whole-exome or whole-genome sequencing, methylation-based assays, and emerging multiomic approaches. Although ctDNA demonstrates strong prognostic value, evidence supporting treatment modification based solely on ctDNA status remains limited. Further prospective randomized trials, assay standardization, and consensus clinical guidelines are required before routine implementation. Overall, ctDNA is a promising tool for recurrence prediction, surveillance, and precision management of CRC.",
+   "authors": "Wang S, Chen D, Yang D, Gao L, Zhang Y",
+   "abstract": "The gut microbiota contributes to intestinal homeostasis through dynamic interactions with epithelial, immune and stromal cells. Disruption of the balance, often termed dysbiosis, has been associated with colorectal cancer (CRC). At the same time, selected commensal bacteria have shown protective effects. Toll-like receptors (TLRs) provide an important molecular interface through which host cells detect bacterial components and initiate cellular responses. This Mini Review examines current evidence that intestinal bacteria and their products modulate TLR signaling in CRC, with effects that may promote or restrain tumor development. The reported mechanisms involve CRC cells as well as immune and stromal compartments within the tumor microenvironment. The available evidence does not support assigning a fixed biological effect to a bacterial species or TLR. Instead, the reported outcomes appear to vary with the nature of the bacterial stimulus, the responding cell and the disease setting. Resolving this context dependence may clarify how host cells translate bacterial stimuli through TLRs into responses that influence CRC progression and treatment response.",
    "watched": [],
    "related": [
     {
-     "pmid": "42791456",
-     "date": "2026-09-27",
-     "title_zh": "可切除胃癌與胃食道交界腺癌之圍術期循環腫瘤DNA：分子殘留病灶、復發預測，以及治療調整之可試驗框架",
-     "score": 3,
-     "one_liner": "綜述文章整理可切除胃癌／胃食道交界癌圍術期ctDNA證據，指出術後陽性與復發相關，但缺乏隨機證據支持治療調整。",
-     "sim": 0.358
-    },
-    {
-     "pmid": "42791456",
-     "date": "2026-09-28",
-     "title_zh": "可切除胃癌與胃食道交界腺癌之圍手術期循環腫瘤DNA：分子殘留疾病、復發預測與治療調整之試驗準備框架",
-     "score": 3,
-     "one_liner": "此篇綜述整理胃癌／胃食道交界癌圍手術期ctDNA證據，指出術後陽性與復發相關，但治療導引之隨機證據仍缺乏。",
-     "sim": 0.358
-    },
-    {
-     "pmid": "42345857",
-     "date": "2026-06-25",
-     "title_zh": "EMPIRE (NSABP FC-13)：一項以生物標記為導向之第二期平台試驗，評估以cemiplimab為基礎的免疫治療於微衛星穩定（MSS）大腸直腸癌合併ctDNA定義之微小殘留病灶（MRD）患者",
+     "pmid": "42827773",
+     "date": "2026-10-05",
+     "title_zh": "大腸直腸癌中的嗜中性球胞外誘捕網：腫瘤防禦與疾病進展的矛盾交會點",
      "score": 2,
-     "one_liner": "此為試驗計畫書，介紹EMPIRE平台試驗設計，將於MSS CRC合併ctDNA-MRD患者中測試三種cemiplimab為主的免疫治療組合，尚無任何結果數據。",
-     "sim": 0.28
+     "one_liner": "本文綜述NETs在CRC發炎致癌、腫瘤生長、轉移及治療抗藥性中情境依賴的矛盾角色，無原創臨床數據。",
+     "sim": 0.17
+    },
+    {
+     "pmid": "42827773",
+     "date": "2026-10-06",
+     "title_zh": "大腸直腸癌中的嗜中性球胞外誘捕網：腫瘤防禦與疾病進展的矛盾交會點",
+     "score": 2,
+     "one_liner": "本綜述整理NETs在CRC發炎致癌、腫瘤進展、轉移及治療抗性中情境依賴的機轉角色，未提供原創臨床數據。",
+     "sim": 0.17
+    },
+    {
+     "pmid": "42883711",
+     "date": "2026-10-18",
+     "title_zh": "母胎暴露體與生命早期微生物群－模式辨識受體訊號在發炎性腸道疾病易感性中的角色：機制性綜述",
+     "score": 2,
+     "one_liner": "在人類與實驗文獻中（人數未報），整合早期暴露與IBD易感性機制，未提供量化比較效果。",
+     "sim": 0.158
+    }
+   ]
+  },
+  {
+   "pmid": "42933423",
+   "title": "Pitfalls and Complications During Common Anorectal Procedures",
+   "journal": "Surg Clin North Am",
+   "journal_full": "The Surgical clinics of North America",
+   "issn": "1558-3171",
+   "issn_linking": "0039-6109",
+   "impact_factor": 2.5,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Dec",
+   "doi": "10.1016/j.suc.2026.06.010",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Brown J, Okonkwo A, Gagliano R, Clark C",
+   "abstract": "Nonoperative hemorrhoid procedures are generally less painful and complicated than operative ones, though surgery is sometimes necessary. Surgeons must understand the risks and complications of all procedures. Most acute anal fissures heal with nonoperative therapy, but surgery is sometimes needed. Lateral internal sphincterotomy offers the highest healing rate but risks continence changes, so sphincter-sparing options should be considered for high-risk patients. Anal abscess management (incision and drainage ± fistula procedure) risks defecatory dysfunction if the cause, location, and complexity are ignored.",
+   "watched": [
+    "hemorrhoid"
+   ],
+   "related": [
+    {
+     "pmid": "42321429",
+     "date": "2026-06-20",
+     "title_zh": "深部肛周膿瘍治療：切開引流術與切開引流併括約肌間廔管結紮術（LIFT）之比較",
+     "score": 5,
+     "one_liner": "在111名深部肛周膿瘍患者中，比較單純切開引流與切開引流併LIFT，6個月持續性廔管38.2%對5.7%（P<0.001）。",
+     "sim": 0.196
     }
    ]
   }
  ],
- "submission_id": "f23369bd1d69429fa1455a7dd9fa7726",
- "state": "submitted",
- "input_file_id": "file-TxmdNErk1fPPgTsaRSaMMw",
- "input_sha256": "9b50edc02ad6be1fa7398d68a798a8812fd743aeea44b4bcc42d61b8becfec91"
+ "submission_id": "8c7ba6dc296f4c63b90283893ce133dd",
+ "state": "preparing"
 }
