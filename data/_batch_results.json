@@ -1,60 +1,60 @@
 {
- "batch_id": "batch_6ae149bca71081909de0f5b31ce87b13",
+ "batch_id": "batch_6ae2a3b087e08190bc8a5e83bde76bdc",
  "provider": "openai",
- "retrieved_at": "2026-10-28T09:05:56+08:00",
+ "retrieved_at": "2026-10-29T09:42:29+08:00",
  "status": {
-  "id": "batch_6ae149bca71081909de0f5b31ce87b13",
+  "id": "batch_6ae2a3b087e08190bc8a5e83bde76bdc",
   "object": "batch",
   "endpoint": "/v1/responses",
   "model": "gpt-6.1-sol",
   "errors": null,
-  "input_file_id": "file-SSA1vRzLTCFM2CHRMdJixP",
+  "input_file_id": "file-T4aCkNFqssDPoW8wAxXmx6",
   "completion_window": "24h",
   "status": "completed",
-  "output_file_id": "file-5Yy4w7oC1dEzEGxv7SYnNp",
+  "output_file_id": "file-6UVEfxRJxtH87gnnPLz1YQ",
   "error_file_id": null,
-  "created_at": 1793149372,
-  "in_progress_at": 1793149434,
-  "expires_at": 1793235772,
-  "finalizing_at": 1793149551,
-  "completed_at": 1793149552,
+  "created_at": 1793237936,
+  "in_progress_at": 1793237998,
+  "expires_at": 1793324336,
+  "finalizing_at": 1793238120,
+  "completed_at": 1793238122,
   "failed_at": null,
   "expired_at": null,
   "cancelling_at": null,
   "cancelled_at": null,
   "request_counts": {
-   "total": 12,
-   "completed": 12,
+   "total": 8,
+   "completed": 8,
    "failed": 0
   },
   "usage": {
-   "input_tokens": 39159,
-   "output_tokens": 22723,
-   "total_tokens": 61882,
+   "input_tokens": 25450,
+   "output_tokens": 13798,
+   "total_tokens": 39248,
    "input_tokens_details": {
     "cached_tokens": 0
    },
    "output_tokens_details": {
-    "reasoning_tokens": 3521
+    "reasoning_tokens": 2195
    }
   },
   "metadata": {
    "app": "pubmed-for-crs",
-   "submission_id": "8c7ba6dc296f4c63b90283893ce133dd"
+   "submission_id": "b9fb01ec74514de69a661d910f64e531"
   }
  },
  "messages": {
-  "42937256": {
-   "id": "resp_0be87c7fa767405e016ae14a02ac6087d19e60c1fd0a085053",
+  "42936896": {
+   "id": "resp_0fd9fccb906d94ed016ae2a3f1ef9487d1a8e70eda0cf2e5c3",
    "object": "response",
-   "created_at": 1793149442,
+   "created_at": 1793238001,
    "status": "completed",
    "access_programs": null,
    "background": false,
    "billing": {
     "payer": "developer"
    },
-   "completed_at": 1793149473,
+   "completed_at": 1793238030,
    "error": null,
    "frequency_penalty": 0.0,
    "incomplete_details": null,
@@ -65,14 +65,14 @@
    "moderation": null,
    "output": [
     {
-     "id": "rs_0be87c7fa767405e016ae14a044d5887d19b18e93a77f51ef2",
+     "id": "rs_0fd9fccb906d94ed016ae2a3f35e3c87d1bdd94a741cb199b7",
      "type": "reasoning",
      "content": [],
-     "encrypted_content": "gAAAAABq4UohUZGYTu7Z5xtQJt8TZAkeaJiZDOkR0fD4HMLgQWxR0PK6ESHzA0VAYlaFIyMFv6l87Hkxn_tiUDVWSfM7W8TAoiJCyKE4kbbGt0-wimAT4TR3qSS_cwbrNO3gprRghYO2juCepUgRqtwfJhCxfE-aB7Vzb8K3gFvnnu-IGHZ8wMN860jiXvJrGf9OArlMdAVWnobdcUHZh4Zh5OZOto25QpqVTxme6QJYjdcVXlus74Js9g_naimQ1tqsyjahu6qTgaGwtUUe4zkhTllcLVtgNa2OZkXJHV0ovDMWDpfmr7ubs5SuiUjI06hgJz1knATG3sJ380M2SwEzjzpnw1NMzQmVx2f81rgLjydMpbFD3O3fmY3cudZt2E-nr57zAYfiY1mSDt7wmo0mMrc36sDYL-PaXYTnYa9EGdhTT9hthvtAaVBZ5TaDid-IdivYVr-WezEATyBgjrmsbLJ650o7h93FX3Dn_9JPWpU4MzE_6DB8xz0430G2f6ZXkLLFPxwTUlaQQ8DP4XZtYaOqXb7wPEcIzDlIqmryBwlhu_J47ZCAoS3p-sNyL3hg8LNMeCv8ZSMfWBxJGNRJcZWPE2VMtWuI7832dIYfjNcItzLoJZYDDkWGpSRgB2ToX5PLfoik6HMQ1qk8PJLrBFl7vtcv_-MtvUrkx4AwjbZlUKOOb2mQCycrvBPnnnbpwhSihTrdjnb6IkSkZEvFaV4Vv_Wl38GlBSpaHGCpLuPJ5-FI8V_B_jLCcA4GhD3zSIRSWlc9BkUZDRHyiizY32-_353qJF_MY9T_NekyD5yf4eYmIDl7zoOKpQf0jt0YneiWDzj-qN_czwVJJbcJ_QPr1bGfB-n1SNTw2cY_bdOKbjwtqWdeTP2YSTn_WILVbVpESt50dZ5Qtu2yUrqv33scP8cIZKCPINrf0KOBaFBLl16jXcCRAShBCvabHVdKAu2UV79ZNjXZ47N5SUOyA0tjUYWp7VDuWV-K7kXdB-LAH1xo27Cso943n9Lsh7sTsrgqOrASoRZumojydxdDZee4Qkna_Op7AE2NOg-4mc9lAkZFMNkDf9Wt54omecoBpqdYXevYesJXBXw-Y4fT6B5CuJOYopXTx_FlK4E-ess5QxkMriIsf7vVFWWSkfZDMWP7OqIAU8La02lPLv_ypkbzAzB-eDfCcwTWeOofxo0QhQuqGPDk2m0h9j7RzkwM3B6B_7bGYXjg9YIZIs4yTK8hUI1TS5WH9J7o-tZY0kAo-UvNHx2DFxQwbrjH-ZCu-ykB9w0DU83slX8POWyzIu2x1MHOZ_issw4PKoji5bhEudfP0p1reCM9KsGnm3Bw8L6nQo1twdrPI0PDxUR3WB1Mf2_7ohe6tO0B7hbj1LaKhH3Q0E26tKI6s3pTMBsoonJobK2JUGYZkwyIkgvNVonqYDND4JYzdiWP5CAnu5w4rIhOlUPbaFUeE1WheJQE7GSMjAHBOuPSsmeVnbEZ1NlBhiD1w7tbmwHng_ZRg2K-EXjp0v4dRI0wDktzAIQQ4bS8bk88hz3DR9EuZB1iXu-CSw4fRmC7pt4MQVISDSBMU0yGR18ymFufyqNHVNiY_pyRz5zC9n0NucTZUizIdlz2kTpuJLL9jbPjReUHBWtxuVL9VMUoXAbUOa2RY8NApMw_YbmcfXUb73D8CoTL8ib_ppsp2yP_MyhemlHuwUcTwbKgdWZYXpJOste7lG6iqoOxe2Xo1rdKApcryYPivae_eaIsa7LoPo4FfiEkS8nb-NC5HArndX8cT6GNBxb1y1uhhoafuXJvRfrOCWC8TfFQk_gtXY847PdDK8yjl-u-mccH1b0KtrV_3sI7DjcNLdkaUMIDYuvkjXtp3811Nzm4vY0TS2jgmytyNqGdl_SXrJM4bcsARGDuLtf1CTj_IKEvtNcMxERieq_Vm6RNR3gu9usqjJXAc5ez9y1ql-kYnjMbjn_1_DjRiN5uIFkXZneck1NfVs4O1ZVREyci1xYD-tlFYlxjfo6Jb_8ildyV4w0N8UMykaviUYpJjwkxrUySzfkF5jFHmDBchHePbP_SwvLSHvBleYZrougzNjJl2xUP1a3GX7VHxkkpiCZHrV3VNXyO3xh3aS34aWpbqbKmvclvEOOnW-XAPY5JbnFuB_2AHpzyLUdhwOShTCZQJHVaI7TwRTus_66S2PM3hKuP6lXByjUab27pqHUoGXjxzW4CE77-fjIuT58ztYAsU0xz-4ngdsgKxGCw29I2AnCpO0tLpVbvvse5P65_oyflo_W79gth1tmJdNsq7U-6Nb1GrhD1kerVUxzPBwx15Zguqace3okJh7iy20VIQzkW2EEK6vE8ohkK-8Ne6SUvVgZLj_kyf1sa1HUWn07coEfpi8iscWaImZvcU70RMejaRuer8On5trcXw9WXTdoPTSDi-XsX3f-AXKu7chunGbWrfg1b4VBuk9Sngba1BDLJzDp4OgPatpC0hGoVYtL1aLBZq93jYwKGSoPofjOWkEqAslsKn22NW9plWVNvm7CR5247FfJiNSD_DcVxYqcQJ5-MCGRmSElnS98Hwc2PZ87mMq1i8Kbml7m3NSp2eVHPJtYiiS09Pk4BfSGMsHFPkgB6zbvaJ4LX2GIyKJyjn6A726jT5hoR3nXnOnEad7MW_ENAcmgDIAgRSHsj2i8GIUwbi15Hr6bRqaFyE3oSdVIHteoRUoD29oCuyYBbdcSwpa9-DHDvTs8SKbZzacXcCqGtH4JQvuvx0gRMySbGr-3BW3sfLCzJAilzuaTZSWCbw8BiyjjLgJQnwyIGnMwXjoHbbF5nUPD6hb0UfurdmoamcoFrPyHXjjgSS9DoxL0omLKkmRNNKpQ70Fd8KskqKu0rOrvdsDQVMxx4jqyI_iFm-V_Vn6lVJdWFh2E2JaE27eEJnJcgzpRQINfjGGV2g0NbId18514bCaAhSFJv2S4n6Je_nQgMT_nuK9NJQgR7MT2JEcSQe-L5ZhltmDBFvtBFoH2lhIM7uIRVZuQQmke_G-_uHiPTZAapnhbN3O6yhB0SjGUOwHSKJjyn1-VueZ1GFki6M7wDqVCFAXmp-NhvmX3ncHhhweLOeFBhGb56kqbI8jXviB1nwV62HDPcdJ3-2Enb0fjEaq3QMslCW462Uxyf5NOxkDkL2LaYdzGv_mjQHbj_rMMwmqGQiVlAyPnwz3sf-v4XxP-462x6bOERgmEi9diTfL3kJTDdquD71Ljpw9aJAVbc2SGz2On0i8pb9hZqXI9KpaoG3FW2q2MrPmLTfi9zNXxarY81ZBwO2zgtEWk4vtdnwBfTj-BPpdIWfd4NJllREIL2LfkPRIVxA7mfJFsbzN05HLGUxP3W_bkl_tLa9IMLiL6rEvUh__j-vKtQgYihHws29ZGcwYLHstsyGZODRtiZU2oyvQUvt7vMga0ZrXKOkgxKGp9qN_pjpJpn-e8k8S5pB4cql_DSZ4LDKtofvqmFueA9ljP0HZMcRpLBbvxa1XFFbyLX3VMWSD-SJzXT780KRDKedAeMnZ5r3HGV7429kKBFg3SvhuR1SA9_7Xkqu2lHBQHwS_Y6eb59d9mw60sFT01mcbuKcmQEKzW17Olnty0YoCEx2AzBmOkXdPhBOMhSj411DTvdJKM0fedRh7hIGlZZ4DpZnhP0P0vXUkGBQoGTJiOkMHwTB-iU9uatP9aLPtLYva_qooXngwbKga5M59Dqj88QfHR3jpEb2hi7OdyyOeDi6ETnyuJigYE6_rWy2jT5k8ozu69hE_NinAdJPbQRMfifk8JyCStetF-gpCyMZ1gcBzs9dbatr5lOURAOP_KmS_oppopTAprdKmEQY5sKnOfVyiGK8vhb0wWdYVYs3W9HkZ2K1v2wVg8uAPDX41zR1aIIrdk1gwBYLsNct9Yq1kHgYQmrnyQbtg5D7yeVwcqkV-vtYJkdGHkM8w7DVJwhmUHfMJuBOR1fH1NLeMA3ylIx3VublNLCoE0ztX0aYW3cjOjBVu2YsTeJkGAR1LiKeqIsGWA50rNc2ELiRlKmjDj1iZAKyNO78IxmF_3inhGjNhYkhF0f98Z-IKtrgV35nxank5Gvgo1jsez35fF-R3K32dbbhy-Z1tTSAlx9AXSS0_jQylf20T4r1lhmTQjSF4OpRxDMwXsTaIfhoHTWOX_BsxOvHUxBtNrHvor3crmY7zNYcdung7LHdF1--51DCLWOsPWUNRt99mGVGoOhvqa4s8S5bLrlkrtWClHMLk6rjyMjH1tthr0fA5qPCM1QYfil4qsZI3TAvfC0tQSKxIThjMb1hwRBMpsWZWy7boLcbcCTzmzqvT0K41eAeAHQzCUHrc5D_UIOzChx6B3G6frQDhVhup0UO43av5oQYITW_3xnMM5Q7kVCECIIUyAohaHlUPSdanuUo1vP595G9-T1fy-WUG8O2oLfBPt1KNtJWw39g5rtpPbKCOqNwUsAEK6x0WH79Wdt_QveWwoyDU28fQ7IDKL0uBqfGChH98SygIoH-FS6PZHjYC5DDFjrXa7X2YRtEGbNse8xbtgsU9c9QryY9cghAs1S-KRnFiHitmEfjy8w3tA5JHOFygU1J5dzPzAgHW2BsWSyG5FrnKdoerREPMVgiPK9E9FHqSHMr7eJkacHsx1t_9bX-4TTY4WyJolpeLULlQK8vhbdRHoFsp86iRZuAphexo-T_8KoX_a8oLLcu6JIUgoJhGo_sbf3ThqdagUTYnfbw8LToYMfw2gRYw1QmY44PAjh5k70_Ra8YIKS3nAt9hvjMtVhIuZVYD4I3LdpRIMmoR0ry2jf-6X0_rCAcEllQ7QqFwWiJfls4XnWz-hvVscUZVnbGwtRgxgNHbEctTWV5G9e1OuCG2GWyQPx8xMx4ZI8QcVG6WPVsE5pI20mtp-z5p2DUpeBZRtzkGM2dGMOJNYhFqHZgJWBRHVoQCVAlQtMR8YOKXZiz1DZnd80ye_GDw1NsxhUuK2F-o8AltKQYH5whhI6DpV2O4gZU89LGNgNnGhHhYiaSuCKYvUMNARF0eI6pUeidNkjmxDBSKguIpBe39uOcQgpajLE9Ltu_wIitkYAfp2Iqu8md6pIZp36b8OODD4Gwhec9TcNwb5mpnby7rXyB5MUykF6398fppMUBzNZ6dAiuTUUVKQ6FyY3AWUWE5EZ9V6gprI8wqzTnOdB_WjykyUy1gu73ydIpawrMdKV9go4QmB32fTEwBBYamTYhkmh4gX4BChLBau_rzUIiKqUsT_g9zh6vV-hE6dAJxrQQeAiZcJTb5nDmtNFlfwYP99nBnXgDE2EY3_3zcNtaqh8toW63w==",
+     "encrypted_content": "gAAAAABq4qQOQsUVX_ORg5tT3rE9ZZLmWim8QhUna8lJ0EUmxtS-RpVIuPXXdgZukE96TY2txUDjcaC2EEGaiGu0TUuu1iELdNf2Ks7CcIVlXkQ7PpeqNs4dTUhRGFhSPUQ-wLDcyOqEiIANoDNTsL4h8AW7bmy6nfIDhMQEzLPxiavQIXKIufLyOYSQyZSDVEgJAI_eVzL9EmY2BXLMql8Ta-_XSr8tuMm5etbgUS9KaMLp0osKoQQtdgpTua-NE3V9NiBUFmI5m6CRQG27JuAb_Q7ZuuGJWn5nWUHCslef5_h6JFtMzD0cojmZOLUCyBcNiu7RTFHHU1J5Cr228ZPA6VOaSzalGfuRcOyyKc4kGh76a9bbc9Tc5FbBy_1SYwjVzeCS7IB0xbW2zRcnkDXGLfoIUzWVaH3OPdnXWrrgoNWhhnm8YNE688tgixsPNaolk1wnVnEinmAqgi-jdMKbFt0HZtZ10Du6-X-KsU-MpxzMsdHpzNafu8pfbY_VEWoGT_ca3cT07UvJu2rqsZlv0If3XM-xa-DXA_xnnHrXf2snweCbkhKTI_HCqjkQgjP8P3R8ZWpytQozqpEYcy1kZNlhrLhr9q38DdEEygSJgpd-UZI9o3MP8EO8Mi0XcINnDys4fNaVjtm4jpLX3FQtXd5g0CgPDbiUPT6fKj_0WUQ7grL8DfrOTBWmM8Lr1nRzNivErtu44W7NlvPfSybfUzYZFGA__nnuNyr0OdheZe_OQT7eNqqSY9ZA-daE6hQhy_HWqE40ZESLY9fqTvLIREoMUIoyzeDnVFZnyuu8bOwRWHk1G19XrzLQWhtKEA9cMb0cgU9DJRkqaLTXKn9qBp1jRHjhG-XBBHDICD_Q_Bv-CjgJIslsitatI85sZ3sv6zv-AvVm893b3jYU7wBJZe83SSFdnykfTr8qbwT-cLcv1hbjjXN6-gjDtKBeq-4Ll4rBGUuLxfStlTqM3GPGttA9j4cLA8a_07xT0A56IGONEn2ejmjwEGqwsOjJT-UpH_2Tz1yCc19gu0YzwWHcp2d7lwOozx6NjoqR6o5HjjYI6vziHxX0PKHH6aB3xl4Z-bzf7KAA9HhfrTFhanyppZEq7MG39u-T_VW0f3ATQGK_L0UjFuMYIRS0VBvrXv_54zqMlMLjfqVst6TbXgJ6U24fZPMC92_b3bgkzt4an4CuDc_k7b-Jxb_1k8OLgURXzS0kMxHuYDxHd8mDU0nAJE8NfFeoXDYxAY3pSvpgpBGx1BzedaJzltMZQGVlTIYjKx2f6uc-kvfHjiAh9xxSThVlD_23U9ETtZbvlwfEIKKzfioQ4xE-mBB-W5cTOwjFIfDpS8uppJ8O2le5JyRl01BhxXAep_umHrdaI78JLEYaCUS4RaE9_nt9Hpe1L7OqT5uv-weTexQMK22YMcBacv8r_FGu-EKquGB78MAeRM3GYKZg7MniyAYHRc8Dlp21z_A8Hl9k7QpSJgpUPrOiaM_kMJWl7ZL_iijH1LlH6UWgmuflG-N3hIXI6QaqMgmTCuoL6uZiIrCVmGcMI9ZShtoZ7_C1j0IEiqfWK94y8v6PXZXztQK52TFOR20OwjMz47GAKwFla2KXwed2tzBNcySiRIgH5DMHi_dIj1Y_yDkx8TR2Xnj04mtvi4AAF_RJkV3TYUElYDeLqK6-MPxqhvnaUkITBZRYzg-zrO_YNF0OkvStfabcQLv6b56dgFyJ2spK_gXMsrCx385W3Uabj0Ok3jUEfRpHZ5EkAJVZN8TqX6F0vw2BYNtJ_e5j6VoSEiBInjHKSEtQ_s4PeCNcycs_XD0li3g9qn3pU8gY0dcupJzpSjkS4ac0MSn0gwBluHCLREdhCgyizHMPqVO4hvCU_KMj_rNdJqP-Z_ZSkxrxedHBWfEO1NdyCAF9E8hnsoXQrcGKvHqHUvly_z8Ns5WlVRftn2xxPLPfZTJvusuZQe7QUL_EOQX1P9UcUVJpW4f8UZ2gC7ajgs6bKEI-15KLSByUBmgLulcAfle1ZNtdVbpxR8vkQaTGeSuhL_hN8Ypz_-N0OsOUqF-kVdT6iWjhC_VH5ULG-GXyV6GYui-bnjczNcJGynIZQzUw1SsN8Iw29V-SsqMp7uLgbV4lsT_lrFAdQpAUQhjAyAnJqQsooDFsrBq7FuEZH0hLafs1Eq-rp27kNMgioKxHcwQ0yPB7TpLpQ2uotxXPIVCCCw1oaj9knMfqPH9FDqZbSYuh5ndHgI1JWwb6GQjEcfDiJzma07MRsyagqzsTNjN2f_TuufOY9IMmQxRPFKK7ibseT6r-Cj9SQOO2BaYGly7uQnEO9d1NcFrVbXh1RwlabPpYi8RViz_CfVpTaJvSFxck-7Qnc-lgshrqeW-F3FspDDVV2zXAVlCm3dv_u6XX2__ojUJ008q0hZ5zwzWAFL174SxlOiwa3xugy-KhI-Sv_6mhFJ7YKnvcsXcrHhOYHouBTrUjFEPwPkUVbWS5e8KGVbV9koX-z4u4hew5Ss0vA1gmyYSot9OI4IwMZwYMym10uBczCzw-XNtpY6EsbbJ2cilE2Cp-XAOQjVbMVbDJhFXVhRks-CeOUUfOXuWhS4Eh_18GGzkbb24FLZfDvsY0E1ZREkZ5gDFq8INGJR9llUMmRTh4GiFo6DRNkvO0XPLS2twxk1_vF_GTzDa74FqtEwCiA3TUeBpFfKt6PWP9OjaMw0rBt4nwjuDRoUdUDLVrwNDQ4ILLbBF2y5VgTk3mPeqVrtcxt5poXz4EF355TiSbW6quwL3ViIMDr1F-As0SfwKw_OtXhN8gywzHPlsLIs7LEWt2Uy4ltpm3Z4-4cPMXDyItWPRaGT7eC8SBoO7Sk_RS24LRQ7ZyOmyr7QjAbU4GlymJxuOeFd-enIenRWFezdKO5LNhqQIomM6cXRm-spZMxG15kkCy9IdugjiJI_mw8o2PBkl0v-GYqDFHbK7vPA_1vwwkc4yz6zCkU-6bGQ3zdMFgJwbyznraY3tnoQiw0fS0Rtrxj5VxcotZyjbeeDVznYgQzkpEFqNteHjYZtwfsgVSpkSRGhIu5eghampwnEswzfTqGmuw6wxIkMdETxszxzSlibjrNk6Apl83T9Kggcn3UUnCv678C1Nu8ZoLrabaXvgZu0bsggrferoch5yM53P43xJZqBgD7uWeG_bk68usyZnCVkRawz05BS9phFMMNS5MQFGSQ7KVVe3DfeJaJu4eR8VeB5W9HluXCmG3PHEEnQReIqCn0-wfKKclSDTEqV8pzeGvQ2fZleSolkt9Ld8iDjOe6gu8lkhteAgCZ3cSIlPtP5DlHR0YD5tb8sTGX_D2gpsmdqH8deUN0HGMDe9TUgRoNJmgpkreBHGlYQxrU5z5E6RqknMMExH-FXujjZ_P4ga3U07HYHL-s591egT34QYJWayA3yzxsDZ_U9s3gBuy8n04yvNURZYIpbH-gORFttS_dT3GR3rbSKxe2Jh_TE1RUIIjSuquXoTr1zltRPRV0MuQaPbsSyVdIr2-6EOJKkM1iUjA8uNI0s1HMuApqMpTOcwLsPc4hFlz38TdZfsD6llaj4NpYM9fj-DTPQvitADdZBY7DnAQCq-a4nZ7srsiUCIaR4H-5bOS-zR6riH4FEHOTxaWoJHx5QDwgC60wRqNFUCloxCyapxtEVeewjujjsqvwLFgtDjqfisIcBVSqm4NNzT9pxINM3s6TyDYT85w9GYL7nm0jTJZe7FtTgEeLiC-K3jNsfXcU_46m8-Wy7Lc4ODo55fp7aSryI8cSUnUJ4xPvmhwi5Y-y2czJZhLCEs7r0Tn-MKm_b0Nlxfj2-fLyAuqjddTiSgYQONVVKIw1FMDiqd61R173a0vz_SBPypcsyU9T0qW-Lbk8e9gkNI7fK5OyUDgTc9YpHEjBM2ROel4T5cV6FgLaQUU7udjSUauOYsLaBRX3odwKbkHjv2OIvJPyEsL8YPyfvoSUaXLU7my15pmya2C0k52jKrtD9um9JvavW-kfDvpZAxYa_-kzcNHSe584Nu5aXXnOOtGSIJdivq9n53UCeIp9OqemSHvkgRet8mnc13z-yD7t9TGZBge-BN53LXsD8suBmeln9P5OMfIWQVI4uR2JGe0M5TeUcLXaqc3KGhbvsuozCBW_dzQgRc_TQEVMNBD49b9yf46h31kVQLGYcA09KJC_RKPpeswQfWBhEABTveLib26xvx3fXc7t1-cwyGC1exr6EDySrnOFE2MJuZFWOYzroDnZKxjymMvDOQuw8o9SuZS54woN8F7CMCjpCJkzBGTf38JSLNBqEx8RxlMK89VJ34dMHfpNDBFm149aNGV-n7fpGhwKz4w1kLPPwFvvhMeQeP49pc6rP2HbcxTgGnXOnKew3pYCqMCXz9PG7XzC3l7mgWMOZ3icjAfvqnE0uWhNoYuxJX71BN8omnta5m0AgoOPKtsIv5qZgsO1NQyTyDMd-FAS3lHpBsRklKUeKrHggfreZg6AXmOH0lAnKYQCSdu3jtbwQ3Vlua_PBQLNua-fbz08vTYvJbN3egx5ur3y-tx4p3aBvEI-PfED8AkNhw_Wi4Jm6UvqG51l5T1iQV51XYz659C26wqQPMrWvHQFHzCx0sK88BE8EK69iJ2gsi-8oknTDiIPzYLbFiIvsMfz8w92smpWf08PQuh_cyZwEMBCRZg860ftNKN7WUNsfWMSP5xv8Og4DeNl3RoubHUaKAQDyHH3MnD5wHiD4Kk5ofeNG2RQPmEreW5zt-jksM8eyFbuRN8V_ogd2L4alFqxGeiDxy6p3G5Kya-pHLSNu91ywHOM3ToRCK3thYa-1-WoJzFBsojBp0bX-W0RYSLudqRpsUFFJyg5ns-FvkerLYr0O4tu4rZoUfoIG7v2nMNf7-Px4N5hU7pjsaG5g5fJK4dB_hkCuuITtT8M0znXElybut1J5DZcDUKtZJB9g9v5HRiNkGIFQj8DBJ9e9dpqlz43MQp0H0-P8tetSxlj4uh5Canx0CMqQMB_Ff1BrBkz174A7cCE2ZZqr7NGsEv-c6oU0sNAqRutSUlambJdxFCR76Han_vBvzW5wA1Sb4PwvNgxwLLkizzLhmJeS5xrUsQnsaU94tvSeKijRrjCH360BoqbGKcBVvMzwUQRqC0aXoJ6CUWpF9kb2NQuh29ERaYcjKgyv1NpnByrEwB6TpLS5enU7PnomArHH4-3eUvFfKWzQd5d9yCRKRxupOocfnqnt-vZ0GS9__EWwvCOyNsJVJU1DpVpiU3iqqXJzpgjalCcEUMttOLQf4hevNgsOKxbhUEOMnBgv9sjbTUxAaa8ymbcqpTzNgURoXh_RocPnAKiUFLMiqiAG3tVnxwjWj864K0zpITeZ2_e9tjhVGGatFH51ZWl167-EXxzyUwcL772OL3KWvnoTTkns1ZqaQeZ8--adIPb8RJguArQ9MkdJ9nWLjp2zu4NCymd4Mv3ekGT7CQscqsPmSdj7VNva8ysXKvM_aPNLS-_0Xzp8OVi0Bb2KtpR3uDKFPeEhBtXbVKsjGKAelrQhOQnIu9UnT07-gtZTz2evXYciom7kY8QXbOcq9_SaISDTavFVN7Pp_lxB7aCbFVCv33Y8bP98ZFsK4oaP42Smty1nYUvGQ5kFDN3kL65LVdl5eU58oSI_mgQxHj-b6pr3PGS6H5PEGBy64w5zxabL_dhHXaYQtpGEg8zmEvvDPGGe2c1oakI_n38Y5e-QGs_PZw2Is0KPplpWuVAwmg",
      "summary": []
     },
     {
-     "id": "msg_0be87c7fa767405e016ae14a0a764c87d191107681ccd566da",
+     "id": "msg_0fd9fccb906d94ed016ae2a3fca21887d1ba14eb026057d899",
      "type": "message",
      "status": "completed",
      "content": [
@@ -80,7 +80,7 @@
        "type": "output_text",
        "annotations": [],
        "logprobs": [],
-       "text": "{\n  \"title_zh\": \"聯合肝臟分隔與門靜脈結紮之分階段肝切除術（ALPPS）與傳統兩階段肝切除術治療大腸直腸癌肝轉移之比較\",\n  \"abstract_zh\": \"研究緣由：兩階段肝切除術及聯合肝臟分隔與門靜脈結紮之分階段肝切除術（ALPPS）等分階段手術，利用肝臟的再生能力，刺激預計殘留肝臟生長。對於廣泛性大腸直腸癌肝轉移、且預計殘留肝臟過小而無法在大範圍肝切除後安全恢復的患者，可採用這些手術。相較於傳統兩階段肝切除術，ALPPS雖可使預計殘留肝臟生長更快、增長更多，但其對重大術後併發症、圍手術期死亡、復發率及長期存活影響的證據仍互有衝突。\\n研究目的：評估ALPPS相較於傳統兩階段肝切除術，對大腸直腸癌肝轉移患者的效益與危害。\\n搜尋方法：我們搜尋了Cochrane肝膽組對照試驗登錄庫、Cochrane Library中的Cochrane對照試驗中央登錄庫、MEDLINE、Embase、其他三個資料庫、線上試驗登錄平台、灰色文獻資料庫，以及已辨識研究的參考文獻；亦向納入試驗的作者取得額外資訊。最後搜尋日期為2025年12月4日。\\n納入條件：比較ALPPS與傳統兩階段肝切除術的隨機臨床試驗，研究對象為成人大腸直腸癌肝轉移患者，且因預估殘留肝臟小於總肝體積的30%，而無法接受完整切除。\\n結果指標：關鍵結果為90天圍手術期全因死亡、全因死亡、嚴重不良事件及健康相關生活品質（HRQoL）。其他重要結果包括整體存活、無病存活及切除率。主要分析使用最長追蹤時間的資料，但圍手術期死亡則分析術後90天的資料。\\n偏差風險：我們使用偏差風險2.0工具（RoB 2）。\\n證據綜合方法：我們依照標準Cochrane方法學程序進行本回顧。由於只有一項試驗符合納入條件，因此未進行統合分析。我們使用RevMan，將二元結果表示為風險比（RR）、連續結果表示為平均差（MD），事件發生時間結果表示為危險比（HR），並均提供95%信賴區間（CI）。我們使用GRADE方法評估證據確定性。\\n納入研究：納入的試驗是一項於斯堪地那維亞六個中心進行、由公共資金支持的隨機臨床試驗。研究者將100名參與者隨機分組，平均年齡為65 ± 10歲，男女比為2.34：1.0。隨機分組後，ALPPS組有兩名參與者（一名有嚴重共病；一名總肝體積 > 30%），兩階段肝切除組有一名參與者（疾病進展），無法繼續接受介入而遭排除。另有一名參與者因移居國外而失訪。該試驗共發表於15篇出版品，並提供本回顧所有結果指標的資料。我們遵循試驗作者所報告的分析方式，在適用時使用修正版意向治療族群，其餘情況則使用可取得的資料。\\n結果綜合：證據顯示，相較於兩階段肝切除術，ALPPS對90天圍手術期全因死亡可能幾乎沒有或沒有差異（RR 1.36，95% CI 0.32至5.76；I²不適用；1項研究；97名參與者；低確定性證據）；對最長追蹤時間為93個月的全因死亡，很可能幾乎沒有或沒有差異（RR 0.86，95% CI 0.72至1.03；1項研究；97名參與者；中等確定性證據）。試驗報告，隨機分配至ALPPS的參與者，其平均品質調整存活的MD為1.25個品質調整生命年（QALY）（95% CI 1.08至1.42）；隨機分配至兩階段肝切除術的參與者，其MD為1.11 QALY（95% CI 0.94至1.27），估計組間MD為0.14 QALY（95% CI -0.32至0.60）。對於ALPPS相較於兩階段肝切除術對健康相關生活品質的影響，證據非常不確定（MD 0.14，95% CI -0.26至0.54；1項研究；97名參與者；極低確定性證據；最長追蹤兩年）；對嚴重不良事件發生率的影響，證據亦非常不確定（最長追蹤30天；RR 1.01，95% CI 0.58至1.74；1項研究；72名參與者；極低確定性證據）。相較於兩階段肝切除術，ALPPS對大腸直腸癌肝轉移患者的整體存活很可能幾乎沒有或沒有差異（HR 0.72，95% CI 0.42至1.24；1項研究；97名參與者；中等確定性證據；追蹤中位數93個月），對無病存活可能幾乎沒有或沒有差異（HR 0.91，95% CI 0.59至1.40；1項研究；97名參與者；低確定性證據；追蹤中位數93個月），但很可能大幅提高切除率（RR 1.60，95% CI 1.24至2.07；1項研究；97名參與者；中等確定性證據；最長追蹤八週）。我們因偏差風險、間接性及不精確性而調降證據確定性。\\n作者結論：目前證據僅來自一項隨機臨床試驗，參與者及事件數均少。對於ALPPS相較於兩階段肝切除術對健康相關生活品質及嚴重不良事件發生率（追蹤30天）的影響，我們非常不確定。對於ALPPS與兩階段肝切除術在術後90天圍手術期死亡及無病存活方面是否幾乎沒有或沒有差異，我們仍不確定。相較於兩階段肝切除術，ALPPS對最長追蹤93個月的全因死亡，以及大腸直腸癌肝轉移患者的整體存活（追蹤中位數93個月），很可能幾乎沒有或沒有差異，但很可能帶來大幅……［提供的原文在「but probably results in a larg」處截斷，後文無法翻譯。］\",\n  \"evidence_level\": \"系統性回顧\",\n  \"score\": 7,\n  \"score_reason\": \"Cochrane方法與GRADE評估完整，對肝轉移多專科決策有用，值得閱讀全文釐清切除率提升的臨床代價。但實際僅納入一項小型RCT，無法據此確立存活或安全性優勢。\",\n  \"relevance\": \"高度相關\",\n  \"relevance_why\": \"直接涉及大腸直腸癌廣泛肝轉移、殘肝不足患者的根治性切除策略與多專科轉介決策。\",\n  \"novelty\": \"仍屬早期\",\n  \"one_liner\": \"100名肝轉移患者中，ALPPS較傳統兩階段肝切除提高切除率（RR 1.60），未證實存活獲益。\",\n  \"action\": \"對殘肝預估不足30%的廣泛肝轉移患者，轉肝膽多專科評估ALPPS；勿將切除率提升等同存活獲益。\",\n  \"pico\": {\n    \"P\": \"成人大腸直腸癌肝轉移，因預估殘肝低於總肝體積30%而無法完整切除；單一六中心RCT隨機分派100人，多數結果分析97人。\",\n    \"I\": \"聯合肝臟分隔與門靜脈結紮之分階段肝切除術（ALPPS）。\",\n    \"C\": \"傳統兩階段肝切除術。\",\n    \"O\": \"關鍵結果：90天圍手術期全因死亡、最長追蹤全因死亡、嚴重不良事件、健康相關生活品質；其他重要結果：整體存活、無病存活、切除率。\"\n  },\n  \"effect_data\": [],\n  \"key_numbers\": [\n    \"切除率RR 1.60（95% CI 1.24–2.07）；未報絕對率\",\n    \"整體存活HR 0.72（95% CI 0.42–1.24），未證實改善\",\n    \"90天死亡RR 1.36（95% CI 0.32–5.76），精確度低\"\n  ],\n  \"cautions\": [\n    \"切除率增加不等於延命；死亡未達顯著差異也不代表等效。\",\n    \"僅一項RCT、100人，隨機後排除3人；90天死亡CI極寬。\",\n    \"嚴重不良事件僅72人、追蹤30天，不能據此宣稱安全性相當。\"\n  ],\n  \"unassessable\": [\n    \"隨機序列產生與分派隱蔽的具體方法\",\n    \"受試者、照護者及結果評估者的盲法安排\",\n    \"各結果的完整RoB 2判定與降級細節\",\n    \"試驗註冊、預先指定分析與選擇性報告風險\",\n    \"各組隨機分派人數及各結果的絕對事件數、發生率\",\n    \"嚴重不良事件僅分析72人的原因與缺失資料處理細節\",\n    \"傳統兩階段手術的技術細節、交叉治療及救援ALPPS安排\",\n    \"作者利益衝突；摘要僅交代試驗由公共資金支持\",\n    \"台灣醫療情境下的成本效益與可推廣性\",\n    \"作者結論遭截斷部分的完整內容\"\n  ],\n  \"context_verdict\": \"無相關前作\",\n  \"context\": \"無相關前作\"\n}"
+       "text": "{\n  \"title_zh\": \"以 POLARS 預測 LARS：多中心研究結果\",\n  \"abstract_zh\": \"背景：隨著腹腔鏡及如今機器手臂手術的進展，採用低位或超低位吻合、保留直腸的大腸直腸手術已成為標準照護。然而，其缺點是功能受到影響並不少見，因而造成低前位切除症候群（LARS），這是常見的術後挑戰。\\n目的：確定接受直腸切除及低位骨盆吻合的病人，其術前預測性 POLARS 分數與實際術後 LARS 分數之間的相關性。\\n方法：針對接受直腸切除並恢復腸道連續性的病人，進行一項評估 LARS 的多中心前瞻性研究。術前使用 POLARS 評分問卷評估排便功能，並於術後 6 個月使用 LARS 評分問卷評估。隨後比較兩項分數，以確定是否存在相關性。\\n結果：共納入來自 13 個中心的 310 名病人，其中 95 名具有完整配對的 POLARS 與術後 LARS 評分資料。POLARS 預測 69 名病人（72.6%）會出現輕度 LARS，但術後有 25 名病人（26.3%）自述輕度 LARS。POLARS 預測 21 名病人（22.1%）會出現重度 LARS，但術後有 24 名病人（25.3%）自述重度 LARS。這 24 名重度 LARS 病例中，僅 7 名（29.2%）被 POLARS 正確歸類為重度 LARS。對於偵測重度 LARS，POLARS 的敏感度為 29.2%、特異度為 80.3%、陽性預測值為 33.3%，陰性預測值為 77.0%。預測分數與觀察分數之間的 Spearman 相關性偏弱，但達統計顯著（rho＝0.21，p＝0.042）。Bland–Altman 分析顯示平均偏差為 +7.99 分，95% 一致性界限為 −19.23 至 35.20 分，反映系統性的高估。\\n結論：POLARS 與術後腸道功能呈弱正相關，且對重度 LARS 的敏感度低、特異度中等。它在許多病人中系統性地高估了 LARS 嚴重程度。雖然 POLARS 可能有助於辨識部分風險較高的個案，但不足以作為準確預測術後 LARS 嚴重程度的獨立工具，應結合臨床判斷及病人自述結果追蹤。\",\n  \"evidence_level\": \"診斷性研究\",\n  \"score\": 6,\n  \"score_reason\": \"多中心前瞻性預測工具驗證，直接切中術前 LARS 諮詢，值得使用 POLARS 的團隊讀全文。惟 310 人中僅 95 人有完整配對資料，且僅評估術後 6 個月，限制可信度與推廣性。\",\n  \"relevance\": \"高度相關\",\n  \"relevance_why\": \"直接評估低位吻合病人的術前 LARS 風險工具，關係到保肛手術諮詢與術後功能追蹤。\",\n  \"novelty\": \"結果為陰性\",\n  \"one_liner\": \"在95名配對病人中，比較POLARS預測與術後LARS，重度LARS敏感度僅29.2%。\",\n  \"action\": \"對低位吻合病人，勿單靠POLARS排除重度LARS風險；結合臨床諮詢並追蹤術後自述功能。\",\n  \"pico\": {\n    \"P\": \"13 中心接受直腸切除並恢復腸道連續性的病人，共納入 310 人；95 人具完整配對評分資料。\",\n    \"I\": \"術前 POLARS 預測評分。\",\n    \"C\": \"同一病人術後 6 個月的 LARS 自述評分，作為參照標準；非獨立對照組。\",\n    \"O\": \"預測與實際 LARS 分數的相關性及一致性；重度 LARS 的敏感度、特異度、陽性與陰性預測值。摘要未明定主要與次要終點。\"\n  },\n  \"effect_data\": [],\n  \"key_numbers\": [\n    \"13中心納入310人，僅95人有完整配對資料\",\n    \"重度LARS辨識7/24人；敏感度29.2%、特異度80.3%\",\n    \"平均偏差+7.99分；95%一致性界限−19.23至35.20\"\n  ],\n  \"cautions\": [\n    \"310人僅95人完整配對，缺資料者可能造成選擇偏差。\",\n    \"相關顯著不代表預測準確；重度LARS敏感度僅29.2%。\",\n    \"一致性界限寬，且僅評估術後6個月，不能推論長期功能。\"\n  ],\n  \"unassessable\": [\n    \"其餘病人缺乏完整配對資料的原因、失訪情形及缺失資料處理方式\",\n    \"收案是否連續、納入與排除條件，以及各中心收案分布\",\n    \"評估者是否對術前 POLARS 結果盲化\",\n    \"腫瘤高度、吻合高度、放化療及保護性造口等病例組成\",\n    \"術後評估與造口關閉的時間關係\",\n    \"敏感度、特異度及預測值的信賴區間\",\n    \"樣本數規劃、預先指定分析與研究註冊\",\n    \"資金來源與利益衝突\"\n  ],\n  \"context_verdict\": \"延伸前作\",\n  \"context\": \"先前開腹與機器手臂比較研究及 LARS 盛行率統合分析，著重術後負擔、術式差異與危險因子；本篇延伸至術前 POLARS 能否準確預測個別病人的術後功能。它補上預測工具驗證的缺口，但不能以本篇重度 LARS 比例較低，就認定與前作矛盾，因族群、追蹤時點及完整資料選擇可能不同。\"\n}"
       }
      ],
      "phase": "final_answer",
@@ -377,31 +377,31 @@
    "top_p": 0.98,
    "truncation": "disabled",
    "usage": {
-    "input_tokens": 4267,
+    "input_tokens": 3335,
     "input_tokens_details": {
-     "cache_write_tokens": 4264,
+     "cache_write_tokens": 3332,
      "cached_tokens": 0
     },
-    "output_tokens": 3036,
+    "output_tokens": 1911,
     "output_tokens_details": {
-     "reasoning_tokens": 320
+     "reasoning_tokens": 325
     },
-    "total_tokens": 7303
+    "total_tokens": 5246
    },
    "user": null,
    "metadata": {}
   },
-  "42942952": {
-   "id": "resp_060924d20aaecc52016ae14a15508087d19fe2f003132d1f66",
+  "42946443": {
+   "id": "resp_04067db94d5060d2016ae2a44be52487d1aa138133d555e7b5",
    "object": "response",
-   "created_at": 1793149461,
+   "created_at": 1793238092,
    "status": "completed",
    "access_programs": null,
    "background": false,
    "billing": {
     "payer": "developer"
    },
-   "completed_at": 1793149482,
+   "completed_at": 1793238107,
    "error": null,
    "frequency_penalty": 0.0,
    "incomplete_details": null,
@@ -412,14 +412,14 @@
    "moderation": null,
    "output": [
     {
-     "id": "rs_060924d20aaecc52016ae14a163cd887d1b798d2c356974468",
+     "id": "rs_04067db94d5060d2016ae2a44cdb2887d1927bc49f360bf639",
      "type": "reasoning",
      "content": [],
-     "encrypted_content": "gAAAAABq4Uoq_qH8LJcUilwRswlR2qsuONZHAQ5ZlBB2_3G02kwLXS8vqSMMUFZggPRWRQWVHhQbZ1BRPcbHLwl2hsEyPxuHZj7efjk-vDrQiUtYTojW2dQzGXCR4uMNkPFlZfthfFB-E9Q1zDA2lOcUrtq0mOjfRx0ZPcxr8RxaUb-xORXxClFpATecE9AePw7u6dk4cEhClIDPC8fbLsV6j8-FaOHZORe9e-_6s8fLfUnafE_QnQq_bRAyrDYI0flyNT9MitZJyWPU6Z9p4mokezorW-KrA50Tu3H5JBZxmliIsTcghEqsAViw62kmmxYi7vBJJYK0G5hLK-E3MPhBQth3Itxh6uXDC2mkz-p_U_YF_lwPJ8kD1TuO7OWsZNGVMuOEtgRqRodRhB4QVGEa-IJ2NtU15cYjITBiJ9etHQMXxqrLeJDvSy9HnXSVKFqD_O80gPN3TBzzrQuQdKEEFzCmAU5fhYfjo-0BC287o4Pi7OuFQ6_A15YFZNkkPZkUzRzfL5kKTr0vyBvn-62y3ZMzJEH4PUUzpJcv8LkGhOyaw-TxZgOuvq2ttwK8fcp9RG8uQ2qZtFGjMLZuiLF1IGS1LZsATCpNhrsMROo7pouENxaKfMwPrdATrZinxwFlOBs8k2F_Ow0M-Gb7-Rrj-SOTHAppSPI-zRmkAZpA2td7BzBCPttAno0WQ1hgnnQUGYMX_Ea4QwZcNIX_UQyQT0aaf6PQO19bxkFo7_Oq3Kx5M0pLQKfspurZ6nuRTaaEvCGH7v0WTuYRCOVCfsAZgBMTSLjiHjfHebIOhNf3175URxBnADX_WpFe4pvCNRc9C90iRMM3GpYzTzR7bEjYG7JwWG6ZReEZ4SyJwm-_C9IOwGdiB2c045iLoDJHwm8Os-LMtIgc0Ic84ucnSjh-74PsLtPZV1fkHiOqX_bUYkxYVSWb-H5uAWFNaS8M84Q2Mb2j-FaW_Apd2PcBwbvhx4c8nfnpUOifXPD9ydS8PoE5CLCfBgKXrZemJEuyWmh3-7bkH0tGdZ4L_WC4HseEM3OjCu-IM45jw8bKeJI8Ma13iWseKqkQrOz5gi0eblOLc7ACs96PbObPRSehL---bJHGTUeMRGpVArUqrkQllJmhBTql0rHOJq1deCkCPb0J6joyDRG_N_CDo67Ahi5vHT0LLrWMb8e7QHp9nuqYnBgOfI3I9kvyYVgJqeUug_S3AJJ0S4KuE6GNZgIOp7wta-JpoZ5NMIDtXCnaUJnKt51J7iDYMXBLrtGrCGZSConw_CTPYydC8v6Y_7CNB5Hh1n67LGaPkFaWMBtWVxwtavnQv9QKeRi1kl2_z97HuYJUyZtg70yEBhaBVHH9vbuJkcMhzreBs9KKRI4iyLUKjK53W0d8fSd_HtF1cF6mnNr6AU78G_JeqJGpwdCgxRGJ4LGS6nFC0f2ZCDjUiLBoUtrj1RI0AfozNpQP-DsMOynwDmSUK0v1eR7AeUKBgtGdlG56Up8Isi0UE8Y7E7efd03DsATLESGaeGzpx8NCgSC6gAzdNhbY19llNyk9k49rKkHo2T_NUvEXSoxdlVqtic9c3ZXdAXFVxRQXC2QgPxgWnqeoVK0NiTnmCnC_ry7m_ZEuZN4_PtNE7V0wJaocKeJ3tU4RwAHTHE2_JR7Fvf9e0IxfwAtiDwdzCbwvyo56cRs64PHD-pJiu9bm-_CTNd5EA15NIFqM5bEr5Zr9tUCbrDTDgqZNh6CwxzrmhapLcdhqKzcdPM1Qeuk28NhO1qIOo4J_W07dizfSlEsjZk04TMoAUpksbuhIJrn8KfN9h278-7H1xYJgR1kK4IIX8T2FixBrj8I6WR5FpVsRC5o8X069NxDP3jolhGxwlmeBLOWmvJmH3L1tKTxyV12Y14yySZkHdIMsq-f8mV3cpYRRAG2PbNkGrymihgDFTa1MXK9BDdsKeQnU1n7cO_sCv4Dt_f4IYIKyd3V36DSAm8FieQ9SH3yv2jBm1uFSawI0N-Ujl-MWHnqmUTRVGrgrt6rxG3gxxBVdjofWQdakCnFoJuCjPA5Usok-6LoLZteq3DwchoLyg-VfSyU38e3RYkvi_GisJbehsCp1Fg_Y4nBKvGovs-wV5ObUZ-FrEEsUVo3HE4ln4UUSEOL1x9Ns2PJE-ixVhuGlgxyQWbuLnhAxQ2_aCQaqirRDkt6qq92nwztiFsV1v-DX2nXg7zEFGrkSRBc4eTNYqmU1Tzc1AlbsUBuTo5U8aEnJgM0kY8iPG9-qG4xO_eZMdWSVTCLUMcDfnRE2hl4VzSXEUS7D-iT2Za-6pl5UPnXjKBU0AX0OwsK7vLteV8OhqvNBJQ9UD1wLTs27w59N5ncq9ExY0b35wIxPaaWPVLNn5j_gqs7Cg1fwiuB4FGJe-4QSoVLGlzyMn8A_fVMrUQTXo_JqczjN13bjvTSxi0QujtpG4H7AaZwFX0VQlkfobvcLvymjjPUB5o2HQWAXp4YMaoBmgaFPKqp0lgvesB1z7TXlThocgy2gpzJs3yTarJSHjZdzF7JSV1fkiFsw2gSDL9NqAuzDDZd5dMn9dE_P9rj2zDGIqA0cx00xvMCTnZ8dmlh5Zz2DPto0N7n72lFLQ5ZZP9d_5gVm9gts_Ak0bpstR598Hk6SOqaw-lw_3bQMvTNPPq3JZRJurX3hZ3u9uDvKUBxqrKnpJ9nMxPsUSUv4zmEksZ2NEkQh-adsUw-AGWnvY9-T1Do76WsxIf-0MgBberjEbZHjiMKZ-R_Y0y1TtghQeNsZwvHnBItn7rkRqjoN2f44jH8mno3hbD8m29BMERcFtp7qnolrFCiCT-PAdTe_zUlD7JxVcmBuCzKn3XOEEz_XHuC4sZ2z9RxsEOCi4pn6qCYJwpwMD8e5mSn-3NPcQxZopGO7OTOqweT5qglQjgFNs_D03aQLOufbeNu9vs8anWsM-umVhl2G2Sah_xmjrsYCNmI0Nxfx6dBLACi8otnUGJ_nEREVFxk0TA9ElywPHZj4UejxMWWJMf6UU9F383QJ2-idYqFVjwj6rP0S0KcRsBe23OaveRJqZ7H7o4UeOkn-abiBEJfYhnHMch_CSINjzug3NvZJc1s3vR1BESKtp2na_Sg-uFvEG8KVQRmZZQYs5VoToybmEh3BIb4jBvBL9P7XQ01YKlhRrcAsgMh_X2vQt0f3C1CoWxgT-AB8oaYTVqCjVx3JBIvPYbF27q9cr4MPmZzWYTiJ0o0Sp03ECvz5hiCoiop-zQh9_6ilcBtCiKMtDDSq5k9oHaWxvNjWa0DNjQkEIV-O1MkmPcYmiAsmt5lWtcYY_nj9uv42yLwdNb83JaXdYjxADOHVjPo8eRyMx1cEpA_We9iYBmkdMF_9ibs3TniwmZTM2YE6Rrkl_JRp9Tci-ENO0iMsm0bOz0441RnPXiiqlXIAMkhe7DCZFSZ6hrE_p7Y4AKLOUzNZ5guGYBz82h6KSGCUDkQjheh1aAKUmlDRS8sAaj4o8S4GKu-oOVEBaZrGHJMWxlgX-2GlAl9VdBS_apWq2EATLky0hyrJtRxLsbR6CYCTVoN4ZLvHCnomOEcfHoQnQfPwzBFyiIcC01ZYppbOLrWEgii8ehvWcQzjQeVDh2f--D_vgcvlod4QilT462BZtOVny4-ytJ4DEn4EL_Yijrz3wz5jTE-0dRm5Zy85w7pRi8w20mz63AR_i-iNRuwHIoO8w3ACB5vGycrUvA8K5z1211fNrfYYCmLgeu7BeTCPbxXi7tBqonREZcwm89uKYQAJ0Xh0i9YCCxzdXIT3Uh95xXrmEZcB10Y9Pyk6VDRPoxvD-3oK_PCgQOyTYZ_LOB_YcbHqebLKhbrevIRFAoozylAYwt9fkQWvkGHMIh1Nx174hFLK7OyRg3QlOF1VG7l0-6CY2G6fOetp0kdBmbcZ0NgsI7CntGHjGW-IVcxI7O9s3LAEf8TJZ8Yd3wfO_j9TzLi2_OZx5W_l_tqV4HKZt52ZrUwPi_0bn2BpDcrCwbYLLY43qMpMzvi-Q2Dxahjj_ZKL1wKUc7F96M61HuXgjBlKbgnZbs6fWJ5FtxNffDh4wEPrla3ApuiVXgmyuX12-Y1xzkP5rZJbwx-M-28s80Mbg0jzhOyJ93ItwzoqhjaljbVsJlllpGjXcNthsOS26DjmX0D8aE_cj6qPrtsM0FtgibLLD4PdReCdZ_QfxUjwz_2hGTwgG6YFgOeD2O7Tvu5aefPpnuaa7QmaZQLZ7w28lNLIW3hbtI2G2YOme_PleXae5PAouzcurUWSSiehArxGIPEVMElkZZGlqBUix9GIF9wYxthN41qN4a-iXsMI_zRweyE-31gKyrn0WkA_pNPJXYuVNV-1DgAb2M2TGzjUXzWbheSvTBlpR07ZOuZAjEKl8cAD4_O66FZH8W2_78nrkMzOAGGXFtV1XnDrqok3IoyI-a1d5JKyr25ETE8VVds8nOxFsjvj5vKNMy9x-RgRWM48bt3xZnt3jRjg_ZZvMbl0Q4WzyditAxNey1ysDWCwCLasA0By69kmXwH1onCktARtFjU6alVZxtSUAfs3Q3ycNQp0qQx6WKSsQekeaCCtYYI_fP964UTzRc68r_0DkXY_hcfoGjPaKf7JpTnpDziclaMkYkISPIUF7tJYKnP7HyEl4odMDFCc7U0mrDvJvKeek5zGkatsNTNyGt6RtePZQ_FD3v2Um7RAVmN9TZKB_j-6i_rjP7jWSwu9NOqBPsP2WPm8Dra8yAneHzuSAZzCUf-2SJEjTJ85VPfTCkC7NahQ2c-eQLpzU3LY9AHvm4Xezq2kXhaqL3UujGkaNzCmUSI0BSFQZMXF-Ud-ctowcjslYs7V-0X69M12bbLHMZXp-_3zHUlzi_Yk9eeyjQkuIO90MQblsko5lVCIx_svC_o5ruWRFuu3Kh41NEYBm6aiHQDCrrvbFWY2tajQzld_rP3BDoS5sMXSsGLKaSS5PKcx8GxdMhCL2OceJUqLE3M-hnAtNuv97-7geGcdfIaHX-SOUNDpqKtYSX2PaAFh7tzLS2WN9YkxKY0LbtYnefDa_uB2eKn27uZZLyPaXT4tITPL2Xqi-6zMZrYE-5XpXgp2zrggpSDCXW7GWCsiKjc77rWvqRe0hBm0B4WXILmlADAS0tgBPelC56hBMgMrUZnScgmTEReM7Sd-8k3qRT3n41l4YzlZ10k5JyAalfCehlyjmoygiubT2rQwhfHOx_-igzCdH-M8_9iMqUA6MK_ZgoBMlrS6Ry6LsqynBgn2x3U_yxy5u_WQzxnUSJYoZO_SELiPirFFyhFLqAV0CbmZXdbXrgxne9a6_BatuMjWaPL-yAT2HyDKIx-qRCxNTUWhYY381ff8jhKBBNtRwwt70lcSLvx1RLoaNEVezSDDZrEd3QZ4FxWo0vC5_t9URDEniec-M5sSfvb1K8LnBI2pyw9uPip15zYjkE8S21Yw2JI4wGtX8kRrgpimJ1agcdqIl-ZsqweyDG0BoIQLMI6JsbbX46D0bPANek0RO8FR5e322iZQLi5MAvxpL1KkoXWUnEG51PX5JovtW7pnWgXYuqM4YSFiXWWZM8SirxTMPuEfDZvUYfVpwdihaWdbBgyvVN443YgHUrm1YWcc67QHJsV_Pyd3NxMe6LssVwiEBoKuJpq4XGKVM_0L05WK1I5Zd99qFlh632oLr6Bo9Nui5KV5GiumrUfah8kQ7sRyKVQi91B1GqL2Ez9KqYPa9C4iEsCL9l-hm6qHciyea41dWfuxC4shVouuOIoRhNOULjZ_yNP8jLEGN6rr58tLf1KeSgIGby1vB2t7OfONQuI6alZLMnPiU8BcuBpvnloUiSc0bQuPKi4tm0yYpxXa3YSkBKfgXHs8sk-DGrHh",
+     "encrypted_content": "gAAAAABq4qRbimT4eiSdTiB9imI7lpz9QiDKKYKYn6nwNVEav2HsBq4S877mLHCJgUAbgwBXxNU1nVBln_YL5xcZ9O6_fsRyp-jnbs1Y9uUhRPKKQFyjRbcMY_1bW9xWmIromGXKGdI5H2254dvYQE-xQIDLRk0s3296-smx1qRMpYJCeITeyBzMM97jwHtcRG-5Cwy3fN7vQ5AQ0QN7Z827M7X7JHmttEk6Wo2FgMHw0LM2K2yda_WPAxFTmFa2mn2HX7BC1OC4xM0-jqhslbK_8rUoRFDD2EaSfUmofLyHdsRXOrpVNuCUU9Ilu_USUvPtEQrFmiyEPOiqvCOTPNK3o9NqgTUZX_uE-y8fbBgUpVScExVPWiGw3KLMVwOYF1JZNH_E6fkuMb7GIdFaiDZjcYKmaXK3imjhKmjVyoDx1oHAvdak9IQhwwvVWqcWcpnTZMefWx8e_aEHVes3exrGD-OyjdFvtbJ4DhnHhs60UvD333fmrJ-azeN6AFsfllX5UjRA-V0_cBDqpL3RfZItYvd7C0fxblCxZVbcGiCj9r2n7yKwxII_6iSrsiC-0vCiAp31zosDr4fatoSZK9cfX3dRpQdy2yJvqH6mROegxoCEo375iKfhe2Cw24cewGlY0S9-J2VGWpLdq-h9Jfch6Epm-xi2O2gGx7XuQcNh4MrdoigSDlyE3mht-YmJKOgy986PqMTr1zP5039WJxtgeHzlmdmUlQXw8WXZRwlTQFH0vUsI9J1qO3VeQ5cRxip3vhuBj4cACTgtAZyzfIMMMdZKzs81OQfttGr3YbwLjtNRfZlzxR5-KDj7ei0GEg60e2ZwepJfwPWYLcG7O-1wGsLMIq15szfWrGywYhod-Iri-bjQ0JVzRyXP0A060N7kYRL2_CuyTN-lXjB2OlE30NB_YMdWFA2PgCFxnBr3B667JykLuKHsjroUmMbdu2V65tjhqG-B09NOpfUNF1agnF2aWrXKioXhs5a-rZ5abASwimZesoGmjzlx5t_tBllmmL0SpTaS81pm1gYiDAE_6IcM67cF-aIcu-tXqixTwvdIhiV-nhh1XXiUOXmesU7N3juXqpmDEfyDe-8JwdykE2pbsMaPH_Kgz694Cg4TRzJ5bLtHp3IHlJp2rfhNOruuobvpgSWoaaiDKT2R6Ofsn7IHjYvalrIzC6mxr0nr-WsHpfCWPw0en61efDy8ym_opXDLdB6M1nZmjEVcfttAiMjkIoi4IPoCSwxTxcPx9QeUQwKgrN0CDn9tnuHCic03xlWipJO8Wl0-uaScAwP8N-mIx___yql-ZGQE1YFQmt7AmhD_GELaHNSA4iW6bvWXqSzTV4usefe_attndE9eVlfzdRFIHxGq9AuomGDm7XWY1vgx0oZao1nTX_zQ3aa4OGqPD8uS5x3I3WxcZpgLv2Pkup-rz8VJN8D_oeeJam2F8pvWJ0VhQzZx7ekjztL-0N15QC5DOPPZI9AqXqEq7v46ebCUSCGCffPxCTux0jboVXGcVk4Gw2zjiV1tLyAt_jeEqVzLcMOz1xFon_3SpKEhxB9XYLj5hP2NXsK849n55bDBRcM3leyuDErQ5xFp2dcfsLqiNt6ryAR-fIvGWF69kVkYAlAn8TkOVDvX7m5WWqwZ4JLWWRbsxpc3-5BuapmyyUlpBNU3kPooWMfQbtngK3q7r2Mie0KusxoxSdycoZ0h8lc5kf8VHsGD1Ov-WZkBMG0lFroehVkK6a-a-JyZMCIu1DO6lI99tiYWBR1A5PY9DqXC8V-9Ep8yxjgzghcSCGKaX0yVrlujyYuBsu7eVqm-TwdBl9acRMcBLCPWn3rjGH2Yq-SIEzjMIL3iqVYGMrhWA_jh-7D0upjwSOUdt8oWW__IJsGNzBcfzctAOCnDp1ptqw610rRflzUDNiZnX2MLnSsvfbN0XfUORgebSKOFkx_rokvYlVmLjFivr70iQQ6JrijXl-4yBtVu-CC9kve6oHYm3o6V1W-wEK8t5O5lYYMuP7v2gVh4hMRt2hyRE9a1T_s30uXnE438Nx5VQd4q2YIr7Kmb3WRWaZChbVYYesu-HiZEOh5GJusvlMbnc5F2DPBchRmkoeLD2KYW4mi0aSsrJ4P6CL6VSB5pBJSahRQmmJUJoBxZim9z8hywDqe8SsC_bxNPUVFuPcveScI25uEMtusqOPf1C7eDuqoKJ_hkDFwZL8_62b-3E3cWgV6Yma6iCay_bZBfPTCB6m848SC2BT6q-kbVdT2stTs6TRWCgxuD17FDSjA8qGV1aXiIea5m76_IKFw9d14mmJz5a1NJV7CxYjW9RFC8SRKF0DPYyA7aHZEj-0oypn-850ZWt_fad4mpnRZ-iNkiAeIWRaZ6j2K4674fS-CnTGf_dWSsBGJ1mE65OPEwx8Ex7oWG7IkXQr8Ufv43b2-Rp9cIlA5jTfU_uxTDL3Sb0T_JU0A3WV284ciULgYQ5XDbUwdqzErLgAI3lZQmlk1z5vtrvgYCT6Bj69q7ZkoUVC1PChY7ITaKCXwAaoo3eugOhPI8D1CMmrn646qINSHcI86KNFi6Sif3O0RdY8hj_VMWpfEnIxubZ-_ITb1XXXRamLReyff7s33tSgKwkdp3mifLib72_8zQzfWLM6X0KLJiksN48X8klqMJ3b8SRUPp58w13fY99iX45WeBzuaWTtVsYpdq3_24eH2cdS6nwsmU0lFdDEPm8kzytX_KurX8AKnQVIlpr8W-FtgTeamCac9mC6GtqAyjqe-EXYQypdelko7j35fl-yJWVY2NHEkZx4wVC26TouvZ09d_IgsUPxYB1wWXdFZlyF-c2DVEnv4sicbwlf2IMC9tOP11g70nK1GFMQxGQvxrP7Xtt0fB7eZfA8e4qDo4rT2GyEUzoGkQsL0qLPdfKy7Y3NfG_xK_p6fMBtt34lwvRHf0DbPp_5V_0xvPatZNhANF5cX4NhYOkYgGjBOfFIF2TxkwVx5opmaQSye1nV0jRxEHr-CGJPAE4c1DcELYiDdCSDQuKbK30pUkCUPI-nFvU_QkuSI7m19J8bZA1qhUQVqY8FLqsR-0Yct9Xdoh7O2wMF8jaJP7dHkKxrZxq3iZw_dOxbBMmqsxJ1UhxpbMKzp1UrXiEyNDQI5pZ1_HUU6Kezu6NHyqho3wvDhdMOa-zlRWZQEoG6mxUD9SCcYFgmY4ZQXVsalV2CpTPXEq95sRPi7TMB-CbIxxak_AnZfhVL71AjQdUc9b6h7e8sKIhNW2BHFCEF_2oB2HHzAQznO0PKXCnAddSQmkICli3I7qWJ7-IS1_VK0P1qG37BKY6CdrC8ltM304S_FR4V-JQ807djQ184-Pfa3H0-nPcYHD8IohJAzTQf1h82hvQccKj6he3ytKhcY9dASYtegpPo3MkXgE5JgVWidrVlOS8akYs_cI-qtEkH44mN2mUJ6hXVAb0Vk2J-D2P9dKejefJGqITLqmG_uvXMp41Vx12P2hZc1NkrrvQladMu61NjxQyA_RrDpZkN7DCEUs2oS8ELY7uQQ_IISFc7KGmp8H-sTXFegLlm0wPbX0WG8_zPcRLEbWqVcDuZNkgeUKsz_cbKSsSKVps91iawsVfLshAvukRtXU5657HocM_KW8PrahLTqhllUPfE6pPpKiPeOKqRmycIqdL67Omu--TI5cuehvoxc2SjUInNw4aiDy0tS10gyPhrThZuw6ibXj7jUeAsf9cYOYf_ZCefT_-Va3WC-LXnGlKQQvhL4iO0aAJUSWLAfbPJrrma56Zd71h7vVNPRVmlGcowuMeNXwPoX7ATChQ0U72N4NLUS9IoA12GUQ5F4MsbiEoO_VHsgk1Idag6eEuA1f-N6uYpr4XRjwDkqlKVVjaG5aA9CVjVVz-jrBBMVVy5e-Wdyq5eUzAZX-K4nMRliP_WstkVWR_wox0xAB_R_tScXbRxq9SkXaRUaoItQsWQEIuUi7g-4upZrOub549_jewnTF9miEoE8ACSkD9tA3uOfTFl_w6I9ghvL07L1uvLtvkGvPkpcSNvGThqeoQ7IdpwbeYxzLUP2Kyit-hyEraMdiMtzgoFuEEH9Xm86LEYSKt2O4vBqun9UnE4ulSPVfdt5DzpCgn_PbairNleTbx2xolXitF0AzNAO_GdVqLwJc7JkWQZm_zrkaEXjQIzFOWfGOOdvVPdBBobQl40FTPWxM7qksCRfYL4OyTewGtE_vz4NaZWDBf9_LpWr2ilvsajxE4uuUQ4SCMHIirBOJdDKIhxZfwR2SH6FHGdAiKrZg1GCvUWk_hysjOr8XUXO_mTqiEGela2RwdLxkqyX2JdE--2s0sCHzbvc6P--NY0nwPoJH3XPzWNNyzLtSOyjq_0oglgCqHJOY2qmcP36npK53cLxcsWA30RJYQsG0yiHXUS69ciZcpeqHK9YSWOUoAAG3lw110hDFexWh8A5_HpiwMzgyVsiW8xWIZUmfbC_xzI8Bf34qsmOjRY5WVQWOy-9hpED6iqcsIM9wZ8ezTtXvFXAboc0UjmY4IjVozOUW_Qg8YaSjikmIJg3RXEePuCtbiIFKiB1wmQC22LRE0cS9O4mQMSeXTJX_GXQf3BzbOzroU0hNaFJ1Ai5cm1H2jjQIzW3C-0BJTq4_OAFAxT5PcgcwG_UghCwDM0sO0r_Y9ocHS59-cbhzUi_mHZHauWfUnPoJ-ck5R5regH72fauWTlg5H5_3wEAzcCdbgRQ0jMwoI6oZbOUjl-HNXmhvX3liOQ==",
      "summary": []
     },
     {
-     "id": "msg_060924d20aaecc52016ae14a1df6c487d1ac0ec6b62247412f",
+     "id": "msg_04067db94d5060d2016ae2a451817487d196738ef7f9160793",
      "type": "message",
      "status": "completed",
      "content": [
@@ -427,7 +427,7 @@
        "type": "output_text",
        "annotations": [],
        "logprobs": [],
-       "text": "{\n  \"title_zh\": \"大腸直腸癌手術術前復健中免疫營養與標準口服營養補充品之比較：以電腦斷層評估併發症與身體組成的隨機臨床試驗\",\n  \"abstract_zh\": \"背景／目的：圍手術期免疫營養（IMN）被提出可改善大腸直腸手術後的結果。然而，現有證據具有異質性，且少有研究同時評估併發症與電腦斷層（CT）測得的身體組成。我們比較接受大腸直腸癌手術病人使用IMN與標準口服營養補充品（SONS）的效果，評估術後併發症及身體組成變化。方法：這是一項雙組、開放標籤隨機臨床試驗，納入60名病人（SONS：n = 30；IMN：n = 30）。術後併發症以Clavien-Dindo分級及綜合併發症指數（CCI）評估。身體組成透過術前與術後CT量化，分析骨骼肌質量指數（SMMI）及腰大肌面積。結果：除IMN組年齡較高（p = 0.036）外，兩組基線特徵相當。整體併發症發生率在SONS組為40%，IMN組為50%（95% CI：-0.35至0.15）。CCI未見差異（14.8 ± 23.1 vs. 15.7 ± 19.0，95% CI：-11.8至10.0）。兩組極重大併發症（Clavien ≥ IIIb）相近（p = 0.687）。追蹤時，SONS組握力下降，而IMN組維持穩定（交互作用p = 0.030）。此外，SONS組的SMMI下降（-2.33，95% CI：-1.19至-3.48 cm²/m²），腰大肌面積亦下降（-1.15，95% CI：-0.67至-1.65 cm²）；IMN組則維持穩定：SMMI（-1.48，95% CI：1.04至-3.99 cm²/m²），腰大肌面積（-0.71，95% CI：0.36至1.78 cm²）。結論：在大腸直腸癌手術術前復健中，與SONS相比，IMN未能降低併發症。探索性結果提示，IMN可能減緩術後肌肉流失。\",\n  \"evidence_level\": \"RCT\",\n  \"score\": 5,\n  \"score_reason\": \"隨機試驗直接比較兩種術前營養策略，對大腸直腸外科實用；但僅60人、採開放標籤，且肌肉指標信賴區間有報告疑點，較值得作為全文批判閱讀，而非改變常規的依據。\",\n  \"relevance\": \"高度相關\",\n  \"relevance_why\": \"直接涉及大腸直腸癌手術前營養選擇、術後併發症及肌肉流失。\",\n  \"novelty\": \"結果為陰性\",\n  \"one_liner\": \"60名大腸直腸癌手術病人比較IMN與SONS，術後併發症50%比40%，未見減少。\",\n  \"action\": \"目前不需改變做法；勿僅為降低大腸直腸癌術後併發症，將標準營養補充改成IMN。\",\n  \"pico\": {\n    \"P\": \"接受大腸直腸癌手術的60名病人，每組30名\",\n    \"I\": \"術前復健使用免疫營養（IMN）\",\n    \"C\": \"術前復健使用標準口服營養補充品（SONS）\",\n    \"O\": \"術後併發症、Clavien-Dindo分級與CCI；術前後CT測得的SMMI、腰大肌面積及握力變化。摘要未明確交代主要與次要終點層級。\"\n  },\n  \"effect_data\": [\n    {\n      \"outcome\": \"整體術後併發症\",\n      \"event_is_bad\": true,\n      \"intervention\": {\n        \"label\": \"IMN\",\n        \"events\": null,\n        \"total\": 30,\n        \"rate\": 50\n      },\n      \"control\": {\n        \"label\": \"SONS\",\n        \"events\": null,\n        \"total\": 30,\n        \"rate\": 40\n      }\n    }\n  ],\n  \"key_numbers\": [\n    \"整體併發症：IMN 50%，SONS 40%\",\n    \"CCI：IMN 15.7±19.0，SONS 14.8±23.1\",\n    \"SMMI變化：IMN −1.48、SONS −2.33 cm²/m²\"\n  ],\n  \"cautions\": [\n    \"僅60人，併發症差異信賴區間寬；未顯著不代表等效。\",\n    \"肌肉保留屬探索性替代指標；組內顯著與否不等於組間差異。\",\n    \"肌肉指標信賴區間多處倒序，IMN腰大肌區間亦未涵蓋點估計。\"\n  ],\n  \"unassessable\": [\n    \"隨機序列產生方式與分派隱蔽\",\n    \"結局評估者及CT量測者是否盲化；試驗本身已明載為開放標籤\",\n    \"是否採意向治療分析（ITT）\",\n    \"失訪率、缺失資料及術後CT完成率\",\n    \"試驗註冊、預先指定的主要終點與多重比較處理\",\n    \"營養配方、劑量、介入期間及遵從性\",\n    \"追蹤期間與術後CT、握力量測時點\",\n    \"肌肉指標信賴區間疑似誤植的正確數值\",\n    \"利益衝突、資助來源與成本效益\"\n  ],\n  \"context_verdict\": \"延伸前作\",\n  \"context\": \"先前161人的免疫營養隨機試驗長期追蹤未見5年DFS或OS改善；本篇補充術前IMN相對於標準營養補充的短期併發症與CT身體組成資料。兩篇評估終點不同，不能將本篇肌肉保留的探索性訊號解讀為長期存活效益。\"\n}"
+       "text": "{\n  \"title_zh\": \"機器人手術治療橫結腸癌的可行性與短期結果：多中心回溯性研究\",\n  \"abstract_zh\": \"背景／目的：由於解剖構造複雜且技術難度高，橫結腸癌病人一直被排除於隨機對照試驗之外。比較機器人手術與腹腔鏡或開腹手術治療橫結腸癌的研究不多。我們針對機器人手術治療橫結腸癌的安全性與療效進行比較分析。\\n病人與方法：我們回溯性檢視2016至2025年間接受橫結腸癌治療的635名病人。依手術方式將病人分為機器人手術組（Robot組，n=38）、腹腔鏡手術組（Lap組，n=530）及開腹手術組（Open組，n=67）。比較各組的臨床病理與手術特徵。\\n結果：機器人組的手術時間較長（Robot vs. Lap vs. Open：233 vs. 226 vs. 181分鐘，p<0.001）、出血量較少（15 vs. 20 vs. 120毫升，p<0.001）、淋巴結取出數較多（19 vs. 16 vs. 10顆，p=0.002），且住院天數較短（9 vs. 12 vs. 22天，p<0.001）。機器人組術後併發症發生率呈較低趨勢（7.9% vs. 23.2% vs. 25.4%，p=0.077）。多變項分析顯示，男性（OR=1.559，95% CI=1.056–2.301，p=0.025）及ASA-PS 3（OR=2.486，95% CI=1.460–4.232，p<0.001）為術後併發症的獨立風險因子。\\n結論：雖然這個樣本數小、經高度選擇的機器人手術世代呈現良好的短期結果，但這些描述性發現無法確立機器人手術相較於腹腔鏡或開腹手術的臨床優越性或等效性。仍需更大型的前瞻性研究，以釐清其腫瘤學與手術價值。\",\n  \"evidence_level\": \"回溯性研究\",\n  \"score\": 5,\n  \"score_reason\": \"多中心資料直接切中橫結腸癌手術選擇，但機器人組僅38人且經高度選擇，不能確立術式優劣。值得有導入機器人需求的團隊讀全文確認選案與組間差異，尚不足改變常規。\",\n  \"relevance\": \"高度相關\",\n  \"relevance_why\": \"直接比較台灣大腸直腸外科會面臨的橫結腸癌機器人、腹腔鏡及開腹手術選擇。\",\n  \"novelty\": \"再確認已知\",\n  \"one_liner\": \"在635名橫結腸癌病人中，比較機器人、腹腔鏡與開腹，住院為9、12、22天。\",\n  \"action\": \"目前不需改變做法；勿僅依此研究將可腹腔鏡切除的橫結腸癌改採機器人，因選案偏誤未排除。\",\n  \"pico\": {\n    \"P\": \"2016至2025年間接受橫結腸癌治療的635名病人，多中心回溯性世代。\",\n    \"I\": \"機器人手術，38人。\",\n    \"C\": \"腹腔鏡手術530人；開腹手術67人。\",\n    \"O\": \"摘要未指定主要與次要結果；比較手術時間、出血量、淋巴結取出數、住院天數及術後併發症，並分析併發症風險因子。\"\n  },\n  \"effect_data\": [\n    {\n      \"outcome\": \"術後併發症：機器人對腹腔鏡\",\n      \"event_is_bad\": true,\n      \"intervention\": {\n        \"label\": \"機器人手術\",\n        \"events\": null,\n        \"total\": 38,\n        \"rate\": 7.9\n      },\n      \"control\": {\n        \"label\": \"腹腔鏡手術\",\n        \"events\": null,\n        \"total\": 530,\n        \"rate\": 23.2\n      }\n    },\n    {\n      \"outcome\": \"術後併發症：機器人對開腹\",\n      \"event_is_bad\": true,\n      \"intervention\": {\n        \"label\": \"機器人手術\",\n        \"events\": null,\n        \"total\": 38,\n        \"rate\": 7.9\n      },\n      \"control\": {\n        \"label\": \"開腹手術\",\n        \"events\": null,\n        \"total\": 67,\n        \"rate\": 25.4\n      }\n    }\n  ],\n  \"key_numbers\": [\n    \"依機器人／腹腔鏡／開腹：住院9／12／22天，p<0.001\",\n    \"淋巴結取出19／16／10顆，p=0.002\",\n    \"併發症7.9%／23.2%／25.4%，p=0.077，未達顯著\"\n  ],\n  \"cautions\": [\n    \"回溯性且機器人僅38人、高度選案；術式差異不能視為因果。\",\n    \"三組比較的p值不能證明兩兩差異；未報術式效果信賴區間。\",\n    \"僅短期結果；淋巴結數不能替代長期腫瘤控制，也未證實等效。\"\n  ],\n  \"unassessable\": [\n    \"各組基線特徵、腫瘤分期及手術選擇依據\",\n    \"多變項模型完整調整項目，以及是否估計校正後術式效果\",\n    \"各中心與術者經驗、學習曲線及年代效應\",\n    \"併發症定義、嚴重度、觀察期間與評估者盲法\",\n    \"資料缺失、排除個案及追蹤完整性\",\n    \"連續變項為平均數或中位數，以及其分布與變異\",\n    \"研究註冊、利益衝突與成本分析\"\n  ],\n  \"context_verdict\": \"延伸前作\",\n  \"context\": \"前兩筆橫結腸／脾曲癌統合分析已報告機器人組住院較短、併發症無顯著差異；本篇結果方向一致，並加入開腹組比較。它補充橫結腸癌的多中心短期資料，但仍屬回溯性證據；摘要無法確認是否與前述統合分析的納入資料重疊。\"\n}"
       }
      ],
      "phase": "final_answer",
@@ -724,1419 +724,31 @@
    "top_p": 0.98,
    "truncation": "disabled",
    "usage": {
-    "input_tokens": 3361,
+    "input_tokens": 3326,
     "input_tokens_details": {
-     "cache_write_tokens": 3358,
-     "cached_tokens": 0
-    },
-    "output_tokens": 1971,
-    "output_tokens_details": {
-     "reasoning_tokens": 356
-    },
-    "total_tokens": 5332
-   },
-   "user": null,
-   "metadata": {}
-  },
-  "42942906": {
-   "id": "resp_050835599d3ad6c9016ae14a1fb76487d1bff2f6e1a1a87df1",
-   "object": "response",
-   "created_at": 1793149471,
-   "status": "completed",
-   "access_programs": null,
-   "background": false,
-   "billing": {
-    "payer": "developer"
-   },
-   "completed_at": 1793149496,
-   "error": null,
-   "frequency_penalty": 0.0,
-   "incomplete_details": null,
-   "instructions": null,
-   "max_output_tokens": 12000,
-   "max_tool_calls": null,
-   "model": "gpt-6.1-sol",
-   "moderation": null,
-   "output": [
-    {
-     "id": "rs_050835599d3ad6c9016ae14a20e52887d1845e22077ac0f4cf",
-     "type": "reasoning",
-     "content": [],
-     "encrypted_content": "gAAAAABq4Uo4a__qARcmUz0841nhLRzGuTg_zRa2koWXRwsbxrE7WsVBwH84p1ic9T1kSorucQWFBLUKmjVSKSKsj8xCkim6rwrPUsf9w1X2PdzzBn6z1X6iZfGjqjeWJaqXD8eoWHT1pp8Ult7lh482y6pW0bIl2muiKlJobm7UKPAPDNWw8pGtJJ9FVa5H1MrtZLsqpk3DplvZaRnzlIn10rWQTXN2wjEMahM8NYGjw90U5SXmLnaDmfRBg7yugnePjBY9UBqYFfIAxObL4op-3Z2FWkqWF0-lwxbB0NlR72cnQA1hKc_OIjX6BtfsD2jWVTlLNStR1LgtLwoMCY6g6oDW7ygkH_YI6zbWbp8d0FiEmktZHZfeyjazpvg3U_bcVn1PjuJIofErdQIsi5WqZd6AA4rkZvGdG225wFT9kgdeOS1fb19DNrzIQ4Lxq4rKw27KnRwq9L-0TZo1yNWkV3_Br7kuzGY4NTtcROHWHaTfzIDz3DbIc0IL47DcmVcxdGRZPVVfSGNoYDSfIYLSIH-L9gsvNIhZKJG0BjJnKE19MfsITc5cgTPP6Hafrn4agqcrcxzHU9lh2iBS-FgzL7tI8CirB3N1w1vGYp8IQG0bC2EfxjXKdjaWF2WmnA_or1_4u9tEj6gdrr1RwoREGN8FxUlIO5zzia-Ln-a16Kskdt2znHt2dhfed5A8Vq6wsuuCeC3iSv5iYa2wN_AkUjEkFsON3T6P8ULKM-UH5jTwRzAySOudGu7Sq9YuzSSSI2hinjNtz3siB2pVsx7fuH6p1h-kPRur3WQrPIjZDMkdPI0fQ-j8tYlroKcBA8JVv5Eqdqy07sE3c59bQkjMHoL6HY1DjBFRWinSraOpDqrBqW00zKRqbY9ZmUss1REVtu-ZxUmRGLZ2_t3NwI2QDQo3icT9fBrUGXuUEmxfzFGBlrTk7hIMoGTbTKDPLmpayMQ4rF22TpmnP_9qLDHU-6Dymxsff94q7eyRVIFOg3U3HlOC_KzaweJVTrlg99pFGS8vVjbaJ62YG5R4E2Wff39CKWcHrVNvt1TFBz6PIevLfXgyAUxPuvUdSwZFfmr2sXE1al84GT9I68CYMBA6yA6F7vfpirDMYe5R8B3HV5T-slYtAGbTCxBquaXfEouzfEAAN-Ir1-GQ5YdF1k2iVfY62AOXiEHI2reg3OfEifAx4MQvq1hLG38H2Lvasgnyokd89COiav9xjOcCNfBkmMfBNcwSc8xRx-SsDNHWigo-W8gvk4T1QZoclJdOhJyGAJsSxrpVyPoNf3JbIc1G81J0DO-1RFQ3yHz6eBhOEXnHt9V7L-PaW7rQVoswa7STrdpCaNJbh12bCjIrUw0kBcbi1Hbs-NY7dYqYnKwgM0WmnI1rW1czwvTlGHUAulAHr8OgGNlDWv46ruSlpWoXzfcJSl_I53rEva5jAhrLrPYcZh2y6HmV3wgj7uxHNWx9HY5dMV1ebvPF6qK_qgWejrzPVRDQAl7uOhWtb52YQBp7cSG9UPHnKPHXMSkDCBhfEgBT93OYxrmUauvdiZnu3syGUIW34xVT7sKXLql65yN5QcgIv8kNItSNajLPoWXz6N0ygyDNn2guJWloISCs6vBipsuiGnQ37OBYL0EMfjWMc-cqAOa0kL0GSJQUVHJ1XGkgvQippYvtR8xVwTIKeWkhOznviKh82Lod987PUAXNA4oEAvonhkjHmPQ8UZOxyCjYJYIBUsUt9w6-O4Y8ds0OnlWkhvH_jUl7v8PLIJk6Uaqg4yKODuVxRhyGBjpuTCrD0YN-sSqrfH-9nsv2O2Ndxy2xBfUU1ti0SeceIW897wyr1XShjYOyh17NhGnQHR6EPuDtSNW5stw_bdcZ5L1DKW0vtUUcal_ybqNEuhZkAa67TezbNzTRmZ3wRwDZYMRtSZerg6i62Rt3ABpffiGGBSe-spF34lvzjr1v5YIESDVtmSj4vuxbYsqayY0CdT6tbRY3WcJ2P3EiPzbD1rIzE9s0iHdTKLcKLeZgsVERMoHgksCKNWz6eNUUzPgmsPy5krN8oaB_75FSBCrS2kyUgTWu97RgMwPfRrkJzOW3KxkpuQCSSyflOKrKYEoOfSOq2CDnBtMudmxttqAk96zQUndNscBdx5Ak7v7-24Th8-8NVkFHL_olLQoyA_9ZbJUYqgbzk6P16rFFcs5kI1tkWRUnse-VXb6FB2oUYK_leEp6ey46OxL8hQRwmrFLDEgYrGzigfajVH3ZIZHN5rfDvMp3VKAvFrJbVujAsDQiS0JtZlbZbqXysCpGNbuIRsz1MO8tw2-u8uhZ3ImEp2uAbGnJ6CCYhuorhKbsU7yoJfkg4Kyxk6ERsmKBAvIMiXma6TZ-KEXxqavuIJ8gEZy4e7pg0-ATsQh3XvtRl4Dz02bdbB6Ic10wAoveZPvXK2KxDOLUDyLYnmNndwyFsCCu7nSF_9vCYlYyLp1hR9Qeu3ie56S658e15772k3RY91vHVmsBhQvQkvx59C0bhdnfYVQoGCcZCcaPL51guvKqXf45bhrlDdZnGVYdwWKA0108DVN5Gw1MzabBGQEJ_TMMquoRZe-tojhD4rbyzf7SgAa_xK75FRyPMHsI-0hFv5l4iQzSaHsKReF0cdQfqI0M6YNzaDAF6G30NT3QkHrxMSLVGrn0qOu-POW3Iy0pjDvG7FP48jEFg-ssk9kUhXJMZ6Vo_k5LChfbjBUi1mar3BgY8QhkkoAnwEkeQ0k05Ld9X5-aG2AXH3MasVShge_LEBzqMQlwXs-KL1HWzWHIf4r1G3f5RE1zbcwQjq2El5aVaeM7ZNQnVEK0CN4U1-K35jdgF1k61IsaIpEhhAVfjJGdu7w6Iv_fn9dboQqNDeYTwvP3afg7u7SXFLkC7qyyApfBMQ0VNAXJkWVmYyS09U3w3Dur4JgeFY8okWl9jLnOMBFsSgGyG6wrydQumI-grqRdgJvwX1IehagD3_kZUptKqqdR9nMYeltIONTHTs8DKf1tMV0yO_K_UTbKHm2y7di-uRs1bGWr5uKDzGUF_A-gjCyvtPulxh_v4BKn4Idxa-F2UXgSkVzrLWr3iBOgwfvO8AHsHWvHyh5Q4m9_pTVe8ydBBV4mYyjlVmMXM8MN1ghxlGV0so8LyMUgV1wYh_hAiRMpqgkATAOsVlEbQtfOowEKZ9tfx_7GmA7Aa4luuJKoUDJwF0YiozlzkKg2uj8Nf3vbTkK3bVo5fxVrhhUdEHKVAhMvVGEOZ5MeYxMP3b-yTk6ywwXFYxuvs-YJRgLCklxLk_IAt6DJ4qYa955SbKPYcWGak3S-gf4quGSWgQHpxjr6PpHzh7F1yL0w3cY9yrli-1N9ojuW_ZINrdfCGr4JWvI8FX3YQ1hMLhB6wwH8nMLGIm7prTGKuiV6RM-KRNuDoV15gnTK0swMoojN-tjZ_lPdBeai66Z8wJDfRQAncHZBfiRRaSNnoAmV-fu3t98Brs3xc0MiEAXgNsL6hb30GOskpAIaSvwHPjxUhHNdiV5EhJHA2a4_wamaDAFNI07J1oxQk3GkKw9ta_Z0vVVnLzAkLE9py5R1Kk16Ela541Ia86Zq2lJtS2qwnSaOLMdt4WgUufPSBOrgJ8x0FG8Yb0FyKxsauIZgrgO7DuHg4v4msaSLcPsys8LHC7UQpA-3nuHSFWExb1fBdGF-M7aCyVYEv635nn7sM06s37vZaqqoCKG1fzURP77pb8X4NUDOvWbJVYWNGjKSMVkcggVKyX6X9OcMT0T8r7ryQvrT-aEqaqp89r-tR6TB1frq2oGiHDmWpFOP4DikcM0-ledmLzBkAlrFEA6rMgjWZRkhqM5eucpVy9yAKSdE8xpwzN93I_gcHud--GP-OlKCoJ9axELKrt_FLpG70wlY41j7VlYZ04xNH_srgnzf89aixFPtCcGvLwNgWe76e1g37N2yzQs5fTeWl1ZvxBEcGVpS2L-KFevdPrpPtSDF_lA9eL_feI-S4LncPuybMAXzHPSxOe9Hzzvbz8Sb89zdhxLMsKXhmKWk8EkocAAuUZJcWYGkLEIm9ichnQgo0EWQC4Z7OLIEtZ04pphKTBwC6QD9a9Fxh5P_CHezkbcxerB68z8QQ3EHOXunoyucG0xMDsBd1UMfQXlvsO_wxVBPwifrDfWsLPmWP1kCu0fIEfgoWmVkMMUYyyYHzgdqVxKZZwkDIhUAKiKXNvurhhrt8Bmfw6Xa_IyBfj5XTkp4aZI2KC-hFWbpdj48Ljgj_XNBbVophRE9EEPNZlsvyd5TrZRQV3X5RCl10h1leubKxGzAIASHQlmK6pslyajCJ_yAnqbjzqHe0VzCi8aKCUJj5Je3TYBv6-M6Sl9nH9WlrKfk7LizqLbCRQzsMePy-xPWHOoKUrau9iEG-fNtzEk5V6lj2C35lG6AQhymCVWHcq2aX_byfAKQkUlkJ2CWHHsaVHNaUX8lXxtbB8TTFxxDnkWefEFKUFLH5-3iF4-RwZ42t9LB8vGerRMOaYFhKPPdIImXw2a23d_UCCQpyRQnag6_z7R6DFSiVSueoLK77dbSZmZJkNl2XpR3wi_VTARStkPrYFzpacas5ecqDKTeVGnqZO31y_6fw2pOWhT0dBvdRYfGoEO7f1p53PioXr-KttNi5mDOAJ78MuCjYGTLNpGJk2ReZzj3VTMhyRKplSBJbBvWq2g9arfA9raFNKJJahxFmiGN_Oy-x3fa6vwncLD04vVm1al3jT9Z9gZ00vNHPCytARZif5o8NjnFAuunIt2t1X-UU6Adb5vRtx_lu08yLlwnMhFiEo_luJVxePhXikRhUSw4XonEoRa6SoR0c1F7m9Pb0TBeBcVmr8dBhPrcz1b6bnViKCygmcYk_Lz2LVNj8w70GSZNc4tSLiT37pqhyOxGX6RPqcmo5WKC7SnEiZnYji-L_Tcek3M1HHgbZnjlg1edy87pyyBImnBvK5ZOcF5BU-4OO8HggjN9gZ3Ds1Ps-P0VwpSBX0ZWTBplD8867TkciWb0j3O49_bzymexvpkA4N8GptO7Uytsy_oLZZUJg9X6eLKtZ2IXrABlsqFk08nHv5KMn9oraCH_Q6MKiXu1u1gDhs9TVdrMNrJDGtmb-PKsEZHrOcT9OM0JozCNyE4pJWwqKCbwh7b4YPadm3ZtcMeh_zNTYCNEQO72De4Znh0QEo678OUKFP7wOcqBlhIg6sLdp_MNg7fhJ3gKznnfvtvu3uhI7__fYW_aY0-SwCDF3elGiV9VTO_ObMkucrSRZ1RqMNZWC-DgdphxFoMBHNZYASo3NuQj4usUq9SskqxmK3WYVStCdqW4URm9AxUWYmezMFDE38cIPkw7OUY1VqEIEtVve1p5AC_1mrtokHbOtb0eyabFHa2bcE7YGdQLu-NP_oY_5HrXPhZWDprnyyhEWEcRrWXY6Vy7IvpJER0oVyda_rAuFYFnnHn-wxzWSEFgENM2QZ_vUsNyAtgDrMFl4ewY5mCLCMSeyfsN9lWjCPMYxtFWBWq799fq1TDtFSRfzARLm_OuAjNjkl1c3FHtP3QtsqFIDpHXqmiTj2I3se5O3z50sIGVEQ11b7BouCnL14k4cE4w-YyboT113fo3ulsZFJOk6UDGNoZ-49heyWx7WNTfgPID52LuVpWP4jEIIZhsD0MzAikP-qGQVPORuMMjE2zaWwW9Tb_JHUudr-swc-ZQlNd0rAasuvVyD63KKcrk_n4o7kYBAk1uM9xTotamoWj4xeUyfA8ZVU3MRWMqJgpiidQVooeDfIw_FHCLM_dmQnT7iGFekUKOBUDNQl6J6FVxeflNr65TJgphvdo43G_88lV6yVxIkPbdgeu_UKTcSiKHsP5tjGP0o2INzZiMHtFCGmpucCyBcc7y0VswiGo5jf9R9TXVD6mrmyiQbjRrn8oerFeYlpdV6aAyBMPb932R8k5RArOA4OWLESuHYeGlfcaSHU2By9CmEGyhe8RpWcEfkhPulRQO0Na6Q03OBDWv82CD4gt_wqVSCBVjOp04qIxQrtuS7TZdy20NcjDqLfjoASwDOrNBvYIqJu050BSARSK6l6FB1bW5IInEv62o127x7-2zrs5a6S4ptanuGdQZvGgFqN7Y_kEXce6CbzwWu9c-Bz1Xd9A7L7zmR8xfzSJhP6g8vRFDA23go6rr7o7q2uM8hBHOB-RY-6F-Nqyt866wnxHgLGhS643jod9OI3p7jfkwB01WgYh4bWhI6nT4g1z5Ofq2nqwI0XqgCSSU_I734qZ7Vom7hfa4vK_QjH51SKn5aqbOpmsHYOUh3TfpE-r9X2q8OXjP4Ly51wznIzaPMOfQPJ_SiBvJGu6aH3EvTwo2s_jLMxft2swOf1Mr0NFD9SXPaLRASqKrr9SZaciMn2LvfoDTLN_Pg6OIrCrG6GoablReL_XI7miDYU68s9f9ghGEQwwWsVhWLABbveslGibUN3-3XjXnLg_PhnLuIbOLdBszrMmb3442PmWmOyYoW5BPHqDzY_9gA9eeP7Xfhr02v3iHhmNRpvM7ZpouPYb4apX72xxdJoKhZd-0m_8KB1Oys47eK4TqyjLoEWgg7lCi5nkwvfgjQh3fiygKy1h3v1rsT2LkbYmJ02jkFIqIHAjH24GiMYIK3iAFTem_3Zciq6Hu2fY0w1cn9JqI6XqVYY-QlgQhBk2B5KD_VJKCKBjU1ntujFmhIuejceI4Wt-6yi9sL03kyhpN8BN-4497iXRa8iQiSLmG10iyC-mB1FcAfVxElO4wymHVCEitcuL-aq5IbjRKUiQzJzFxPq34sxMPS0uF7LlQb1lRopops6xRrGey_Wg8VKhzsw8g-qR95M3tJDs6uyqffrR371fxh8jMvmHITGbXPel5s5sKK0AxJsJqxHl0QPjdR35RgAYoFRSP4IoEY-ziSeD0MZnGWy8vCS2NzHb8oWF9pPSXHvvPp8xt5J0vS9uy-V4FK37PjSRN0TzUeskeRmycdzLvUTSN87-MEFZBdpLgW2h53LK6oqonGbOn977Zq9DQZRqIaifgjEJrd8Km-JepX0HIW_eznfxfxnjR2iMUXM8cf_JdkmI7B-UhCcG5NEk7ilNsvwAK3HrMyxEG1jlM1aFTlF4TiSVwDrIaNqBdac7w9n7ovPO0vaiJc9mZs3kmRI0j658E8bwtRXpWyv9v5u3cMZomVes4ydbJ6fs4OCnTqV4F1Uc0G7RU26YZK8-nz7Hb6Lyv1JgUWvC3B5xdfveB4A8O26rny86SeELpJR6c7C9r11RbZbumYHtoVSusI8nkMI0wHa1HSQlZk5eDDeXfsXHgaUV-FuuJbmlYqGiQ6PeIU7O6e82o9mUw1WQxVgGV-rs3ELS9v56LHTxeDQ4S_Qq_iqhrFhw65ESwnWM=",
-     "summary": []
-    },
-    {
-     "id": "msg_050835599d3ad6c9016ae14a2a756c87d19c4c8690d401dfe0",
-     "type": "message",
-     "status": "completed",
-     "content": [
-      {
-       "type": "output_text",
-       "annotations": [],
-       "logprobs": [],
-       "text": "{\n  \"title_zh\": \"膳食多酚作為發炎性腸道疾病的輔助治療：隨機對照試驗之系統性回顧與統合分析\",\n  \"abstract_zh\": \"背景：膳食多酚已被研究作為發炎性腸道疾病（IBD）的輔助治療，但各試驗的配方、臨床情境與結果定義各不相同。我們分別評估其對潰瘍性結腸炎（UC）與克隆氏症（CD）的療效與安全性。\\n方法：我們搜尋 MEDLINE/PubMed、中國知網（CNKI）、萬方、Web of Science、Embase、Cochrane Library 與 ClinicalTrials.gov，搜尋截至2026年8月20日。使用 Cochrane 偏誤風險工具第二版（RoB 2）評估偏誤風險。統合分析使用平均差（MD）、標準化平均差（SMD）或勝算比（OR），並附95%信賴區間（CI）。當研究在臨床情境、結果定義與資料結構上具有足夠可比性時，進行量化整合；否則，以個別研究的估計值彙整結果。研究計畫已於 PROSPERO 註冊（CRD420261451126）。\\n結果：共納入21篇報告，代表19項隨機試驗及1048名參與者。在一般 UC 族群中，多酚與較低的簡易臨床結腸炎活動指數（SCCAI）分數相關（MD −1.32，95% CI −1.81至−0.83；I²＝0%），但 CRP／高敏感度 CRP（hs-CRP）的合併效果並不明確（SMD 0.29，95% CI −0.32至0.90；I²＝83.7%）。九題版發炎性腸道疾病問卷（IBDQ-9）分數有所改善（MD 5.57，95% CI 2.88至8.26）。補充多酚有利於臨床反應（OR 4.90，95% CI 3.04至7.89），亦有利於誘導臨床緩解（OR 5.98，95% CI 3.08至11.59；I²＝22.6%）。補充多酚也有利於內視鏡緩解（OR 10.81，95% CI 1.67至69.93；I²＝69.4%），但估計值不精確，且對個別研究的偏誤風險敏感。在 CD 中，兩項隨機試驗因針對不同的臨床情境而未合併分析。安全性通報異質且稀少，各試驗未呈現一致的傷害增加模式。\\n結論：薑黃素在 UC 輔助治療中具有最廣泛的證據基礎，但若干結果的效果估計不精確，或對研究設計敏感。CD 的證據仍然不足。\",\n  \"evidence_level\": \"統合分析\",\n  \"score\": 5,\n  \"score_reason\": \"納入19項隨機試驗、分開處理UC與CD，且已註冊並使用RoB 2，具閱讀價值；但配方異質、重要結果不精確且安全性資料不足，對外科決策的直接幫助有限。\",\n  \"relevance\": \"中度相關\",\n  \"relevance_why\": \"涉及大腸直腸外科常見的IBD共同照護，但研究聚焦營養輔助治療，未提供手術或術後結果。\",\n  \"novelty\": \"仍屬早期\",\n  \"one_liner\": \"在19項RCT、1048人中，比較多酚輔助與對照，UC臨床緩解勝算較高（OR 5.98）。\",\n  \"action\": \"目前不需改變做法；勿據此為UC病人常規加用多酚，效果精確度與安全性證據仍不足。\",\n  \"pico\": {\n    \"P\": \"19項隨機試驗、1048名IBD參與者，涵蓋UC與CD；各疾病人數未於摘要提供。\",\n    \"I\": \"膳食多酚輔助治療；薑黃素的UC證據基礎最廣泛，配方與臨床情境不一。\",\n    \"C\": \"各試驗對照治療；摘要未交代具體內容及背景治療。\",\n    \"O\": \"摘要未指定主要與次要結果層級；評估SCCAI、CRP／hs-CRP、IBDQ-9、臨床反應、誘導臨床緩解、內視鏡緩解及安全性。\"\n  },\n  \"effect_data\": [],\n  \"key_numbers\": [\n    \"SCCAI平均差−1.32分（95% CI −1.81至−0.83）\",\n    \"臨床緩解OR 5.98；兩組絕對緩解率未報\",\n    \"CRP無明確改善：SMD 0.29（CI −0.32至0.90）\"\n  ],\n  \"cautions\": [\n    \"配方與臨床情境不一，不能將合併效益套用至所有多酚製品。\",\n    \"內視鏡緩解OR 10.81，CI 1.67–69.93；估計不精確且受偏誤影響。\",\n    \"安全性通報稀少不等於安全；CD僅兩項試驗且未合併，勿外推。\"\n  ],\n  \"unassessable\": [\n    \"納入試驗的隨機序列產生、分派隱蔽及盲法細節\",\n    \"納入試驗是否採ITT分析，以及失訪率與缺失資料處理\",\n    \"各結果的具體RoB 2評估、偏誤敏感度分析細節及證據確定性\",\n    \"納入試驗的個別註冊與選擇性結果報告情形\",\n    \"各多酚製劑、劑量、背景治療、對照內容及追蹤期間\",\n    \"兩組絕對事件數、事件率及可供計算ARR／NNT的資料\",\n    \"臨床緩解與內視鏡緩解的具體定義，以及分數改善的臨床重要性\",\n    \"長期復發、住院、手術與術後結果\",\n    \"資金來源、利益衝突及成本效益\"\n  ],\n  \"context_verdict\": \"無相關前作\",\n  \"context\": \"無相關前作\"\n}"
-      }
-     ],
-     "phase": "final_answer",
-     "role": "assistant"
-    }
-   ],
-   "parallel_tool_calls": true,
-   "presence_penalty": 0.0,
-   "previous_response_id": null,
-   "prompt_cache_key": null,
-   "prompt_cache_retention": "24h",
-   "reasoning": {
-    "context": "all_turns",
-    "effort": "medium",
-    "mode": "standard",
-    "summary": null
-   },
-   "safety_identifier": null,
-   "service_tier": "default",
-   "store": false,
-   "temperature": 1.0,
-   "text": {
-    "format": {
-     "type": "json_schema",
-     "description": null,
-     "name": "clinical_summary",
-     "schema": {
-      "type": "object",
-      "properties": {
-       "title_zh": {
-        "type": "string",
-        "minLength": 1
-       },
-       "abstract_zh": {
-        "type": "string",
-        "minLength": 1
-       },
-       "evidence_level": {
-        "type": "string",
-        "enum": [
-         "RCT",
-         "系統性回顧",
-         "統合分析",
-         "前瞻性世代",
-         "回溯性研究",
-         "病例對照",
-         "橫斷面",
-         "診斷性研究",
-         "病例系列",
-         "綜述",
-         "其他"
-        ]
-       },
-       "score": {
-        "type": "integer",
-        "minimum": 0,
-        "maximum": 10
-       },
-       "score_reason": {
-        "type": "string",
-        "minLength": 1
-       },
-       "relevance": {
-        "type": "string",
-        "enum": [
-         "高度相關",
-         "中度相關",
-         "低度相關"
-        ]
-       },
-       "relevance_why": {
-        "type": "string",
-        "minLength": 1
-       },
-       "novelty": {
-        "type": "string",
-        "enum": [
-         "可能改變實務",
-         "再確認已知",
-         "仍屬早期",
-         "結果為陰性"
-        ]
-       },
-       "one_liner": {
-        "type": "string",
-        "minLength": 1
-       },
-       "action": {
-        "type": "string",
-        "minLength": 1
-       },
-       "pico": {
-        "type": "object",
-        "properties": {
-         "P": {
-          "type": "string",
-          "minLength": 1
-         },
-         "I": {
-          "type": "string",
-          "minLength": 1
-         },
-         "C": {
-          "type": "string",
-          "minLength": 1
-         },
-         "O": {
-          "type": "string",
-          "minLength": 1
-         }
-        },
-        "required": [
-         "P",
-         "I",
-         "C",
-         "O"
-        ],
-        "additionalProperties": false
-       },
-       "effect_data": {
-        "type": "array",
-        "maxItems": 3,
-        "items": {
-         "type": "object",
-         "properties": {
-          "outcome": {
-           "type": "string",
-           "minLength": 1
-          },
-          "event_is_bad": {
-           "type": "boolean"
-          },
-          "intervention": {
-           "type": "object",
-           "properties": {
-            "label": {
-             "type": "string",
-             "minLength": 1
-            },
-            "events": {
-             "type": [
-              "number",
-              "null"
-             ]
-            },
-            "total": {
-             "type": [
-              "number",
-              "null"
-             ]
-            },
-            "rate": {
-             "type": [
-              "number",
-              "null"
-             ]
-            }
-           },
-           "required": [
-            "label",
-            "events",
-            "total",
-            "rate"
-           ],
-           "additionalProperties": false
-          },
-          "control": {
-           "type": "object",
-           "properties": {
-            "label": {
-             "type": "string",
-             "minLength": 1
-            },
-            "events": {
-             "type": [
-              "number",
-              "null"
-             ]
-            },
-            "total": {
-             "type": [
-              "number",
-              "null"
-             ]
-            },
-            "rate": {
-             "type": [
-              "number",
-              "null"
-             ]
-            }
-           },
-           "required": [
-            "label",
-            "events",
-            "total",
-            "rate"
-           ],
-           "additionalProperties": false
-          }
-         },
-         "required": [
-          "outcome",
-          "event_is_bad",
-          "intervention",
-          "control"
-         ],
-         "additionalProperties": false
-        }
-       },
-       "key_numbers": {
-        "type": "array",
-        "items": {
-         "type": "string",
-         "minLength": 1
-        }
-       },
-       "cautions": {
-        "type": "array",
-        "items": {
-         "type": "string",
-         "minLength": 1
-        },
-        "minItems": 3,
-        "maxItems": 3
-       },
-       "unassessable": {
-        "type": "array",
-        "items": {
-         "type": "string",
-         "minLength": 1
-        }
-       },
-       "context_verdict": {
-        "type": "string",
-        "enum": [
-         "再確認",
-         "與前作矛盾",
-         "延伸前作",
-         "無相關前作"
-        ]
-       },
-       "context": {
-        "type": "string",
-        "minLength": 1
-       }
-      },
-      "required": [
-       "title_zh",
-       "abstract_zh",
-       "evidence_level",
-       "score",
-       "score_reason",
-       "relevance",
-       "relevance_why",
-       "novelty",
-       "one_liner",
-       "action",
-       "pico",
-       "effect_data",
-       "key_numbers",
-       "cautions",
-       "unassessable",
-       "context_verdict",
-       "context"
-      ],
-      "additionalProperties": false
-     },
-     "strict": true
-    },
-    "verbosity": "medium"
-   },
-   "tool_choice": "auto",
-   "tool_usage": {
-    "image_gen": {
-     "input_tokens": 0,
-     "input_tokens_details": {
-      "image_tokens": 0,
-      "text_tokens": 0
-     },
-     "output_tokens": 0,
-     "output_tokens_details": {
-      "image_tokens": 0,
-      "text_tokens": 0
-     },
-     "total_tokens": 0
-    },
-    "web_search": {
-     "num_requests": 0
-    }
-   },
-   "tools": [],
-   "top_logprobs": 0,
-   "top_p": 0.98,
-   "truncation": "disabled",
-   "usage": {
-    "input_tokens": 3366,
-    "input_tokens_details": {
-     "cache_write_tokens": 3363,
-     "cached_tokens": 0
-    },
-    "output_tokens": 2144,
-    "output_tokens_details": {
-     "reasoning_tokens": 516
-    },
-    "total_tokens": 5510
-   },
-   "user": null,
-   "metadata": {}
-  },
-  "42944996": {
-   "id": "resp_0dc90a9f0d2d5185016ae149fd910087d1b5669412ad2282f2",
-   "object": "response",
-   "created_at": 1793149437,
-   "status": "completed",
-   "access_programs": null,
-   "background": false,
-   "billing": {
-    "payer": "developer"
-   },
-   "completed_at": 1793149463,
-   "error": null,
-   "frequency_penalty": 0.0,
-   "incomplete_details": null,
-   "instructions": null,
-   "max_output_tokens": 12000,
-   "max_tool_calls": null,
-   "model": "gpt-6.1-sol",
-   "moderation": null,
-   "output": [
-    {
-     "id": "rs_0dc90a9f0d2d5185016ae149fe849c87d1b280616b3cfd03d8",
-     "type": "reasoning",
-     "content": [],
-     "encrypted_content": "gAAAAABq4UoXBGv0RZIubJnBItU7v7HWItHKbr5CRreXc8MlUImeKSzDsC8mDE-UXme8EAfRLrvFu4z3h2QD3ijIx1sbphjFLUNINg9jhN0BwjyqlpChfwMvDIh6dQKOhC4pS_vbmhp8hGSp-PyB6ZKCBjWVYnz0OiB5MnlgtEwGLOjfxz9FJB0eqfJ7_ZefIMz7g130QAnTZ7oFPQytu6K_Uwgh6THuXB0lPtcT28l3o3U-rU3WEPTpUC2Zl8IihiNMHcypZ-TvUga5q1m_ijcamj6BaQHj88zNXml4d_Y7lp_bqzRXv7TB8QGUujommxeJOR3C_q9UrTfT8FSyOhZWFW1-CoyprsAyu_d6gm77GTpYNp19vbMX_jJCCD12LoHYrjP1YkNU26Fvz4uqQCoePtzcyCcnfK8-F3MPs6GNCF0TmuRLA5KeRZgDxyJ2wSaJtbsJ26_myyG-qcVjqZ83vAkYYn3OtcDt56PVuOoaib-lIjK54baCC0KascS0pvH4Wpma5UKYCU8_Fse3NQeGt2gJBil5x4W0Ztmda9BHJsGf0SxBo4MWobCzsA1i2BAVvHPP-CUIIZ49EU4GzhOvWXHwD5Vs0Ih97vrswIq19GFHQsJ2pecbFw5tH0ZmVQAimIDeh0zX5QuEna0cZJPL1aksBCYCMr8bB6hSee2jivndo3FunWtVFS7FM8nYsv1psN_PriEj-V9cdzlZ_zlbk0kW77JdlPnf7VkH_2_gfTwq9vcLo47BJdkR-Q09h8gxkwslOQLNnYZP57F4z3GQabnhWB48tCmd2NZNRn_KtLM0Oo4Siatjzc6zUwffSJUNLpY6ft2GPARcsZ_-cZb-R0opr12D14HT2pYEX9Ggotl-pPk9Te3S5CdatcO_QqIoZTIMLUsywnXirQr67Q8oHxFApSXyg_hO5d2MLtoeMAtDHYoC6ow_NhWeOH2OSTPsqHZfVlJxzh-yPra069b1rB6RnCo_ouX1nW0ahvx67QleRz2k7GpSQMeNa8p3RFR-n0kTpYG7KHpHV0s_lJHIi89aSV9KX29e_q4ku9tIWhGYA01zzrJrR2WDidoATXWc2bAZcpnmvcp3Bw80f6FuDkO9oJhWcJqQZIAtycR9fwpmHd_EFI0sYSNSq3d9Fp7sYcmfI2ZeNKDrEv5LSbuDnhfzkIfaXDOzFoySbGjbNHAZrpPng83ZGF7Qq2py6w4cLdOOfF-T5R-DA1bvHy-77Epy4ko1pj5nO_DoOFLjyO11Z3-vG8YjpLfBzsT2zqV5xqdvIcC-Qc9LFQIsywrGzYRw81Qy1pxzY3HF7H3516-6Ur-jt7Qzm8sjp58ba-Ume3ja5xcmh0aWYX72yFwZyNFOazG744WGUaoa_JwINSIA1ASNV9K40KbQbwKmYXmHPioM2j-mPeZXMYGLcl7uFikaivUhwv4FdEuyHMH_a9XY2EPKCo6ggkLgnJl6sCe7NKWA5FpHHue_u8lE2rNHgNwIgVFfjDiMqxPhnwiBwkFbGYcatLacR3V3IuZRljHYDFsCOZVOxlWXbx0hp5M9PUrIuEq2hZUpsLlVAtzzqN-XLAW3qLa_MtZpvQavCK8sRNlR5HNlclEkxnYixYx3d4yR2qGy_nRjea-iCrlThicW3zJ7CoSmNnMDGekuOVIiM3rYwi7MRuq0k5v5FnlX1Dt1Rxsdpj_zueE0aT76W-innB1GZMBlIozN7Jq318zmpiVDKR2Y2vNPRd3cxNhQzlpYXn_6guKZXArK-SIfHM0P9qWKV85Is2su4bHRsEWH9ZseoxHL5XvwY9nm0B5bEWJYaDIXQMwodg1n7VQNoOE0mzY4-I5-qMXiqZ67FluPmGGe7PFaPa6fFW5_VLcn-wjMf5PS2VnINDwq3okzgODa-pCATLOYl11jRhy2xGJIdDlkofftNeZjyIbPPvlgGrVacsXPwNpyCdkRFYkJLIfZq5o5mAD0NNBaiNxQEzWyah1dedTBKhPmkyaVOjIVzRRiAZNIxDDD44cohG5WcglkHXVStVT2AH8eWwqhGfGAz3cMsDp0MK0cQM8irRF7PLtwSMHxNc3EruHAQDErhnuy4D38EvJdWeBCR24PQUs_UyFQB_V4YO1XY659nd6dlfcGc4Hz3vcY4Lytmj3KMMujwz8CErjrjFtmH72sav4x9HbLLsCzP27wimZRvWYNz_Dy6CZMaTTqq6ciA15HA1AC-iqjYJmQ5vCpTDoyQ5vuhHHgZ314uUqUd2ULMCqyYAmaTJ2wO2BpV_BaFKpZjl2A0ogw5XynIpUmn51I9Q_YZwWj5xWB9TpMxuh7te9UlL-MSCtqz3pwQ77awI72hJ_Fm5bIhvKxNp02akBxAbv_NIJ70FjLzJB9UKQKCYues5-MLPtd8BckeypO1-x5GIMQd2yY9C0plrkHv1FbQaobb5Ct8EnW8GM5mQVct4mJlqpkGM0J9pTcbswS9bBuOwMJcvmXsjNu5TVce00tSXgPXw_fOmhW-44G1NTKu6ZbagvQ5WcDwyr-s7QG4OLa_4EEy91SmHsEyBmXjPNYfQjP-RDkJLzljiDu_8aSfzDduhvICzYdKVGVHpDCt8YCcFcbYKDTJFGy7p32vGG2pUabFWzF_m7_gDJa9xfteMKnxGesaWdQ3hBRUlX63QUOfh7SqmH6GGG7fu7_7TDOBdsHGDXJYmrF4DCJswdL2x9anD_aOxlc-tbDlQVKm542B-BXCLzpeAxeINu_gKBuvfA2dBMh4O0gKcUb_MzfPoKFLFca3LcUgVf1pFdZHlz_06SlBLcMMv_Vdv7Oqxb-rCPkUhhLuqeXj7wD-5oEzvVR77EEdy-ReLBCoFhxaYs5wikoVlBsmeAbPe2ryBqOBGL3h_F38Go5a16yvtte_e3rqhN6N06MTL7k-7DNEKBdi9K3aWI2ZO9XJFVKQ-iKu8xH_ZRUU5yOdL4kxQVewbRjUCIiVVVTXLiPTWzPyFaWUnAR_dPacaDV2XG8JBjDNNFFAdcl3VJ0rU4yumL4IbQIQfP_sAir3QRvprzHdu9oi2qmyfMqJMFlpShIgW3OYMgFV_ypusGqI5KjkcLnVX8xDGHPPgTv_ErzeM_mMS2Ei1kE3jT7cIjyDgfqJDIotB2nRFfAaj9TDQAFLU5KFZvgMEYwhSwciE4dTVnd2JTxdxYlW89WQwf01wjk0OSz6ocCZR7jI2OwP8hPwNWhHxKTgOp7mKxYkAqZJF1oxjGFLtUxIwpgNtkmsC0-cHpTJ3A9uTpw889Nlznu7qkZj_meorq-2H6pzEKk--YIwja7bX1KnmBGFLG_mR99xkJEYm7Z5MTbI3H9xmdlRNRxzMc4pD7KDTfr8Qh1La1xTvByPAeA7HMYKuEUvL_uIswPYkGiSZC7fW_cLeKBMJM0dRgMdvVMzPTulLm5yKBQyMUweD9lhiu1HuvN9pIJ3jypYIwlO72zM3DCq5Z672bAPl6CJcYT-BF4mD6UxKgwSZJydFIZYPOnXETp-gdi4yRQimH1gT96aVtsLpIbnS69ZCtC_7EvYT3GPTmfFxOnbEKmqoFvLONBMEDaOucg2kAOYPxd121fK6zuwyf2vrzmn225FNYnZfzolomcRQz7HD5xpAvqvW0_wuhf0n7J-9Bg4NC8prSZ4hghbAJAudYpE1hRrvQ6rCxzhIY1DScwrTwMNeb_TvoqPssishA3kEDXstcDj24FdEooaE2mPDnLbWPIpSewuxiGzXesrliJFlKwyV24bz9LXSq5QF5Hc9h0QXq9tEg4OhwvzgMTGqmN5c8WiynCKE0q7-2KxFSiXFMhNqzVH4yi7RFWM4yUIV1oc8xnjclYE8xX0hZAn3zvMIM6ZvzvuTO7wBgIVIczujlRKzVKen95FD6XkvSuTv6miYGt2Y3W343WVRC7ih954tBxE_qNc4Q1AmSEfeREHXW9maftKX02hh9hdgPL3PLG1uwwf_mldgFgjUqnb61IzYO_JujvEuMbTHPtgAvXmwiMVpvTPbv8_PvsF2PQxVP-AfjAeJp2n5y8DBwUmwIDTmNZZxMH4yvKiDzLnnAxeOfiNgYy33Y7IrknCUukNJ5vfltLvexid9mKm1MKq8W2ihBTgoW-3vjdtIywEJkJjpDJJNbLx8YmIzJLApydNjH43Nrle3lFc6RR4_e6Jhzh63QWEwbEZ0nUXiMHTawJhkQyV6hHvBNdWiKq8g7n8VW56gKICHpAuravCRdyGFBTMZgnQwwmJ8SMTGvM3TvbhJNUxq28Y2njSssf9E2oL0A39Xb5r-kPDhu8bYeeTTqGFm1GQuvCcpzx3f8iTjIjdSZfoMaCyBdKwTJ4GEV3XD8FnW_elM7k4uSNxMWEP_WJkfHrvlEseAT4UdNOhR1y-xec6Ti0w4hFOAYRDv0xVdk3_uY5TzHXwGOTZMNXYUC4RNZuXtHdVvjI16B_eYpG538hRSZoAYv7b6LjU-rV_liFS4RtDN63-U4Ifpg8ijXwBYm-0cJe4WALi5RrPGTHwkkAwiVV8eaphKydB4ZLDqs8bs36gd7MKGbYQ1LSSYGpCKTKm-yZf95ci0rHsrnV-hDLdOCzy2Eb4MO69iS0hv5ihW0IsVOV64RhGE9GsCN_s01FRoqmTcrkJ9RrSB_aX-4GkT5VEh8ar047bNMl9EWDE17qTk5kQAy8815B6MQA3dceVeFEBqz2v_yNtN1n0Jk8OsZa1ROsfjPpvVAa1wxiZ121HD_9Npg-rVPnpY-eOGQeHf4Amgrh0kzUtvJwrSJHe0CFaw9YM67eJszxbIFQsNaPMoHaOZfE1qXibigLI3eot4lc51V0argcdlIigS28LzIv0PNCaebmfLnNJm0J_qKJ-hOPRf-icHowvbhqieTd3IIphovqptgj-gwthH7JPQuEmChXpvIxyE64di8i9CnZk5x19LDdxHhWlc-rf4gxSzEzvdv-zHJb0aSal1Ib1i2QtG7qIyXJEgYR1msE5tT-dO0qRu1qRMAP9VwnUWNY8dKK2HcZlch0YInbVa-z_l8La2evzt-qTvX7Ot_OY5VkYYuEgL6HTlMYz7YxDM3wTVREm9o8eydbSbDQbaWRLHFsD_KlKyf3e2CwSK4tIbbkTAQBGDz8kTLu1QJ-RkFTZL6HFTHQGcXfYFWZCtCXuJyZIFFb473OkN3LgELPhx5euo4-uG3tj-40dmwrh7zSuvFJ0GjVfl86pCqDEQDQ9Jt29z3XbBPG7H_bAajLwJ5YOItoTES5B_yvc9eGo07JX4Q4SDuNii-jFI8sl9rd0AaLplGdGEnzILQIecpnOWw3AgVbk1VUTRXeeQml0aFm2xwu0dkuOUKsurA6ECjK-W2v5_BFzvQBFnXcWoO-phKuh8UzU39eoIZnCj-qNiadsXb_2dVP1FnE0J0WzSD_WUBoHS3lbDFfdLcTZlK6ZPLWtht1ZxSe6kwQmA54dHdrZ55RyjRWhDUyr1DNlM3r785l2GWFgrW2zWAnwI6ggVfHPJLdJNO2LIiWt3bxAcw2OtUwuLZ4Gr5F8xpM654vdBuQAnM17JlhSw93zhmjtOwK7NPASrVFvU01Tq1aP-yZm2Vev1b_UGabCAV_Qc_MZOgxMN8bOgUerF1UQWj5kHbPYWZyvuPk2d2F6SDbWawMO4o4h2LCA7R4e21cb78J0JGFJfwjOhdZwp8OdF0RO-R7ByULBCxxnohbaIkPNe4UHukhzli27Ww0EQ-qqke9VsCjCH_25VgFyhzedDG-cHD5p7KwHQvSn9NFRdcUMZ31yx9nERjlQmNPIBZ7-9bkeySbgxnqBBskARaAhdn9QwnX1HqpTmed",
-     "summary": []
-    },
-    {
-     "id": "msg_0dc90a9f0d2d5185016ae14a06c3ec87d182132dd5e2d93b0d",
-     "type": "message",
-     "status": "completed",
-     "content": [
-      {
-       "type": "output_text",
-       "annotations": [],
-       "logprobs": [],
-       "text": "{\n  \"title_zh\": \"大腸直腸手術後3週關閉迴腸造口：比較技術與術後結果的多中心隨機試驗\",\n  \"abstract_zh\": \"背景：重建性大腸直腸手術後暫時性迴腸造口關閉的最佳時機仍有爭議。雖然先前隨機研究已證實，經審慎篩選的病人可接受早期關閉，但關閉時機對手術複雜度的影響尚未經前瞻性評估。本多中心隨機對照試驗比較標準化的術後3週迴腸造口關閉策略與傳統延遲關閉，特別著重技術與術後結果。\\n方法：本前瞻性多中心隨機對照試驗納入224名接受重建性大腸直腸切除術並設置暫時性保護性迴腸造口的病人，隨機分配至3週早期關閉組（n＝112）或傳統延遲關閉組（n＝112）。關閉造口的資格須經標準化臨床與內視鏡評估，嚴格確認吻合口癒合；有臨床適應症時，選擇性施行經直腸給予顯影劑的電腦斷層檢查。主要結果為手術複雜度，以手術時間、術中沾黏嚴重程度，以及是否需要廣泛沾黏剝離進行評估。次要結果包括術後併發症、Clavien-Dindo併發症分級、住院天數、再住院、再次手術、再次建立分流造口，以及輔助化療延遲。\\n結果：兩組的基線人口學、臨床及手術特徵相當。早期迴腸造口關閉與顯著較短的手術時間（90 ± 12 vs. 130 ± 18分鐘；P＜0.001）、明顯較低的術中沾黏嚴重程度（P＝0.04），以及大幅降低的廣泛沾黏剝離需求（5.4% vs. 21.4%；P＜0.001）相關。兩組的整體術後併發症、Clavien-Dindo分級分布、術後住院天數、再住院、再次手術及死亡率相當。輔助化療延遲僅發生於早期關閉組（3.6%），延遲時間限於1–4週，所有受影響病人其後均開始接受原定的腫瘤治療。\\n結論：對經審慎篩選且已確認吻合口癒合的病人，重建性大腸直腸手術後3週關閉迴腸造口，是技術上可行且安全的策略。相較於傳統延遲關閉，3週關閉可顯著降低手術複雜度，而未損及短期術後結果。這些發現支持選擇性實施標準化的3週迴腸造口關閉策略，並指出手術複雜度是選擇最佳造口關閉時機的重要決定因素。\\n試驗登錄識別碼：NCT05192018。\",\n  \"evidence_level\": \"RCT\",\n  \"score\": 7,\n  \"score_reason\": \"224人多中心RCT直接比較臨床可執行的關閉時機，技術結果具實用性，值得讀全文。但主要結果偏重手術技術，摘要缺乏安全性事件數與信賴區間，尚不能據此認定安全性等效。\",\n  \"relevance\": \"高度相關\",\n  \"relevance_why\": \"直接涉及保護性迴腸造口關閉排程、手術難度與輔助化療安排，是大腸直腸外科常見決策。\",\n  \"novelty\": \"可能改變實務\",\n  \"one_liner\": \"224名造口病人比較3週與延遲關閉，廣泛沾黏剝離需求為5.4%比21.4%。\",\n  \"action\": \"對吻合口已癒合且不影響輔助化療者，與團隊討論3週關閉；勿直接常規採用。\",\n  \"pico\": {\n    \"P\": \"224名接受重建性大腸直腸切除術並設置暫時性保護性迴腸造口的病人；關閉前須嚴格確認吻合口癒合。\",\n    \"I\": \"術後3週關閉迴腸造口，112人。\",\n    \"C\": \"傳統延遲關閉迴腸造口，112人；摘要未交代具體關閉時間。\",\n    \"O\": \"主要：手術複雜度，包括手術時間、術中沾黏嚴重程度與廣泛沾黏剝離需求。次要：術後併發症、Clavien-Dindo分級、住院天數、再住院、再次手術、再次建立分流造口及輔助化療延遲。\"\n  },\n  \"effect_data\": [\n    {\n      \"outcome\": \"需要廣泛沾黏剝離\",\n      \"event_is_bad\": true,\n      \"intervention\": {\n        \"label\": \"3週關閉\",\n        \"events\": null,\n        \"total\": null,\n        \"rate\": 5.4\n      },\n      \"control\": {\n        \"label\": \"傳統延遲關閉\",\n        \"events\": null,\n        \"total\": null,\n        \"rate\": 21.4\n      }\n    },\n    {\n      \"outcome\": \"輔助化療延遲\",\n      \"event_is_bad\": true,\n      \"intervention\": {\n        \"label\": \"3週關閉\",\n        \"events\": null,\n        \"total\": null,\n        \"rate\": 3.6\n      },\n      \"control\": {\n        \"label\": \"傳統延遲關閉\",\n        \"events\": null,\n        \"total\": null,\n        \"rate\": 0\n      }\n    }\n  ],\n  \"key_numbers\": [\n    \"手術時間90±12 vs 130±18分鐘，P＜0.001\",\n    \"廣泛沾黏剝離5.4% vs 21.4%，P＜0.001\",\n    \"化療延遲3.6% vs 0%，延遲1–4週\"\n  ],\n  \"cautions\": [\n    \"限吻合口確認癒合者，不能外推至有洩漏疑慮的病人。\",\n    \"技術指標改善不等於安全性等效；早期組仍有化療延遲。\",\n    \"併發症未報絕對數與信賴區間，難排除重要差異。\"\n  ],\n  \"unassessable\": [\n    \"隨機序列產生方式與分派隱匿\",\n    \"盲法，尤其術中沾黏評分者是否盲化\",\n    \"是否依意向治療分析，以及未能如期關閉者的處理\",\n    \"失訪率、排除情形與追蹤期間\",\n    \"樣本數估算及安全性或非劣性檢定的統計規劃\",\n    \"傳統延遲關閉的具體時間與兩組實際關閉時間\",\n    \"沾黏評分標準、廣泛沾黏剝離定義及跨中心一致性\",\n    \"各項術後併發症、死亡與再次分流造口的事件數及信賴區間\",\n    \"輔助化療延遲率的分母與延遲定義\",\n    \"預先登錄時間、預設分析與登錄內容的一致性\",\n    \"利益衝突、資金來源及成本分析\",\n    \"長期腫瘤與腸道功能結果\"\n  ],\n  \"context_verdict\": \"延伸前作\",\n  \"context\": \"前兩篇早期與延遲關閉的統合證據未見總體或主要併發症顯著差異，本篇對短期併發症的描述方向一致，但不能解讀為證實等效。本篇補上標準化3週關閉對手術時間、沾黏嚴重程度及剝離需求的前瞻性隨機證據，並提醒早期關閉仍可能延遲輔助化療。\"\n}"
-      }
-     ],
-     "phase": "final_answer",
-     "role": "assistant"
-    }
-   ],
-   "parallel_tool_calls": true,
-   "presence_penalty": 0.0,
-   "previous_response_id": null,
-   "prompt_cache_key": null,
-   "prompt_cache_retention": "24h",
-   "reasoning": {
-    "context": "all_turns",
-    "effort": "medium",
-    "mode": "standard",
-    "summary": null
-   },
-   "safety_identifier": null,
-   "service_tier": "default",
-   "store": false,
-   "temperature": 1.0,
-   "text": {
-    "format": {
-     "type": "json_schema",
-     "description": null,
-     "name": "clinical_summary",
-     "schema": {
-      "type": "object",
-      "properties": {
-       "title_zh": {
-        "type": "string",
-        "minLength": 1
-       },
-       "abstract_zh": {
-        "type": "string",
-        "minLength": 1
-       },
-       "evidence_level": {
-        "type": "string",
-        "enum": [
-         "RCT",
-         "系統性回顧",
-         "統合分析",
-         "前瞻性世代",
-         "回溯性研究",
-         "病例對照",
-         "橫斷面",
-         "診斷性研究",
-         "病例系列",
-         "綜述",
-         "其他"
-        ]
-       },
-       "score": {
-        "type": "integer",
-        "minimum": 0,
-        "maximum": 10
-       },
-       "score_reason": {
-        "type": "string",
-        "minLength": 1
-       },
-       "relevance": {
-        "type": "string",
-        "enum": [
-         "高度相關",
-         "中度相關",
-         "低度相關"
-        ]
-       },
-       "relevance_why": {
-        "type": "string",
-        "minLength": 1
-       },
-       "novelty": {
-        "type": "string",
-        "enum": [
-         "可能改變實務",
-         "再確認已知",
-         "仍屬早期",
-         "結果為陰性"
-        ]
-       },
-       "one_liner": {
-        "type": "string",
-        "minLength": 1
-       },
-       "action": {
-        "type": "string",
-        "minLength": 1
-       },
-       "pico": {
-        "type": "object",
-        "properties": {
-         "P": {
-          "type": "string",
-          "minLength": 1
-         },
-         "I": {
-          "type": "string",
-          "minLength": 1
-         },
-         "C": {
-          "type": "string",
-          "minLength": 1
-         },
-         "O": {
-          "type": "string",
-          "minLength": 1
-         }
-        },
-        "required": [
-         "P",
-         "I",
-         "C",
-         "O"
-        ],
-        "additionalProperties": false
-       },
-       "effect_data": {
-        "type": "array",
-        "maxItems": 3,
-        "items": {
-         "type": "object",
-         "properties": {
-          "outcome": {
-           "type": "string",
-           "minLength": 1
-          },
-          "event_is_bad": {
-           "type": "boolean"
-          },
-          "intervention": {
-           "type": "object",
-           "properties": {
-            "label": {
-             "type": "string",
-             "minLength": 1
-            },
-            "events": {
-             "type": [
-              "number",
-              "null"
-             ]
-            },
-            "total": {
-             "type": [
-              "number",
-              "null"
-             ]
-            },
-            "rate": {
-             "type": [
-              "number",
-              "null"
-             ]
-            }
-           },
-           "required": [
-            "label",
-            "events",
-            "total",
-            "rate"
-           ],
-           "additionalProperties": false
-          },
-          "control": {
-           "type": "object",
-           "properties": {
-            "label": {
-             "type": "string",
-             "minLength": 1
-            },
-            "events": {
-             "type": [
-              "number",
-              "null"
-             ]
-            },
-            "total": {
-             "type": [
-              "number",
-              "null"
-             ]
-            },
-            "rate": {
-             "type": [
-              "number",
-              "null"
-             ]
-            }
-           },
-           "required": [
-            "label",
-            "events",
-            "total",
-            "rate"
-           ],
-           "additionalProperties": false
-          }
-         },
-         "required": [
-          "outcome",
-          "event_is_bad",
-          "intervention",
-          "control"
-         ],
-         "additionalProperties": false
-        }
-       },
-       "key_numbers": {
-        "type": "array",
-        "items": {
-         "type": "string",
-         "minLength": 1
-        }
-       },
-       "cautions": {
-        "type": "array",
-        "items": {
-         "type": "string",
-         "minLength": 1
-        },
-        "minItems": 3,
-        "maxItems": 3
-       },
-       "unassessable": {
-        "type": "array",
-        "items": {
-         "type": "string",
-         "minLength": 1
-        }
-       },
-       "context_verdict": {
-        "type": "string",
-        "enum": [
-         "再確認",
-         "與前作矛盾",
-         "延伸前作",
-         "無相關前作"
-        ]
-       },
-       "context": {
-        "type": "string",
-        "minLength": 1
-       }
-      },
-      "required": [
-       "title_zh",
-       "abstract_zh",
-       "evidence_level",
-       "score",
-       "score_reason",
-       "relevance",
-       "relevance_why",
-       "novelty",
-       "one_liner",
-       "action",
-       "pico",
-       "effect_data",
-       "key_numbers",
-       "cautions",
-       "unassessable",
-       "context_verdict",
-       "context"
-      ],
-      "additionalProperties": false
-     },
-     "strict": true
-    },
-    "verbosity": "medium"
-   },
-   "tool_choice": "auto",
-   "tool_usage": {
-    "image_gen": {
-     "input_tokens": 0,
-     "input_tokens_details": {
-      "image_tokens": 0,
-      "text_tokens": 0
-     },
-     "output_tokens": 0,
-     "output_tokens_details": {
-      "image_tokens": 0,
-      "text_tokens": 0
-     },
-     "total_tokens": 0
-    },
-    "web_search": {
-     "num_requests": 0
-    }
-   },
-   "tools": [],
-   "top_logprobs": 0,
-   "top_p": 0.98,
-   "truncation": "disabled",
-   "usage": {
-    "input_tokens": 3360,
-    "input_tokens_details": {
-     "cache_write_tokens": 3357,
-     "cached_tokens": 0
-    },
-    "output_tokens": 2411,
-    "output_tokens_details": {
-     "reasoning_tokens": 353
-    },
-    "total_tokens": 5771
-   },
-   "user": null,
-   "metadata": {}
-  },
-  "42937728": {
-   "id": "resp_06221f0d4e979ae3016ae14a25e53887d19c22342862875e21",
-   "object": "response",
-   "created_at": 1793149477,
-   "status": "completed",
-   "access_programs": null,
-   "background": false,
-   "billing": {
-    "payer": "developer"
-   },
-   "completed_at": 1793149502,
-   "error": null,
-   "frequency_penalty": 0.0,
-   "incomplete_details": null,
-   "instructions": null,
-   "max_output_tokens": 12000,
-   "max_tool_calls": null,
-   "model": "gpt-6.1-sol",
-   "moderation": null,
-   "output": [
-    {
-     "id": "rs_06221f0d4e979ae3016ae14a26ee6087d1943ce30283a4a221",
-     "type": "reasoning",
-     "content": [],
-     "encrypted_content": "gAAAAABq4Uo-Ruwak7cttFFB4KSKcdQCZ9_OWT7ZMv4QdoEGyOcoWOJhID_ImEIzUTqVOzY-_vWR3iiA0rIFfEvmqBjouro_o3Uw8KZwHtxR2HdUp1Xe40PbKA6hbv7RUDtvg1z4h6eNSDmaFTJ8XEjWfGz4RmINidiv5NL1q014xjmJbOBUpGx0h8jcobDmLsganidPyQ6oPDEZbZJNYq07BWdyyYU7fHrAGSvu4A8r8leQOftSbh_kLCZnnehEiw_KfiJuHyQJ4xJYRToTeQOXtOZoXzA7nsA4EM8NAt3pG2Ww8qFfm4fvsSuZOTspaXnNGhOaSmEyLgqkiBNsWNxFeokwXmXAeFm4IS294OFQRnMQc0_a3vxD6T-ZhGQomv8J5nuHFoPO7XTy3RtxmZb_CwlD_71H3K0fUcdAZnEp4xBNkYzUhw76SJhpf9XNyymg5B4awe-7GdtXvpfndpjqSU3wWYbskEZ_uIX0TWPCMtH5z6MvfK8cxvyoMx8VRRLt3r5Aw_MvJZRkORWnT36NNSh373UkuffjiDI6YQd_bJHWdD0SJe7KPLEHPg4iYI1f8Kfo5cv3vIieoKpTQGZYKjWhXU8F-Jl-qQ-s367LHMR3OKkPXe9FhWBqwAqjpH3JK4pRE8z4h-t3r2TboqezWOgG3PUB7a5SAQeceRysPEe0KlWqmOqMSqEI_uzUtEH_uOpqk-Gu4jxCffpVgvmssbM_vOc2o_cScFXM3RbcWVKSx1mj_0WyCchay1yCX2kwCotUDbjaDakm0nLYlWBMEl-FhSGaRucxa4NRYC1DZAGBWDFIbS66VITABwWpo034UGczi3bPMuz5hXuU3_LYS7i2nZnwTaunjb1UjBc9PL6z1319g0hyp_vHoAA1Y83K4HDbzO6BrfNlVPJhQ0qVBodmMdZ8_ZCaZ6fIkfkxi6DlpJxtJOMrZU6mTT_hB7NDqeNzVbQxOHa0P8OTp6uXt4oyiYLbuSMw3JWVQF52kkCc5wpKWcdVl4GkOapWfeD8At3xFUTDGaP0IigVN0fgOj3P-_VM0BIxzXGuXT0k7R5gtk_hsvrp6P1azYHrNfPy4mgL232YVgnRIHcrCqoLOluRxI_sjnfiTToMwJWaD_FMsYl2zlJPVnKIkeaumRQn6UXrxtQeaq4dseiaQx5TSFlcP3FDr-jX4cEAN3jKp5VB9v0rahtpwIhKjzysUxO7K8JKh-sv-DYBtIFQyZTE_vKAMq3sTzBROcjy4-lcK2vABCNjswzaFR07V0FOzmXVbvA7cbF31HwXxknqYsqRzLFjynlKvg4gRNa3yfX2atKH7me2mZpyQNLtStGkLuXhkyaadkdgE6TpIlpRpzL7c5_L1OQwzJiq8QelCzSPlyq5Hxs5uzTlH9wgJ7Hjr8k89gnTd3V8POME90FbLKkqITvAZG4VLsIy04w2LA0F_9zvc55Je3vVw7Ud_TACdzhscPvhmaF0rUQ57HFXdlkuyOzqsN5EDCzoHLm7aKlz6WdG74-NStLKU9lQVTmwPuaIk-Qb2TNh954m0fZEfKYeu9SjW2G-r9pI8a6lnAJ4jq0HCiPocZWJ9To5zsR0bKQwt74rbgr3p4H6s7SG_s5NZdS0G6qOy3DTvLLSp1biCmi74Uz7RYM_0cHMoIoIyyF__bCzCK-wGq1w3CQ5Zw87fUnsMooMKMJ1hcgoH9fAcdNhEPGDCHtIDy4WVloX3dmGqXCTr9JFvCsMcg-6ZegBgdRSpDkbQ4sTNHGrvFk9sJgY8Si1cb-uzHiNsFxAsznCLrM3mCKYdSungf2ocHTGU3hqCLvhBmo5FXFfGw1ITHJ725-Io7jidlGYdFSvKWNBKM4WX2n_NY8_08MeJ8Hg-LgKIn1MxbMyjXGe72UF2qrg936oHAASUXuBLct0UKpQ5L4sXaWI3iDfQ7XxQNYmf7_Ucke3SGCS5W9Rg9H-zLo3Z-SjwsSaguXerrzEvhsVAUhZ87tOSN1ZnCwfLszpKZ9almtvH2Yrc4Ba0Hr1BU5NKiAHpI3ateEplZCU63fol9OuxasjPRr9EM47TNuz7TVjn82aw56prnMMXAz1S8gG7KacoW2XeYLScjTHVmGennfxKldbLrIzJEOCW7EU9anfgMGpFpB5qkxYfnfWl8VlI1fqBC8GOwC1r6EZChp8XYrzuWTzJTTeLGS-iLnMmXOVA60JpjYcFd0l5bR6QIiLJbslrnuRMN3ocsxx8DMmlagfxNildenzY9gIBrhZPM5vthLoqTAdRAXFmr3zzg5aKLkS4c5bsALyRCZx8M6O9_zc_orZaiMFbz6jCmaGAiupAyVxKVkL9SUHEJj-1uhJR9QhEqLAj-GoBT96U02HNyy8rPqgeD0KRbHa4udoxrovWnsQV12fgQWeeFUfvv1_g6890Ho-4y783OfgS79mkrj1Qcm0CvUuUbgDLuYqppdHrji1CpXigO0UsOOqCl4LHoWqs6ULTR46wj1_DlvFOVLgjpNj0jhCBt-dLd3PxcPon9-K17CPFphC9hbhLBukv4lUkebEMTa6rgC-DEtzNyUjVAHy6HPryEn-pk9LNkpkstKB4AEdBXhuNQpTh0nU5D6nEEw4Ie2tYYavF6HS3NSqHfM6DSHS-ethH1m2S6PYYh9GRw51VSNrujIsbxgMNX5sY6ocGzTK4LUjMMxmQIz12_Li-kC9J3Ux4KtlPtyHRB0rpTLUe-qAWmNORitAeq8G8ZT9h4i5Y_twkf8JZ7QxSV747RStPVaeBnxf7Gplisosg4A79r3QQGvhF8wkZd7hiz3aeSSqWCt1a0WG5sPAwX2PmBSqVOXAA48qbq1uiy0JSRVStnq6RmrLHzGpR8OICIs-Z6pSdIT0a6WOzU3tZDzSqYnidB76G177Zi1-4P9S0Acapy_UN18GmXtZ1WHQOwTO1vMTFLuk1eT4567ayaRJiEy1LHchAl_PmIl5mWXMfftviI3ZSCVA15yDJaEWJLg6m25jbcunNmzIiN1yFjV8gsyn-Aox9NBYZgWGv67DPvu5bmcROYSn2Myel3ZPB9NRZGhgc7j7C-bV1Ju4rLQPbsAstHCebmD0bSGVrsY0VWr2ECwayw91VFY_F26dTwx2SgIhRYngjQNVmrVxYSCR7rCLhEFIaeimARjUikJXYv8TE8PyDaVW2nlgBQu0tku-gOA5LQhH6Zfny6P8RhpRopXbNqz9mKsYi7UMElBQ6GKVjx7ZSo0dKD8RTG1WQPjZg8qBeEtOoyYpCsHGuBIUNQ_YD9lsZ95V2buskdEIUtVuI5XPTYrq1i6GXasbSAsiaz3NZ3zXx7rxhWJTDjtHYCV4repc3YvW6jfYdYhjlRlLRn4zKrrL8i-TdBgqP4v5bpO12TcLHglJ5gwZHXpp94hdR0J2PYmw5xvqYNYdsb53YwMSIcVIPGRZw6bAdTQ1DDbtL1fSgj2ObJshu21FnT40VRjLwWYR9_oHA9N9hG1SfXEw9zP_MV033rQNgFxPWf4rvqvZLfS_5sMsEaYI4RZJIG7jptPD_3mIFM6HAi9DGNyf0Hz28lXX8v5EzRikNcAID-Q6211Vozxjf-M0aUZyznrS8nMG9JegO9t8hHwaS9yXnQ8I5mKD7IHGPyezpGXEjOCl0BZPoCMz4haUHZqj4mxBLt1m2HPT_fDRO3ZzVRjXi8K3MxYW1emeUy44tvFv1WyqqBzvlMqo6gAPUoO1zjsrNh6JWVau5-IkyWUqNeCtCSSqvpZI5tdve5-wwON1fjmkm5cS5Tb8PJPAP6IduWBN4diO1qJ6XK3QNOA8Vc7F-rOtG3e9LGEXD9WAebMYPgsk_O71EFFQcv6msZFStaMVLtVxxzl2MnlSVCUXH8i3kLvvQCgJdkpplYjs5g0hCKj8FDDkdDlvo71ULWzcs-5w0uOZv1q-V5xLoTA0Xggn-i6LZjbgQ08zQn4fvff657fwF26yR1l4QkHZ8uX9osMlr4qxGAymw13n6AA3DKxCFZOFFi-_8H0K6oHJgvlXnLjswaFPATYsmgr-jUvcr27X7_G6BWHHczggACO-AYQnnY3kOcG8NRxou6KLpFxdqdGWysrBJg4RzQ_mUII51p34g5e8GZca29bK05GV240sWWQydy3DdrDj3aiYY5a8FXOGENhlnsM1X3UDhehJkYFVM7ab7kDD8WuQqqjgou1IWXMbRI4BCSpxV9ZPsklHvdTfk7xiyOfZXb6HIMFfv0OWinUFQgy1zubCDRAM0Ewa1iQN07DmtO_5M_u6jSi1zKzAzW6rTBURhjrDsckQP113RoPzOvdliI4VcWTswOhExHcPeuD7BkVi7mr3aqf42P1r9K_U55q6nNk_8YCRfUxqEBKmdDxC3mGpisr-xN4BhcA_l0O4pwyIPraxQAmCRBkumBUfLFky2PWdj3hRuTxCwb-r-JFjuh776kG2NRkaEsdYr4T3gKj2JYf7lJcBiG9giAEDGE4ABh5vlHwjUsrTZMaLNPw2ssJQ_EE9HTxd5Fp6-43LnIvrLMl0s2rAdw4BFlUN5APdWwuvWwoxMR25ZP73wLwjvrp_q0by1aQX62kvmCpKYvZeZ49XnHkxPIyE2ZV6U6qh7Nyhl024axr_wYp2_-S0RjOv8_1f4crNqS0DMbIZjPr7ILsYMSQupGzYkP1mwn49jlcMKIm5DMztcMkgTfFcYGp5Ut8ZxODv9gvO9jeiLbaRaNmfZPx2ouDgeXwqqUmpE1GcZgwIvUSgSx1cTu8BxXnGYTZB1ZQxbfkN9ujV4mUw3mlTokMdn-vG4Rk1VT_DGMu_e2obKWqiytdh7IGIX_dTspK6D-FbvQNY3oi6G1lguJo8uNjKB4heTqIFgofeJUVimMpEtTu3fY5oeFhHl51Y0EF5TSW849NKb0Kf-jAapJuUSFfUYozflz2s03k8u6uvgV2zM4ZxM2_hbSWgJbMzhV-VsdGRPmxcOKpGOvVIvx4NgpEyPUwbzfUPoMYKlWWjze3ru7tLDcbPA5XHt0B-1JuF_WMLkp0aNf-2wN3BpnTCBSTk-ScXhY_vbaQb-UCkdML86uAh3X3nztL2t0fJiqIj8TR-Gsap_3eOegkbTQ36wYN3xqGA2w27fsgySCgIoCjJ2epWbtj0Mvd5TVTpZbr-fRDjuqCxyITKnCB9cByb2IDUk3odXlqwj-I9GttdlFg5yVBcuxChTf9fsxzRx-kBSjMiVrXcGxso9Y4PFWDLV9xDjfGnh5BV38SbgrIhnYzX6swzySVabAzUvxa-p7Tclmenn4xXg_0F0y8pa6pwtlOchxyCfkU9UvlDuoeToFiGZvQLFIjVM3SnxQjbtbqbibCk6gGIkxEGKSKPRxYbiqg8woBNh23RXbdCHoWf1TyDLnhJ26qlWa1Qu71M1lIGIR8mbKA7OLm_YYkAALXNTSOcqBzQPRkV9NP8uQKcElm7yA-X-DbLJFzg9wzxzFVHN555nFZ17jN_vGEFxVDQ0iVLIFqeeQGDLz8r9KEiaHsdvmoVs_nZLA80IY-AdtPOxwjcjBi7tz_aRIlWTe6q2byuGT5PlISpYOVrc6jWB1OtXP4gZNOUoA7Tv_Y6EDVOfH7QeAVVSvXPM813A7MTg7ugjFxd54rMHgv-BgJlcVChiSHJlyCMRLjg_AwybHDNUzpbd3XSNzUotgzgeOx4DafmaowOu-MqyfrcVHIZ73KBl8W8G3GbJ1yq0z-72Q==",
-     "summary": []
-    },
-    {
-     "id": "msg_06221f0d4e979ae3016ae14a2ec8b487d18be93bcc1397863e",
-     "type": "message",
-     "status": "completed",
-     "content": [
-      {
-       "type": "output_text",
-       "annotations": [],
-       "logprobs": [],
-       "text": "{\n  \"title_zh\": \"當歸補血藥膳對接受化學治療之貧血結腸癌患者癌因性疲憊的影響：一項隨機對照試驗（遵循 CONSORT）\",\n  \"abstract_zh\": \"背景：癌因性疲憊（CRF）是接受化學治療患者最常見且最令人困擾的症狀之一，目前尚未建立治療 CRF 的黃金標準。本研究旨在評估當歸補血藥膳對結腸癌術後化療引起貧血患者之 CRF 的影響。\\n方法：選取2021年5月至2022年12月期間，入住某三級醫院腸外科病房及日間化療病房、符合納入條件的96名患者，隨機分為兩組：對照組48人、實驗組48人。對照組接受結腸癌術後化療的標準治療與護理；實驗組在對照組處置基礎上，額外連續21天接受當歸補血藥膳。比較兩組介入前後的疲憊程度、血球計數及發炎因子。\\n結果：共86名患者完成研究。介入後，實驗組的 CRF 分數顯著低於對照組（29.14 ± 2.58 vs 44.02 ± 4.25），組間平均差為−14.88（95%信賴區間［CI］−16.38至−13.38；P < .001）。實驗組的血紅素濃度顯著高於對照組（115.26 ± 11.72 vs 106.52 ± 12.93），平均差為8.74（95% CI 3.45–14.03；P < .001）。實驗組的紅血球計數亦較高（平均差0.61；95% CI 0.44–0.78；P < .001）。此外，發炎因子濃度顯著下降，其中介白素-6的平均差為−16.28（95% CI −20.10至−12.46；P < .001），腫瘤壞死因子-α的平均差為−26.09（95% CI −29.80至−22.38；P < .001）。\\n結論：在結腸癌術後化療引起貧血的患者中，當歸補血藥膳與 CRF、血液學參數及發炎指標的改善相關。這些發現顯示，其可能具有作為此族群 CRF 管理之支持性營養介入的潛力。\",\n  \"evidence_level\": \"RCT\",\n  \"score\": 5,\n  \"score_reason\": \"隨機對照設計且提供組間差與信賴區間，疲憊改善幅度值得核對全文；但為單中心、21天的小型研究，未完成者處理及安全性不明，尚不足支持常規導入。\",\n  \"relevance\": \"中度相關\",\n  \"relevance_why\": \"直接涉及結腸癌術後化療患者的貧血與疲憊照護，但屬支持性介入，並非手術或腫瘤治療決策。\",\n  \"novelty\": \"仍屬早期\",\n  \"one_liner\": \"在96名術後化療貧血結腸癌患者中，比較加用當歸補血藥膳與常規照護，21天疲憊分數低14.88分。\",\n  \"action\": \"目前不需改變做法；對術後化療合併貧血與疲憊者，先釐清貧血原因，勿僅憑此試驗常規加用藥膳。\",\n  \"pico\": {\n    \"P\": \"單一三級醫院收治的結腸癌術後化療引起貧血患者96人，兩組各48人；86人完成研究。\",\n    \"I\": \"標準治療與護理，加用當歸補血藥膳，連續21天。\",\n    \"C\": \"結腸癌術後化療的標準治療與護理。\",\n    \"O\": \"疲憊分數、血紅素、紅血球計數及發炎因子；摘要未明確區分主要與次要結果。\"\n  },\n  \"effect_data\": [],\n  \"key_numbers\": [\n    \"21天CRF：29.14 vs 44.02；差−14.88分\",\n    \"血紅素：115.26 vs 106.52；差8.74，單位未載\",\n    \"隨機分派96人、86人完成；各組最終人數未載\"\n  ],\n  \"cautions\": [\n    \"疲憊量表與最小臨床重要差異未載，分數改善的臨床意義待核對。\",\n    \"介入僅21天；血球與發炎指標不能證明長期功能或腫瘤效益。\",\n    \"96人僅86人完成；未交代未完成者分組與處理，可能影響估計。\"\n  ],\n  \"unassessable\": [\n    \"隨機序列產生方式與分派隱蔽\",\n    \"參與者、照護者及結果評估者的盲法\",\n    \"是否採ITT分析，以及缺失資料處理方式\",\n    \"未完成研究者的組別分布、退出原因與時間\",\n    \"試驗註冊、研究計畫及預先指定的主要結果\",\n    \"兩組基線疲憊、貧血程度與化療方案是否平衡\",\n    \"疲憊量表名稱、分數範圍及最小臨床重要差異\",\n    \"藥膳成分、劑量、製備標準與介入遵從性\",\n    \"鐵劑、輸血及其他貧血治療的使用情形\",\n    \"不良事件、藥膳與化療交互作用及化療完成率\",\n    \"血液學及發炎指標的單位\",\n    \"長期效果、成本、資金來源與利益衝突\"\n  ],\n  \"context_verdict\": \"延伸前作\",\n  \"context\": \"前兩筆心理行為介入先導RCT同樣探討大腸直腸癌患者的CRF，本研究將介入策略延伸至術後化療合併貧血者的藥膳支持。PHYSSURG-C次分析則探討圍手術期運動與疲憊；各研究的族群、介入及測量時點不同，不能據此比較療效優劣，也不能視為對藥膳效果的再確認。\"\n}"
-      }
-     ],
-     "phase": "final_answer",
-     "role": "assistant"
-    }
-   ],
-   "parallel_tool_calls": true,
-   "presence_penalty": 0.0,
-   "previous_response_id": null,
-   "prompt_cache_key": null,
-   "prompt_cache_retention": "24h",
-   "reasoning": {
-    "context": "all_turns",
-    "effort": "medium",
-    "mode": "standard",
-    "summary": null
-   },
-   "safety_identifier": null,
-   "service_tier": "default",
-   "store": false,
-   "temperature": 1.0,
-   "text": {
-    "format": {
-     "type": "json_schema",
-     "description": null,
-     "name": "clinical_summary",
-     "schema": {
-      "type": "object",
-      "properties": {
-       "title_zh": {
-        "type": "string",
-        "minLength": 1
-       },
-       "abstract_zh": {
-        "type": "string",
-        "minLength": 1
-       },
-       "evidence_level": {
-        "type": "string",
-        "enum": [
-         "RCT",
-         "系統性回顧",
-         "統合分析",
-         "前瞻性世代",
-         "回溯性研究",
-         "病例對照",
-         "橫斷面",
-         "診斷性研究",
-         "病例系列",
-         "綜述",
-         "其他"
-        ]
-       },
-       "score": {
-        "type": "integer",
-        "minimum": 0,
-        "maximum": 10
-       },
-       "score_reason": {
-        "type": "string",
-        "minLength": 1
-       },
-       "relevance": {
-        "type": "string",
-        "enum": [
-         "高度相關",
-         "中度相關",
-         "低度相關"
-        ]
-       },
-       "relevance_why": {
-        "type": "string",
-        "minLength": 1
-       },
-       "novelty": {
-        "type": "string",
-        "enum": [
-         "可能改變實務",
-         "再確認已知",
-         "仍屬早期",
-         "結果為陰性"
-        ]
-       },
-       "one_liner": {
-        "type": "string",
-        "minLength": 1
-       },
-       "action": {
-        "type": "string",
-        "minLength": 1
-       },
-       "pico": {
-        "type": "object",
-        "properties": {
-         "P": {
-          "type": "string",
-          "minLength": 1
-         },
-         "I": {
-          "type": "string",
-          "minLength": 1
-         },
-         "C": {
-          "type": "string",
-          "minLength": 1
-         },
-         "O": {
-          "type": "string",
-          "minLength": 1
-         }
-        },
-        "required": [
-         "P",
-         "I",
-         "C",
-         "O"
-        ],
-        "additionalProperties": false
-       },
-       "effect_data": {
-        "type": "array",
-        "maxItems": 3,
-        "items": {
-         "type": "object",
-         "properties": {
-          "outcome": {
-           "type": "string",
-           "minLength": 1
-          },
-          "event_is_bad": {
-           "type": "boolean"
-          },
-          "intervention": {
-           "type": "object",
-           "properties": {
-            "label": {
-             "type": "string",
-             "minLength": 1
-            },
-            "events": {
-             "type": [
-              "number",
-              "null"
-             ]
-            },
-            "total": {
-             "type": [
-              "number",
-              "null"
-             ]
-            },
-            "rate": {
-             "type": [
-              "number",
-              "null"
-             ]
-            }
-           },
-           "required": [
-            "label",
-            "events",
-            "total",
-            "rate"
-           ],
-           "additionalProperties": false
-          },
-          "control": {
-           "type": "object",
-           "properties": {
-            "label": {
-             "type": "string",
-             "minLength": 1
-            },
-            "events": {
-             "type": [
-              "number",
-              "null"
-             ]
-            },
-            "total": {
-             "type": [
-              "number",
-              "null"
-             ]
-            },
-            "rate": {
-             "type": [
-              "number",
-              "null"
-             ]
-            }
-           },
-           "required": [
-            "label",
-            "events",
-            "total",
-            "rate"
-           ],
-           "additionalProperties": false
-          }
-         },
-         "required": [
-          "outcome",
-          "event_is_bad",
-          "intervention",
-          "control"
-         ],
-         "additionalProperties": false
-        }
-       },
-       "key_numbers": {
-        "type": "array",
-        "items": {
-         "type": "string",
-         "minLength": 1
-        }
-       },
-       "cautions": {
-        "type": "array",
-        "items": {
-         "type": "string",
-         "minLength": 1
-        },
-        "minItems": 3,
-        "maxItems": 3
-       },
-       "unassessable": {
-        "type": "array",
-        "items": {
-         "type": "string",
-         "minLength": 1
-        }
-       },
-       "context_verdict": {
-        "type": "string",
-        "enum": [
-         "再確認",
-         "與前作矛盾",
-         "延伸前作",
-         "無相關前作"
-        ]
-       },
-       "context": {
-        "type": "string",
-        "minLength": 1
-       }
-      },
-      "required": [
-       "title_zh",
-       "abstract_zh",
-       "evidence_level",
-       "score",
-       "score_reason",
-       "relevance",
-       "relevance_why",
-       "novelty",
-       "one_liner",
-       "action",
-       "pico",
-       "effect_data",
-       "key_numbers",
-       "cautions",
-       "unassessable",
-       "context_verdict",
-       "context"
-      ],
-      "additionalProperties": false
-     },
-     "strict": true
-    },
-    "verbosity": "medium"
-   },
-   "tool_choice": "auto",
-   "tool_usage": {
-    "image_gen": {
-     "input_tokens": 0,
-     "input_tokens_details": {
-      "image_tokens": 0,
-      "text_tokens": 0
-     },
-     "output_tokens": 0,
-     "output_tokens_details": {
-      "image_tokens": 0,
-      "text_tokens": 0
-     },
-     "total_tokens": 0
-    },
-    "web_search": {
-     "num_requests": 0
-    }
-   },
-   "tools": [],
-   "top_logprobs": 0,
-   "top_p": 0.98,
-   "truncation": "disabled",
-   "usage": {
-    "input_tokens": 3424,
-    "input_tokens_details": {
-     "cache_write_tokens": 3421,
-     "cached_tokens": 0
-    },
-    "output_tokens": 1962,
-    "output_tokens_details": {
-     "reasoning_tokens": 352
-    },
-    "total_tokens": 5386
-   },
-   "user": null,
-   "metadata": {}
-  },
-  "42934534": {
-   "id": "resp_0329f8f101108310016ae14a2693f087d19a12ab7fbd2da749",
-   "object": "response",
-   "created_at": 1793149478,
-   "status": "completed",
-   "access_programs": null,
-   "background": false,
-   "billing": {
-    "payer": "developer"
-   },
-   "completed_at": 1793149501,
-   "error": null,
-   "frequency_penalty": 0.0,
-   "incomplete_details": null,
-   "instructions": null,
-   "max_output_tokens": 12000,
-   "max_tool_calls": null,
-   "model": "gpt-6.1-sol",
-   "moderation": null,
-   "output": [
-    {
-     "id": "rs_0329f8f101108310016ae14a27a2f887d1922286b10653bd2a",
-     "type": "reasoning",
-     "content": [],
-     "encrypted_content": "gAAAAABq4Uo9j0sEXvmVjI98mwIwBT0p4sKX32ocQ1v8zwY5wOOytJmemWQvv4s2f7EgknCOgobKv1D2KQsavCKqKUeWGaZiekK-0kVE5iaiQyf9IcUjfsK27C2kMFpIeCnzMGvVM_zkOeI-7dJBbiHmNdK7w-5n-YPFRJi5SQaPSwl35LPrnlsMvT88744hwQW2YcJ3ewFaPI4vAEu-8eAwSl1GYJA4tzz5qvPrDLiOZ1kDYSm6wUGcZjpdQaZHyGp7nDmzTpRLfXFKoiBIWu67iksgo9C_4dUYr7fVcKSaRcNm_dAbenYRxCupz-lTYT8sEaPdaKlB6mqHlb9i7Xar3ltVtKFybkgtJLqTTsFqKr6-0vhRHU-de77EtyABIY7cw913zAOm42okU06z1RE9mVKQUrlc-C6DA-ahQxvIqk0wiNRevvlowjchtkhJ1P3biRkPt8wK8hTtn197eMYzm5CI2mmHsrD0uVXyucND8lX4dX44_ID4OQpe18VOSqlt1losJzXTlBn-7_ArgpjCy3VMBOodssWbEGk1c5BCLBtyut7OvFLFqD6JfJVa8SpMkxCTdN-pd6BRPg6FzIbNkkGWlWkx2K8NxQxaYZsWiCwUVeXDc1zevJTuVRQtWOAA0X_ZVSw5Jr2i6_L3PZHmJWm4cnCO5_y1L_wdZzcEVDwloy3GdmeEk-kinto_qz7n6MOyNx2cZSlNGkPLpdhEVRt13414N-BH-96Pm_QtKAaURkSKtEiKtvbO1VMS0pYVso42s07t3mOMMBc8C0hXiNRkz_5EFcr4uLv9aXb3wycZqbeA85XeuE5zMOL6_4z2NyFvL0kuUO8xLC6u9-J1p9kIw34NmD3wP7NsS4dpAsuuCN2arcISQAzjht3wMxtIa3p-s03Mu5Nht0WKYUUv9OAJ7SoJS7qF5fTFqEaJJICq7RkMbFxZ6dOx8Y4KfSLohvBJoV80UQEur65UqUTU919jubfaLzBG8Nc8_MXrEL50aDIqxw_DOGyYV9FLIXKJvtaW3LQuzTpMW3121jnc_wbMFKL9eUJrBP_sS2CLpHZ-mhpxPVun4EVxKBYVEOZnT9y60yPgkpQetuC2fLXd7dOLiAOfdd2VJXfCvOyWRnvyLzjzFbzLUbmFXPXdkZYWaX1D5qgtdNiGDgZ0E7rV-L6O1B-vNYf15_d-yTqfMmJEKyfbpgQdqMMfVMt1cQa2fcjGv0A54zwDCNiBrtk3TIHfPSEXowBfNvi1wDbNuQ-XuDcMCd5IdhwlZpAZsxpzYKi2VuHXKqPXWRyQe-5PSzR3knyucKM9fuxLGsQMhID25mk9b96vkXh6feAIRygQy3GcL6eTh5xmw6Y18vy57tYEs3eTKpANtNpN5kJWb6P5WczQTHYgmqA9KLnFDVAxgxMcXjE4eYir5d4vIzgkXSWcWpO7Y1TyrSv7ITB4c0-DFJMWGoTP4-QcaWYg0mVU8K9nIX71ghA3zKHsICNFgrvqHvd1jrXqoGvP8ShvB2ig4kNOu3jCo8ZnQye2SmeLOiElgEXEHXTD6Z2KmPPEjUSNpuhtLLmINHklPwWfGak1wcdoPYfUA6LNPVkpissfQJjvNZPlClYBlIcsAYYFgM-3tOwv1nzkzjfo6cCn9Tgot6yq2ngG4-Yrqffsdp91OiGMEFLYrck1uAsykz2AHTw7FWYLVlrpvLVUrO0Regy3K8Y_Yg9BJaC0CTa2DFFtT2yI5N9l81fh7yjoE7TqcguBczzCAtlkdfd70gq8Z1xIZC-ghWs21hsoVqpuwpyw0S4oknHAxsEDaV2dpUa-9aIoWlwSB_8Q3gCKNyXXSUxq2UwSeqno0muy9rFvyY7nyrA0uNq2ACIgh_H1dvFaVKYmmD7yT4CjhmdTzLeL16STKzDgZdFGfXzZ_dJ36MuNr3TyyOsJM15ZqOm9JsaCu6u3EMAS_3Y1VW4-cgrUFXgJnOlLSBTk-FHgTmrJwzfg0jKQrcdJMmTH5TA3kyYAvD6MF8amojZukBZRkqlOuigCNEZ5rfSE_yiKBWBmItoLWr4eUVycHdKnWBRzbE5KbnawCuMtZ9D_S-zlBXdG-AnvzgOWYYaKbbsZsSC1RmWZjgm-1-kWA8L8SKJxXoouE9NiQaDMgUE-N08fC0Msq1MrOz0KB0Yb1N6mRvHh8aC6if7xlZ8RQPw-G0ORKAt3Kg6NYu10m9Q6F_3zPu06HJ8q1voecVpHXxcrUrL_je8dFws51CQjuNDI24rXzMLpgBBKQTIU5nc4pHCIDn1N35-6TekB-qGXgZ1FipZgoVuhYvt8peTE1ujqgBfCtuu3nT6IEYJhjPHkyWuIhKpHAiNqvtHpAfTl41uGF4GbyqPGEpzw7vl3d3anycW1bKuntJKOFukl3E76EbSaoitiUkobgvTa1i_Pbatx5dpF97_wmvemVB7YlmfI5R5QJktaZzNRhEwoIkR7txNiWDn5qdwh-NdaMFu8x-NZAkzlDhPYVI-SmaIQ4bSPcla7U36_w-LNdINY1SquUlbbs5LjG_U7-XhYUBeKnFHSauCYBBmVAnn8jFR_6hXN560nxDGBk200F1hOdtsaJMnvGJphVQOwX8Fe-BkcphbjqvpsCvlWj4RK2TXLXWTfk_sNYWNmOLA_njGAk6T294pQI902wxC_nGK5m-_AOfNf6GaATgAA-7_VuQkphRVNcasIUbLpRLvW4wQ48aW_3HiSJbmJjxY7hGF8iPY9CJegAZHQSQ1PKeaMld7mKzgnk6_SQMB31VmHBFoEG8IevJkFu8zBNoUXqLV2lh6LkCSGyy-UZLH2stJDylgJPRr2Jz9DpcuUpH7CFGi9Z3WR72yS4qnQo_8clVAUSPQBWrGXljJ3zk3zp3qStLI5wB9-A7EkxtX8eMKFMRk-tzwGpyYV5cdJIJ4Q-3X2Q7kloTSGXmYzaofA7bcVm3IRXSBGTUEuWiYi_CycF7CjjwRTPzJBH54z9c4guq0djAv3kiY8oQlp61xdwaxh65NVM-YvxJRkpBbl2Q0sgmfsFQW_pBff9cdHMer7xPgaBX0XMuBTYn0bu2BxolWqQMBnjddR5XkM-HVeu-vn9sK-o1Ripm1Ki3B8fGXkYh2ldAr_hn1PoCtZyVpSvEBH2i-qIAf7qZHahechWrKxNCk-zmhZEe1zxEeJt_29IDATeWqY5ODRmfAwT16-nmsDmWiYjRd3O0gTjy1q4DqBWnpjOEwvNXqm5OOQj-DkCVRnZwfMCxFH6-5jvqXG8eu0hWcc5kx682K-MGqmaubyq8zeqlXFEEihTMaUL28gpP56AzZZrMMJQctkd_QAoNod0vVz7E0ZOMcJEXcXWpUAB-F9SC02wP6fjiyf48l6Up6D0CaZYHJu36bkyYaKj-Yhtd1oyDS6GKkD8WDRWbwc_anHh3dPt54x262YeOfyC4LN-SaTg4lWxsEcZKm-X2n6-K5A3XPClqVu-_7Dhd9J_sxvZBNC69thpBRIWa884p5Aq52UBTMs_Q_xdo4jtzNaJDUkC7yrLcwOir3xHtgFXTMfw078MgC_a98jctjswbv3rVLvD3OLOYew_nXvEmMMd8zPY4AuOl8gU-YoSBTx6ENdgjALRtMUsvBjG0pqR8lZ2cUaYAWq-HY05I9FRn1cZhH_r4bBhxDzjR4GOUnVbsrhQN8MC6HJE81OL3Jt9vrcnqkOyjURTOSUIHZKmw4C0UVe_H40tV4FCd9O8Y7tPV5au902gd90a6BnnmocjwtUc3D3Pptsu5bWpVVKRAu_OafP-i1_tKqVHT78IDIATjkPUx_KKkyMD1gvbqHN-XjcZwNA4rIObDRycFIrTL-k4EX97M2VLDVs2LHN6BVS5naJop2mmTYHbjQ3Qefr4cILFgmi1l7oyqH9Q8ad_gWqm4HerPFJXeQEnDk6DtUsLMTBDc62DXXe09TFwCbPvEYret8EYs8sv1iHxGq_FLzQ7NRys9bIlU_15tceP1pgxMU2Eqdu1qFrEsWTNyCkPjgWFIgvpaDlu8aksRXtpsyR0gft8PZ98yl9VmGvFdIw8e_V8tH7FJYLWesYBMyPgQ9nXdFq5-Rtr2nPAVxtiddoylovrc6YpLVOU_ouPNinG793A8iuACEu5IJmJKjRkAw1nQHgRfjD3IdyQf9DpDPi2SAwMixbbB8O3Z8CQPuxLB_TbOtQrDjfRchceb5uECpIUcUYra7qZLLtZh9N0b-6QN-Gy4iAFTIX8Qq_PhsIN7pHamo7tyKEkQCqqHQKDkSLdSrRQp69bwB3HRz2zVoPe_TFq_SYbmNOBVPCAg_qe5twb0-ndTSxtKUsa0ltLr8ScjpGmiEbewQizVnXptYPobu5LF1Kq7l9FMN8orfufnjFPBmcuL2-7XqgUAB1gIb9Ovc2epDUeOHcSmcUc_i-EijHC4h5Lkv5JSozscd02Aj407-XuxS12Xoh7VC5cm-dWmwJQdPD-MxNMw6no652zTI2g9qj_Lz5NsB-6IexQVJiBowbrfyMKWIdq4ehYoJLYTUiWjwcFkyno4S9Az-WWlJFGU6KAJ1yfwLZQRDrmf3ikeDXL71aDrteWZqKCe9qj56ICeN1PNa6RRoGtUW_a6tyvYtbnF_QixNuIawJzildv3ZQBC_MZlgeGWkm-gr-Qm5rouL3eeRHttphj--hWRci8sjaInX_xbQW95wuBaQmAGU21D0CX5RsyCQ3Q4voPLzq5OXnSZAkru9gG5B5rEegDSNL0wAouf7rrrD4rBfWzpa2n6A56r0Rc_M7TbhT8kI1191F2pUesT9YKMgwfzAkrxuLzYNE_usmeB8RwKXoenQS_yTOym49rRdXBKGhhFujSHAVxnyuEFTCu-S-8QT8Atfrr6kPOMmvliG8UquiL5UjbODbUvEX7t7gyUsfvvPT9aQFpLl3sueM6rIJFwQe8yd09DYx_bMvvm51F-WonQzwk75Ua17HfflNQSEglYs_Jv1oOGBmmxQBajKyZpYU7LiMfT79MXXuq0BaoyFY-IKFLbscX8IudZftMSo9z3OlbKrs0AVL1xlo3dSxUjwfaAFD8szl633hL18fjm65mZRq_maa2lF3961ZAyoqrwtbCwaopO17x7hnFBBtxOBAruWj325Lbpo0KZy3FNfaG1RtDhkaM1t7Z0vegd76FA9_em6D1hz57ewrolZwE2LrEL4J39nifRtG5jsWefIRiJ9i8SQgrC3Gr3vo96yn6x6DZd7Q2kW9RviXdQbUBYMcj3lAM2DO8zpzJpcCkWvBPS5VcuUWqqXhSNzBokz0N5TMt4JJEa5xJxNXj6PUNeEn6kFpkuBSJZgpzVZ1iMPX9dmXMWlTTpgkNL1wW9vTxUCOG4x_khvCMMht5cn_mnp4vt5SH5kKkv6xL5DcAhuTXBoFT4G30DSa_xbKvG3X-gX1pdpijgHEyn6eSqq7BAUgcRCYk4iPEmF2QrjTbWLEwH_L_dtI3HNEwRJb1U4zIHeIornFY7bWwbt3uR8IzjXZRaqBDa0tzcV6niWSV8DZMuQaS-t62JCarMb1VI9zFq3K9cAdiltn3tuzoP4j98RMaFe8FNKD1NlgC6Km9Tov3eOJri8Mq-nLnIPM55CKgMIIIavHHC4-B2p79N59YP_Rsa-Xjy2JrmOfTmD3I-ARtgnqkxnogj-gImceM78EIRVDhbxIhP_D0R4U8dOWonDoMCmNz7K1vobOVgLES95hv5xSs_Mjk9Gvtxt10nLoaAhVA3ZHuMncWS7U87XHYogmsNOgw4eskTiAWzA3Esom3pOnUlKo8bg68zZL6KP0nIIXQXicV32j_hky80jAaU4rlM8kZk-A0vE5UAl_HtOxcVgh3-oMiIKRX82lshXDIPPM0nt11IlBa4SuRbYzimYg4_glPeJ2CiXGjRHaavzZ-CVgxPKxhnczNHh3TuzBvNzUc6OsjDr23b7Ws5FbrHq3yBkq9DwRvUaO8Cadye7-uQ==",
-     "summary": []
-    },
-    {
-     "id": "msg_0329f8f101108310016ae14a2f367487d19df2125fad60d9fe",
-     "type": "message",
-     "status": "completed",
-     "content": [
-      {
-       "type": "output_text",
-       "annotations": [],
-       "logprobs": [],
-       "text": "{\n  \"title_zh\": \"FIT單獨使用與合併風險因子或風險預測模型對進階大腸直腸腫瘤之檢出率與效率：描述性系統性回顧\",\n  \"abstract_zh\": \"背景：將糞便免疫化學檢測（FIT）與進階大腸直腸腫瘤（AN，包含大腸直腸癌及進階癌前息肉）的風險因子合併使用，可能提高篩檢及診斷情境下的大腸鏡檢出率。本系統性回顧評估：（1）在篩檢情境及FIT陽性者中，FIT單獨使用相較於FIT合併風險因子的檢出率與效率；（2）上述兩種情境的研究品質。\\n方法：搜尋Ovid MEDLINE及Embase中2010年1月至2026年3月的文獻後，兩名審查者獨立辨識已發表的英語研究；這些研究在接受篩檢性大腸鏡、年齡≥40歲的一般風險成人，以及FIT陽性受試者中，評估FIT合併與未合併風險因子的表現。兩名審查者亦獨立擷取描述性與數值資料，並評估研究品質。我們比較篩檢及診斷研究中，FIT單獨使用與FIT合併風險預測模型及風險因子的大腸鏡檢出率與效率。\\n結果：從1891篇文章中，我們辨識出9項篩檢研究，以及10項針對FIT陽性者的診斷研究。兩組研究各自的設計均具同質性，且品質良好。在9項篩檢研究中，最常使用的風險因子為年齡、性別、BMI、大腸直腸癌家族史及吸菸；各研究採用的模型評估指標及判別能力程度不一，效率有小幅至中度改善，但代價是漏失部分AN。在10項診斷研究中，糞便血紅素、年齡、性別及吸菸的組合，對檢出率及效率的改善最大，但也漏失少部分AN。\\n結論：在篩檢情境中，使用風險因子分層，決定哪些人先接受FIT、哪些人先接受大腸鏡，可提高大腸鏡對AN的檢出率。在診斷情境中，風險因子有助於將AN高風險的FIT陽性病人優先安排診斷性大腸鏡。\",\n  \"evidence_level\": \"系統性回顧\",\n  \"score\": 6,\n  \"score_reason\": \"具雙人獨立篩選、擷取與品質評估，但屬描述性回顧，摘要未提供效益與漏診的量化幅度。對台灣FIT篩檢後的大腸鏡資源分配有參考價值，值得讀全文確認分流門檻及安全性。\",\n  \"relevance\": \"高度相關\",\n  \"relevance_why\": \"直接涉及FIT陽性病人的大腸鏡排序，以及篩檢資源與AN漏診風險的取捨。\",\n  \"novelty\": \"仍屬早期\",\n  \"one_liner\": \"在19項研究中，比較FIT單用與合併風險因子，後者提升檢出效率但漏失部分AN（未報幅度）。\",\n  \"action\": \"目前不需改變做法；FIT陽性者仍安排大腸鏡，勿因低風險而免檢。\",\n  \"pico\": {\n    \"P\": \"19項研究：9項納入接受篩檢性大腸鏡、年齡≥40歲的一般風險成人；10項納入FIT陽性者。總受試者人數未提供。\",\n    \"I\": \"FIT合併風險因子或風險預測模型；常見因子包括年齡、性別、BMI、大腸直腸癌家族史及吸菸，診斷研究亦使用糞便血紅素。\",\n    \"C\": \"FIT單獨使用\",\n    \"O\": \"大腸鏡對AN的檢出率與效率、漏失AN的情形；另評估研究品質。摘要未明定主要與次要結果。\"\n  },\n  \"effect_data\": [],\n  \"key_numbers\": [\n    \"檢索1891篇文章，納入19項研究；總人數未報。\",\n    \"篩檢研究9項：效率小幅至中度改善，未報絕對值。\",\n    \"FIT陽性診斷研究10項：仍漏失部分AN，比例未報。\"\n  ],\n  \"cautions\": [\n    \"提高每次大腸鏡檢出率不等於降低CRC發生或死亡。\",\n    \"效率改善伴隨AN漏失，不能據此免除陽性者大腸鏡。\",\n    \"未報絕對效益、漏診率或信賴區間，無法量化淨效益。\"\n  ],\n  \"unassessable\": [\n    \"各研究樣本數、族群組成及台灣適用性\",\n    \"FIT陽性閾值、模型公式、分流門檻與效率的操作定義\",\n    \"模型校準、外部驗證及是否使用獨立驗證資料\",\n    \"品質評估工具、各偏誤領域結果及證據確定性\",\n    \"各原始研究的盲法、失訪率及缺失資料處理\",\n    \"若原始研究涉及隨機試驗，其分配隱蔽與ITT分析\",\n    \"系統性回顧計畫註冊、利益衝突與出版偏誤\",\n    \"成本效益、長期CRC發生率及死亡率\"\n  ],\n  \"context_verdict\": \"延伸前作\",\n  \"context\": \"相較先前非侵入性CRC篩檢綜述，本篇補上FIT合併風險因子進行篩檢分流及陽性後排序的研究整理。先前FIT閾值轉診研究著重大腸鏡轉診的長期CRC效益，mt-sDNA與FIT/FOBT研究則著重陽性後追蹤依從性；本篇處理的是檢出效率與漏失AN的取捨，不能直接推論可安全減少追蹤大腸鏡。\"\n}"
-      }
-     ],
-     "phase": "final_answer",
-     "role": "assistant"
-    }
-   ],
-   "parallel_tool_calls": true,
-   "presence_penalty": 0.0,
-   "previous_response_id": null,
-   "prompt_cache_key": null,
-   "prompt_cache_retention": "24h",
-   "reasoning": {
-    "context": "all_turns",
-    "effort": "medium",
-    "mode": "standard",
-    "summary": null
-   },
-   "safety_identifier": null,
-   "service_tier": "default",
-   "store": false,
-   "temperature": 1.0,
-   "text": {
-    "format": {
-     "type": "json_schema",
-     "description": null,
-     "name": "clinical_summary",
-     "schema": {
-      "type": "object",
-      "properties": {
-       "title_zh": {
-        "type": "string",
-        "minLength": 1
-       },
-       "abstract_zh": {
-        "type": "string",
-        "minLength": 1
-       },
-       "evidence_level": {
-        "type": "string",
-        "enum": [
-         "RCT",
-         "系統性回顧",
-         "統合分析",
-         "前瞻性世代",
-         "回溯性研究",
-         "病例對照",
-         "橫斷面",
-         "診斷性研究",
-         "病例系列",
-         "綜述",
-         "其他"
-        ]
-       },
-       "score": {
-        "type": "integer",
-        "minimum": 0,
-        "maximum": 10
-       },
-       "score_reason": {
-        "type": "string",
-        "minLength": 1
-       },
-       "relevance": {
-        "type": "string",
-        "enum": [
-         "高度相關",
-         "中度相關",
-         "低度相關"
-        ]
-       },
-       "relevance_why": {
-        "type": "string",
-        "minLength": 1
-       },
-       "novelty": {
-        "type": "string",
-        "enum": [
-         "可能改變實務",
-         "再確認已知",
-         "仍屬早期",
-         "結果為陰性"
-        ]
-       },
-       "one_liner": {
-        "type": "string",
-        "minLength": 1
-       },
-       "action": {
-        "type": "string",
-        "minLength": 1
-       },
-       "pico": {
-        "type": "object",
-        "properties": {
-         "P": {
-          "type": "string",
-          "minLength": 1
-         },
-         "I": {
-          "type": "string",
-          "minLength": 1
-         },
-         "C": {
-          "type": "string",
-          "minLength": 1
-         },
-         "O": {
-          "type": "string",
-          "minLength": 1
-         }
-        },
-        "required": [
-         "P",
-         "I",
-         "C",
-         "O"
-        ],
-        "additionalProperties": false
-       },
-       "effect_data": {
-        "type": "array",
-        "maxItems": 3,
-        "items": {
-         "type": "object",
-         "properties": {
-          "outcome": {
-           "type": "string",
-           "minLength": 1
-          },
-          "event_is_bad": {
-           "type": "boolean"
-          },
-          "intervention": {
-           "type": "object",
-           "properties": {
-            "label": {
-             "type": "string",
-             "minLength": 1
-            },
-            "events": {
-             "type": [
-              "number",
-              "null"
-             ]
-            },
-            "total": {
-             "type": [
-              "number",
-              "null"
-             ]
-            },
-            "rate": {
-             "type": [
-              "number",
-              "null"
-             ]
-            }
-           },
-           "required": [
-            "label",
-            "events",
-            "total",
-            "rate"
-           ],
-           "additionalProperties": false
-          },
-          "control": {
-           "type": "object",
-           "properties": {
-            "label": {
-             "type": "string",
-             "minLength": 1
-            },
-            "events": {
-             "type": [
-              "number",
-              "null"
-             ]
-            },
-            "total": {
-             "type": [
-              "number",
-              "null"
-             ]
-            },
-            "rate": {
-             "type": [
-              "number",
-              "null"
-             ]
-            }
-           },
-           "required": [
-            "label",
-            "events",
-            "total",
-            "rate"
-           ],
-           "additionalProperties": false
-          }
-         },
-         "required": [
-          "outcome",
-          "event_is_bad",
-          "intervention",
-          "control"
-         ],
-         "additionalProperties": false
-        }
-       },
-       "key_numbers": {
-        "type": "array",
-        "items": {
-         "type": "string",
-         "minLength": 1
-        }
-       },
-       "cautions": {
-        "type": "array",
-        "items": {
-         "type": "string",
-         "minLength": 1
-        },
-        "minItems": 3,
-        "maxItems": 3
-       },
-       "unassessable": {
-        "type": "array",
-        "items": {
-         "type": "string",
-         "minLength": 1
-        }
-       },
-       "context_verdict": {
-        "type": "string",
-        "enum": [
-         "再確認",
-         "與前作矛盾",
-         "延伸前作",
-         "無相關前作"
-        ]
-       },
-       "context": {
-        "type": "string",
-        "minLength": 1
-       }
-      },
-      "required": [
-       "title_zh",
-       "abstract_zh",
-       "evidence_level",
-       "score",
-       "score_reason",
-       "relevance",
-       "relevance_why",
-       "novelty",
-       "one_liner",
-       "action",
-       "pico",
-       "effect_data",
-       "key_numbers",
-       "cautions",
-       "unassessable",
-       "context_verdict",
-       "context"
-      ],
-      "additionalProperties": false
-     },
-     "strict": true
-    },
-    "verbosity": "medium"
-   },
-   "tool_choice": "auto",
-   "tool_usage": {
-    "image_gen": {
-     "input_tokens": 0,
-     "input_tokens_details": {
-      "image_tokens": 0,
-      "text_tokens": 0
-     },
-     "output_tokens": 0,
-     "output_tokens_details": {
-      "image_tokens": 0,
-      "text_tokens": 0
-     },
-     "total_tokens": 0
-    },
-    "web_search": {
-     "num_requests": 0
-    }
-   },
-   "tools": [],
-   "top_logprobs": 0,
-   "top_p": 0.98,
-   "truncation": "disabled",
-   "usage": {
-    "input_tokens": 3266,
-    "input_tokens_details": {
-     "cache_write_tokens": 3263,
+     "cache_write_tokens": 3323,
      "cached_tokens": 0
     },
     "output_tokens": 1953,
     "output_tokens_details": {
-     "reasoning_tokens": 361
+     "reasoning_tokens": 257
     },
-    "total_tokens": 5219
+    "total_tokens": 5279
    },
    "user": null,
    "metadata": {}
   },
-  "42942505": {
-   "id": "resp_00058110f7742a63016ae14a393b4c87d1bcca1fab1b87fbe5",
+  "42944051": {
+   "id": "resp_0dfdb4a424733996016ae2a44be64087d1965ae6779ee169a4",
    "object": "response",
-   "created_at": 1793149497,
+   "created_at": 1793238091,
    "status": "completed",
    "access_programs": null,
    "background": false,
    "billing": {
     "payer": "developer"
    },
-   "completed_at": 1793149518,
+   "completed_at": 1793238119,
    "error": null,
    "frequency_penalty": 0.0,
    "incomplete_details": null,
@@ -2147,14 +759,14 @@
    "moderation": null,
    "output": [
     {
-     "id": "rs_00058110f7742a63016ae14a3a1e9887d199e92b5087b81382",
+     "id": "rs_0dfdb4a424733996016ae2a44d095c87d1a7c1e5f60209245d",
      "type": "reasoning",
      "content": [],
-     "encrypted_content": "gAAAAABq4UpOSJyrUVmrBYDoiYLF4_KCyd43BugFefY19zSQ-ZK8IYBsEB8tHKpoKsXmw9lnT_ZRjYJj_d_Yqcg8N21IMvE3fXc_n2ERjS8113bbBfWPr448GjphGsPPWfezUqAWiC61IzxgvzjzuU8m0EXGBYjfeo44xZlz6U7a_491-Mc-oG3MHaazB2T4IX4RFaiAM5h-wvFSBvnmmb9tnw2-qnuRvpq-TCg2Pm75Yr5IQQcmDMBrOwYI8-xGla2UUtnLE9vRPr_bSmkMgHPL4VsVJFUiwEM502J6n92f6uQk6d6quRJvaYJag2UzWOCp-GphnxIVRVLUuEaELeA0fbzwTVfrGJvO2PGPG0hBTlGASH9OSGvP4ppwHUVGdZJ8agX2YVg1tRbGevv0DxY0GwjBKgQukd1tdZDCx1zht0y4sZOe7x-1ocDfR6SjmM8ku6Mqwok4e_IGZf7oOdEy8SbAJKjcCp2oHAnykltQBgG-j6Vi_-zdipk3lDWfaXvCe29OaXBlVNWdlsaPoFMtQ8dU-AJpaE16S8xlYo-uySg7V5wXxMi_ND5WbarItDDzUaHZDdE9XJAoyy7UnjmX2_zYVta4vpESE4dJvWwlWJ4yoc-yVJ8n2ZeQMX8hpOPnTcM7BhwAmLHaiih-ZjN9aZ0UJXOHvG4IwyK7JWiHKeyiZvpV_gyw6oc80QpG_3BARFziJ4ASEHbhFx-X9EvLTUWZqKu3l63-Q736obJ19AHDqyBtATc1XO4BxHW5zLWY4ZkMp2dXjN7REsGBoVFhe1LATastB3pjb2cfMx7d7D44boEERVXm3HsqB-wwyAAMAPAn7SaUeUGfqE1Hsco3pgQnNqAZ9or1-izJPaUmxNGEWo-VJXy_XU0wVY3eoNNGpUlBdz1m4vX885iD0h87I5qN0NRI4s8Ltw2W4B_FXKJ4-4K_VluZz56EUJ7W1PmPkanqeCyGC4BGH-URuDPPb7jWTXJmpWSBCeXtqkXP0WC1s52RrcoMv8Sd1UQU65EL6kG_W5sqcIMfsZzFxF-OpQv69YzaH3jts8fPNCQjU1V3_frnABMy8Z2SIJHzmlgcZBREsgN-2cn6CpufmwviCbrGPs4Qy6AmRrHbx8GbT_oq4ClHuZVYJo-Gfvn43w5mqCHKVJ7UAQ86ZuJsgf7jy4ago7Yz97hs8yUbBNOCfK9C3JTbwHnqmN8-8wUKgDzZbXVDRKILNqrSk2zQS5Q54AIihrB_UTz7SJyeFLO0R7ZGD-rQ6RsOhVgFD5HksZnKHuR1CVKswCBwr0iHHoopls4PerVhF3BqJrLXTU6LvDwrj9D-qzsQKxtrFNas1TOFIpLEAbhfvl2YJMBwINpNKp9mbsf9oTCUL49lfIaMnFW6q9VJCnr5mCz4KQEfSFMQo_GoK2ZDaOGZWh4l7y3GJ7_UxlJjz0fSX8Vsesy9WJVB9Is_Fc417W9mI4dEFVKDW3xNOdvOpzOl_fVV86OOWP_LsZckUdZXiAEM9IrvHH7jF8oRC_hHL3HHvgMHT1RuWsd4kERqg3xT2cR90LEQ92FTp9BMaoglFCp0ISltiiOEZuYD3Yt26HykW-oIQyas29YluAJNx90rcuSXvgG4bI7HQQ9MXyJBuV0a6rQpeH-rqZ8oOCfckaXB_Cet90bfny1J10ReoKKcP87_36WUJDHl8N2AB0vY2zuc9B_zah8t7lFE0r40-787IU0UbSwC0cp6rGH84v0Lb0D9phbh9-eFWOD2d75XPl_cPwaI0Li_ui8gnqZUCM-Yw8nSgWn19lSesF4O2kUQw_4Ha6qipDAj8sBT647_Z4IGxMUnDiJHmZLJ96TsQpPbZQpZOiZuA8BaisL9Yv_cm-Z0N_m2ZcTkNmAQIB0Ic4_a9TUuKExkpp4e642PS7Wk3-deykdpNThwDGslx1I-65WDHIt10TEe_m3LuaBKLAdfgB90eSZKLtmCCmW27FalaMC5QvuQAHl_YXufATgeSaXy6W4AdPFtbR3v1ziHT5CTLRuzdPD645Ek_8Bp6YxOjIu_N2ZiyKnrTOO7kymVkIbGWGORI5uBEqRIxDSu_kiWl8YHVRJnPbz4LW5vgCsvPPyTuPbwVRUNrUq3oodGk8rrxhMoyIdpRio9AiKiwmTTcQyYy2DCOiiFEBO7y6GbScio5N9PqjN8-iqY1BSCmrLq6w6iravGBjYI74Bi8cGg1oDCG0XkP7nkfSmVHAqgo9qgmx2z4j-JlPgWovNJbYWBhwY4B87xIcluj4pufCSp_2SNYSbuR3edrQEYBykpsu7qHXB_VtKJs_PTfRhjnv_Hck0y_8KWhv7Ej-2xSMvAnv5tcwmQAEZiYZdAPkENo6ZG1hBQELTVjSt53505OMLCrgdYnAm7hyTpJYe7MHgU7S2c9s8Nooi7Z3-N_OTyrvIyxR8ieQMZEoe8hc5OQdiI3MKHunTyo-pNGFHSbsfvrVLj13fGLo7x8S4Rz6DZSmTm8AZWXddlkEHIbkb9sf1FMiw2x3anCIqqhb4YxMdyw_ZCC6HxSlt0dHEwYf2cprgXMwzQw7iCa-sSey2K1POT8UEdPjwjEAxcB5bG8R1QsXF8kZ7VpCEJZAi6ucwR4rlqWmzC6LFwl_xRuNOhBP8GrlpO8paS41en1C0f67KY6uLg0BwV7FTep5x2zK0K9480usCWNCJEoNNSuiqaJck_uE8kl0-UqylmvbGwR0vKecc5Nl2yu-3hGVMKFkGFEtBSTTJTPfazxV0q4IJSA8wexGlkDeu94I6DWlcJptcVmOe1dAmyVoXNlHV1hYpyhv8v3XAUEr0L3yuzFAELR_m3_OQ58AO9cDFtK5HhbRWiq1WldS1Tf46Ymq7TrGF13WbDNRkRs5EVTrB7ChfKqsCCPaVmJSzv_vyUXT2_0PY8brcDcsoXZymusU8mOUhIogU7f-vq28EPTgzWJSa9fujhEHnnL_GfXBAy7bV9y1ukTqcFdZ_LdSvc4NuuZnIM6AX7oIszkg-GK0LYWXmizKGUUNb6tkBy7Aygag6c-S8k_jUW0IV1FnBfKX6aU_bzDBWX_CkTn26XWxCC1vFQBGS2-4nEEBO5P5-uSP_lwDbXGynzeK5fEZAxajP0r2HPSC1L-QCOEt1QMgWVPzGtNki9VVzGSwo7dPqcKnYvpx8tS2oNfFCdkFdaEdEXoeCWvKkGmoOo6ssFrbFC1QnLugGY2jXcPCP4sAP9pfM2il4js9zKTe4v29r_HgjL4qrSh05hjSebtYvfBpUXCmkTqLv8gy4N2758o_bB2xQGR58z4Fm_fH58XNyPQUCuG6L1K2lHVwLNVE2jPeJfNAjrHeA-UoEP3gZzP5W98bGjsjHfZ8889kyLKucqhI3IdwzHzSrIb3izlHSGoRVSrBuWQ-rofJ2W1RiFTju4k-y_wkdupJPEgoWJMicM_VtG_Np3PEhGuVrczgo4GkzUKqiRPbVxCWCRYErpyyp2MK4aQn73lIAMCeh7oFfBZbTTlrtBOtNf2NHesOrwV0wiygDrcvpotMex7VxXRPn9pUqoBjfK5WilZK2jpcj4sPrv5xxgPyHKJj5YoKqHQGKArLbGasjb_pPCeyZj-xT74SE7VBYekniCrL7TWIqq-2ZBGPOGrAcCObjO_uHaCFVDU23hg54fQvMtLHWlqRu0lM3C4SlD2wJRfjxBGguhX6Pz7uwaiSg28jeirsa23JRxP2Ydly6gbfFZOp8L6t4MtGMNJzXGjg3QqyRvVaEmAqPBWbfngmYAt0YXBL2YTyekRyr5MNkkzBE2IxCmtcJM1QQn70DOjvKPIlTbhH2wyxIWUQCspLLMP0KwVR67ktjHBQyrR6W_6BX_cYKgZuR3koJ4j1q8oLk47iRVh4mhKMQx1HUWq5md1PYjILnm5kS1b0h_2R-iot8gL1pPKHnICAnSWjEiPidh9A64_LFWvLqimcRGjISiLJIYivm9yxw506ArhMXH8TWcrz3-x-NQHDcM9ZG_oaiU3MzE-mD583S9t9iRRa_lQHnP5BxeLSYpfUcks81JI-fhkpUWpxfkE0V8xVYtA-qRvaeCNfQ2PRl4iVuLKyDytcm8yYtx8tY73o9lqggs-00FtU-AseBKQwGA8VNy8ptV2wSgNMPuUHpuZW0Suq4wa9wFNkc29nBJPqdjbnHEuG27hkZCUVSixw==",
+     "encrypted_content": "gAAAAABq4qRnBHD0I2asCiIE7_8gtRqzoV11maNcwRm1JF1OQflkRrDcAC9eBzjhYEjyOGtbdDR954CxoOa1RJ4wgAUjWdPblzCejkqwlkGV-dwn5HTLKhewt6bgr3wQLf7bO2rjGGCB5jocwW0oYmR_tb0AOzwvGUnNEpRcleWeIzV6yi1yptOn0MHhMSVbW9OKiH10-YoR7XmfwHoe8G954irNHfx1IQs8TsN1CqIqp8qVCxRDoYhySJSO-1zVNpFTdgRsZclsDoS8-FVii7I1l3sTWXXr43CwmW3c2uOsZ0cEA3mOtGbe0Ov5fk0ACUyUS5jp1NUM305JtJY_ODE2UU89mpzcUeYrJ3fmZEFuybMGfYY-T_P45yIKabb05wD6eUU3KVYl3qsifo2YruF_qXr4xSQ-k9wDfR7LTOzSfDlJABHzCYZLrQirEOd9Bs21sCZLy8KX6TjISyt7tf1JJGrqSfAonIR6NB0zDMBhYOxpV5LNvmY5Yb6CLqHVcivtPm8n3Sf7vJ7s8A6EZDiS1ScRHSmbDRiM31iaO8FmrmRoktXuWS-vnafxLF5qk5-dRaI1jzD2Kbv-aEOdYi_qnRKx_lqHbgZjjIRmQzYJoFlpNeE0W3kCYPyWCFLSgpAkXXDO-AoFWQRBYOqJ6esYCWKdTyIo7Q1NFXH311TSzVvIpgi65smjIn58DHi-MFh_DyJLmEDrU5souVRYL5a_HUT-uOifHj7HmIvnazruNlbQJUqYVGoZndqgTkXXL3Li0uAZHx6Qs0fuuhsOvz6-KmX31iCyKpjiGN5XSdrM6_QR2a-ik2s_5VnFi9z2R2Lz1vWrBf19k4VJ7h1eg53xODurI2uTzX6xczbj376JtkE1vWwBQsM3_WgZDt84dGAIjEmg0oFijX04EITs7lIF8Qh_1csnaezeyisZR66INxMDWoTR7cJcdT1vKvRJc_c-rWtfePfccQtwcg809MbfvWap05_f3jhA7ShXMIzXvfru-Sq47_XFkWCmFEELDzrXv_gflFt8UQ-NA5tRjxa5vSFVGi9sTyIRGu6PVda0cnBVwymd47a1f8AjYhHzgC8UL2YE8JFa4qb8tjLuovFpgXY9mLrKNH6haY3Hf5bxQVgvwSFl4MXYBVwIUrdL2EtMib22a7qujTKnMSrZuhWn5JanWUggjaoy3D_eeVIPERjb4WiuTo9bqFKdS-fiutAae8cv3p7S5ooyaJ-QJ-8u3_-DlYGEUGSGCiZ3teDuQL-KYrSWOAZh7sQJ5y-3MHwlc8T2iovQBzDPCAR-3kG4WUfzs1xBAa4yjmQwPitegNOl2gs1-CmS0Ajmqeqa003-VlK-2qLUrZ1fWacefwRW3271NJyhvmR9-mvOpsBD2BBXu_NORktsf0OU79w-68fg0-Yda1IWj9t_eI3w8Nl5lqhzNRoMjMZSMh3H9CM-cdfqNarO_y1xTQhL0P9feSDUI4V4Cvaql5UdHLW_06lc9dF5yfLit8mP7lCLyWmfOu-gRBAlXRhPe-hU6791dKXGKL5tOarPCTQCOGKYUMhnMVNLcQ61Af3ZUvhhJ8OFy16IrxKuXWnjbs0K2uBy1lzzJ2yeF5VyXeVNWKvGbnpXuLSPXga6dnFX9JuOwKLz0Oq5bAFHItEsa-_p3y5zWlGU2OwSEB_0X66p3gam64WhYJJiS8ztgoLkHEb6Krye2UdmdB3-1ei9SJjfUwuCNPUhER48mSIAFzdod_CPKpFCoFbJp_QHq-KjOe-I_343SRJapAXWZe-p9i3E2OdxN8yx0sMxnakbN87ZJvnSKxYpGtPhAczTp2moZUNOEFuq7PgL2UjIsC6Pgw7sExDrmsaEK-Lz0V_D4BbULklvPZS1OuHO2E3_vstyV-MKEAwLJ91mz1IPuime1AEfVWh5TCpHE2bwd4jYqldkYFt5bnoErugaeZvrGsKi96RWMup9uvXc6p0KVxJoUsP6tvBGf41WnYhmdoIwPLowlHoVdL9Q7HrKowAzxCVOJ_WATCdb4sskDvA6Cx2VkXlAsHMAJNlP0lz2b7dW_XHFOlMn3ZGPE0U4WyKa2S9eWuU9xLx8_ELNTjro8BzcNgUfd4VTEchgfVwAJ9x6oNlRXel614fWuXm7CK05Ta-ThZRB0mvsWSv6bh7xoPhWC_V88n8Z7ztI4gP9mTB8x8599BQr3fbPVXTBzSXNSfwZSnczrtilYQ7nQz8dLKuze205D89dYUaSR9Jgb2Fi38k65Ht7S8_O5oF3zZZoSh4FaRHFLmjDZS8U0s0Z59BOGv-WF7ZqMqyrp-D6CkzJsqjhEsLj7OSEkJr5OPLQmHy-6xNQWvwX6N6d9R0omL31gihu0skhhW8HxJZXKWswP48lHXorHwrnO_67-FrAmpseVbVNSEusGCWzWIO4Yv2NSst1lnN80dOe0iqplhM-g_26-8NZWs3suRivxaOp52GVb1xg4Fvul47ark7GshxWaq2uV6wyyfg7HQOMOcVXVC3EVfX9boOp-lv7-wnt8YeLJ7uBG6FN13hrxVRgii8X8uZN17IzbC2mjcflYUWCRvw6BUp4H0fviCMHCj4VF-yehMl47LNli2Kc-nK55x_HeMaJqecyEoDoEl57fFxfxM6HUGg2bmD_0EENX_SKt_5hXL_T6pC0Ukg3ahd-6Y6_Cruwzo2U5HkgZtauwDISUCpekdSrYdi8kdF35Z3tQ3awZB27rhFd8dAvXCz2YEC1hgRRR12oe8fLzYWEX0ID4gu45d1SGVd_dFI9E05eDf8tUhw7sUj-7xe4q_ojjfjCLPUgrRD7MNMBKb1fZ0Y-dY3aJIexrys0g9maui0VYuTtawqZE7EGG7R3_5PXb_ttGY-uAbeiiQ5KnGqgwuDObMJ9Rd84UpOS90YctbzMX-ejKfM-auWaCGr1U3zr3mQ46o3eY7bZV9Gig6_i2cbNwYOqYR2jUF0Zr29MbrOwTTS_lRpu-klcywC9_G302-Xp5cXJCqRpTcebiF9YujSETXLTlOGsuoIiHSXGxKNc4VXb5L5T45g6VCDDkHd90QF6KDTFVro92CH2oKkIvf858jAeSXmp7qMewPc0ERVjS1x85dtePOVgpdb_hD1NOF9qyW6f6gp4fh79FcMjI3_tHRARI_FfpFReibOle_dAnDT7v8mvziY6HcWwTPBvXJD8OF0EzgiYgvF8YJ4VMrKEQMYul5ouzOr4alMIGZU-o1PU2JawdjLfHGivoEp5Opa-b0VyX5ZFDpYGmrqQW0L-GjZI61l_sMygX-E9_CP9FY7quVqZxRJcYoiMQ9XJ0ZpBIoSHZJ6dEysI0Fa_L43CzHmCk5HEA63h2723Xeady9F7s5TjX7mdJLucOwbXMNlwzJlIViXMDTuX9fpbzMe3ABTg1NcjJGYMPOjZyU42Zpkwn34P2HsXmHX5qFCNmeZK31TJq2spgvD01T-mISDbod2u9Dq9gUXGCCw1oZUNzkA1NXHfw61f32XUh7TZoyIR29kIqVuAkRmMQFCDs2n53fmmOvNtUAmdF5WBbJksRXROX5w_mWljZyGfw3wrOaVnq1DfQzwe5NMzTRhuvj9Bm79nav1HL6IqY4djanEXholzya1hN6gozxS0NuRY9-L4lRtUrYohys6wrU9blFJxQvYV7fvx8UKOx_g_mH0ZVyBVz4Geomrldz4Yyh_29sAnqQ2bD11BcuBZNGbimMdoJorr90gybzeOV5KNwCGD7FVpA46_sW56t56DzMdDHA3tEiV8t0AUhrm7UhO6AveOIaov3FOKc83KDPCwTUWF54IzWBMbMR-Guxkz1WbAV6B4XQ-Hf2a-V18S0AWlW9sTbeLZL6LprvBA9A5NzgCiFBW74Xvp1N-jl9Ji5NYE8OWA2ii9u9PdAr5BPHkqxI1eksUM28Sk5rb79sVcpDrfWBJGwjtZkEfrGayXwnzdgoRj1Hc94rNh2glkspFIgWUj91SSBWMdIvlRB605kR3h7yhhcNYqP9jTHNo6PgHTGzMrpXaa34JBy8hb6w1ZBL1kyNkRoTRR5YC7bRg6-r0yJn0izOhi-ATA8RSkuf7qsghO0K3BsFnJO7wKtLyQzrqDtjWE8DR9ybM4cqDAUMFyGr_Xkbd5WQBpBtWxu19tHdbB612ydnfsmQxi6pDfcrVN5wrNoS9EaUo8LzOwuNm7-N6vQ065X3lQAPZf_qDvn8EqkNvjsFea80fGmBHvZdgjqhIS_9rEyAYD-mShjRbdFZueZX6J2d2sXqWImskTuhAc-HS80RivLrS8pvWmuPz8_33aBqoVR5irm0-LCXZgHUxQast4z16OZf_GMwkNsxmVmNMxpO4x76u5DXKFYeBXpuLQ0lxuOqslhjPoFEZrHrYJJbSOwjB7QBNToLdUH9iAffp_0NSoFG5z20ocXcJljFvQPvgmUnI50ceb2AuB3BDFq92ns4znewhk0W66Yu02pNQgcx804F4z0lRdyUQiDHhQLuYmQkmCqjy4MflF86unpNOOV7JcH1tKnxP2O2WOaWbO6FOxSTY14bYHCfTsBE8ZvyN5cQQbwlDaesm-CspPHXXBN_dNPqDcZrD-DmYZ0AknaaRZkovjR49YcbTqZxF5GVrVCOlpm-8-wb7lh5SdAxBioJ8ks-h7eZtcTgbxUn4mtGmj1tAM5g9wAjcqY9D0Cm7XVqBcWTr4mZPjAw0BpKNZLuURx93HMNVZZcp0Z3PoI8P4y9-MnZEq_q5uH0b-BTeSTBZnlW1WnOPlS9FpCUrdXYD7WYVAU8Fd6zwhVCdcn2zSpRNzsO15iff-H1rQl1Tnv7fAsF6d1Ej2iQfYuyfUgsq_w6VvrfbV6bsn2Kxur24eF01qNHOPsUdz_2ru8b1tMUEXxrNbSpJPFVjiRAVtNAu6ASW8y3zX3WuR8oQzQmkFlmMcyx1xzvikE5u2DpwfqPtcM4ogll1KKdGU81BM_3lJTeYK-693JN3YynTxvqSdv8VSzx9QosyybjZyU9iNIku-zNBNbilztfYKB_BPhucESpvqyx_3j1V-pNVSA9YCFFo4XUBrMwNy5fArpzDA3cnvZwGLk5uZL-Sq8gmB5jQhCi-zQVe8jOi6uulAXFojZDhKuJs3CCR31i8YNiD7L7_PO7QutZdQrSFkWOQDC_Lgdg201vaGFzKhHiuqFo2MrVihP-xQwl7EImbcRhTSgKyHpQdmXydaqG0owHIsXi0txsif5IcpXcsaGfFouX45KdS3KJI7ydXFNEyOkoECHbgUqBJ3Is2ulGr9PnlgM-2n1O30m1rGcvzHN26-1h8MQOJArWqwfa59O9fte-scvAktxak-oo4rsoeiTLJDTDX5mtRz2Tx7y3kHmtljGIYJ-50OWv7ySQGtW2jQjiHPs98KVn1iK_791VfaGOp2oyvJuUiHIetxJVD3iYey7Mmi1kLKcEyslngPanR0ZJ6e98TS0RLXnlThc-LQF2YQGJ79zcQFlXZAlTQzN_rJ65FWvpzJET65IR_9npqlIOGb4GxLkF-AC4Oa2NO001ORAsO-KfbHVvNFHhGd-t6PGKdfQXUNpCb2n6_1aA5qrBJkIzgNwzXWoJK9fCNAYudHJ6a67fEUQ8xaRD4mEW-rDfbPj4B43GnTSpEWSUGcJFlSPTrPEz-ABYaIRoRhv8RjQyzf6qpVPhihE_g2S72zVCtL-WB_qxtha3dMCbNEH90VfXWyJcWU7FHnUrKPyKrLQgJY5DDbV-efP6TykkD4JP2gwnPpnQ1Fnw2xk7Y7-J-ZmQoCztekABk-plmzd3E18SUI7nJVe-Rq2W6Ne3ZJfy8VSl30u8N-rKCKBOlrD7q_4vJvx24Uuv7oF_YqDwGINL-C-JgFu2HM-SgdC90UJOCNLrmyNhVb1etlQtyK1_71mI4Kqyo7RFeYbToHBXnMuI2S98xIClHl3IVl6qbhzLS91L99S6eD0Ak5GxtIzu1Y2xHj4uf15EMSNwNOpkxOkQlEDWy03aapKgDPWUEwb-1gTPyBwpWrFkiZW4cRg5PNsqrd0LQeUqNWao0rrK_dlhko_MDDgbikSJX4szV5ZPJjWaAF0IrZAgfpxMyFTkvl5lHeOcRZH_zi_-nh_eqKk0o-K5fz3TDC9mgXrUrW6Au_-RGE6zjhvdBIp3OL6ONUXtTQYJzVb9lTGY5ncYf1za56kOhdsad4ta_SxgL-Zl2w4pD_60RzvKUreG87Qr8DXfFcYBtS6-T9-AbGlddWA29bEprKoAm9Dx6orDkNo5qrddK2sFOmo-GBwlfk0oasw3NPCVN8va0cFyEsLCnb1wRDTn6Uqp1NjCVsiN5rJAsHoZkkq1ShbiY2FdLZreaieZITeTjWoMJENy3My1vrLDcKGP7HTInyI9W4Tc3zJqka737x_IDM5KPAcJz4Rz59YwneV2ii24CJQpEE1XN9BkF-XNY3Br1Zdler2Z_PuUxjbXyW8L9RCogU41DJT_aZH34EfCaEOqqkLLqt19zd_1AhU0NkwTjRcBLo5o9IZ_KDsnPQipL2ZxX7MEFled1FAHS56uBVr1xDC1oItuetz5jr2gtz-QMNzl7SPKG9BTAg4DuPmCX67BgEUaQeBEX1uocuO_IHkIUH5c430LE9Pfi-YlZgWhoUsGiZt2zK6JYIzesvL-qLsJNJqnHj5sXznHlnrau0KDqnGUlONOjX9TQtGgz9qi_t6SFkuy3trdQYVDL0N7Gm1sezy9jw35l1jg9063acwIUfawnBL6ppl7yrtC_DC-f04XU=",
      "summary": []
     },
     {
-     "id": "msg_00058110f7742a63016ae14a3f7e0087d1acc16a877e16930f",
+     "id": "msg_0dfdb4a424733996016ae2a458569087d18b86ce4e5ace30ad",
      "type": "message",
      "status": "completed",
      "content": [
@@ -2162,7 +774,7 @@
        "type": "output_text",
        "annotations": [],
        "logprobs": [],
-       "text": "{\n  \"title_zh\": \"VE1 免疫組織化學檢測大腸直腸癌 BRAF p.V600E 的診斷準確度：系統性回顧\",\n  \"abstract_zh\": \"背景與目的：BRAF p.V600E 狀態對大腸直腸癌具有診斷、預後及治療上的重要性。分子檢測仍為參考方法，而突變專一性 BRAF（VE1 株）免疫組織化學則提供快速、以組織為基礎的替代檢測方式。我們評估 VE1 與分子檢測的一致性，以及影響診斷效能的因素。材料與方法：於 2025 年 8 月搜尋 PubMed/MEDLINE、Scopus 及 Web of Science，並於 2026 年 7 月 27 日更新，納入自 2014 年至更新日期發表的英文原始研究。符合資格的報告須對同一批大腸直腸癌檢體，或明確界定且重疊的研究族群，同時進行 VE1 與公認的分子參考方法檢測。研究篩選與資料擷取由一名審查者執行，並由第二名審查者獨立核實。使用 QUADAS-3，針對各項診斷效能估計值評估偏誤風險與適用性。由於臨床及方法學異質性顯著，未進行統合分析，而以描述性方式綜整結果。結果：資料庫共取得 704 筆紀錄，去除重複後篩選 358 筆；評估 38 篇全文報告，最終納入 28 篇。其中 23 篇報告或明確界定的子世代提供完整或可明確重建的 2 × 2 比較資料。敏感度介於 74.6% 至 100%，特異度介於 66.7% 至 100%。多數經最佳化的檢測流程，兩項指標均超過 90%；然而，選擇性取樣、微弱或局部染色、事後設定閾值、檢測流程效應，以及選擇性分子驗證，均降低可靠性。結論：VE1 免疫組織化學可能提供一種快速、經在地驗證的分流方法，用以偵測大腸直腸癌的 BRAF p.V600E。然而，顯著異質性及反覆出現的偏誤風險疑慮，限制現有估計值的可推廣性，且不支持全面取代分子檢測。對於結果不明確、技術品質不足，或與臨床情況不一致者，須以分子檢測釐清。\",\n  \"evidence_level\": \"系統性回顧\",\n  \"score\": 7,\n  \"score_reason\": \"直接涉及大腸直腸癌 BRAF 檢測流程，值得閱讀全文掌握 VE1 的適用限制。惟研究異質性與偏誤疑慮明顯，且無統合估計，不能據此全面替代分子檢測。\",\n  \"relevance\": \"高度相關\",\n  \"relevance_why\": \"BRAF 狀態影響大腸直腸癌的診斷、預後與治療判斷，VE1 的誤判會影響後續決策。\",\n  \"novelty\": \"仍屬早期\",\n  \"one_liner\": \"在28篇大腸直腸癌研究中，比較VE1與分子檢測，敏感度為74.6%–100%。\",\n  \"action\": \"對VE1結果不明確、技術不佳或臨床不一致的病人，安排分子確認；勿全面以VE1取代分子檢測。\",\n  \"pico\": {\n    \"P\": \"28篇大腸直腸癌研究；23篇報告或明確界定的子世代可提供2 × 2資料，總病人數與檢體數未報告。\",\n    \"I\": \"突變專一性 BRAF VE1 免疫組織化學檢測。\",\n    \"C\": \"對相同檢體或明確界定的重疊族群施行公認的分子參考檢測。\",\n    \"O\": \"VE1與分子檢測的一致性、敏感度及特異度；影響診斷效能的因素。摘要未區分主要與次要結果。\"\n  },\n  \"effect_data\": [],\n  \"key_numbers\": [\n    \"納入28篇；23篇或子世代可取得2 × 2資料\",\n    \"敏感度74.6%–100%，非合併估計\",\n    \"特異度66.7%–100%，非合併估計\"\n  ],\n  \"cautions\": [\n    \"僅評估診斷效能，不能推論替代分子檢測後的臨床效益。\",\n    \"選擇性取樣、分子驗證與事後閾值可能高估準確度。\",\n    \"異質性大且無統合估計；摘要未報信賴區間及總檢體數。\"\n  ],\n  \"unassessable\": [\n    \"各研究病人數、檢體數與完整2 × 2數據\",\n    \"各研究敏感度與特異度的信賴區間\",\n    \"VE1判讀者與分子檢測人員是否互盲\",\n    \"各研究分子參考方法及其偵測極限\",\n    \"染色平台、判讀閾值與在地驗證的具體流程\",\n    \"各項QUADAS-3評估結果與偏誤風險分布\",\n    \"未完成檢測、無法判讀及缺失資料的處理\",\n    \"回顧計畫是否預先註冊及是否偏離計畫\",\n    \"研究資助、利益衝突、成本與實際報告時效\"\n  ],\n  \"context_verdict\": \"無相關前作\",\n  \"context\": \"無相關前作\"\n}"
+       "text": "{\n  \"title_zh\": \"胃腸道癌症中的腸道病毒體：機制、生物標記與轉譯應用契機\",\n  \"abstract_zh\": \"胃腸道內存在密集的多界生態系，其中細菌、真菌、古菌、病毒、黏膜與免疫系統彼此互動。儘管癌症微生物群研究主要聚焦於細菌，以噬菌體為主的腸道病毒體仍可能透過重塑細菌群落、轉移功能性基因、調節發炎及改變治療反應，影響胃腸道癌症的形成。最強的證據來自大腸直腸癌，多個世代研究顯示噬菌體多樣性改變、溫和型噬菌體富集、噬菌體與細菌間的網絡遭破壞，以及可重現的糞便診斷訊號。胰臟癌、食道腺癌、肝細胞癌及癌前病變的新興研究顯示，病毒體失衡並不限於大腸直腸癌，但各領域的證據仍不均衡。包括 Epstein-Barr 病毒與肝炎病毒在內的典型致癌病毒，提供了病毒直接導致消化器官癌症的補充例證。Anelloviruses（指環病毒）廣泛存在於健康個體中，目前並非已確立的致癌原因，但其豐度與組成可能反映免疫狀態、發炎、組織損傷及宿主病毒生態的改變。病毒體相關介入在臨床上仍不成熟：糞便微生物移植已進入胃腸道癌症的小型第 I／II 期研究，而噬菌體、糞便濾液及糞便病毒體相關方法仍處於臨床前階段，或應用於非腫瘤領域；直接溶瘤病毒則已進入後期試驗。主要障礙包括病毒暗物質、檢體與檢測方法的異質性、疾病相關混雜因素、有限的外部驗證，以及薄弱的因果證據。需要標準化、以機制為基礎的多界研究，才能確立其臨床效用。\",\n  \"evidence_level\": \"綜述\",\n  \"score\": 4,\n  \"score_reason\": \"可快速掌握大腸直腸癌病毒體研究與轉譯限制，但摘要未提供量化臨床效益或系統性證據評讀。適合想建立研究方向者讀全文，對台灣大腸直腸外科日常決策的直接幫助有限。\",\n  \"relevance\": \"中度相關\",\n  \"relevance_why\": \"大腸直腸癌是主要證據來源，但內容偏機制與探索性生物標記，尚未支持常規診療調整。\",\n  \"novelty\": \"仍屬早期\",\n  \"one_liner\": \"在胃腸癌文獻（人數未報）中，綜整病毒體與癌症關聯，無直接對照或可量化臨床效益。\",\n  \"action\": \"目前不需改變做法；對大腸直腸癌病人，勿依本篇常規加做病毒體檢測或採用病毒體介入。\",\n  \"pico\": {\n    \"P\": \"胃腸道癌症及癌前病變相關文獻，以大腸直腸癌證據最多；研究篇數與總人數未報。\",\n    \"I\": \"腸道病毒體組成、噬菌體與細菌交互作用、糞便診斷訊號，以及病毒體相關介入。\",\n    \"C\": \"無對照組；本篇為綜述，摘要未提供各原始研究的對照設定。\",\n    \"O\": \"癌症形成機制、糞便診斷生物標記與治療轉譯進展；未明列主要及次要臨床結果。\"\n  },\n  \"effect_data\": [],\n  \"key_numbers\": [\n    \"納入研究篇數與總人數：摘要未報\",\n    \"胃腸癌糞便微生物移植：小型第 I／II 期研究\",\n    \"診斷效能及臨床效益絕對值：均未提供\"\n  ],\n  \"cautions\": [\n    \"病毒體變化多為關聯，疾病相關混雜使因果方向不明。\",\n    \"糞便診斷訊號不等於臨床效用，外部驗證仍有限。\",\n    \"未報樣本數、效應量或信賴區間，無法量化效益與精確度。\"\n  ],\n  \"unassessable\": [\n    \"文獻檢索策略、納入排除標準、研究選取完整性及偏誤風險評讀\",\n    \"各世代的樣本數、病期、治療背景與混雜因子調整\",\n    \"診斷研究的敏感度、特異度、驗證族群及相較現行工具的增益\",\n    \"原始介入試驗的分派隱蔽、盲法、ITT 分析、失訪率與試驗註冊\",\n    \"介入療效、安全性、追蹤期間及成本效益\",\n    \"作者利益衝突與資金來源\"\n  ],\n  \"context_verdict\": \"無相關前作\",\n  \"context\": \"無相關前作\"\n}"
       }
      ],
      "phase": "final_answer",
@@ -2459,31 +1071,31 @@
    "top_p": 0.98,
    "truncation": "disabled",
    "usage": {
-    "input_tokens": 2894,
+    "input_tokens": 3081,
     "input_tokens_details": {
-     "cache_write_tokens": 2891,
+     "cache_write_tokens": 3078,
      "cached_tokens": 0
     },
-    "output_tokens": 1687,
+    "output_tokens": 1748,
     "output_tokens_details": {
-     "reasoning_tokens": 205
+     "reasoning_tokens": 426
     },
-    "total_tokens": 4581
+    "total_tokens": 4829
    },
    "user": null,
    "metadata": {}
   },
-  "42937757": {
-   "id": "resp_044f1097bcecb593016ae14a27d8a487d1ae5d5e92c7a41c26",
+  "42946524": {
+   "id": "resp_00a05123e192192a016ae2a3f2064487d1948fe88f6a7f9c23",
    "object": "response",
-   "created_at": 1793149479,
+   "created_at": 1793238002,
    "status": "completed",
    "access_programs": null,
    "background": false,
    "billing": {
     "payer": "developer"
    },
-   "completed_at": 1793149504,
+   "completed_at": 1793238021,
    "error": null,
    "frequency_penalty": 0.0,
    "incomplete_details": null,
@@ -2494,14 +1106,14 @@
    "moderation": null,
    "output": [
     {
-     "id": "rs_044f1097bcecb593016ae14a294dc087d198354cc7cac80b7c",
+     "id": "rs_00a05123e192192a016ae2a3f36bac87d1bb15f931d838ecb8",
      "type": "reasoning",
      "content": [],
-     "encrypted_content": "gAAAAABq4UpACbnYrdkZw03GjPAtL2_Q8UKIlv_lmgXjK1oA5vSHdF36z_OKi1p3f5b6_IamPqrNkI4A63Lqw3Kh8mRHoXhSSUyzSAVTmtpsoYXt-4kzltEVfo5R3xJJGe7-zCh7mjykJKuwkfTBROh8uMdSkumfvQ_a0LCynnkZHrFyrSBWhaMq2oq8eOWkkxYVR07aRoV2JHbegamUhs9hkS4GAbOLKAx6-yP3t1MneCkFqPlxgnMzsqH2e6VAfYpljNYDzPOEU6ntsUJPzepBKXrpVZ-DedFysnbUex3XdbSIiTKA1aMpcbtGrLUCkJpTDvnl1dE4rsAUEDU7yXQaXGvDfig7RLdO5eUydinXE5C0lygm8RbwXPS1kHlv6N3F0VwG96gJD2SwefNfwGxp3VF2dW1X6MnQyfhVinat80NmLrHI6sFElK5oXLw0Zx4ZKqszvXujQ9tZtiGyxJDg5eo9YCb0WG49t70SNcRxRAg-V6oVzrBZrPYWKwqcaiFDVCGnWOe8FYKDlLqN965o9sdEK4tGvGrEA2jn6kqirEKMKpR2cEDPoJj8gKBgRBZnu5eMknIV1uvg7TI4RmXdgqXmBuutpBSElIrXKFS8z4Q5ZuEa4fOGTbtNkF-jUuAxu1SKGsbffkK2ZUX4k0_PWFtIqLF_-vG2grJdBeaM7KFr473DCgfKbJNkyYq-qD0XsS4hC9HD1lvSpVWlvqPguFC4YvYVbxS13ko0XGj4e7OpfEGrFWSeFS83vglmi219pyc4VxC3Y8tGKm_l3VMwOzGMR2WqwmtzaIQn1NtBE9y6TCgrS8ZwbC3vd0xj2xmxJPMo2_D1-mAJ4DdCEblsHxAHN6ZTV1lD8mkgvS9uJy6aWDyne3GQ1sx0K596YxfTDtzqkl0Gmis8Etb8srm3jHzUkrXYS3OvHTMrWNCHR39eu3MY1mXClVbvLbCeQAUZXB2JNeIhULRa7g9XilOLuQtDaIr1M0wOY5QoIo4-knceJCyVURJKw9yWFHZC_oDYfiQXVhUVBKlmid72lAL_IiewsG4SLViXCVMBBgl7jUZIZ0Kog0sfTveF8ywYFnUujBMrrIBeQF-fZhZ7v1MqP73u3Zve9UZdSTQrCpyoNDrXATVhOx7F4LIGer7UDTdto3YDUVx0yjeYcDCm2txlCEEQ5BLvCY93Ptyaf78AQXtPPdQp50vIn5HdJq_3GgOsJVWFKsa2cGFFsRJ_JfD2jnhuukDoWG3gji95I4SeRsJISEugyjf6LPk3s5GmKz9C2a27l7QK6C1x3LkIiSZYNuTNgF1wCZ1ITtJ-cLCF9Aph5Jo7ZEBd5x-kFy3-h_6p5k0t5VlNS5xyJs8qXvuZ_P_FMOHU431VbbmmB-DPHlGhvqlVa7M0gf76kNX3jrUVZUVOcGg5th8-N61ARwNRvwlCsmDhpb63ufohNKxWWdFuoA6vx5XXzCUNEhGMkY2lsqCpoA62HPogvoW4Qv8Ik4_nLTbBeLpR0dRffwHpanuDp34ORqje6G-UXVtCPwlw3cxWXzGcJRhSSE1cTGvCXqNqaeySKt9b5J04vhfXw0sEDZektRo0PzfrR25jS9pGiB1FdbxR2CqLG481bWY_IQ2O-K-Ia6ME0Wcd9mNgeq94ybzPU6q4ekMGigWwJhczCxVN-LGFG2cTEQSqAzS76q2s6S-4OqdeF0cVWcsALP73ju1blhempfzMr3rivlYTc3jSIXQ2V8_8Z7k8n357haUq1gOeGpi1Z5EUeEDC8F42ytJ2EdwawiIqHO3JwuRq282FdHjne10st4kEPP3jhj7WlasdNEoQ5F2nVoW6mjHOthIQs0V4hNnGeLySfDcImBj8UQCZZs4mtHbtFp56bOoDQ6oHJ0jwiZmcKjAgDQvyLCL7JbQGX5DhsDt0OfXOP88wH7M9-vNJa9DFg-EmBTZHmyWyvuuDK-0Tp7Z6OGku5yttVUvqDjOgqWEvOkVlf8Q0t8swBw8Hgh3qRIOOKT-8DRWSiuOiRADHKwWMXB2FtAO3DMcVdWtBry3DYxtl7c6wbhJ5yyxbh8BrbUQy8DQnxWs1nEvM9qyHp17X73ZPYZ-EtPlPoEXrlxB_ESc_Pg0mB1q8jx3vExrn8wWXyTFjNJNm4mtiO7lmqMDPLhuM60XqRxQUMFPTk7ow6B5cXSJVy--AOZ1f7lvPAfrkJux2spVlGChUf0yCaKz1zDDg4XWfJv9nB7FCY_sTEIAfE-pFtTzDbGHt6vTV_PPOa2-By6T1NBfBvhCYcDbaahxDyglfpL0bgJNijjei0EwVb43xtVYi7QiZpVQIdspH3eFa-idKVpcbGS4wUkZGY68pbsgBI8dvJ7l88z1MPo_8doS9ypRu2HIjX3r0yMJDGDrLiQtc1k_MkyAh_KiY1ervDezxd4z9i5KPhjMRUpe35Ko-k9hbE3j_mFwe9L0hxuTmsF212Tgov5M4q7EiODijn2_RJddu9fI3z8qRmuJypGtVsHy5Ykrgg6vc3UhGKP_EGSOoQPLmRH_SlP2tymze49Kg24xaQi8hM0qH_Q25c57T3bekcjTluBxKGSU3Lzk8UnLxwUyDsaQrlMdjgeFXBs2g38h3HDSO_NQhRDPte0vpzwmgFTZb9SE-B67cajhcDmuRLdNBl3MMu-cM4wXvUv8PWwT35-z9zt7p-aJyAukqe0bVBzFGdiFtgCnOjSlvWVTKviEtCqcneUuniB9CfkSqwDLBCJjLiYY6O4tLaZrCUnARJnTa7LgkmdPmFm18kOpb4sn7BjtsRq01BeXWpthtfQMtZqWQ7g2FQ9rbMOkoxokO2SwW-MBp4RG3vV8-xlMzaQ9id5DeafVOVfZTOsiFf3hqGvhXjEr1ZyQgMaoN1D_sDhkfIK6aT5p9sF1r45heo9HWo7PXs-eMQh1S3b3XsOFfue6D6L2DQ1xlsr_L7Vz0n5-TFcvw8uKfiRUClwfAGujwmiKlrenp9H0C2CDvj-kA__V3JRUlxkyDzyQU1h_0y5IGm6vxvSfBgD2YwrYUQG72T_UWqn72UxAFFi3aC9TMDUJ8q54TLkax6xV0xjTSvFRCtgDkCJTUN9dteKBpeub96lHSbJfAne2oInLVTNLscuZQQ4EfX8Y8H4jCBV6Vz3Of4tE7I3veiM4n_Imla_FY3GSZiuEYTbXpTuZOhRaG599xyo_jP_PNS5mQADvq-XWVrDsv61urXw81WnYAEU1fH3ZDpRGkhwV4UfflFRviTbFO3oVJIDHIUx_CDSJeZHVMKdXgmvHIzxHtmAkMf1HPOhB0OW5KEaLhJYl0Zc5Ajs-gcPUpq12vxNhVfQxNDkphdg0K-vZCHtkeDDQ89j3BhpVbreRNFjsvs2VwjoCVvqtMH__iAQNg77pRjDFKP--WIKGYPKQXgrlgXRAopBo_HtB3vEE_ey6Wt0v7UNQvUGS04-ELa6iWsrDMipFWeR2YSnyUMPaEYmm8FNkhOLJ0jAp94hf5qdxdqRioZRklW5kCNn5Zf3y42MC5YtSBrwYJlojzr2204PTaJ5Sk3j7H8acVlVcVoAPdLRBqwPMTIWdQb9lU-0FRDbl0cozxySAUQy0JRo068nuQGDNUN5QrY5hoGvqmh0WmDSSPZgpqyWB_M6FYt2c2pBIpbR3bStUuzdKmOaurDYp0TnvPhxsS1LZqkHM66abVIrPW33IzCR0HwdrlFNYphR4OA-N5YNkz2HslgbMERKhUOMDf3QczYGqWh9EflYOsUhw2M2cA-hAhuCSn18awNTIcL-uDdqzw9UfATs8BsxIxJuXXzXvALV39Rx64XPbYRm1-YWuxqLAJc95hs826SjOfFH5nm6VJoT7qZYGYLKVlQFXpvSbsjC_s6KM_u0cYkpFkZ7DdhGtHd00cgQiybwzLUZ6GWEoHt3rPNbowOkqArWWUhsOcp0Z3uFjEFm4yP21a0QsIlOkzZa_Nj18wvfBYpLwGctq7EK4xuNvea6i1-vtXxCnd8t409sQZckTH8SOOZXRzcbmDKrQLF1jEk9zmlLg0cO-cVKiecpmEppWlbsQ3hCd4mJpaKPPCx_JLY5c46TaCN2k6-JYP3VAde1t4ycWYgBh7lk13llXmC7BeY2q5CXxtGTEWjj7o1QiXEw_9829M2EA5CIBTD1HyPLe_dwIqysHMovApXR3PWLhqTJpsrAbfQ0zHyqgdDGjGml9KG1jBp7JG3DlDRt6lkxtw4c6RJimKbcnyQthw7KPepjqyYPbBbkv8GQo24QX6z-Qi0xqS3a3HoJt8mGgvfP-nLy_lDYggmKCpRQvwuIvRTpeDVK3MUFfSO-XBfMNMs1Z6obVbQU2Z3tXP3Vn4SISxK4W9MncmBgiCOXcCGyuLigsVRGxPck5jRGJU4fVsDtjR5qw6NgoEy1QqBkt_wXz2Soe6H34f7UMNSo69bfMJir0HOPKcppStQ8b2idHj-UCcGDb9KFr14MrHJwQoYgZQbHGePDV3KqwMXI-o5b8Mk8PpCwG0Hax_ZaHl_yrfdjNOdhuxF2kHHtYyRvSghdML6uy_DJO1sQGIUcmY11xEzMlrH8Zd_ojL008Xot5WEJVCmnhBptrY1hAgr9xb4-8DU4QBh4EkhawyCyJ_ghPnvtn9jmXAu9idsWs6NorDBgsdDtwvF0G81H6-uICVPDHTyflzaTREzLg2_3NIoXkhGeHonOpID5Kl2BNAgMSBw3zkARkqXQvRDMXAWm0CtsJCqlU875OZNDeVyvIl8eF-8FcQKUgjsE46CR5spHOAghZqwK9BAiJHYJFImNuJPdeyARKdkQCQXBebF8KnxcUKHoqp4gn0B5DXqKYj-XXE6pf7vPt82IkF-cX4z-VDQ1Lj5UGJn7uoB7WDcJ9inavf9TOKi22QdspP0JKvEtqMeWsshzRhZensbUbAaHYK3pI4qJleueeVVrUVveujpxCHjVKRt4R-HLUxuoksAxAotBYiisnoLSuXeWkMz0HlAqpQodc_jGLx_fOU8s0wsIq-h13ZYHH1UGG80sbWWoyDGpdppKpux2wOOlhOdwHUAV_pJrpiUd75tM92id9rph0wA1VPs3wqqNCRUj8dxvQkZYAkL3c4EUtI2FdsUbF7RxHBTj60jvp-pi2Brgz9K1N2S0WCcZi9MMGll0SpYuHasaMYKr6GGiaDJUefSfW0BU5URuB6UTFvNOjFwBC-RhcQEaAZQgr-d6F18HKVlwGQQ-48v-8emHCz6ZrA5bXEsO8vB8zI5ayjNPRz869KJA3yeNo_77moS8kxXsveAO5gfrMDcxcYLY2NwUwr2mKXl1NV3nHmu1d7Mfbm9ydwNnm2GshhugXm46fMu6wAjCqoKy2CpVq9CjYxdxFyenRSwaF2g6lRjW36IVcZY_as6ErKmZcSAKGR-dphOUkeVDhrSJqBCkvOBJCn0-AXa6DcyJYl4xUGRCgkz_7N8Y5l4f3Y_A_GeiyQUCQUH3N_CYfNmgGQNI3ttSnYgBFUpJgZlo_RcGLXFaAYq8KDHM4dWO6UpPnvH05N8GeGAzgWLE9qRweUxqCIAp34gFCCHhEXrJkJtpWwWR3tHvdx15BynSFDI6HwMxecroXr8tiGyPwqUstdgn9c5y8fgaURqh1iJ7OoBLrbl2VHrV8AkrV7zMmqZIqle9JNeoQKaQjvPnqJNu-RnTBbHydpVXnv1lk_RrZB-eHDHSeuQN_u9PPyGCUtAwSuyKj8uEomaJT4NP-Yx0aX3Z_0J6ypacL12MmatN0v985nl0zprjXOwzfm4Oi00EjNXJkrsN7mEmt5rr0IfTNQFPh5o4k7HtoSbWrbSWCS72NMFTw00T5-ypMNvsg5yiU12TsZuk4LGwA3yaBr7rtkyuAzaZJArqHQbxueWwYzqnTKJsCcd3_FVmknYnVbWlqoVQEH_PIMYP7oku_uQiDbT7wDm_s6Ok__jnvfk_lc5S5EkE2rnSjEzd3CBYPhYXy75Rf4XO5g6Y8unZfPJ3isvFlxxqujfciyXWKx7tMd_b5RMg_lwX7shwEbbVQQ8fQzwieWjjNgpt8mVOjPg7ar0xTk1NsScvyyPzA0arVLCD3YtC95Bbze6zHxu9WZk9uaaxX8VRU9aBiJTyjJkE1aG9GqW7IzGrfsqvd0ugh2BM1Pfe8iUv8XzbbXhaZkNPud89S35320u5yXF9f2RNzf9KnUmZqwl7tpUL9kA38Ye-cuuAng3QtnBA07BtBEFs1OzEvCY1FjMqi1KiIPDIfBHp40NYS73KyKnWvIlJIqojbaHXvMMRm06bewgmZtsQo9XbFWWnWlkRScQBC5AVwu-6AosqjlmZztWe2R5jue75UV2aW09BeknqMZQOqpAEgdTClFO-_e38ZDgOUyHgjqXa6u-yuAT2Kko3FkDumZdBjk4NeCnq_MBRfgAwSG_gj1gYLRUM8zZplVeOddcONtReC4dAw8zmo30q4WtIyZy2SrFwBXWdFMk-6APrKaIwucRMODNK65WSk5iUp5F2WfM5TfHvUuTSvpEJbdGqMrbMOiW4huIErBIOiuqeXyKuGBECIOViXVQwESdy1QA_6nEizVcAyQe4HljWTl9lZMHSeOSmYfslPfIwZH13nS0gEOlfS4zCJsFyalmWzmAnYsuWwSSoBRtuy47o-bPilIeprq9MvJL7pGplS_TVfILCP60zzNvRK9JiUWpfsLFtElU12YuqcXGJXSLXUoUfnQm_oCyOHmFzdCrn6zdZXAlI7o7tgTfELAzo10fnwOcoIVIdAEdJjV0GjbMC4n5BcR1zNiD83nyIe3VyTY_D1JjJQkmAKS9vcnOTlL44gc0MGPcht2wb2ihOzYJlKYm-7aSRbBeCJKj19NMo3HA23HG04Y5k3QlCbaDRaovU8c8oFvL9QsrHb5HAT7J0nJwFZyq34UgH0m-clNMp-0H8DMa9a7z_Cg4QDk8oe-XwUr509GhUQ2MCExk1zJh3P41toH-vT-v9GuDKLvQoU40VpX7_R7WFiqJt1oJDiZoSwZM4_Kecu-tf1uDzpLFu7t5ubg6UkTqe5Csf5GV2u2BnPUfZuuz6HenC7rKmW-rjxCsQTkalu6b7facKxm8Sw_TZlJwxpZpR0AeCkQMiM1hzfeki9orqA5ogvVXv9n92c2qZf_zaf4H0_j0JG273DxbBs07dp7bjA4_XVvOU7q412UN7sle0HW7djw4yYvCuT1d_e-RWvf7odcsYNrkT47OUMvC8jIC7v46HUbIm_dfcwSO6aBJAtn7gI8lYOl0sP_0onLpFLocHmY8L-Hol_D0b9Z1EZ6kjECf3rAFCp5UWGRSWlJz0fKAYcp8zvo18HpTDoz1f_934LCVJnA2ZvEGnVz7_HxBD7MiE_Q0mHijbQ9vafZ5hhuu28wm1yyQw9KpMo7HUvFu3lB5d6BkwV0GothR0yS3CoY869t4d5NDvbOcSgfBR15ydDS08QCswL3NkL1TZB5rBSgHB5JiWPj_cKaCUtgII5WLqvwpuD1sh-A9CfEKZ5MjP2n1DTrgrbORjikVliyvaGDsYkg-rrK2Urrois2cgYpZ8PTkjNwszgmJCJxaxlTuLzOicOlRVsA08ZvfkC-zqm-YX28dDTI_GA69IrLFltvHL8DzBixdmf5t2lPWvRz20Wxo6nOdhzQSPTsM76pAFdXulM1tcODSCety7ygPDtrVrn74mq2NaA9H9FnoA6qMKl_2e2c8Yh-Ir5omGAd5d--7orMWushc-xziauMpWLEkB7XVTCWfRB-lj18fWKFbmkZq2OnIjLXQ7F5Q01qxcwprbhaxQhfF_2nw_cbNDtXp-zZ06aSZIVCgSj37MtI-7QAW_FPWw-B9N3d_iVwhOxrvUc2Hzn2I_XSlyZNJxau2wziaK578Fawz4FDGOeZdz74TLkbJ335Ekg9qkg=",
+     "encrypted_content": "gAAAAABq4qQFE9-eojHGfeNu3rFX2aGZ5jWgdDtDvjpdMxoi76qLWSfQXV-HhUK3RqE4XWoQRVkcPe0QwSCh0qHQyq3jSFuTsAv8lf9QwxuXVJGNtymujwcLRA-Zjs4GX7fv6bEfeE7JyvLxosaa0YexS_Y-2oR6e-SPHXRTum8NE_H7UbLyhKiaCXLCdNRfZPZkvwCT_saNULzDQgsFhzMvdhlolsBamTF4lVGEri315FuTe81QaDxmDHZu0M9KarP8ImrdITT8qeQ2vu_p4g3PqQCuuF38bXZC5QGc2CKnLNokI7yAV4s56ebxYmoow3vKUIDflUDQhcYwbFJ2lhocRpRLTMbXEvo-jfJPa0j_ONOnuTl4nd5kCTD01hlAYwc_zH1gxYyt7dOeujKJVbemMT9P1orU2O4FS4u8bKPC9eHZOLHao-W3Nz_uk0pUP039D2hRB20p-OLtNM0eI0ZXj7Mi-KdJkz3IW7IX5fk18X39JEWU2gnTZPqKmT12Eu8LvDHyc49E0EJKCvFJ2Pepo5iYO0IU76ayWuuQKP-zCCVS2Yx1nw2LnvHx4zesTdgEqK3-0uLz9whtwQLTpNnII7KQXT0A6w2uZ9PXys5GA8K5Jq-97ea2SEQhglxpT2CJj2tGWXwRKZ6MOdWyLkdGuPpfVj7lyuBFV1i-UIvXLtF_ESdG9xpRT7RKuUzz6Q7KAQJx22SXkl6SH_Z0nLt6yexP1Lv5wwuU-RPF-Us8f69wnU-DZuN8gjTKHAgiTlClyKtji1z5vH7oaUx0Qb4d64lAa1TAaXdKDQHNIgfuWBz_8g5u3ihFwLlSk-Shn0Kw1kmw_IbMh6a596dmZ3sepPgWtYd7mMVC_OnTaQRaxqxOpaM_FdIdNhe1ynyAYYPh0DlmaCi0A1jgLzAsj4PfNbNxugEid5y4Zo4cb0xneUn76jpQs0xWv8_aO0_WLw_5DXwoglba-TXvj9syO3a8aDyh3jDJg9VY218is2iy7USAoDiItsf_tFKN-YBQ2bze0TQIUHvX897fBhI8SXz8L7qvwb6pbOYmhWNsYq4Q0QCmBXAOcM_EinnMwgd7vZsaYOEnMbEW6k5_tjlZf-s-bJxqpEzPgSJjS5jr_wI_BbYpLabUQvCdOkQognTkxoDjwKljBArups_BjoI8MFxvRgwOzE139uGK6RoLgXYyPSrNljdHtE5e0barbevJB4gVL6-uUDDB63urSxKxIfFZpV34lH1_euirwnUp2ujxITKpMVvW6A5UBgi8cGTQONVocpA2jU_wMp1gNYv2Jlw7CW39qbaLSs9fopm8IlIlw9LgOPSg6zafp6NQBbe_qi7nRX2GlC2xPxr41khwhfeGDLnnLPeUIAt9UmUsnsRx4vCfo7hGILOVv91KGimC0zHL3MLLv6NUNJwuUOps2MzUTQVLj1cW_5YcqPmIOS9Zz7MZH1yZu_aI53TCB-ivkN4oNtr3lCfZQLsKQM0JLVcEwfCcPfP1z9wAS4JUHAzZwWpqW_0BUfdVz5LodqSAD_RTV9ZB_637lkAgOmn6N7TYG7g9pqQCjAfQpTCxyZpyy6D1KOf-9FIEwMtpSQ7mDU-1rxxLS3fdN0wrrc19-mfYM-h09vzVI13KNL2-PlwVB56UQo-7CY2ruTJk5uBwDgSYSQE99LnJw1VuwjwcN4GV2tXI7LnvM2fo6vZK3jinMjsME7EON8-ZZZfvCtW1ikZQlE2PSpxtZ1YYGav4JhSlrNCFwlyHFPnxrAI70tWbPiEtg4Rs6VpKAcUF4AinuKlJjmpOUmNCMaOYoYYKhkhUmf6-CimTYg1bCUddagRLEYMWFEi4d_gGHPl-HGFlH-uSkbqt9Y9ZHEy-0hFc4Oi9m3jNn3s0k8d9K92HuPwEbv8oM0iEEsbEINduX3RVsx1gk27fhxqwkvJxLzdGOnd92q-V9fV_BD1LPn_kpX6l69pbbV2cY13H3_H_JBHr-p75IqoVq-RngUM5snSxR8w6RZZbiHwejRDj-E-_ULFifeZKohfUm-5BPbrnLS_TgvfsY6uQX_HT3V5ML4YML0hrMGr2o9Y6SCfcpVT2RjgaXO9oRXq0oFFWvdZpxmh1X4skXmhJKV98B6ST_xCaE9TSNY38hVXAqska0_7-KQnClqwqtfuyD6ITQYgyQji2vKSKfR5issJkkyxNHfktg5SoqZJBDPMTKOPOcAMJsmvSygUaWISZOS_M8nTDMP4_C1BCEWgjlBLTvrdL9CEXUZ8UFSgrVxYO31Bpm26UtWQXZEUX_nqjaVikXu_WHRhYK1AuquKNlMl84gQ6z5aFVCq2dPKGW9cPNQd9vNYcZnRMJpJci58wtO7-ePaXGrHMK0FxUQRSF8647NLk1gytMj3dQ_7bYekeT3oX4rKDsnQ7EZjqihIzrLUtG6hSwcD5YfNCsfslZh2jaVNeqbe9uwGClbILXyCjJNswjauoS8xCDj-W72mXkLnfAZFE0hI1VQtTijJYBD1UFmNS7w7jp690HnkHn0bpqqP65vNa4wtBKkRaTRyUvBpLbtFgp6k27dbGxJzGsnJVtEri190nE_gVnaWWAQlxCEAaDxQ-UrL2s9NQcwP-swSAu7y0tt4n3jsSf1vSGg9y1zxa9JouDf5uRsuQYQVY_xqNstoIsBSukJl_uaMh-vfepdKQmdZQ5425iB0JRgsYXOVDORvVIRIbIJkJsrIfCx06lhuuzeBpnhokherbS1B_6p1cLiJkI5QwT4mNS9Uccv89witcLxRcIZI1QRPuZDbR6q_jfAC2oA1vTB4tlEYAGOS7Dur8OLgzY9rcuTbzJBEeAPD7JTdASQlFV1HzMd5ini7QvSABsR0Vn8Ky8g5TfWYKvTdTeHFH3ekA59gDLRR1ZDOUdoVe4py1weA_AlQLGIIdbCaKoXTeNJwIwnEzISPviWW00bQYDoArVCrIc6wyjC5BBPFGnlcFGU-L219ry65PUtua0R5fx1CLMSfMpauG0-Gxh3VnwHCT4Us2AFJ9gruUGSdAwbcn1FTpghVzg4hNFhPfFo_BJoTaJ4CH8YrHB-xeZVmJPXEAIoBqqw48AQMll1MPR5ARI8hMx9_Nxn0pvUDcU07C6xTKU2V3SUAji6ky5m7mAzzfzXSvBg1fRLIidwwGjacQO6NLqTGclKlbcWKHEVJgSk2Vr3QYzNPeDJ9g_waxoLV_5rmXwTIm4FJli8f3CbqRRliJ3CHOnetbXZz_zUpJEAHW2NY3EMdJT_Rtb4S5KeMZoebnUddDV4dvw6ttvWXLkj6AAJaBSg_h8xaoaF6STuh5l58eL4UhDrNi5pLmWukKXLH42Ikxf3TmErepOs6Ct1iWOzxw1ZqYLrdLWMBn8wPn5990Z6OqDYtppNhAnXMTIyLpfBzbqBergybZKqqfg6QLFEZW8oAUfZx7Fdh7G24s_kluNH7SwprsfXlt2pKY4ZBiveWfGVy8TDmekN4x64wyV5Lb62jQKqoBjjIa1DPJQyNnZekBLWcIHrg_ekbW8y_0PX4XLgwcx_uAkOXFASjMAcAuwkQI-_mYz4fL4lmjof2oLhMI3soYB2wcR8h-0m6O-nOP15a_sjnAoMxyh3Nzd6eynYT9nRk8MAJ48GpMfX1Rp6bbDxB-sSG8JXY6wBiFveJ7UsKJ0oWNUhQ6N416Ikwr1ni4LYGC7lD4hJj3cYZz9wCAWVpzr-1wBQaQE8rKvmdmr5QnzKirr465TYyCdxr4nRftVsEv_VFxibQKttKL0cQO5bZjncaRDuCJhRoVjhZHy5l3eXBCQQinERiOvEKJ0GrrpNVWXcboRhXYj3Dv6wRO5T-8lFQyazscCGLuF4udc7YunIjvIfIEatIfZw==",
      "summary": []
     },
     {
-     "id": "msg_044f1097bcecb593016ae14a33d31487d18bb7885942386a37",
+     "id": "msg_00a05123e192192a016ae2a3f88cec87d18e73998482c27420",
      "type": "message",
      "status": "completed",
      "content": [
@@ -2509,7 +1121,7 @@
        "type": "output_text",
        "annotations": [],
        "logprobs": [],
-       "text": "{\n  \"title_zh\": \"大腸直腸癌肝轉移切除後常見輔助治療的療效比較：系統性回顧與網絡統合分析\",\n  \"abstract_zh\": \"背景：雖然全身性化學治療、區域性非全身性化學治療及消融等輔助策略已被應用，但就整體存活與無病存活而言，可切除大腸直腸癌肝轉移的最佳輔助治療策略仍不確定。本網絡統合分析旨在確定大腸直腸癌肝轉移病人的最佳輔助治療策略。\\n方法：我們搜尋了PubMed、Embase、Cochrane對照試驗中央登錄資料庫及中國知網資料庫中，截至2026年7月可能符合資格的研究。使用R軟體估計合併的無病存活（DFS）與整體存活（OS）。\\n結果：共納入18項研究，包含18篇報告。就DFS而言，除輔助肝動脈灌注化學治療（CT，HAIC）合併靜脈CT外，輔助CT與圍手術期CT相較於手術及輔助HAIC，均顯著改善DFS。所有治療策略之間的OS均無統計上顯著差異。輔助HAIC合併靜脈CT具有最高機率成為改善DFS的最佳治療（85.01%），其次為圍手術期CT（11.75%）及輔助CT（3.17%）；然而，輔助HAIC合併靜脈CT亦具有最高機率成為改善OS的最佳輔助治療（52.46%），其次為圍手術期CT（40.25%）及輔助HAIC（5.25%）。\\n結論：輔助CT可能是改善DFS的最佳策略，但圍手術期CT可能是改善OS的最佳策略。然而，這些結果仍須進一步驗證。\",\n  \"evidence_level\": \"統合分析\",\n  \"score\": 4,\n  \"score_reason\": \"主題直接切中CRLM切除後治療決策，但摘要未提供合併效應值、信賴區間或病人總數，且最佳治療排名與結論不一致。值得為釐清分析與報告品質讀全文，不宜直接據此選擇療法。\",\n  \"relevance\": \"高度相關\",\n  \"relevance_why\": \"直接比較可切除CRLM的輔助與圍手術期治療，是大腸直腸外科跨專科會議常見決策。\",\n  \"novelty\": \"仍屬早期\",\n  \"one_liner\": \"在18項CRLM切除研究中，比較各輔助及圍手術期策略，未見OS顯著差異（效應值未報）。\",\n  \"action\": \"目前不需改變做法；對可切除CRLM病人，勿僅憑治療排名新增HAIC或更改化療時序。\",\n  \"pico\": {\n    \"P\": \"可切除大腸直腸癌肝轉移病人；納入18項研究、18篇報告，病人總數未提供。\",\n    \"I\": \"輔助全身性CT、圍手術期CT、輔助HAIC及輔助HAIC合併靜脈CT等策略。\",\n    \"C\": \"單純手術及各治療策略間的網絡比較；各比較的直接證據配置未提供。\",\n    \"O\": \"DFS與OS；摘要未區分主要及次要結果，另報告各策略成為最佳治療的機率。\"\n  },\n  \"effect_data\": [],\n  \"key_numbers\": [\n    \"納入18項研究、18篇報告；病人總數未報\",\n    \"HAIC合併靜脈CT之DFS最佳機率85.01%，非存活率\",\n    \"各策略OS均無顯著差異；絕對存活率及效應值未報\"\n  ],\n  \"cautions\": [\n    \"DFS與OS排名均以HAIC合併靜脈CT最高，卻與結論不一致\",\n    \"最佳排名機率不是存活率；OS未顯著不代表各策略等效\",\n    \"未報病人數、合併效應值與信賴區間，無法判讀效益大小及精確度\"\n  ],\n  \"unassessable\": [\n    \"納入研究設計、各研究與各治療組病人數\",\n    \"化療方案、HAIC技術、治療時序及追蹤期間\",\n    \"原始研究的隨機分派、分派隱匿、盲法、ITT與失訪率\",\n    \"偏誤風險評估及證據確定性\",\n    \"網絡連結、直接與間接證據比例、可遞移性及不一致性\",\n    \"研究間異質性、敏感度分析與發表偏誤\",\n    \"DFS顯著比較的確切範圍；原文排除句語意不清\",\n    \"治療排名與結論不一致的原因\",\n    \"試驗及系統性回顧註冊、研究計畫書與利益衝突\",\n    \"治療毒性、術後併發症、生活品質與成本\"\n  ],\n  \"context_verdict\": \"延伸前作\",\n  \"context\": \"先前慢性B型肝炎與CRLM研究比較圍手術期及輔助化療，整體DFS無差異（HR 0.99）；本篇將比較範圍擴大至單純手術、HAIC及合併治療。摘要未交代圍手術期與輔助化療的直接比較效應，不能視為推翻前作，也不足以確認何種策略最佳。\"\n}"
+       "text": "{\n  \"title_zh\": \"兒童原發性硬化性膽管炎：獨特面向與處置策略\",\n  \"abstract_zh\": \"本綜述全面概述兒童自體免疫性膽管疾病，特別著重於原發性硬化性膽管炎（PSC）。本文彙整這些兒童慢性免疫介導性肝臟疾病的流行病學、臨床表現、診斷評估及自然病史。重點包括PSC與自體免疫性肝炎經常重疊、與發炎性腸道疾病的高度關聯，以及目前實驗室、影像與組織學評估的方法。本文強調兒童PSC在疾病監測及預後預測上的挑戰。此外，本綜述討論目前的處置策略、疾病致病機轉研究的進展，以及為罹病兒童開發有效疾病修飾治療的持續努力。\",\n  \"evidence_level\": \"綜述\",\n  \"score\": 2,\n  \"score_reason\": \"屬敘述性綜述，摘要未提供研究方法或量化療效，無法支持改變治療。對台灣大腸直腸外科的直接實用性低，主要供照護兒童IBD合併PSC時補充背景。\",\n  \"relevance\": \"低度相關\",\n  \"relevance_why\": \"聚焦兒童肝膽疾病的診斷與內科處置，雖涉及IBD，但摘要未討論大腸直腸手術決策或結果。\",\n  \"novelty\": \"再確認已知\",\n  \"one_liner\": \"本篇為兒童PSC綜述，未報樣本數或組間比較，整理診斷、IBD關聯與處置現況。\",\n  \"action\": \"目前不需改變做法；照護兒童IBD合併PSC者，可讀全文補充跨科評估背景。\",\n  \"pico\": {\n    \"P\": \"兒童自體免疫性膽管疾病，特別是PSC；摘要未提供納入人數。\",\n    \"I\": \"非介入研究；綜述診斷評估、疾病監測、處置及新興治療。\",\n    \"C\": \"無對照組\",\n    \"O\": \"未設定可辨識的主要或次要結局；涵蓋自然病史、預後及疾病修飾治療進展。\"\n  },\n  \"effect_data\": [],\n  \"key_numbers\": [\n    \"摘要未提供患者人數或納入研究篇數\",\n    \"未報PSC與IBD或自體免疫性肝炎重疊比例\",\n    \"未報療效絕對值、信賴區間或陰性比較結果\"\n  ],\n  \"cautions\": [\n    \"屬綜述，不能據此推論任何治療具因果效益\",\n    \"未提供樣本數、絕對療效或信賴區間\",\n    \"未呈現外科結局，不宜直接外推成人手術決策\"\n  ],\n  \"unassessable\": [\n    \"文獻搜尋策略、納入排除標準與涵蓋期間\",\n    \"納入研究的證據品質與偏誤風險\",\n    \"各診斷或監測工具的準確性與預後預測效能\",\n    \"各治療的絕對效益、安全性與長期結局\",\n    \"利益衝突與資金來源\",\n    \"台灣兒童族群適用性及成本效益\"\n  ],\n  \"context_verdict\": \"延伸前作\",\n  \"context\": \"相較先前一般PSC綜述，本篇將焦點延伸至兒童特有的診斷與處置議題，包含與自體免疫性肝炎重疊及IBD關聯。先前兩篇175名兒童PSC的前瞻性描述著重表型與LSM，本篇則提供較廣泛的評估與管理背景；摘要未提供可直接比較的量化結果，不能視為對其監測效能的再次驗證。\"\n}"
       }
      ],
      "phase": "final_answer",
@@ -2806,31 +1418,31 @@
    "top_p": 0.98,
    "truncation": "disabled",
    "usage": {
-    "input_tokens": 3251,
+    "input_tokens": 2906,
     "input_tokens_details": {
-     "cache_write_tokens": 3248,
+     "cache_write_tokens": 2903,
      "cached_tokens": 0
     },
-    "output_tokens": 1942,
+    "output_tokens": 1155,
     "output_tokens_details": {
-     "reasoning_tokens": 516
+     "reasoning_tokens": 182
     },
-    "total_tokens": 5193
+    "total_tokens": 4061
    },
    "user": null,
    "metadata": {}
   },
-  "42933393": {
-   "id": "resp_025cc3f1f9b45dc7016ae14a39735c87d181d0be6c32c9234b",
+  "42942443": {
+   "id": "resp_0cdeab4f448b097f016ae2a3f23ec087d189f66579a5a80c9e",
    "object": "response",
-   "created_at": 1793149497,
+   "created_at": 1793238002,
    "status": "completed",
    "access_programs": null,
    "background": false,
    "billing": {
     "payer": "developer"
    },
-   "completed_at": 1793149517,
+   "completed_at": 1793238025,
    "error": null,
    "frequency_penalty": 0.0,
    "incomplete_details": null,
@@ -2841,14 +1453,14 @@
    "moderation": null,
    "output": [
     {
-     "id": "rs_025cc3f1f9b45dc7016ae14a3a6d5087d18957ad0e8b327268",
+     "id": "rs_0cdeab4f448b097f016ae2a3f37e4087d1b47ba268807b3a34",
      "type": "reasoning",
      "content": [],
-     "encrypted_content": "gAAAAABq4UpN-q14kuPvlcRexcmVFeTv1CfcYy2ti6bE8y4sMU-Vm1rNgRDilQd2-erDFR0h19srmhx96-5HVGlXW2fx6xa6xKp4Bpo58m7TPSayabj5ndz8wAaahovfxxRND_goupMGne8gyUqWNIid9vqk28_BA-2PFY-OuL-BHr99tcok2y3YCHwInVg3ricHlP0eFJsIbros2OCHTj8kp4X7ojQ1pWdNcFhKSEHVzMmnZdnlCNACTUER6LM20BRK1tSUEafUpMLg6JpHfykHpoIk8ceNu0QJU37rLb7_lDT-Uo2_Yz5ai5k6h5rsST_EE2tmZFL-I0AkkOpbGBmB6bXk9-preYkuial2YBmf-rvIF8LCE5qYqUP9HC1hbn07x7iSNAQZZ0l3isLkvHnv78-OyAlomVoO8ccO8Ko_F5gzcleVBpMlucLmbavQZnvTr7pEvpEcLqy-wFEprRvYqQtYXR9TSiPhOU82kJE_mol8ENqyNil2REQ0gP-S-a_Gl8KYvR6vZvLxsbmUx9tjr3K0SIdArzvIwCVT3ZuzevmxEp73n3tx6BQ8bf56RMd-d4lLCkA_-XrB8XSFOC6g0mxnJHW6f6VOKoHupIMfdKuclkuRFyAKSD16Ff4MjRc1AfpmL76X-DqMGVY_Nv1xeDv1ZZowKN_K70aJbLeUxg4pfUII3X-UzbInUfLGsSqxt1g3GYmlnovqz1aida-HDP_Z29c8EAxsV_3WOdBbihMiBVT3xtYIhSR6Z-k--LQIwaIgYaGGw1IYXpcxrw5AMBP8k3r6-LA4MysUY6ag93zx3KxcVBRdBvXl3GTfk32xliC6P0KFPhTI87gjFLoVqMef2yuH6gy3TyTerQNSj8MIRRtUtqxjtXFrRwzPOLB5mvBIXtfSLlwaVGvufD4yrxUPSrbIsFOEVRt2Qe8R0G3inUZ7XM0AXSwDS_9BRR1TULmbnqF7qhX-80ixFDpZC0DHByhoF6U_oM8M06Nlxn1TmgmYWA4J4qFQyCxDq-r3jGZBRkyqRBbbwO8qkQbHJRbM20Q9u97zTrxG7QessqqIZdxAEFNTOYkXVXr-15aOq6Wcsc_lwWTijT6WsMQuHY4FjdfHxwkG6zuGDb3Wluza68rjnjTGW_0TdISKzRP_4ynX4XqurrytzQvxZkrKR_HM68dMVxLblW8YqA6gRchM_phIjturnwI2-dyJjYEhkQeHAO-1HjaU-f2IdGQkmA-Lk7F3jG2N-O0NSMw02pTLW2XIEzALjPq_2dTs8v7ylkLvp1762GjPkAxiJdW5Md9hZI8mNc6AZwAEFvTL-bWXl4cSdDshqZrack5Qx7f_YlGsso-c_VJvWeLYr7yWwXb7gCSaAyG5nh2ks1UwUQwf8xmcN5tRvLPLWo4xSVK5i_shF9zxdjxx8h2XobQWtOVCAuNn-rGag4NzXypkq6vgSQ9FSMfFhgMRzFwho75iZAH8JTfrVnfBIRKwonHaISD2Kzrr6GOYljCwFlM9x7_7wfPoHnVngyib-yQfTHSOo1vijTE5x27qzHPR7SpBbYFRlGKtB4HgPNuN_LvsgAhIb9ykeQrMN46rEebyQ9aQmMgrc6-qTHgB54FzD7y6ofbjlfGbUkb23VAFMgduRx6zrp4aLSLaPb4NtxzKqMq_2XK63E38TDwpB9jKrfpqFfHHh-GSfmSQ-Q0OsMoHNv3u6mywG7l2VW-_hu5b1aJsBvJ8JXh7DGsfAon6tWEBHvbNlauEDANZyIivjoaIA8Jb5c3UC-KcPN6bxU4zqU910O3NCrAQ5UjvCktjsCWr-juixTKtxsjQLMJQB2VeYLXtDCMdsVfwAIpOSPb6yl-KY3V3GZVYNumMMfOUJCSOIlj39XZaJwJT6cMBwm48VlTxkPXO2rj9nvOb_9Ce2Yi9V5SDFZMlPvL7r3Qig2OHhHujnYAGJpa9GIEUDmfQCVO56r9Ioyc3p65QMUAk1Gfddlt3WkhtwRj1xvuBgXRGVlWVSVEe81Qw91PQPhxaNMMgYMUcAjI_sn22o7zb4GNVSi8Ta5B66rrWDxJaB-rh1ogG5JFLxQtqKYUCukqSzTH5dKUv90bhhSEn267dnAnJnIPdfRHA7xULb2tOlh9FmDTVzcKlOcw8jIjCfrxv5T7vxQLW6WCp_sBUmB0sVD6wg9YNES2OSNKI8gFhkf_mkiTFDlIn8fl-ppgwiOZGxn7fMaa8l9sUJ7p5fksOlZ4fvZkSCAzPX5cqtUPofZmCE45fwSHPfUj8Jyx7wB4azpvqWd3Wp8F4rLaL5J_towJ_aTK3Gm8pzsy-YFAmAjsljNKxAFWxHjm8LhcOiX4DhGr_j9KgMDfTNf_qErRcG3VEz6xjE-mSYCYGK0zunlmBXcuIvC8N8fmLLtt5fmYWKe09S5PcCbwJGJ3dhZs2v6c6dYB-q6rHjMo_ZqWeoOchYgWxmhPkD5za5vDarrTOEiQoFTAY-loXurxLCTo2mUtxyq_9VKyGpHIe-ul6TFadnSVyUK427g6psZ6R832ByGGTccqeHuBKsAwEVQL1vF7SaxrVqp1ZbHwlUNClu5Sx9BRFteJ9r3Degxrz8oMkYBUJ10bpr22qpLOBC4QQG64mA7pZ823n4ZNVH_BDmj0c0KatDggfcM_XpibBQeXuDYefSuvY54TrHnlSj09HQrvslojk_cvk5-fAW4TJq4prC5wuIyW5fNPeHv6SA6_dZe7ekaO22JYtzkqAcpzP6DAggxmwYskFNh67Jh1DOGowv0KeR3aZQ_s-WYxpbkGUPCpKAtj3VmU3vjf4nkLRms1MuVzuASYtqpLA7-QODEzcFbE6NYdlPO8e0ab9k5hs07K1bs0yNj7CMURqMsaF4D8zC0E5QyGAQDyoGQeVTAHRuW4G8zWmMKuNVRxDz1xHgMWQ5Uq5bN1GxpKURG1QO7CRbq19oZbVf5GPcgjKuA5A3o90xNBx8XlFUn41WdtZC_mtF4TUuYUk6aNuK9VmIlwSzuawR9ZpX0maDTeX3Pj234JJu5UH6DH9koGVUG8nzQ9ss5xD4d_W_OPrDiJLBjeyuueS_mqH7SIaGKdGQSR_DYVn8EqLUg==",
+     "encrypted_content": "gAAAAABq4qQKYRUeek-_YkpxLaLUB_5PSO5KMVR_mBKIGlc985DEeG7WYlKzm5AuTw3X7PX643byoFpd-paWfHqXYBSq5Nc0tErmdyAMnJUIhFGmkMf8wC26CSY9-V102ousNF8K1STsOWmwqsfKK-QFx11JU040ksrCt6H8TnxxP50C5YyzXn18rAy97SFut6q5fPC99KWgBq4g45a0Mn_H5PCm_W6SuDybxn0gF9j9dlr4lD7YejZWTmbTFRGU3S3V816AnJHSUVDjR4r1rAUByj7hPGNY9tli5eEtyIzAKc1pG3LsmWB3JYd7q7mLCfvY6tWFsUZp1_ylyjXa9tCDzku-5VBv1-dBXVh0ASyDr_fK-453KX5Xn4NMqW-NpdT3mOdyn-TXjEjcdUSqiasD4kS68HyfdbFdOHH2dfKhgyfWWt-OSW8lckgYK_TTzp8BpHw7T-B5q4IoQIgQN2hfMsmohoNFA1ATIrogH2i-WcxoKWjkY9CVZfhSMllkqVZL1L6_dsway6O8vS5BYxNvpolb-z165Ngicnb04cKPLcvauRlLBySTgwZDvAQAYAXTzQdepOyiXNrdO076IZn2bdnZh6bujqBTyZPIy_C-vBXpq6SrK1wacACgd96V976kDwDzyKi04_5NYYDGq2O7ZYJUlX6ZtLWl9td4hLhmg9b4SQAlzjuCZ2J_Y2IdEnZ4tYtA4SK7f2viaIjZFoZZ56w9RBK7ik9j7QU7vPCyH4o_K6eQLDf8zLhtaj2-y3aBUo9XNkW6dzdBberJoIEyBOumGGPGP5fMR3uBmCgWSICNEfUU2BiK2wphnLF5MeLkkHq0aF_JxclQ0zNiJxjccllzUAqFKj4f7m6ussijge3RzMOr-rQeTZGLfjmxkYm97DJcmje2pKp14waeeSdLoSFM99H0p9UBIeerQbIWKCNSOH1EQ9NTXBrJx9zdWoiqZ7pNso3aM7zmBG_hb0TwJIo1cQ6m1UnUAvO764YurAk9bgrb-rKaS-1GqYc3K7WZkTVq6U4Q49ziH4eENsUm6WDw4dPqz73mn2cYY5yMiEwzFdYbgTevYAGzQ0-KSVaDcaqM-7Qt2J3mRHi29oKEGYpv0nKvDOYmK7OkdhvO_yx4prv-7wxNnaUNXtKOCWch8mGGwWtAdmH9utLkZrV7WnuSZ51k0x8JTPOiQKWrK1XcgIbo3Re5HM-MDzXWuEurqxtvyKx3JMrESxD0zZKXUDprRAbaYA-jvMwCeQU_KYVnZoZa8hdk1D0qb7hppdxIkBQl6xs0Du6WrfQezrDCi-HOybRk3Q3HrHny5GNJU7IMtVRtQvRnYoMADgDcs5xaQ5yK2b1kon4_MQN63NN_JTBu4mmloPlIxWMhNuguCdCzPWTj74G1PTjllH_Vxtt-bqc3Qx24DxCIxrSJyAmKQVlZ1uKhZrbpE5l2UPg62-6XhscCFfXQWGbM-JnRSejkqT1glNI3tmkG7Tb4PpscLBOV1A_xxgPJwAa6qyB7Bs_eFwHWkP8ZVrMlVDmiCRHV-goGjlbmSl3TFWA1Tg6AxlfbhFo1xT4VDtd8YqvG8PSuRMqEUFRBrk3WYcJiI17RjD1XhDEOHn8bqyr5fI8DtIdO7DnHndo2dzoAZre6suzNx3imo2lkoBpD6CnD1harQAfl-7Bj5ykZX6XqZlwE5uX4Os9QD5iSlYPRe18-br63JkJaRq3o_QGPLXMlr4AocOC21q6n2kS4EmHlEcYUIAzxw56OgC00mxi95TswaT05joPJjn6XQnosB_mhX7UE6qoI2hLfH2DkItLAgmpRfDAUAxOvFoCbub9gh-CWIRkXdotg1DgycALQF7drwAnHs3C4t3wValF7-1j8yGoJERdhSeWEQQ0xEa6lktvWKScxS6gSor_SSf80-HKjvI9avIFms60YyvP9t1HpKNTsD68BYiLp6cEyVW3paJytERDtiKHY_4jVkoc4DV1Rip1mZMljUJk2gXRPut2sZTzKRp7MaPFjFIlZPufI5pvWKJMRBiAoC6nNTo_M2xzcz9aVDsoLZz1GvKzEpiBPDSkVGihxZSNQ6vxykpVygbPhf3KLJdkYd1Fu9tQXvpF762qemb6xNEwggToJQTWAcmBySz6AynXtq4lw_ziVTiMWJ5IIDGw_7XO442tpcWWiW08rUP8fw1VBHE9RijAelLI4GTzeNpld9xMoCwQxG8UPTeQnxzZOWRhFnZFAJImVA6vqnvJgcJQbT6NJ8lRphKL0g9Q8jbXAZeOq6r_HTsbQWYgw7j_dHS8Bp3SQ0daj7ha0Tet_2KiFWoF_rc5NJ-zC54Tcy8tmwXtlmw5HA3MxBx_yHSCpKqfAdCGbdaW8ptq7X2cNL0GmEFLYwkCq6MP4N8NOANilLA8oZIRs31mnEKvEKqufiq60Kxz9IPObb0AdgqTWowFpy7-IyfEQ7GCmHmKF1uN8c9-0uJaqLkAWF_EWAePF2G5q2nc1BHcZjcqcm0SbXk6_639DhsKV_1xHiEtRpzCRdhhhIPlidkS5derl_5CZAXaRmowzzLaOilY16ixRMuZbfD0jdOSGcJdKHSXIFiu43zHFwnettOyzNzDV61TGusxQ9v9W8-lN6tzOLD4X6P0nk-6AyZ011lU4zcoPWXq6IJku30gMSCGwabqR1GwYlYWuizjMK3SWnfbaq7CGK1QuprOmsn3EcNzxXl0Fb9y2x0sH-Wx5I3NvIFWzx4XMMdgxlaOqvsuBiHRQnRIFHSXVIf1cgI9XJT0k2qacvzl3NwimcYv-hlu4RSigs0DOpjoorn1o1vbLAoaY_y3tpWgexgjBvM8mYorxJYTo-MUeeu_yFaHGY44rkGL4ESKWQzlzJNvZ5YCk3utAJjaR9J9d_TrUEsPM7YxDWc5repO7Gf81ciho-GTIinp8X8bI9K0mfp7yzUDfVAVUEAsmT8467QAcJ_E_E8LF7SKJYXVGum2TDwn80NoPgk-fp4l7VtMW7vPEpqeu6reibhtiUDgR_aq21VkSNzE2KaVe6lKXjbLDw8rxVO_YN_umUHKF38t9tXOiXPiNnLrX6CYjBeWFujykronQDJIkR4MZBd_De_vEQbvD456X3V9znQ136em0t-RVxlQUsx3Bdi8l2aUe10vR4smbUPey2uOqnYgTw39yCpLnYl66-JxqMMBOO8FFz64IEPNQEJYuOiLM7s10ESnQvI5hjqc4ynCGNScab_R4T9T1kNV7bg4na02HOfsRa2UFji9LWn-XJsdahnMdIpJIqIiPGHiDOljknHGtM-VGETfvyDfRLNEUEpCLqvHFtn4V_lEq2aY7MYGrxy_LTxYU9oPZNK9zVRRrEH2g5nghDkaFJv0FeulCy-2qohStOiykNE1mWiG84xJM9kvb160FIOFkVBeeIFagEXknLw8UFbIaYQsCxUWFyQQHRc2K-NoJrV-QsOL4N4BYX-BqBu4w0jT2_05BDK7fZSlILivbbFW_0jh6-a7oXd83-vrJyM1nGU7e1DMw7gOQXosPzbjaeGR9nddFI7E68N02EZ-GaiMg-M3iXzdYHeqxx7qB_hu4YrMydzuV77i97Gkw7BLiBVyvXFeErG5pWBsBhwowDh0oLCLbu_prF-V3EOi9wm-y8dveFzkTiU44UiUKg8pBFFb-KvVn6kyCuoyyhKsqlNu03kIJm7Oo1_I3tQXuak9NBd-ehosX8Pr40n_a6spIW6y6q8twTLzYPq0yadazNPUXJP6jmP6dtcYrnHp8GkiJJOC_v5H91CsIJ6VCHekxs4zLMmt0HEeW4mvWM74Fv9Qo_ot4V0DjiVo5qdT1HR-yJQ3O7RVhoTlBdC6DSIdhC7HgnDEc40iyFK1TmQ==",
      "summary": []
     },
     {
-     "id": "msg_025cc3f1f9b45dc7016ae14a3df51c87d1a690ac46e56bbbde",
+     "id": "msg_0cdeab4f448b097f016ae2a3f93ec487d1b178958dedba80bd",
      "type": "message",
      "status": "completed",
      "content": [
@@ -2856,7 +1468,7 @@
        "type": "output_text",
        "annotations": [],
        "logprobs": [],
-       "text": "{\n  \"title_zh\": \"發炎性腸道疾病中的肝脂肪變性：實務問題與實證解答\",\n  \"abstract_zh\": \"肝脂肪變性是發炎性腸道疾病（IBD）最常見的肝膽異常之一，但其臨床判讀日益複雜。本敘述性綜述為照護合併肝脂肪變性之成人 IBD 病人的胃腸科醫師提供實證指引。世代研究與統合分析證據顯示，約四分之一至三分之一的 IBD 病人有肝脂肪變性，但估計值會因診斷方法、研究族群選取、疾病表型、代謝負擔及研究設計而異。對於合併心血管代謝功能異常的病人，代謝功能障礙相關脂肪性肝病（MASLD）提供了實用的評估架構；然而，在 IBD 中，以肝脂肪變性為核心的評估方式涵蓋範圍更廣，因為它能納入體型精瘦或營養不足的病人、發炎相關表型、迴腸或膽酸相關機轉、酒精因素重疊、藥物相關易感性及混合型表現。臨床首要任務不只是偵測肝臟脂肪，而是辨識具臨床意義的纖維化、心血管代謝風險及可修正的促成因素。胺基轉移酶正常並不能排除肝脂肪變性或纖維化。篩檢應以風險為基礎，而非全面施行。對病況穩定的成人，可務實地使用纖維化－4 指數（FIB-4）進行初步分流，但因其在 IBD 族群有特定限制，解讀時須謹慎；暫態彈性影像檢查最適合作為第二階段的纖維化評估，或在容易取得時，作為合併使用的第一線檢查。追蹤應依纖維化及心血管代謝風險決定，而非僅依是否罹患 IBD；肝臟專科轉介應保留給肝臟硬度升高、持續性或膽汁鬱積型肝功能檢驗異常、出現門脈高壓徵象、懷疑其他肝病、檢查結果不一致，或有臨床上顯著肝功能障礙的病人。單純肝脂肪變性不應決定 IBD 藥物的選擇，但肝功能障礙及個別治療的肝毒性可能影響監測方式或治療選擇。\",\n  \"evidence_level\": \"綜述\",\n  \"score\": 6,\n  \"score_reason\": \"提供實用的 IBD 肝臟風險分流與轉介架構，但屬敘述性綜述，摘要無法確認文獻選取及建議的證據強度。對台灣大腸直腸外科的 IBD 共同照護有幫助，非直接改變手術決策的證據。\",\n  \"relevance\": \"中度相關\",\n  \"relevance_why\": \"涉及 IBD 病人的肝臟共病與用藥監測，但主要面向內科風險管理，未評估手術或圍手術期結局。\",\n  \"novelty\": \"再確認已知\",\n  \"one_liner\": \"本綜述整理成人IBD肝脂肪變性（約25–33%），無介入比較，重點為纖維化風險分流。\",\n  \"action\": \"對合併肝脂肪變性的成人IBD病人，評估纖維化與代謝風險；勿因肝酵素正常就排除纖維化。\",\n  \"pico\": {\n    \"P\": \"合併肝脂肪變性的成人 IBD 病人；敘述性綜述，摘要未提供納入研究數或總人數。\",\n    \"I\": \"風險導向篩檢、FIB-4 初步分流、暫態彈性影像檢查，以及依纖維化與心血管代謝風險追蹤。\",\n    \"C\": \"無對照組\",\n    \"O\": \"未設定比較性主要或次要結局；討論肝脂肪變性盛行率、具臨床意義的纖維化辨識、代謝風險、轉介與用藥考量。\"\n  },\n  \"effect_data\": [],\n  \"key_numbers\": [\n    \"IBD病人肝脂肪變性盛行率約25–33%\",\n    \"未提供纖維化絕對盛行率或檢查準確度數據\",\n    \"未提供兩組結局、效果量或陰性比較結果\"\n  ],\n  \"cautions\": [\n    \"敘述性綜述，不能據此認定篩檢能改善臨床結局。\",\n    \"盛行率約25–33%，未附信賴區間且受族群與診斷法影響。\",\n    \"FIB-4有IBD特定限制，摘要未交代門檻與診斷效能。\"\n  ],\n  \"unassessable\": [\n    \"文獻搜尋策略、納入排除標準及是否完整涵蓋證據\",\n    \"納入研究的偏誤風險與各項建議的證據確定性\",\n    \"盛行率估計的樣本數、信賴區間與研究間異質性\",\n    \"FIB-4 在 IBD 族群的具體限制、適用門檻與診斷準確度\",\n    \"風險導向篩檢及追蹤策略對臨床結局與成本效益的影響\",\n    \"資金來源與利益衝突\"\n  ],\n  \"context_verdict\": \"無相關前作\",\n  \"context\": \"無相關前作\"\n}"
+       "text": "{\n  \"title_zh\": \"大型大腸直腸病灶的鹽水浸沒式ESD：敘述性綜述\",\n  \"abstract_zh\": \"內視鏡黏膜下剝離術（ESD）是大型大腸直腸病灶整塊切除的標準治療，但技術要求仍高，且有處置時間長、學習曲線陡峭及併發症等問題，限制了其在東方專家中心以外的推廣。鹽水浸沒式ESD（UESD）是一種新興改良技術，以等張鹽水浸沒取代氣體充氣，利用液體充滿腸腔時的獨特物理性質，克服傳統技術的若干限制。雖然這項技術經常被稱為「水下」ESD，但「鹽水浸沒式ESD」一詞更為精確，因為其優勢特別源自鹽水的離子成分，而不只是浸沒本身。本敘述性綜述整合UESD用於大型大腸直腸病灶的機轉依據及逐漸累積的臨床證據。鹽水浸沒使單極電外科作用轉向以凝血為主的模式，透過浮力差異對黏膜瓣產生內在牽引，放大剝離平面的視野，並消散熱能。綜合觀察性病例系列與近期兩項統合分析，UESD與較快的黏膜下剝離速度相關，且未犧牲整塊切除、R0切除或短期安全性。隨機試驗的證據並不一致：三項試驗中有兩項報告剝離較快，但規模最大的一項在主要終點未發現差異，而病灶位置會決定各技術的相對優勢。其效益似乎集中於特定情境，例如黏膜下纖維化、位於重力側的病灶，以及依據初步資料所示的非專家操作者，而非普遍存在於所有處置。主要證據缺口包括隨機試驗資料集中於東亞、技術執行方式異質性，以及缺乏長期腫瘤學結果。\",\n  \"evidence_level\": \"綜述\",\n  \"score\": 5,\n  \"score_reason\": \"對執行大型病灶ESD的團隊有選擇性閱讀價值，可快速掌握UESD的機轉與適用情境。但屬敘述性綜述，摘要未提供效應量，且最大RCT主要終點陰性，不足以支持全面改用。\",\n  \"relevance\": \"高度相關\",\n  \"relevance_why\": \"直接涉及台灣大型大腸直腸病灶ESD的技術選擇、剝離效率與安全性。\",\n  \"novelty\": \"仍屬早期\",\n  \"one_liner\": \"大型大腸直腸病灶文獻（人數未報）比較UESD與傳統ESD，3項RCT有2項剝離較快。\",\n  \"action\": \"目前不需改變做法；處理纖維化或重力側病灶前，可讀全文評估UESD的選擇性應用。\",\n  \"pico\": {\n    \"P\": \"接受ESD的大型大腸直腸病灶患者；綜述涵蓋總人數與病灶大小門檻未報。\",\n    \"I\": \"鹽水浸沒式ESD（UESD），以等張鹽水浸沒取代氣體充氣。\",\n    \"C\": \"傳統氣體充氣式ESD；各納入研究的具體對照技術未詳述。\",\n    \"O\": \"關注剝離速度、整塊切除、R0切除及短期安全性；未明定綜述的主要與次要終點，缺乏長期腫瘤學結果。\"\n  },\n  \"effect_data\": [],\n  \"key_numbers\": [\n    \"3項RCT中，2項報告UESD剝離較快；未報差值。\",\n    \"最大RCT主要終點無差異；未提供效應量或p值。\",\n    \"涵蓋2項近期統合分析；未提供切除率或併發症絕對值。\"\n  ],\n  \"cautions\": [\n    \"剝離速度不等於長期腫瘤控制；未見長期結果。\",\n    \"最大RCT主要終點陰性，病灶位置的效益不可泛化。\",\n    \"未報兩組絕對數值與信賴區間，無法判斷效益大小。\"\n  ],\n  \"unassessable\": [\n    \"敘述性綜述的檢索策略、文獻選取標準與偏誤風險評估\",\n    \"各納入研究的樣本數、病灶特徵及效應量\",\n    \"納入RCT的隨機分派方法、分派隱匿與盲法\",\n    \"納入RCT的ITT分析、失訪率與試驗註冊\",\n    \"病灶位置、纖維化及操作者經驗分析是否預先規劃，以及交互作用檢定\",\n    \"短期安全性的事件定義、追蹤期間與統計精確度\",\n    \"作者利益衝突、研究資助與成本分析\"\n  ],\n  \"context_verdict\": \"延伸前作\",\n  \"context\": \"相較先前介紹牽引系統、刀具及其他ESD創新的綜述，本篇聚焦鹽水浸沒技術，補充其物理機轉、隨機試驗結果不一致及可能受益的病灶情境。先前兩則利多卡因RCT摘要探討的是不同介入，不能用來支持或反駁UESD的效果。\"\n}"
       }
      ],
      "phase": "final_answer",
@@ -3153,31 +1765,31 @@
    "top_p": 0.98,
    "truncation": "disabled",
    "usage": {
-    "input_tokens": 2863,
+    "input_tokens": 3202,
     "input_tokens_details": {
-     "cache_write_tokens": 2860,
+     "cache_write_tokens": 3199,
      "cached_tokens": 0
     },
-    "output_tokens": 1611,
+    "output_tokens": 1636,
     "output_tokens_details": {
-     "reasoning_tokens": 118
+     "reasoning_tokens": 204
     },
-    "total_tokens": 4474
+    "total_tokens": 4838
    },
    "user": null,
    "metadata": {}
   },
-  "42942943": {
-   "id": "resp_023a388176cd3928016ae14a146d1c87d1acb7e333fe5d0a0e",
+  "42942406": {
+   "id": "resp_07662503f6636ed1016ae2a40738e487d1925d9ccdea65922b",
    "object": "response",
-   "created_at": 1793149460,
+   "created_at": 1793238023,
    "status": "completed",
    "access_programs": null,
    "background": false,
    "billing": {
     "payer": "developer"
    },
-   "completed_at": 1793149480,
+   "completed_at": 1793238046,
    "error": null,
    "frequency_penalty": 0.0,
    "incomplete_details": null,
@@ -3188,14 +1800,14 @@
    "moderation": null,
    "output": [
     {
-     "id": "rs_023a388176cd3928016ae14a15408c87d19e55aa37edf23073",
+     "id": "rs_07662503f6636ed1016ae2a408594887d1a3b30f73c5140062",
      "type": "reasoning",
      "content": [],
-     "encrypted_content": "gAAAAABq4UooiLAmGRVQuSvx_rBbP93Rv0BOKB4zF3wV27ybkNBge9kkZvCEvotUW32YPEy3o94XoyWoz5oyvGe1viOQlgxB0qkl-QEFCm0HdqOZwiptbKLsmuquyG-E39K5JMRzGdcnQGgAhSYuIstziQ5b8gItssTgldLtc1gNQg8L-W4v4MF2sOvRyLysMi_wk8N2tv03InQR0KHok-ajPe1GCFkfBL2Xzoa0e6ma1XAEwrWHvT1zepz_D9MFRwjr9G5vQFWI7u2PsomgSvqIvdlGJIdIArrdofzlOBoXX2sBta2H3pQIGB7_CQNE5ecA-gkaYv8gxX6kAN13E6XzX9rMEjZd1owOtbOnnFa69PZ90bAv-pnnQ35Fey772MX4hyLG17GLESpv1Lwd8muzEvGp7LsHLCvuIS12YL1Uq__j6lJjummF-bU-V4nqAH5B175j1nRKVLamhn6M-XRizn6Y0PyJbRB0wAHIlWLpHqrFPjlFzYS2JwoO3sz2EIlmj1HT0wec-shu7fEksd5jGwZpSAEFHJzaLZ9p0fdTsevicxor87EIlC1cGPdlZywZaIEf52BYVofaD2U3uI3kpcnQHPhiFCejFzA3Xy-6Y7d2y5-RMz7SFNUpAJsK2_5OMqsQzyD2cxN0exeFd1G5LXq0VWfxjbzDOnHX8eN6t2vp0BYCnMh2WPdmXrAiRdZPh6YTZR0Pop81oA0kH21S9m4YDcpf3gNcNPDflgBBKesNz_AQkEpKmni4PDLCzTuIH3qlqNRaxa5bxPcfhowq-7xqADPASq2yeNB0cPgPghgUgW0K_Qyr0g5iViqLKtJ7QtIBAVNTfVCbURtBl704ujJWO6sFcimhdC_klo8JwipJLs8G4WzLTOzBnpRTkD0YQFo0AUqkI6o3YNX7F8z-m1b7Zhe6S4dguCwMiEGlcqu-YeOohVU2RtmiCkcQyXvAh_aIxD6pEAVzdR4xcKIdTYuEbAHV-tdXzJjz-AKc4Kg2TQW3-E4Qt2Q5Fift2b9eiZwrpJYU-HfSYERWyb5Bq6gK02yat50V-TgNYupBzusOa0rC4sh6heQE9VQcjK7m2s1y4n2RAGUIbOVtBgVRK-nbYSSvsBZTgrFoYMRrTjMAkOkZB4CAil11Ina3JAicmzRtKbVAJhv0_F6628hlwDlBwG-MUnl0EHYy4L5lAbvfDva279NgNQ2KzxUMT9fwIDFpUiGptZoMMyjoNA5EpUXAiit7jFAJYxzlTYnxsJ_d06C-yGd0CNbi8muQX9eCS5ICkmBtowPi8QXRL2WxB5h7W9W6wqoFGXxu_tqK27cxpcs46mMeDeoZQsh7Ix1wx-dPYVubyVLtJYuve2rGRXZEL-xrpQBBTEQR1lxATw0EZCe2qmr-99mtKMoxhqLEMVGoKTnK5idbV2ZpQQMP6JOKmXh7oY9X-f_n4kpAi2EBU2OBdoz_YbrUUIVCUwlC7IETn27T-1D-3eCTu4UFGLLbZnGGGfmLoRL0BhX52uoRqiMK-ssNu1cqxwK1e7DYlcA8LudjldwBetCbFTsGceyqxIFeC0ynB6ixZD7Ja5xUA7QwLiJ6Zxubo8MYqRjdyIFLN_I4kMT3-pPCHWpVwy0dLqRd9bWBik0h-pWVmX9qjHzCuueBu_TuVlB9DYS6H8fwyS_6idF_bLI7TcMYj6yBCm1k6OiUap1t2QTOc3MuPM8yrfpSWxlSnyaq3yX52seQWA4Wz3Y6gvxwTdfusxWS7IqS7b_bNTR7HhnjecZVgR9RgS_d-Ngy2sAsNAXYkE71lrpgbhh8COejqvidzohZRg9SA-yNI-PUL638RLxJ9-afCsntHao6xTUxJUUE8aqWN4TyaFoYkhvrsHrT3hLvvW39D8Ib2G1y3zA_Vgh9jP9KCx-p9ZKZICRbtlHBEvZT-KETMe5tUrCdrUcaVDkICot-qCuzE-LAlnfV8y9HmpYLfujxMuQu1xLlSw-k2c1R_bGbwCU6YQeeTMLS4JB6Jf4lYrYo3CCx9QR1vN43J6INhlu4zCFy8l7lgAP4xuGQ-WWDneokLIo6k5EySvAJ4blYQLZFozUxmHRCx452oRe_sBH9KXiuoz8mF5ljm4VLkvtIiKxiXvNPeZLichwZoBfBcLYl5QNBgvc_Hbu7bcydQZsKK7nbf4XQsMEtPzcUgr8eShjYFwE4EonfNigYmYAJRb8gN52xFIUQvPdE2LYDbu1wELVDk9ZqMRf7X-wtsR50yyDHSbuq6U8I2nKf6_u5jrK5Ehyu2mtsmRkyemNFJq5kemGDi4DYwHJ93rfCMaFqOKA41sAwhusIZWjkZxTn3CYec6TK4mdfA-eVtEctUf13mlx-KfUSgx_NL30VTkv7AVSid1PcLAM9N98zTYXn-JdV0UaQHkCkAY8Mmn8Clqhs1Qy7HrCqAZ275KCyRv-QHcCVN-NTmFp6C0-BeVPoN_wqEDhxiusIrZwk6kUYqyerlyc2cm5FAw8BBOhw46nJWLcYcmirHOkPBx3wZMn0ux2y6Jae6QSnD3-Gt8uAmc6t1hPW8Lsl2A_WF4qweojs12PmdZfA7974cmSlxcPQaGIXKMUqhLsaMgTTJc6IZPMeKLeC2xuJt0NZgJ7jQaEDtEe6Fi1sR_cNEGX9GbtY4fYs6MJxjQEruKzFpAbRPvGAQmL2mj6t50xw2vVcx6_qo_66qS8wsOCy9gnS7qWI0-viZKo9OeoSAoyPggBfcsGQstjqfVAi_bgFSZvlqh4Q-ncVlZ2SEcb_VOmthalTo2pCXA_Z2xOLOIDoYmla-ccw1ghPF_n0Rfe_w-UNINbG8VcuFDr9W6z72C8y3euOmxltmVR43ARiPHclmfkHJLUEgs8SJEX7sO-j0Ua01-tZ8u4YfZAl7DY88BIQuLJBcKgtzJMVn5RLK-sS8lP1fgG1VeLcOXXCZchA7UgGX4QaNI8N4n3oeFfBbrRCH9QCzcoul9wMIKOedNLeP47EOPls2QvjgTR5c2g8uqQqMMBeIk_JA7xBte59ToymT4DMT_L0EjFFrviqhYCluAt9cpyeZ9lfbtWml4NN3JiOEqPHHQeqfpNURcNwRExDpW2ZNTQow-4FrBMVF8tNqC2nM-kJ1MNznYuNUGyGy8F36exvup2IiQ5M2kaO8astyqRgDLPA70SH6_Qp-2Hqh5XDczqpmGEVr6G-hTpBILm8EzhHc2uLhC0ELP7VVbLRnh5XFXYz96QLQ-LmgyXfHFflTTZHtymtUMQACvHAIfowAGkRehdO6GIvwiRDLZCTv7s9E0dQur6XEcOc95Rw7Q2DVfnWcmERD0waiAah27m7sBqvrWNOkYhz-VyyvhHjoaghPGyrMTji8DYVNaTUnBLpYknhXhrPVFbVXpLm2ak8ZPXsdd78iiS8aw900Dv_gxRmqFtoXU6Q2LNLCn0rsQKbjrgkHlYZj-jnIuERtwENwpX3PHbxTGlee-yj7y6zxifLx4-Ryzj6mGCV82nO7bGktXklg58rlim0HhJ4KiJXUZY91YZesqSd_JGGcYZt0yyuhtecRUaoOXC_ySd-3ugNshTWPn21FmgwSFiip2hzfdNyONx5sYnksLiJnL8gMlH8fJLkdvbdIIYx7Mutt3gSLYoutflBK1OnqS7bxU5nUk8isneIVdiNXV2GNRh1c9i2IKXPz9wGAx3Kv1-tl022J7Mce4HjX8jKF0uxFyAZ1EFNEgC3_d3Ga6Lrk3eha0YA5vRwI56nw57zvkNwsBZ5rPCMTa0c2Kk0pezDv_RDMdNPvllTdcryDOPSZNCDQKE7FF5yy0xaYVG9-5kKGJp4Lqhb392pn0QK_mD61H3TVc9GYXYK9LxixDBAn2EIYc4-v4jw9PSDJ0xTOvSj12WJHkXzBN6you4zrlPl-xdoxMz_QeizbSLf7Yu08kC5m9GMKW80y9VCXYsvph658lCOICURq6pQpa7v7Ak4wAP3QoioaCLUv9FJlSDZLbw7y_OGsMOXjsYihvuckpXLrLtYeuQYAIWuJ0fKOaPrPlfQznMKSLoz5-61tK7GbzqRqZ-mFJGe4cgjVHeGBW5pk9pIbzH9pYjjBEbj1MBehCF3G5sjgbfH8vZ9cinu5NsMNOtxe9HbOMK3PY8qEAewlH68vSNyvfZbt7j8-cr_ebNZOWeqcMtGZQpcIGsJe65sQXHZdqinGzTK0us_iivRegd94pL5er_5DNFd0gUBYIT6aD_6C2pZFvDRKvgTrDkSblBuL9_LyhtrKHN_THM1p3ywqKwjuq8r4_FUKuQLP6Hd7fcYHVLGc1g1ZmYAYP8DbjUUsqewSqDH0yRso4tdyN83ns9SIZnG27Wz7Q2cCT3SoMIDsoG6he_UG1yGm9rQRQUeWO946Kcm8zgsRv5kTUvQDPj9rUZ2Jkb0cTklO9-gW0RaFr9qmR9LFKPwBImmgdaYdLQQBvslkwoDENAaXfSLHW69HwXESwTD-Q_rq7EAM_HS7R0Y8ctWN5rjphUsEKWp-RMovpXY-I4YAlG_J0w53D_JBmIRMu69wWef_fR2ABtYDBK1DOlUen5p8DoYXF9-jq4bZmeQuJ8ZI5QdlI5pGCOboFMBKw_R8oxdWPMnB4XqCqPKYNfqgL0-NIjJ7Bq92KCJjMXRzA_K3dLndw4VnK3vKXc8iUmJr3peJAtza48GQ3eMcBDPTTGDQuoKSxcfDMhqjWoIRQf2T5hWY5W2RZDO_br_uT3zbTlOBoOLsey4KmpouabY8Vv6lOGYq2pxNVjiCVpWnwvagNrvwPPFZ6KLx8B41N4atvJHnRmhoVQqzQ1INzu-KFMmizG5AS56hWc0qGiZcO00tj8rRX4Fd86xGdu2naGZjqjEwhbbhLtle5xKImXm6xUTloqa4lBRt60nsTcL7ohEo-_QXhvHsRcPyKd3y1V4AiK0w45EjJbg7XrxG_Px8Wiukvm8TRrRC1ehVCrl-r0yKvOzN3-fWc0A6LMU06E-FxOJs0E9-sXD0N13-DTvt01lCh3GdrG3t-Ie0D5lk2yoMxTPHKiLQsg=",
+     "encrypted_content": "gAAAAABq4qQe0ezm_nf2jYLydox84xjHS2puQqpUfuo9TcuL6iF69PJzuaY1MqAxXG4H0GFY19QBqCoAM3N_jiO2qq73umRb7043CJ4XY289QthYkvGlEqRb9hI50oyoE3aLSjHnSH0MQpS0DaF2zutZiUUBtDyq4NOSdKvKZTXuRoGQXJ4cQDj68Nzs0RgZNOC-mGnt6GzCqbBm0kAsbJKjbvk6ufBmq_SfS1COtGCA92RBHhYpNoJpUa8zbMR4jUv5ysimmaESUtTaVPQWyL9HOmuOJezUuU_t7L1J5yPrhWOHbb6oEpI1PV3CzzPiW7sl0ZJqXFM-hkzf_IJOTHNVKD71wcKX49KW6kswCB2unXcop3q63EwawjTpIh4Ib3Qt2dk0WTviLmfiAo_OoOkuJQLIFRpjg9bWNxowdprELVObfHzoO2v1oKaa7J7K3l13EBLtMs-x9rDCkz-fQDt2z4CQmCbxvStrVGLv5PejFxsWL4ugZcORfdCRkZixhaWDgAodePrInb3HvTE_d6tI7xrdQeK3R7Jawm1PFwINqINJEzdyfP7UmNBv6J1odZdyrEj5rlCDdYOr5yM2tNFaGptspr4HQ-k0AJcoXI_1VHaPX8QfbnsDb1K2VnIGReLguDwjHPEibdbKG6uO6ki2eH3yMGK8kJljfxScPXQGkjutcLD1aOMyqNGsBqk_YAveQcn62FpyUQ5Z7Ne7ax3bKXrw9wrd_vcDJGY5iB4hQaFxVorg1ksX9v8n5wJvJ0tl3i01TGTnqzlHSLCNUTl5NF76solrngFYrBpmnKbRFmWt8lWnxMz9xV7hs2_oJPPGsq1BOEEtZseLIRbaKnEOLbZI4w94eCranmTOCkX_IYPZgmPh1YJ3MXu9hPqQzaI04PfAFf9yXkggsEdokfe-Yk0QBR2zeGVBDdCrTPJpxM5QL9mHwc3JciWM6ekHTsYgXq7BrUkLwUmIn4EhgcLqgDHY8jBWrWZnoNj3eq3lKa35a6V-ZiS-AivXOLpUv3MaJvZkBccJEMmEuMMOV66DMqUCkYoGkXKGhBohqJNUbcNzZ_cmOEnzKCORNEp50p5JLP8M429x0cT1y0-6fdWe4dHHyT0dLSJnG2b_H2nPBnk1XUUxlbqBiI0KXlXoV3-dVplk_MFPQVPu_q7vhYt5Jf1aFeqmCfWjb88gTXnmQ270n9qEdc8BzRThf946o-Y4lWQEJqXM7UwfZLStpwgzPJYLAkoPriZVReHgnVMFn6UwtCcYhSwKYiiewqnG4TF5ipUpgn5JUcRtj7CPGYlDlhktAq4OTNFp8URkCevMUb8hSp00gqnOUABkrJQMUEI12D3CG8VjXdq6pCqoqlia1EFCCuMXV1-P8WY5uEzZ_LbEwKko2_ErlyGaHNXbVa3YOP8ngl4sVffGNFVgmdQT0g1CEaYoflrolHPxRQbYFcr9jQVSMLcWpuzenbCjVr0JhZFuWNGS9c5YaSI3xTU1nbfqjjcBTd-vf-AO_F_HVZSuySo_pct-FPwcVQW0Rz4jZhI7JiaIWO8Qu3SEUeRGubTsDtq0uiTHZkLjwLCFIVcJlxyy1vKBZsGngM2Zug3cMl4tBj_NAi9jI8CN7HuQccxZZwBTCWBO31eiOgjsx6nkZpwPVrynb10XIjgKZKE3aaORdShRi5y89BOwvCEaep_K_qWWGsXk_HEry-ezVruZZ2DBArR7HAzADz2IGxTxXTJX9JbHY2RtAMnD4FZ1UNESJyOZJlXZiEU4kEXbt5bVjL_ukLMeevt01tGbWwqWLv0gtOdRd__eA5UAENhBsNFhYDYkuzRSwzYuuw7LVVFTaVovxmizRvaZJ2UAMHVoEqU0XRWCk_G7kxxa6xGn8y9ikwmWa0_lSJrqsOb8QJbi_5ky73jxDABqscAQGcY9w1rrw7T78ezqx83X3bUnJJA8k4-n-ivu5W0-BlcrZNP8LYVZRd0NWLLxwfHo_Gd9L467mHLgTW6YFEFsyYMHSi5JH9LeCJg3joTREDxFe7YrvA4a0s0Vv6Px8GCZQeorH3Sx0DVVyHb1AEqlUwKd9nujBtdJYa3Cpf9RHLEazxUodIJc3rOzVcJ4RVWF-rBD14aJFXMjJOZXQ2EBwfkVa9ApHRVblpA9VVgVaySiPrapKB6tBzc3WJV_0bPF45j_-aSPi7nYMRdVXYTJTnkQGc_2tj4sEV3HCTanTvKSfKA3iHYZdd5Xmt7a0uTZ5pCgGtmqvrpgXUSqu0D-sRJy-SZEcTOJy-17eEqb9UUvMBhI8mF9lrXS-89nj81zRvaEZl0WpOw-4hjiJBbjLW9rNosieEACLqNuS7nkWzY-QXdnyTkzS-XRhSJ6XCAcfNmjtXTN4DESHCrWtLWcsAiTY9Tuf6pfd76FQZTGB8x5VnWdDoo1DLcgOT0UHjYHR0RS1YLG1I2BRiJI10-oRMZM_uDSKq1ElWCu2a7n_m7tAbjEwWhfcjfVk6vJapAt-jLTOYOgDtDpR0s3fc86Y71gWEbU7o1e86xkCoxKIIo39tKI8BmYevZXNZe6WdMDJdKi5HIoYkRU2w5DoMF6EgyfDfmfUc6NlFnw1GzU5bJlQOp7zLPe_Tdq-cI1dVxizKAbCSY-Tkl3gwbx_dcoNiEvULFMdrc8-J-Oxm9yrycP6Xr-t0MlAgmEMIT-xgRUnjK9aRIUlxANd6eq8DJghG4PEvdvk5hkNBb7hJWavdfEQByGRPGDbveQzIFhNdzF0ERN5L4OH6NvaOkV3zirIHpxatrn-yQS_05K30tv8lXzJ2CGunlhsVsBiDqsU9-jYhouvMddD9erg_vyw80qOFPo9ay3_JINLBjRQhPHVIdowVom0USC0x_MkWgdUUETYmaXu0c38KVWlzwGZ1dUHZNsDFET9I50xuBZSiAp7o0ILFH4ZacCQtawUcgphqB-C2TBjd2fJVASPI-ErZamMdDtkEVf2vqUnjRPSNKvvAqlU9t1FVKwdscP16NGNhcdCmZ6DsFfVc_rYItWQAkQFRYevy62bhlWzgMESiqZYjSnZSm3sbgwPZ_gRx9-1grBhoCcO2KLxtdBw4CbmwPePm8XCj9jXkM5QM_JCusYc3YrEcKQdxSE16DfFqhVfi2Mru7ZxkuZMrjHuwbkoz6vlPTJlnBn1mNYUBcpO3eUaZO0-jrBWaylzKOiul5p7V-AHL1bv1Dg3uCy_G5eLaLQLRZWMI2ad-bRGAIYfW24w0tUt-_8qzkDA41jO0ulvgtRQjZ917mqylJLGCDP2OxS6Xzq9yUpPv0aZR9xj_YOFCgv5E1zrb5pGr5jEjL9moaJt6qPfwWHHnCO23lwSrlDzFE-gH39vpK-we3nzxoThKhbYSLDGCDx_2_cqaIuCi3Q0qikur4UTNgP7m7oi7Xe2qE3WxvhOM-7pOWte84PBnTrLIWIuAErN9PVtWDOg3ymDRUK-fwb3cdRK4FZeopMTJAb_GOQwZckOyghiPqb8ZyM_mopxs_SIgo4eEHma7IJkBhaI9uIt0k_qXq895lMMdtPhFJsPmjjy-789XgbPk-m9zhLgFqwS-Z5TT_hL4G0CZhlUL-R7Xj5kkdnMOBLCw7uvJCq4Ba_ag2kD5TpZ7UL8GjvH7fO8mBYzUjwvwSLXqT1PK0Dln8qzVARFIQDIN7tL4Vil2CLYiemy-fioRVmT_OHpAqAUQzdNqWIOABSCwLKRxa2FAhqpMMv2Szhu7TvCmclOTbgPLgvuvx1GAa-OyZ4csKIDMgoPIBAnr2FW6z0pB58S-jodO87ZDqNjnNQg7s5ynNr33xsPNvDeIFMn2ponA-Gl4FAK9dZW-XZQgRvAW29TST-3-4gejghu1KRCksGd71YVGyUxl5ipz8BpsuRP0K7anlD5nozeg5o-JRqyHficlhrE9ft_UMEnIBtgIaZfrU5ruypjNbro_1CESoknIMAHAQ=",
      "summary": []
     },
     {
-     "id": "msg_023a388176cd3928016ae14a1af46887d1a1040ae911dc0927",
+     "id": "msg_07662503f6636ed1016ae2a40d4b1487d19f98628d147eb045",
      "type": "message",
      "status": "completed",
      "content": [
@@ -3203,7 +1815,7 @@
        "type": "output_text",
        "annotations": [],
        "logprobs": [],
-       "text": "{\n  \"title_zh\": \"微生物群相關代謝物作為發炎性腸道疾病的生物標記與治療契機\",\n  \"abstract_zh\": \"發炎性腸道疾病，例如克隆氏症與潰瘍性結腸炎，是胃腸道的慢性發炎性疾病，其特徵為疾病活動期與緩解期交替出現。其致病機轉涉及多重因素，包括遺傳易感性、免疫反應、環境因素，以及腸道微生物群組成與功能的改變。愈來愈多證據顯示，腸道微生物群相關代謝物不僅反映疾病活動度，也參與免疫反應的調節及腸道屏障完整性的維持。與發炎性腸道疾病相關的最重要代謝物類別包括短鏈脂肪酸、膽酸及色胺酸衍生物。已有研究報告發炎性腸道疾病患者的糞便丁酸與乙酸濃度降低，但糞便短鏈脂肪酸的診斷價值仍不確定。潛在治療方法包括補充短鏈脂肪酸，尤其是丁酸鈉，以及旨在提高短鏈脂肪酸濃度的飲食介入；然而，補充短鏈脂肪酸的臨床療效仍無定論，而飲食介入的證據亦有限。未來，腸道微生物群代謝物的應用可能以多體學資料為基礎，採取個人化策略，藉此精準調控微生物群—代謝物—免疫系統軸。\",\n  \"evidence_level\": \"綜述\",\n  \"score\": 3,\n  \"score_reason\": \"可作為IBD代謝物診療研究的入門整理，但摘要未提供文獻檢索方法、研究品質評估或量化臨床效益。對大腸直腸外科的直接決策價值有限，非晨間優先讀全文的文獻。\",\n  \"relevance\": \"中度相關\",\n  \"relevance_why\": \"涉及IBD照護與潛在輔助治療，但未提供手術決策、術後結果或可直接採用的診療證據。\",\n  \"novelty\": \"仍屬早期\",\n  \"one_liner\": \"在IBD文獻（人數未提供）中，綜述菌相代謝物的診療潛力，未提供組間比較或效應數值。\",\n  \"action\": \"目前不需改變做法；勿僅據此為IBD患者常規檢測糞便短鏈脂肪酸或加用丁酸鈉，診斷價值與療效未定。\",\n  \"pico\": {\n    \"P\": \"克隆氏症與潰瘍性結腸炎相關文獻；納入研究數與患者總人數未提供。\",\n    \"I\": \"微生物群相關代謝物作為生物標記；短鏈脂肪酸補充，尤其丁酸鈉，以及提高短鏈脂肪酸濃度的飲食介入。\",\n    \"C\": \"摘要未提供明確比較組；本篇為綜述，非單一對照研究。\",\n    \"O\": \"討論疾病活動度、診斷價值、免疫調節、腸道屏障完整性及治療效益；未指定主要或次要結果。\"\n  },\n  \"effect_data\": [],\n  \"key_numbers\": [\n    \"納入研究數與患者總人數：摘要未提供。\",\n    \"診斷敏感度、特異度及濃度絕對值：未提供。\",\n    \"臨床療效仍無定論；未提供組間事件率、p值或信賴區間。\"\n  ],\n  \"cautions\": [\n    \"糞便代謝物濃度降低不等於可診斷IBD，也不證明補充有效。\",\n    \"機轉與多體學展望不能直接推論為臨床獲益。\",\n    \"未提供樣本數、絕對效益或信賴區間，無法判斷效應大小。\"\n  ],\n  \"unassessable\": [\n    \"文獻檢索策略、納入排除標準及是否完整涵蓋相關研究\",\n    \"納入研究的設計、樣本數、偏誤風險與證據確定性\",\n    \"納入臨床試驗的分派隱匿、盲法、ITT分析及失訪率\",\n    \"補充劑的劑量、劑型、療程與飲食介入細節\",\n    \"疾病表型、活動度及併用治療對結果的影響\",\n    \"不良反應、長期臨床結果與成本效益\",\n    \"綜述計畫註冊、資金來源及利益衝突\"\n  ],\n  \"context_verdict\": \"再確認\",\n  \"context\": \"與前述腸道微生物代謝物機轉綜述一致，再次強調短鏈脂肪酸、膽酸與色胺酸衍生物在IBD免疫調節中的角色。也呼應先前丁酸鈉系統性回顧的方向：存在治療潛力，但臨床證據仍不確定；本摘要未提供足以提升證據確定性的量化結果。\"\n}"
+       "text": "{\n  \"title_zh\": \"邁向精準大腸直腸癌篩檢：整合臨床風險分層、分子生物標記與人工智慧\",\n  \"abstract_zh\": \"大腸直腸癌（CRC）篩檢透過偵測並移除癌前病灶，以及更早診斷侵襲性癌症，降低疾病發生率與死亡率。然而，目前多數篩檢計畫仍以年齡為主要依據，對潛在風險、病灶生物學、篩檢遵從性及獲益能力可能有顯著差異的個人，採用大致一致的檢查與間隔。臨床預測、分子診斷與人工智慧（AI）的進展，提供了依個人風險與臨床情境精進篩檢的機會。本敘事性回顧探討CRC篩檢如何從傳統的群體篩檢策略，演進為包含三項互補功能的精準篩檢架構。臨床風險分層利用人口學、家族、行為、代謝、醫療及既往篩檢資訊，估計個人的背景易感性。分子生物標記提供生物學上不同面向的資訊，範圍從遺傳易感性，到與當下已存在之大腸直腸腫瘤相關的訊號。AI可協助多模態風險整合、檢查過程中的病灶偵測與特徵判讀，以及隨著新的臨床與篩檢資訊累積而進行的縱向重新評估。這些組成不應被視為必須依序執行的路徑，也不應被視為可相互替代的證據來源；其價值取決於特定臨床問題、預測結果、時間範圍，以及所要支持的決策。目前證據顯示，風險調適與多模態方法具有可行性，但預測或診斷效能改善，不必然能轉化為更佳的群體健康結果。相較於經最佳化的既有篩檢，多數精準篩檢策略仍缺乏前瞻性證據，證明其能改善篩檢參與、診斷流程完成、進階大腸直腸腫瘤檢出、間隔CRC、傷害、資源使用、公平性或成本效益。因此，轉譯應用的優先事項並非最大程度地整合技術，而是在額外資訊能提供可付諸行動的增益時選擇性使用，同時維持有組織篩檢的可近性、有效性及公共衛生優勢。\",\n  \"evidence_level\": \"綜述\",\n  \"score\": 4,\n  \"score_reason\": \"敘事性回顧清楚區分預測效能與臨床效益，但摘要未提供量化結果或文獻評讀方法。適合參與篩檢流程規劃的醫師閱讀，對一般大腸直腸外科日常決策的直接助益有限。\",\n  \"relevance\": \"中度相關\",\n  \"relevance_why\": \"直接涉及CRC篩檢與檢查資源配置，但未提供可直接調整台灣篩檢流程的比較證據。\",\n  \"novelty\": \"仍屬早期\",\n  \"one_liner\": \"在CRC篩檢文獻（未報人數）中，綜述精準與傳統策略，未提供群體效益差異數值。\",\n  \"action\": \"目前不需改變做法；對一般風險無症狀成人維持既有篩檢流程，勿僅憑預測效能加做檢測。\",\n  \"pico\": {\n    \"P\": \"CRC篩檢相關族群；敘事性回顧，未報納入研究數或總人數。\",\n    \"I\": \"整合臨床風險分層、分子生物標記及AI的精準篩檢策略。\",\n    \"C\": \"概念上對照以年齡為主的傳統群體篩檢及經最佳化的既有篩檢；非單一對照試驗。\",\n    \"O\": \"未指定主要或次要結果；討論篩檢參與、診斷流程完成、進階腫瘤檢出、間隔CRC、傷害、資源使用、公平性及成本效益。\"\n  },\n  \"effect_data\": [],\n  \"key_numbers\": [\n    \"未報納入研究數、總人數或追蹤期間。\",\n    \"未報兩組進階腫瘤檢出率或間隔CRC絕對風險。\",\n    \"未報死亡率差異、效應量、信賴區間或p值。\"\n  ],\n  \"cautions\": [\n    \"預測或診斷效能提升，不等於降低CRC發生率或死亡率。\",\n    \"未提供比較組絕對風險，無法量化增益或傷害。\",\n    \"敘事性回顧，摘要未交代檢索與選文方法，難判斷完整性。\"\n  ],\n  \"unassessable\": [\n    \"文獻檢索策略、資料庫、涵蓋期間及納入排除標準\",\n    \"納入研究的設計、樣本數、偏誤風險與證據確定性\",\n    \"基礎試驗的分派隱蔽、盲法、ITT分析、失訪率及試驗註冊\",\n    \"風險模型的外部驗證、校準度及對台灣族群的適用性\",\n    \"成本效益、公平性與資源影響的量化分析\",\n    \"作者利益衝突與資金來源\"\n  ],\n  \"context_verdict\": \"延伸前作\",\n  \"context\": \"相較於先前〈使用糞便與血液檢測進行非侵入性大腸直腸癌篩檢〉聚焦檢測效能、可行性與公平性，本篇將視角擴展至臨床風險分層、分子標記及AI如何支援不同篩檢決策。兩篇均未提供量化比較結果；本篇補充的是決策架構，而非證明精準篩檢優於既有流程的新臨床證據。\"\n}"
       }
      ],
      "phase": "final_answer",
@@ -3500,31 +2112,31 @@
    "top_p": 0.98,
    "truncation": "disabled",
    "usage": {
-    "input_tokens": 3096,
+    "input_tokens": 3214,
     "input_tokens_details": {
-     "cache_write_tokens": 3093,
+     "cache_write_tokens": 3211,
      "cached_tokens": 0
     },
-    "output_tokens": 1588,
+    "output_tokens": 1777,
     "output_tokens_details": {
-     "reasoning_tokens": 288
+     "reasoning_tokens": 201
     },
-    "total_tokens": 4684
+    "total_tokens": 4991
    },
    "user": null,
    "metadata": {}
   },
-  "42935770": {
-   "id": "resp_0056a71a759a9a97016ae14a18dbd487d1bcd93749c41e4517",
+  "42942396": {
+   "id": "resp_05f7b0e88d34f696016ae2a40b89f087d19f6ecd2f0ba2b450",
    "object": "response",
-   "created_at": 1793149464,
+   "created_at": 1793238027,
    "status": "completed",
    "access_programs": null,
    "background": false,
    "billing": {
     "payer": "developer"
    },
-   "completed_at": 1793149479,
+   "completed_at": 1793238054,
    "error": null,
    "frequency_penalty": 0.0,
    "incomplete_details": null,
@@ -3535,14 +2147,14 @@
    "moderation": null,
    "output": [
     {
-     "id": "rs_0056a71a759a9a97016ae14a19cdb887d18ac30acc155f102e",
+     "id": "rs_05f7b0e88d34f696016ae2a40df72c87d1b1b95da7866dad7f",
      "type": "reasoning",
      "content": [],
-     "encrypted_content": "gAAAAABq4UonQB_f7W28sC-B2gCWEMLV_kV-nml9jOGOizlb1DVN0i4VZA_JjXn-0PJt_AgmdY3y6xWF1HfX7ngrq_Qs0oyiUdkYp09oQRgyl64_aHPjYuMrhfienVHDjhAK1E6CQqNhgiJGWUIOBHBxNm0Jct-vYZee_aUOFL1hv1LzDToWhBMpLSkIMr9wJCez9tY3vF_3LS3g3xygIfKsePcrzb3s0Kjy-FIki44kwuzEmoEJ-3bXE8dyIx4j9W2hohJMJd6PgozvNTx5xdp4lWsR-xXxCvaS6pw7alq_j4-QnpnO7RnRcEaIY15YyRATxKAQ7HO3EN-t03OLkAdgtnSA_TY4txBGOJCO4pbhQPD3WSw4svhCs52PY2wWClMP4SXuHTGW2aI7HhWyClnP_PwZZq-UbcYsrIF9vcBHILFSZbqOrGBs8PQNNi7rYP5IpYlAXUgYH-fHZlLv4KLNsCF5pnR1K5SF7RBU6hJME2fEP16jsloBxrEAUff6C1_6sB9H0hoaUjmgKdStP0mUJrwbe7LbfBCQwd3YT22P8h7hfGs0N_tgDHUrLW58RXcf9FcU-_u4_RQFe9L6XCaNYKiTy-NMiyEVqp6M3z1BvrYJ1nzDWBHTwu33gOab9ceo3P0S5hOSAJqBWDHlIiMw0Q2ZuTaHlWwc89Ih5k3lghBIYiY4KQSGu-VoY3WB2yGgIVaZlpKwdhnl-wZZzZ4X7tBl6pQvr6U7n1VVDMOgsXBRFtEue1pCzHA-tCSrOg27HHCsoY1O7g9LnrjHShd99IGhwrXww0u8K2OVKBjiJnSPfs3EZsRtEmRsrw-vAaqf-XlHVw2gP_i1_QBBmQy2YY9N90jS0zMeAFGH-KOwnUHzq1c_COQvwDMv15L053Q4oipuQOnFR3dOjzUyEaogmmUMb0iE3or-iJXyaTSYE98CB61avuzylqpmC0JcVNWseA0GBjyi25P-ekq7V_CIBPFB_tM2P38TzhKcAsYMufqfFWL_0RG6iYd2uywqJagJaHL8NWYlztN5QzYMtxMYCDIWeNrQEXt3P5eLxOCFabYEgqmHmGLiGhndcftpQd6HoKT6Yp7fNbv25vBqXtZPOhOtsMBTULxL1qxrl2KjCYrp7_ZvteBPNFQi30ykqAniiybEMqc1VgG0I2IkeTL8IODGJyY1eqoy-4xmETUBD4-3qTc8e_RZEkARisNmy_-nUeW27i4VIWYR48eybnvXjP5F51p8kf4RgrhBtEq7pzOXO9teCDdt21Bj4nZA1ohfbTpgiZWRkC3qKr1ijpY6J0G8XoPq4GUdMMxDi3v5NsmDte6GNmB1Xs4HRKL_CY6nI4mVBEi88GIOZGsliE6OMgqQpJe_PKeUl1P0rJYxm4Xhxcdno-U7x9fvqt_NlmBV3Rd-gigR4nOnyQZhbWYOTQJJvemc9IE596qYSssyUhE9022JQ6GrZHYc_3XsqzOfQKw641EackHIGvc3encjg3t7y1EgK3lw9NlRmMrI3pENhTHsZspAigMsBBbcuKuZFXdkzRSpjv_v4jOvAi8UjqlvUlqQ2al0XqX5dpV7cKZpzav8jZGlw6Knm4dbf6gBTbWQAJnjiGlI3aWga-qlgyDxSqJyMUcmVSCn5o2VrERH_8ogKOiIpWrbdr_hRSXDFSiKuvvYyejmTHyDLnnl---DHU4wqPWTzpaqPf5EMNVLqUKJRS0BWDQ-7a8AptXD-w7wi89hZx3EowD63vL4BhWDlzaFGog9kStuloh518dsCFjQ4FGm8xgSEc67mOQ2FSt-YUKYZUUa-_3_J0KAdlTqzeL396Hg3WanOC0nt5sphPjwqYlVk03mHFL4r0t_YRr8OpruTu0VJ7JXj_UaB7CX4k2bsYPt7QEILNRGn3jSFkprnfh_3XCSwbVt2xOovBvOtc03oTSaaEQOumx8_7cWM7WXkUumO5LnGFf0fq0e8xYbPR-aCJAGFlnMNpmjrmKiYO4g9jHTlTPk5SXc4A_jjM956Qwa_b04XSc3Sj7-DqCcKJ20MnmhYxOpYAM6-a8F5Ef2Lz4HZvr-hQWpTWz9Al9jJ-NkiNYNC4BjN-VIUCLzUap8Eyqpc6W1NGKOyzqqJI1E7nvVNFQTVUv08RrxLPOXmh9ZgUMEfQtxJtqebuSdzbNq1jGc4CMyBeCUdc-4g8KNQH_DdsV2ZoaQpNTs64GjjEFN07_iuyQp7QT3uL_zJsGSA6SuFOK43l6U-Qwql4nHbUlbwrH4_5EBfQRk3QTbG7YwhCfEwv1HXZkb-iw4uqTartVvD-LtBbbQ3V5QvAYsJzDUhQC1GVi7--AUtCKQTMjBYM9YgGHNQcagRzJKTfRDa20TCz-rdXAjNX9xJ6Wa4C0sx2evnd25-AO7iUkucmtn3ZgtmTqjiGtLYCh7WSLxv3KOls12mze0a-RD1BsFn2aaPGxLxQ5jhfOZSlXSbj5YdEdP_0hbK8UJztUPAB2cIj3tNHxdT1rbSsm-k_BPQZo65qYF5ZWFizapcRlFs6ic76aIaGtUV5Kigvjyqn0bClDzCUpXGkO2L3P6e5QMyE-IR_rZU79zAexhUJ7ZUW097qfOmEM3Sn_xD-PB66Rw7vMSHtwJ5Xp_uYtONGEwLjrcGTNtRgdOuoh5CWwdcHhyavW9bjIWeG88XkiU8z0zEg-WxJdmy5HaZ4jJpgZMWRSi5htDzCVGGdE2_2n5xFwjAYjPg01d_PWebNuMo3a_EUY8vqUUALwTxZGcHYCa5JqlX_pmXE1UuG1y9Yh5gMJt_5HQLKPOKvEr2ufXrguCUL_bNBYgj5NrHDiV-CDilZvw4HcDim2fvJ6Q-WJcyxhzR4bpkmni7xt-4FYX2Ud0JLvYAIcObxQuvWLyqdcOH2WhFP_hJn6SmkwViCtfOaJr6XQr3TgZy2VDQ91FVl1o5Oqot_0heKxjNsCEvgyfL46LUDYUhwAcWPcFrxSyYbGmRBl3K6YGLkLkAKe1qrgDGZwihLvFAcQOrqb-Anc0CYlVPPzLYNwF_xYOfU8qk1ZC_nPmLJOPIb_ScxmIw2ezu51lGaIT0UYMoj7gK1Gy3yaMNs4KDJg898T1EtsDdlNao3SZEOiAqT1YgSgl-NJ8DzKNve1AzPq1x12vshQCrMUW8mGD4jhYjtS-RRi8ZJ74oZnZPCJVDWjhepBklMARpWDU_QO0IikpC3PcCHe8",
+     "encrypted_content": "gAAAAABq4qQm-YTZxiuvFgmEYB8GcT0dL8WVRNy8vcadzQ0ZwPCLBftuHorPPKgoqGxL7R6HXVd59UM-qcQ3W4BfMiqHOlWK-QFwZ7zJcHohSnIAXQ6JlqfPHqt-LjCEGElFkAlWi2XTaq-zJcD4zvDa0g_QEy293zvqH-WNB4oB31AMi09AqspN1340I6bGwBVaf0tByDPWa-9hL8NWjLHKCYZJlCr4FlIT8MBPST0S8dduyDYiJ6PDJOrh27Xhv_YWivYb5gH85hQoYj9zu03GRDiOLFQihGSoZgzcvHFDs0qrTQfh_P0Six1QE_5_0qCJNXPCojmJOhMjmcUGOAuOibCOdvCeWTYMp3A0UQu5S1WlYKWpkdGqQyAa6PuMw7E2xwG5ItIgTMzP9iK8tkeWLls5Tpw4LPAJ1lXldcYexQ5a3uAG2nW_adCJdB-5hgOkCpx9foXveiu4s7Tjm50msTNKBdAHGlRYz3FRhxe_gLTAsF1a0Bjua29L5EYDSRHeoYLFxQZv5AdGoMkrvABAStPYX6GGpBOhYgqTsLqKM-z3c2ejA1YNZ42queKim7256CS9JShem28EVg843D1ruWoY3FpXmPhURpTK-wpkw-jT2W7Pvq8_CfgRsIZJMl2-5h8KaLmAPn3nVVFF8IO5EWrQS5Wd2TtvKZGlz3IDlTahfNyRppujZzCX2PXV5h2hEOu60MSkrx_kvxijD2-s5psTYw5oInGqdVwHuAD6rvtC5m2ef3uXYE-md2J9CvQjByl3mqNKLrgmL6W8cIk8Q9w4S5zR50FP279xKlRAKJJNLjbPXBsi2MMBhMBG6dcToL1eHLoNLtPm-eTLhcWnVUqXvyllA1KUY2afaiIoz4gtpVvU8f6Dw2uBaVZJ7DJTBo1rx2Rt0DJcZl4dRDvFwypqDytAryrr2h6Cag460SX8b7g1u5MWtl9pO2wUUDRT5U6Q8EID6wyQNeG2CMLELEOSt-YR9y4Uaib0HkCxMC-J198TtruyTrfgGqSHV_PryUJoPZKxk5vHl-aoU4DeJwgvQci8qHe6wFNHln3KPdhZGLeh8v79O83pjI8zIyO9eABLAV0IzKeNwrM-4whHQUkUguzOYwFbVZyxHSOs1YFtiV9oP6FDT5O1cXmvA0HGINL4Uau93lZxatuppUPmjRKXcF5ekRhygvZODRyuQckqOh5rnX9k3SYqrUEDxzB9b_n90Mno2K6NBxcQN5IaqgEr-rGCwiEP0vz4DNrAmylRejuwmFSBjcrP1DRkwTOwI9ypOa-aoLpAoiV-AZuQQHMXXcYZMnfT3x9b6D9RqNnU3hO-uixiuBXBJQcNSDg30FB5TBPfuYOtId0bCPUEULbrkX5k1aGX_Y53TZwbTABA2bSphm9xDbBd8obz3gEyOhmJfvuJ74Lhrho10GOgup33JCMpiV4gkc8ANj2_jYub7Y4JdsY1k0CbB_yY9KaTigsyrdjjoM5EB7-XM2ZG3j-nvJL9cFJ9VEFDZOmkx3vOVkEAsWcLBHDvaphcyhA3pSdHIne1ddMLbfIZp1NeycAKUxRhpfhE-6Kox2Z6E22PS4rnCy_iusv5VuTJiXkwb5_3zMBffwnVI6qs27oVYNvK0cSQLIwfrd4CVoXe7C8EW-7dsPthiplJTE7PhO6Zr2eVGbVqfQx4vfREDbPBp9RNOKDw0Ei8vc5GI2R-GYdHQC-kQMqHpCEefRMTLT2f7K_tLI7lSuEGdFOp0utp3h-wNbI4q6p08RihylcwkZNifyYKEN26506HcS3ac-zX4b8hO1och_ak3tEX1GwE8lhWNj-yuoTWQGSOLfHv7PionPHLue6_UmuhnsaCqT5N95FEOvr6kaow-mGWPyCOBopSsxJ1nSuvu6B7f6ZD8iVYMxRoWl85okNYOPMril_SNJ7o7RxB-rHbXIQz4zqj30_UlH3x-kqikNwj7W8WUAQ6NZ_M8Vij2exzTSs7WjTLNFoGvuiTT1d7h0M1nLS_MBeCtPk7NyZsarTmZH1hL9MSGZ4xXGPLJAzB8Xf5xNsIsBTxW8rZt2lI40WBsT-kqtt9flon5ORbHpcRx4fVkmHjgTapIQhTIW_e2ztbZPLCNSHbLk3ieeUtVYNkDegSLNaQdcpgsUjscGz74MJCgzNFOdD0t4il6aN7Af0CnxSHd_gK8EL1HfBWT12XiYkj-pb3Yuqw1OyYxHS2IxlqjqL4Oh7-SdLop207zZC2yKO0H8kD9Z_EfFtudlJnNXXPce72ZGkG2EGpu2GkP88kwDovT71T_4o79rYpkL4JSTr76RP_yiL0uU8PWgMoU8cNA3HIKu2RlH0IxixKCfBsq6_I_Bl4BGgX0CZ1bX8Y6QHIIaT_smtEq9cBKaClcFT81oi6L9GUEwgXEtlaSKnHzgdu09dcHrHf9PT8d4PQZ0797Q7UAnHf6rxzECieL7TfbK2-f_6ye6RhruBziSqwkTssShBYQrTMOLiZL8CDbJChgTHm6Si4R-QU_LpVG6rQJniv3VFrVkFCpyREkS_mb2dImZQTnqt1lASVdHR2mAUEdzqbVPTqYmW7vUkAPrhLkHuHD_0aEzPRHVUnTu_7rT4b3DrVeoogN9KDUcX_4T--O9v1iWGlvtbNOzqQn2QrfO1lom59iMdVlZMCUW5cXUEa2JbcLJ1iE0Zyyxpg863AOcpLrqxR5FVkcg1X85ltGN4zBTfyU3B6ga9Cjfa0he_p4qQvQd76Ift2MoGnWRGpxOUnOxoQPrCAMyIsdKzGIdtJJGabkezyFzDo45c33yehaefLyYz4TskvB_MVv7wML_m4jatWtkJnZpEN1DlXJrVL6BsZeSN2D4V-UIFkKPYEoH7fPZlw67p01hHwLbwXzwXxAlR6VmpQ5SImdcn4EwNHeWOMSSw4ePr-K9A_IgLwxmonIFo0MBLs0SyNz19YkZqQUiJQOJQYcquJWBlaNWzYaVQx_w-TO7LC12H1wzdFYMM5g_rRB_vbFY9PMrwj-0fHNPEIzHBzfPwrDdTt8hg5HZ7K0oaMTmUKGJPXozQRwN3EHexSmKKPX0K8doHk9mgQzVte3BZyfkO8L_ayLMN2H8Jy7XsGV-AnfhpbAgkFwmMfUI4-ddwccS2b6FbZtV3kShhHlWwreaI7RwtTbzdc_X-J3Aq3NRZ7r-K0Xjb3kRttZpFRtN-QRedCddfgP8PM3Ixo-fv0vNG753n5ke0JKJ3f_Aky82h2DgidPUsBoZN6gCdhLRRLfXlV7QJtBaZkwFy-WBu9hEuzEfAjLOuDfWLU5Fupk_vxQMwxz7fS6QMHz3abOPwBjQXkjDbaPadgYFp5JXAk8a75ShmBxYA-iiv7LcNVPZQ9dbzMsdG1JhYHXUP-FRwliiYCUVhc1ruA8R1F5TeALPiqBAUnuSblaTRz-lMKXPGqj3Eeyc1zq5xwZnZy9JEZunXcbF8joB181EF9HY0jejmOJHSSS2B-rlItPFX3cuwwIQ5TH-MoFsdy2eD7cAxIsOjtUE_GWk3p4XawTV1s2V4Utui1GHJfGJ0eLzCRo1JsrbwzDGLgHuB1J00yQMtTq_ma9tMQ-bfP0ZvNdeJ7jjc6c-n-XLchdU8RWofQs25Mofu173jsXjrL-e1-_wt7B3zOEfDQZYnNbmDNmJrTrmFoJLf0-I5qp4qIalMN4ZgTiJGEGMpKG-u228VtInrCATRQWKWofEf91AlHwt5wyyHK-pbBYMPiK7vmrgMnrqv4PTLffqds9fuMrm7b8xYVGUMJSUP22ndKjIH_dSZH7I6pHakAAOuqax02ZjILY1z88RkLEzigdohmJYfvXboL3TuMa4xZF3g-PmwsoXo10gjWKr4napNBx9bpl-h1J4gR6tBJX5pExlS0fodMmItFDxI4LFkGHCCPTLsE6HSr4fqGhBTHH5_W_8PnR2FjJ0jKU-55RQ2-Qpq4uLy2pm9HZw9Q8Wfmi6oDcMnug7GpmjhBQSPFeFoG2M1JyKwoY933Z2hinCvQWn48F-dSyh2ONZbo7L2B77-_jwk45q_bOBnt_cyOPMKXf8D46USg2Ts5re3I7QY_V5HNXJYjovqEyCw7RMz2rmWWAxFtCRyO-RiHMz5DnBIhttrisTrEuQMFC9jAo7fh-A15fHxS-spiCHx8L5UKjFFeHcwOuKPcaQIsIoM294vpZr9tsntIBBO_f7lOdk44936pUvuMMVTLLzTOspLk1fSIGbxAZk2GJQaqHyAumERRors3dSMxfW5fP85QE2jHFa4YkxpBPPcA9xdlLpDXU6ntmUsNWOz8klDX_x-SZjXUTV2YRqp6QJ7pt2mSNjXNfh1nl5MUf_I6wiTzfuQxJ9kONHZbUiN4pHpEtteshzMZwId5xE3UE5PXotmTYGAIR4fBJYXW63rK8N8WAvxeA1nKFEQM_IQjdeWiXVs-P-2yVdbpQf9MBeCksHTzsvd0LbLFeqp1iS0G6ZBdXk-jOk2f8R4VdWNFS-wNN4wddjuL4nqZ061lydmypFBQ8O4toHQ9CEJauZmW5H73A-NGPcSnWIDaICS66CdOrU-Ci6X6lX-vOjNMVi91BO2TafFcSNIqeFPtyGDruxadLRWIB29mQzIsIfXDO0_tFX8UzeSlrBJ_KHIG7AKWnVOjtg9L7M_gjf8DJGoHtjaCe5aP-6S8Upeupxr2Tp8nd-o8w8aDVHO9zIgMp3v96eqCzhl4s-fDxZnlf6vzPQHSV1Dc3OX_rB7-kUNR05h2aGilS__A5bUzhZvSjAKJLneBddVdzrSnxZxfJ2zgqfkyxV1FXMO6AGt35S1RM9qzBK25MR1lZZHAwwgEob2uIw-o95kVzHThG0DMyTECoJjoSwZM_7K_s5veZ7MnaW7VwG93ofuQ1m3oiyPpuqUTJX-yM2oXRiHDuH-SrjGYqxh-qz_P1-UN9QZrh9WoyEEYIQfIsPC4tLjQ0NNsaBsOR6nPj0IS0Z9XGjX_5uCxay6krMlWIB5oTO6bNBN4iDMni8Mmdozsq8QXs-rQWhaBbVu7LrZyJQI4mJ2xlFaHB4pnIz5lgFLw405RDq5GkwvRDC7Z7rZaErYCUYn9Sp_ryrNurAZnvf3wHJZfYfH-izfOxwanbFu4Jhk_7R_N2NmD2CPh5qQaMM3ZD3vwm__w22Hv1xUhEAMgelj3uPQMN8Q0XFLbV3g1T46djRahRReT4Bd9vYjph4JTLsqfQ1kVn2IEt6sLvBKM3w3PvL9fsWB-RPgiqEAa_slvGulKgr4W2CIDwAFNMMMnPJysPct7_kDbFDuLm7Airq7z0i1r35AMLoRhXmi9n7wQAq7WXosB4rSUQdfw48yPN64XghXWHjnKN9xqhxsFnG0Ty6HDK5uawSesCiiFgbYpja9Kf3yp8XokCMUp8-5cOri4j7_ZuYkjPJiVVxSolEI6TEaHx_ii7LYXHT2BZ_Hf8l79V4VQK4oV0xm4Y4PaBi19Y9WfWSfmFRo0hLHQpcTkgvNcyhtTUQkNB7dpP2Ri-bFHksBTFHZJ0EYMMJa_FlBBzfPrBo0Qjqu1rvY_r7pmV-v5n6R_rGKQYhqi-tsvB5YPq_QKPbB4KX9DEXnYFGX8n8QtwboNtMQZSDGnESLLoRqJH8Dk7mwDNyE66CCROzwSBm_7u-JEq4QJTdRUO9dTk5Ll0LT16a1_R1A-j_cnXaxSfhFbPLmZXDwPGXvnQe8LIzCU82lrOuktnDVSmgDEWJasSC2CV4tel3Ok-0e26xPTRJjqo3z_0t8jJy90k9GASDxd2TwuSR8b8T6Dsvjc_fkXsBjpOWPLSAl9ayW-hVsQVxchVSFw3sINoIdrwGsQ9r2N891GKLv5gj6Sc6voK6vqHvkb4yljKvwKPa7E6F6L6-3lGmXFqLWb1lElegWSLYXyQToxK4OysOimPs0UjDtP50iChq5TDhwE8Dc=",
      "summary": []
     },
     {
-     "id": "msg_0056a71a759a9a97016ae14a1d3abc87d1a3790ac84123d1ae",
+     "id": "msg_05f7b0e88d34f696016ae2a416000487d19883d01e1ac68616",
      "type": "message",
      "status": "completed",
      "content": [
@@ -3550,7 +2162,7 @@
        "type": "output_text",
        "annotations": [],
        "logprobs": [],
-       "text": "{\n  \"title_zh\": \"腸道細菌對大腸直腸癌中 Toll-like receptor 訊號傳遞的調節\",\n  \"abstract_zh\": \"腸道微生物群透過與上皮細胞、免疫細胞及基質細胞之間的動態交互作用，維持腸道恆定。這種平衡遭到破壞，通常稱為菌相失衡，已被發現與大腸直腸癌（CRC）相關。同時，某些共生細菌已顯示出保護作用。Toll-like receptors（TLRs）提供重要的分子介面，讓宿主細胞得以偵測細菌成分並啟動細胞反應。本篇迷你綜述檢視腸道細菌及其產物調節 CRC 中 TLR 訊號傳遞的現有證據，這些作用可能促進或抑制腫瘤發展。已報導的機制涉及 CRC 細胞，以及腫瘤微環境中的免疫與基質細胞區室。現有證據不支持將固定的生物學效應歸於某一細菌物種或某一 TLR。相反地，已報導的結果似乎會隨細菌刺激的性質、產生反應的細胞及疾病情境而變化。釐清這種情境依賴性，可能有助於了解宿主細胞如何透過 TLRs，將細菌刺激轉譯為影響 CRC 進展與治療反應的細胞反應。\",\n  \"evidence_level\": \"綜述\",\n  \"score\": 2,\n  \"score_reason\": \"本篇為機制性迷你綜述，摘要未提供原創臨床數據或量化效果，無法據以判定介入效益。對台灣大腸直腸外科日常決策的直接實用性低，較適合有菌相研究需求者閱讀。\",\n  \"relevance\": \"低度相關\",\n  \"relevance_why\": \"主題雖為 CRC，但聚焦菌相與 TLR 訊號機制，未提供手術或其他臨床治療的比較證據。\",\n  \"novelty\": \"仍屬早期\",\n  \"one_liner\": \"在CRC相關文獻（人數未報）中，無直接組間比較，整理細菌調節TLR的雙向作用，影響程度未量化。\",\n  \"action\": \"目前不需改變做法；勿僅憑此文為CRC病人選用益生菌或TLR標靶治療，因缺乏臨床效益數據。\",\n  \"pico\": {\n    \"P\": \"CRC 相關機制研究，涉及癌細胞及腫瘤微環境中的免疫、基質細胞；研究篇數與病人人數未報。\",\n    \"I\": \"腸道細菌及其產物對 TLR 訊號傳遞的調節。\",\n    \"C\": \"無對照組（綜述本身未設組間比較）。\",\n    \"O\": \"討論腫瘤發展、CRC 進展與治療反應的相關機制；未指定主要或次要臨床 outcome。\"\n  },\n  \"effect_data\": [],\n  \"key_numbers\": [\n    \"納入研究篇數與病人人數：摘要未報。\",\n    \"腫瘤進展與治療反應：未提供絕對事件數或發生率。\",\n    \"存活、復發及不良事件：未提供比較數據。\"\n  ],\n  \"cautions\": [\n    \"機制性綜述不能證明調節菌相或TLR可改善臨床結局。\",\n    \"作用隨刺激、細胞與疾病情境改變，勿將單一菌種固定視為促癌或抑癌。\",\n    \"無絕對風險、效果量或信賴區間，無法量化效益與不確定性。\"\n  ],\n  \"unassessable\": [\n    \"文獻搜尋策略、涵蓋期間及納入排除標準\",\n    \"納入研究的篇數、設計與樣本數\",\n    \"人體、動物及體外研究各自的證據占比\",\n    \"納入研究的偏誤風險與證據品質\",\n    \"研究間結果一致性與發表偏誤\",\n    \"資金來源與利益衝突\"\n  ],\n  \"context_verdict\": \"無相關前作\",\n  \"context\": \"無相關前作\"\n}"
+       "text": "{\n  \"title_zh\": \"分子反應能否重新定義直腸癌的器官保留？從臨床完全緩解走向精準觀察等待\",\n  \"abstract_zh\": \"背景與目的：對於接受全直腸新輔助治療（TNT）後達到臨床完全緩解的特定直腸癌病人，觀察等待已成為可接受的選項，使其免於接受全直腸繫膜切除術（TME），以及隨之而來的造口、排便、泌尿與性功能障礙。然而，省略手術的決策仍建立在解剖學證據上，包括肛門指診、內視鏡及磁振造影；這些檢查描述的是仍然可見的病灶，而非仍然存活的腫瘤，而這類病人約每四人就有一人發生局部再生，反映了兩者之間的落差。我們探討分子反應證據是否應納入此決策，以及應如何納入。材料與方法：針對 PubMed/MEDLINE、Europe PMC 與 ClinicalTrials.gov 進行敘述性回顧（最後檢索日期為2026年9月20日），優先納入隨機試驗、前瞻性世代、登錄研究及統合分析；依證據與觀察等待決策的關係進行分類，並依其分母重新計算所報告的準確度數值。結果：直接證據來自六個小型世代研究，其中四個為回溯性研究，且準確度取決於檢測方法、時間點與結果指標。在一項隨機試驗中、納入31名病人的超高靈敏度檢測子研究裡，再分期時的檢出結果既無法預測持續緩解，也無法預測復發；追蹤監測結果呈陽性的病人，後續發生復發者不到四分之一（特異度27.8%，陽性預測值23.5%）。依個別腫瘤資訊設計的聚合酶連鎖反應檢測具有高度特異性，但僅能檢出23%至74%的殘存或再生腫瘤。錯配修復檢測已能在規劃手術前改變治療方向。目前沒有任何分子檢測經驗證可用於決定省略手術，也沒有任何一項曾與癌胚抗原、內視鏡及磁振造影進行比較。結論：分子反應應補充、而非取代臨床及影像學評估。我們提出「整合性完全緩解」作為研究架構，亦即解剖學與分子反應一致，並依基線腫瘤生物學特性加以解讀；其最具合理依據的初步應用，是放寬監測，而非升級治療。\",\n  \"evidence_level\": \"綜述\",\n  \"score\": 6,\n  \"score_reason\": \"切中直腸癌器官保留的重要決策，且具體呈現分子檢測的誤判風險，值得閱讀全文了解限制。但屬敘述性綜述，直接證據僅六個小型世代，尚不足以改變手術或監測決策。\",\n  \"relevance\": \"高度相關\",\n  \"relevance_why\": \"直接涉及TNT後臨床完全緩解病人的手術省略、觀察等待選擇與追蹤策略。\",\n  \"novelty\": \"仍屬早期\",\n  \"one_liner\": \"彙整6個小型世代評估分子檢測輔助觀察等待，31人子研究陽性預測值僅23.5%。\",\n  \"action\": \"目前不需改變做法；TNT後達臨床完全緩解者，勿僅依分子陰性省略手術或放寬追蹤。\",\n  \"pico\": {\n    \"P\": \"考慮或接受觀察等待的直腸癌病人；直接證據來自6個小型世代，總人數未提供，其中一項子研究31人。\",\n    \"I\": \"將分子反應檢測納入省略手術與追蹤決策，包括超高靈敏度檢測及依個別腫瘤資訊設計的PCR檢測。\",\n    \"C\": \"綜述本身無對照組；摘要指出尚無分子檢測與CEA、內視鏡及MRI的直接比較。\",\n    \"O\": \"分子檢測預測持續緩解、殘存腫瘤、局部再生或復發的準確度，以及能否支持省略手術；未明列主要與次要結果。\"\n  },\n  \"effect_data\": [],\n  \"key_numbers\": [\n    \"直接證據僅6個小型世代，其中4個為回溯性研究。\",\n    \"31人子研究：特異度27.8%，陽性預測值23.5%。\",\n    \"腫瘤知情PCR僅檢出23%–74%殘存／再生腫瘤，尚無省略手術驗證。\"\n  ],\n  \"cautions\": [\n    \"分子陰性不能等同腫瘤清除；放寬監測僅是研究構想。\",\n    \"直接證據僅6個小型世代，且檢測、時點與結果異質。\",\n    \"未提供準確度信賴區間及完整分母，且無標準評估直接比較。\"\n  ],\n  \"unassessable\": [\n    \"完整檢索策略、研究納排標準及是否採雙人篩選與資料擷取\",\n    \"各研究的偏誤風險評估及證據確定性\",\n    \"原始隨機試驗的分派隱蔽、盲法與ITT分析\",\n    \"各世代的收案方式、追蹤期間、失訪率及參考標準\",\n    \"準確度計算的完整列聯表、信賴區間與各檢測門檻\",\n    \"試驗或回顧註冊、研究資助及利益衝突\",\n    \"分子檢測的成本效益及台灣臨床可近性\"\n  ],\n  \"context_verdict\": \"延伸前作\",\n  \"context\": \"相較先前TNT後MRI反應評估綜述，本篇補上分子檢測能否彌補解剖學評估盲點的證據，強調目前只能作為補充，不能取代臨床與影像評估。也延伸先前觀察等待安全性綜述，但尚未證明加入分子檢測能改善器官保留或腫瘤學結果。\"\n}"
       }
      ],
      "phase": "final_answer",
@@ -3847,31 +2459,31 @@
    "top_p": 0.98,
    "truncation": "disabled",
    "usage": {
-    "input_tokens": 3019,
+    "input_tokens": 3288,
     "input_tokens_details": {
-     "cache_write_tokens": 3016,
+     "cache_write_tokens": 3285,
      "cached_tokens": 0
     },
-    "output_tokens": 1222,
+    "output_tokens": 2011,
     "output_tokens_details": {
-     "reasoning_tokens": 136
+     "reasoning_tokens": 353
     },
-    "total_tokens": 4241
+    "total_tokens": 5299
    },
    "user": null,
    "metadata": {}
   },
-  "42933423": {
-   "id": "resp_02e3083051083d63016ae14a238fd087d196626835d1a671b6",
+  "42945032": {
+   "id": "resp_0cc8f9a2aa37846c016ae2a410308c87d18d4123234e80282a",
    "object": "response",
-   "created_at": 1793149475,
+   "created_at": 1793238032,
    "status": "completed",
    "access_programs": null,
    "background": false,
    "billing": {
     "payer": "developer"
    },
-   "completed_at": 1793149490,
+   "completed_at": 1793238052,
    "error": null,
    "frequency_penalty": 0.0,
    "incomplete_details": null,
@@ -3882,7 +2494,14 @@
    "moderation": null,
    "output": [
     {
-     "id": "msg_02e3083051083d63016ae14a2512ac87d1bef2aeeef6fea19c",
+     "id": "rs_0cc8f9a2aa37846c016ae2a4114bf887d1a1c15fd81c16c433",
+     "type": "reasoning",
+     "content": [],
+     "encrypted_content": "gAAAAABq4qQkwUeFrcIonxk395ZpOK65QhsgqQZSpwEZwRjz8rq-L0VoOGARJ3_gcIEfWPmkd7H2GXIENy_TXQ6sUHZHdPODxV0R6Cj1xRLh2V06YM_zhrdZ36XRJpwp71k8KRRXrzVZJDhmqApXusXA0QYxBvTAYtajoDdlPGKyJ84Ae9yXt_ZhrTevLhq1NRwiRGNivFFlEWat6Hk5YluY5OARXzr4Akfk_GV7jzV7QNuoAbiybB-xbQccgq8Gh4qgcfJpvdcyCCP9mvN3vk8zNCVejUU1QTrLhwi48jXya9H8U3xg4aJI03vLD0pB8sY89e2PJ18sWlFInyylt4yHMBVZG6YVdpTb-FMF9iz5j6J9eQA8UNdxxiqHR1r_uicquhsb4MVXTfQhUd2yWjDw5ScQu4tZLURtU8FfmyP7N2TZcD2nS_ODISFhSDUyQopO6Ks8OGbI7zB4V3v_tqeGg9983JB0wS7uI5G8tLeSTe8ZWyAz8wsDQgmqtB7YQcrV37HKsPZXLoQx3OJ688ofp_dXp0e3YpeFdCb8jKgamblpbT2_70lTEw5bJsLdLLnq3_AydmQc9WIZsePSofk1XlWswxyR6D5o-Nw8zkwRpmXBy6wcAo2jZYOIoJYZcoFiAvCKAi78M-O8DN75GNorGP0jZdufFps3XexrNkaJb2Re6aQnNnuA9J666K2l4u8EElmmcsej1_I0bxAk1yc7PxIyE2GWx8m68Ob9Wciw5wDHD28-BzuubiLfU9gpYw3jMpzgiR6oGJB4pbmKoC-cLl3pXZtA7KYmHHaYkVmima0R7QRqSJZcjGx_GF31NMF-ffyTL_7Gqy0rxTgV-SuKEjZI2o-WYZINDS652wlvcnFmnRkjvwffzHi0ULumctEbucGQeGe1XHfrYo-Hjo_hzLAP4TyVOImoTz__CnQLPJ8yIln-kXXmT3zXLhwSKfZnicj-wRmupA3zvI5YqRI4D4lAJmCHz_yb4ih2hEdJSezFW_8wpdG6hO2K9dVCO2Y8CRrJmeqlAf0aqtfsbWAEi94bL0KFX4Sw0FJVaUlKYn_dXdw5Haq6ngloes7xX0ZVaDRygOiQQV8ZJLhX_Ub_T2JRpbq_i5u9syn725olVKVsC64UOit8Y7XQNqQHs8eY_XTZl6xDjFR_6Dh-3FsDWfv4bjmXGKXskJxx1DiVGXlyIVr3mVdnEMWyi4CNoeRIVjKdYGELl3gdq_AwwTDjjmPkfvfGN1966oCPBmV2gdwIDDwE83rXaaT0PaFi7gvKf2AbAjLKkB4ep9BMWR2kVw5h_V6lFUxYq27azhbv0gfHLnoIts2pD0LKUcS7fY7kg5BebnD9GZ9dvjjxDp_Oml5AkgqOAwZq-UVLzWxo9zkNrcHRUbO_sl2PIGq_i6ssN5dD7uNojX-Z1Kz_tvyFkhot_36QkCAwh7GCs_i8KNx43F6iAb0f51hs-CunJo4lGCG0fNBWn9EQQ9Kx5biXmQVDSQPcDm72fYF4tLyjfrN1y1ZmWTmTf15TMgp3ZsyHNREtCIMATT0Zbl6301lP-xYg6z2E9hH07emdYAAWcM-E-3ReNoJc4Dm31h2txClfVVX1y8qlr_vxnezXh-YNIrhkCJtPnYpN-_tIYqxCvFMT1z4OzYCT3h3mO01aYuFwuHuG9DRADWU_nqNrW9hSpYDZUMjsUWObKE_pLSIa9MP7X-3l4Rfw-1XvyOWux7FrskkGBS_2NQmD_ncaJnr6Hed5V5URCyxHMKjdM_l0GSdTJ6n84mbn014I7nUvTHCiboEO8tgX9lX0aC_mpLcl30jupiUjcS91zVOLndKOymAOcFn-v1Chw1IYv8TphpLarp7mQeXKrS6I85EJsHUdpFzSEKTvFQzrS5E-MAtreI9xCPKoJcydgUTl6caukoW7MyZr3fUNKCNB0WhZSL3VOgYP01NZm5Uvb5g8IVOZO3Z-sIJRKxhaXkg9CNmBudiUU4dtJRi3vif5Dlxl28RpGXHpGlDRlLyJGL4CPmPomcM0IoJ3a519BLfiB_LXZX9Yi1Z9lVWhfIykk3bvAIdZGYkb7NbR4TYkCNotUPRlAEohX5fADGm7fsfpWo_BrkQGfLetSsH1pvkJHEry6r82c5zOvcfWN3-VvcD3K1ChBlZ6LbtE8iG2lcdCdS1vJxGNjJrFcIj8LkOo_my0ajpQYWCI7Laa-2A8C14B75dZwO05Tb3Zprke1TSjp3UuLK6h3A5L9DpcGHgqfsNQpyDdHTTZYNAOlSPObNIN27a1Ht1fftPEKSaeCOs9No5WByyI5eVzJhy14Ch0LubF9HWB_HG-XNQwedx0ZIftF84Nby0YDF9Epke0jtcOzAsprYEum4g6cE_iR5PyROgmmbunQN2Rltu37YfMRvGGQpzKGH_6_rG0GFZA7Nzg0fBe6Q7Gq1-u4rdiFvETa6HUWc3ypGeMCnr2ezk4umshxFvZRZ9Uo3cft_Bnr1gGAxv39y4rtENbKTr3MpntKBNyjzW8jaqqrO5k9fzNtWCKzM4u0KPU5J8xLZe2LvTSDtMWMgNkTUuqH37D4qjT8LRpco5GDF5t_teTR03f_9u8GAdco59enjw53ogOC_6KPXZ6QNuCIDS_niPxTmqdWpav-0Cabcb5R5oh-QJo7PJ03WTGKNYcqpTB5Bz1gEpys20boaYommG0c7uFMRPTIKltMQTlpOl9XwQG4w6Tc8tuUCkqsAA9L1wekm8P0oSs6FUhbIPnu5YPwBPBrORzc2U1GejzD9Ez4C_MHQgo7af1qvIPG5pFcmbXcnOgPX_Agqyeg6wzlu5gbUpsm5uhbvAlKektQCYqKVePuxttvcKP5Pp32lDU0Ehf65wQfTWfWY8m3xihkvRNiLmUpLQCZeTilkthwZxmnvVHFP0G2QAgn0YBBWj313YkrmRF7sTyN2lVTzsvJ1uLPuyLdPBzeL7a_WvhCGzjk4RYqjQWcqZZ0-W0xVowYXXu0iSnYCrX9dfN_3tvmYHbWHzEf-Urov5um5Xb2JGnDOAS-1CdApf0jtZDJNyQrqn4C-q5sItu0xg0rWw_Zj5zvuqgVE6zBoaFp3C2Z89lSDHbBx1I5Tj5ShRsF9D0OQhU6yhMa5R70gS4KMmu00tqqolZUYj50EyoO0CdK4Kr3yO4fo5c9jACXK_3MGXgb4OonvcCNozcgz3j0SQ9USCXZnEZsnyKfP0hQRkTbnf03dS1H3gsFyRoonk86QCMA1jzJ1lAlNUZziOfnC-JlQhwhxDwZTDh1Ie533SIWMyLPMFkmLhX3ATN-2AEIeQVSEOiohaeVdwOsvYgz1TVGUiHTvFtu4CZ4IJKSrYQ9stOPnqDsDU3yvON9W0-FrbPi0S5FQgFXa5i86101Zr43aEIcZCBBTQ_B10jIFkTmlYLMtlM1DyJMd_L54s8o-bApfIsKVlje-Ouurktf5RyxowghMCTnZqfH2XjB94hEjznF2JzNT_fUAmHETlTJ5Yj0-0BtYT-LvjKI9ZSvmJ-aSu_iLP0cWL_51iL2Suv_c1HY-M5kPcLgBDSlTrlQXZt8QAjSNzaFAqs7wblCoEH1kL8c_bJAHbVz14RGhDuFgxcdxTt6ZxHAC4xL7190sOtypPxVx8Y1gEpPGWfakYBvpXRZQqUOI-Zb9YUdF0EaDU1-6d7xpZ5pZls1Xmd1ypBekLAo1vZk1s_bP6uZcJuVCtYYzyvjm7bqfzf0CDG1OxNGBkLnaaI-5VLsUyG360cHkszEc-eqmcUEr_v2mkI9VzmLd3Ry3I6mZ0OF0WDUPIjEYywYGJ4O0iz8ctIcEDbyL4Q1JjsuzH1o8zrrwGfQUOkpA_XF56lqEqU3RaC3BNiduq0zOvi36-fpTPkZQ8zhy7O71aDu-FuEWrGCE14dDs407ijo6vrYE1QfGYh-BECi6OI6on6QrMEObxyZqelfJR_MvYTmyJHZ68fszfFVDTg2DG3qvjaFw0BLjQwkjf0f-dwPY3VgEJv5gEBeVfhZCeMIpzMyXNdL7Fu5NJbnBDTQgatAjd-WPCo7mfc7uUMTHfVcHXxG9RmcVvQm18yQmWgqUAPpWM-PlcEH3OfsehxpQKTk4kckiUKN_lMrF_9idlo-jSgefxHQ4_b6I9unMM26YsIdAF6UIz32PkbnerJFeS48bms3__WN4MBBmKZW7AEWH99KYjdkBoeuSXEAJeYHxzeNKNLdTB4V73vuv7bC8QesP53EeBwMfxTdLHrOcTU8WqipJL--mk0gbi3kIpk7urIbrYvGnq_1g4W3FBwimKgyi9jOriV3ctfujgpHsLm2VX_5gfMXt_EDOqWePH3DlfexdLr8eBKY4aKL3k-7LQon7iCfLiW8TzYm6dHKXKLKn2Z5D5mVCwpnpSl4iBAxro_oe2aDa-hAmtOVx8yiZmxcJZsOMXi0xHnqGVDjWPYRFuVlmctAUo_cX0aJYPk2I1_f07GqDvS0CPGtJPfLS3FxmcAttbUMedd7l1ZYB_tteoovkFx7xJ0spBIinnz2DM=",
+     "summary": []
+    },
+    {
+     "id": "msg_0cc8f9a2aa37846c016ae2a4160f6887d1bd98f731e42113f8",
      "type": "message",
      "status": "completed",
      "content": [
@@ -3890,7 +2509,7 @@
        "type": "output_text",
        "annotations": [],
        "logprobs": [],
-       "text": "{\n  \"title_zh\": \"常見肛門直腸處置的陷阱與併發症\",\n  \"abstract_zh\": \"非手術性痔瘡處置通常比手術治療疼痛較輕、併發症較少，但有時仍需手術。外科醫師必須了解所有處置的風險與併發症。多數急性肛裂可經非手術治療癒合，但有時仍需手術。側位內括約肌切開術的癒合率最高，但有排便自制功能改變的風險，因此對高風險患者應考慮保留括約肌的治療選項。肛門膿瘍的處理（切開引流，合併或不合併廔管處置），若忽略病因、位置與複雜程度，可能導致排便功能障礙。\",\n  \"evidence_level\": \"綜述\",\n  \"score\": 4,\n  \"score_reason\": \"主題貼近大腸直腸外科日常實務，但摘要僅提供定性建議，未交代文獻搜尋方法或量化效益與傷害。若目的是追蹤痔瘡術後 POUR，本篇摘要不足以支持流程調整，閱讀優先度偏低。\",\n  \"relevance\": \"高度相關\",\n  \"relevance_why\": \"涵蓋痔瘡、肛裂及肛門膿瘍處置的常見風險，但摘要未提供 POUR 相關證據。\",\n  \"novelty\": \"再確認已知\",\n  \"one_liner\": \"本綜述討論痔瘡、肛裂與膿瘍處置風險，未提供比較人數或量化效果。\",\n  \"action\": \"目前不需改變痔瘡術後導尿流程；摘要未提供 POUR 風險、預防策略或適用族群。\",\n  \"pico\": {\n    \"P\": \"接受痔瘡、肛裂或肛門膿瘍處置的患者；摘要未提供人數。\",\n    \"I\": \"痔瘡非手術與手術處置、側位內括約肌切開術、膿瘍切開引流合併或不合併廔管處置。\",\n    \"C\": \"概念性比較非手術與手術治療、括約肌切開與保留括約肌的選項；非單一對照研究。\",\n    \"O\": \"疼痛、併發症、肛裂癒合、排便自制功能改變與排便功能障礙；未指定主要或次要結果。\"\n  },\n  \"effect_data\": [],\n  \"key_numbers\": [\n    \"POUR 絕對風險未提供，無法計算 ARR／NNT／NNH。\",\n    \"各處置的癒合率與併發症絕對值均未提供。\",\n    \"未報告麻醉、NSAID／diclofenac 或導尿策略的比較數據。\"\n  ],\n  \"cautions\": [\n    \"定性綜述建議不能直接轉成痔瘡術後預防性導尿指標。\",\n    \"無樣本數、絕對發生率或信賴區間，無法量化效益與傷害。\",\n    \"未報 POUR 定義與發生率，無法判斷較現有文獻偏高或偏低。\"\n  ],\n  \"unassessable\": [\n    \"綜述的文獻搜尋策略、納入標準與證據品質評讀方法。\",\n    \"所引用研究的隨機分派、分派隱匿、盲法、ITT 分析及失訪率。\",\n    \"所引用試驗的註冊資訊、本文利益衝突及成本分析。\",\n    \"POUR 的定義、觀察期間、絕對事件數與發生率。\",\n    \"是否辨識經適當分析支持的可改變 POUR 危險因子。\",\n    \"是否比較麻醉方式、止痛策略（尤其 NSAID／diclofenac）或導尿策略。\",\n    \"哪些痔瘡手術患者應預防性導尿，哪些患者可避免導尿。\",\n    \"POUR 發生率與現有文獻的差異，以及手術、麻醉或病人組成能否解釋差異。\",\n    \"高排便失禁風險患者的定義，以及各種保留括約肌處置的比較效果。\"\n  ],\n  \"context_verdict\": \"延伸前作\",\n  \"context\": \"先前111名深部肛周膿瘍患者的比較研究，聚焦切開引流合併 LIFT 能否降低6個月持續性廔管；本篇則補充膿瘍處置時須兼顧病因、位置、複雜程度與排便功能風險。兩者關注的結果不同，本篇摘要未提供 LIFT 的比較數據，不能據此確認或推翻前作的效果。\"\n}"
+       "text": "{\n  \"title_zh\": \"大腸直腸癌肝轉移的放射性栓塞治療：適應症與治療結果\",\n  \"abstract_zh\": \"大腸直腸癌仍是癌症相關死亡的主要原因之一，而肝臟是最常見的轉移部位。對於不適合接受手術切除的大腸直腸癌肝轉移（CRLM）病人，全身性化學治療可控制疾病，但很少能達到持久的肝臟病灶反應。以釔-90（Y-90）微球進行放射性栓塞治療，經由肝動脈輸注，利用肝腫瘤主要由動脈供血的特性，已成為此情境下重要的局部區域治療選項。本綜述檢視放射性栓塞治療用於CRLM的現有證據，涵蓋病人選擇、不同治療線別的適應症、劑量學進展及臨床結果。適當候選病人的篩選，須審慎評估體能狀態、肝臟腫瘤負荷、腫瘤生物學、肺分流比例及肝外疾病範圍；在病程較早階段即被選入接受治療的病人中，可觀察到最佳結果。隨機對照試驗支持其用於第二線及第三線治療，但在未經篩選的病人中作為第一線治療，尚未顯示效益。劑量學的進展，包括多分區個人化劑量規劃、放射性肝節段切除及放射性肝葉切除，正使經適當篩選的病人得以採用消融性治療及銜接手術切除的策略。未來研究應優先探討生物標記導向的病人選擇、個人化劑量學，以及與全身性治療的合併策略，以確定持久的肝臟疾病控制能否轉化為存活效益。\",\n  \"evidence_level\": \"綜述\",\n  \"score\": 4,\n  \"score_reason\": \"主題與不可切除CRLM的多專科決策直接相關，值得作為適應症與劑量學的入門整理。但摘要未提供文獻搜尋方法、原始試驗數據或效益大小，不能據此調整治療順位。\",\n  \"relevance\": \"高度相關\",\n  \"relevance_why\": \"涵蓋不可切除CRLM的Y-90適應症、治療線別及銜接切除策略，與大腸直腸外科MDT決策直接相關。\",\n  \"novelty\": \"再確認已知\",\n  \"one_liner\": \"在不可切除CRLM（人數未報）中，綜述Y-90各線別應用，未提供比較效益數字。\",\n  \"action\": \"目前不需改變做法；不可切除CRLM考慮Y-90時，先讀原始RCT並由MDT評估。\",\n  \"pico\": {\n    \"P\": \"大腸直腸癌肝轉移病人，重點為不適合手術切除者；摘要未提供納入研究數或總人數。\",\n    \"I\": \"經肝動脈輸注Y-90微球的放射性栓塞治療，含個人化劑量及節段／肝葉導向策略。\",\n    \"C\": \"本綜述無單一對照組；摘要未交代所引用RCT的具體比較療法。\",\n    \"O\": \"未指定主要或次要終點；討論肝臟疾病控制、臨床結果、銜接切除及存活效益。\"\n  },\n  \"effect_data\": [],\n  \"key_numbers\": [\n    \"總樣本數、兩組事件數與絕對發生率均未提供。\",\n    \"二／三線：摘要稱RCT支持使用，未報效益大小。\",\n    \"未篩選第一線使用未見效益；未報數值或信賴區間。\"\n  ],\n  \"cautions\": [\n    \"肝臟疾病控制不等於存活獲益，摘要亦指出仍待驗證。\",\n    \"較早治療者結果較佳，不能排除選擇偏誤或推論因果。\",\n    \"未報絕對效益、信賴區間或毒性數據，無法權衡淨效益。\"\n  ],\n  \"unassessable\": [\n    \"文獻搜尋策略、納入排除標準及是否進行系統性證據評讀\",\n    \"所引用RCT的隨機分派方法、分派隱匿、盲法、ITT分析及失訪率\",\n    \"所引用試驗的註冊與預設終點，以及次群組是否為事後分析\",\n    \"各治療線別的具體比較療法、樣本數、效益大小與估計精確度\",\n    \"不良事件、生活品質、成本效益及台灣醫療情境的可近性\",\n    \"作者利益衝突與研究資助來源\"\n  ],\n  \"context_verdict\": \"再確認\",\n  \"context\": \"與先前兩篇SIRT臨床實務綜述一致，再次強調個人化劑量學、節段／肝葉導向治療與病人篩選的重要性。本篇聚焦CRLM並整理不同治療線別的定位，但摘要同樣未提供具體對照數據，尚不能提高對存活效益的確定性。\"\n}"
       }
      ],
      "phase": "final_answer",
@@ -4187,16 +2806,16 @@
    "top_p": 0.98,
    "truncation": "disabled",
    "usage": {
-    "input_tokens": 2992,
+    "input_tokens": 3098,
     "input_tokens_details": {
-     "cache_write_tokens": 2989,
+     "cache_write_tokens": 3095,
      "cached_tokens": 0
     },
-    "output_tokens": 1196,
+    "output_tokens": 1607,
     "output_tokens_details": {
-     "reasoning_tokens": 0
+     "reasoning_tokens": 247
     },
-    "total_tokens": 4188
+    "total_tokens": 4705
    },
    "user": null,
    "metadata": {}
@@ -4206,18 +2825,14 @@
   "errored": 0,
   "expired": 0,
   "_seen_ids": [
-   "42937256",
-   "42942952",
-   "42942906",
-   "42944996",
-   "42937728",
-   "42934534",
-   "42942505",
-   "42937757",
-   "42933393",
-   "42942943",
-   "42935770",
-   "42933423"
+   "42936896",
+   "42946443",
+   "42944051",
+   "42946524",
+   "42942443",
+   "42942406",
+   "42942396",
+   "42945032"
   ]
  }
 }
