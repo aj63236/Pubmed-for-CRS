@@ -1,0 +1,379 @@
+{
+ "batch_id": null,
+ "date": "2026-10-29",
+ "submitted_at": "2026-10-29T09:38:52+08:00",
+ "provider": "openai",
+ "model": "gpt-6.1-sol",
+ "papers": [
+  {
+   "pmid": "42936896",
+   "title": "Predicting LARS with POLARS: Results of a multicentre study",
+   "journal": "Colorectal Dis",
+   "journal_full": "Colorectal disease : the official journal of the Association of Coloproctology of Great Britain and Ireland",
+   "issn": "1463-1318",
+   "issn_linking": "1462-8910",
+   "impact_factor": 2.3,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.1111/codi.70659",
+   "ptype": "Multicenter Study",
+   "ptype_list": [
+    "Multicenter Study"
+   ],
+   "authors": "Klimovskij M, Fortunato R, Florance C, Blazyte G, Cepeniene A, Zilinskas J",
+   "abstract": "BACKGROUND: Rectum-preserving colorectal surgery, with low or ultra-low anastomosis, became the standard of care with advances in laparoscopic and now robotic surgery. As a downside, it is not uncommon for function to be affected, causing low anterior resection syndrome (LARS), which is a common postoperative challenge.\nAIM: To determine the correlation of using the predictive preoperative POLARS scores with actual postoperative LARS scores for patients undergoing rectal resections with low pelvic anastomosis.\nMETHODS: A multicentre, prospective study evaluating LARS was conducted with patients undergoing rectal resection with restoration of bowel continuity. Defaecatory function was assessed preoperatively using the POLARS scoring questionnaire and 6 months after the surgery using the LARS scoring questionnaire. The scores were then compared to determine any correlations.\nRESULTS: A total of 310 patients from 13 centres were enrolled, of whom 95 had complete paired POLARS and postoperative LARS score data. POLARS predicted minor LARS in 69 patients (72.6%), whereas 25 patients (26.3%) reported minor LARS postoperatively. Major LARS was predicted by POLARS in 21 patients (22.1%), whereas 24 patients (25.3%) self-reported major LARS postoperatively. Only 7 of these 24 major-LARS cases (29.2%) were correctly categorized as major LARS by POLARS. For detecting major LARS, POLARS showed sensitivity of 29.2%, specificity of 80.3%, positive predictive value of 33.3% and negative predictive value of 77.0%. Spearman correlation between predicted and observed scores was weak but statistically significant (rho = 0.21, p = 0.042). Bland-Altman analysis demonstrated a mean bias of +7.99 points with 95% limits of agreement from -19.23 to 35.20, reflecting systematic overprediction.\nCONCLUSIONS: POLARS showed weak positive correlation with postoperative bowel function and demonstrated low sensitivity but moderate specificity for major LARS. It systematically overestimated LARS severity in many patients. While POLARS may help identify some individuals at elevated risk, it is insufficient as a stand-alone tool for accurate prediction of postoperative LARS severity and should be combined with clinical judgement and patient-reported follow-up.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42463577",
+     "date": "2026-07-18",
+     "title_zh": "低前位切除症候群（LARS）之病人自述結果：開腹手術與機器手臂手術之比較",
+     "score": 5,
+     "one_liner": "在184位直腸/乙狀結腸癌術後病人中，比較開腹與機器手臂手術，LARS發生率無顯著差異（重度39.1% vs. 39.2%，p=0.451）。",
+     "sim": 0.266
+    },
+    {
+     "pmid": "42463577",
+     "date": "2026-07-19",
+     "title_zh": "低前位切除症候群（LARS）之病人自述結果：開腹手術與機器手臂手術之比較",
+     "score": 5,
+     "one_liner": "在184位直腸/乙狀結腸癌術後病人中，比較開腹與機器手臂手術，LARS發生率無顯著差異（重度39.1% vs. 39.2%，p=0.451）。",
+     "sim": 0.266
+    },
+    {
+     "pmid": "42578777",
+     "date": "2026-08-12",
+     "title_zh": "低前位切除症候群（LARS）之盛行率與危險因子：統合分析與次群組分析",
+     "score": 5,
+     "one_liner": "統合21篇研究3,730名直腸癌術後病人，發現重度LARS合併盛行率36.8%，低位腫瘤與新輔助放化療為顯著危險因子。",
+     "sim": 0.204
+    }
+   ]
+  },
+  {
+   "pmid": "42946443",
+   "title": "Feasibility and Short-term Outcomes of Robotic Surgery for Transverse Colon Cancer: A Multicenter Retrospective Study",
+   "journal": "Anticancer Res",
+   "journal_full": "Anticancer research",
+   "issn": "1791-7530",
+   "issn_linking": "0250-7005",
+   "impact_factor": 1.8,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.21873/anticanres.18469",
+   "ptype": "Multicenter Study",
+   "ptype_list": [
+    "Multicenter Study"
+   ],
+   "authors": "Shiraishi T, Tominaga T, Wakata K, Nishimuta M, Utsugi M, Fukuoka H",
+   "abstract": "BACKGROUND/AIM: Patients with transverse colon cancer have been excluded from randomized controlled trials due to its anatomical complexity and high technical difficulty. Few studies have compared robotic surgery with laparoscopic or open surgery for transverse colon cancer. We conducted a comparative analysis of the safety and efficacy of robotic surgery for transverse colon cancer.\nPATIENTS AND METHODS: We retrospectively reviewed 635 patients treated for transverse colon cancer between 2016 and 2025. Patients were categorized according to the surgical approach: robotic surgery (Robot group, n=38), laparoscopic surgery (Lap group, n=530), and open surgery (Open group, n=67). Clinicopathological and surgical features were compared between groups.\nRESULTS: Operative time was longer (Robot vs. Lap vs. Open; 233 vs. 226 vs. 181 min, p<0.001), blood loss was lower (15 vs. 20 vs. 120 ml, p<0.001), more lymph nodes were retrieved (19 vs. 16 vs. 10, p=0.002), and hospital stay was shorter (9 vs. 12 vs. 22 days, p<0.001) in the Robot group. The postoperative complication rate tended to be lower in the Robot group (7.9% vs. 23.2% vs. 25.4%, p=0.077). In multivariate analysis, male sex (OR=1.559, 95% CI=1.056-2.301, p=0.025) and ASA-PS 3 (OR=2.486, 95% CI=1.460-4.232, p<0.001) were identified as independent risk factors for postoperative complications.\nCONCLUSION: Although favorable short-term outcomes were observed in this small, highly selected robotic cohort, these descriptive findings do not establish the clinical superiority or equivalence of robotic surgery over laparoscopic or open surgery. Larger prospective studies are needed to define its oncological and surgical value.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42645693",
+     "date": "2026-08-27",
+     "title_zh": "機器人手術與腹腔鏡手術治療橫結腸及脾曲癌之比較：系統性回顧與統合分析",
+     "score": 5,
+     "one_liner": "在167名機器人手術與296名腹腔鏡手術病人（橫結腸/脾曲癌，6篇研究）中，機器人組住院天數短1.01天、轉開腹0/149 vs 14/278，其餘併發症無差異。",
+     "sim": 0.26
+    },
+    {
+     "pmid": "42645693",
+     "date": "2026-08-28",
+     "title_zh": "機器人手術與腹腔鏡手術治療橫結腸與脾曲癌之比較：系統性回顧與統合分析",
+     "score": 5,
+     "one_liner": "在6篇非隨機研究、167名機器人與296名腹腔鏡治療橫結腸/脾曲癌病人中，機器人組住院天數短1.01天，轉開腹率0/149 vs 14/278。",
+     "sim": 0.26
+    },
+    {
+     "pmid": "42377471",
+     "date": "2026-06-30",
+     "title_zh": "單孔機器人與腹腔鏡經肛門微創手術（TAMIS）治療直腸腫瘤之首次比較分析：手術效率與臨床結果",
+     "score": 5,
+     "one_liner": "在108名接受TAMIS之直腸腫瘤病人中，單孔機器人組手術時間較短（44.6 vs 57.5分，p=0.026）、住院天數較短（1.47 vs 2.51天，p<0.001）。",
+     "sim": 0.259
+    }
+   ]
+  },
+  {
+   "pmid": "42944051",
+   "title": "The Gut Virome in Gastrointestinal Cancers: Mechanisms, Biomarkers, and Translational Opportunities",
+   "journal": "Viruses",
+   "journal_full": "Viruses",
+   "issn": "1999-4915",
+   "issn_linking": "1999-4915",
+   "impact_factor": 3.8,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.3390/v15081635",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Ghidini M, Sberna G, Guerrera L, Maggi F, Novazzi F",
+   "abstract": "The gastrointestinal tract contains a dense multi-kingdom ecosystem in which bacteria, fungi, archaea, viruses, the mucosa, and the immune system interact. Although cancer microbiome research has focused mainly on bacteria, the gut virome dominated by bacteriophages may influence gastrointestinal carcinogenesis by reshaping bacterial communities, transferring functional genes, modulating inflammation, and altering treatment response. The strongest evidence comes from colorectal cancer, where multiple cohorts show altered phage diversity, temperate-phage enrichment, disrupted phage-bacteria networks, and reproducible stool-based diagnostic signals. Emerging studies in pancreatic cancer, esophageal adenocarcinoma, hepatocellular carcinoma, and precursor lesions suggest that virome disruption extends beyond colorectal cancer, although evidence remains uneven. Classic oncogenic viruses, including Epstein-Barr virus and hepatitis viruses, provide complementary examples of direct viral carcinogenesis in digestive organs. Anelloviruses are widespread in healthy individuals and are not established causes of cancer, but their abundance and composition may reflect immune status, inflammation, tissue injury, and altered host viral ecology. Virome-related interventions remain clinically immature: fecal microbiota transplantation has reached small phase I/II studies in gastrointestinal cancers, whereas phage, fecal-filtrate, and fecal virome approaches remain preclinical or non-oncology; direct oncolytic viruses have reached late-phase testing. Major barriers include viral dark matter, specimen and assay heterogeneity, disease-related confounding, limited external validation, and weak causal evidence. Standardized, mechanistically anchored, multi-kingdom studies are needed to establish clinical utility.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42902375",
+     "date": "2026-10-22",
+     "title_zh": "解碼人類母乳病毒體：組成、定殖與健康影響的比較分析",
+     "score": 2,
+     "one_liner": "在土耳其與美國母乳世代（人數未報）中比較病毒體，土耳其病毒豐富度較高；僅納入2項研究。",
+     "sim": 0.232
+    },
+    {
+     "pmid": "42902375",
+     "date": "2026-10-23",
+     "title_zh": "解碼人類母乳病毒體：組成、定殖與健康影響的比較分析",
+     "score": 2,
+     "one_liner": "在土耳其與美國母乳世代（人數未報）中比較病毒體，土耳其病毒豐富度較高；僅納入2項研究。",
+     "sim": 0.232
+    },
+    {
+     "pmid": "42883955",
+     "date": "2026-10-18",
+     "title_zh": "病毒與腸道微生物群的交互作用：對發炎性腸道疾病腸黏膜的意涵",
+     "score": 2,
+     "one_liner": "在IBD族群（人數未報）中，綜整病毒與菌群交互作用，無直接介入比較或可量化臨床效益。",
+     "sim": 0.219
+    }
+   ]
+  },
+  {
+   "pmid": "42946524",
+   "title": "Primary Sclerosing Cholangitis in Children: Unique Aspects and Approaches",
+   "journal": "Clin Liver Dis",
+   "journal_full": "Clinics in liver disease",
+   "issn": "1557-8224",
+   "issn_linking": "1089-3261",
+   "impact_factor": 2.9,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.1016/j.cld.2026.08.003",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Kavarian P, Miethke A",
+   "abstract": "This review provides a comprehensive overview of pediatric autoimmune cholangiopathies, with particular emphasis on primary sclerosing cholangitis (PSC). It summarizes the epidemiology, clinical presentation, diagnostic evaluation, and natural history of these chronic immune-mediated liver diseases in children. Key aspects include the frequent overlap between PSC and autoimmune hepatitis, the strong association with inflammatory bowel disease, and current approaches to laboratory, imaging, and histological assessment. The challenges of disease monitoring and prognostication in pediatric PSC are highlighted. In addition, this review discusses current management strategies, advances in understanding disease pathogenesis, and ongoing efforts to develop effective disease-modifying therapies for affected children.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42758866",
+     "date": "2026-09-19",
+     "title_zh": "兒童肝病研究網絡對小兒原發性硬化性膽管炎之前瞻性特徵描述",
+     "score": 2,
+     "one_liner": "在175名小兒PSC患者中，描述其臨床表型與肝生化指標，發現多數為輕度肝病，LSM與生化異常相關。",
+     "sim": 0.342
+    },
+    {
+     "pmid": "42758866",
+     "date": "2026-09-20",
+     "title_zh": "兒童肝臟疾病研究網絡對小兒原發性硬化性膽管炎之前瞻性特徵描述",
+     "score": 1,
+     "one_liner": "在175名兒童PSC患者中，描述其臨床表現型與LSM、實驗室指標之相關性，發現多數為輕度肝病且LSM可作監測工具。",
+     "sim": 0.342
+    },
+    {
+     "pmid": "42486598",
+     "date": "2026-07-24",
+     "title_zh": "原發性硬化性膽管炎",
+     "score": 2,
+     "one_liner": "本文綜述PSC之流行病學、自然病史、監測策略，並討論腸道發炎、膽酸療法與微生物群介入等新興治療方向。",
+     "sim": 0.287
+    }
+   ]
+  },
+  {
+   "pmid": "42942443",
+   "title": "Undersaline ESD for Large Colorectal Lesions: A Narrative Review",
+   "journal": "Medicina (Kaunas)",
+   "journal_full": "Medicina (Kaunas, Lithuania)",
+   "issn": "1648-9144",
+   "issn_linking": "1010-660X",
+   "impact_factor": 2.9,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1002/14651858.CD009891.pub2",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Assis Rezende R, de Sire R, Di Martino A, Massimi D, Alfarone L, Capogreco A",
+   "abstract": "Endoscopic submucosal dissection (ESD) is the standard of care for the en bloc resection of large colorectal lesions but remains technically demanding, with long procedure times, a steep learning curve, and complication rates that have constrained adoption outside expert Eastern centres. Undersaline ESD (UESD) has emerged as a modification in which gas insufflation is replaced by immersion in isotonic saline, exploiting the distinct physical properties of a liquid-filled lumen to address several limitations of the conventional technique. Although frequently described as \"underwater\" ESD, the term \"undersaline ESD\" is more precise, since its advantages derive specifically from the ionic content of saline rather than from submersion alone. This narrative review synthesises the mechanistic rationale and the accumulating clinical evidence on UESD for large colorectal lesions. Saline immersion alters monopolar electrosurgical behaviour towards a coagulation-dominant profile, generates intrinsic traction on the mucosal flap through differential buoyancy, magnifies the dissection plane, and dissipates thermal energy. Across observational series and two recent meta-analyses, UESD is associated with faster submucosal dissection without compromising en bloc resection, R0 resection or short-term safety. The randomised evidence is not uniform: two of three trials reported faster dissection, while the largest found no difference in its primary endpoint, with lesion position determining the relative advantage of each technique. The benefits appear concentrated in specific settings such as submucosal fibrosis, gravity-side lesions, and, on preliminary data, non-expert operators, rather than distributed across all procedures. Key evidence gaps include the East Asian concentration of randomised data, the heterogeneity of technical implementation, and an absence of long-term oncological outcomes.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42642168",
+     "date": "2026-08-27",
+     "title_zh": "大腸直腸內視鏡黏膜下剝離術（ESD）：從基礎到最新創新！",
+     "score": 4,
+     "one_liner": "本文為綜述，介紹大腸直腸ESD的新技術（牽引系統、刀具、閉合平台、機器人/AI輔助），未提供臨床試驗數據。",
+     "sim": 0.208
+    },
+    {
+     "pmid": "42666074",
+     "date": "2026-08-30",
+     "title_zh": "大腸內視鏡黏膜下剝離術（ESD）中黏膜下注射利多卡因：單中心、雙盲、隨機對照試驗",
+     "score": 4,
+     "one_liner": "在110名接受大腸ESD患者中，比較黏膜下注射利多卡因與生理食鹽水，主要outcome手術時間無顯著差異（67.5 vs 78.0分，p=0.114）。",
+     "sim": 0.201
+    },
+    {
+     "pmid": "42666074",
+     "date": "2026-08-31",
+     "title_zh": "大腸內視鏡黏膜下剝離術（ESD）中黏膜下注射利多卡因：單中心、雙盲、隨機對照試驗",
+     "score": 5,
+     "one_liner": "110名大腸ESD患者中，利多卡因黏膜下注射未縮短手術時間，但嚴重痙攣少於對照組（34.6% vs 74.1%）。",
+     "sim": 0.201
+    }
+   ]
+  },
+  {
+   "pmid": "42942406",
+   "title": "Toward Precision Colorectal Cancer Screening: Integrating Clinical Risk Stratification, Molecular Biomarkers, and Artificial Intelligence",
+   "journal": "Medicina (Kaunas)",
+   "journal_full": "Medicina (Kaunas, Lithuania)",
+   "issn": "1648-9144",
+   "issn_linking": "1010-660X",
+   "impact_factor": 2.9,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Sep",
+   "doi": "10.1016/j.cgh.2025.02.038",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Lunca S, Morarasu S, Dimofte G",
+   "abstract": "Colorectal cancer (CRC) screening reduces disease incidence and mortality through the detection and removal of precursor lesions and the earlier diagnosis of invasive cancer. However, most current programs remain predominantly age-based, applying broadly uniform tests and intervals to individuals whose underlying risk, lesion biology, screening adherence, and capacity to benefit may differ substantially. Advances in clinical prediction, molecular diagnostics, and artificial intelligence (AI) create opportunities to refine screening according to individual risk and clinical context. This narrative review examines the evolution of CRC screening from conventional population-based strategies toward a precision-screening framework comprising three complementary functions. Clinical risk stratification estimates background susceptibility using demographic, familial, behavioral, metabolic, medical, and previous-screening information. Molecular biomarkers provide biologically distinct information, ranging from inherited susceptibility to signals associated with prevalent colorectal neoplasia. AI may support multimodal risk integration, procedural lesion detection and characterization, and longitudinal reassessment as new clinical and screening information accumulates. These components should not be regarded as a mandatory sequential pathway or as interchangeable sources of evidence; rather, their value depends on the specific clinical question, predicted outcome, time horizon, and decision being supported. Current evidence shows that risk-adapted and multimodal approaches are feasible, but improved prediction or diagnostic performance does not necessarily translate into superior population outcomes. Most precision-screening strategies still lack prospective evidence demonstrating improvements in participation, diagnostic completion, advanced colorectal neoplasia yield, interval CRC, harms, resource use, equity, or cost-effectiveness compared with optimized established screening. The priority for translation is therefore not maximal technological integration, but selective use of additional information when it provides actionable incremental benefit while preserving the accessibility, effectiveness, and public-health strengths of organized screening.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42762153",
+     "date": "2026-09-21",
+     "title_zh": "使用糞便與血液檢測進行非侵入性大腸直腸癌篩檢：證據、可行性與公平性考量",
+     "score": 3,
+     "one_liner": "本綜述比較FIT、分子糞便檢測（mt-sDNA/RNA-FIT）與血液檢測於CRC篩檢之敏感度、特異度與可行性取捨，未提供具體數據。",
+     "sim": 0.216
+    },
+    {
+     "pmid": "42450092",
+     "date": "2026-07-16",
+     "title_zh": "發炎性腸道疾病相關腫瘤（CAC）之機器學習應用：邁向精準醫學之證據與未來方向，敘事性文獻回顧",
+     "score": 2,
+     "one_liner": "本文為敘事性回顧，總結AI/ML在IBD相關CAC偵測與風險預測之早期研究現況，未提供量化效能數據或臨床試驗結果。",
+     "sim": 0.18
+    },
+    {
+     "pmid": "42450092",
+     "date": "2026-07-17",
+     "title_zh": "發炎性腸道疾病相關腫瘤（CAC）之機器學習應用：邁向精準醫學之證據與未來方向，敘事性文獻回顧",
+     "score": 2,
+     "one_liner": "本文為敘事性回顧，總結AI/ML在IBD相關CAC偵測與風險預測之早期研究現況，未提供量化效能數據或臨床試驗結果。",
+     "sim": 0.18
+    }
+   ]
+  },
+  {
+   "pmid": "42942396",
+   "title": "Can Molecular Response Redefine Organ Preservation in Rectal Cancer? From Clinical Complete Response to Precision Watch-and-Wait",
+   "journal": "Medicina (Kaunas)",
+   "journal_full": "Medicina (Kaunas, Lithuania)",
+   "issn": "1648-9144",
+   "issn_linking": "1010-660X",
+   "impact_factor": 2.9,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Sep",
+   "doi": "10.1016/j.ejca.2025.116193",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Yalav O, Yıldırım A, Guliyeva N, Aydın İ, Gümüş S, Topal U",
+   "abstract": "Background and Objectives: Watch-and-wait has become an accepted option for selected patients with rectal cancer who achieve a clinical complete response after total neoadjuvant therapy, sparing them total mesorectal excision and the stoma, bowel, urinary and sexual dysfunction that follow it. The decision to omit surgery, however, still rests on anatomical evidence-digital rectal examination, endoscopy and magnetic resonance imaging-which describes what remains visible rather than what remains viable, and local regrowth in about one in four such patients measures that gap. We examined whether, and how, molecular evidence of response should enter that decision. Materials and Methods: Narrative review of PubMed/MEDLINE, Europe PMC and ClinicalTrials.gov (final searches 20 September 2026), prioritizing randomized trials, prospective cohorts, registries and meta-analyses; evidence was classified by its relation to the watch-and-wait decision and reported accuracy figures were recalculated with their denominators. Results: Direct evidence comes from six small cohorts, four of them retrospective, and accuracy depended on assay, timepoint and outcome. In a 31-patient ultrasensitive sub-study of a randomized trial, detection at restaging predicted neither sustained response nor relapse, and a positive surveillance result was followed by recurrence in fewer than one in four patients (specificity 27.8%, positive predictive value 23.5%); tumor-informed polymerase chain reaction assays were highly specific but detected only 23% to 74% of residual or regrowing tumors. Mismatch repair testing already redirects treatment before surgery is planned. No molecular assay is validated to decide that surgery may be omitted, and none has been compared with carcinoembryonic antigen, endoscopy and magnetic resonance imaging. Conclusions: Molecular response should complement, not replace, clinical and radiological assessment. We propose an integrated complete response-concordant anatomical and molecular response, interpreted against baseline tumor biology-as a research framework, whose most defensible first application is to relax surveillance rather than to escalate treatment.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42388096",
+     "date": "2026-07-02",
+     "title_zh": "全直腸新輔助治療（TNT）後之磁振造影：以治療導向反應評估作為觀察等待（Watch-and-Wait）處置之報告依據",
+     "score": 6,
+     "one_liner": "本文回顧TNT後直腸癌MRI再分期策略，說明以DWI+內視鏡取代TRG以更安全篩選W&W候選病人。",
+     "sim": 0.204
+    },
+    {
+     "pmid": "42594359",
+     "date": "2026-08-15",
+     "title_zh": "2016年荷蘭全國性世代研究：cT3-4期腸繫膜筋膜陽性直腸癌病患的腫瘤學結果與治療特徵（標準化MRI重新評估）",
+     "score": 6,
+     "one_liner": "在荷蘭571例cT3-4 MRF+直腸癌中，比較TME與MVR/超出TME，發現後者4年局部復發率較高(24.2% vs 12.7%)、4年OS較低(53.7% vs 71.3%)。",
+     "sim": 0.17
+    },
+    {
+     "pmid": "42556957",
+     "date": "2026-08-07",
+     "title_zh": "直腸癌患者於新輔助治療後達臨床完全緩解者之觀察等待策略：安全嗎？",
+     "score": 4,
+     "one_liner": "在TNT後達臨床完全緩解之直腸癌病人中，綜述觀察等待策略，發現約50%達長期器官保留，另50%需因復發接受手術。",
+     "sim": 0.168
+    }
+   ]
+  },
+  {
+   "pmid": "42945032",
+   "title": "Radioembolization for Colorectal Liver Metastases: Indications and Outcomes",
+   "journal": "J Gastrointest Cancer",
+   "journal_full": "Journal of gastrointestinal cancer",
+   "issn": "1941-6636",
+   "issn_linking": "",
+   "impact_factor": 2.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.2214/AJR.20.25315",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Reddy S, Wu X, Rodwell N, Khan A, Navuluri R, Shaffer V",
+   "abstract": "Colorectal cancer remains a leading cause of cancer-related mortality, with the liver representing the predominant site of metastatic spread. For patients with colorectal liver metastases (CRLM) who are not candidates for surgical resection, systemic chemotherapy provides disease control but rarely achieves durable hepatic responses. Radioembolization with yttrium-90 (Y-90) microspheres, delivered via the hepatic artery to exploit the preferential arterial supply of liver tumors, has emerged as an important locoregional option in this setting. This review examines the current evidence base for radioembolization in CRLM, covering patient selection, indications across lines of therapy, dosimetric advances, and clinical outcomes. Appropriate candidacy requires careful assessment of performance status, hepatic tumor burden, tumor biology, lung shunt fraction, and extrahepatic disease extent, with the strongest outcomes observed in patients selected earlier in their disease course. Randomized controlled trials support second-line and third-line use, while unselected first-line use has not demonstrated a benefit. Dosimetric advances, including multicompartment personalized dosing, radiation segmentectomy, and radiation lobectomy, are enabling ablative and bridge-to-resection strategies in appropriately selected patients. Future investigation should prioritize biomarker-driven patient selection, personalized dosimetry, and combination strategies with systemic therapy to determine whether durable hepatic disease control can translate into a survival benefit.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42472328",
+     "date": "2026-07-20",
+     "title_zh": "選擇性體內放射治療（SIRT / 放射性栓塞術）：臨床實務的變化與我們的經驗心得",
+     "score": 3,
+     "one_liner": "本文回顧SIRT於HCC與mCRC肝轉移治療的演進，說明個人化劑量學與節段/肝葉導向治療可能提升腫瘤反應與存活，但未提供具體對照數據。",
+     "sim": 0.274
+    },
+    {
+     "pmid": "42472328",
+     "date": "2026-07-21",
+     "title_zh": "選擇性體內放射治療（SIRT / 放射性栓塞術）：臨床實務的變化與我們的經驗心得",
+     "score": 3,
+     "one_liner": "本文回顧SIRT於HCC與mCRC肝轉移治療的演進，說明個人化劑量學與節段/肝葉導向治療可能提升腫瘤反應與存活，但未提供具體對照數據。",
+     "sim": 0.274
+    },
+    {
+     "pmid": "42500682",
+     "date": "2026-07-26",
+     "title_zh": "大腸直腸癌肝轉移：機制與治療",
+     "score": 2,
+     "one_liner": "本文綜述CRLM的免疫耐受微環境機制、現行治療選項與新興策略，未提供原創臨床療效數據。",
+     "sim": 0.207
+    }
+   ]
+  }
+ ],
+ "submission_id": "b9fb01ec74514de69a661d910f64e531",
+ "state": "preparing"
+}
