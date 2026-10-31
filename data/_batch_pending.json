@@ -1,0 +1,349 @@
+{
+ "batch_id": null,
+ "date": "2026-10-31",
+ "submitted_at": "2026-10-31T09:27:57+08:00",
+ "provider": "openai",
+ "model": "gpt-6.1-sol",
+ "papers": [
+  {
+   "pmid": "42959031",
+   "title": "Gut mycobiome dysbiosis in inflammatory bowel disease: a systematic review and meta-analysis",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1016/j.cels.2020.02.008",
+   "ptype": "Systematic Review, Meta-Analysis",
+   "ptype_list": [
+    "Systematic Review",
+    "Meta-Analysis"
+   ],
+   "authors": "Songel-Sanchis B, Cosín-Roger J",
+   "abstract": "BACKGROUND: The intestinal mycobiome is increasingly recognized as an important component of host-microbiota interactions in inflammatory bowel disease (IBD), yet its contribution to intestinal immune dysregulation remains incompletely characterized. We aimed to characterize alterations in the intestinal mycobiome in patients with inflammatory bowel disease, including Crohn's disease and ulcerative colitis, compared with individuals without IBD, focusing on fungal diversity, taxonomic composition, and relative abundance, as well as their potential associations with disease phenotype and inflammatory activity.\nMETHODS: A systematic review and meta-analysis was conducted according to PRISMA 2020 guidelines. PubMed/MEDLINE, Embase, and Cochrane Central Register of Controlled Trials were systematically searched from inception to March 2026, with no language or publication-date restrictions. The review was not prospectively registered. Human studies assessing gut fungal communities by internal transcribed spacer (ITS)-based sequencing or shotgun metagenomics were eligible. Alpha and beta diversity, taxonomic composition, and clinically relevant fungal alterations were extracted. Study quality was assessed independently by two reviewers using the Newcastle-Ottawa Scale (NOS), and quantitative analyses were performed using standardized effect estimates and pooled prevalence.\nRESULTS: Twenty-eight studies were included in the qualitative and quantitative synthesis. CD was consistently associated with reduced fungal alpha diversity compared with healthy controls, with a pooled weighted mean difference in Shannon diversity of -0.84 (p<0.001), whereas the reduction in UC was more modest (-0.31, p=0.04). Fungal beta diversity consistently differed between IBD and healthy controls. Expansion of Candida spp. was the most reproducible taxonomic alteration, occurring in 82.1% of analyzed cohorts, while depletion of Saccharomyces cerevisiae was reported in 71.4%. Malassezia enrichment was also associated with mucosal inflammation and CARD9-related immune responses. Cross-kingdom interactions involving Candida, Escherichia coli, and Serratia marcescens further highlighted potential fungal-bacterial mechanisms underlying persistent inflammation. Persistent fungal dysbiosis despite clinical remission supported the concept of a \"mycobiotic scar.\"\nCONCLUSION: IBD is characterized by substantial disruption of the intestinal mycobiome, particularly in CD, with reduced fungal diversity, expansion of potentially pathogenic Candida spp., and depletion of protective fungal taxa. These alterations may contribute to immune dysregulation and therapeutic refractoriness and support the mycobiome as a potential source of biomarkers and therapeutic targets in IBD.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42909229",
+     "date": "2026-10-24",
+     "title_zh": "消化系統癌症中的腸道真菌相失衡：免疫重塑與轉譯意涵",
+     "score": 5,
+     "one_liner": "彙整CRC、胃癌及胰癌真菌研究（總人數未報），指出人體多為關聯，因果支持主要來自小鼠。",
+     "sim": 0.211
+    },
+    {
+     "pmid": "42909229",
+     "date": "2026-10-25",
+     "title_zh": "消化系統癌症中的腸道真菌相失衡：免疫重塑與轉譯意涵",
+     "score": 5,
+     "one_liner": "彙整CRC、胃癌及胰癌真菌研究（總人數未報），指出人體多為關聯，因果支持主要來自小鼠。",
+     "sim": 0.211
+    },
+    {
+     "pmid": "42881525",
+     "date": "2026-10-18",
+     "title_zh": "口腔微生物相與發炎性腸道疾病：範疇性回顧",
+     "score": 3,
+     "one_liner": "在31篇研究中，整理IBD口腔菌相關聯，發現特徵性失衡，但未提供診斷效能數值。",
+     "sim": 0.19
+    }
+   ]
+  },
+  {
+   "pmid": "42957919",
+   "title": "Survival Outcomes in Metastatic Colorectal Cancer Patients with BRAF Mutations Undergoing Targeted Chemotherapy: A Reconstructed Individual Patient Data Meta-Analysis of Randomized Controlled Trials",
+   "journal": "J Gastrointest Cancer",
+   "journal_full": "Journal of gastrointestinal cancer",
+   "issn": "1941-6636",
+   "issn_linking": "",
+   "impact_factor": 2.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1038/bjc.2015.160",
+   "ptype": "Meta-Analysis",
+   "ptype_list": [
+    "Meta-Analysis"
+   ],
+   "authors": "Kazmi S, Rehman M, Tariq H, Kabir A, Ahmed J, Yee N",
+   "abstract": "BACKGROUND: BRAF V600E-mutant metastatic colorectal cancer (mCRC) represents an aggressive molecular subtype associated with poor prognosis and limited response to conventional chemotherapy. Although multiple targeted strategies, including anti-vascular endothelial growth factor (VEGF), anti-epidermal growth factor receptor (EGFR), and BRAF-directed therapies, are used in clinical practice, their comparative effectiveness remains uncertain. We performed a reconstructed individual patient-data (IPD) meta-analysis of randomized controlled trials (RCTs) to evaluate survival outcomes across targeted therapeutic classes in BRAF-mutant mCRC.\nMETHODS: A systematic search of PubMed, Embase, Scopus, and Cochrane databases was conducted through July 2025 to identify RCTs reporting survival outcomes for BRAF-mutant mCRC. Kaplan-Meier curves were digitized and IPD reconstructed using established methods. A one-stage meta-analysis using Cox proportional hazards models was performed to estimate pooled overall survival (OS) and progression-free survival (PFS). Models were adjusted for study-level covariates and clustering, with Bonferroni correction applied for multiple comparisons.\nRESULTS: Eighteen RCTs comprising 11,931 participants were included. Pooled median OS was 22.3 months for BRAF-directed regimens, 17.1 months for VEGF-targeted therapy, and 10.1 months for EGFR-directed therapy across studies evaluating first-line therapy. Across first-line studies, BRAF inhibitor directed regimen was associated with significantly improved OS compared with EGFR inhibition (HR 0.43, 95% CI 0.31-0.60; P < 0.001) and improved PFS (HR 0.47, 95% CI 0.42-0.53; P < 0.001). VEGF inhibition also demonstrated superior OS compared with EGFR inhibition (HR 0.56, 95% CI 0.38-0.81; p < 0.001). EGFR-directed regimen consistently demonstrated the poorest survival outcomes across analyses.\nDISCUSSION: In this reconstructed IPD meta-analysis, BRAF-directed therapies were associated with the most favourable survival outcomes, whereas EGFR directed regimen demonstrated limited clinical benefit in BRAF-mutant mCRC. These results highlight the importance of biologically aligned pathway-targeted therapy and provide comparative evidence to inform treatment selection in this aggressive molecular subtype.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42891583",
+     "date": "2026-10-19",
+     "title_zh": "RAS野生型轉移性大腸直腸癌中磷脂醯肌醇3激酶與BRAF突變的影響",
+     "score": 5,
+     "one_liner": "在1478名RAS野生型mCRC病人中，比較突變與野生型，PIK3CA突變者死亡HR為1.58。",
+     "sim": 0.218
+    },
+    {
+     "pmid": "42474934",
+     "date": "2026-07-21",
+     "title_zh": "MSI-H/dMMR轉移性大腸直腸癌一線免疫治療對比化療：第三期試驗之系統性回顧與統合分析",
+     "score": 5,
+     "one_liner": "在超過600名MSI-H/dMMR轉移性大腸直腸癌病人中，統合2篇第三期試驗，一線免疫治療較化療顯著改善PFS(HR 0.61)與OS(HR 0.77)。",
+     "sim": 0.213
+    },
+    {
+     "pmid": "42474934",
+     "date": "2026-07-22",
+     "title_zh": "MSI-H/dMMR轉移性大腸直腸癌一線免疫治療對比化療：第三期試驗之系統性回顧與統合分析",
+     "score": 5,
+     "one_liner": "在超過600名MSI-H/dMMR轉移性大腸直腸癌病人中，統合2篇第三期試驗，一線免疫治療較化療顯著改善PFS(HR 0.61)與OS(HR 0.77)。",
+     "sim": 0.213
+    }
+   ]
+  },
+  {
+   "pmid": "42957628",
+   "title": "Cancer risk among individuals with mental illness - a systematic review and meta-analysis of nordic register-based prospective studies",
+   "journal": "Transl Psychiatry",
+   "journal_full": "Translational psychiatry",
+   "issn": "2158-3188",
+   "issn_linking": "2158-3188",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1186/s12885-022-09457-9",
+   "ptype": "Systematic Review, Meta-Analysis",
+   "ptype_list": [
+    "Systematic Review",
+    "Meta-Analysis"
+   ],
+   "authors": "Xiao X, Sadeghi F, Murphy G, Zhang Z, Andreassen O, Valdimarsdóttir U",
+   "abstract": "Although cancer patients have a high burden of mental illness, it is less clear whether patients with mental illness experience a higher-than-expected cancer risk. This systematic review investigated the associations between a wide range of types of mental illness and subsequent cancer risk. Five electronic databases were searched for articles published from database initiation to October 24, 2024. Studies using nationwide Nordic register data to conduct a prospective analysis of the association between mental illness diagnosis and cancer incidence were included. When data from three or more countries were available for a given type of mental illness, random effects meta-analyses were performed; otherwise, narrative syntheses were conducted. A total of 7,767 non-duplicate articles were screened, of which 20 were included. Meta-analyses showed no association between schizophrenia diagnosis and overall cancer risk; however, a high level of heterogeneity was detected between studies. Individuals with schizophrenia appeared to have a higher risk of breast cancer (pooled standardized incidence ratio [SIR]: 1.28, 95% confidence interval [CI]: 1.08-1.52), and lower risks of rectal cancer (pooled SIR: 0.75, 95% CI: 0.59-0.95) and prostate cancer (pooled SIR: 0.53, 95% CI: 0.48-0.59), compared to individuals in the general population. A higher risk of overall cancer was observed for mood, anxiety, and stress-related disorders, as well as autism and intellectual disability, in multiple studies; however, the results differed by cancer types and sex. In summary, these findings suggest an altered risk of cancer among individuals with mental illness living in Nordic countries. Further research is needed to enable the development of targeted cancer prevention strategies to reduce mental health disparities in cancer protection.",
+   "watched": [],
+   "related": []
+  },
+  {
+   "pmid": "42957792",
+   "title": "Robotic surgery in inflammatory bowel disease: a systematic review",
+   "journal": "Int J Colorectal Dis",
+   "journal_full": "International journal of colorectal disease",
+   "issn": "1432-1262",
+   "issn_linking": "0179-1958",
+   "impact_factor": 2.9,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1007/s00384-023-04361-5",
+   "ptype": "Systematic Review, Review",
+   "ptype_list": [
+    "Systematic Review",
+    "Review"
+   ],
+   "authors": "Todescatto A, Mendes C, Araujo S, Kotze P",
+   "abstract": "BACKGROUND: Surgical treatment remains an essential component in the management of inflammatory bowel disease (IBD) despite advances in medical therapy. Although minimally invasive surgery is preferred, technical challenges related to chronic inflammation and altered anatomy may limit laparoscopic approaches. Robotic surgery has been increasingly adopted, but its role in IBD surgery remains to be clearly defined.\nOBJECTIVES: To synthesize the available evidence on the feasibility, safety, and perioperative outcomes of robotic surgery in patients with IBD.\nMETHODS: A systematic review was conducted according to PRISMA guidelines. Studies were identified through an electronic search of the PubMed database for reports evaluating outcomes of robotic surgery in IBD. Eligible studies included case series, comparative studies, and systematic reviews published in English. Primary outcomes were conversion to open surgery and postoperative complications; secondary outcomes included operative time, length of stay (LOS), reoperation, readmission, and anastomotic leak.\nRESULTS: Thirty-four studies were included. Robotic surgery was consistently associated with longer operative time. However, postoperative morbidity, major complications, anastomotic leak, reoperation, and mortality rates were comparable between techniques. Robotic approaches demonstrated lower and favorable conversion rates, particularly in complex inflammatory phenotypes or pelvic procedures. Length of stay and estimated blood loss were similar or numerically lower in several robotic cohorts.\nCONCLUSION: Robotic surgery is a safe and feasible minimally invasive approach for IBD patients, with perioperative outcomes comparable to conventional surgery. Its potential advantages may be most relevant in complex or technically demanding cases, although high-quality prospective studies are needed to better define its role.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42645693",
+     "date": "2026-08-27",
+     "title_zh": "機器人手術與腹腔鏡手術治療橫結腸及脾曲癌之比較：系統性回顧與統合分析",
+     "score": 5,
+     "one_liner": "在167名機器人手術與296名腹腔鏡手術病人（橫結腸/脾曲癌，6篇研究）中，機器人組住院天數短1.01天、轉開腹0/149 vs 14/278，其餘併發症無差異。",
+     "sim": 0.337
+    },
+    {
+     "pmid": "42645693",
+     "date": "2026-08-28",
+     "title_zh": "機器人手術與腹腔鏡手術治療橫結腸與脾曲癌之比較：系統性回顧與統合分析",
+     "score": 5,
+     "one_liner": "在6篇非隨機研究、167名機器人與296名腹腔鏡治療橫結腸/脾曲癌病人中，機器人組住院天數短1.01天，轉開腹率0/149 vs 14/278。",
+     "sim": 0.337
+    },
+    {
+     "pmid": "42377471",
+     "date": "2026-06-30",
+     "title_zh": "單孔機器人與腹腔鏡經肛門微創手術（TAMIS）治療直腸腫瘤之首次比較分析：手術效率與臨床結果",
+     "score": 5,
+     "one_liner": "在108名接受TAMIS之直腸腫瘤病人中，單孔機器人組手術時間較短（44.6 vs 57.5分，p=0.026）、住院天數較短（1.47 vs 2.51天，p<0.001）。",
+     "sim": 0.272
+    }
+   ]
+  },
+  {
+   "pmid": "42958367",
+   "title": "CRAT-mediated acetylcarnitine shuttling sustains p65 acetylation and NF-κB-associated radioresistance in colorectal cancer",
+   "journal": "Mol Cancer",
+   "journal_full": "Molecular cancer",
+   "issn": "1476-4598",
+   "issn_linking": "1476-4598",
+   "impact_factor": 42.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Jul",
+   "doi": "10.1007/s12672-022-00521-1",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Liu Y, Xiao Y, Chen Y, Huang C, Lin F, Zhuang Q",
+   "abstract": "BACKGROUND: Neoadjuvant chemoradiotherapy is a standard treatment for locally advanced rectal cancer, yet acquired resistance limits durable tumor control. Whether stress-adaptive acetyl-group metabolism contributes to this resistance remains unclear.\nMETHODS: We performed a genome-wide CRISPR-Cas9 loss-of-function screen under fractionated irradiation and integrated the results with transcriptomic and proteomic profiling of radioresistant colorectal cancer models established by stepwise irradiation. CRAT function was interrogated using genetic perturbation, catalytic-dead reconstitution, acetylation-mimetic p65 rescue, RELA depletion, stable-isotope tracing, free coenzyme A quantification, NF-κB reporter assays, chromatin immunoprecipitation-qPCR, and xenograft and syngeneic tumor models.\nRESULTS: CRAT was prioritized through cross-platform convergence of the CRISPR screen with transcriptomic and proteomic signatures of radioresistant cells, and post-treatment tumors with poorer pathological regression showed higher CRAT and nuclear p65 immunohistochemical scores. CRAT manipulation had limited, model-dependent effects on basal proliferation but more pronounced effects after irradiation, where CRAT loss reduced clonogenic survival and was associated with increased oxidative stress and persistent DNA damage. Stable-isotope tracing showed that irradiation increased acetate-to-acetylcarnitine flux and expanded the free coenzyme A pool in control cells, whereas CRAT loss disrupted this acetyl-group buffering. Mechanistically, CRAT catalytic activity helped maintain irradiation-induced p65 Lys310 acetylation, H3K27ac enrichment at NF-κB-responsive loci, and NF-κB-associated transcriptional output through a p300/CBP-sensitive acetylation axis. p65-K310Q rescue and RELA depletion supported p65 acetylation and RELA-dependent transcription as downstream contributors to, rather than sole mediators of, CRAT-dependent radioprotection. In syngeneic MC38 tumors, Crat deletion enhanced the response to fractionated radiotherapy.\nCONCLUSIONS: These findings support CRAT-dependent acetyl-group metabolism as a contributor to an NF-κB-associated radioprotective program and nominate this metabolic dependency as a candidate vulnerability for radiosensitization in colorectal cancer.",
+   "watched": [],
+   "related": []
+  },
+  {
+   "pmid": "42962162",
+   "title": "Network Analysis of Symptoms and Comorbidity in Patients With Early-Onset Colorectal Cancer: Comparison With Late-Onset Colorectal Cancer",
+   "journal": "JCO Clin Cancer Inform",
+   "journal_full": "JCO clinical cancer informatics",
+   "issn": "2473-4276",
+   "issn_linking": "2473-4276",
+   "impact_factor": 3.6,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1200/CCI-25-00183",
+   "ptype": "Comparative Study",
+   "ptype_list": [
+    "Comparative Study"
+   ],
+   "authors": "Yu J, Park J, Yun Y, Song N, Shin A, Kim M",
+   "abstract": "PURPOSE: Patients with early-onset colorectal cancer (EOCRC) experience various symptoms and comorbidities throughout the treatment continuum. Identifying the intricate relationship between symptoms and comorbidities in EOCRC can provide a deeper understanding of the underlying mechanisms that shape the patient's entire experience. This study aimed to compare the association between symptoms and comorbidities in patients by age of onset to identify key relationships between symptoms and comorbid disease in EOCRC.\nMETHODS: Data of 985 patients enrolled in a prospective colorectal cancer (CRC) cohort between 2013 and 2021 in the Republic of Korea were analyzed. At baseline, patients were assessed for 33 symptoms and functions, as well as 14 comorbidities, and were subsequently stratified into two age groups: <50 (EOCRC) and ≥50 years (late-onset CRC [LOCRC]). Symptoms and comorbidity relationships were examined using correlation-based network analysis.\nRESULTS: In total, 13.5% of the participants had EOCRC. In the EOCRC group, 44 patients (33.1%) had existing comorbidities. The symptom and comorbidity networks were more complex in EOCRC than in LOCRC. Fatigue was a central symptom in both age groups. The EOCRC group exhibited positive correlations between musculoskeletal disease and psychiatric disorder, stool frequency, and multiple symptoms. The LOCRC group showed pronounced correlations between embarrassment by bowel movement and multiple symptoms and between health functioning parameters and fatigue.\nCONCLUSION: Cancer-related fatigue was an important feature in both groups. These findings underscore the importance of considering these factors to enhance quality-of-life care outcomes during and after CRC treatment.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42435229",
+     "date": "2026-07-12",
+     "title_zh": "早發型與晚發型大腸直腸癌之危險因子病例對病例比較研究",
+     "score": 5,
+     "one_liner": "在俄亥俄州1,306名大腸直腸癌患者中，比較EOCRC（N=288）與LOCRC（N=1,018），發現飲酒、暴飲、Lynch症候群、診斷前症狀皆與EOCRC顯著相關（OR最高6.08）。",
+     "sim": 0.259
+    },
+    {
+     "pmid": "42435229",
+     "date": "2026-07-13",
+     "title_zh": "早發型與晚發型大腸直腸癌之危險因子病例對病例比較研究",
+     "score": 5,
+     "one_liner": "在俄亥俄州1,306名大腸直腸癌患者中，比較EOCRC（N=288）與LOCRC（N=1,018），發現飲酒、暴飲、Lynch症候群、診斷前症狀皆與EOCRC顯著相關（OR最高6.08）。",
+     "sim": 0.259
+    },
+    {
+     "pmid": "42435229",
+     "date": "2026-07-14",
+     "title_zh": "早發型與晚發型大腸直腸癌之危險因子病例對病例比較研究",
+     "score": 5,
+     "one_liner": "在俄亥俄州1,306名大腸直腸癌患者中，比較EOCRC（N=288）與LOCRC（N=1,018），發現飲酒、暴飲、Lynch症候群、診斷前症狀皆與EOCRC顯著相關（OR最高6.08）。",
+     "sim": 0.259
+    }
+   ]
+  },
+  {
+   "pmid": "42961241",
+   "title": "Pathobiont-directed mucosal immunotherapy targets Ruminococcus gnavus and remodels host-microbiota interactions in colitis",
+   "journal": "Gut Microbes",
+   "journal_full": "Gut microbes",
+   "issn": "1949-0984",
+   "issn_linking": "1949-0976",
+   "impact_factor": 15.3,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Dec",
+   "doi": "10.1080/19490976.2026.2754605",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Wang Z, Huang L, Liu X, Cheng X, Liang Y, Chen J",
+   "abstract": "Disease-associated pathobionts are recurrently enriched in inflammatory bowel disease (IBD), yet their causal contribution and selective therapeutic control remain incompletely defined. Here, through clinical microbiome profiling and causal animal studies, we identified Ruminococcus gnavus (Rg) as a key ulcerative colitis (UC)-associated pathobiont whose abundance positively correlates with intestinal oxidative stress and inflammatory levels. To selectively constrain Rg, we engineered CP-EV@Ca, an oral microbiota-directed mucosal immunotherapy that combines pathogen-specific immune targeting with redox modulation. CP-EV@Ca enhanced mucosal antigen presentation, promoted T follicular helper cell-germinal-center B-cell responses and induced robust Rg-specific secretory IgA (sIgA). CP-EV@Ca-induced mucosal immune responses, including enhanced Rg-specific sIgA production, were associated with increased immune coating and reduced Rg expansion. In both acute and chronic colitis models, CP-EV@Ca outperformed 5-aminosalicylic acid (5-ASA), suppressing inflammation and restoring microbial, epithelial and immune homeostasis. These findings demonstrate that pathobiont-specific mucosal immunity can be harnessed to selectively constrain disease-associated bacteria and restore intestinal homeostasis.",
+   "watched": [],
+   "related": []
+  },
+  {
+   "pmid": "42957227",
+   "title": "The Interplay Between Obesity, Gut Microbiota and Early-onset Colorectal Cancer",
+   "journal": "In Vivo",
+   "journal_full": "In vivo (Athens, Greece)",
+   "issn": "1791-7549",
+   "issn_linking": "0258-851X",
+   "impact_factor": 1.8,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.21873/invivo.14478",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Kendong S, Razali N, Bo M, Sarkawi M, Mokhtar M, Hamid A",
+   "abstract": "The global incidence of colorectal cancer (CRC) is rising at an alarming rate, particularly among individuals under the age of 50, referred to as early-onset CRC (EOCRC). While genetic predisposition accounts for approximately 20% of the total cases, the majority are influenced by environmental and lifestyle factors. Among these, the rising prevalence of obesity is a major modifiable contributor to EOCRC pathogenesis. This narrative review explores the multifaceted role of obesity in EOCRC, focusing on how diet-induced adiposity reshapes the gut microbiota and host metabolic signaling. We synthesize evidence on how obesity-associated dysbiosis, characterized by the depletion of protective, short-chain fatty acid (SCFA)-producing bacteria and the enrichment of genotoxic pathobionts, compromises intestinal barrier integrity and promotes a \"leaky gut\" phenotype. In addition, we explore the systemic consequences of obesity-driven inflammation, including M1-polarized macrophage infiltration into adipose tissue, dysregulated adipokine signaling, and the hyperactivation of the insulin-IGF-1 axis. By integrating epidemiological data with molecular mechanisms, this review highlights how the synergy between metabolic dysfunction and microbial alterations creates a fertile niche for early-onset carcinogenesis. These findings underscore the importance of targeting lifestyle interventions to mitigate the rising burden of obesity and reduce the risk of EOCRC progression.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42356295",
+     "date": "2026-06-26",
+     "title_zh": "從腸漏到脆弱的大腦：肥胖相關腸道屏障失效於大腸直腸癌與認知功能障礙中的角色",
+     "score": 2,
+     "one_liner": "本綜述提出肥胖相關腸道屏障破壞可能透過腸腦軸連結CRC進展與認知功能障礙，屬理論性「雙屏障失效」模型，無臨床數據佐證。",
+     "sim": 0.225
+    },
+    {
+     "pmid": "42627455",
+     "date": "2026-08-22",
+     "title_zh": "肥胖中的內源性大麻素組-腸道微生物軸：與大腸直腸癌發展之潛在連結",
+     "score": 1,
+     "one_liner": "本綜述提出肥胖相關eCBome-腸道微生物軸失調可能透過屏障破壞、內毒素血症、NF-κB活化等機轉影響CRC發生，屬理論推論、無直接研究證實。",
+     "sim": 0.21
+    },
+    {
+     "pmid": "42627455",
+     "date": "2026-08-23",
+     "title_zh": "肥胖中的內源性大麻素體－微生菴軸：與大腸直腸癌發生的潛在連結",
+     "score": 1,
+     "one_liner": "本綜述提出肥胖相關內源性大麻素體與腸道菌群失調可能透過腸道屏障破壞、內毒素血症等機轉促進CRC發生，屬理論框架，無實證數據。",
+     "sim": 0.21
+    }
+   ]
+  },
+  {
+   "pmid": "42960458",
+   "title": "Mechanisms and therapeutic perspectives of mucosal glycosylation-innate immunity crosstalk in inflammatory bowel disease (Review)",
+   "journal": "Int J Mol Med",
+   "journal_full": "International journal of molecular medicine",
+   "issn": "1791-244X",
+   "issn_linking": "1107-3756",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Dec",
+   "doi": "10.3892/ijmm.2026.6032",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Liu X, Zhang T, Jin J, Song Y, Li M, Zhong H",
+   "abstract": "Inflammatory bowel disease (IBD) is a group of chronic, relapsing inflammatory disorders of the gastrointestinal tract, driven by a complex interplay of genetic susceptibility, environmental exposures, intestinal microbiota dysbiosis and immune dysregulation. In recent years, mucosal glycosylation has emerged as a fundamental molecular determinant of intestinal barrier integrity and function and is increasingly recognized as a key regulatory interface linking the microbiota with host immune responses. Concurrently, the innate immune system serves an important role in mucosal defense and inflammatory responses through pattern recognition receptor‑mediated signaling, and its aberrant activation represents a key driver of persistent inflammation in IBD. The present review systematically summarizes the bidirectional regulatory crosstalk between mucosal glycosylation and innate immunity. The mechanistic roles of glycosylation modifications are highlighted in pathogen recognition, inflammatory signal transduction, inflammasome activation and maintenance of mucosal barrier integrity. Conversely, it is discussed how innate immune activation regulates glycan biosynthesis and remodeling through inflammatory cytokines, oxidative stress and major signaling pathways, thereby reshaping the mucosal glycome in disease contexts. On this basis, the dynamic alterations of glycosylation‑innate immunity interactions across different stages of IBD, including disease initiation, progression and relapse, are delineated, emphasizing their important role in sustaining chronic inflammation and driving tissue remodeling. In addition, emerging therapeutic strategies targeting glycosylation pathways, glycan‑lectin interactions, mucosal barrier restoration and microbiota modulation are summarized. The potential of glycomics, multi‑omics integration and glyco‑immune biomarkers in disease stratification and precision medicine are also discussed. By integrating perspectives from glycobiology and immunology, the present review aims to provide a conceptual framework and novel directions for mechanistic research and targeted therapy in IBD.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42344899",
+     "date": "2026-06-25",
+     "title_zh": "發炎性腸道疾病中DNA甲基化與黏膜先天性免疫交互作用的機制與治療展望",
+     "score": 2,
+     "one_liner": "本文為概念性綜述，整合DNA甲基化與先天性免疫在IBD致病機制中的雙向交互作用，未提供臨床數據。",
+     "sim": 0.376
+    },
+    {
+     "pmid": "42781201",
+     "date": "2026-09-25",
+     "title_zh": "腸道菌群與先天性免疫在CRC起始與進展中的交互作用：機制與治療潛力",
+     "score": 2,
+     "one_liner": "本文綜述腸道菌群與先天性免疫在CRC發生發展中的雙向調控機制，未提供任何臨床試驗或人體介入數據。",
+     "sim": 0.253
+    },
+    {
+     "pmid": "42781201",
+     "date": "2026-09-26",
+     "title_zh": "腸道菌群與先天性免疫交互作用在大腸直腸癌起始與進展中的角色：機制與治療潛力",
+     "score": 2,
+     "one_liner": "本綜述整理腸道菌群與先天性免疫在CRC中雙向交互作用之機制，強調除colibactin突變特徵外，多數證據仍限於動物/體外模型。",
+     "sim": 0.253
+    }
+   ]
+  }
+ ],
+ "submission_id": "175f2370bbbf4f4489e4612e957c4823",
+ "state": "preparing"
+}
