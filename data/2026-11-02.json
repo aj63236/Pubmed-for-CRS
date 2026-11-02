@@ -1,0 +1,970 @@
+{
+ "date": "2026-11-02",
+ "generated_at": "2026-11-02T09:26:43+08:00",
+ "count": 10,
+ "papers": [
+  {
+   "pmid": "42966842",
+   "title": "PD-(L)1×VEGF bispecific antibodies in solid tumors: clinical trial updates from ASCO 2026",
+   "journal": "J Hematol Oncol",
+   "journal_full": "Journal of hematology & oncology",
+   "issn": "1756-8722",
+   "issn_linking": "1756-8722",
+   "impact_factor": 47.8,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1200/JCO.2026.44.16_suppl.8580",
+   "ptype": "Review, Letter",
+   "ptype_list": [
+    "Review",
+    "Letter"
+   ],
+   "authors": "Wang Z, Guo C, Yuan X, Guo Q, Zhang R, Chen Z",
+   "abstract": "PD-(L)1×VEGF bispecific antibodies integrate immune checkpoint blockade and VEGF inhibition within a single molecule, offering a potential strategy to overcome angiogenesis-associated immune resistance. At the 2026 ASCO Annual Meeting, the randomized phase 3 HARMONi-6 trial demonstrated an overall survival benefit with ivonescimab plus chemotherapy over tislelizumab plus chemotherapy in previously untreated advanced squamous non-small cell lung cancer (NSCLC), extending survival evidence to an active PD-1-based first-line comparator. Exploratory phase 2 studies of pumitamig, SSGJ-707, and HB0025 reported encouraging activity in first-line NSCLC, while phase 1 and 2 studies of IMM2510 and ivonescimab-based regimens suggested activity after prior immunotherapy. Smaller exploratory studies also reported activity in perioperative head and neck cancer, colorectal cancer, endometrial cancer, and mucosal melanoma. Collectively, these findings highlight the clinical potential of PD-(L)1×VEGF bispecific antibodies, with the strongest evidence in first-line squamous NSCLC and broader applications remaining hypothesis-generating. Future development should prioritize predictive biomarkers, resistance mechanisms, optimal treatment sequencing, and careful assessment of immune-related and VEGF-associated toxicities.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42745055",
+     "date": "2026-09-17",
+     "title_zh": "口服KRAS G12D抑制劑GFH375治療先前已治療、帶有KRASG12D突變之晚期實體腫瘤：一項第一期試驗",
+     "score": 3,
+     "one_liner": "在74名KRASG12D突變晚期實體腫瘤病人（含10名CRC）中，單臂試驗顯示GFH375於PDAC ORR 35.1%、NSCLC ORR 35.7%，CRC療效未單獨報告。",
+     "sim": 0.154
+    },
+    {
+     "pmid": "42745055",
+     "date": "2026-09-18",
+     "title_zh": "口服KRAS G12D抑制劑GFH375用於先前已治療之KRASG12D突變晚期實體腫瘤：第一期臨床試驗",
+     "score": 4,
+     "one_liner": "在74名KRASG12D突變晚期實體腫瘤病人（含10名CRC）中，單臂試驗GFH375治療，PDAC ORR 35.1%、NSCLC ORR 35.7%，CRC療效未單獨報告。",
+     "sim": 0.154
+    }
+   ],
+   "title_zh": "PD-(L)1×VEGF 雙特異性抗體用於實體腫瘤：ASCO 2026 臨床試驗進展",
+   "abstract_zh": "PD-(L)1×VEGF 雙特異性抗體將免疫檢查點阻斷與 VEGF 抑制整合於單一分子中，提供一種可能克服血管新生相關免疫抗性的策略。在 2026 年 ASCO 年會上，隨機第三期 HARMONi-6 試驗顯示，對於先前未接受治療的晚期鱗狀非小細胞肺癌（NSCLC），ivonescimab 合併化學治療相較於 tislelizumab 合併化學治療具有整體存活效益，將存活效益證據延伸至以具療效的 PD-1 治療為基礎之第一線對照方案。Pumitamig、SSGJ-707 與 HB0025 的探索性第二期研究，在第一線 NSCLC 治療中呈現令人鼓舞的活性；而 IMM2510 與以 ivonescimab 為基礎療法的第一期及第二期研究，則顯示在先前接受過免疫治療後仍可能具有活性。規模較小的探索性研究亦報告，在周手術期頭頸癌、大腸直腸癌、子宮內膜癌及黏膜黑色素瘤中具有活性。整體而言，這些發現凸顯 PD-(L)1×VEGF 雙特異性抗體的臨床潛力，其中以第一線鱗狀 NSCLC 的證據最強，較廣泛的應用仍屬假說生成階段。未來開發應優先著重於預測性生物標記、抗藥機轉、最佳治療順序，以及審慎評估免疫相關與 VEGF 相關毒性。",
+   "evidence_level": "綜述",
+   "score": 3,
+   "score_reason": "本文為會議試驗進展綜述，摘要未提供療效數值或信賴區間，無法量化獲益。最強證據來自肺癌，大腸直腸癌僅有小型探索性研究，對台灣大腸直腸外科的即時實用性有限。",
+   "relevance": "低度相關",
+   "relevance_why": "主要證據集中於晚期肺癌藥物治療，大腸直腸癌僅被列為探索性應用，未提供可用於外科決策的結果。",
+   "novelty": "仍屬早期",
+   "one_liner": "在初治晚期鱗狀NSCLC（人數未載）中，雙抗加化療較PD-1加化療改善OS，幅度未報。",
+   "action": "目前不需改變大腸直腸癌病人治療；本篇僅提探索性活性，未提供CRC療效與安全性數據。",
+   "pico": {
+    "P": "多種實體腫瘤病人，總人數未載；最強證據族群為初治晚期鱗狀NSCLC，另涵蓋大腸直腸癌等探索性研究。",
+    "I": "PD-(L)1×VEGF雙特異性抗體，包括ivonescimab、pumitamig、SSGJ-707、HB0025及IMM2510，部分合併化學治療或其他療法。",
+    "C": "HARMONi-6為tislelizumab合併化學治療；其餘研究的對照設計與方案摘要未交代。",
+    "O": "HARMONi-6報告整體存活效益；其他研究報告抗腫瘤活性，但未提供具體指標、數值或主要與次要終點排序。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "HARMONi-6為第3期隨機試驗；人數與OS絕對值未載。",
+    "CRC僅提小型探索研究；人數與反應率未載。",
+    "摘要未提供毒性發生率或陰性結果數值。"
+   ],
+   "cautions": [
+    "肺癌存活效益不可直接外推至CRC；後者仍屬假說生成。",
+    "未報樣本數、絕對療效、HR或信賴區間，無法判斷獲益大小。",
+    "未列毒性發生率，無法權衡免疫與VEGF相關風險。"
+   ],
+   "unassessable": [
+    "綜述的文獻搜尋策略、納入標準與研究選擇偏誤",
+    "所引隨機試驗的分派隱蔽、盲法與ITT分析",
+    "各研究的失訪率、追蹤時間與資料成熟度",
+    "試驗註冊、預設終點及選擇性報告情形",
+    "大腸直腸癌研究的人數、分子分型、治療線別與對照設計",
+    "各方案的療效量值、信賴區間與安全性結果",
+    "利益衝突與經費來源",
+    "成本效益及台灣可近性"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3048,
+    "input_tokens_details": {
+     "cache_write_tokens": 3045,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1498,
+    "output_tokens_details": {
+     "reasoning_tokens": 173
+    },
+    "total_tokens": 4546
+   },
+   "added_at": "2026-11-02T09:23:03+08:00"
+  },
+  {
+   "pmid": "42967221",
+   "title": "Liposomal irinotecan and capecitabine plus bevacizumab as second-line therapy in metastatic colorectal cancer: A multicenter, single-arm study",
+   "journal": "Cancer",
+   "journal_full": "Cancer",
+   "issn": "1097-0142",
+   "issn_linking": "0008-543X",
+   "impact_factor": 5.6,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.1002/cncr.70671",
+   "ptype": "Multicenter Study",
+   "ptype_list": [
+    "Multicenter Study"
+   ],
+   "authors": "Su D, Li C, Zheng T, Tang J, Wang G, Xu H",
+   "abstract": "BACKGROUND: Liposomal irinotecan, characterized by its favorable pharmacologic properties and reduced systemic toxicity compared to irinotecan, has demonstrated superior therapeutic potential. This multicenter, single-arm study was conducted to evaluate the efficacy and safety of liposomal irinotecan, capecitabine, and bevacizumab as a second-line treatment for metastatic colorectal cancer (mCRC).\nMETHODS: Patients with histologically confirmed mCRC who had progressed following first-line oxaliplatin-based chemotherapy were enrolled in this study. The treatment regimen was liposomal irinotecan (70 mg/m2, d1), capecitabine (1000 mg/m2, twice daily, d1-10), and bevacizumab (5 mg/kg, d1). The primary endpoint was progression-free survival. Secondary endpoints included objective response rate, disease control rate, duration of response, overall survival, and safety.\nRESULTS: Between March 2024 and July 2024, 63 patients were enrolled, with a median age of 60.0 years (range: 37.0-79.0). Among the patients who received at least one tumor assessment, the objective response rate and disease control rate were 22.9% (11/48; 95% CI, 12.0-37.3) and 89.6% (43/48; 95% CI, 77.3-96.5), respectively. With a median follow-up of 16.2 months (range: 0.5-28.5), the median progression-free survival was 8.1 months (95% CI, 7.3-8.9), and the median overall survival was 19.5 months (95% CI, 15.2-23.8). The most common grade 3 to 4 adverse events were diarrhea (12.7%), neutropenia (11.1%), and fatigue (6.3%).\nCONCLUSIONS: The combination of liposomal irinotecan, capecitabine, and bevacizumab demonstrated promising antitumor activity and a manageable safety profile in patients with mCRC who had failed first-line oxaliplatin-based therapy. These results suggested that this regimen is a clinically feasible second-line treatment option for mCRC.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42360560",
+     "date": "2026-06-27",
+     "title_zh": "轉移性大腸直腸癌二線FOLFIRI併用Ramucirumab依前線生物製劑暴露之臨床結果：前使用Bevacizumab與前使用Anti-EGFR族群之回溯性比較",
+     "score": 3,
+     "one_liner": "在85名接受二線FOLFIRI+Ramucirumab之mCRC病人中，前用Anti-EGFR組（n=30）ORR、PFS、OS均優於前用Bevacizumab組（n=55），但兩組RAS狀態與腫瘤側嚴重不平衡。",
+     "sim": 0.34
+    },
+    {
+     "pmid": "42630712",
+     "date": "2026-08-24",
+     "title_zh": "難治性轉移性大腸直腸癌之化療再挑戰合併或不合併標靶治療：第二期臨床試驗",
+     "score": 3,
+     "one_liner": "在43名難治性mCRC病人中，化療再挑戰合併標靶治療 vs 化療單獨，DCR達80%（bevacizumab組）vs 18.2%，PFS 4.17 vs 1.57個月。",
+     "sim": 0.304
+    },
+    {
+     "pmid": "42675036",
+     "date": "2026-09-02",
+     "title_zh": "一線安羅替尼對比貝伐珠單抗併用CapeOX治療RAS/BRAF野生型不可切除轉移性大腸直腸癌（ANCHOR）：多中心前瞻性隨機第三期試驗",
+     "score": 5,
+     "one_liner": "在748名RAS/BRAF野生型不可切除mCRC病人中，比較安羅替尼+CapeOX與貝伐珠單抗+CapeOX，兩組中位PFS皆11.0個月但未達預設非劣性邊界（HR 1.00，95%CI上限1.18＞1.09）。",
+     "sim": 0.291
+    }
+   ],
+   "title_zh": "脂質體irinotecan與capecitabine合併bevacizumab作為轉移性大腸直腸癌二線治療：多中心單臂研究",
+   "abstract_zh": "背景：脂質體irinotecan相較於irinotecan，具有較佳的藥理特性與較低的全身性毒性，已展現更優異的治療潛力。本多中心單臂研究旨在評估脂質體irinotecan、capecitabine與bevacizumab作為轉移性大腸直腸癌（mCRC）二線治療的療效與安全性。\n方法：本研究納入經組織學確認為mCRC，且在接受以oxaliplatin為基礎的一線化療後疾病惡化的病人。治療方案為脂質體irinotecan（70 mg/m²，第1天）、capecitabine（1000 mg/m²，每日兩次，第1–10天）及bevacizumab（5 mg/kg，第1天）。主要終點為無惡化存活期。次要終點包括客觀反應率、疾病控制率、反應持續時間、整體存活期及安全性。\n結果：2024年3月至2024年7月共納入63名病人，年齡中位數為60.0歲（範圍：37.0–79.0歲）。在至少接受一次腫瘤評估的病人中，客觀反應率與疾病控制率分別為22.9%（11/48；95%信賴區間：12.0–37.3）及89.6%（43/48；95%信賴區間：77.3–96.5）。追蹤時間中位數為16.2個月（範圍：0.5–28.5個月），無惡化存活期中位數為8.1個月（95%信賴區間：7.3–8.9），整體存活期中位數為19.5個月（95%信賴區間：15.2–23.8）。最常見的第3–4級不良事件為腹瀉（12.7%）、嗜中性白血球低下（11.1%）及疲倦（6.3%）。\n結論：對於以oxaliplatin為基礎的一線治療失敗的mCRC病人，脂質體irinotecan、capecitabine與bevacizumab合併療法展現具潛力的抗腫瘤活性，以及可管理的安全性概況。這些結果提示，此療程是臨床上可行的mCRC二線治療選項。",
+   "evidence_level": "其他",
+   "score": 4,
+   "score_reason": "多中心單臂治療研究提供二線療法的初步療效與安全性訊號，但無法判定優於標準療程，且反應率僅分析48/63人。值得關注新藥組合，但尚不足以改變台灣mCRC二線治療選擇。",
+   "relevance": "中度相關",
+   "relevance_why": "涉及常見mCRC二線全身治療與多專科決策，但未評估轉換切除率或外科相關結果。",
+   "novelty": "仍屬早期",
+   "one_liner": "63名mCRC病人二線接受脂質體irinotecan三藥療法，無對照；中位PFS為8.1個月。",
+   "action": "目前不需改變做法；對oxaliplatin一線失敗者，勿僅憑此單臂研究替換標準二線療程。",
+   "pico": {
+    "P": "63名經組織學確認、接受以oxaliplatin為基礎的一線化療後疾病惡化的mCRC病人。",
+    "I": "脂質體irinotecan 70 mg/m²第1天、capecitabine 1000 mg/m²每日兩次第1–10天，加bevacizumab 5 mg/kg第1天；摘要未提供療程週期。",
+    "C": "無對照組",
+    "O": "主要終點：無惡化存活期；次要終點：客觀反應率、疾病控制率、反應持續時間、整體存活期及安全性。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "中位PFS 8.1個月（95% CI 7.3–8.9）",
+    "中位OS 19.5個月（95% CI 15.2–23.8）",
+    "ORR 22.9%（11/48）；DCR 89.6%（43/48）"
+   ],
+   "cautions": [
+    "僅63人且無對照，不能證明優於標準二線療程。",
+    "反應率僅分析48/63人；其餘15人未納入原因不明。",
+    "第3–4級腹瀉12.7%；無對照不能認定毒性較低。"
+   ],
+   "unassessable": [
+    "研究是否前瞻性設計、試驗期別與試驗註冊資訊",
+    "腫瘤反應判定標準、評估頻率、盲法及是否獨立審查",
+    "完整療效分析集、是否納入全部收案者及缺失資料處理",
+    "未納入反應率分析之15人的原因與失訪率",
+    "PFS與OS的分析人數、事件數及截尾分布",
+    "樣本數估算、預設療效門檻及統計分析計畫",
+    "RAS/BRAF、MSI/MMR、腫瘤側別、體能狀態與一線生物製劑暴露",
+    "療程週期、劑量調整、停藥率、嚴重不良事件及治療相關死亡",
+    "反應持續時間的實際結果與轉換切除率",
+    "利益衝突、資金來源、台灣可近性及成本效益"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "前作1評估FOLFIRI加ramucirumab的mCRC二線治療，本篇則補充脂質體irinotecan、capecitabine加bevacizumab的單臂療效與安全性資料。兩篇療程、族群與設計不同，不能跨研究比較PFS或OS來判定優劣；本篇也未解答前線生物製劑暴露是否影響療效。",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3432,
+    "input_tokens_details": {
+     "cache_write_tokens": 3429,
+     "cached_tokens": 0
+    },
+    "output_tokens": 2128,
+    "output_tokens_details": {
+     "reasoning_tokens": 516
+    },
+    "total_tokens": 5560
+   },
+   "added_at": "2026-11-02T09:23:03+08:00"
+  },
+  {
+   "pmid": "42965763",
+   "title": "Operative efficiency and short-term outcomes of da Vinci 5 versus da Vinci Xi in robotic rectal cancer surgery: an overlap-weighted cohort study with an exploratory case insights analysis",
+   "journal": "J Robot Surg",
+   "journal_full": "Journal of robotic surgery",
+   "issn": "1863-2491",
+   "issn_linking": "1863-2483",
+   "impact_factor": 4.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1093/aje/kwy201",
+   "ptype": "Comparative Study",
+   "ptype_list": [
+    "Comparative Study"
+   ],
+   "authors": "Ishiyama Y, Hirano Y, Kitano Y, Yamazaki N, Sakai Y, Nakanishi A",
+   "abstract": "The da Vinci 5 introduces changes in operative workflow and instrument control, but its comparative performance in rectal cancer surgery remains uncertain. We compared operative efficiency and short-term outcomes after platform introduction and explored platform-derived intraoperative measurements. This retrospective single-center study included 202 patients undergoing robot-assisted rectal cancer surgery from July 2025 to September 2026 (Xi, n = 109; da Vinci 5, n = 93). Propensity-score overlap weighting addressed measured differences. The primary outcome was total operative time. HC3 inference was checked using 2,000 bootstrap replicates with propensity-score re-estimation. Retrieved Case Insights records were summarized descriptively. The adjusted difference in total operative time was - 6.9 min (HC3 95% confidence interval [CI], - 24.4 to 10.6; P = 0.439); the bootstrap 95% CI was - 21.8 to 7.8 min. The adjusted risk difference for Clavien-Dindo grade ≥ II complications was - 9.4% points (HC3 95% CI, - 19.8 to 0.9; P = 0.074). Margin positivity occurred in only three patients and was reported descriptively. Inference for postoperative hospital stay depended on the variance method. We did not detect a statistically clear reduction in total operative time after the introduction of the da Vinci 5. Secondary outcomes remain exploratory. Exploratory Case Insights analysis provided descriptive information on instrument-tip force and surgical workflow, warranting further prospective validation of their clinical relevance.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42900273",
+     "date": "2026-10-21",
+     "title_zh": "達文西 Xi 與 Si 機器人手術系統用於直腸癌手術之圍手術期與腫瘤學結果比較：系統性回顧與統合分析",
+     "score": 6,
+     "one_liner": "在843名直腸癌病人中，比較Xi與Si，手術時間差−27.7分鐘，未達顯著。",
+     "sim": 0.213
+    },
+    {
+     "pmid": "42900273",
+     "date": "2026-10-22",
+     "title_zh": "達文西 Xi 與 Si 機器人手術系統用於直腸癌手術之圍手術期與腫瘤學結果比較：系統性回顧與統合分析",
+     "score": 6,
+     "one_liner": "在843名直腸癌病人中，比較Xi與Si，手術時間差−27.7分鐘，未達顯著。",
+     "sim": 0.213
+    },
+    {
+     "pmid": "42704554",
+     "date": "2026-09-08",
+     "title_zh": "維持微創：義大利多中心傾向分數加權世代研究中機器人與腹腔鏡大腸直腸癌手術之比較",
+     "score": 5,
+     "one_liner": "在2,284名大腸直腸癌切除病人中，比較機器人與腹腔鏡，機器人調整後轉開腹率較低（2.2% vs 9.2%）但手術時間多42.8分鐘。",
+     "sim": 0.211
+    }
+   ],
+   "title_zh": "達文西5與達文西Xi用於機器人直腸癌手術的手術效率及短期結果：重疊加權世代研究與探索性Case Insights分析",
+   "abstract_zh": "達文西5在手術流程與器械控制方面有所改變，但其在直腸癌手術中的比較表現仍不確定。我們比較平台引進後的手術效率與短期結果，並探索平台產生的術中測量資料。這項單中心回溯性研究納入2025年7月至2026年9月接受機器人輔助直腸癌手術的202名病人（Xi組109人；達文西5組93人）。研究以傾向分數重疊加權處理已測量的組間差異。主要結果為總手術時間。研究使用2,000次bootstrap重抽樣、每次重新估計傾向分數，以檢核HC3推論。取得的Case Insights紀錄則以描述性方式彙整。總手術時間的調整後差異為−6.9分鐘（HC3 95%信賴區間［CI］，−24.4至10.6；P＝0.439）；bootstrap 95% CI為−21.8至7.8分鐘。Clavien-Dindo分級≥II併發症的調整後風險差為−9.4個百分點（HC3 95% CI，−19.8至0.9；P＝0.074）。僅3名病人發生切緣陽性，因此以描述性方式報告。術後住院天數的推論結果取決於所採用的變異數估計方法。引進達文西5後，我們未偵測到統計上明確的總手術時間縮短。次要結果仍屬探索性。探索性Case Insights分析提供了器械尖端受力與手術流程的描述性資訊，其臨床相關性仍有待進一步前瞻性驗證。",
+   "evidence_level": "回溯性研究",
+   "score": 6,
+   "score_reason": "採重疊加權並以重新估計傾向分數的bootstrap檢核，分析較審慎，但單中心回溯性設計仍限制因果推論。對評估新平台導入有實用性，尚不足以支持效率優勢或改變平台選擇。",
+   "relevance": "高度相關",
+   "relevance_why": "直接涉及直腸癌機器人手術的平台選擇、手術室效率與短期安全性。",
+   "novelty": "結果為陰性",
+   "one_liner": "在202名直腸癌病人中，比較達文西5與Xi，總手術時間差−6.9分鐘，未達顯著。",
+   "action": "目前不需改變做法；對擬接受機器人直腸癌手術者，勿僅據此研究優先選用達文西5。",
+   "pico": {
+    "P": "單中心2025年7月至2026年9月接受機器人輔助直腸癌手術的202名病人",
+    "I": "達文西5手術，93人",
+    "C": "達文西Xi手術，109人；以傾向分數重疊加權比較",
+    "O": "主要結果：總手術時間；次要結果：Clavien-Dindo分級≥II併發症、切緣陽性及術後住院天數；另探索器械尖端受力與手術流程"
+   },
+   "effects": [],
+   "key_numbers": [
+    "手術時間差−6.9分鐘，95% CI −24.4至10.6",
+    "併發症調整後風險差−9.4百分點，95% CI −19.8至0.9",
+    "切緣陽性共3/202例，未提供分組事件數"
+   ],
+   "cautions": [
+    "單中心回溯性比較；重疊加權無法排除未測量混雜。",
+    "手術時間未達顯著不代表等效，信賴區間仍容許具臨床意義的差異。",
+    "次要結果僅探索性；未報兩組併發症絕對率，住院推論隨變異數方法改變。"
+   ],
+   "unassessable": [
+    "平台分配方式及選擇平台的臨床原因",
+    "傾向分數納入變項、加權後平衡與有效樣本數",
+    "術者經驗、學習曲線及手術日期的處理方式",
+    "結果評估者是否盲化",
+    "併發症追蹤期間、失訪率及缺失資料處理",
+    "試驗或研究註冊、預先指定分析計畫",
+    "利益衝突及廠商資助",
+    "Case Insights資料取得比例與缺失模式",
+    "成本效益及長期腫瘤學結果"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "前述Xi與Si的系統性回顧與統合分析比較上一代平台，本研究將問題延伸至達文西5與Xi，補上新平台導入後的效率與短期結果資料。兩者均未顯示明確的手術時間優勢，但比較平台不同，不能據此推論各代平台等效。",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3183,
+    "input_tokens_details": {
+     "cache_write_tokens": 3180,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1776,
+    "output_tokens_details": {
+     "reasoning_tokens": 450
+    },
+    "total_tokens": 4959
+   },
+   "added_at": "2026-11-02T09:23:03+08:00"
+  },
+  {
+   "pmid": "42964160",
+   "title": "Multidrug-resistant monophasic Salmonella Typhimurium ST34 strain producing bla NDM-5 carbapenemase isolated from a patient with rectal cancer in Hainan, China: comprehensive whole genome dissection of antibiotic resistance and virulence determinants",
+   "journal": "Front Cell Infect Microbiol",
+   "journal_full": "Frontiers in cellular and infection microbiology",
+   "issn": "2235-2988",
+   "issn_linking": "2235-2988",
+   "impact_factor": 5.5,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1016/j.drup.2026.101358",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Zhong S, Xing L, Wang L, Wang C, Fu X, Xu L",
+   "abstract": "BACKGROUND: Here, we report the identification and comprehensive whole-genome characterization of a New Delhi metallo-β-lactamase 5 (bla NDM-5)-producing multidrug-resistant (MDR) monophasic Salmonella Typhimurium ST34 strain SYA001 from an immunocompromised rectal cancer patient. Monophasic Salmonella Typhimurium (Salmonella enterica subsp. enterica serovar 1,4,[5],12:i:-) is one of the leading causative agents of foodborne gastroenteritis and hospitalization worldwide, and the rapid emergence and spread of carbapenem-resistant strains have severely compromised clinical treatment and posed a major threat to public health.\nMETHODS: In this study, a series of standardized phenotypic assays were performed to characterize the microbiological, biochemical, and antimicrobial resistance profiles of strain SYA001. Matrix-assisted laser desorption/ionization time-of-flight mass spectrometry (MALDI-TOF MS), biochemical identification, and slide agglutination serotyping were used for species and serotype confirmation. Antimicrobial susceptibility testing was conducted using the VITEK 2 compact system, and six types of carbapenemases were screened via a colloidal gold immunochromatographic assay. Whole-genome sequencing (WGS) was performed on the DNBSEQ-T7 platform, and a comprehensive bioinformatics pipeline was applied to dissect the genomic structure, phylogenetic characteristics, antibiotic resistance determinants, plasmid profiles, prophage regions, Salmonella pathogenicity islands (SPIs), and protein-protein interaction (PPI) network of the strain.\nRESULTS: Our results confirmed that SYA001 is a serovar 1,4,[5],12:i:- monophasic Salmonella Typhimurium belonging to the globally epidemic ST34 clone. The strain exhibited an MDR phenotype, with resistance to 7 classes of antibiotics including carbapenems, cephalosporins, and aminoglycosides, and was only susceptible to aztreonam, amikacin, tigecycline, and colistin. Genomic analysis identified the core carbapenem resistance gene bla NDM-5, along with multiple coexisting resistance genes including bla OXA-10, qnrS1, tet(A), sul2, and sul3 and so on. Four plasmid replicons (IncHI2, IncHI2A, IncQ1, p0111), 15 prophage regions, and a complete set of virulence-related SPIs (SPI-1 to SPI-5,SPI-9, SPI-13, SPI-14) were detected. PPI network analysis revealed AcrA as the core hub of the efflux-mediated resistance regulatory network.\nCONCLUSION: This study provides genomic insights into bla NDM-5-producing MDR monophasic Salmonella. Typhimurium from an immunocompromised rectal cancer patient, supplements clinical surveillance data of carbapenem-resistant Salmonella in Hainan.",
+   "watched": [],
+   "related": [],
+   "title_zh": "中國海南一名直腸癌病人分離出攜帶 bla NDM-5、產碳青黴烯酶的多重抗藥性單相鼠傷寒沙門氏菌 ST34 菌株：抗生素抗藥性與毒力決定因子的全基因體全面解析",
+   "abstract_zh": "背景：本文報告從一名免疫功能低下的直腸癌病人中，鑑定出一株產新德里金屬β-內醯胺酶5（bla NDM-5）的多重抗藥性（MDR）單相鼠傷寒沙門氏菌 ST34 菌株 SYA001，並進行全面的全基因體特徵分析。單相鼠傷寒沙門氏菌（Salmonella enterica subsp. enterica serovar 1,4,[5],12:i:-）是全球食源性腸胃炎及相關住院的主要致病菌之一，而碳青黴烯類抗藥菌株的迅速出現與傳播，已嚴重影響臨床治療，並對公共衛生構成重大威脅。\n方法：本研究進行一系列標準化表型試驗，以分析 SYA001 菌株的微生物學、生化及抗微生物藥物抗藥性特徵。使用基質輔助雷射脫附／游離飛行時間質譜（MALDI-TOF MS）、生化鑑定及玻片凝集血清分型，確認菌種與血清型。使用 VITEK 2 compact 系統進行抗微生物藥物感受性試驗，並以膠體金免疫層析法篩檢六類碳青黴烯酶。使用 DNBSEQ-T7 平台進行全基因體定序（WGS），並採用完整的生物資訊分析流程，解析該菌株的基因體結構、系統發育特徵、抗生素抗藥性決定因子、質體組成、前噬菌體區域、沙門氏菌致病島（SPIs），以及蛋白質交互作用（PPI）網絡。\n結果：研究結果確認，SYA001 為血清型 1,4,[5],12:i:- 的單相鼠傷寒沙門氏菌，屬於全球流行的 ST34 克隆。該菌株呈現 MDR 表型，對包括碳青黴烯類、頭孢菌素類及胺基糖苷類在內的7類抗生素具有抗藥性，僅對 aztreonam、amikacin、tigecycline 及 colistin 具感受性。基因體分析鑑定出核心碳青黴烯類抗藥基因 bla NDM-5，以及多個共存的抗藥基因，包括 bla OXA-10、qnrS1、tet(A)、sul2、sul3 等。檢出4種質體複製子（IncHI2、IncHI2A、IncQ1、p0111）、15個前噬菌體區域，以及一套完整的毒力相關 SPIs（SPI-1至SPI-5、SPI-9、SPI-13、SPI-14）。PPI 網絡分析顯示，AcrA 是外排介導抗藥性調控網絡的核心樞紐。\n結論：本研究提供了來自一名免疫功能低下直腸癌病人、產 bla NDM-5 的 MDR 單相鼠傷寒沙門氏菌之基因體資訊，並補充海南地區碳青黴烯類抗藥沙門氏菌的臨床監測資料。",
+   "evidence_level": "其他",
+   "score": 3,
+   "score_reason": "表型檢測與全基因體分析提供單株抗藥菌的描述性證據，但無對照或臨床療效資料。對台灣大腸直腸外科日常決策的直接價值有限，較適合感染管制或抗藥菌研究需求者讀全文。",
+   "relevance": "低度相關",
+   "relevance_why": "雖菌株來自直腸癌病人，研究核心是單株病原菌的抗藥性與基因體，未評估外科處置或病人預後。",
+   "novelty": "仍屬早期",
+   "one_liner": "分析1名直腸癌病人的沙門氏菌分離株，無對照組，發現對7類抗生素具抗藥性。",
+   "action": "目前不需改變做法；勿據單株資料調整直腸癌病人的預防性抗生素，摘要未提供臨床療效證據。",
+   "pico": {
+    "P": "中國海南1名免疫功能低下的直腸癌病人所分離之單相鼠傷寒沙門氏菌 SYA001，共1株",
+    "I": "菌種與血清型鑑定、藥物感受性試驗、碳青黴烯酶篩檢、全基因體定序及生物資訊分析",
+    "C": "無對照組",
+    "O": "摘要未指定主要與次要結果；分析菌株抗藥表型、抗藥基因、系統發育、質體、前噬菌體、致病島及PPI網絡"
+   },
+   "effects": [],
+   "key_numbers": [
+    "研究僅含1名病人的1株分離株，無對照組",
+    "對7類抗生素具抗藥性；僅4種藥物具感受性",
+    "檢出4種質體複製子、15個前噬菌體區域"
+   ],
+   "cautions": [
+    "單一病人、單株且無對照，不能估計台灣盛行率或臨床風險",
+    "體外藥敏與毒力基因不等於臨床療效或實際致病嚴重度",
+    "PPI網絡核心位置不等於功能驗證，不能確立AcrA的因果角色"
+   ],
+   "unassessable": [
+    "病人的癌症分期、治療與免疫功能低下原因",
+    "檢體來源、採檢時點及感染或帶菌的判定",
+    "實際抗生素治療、臨床反應與病人預後",
+    "各藥物最低抑菌濃度、判讀標準及確認試驗",
+    "定序品質、基因體組裝完整度及抗藥基因所在位置",
+    "抗藥基因的可轉移性與功能驗證",
+    "試驗註冊、研究計畫預先指定情形及利益衝突"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3154,
+    "input_tokens_details": {
+     "cache_write_tokens": 3151,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1794,
+    "output_tokens_details": {
+     "reasoning_tokens": 112
+    },
+    "total_tokens": 4948
+   },
+   "added_at": "2026-11-02T09:23:03+08:00"
+  },
+  {
+   "pmid": "42964032",
+   "title": "Targeting the gut-tumor axis: probiotic therapy as an adjunct strategy in colorectal cancer treatment",
+   "journal": "Front Cell Infect Microbiol",
+   "journal_full": "Frontiers in cellular and infection microbiology",
+   "issn": "2235-2988",
+   "issn_linking": "2235-2988",
+   "impact_factor": 5.5,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1002/advs.202500304",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Li H, Hou C, Pan Y",
+   "abstract": "BACKGROUND: Colorectal cancer (CRC) is a multifactorial disease driven by interactions among host genetics, immune dysregulation, environmental factors, and gut microbiota. The gut-tumor axis regulates CRC progression through inflammatory signaling, oxidative stress, epithelial barrier disruption, and immune imbalance. Probiotic-derived metabolites act as bioactive molecules capable of restoring host-microbiome homeostasis and modulating tumor-associated pathways.\nOBJECTIVE: To evaluate probiotic metabolites as adjunct therapeutic agents in CRC using integrative multi-omics analysis and in vitro validation.\nMETHODS: A systems biology approach integrating network pharmacology, transcriptomics, proteomics, metabolomics, and microbiome profiling was applied. Twelve probiotic metabolites yielded 428 predicted targets, with 162 overlapping CRC-associated genes. CRC cell lines (HCT116, HT-29, Caco-2, SW480) were treated and analyzed for viability, apoptosis, gene/protein expression, cytokines, metabolites, and microbial composition.\nRESULTS: Sodium butyrate (5 mM) reduced cell viability by 35.5-42.3% (p < 0.001) and increased apoptosis from 8.6% to 32.4%, reaching 41.2% when combined with indole-3-acetic acid (IAA, 100 μM), suggesting a synergistic pro-apoptotic effect. RNA-seq identified 1,248 DEGs, with upregulation of BAX and CASP3 (log2FC +1.8 to +2.3) and downregulation of IL6, TNF, and NFKB1 (-1.5 to -2.1). Proteomics revealed 412 differentially expressed proteins, including downregulation of AKT1 (-1.6-fold), MAPK1 (-1.4-fold), and EGFR (-1.3-fold), and upregulation of CASP3 (+1.7-fold) and BAX (+1.5-fold). Cytokines IL-6, TNF-α, and IL-1β decreased by 48.2%, 44.7%, and 39.5%, respectively, while IL-10 increased by 26.3%. Metabolomics showed a 2.8-fold increase in butyrate and ~35% reduction in oxidative stress. Microbiome diversity improved (Shannon index 2.8-3.6).\nCONCLUSION: Probiotic-derived metabolites modulate NF-κB, PI3K-Akt, MAPK, and apoptosis pathways, supporting their potential role as adjunct therapeutic agents in CRC management.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42522800",
+     "date": "2026-07-30",
+     "title_zh": "Thymoquinone調控大腸直腸癌細胞凋亡相關基因表現：BAX、BCL2、CASP3之臨床前系統性回顧與統合分析",
+     "score": 2,
+     "one_liner": "統合10篇體外研究之CRC細胞株（HT29、SW480等），TQ處理vs對照，顯著上調BAX/CASP3、下調BCL2（皆p<0.001）。",
+     "sim": 0.208
+    },
+    {
+     "pmid": "42522800",
+     "date": "2026-07-31",
+     "title_zh": "黑種草醌（Thymoquinone）調節大腸直腸癌中與凋亡相關之基因表現：BAX、BCL2及CASP3之臨床前系統性回顧與統合分析",
+     "score": 2,
+     "one_liner": "在10篇臨床前研究（CRC細胞株如HT29、SW480等）中，統合分析TQ對凋亡基因表現之影響，發現BAX與CASP3顯著上調、BCL2顯著下調（皆p<0.001）。",
+     "sim": 0.208
+    }
+   ],
+   "title_zh": "靶向腸道—腫瘤軸：益生菌療法作為大腸直腸癌治療的輔助策略",
+   "abstract_zh": "背景：大腸直腸癌（CRC）是一種多因素疾病，由宿主遺傳、免疫失調、環境因素及腸道微生物群之間的交互作用所驅動。腸道—腫瘤軸透過發炎訊號傳遞、氧化壓力、上皮屏障破壞及免疫失衡，調控CRC進展。益生菌衍生代謝物可作為生物活性分子，具有恢復宿主—微生物群恆定狀態及調節腫瘤相關路徑的能力。\n目的：運用整合性多體學分析與體外驗證，評估益生菌代謝物作為CRC輔助治療藥物的潛力。\n方法：採用整合網絡藥理學、轉錄體學、蛋白質體學、代謝體學及微生物群分析的系統生物學方法。12種益生菌代謝物產生428個預測標的，其中162個與CRC相關基因重疊。對CRC細胞株（HCT116、HT-29、Caco-2、SW480）進行處理，並分析細胞存活率、凋亡、基因／蛋白質表現、細胞激素、代謝物及微生物組成。\n結果：丁酸鈉（5 mM）使細胞存活率降低35.5–42.3%（p < 0.001），並使凋亡率由8.6%增加至32.4%；與吲哚-3-乙酸（IAA，100 μM）合併使用時，凋亡率達41.2%，提示可能具有協同性促凋亡作用。RNA-seq辨識出1,248個差異表現基因（DEGs），其中BAX及CASP3上調（log2FC +1.8至+2.3），IL6、TNF及NFKB1下調（-1.5至-2.1）。蛋白質體學發現412個差異表現蛋白，包括AKT1（-1.6倍）、MAPK1（-1.4倍）及EGFR（-1.3倍）下調，以及CASP3（+1.7倍）及BAX（+1.5倍）上調。細胞激素IL-6、TNF-α及IL-1β分別降低48.2%、44.7%及39.5%，而IL-10增加26.3%。代謝體學顯示丁酸增加2.8倍，氧化壓力降低約35%。微生物群多樣性改善（Shannon指數2.8–3.6）。\n結論：益生菌衍生代謝物可調節NF-κB、PI3K-Akt、MAPK及凋亡路徑，支持其作為CRC照護輔助治療藥物的潛在角色。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "多體學與細胞實驗提供機轉線索，但摘要未交代重複實驗數、主要比較條件與估計精確度。沒有病人療效或安全性資料，對台灣大腸直腸外科即時決策的實用性低。",
+   "relevance": "低度相關",
+   "relevance_why": "研究為CRC細胞株與多體學分析，未評估手術、臨床輔助治療效果或病人結局。",
+   "novelty": "仍屬早期",
+   "one_liner": "在4種CRC細胞株中，比較丁酸鈉與摘要基準值，凋亡率由8.6%升至32.4%。",
+   "action": "目前不需改變做法；勿據此為CRC病人加用益生菌或代謝物抗癌，因尚無人體療效與安全性資料。",
+   "pico": {
+    "P": "4種CRC細胞株：HCT116、HT-29、Caco-2、SW480；實驗樣本數與重複次數未提供，非病人研究。",
+    "I": "整合多體學與網絡藥理學分析12種益生菌代謝物；體外處理包含丁酸鈉5 mM及合併IAA 100 μM。",
+    "C": "摘要列有凋亡率基準值8.6%，但未明確交代其對照處理條件；另報丁酸鈉單用與合併IAA的結果。",
+    "O": "未指定主要或次要結果；評估細胞存活率、凋亡、基因／蛋白質表現、細胞激素、代謝物及微生物組成。"
+   },
+   "effects": [
+    {
+     "outcome": "CRC細胞凋亡比例（非病人臨床事件）",
+     "ok": true,
+     "i_label": "丁酸鈉5 mM",
+     "c_label": "摘要基準值，對照處理條件未明",
+     "i_rate": 32.4,
+     "c_rate": 8.6,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 23.8,
+     "benefit": true,
+     "event_bad": false,
+     "nnt": 4,
+     "kind": "NNT",
+     "note": ""
+    }
+   ],
+   "key_numbers": [
+    "凋亡率8.6%→32.4%；合併IAA達41.2%",
+    "細胞存活率相對降低35.5–42.3%，p<0.001",
+    "微生物多樣性：Shannon指數2.8–3.6"
+   ],
+   "cautions": [
+    "細胞凋亡是機轉指標，不能推論人體存活獲益或市售益生菌療效。",
+    "合併組凋亡較高不等於協同；摘要未報正式協同分析。",
+    "未報重複次數及信賴區間，對照條件亦不清楚。"
+   ],
+   "unassessable": [
+    "細胞實驗分組隨機化、分配隱藏及評估者盲法",
+    "生物與技術重複次數、樣本數估算及變異程度",
+    "對照處理、處理時間，以及各細胞株的個別結果",
+    "協同作用的分析模型與統計檢定",
+    "多體學多重比較校正與獨立驗證方法",
+    "微生物群分析的樣本來源、實驗系統與比較條件",
+    "人體可達濃度、給藥方式、毒性及與標準抗癌治療的交互作用",
+    "試驗註冊、研究計畫預先指定、利益衝突與資金來源",
+    "ITT及失訪率不適用於所述細胞實驗；摘要未報人體試驗"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "前列兩篇皆為Thymoquinone臨床前系統性回顧與統合分析，報告BAX及CASP3上調；本篇改研究益生菌代謝物，也觀察到相同方向的凋亡相關變化，並擴展至發炎訊號及多體學分析。這是不同介入的機轉層次延伸，不能視為對Thymoquinone療效的直接驗證，亦未補上人體療效證據。",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3319,
+    "input_tokens_details": {
+     "cache_write_tokens": 3316,
+     "cached_tokens": 0
+    },
+    "output_tokens": 2237,
+    "output_tokens_details": {
+     "reasoning_tokens": 390
+    },
+    "total_tokens": 5556
+   },
+   "added_at": "2026-11-02T09:23:03+08:00"
+  },
+  {
+   "pmid": "42965649",
+   "title": "Program maturation across 364 robotic colorectal procedures: postoperative recovery, operative efficiency, and major morbidity",
+   "journal": "J Robot Surg",
+   "journal_full": "Journal of robotic surgery",
+   "issn": "1863-2491",
+   "issn_linking": "1863-2483",
+   "impact_factor": 4.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1111/codi.17287",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Monsellato I, Palucci M, Giannone F, Marotta F, Alagia M, Lodin M",
+   "abstract": "Robotic colorectal learning-curve studies commonly define proficiency using operative time or cumulative-sum thresholds, which may not capture maturation of a heterogeneous program. In this retrospective longitudinal cohort, we analyzed 364 consecutive robotic colorectal procedures from a single-surgeon, single-center program using prior global robotic colorectal experience as a continuous exposure. Principal clinical outcomes were postoperative length of stay (LOS) and major morbidity (Clavien-Dindo grade III or higher); operative duration was the principal process/efficiency outcome. Multivariable log-linear models adjusted for procedure family, robotic platform, associated procedures, age, and American Society of Anesthesiologists (ASA) class; major morbidity was analyzed with Firth penalized logistic regression. Each doubling of (1 + prior experience) was associated with 5.1% shorter LOS (95% CI 2.2%-7.9% shorter; p < 0.001) and 5.3% shorter operative duration (95% CI 3.3%-7.4% shorter; p < 0.001). Restricted cubic spline analysis showed no evidence of LOS non-linearity (p = 0.621) but significant non-linearity for operative duration (p < 0.001). Major morbidity occurred in 15/364 procedures (4.1%); the adjusted Firth odds ratio was 1.48 per experience doubling (95% profile-likelihood CI 0.84-3.64; p = 0.208). Because cumulative experience and calendar time were essentially collinear, estimates represent longitudinal program maturation rather than an isolated causal surgeon-experience effect. Greater cumulative experience was associated with shorter LOS and operative duration, but the LOS association should be interpreted as a program-level signal that may also reflect evolving perioperative care; major morbidity remained uncommon but imprecisely estimated longitudinally.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42828597",
+     "date": "2026-10-05",
+     "title_zh": "超越總手術時間：大腸直腸機器手臂手術各階段效率與術後併發症之多外科醫師世代研究",
+     "score": 5,
+     "one_liner": "於490例機器手臂大腸直腸手術病人中，手術時間每增30分鐘，複合併發症風險上升（aOR 1.08），階段層級分析未達顯著。",
+     "sim": 0.229
+    },
+    {
+     "pmid": "42667338",
+     "date": "2026-08-30",
+     "title_zh": "機器手臂平台轉換對大腸直腸癌手術短期預後之影響",
+     "score": 3,
+     "one_liner": "在121例大腸直腸癌機器手臂手術中（Si組49例 vs X/Xi組72例），發現新平台組多象限手術增加、主刀端時間稍長（p=0.05），但總手術時間、住院天數與術後併發症相當。",
+     "sim": 0.213
+    },
+    {
+     "pmid": "42667338",
+     "date": "2026-08-31",
+     "title_zh": "機器手臂平台轉換對大腸直腸癌手術短期預後之影響",
+     "score": 3,
+     "one_liner": "在121例機器手臂大腸直腸癌手術中（Si 49例 vs X/Xi 72例），比較新舊平台，發現主控台時間X/Xi較長(p=0.05)但總手術時間與住院天數無差異。",
+     "sim": 0.213
+    }
+   ],
+   "title_zh": "364例機器手臂大腸直腸手術的計畫成熟歷程：術後恢復、手術效率與重大併發症",
+   "abstract_zh": "機器手臂大腸直腸手術的學習曲線研究，通常以手術時間或累積和分析的閾值定義熟練程度，但這些指標可能無法反映包含多樣術式之手術計畫的成熟歷程。在這項回溯性縱向世代研究中，我們分析了單一醫師、單一中心手術計畫中連續364例機器手臂大腸直腸手術，並將既往累積的整體機器手臂大腸直腸手術經驗作為連續暴露變項。主要臨床結果為術後住院日數（LOS）與重大併發症（Clavien-Dindo第III級或以上）；手術時間則為主要流程／效率結果。多變項對數線性模型校正了術式類別、機器手臂平台、合併施行的手術、年齡，以及美國麻醉醫學會（ASA）分級；重大併發症則以Firth懲罰式邏輯斯迴歸分析。（1＋既往累積經驗）每增加一倍，與LOS縮短5.1%（95% CI：縮短2.2%–7.9%；p < 0.001），以及手術時間縮短5.3%（95% CI：縮短3.3%–7.4%；p < 0.001）相關。限制性立方樣條分析未發現LOS具有非線性關係的證據（p = 0.621），但手術時間呈現顯著非線性關係（p < 0.001）。364例手術中有15例發生重大併發症（4.1%）；經驗每倍增的校正後Firth勝算比為1.48（95%剖面概似信賴區間：0.84–3.64；p = 0.208）。由於累積經驗與日曆時間幾乎共線，這些估計值反映的是手術計畫隨時間成熟的歷程，而非可單獨分離的外科醫師經驗因果效應。較多累積經驗與較短LOS及手術時間相關，但LOS的關聯應解讀為計畫層級的訊號，也可能反映圍手術期照護的演進；重大併發症仍不常見，但其縱向變化的估計並不精確。",
+   "evidence_level": "回溯性研究",
+   "score": 6,
+   "score_reason": "連續364例、以連續經驗建模並校正術式與平台，對機器手臂計畫的品質監測有實用價值。惟單醫師單中心且經驗與時間共線，值得負責訓練或品質管理者讀全文，尚不足以改變病人處置。",
+   "relevance": "高度相關",
+   "relevance_why": "直接涉及大腸直腸機器手臂手術的學習曲線、住院恢復與重大併發症監測。",
+   "novelty": "仍屬早期",
+   "one_liner": "364例機器手臂大腸直腸手術中，比較不同累積經驗，發現（1＋經驗）倍增與住院日縮短5.1%相關。",
+   "action": "分別追蹤機器手臂大腸直腸病人的住院日、手術時間與重大併發症；勿將效率提升直接視為安全性改善。",
+   "pico": {
+    "P": "單一醫師、單一中心手術計畫中，連續364例機器手臂大腸直腸手術。",
+    "I": "既往累積的整體機器手臂大腸直腸手術經驗，作為連續暴露；效應以（1＋既往經驗）每倍增呈現。",
+    "C": "同一手術計畫內不同累積經驗程度的比較，非獨立平行對照組。",
+    "O": "主要臨床結果：術後住院日數、重大併發症（Clavien-Dindo ≥ III）；主要流程／效率結果：手術時間。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "（1＋經驗）倍增：住院日縮短5.1%；未報絕對天數",
+    "（1＋經驗）倍增：手術時間縮短5.3%；未報絕對分鐘",
+    "重大併發症15/364（4.1%）；aOR 1.48，p=0.208"
+   ],
+   "cautions": [
+    "經驗與日曆時間幾乎共線，不能分離醫師學習與照護演進的效果。",
+    "住院日與手術時間僅報相對變化，缺絕對天數與分鐘，難判臨床幅度。",
+    "重大併發症僅15例，aOR信賴區間0.84–3.64；不顯著不等於安全性不變。"
+   ],
+   "unassessable": [
+    "各術式、適應症與機器手臂平台的病例分布，以及結果的分層一致性",
+    "ERAS、出院標準及圍手術期照護隨時間的具體變化",
+    "重大併發症的觀察期間、出院後事件捕捉及追蹤完整性",
+    "缺失資料比例與處理方式",
+    "結果評估者是否盲於累積經驗",
+    "住院日與手術時間的絕對分布及臨床重要差異",
+    "研究計畫是否預先註冊、資助來源與利益衝突",
+    "成本效益與其他醫師或中心的外部驗證"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "先前490例多醫師世代研究探討手術時間與複合併發症的關聯；本篇改以累積經驗為暴露，補上計畫成熟與住院恢復、效率變化的縱向資料。兩者皆屬觀察性證據，本篇重大併發症估計不精確，不能據此推論效率改善會降低併發症，也不構成與前作矛盾。",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3248,
+    "input_tokens_details": {
+     "cache_write_tokens": 3245,
+     "cached_tokens": 0
+    },
+    "output_tokens": 2118,
+    "output_tokens_details": {
+     "reasoning_tokens": 516
+    },
+    "total_tokens": 5366
+   },
+   "added_at": "2026-11-02T09:23:03+08:00"
+  },
+  {
+   "pmid": "42963788",
+   "title": "Pulmonary metastasectomy in solid tumors: a single-center experience at a tertiary referral center in the Middle East",
+   "journal": "J Cardiothorac Surg",
+   "journal_full": "Journal of cardiothoracic surgery",
+   "issn": "1749-8090",
+   "issn_linking": "1749-8090",
+   "impact_factor": 1.6,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1186/s12957-020-02076-3",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Ghanayem M, Jalil R, Al Matairi A, El-Edwan A, Yousef L, Aburabie S",
+   "abstract": "BACKGROUND: Despite advances in systemic therapy, pulmonary metastasectomy remains a key option for selected patients with metastatic solid tumors, offering long-term survival. Prognosis is influenced by many factors including disease-free interval and metastatic burden. This study evaluates survival outcomes and prognostic factors in a mixed-tumor cohort from a Middle Eastern tertiary cancer center.\nMETHODS: This retrospective cohort study included all patients who underwent pulmonary metastasectomy for solid tumors at King Hussein Cancer Center between October 2014 and December 2024. Demographic, clinical, imaging, surgical, pathological, and follow-up data were collected from electronic medical records. Overall survival (OS) and pulmonary recurrence-free survival (P-RFS) were estimated using Kaplan-Meier analysis, and prognostic factors were assessed using Cox proportional hazards models. Analyses were performed using SPSS version 27.\nRESULTS: A total of 236 patients underwent 371 procedures. The mean follow-up was 31.9 months (95% CI:28.3-35.3). Median OS was 3.99 years (95% CI:2.69-5.28), with a 5-year OS rate of 42.0%. Mean P-RFS was 6.81 years (95% CI: 6.16-7.46), with the median not reached. On univariable analysis, worse OS was associated with metastatic lesion size ≥ 3 cm, bilateral metastases, thoracotomy, longer hospital stay, and increased tumor burden. R0 resection and DFI ≥ 12 months were protective. In multivariable analysis, independent predictors of worse OS were metastatic lesion size ≥ 3 cm (HR: 1.827, p = 0.015) and DFI < 12 months (HR for ≥ 12 months: 0.515, p = 0.002). Patients with colorectal cancer demonstrated numerically longer overall survival and lower pulmonary recurrence rates than patients with sarcoma (5-year OS: 44.8% vs. 32.2%; pulmonary recurrence: 18.8% vs. 34.4%). However, tumor type was not significantly associated with overall survival in univariable Cox regression analysis.\nCONCLUSION: Pulmonary metastasectomy is an important treatment option for patients with lung metastasis from different solid tumors that provides durable long-term and pulmonary recurrence-free survival in appropriately selected patients. Longer DFI and smaller metastatic lesion size independently predict improved outcomes.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42543992",
+     "date": "2026-08-04",
+     "title_zh": "某三級醫療中心轉移性大腸直腸癌之臨床病理特徵與預後：一項雙向性觀察研究",
+     "score": 2,
+     "one_liner": "在印度單中心60名mCRC病人中，分析預後因子，發現腹膜轉移（OS HR 2.83）與分化不良（OS HR 3.05）為獨立不良預後因子。",
+     "sim": 0.214
+    },
+    {
+     "pmid": "42342945",
+     "date": "2026-06-25",
+     "title_zh": "腦轉移瘤切除術後影響復發與存活之腫瘤軌跡的圍術期決定因子",
+     "score": 2,
+     "one_liner": "在172名腦轉移切除病人（361病灶）中，發現術中包膜破裂（HR 2.70）、分塊切除（HR 2.22）等為復發之獨立預測因子。",
+     "sim": 0.2
+    },
+    {
+     "pmid": "42332725",
+     "date": "2026-06-23",
+     "title_zh": "磷酸化核糖體蛋白S6 (pS6) 在轉移性大腸直腸癌病人接受肝切除術後臨床結果之研究",
+     "score": 4,
+     "one_liner": "在64名CRLM肝切除病人中，比較pS6陽性(20.7%)與陰性，發現陽性者5年DFS更差(HRa=11.857)及OS更差(HRa=4.547)。",
+     "sim": 0.176
+    }
+   ],
+   "title_zh": "實體腫瘤肺轉移切除術：中東三級轉診中心的單中心經驗",
+   "abstract_zh": "背景：儘管全身性治療已有進展，肺轉移切除術仍是經篩選之轉移性實體腫瘤病人的重要治療選項，可提供長期存活。預後受到多項因素影響，包括無病間隔與轉移腫瘤負荷。本研究評估中東一家三級癌症中心混合腫瘤類型世代的存活結果與預後因子。\n方法：這項回溯性世代研究納入2014年10月至2024年12月間，於King Hussein Cancer Center接受實體腫瘤肺轉移切除術的所有病人。由電子病歷收集人口學、臨床、影像、手術、病理與追蹤資料。使用Kaplan–Meier分析估計整體存活（OS）與肺部無復發存活（P-RFS），並使用Cox比例風險模型評估預後因子。分析使用SPSS第27版進行。\n結果：共236名病人接受371次手術。平均追蹤時間為31.9個月（95% CI：28.3–35.3）。中位OS為3.99年（95% CI：2.69–5.28），5年OS率為42.0%。平均P-RFS為6.81年（95% CI：6.16–7.46），中位數尚未達到。單變項分析顯示，轉移病灶大小≥3公分、雙側轉移、開胸手術、住院時間較長及腫瘤負荷增加，均與較差的OS相關。R0切除與無病間隔（DFI）≥12個月為保護因子。多變項分析顯示，較差OS的獨立預測因子為轉移病灶大小≥3公分（HR：1.827，p＝0.015）及DFI＜12個月（以≥12個月計算的HR：0.515，p＝0.002）。相較於肉瘤病人，大腸直腸癌病人的整體存活在數值上較長，肺部復發率也較低（5年OS：44.8% vs. 32.2%；肺部復發：18.8% vs. 34.4%）。然而，在單變項Cox迴歸分析中，腫瘤類型與整體存活並無顯著關聯。\n結論：對不同實體腫瘤的肺轉移病人而言，肺轉移切除術是重要的治療選項，可在適當篩選的病人中提供持久的長期存活及肺部無復發存活。較長的DFI與較小的轉移病灶大小，可獨立預測較佳結果。",
+   "evidence_level": "回溯性研究",
+   "score": 4,
+   "score_reason": "236人的單中心手術世代提供預後資訊，但缺乏未手術對照，不能證明肺轉移切除的存活效益。大腸直腸癌次群組人數與調整後結果未提供，對台灣臨床選案的增益有限。",
+   "relevance": "高度相關",
+   "relevance_why": "直接涉及大腸直腸癌肺轉移切除與預後諮詢，但研究混合多種原發腫瘤。",
+   "novelty": "再確認已知",
+   "one_liner": "236名肺轉移切除病人中，大腸癌較肉瘤5年OS為44.8%比32.2%，僅數值較佳。",
+   "action": "目前不需改變做法；勿據此擴大大腸癌肺轉移切除適應症，因缺乏未手術對照。",
+   "pico": {
+    "P": "2014年10月至2024年12月於中東King Hussein Cancer Center接受實體腫瘤肺轉移切除的236名病人，共371次手術。",
+    "I": "接受肺轉移切除；評估病灶≥3公分、DFI及其他臨床病理因子。",
+    "C": "無未手術對照組；世代內比較不同病灶大小、DFI及原發腫瘤類型。",
+    "O": "OS、P-RFS及其預後因子；摘要未指定主要與次要結果層級。"
+   },
+   "effects": [
+    {
+     "outcome": "5年整體存活",
+     "ok": true,
+     "i_label": "大腸直腸癌",
+     "c_label": "肉瘤",
+     "i_rate": 44.8,
+     "c_rate": 32.2,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 12.6,
+     "benefit": true,
+     "event_bad": false,
+     "nnt": 8,
+     "kind": "NNT",
+     "note": ""
+    },
+    {
+     "outcome": "肺部復發（時間範圍未交代）",
+     "ok": true,
+     "i_label": "大腸直腸癌",
+     "c_label": "肉瘤",
+     "i_rate": 18.8,
+     "c_rate": 34.4,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 15.6,
+     "benefit": true,
+     "event_bad": true,
+     "nnt": 6,
+     "kind": "NNT",
+     "note": ""
+    }
+   ],
+   "key_numbers": [
+    "236人、371次手術；整體5年OS為42.0%",
+    "大腸癌／肉瘤5年OS：44.8%／32.2%；腫瘤類型與OS無顯著關聯",
+    "病灶≥3公分HR 1.827；DFI≥12月HR 0.515"
+   ],
+   "cautions": [
+    "僅納入已接受手術者，無未手術對照，不能推論切除帶來存活效益。",
+    "大腸癌與肉瘤僅數值不同；腫瘤類型與OS無顯著關聯，不能宣稱前者較佳。",
+    "預後HR未附信賴區間；平均追蹤僅31.9月，5年估計須留意尾端不確定性。"
+   ],
+   "unassessable": [
+    "病人選案、可切除性與手術適應症的具體標準",
+    "各原發腫瘤次群組人數、事件數及基線差異",
+    "Cox模型完整調整變項、事件數是否足夠及比例風險假設",
+    "失訪率、缺失資料比例與處理方式",
+    "重複手術的分析方式與存活時間起算點",
+    "肺部復發率的觀察時間及競爭風險處理",
+    "5年存活估計的在險人數與信賴區間",
+    "全身性治療及其他轉移部位的影響",
+    "圍手術期死亡、併發症與生活品質",
+    "研究註冊、利益衝突與成本分析"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3373,
+    "input_tokens_details": {
+     "cache_write_tokens": 3370,
+     "cached_tokens": 0
+    },
+    "output_tokens": 2146,
+    "output_tokens_details": {
+     "reasoning_tokens": 374
+    },
+    "total_tokens": 5519
+   },
+   "added_at": "2026-11-02T09:23:03+08:00"
+  },
+  {
+   "pmid": "42966632",
+   "title": "Multi-omics Profiling of Post-translational Modifications in RNA-binding Proteins in Colorectal Cancer",
+   "journal": "Cancer Genomics Proteomics",
+   "journal_full": "Cancer genomics & proteomics",
+   "issn": "1790-6245",
+   "issn_linking": "1109-6535",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.21873/cgp.20620",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Dong Y, Ruan W, Qi D, Tang D, Dai Y, Zhang W",
+   "abstract": "BACKGROUND/AIM: Post-translational modifications (PTMs) play a pivotal role in regulating RNA-binding proteins (RBPs), which are crucial in the progression of colorectal cancer (CRC). This study aims to explore the role of PTMs in modulating RBPs and their implications for CRC pathogenesis.\nMATERIALS AND METHODS: We characterized phosphorylation, ubiquitination, and malonylation of RBPs in CRC using previously generated post-translational multi-omics datasets from paired CRC and adjacent non-tumor tissues in our previous studies. Functional enrichment analysis was conducted to identify pathways associated with RBPs carrying different PTMs in CRC. Protein-protein interaction (PPI) networks were generated using STRING, and hub genes were identified with the Cytoscape plugin CytoHubba. We also investigated the intersection of RBPs with distinct PTMs and evaluated the expression and prognostic relevance of FLNA (filamin A).\nRESULTS: Our findings revealed aberrant PTMs of RBPs in CRC, with ubiquitination sites showing the most frequent alterations, followed by phosphorylation, while malonylation exhibited the fewest changes. Functional enrichment analysis indicated that these PTMs contribute to distinct biological processes, including RNA metabolism, protein synthesis, and translation regulation. PPI network analysis showed that RBPs with different PTMs were interconnected in complex networks, identifying several potential RBPs closely related to CRC. Notably, FLNA emerged as a unique RBP modified by all three PTMs. FLNA mRNA and protein abundance were reduced in CRC, and phosphorylation of FLNA at S2319 was also decreased. Higher FLNA expression was associated with worse overall survival. FLNA-associated genes were enriched in pathways related to epithelial-mesenchymal transition (EMT) and KRAS signaling.\nCONCLUSION: Multi-PTM profiling revealed distinct and convergent modification patterns among CRC-associated RBPs. FLNA emerged as a potential multi-PTM candidate associated with CRC-related molecular and clinical features. These findings provide a framework for further investigating the biological relevance of PTM-regulated RBPs and their potential implications for the development of molecularly targeted strategies in CRC.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42663768",
+     "date": "2026-08-30",
+     "title_zh": "轉譯後修飾在潰瘍性結腸炎致病機轉中的調控角色",
+     "score": 1,
+     "one_liner": "本文回顧磷酸化、醣化、泛素化等多種轉譯後修飾在UC致病機轉中調控免疫與上皮完整性的角色，屬機制性綜述無臨床數據。",
+     "sim": 0.235
+    },
+    {
+     "pmid": "42862221",
+     "date": "2026-10-13",
+     "title_zh": "磷酸化調控在結腸炎中的機轉：PP2Acα作為發炎性腸道疾病的新興治療標的",
+     "score": 1,
+     "one_liner": "本文綜述PP2Acα（PPP2CA基因產物）在IBD發炎訊息傳遞中的潛在角色，並提出未來研究方向，無臨床數據。",
+     "sim": 0.163
+    },
+    {
+     "pmid": "42862221",
+     "date": "2026-10-14",
+     "title_zh": "磷酸化機轉在腸炎調控中的角色：PP2Acα作為發炎性腸道疾病新興治療標的",
+     "score": 1,
+     "one_liner": "本篇綜述探討PP2Acα磷酸酶在IBD發炎訊號調控中的分子機轉，提出其作為未來治療標的之理論可能性，尚無臨床數據。",
+     "sim": 0.163
+    }
+   ],
+   "title_zh": "大腸直腸癌中 RNA 結合蛋白轉譯後修飾的多體學分析",
+   "abstract_zh": "背景／目的：轉譯後修飾（PTMs）在調控 RNA 結合蛋白（RBPs）方面扮演關鍵角色，而 RBPs 對大腸直腸癌（CRC）的進展至關重要。本研究旨在探討 PTMs 調節 RBPs 的角色，以及其對 CRC 致病機轉的意涵。\n材料與方法：我們利用先前研究中已建立、來自配對 CRC 與鄰近非腫瘤組織的轉譯後多體學資料集，分析 CRC 中 RBPs 的磷酸化、泛素化及丙二醯化特徵。進行功能富集分析，以辨識 CRC 中帶有不同 PTMs 的 RBPs 所涉及的路徑。使用 STRING 建立蛋白質交互作用（PPI）網絡，並以 Cytoscape 外掛程式 CytoHubba 辨識樞紐基因。我們也探討帶有不同 PTMs 的 RBP 集合之交集，並評估 FLNA（細絲蛋白 A）的表現及其與預後的相關性。\n結果：我們的發現顯示，CRC 中 RBPs 存在異常的 PTMs，其中泛素化位點的變化最頻繁，其次為磷酸化，而丙二醯化的變化最少。功能富集分析顯示，這些 PTMs 參與不同的生物過程，包括 RNA 代謝、蛋白質合成及轉譯調控。PPI 網絡分析顯示，帶有不同 PTMs 的 RBPs 在複雜網絡中彼此連結，並辨識出數個可能與 CRC 密切相關的 RBPs。值得注意的是，FLNA 是唯一同時具有這三種 PTMs 的 RBP。CRC 中 FLNA 的 mRNA 與蛋白質含量均降低，且 FLNA 在 S2319 位點的磷酸化也減少。較高的 FLNA 表現與較差的整體存活相關。與 FLNA 相關的基因富集於上皮－間質轉化（EMT）及 KRAS 訊息傳遞相關路徑。\n結論：多重 PTM 分析揭示，CRC 相關 RBPs 的修飾模式既有差異，也有共同之處。FLNA 成為一個潛在的多重 PTM 候選蛋白，與 CRC 相關分子及臨床特徵有關。這些發現提供一個架構，以進一步研究受 PTM 調控之 RBPs 的生物學意義，以及其對發展 CRC 分子標靶策略的潛在意涵。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "屬既有組織多體學資料的探索性再分析，摘要未提供樣本數、效應量或驗證細節，可信度難以充分評估。對機轉研究有參考價值，但尚無可直接影響台灣大腸直腸外科決策的證據。",
+   "relevance": "低度相關",
+   "relevance_why": "雖以 CRC 為主題，但主要為分子機轉與候選標記探索，未評估外科介入或可用於臨床決策的檢測策略。",
+   "novelty": "仍屬早期",
+   "one_liner": "在配對CRC組織（人數未報）中，比較腫瘤與鄰近非腫瘤，發現FLNA含量及S2319磷酸化降低，幅度未報。",
+   "action": "目前不需改變做法；勿依FLNA表現調整CRC病人的手術、輔助治療或追蹤，尚缺臨床效用驗證。",
+   "pico": {
+    "P": "既有資料集中的配對 CRC 與鄰近非腫瘤組織；病人數及組織對數未報。",
+    "I": "CRC 組織中 RBPs 的磷酸化、泛素化與丙二醯化分析；另評估 FLNA 表現及預後相關性。",
+    "C": "配對鄰近非腫瘤組織；FLNA 存活分析的比較分組及切點未報。",
+    "O": "摘要未指定主要與次要終點；分析項目包括 PTM 變化、功能富集、PPI 網絡、FLNA 表現及其與整體存活的關聯。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "分析3類PTM；病人數、組織對數及改變位點數未報。",
+    "FLNA含量及S2319磷酸化降低；絕對值與差值未報。",
+    "高FLNA與較差整體存活相關；存活率、HR及信賴區間未報。"
+   ],
+   "cautions": [
+    "多體學與路徑富集屬探索性結果，不能推論標靶治療有效。",
+    "FLNA與存活僅為相關，未交代是否校正分期等混雜因子。",
+    "未報樣本數、效應量、p值及信賴區間，無法判讀精確度。"
+   ],
+   "unassessable": [
+    "原始資料集的收案方式、樣本數、病人特徵及治療背景",
+    "組織採樣、腫瘤純度、檢體處理與批次效應控制",
+    "PTM 定量方法、資料正規化及差異判定門檻",
+    "多重比較校正與偽發現率控制",
+    "獨立資料集驗證及功能實驗驗證",
+    "FLNA 存活分析的資料來源、分組切點、追蹤時間及失訪情形",
+    "存活分析是否校正分期、治療與其他預後因子",
+    "分析者盲法、預先登錄或預定分析計畫",
+    "利益衝突及資金來源"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3265,
+    "input_tokens_details": {
+     "cache_write_tokens": 3262,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1642,
+    "output_tokens_details": {
+     "reasoning_tokens": 116
+    },
+    "total_tokens": 4907
+   },
+   "added_at": "2026-11-02T09:23:03+08:00"
+  },
+  {
+   "pmid": "42963501",
+   "title": "MRGPRX2 in Allergic and Immune-Mediated Diseases: Mechanisms, Clinical Relevance, and Therapeutic Translation",
+   "journal": "Clin Rev Allergy Immunol",
+   "journal_full": "Clinical reviews in allergy & immunology",
+   "issn": "1559-0267",
+   "issn_linking": "1080-0549",
+   "impact_factor": 11.5,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1016/j.pharmthera.2025.108892",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Reinisch W, Li Y, Xiong P, Li H, Pan Q, Wu C",
+   "abstract": "Mas-related G protein-coupled receptor X2 (MRGPRX2) is a mast-cell-enriched receptor that mediates immunoglobulin E-independent activation by structurally diverse neuropeptides, host-defense peptides, microbial products, and selected cationic drugs. Its biology links tissue stress and neuroimmune signaling to degranulation, vascular responses, pruritus, barrier dysfunction, and inflammatory amplification, but the extent to which individual diseases depend on this pathway remains uncertain. The strongest clinical rationale begins with non-IgE-mediated immediate drug hypersensitivity, for which MRGPRX2 provides a direct mechanistic framework, although rocuronium illustrates the need to distinguish human MRGPRX2 pharmacology from murine Mrgprb2 and from IgE-mediated perioperative allergy. In atopic dermatitis, preclinical and human skin data support a potential amplifier role in type 2 inflammation and itch, but a randomized phase 2b study of EVO756 did not demonstrate efficacy in an unselected population. In chronic urticaria, challenge, biomarker, and genetic studies suggest an MRGPRX2-responsive subgroup within a heterogeneous disease, whereas a randomized phase 2b study of EVO756 in unselected chronic spontaneous urticaria was also negative despite earlier pharmacodynamic activity. Ulcerative colitis provides additional human tissue evidence for an MRGPRX2-associated mast-cell circuit, although murine Mrgprb2 studies show context-dependent protective and pathogenic effects. Emerging evidence in chronic prurigo, allergic contact dermatitis, asthma, mastocytosis, rheumatoid arthritis, synovial inflammation, and neurogenic inflammation is also considered, with explicit separation of human observations from mouse-model evidence. We integrate these findings with receptor pharmacology and early clinical development, emphasizing evidence hierarchy, validated biomarker needs, patient selection, tissue target engagement, safety, and trial design. Current data support MRGPRX2 as an investigational endotype-defining pathway rather than a universal driver of allergic or immune-mediated disease.",
+   "watched": [],
+   "related": [],
+   "title_zh": "MRGPRX2 在過敏與免疫介導疾病中的角色：機轉、臨床相關性與治療轉譯",
+   "abstract_zh": "Mas 相關 G 蛋白偶聯受體 X2（MRGPRX2）是一種在肥大細胞中高度表現的受體，可介導由結構多樣的神經胜肽、宿主防禦胜肽、微生物產物及特定陽離子藥物引發的非免疫球蛋白 E（IgE）依賴性活化。其生物學作用將組織壓力及神經免疫訊號傳遞，與脫顆粒、血管反應、搔癢、屏障功能障礙及發炎放大連結起來，但各別疾病對此路徑的依賴程度仍不確定。最有力的臨床理據始於非 IgE 介導的立即型藥物過敏反應，MRGPRX2 為此提供直接的機轉架構；然而，rocuronium 的例子凸顯，必須區分人類 MRGPRX2 的藥理作用、小鼠 Mrgprb2，以及 IgE 介導的圍手術期過敏反應。在異位性皮膚炎中，臨床前研究與人體皮膚資料支持此路徑可能具有放大第 2 型發炎與搔癢的作用，但一項 EVO756 隨機第 2b 期研究未能在未經篩選的族群中證實療效。在慢性蕁麻疹中，誘發試驗、生物標記及遺傳研究顯示，這種異質性疾病中可能存在對 MRGPRX2 有反應的亞群；然而，儘管先前已觀察到藥效學活性，一項針對未經篩選之慢性自發性蕁麻疹患者的 EVO756 隨機第 2b 期研究結果亦為陰性。潰瘍性結腸炎提供了額外的人體組織證據，支持存在與 MRGPRX2 相關的肥大細胞迴路，但小鼠 Mrgprb2 研究顯示，其保護或致病作用取決於具體情境。本文亦探討慢性癢疹、過敏性接觸性皮膚炎、氣喘、肥大細胞增生症、類風濕性關節炎、滑膜發炎及神經源性發炎的新興證據，並明確區分人體觀察與小鼠模型證據。我們將這些發現與受體藥理學及早期臨床開發整合，強調證據階層、經驗證之生物標記的需求、病人選擇、組織標的結合、安全性及試驗設計。目前資料支持將 MRGPRX2 視為仍在研究中、可用於界定疾病內型的路徑，而非過敏或免疫介導疾病的普遍驅動因子。",
+   "evidence_level": "綜述",
+   "score": 4,
+   "score_reason": "摘要有區分人體、動物與隨機試驗證據，也納入陰性結果，但未提供量化效益或系統性檢索方法。對大腸直腸外科的價值主要是潰瘍性結腸炎機轉與圍手術期過敏背景，非優先必讀的實務文獻。",
+   "relevance": "低度相關",
+   "relevance_why": "主軸為過敏免疫機轉與早期藥物開發，雖涉及潰瘍性結腸炎及圍手術期過敏，未直接評估外科處置。",
+   "novelty": "仍屬早期",
+   "one_liner": "在過敏免疫疾病文獻（人數未提供）中，比較人體與動物證據，兩項2b期試驗均未證實療效。",
+   "action": "目前不需改變做法；勿據此調整潰瘍性結腸炎治療或圍手術期過敏處置，尚缺直接臨床證據。",
+   "pico": {
+    "P": "過敏與免疫介導疾病之人體研究及動物模型文獻；研究總數與總人數未提供。",
+    "I": "MRGPRX2 路徑的機轉、藥理作用與標靶治療開發，包括 EVO756。",
+    "C": "本綜述無單一對照組；整合人體與小鼠證據，所述隨機試驗的對照措施未交代。",
+    "O": "未界定單一主要 outcome；討論疾病機轉、臨床相關性、治療療效、藥效學活性與安全性。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "異位性皮膚炎：EVO756第2b期試驗未證實療效，未報人數或絕對效果。",
+    "慢性自發性蕁麻疹：EVO756第2b期試驗陰性，未報效果值或信賴區間。",
+    "潰瘍性結腸炎：有人體組織證據，但未報樣本數或臨床治療效果。"
+   ],
+   "cautions": [
+    "潰瘍性結腸炎證據屬組織機轉，不能推論抑制此路徑可改善臨床結局。",
+    "人體MRGPRX2與小鼠Mrgprb2不可直接互推；動物作用具情境差異。",
+    "兩項試驗僅述療效陰性，未報人數、效果值及信賴區間，無法判斷精確度。"
+   ],
+   "unassessable": [
+    "綜述的檢索策略、納入排除標準、文獻完整性與偏誤評估方法",
+    "所述隨機試驗的隨機序列、分派隱蔽、盲法與對照措施",
+    "所述隨機試驗的 ITT 分析、失訪率、試驗註冊與預先指定終點",
+    "所述研究的樣本數、追蹤時間、療效定義及完整統計結果",
+    "生物標記與疾病亞群是否經獨立驗證，或源自事後分析",
+    "臨床安全性、不良事件發生率與成本效益",
+    "資金來源與利益衝突"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 2918,
+    "input_tokens_details": {
+     "cache_write_tokens": 2915,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1912,
+    "output_tokens_details": {
+     "reasoning_tokens": 279
+    },
+    "total_tokens": 4830
+   },
+   "added_at": "2026-11-01T08:50:09+08:00"
+  },
+  {
+   "pmid": "42963340",
+   "title": "Prevalence and epidemiologic features of adult upper gastrointestinal Crohn's disease over the last 30 years: a scoping review",
+   "journal": "J Crohns Colitis",
+   "journal_full": "Journal of Crohn's & colitis",
+   "issn": "1876-4479",
+   "issn_linking": "1873-9946",
+   "impact_factor": 10.3,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1007/s10620-009-0963-5",
+   "ptype": "Scoping Review",
+   "ptype_list": [
+    "Scoping Review"
+   ],
+   "authors": "Lupas D, Natt N, Elzaanoun R, Yuan Y, Taylor P, Mortuza R",
+   "abstract": "BACKGROUND: Crohn's disease (CD) is an inflammatory bowel disease (IBD) that can affect any part of the gastrointestinal tract. Although upper gastrointestinal (UGI) manifestations are well recognized in pediatrics, UGI-CD in adults has historically been underestimated. Methodological limitations, including selective endoscopy and inconsistent classification, have contributed to variable prevalence estimates.\nAIMS: Our goals were to summarize the prevalence of UGI-CD in adults with CD, understand demographic variations, and summarize knowledge gaps.\nMETHODS: We conducted a scoping review of MEDLINE, Embase, and Cochrane CENTRAL (1995-November 2025) using PRISMA-ScR and JBI methodology. Eligible studies reported adult UGI-CD prevalence or related epidemiologic data. Extracted variables included prevalence estimates, site-level involvement, and demographics. Systematic reviews were included to summarize review-level epidemiologic evidence.\nRESULTS: In total, 117 primary studies and eight systematic reviews were included. Across 95 cohorts with prevalence data, the median prevalence of UGI-CD was 8.8% (IQR 3.99%-14.5%). Higher rates were observed in cohorts using systematic endoscopy and biopsy, while population-based cohorts reported lower values. Isolated UGI-CD was rare, with a median prevalence of 1.37% (IQR 0.87%-3.02%). Prevalence varied geographically and ethnically, with lowest rates in South Asian cohorts and higher rates in East Asian and Middle Eastern cohorts. Site-specific reporting was inconsistent, and few studies detailed modifiers such as smoking or family history.\nCONCLUSIONS: Reported prevalence estimates of adult UGI-CD remain highly variable due to inconsistent definitions and detection strategies. Standardized, site-specific adult definitions and systematic diagnostic protocols are needed to enable cross-study comparisons and thus improve prevalence estimates and address demographic reporting gaps.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42714704",
+     "date": "2026-09-10",
+     "title_zh": "早發型大腸直腸癌之地理與種族差異：流行病學、分子與存活模式之當代範疇性文獻回顧",
+     "score": 3,
+     "one_liner": "彙整46篇來自22國研究，比較EOCRC與LOCRC分子及存活特徵，發現EOCRC較常見MSI/dMMR（6.0-33.3%），存活差異主要受分期驅動。",
+     "sim": 0.169
+    }
+   ],
+   "title_zh": "過去30年間成人上消化道克隆氏症的盛行率與流行病學特徵：範疇性文獻回顧",
+   "abstract_zh": "背景：克隆氏症（CD）是一種可影響消化道任何部位的發炎性腸道疾病（IBD）。雖然上消化道（UGI）表現在兒科族群已廣為認知，成人UGI-CD過去卻一直被低估。選擇性施行內視鏡及分類不一致等方法學限制，導致盛行率估計值不一。\n目的：我們旨在彙整成人CD患者中UGI-CD的盛行率、了解人口學差異，並整理知識缺口。\n方法：我們依循PRISMA-ScR與JBI方法學，針對MEDLINE、Embase及Cochrane CENTRAL進行範疇性文獻回顧，搜尋期間為1995年至2025年11月。符合資格的研究須報告成人UGI-CD盛行率或相關流行病學資料。擷取變項包括盛行率估計值、各解剖部位的侵犯情形及人口學資料。亦納入系統性回顧，以彙整回顧層級的流行病學證據。\n結果：共納入117篇原始研究及8篇系統性回顧。在提供盛行率資料的95個世代中，UGI-CD盛行率中位數為8.8%（四分位距［IQR］3.99%–14.5%）。採用系統性內視鏡及切片檢查的世代觀察到較高盛行率，而以一般人口為基礎的世代則報告較低數值。單獨侵犯上消化道的CD罕見，盛行率中位數為1.37%（IQR 0.87%–3.02%）。盛行率隨地理區域及族群而異，南亞世代最低，東亞及中東世代較高。各解剖部位的報告方式不一致，且少有研究詳述吸菸或家族史等修飾因素。\n結論：由於定義及偵測策略不一致，成人UGI-CD的盛行率估計值仍存在高度變異。需要標準化、依解剖部位區分的成人定義及系統性診斷流程，才能進行跨研究比較，進而改善盛行率估計並補足人口學資料的報告缺口。",
+   "evidence_level": "其他",
+   "score": 6,
+   "score_reason": "採明確搜尋流程的範疇性回顧，適合掌握成人UGI-CD的研究版圖，但盛行率中位數不是合併估計，且受定義與偵測方式影響。對台灣IBD照護有參考價值，尚不足以直接改變外科或篩檢策略。",
+   "relevance": "中度相關",
+   "relevance_why": "與成人CD的完整病灶評估相關，但未直接評估手術決策、治療效果或病人預後。",
+   "novelty": "再確認已知",
+   "one_liner": "在95個成人CD世代中，比較不同偵測策略，UGI-CD盛行率中位數8.8%，系統檢查者較高。",
+   "action": "目前不需改變做法；勿僅據此替所有成人CD常規加做胃鏡，摘要未提供此策略改善臨床結局的證據。",
+   "pico": {
+    "P": "成人CD族群；納入117篇原始研究及8篇系統性回顧，其中95個世代提供盛行率資料，病人總數未報告。",
+    "I": "UGI-CD的盛行率調查與偵測策略，包括系統性內視鏡及切片檢查。",
+    "C": "無單一對照組；描述不同偵測策略、地理區域及族群間的差異。",
+    "O": "UGI-CD盛行率；單獨侵犯上消化道的盛行率、各部位侵犯情形及人口學差異。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "95個世代：UGI-CD中位盛行率8.8%，IQR 3.99%–14.5%",
+    "單獨UGI-CD：中位盛行率1.37%，IQR 0.87%–3.02%",
+    "納入117篇原始研究及8篇系統性回顧"
+   ],
+   "cautions": [
+    "8.8%為世代盛行率中位數，非合併估計；IQR不是信賴區間。",
+    "檢查策略與定義不一，地區差異不能直接解讀為族群生物差異。",
+    "未提供檢查策略間的絕對差異或臨床效益，不能據此支持普遍篩檢。"
+   ],
+   "unassessable": [
+    "各原始研究的樣本數、病例定義及盛行率分母",
+    "文獻篩選、資料擷取是否由獨立雙人執行",
+    "原始研究的偏誤風險評估及其對結論的影響",
+    "原始研究與系統性回顧間重複證據的處理方式",
+    "各檢查策略及地理族群的分組絕對盛行率與信賴區間",
+    "回顧計畫註冊、利益衝突及資金來源",
+    "系統性內視鏡檢查的成本、傷害及病人重要結局"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3028,
+    "input_tokens_details": {
+     "cache_write_tokens": 3025,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1669,
+    "output_tokens_details": {
+     "reasoning_tokens": 241
+    },
+    "total_tokens": 4697
+   },
+   "added_at": "2026-11-01T08:50:09+08:00"
+  }
+ ]
+}
