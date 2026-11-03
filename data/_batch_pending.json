@@ -1,0 +1,249 @@
+{
+ "batch_id": null,
+ "date": "2026-11-03",
+ "submitted_at": "2026-11-03T11:22:42+08:00",
+ "provider": "openai",
+ "model": "gpt-6.1-sol",
+ "papers": [
+  {
+   "pmid": "42969685",
+   "title": "Spatial Acid-Associated Niches Inform Irinotecan-Based DEB-TACE in Colorectal Liver Metastases: A Multicentre Randomized Trial",
+   "journal": "Liver Int",
+   "journal_full": "Liver international : official journal of the International Association for the Study of the Liver",
+   "issn": "1478-3231",
+   "issn_linking": "1478-3223",
+   "impact_factor": 6.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Dec",
+   "doi": "10.1111/liv.70931",
+   "ptype": "Multicenter Study, Randomized Controlled Trial",
+   "ptype_list": [
+    "Multicenter Study",
+    "Randomized Controlled Trial"
+   ],
+   "authors": "Weng S, Hu W, Tu J, Xi J, Shi H, Wu M",
+   "abstract": "BACKGROUND & AIMS: Drug-eluting bead transarterial chemoembolisation (DEB-TACE), particularly irinotecan-based regimens, has emerged as a liver-directed option for unresectable colorectal liver metastases (CRLM), yet how metastatic-niche biology relates to local drug delivery remains poorly defined.\nMETHODS: We integrated bulk, single-cell, and spatial transcriptomics with spatial pharmacogenomic inference (SpaDR) to characterize acid-associated states in CRLM and predict regional drug sensitivity, compared pH-dependent irinotecan release of UniPearls and HepaSphere microspheres, and evaluated both platforms in a four-centre randomised trial of 35 patients with unresectable CRLM.\nRESULTS: CRLM exhibited an acid-associated transcriptional phenotype (AcidScore), partly shared with TACE-nonresponder hepatocellular carcinoma and associated with shorter overall survival in CRLM. This phenotype localized to a spatially organized niche of SPP1+ macrophages and cancer-associated fibroblasts, in which AcidScore and malignant epithelium increased with distance from the vasculature, consistent with a putative stromal-metabolic barrier. SpaDR linked higher AcidScore to lower predicted SN-38 IC50 in most sections, identifying candidate sensitivity beyond this interface. Accordingly, UniPearls released more irinotecan than HepaSphere within 24 h at every pH tested, with the largest difference at pH 5.7. Disease control after the final DEB-TACE was higher with UniPearls (per-protocol, 100% vs. 68.75%; p = 0.018), as was final technical success (100% vs. 76.47%; p = 0.046); objective response and adverse-event frequencies were similar. Non-inferiority held across sensitivity analyses, whereas superiority was sensitive to missing-outcome assumptions.\nCONCLUSIONS: Acid-associated spatial organization and drug-response predictions provide a rationale for local irinotecan delivery in CRLM. These findings support further evaluation of UniPearls-based DEB-TACE and prospective biomarker-stratified studies linking niche biology to clinical benefit.\nTRIAL REGISTRATION: NCT06021015. Registered 27 August 2023, https://clinicaltrials.gov/study/NCT06021015.\nThis study identified acid‐associated cellular organization in colorectal liver metastases and regions with greater predicted sensitivity to irinotecan's active metabolite. UniPearls released more irinotecan than HepaSphere under acidic laboratory conditions, with preliminary evidence of higher short‐term disease control in a small multicentre randomised trial. These findings motivate further investigation of how acid‐associated tumour features may influence local irinotecan exposure and treatment response.",
+   "watched": [],
+   "related": []
+  },
+  {
+   "pmid": "42969067",
+   "title": "Optimal Exercise Dose for Improving Multidimensional Health Outcomes in Colorectal Cancer Patients: A Systematic Review, Meta-Analysis and Meta-Regression",
+   "journal": "Eur J Sport Sci",
+   "journal_full": "European journal of sport science",
+   "issn": "1536-7290",
+   "issn_linking": "1536-7290",
+   "impact_factor": 3.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.1002/ejsc.70283",
+   "ptype": "Systematic Review, Meta-Analysis",
+   "ptype_list": [
+    "Systematic Review",
+    "Meta-Analysis",
+    "Review"
+   ],
+   "authors": "Wang J, He Y, Wang Z, Lee S, Shim Y, Lee S",
+   "abstract": "This study aimed to investigate the dose-response relationships between exercise prescription parameters and a range of health outcomes in patients with colorectal cancer (CRC). The following PRISMA guidelines, a systematic search of five databases was conducted. The inclusion criteria were randomized controlled trials (RCTs) of exercise interventions lasting ≥ 4 weeks in patients with CRC. Robust Variance Estimation (RVE) was used to synthesize the overall effects of exercise interventions across six outcome domains, including cardiorespiratory fitness (CRF) and muscular fitness (MF). Univariable RVE regression models and MetaForest analyses were employed to examine the moderating effects of two groups of variables: exercise prescription moderators and patient background characteristics. Risk of bias was assessed using the Cochrane tool, and the quality of evidence was evaluated using the GRADE approach. A total of 26 RCTs, involving 1731 CRC patients and 266 effect sizes, were included. CRF (ES = 0.35, p < 0.01) and MF (ES = 0.45, p < 0.01) showed statistically significant improvements. Regression analyses revealed threshold effects for both CRF and MF, with maximal improvements requiring sustained engagement in moderate-to-high intensity exercise. Subgroup analyses indicated that prehabilitation interventions were the most effective, while interventions during active treatment exhibited a decline-rebound trend over time. Based on these findings, high-frequency and moderate-to-high volume interventions with individualized load regulation are recommended during the pre-treatment phase. During active treatment, a more cautious approach is advised, involving reduced exercise volume during peak symptom periods and gradual progression during recovery.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42714641",
+     "date": "2026-09-10",
+     "title_zh": "運動與癌症治療病理完全反應（pCR）之關係：系統性回顧與統合分析",
+     "score": 3,
+     "one_liner": "在504名接受NACT的乳癌、食道癌、胃癌及直腸癌病人（8篇RCT）中，比較運動與對照，pCR無顯著差異（RR 1.08, p=0.58）。",
+     "sim": 0.217
+    },
+    {
+     "pmid": "42380848",
+     "date": "2026-07-01",
+     "title_zh": "腸胃道癌症病患的運動與營養術前強化：評估可行性、安全性及對生活品質影響的前瞻性對照試驗",
+     "score": 4,
+     "one_liner": "在GI癌症手術病患（n=38，32人完成）中比較術前運動營養強化與常規照護，發現可行安全，PCS僅單尾檢定顯著改善+4.25分。",
+     "sim": 0.178
+    },
+    {
+     "pmid": "42613928",
+     "date": "2026-08-20",
+     "title_zh": "數位健康介入對大腸直腸癌（CRC）患者營養狀態與生活品質之影響：隨機對照試驗之系統性回顧與統合分析",
+     "score": 5,
+     "one_liner": "在1210名CRC病人（11篇RCT）中，比較數位健康介入與常規照護，QoL顯著改善（SMD 0.67）但異質性極高，NS無顯著差異。",
+     "sim": 0.156
+    }
+   ]
+  },
+  {
+   "pmid": "42970423",
+   "title": "Can the use of collagenase and hyaluronic acid gel reduce the number of repeated surgical debridements in Fournier's gangrene?",
+   "journal": "J Wound Care",
+   "journal_full": "Journal of wound care",
+   "issn": "0969-0700",
+   "issn_linking": "0969-0700",
+   "impact_factor": 2.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.12968/jowc.2023.0094",
+   "ptype": "Comparative Study",
+   "ptype_list": [
+    "Comparative Study"
+   ],
+   "authors": "Barlas A, Bezirci R, Unal Y, Kismet K, Pekcici M",
+   "abstract": "OBJECTIVE: To compare the clinical outcome criteria between treatments of repetitive mechanical debridement, conventional dressings, and the use of collagenase and hyaluronic acid gel for patients with Fournier's gangrene (FG).\nMETHOD: A retrospective analysis was made of the records of 56 patients with FG who were classified into two groups. In both groups, appropriate surgical debridement treatment was applied under operating room conditions at the time of diagnosis and as required. Group 1 comprised patients subsequently treated with daily repetitive mechanical debridement and conventional dressings. The patients in Group 2 were treated with mechanical debridement once per three days with the use of collagenase and hyaluronic acid cream after the initial surgical debridement. The two groups were compared in respect of the need for repeated surgical debridement, number of dressing changes, colostomy requirement, need to change the antibiotics and length of stay in hospital.\nRESULTS: The mean age of the patients was 54.72±15.15 years and 26 patients had diabetes. The need for repetitive mechanical debridement and the number of dressing changes were significantly lower in the collagenase-hyaluronic acid group (p<0.05). There was no significant difference between the groups in respect of the need to change antibiotics, the need for colostomy and the length of hospital stay (all p>0.05).\nCONCLUSION: Collagenase-hyaluronic acid gel can be considered safe and useful in the management of FG to reduce the number of repeated mechanical debridements and dressing changes. This is the first study in the literature to have evaluated the use of this combination in the management of FG.",
+   "watched": [],
+   "related": []
+  },
+  {
+   "pmid": "42967492",
+   "title": "Interleukin-37 in cancer: Context-dependent roles in tumor immunity, prognosis, and therapeutic targeting",
+   "journal": "J Int Med Res",
+   "journal_full": "The Journal of international medical research",
+   "issn": "1473-2300",
+   "issn_linking": "0300-0605",
+   "impact_factor": 1.8,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.1177/03000605261499782",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Zhang Y, Wang X, Xu M, Zhang T",
+   "abstract": "Interleukin-37, a member of the interleukin-1 family, is increasingly recognized as a regulator of cancer biology and tumor immunity. Across cancer types, interleukin-37 expression exhibits divergent patterns and clinical associations. In non-small cell lung cancer, hepatocellular carcinoma, colorectal cancer, renal cell carcinoma, and acute myeloid leukemia, decreased interleukin-37 expression is more often associated with aggressive clinicopathologic features and poor outcomes. By contrast, in gastric cancer, epithelial ovarian cancer, melanoma, and several other malignancies, increased interleukin-37 expression has been linked to tumor progression and adverse prognosis. Mechanistically, interleukin-37 acts through intracellular and extracellular pathways, including Smad3-dependent nuclear translocation and signaling through the interleukin-18 receptor alpha/interleukin-1 receptor 8 complex, with downstream effects on signal transducer and activator of transcription 3, nuclear factor kappa B, transforming growth factor beta/Smad, and related networks. Depending on cancer type, immune context, isoform usage, and disease stage, interleukin-37 may inhibit proliferation, metabolic reprogramming, angiogenesis, invasion, and metastatic dissemination or promote immune suppression and premetastatic niche formation. Beyond its tumor-intrinsic effects, interleukin-37 reshapes the tumor microenvironment by modulating macrophages, dendritic cells, natural killer cells, myeloid-derived suppressor cells, and T-cell subsets. This narrative review summarizes current evidence on the dual roles of interleukin-37 in cancer, discusses major sources of inconsistency across studies, and highlights its potential relevance to prognostic stratification, biomarker development, and therapeutic targeting.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42761652",
+     "date": "2026-09-21",
+     "title_zh": "CD200-CD200R作為實體腫瘤中骨髓系免疫檢查點：機制、情境依賴性功能與治療機會",
+     "score": 2,
+     "one_liner": "本綜述整合CD200-CD200R免疫檢查點在多種實體腫瘤（含CRC）中的機制與情境依賴性作用，提出治療框架構想。",
+     "sim": 0.19
+    },
+    {
+     "pmid": "42525172",
+     "date": "2026-07-31",
+     "title_zh": "SOCS3在大腸直腸癌中的多面向角色：分子機轉與臨床意涵",
+     "score": 2,
+     "one_liner": "本文綜述SOCS3在CRC中透過IL-6/JAK/STAT3等路徑調控腫瘤發生、轉移與預後的分子機轉，未提供臨床試驗數據。",
+     "sim": 0.176
+    },
+    {
+     "pmid": "42460995",
+     "date": "2026-07-17",
+     "title_zh": "IL-37在發炎性腸道疾病與大腸炎相關大腸直腸癌（CAC）中的角色",
+     "score": 2,
+     "one_liner": "本文綜述IL-37在IBD與CAC中的抗發炎機轉與治療潛力，屬機轉性文獻整理，無原創臨床數據。",
+     "sim": 0.163
+    }
+   ]
+  },
+  {
+   "pmid": "42969717",
+   "title": "Design and Evaluation of Colon-Specific Epinastine Prodrugs as Potent Anti-Colitis Agents Acting via the Activation of the Nrf2-HO-1 Pathway",
+   "journal": "Mol Pharm",
+   "journal_full": "Molecular pharmaceutics",
+   "issn": "1543-8392",
+   "issn_linking": "1543-8384",
+   "impact_factor": 4.9,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.1021/acs.molpharmaceut.6c00817",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Kang C, Kim J, Jung Y",
+   "abstract": "The antihistamine epinastine (EPNT) is used to treat allergic and atopic diseases. To reposition EPNT as a therapeutic agent for inflammatory bowel disease (IBD), EPNT was conjugated with colon-specific promoieties: 5-aminosalicylic acid (5-ASA), aspartic acid (Asp)-conjugated 5-ASA, and glutamic acid (Glu)-conjugated 5-ASA via azo bonds to yield EPNT-azo-salicylic acid (EAS), Asp-conjugated EAS (EAS-Asp), and Glu-conjugated EAS (EAS-Glu), respectively. These EPNT derivatives exhibited lower distribution coefficients and reduced transport across Caco-2 cell monolayers. While remaining stable in the upper intestinal environment, the EPNT derivatives were converted to EPNT in the cecal contents with an efficiency comparable to that of the current anti-IBD azo prodrug, sulfasalazine (SSZ). Moreover, orally administered EPNT derivatives resulted in a higher delivery of EPNT to the cecum than oral EPNT alone. The colon-specific performance of the EPNT derivatives followed the order EAS-Asp ≈ EAS-Glu > EAS. In a dinitrobenzenesulfonic acid-induced rat colitis model, the EPNT derivatives were more effective in mitigating colonic damage and inflammation than EPNT and SSZ, with anti-colitis efficacy corresponding to their colon-targeting performance. Oral EPNT derivatives increased the levels of nuclear factor erythroid 2-related factor 2 (Nrf2) and heme oxygenase-1 (HO-1) proteins, likely via the activation of adenosine monophosphate-activated protein kinase (AMPK) in inflamed colonic tissues. Furthermore, co-treatment with zinc protoporphyrin, an HO-1 inhibitor, markedly reduced the anti-colitis effect of EAS-Glu. Finally, oral administration of EPNT derivatives significantly reduced the systemic absorption of EPNT. In conclusion, colon-targeted EPNT may enhance the therapeutic efficacy and safety of EPNT when repositioned as an anti-IBD drug, with the AMPK-Nrf2-HO-1 pathway contributing to its anti-colitis mechanism.",
+   "watched": [],
+   "related": []
+  },
+  {
+   "pmid": "42969715",
+   "title": "Superior Therapeutic Efficacy and Reduced Systemic Toxicity of a Cucurbit[7]uril-Camptothecin Supramolecular Complex in Colorectal Cancer",
+   "journal": "Mol Pharm",
+   "journal_full": "Molecular pharmaceutics",
+   "issn": "1543-8392",
+   "issn_linking": "1543-8384",
+   "impact_factor": 4.9,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.1021/acs.molpharmaceut.6c00800",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Niu C, Zhang J, Zhang Y, Chang Y, Xiao S, Qin X",
+   "abstract": "The clinical application of camptothecin (CPT) is limited by poor solubility and severe toxicity. This study compares the therapeutic performance of a cucurbit[7]uril-based CPT complex (CB[7]-CPT) with free CPT and β-cyclodextrin-CPT (β-CD-CPT) in colorectal cancer models. In vitro, free CPT, β-CD-CPT, and CB[7]-CPT were tested on normal LO2 and cancerous HCT116 cells. CB[7] encapsulation reduced toxicity toward normal LO2 cells (IC50: 0.47 μM, ∼25-fold higher than the IC50 of free CPT) while improving potency against HCT116 cells (CB[7]-CPT IC50: 0.24 μM; free CPT IC50: 0.55 μM, ∼2-fold more potent than free CPT). The selectivity index improved from 0.034 (CPT) to 1.976 (CB[7]-CPT), indicating a wide safety margin. Apoptosis assays confirmed that CB[7]-CPT induced significantly greater apoptotic cell death at equivalent concentrations than either free CPT or β-CD-CPT. In HCT116 xenograft models, CB[7]-CPT achieved a tumor inhibition rate of 76%, markedly outperforming free CPT (46%) and β-CD-CPT (62%). This enhanced efficacy was accompanied by increased intratumoral apoptosis, reduced proliferation, and decreased microvessel density. Importantly, CB[7]-CPT markedly attenuated liver, kidney, and gastrointestinal toxicity typically associated with CPT exposure. Pharmacokinetically, CB[7]-CPT displayed a 1.94-fold higher AUC and a 1.59-fold prolonged elimination half-life relative to free CPT, reflecting extended circulation and improved systemic exposure. These findings collectively establish CB[7]-CPT as a highly effective and safer alternative not only to free CPT but also to conventional cyclodextrin-based formulations, demonstrating enhanced selectivity, robust pro-apoptotic activity, and a superior safety profile.",
+   "watched": [],
+   "related": []
+  },
+  {
+   "pmid": "42969711",
+   "title": "Engineered Glatiramoid Peptides Emulate Glatiramer Acetate Activity in Solid Tumors",
+   "journal": "Mol Pharm",
+   "journal_full": "Molecular pharmaceutics",
+   "issn": "1543-8392",
+   "issn_linking": "1543-8384",
+   "impact_factor": 4.9,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.1021/acs.molpharmaceut.6c00718",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Oti-Bronya M, Gong H, Das A, Brown E, Zutter H, Griffin J",
+   "abstract": "Glatiramer acetate (GA) is a heterogeneous mixture of peptides that we have previously explored as an intratumoral immunomodulator. However, its chemical complexity complicates the mechanistic interpretation and rational design. In this study, we evaluated a set of sequence-defined \"glatiramoid\" peptides engineered to preserve the amino acid composition while varying the primary sequence. Biophysical characterization by circular dichroism, fluorescence spectroscopy, and transmission electron microscopy revealed sequence-dependent differences in supramolecular organization without pronounced changes in the secondary structure. Treatment of murine bone marrow-derived dendritic cells with these peptides produced distinct innate cytokine and chemokine secretion profiles, suggesting that sequence order influences immune signaling outcomes in vitro. In the CT26 mouse model of colon carcinoma, intratumoral administration of selected glatiramoid peptides in combination with anti-PD-1 therapy produced tumor growth responses that were not statistically distinguishable from those of commercial GA formulations. Systemic cytokine levels measured at study termination were generally lower for the sequence-defined peptide relative to GA. Together, these findings indicate that sequence-defined glatiramoid peptides reproduce selected GA-like biophysical and immunomodulatory properties. Further studies are required to establish their mechanisms of action, intratumoral behavior, and therapeutic contribution to checkpoint blockade.",
+   "watched": [],
+   "related": []
+  },
+  {
+   "pmid": "42970717",
+   "title": "Redefining the EPCAM Phenotype: Deletion Architecture Determines Lynch Syndrome Cancer Risk",
+   "journal": "JCO Precis Oncol",
+   "journal_full": "JCO precision oncology",
+   "issn": "2473-4284",
+   "issn_linking": "2473-4284",
+   "impact_factor": 4.7,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.1200/PO-26-00974",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Kohler K, Marsh A, Hernandez F, Horton C, Ranola J, Hampel H",
+   "abstract": "PURPOSE: To characterize the cancer phenotype and clinical presentation across molecularly distinct EPCAM deletion subgroups and determine how the phenotype varies with MSH2 involvement.\nMETHODS: We retrospectively evaluated 662 unrelated probands undergoing hereditary cancer multigene panel testing (MGPT) with isolated EPCAM full-gene deletions (n = 22), isolated EPCAM 3' deletions (n = 96), contiguous EPCAM full-gene deletions extending into MSH2 (n = 64), contiguous EPCAM 3' deletions extending into MSH2 (n = 116), MSH2 gross deletions (n = 155), and MSH2 nonsense/frameshift (ns/fs) variants (n = 209). Lynch syndrome (LS)-associated cancer prevalence, tumor spectrum, and PREMM5 scores were compared across cohorts. Multivariable logistic regression estimated cancer-specific associations relative to a MGPT-negative reference cohort.\nRESULTS: Isolated EPCAM full-gene deletions, comprising 18.6% of observed isolated EPCAM deletions, were not significantly associated with LS-associated cancers. The LS-associated cancer prevalence was 13.6% in this cohort, compared with 54.6% with isolated EPCAM 3' deletions and 64.1%-72.2% in MSH2-involving cohorts (P < .001). Relative to MGPT-negative individuals, isolated EPCAM 3' deletions were strongly associated with colorectal cancer (odds ratio [OR], 17.59; P < .001) but not endometrial cancer (OR, 0.76; P = .790). MSH2-involving cohorts demonstrated strong associations with both colorectal (ORs, 8.50-16.03; P < .001) and endometrial cancers (ORs, 17.31-30.47; P < .001).\nCONCLUSION: These findings provide new insights into the molecular and clinical heterogeneity of germline deletions involving EPCAM. Expanded detection across the full EPCAM gene and its 3' region distinguishes isolated full-gene deletions, which do not disrupt downstream MSH2 and are not associated with LS phenotypes, from isolated 3' deletions with a colorectal-predominant phenotype, and contiguous EPCAM-MSH2 deletions with an MSH2-like LS phenotype. Precise delineation of EPCAM deletion boundaries and MSH2 involvement define three clinically relevant risk groups and support more precise risk assessment, counseling, and surveillance.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42900270",
+     "date": "2026-10-21",
+     "title_zh": "Lynch 症候群癌症風險的最新更新",
+     "score": 6,
+     "one_liner": "針對Lynch族群（人數未載）綜述基因別癌症風險與研究偏誤；無直接比較或風險數值。",
+     "sim": 0.218
+    },
+    {
+     "pmid": "42900270",
+     "date": "2026-10-22",
+     "title_zh": "Lynch 症候群癌症風險的最新更新",
+     "score": 6,
+     "one_liner": "針對Lynch族群（人數未載）綜述基因別癌症風險與研究偏誤；無直接比較或風險數值。",
+     "sim": 0.218
+    },
+    {
+     "pmid": "42801369",
+     "date": "2026-09-29",
+     "title_zh": "伊拉克與迦勒底裔Lynch症候群病人中常見出現的MSH2變異：可能的建立者（founder）變異證據",
+     "score": 3,
+     "one_liner": "在53名伊拉克/迦勒底裔Lynch症候群病人中，發現同一MSH2 c.932delA變異普遍存在（88.3%），大腸癌平均發病年齡49.6歲。",
+     "sim": 0.172
+    }
+   ]
+  }
+ ],
+ "submission_id": "f847d9f786334981a485752adda57429",
+ "state": "preparing"
+}
