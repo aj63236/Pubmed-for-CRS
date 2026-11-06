@@ -1,0 +1,423 @@
+{
+ "batch_id": null,
+ "date": "2026-11-06",
+ "submitted_at": "2026-11-06T10:05:55+08:00",
+ "provider": "openai",
+ "model": "gpt-6.1-sol",
+ "papers": [
+  {
+   "pmid": "42983433",
+   "title": "Efficacy and safety of regorafenib plus PD-1/PD-L1 inhibitors for metastatic colorectal cancer: a systematic review and meta-analysis",
+   "journal": "World J Surg Oncol",
+   "journal_full": "World journal of surgical oncology",
+   "issn": "1477-7819",
+   "issn_linking": "1477-7819",
+   "impact_factor": 2.8,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1016/j.ejca.2023.03.029",
+   "ptype": "Systematic Review, Meta-Analysis",
+   "ptype_list": [
+    "Systematic Review",
+    "Meta-Analysis"
+   ],
+   "authors": "Zhong Y, Li X, Chen S, Deng M",
+   "abstract": "BACKGROUND: Regorafenib is an approved later-line therapy for metastatic colorectal cancer (mCRC). Combining regorafenib with PD-1/PD-L1 blockade may enhance antitumor immunity by modifying the tumor microenvironment. This meta-analysis compared the combination with regorafenib monotherapy and explored preliminary treatment signals in microsatellite-stable/proficient mismatch repair (MSS/pMMR) mCRC.\nMETHODS: A comprehensive search was performed in PubMed, Cochrane Library, Embase, Web of Science, and Chinese databases (Wanfang, VIP, CNKI, CBM) up to February 20, 2026. RCTs and RCSs comparing combination therapy with monotherapy were included. Outcomes were ORR, DCR, PFS, and OS, etc. Study quality was assessed using the Cochrane risk-of-bias tool for randomized trials and the Newcastle-Ottawa Scale (NOS) for observational studies. Analyses were performed using RevMan 5.4, with RR/HR and 95% CIs. Heterogeneity was assessed using I², publication bias via funnel plots, and Egger's/Begg's tests when applicable. Evidence certainty was graded using GRADE.\nRESULTS: Eight studies (two RCTs and six RCSs; 992 patients) were included. Compared with regorafenib monotherapy, combination therapy improved ORR (RR = 1.81, 95% CI: 1.15-2.85), DCR (RR = 1.34, 95% CI: 1.10-1.62), and PR (RR = 1.66, 95% CI: 1.07-2.59), and reduced the proportion of patients with PD at tumor assessment (RR = 0.65, 95% CI: 0.50-0.86). Combination therapy was also associated with longer PFS (HR = 0.57, 95% CI: 0.37-0.87), whereas the OS estimate was borderline and did not establish a robust survival benefit (HR = 0.73, 95% CI: 0.54-1.00; P = 0.05). Post hoc exploratory analyses based on extractable MSS/pMMR data suggested possible improvements in disease control. Combination therapy was associated with increased odds of hypertension, hypothyroidism, hand-foot skin reaction, liver function abnormalities, and nausea; however, comparative evidence for grade ≥ 3 toxicity was insufficient because reporting was inconsistent.\nCONCLUSION: Regorafenib plus PD-1/PD-L1 inhibitors may improve tumor response and PFS compared with regorafenib monotherapy in refractory mCRC, but a definitive OS advantage has not been established. The MSS/pMMR findings remain exploratory and hypothesis-generating. Adequately powered, biomarker-stratified randomized trials with standardized MSI/MMR assessment, consistent safety reporting, and longer follow-up are required before this combination can be considered a standard later-line treatment.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42425790",
+     "date": "2026-07-10",
+     "title_zh": "轉移性大腸直腸癌後線治療中，TAS-102 序貫 regorafenib 或反向序貫之療效與安全性：系統性回顧與統合分析",
+     "score": 4,
+     "one_liner": "在13篇觀察性研究、化療失敗之mCRC病人中，比較TAS-102→regorafenib與反向序貫，OS無差異(HR=1.04)但證據品質偏誤風險高。",
+     "sim": 0.284
+    },
+    {
+     "pmid": "42425790",
+     "date": "2026-07-12",
+     "title_zh": "轉移性大腸直腸癌後線治療中，TAS-102 序貫 regorafenib 或反向序貫之療效與安全性：系統性回顧與統合分析",
+     "score": 4,
+     "one_liner": "在13篇觀察性研究、化療失敗之mCRC病人中，比較TAS-102→regorafenib與反向序貫，OS無差異(HR=1.04)但證據品質偏誤風險高。",
+     "sim": 0.284
+    },
+    {
+     "pmid": "42630712",
+     "date": "2026-08-24",
+     "title_zh": "難治性轉移性大腸直腸癌之化療再挑戰合併或不合併標靶治療：第二期臨床試驗",
+     "score": 3,
+     "one_liner": "在43名難治性mCRC病人中，化療再挑戰合併標靶治療 vs 化療單獨，DCR達80%（bevacizumab組）vs 18.2%，PFS 4.17 vs 1.57個月。",
+     "sim": 0.193
+    }
+   ]
+  },
+  {
+   "pmid": "42987038",
+   "title": "MLH1 AND MSH2 PROTEIN EXPRESSION LOSS AND MICROSATELLITE INSTABILITY IN COLORECTAL ADENOMAS OF PATIENTS WITH LYNCH SYNDROME: A SYSTEMATIC REVIEW AND META-ANALYSIS",
+   "journal": "Arq Gastroenterol",
+   "journal_full": "Arquivos de gastroenterologia",
+   "issn": "1678-4219",
+   "issn_linking": "0004-2803",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1001/jama.2011.743",
+   "ptype": "Systematic Review, Meta-Analysis",
+   "ptype_list": [
+    "Systematic Review",
+    "Meta-Analysis"
+   ],
+   "authors": "Xavier G, Vaz L, Caldeira M, Tekin H, Dhaouadi T",
+   "abstract": "BACKGROUND: Lynch Syndrome (LS) is a genetic condition associated with a high risk of colorectal cancer, often linked to microsatellite instability (MSI), which is caused by defects in DNA mismatch repair (MMR) genes such as MLH1 and MSH2. Although MMR deficiency and MSI are well-documented in the literature, the role of these genes in adenomas remains unclear.\nOBJECTIVES: To evaluate, through meta-analysis, the correlation between loss of expression of the MLH1 and MSH2 genes and MSI in adenomas from patients with LS.\nMETHODS: A systematic search was conducted in the MEDLINE, SCOPUS, and Web of Science databases up to 06/09/2025, using a strategy with descriptors related to MSI, LS, and precursor lesions. Data were analyzed using the Inverse Variance method, with 95% confidence intervals. Heterogeneity was assessed using the I-squared ( I²) statistic. Outliers were identified through statistical influence diagnostics applied to each study. Publication bias was assessed using funnel plots and Egger's regression test. Statistical analyses were performed using RStudio, version 4.4.0.\nRESULTS: 5 studies were included, totaling 145 adenomas from individuals with LS. A highly significant correlation was found between MSI and MSH2 expression loss (OR=13,91 [3,97-48,72]; P=0,000038; I²=0%). No significant correlation was found between MSI and loss of MLH1 expression (OR=2,19 [0,93-5,16]; P=0,073; I²=0%). Funnel plot analysis and Egger's regression test showed no significant evidence of publication bias for MLH1 (t=0.25, df=3, P-value=0.8155) or MSH2 (t=-0.79, df=3, P-value=0.4860).\nCONCLUSION: This meta-analysis found a strong, significant and consistent correlation between MSI and MSH2 expression loss in adenomas, but a non-significant association for MLH1 expression loss. The lack of statistical significance in Egger's test for both genes should be interpreted with caution due to the small number of included studies (k=5). The limited literature available highlights the need for further, larger-scale research.\nCONTEXTO:: A Síndrome de Lynch (SL) é uma condição genética associada a um alto risco de câncer colorretal, frequentemente ligada à instabilidade de microssatélites (IMS), que é causada por defeitos nos genes do sistema de reparo de incompatibilidade de DNA (MMR), como MLH1 e MSH2. Embora a deficiência de MMR e a IMS sejam bem documentadas na literatura, o papel desses genes em adenomas permanece incerto.\nOBJETIVO:: Avaliar, por meio de meta-análise, a correlação entre a perda de expressão dos genes MLH1 e MSH2 e a IMS em adenomas de pacientes com SL.\nMÉTODOS:: Uma busca sistemática foi conduzida nas bases de dados MEDLINE, SCOPUS e Web of Science até 06/09/2025, utilizando uma estratégia com descritores relacionados a IMS, SL e lesões precursoras. Os dados foram analisados utilizando o método da Variância Inversa, com intervalos de confiança de 95%. A heterogeneidade foi avaliada utilizando a estatística I-quadrado (I²). Outliers foram identificados por meio de diagnósticos de influência estatística aplicados a cada estudo. O viés de publicação foi avaliado utilizando gráficos de funil e o teste de regressão de Egger. As análises estatísticas foram realizadas utilizando o RStudio, versão 4.4.0.\nRESULTADOS:: Foram incluídos 5 estudos, totalizando 145 adenomas de indivíduos com SL. Uma correlação altamente significativa foi encontrada entre IMS e perda de expressão de MSH2 (OR=13,91 [3,97-48,72]; P=0,000038; I²=0%). Nenhuma correlação significativa foi encontrada entre IMS e perda de expressão de MLH1 (OR=2,19 [0,93-5,16]; P=0,073; I²=0%). A análise do gráfico de funil e o teste de regressão de Egger não mostraram evidências significativas de viés de publicação para MLH1 (t=0,25, df=3, P-valor=0,8155) ou MSH2 (t=-0,79, df=3, P-valor=0,4860).\nCONCLUSÃO:: Esta meta-análise encontrou uma correlação forte, significativa e consistente entre IMS e perda de expressão de MSH2 em adenomas, mas uma associação não significativa para a perda de expressão de MLH1. A falta de significância estatística no teste de Egger para ambos os genes deve ser interpretada com cautela devido ao pequeno número de estudos incluídos (k=5). A literatura limitada disponível destaca a necessidade de pesquisas futuras em maior escala.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42848619",
+     "date": "2026-10-10",
+     "title_zh": "發炎性腸道疾病使用生物相似藥之系統性回顧與巴西專家共識：巴西克隆氏症與大腸炎組織（GEDIIB）",
+     "score": 4,
+     "one_liner": "系統性回顧與巴西專家共識指出，抗TNF生物相似藥與原廠生物製劑在IBD病人中療效、安全性相近，無具臨床意義差異。",
+     "sim": 0.205
+    },
+    {
+     "pmid": "42484112",
+     "date": "2026-07-24",
+     "title_zh": "幽門螺旋桿菌超越胃部：當故事改變之時",
+     "score": 2,
+     "one_liner": "本文綜述H. pylori感染與貧血、ITP、大腸直腸癌、心血管疾病、神經疾病的關聯性證據，結論指出因果性仍待前瞻性研究釐清。",
+     "sim": 0.191
+    }
+   ]
+  },
+  {
+   "pmid": "42983896",
+   "title": "Gut microbial and metabolic biomarkers for early-onset colorectal cancer",
+   "journal": "Microbiome",
+   "journal_full": "Microbiome",
+   "issn": "2049-2618",
+   "issn_linking": "2049-2618",
+   "impact_factor": 14.9,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1016/j.immuni.2024.02.014",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Nofinska B, Mizutani S, Salim F, Sunakawa H, Obana N, Shiba S",
+   "abstract": "BACKGROUND: Early-onset colorectal cancer (EO-CRC) is a growing global health challenge with poorly understood etiology. While gut microbiota and metabolites are implicated in colorectal carcinogenesis, EO-CRC-associated signatures remain poorly characterized. This study presents the first large-scale multi-omics analysis in Japan cohort to characterize gut microbial and metabolic features of EO-CRC, with cross-cohort validation in an independent China cohort.\nRESULTS: We enrolled 510 participants (EO-CRC n = 120, late-onset CRC [LO-CRC] n = 282, young healthy controls [yHC] n = 59, old healthy controls [oHC] n = 49); after age- and sex-matching, 324 samples were analyzed using metagenomics, metabolomics, and quantitative polymerase chain reaction (qPCR). Fourteen species formed a shared CRC-associated microbiome core enriched in both EO-CRC and LO-CRC relative to age-matched controls, of which seven were reproducible across both Japan and China cohorts. Beyond this core, 34 and 21 species were enriched exclusively in EO-CRC and LO-CRC, respectively. Among EO-CRC-specific virulence findings, the bft gene of enterotoxigenic Bacteroides fragilis, fadA of Fusobacterium nucleatum, and bai operon genes were enriched in EO-CRC, with cross-cohort validation for fadA and bai operon, and stage-specific enrichement of deoxycholic acid at Stage 0 providing preliminary metabolomic support. Targeted clbP qPCR revealed enrichment of colibactin-producing Escherichia coli specifically in EO-CRC against a background of age-increasing carriage. Metabolomic profiling identified kynurenine enrichment and depletion of vitamin B-related metabolites (pyridoxine, riboflavin, and nicotinamide) as EO-CRC-specific findings; LO-CRC showed distinct enrichment of carnitine, succinate, and spermine with relative butyrate depletion. The choline degradation pathway was enriched specifically in EO-CRC based on Enteropathway analysis. Species-based random forest classifiers distinguished EO-CRC from controls (AUPRC = 0.828; SD = 0.013; 95% CI 0.739-0.909) and generalized robustly to an independent cohort (AUPRC = 0.817; 95% CI 0.717-0.894), substantially outperforming functional gene profiles in cross-cohort settings. Within the Japan cohort, adding metabolomics provided modest additional discriminative value.\nCONCLUSIONS: These findings identify a shared CRC microbiome core reproducible across age groups and cohorts, alongside EO-CRC-specific signatures encompassing enrichment of virulence-associated genes (bft, fadA), colibactin-producing E. coli (clbP), secondary bile acid biosynthetic genes (bai operon), and choline degradation capacity, as well as distinct metabolic perturbations including kynurenine enrichment and vitamin B-related metabolite depletion. Species-based classifiers generalize well across age groups and cohorts, with metabolomics providing complementary discriminatory value. All findings represent cross-sectional associations; longitudinal studies are needed to establish temporal ordering and evaluate clinical utility as non-invasive biomarkers for EO-CRC. Video Abstract.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42405254",
+     "date": "2026-07-06",
+     "title_zh": "早發性與晚發性大腸直腸癌預後因子差異之回溯性研究：全面臨床與機器學習分析",
+     "score": 4,
+     "one_liner": "在1,148名CRC病人（EO-CRC 247、LO-CRC 901）中，以LASSO Cox與隨機森林分析預後因子，兩組OS無差異（P=0.460）但決定因子迥異。",
+     "sim": 0.173
+    }
+   ]
+  },
+  {
+   "pmid": "42985476",
+   "title": "Mechanistic advances in neutrophil extracellular traps promoting tumor invasion via the PAR2 signaling axis",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.3748/wjg.v27.i33.5474",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Xu H, Zhang W",
+   "abstract": "Neutrophil extracellular traps (NETs), long recognized as effectors of innate host defense, are now firmly implicated in remodeling the tumor microenvironment and facilitating tumor progression. Tumor-associated NETs expose proteases, damage-associated molecular patterns, and self-DNA that activate protease-activated receptor 2 (PAR2) on tumor and stromal cells, engaging downstream cascades (Gαq/11-PLCβ-PKC-MEK-ERK, RhoA-ROCK, β-arrestin-biased signaling, and RTK transactivation), which jointly drive epithelial-mesenchymal transition, matrix degradation, and angiogenesis, ultimately favoring invasion and metastasis. Direct evidence that NET-derived proteases engage PAR2 on tumor or stromal cells rests, however, on a limited number of studies, and much of the literature concerns NETs or PAR2 individually rather than their coupling. We searched PubMed with structured queries combining \"neutrophil extracellular traps\"/\"NETs\", \"protease-activated receptor 2\"/\"PAR2\"/\"F2RL1\", and cancer-related descriptors, supplemented by citation tracing, with coverage through August 2026, and graded each mechanistic claim at claim level as strong, moderate, or emerging according to explicit criteria (see Literature search and evidence grading); findings supported for NETs or PAR2 alone are labeled as such throughout. The axis is documented most completely in breast, pancreatic, lung, and colorectal cancers, where tumor-type-specific drivers have been defined (dormant-cell reawakening in breast cancer, stromal reprogramming in pancreatic cancer, bypass of targeted therapy in lung cancer, and bidirectional signaling in colorectal cancer), whereas in biliary and cervical cancers only descriptive NET data are available; therapeutic strategies targeting the axis (PAD4 inhibitors, DNase I, PAR2 antagonists/antibodies, and combinations with immune checkpoint blockade) show preclinical promise. However, validated biomarkers of pathway activity and safety data for chronic PAR2 blockade are lacking. The NETs-PAR2 axis is an emerging targetable driver of tumor invasion, and biomarker-guided, tumor-type-aware clinical development is required to translate axis-directed therapy into the clinic.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42687197",
+     "date": "2026-09-04",
+     "title_zh": "大腸直腸癌中的嗜中性球胞外誘捕網（NETs）：從發炎性致癌到肝轉移的情境依賴角色與治療靶點",
+     "score": 2,
+     "one_liner": "本綜述整理NETs在大腸直腸癌發炎性致癌、原發腫瘤及肝轉移中情境依賴的機轉角色，無原創臨床數據。",
+     "sim": 0.22
+    },
+    {
+     "pmid": "42687197",
+     "date": "2026-09-05",
+     "title_zh": "大腸直腸癌中的嗜中性球細胞外陷阱（NETs）：從發炎性致癌到肝轉移及治療靶點的情境依賴性角色",
+     "score": 2,
+     "one_liner": "本綜述整理NETs在CRC發炎致癌、肝轉移及免疫調節中情境依賴性角色的機轉證據，未提供原創臨床數據。",
+     "sim": 0.22
+    },
+    {
+     "pmid": "42827773",
+     "date": "2026-10-05",
+     "title_zh": "大腸直腸癌中的嗜中性球胞外誘捕網：腫瘤防禦與疾病進展的矛盾交會點",
+     "score": 2,
+     "one_liner": "本文綜述NETs在CRC發炎致癌、腫瘤生長、轉移及治療抗藥性中情境依賴的矛盾角色，無原創臨床數據。",
+     "sim": 0.214
+    }
+   ]
+  },
+  {
+   "pmid": "42984829",
+   "title": "Context-dependent functions of insulin, IGF, and GLP signaling in inflammatory bowel disease: linking metabolism, immunity, and intestinal homeostasis",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1016/j.lanepe.2024.101056",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Abuhussein E, Yamaguchi Y, Singh D, Orahovats C, Nishiyama K, Tsuboi K",
+   "abstract": "Inflammatory bowel disease (IBD), encompassing Crohn's disease and ulcerative colitis, is a chronic relapsing inflammatory disorder of the gastrointestinal tract characterized by dysregulated immune responses, impaired epithelial barrier function, and alterations in the gut microbiota. Although considerable progress has been made in understanding the immunopathogenesis of IBD, increasing evidence indicates that metabolic signaling pathways are integral regulators of intestinal inflammation, tissue repair, and disease progression. Among these, insulin, insulin-like growth factors (IGFs), and glucagon-like peptides (GLPs) constitute an interconnected immunometabolic network that links nutrient sensing, energy metabolism, epithelial regeneration, and immune homeostasis. Insulin signaling plays context-dependent roles in IBD by regulating glucose metabolism, epithelial repair, inflammatory responses, and interactions with the gut microbiota and bile acid metabolism. While insulin promotes mucosal healing and barrier restoration in intestinal epithelial cells, excessive activation of insulin signaling in immune cells may exacerbate chronic inflammation through epigenetic and cytokine-mediated mechanisms. The IGF axis is also profoundly altered during active IBD, with systemic suppression of IGF-1 and IGFBP-3 accompanying disease activity, whereas local IGF signaling promotes epithelial regeneration, wound healing, and immune regulation. In addition, IGF-binding proteins (IGFBPs) function as active modulators of inflammation, fibrosis, and colitis-associated colorectal cancer in an isoform-specific manner. GLP signaling further integrates metabolism with intestinal immunity; GLP-1 receptor agonists exhibit anti-inflammatory, metabolic, and microbiota-modulating effects, whereas GLP-2 primarily enhances epithelial proliferation, barrier integrity, and mucosal repair. Emerging preclinical and observational clinical studies suggest that GLP-based therapies may improve disease outcomes, although prospective randomized trials are still required. This review summarizes current knowledge regarding the biological functions and molecular mechanisms of insulin, IGFs, IGFBPs, and GLPs in IBD, highlighting their coordinated roles in regulating metabolism, immunity, epithelial homeostasis, and tissue remodeling. A better understanding of these interconnected signaling pathways may facilitate the development of novel immunometabolic therapeutic strategies aimed at promoting mucosal healing, limiting chronic inflammation, and improving long-term outcomes in patients with IBD.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42558900",
+     "date": "2026-08-07",
+     "title_zh": "腸道中岩藻糖代謝作為連結發炎、免疫與癌症的中樞軸",
+     "score": 1,
+     "one_liner": "本綜述整理岩藻糖代謝在IBD、CRC、NEC中的角色，提出其作為診斷生物標記與治療標的潛力，未附臨床數據。",
+     "sim": 0.247
+    },
+    {
+     "pmid": "42558900",
+     "date": "2026-08-08",
+     "title_zh": "岩藻糖代謝作為連結腸道發炎、免疫與癌症的核心軸",
+     "score": 1,
+     "one_liner": "本綜述整理岩藻糖代謝在IBD、CRC與NEC中調控上皮屏障、免疫與腫瘤進展的機轉，屬概念性整理無臨床數據。",
+     "sim": 0.247
+    },
+    {
+     "pmid": "42866448",
+     "date": "2026-10-14",
+     "title_zh": "腸上皮細胞與免疫細胞間代謝串擾在發炎性腸道疾病中的角色及標靶治療策略",
+     "score": 2,
+     "one_liner": "本綜述整理IEC與免疫細胞間粒線體代謝（葡萄糖、脂質、胺基酸）如何交互促進IBD發炎，屬機轉回顧無臨床數據。",
+     "sim": 0.228
+    }
+   ]
+  },
+  {
+   "pmid": "42982906",
+   "title": "Synergizing Short-Course Radiotherapy with Immunotherapy in Locally Advanced Rectal Cancer: Current Evidence, Challenges, and Future Directions",
+   "journal": "Curr Treat Options Oncol",
+   "journal_full": "Current treatment options in oncology",
+   "issn": "1534-6277",
+   "issn_linking": "1534-6277",
+   "impact_factor": 5.8,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.1200/JCO.23.02261",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Xu L, Jiao Y, Wei Y, Luo M",
+   "abstract": "The management of locally advanced rectal cancer is increasingly moving beyond a uniform cytotoxic framework toward biomarker-informed multimodal treatment. Short-course radiotherapy (SCRT) is an established and convenient radiotherapy option and may also provide an immunomodulatory context for immune checkpoint blockade. Preclinical evidence suggests that hypofractionated radiotherapy can promote immunogenic cell death and modulate the tumor immune microenvironment; however, whether the fractionation schedule of SCRT provides a clinically meaningful immunological advantage over long-course chemoradiotherapy remains uncertain. Early randomized studies of SCRT-based chemoimmunotherapy in predominantly proficient mismatch repair/microsatellite-stable (pMMR/MSS) populations have reported encouraging improvements in pathological or overall complete response rates compared with their respective control regimens. Nevertheless, differences in comparator arms, chemotherapy exposure, immunotherapy schedules, endpoint definitions, and follow-up duration preclude firm conclusions regarding the optimal radiotherapy backbone or long-term survival benefit. These findings support further prospective evaluation of SCRT-based combinations and response-adapted non-operative management in appropriately selected patients. Longitudinal circulating tumor DNA, multi-omics profiling, MR-guided adaptive radiotherapy, and computational models such as \"digital twins\" may contribute to improved patient selection and surveillance, but their clinical utility requires prospective validation.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42955209",
+     "date": "2026-10-30",
+     "title_zh": "短程放射治療單獨使用或合併鞏固化療，相較於傳統長程同步化放療治療局部進展期直腸癌的療效與安全性：隨機對照試驗統合分析",
+     "score": 7,
+     "one_liner": "在3061名LARC病人的統合分析中，SCRT-TNT較標準LCCRT提高pCR（RR1.56）。",
+     "sim": 0.298
+    },
+    {
+     "pmid": "42955209",
+     "date": "2026-10-31",
+     "title_zh": "短程放射治療單獨使用或合併鞏固化療，相較於傳統長程同步化放療治療局部進展期直腸癌的療效與安全性：隨機對照試驗統合分析",
+     "score": 7,
+     "one_liner": "在3061名LARC病人的統合分析中，SCRT-TNT較標準LCCRT提高pCR（RR1.56）。",
+     "sim": 0.298
+    },
+    {
+     "pmid": "42528940",
+     "date": "2026-07-31",
+     "title_zh": "局部進展期直腸癌的協同新輔助放射免疫治療：病理反應機轉與器官保留趨勢之轉變",
+     "score": 4,
+     "one_liner": "綜述整理RT+ICI協同機轉，指出SCRT-TNT併用免疫治療可能使pCR率倍增，但存活效益仍待第三期試驗證實。",
+     "sim": 0.208
+    }
+   ]
+  },
+  {
+   "pmid": "42983002",
+   "title": "The Influence of GLP-1 Receptor Agonists on the Outcomes and Tolerability of Colorectal Cancer Therapies",
+   "journal": "Curr Oncol Rep",
+   "journal_full": "Current oncology reports",
+   "issn": "1534-6269",
+   "issn_linking": "1523-3790",
+   "impact_factor": 5.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.1002/wjs.12484",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Bs V, Kwon S",
+   "abstract": "PURPOSE OF REVIEW: Glucagon-like peptide-1 receptor agonists (GLP-1RAs) are increasingly being prescribed for metabolic diseases. At times, patients taking GLP-1RAs are also undergoing cancer treatment and surgeries, but their potential interactions with cancer therapies are not well delineated. The purpose of this narrative review is to synthesize the limited pre-clinical, translational, and the clinical evidence available, examining the biological rationale and mechanisms for GLP-1RA-cancer therapy interactions.\nRECENT FINDINGS: Oncology research on GLP-1RAs has primarily focused on cancer incidence and survival, yielding generally reassuring safety data and potential outcome improvements. While emerging evidence and biological studies suggest GLP-1RAs could influence treatment tolerance and toxicity, the current clinical data remains limited, observational, and poorly integrated. However, there has been decent mechanistic research that suggests biologically plausible interactions of GLP1-RAs and cancer therapies, specifically through the AMPK and mTOR pathways. The available clinical evidence suggests that GLP-1 receptor agonist use is associated withimproved survival outcomes and reduced treatment-related complications among patients with colorectalcancer receiving chemotherapy, immunotherapy, or surgery. However, these findings are mostlyobservational, and conflicting preclinical evidence highlights the need for prospective studies to clarifythe underlying mechanisms, establish causality, and determine the clinical implications of theseinteractions.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42645635",
+     "date": "2026-08-27",
+     "title_zh": "GLP-1受體促效劑與肥胖相關癌症：目前所知為何",
+     "score": 3,
+     "one_liner": "本綜述整理GLP-1RA與肥胖相關癌症（含CRC）之證據，觀察性研究顯示風險降低7-30%，但RCT統合分析未證實整體效益且CRC訊號不一致。",
+     "sim": 0.332
+    },
+    {
+     "pmid": "42645635",
+     "date": "2026-08-28",
+     "title_zh": "GLP-1受體促效劑與肥胖相關癌症：目前所知為何",
+     "score": 3,
+     "one_liner": "綜述整合觀察性研究（顯示GLP-1RA與肥胖相關癌症相對風險降低7-30%）與RCT統合分析（未顯示整體癌症發生率下降）的矛盾證據。",
+     "sim": 0.332
+    },
+    {
+     "pmid": "42615757",
+     "date": "2026-08-20",
+     "title_zh": "升糖素樣胜肽類似物對發炎性腸道疾病影響之證據：一篇範疇性文獻回顧（Scoping Review）",
+     "score": 2,
+     "one_liner": "本篇為scoping review，整理臨床前與觀察性研究，顯示GLP-1/GLP-2促效劑可能減少IBD腸道發炎並促進黏膜再生，證據仍屬初期。",
+     "sim": 0.236
+    }
+   ]
+  },
+  {
+   "pmid": "42984382",
+   "title": "Beyond the gut: neuroinflammation as a driver of anxiety and depression in inflammatory bowel disease",
+   "journal": "Biochem J",
+   "journal_full": "The Biochemical journal",
+   "issn": "1470-8728",
+   "issn_linking": "0264-6021",
+   "impact_factor": 3.9,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Dec",
+   "doi": "10.1042/BCJ20260635",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Bielamowicz D, Schoonover B, Sodhi K, Borthakur A",
+   "abstract": "Anxiety and depression frequently co-occur with inflammatory bowel disease (IBD), with prevalence rates substantially higher than in the general population. Emerging evidence further indicates that active IBD is associated with more severe psychological symptoms, while anxiety and depression can worsen intestinal inflammation, highlighting a bidirectional relationship. Chronic intestinal inflammation is increasingly recognized as a driver of neuroinflammation, a key mechanism underlying mood disorders. In IBD, disruption of the intestinal epithelial barrier permits metabolites and enteric signaling molecules to enter the circulation, triggering systemic inflammation and crossing the more permeable blood-brain barrier (BBB) to promote neuroinflammation. Other relevant components of the gut-brain axis contributing to IBD-associated neuroinflammation include the enteric nervous system, vagus nerve (VN), hypothalamic-pituitary-adrenal (HPA) axis, and tryptophan-kynurenine metabolism. Within the brain, neuroinflammation characterized by glial activation, inflammatory mediator release, and oxidative stress disrupts neurogenesis and synaptic plasticity in regions such as the hippocampus and prefrontal cortex, contributing to anxiety and depression. Conversely, anxiety and depression can amplify systemic inflammation through dysregulation of the VN and HPA axis, thereby exacerbating IBD. This reciprocal interaction adversely affects disease severity, quality of life, and therapeutic outcomes, underscoring the need to better define its underlying mechanisms. The present review synthesizes current clinical, translational, and experimental evidence on the bidirectional crosstalk between IBD and mood disorders. We also highlight key knowledge gaps, future research directions to identify the cellular and molecular mediators of this interaction, and emerging therapeutic strategies for the integrated management of both conditions.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42499648",
+     "date": "2026-07-26",
+     "title_zh": "情緒障礙與慢性身體疾病（以心臟代謝疾病為焦點）之共病現象及其機制交互作用",
+     "score": 2,
+     "one_liner": "綜述情緒障礙與心臟代謝疾病共病機制，指出多重共病患者中約36%有精神身體共病，並整理HPA軸、發炎小體、腸腦軸等機制證據。",
+     "sim": 0.207
+    },
+    {
+     "pmid": "42499648",
+     "date": "2026-07-27",
+     "title_zh": "情緒障礙與慢性身體疾病（聚焦心臟代謝疾病）之共病現象及其機制交互作用",
+     "score": 2,
+     "one_liner": "本綜述整合流行病學與分子機制證據，說明情緒障礙與心臟代謝疾病共病之雙向病理路徑（HPA軸、NLRP3、腸腦軸、犬尿氨酸路徑）。",
+     "sim": 0.207
+    },
+    {
+     "pmid": "42824924",
+     "date": "2026-10-03",
+     "title_zh": "S100B在腦-腸-肝交互作用中的角色：從神經膠質活化到多器官炎症",
+     "score": 2,
+     "one_liner": "本文綜述S100B作為腦-腸-肝軸整合效應因子的機轉假說，連結腸神經膠質活化、屏障障礙、肝纖維化與肝性腦病，無原創臨床數據。",
+     "sim": 0.195
+    }
+   ]
+  },
+  {
+   "pmid": "42986455",
+   "title": "Beyond the LARS score: functional burden does not necessarily equal psychological burden",
+   "journal": "Int J Colorectal Dis",
+   "journal_full": "International journal of colorectal disease",
+   "issn": "1432-1262",
+   "issn_linking": "0179-1958",
+   "impact_factor": 2.9,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.1093/bjsopen/zrag045",
+   "ptype": "Review, Letter",
+   "ptype_list": [
+    "Review",
+    "Letter"
+   ],
+   "authors": "Gumus S",
+   "abstract": "PURPOSE: Ammer et al. reported no significant difference in low anterior resection syndrome (LARS) between open and robotic rectal cancer surgery. This commentary addresses the interindividual variability in LARS outcomes.\nMETHODS: This conceptual commentary critically reviews the outcome assessment strategy used in the original study and integrates supporting evidence from the psycho-oncology literature.\nRESULTS: Functional burden, as captured by the LARS score, does not necessarily equal psychological burden. Psychological adaptation-resilience, coping style, distress, and illness perception-is hypothesised to mediate the relationship between functional impairment and patient-reported quality of life.\nCONCLUSION: Functional burden and psychological burden are related but distinct constructs. Future studies should test mediation and moderation models to determine whether psychological adaptation explains the variability between LARS severity and quality of life.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42463577",
+     "date": "2026-07-18",
+     "title_zh": "低前位切除症候群（LARS）之病人自述結果：開腹手術與機器手臂手術之比較",
+     "score": 5,
+     "one_liner": "在184位直腸/乙狀結腸癌術後病人中，比較開腹與機器手臂手術，LARS發生率無顯著差異（重度39.1% vs. 39.2%，p=0.451）。",
+     "sim": 0.245
+    },
+    {
+     "pmid": "42463577",
+     "date": "2026-07-19",
+     "title_zh": "低前位切除症候群（LARS）之病人自述結果：開腹手術與機器手臂手術之比較",
+     "score": 5,
+     "one_liner": "在184位直腸/乙狀結腸癌術後病人中，比較開腹與機器手臂手術，LARS發生率無顯著差異（重度39.1% vs. 39.2%，p=0.451）。",
+     "sim": 0.245
+    },
+    {
+     "pmid": "42429985",
+     "date": "2026-07-10",
+     "title_zh": "直腸癌術後低前位切除症候群（LARS）病人的生活經驗：挑戰、自我管理與支持性照護優先需求",
+     "score": 5,
+     "one_liner": "在16位LARS直腸癌術後病人的質性訪談中，歸納出五大主題，發現病人普遍需要預先衛教與持續追蹤以助自我管理。",
+     "sim": 0.19
+    }
+   ]
+  },
+  {
+   "pmid": "42986536",
+   "title": "Microbiota-driven of chromosomal instability in colorectal cancer",
+   "journal": "Mol Biol Rep",
+   "journal_full": "Molecular biology reports",
+   "issn": "1573-4978",
+   "issn_linking": "0301-4851",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.3389/fmicb.2025.1699893",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Jemaà M, Chebbi A",
+   "abstract": "Colorectal cancer (CRC) is the third most common malignancy worldwide and the second leading cause of cancer-related death, and chromosomal instability (CIN) underlies 65-70% of sporadic cases. Here we review the evidence that the gut microbiota acts as an environmental instigator of CIN through three mechanistically intertwined routes. The first is direct genotoxicity: pks+ Escherichia coli produce colibactin, which alkylates deoxyadenosine to form DNA interstrand cross-links whose repair generates double-strand break intermediates and the mutational signatures SBS88 and ID18; transient exposure of primary colon epithelial cells suffices to provoke chromosomal aberrations and malignant transformation. The second is community-level dysbiosis: the oncomicrobial community subtypes OCS2 and OCS3 are enriched in CIN-positive tumours and carry the reactive oxygen species-related signature SBS18, while at strain-level resolution Fusobacterium nucleatum subspecies animalis clade C2 shows the strongest association with the tumour niche, and Parvimonas micra and Peptostreptococcus stomatis contribute through WNT/β-catenin activation and Th17-skewed immunity. The third, advanced here as a working framework rather than an established mechanism, is the microbiota-induced bystander effect (MIBE), in which microbiota-driven para-inflammation creates a milieu rich in reactive oxygen and nitrogen species and inflammatory cytokines that damages DNA in neighbouring epithelial cells and establishes a field of cancerization. We integrate these routes into a three-stage model (initiation, propagation, perpetuation) linking microbial exposure to APC, KRAS and TP53 alterations, discuss translation towards risk stratification, faecal metagenomic diagnosis, OCS-based prognostication and targeted prevention, and delineate the limitations of the current evidence.",
+   "watched": [],
+   "related": []
+  }
+ ],
+ "submission_id": "0a0dfdb0a3b0444cb246f0e31664b641",
+ "state": "preparing"
+}
