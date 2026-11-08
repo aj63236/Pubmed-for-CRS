@@ -1,0 +1,1237 @@
+{
+ "date": "2026-11-08",
+ "generated_at": "2026-11-08T09:16:22+08:00",
+ "count": 13,
+ "papers": [
+  {
+   "pmid": "42994867",
+   "title": "Comparative efficacy and safety of second- and later-line BRAF-targeted regimens in BRAF V600E-mutant metastatic colorectal cancer: A systematic review and network meta-analysis",
+   "journal": "Medicine (Baltimore)",
+   "journal_full": "Medicine",
+   "issn": "1536-5964",
+   "issn_linking": "0025-7974",
+   "impact_factor": 2.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.1097/MD.0000000000051468",
+   "ptype": "Network Meta-Analysis, Systematic Review",
+   "ptype_list": [
+    "Network Meta-Analysis",
+    "Systematic Review",
+    "Comparative Study"
+   ],
+   "authors": "Arsalan M, Sawaira F, Hassan I, Hassan T, Khan M, Yasir M",
+   "abstract": "BACKGROUND: BRAF V600E mutations occur in approximately 8 to 12% of metastatic colorectal cancer (mCRC) cases and define an aggressive phenotype with poor prognosis. While the BEACON CRC trial established encorafenib-based combinations as effective second-line options, direct head-to-head comparisons among available BRAF-targeted regimens are lacking. This network meta-analysis (NMA) compared the relative efficacy and safety of second- and later-line BRAF-targeted regimens in BRAF V600E-mutant mCRC.\nMETHODS: PubMed, Embase, Cochrane CENTRAL, and ClinicalTrials.gov were searched from inception through January 2026. Eligible studies enrolled adult patients with BRAF V600E-mutant mCRC receiving second- or later-line BRAF-targeted therapy and reported time-to-event survival outcomes. A frequentist NMA was conducted under a random-effects model using the netmeta package in R. Hazard ratios (HRs) with 95% confidence intervals (CIs) were pooled for progression-free survival (PFS) and overall survival (OS). Where HRs were unavailable, individual patient data were reconstructed from Kaplan-Meier curves using the Guyot method. Treatment ranking used P-scores, with irinotecan plus cetuximab as the reference comparator.\nRESULTS: Four trials enrolling 922 patients across 9 treatment arms were included. All 4 experimental regimens demonstrated significant PFS benefit over irinotecan plus cetuximab. Encorafenib plus cetuximab plus alpelisib ranked highest for PFS (HR 0.33, 95% CI 0.15-0.71; P-score 0.789), followed by encorafenib plus binimetinib plus cetuximab (EBC; HR 0.38, 95% CI 0.29-0.49), encorafenib plus cetuximab (EC; HR 0.40, 95% CI 0.31-0.50), and vemurafenib plus irinotecan plus cetuximab (HR 0.50, 95% CI 0.32-0.77). For OS, only EBC (HR 0.52, 95% CI 0.39-0.69) and EC (HR 0.59, 95% CI 0.46-0.76) achieved statistically significant benefits. No significant difference was detected between EBC and EC on either endpoint. No between-study heterogeneity was detected (I2 = 0%). In the exploratory safety network, encorafenib plus cetuximab was the only encorafenib-based regimen associated with significantly fewer grade ≥ 3 adverse events than irinotecan plus cetuximab (odds ratio 0.67, 95% CI 0.47-0.96).\nCONCLUSION: These findings position encorafenib-based therapy, and encorafenib plus cetuximab in particular, as the reference standard for previously treated BRAF V600E-mutant mCRC, while underscoring that the incremental value of more intensive regimens must be weighed against tolerability and confirmed in adequately powered trials.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42814239",
+     "date": "2026-10-01",
+     "title_zh": "FOLFOXIRI併用Cetuximab對比FOLFOXIRI併用Bevacizumab於轉移性大腸直腸癌之療效與安全性比較：GRADE評等系統性回顧與統合分析",
+     "score": 4,
+     "one_liner": "在561名mCRC病人中，比較FOLFOXIRI+cetuximab與FOLFOXIRI+bevacizumab，OS、PFS、ORR均無顯著差異（HR 1.22, 1.32）。",
+     "sim": 0.229
+    },
+    {
+     "pmid": "42814239",
+     "date": "2026-10-02",
+     "title_zh": "FOLFOXIRI併用Cetuximab對比FOLFOXIRI併用Bevacizumab於轉移性大腸直腸癌之療效與安全性比較：GRADE評等系統性回顧與統合分析",
+     "score": 5,
+     "one_liner": "在561名mCRC病人的統合分析中，比較FOLFOXIRI+cetuximab與FOLFOXIRI+bevacizumab，OS（HR 1.22）與PFS（HR 1.32）均無顯著差異。",
+     "sim": 0.229
+    },
+    {
+     "pmid": "42723578",
+     "date": "2026-09-13",
+     "title_zh": "以循環腫瘤DNA（ctDNA）導引RAS/BRAF野生型轉移性大腸直腸癌病人接受cetuximab併用irinotecan再挑戰治療：一項非隨機臨床試驗",
+     "score": 3,
+     "one_liner": "在36名RAS/BRAF野生型mCRC病人中，以ctDNA篩選後接受cetuximab+irinotecan再挑戰治療，ORR達16.7%，中位PFS 3.9個月。",
+     "sim": 0.228
+    }
+   ],
+   "title_zh": "BRAF V600E突變轉移性大腸直腸癌第二線及後線BRAF標靶療法的療效與安全性比較：系統性回顧與網絡統合分析",
+   "abstract_zh": "背景：BRAF V600E突變約發生於8%至12%的轉移性大腸直腸癌（mCRC）病例，代表一種侵襲性強且預後不良的表型。雖然BEACON CRC試驗已確立以encorafenib為基礎的合併療法是有效的第二線選項，但現有BRAF標靶療法之間仍缺乏直接的頭對頭比較。本網絡統合分析（NMA）比較BRAF V600E突變mCRC第二線及後線BRAF標靶療法的相對療效與安全性。\n方法：檢索PubMed、Embase、Cochrane CENTRAL及ClinicalTrials.gov，範圍涵蓋各資料庫建置起至2026年1月。符合資格的研究須納入接受第二線或後線BRAF標靶治療的成年BRAF V600E突變mCRC病人，並報告事件發生時間型存活結果。使用R軟體的netmeta套件，以隨機效應模型進行頻率學派NMA。針對無惡化存活期（PFS）及整體存活期（OS），合併風險比（HR）及其95%信賴區間（CI）。若無法取得HR，則使用Guyot方法，從Kaplan–Meier曲線重建個別病人資料。以P-score進行治療排名，並以irinotecan加cetuximab作為參考比較療法。\n結果：共納入4項試驗，涵蓋9個治療組、922名病人。相較於irinotecan加cetuximab，全部4種試驗療法皆呈現統計上顯著的PFS效益。Encorafenib加cetuximab加alpelisib的PFS排名最高（HR 0.33，95% CI 0.15–0.71；P-score 0.789），其次為encorafenib加binimetinib加cetuximab（EBC；HR 0.38，95% CI 0.29–0.49）、encorafenib加cetuximab（EC；HR 0.40，95% CI 0.31–0.50），以及vemurafenib加irinotecan加cetuximab（HR 0.50，95% CI 0.32–0.77）。在OS方面，僅EBC（HR 0.52，95% CI 0.39–0.69）及EC（HR 0.59，95% CI 0.46–0.76）達到統計上顯著的效益。EBC與EC在上述兩個終點皆未偵測到顯著差異。未偵測到研究間異質性（I²＝0%）。在探索性安全性網絡分析中，encorafenib加cetuximab是唯一相較於irinotecan加cetuximab，與顯著較少第3級以上不良事件相關的encorafenib基礎療法（勝算比0.67，95% CI 0.47–0.96）。\n結論：這些結果支持將encorafenib基礎療法，尤其是encorafenib加cetuximab，定位為曾接受治療之BRAF V600E突變mCRC的參考標準療法；同時強調，更高強度療法的額外價值必須與耐受性權衡，並由具足夠統計檢定力的試驗確認。",
+   "evidence_level": "統合分析",
+   "score": 6,
+   "score_reason": "整合4項試驗、922人，提供BRAF V600E突變mCRC後線選藥的實用資訊，值得參與多專科決策者閱讀。惟療法間比較仰賴網絡推論，摘要不足以確認可遞移性與偏誤風險，尚不足以依排名升級療法。",
+   "relevance": "中度相關",
+   "relevance_why": "與BRAF V600E突變mCRC的多專科治療決策相關，但主要是後線全身治療，未直接評估手術或轉換切除結果。",
+   "novelty": "再確認已知",
+   "one_liner": "922名mCRC病人中，EC對比irinotecan＋cetuximab，死亡HR為0.59。",
+   "action": "對既往治療後的BRAF V600E突變mCRC，於MDT討論EC；勿僅憑PFS排名加用alpelisib。",
+   "pico": {
+    "P": "4項試驗、922名成年BRAF V600E突變mCRC病人，接受第二線或後線治療，共9個治療組。",
+    "I": "Encorafenib＋cetuximab＋alpelisib、EBC、EC，以及vemurafenib＋irinotecan＋cetuximab。",
+    "C": "以irinotecan＋cetuximab為參考比較療法，並透過網絡比較各標靶療法。",
+    "O": "療效終點為PFS與OS；探索性安全性終點為第3級以上不良事件。摘要未明確區分主要與次要終點。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "4項試驗、922人、9治療組；未報絕對存活率",
+    "EC之OS HR 0.59（95% CI 0.46–0.76）",
+    "EBC與EC的PFS、OS均未達顯著差異"
+   ],
+   "cautions": [
+    "僅4項試驗；I²＝0%不保證網絡可遞移性與一致性。",
+    "PFS排名不等於OS獲益；EBC與EC無顯著差異不代表等效。",
+    "安全性分析屬探索性，且未報絕對事件率，無法估算絕對效益。"
+   ],
+   "unassessable": [
+    "納入試驗的研究設計細節、隨機分派及allocation concealment",
+    "原始試驗的盲法、ITT分析、失訪率與追蹤成熟度",
+    "系統性回顧方案預先註冊及原始試驗註冊情形",
+    "納入研究的偏誤風險評估與各比較的證據確定性",
+    "網絡結構、直接與間接證據比例、可遞移性及不一致性檢驗",
+    "重建個別病人資料所涉及的試驗、重建準確性及敏感度分析",
+    "各治療組的絕對存活率、中位存活期及不良事件人數",
+    "利益衝突、資金來源、成本效益及台灣藥物給付適用性"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3603,
+    "input_tokens_details": {
+     "cache_write_tokens": 3600,
+     "cached_tokens": 0
+    },
+    "output_tokens": 2163,
+    "output_tokens_details": {
+     "reasoning_tokens": 416
+    },
+    "total_tokens": 5766
+   },
+   "added_at": "2026-11-08T09:12:43+08:00"
+  },
+  {
+   "pmid": "42989294",
+   "title": "MAP of molecular analyses in real-worlD oncology centers - MAPpaMoNDO: a study of the translational research Young GOIM group",
+   "journal": "J Transl Med",
+   "journal_full": "Journal of translational medicine",
+   "issn": "1479-5876",
+   "issn_linking": "1479-5876",
+   "impact_factor": 9.7,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.3390/curroncol31060248",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Papaccio F, Lombardi P, Giannone G, Carlino F, Petrillo A, Falcone R",
+   "abstract": "BACKGROUND: Despite the growing number of potential predictive biomarkers, molecular testing in daily oncology practice remains fragmented.\nMETHODS: The GOIM Young Translational Group conducted a survey to map the molecular testing prescription habits of oncologists across diverse Italian institutions. The survey evaluated general practices and specific tumor types-including gastrointestinal, lung, breast, genitourinary, gynecological, melanoma, and cancer of unknown primary (CUP)-exploring variations in testing frequency, technology, timing, and sample types between academic and non-academic institutions. We also evaluated logistical differences between center types and specific topics of interest, such as Next-Generation Sequencing (NGS) implementation, re-biopsy of new lesions, liquid biopsy timing/access and BRCA testing.\nRESULTS: Sixty-three responses were collected from 46 institutions, spanning diverse geographical regions and institution types. Molecular analyses are performed entirely in-house in only 40% of cases overall. A marked institutional gap emerged: 60% of academic centers perform all testing internally, compared to just 20% of non-academic centers. Academic centers also demonstrated higher participation in external quality control programs (70% vs. 50%) and more frequently served as regional hubs (60%). Furthermore, a pronounced difference was observed in hereditary cancer testing: in-house germline BRCA1/2 testing for breast cancer is available in 81% of academic institutions compared to only 13% of non-academic centers. Access to liquid biopsy varied across tumor types and center settings. In colorectal cancer, 35.7% of all institutions reported a lack of access, with non-academic centers experiencing a higher rate of non-accessibility (47.8% vs. 21.0% academic), highlighting structural disparities across practice settings.\nCONCLUSIONS: This survey provides an overview of current molecular testing practices for solid tumors among a cohort of selected Italian oncology institutions, revealing stark disparities between academic and non-academic centers. While patient-level clinical endpoints, turnaround times, and costs were not directly measured, addressing these institutional variations and supporting patient access to precision oncology will benefit from coordinated nationwide policy harmonization, structural investments in non-academic laboratory infrastructure, and the formalization of managed hub-and-spoke networks.",
+   "watched": [],
+   "related": [],
+   "title_zh": "真實世界腫瘤醫療中心的分子分析版圖——MAPpaMoNDO：GOIM 青年轉譯研究小組的研究",
+   "abstract_zh": "背景：儘管潛在預測性生物標記的數量持續增加，日常腫瘤臨床實務中的分子檢測仍然零散。\n方法：GOIM 青年轉譯研究小組進行了一項問卷調查，以描繪義大利各類機構腫瘤科醫師開立分子檢測的習慣。調查評估一般實務及特定腫瘤類型，包括胃腸道、肺、乳房、泌尿生殖系統、婦科腫瘤、黑色素瘤與原發部位不明癌（CUP），探討學術與非學術機構在檢測頻率、技術、時機及檢體類型上的差異。我們也評估不同類型中心之間的作業安排差異，以及特定關注議題，例如次世代定序（NGS）的導入、新病灶的再次切片、液態切片的時機與可近性，以及 BRCA 檢測。\n結果：共收集來自46家機構的63份回覆，涵蓋不同地理區域與機構類型。整體而言，僅40%的情況下，分子分析完全於院內進行。機構間出現明顯差距：60%的學術中心在院內完成所有檢測，非學術中心則僅20%。學術中心參與外部品質管制計畫的比例也較高（70% vs. 50%），且較常擔任區域樞紐（60%）。此外，遺傳性癌症檢測亦存在顯著差異：81%的學術機構可於院內提供乳癌的生殖系 BRCA1/2 檢測，非學術中心則僅13%。液態切片的可近性因腫瘤類型與中心類別而異。在大腸直腸癌方面，所有機構中有35.7%回報無法取得液態切片，非學術中心無法取得的比例高於學術中心（47.8% vs. 21.0%），凸顯不同執業場域之間的結構性差距。\n結論：本問卷調查概述了一群經選取的義大利腫瘤醫療機構目前對實體腫瘤進行分子檢測的實務，揭示學術與非學術中心之間的明顯差距。雖然本研究未直接測量病人層級的臨床終點、檢測周轉時間與成本，但協調一致的全國政策、對非學術機構實驗室基礎設施的結構性投資，以及將具管理機制的樞紐—衛星網絡正式制度化，將有助於處理這些機構差異，並支持病人取得精準腫瘤醫療。",
+   "evidence_level": "橫斷面",
+   "score": 5,
+   "score_reason": "提供具體的機構檢測可近性差距，但屬選定義大利機構的問卷調查，未測量病人臨床效益。對台灣轉診與檢測網絡規劃有參考性，對外科治療決策的直接價值有限。",
+   "relevance": "中度相關",
+   "relevance_why": "涉及大腸直腸癌液態切片可近性，但研究重點為義大利醫療體系資源配置，而非外科介入或治療成效。",
+   "novelty": "仍屬早期",
+   "one_liner": "在46院63份回覆中，比較學術與非學術中心，大腸直腸癌液態切片無法取得率為21.0%與47.8%。",
+   "action": "目前不需改變做法；此義大利機構問卷未評估大腸直腸癌病人的檢測效益。",
+   "pico": {
+    "P": "義大利46家腫瘤醫療機構，共63份問卷回覆；非病人層級研究",
+    "I": "學術機構的分子檢測實務與資源配置",
+    "C": "非學術機構的分子檢測實務與資源配置",
+    "O": "摘要未指定主要終點；調查檢測頻率、技術、時機、檢體類型、院內檢測、外部品管、區域樞紐角色及液態切片可近性等"
+   },
+   "effects": [
+    {
+     "outcome": "大腸直腸癌液態切片無法取得",
+     "ok": true,
+     "i_label": "學術中心",
+     "c_label": "非學術中心",
+     "i_rate": 21.0,
+     "c_rate": 47.8,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 26.8,
+     "benefit": true,
+     "event_bad": true,
+     "nnt": 4,
+     "kind": "NNT",
+     "note": ""
+    },
+    {
+     "outcome": "所有分子檢測均於院內完成",
+     "ok": true,
+     "i_label": "學術中心",
+     "c_label": "非學術中心",
+     "i_rate": 60.0,
+     "c_rate": 20.0,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 40.0,
+     "benefit": true,
+     "event_bad": false,
+     "nnt": 2,
+     "kind": "NNT",
+     "note": ""
+    },
+    {
+     "outcome": "參與外部品質管制計畫",
+     "ok": true,
+     "i_label": "學術中心",
+     "c_label": "非學術中心",
+     "i_rate": 70.0,
+     "c_rate": 50.0,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 20.0,
+     "benefit": true,
+     "event_bad": false,
+     "nnt": 5,
+     "kind": "NNT",
+     "note": ""
+    }
+   ],
+   "key_numbers": [
+    "大腸直腸癌液態切片無法取得：學術21.0%、非學術47.8%",
+    "全部檢測院內完成：學術60%、非學術20%",
+    "外部品管參與率：學術70%、非學術50%"
+   ],
+   "cautions": [
+    "選定機構自陳問卷，可能有選樣與回覆偏差，難直接外推台灣。",
+    "檢測可近性不等於臨床效益；未測量病人結局、周轉時間或成本。",
+    "46院有63份回覆；各比例分母與同院重複回覆處理不明，未報信賴區間。"
+   ],
+   "unassessable": [
+    "機構與受訪醫師的抽樣方式、邀請總數及回覆率",
+    "問卷設計、驗證方式及調查時間",
+    "學術與非學術機構的分組人數及各題有效分母",
+    "同一機構多份回覆的整合方式與群聚效應處理",
+    "缺失資料比例及處理方式",
+    "機構規模、病例組成與區域差異的混雜調整",
+    "統計檢定方法及差異估計的信賴區間",
+    "研究註冊、資金來源與利益衝突"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 2959,
+    "input_tokens_details": {
+     "cache_write_tokens": 2956,
+     "cached_tokens": 0
+    },
+    "output_tokens": 2095,
+    "output_tokens_details": {
+     "reasoning_tokens": 250
+    },
+    "total_tokens": 5054
+   },
+   "added_at": "2026-11-08T09:12:43+08:00"
+  },
+  {
+   "pmid": "42992548",
+   "title": "Metabolic reprogramming of myeloid‑derived suppressor cells in colorectal cancer: Mechanistic insights and immunometabolic targeted rehabilitation (Review)",
+   "journal": "Mol Med Rep",
+   "journal_full": "Molecular medicine reports",
+   "issn": "1791-3004",
+   "issn_linking": "1791-2997",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2027",
+   "month": "Jan",
+   "doi": "10.3892/mmr.2026.14061",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Zhu L, Jiang G, Gao F, Du Y",
+   "abstract": "Metabolic reprogramming of myeloid‑derived suppressor cells (MDSCs) plays a role in immunotherapy resistance in colorectal cancer (CRC). This metabolic reprogramming appears to be coordinated by oncogenic mutations (such as adenomatous polyposis coli, KRAS and TP53) through a proposed self‑reinforcing 'mutation‑metabolism‑suppression' axis. In the present review, four core metabolic pillars sustaining MDSC pathogenicity and the epimetabolic regulation that durably locks them into a suppressive state were examined. Furthermore, two emerging dimensions were highlighted: The spatial metabolic antagonism through which MDSCs may construct a metabolically hostile zone to limit the functional activity of tertiary lymphoid structures, and the remote manipulation of MDSC function by gut and intratumoral microbiota‑derived metabolites. To transcend the limitations of non‑specific myeloid depletion, immunometabolic rehabilitation is proposed as a potentially transformative framework targeting intrinsic metabolic vulnerabilities to functionally reprogram MDSCs from an immunosuppressive to a homeostatic or immunostimulatory phenotype. By integrating emerging spatial omics for precise target validation, artificial intelligence‑guided rational drug design and microbiome modulation, this paradigm provides a strategic roadmap for next‑generation precision immunotherapy, aiming to achieve durable responses across both microsatellite stable and microsatellite instability‑high CRC.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42346101",
+     "date": "2026-06-25",
+     "title_zh": "大腸直腸癌的決定因子：連結生物標記、治療與飲食-微生物軸的整合性免疫代謝框架",
+     "score": 2,
+     "one_liner": "本文為概念性綜述，提出CRC腫瘤-免疫-宿主代謝共同演化的整合框架，強調MSS型CRC免疫治療抗藥的代謝機轉，無臨床數據。",
+     "sim": 0.16
+    }
+   ],
+   "title_zh": "大腸直腸癌中髓源抑制細胞的代謝重編程：機轉解析與免疫代謝標靶功能重建（綜述）",
+   "abstract_zh": "髓源抑制細胞（MDSCs）的代謝重編程在大腸直腸癌（CRC）的免疫治療抗藥性中扮演一定角色。這種代謝重編程似乎由致癌突變（例如腺瘤性大腸息肉症基因、KRAS 與 TP53 的突變），透過一條假設性的、自我強化的「突變－代謝－抑制」軸加以協調。本綜述檢視了維持 MDSCs 致病作用的四大核心代謝支柱，以及使其長期固定於抑制狀態的表觀代謝調控。此外，本文強調兩個新興面向：其一為空間性代謝拮抗，MDSCs 可能藉此建立代謝上不利的區域，限制三級淋巴結構的功能活性；其二為腸道與腫瘤內微生物群所衍生的代謝物，對 MDSCs 功能進行遠端操控。為突破非專一性髓系細胞清除策略的限制，本文提出「免疫代謝功能重建」，作為一個可能帶來重大轉變的框架，藉由鎖定內在代謝弱點，在功能上將 MDSCs 從免疫抑制表型重編程為維持恆定或促進免疫的表型。透過整合新興空間體學以精準驗證標靶、人工智慧引導的合理藥物設計，以及微生物群調節，此模式為下一代精準免疫治療提供策略路線圖，目標是在微衛星穩定型與高度微衛星不穩定型 CRC 中皆達成持久療效。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "摘要提出具生物學合理性的機轉框架，但未提供臨床比較、效應量或系統性證據評讀方法，無法判定治療效益。對台灣大腸直腸外科日常決策的直接實用性低，較適合有免疫代謝轉譯研究需求者閱讀全文。",
+   "relevance": "低度相關",
+   "relevance_why": "主題雖為 CRC，但聚焦 MDSCs 代謝機轉與未來藥物開發，未提供可直接指導手術或圍手術期照護的證據。",
+   "novelty": "仍屬早期",
+   "one_liner": "本篇綜述CRC中MDSCs代謝重編程的4大支柱，未提供病人數、治療比較或臨床效應量。",
+   "action": "目前不需改變做法；對MSS或MSI-H大腸直腸癌病人，勿據此新增代謝標靶或菌相介入。",
+   "pico": {
+    "P": "CRC 中的 MDSCs 與腫瘤免疫微環境；非單一病人世代，摘要未提供病人數。",
+    "I": "概念性提出以內在代謝弱點為標靶，重建 MDSCs 功能，並整合空間體學、人工智慧藥物設計及微生物群調節。",
+    "C": "無對照組；非專一性髓系細胞清除僅為概念上的比較策略。",
+    "O": "未定義臨床主要或次要 outcome；討論 MDSCs 免疫抑制表型及免疫治療抗藥機轉，並以持久療效為未來目標。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "4大核心代謝支柱；摘要未列出具體內容或效應量。",
+    "2個新興面向：空間代謝拮抗與微生物代謝物調控。",
+    "臨床事件率、存活數據及陰性結果均未提供。"
+   ],
+   "cautions": [
+    "持久療效是研究目標，並非已證實的臨床結果。",
+    "MDSCs與三級淋巴結構的空間拮抗仍屬假說。",
+    "未提供病人數、對照數據或信賴區間，無法量化效益。"
+   ],
+   "unassessable": [
+    "文獻搜尋策略、納入排除標準及涵蓋文獻的完整性",
+    "納入研究的設計、樣本數、偏誤風險與證據一致性",
+    "機轉主張分別來自細胞、動物或人體研究的程度",
+    "所引臨床試驗的分配隱蔽、盲法、ITT、失訪率及試驗註冊",
+    "代謝標靶或微生物群介入的臨床安全性與成本效益",
+    "資金來源與利益衝突"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "前作以 CRC 腫瘤－免疫－宿主代謝及飲食－微生物軸建立整合框架，本篇進一步聚焦 MDSCs，補充其代謝重編程、空間免疫抑制與微生物代謝物調控的機轉面向。兩篇均屬概念性綜述；本篇摘要仍未提供可驗證臨床效益的比較數據，不能視為前作假說已獲臨床證實。",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 2918,
+    "input_tokens_details": {
+     "cache_write_tokens": 2915,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1562,
+    "output_tokens_details": {
+     "reasoning_tokens": 167
+    },
+    "total_tokens": 4480
+   },
+   "added_at": "2026-11-08T09:12:43+08:00"
+  },
+  {
+   "pmid": "42993303",
+   "title": "Ghost (virtual) ileostomy compared with protective ileostomy after low anterior resection for rectal cancer: A GRADE-assessed systematic review and meta-analysis",
+   "journal": "Langenbecks Arch Surg",
+   "journal_full": "Langenbeck's archives of surgery",
+   "issn": "1435-2451",
+   "issn_linking": "1435-2443",
+   "impact_factor": 2.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1002/jso.25488",
+   "ptype": "Systematic Review, Meta-Analysis",
+   "ptype_list": [
+    "Systematic Review",
+    "Meta-Analysis",
+    "Comparative Study",
+    "Review"
+   ],
+   "authors": "Mirza W, Anwar S, Hassnain M, Subhani M, Nawaz Z, Khan H",
+   "abstract": "BACKGROUND: Protective ileostomy is commonly performed after low anterior resection for rectal cancer to mitigate the clinical consequences of anastomotic leakage; however, it is associated with stoma-related and reversal-related morbidity. Ghost ileostomy has emerged as a selective alternative to avoid unnecessary stoma maturation.\nMETHODS: This systematic review and meta-analysis of comparative studies was conducted in accordance with the PRISMA 2020 statement. PubMed/MEDLINE, Embase, Scopus, Web of Science, and the Cochrane Central Register of Controlled Trials were searched from inception to March 31, 2026. Six comparative studies involving 395 patients were included. The primary outcome was anastomotic leakage. Secondary outcomes were length of hospital stay, readmission/rehospitalization, and postoperative ileus. Random-effects models were used. The risk of bias was assessed using RoB 2 and ROBINS-I, and the certainty of evidence was evaluated using GRADE.\nRESULTS: The available evidence did not demonstrate a statistically significant difference in anastomotic leakage between ghost and protective ileostomy (RR 1.27, 95% CI 0.64-2.49; I² = 0%). Length of hospital stay was also not significantly different (MD 0.55 days, 95% CI -1.35 to 2.45; I² = 92%). Ghost ileostomy was associated with lower readmission/rehospitalization (RR 0.24, 95% CI 0.06-0.89; I² = 0%) and postoperative ileus (RR 0.33, 95% CI 0.13-0.82; I² = 0%). Leave-one-out sensitivity analysis did not materially alter the interpretation of the heterogeneous hospital-stay outcome. The certainty of evidence was low for anastomotic leakage, readmission, and postoperative ileus and very low for hospital stay.\nCONCLUSIONS: The available evidence did not identify a statistically significant difference in anastomotic leakage between ghost and protective ileostomy, although imprecision and limited sample size preclude a definitive conclusion of equivalence. Ghost ileostomy may reduce postoperative ileus and readmission in carefully selected patients; however, larger, adequately powered randomized trials are required before routine adoption.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42931879",
+     "date": "2026-10-27",
+     "title_zh": "直腸癌低位前切除術後保護性迴腸造口關閉時機：早期與延遲關閉之GRADE評估系統性回顧與統合分析",
+     "score": 7,
+     "one_liner": "在512名直腸癌術後病人中，早、晚造口關閉的總併發症未顯著不同（52/257 vs 50/255）。",
+     "sim": 0.348
+    },
+    {
+     "pmid": "42931879",
+     "date": "2026-10-28",
+     "title_zh": "直腸癌低位前切除術後保護性迴腸造口關閉時機：早期與延遲關閉之GRADE評估系統性回顧與統合分析",
+     "score": 7,
+     "one_liner": "在512名直腸癌術後病人中，早、晚造口關閉的總併發症未顯著不同（52/257 vs 50/255）。",
+     "sim": 0.348
+    },
+    {
+     "pmid": "42929024",
+     "date": "2026-10-27",
+     "title_zh": "吲哚青綠（ICG）血管攝影降低食道切除術後併發症的效果：系統性回顧與統合分析",
+     "score": 5,
+     "one_liner": "在2845名食道切除病人中，比較ICG與未使用ICG，發現洩漏勝算較低（OR 0.44）。",
+     "sim": 0.256
+    }
+   ],
+   "title_zh": "直腸癌低位前切除術後幽靈式（虛擬）迴腸造口與保護性迴腸造口之比較：經 GRADE 評估的系統性回顧與統合分析",
+   "abstract_zh": "背景：直腸癌低位前切除術後常施作保護性迴腸造口，以減輕吻合口洩漏的臨床後果；然而，此作法伴隨造口相關及造口關閉相關併發症。幽靈式迴腸造口已成為一種選擇性替代方案，以避免不必要的正式造口成形。\n方法：本比較性研究的系統性回顧與統合分析依循 PRISMA 2020 聲明進行。搜尋 PubMed/MEDLINE、Embase、Scopus、Web of Science 及 Cochrane 對照試驗中央登錄資料庫，搜尋期間自各資料庫建置起至2026年3月31日。共納入6項比較性研究，涉及395名病人。主要結果為吻合口洩漏。次要結果為住院天數、再入院／再次住院，以及術後腸麻痺。採用隨機效應模型。使用 RoB 2 與 ROBINS-I 評估偏誤風險，並使用 GRADE 評估證據確定性。\n結果：現有證據未顯示幽靈式與保護性迴腸造口之間的吻合口洩漏具有統計顯著差異（RR 1.27，95% CI 0.64–2.49；I²＝0%）。住院天數亦無統計顯著差異（平均差 MD 0.55天，95% CI −1.35至2.45；I²＝92%）。幽靈式迴腸造口與較低的再入院／再次住院風險（RR 0.24，95% CI 0.06–0.89；I²＝0%）及術後腸麻痺風險（RR 0.33，95% CI 0.13–0.82；I²＝0%）相關。逐一排除研究的敏感度分析，未實質改變對具有異質性的住院天數結果之解讀。吻合口洩漏、再入院及術後腸麻痺的證據確定性為低，住院天數則為極低。\n結論：現有證據未發現幽靈式與保護性迴腸造口之間的吻合口洩漏具有統計顯著差異，但估計不精確與樣本數有限，使研究無法對兩者等效作出確定結論。幽靈式迴腸造口可能減少經審慎篩選病人的術後腸麻痺與再入院；然而，在常規採用之前，仍需更大型且統計檢定力充足的隨機試驗。",
+   "evidence_level": "統合分析",
+   "score": 6,
+   "score_reason": "採系統性搜尋、偏誤評估與 GRADE，且直接涉及低位前切除術後造口策略，值得有意導入者讀全文。但僅395人、證據確定性低至極低，尚不足支持常規取代保護性造口。",
+   "relevance": "高度相關",
+   "relevance_why": "直接關係到直腸癌低位前切除術後的造口選擇、洩漏風險與再次住院負擔。",
+   "novelty": "仍屬早期",
+   "one_liner": "在395名直腸癌低位前切除病人中，比較幽靈式與保護性迴腸造口，洩漏未顯著不同（RR 1.27）。",
+   "action": "目前不需改變做法；勿常規以幽靈式取代保護性造口，先讀全文確認選人與洩漏救援流程。",
+   "pico": {
+    "P": "直腸癌低位前切除術後病人，共6項比較性研究、395人。",
+    "I": "幽靈式（虛擬）迴腸造口。",
+    "C": "保護性迴腸造口。",
+    "O": "主要結果：吻合口洩漏；次要結果：住院天數、再入院／再次住院、術後腸麻痺。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "洩漏RR 1.27（95% CI 0.64–2.49），未顯著",
+    "再入院RR 0.24（95% CI 0.06–0.89）",
+    "腸麻痺RR 0.33（95% CI 0.13–0.82）"
+   ],
+   "cautions": [
+    "洩漏未顯著不同不代表等效，信賴區間仍容許明顯傷害。",
+    "僅6研究395人，證據低至極低；住院日I²＝92%。",
+    "未報兩組事件數或絕對風險，無法估ARR／NNT。"
+   ],
+   "unassessable": [
+    "各研究設計、隨機試驗數量與各組人數。",
+    "原始試驗的隨機序列產生、分派隱蔽、盲法及ITT分析。",
+    "失訪率、追蹤期間與缺失資料處理。",
+    "系統性回顧及原始試驗的註冊與預先指定分析。",
+    "各研究偏誤風險評估結果及GRADE降級的具體理由。",
+    "病人選擇條件、吻合口高度、新輔助治療及基線風險平衡。",
+    "洩漏定義與嚴重度、幽靈式造口轉為正式造口的比例及救援時效。",
+    "兩組絕對事件數與發生率，及再入院是否包含計畫性造口關閉。",
+    "出版偏誤、利益衝突、資金來源與成本效益。"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "先前列出的造口早期與延遲關閉統合分析，探討已建立保護性造口後的關閉時機；本篇則將問題前移至是否先採幽靈式造口，以避免正式造口及其後續負擔。兩者互補但介入不同，不能用前作的總併發症結果證實本篇策略安全；先前兩筆為同題文獻，不宜視為兩份獨立支持證據。",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3322,
+    "input_tokens_details": {
+     "cache_write_tokens": 3319,
+     "cached_tokens": 0
+    },
+    "output_tokens": 2042,
+    "output_tokens_details": {
+     "reasoning_tokens": 389
+    },
+    "total_tokens": 5364
+   },
+   "added_at": "2026-11-07T09:43:30+08:00"
+  },
+  {
+   "pmid": "42989166",
+   "title": "Risk factors for keratoconus: a systematic review and meta-analysis",
+   "journal": "BMC Ophthalmol",
+   "journal_full": "BMC ophthalmology",
+   "issn": "1471-2415",
+   "issn_linking": "1471-2415",
+   "impact_factor": 2.1,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1038/ni.3829",
+   "ptype": "Systematic Review, Meta-Analysis",
+   "ptype_list": [
+    "Systematic Review",
+    "Meta-Analysis"
+   ],
+   "authors": "Chen R, Ou X, Zeng Q",
+   "abstract": "PURPOSE: Keratoconus (KC) is a sight-threatening disease with unclear etiology. Understanding its risk factors is essential for prevention and mechanistic insight. This study presents a comprehensive systematic review and meta-analysis to evaluate the factors associated with keratoconus, synthesizing the available evidence.\nMETHODS: A comprehensive literature search was performed in PubMed, the Cochrane Library, Embase, and Web of Science for studies reporting factors associated with keratoconus, with no restrictions on publication date or language, from inception to September 2025. Pooled odds ratios (OR) with 95% confidence intervals (CI) were calculated. At least two authors used the assessment tools of the Joanna Briggs Institute (JBI) to evaluate the quality of the methodology of the final included studies. Subgroup analysis by region and age was conducted to reduce the heterogeneity among studies. Both quantitative statistical tests (Egger's and Begg's tests) and qualitative funnel plots were employed to comprehensively evaluate the existence of publication bias.\nRESULTS: We identified 33 studies involving 1,537,739 individuals: 21 were case-control studies, 4 were cohort studies, and 8 were cross-sectional. 14 factors included in this analysis and their OR (95% CI) are as follows: family history 8.95(5.24, 15.28), eye rubbing 6.20(4.32, 8.91), allergy 1.68(1.25, 2.26), atopy 1.39(0.90, 2.15), eye allergy 6.40(2.44, 16.73), allergic dermatitis/eczema 1.99(1.34, 2.96), asthma 1.63(1.38, 1.93), allergic rhinitis 1.37(1.12, 1.67), inappropriate sleeping position 5.55(1.35, 22.76), dry eye disease 2.55(1.05, 6.18), obesity 1.40(1.03, 1.88), smoking 0.80(0.65, 0.99), inflammatory bowel disease 1.24(0.95, 1.63), diabetes 0.87(0.69, 1.10).\nCONCLUSION: Positive family history, eye rubbing, allergy, allergic dermatitis/eczema, asthma, allergic rhinitis, inappropriate sleeping positions, dry eye disease, and obesity are significantly associated with an increased likelihood of keratoconus, whereas smoking exhibited a protective effect. No significant associations were found between KC and atopy, inflammatory bowel disease, or diabetes. Standardized definitions and severity gradings of these factors are needed to clarify causal mechanisms and inform evidence-based preventive strategies.",
+   "watched": [],
+   "related": [],
+   "title_zh": "圓錐角膜的危險因子：系統性回顧與統合分析",
+   "abstract_zh": "目的：圓錐角膜（KC）是一種威脅視力、病因尚不明確的疾病。了解其危險因子，對於預防及深入理解致病機轉至關重要。本研究透過全面性的系統性回顧與統合分析，整合現有證據，評估與圓錐角膜相關的因素。\n方法：全面搜尋 PubMed、Cochrane Library、Embase 與 Web of Science，納入各資料庫建置起至 2025 年 9 月報告圓錐角膜相關因素的研究，不限制發表日期或語言。計算合併勝算比（OR）及其 95% 信賴區間（CI）。至少兩位作者使用 Joanna Briggs Institute（JBI）評讀工具，評估最終納入研究的方法學品質。依地區及年齡進行次群組分析，以降低研究間的異質性。同時採用定量統計檢定（Egger 與 Begg 檢定）及定性漏斗圖，全面評估是否存在發表偏誤。\n結果：共納入 33 項研究，涵蓋 1,537,739 人：其中 21 項為病例對照研究、4 項為世代研究、8 項為橫斷面研究。本分析納入的 14 項因素及其 OR（95% CI）如下：家族史 8.95（5.24–15.28）、揉眼 6.20（4.32–8.91）、過敏 1.68（1.25–2.26）、異位性體質 1.39（0.90–2.15）、眼部過敏 6.40（2.44–16.73）、過敏性皮膚炎／濕疹 1.99（1.34–2.96）、氣喘 1.63（1.38–1.93）、過敏性鼻炎 1.37（1.12–1.67）、不當睡姿 5.55（1.35–22.76）、乾眼症 2.55（1.05–6.18）、肥胖 1.40（1.03–1.88）、吸菸 0.80（0.65–0.99）、發炎性腸道疾病 1.24（0.95–1.63）、糖尿病 0.87（0.69–1.10）。\n結論：陽性家族史、揉眼、過敏、過敏性皮膚炎／濕疹、氣喘、過敏性鼻炎、不當睡姿、乾眼症與肥胖，皆與圓錐角膜發生可能性增加具有顯著關聯，而吸菸呈現保護效果。KC 與異位性體質、發炎性腸道疾病或糖尿病之間，未發現顯著關聯。這些因素需要標準化定義與嚴重度分級，以釐清因果機轉，並為實證預防策略提供依據。",
+   "evidence_level": "統合分析",
+   "score": 2,
+   "score_reason": "整合 33 項觀察性研究，搜尋與品質評讀方法有交代，但摘要不足以確認混雜控制與合併結果的穩健性。主題屬眼科，對台灣大腸直腸外科日常決策的直接效益很低。",
+   "relevance": "低度相關",
+   "relevance_why": "研究圓錐角膜的相關因素，雖含發炎性腸道疾病，但未評估大腸直腸疾病治療或外科處置。",
+   "novelty": "仍屬早期",
+   "one_liner": "在153.8萬人的研究中，比較揉眼與否，發現圓錐角膜勝算較高（OR 6.20）。",
+   "action": "目前不需改變做法；勿據此為無眼部症狀的IBD病人新增圓錐角膜篩檢。",
+   "pico": {
+    "P": "33 項研究共 1,537,739 人；包含 21 項病例對照、4 項世代及 8 項橫斷面研究，各因素分析人數未提供。",
+    "I": "家族史、揉眼、過敏、異位性體質、眼部過敏、過敏性皮膚炎／濕疹、氣喘、過敏性鼻炎、不當睡姿、乾眼症、肥胖、吸菸、發炎性腸道疾病及糖尿病等暴露或特徵。",
+    "C": "各因素相對應的未暴露或無該特徵者；各研究的具體參照組定義未提供。",
+    "O": "各因素與圓錐角膜的關聯，以合併 OR 及 95% CI 表示；摘要未區分主要與次要結果。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "33項研究、1,537,739人；未報兩組絕對風險",
+    "IBD：OR 1.24（95% CI 0.95–1.63），未顯著",
+    "吸菸：OR 0.80（95% CI 0.65–0.99）"
+   ],
+   "cautions": [
+    "皆為觀察性研究；吸菸負相關不能解讀為因果保護或預防建議。",
+    "僅報OR，無兩組絕對風險；不能推算ARR或NNT。",
+    "不當睡姿CI達1.35–22.76，估計不精確；未報異質性數值。"
+   ],
+   "unassessable": [
+    "各因素納入的研究數、樣本數與兩組事件數或絕對風險",
+    "合併的是調整後或未調整OR，以及各研究的混雜因子控制",
+    "各研究的JBI評讀結果與整體證據確定性",
+    "統合分析模型、異質性數值及敏感度分析結果",
+    "地區與年齡次群組分析的具體結果",
+    "Egger、Begg檢定及漏斗圖的實際結果",
+    "暴露與圓錐角膜的時間先後、各因素定義及診斷標準",
+    "世代研究的追蹤長度與失訪率",
+    "研究計畫註冊、資金來源與利益衝突"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3088,
+    "input_tokens_details": {
+     "cache_write_tokens": 3085,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1840,
+    "output_tokens_details": {
+     "reasoning_tokens": 207
+    },
+    "total_tokens": 4928
+   },
+   "added_at": "2026-11-07T09:43:30+08:00"
+  },
+  {
+   "pmid": "42990022",
+   "title": "Compositional, Spatial and Functional Changes Occur Within Bacteria Associated With Precancerous Colonic Lesions: A Systematic Review",
+   "journal": "APMIS",
+   "journal_full": "APMIS : acta pathologica, microbiologica, et immunologica Scandinavica",
+   "issn": "1600-0463",
+   "issn_linking": "0903-4641",
+   "impact_factor": 2.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.1111/apm.70274",
+   "ptype": "Systematic Review",
+   "ptype_list": [
+    "Systematic Review"
+   ],
+   "authors": "Chieng M, Gögenur M, Hauge M, Bjarnsholt T, Gögenur I",
+   "abstract": "Most colorectal cancers (CRCs) arise from polyps that develop malignant traits over time. As the majority of these are sporadic, environmental determinants including the gut microbiota are increasingly implicated. Dysbiosis is consistently observed in CRC; however, its association with precancerous polyps is less defined. A systematic review of PubMed, Embase and Web of Science from January 2015 to June 2025 was therefore performed, using the following strings: ('colon' OR 'colorectal') AND ('adenoma' OR 'polyp' OR 'neoplasia') AND ('microbiota' OR 'bacteria') AND ('mucosa' OR 'tissue'). Human studies comparing microbiota of polyp patients with healthy controls were included. Controls were defined a priori as subjects with a normal colonoscopy. Laboratory methods were extracted and study heterogeneity was addressed through narrative synthesis. The search yielded 722 articles, with 27 studies included, involving 4510 participants. Alpha diversity was unchanged in most studies (n = 11/14), whereas beta diversity was altered in the majority (n = 7/13). Escherichia coli, Bacteroides fragilis and Fusobacterium nucleatum were consistently enriched taxa in polyp cohorts (n = 11/27 studies). Bacterial traits associated with adhesion, invasion, and genotoxicity were enriched in polyp subjects alongside metabolic adaptations for stress. However, overt tissue-invasive behaviour was not observed. A decrease in the Firmicutes:Bacteroidetes (F:B) ratio is proposed as a potentially relevant biomarker but requires validation. Future translation of this data into clinical settings requires integration of histopathologic and longitudinal analyses.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42959031",
+     "date": "2026-10-31",
+     "title_zh": "發炎性腸道疾病中的腸道真菌相失衡：系統性回顧與統合分析",
+     "score": 5,
+     "one_liner": "28項研究比較IBD與健康者，發現CD真菌Shannon多樣性較低，合併加權平均差−0.84。",
+     "sim": 0.169
+    },
+    {
+     "pmid": "42959031",
+     "date": "2026-11-01",
+     "title_zh": "發炎性腸道疾病中的腸道真菌相失衡：系統性回顧與統合分析",
+     "score": 5,
+     "one_liner": "28項研究比較IBD與健康者，發現CD真菌Shannon多樣性較低，合併加權平均差−0.84。",
+     "sim": 0.169
+    },
+    {
+     "pmid": "42930589",
+     "date": "2026-10-27",
+     "title_zh": "從菌相失衡到共生：運用腸道微生物叢改善癌症治療結果",
+     "score": 3,
+     "one_liner": "在胃腸癌文獻（人數未報）中，整理菌相機轉與介入策略，無直接組間比較或量化效益。",
+     "sim": 0.163
+    }
+   ],
+   "title_zh": "癌前大腸病灶相關細菌的組成、空間與功能變化：系統性回顧",
+   "abstract_zh": "多數大腸直腸癌（CRC）源自隨時間逐漸產生惡性特徵的息肉。由於其中大多數屬於散發性，包含腸道微生物叢在內的環境決定因子，日益被認為與其發生有關。CRC 中可持續觀察到菌相失衡；然而，菌相失衡與癌前息肉的關聯仍較不明確。因此，本研究對 PubMed、Embase 與 Web of Science 進行系統性回顧，檢索期間為 2015 年 1 月至 2025 年 6 月，使用以下檢索式：('colon' OR 'colorectal') AND ('adenoma' OR 'polyp' OR 'neoplasia') AND ('microbiota' OR 'bacteria') AND ('mucosa' OR 'tissue')。納入比較息肉患者與健康對照者微生物叢的人體研究。對照者事先定義為大腸鏡檢查正常的受試者。研究擷取實驗室方法，並透過敘述性綜合處理研究異質性。檢索共取得 722 篇文章，其中納入 27 項研究，涉及 4510 名參與者。多數研究的 α 多樣性未改變（n＝11/14），而多數研究的 β 多樣性出現改變（n＝7/13）。大腸桿菌（Escherichia coli）、脆弱擬桿菌（Bacteroides fragilis）及具核梭桿菌（Fusobacterium nucleatum）是在息肉族群中持續觀察到富集的菌群（n＝11/27 項研究）。息肉受試者中，與黏附、侵入及基因毒性相關的細菌特徵較為富集，並伴隨因應壓力的代謝適應。然而，未觀察到明顯的組織侵入行為。研究提出，厚壁菌門與擬桿菌門的比值（F:B 比值）下降可能是具有相關性的生物標記，但仍需驗證。未來若要將這些資料轉譯至臨床，需整合組織病理學及縱向分析。",
+   "evidence_level": "系統性回顧",
+   "score": 5,
+   "score_reason": "納入 27 項人體研究、4510 人，且預先界定正常大腸鏡對照，具探索價值；但僅作敘述性綜合，未提供合併效應量，對息肉處置與追蹤的直接實用性有限。",
+   "relevance": "中度相關",
+   "relevance_why": "聚焦大腸癌前息肉的菌相變化，與癌化機轉相關，但尚未提供可用於手術、追蹤或預防的臨床策略。",
+   "novelty": "仍屬早期",
+   "one_liner": "在4510人中比較息肉與正常大腸鏡者，11/27項研究見相關菌群富集，未報合併效應量。",
+   "action": "目前不需改變做法；勿依息肉患者菌相或F:B比值調整切除與追蹤，尚缺臨床驗證。",
+   "pico": {
+    "P": "27 項人體研究、共 4510 名參與者，包含大腸息肉患者與健康對照者。",
+    "I": "大腸癌前息肉及其黏膜／組織相關微生物叢。",
+    "C": "事先定義為大腸鏡檢查正常的健康對照者。",
+    "O": "菌相 α 與 β 多樣性、菌群組成、空間分布及細菌功能特徵；摘要未區分主要與次要結果。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "檢索722篇，納入27項研究、4510人",
+    "α多樣性未變11/14項；β多樣性改變7/13項",
+    "11/27項研究見相關菌群富集，非患者事件率"
+   ],
+   "cautions": [
+    "菌相關聯不等於致癌因果，不能據此推導除菌或益生菌治療",
+    "僅報研究篇數，未報組間絕對差、合併效應量或信賴區間",
+    "F:B比值尚未驗證，不能用來決定息肉追蹤間隔"
+   ],
+   "unassessable": [
+    "各納入研究的設計、前瞻性及追蹤長度",
+    "偏誤風險評估方法與結果",
+    "息肉組與對照組各自人數及基線可比性",
+    "飲食、抗生素、腸道準備等混雜因子的控制",
+    "息肉病理類型、大小、位置及異生程度的分層結果",
+    "採樣部位、檢測平台與實驗室方法差異的實際影響",
+    "文獻篩選與資料擷取是否由雙人獨立執行",
+    "回顧計畫註冊、發表偏誤及利益衝突"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "相較於前作〈從菌相失衡到共生：運用腸道微生物叢改善癌症治療結果〉聚焦胃腸癌治療，本篇將焦點前移至癌前息肉，補充癌症形成前的菌相組成與功能關聯。這是疾病階段與研究問題的延伸，並非對菌相介入療效的驗證；另兩篇 IBD 真菌相回顧則無直接對照關係。",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3115,
+    "input_tokens_details": {
+     "cache_write_tokens": 3112,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1708,
+    "output_tokens_details": {
+     "reasoning_tokens": 239
+    },
+    "total_tokens": 4823
+   },
+   "added_at": "2026-11-07T09:43:30+08:00"
+  },
+  {
+   "pmid": "42993070",
+   "title": "LEgal Guidance for Cancer Patients and CAREgivers (LEGACY CARE): A Pilot Clinical Trial",
+   "journal": "Psychooncology",
+   "journal_full": "Psycho-oncology",
+   "issn": "1099-1611",
+   "issn_linking": "1057-9249",
+   "impact_factor": 3.9,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.1002/pon.70650",
+   "ptype": "Clinical Trial",
+   "ptype_list": [
+    "Clinical Trial"
+   ],
+   "authors": "Lin K, Kourelis R, Khealani M, Jansen R, Breininger A, Yokanovich L",
+   "abstract": "BACKGROUND: Medical-legal partnerships can address health-harming legal needs (HHLNs) but caregiver-inclusive models are understudied.\nAIMS: To evaluate the feasibility, acceptability, and preliminary efficacy in addressing HHLNs of proactive legal care for patient-caregiver dyads.\nMETHODS: This single-arm pilot trial (NCT07153016) enrolled patients with advanced-stage colorectal cancer and their self-nominated caregiver. Cancer Legal Care (CLC) provided personalized legal checkups and 3-month follow-up at no cost. Feasibility was assessed by rates of initial checkup, 3-month engagement, and receipt of legal service. Acceptability was assessed by likelihood of recommending the intervention to others. Participant-reported outcomes, implementation measures, and interviews were summarized.\nRESULTS: We enrolled 9 of 10 planned dyads. Among the 9 enrolled, 8 completed baseline surveys, 7 completed initial legal checkups, and 7 completed 3-month assessments. Initial legal checkups lasted a median of 45 minutes, and CLC provided median 4 hours of legal service per dyad. At baseline, 7 of 16 participants self-identified HHLNs, while CLC identified 1.7 additional HHLNs per dyad. The study met predefined feasibility benchmarks [initial engagement (16/18, 89%), 3-month questionnaire completion (14/18, 78%), and receipt of ≥ 1 legal service (14/18, 78%)] and acceptability (12/14, 86% recommended the intervention) benchmarks. Dyads noted improvements in financial control, support-seeking, and maintaining daily activities; however, caregiver-specific needs were not consistently identified or prioritized.\nCONCLUSIONS: Proactive legal care for recently diagnosed patient-caregiver dyads was feasible and acceptable, and identified and addressed HHLNs. However, caregiver-inclusive medical-legal partnership models may require caregiver-specific intake, longitudinal follow-up, and clearer distinction between patient, caregiver, and shared needs.",
+   "watched": [],
+   "related": [],
+   "title_zh": "癌症病人與照顧者的法律指引（LEGACY CARE）：先導性臨床試驗",
+   "abstract_zh": "背景：醫療與法律合作模式可處理損害健康的法律需求（HHLNs），但納入照顧者的模式仍缺乏研究。目的：評估針對病人—照顧者配對提供主動法律照護，在處理HHLNs方面的可行性、可接受性及初步成效。方法：這項單臂先導試驗（NCT07153016）納入晚期大腸直腸癌病人及其自行指定的照顧者。Cancer Legal Care（CLC）免費提供個人化法律需求健檢及3個月追蹤。可行性以完成初次健檢、持續參與至3個月及接受法律服務的比率評估。可接受性則以向他人推薦此介入的可能性評估。研究彙整了參與者自陳結果、執行指標及訪談內容。結果：原訂納入10組配對，實際納入9組。在納入的9組中，8組完成基線問卷，7組完成初次法律需求健檢，7組完成3個月評估。初次法律需求健檢的時間中位數為45分鐘，CLC為每組配對提供法律服務的時間中位數為4小時。基線時，16名參與者中有7名自行辨識出HHLNs，而CLC每組配對額外辨識出1.7項HHLNs。研究達到預先設定的可行性門檻，包括初始參與（16/18，89%）、3個月問卷完成（14/18，78%），以及接受至少1項法律服務（14/18，78%）；也達到可接受性門檻（12/14，86%推薦此介入）。病人—照顧者配對表示，財務掌控、尋求支持及維持日常活動有所改善；然而，照顧者特有的需求並未被一致地辨識或優先處理。結論：對近期確診的病人—照顧者配對提供主動法律照護具有可行性及可接受性，並能辨識及處理HHLNs。然而，納入照顧者的醫療與法律合作模式，可能需要照顧者專屬的初次需求評估、縱向追蹤，以及更清楚區分病人、照顧者及雙方共同的需求。",
+   "evidence_level": "其他",
+   "score": 4,
+   "score_reason": "僅9組配對的單臂先導介入研究，可支持服務可行性，但不足以證明臨床效益。對晚期癌症支持照護有啟發，對台灣外科決策的直接效用有限。",
+   "relevance": "低度相關",
+   "relevance_why": "雖納入晚期大腸直腸癌病人，但介入是法律支持服務，未評估手術或腫瘤治療結果。",
+   "novelty": "仍屬早期",
+   "one_liner": "在9組癌症病人與照顧者中，單臂提供法律照護、無對照，14/18人接受至少1項服務。",
+   "action": "目前不需改變做法；晚期大腸直腸癌的法律支持服務尚缺對照研究與本地適用性資料。",
+   "pico": {
+    "P": "晚期大腸直腸癌病人及其自行指定的照顧者，共9組配對、18人；原訂納入10組",
+    "I": "CLC免費提供個人化法律需求健檢及3個月追蹤",
+    "C": "無對照組",
+    "O": "可行性：初次參與、3個月參與及接受法律服務；可接受性：推薦介入的意願；另探索法律需求、參與者自陳結果及執行情形"
+   },
+   "effects": [],
+   "key_numbers": [
+    "初始參與16/18人（89%）；3個月問卷14/18人（78%）",
+    "接受至少1項法律服務14/18人（78%）",
+    "推薦介入12/14人（86%）；照顧者需求未穩定辨識"
+   ],
+   "cautions": [
+    "僅9組且無對照；自陳改善不能證明介入有效，未報效應量或信賴區間。",
+    "可行性與推薦意願不是臨床效益；照顧者需求仍未一致辨識或優先處理。",
+    "個人與配對分母混用；初始參與16/18與健檢7/9的定義須查全文。"
+   ],
+   "unassessable": [
+    "招募方式、完整納入排除條件及選擇偏差",
+    "結果評估是否採盲法",
+    "預先設定的可行性與可接受性門檻具體數值",
+    "自陳結果的量測工具、變化幅度及統計不確定性",
+    "未完成評估的原因及缺失資料處理方式",
+    "註冊內容與實際研究執行、結果報告是否一致",
+    "利益衝突與資金來源",
+    "服務提供成本、成本效益及台灣法律制度下的可移植性"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 2914,
+    "input_tokens_details": {
+     "cache_write_tokens": 2911,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1704,
+    "output_tokens_details": {
+     "reasoning_tokens": 348
+    },
+    "total_tokens": 4618
+   },
+   "added_at": "2026-11-07T09:43:30+08:00"
+  },
+  {
+   "pmid": "42989124",
+   "title": "Conformal sphincter preservation operation versus modified Bacon operation for ultralow rectal cancer: a multicenter retrospective study using propensity-score matching and inverse probability of treatment weighting",
+   "journal": "BMC Gastroenterol",
+   "journal_full": "BMC gastroenterology",
+   "issn": "1471-230X",
+   "issn_linking": "1471-230X",
+   "impact_factor": 3.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1007/s00384-025-05009-2",
+   "ptype": "Multicenter Study, Comparative Study",
+   "ptype_list": [
+    "Multicenter Study",
+    "Comparative Study"
+   ],
+   "authors": "Ding H, Yuan B, Sun G, Yu G, Gong H, Zhu X",
+   "abstract": "PURPOSE: This study aimed to compare perioperative results, postoperative anal function, quality of life (QoL), and long-term outcomes between conformal sphincter preservation operation (CSPO) and modified Bacon operation for ultralow rectal cancer.\nMETHODS: Patients with ultralow rectal cancer undergoing CSPO (n = 123) and modified Bacon (n = 109) were included from Changhai and Xiangya Hospital, respectively, between 2011 and 2020. Propensity score matching (PSM) and inverse probability of treatment weighting (IPTW) were used to balanced baseline characteristics. Anal function was evaluated with Wexner scores and low anterior resection syndrome (LARS) score, and visual analog scale (VAS) for satisfaction. QoL was evaluated via EORTC QLQ-C30 and QLQ-CR38 questionnaires.\nRESULTS: After exclusions, 122 patients in the CSPO group and 108 in the modified Bacon group were analyzed. Following adjustment via PSM and IPTW, the CSPO group demonstrated a shorter operative time, postoperative hospital stay, flatus and defecation time, postoperative anal function recovery time, and better satisfaction with anal function compared to the modified Bacon group. Multivariable analysis showed that neoadjuvant radiotherapy (β=-1.184, 95% CI -1.95 to 0.42) and postoperative anal function recovery time (β=-0.184, 95% CI -0.25 to -0.12) significantly contributed to lower satisfaction with anal function.\nCONCLUSION: This retrospective, observational, multicenter study compared CSPO with the modified Bacon for ultralow rectal cancer. Both approaches demonstrated comparable clinical efficacy, functional outcomes, and QoL. However, CSPO showed potential advantages in perioperative recovery, postoperative anal functional recovery, and patient-reported anal function satisfaction. These findings require confirmation in prospective studies.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42836881",
+     "date": "2026-10-08",
+     "title_zh": "機器手臂輔助與傳統開腹低位前位直腸切除合併全直腸繫膜切除術（TME）術後生活品質與功能結果比較：傾向分數配對研究",
+     "score": 4,
+     "one_liner": "在80名接受低位前位直腸切除+TME病人中（RAS 40 vs 開腹40，傾向分數配對），QOL與LARS評分無顯著差異，僅女性性興趣RAS組較低（p=.008）。",
+     "sim": 0.209
+    },
+    {
+     "pmid": "42551037",
+     "date": "2026-08-05",
+     "title_zh": "中低位直腸癌經肛門與腹腔鏡全直腸繫膜切除術（TME）之生活品質、腸道功能與長期腫瘤學結果比較（Ta-LaTME研究）：多中心隨機開放標籤試驗",
+     "score": 6,
+     "one_liner": "在105名中低位直腸癌病人（LaTME 57 vs TaTME 59）中，比較TME術式，5年局部復發6.4% vs 3.7%、重度LARS 30% vs 44%，均未達統計顯著。",
+     "sim": 0.198
+    },
+    {
+     "pmid": "42551037",
+     "date": "2026-08-06",
+     "title_zh": "中低位直腸癌經肛門全直腸系膜切除術（TaTME）與腹腔鏡全直腸系膜切除術（LaTME）之生活品質、排便功能與長期腫瘤學結果比較（Ta-LaTME研究）：多中心隨機開放標籤試驗",
+     "score": 6,
+     "one_liner": "在116名中低位直腸癌病人中，比較TaTME與LaTME，發現5年腫瘤學結果相近，但TaTME排便症狀負擔較高（重度LARS 44% vs 30%）。",
+     "sim": 0.198
+    }
+   ],
+   "title_zh": "超低位直腸癌適形保肛手術與改良式 Bacon 手術之比較：採用傾向分數配對與治療逆機率加權的多中心回溯性研究",
+   "abstract_zh": "目的：本研究旨在比較超低位直腸癌接受適形保肛手術（CSPO）與改良式 Bacon 手術後的圍手術期結果、術後肛門功能、生活品質（QoL）及長期結果。\n方法：納入2011至2020年間分別於長海醫院及湘雅醫院接受 CSPO（n＝123）與改良式 Bacon 手術（n＝109）的超低位直腸癌病人。使用傾向分數配對（PSM）及治療逆機率加權（IPTW）平衡基線特徵。肛門功能以 Wexner 評分及低位前位切除症候群（LARS）評分評估，滿意度則以視覺類比量表（VAS）評估。生活品質使用 EORTC QLQ-C30 及 QLQ-CR38 問卷評估。\n結果：排除後，分析納入 CSPO 組122人及改良式 Bacon 組108人。經 PSM 與 IPTW 調整後，相較於改良式 Bacon 組，CSPO 組的手術時間、術後住院時間、排氣與排便所需時間及術後肛門功能恢復時間較短，且肛門功能滿意度較佳。多變項分析顯示，術前新輔助放射治療（β＝-1.184，95% CI -1.95至0.42）及術後肛門功能恢復時間（β＝-0.184，95% CI -0.25至-0.12）均顯著促成較低的肛門功能滿意度。\n結論：本回溯性、觀察性、多中心研究比較了超低位直腸癌的 CSPO 與改良式 Bacon 手術。兩種術式呈現相近的臨床療效、功能結果及生活品質。然而，CSPO 在圍手術期恢復、術後肛門功能恢復及病人自述肛門功能滿意度方面顯示潛在優勢。這些發現仍需前瞻性研究確認。",
+   "evidence_level": "回溯性研究",
+   "score": 4,
+   "score_reason": "保肛後功能與恢復對臨床有價值，但兩術式分屬不同醫院，PSM／IPTW仍難排除中心效應。摘要缺乏組間效應量與長期結果數據，且放療係數的信賴區間與顯著性敘述不一致。",
+   "relevance": "高度相關",
+   "relevance_why": "直接涉及超低位直腸癌保肛術式選擇、術後肛門功能及病人滿意度。",
+   "novelty": "仍屬早期",
+   "one_liner": "在230名超低位直腸癌病人中，比較CSPO與改良Bacon，CSPO恢復較快但未報差值。",
+   "action": "目前不需改變做法；為超低位直腸癌病人選擇保肛術式前，先讀全文確認功能差值及腫瘤安全性。",
+   "pico": {
+    "P": "2011至2020年兩院超低位直腸癌病人；初納232人，排除後分析230人（CSPO 122人、改良式 Bacon 108人）",
+    "I": "長海醫院施行的適形保肛手術（CSPO）",
+    "C": "湘雅醫院施行的改良式 Bacon 手術",
+    "O": "未明確指定主要終點；評估圍手術期結果、Wexner及LARS評分、肛門功能滿意度VAS、EORTC生活品質及長期結果"
+   },
+   "effects": [],
+   "key_numbers": [
+    "分析230人：CSPO 122人、改良Bacon 108人",
+    "恢復時間與滿意度：β=-0.184，95% CI -0.25～-0.12",
+    "放療與滿意度：β=-1.184，95% CI -1.95～0.42"
+   ],
+   "cautions": [
+    "兩術式分屬不同醫院，中心效應與術式效應難以分離。",
+    "未報組間絕對差值及長期數據，不能據此認定療效相當。",
+    "放療係數95% CI跨0，卻稱顯著，須查全文核對。"
+   ],
+   "unassessable": [
+    "納入與排除條件、兩名病人的排除原因",
+    "PSM配對變項、配對後樣本數、平衡診斷及IPTW權重處理",
+    "腫瘤高度、分期、新輔助治療與術者經驗的組間分布",
+    "主要終點預先設定與樣本數估算",
+    "功能及生活品質評估時點、問卷回覆率與缺失資料處理",
+    "結果評估者是否盲化",
+    "各組功能分數、恢復時間、生活品質差值與信賴區間",
+    "追蹤期間、失訪率及長期復發與存活數據",
+    "研究註冊、利益衝突與資金來源",
+    "成本與再次手術負擔"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "前述機器手臂對開腹配對研究及Ta-LaTME隨機試驗，均探討直腸癌不同術式對功能與生活品質的影響；本篇延伸至CSPO與改良式Bacon的超低位保肛比較。比較術式及族群不同，不能直接判定結果一致或矛盾；本篇回溯性且術式與醫院重疊，也不能推翻既有隨機試驗。",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3391,
+    "input_tokens_details": {
+     "cache_write_tokens": 3388,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1721,
+    "output_tokens_details": {
+     "reasoning_tokens": 221
+    },
+    "total_tokens": 5112
+   },
+   "added_at": "2026-11-07T09:43:30+08:00"
+  },
+  {
+   "pmid": "42993421",
+   "title": "Robotic transabdominal specimen extraction vs. transanal specimen extraction for sigmoid and upper rectal cancer: a comparative analysis of short-term outcomes",
+   "journal": "J Robot Surg",
+   "journal_full": "Journal of robotic surgery",
+   "issn": "1863-2491",
+   "issn_linking": "1863-2483",
+   "impact_factor": 4.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.3389/fsurg.2023.1092128",
+   "ptype": "Comparative Study",
+   "ptype_list": [
+    "Comparative Study"
+   ],
+   "authors": "Li T, Luo A, Min F, Yu T, Zou Y, Zuo J",
+   "abstract": "Robotic surgery has become an established approach for the management of patients with sigmoid colon and upper rectal cancer (SURC). Natural orifice specimen extraction surgery (NOSES), which avoids an additional abdominal wall incision, is a widely used minimally invasive approach in colorectal cancer (CRC) surgery. It remains uncertain whether transanal specimen extraction, classified as type IV natural orifice specimen extraction surgery (NOSES-IV), offers advantages over conventional transabdominal specimen extraction (TASE) during robot-assisted surgery for SURC. We retrospectively compared the perioperative outcomes of the two extraction strategies. We retrospectively reviewed 254 patients who underwent robot-assisted surgery for SURC at the First Affiliated Hospital of Jiangxi Medical College, Nanchang University, between January 2019 and January 2026. Ninety-one patients received NOSES-IV, and 163 received TASE. After 1:1 propensity score matching (PSM), 83 patients per group were included, and their short-term perioperative outcomes were compared. After matching, the baseline characteristics did not differ significantly between the two groups. Compared with the TASE group, the NOSES-IV group had a shorter gastrointestinal reconstruction time (P < 0.001) and less intraoperative blood loss (P = 0.022). Patients in the NOSES-IV group also ambulated (P = 0.029), passed flatus (P = 0.018), and resumed semiliquid diet earlier (P = 0.038). On postoperative days 1, 3 and 5, their C-reactive protein levels were lower (P = 0.017). They also had fewer incision-related complications (P = 0.014), a shorter postoperative hospital stay (P = 0.034), and lower visual analogue scale (VAS) pain scores (P = 0.008). In this retrospective, propensity score-matched cohort, compared with TASE, robot-assisted NOSES-IV for SURC was associated with fewer incision-related complications, less postoperative pain, and earlier recovery. The total operative time, lymph node yield, resection margin status, and anorectal function at 3 months did not differ between the groups. These findings suggest that NOSES-IV is a feasible option for appropriately selected patients, but confirmation in larger, multicentre, prospective studies with longer follow-up is needed.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42888568",
+     "date": "2026-10-18",
+     "title_zh": "大腸直腸癌經自然孔道取標本手術與傳統小切口輔助取標本之結果比較：單中心回溯性研究",
+     "score": 5,
+     "one_liner": "126名大腸直腸癌病人中，NOSES對比小切口取標本，首日疼痛較低（3.2 vs 4.5分）。",
+     "sim": 0.385
+    },
+    {
+     "pmid": "42888568",
+     "date": "2026-10-19",
+     "title_zh": "大腸直腸癌經自然孔道取標本手術與傳統小切口輔助取標本之結果比較：單中心回溯性研究",
+     "score": 5,
+     "one_liner": "126名大腸直腸癌病人中，NOSES對比小切口取標本，首日疼痛較低（3.2 vs 4.5分）。",
+     "sim": 0.385
+    },
+    {
+     "pmid": "42972089",
+     "date": "2026-11-04",
+     "title_zh": "大腸直腸癌經肛門自然孔道取標本後的肛門直腸功能：系統性回顧與統合分析",
+     "score": 6,
+     "one_liner": "在1362名大腸直腸癌病人中，比較經肛門NOSE與TASE，Wexner平均差0.17分，未達顯著。",
+     "sim": 0.308
+    }
+   ],
+   "title_zh": "乙狀結腸與上段直腸癌機器手臂手術中經腹取標本與經肛門取標本之比較：短期結果分析",
+   "abstract_zh": "機器手臂手術已成為乙狀結腸與上段直腸癌（SURC）病人的確立治療方式。自然孔道取標本手術（NOSES）可避免額外的腹壁切口，是大腸直腸癌（CRC）手術中廣泛使用的微創方式。在SURC機器手臂輔助手術中，歸類為第IV型自然孔道取標本手術（NOSES-IV）的經肛門取標本，是否優於傳統經腹取標本（TASE），仍不確定。我們以回溯方式比較這兩種取標本策略的圍手術期結果。我們回溯檢視2019年1月至2026年1月間，於南昌大學江西醫學院第一附屬醫院接受SURC機器手臂輔助手術的254名病人。其中91名接受NOSES-IV，163名接受TASE。經1：1傾向分數配對（PSM）後，每組納入83名病人，並比較其短期圍手術期結果。配對後，兩組基線特徵無統計顯著差異。與TASE組相比，NOSES-IV組的腸胃道重建時間較短（P < 0.001），術中失血量較少（P = 0.022）。NOSES-IV組病人也較早下床活動（P = 0.029）、排氣（P = 0.018）及恢復半流質飲食（P = 0.038）。在術後第1、3及5天，其C反應蛋白濃度較低（P = 0.017）。他們的切口相關併發症也較少（P = 0.014）、術後住院時間較短（P = 0.034），且視覺類比量表（VAS）疼痛分數較低（P = 0.008）。在這個回溯性、傾向分數配對世代中，相較於TASE，SURC機器手臂輔助NOSES-IV與較少的切口相關併發症、較輕的術後疼痛及較早恢復有關。兩組的總手術時間、淋巴結取得數、切緣狀態及術後3個月肛門直腸功能並無差異。這些發現顯示，NOSES-IV對適當選擇的病人而言是可行選項，但仍須以更大型、多中心、追蹤時間更長的前瞻性研究確認。",
+   "evidence_level": "回溯性研究",
+   "score": 5,
+   "score_reason": "單中心回溯性研究經PSM後每組83人，與台灣機器手臂大腸直腸手術實務相關，但摘要僅報P值，無法判定效益大小。值得有意導入NOSES-IV的團隊讀全文核對選案及安全性，不足以改變常規。",
+   "relevance": "高度相關",
+   "relevance_why": "直接比較乙狀結腸與上段直腸癌機器手臂手術的取標本策略，涉及疼痛、切口併發症及術後恢復。",
+   "novelty": "再確認已知",
+   "one_liner": "在配對後166名病人中，NOSES-IV較TASE疼痛低（P=0.008），幅度未報。",
+   "action": "目前不需改變做法；考慮經肛門取標本的乙狀結腸／上段直腸癌病人，先讀全文核對選案與安全性。",
+   "pico": {
+    "P": "單中心254名接受機器手臂輔助手術的乙狀結腸與上段直腸癌病人；PSM後共166名，每組83名。",
+    "I": "機器手臂輔助手術合併經肛門取標本（NOSES-IV）；原始91名，配對後83名。",
+    "C": "機器手臂輔助手術合併傳統經腹取標本（TASE）；原始163名，配對後83名。",
+    "O": "短期圍手術期結果，未明列主要與次要終點：重建及總手術時間、失血量、恢復指標、CRP、切口相關併發症、住院時間、VAS疼痛、淋巴結取得數、切緣狀態及3個月肛門直腸功能。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "原始254人：NOSES-IV 91人、TASE 163人；配對後各83人",
+    "切口併發症較少P=0.014；疼痛較低P=0.008，絕對值未報",
+    "3個月肛門直腸功能、切緣與淋巴結數無差異；數值未報"
+   ],
+   "cautions": [
+    "回溯性PSM仍可能有選案與未測量混雜，不能視為因果。",
+    "僅報P值，無絕對效果與信賴區間，無法判定臨床效益大小。",
+    "3個月功能無差異不代表等效，亦不能推論長期功能與腫瘤安全性。"
+   ],
+   "unassessable": [
+    "具體納排條件、腫瘤大小與經肛門取標本選案標準",
+    "PSM納入變項、配對方法細節及標準化平衡指標",
+    "主要終點預先指定、樣本數估算及多重比較處理",
+    "兩組各項結果的絕對值、事件數、效果量與信賴區間",
+    "吻合口洩漏、感染及整體嚴重併發症的分組結果",
+    "肛門直腸功能量表、術前功能及評估者盲法",
+    "追蹤完整性、失訪率及缺失資料處理",
+    "手術醫師經驗、學習曲線及ERAS照護一致性",
+    "研究註冊、利益衝突及成本分析",
+    "長期腫瘤學與功能結果"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "前兩筆為同一篇126人回溯性研究的重複紀錄，本篇在機器手臂乙狀結腸與上段直腸癌族群中，再次觀察到NOSES較低疼痛，並延伸至其他短期恢復指標。其3個月肛門直腸功能無差異，方向與先前1362人統合分析的Wexner差異未達顯著一致；但本篇未報功能量表與效果量，不能據此確認功能等效。",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3307,
+    "input_tokens_details": {
+     "cache_write_tokens": 3304,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1733,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 5040
+   },
+   "added_at": "2026-11-07T09:43:30+08:00"
+  },
+  {
+   "pmid": "42989393",
+   "title": "Targeting the ANKRD54/ELOVL6 axis suppresses malignancy in BRAF mutant colorectal cancer by disrupting fatty acid metabolism and promoting ferroptosis",
+   "journal": "J Exp Clin Cancer Res",
+   "journal_full": "Journal of experimental & clinical cancer research : CR",
+   "issn": "1756-9966",
+   "issn_linking": "0392-9078",
+   "impact_factor": 14.3,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1016/j.canlet.2017.07.027",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Hou Y, Wu D, Wei Y, Yu B, Shao D, Cao D",
+   "abstract": "BACKGROUND: BRAF-mutant (BRAF-MT) colorectal cancer (CRC) represents a clinically aggressive subtype characterized by distinct biological features and significantly worse prognosis compared to BRAF wild-type (BRAF-WT) CRC, with median survival reduced by approximately 40%. The therapeutic resistance of BRAF-MT CRC stems primarily from BRAF-driven dysregulation of tumor cell proliferation. However, the molecular mechanisms underlying the aggressive phenotype and potential therapeutic vulnerabilities remain incompletely understood.\nMETHODS: Bioinformatic analyses were employed to identify candidate genes. A combination of in vitro (cell proliferation, clonal formation), ex vivo (patient-derived and mouse intestinal organoids), and in vivo (xenograft models) assays were used to assess oncogenic function. Mechanistic investigations included Western blotting, qRT-PCR, co-immunoprecipitation (Co-IP), chromatin immunoprecipitation (ChIP), and luciferase reporter assays to delineate the regulatory axis. Fatty acid metabolism and ferroptosis were evaluated by a combination of metabolomic, biochemical, and cellular assays.\nRESULTS: Bioinformatic screening identified ankyrin repeat domain 54 (ANKRD54) as selectively overexpressed in BRAF-MT CRC and significantly associated with adverse prognosis. Inhibition of ANKRD54 markedly suppressed clonogenic potential, cellular proliferation in vitro, organoid formation in both PDOs and cKI mouse-derived organoids, and tumor growth in vivo. Mechanistically, lysine acetyltransferase 2 A (KAT2A) promoted ANKRD54 transcriptional activation through H3K27 acetylation. ANKRD54 subsequently formed a functional complex with CCAAT/enhancer binding protein beta (CEBPB), cooperatively inducing ELOVL fatty acid elongase 6 (ELOVL6) expression. This KAT2A-mediated ANKRD54/CEBPB/ELOVL6 transcriptional axis reprogrammed fatty acid metabolism, selectively suppressing ferroptosis in BRAF-MT CRC. Pharmacological targeting of either ANKRD54 or ELOVL6 substantially enhanced the therapeutic efficacy of Vemurafenib-based treatment in BRAF-MT CRC models. Clinical data corroborated that elevated ANKRD54 expression promoted malignant progression and predicted poor outcomes through this ELOVL6-dependent metabolic pathway.\nCONCLUSIONS: This study elucidates a novel KAT2A-mediated ANKRD54/CEBPB/ELOVL6 axis driving aggressive tumor behavior through regulating fatty acid metabolic and ferroptosis evasion. These findings establish ANKRD54 and ELOVL6 as promising therapeutic targets for combination strategies to overcome therapeutic resistance in BRAF-MT CRC patients.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42470494",
+     "date": "2026-07-20",
+     "title_zh": "利用加權基因共表現網路分析（WGCNA）與機器學習探討大腸直腸癌惡性進展之機制",
+     "score": 2,
+     "one_liner": "在CRC細胞株與異種移植小鼠模型中，發現TFAP4-CDK1軸促進增殖、侵襲與糖解，敲低TFAP4可抑制體內腫瘤生長。",
+     "sim": 0.181
+    },
+    {
+     "pmid": "42464642",
+     "date": "2026-07-18",
+     "title_zh": "YAP1媒介SREBP2細胞質-細胞核轉位透過調控膽固醇代謝促進大腸直腸癌",
+     "score": 2,
+     "one_liner": "在CRC組織微陣列與細胞/小鼠模型中，發現YAP1促進SREBP2核轉位並驅動膽固醇代謝，與較差存活相關。",
+     "sim": 0.159
+    },
+    {
+     "pmid": "42464642",
+     "date": "2026-07-19",
+     "title_zh": "YAP1媒介SREBP2細胞質-細胞核轉位透過調控膽固醇代謝促進大腸直腸癌",
+     "score": 2,
+     "one_liner": "在CRC組織微陣列與細胞/小鼠模型中，發現YAP1促進SREBP2核轉位並驅動膽固醇代謝，與較差存活相關。",
+     "sim": 0.159
+    }
+   ],
+   "title_zh": "靶向 ANKRD54/ELOVL6 軸藉由干擾脂肪酸代謝並促進鐵死亡，抑制 BRAF 突變型大腸直腸癌的惡性表現",
+   "abstract_zh": "背景：BRAF 突變型（BRAF-MT）大腸直腸癌（CRC）是一種臨床上侵襲性高的亞型，具有獨特的生物學特徵，且相較於 BRAF 野生型（BRAF-WT）CRC，預後顯著較差，中位存活期約縮短 40%。BRAF-MT CRC 的治療抗性主要源自 BRAF 驅動的腫瘤細胞增殖失調。然而，其侵襲性表型背後的分子機制，以及潛在可供治療利用的弱點，仍未完全釐清。\n方法：研究以生物資訊分析辨識候選基因，並結合體外試驗（細胞增殖、集落形成）、離體試驗（病人來源及小鼠腸道類器官），以及體內試驗（異種移植模型）評估其致癌功能。機制研究包括西方墨點法、定量反轉錄聚合酶連鎖反應（qRT-PCR）、共同免疫沉澱（Co-IP）、染色質免疫沉澱（ChIP）及螢光素酶報導基因試驗，以解析此調控軸。脂肪酸代謝與鐵死亡則透過代謝體學、生化及細胞試驗的組合進行評估。\n結果：生物資訊篩選發現，錨蛋白重複序列結構域蛋白 54（ANKRD54）在 BRAF-MT CRC 中選擇性過度表現，且與不良預後顯著相關。抑制 ANKRD54 可明顯降低體外細胞的集落形成能力與增殖、病人來源類器官（PDOs）及 cKI 小鼠來源類器官的形成，以及體內腫瘤生長。在機制上，離胺酸乙醯轉移酶 2A（KAT2A）透過 H3K27 乙醯化促進 ANKRD54 的轉錄活化。ANKRD54 隨後與 CCAAT／增強子結合蛋白 β（CEBPB）形成具功能的複合體，共同誘導 ELOVL 脂肪酸延長酶 6（ELOVL6）的表現。此由 KAT2A 介導的 ANKRD54/CEBPB/ELOVL6 轉錄軸會重新編程脂肪酸代謝，選擇性抑制 BRAF-MT CRC 的鐵死亡。在 BRAF-MT CRC 模型中，以藥物靶向 ANKRD54 或 ELOVL6，均可大幅增強以 Vemurafenib 為基礎之治療的療效。臨床資料亦支持，ANKRD54 表現升高會透過此依賴 ELOVL6 的代謝途徑促進惡性進展，並預測不良預後。\n結論：本研究闡明一條新穎、由 KAT2A 介導的 ANKRD54/CEBPB/ELOVL6 軸，透過調控脂肪酸代謝及逃避鐵死亡，驅動腫瘤的侵襲性行為。這些發現確立 ANKRD54 與 ELOVL6 為具潛力的治療標的，可用於旨在克服 BRAF-MT CRC 病人治療抗性的合併治療策略。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "結合細胞、類器官與動物模型探索機制，但摘要未提供樣本數、量化效應或人體介入療效。對大腸直腸外科即時決策幫助有限，較適合研究 BRAF 突變與代謝標靶者讀全文。",
+   "relevance": "低度相關",
+   "relevance_why": "屬 BRAF 突變型 CRC 的前臨床代謝標靶研究，未直接評估手術策略或病人治療獲益。",
+   "novelty": "仍屬早期",
+   "one_liner": "在BRAF突變CRC模型（樣本數未報）中，靶向ANKRD54或ELOVL6可增強藥效，幅度未報。",
+   "action": "目前不需改變做法；勿據此為BRAF突變CRC病人加用相關抑制劑，尚缺人體介入療效證據。",
+   "pico": {
+    "P": "BRAF-MT CRC 細胞、病人來源類器官、cKI 小鼠來源腸道類器官與異種移植模型；另有臨床資料，樣本數均未報。",
+    "I": "抑制 ANKRD54 或 ELOVL6，以及合併以 Vemurafenib 為基礎的治療；另解析 KAT2A/ANKRD54/CEBPB/ELOVL6 調控機制。",
+    "C": "摘要未交代各項實驗的具體對照條件；生物資訊分析涉及 BRAF-MT 與 BRAF-WT CRC 的比較。",
+    "O": "未指定主要與次要 outcome；評估細胞增殖、集落與類器官形成、腫瘤生長、脂肪酸代謝、鐵死亡、模型治療反應及臨床預後關聯。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "背景：BRAF突變型中位存活期約短40%，非本研究治療效益",
+    "細胞、類器官、動物及臨床資料樣本數均未報",
+    "合併治療效益未報絕對值、信賴區間或p值"
+   ],
+   "cautions": [
+    "模型腫瘤抑制不能直接推論病人存活或合併用藥安全性",
+    "臨床表現量與預後相關，不足證明此路徑造成人體惡性進展",
+    "未報樣本數、效應量或信賴區間，無法判斷精確度"
+   ],
+   "unassessable": [
+    "各細胞、類器官、動物實驗及臨床資料的樣本數與樣本數估算",
+    "動物實驗的隨機分組、分配隱匿及盲法",
+    "實驗對照條件、獨立重複次數及排除樣本情形",
+    "臨床資料的研究設計、病人選取、追蹤時間、失訪率及混雜校正",
+    "藥物名稱、劑量、選擇性、給藥方式及毒性",
+    "量化效應、信賴區間、確切p值及多重比較處理",
+    "研究預先註冊、資金來源與利益衝突"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3409,
+    "input_tokens_details": {
+     "cache_write_tokens": 3406,
+     "cached_tokens": 0
+    },
+    "output_tokens": 2062,
+    "output_tokens_details": {
+     "reasoning_tokens": 294
+    },
+    "total_tokens": 5471
+   },
+   "added_at": "2026-11-07T09:43:30+08:00"
+  },
+  {
+   "pmid": "42990999",
+   "title": "Immune checkpoint inhibitors combined with VEGF/VEGFR-targeted therapy in microsatellite-stable advanced colorectal cancer: clinical advances and the potential for immune-sensitive tumor conversion",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1016/j.esmoop.2022.100559",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Wang R, Zhou X, Yuan M, Wang Z",
+   "abstract": "Colorectal cancer (CRC) remains a major cause of cancer-related morbidity and mortality worldwide, and mismatch repair-proficient/microsatellite-stable (pMMR/MSS) tumors account for the majority of metastatic CRC cases. In contrast to dMMR/MSI-H CRC, pMMR/MSS tumors are typically characterized by low immunogenicity, limited neoantigen presentation, insufficient effector T-cell infiltration, and an immunosuppressive tumor microenvironment, which collectively restrict the efficacy of immune checkpoint inhibitor (ICI) monotherapy. Vascular endothelial growth factor (VEGF)/VEGF receptor (VEGFR) signaling contributes not only to abnormal angiogenesis but also to immune suppression by impairing dendritic-cell maturation, reducing immune-cell trafficking, promoting T-cell dysfunction, and facilitating the accumulation of immunosuppressive cell populations. These mechanisms provide a strong rationale for combining VEGF/VEGFR-targeted therapy with ICIs to normalize tumor vasculature and remodel the immune microenvironment. Clinical evidence for this strategy in advanced pMMR/MSS CRC remains heterogeneous. Treatment activity varies across therapeutic settings, antiangiogenic agents, and combination regimens, while many studies are limited by small sample sizes, single-arm designs, and substantial differences in patient characteristics. Emerging data suggest that metastatic pattern, molecular features, baseline immune contexture, and treatment line may influence clinical activity; however, no biomarker has yet been validated for routine patient selection. Multi-agent strategies may provide broader immune modulation but also increase toxicity, treatment complexity, and cost. This review summarizes the biological rationale, clinical efficacy, safety, and potential predictive factors of VEGF/VEGFR-targeted therapy combined with ICIs in advanced pMMR/MSS CRC. Particular emphasis is placed on the heterogeneity of clinical outcomes and on distinguishing mechanistic immune remodeling from the potential enhancement of tumor immune sensitivity. Future studies should prioritize biomarker-guided patient selection, randomized comparative trials, and comprehensive assessment of efficacy, safety, quality of life, and long-term clinical benefit.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42353833",
+     "date": "2026-06-26",
+     "title_zh": "微衛星表型作為大腸直腸癌免疫治療指引：現況與未來展望",
+     "score": 3,
+     "one_liner": "本文為綜述，總結MSI-H/dMMR與MSS/pMMR大腸直腸癌對免疫檢查點抑制劑反應差異之分子機轉與現行治療策略。",
+     "sim": 0.266
+    },
+    {
+     "pmid": "42738783",
+     "date": "2026-09-16",
+     "title_zh": "加熱冷腫瘤：克服微衛星穩定型大腸直腸癌免疫治療抗藥性——一項系統性文獻回顧",
+     "score": 2,
+     "one_liner": "系統性回顧158篇研究，探討MSS/pMMR大腸直腸癌免疫抗藥機轉，並綜整化放療、VEGF抑制、微生物調控等轉化策略。",
+     "sim": 0.237
+    },
+    {
+     "pmid": "42738783",
+     "date": "2026-09-17",
+     "title_zh": "加熱冷腫瘤：克服微衛星穩定型大腸直腸癌之免疫治療抗藥性——系統性文獻回顧",
+     "score": 2,
+     "one_liner": "系統性回顧158篇研究，敘述性整合MSS/pMMR大腸直腸癌免疫抗藥機轉與潛在轉化策略，未做量化統合分析。",
+     "sim": 0.237
+    }
+   ],
+   "title_zh": "免疫檢查點抑制劑合併VEGF/VEGFR標靶治療於微衛星穩定型晚期大腸直腸癌：臨床進展與轉化為免疫敏感腫瘤的潛力",
+   "abstract_zh": "大腸直腸癌（CRC）仍是全球癌症相關罹病與死亡的主要原因之一，而錯配修復功能正常／微衛星穩定型（pMMR/MSS）腫瘤占轉移性CRC病例的大多數。相較於dMMR/MSI-H CRC，pMMR/MSS腫瘤通常具有低免疫原性、新抗原呈現有限、效應T細胞浸潤不足，以及免疫抑制性腫瘤微環境等特徵，這些因素共同限制了免疫檢查點抑制劑（ICI）單藥治療的療效。血管內皮生長因子（VEGF）／VEGF受體（VEGFR）訊息傳遞不僅促進異常血管新生，也會透過妨礙樹突細胞成熟、減少免疫細胞遷移、促進T細胞功能障礙，以及促使免疫抑制性細胞族群累積，造成免疫抑制。這些機轉為VEGF/VEGFR標靶治療合併ICI提供了充分的理論依據，期望藉此使腫瘤血管正常化並重塑免疫微環境。此策略用於晚期pMMR/MSS CRC的臨床證據仍具異質性。治療活性隨治療情境、抗血管新生藥物及合併療法組合而異，而許多研究受到樣本數小、單臂設計及病人特徵差異顯著等限制。新興資料顯示，轉移型態、分子特徵、基線免疫組成與空間分布，以及治療線別可能影響臨床活性；然而，目前尚無經驗證可供常規病人篩選使用的生物標記。多藥策略可能提供更廣泛的免疫調節，但也會增加毒性、治療複雜度及成本。本綜述彙整VEGF/VEGFR標靶治療合併ICI用於晚期pMMR/MSS CRC的生物學理論依據、臨床療效、安全性及潛在預測因子。本文特別著重於臨床結果的異質性，並區分機轉層面的免疫重塑與腫瘤免疫敏感性可能提升這兩個概念。未來研究應優先著重以生物標記引導病人篩選、隨機比較試驗，以及全面評估療效、安全性、生活品質與長期臨床效益。",
+   "evidence_level": "綜述",
+   "score": 3,
+   "score_reason": "可作為MSS轉移性大腸直腸癌合併免疫治療的背景閱讀，但摘要未提供量化療效或系統性證據評讀方法。對多專科討論有參考價值，尚不足以改變外科或常規全身治療決策。",
+   "relevance": "中度相關",
+   "relevance_why": "涉及大腸直腸癌轉移病人的全身治療與多專科討論，但未直接評估手術、轉化切除或圍手術期策略。",
+   "novelty": "仍屬早期",
+   "one_liner": "晚期MSS腸癌綜述（人數未報）：ICI合併抗VEGF/VEGFR療效異質，無量化比較。",
+   "action": "目前不需改變做法；對晚期MSS病人，勿僅憑此綜述常規加用ICI，請於多專科會議評估試驗機會。",
+   "pico": {
+    "P": "晚期pMMR/MSS大腸直腸癌；納入研究數與病人總數未報告。",
+    "I": "ICI合併VEGF/VEGFR標靶治療，包含多藥合併策略。",
+    "C": "綜述未設定單一比較組；摘要未提供可抽取的組間比較資料。",
+    "O": "綜整臨床療效、安全性與潛在預測因子；未指定主要與次要結局，亦討論生活品質及長期臨床效益的評估需求。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "病人總數與納入研究數：摘要均未提供",
+    "反應率與存活絕對值：未報，無法估算絕對效益",
+    "毒性絕對發生率與組間陰性結果：均未報"
+   ],
+   "cautions": [
+    "免疫微環境重塑不等於臨床獲益，勿推論已成功轉為免疫敏感。",
+    "許多研究為小樣本、單臂設計，跨研究療效比較易受選樣影響。",
+    "摘要未報絕對療效、毒性數據或信賴區間，無法衡量淨效益。"
+   ],
+   "unassessable": [
+    "文獻搜尋策略、納入排除標準及是否完整涵蓋相關研究",
+    "納入研究的偏誤風險評估與證據確定性",
+    "各研究的隨機化、分派隱蔽、盲法及ITT分析",
+    "各研究的失訪率、追蹤時間與試驗註冊",
+    "作者利益衝突與資金來源",
+    "各療法的絕對療效、毒性及生活品質結果",
+    "成本效益與台灣給付適用性"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "相較於前述微衛星表型綜述，以及兩篇涵蓋多種MSS免疫抗藥性轉化策略的系統性回顧，本篇聚焦VEGF/VEGFR標靶治療與ICI的合併策略，延伸其機轉、臨床異質性與病人篩選議題。摘要未提供可與前作直接比較的新量化結果，因此不能據此宣稱療效已獲進一步證實。",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3273,
+    "input_tokens_details": {
+     "cache_write_tokens": 3270,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1879,
+    "output_tokens_details": {
+     "reasoning_tokens": 298
+    },
+    "total_tokens": 5152
+   },
+   "added_at": "2026-11-07T09:43:30+08:00"
+  },
+  {
+   "pmid": "42993363",
+   "title": "Outcome measurement in perianal Crohn's disease",
+   "journal": "Tech Coloproctol",
+   "journal_full": "Techniques in coloproctology",
+   "issn": "1128-045X",
+   "issn_linking": "1123-6337",
+   "impact_factor": 2.6,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.14309/ajg.0000000000001545",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Joshi S, Hart A, Tozer P",
+   "abstract": "Perianal Crohn's disease (pCD) is a distinct and debilitating phenotype of Crohn's disease and an independent predictor of long-term adverse outcomes. Traditionally, outcome measurement has focused on fistula healing to assess treatment success; however, as we recognise distinct classes of patients and shift towards shared decision making, healthcare professionals are increasingly acknowledging the importance of assessing more nuanced outcomes such as downstaging, quality of life, sex and intimacy and the impact on family, education or work. Current challenges in outcome measurement include substantial heterogeneity in definitions, measurement tools and time points used. This review will cover the current landscape, reporting on historical measurement instruments, such as the fistula drainage assessment (FDA), perianal disease activity index (PDAI) and the collective move towards patient-centred and patient-developed tools, such as the Crohn's anal fistula quality of life scale (CAF-QoL). It will also assess the value of core outcome measurement sets, which provide a uniform but flexible framework to standardise outcome reporting across studies and support comparison of interventions in clinical practice. Importantly, the incorporation of patient perspectives within their methodology ensures that their recommendations reflect outcomes that truly matter to those with pCD. The contemporary need is for novel clinical and radiological tools to monitor perianal disease activity that are predictive, preventative and provide treatment thresholds, so that patients can live well with their fistulising disease, if it cannot be eradicated. There will no doubt also be a role for digital applications and artificial intelligence in enhancing outcome measurement further for perianal Crohn's disease.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42888942",
+     "date": "2026-10-19",
+     "title_zh": "以定量MRI瘻管體積客觀驗證肛門周圍瘻管化Crohn氏症之Crohn氏症肛門瘻管生活品質問卷",
+     "score": 6,
+     "one_liner": "38名pfCD患者中，比較CAF-QoL緩解與活動者，MRI瘻管體積為279比965 mm³。",
+     "sim": 0.267
+    },
+    {
+     "pmid": "42778235",
+     "date": "2026-09-25",
+     "title_zh": "評估Upadacitinib治療對抗腫瘤壞死因子治療失敗之活動性肛門周圍瘻管化Crohn氏症患者療效與安全性之多中心前瞻性觀察性研究：研究方案",
+     "score": 2,
+     "one_liner": "研究方案：計劃於90名抗TNF治療失敗之活動性肛門周圍瘻管化Crohn氏症成人患者中，觀察upadacitinib於第12週的臨床與影像學瘻管複合反應率，尚無結果數據。",
+     "sim": 0.173
+    }
+   ],
+   "title_zh": "肛門周圍Crohn氏症的結果測量",
+   "abstract_zh": "肛門周圍Crohn氏症（pCD）是Crohn氏症中一種獨特且令人衰弱的表現型，也是長期不良結果的獨立預測因子。傳統上，結果測量著重於以瘻管癒合評估治療成功；然而，隨著我們辨識出不同的病人類型，並轉向共享決策，醫療專業人員日益體認到評估更細緻結果的重要性，例如疾病降階、生活品質、性生活與親密關係，以及對家庭、教育或工作的影響。目前結果測量面臨的挑戰，包括所使用的定義、測量工具與評估時間點存在顯著異質性。本綜述將涵蓋目前的發展概況，介紹過往的測量工具，例如瘻管引流評估（FDA）、肛門周圍疾病活動指數（PDAI），以及整體朝向以病人為中心、由病人參與開發之工具的趨勢，例如Crohn氏症肛門瘻管生活品質量表（CAF-QoL）。本文也將評估核心結果測量集的價值；這類測量集提供統一但具彈性的架構，以標準化各研究的結果報告，並支持臨床實務中不同介入措施的比較。重要的是，在其方法學中納入病人觀點，可確保所提出的建議反映對pCD病人真正重要的結果。當前需要的是新型臨床與影像學工具，能監測肛門周圍疾病活動、具備預測與預防功能，並提供治療門檻，使病人在瘻管性疾病無法根除時，仍能與疾病共存並維持良好生活。毫無疑問，數位應用程式與人工智慧也將在進一步改善肛門周圍Crohn氏症的結果測量上扮演角色。",
+   "evidence_level": "綜述",
+   "score": 6,
+   "score_reason": "適合用來整理pCD評估工具及病人中心結果，對門診追蹤與研究設計有實用性。但摘要未提供文獻搜尋、證據品質評估或量化比較，不能據此選定最佳工具或改變治療門檻。",
+   "relevance": "高度相關",
+   "relevance_why": "直接涉及大腸直腸外科追蹤pCD時，如何整合瘻管狀態、生活品質與病人重視的治療目標。",
+   "novelty": "再確認已知",
+   "one_liner": "本綜述整理pCD結果測量，從瘻管癒合擴及生活品質；無比較族群或量化效果。",
+   "action": "追蹤pCD病人時，除記錄瘻管狀態，也主動詢問生活品質、親密關係及工作影響。",
+   "pico": {
+    "P": "肛門周圍Crohn氏症（pCD）病人；綜述摘要未提供納入研究數或病人總數。",
+    "I": "結果測量工具與架構，包括FDA、PDAI、CAF-QoL及核心結果測量集。",
+    "C": "無對照組；摘要概述傳統瘻管癒合評估與病人中心結果測量的發展。",
+    "O": "未指定主要或次要結果；討論瘻管癒合、疾病降階、生活品質、性生活與親密關係，以及家庭、教育及工作影響。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "未提供納入研究數或病人總數",
+    "未提供各測量工具的量化效度或比較數據",
+    "未報告絕對事件率、效果量或陰性比較結果"
+   ],
+   "cautions": [
+    "屬測量框架綜述，不能證明採用工具可改善病人結果",
+    "定義、工具與時間點異質，跨研究比較須審慎",
+    "無量化比較或信賴區間，無法判定工具優劣"
+   ],
+   "unassessable": [
+    "文獻搜尋策略、涵蓋期間與研究納入排除標準",
+    "是否進行系統性搜尋及原始研究偏誤風險評估",
+    "各工具的效度、信度、反應性與最小臨床重要差異",
+    "核心結果測量集的具體項目及建議評估時間點",
+    "可用於治療決策的臨床或影像學門檻",
+    "數位應用程式與人工智慧工具的臨床驗證程度",
+    "綜述方案註冊、資金來源與利益衝突",
+    "台灣適用的語言版本驗證、執行成本與可行性"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "先前38名pfCD病人的研究，以MRI瘻管體積檢驗CAF-QoL與疾病狀態的關聯；本篇則將視野擴展至FDA、PDAI、核心結果測量集及更廣泛的病人中心結果。它補上評估框架的脈絡，但摘要未提供新的驗證數據，不能視為對前作量化結果的再確認。",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3071,
+    "input_tokens_details": {
+     "cache_write_tokens": 3068,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1418,
+    "output_tokens_details": {
+     "reasoning_tokens": 90
+    },
+    "total_tokens": 4489
+   },
+   "added_at": "2026-11-07T09:43:30+08:00"
+  },
+  {
+   "pmid": "42993385",
+   "title": "Proxy-mediated bias in non-invasive colorectal cancer risk predictors: an evidence appraisal for multiethnic Southeast Asian population",
+   "journal": "Cancer Causes Control",
+   "journal_full": "Cancer causes & control : CCC",
+   "issn": "1573-7225",
+   "issn_linking": "0957-5243",
+   "impact_factor": 2.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.31557/apjcp.2020.21.8.2231",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Suhaimei U, Rahman H, Kassim N, Mohammad N, Naing L",
+   "abstract": "PURPOSE: Colorectal cancer (CRC) is rising across Southeast Asia (SEA) and leads by incidence in Brunei Darussalam. Machine learning (ML) applications for CRC in ASEAN remain endoscopy-based and diagnostic; no risk-stratification model using routinely collected non-invasive data has been reported. This review asks not which predictors associate with CRC risk, but which can serve as valid, equitable ML inputs in multiethnic SEA populations, where lifestyle variables may encode ethnic or religious identity rather than biological risk (proxy-mediated bias).\nMETHODS: This narrative review used qualitative synthesis rather than meta-analysis. PubMed, Scopus and Google Scholar were searched to 9 July 2026 (English language). Six predictor categories were appraised for Asian evidence strength, SEA-specific data, and proxy-bias risk: dietary and lifestyle factors, anthropometric measures, faecal immunochemical test (FIT), complete blood count (CBC), medication history, and emerging predictors; 22 studies were prioritised for appraisal.\nRESULTS: FIT and BMI (Asian threshold ≥23.0 kg/m2) showed the most consistent Asian evidence; FIT, with age, sex and CBC, carried the lowest proxy-bias risk. CBC-based ML performs well in Western populations (AUC 0.736-0.82) but is unvalidated in any Asian population. The central paradox: the most available predictor has the weakest regional evidence, whilst those with strongest Asian evidence are most entangled with identity. Lifestyle predictors require explicit proxy-bias management; medication-history evidence was inconsistent.\nCONCLUSION: A four-criterion framework (effect size, biological plausibility, proxy-bias risk, and routine data availability) and a two-pathway delivery model provide an evidence-grounded basis for equitable, risk-stratified CRC early detection in Brunei and comparable SEA systems.",
+   "watched": [],
+   "related": [],
+   "title_zh": "非侵入性大腸直腸癌風險預測因子的代理變項介導偏誤：針對東南亞多族群人口的證據評析",
+   "abstract_zh": "目的：東南亞（SEA）的大腸直腸癌（CRC）發生率持續上升，且在汶萊各類癌症中居首。東協地區的CRC機器學習（ML）應用仍以內視鏡及診斷為主；尚未有使用常規蒐集之非侵入性資料的風險分層模型被報告。本綜述探討的不是哪些預測因子與CRC風險相關，而是哪些因子能在東南亞多族群人口中，作為有效且公平的ML輸入變項；在這些人口中，生活型態變項可能編碼的是族群或宗教身分，而非生物學風險，即代理變項介導偏誤。\n方法：本敘述性綜述採用質性綜合，而非統合分析。搜尋PubMed、Scopus及Google Scholar，搜尋截至2026年7月9日，限英文文獻。針對六類預測因子，評估其亞洲證據強度、東南亞特定資料及代理偏誤風險：飲食與生活型態因素、人體測量指標、糞便免疫化學檢查（FIT）、全血球計數（CBC）、用藥史及新興預測因子；優先選取22項研究進行評析。\n結果：FIT與BMI（亞洲切點≥23.0 kg/m²）具有最一致的亞洲證據；FIT連同年齡、性別與CBC，具有最低的代理偏誤風險。以CBC為基礎的ML在西方人口表現良好（AUC 0.736–0.82），但尚未在任何亞洲人口中獲得驗證。核心矛盾在於：最容易取得的預測因子，其區域證據最薄弱；而亞洲證據最強的預測因子，卻與身分特徵糾纏最深。生活型態預測因子需要明確的代理偏誤管理；用藥史的證據則不一致。\n結論：由四項準則（效應大小、生物學合理性、代理偏誤風險及常規資料可取得性）構成的架構，以及雙路徑服務提供模式，為汶萊及類似東南亞體系推動公平、依風險分層的CRC早期偵測，提供了以證據為基礎的依據。",
+   "evidence_level": "綜述",
+   "score": 5,
+   "score_reason": "提出具實務意義的多族群ML公平性問題，但屬敘述性綜述，摘要未提供框架的臨床驗證或病人效益。對台灣篩檢模型設計有參考價值，尚不足以改變外科或篩檢流程。",
+   "relevance": "中度相關",
+   "relevance_why": "涉及CRC篩檢與風險分層，但聚焦東南亞模型公平性，並非直接評估台灣病人或外科介入。",
+   "novelty": "仍屬早期",
+   "one_liner": "在22項研究中，比較六類CRC風險因子；CBC模型西方AUC為0.736–0.82，亞洲尚未驗證。",
+   "action": "目前不需改變做法；對台灣多族群篩檢者，勿僅憑此綜述導入未經在地驗證的ML分流。",
+   "pico": {
+    "P": "聚焦東南亞多族群人口的CRC風險預測證據；優先評析22項研究，總受試人數未提供。",
+    "I": "六類非侵入性預測因子：飲食與生活型態、人體測量、FIT、CBC、用藥史及新興預測因子。",
+    "C": "無對照組；以質性方式比較各類預測因子的證據及代理偏誤風險。",
+    "O": "亞洲證據強度、東南亞特定資料及代理偏誤風險；未明列主要與次要臨床結局。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "優先評析22項研究，未提供總受試人數。",
+    "亞洲BMI切點≥23.0 kg/m²，非本研究推導的新門檻。",
+    "CBC模型西方AUC 0.736–0.82；尚無亞洲驗證。"
+   ],
+   "cautions": [
+    "敘述性綜述優先選取22項研究，選文代表性與偏誤難判定。",
+    "AUC不等於篩檢效益；未報偵測率、死亡率或不必要大腸鏡。",
+    "未量化族群間偏誤，亦未提供效應信賴區間，公平性結論仍待驗證。"
+   ],
+   "unassessable": [
+    "完整搜尋策略、納入排除條件及22項研究的優先選取依據",
+    "是否由獨立審查者進行文獻篩選與資料擷取",
+    "納入研究的偏誤風險評估及證據確定性",
+    "各研究樣本數、族群組成及效應估計的信賴區間",
+    "模型校準、臨床決策淨效益及不同族群的公平性指標",
+    "四準則框架與雙路徑模式的具體內容及前瞻性驗證",
+    "綜述計畫註冊、資金來源與利益衝突",
+    "成本效益及對台灣篩檢流程的可移植性"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 2874,
+    "input_tokens_details": {
+     "cache_write_tokens": 2871,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1800,
+    "output_tokens_details": {
+     "reasoning_tokens": 328
+    },
+    "total_tokens": 4674
+   },
+   "added_at": "2026-11-07T09:43:30+08:00"
+  }
+ ]
+}
