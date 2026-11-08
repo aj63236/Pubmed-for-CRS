@@ -1,0 +1,108 @@
+{
+ "batch_id": null,
+ "date": "2026-11-08",
+ "submitted_at": "2026-11-08T09:12:44+08:00",
+ "provider": "openai",
+ "model": "gpt-6.1-sol",
+ "papers": [
+  {
+   "pmid": "42994867",
+   "title": "Comparative efficacy and safety of second- and later-line BRAF-targeted regimens in BRAF V600E-mutant metastatic colorectal cancer: A systematic review and network meta-analysis",
+   "journal": "Medicine (Baltimore)",
+   "journal_full": "Medicine",
+   "issn": "1536-5964",
+   "issn_linking": "0025-7974",
+   "impact_factor": 2.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.1097/MD.0000000000051468",
+   "ptype": "Network Meta-Analysis, Systematic Review",
+   "ptype_list": [
+    "Network Meta-Analysis",
+    "Systematic Review",
+    "Comparative Study"
+   ],
+   "authors": "Arsalan M, Sawaira F, Hassan I, Hassan T, Khan M, Yasir M",
+   "abstract": "BACKGROUND: BRAF V600E mutations occur in approximately 8 to 12% of metastatic colorectal cancer (mCRC) cases and define an aggressive phenotype with poor prognosis. While the BEACON CRC trial established encorafenib-based combinations as effective second-line options, direct head-to-head comparisons among available BRAF-targeted regimens are lacking. This network meta-analysis (NMA) compared the relative efficacy and safety of second- and later-line BRAF-targeted regimens in BRAF V600E-mutant mCRC.\nMETHODS: PubMed, Embase, Cochrane CENTRAL, and ClinicalTrials.gov were searched from inception through January 2026. Eligible studies enrolled adult patients with BRAF V600E-mutant mCRC receiving second- or later-line BRAF-targeted therapy and reported time-to-event survival outcomes. A frequentist NMA was conducted under a random-effects model using the netmeta package in R. Hazard ratios (HRs) with 95% confidence intervals (CIs) were pooled for progression-free survival (PFS) and overall survival (OS). Where HRs were unavailable, individual patient data were reconstructed from Kaplan-Meier curves using the Guyot method. Treatment ranking used P-scores, with irinotecan plus cetuximab as the reference comparator.\nRESULTS: Four trials enrolling 922 patients across 9 treatment arms were included. All 4 experimental regimens demonstrated significant PFS benefit over irinotecan plus cetuximab. Encorafenib plus cetuximab plus alpelisib ranked highest for PFS (HR 0.33, 95% CI 0.15-0.71; P-score 0.789), followed by encorafenib plus binimetinib plus cetuximab (EBC; HR 0.38, 95% CI 0.29-0.49), encorafenib plus cetuximab (EC; HR 0.40, 95% CI 0.31-0.50), and vemurafenib plus irinotecan plus cetuximab (HR 0.50, 95% CI 0.32-0.77). For OS, only EBC (HR 0.52, 95% CI 0.39-0.69) and EC (HR 0.59, 95% CI 0.46-0.76) achieved statistically significant benefits. No significant difference was detected between EBC and EC on either endpoint. No between-study heterogeneity was detected (I2 = 0%). In the exploratory safety network, encorafenib plus cetuximab was the only encorafenib-based regimen associated with significantly fewer grade ≥ 3 adverse events than irinotecan plus cetuximab (odds ratio 0.67, 95% CI 0.47-0.96).\nCONCLUSION: These findings position encorafenib-based therapy, and encorafenib plus cetuximab in particular, as the reference standard for previously treated BRAF V600E-mutant mCRC, while underscoring that the incremental value of more intensive regimens must be weighed against tolerability and confirmed in adequately powered trials.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42814239",
+     "date": "2026-10-01",
+     "title_zh": "FOLFOXIRI併用Cetuximab對比FOLFOXIRI併用Bevacizumab於轉移性大腸直腸癌之療效與安全性比較：GRADE評等系統性回顧與統合分析",
+     "score": 4,
+     "one_liner": "在561名mCRC病人中，比較FOLFOXIRI+cetuximab與FOLFOXIRI+bevacizumab，OS、PFS、ORR均無顯著差異（HR 1.22, 1.32）。",
+     "sim": 0.229
+    },
+    {
+     "pmid": "42814239",
+     "date": "2026-10-02",
+     "title_zh": "FOLFOXIRI併用Cetuximab對比FOLFOXIRI併用Bevacizumab於轉移性大腸直腸癌之療效與安全性比較：GRADE評等系統性回顧與統合分析",
+     "score": 5,
+     "one_liner": "在561名mCRC病人的統合分析中，比較FOLFOXIRI+cetuximab與FOLFOXIRI+bevacizumab，OS（HR 1.22）與PFS（HR 1.32）均無顯著差異。",
+     "sim": 0.229
+    },
+    {
+     "pmid": "42723578",
+     "date": "2026-09-13",
+     "title_zh": "以循環腫瘤DNA（ctDNA）導引RAS/BRAF野生型轉移性大腸直腸癌病人接受cetuximab併用irinotecan再挑戰治療：一項非隨機臨床試驗",
+     "score": 3,
+     "one_liner": "在36名RAS/BRAF野生型mCRC病人中，以ctDNA篩選後接受cetuximab+irinotecan再挑戰治療，ORR達16.7%，中位PFS 3.9個月。",
+     "sim": 0.228
+    }
+   ]
+  },
+  {
+   "pmid": "42989294",
+   "title": "MAP of molecular analyses in real-worlD oncology centers - MAPpaMoNDO: a study of the translational research Young GOIM group",
+   "journal": "J Transl Med",
+   "journal_full": "Journal of translational medicine",
+   "issn": "1479-5876",
+   "issn_linking": "1479-5876",
+   "impact_factor": 9.7,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.3390/curroncol31060248",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Papaccio F, Lombardi P, Giannone G, Carlino F, Petrillo A, Falcone R",
+   "abstract": "BACKGROUND: Despite the growing number of potential predictive biomarkers, molecular testing in daily oncology practice remains fragmented.\nMETHODS: The GOIM Young Translational Group conducted a survey to map the molecular testing prescription habits of oncologists across diverse Italian institutions. The survey evaluated general practices and specific tumor types-including gastrointestinal, lung, breast, genitourinary, gynecological, melanoma, and cancer of unknown primary (CUP)-exploring variations in testing frequency, technology, timing, and sample types between academic and non-academic institutions. We also evaluated logistical differences between center types and specific topics of interest, such as Next-Generation Sequencing (NGS) implementation, re-biopsy of new lesions, liquid biopsy timing/access and BRCA testing.\nRESULTS: Sixty-three responses were collected from 46 institutions, spanning diverse geographical regions and institution types. Molecular analyses are performed entirely in-house in only 40% of cases overall. A marked institutional gap emerged: 60% of academic centers perform all testing internally, compared to just 20% of non-academic centers. Academic centers also demonstrated higher participation in external quality control programs (70% vs. 50%) and more frequently served as regional hubs (60%). Furthermore, a pronounced difference was observed in hereditary cancer testing: in-house germline BRCA1/2 testing for breast cancer is available in 81% of academic institutions compared to only 13% of non-academic centers. Access to liquid biopsy varied across tumor types and center settings. In colorectal cancer, 35.7% of all institutions reported a lack of access, with non-academic centers experiencing a higher rate of non-accessibility (47.8% vs. 21.0% academic), highlighting structural disparities across practice settings.\nCONCLUSIONS: This survey provides an overview of current molecular testing practices for solid tumors among a cohort of selected Italian oncology institutions, revealing stark disparities between academic and non-academic centers. While patient-level clinical endpoints, turnaround times, and costs were not directly measured, addressing these institutional variations and supporting patient access to precision oncology will benefit from coordinated nationwide policy harmonization, structural investments in non-academic laboratory infrastructure, and the formalization of managed hub-and-spoke networks.",
+   "watched": [],
+   "related": []
+  },
+  {
+   "pmid": "42992548",
+   "title": "Metabolic reprogramming of myeloid‑derived suppressor cells in colorectal cancer: Mechanistic insights and immunometabolic targeted rehabilitation (Review)",
+   "journal": "Mol Med Rep",
+   "journal_full": "Molecular medicine reports",
+   "issn": "1791-3004",
+   "issn_linking": "1791-2997",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2027",
+   "month": "Jan",
+   "doi": "10.3892/mmr.2026.14061",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Zhu L, Jiang G, Gao F, Du Y",
+   "abstract": "Metabolic reprogramming of myeloid‑derived suppressor cells (MDSCs) plays a role in immunotherapy resistance in colorectal cancer (CRC). This metabolic reprogramming appears to be coordinated by oncogenic mutations (such as adenomatous polyposis coli, KRAS and TP53) through a proposed self‑reinforcing 'mutation‑metabolism‑suppression' axis. In the present review, four core metabolic pillars sustaining MDSC pathogenicity and the epimetabolic regulation that durably locks them into a suppressive state were examined. Furthermore, two emerging dimensions were highlighted: The spatial metabolic antagonism through which MDSCs may construct a metabolically hostile zone to limit the functional activity of tertiary lymphoid structures, and the remote manipulation of MDSC function by gut and intratumoral microbiota‑derived metabolites. To transcend the limitations of non‑specific myeloid depletion, immunometabolic rehabilitation is proposed as a potentially transformative framework targeting intrinsic metabolic vulnerabilities to functionally reprogram MDSCs from an immunosuppressive to a homeostatic or immunostimulatory phenotype. By integrating emerging spatial omics for precise target validation, artificial intelligence‑guided rational drug design and microbiome modulation, this paradigm provides a strategic roadmap for next‑generation precision immunotherapy, aiming to achieve durable responses across both microsatellite stable and microsatellite instability‑high CRC.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42346101",
+     "date": "2026-06-25",
+     "title_zh": "大腸直腸癌的決定因子：連結生物標記、治療與飲食-微生物軸的整合性免疫代謝框架",
+     "score": 2,
+     "one_liner": "本文為概念性綜述，提出CRC腫瘤-免疫-宿主代謝共同演化的整合框架，強調MSS型CRC免疫治療抗藥的代謝機轉，無臨床數據。",
+     "sim": 0.16
+    }
+   ]
+  }
+ ],
+ "submission_id": "a17b93e6c35a47a29f742b17dcca7e5a",
+ "state": "preparing"
+}
