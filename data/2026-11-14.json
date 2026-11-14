@@ -1,0 +1,1197 @@
+{
+ "date": "2026-11-14",
+ "generated_at": "2026-11-14T10:10:46+08:00",
+ "count": 12,
+ "papers": [
+  {
+   "pmid": "43019762",
+   "title": "NCCN Guidelines® Insights: Colon Cancer, Version 3.2026",
+   "journal": "J Natl Compr Canc Netw",
+   "journal_full": "Journal of the National Comprehensive Cancer Network : JNCCN",
+   "issn": "1540-1413",
+   "issn_linking": "1540-1405",
+   "impact_factor": 17.5,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.6004/jnccn.2026.0051",
+   "ptype": "Practice Guideline",
+   "ptype_list": [
+    "Practice Guideline"
+   ],
+   "authors": "Benson A, Venook A, Adam M, Ambelil M, Bray A, Chang G",
+   "abstract": "Colorectal cancer is the fourth most frequently diagnosed cancer and the second leading cause of cancer death in the United States. Treatment of localized disease usually includes surgery, sometimes followed by adjuvant systemic therapy, while advanced or metastatic disease is often treated with multiple lines of systemic therapy, based on biomarker status. These NCCN Guidelines Insights detail recent updates to the NCCN Guidelines for Colon Cancer, including recommendations for pretreatment DPYD testing to decrease the risk of severe fluoropyrimidine toxicity; updates to adjuvant therapy of nonmetastatic colon cancer based on the results of recent clinical trials; and a reorganization of the systemic therapies for advanced or metastatic disease based on biomarker status, highlighting changes to the treatment recommendations for BRAF V600E mutation-positive disease.",
+   "watched": [],
+   "related": [],
+   "title_zh": "NCCN Guidelines® Insights：結腸癌，2026 年第 3 版",
+   "abstract_zh": "大腸直腸癌是美國第四常見的新診斷癌症，也是癌症死亡原因的第二位。局限性疾病的治療通常包括手術，有時隨後給予輔助性全身治療；晚期或轉移性疾病則常依據生物標記狀態，使用多線全身治療。本篇 NCCN Guidelines Insights 詳述 NCCN 結腸癌指引的近期更新，包括建議在治療前進行 DPYD 檢測，以降低嚴重氟嘧啶類藥物毒性的風險；依據近期臨床試驗結果，更新非轉移性結腸癌的輔助治療；以及依據生物標記狀態，重新編排晚期或轉移性疾病的全身治療，並著重說明 BRAF V600E 突變陽性疾病治療建議的變更。",
+   "evidence_level": "其他",
+   "score": 8,
+   "score_reason": "屬臨床實務指引更新，涵蓋術後輔助治療與治療前安全評估，值得台灣大腸直腸外科醫師讀全文。摘要未提供具體療程、推薦強度或試驗效益數據，尚不能據此判斷各項更新的證據確定性。",
+   "relevance": "高度相關",
+   "relevance_why": "直接涉及結腸癌術後輔助治療、氟嘧啶類藥物安全性及轉移性疾病的跨科治療決策。",
+   "novelty": "可能改變實務",
+   "one_liner": "本篇為結腸癌指引更新，非組間比較；聚焦 DPYD、輔助治療及 BRAF V600E，未報效益數字。",
+   "action": "對擬用氟嘧啶類藥物的結腸癌病人，查閱全文並與腫瘤科確認治療前 DPYD 檢測流程。",
+   "pico": {
+    "P": "非轉移性及晚期或轉移性結腸癌病人；指引更新，無研究收案人數。",
+    "I": "治療前 DPYD 檢測、更新的輔助治療，以及依生物標記分層的全身治療建議。",
+    "C": "無對照組",
+    "O": "未設定單一主要或次要 outcome；更新議題包括降低嚴重氟嘧啶類藥物毒性及調整治療建議。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "美國大腸直腸癌新診斷頻率排名第 4",
+    "美國大腸直腸癌死亡原因排名第 2",
+    "摘要未報毒性、復發或存活絕對數據"
+   ],
+   "cautions": [
+    "指引建議不等同原始試驗結果，須查推薦強度與適用條件。",
+    "摘要無絕對效益、傷害或信賴區間，無法量化淨效益。",
+    "未列輔助治療適用分期與療程，勿外推至所有術後病人。"
+   ],
+   "unassessable": [
+    "指引文獻搜尋、證據評讀及共識形成方法",
+    "各項建議的推薦強度與證據確定性",
+    "所引用試驗的分配隱蔽、盲法、ITT 分析及失訪率",
+    "所引用試驗的註冊與預設分析計畫",
+    "指引作者及所引用試驗的利益衝突",
+    "DPYD 檢測範圍、檢測結果對應的劑量調整方式",
+    "具體輔助治療及 BRAF V600E 突變陽性疾病的更新療程",
+    "台灣的檢測可近性、健保給付與成本效益"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 2657,
+    "input_tokens_details": {
+     "cache_write_tokens": 2654,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1175,
+    "output_tokens_details": {
+     "reasoning_tokens": 145
+    },
+    "total_tokens": 3832
+   },
+   "added_at": "2026-11-14T10:05:37+08:00"
+  },
+  {
+   "pmid": "43023689",
+   "title": "Pilot prospective crossover study assessing the role of bile acid malabsorption in the causation and treatment of major low anterior resection syndrome: randomized clinical trial",
+   "journal": "BJS Open",
+   "journal_full": "BJS open",
+   "issn": "2474-9842",
+   "issn_linking": "2474-9842",
+   "impact_factor": 4.9,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.1093/bjsopen/zrag141",
+   "ptype": "Randomized Controlled Trial",
+   "ptype_list": [
+    "Randomized Controlled Trial"
+   ],
+   "authors": "Woodfield J, Clifford K, Thomas R, Richards S, Fowler A, Alquassab M",
+   "abstract": "BACKGROUND: Major low anterior resection syndrome (LARS) affects approximately 60% of rectal cancer survivors, causing urgency and decreased bowel control, reducing quality of life. Bile acid malabsorption (BAM) is an under-recognized contributor whose prevalence and treatment efficacy remain unclear. This proof-of-concept study evaluated the effectiveness of colesevelam for treating LARS and described the prevalence of BAM.\nMETHODS: This double-blind randomized placebo-controlled crossover trial was conducted between 2021 and 2024 in New Zealand. Adults aged 18-85 years with major LARS received colesevelam (up to 1.25 g, three times daily) or placebo for 5 weeks, separated by a 6-week washout period. A subset of patients underwent 75-selenium homocholic acid taurine (SeHCAT) testing for BAM. The outcomes of interest included changes in the LARS score, Fecal Incontinence Quality of Life Scale (FIQL), and Short-Form 12 (SF-12) questionnaire, with a composite outcome reflecting clinically important improvements.\nRESULTS: Of 80 eligible patients, 49 were randomized. However, 36 patients completed the study after washout and were included in a per-protocol analysis (mean age 71 years; 69% male). In these 36 patients, colesevelam did not significantly improve LARS scores, but did significantly improve the SF-12 mental component summary (median +2.36; 95% confidence interval 0.00 to 10.25; P < 0.01) and FIQL depression/self-perception. Eight of 19 patients (42%) had BAM and exhibited significant improvements in SF-12 physical and mental item scores with colesevelam. Using composite criteria, colesevelam produced a 33% response rate, versus 8% for placebo, with higher rates in BAM-positive (50%) than BAM-negative (11%) patients.\nCONCLUSIONS: BAM is a treatable contributor to LARS, present in 40% of tested patients. Although treating all LARS patients with bile acid sequestrants provides limited benefit, SeHCAT testing identifies patients likely to respond. BAM assessment would be beneficial if incorporated into LARS management.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42578777",
+     "date": "2026-08-12",
+     "title_zh": "低前位切除症候群（LARS）之盛行率與危險因子：統合分析與次群組分析",
+     "score": 5,
+     "one_liner": "統合21篇研究3,730名直腸癌術後病人，發現重度LARS合併盛行率36.8%，低位腫瘤與新輔助放化療為顯著危險因子。",
+     "sim": 0.179
+    },
+    {
+     "pmid": "42578777",
+     "date": "2026-08-13",
+     "title_zh": "低前位切除症候群（LARS）之發生率與風險因子：統合分析暨次群組分析",
+     "score": 5,
+     "one_liner": "在21篇研究3,730名直腸癌術後病人中，統合分析發現重度LARS發生率36.8%，低位腫瘤與新輔助放化療為顯著風險因子。",
+     "sim": 0.179
+    },
+    {
+     "pmid": "42425560",
+     "date": "2026-07-10",
+     "title_zh": "經肛門灌洗治療低位前切除症候群（LARS）：一項務實、多中心、交叉設計隨機對照試驗之研究計畫書",
+     "score": 4,
+     "one_liner": "此為計畫書，描述將於加拿大8中心對66名LARS病人（LARS分數>20）進行TAI vs. 傳統照護的交叉RCT，尚無結果。",
+     "sim": 0.167
+    }
+   ],
+   "title_zh": "評估膽酸吸收不良在重度低前位切除症候群成因與治療中角色之前瞻性交叉先導研究：隨機臨床試驗",
+   "abstract_zh": "背景：重度低前位切除症候群（LARS）影響約60%的直腸癌存活者，造成便急與排便控制能力下降，降低生活品質。膽酸吸收不良（BAM）是尚未受到充分重視的促成因素，其盛行率與治療成效仍不明確。本概念驗證研究評估colesevelam治療LARS的效果，並描述BAM的盛行率。\n方法：這項雙盲、隨機、安慰劑對照交叉試驗於2021至2024年間在紐西蘭進行。18至85歲的重度LARS成人接受colesevelam（最高每次1.25 g，每日三次）或安慰劑治療5週，兩個療程間設有6週洗除期。部分病人接受硒-75標記同膽酸牛磺酸（SeHCAT）檢查以評估BAM。關注的結果包括LARS分數、糞便失禁生活品質量表（FIQL）及12題簡式健康量表（SF-12）問卷的變化，並以一項複合結果反映具臨床重要性的改善。\n結果：80名符合資格的病人中，49名接受隨機分派。然而，僅36名病人在洗除期後完成研究，並納入依計畫分析（平均年齡71歲；男性占69%）。在這36名病人中，colesevelam未顯著改善LARS分數，但顯著改善SF-12心理健康綜合分數（中位數增加2.36；95%信賴區間0.00至10.25；P < 0.01），以及FIQL的憂鬱／自我感受面向。接受檢查的19名病人中，8名（42%）有BAM，且使用colesevelam後，SF-12身體與心理項目分數均顯著改善。依複合判定標準，colesevelam的反應率為33%，安慰劑為8%；BAM陽性病人的反應率（50%）高於BAM陰性病人（11%）。\n結論：BAM是LARS可治療的促成因素，在接受檢查的病人中約占40%。雖然對所有LARS病人使用膽酸結合劑的效益有限，但SeHCAT檢查可辨識較可能有治療反應的病人。將BAM評估納入LARS照護可能有益。",
+   "evidence_level": "RCT",
+   "score": 6,
+   "score_reason": "雙盲安慰劑交叉設計具優勢，但49名隨機病人僅36名納入依計畫分析，且LARS分數未顯著改善。對難治性重度LARS的病因導向治療值得讀全文，但不足以支持常規用藥或篩檢。",
+   "relevance": "高度相關",
+   "relevance_why": "直接探討直腸癌術後重度LARS的可治療機轉與藥物介入，切合大腸直腸外科長期功能照護。",
+   "novelty": "仍屬早期",
+   "one_liner": "49名重度LARS病人交叉比較colesevelam與安慰劑，綜合反應率33%比8%。",
+   "action": "目前不需改變做法；勿僅憑此試驗對重度LARS常規使用colesevelam。",
+   "pico": {
+    "P": "紐西蘭18至85歲重度LARS成人；80名符合資格，49名隨機分派，36名完成並納入依計畫分析；19名接受SeHCAT檢查。",
+    "I": "Colesevelam，最高每次1.25 g、每日三次，治療5週；部分病人以SeHCAT評估BAM。",
+    "C": "安慰劑治療5週；採交叉設計，兩療程間洗除6週。",
+    "O": "LARS分數、FIQL與SF-12變化，以及具臨床重要改善的複合反應；另描述BAM盛行率及分層治療反應。摘要未明確區分主要與次要結果。"
+   },
+   "effects": [
+    {
+     "outcome": "依複合標準判定的臨床重要改善",
+     "ok": true,
+     "i_label": "Colesevelam",
+     "c_label": "安慰劑",
+     "i_rate": 33.0,
+     "c_rate": 8.0,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 25.0,
+     "benefit": true,
+     "event_bad": false,
+     "nnt": 4,
+     "kind": "NNT",
+     "note": ""
+    }
+   ],
+   "key_numbers": [
+    "複合反應率：colesevelam 33% vs 安慰劑8%",
+    "受檢者BAM：8/19（42%）；非全體病人盛行率",
+    "36人依計畫分析：LARS分數未顯著改善"
+   ],
+   "cautions": [
+    "49人隨機、僅36人納入依計畫分析，可能有退出偏誤。",
+    "LARS分數未改善；複合反應定義未交代，勿等同整體症狀改善。",
+    "BAM僅檢測19人；分層反應無信賴區間，不足證實篩檢效益。"
+   ],
+   "unassessable": [
+    "隨機序列產生方法與分派隱蔽",
+    "雙盲的具體執行方式與盲法是否成功",
+    "未完成研究者的退出原因、時點及治療序列分布",
+    "ITT分析結果與遺漏資料處理",
+    "交叉設計的期間效應、序列效應及殘留效應處理",
+    "主要結果預先指定、複合反應定義及多重比較校正",
+    "SeHCAT受檢者選取方式、BAM診斷門檻及分層分析是否預先指定",
+    "樣本數估算、試驗註冊與研究計畫一致性",
+    "不良反應、服藥遵從性與長期療效",
+    "利益衝突、資金來源、成本及台灣SeHCAT可近性"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "先前兩篇LARS統合分析著重盛行率與低位腫瘤、新輔助放化療等危險因子，本篇進一步探索BAM這個可能可治療的機轉，補上藥物介入的初步隨機證據。先前TAI研究僅為計畫書，且介入不同，不能據此比較兩種治療的效果。",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3325,
+    "input_tokens_details": {
+     "cache_write_tokens": 3322,
+     "cached_tokens": 0
+    },
+    "output_tokens": 2188,
+    "output_tokens_details": {
+     "reasoning_tokens": 455
+    },
+    "total_tokens": 5513
+   },
+   "added_at": "2026-11-14T10:05:37+08:00"
+  },
+  {
+   "pmid": "43024129",
+   "title": "Robotic versus laparoscopic transanal minimally invasive surgery (TAMIS) for rectal neoplasms: a systematic review, meta-analysis, and IDEAL framework mapping",
+   "journal": "J Robot Surg",
+   "journal_full": "Journal of robotic surgery",
+   "issn": "1863-2491",
+   "issn_linking": "1863-2483",
+   "impact_factor": 4.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.1007/s10151-014-1148-6",
+   "ptype": "Systematic Review, Meta-Analysis",
+   "ptype_list": [
+    "Systematic Review",
+    "Meta-Analysis",
+    "Comparative Study",
+    "Review"
+   ],
+   "authors": "Prete F, Prete F, De Luca G, Mongardini F, Rasool W, Gupta M",
+   "abstract": "Transanal minimally invasive surgery(TAMIS) enables local excision of selected rectal neoplasms. Robotic TAMIS(R-TAMIS) may overcome technical constraints of conventional laparoscopic TAMIS(L-TAMIS), but whether these capabilities translate into better outcomes remains uncertain. We compared R-TAMIS and L-TAMIS, examining the evidence in the context of robotic procedural maturity. PubMed, Scopus, and Cochrane Library were searched through 2026 for comparative studies of adults undergoing TAMIS for rectal neoplasm. Risk of bias, certainty of evidence, and procedural maturity were assessed using ROBINS-I, GRADE, and the IDEAL framework. Random-effects meta-analyses were performed. Six retrospective comparative cohorts including 314 patients were identified. R-TAMIS was associated with a higher likelihood of full-thickness resection (OR 11.77, 95%CI 1.40-98.85; P = 0.02), an outcome not appropriate for every lesion. R0 resection was comparable(OR 1.30, 95%CI 0.49-3.47; P = 0.60), with no significant differences in operative time, estimated blood loss, complications, conversion, readmission, or length of stay. Hospital costs tended to be higher with R-TAMIS(I²=99%). All outcomes were supported by very-low-certainty evidence. IDEAL assessment showed that R-TAMIS was introduced in centres with established L-TAMIS experience, while the robotic technique remained in an earlier phase of development. Comparative evidence shows broadly comparable outcomes. Difference in achieved excision depth requires confirmation using standardized outcome definitions and clinically appropriate case selection. These results were achieved despite greater procedural maturity of L-TAMIS and, in some cohorts, more challenging robotic case selection. This developmental asymmetry highlights the need to determine whether maturation and standardization of R-TAMIS will translate its technical capabilities into clinically meaningful advantages in appropriately selected, technically demanding lesions.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42377471",
+     "date": "2026-06-30",
+     "title_zh": "單孔機器人與腹腔鏡經肛門微創手術（TAMIS）治療直腸腫瘤之首次比較分析：手術效率與臨床結果",
+     "score": 5,
+     "one_liner": "在108名接受TAMIS之直腸腫瘤病人中，單孔機器人組手術時間較短（44.6 vs 57.5分，p=0.026）、住院天數較短（1.47 vs 2.51天，p<0.001）。",
+     "sim": 0.341
+    },
+    {
+     "pmid": "42957792",
+     "date": "2026-10-31",
+     "title_zh": "發炎性腸道疾病的機器人手術：系統性回顧",
+     "score": 4,
+     "one_liner": "在34篇IBD研究中，比較機器人與傳統手術，併發症相近、手術較久，未報效應值。",
+     "sim": 0.243
+    },
+    {
+     "pmid": "42957792",
+     "date": "2026-11-01",
+     "title_zh": "發炎性腸道疾病的機器人手術：系統性回顧",
+     "score": 4,
+     "one_liner": "在34篇IBD研究中，比較機器人與傳統手術，併發症相近、手術較久，未報效應值。",
+     "sim": 0.243
+    }
+   ],
+   "title_zh": "機器人與腹腔鏡經肛門微創手術（TAMIS）治療直腸腫瘤：系統性回顧、統合分析與IDEAL架構定位",
+   "abstract_zh": "經肛門微創手術（TAMIS）可用於局部切除經選擇的直腸腫瘤。機器人TAMIS（R-TAMIS）可能克服傳統腹腔鏡TAMIS（L-TAMIS）的技術限制，但這些能力是否能轉化為更好的臨床結果仍不確定。我們比較R-TAMIS與L-TAMIS，並從機器人術式成熟度的脈絡檢視證據。搜尋PubMed、Scopus及Cochrane Library截至2026年的文獻，納入成人因直腸腫瘤接受TAMIS的比較研究。使用ROBINS-I、GRADE及IDEAL架構，分別評估偏誤風險、證據確定性及術式成熟度，並進行隨機效應統合分析。共找到6個回溯性比較世代，納入314名病人。R-TAMIS與較高的全層切除勝算相關（OR 11.77，95% CI 1.40–98.85；P＝0.02），但全層切除並非適用於每一個病灶的結果指標。兩組R0切除結果相近（OR 1.30，95% CI 0.49–3.47；P＝0.60），手術時間、估計失血量、併發症、中轉、再住院或住院天數亦無顯著差異。R-TAMIS的醫院成本有較高趨勢（I²＝99%）。所有結果的證據確定性均為極低。IDEAL評估顯示，R-TAMIS是在已有成熟L-TAMIS經驗的中心導入，而機器人技術仍處於較早期的發展階段。比較證據顯示，兩種術式的結果大致相近。實際切除深度的差異，仍需透過標準化結果定義及臨床上適當的病例選擇加以確認。儘管L-TAMIS的術式成熟度較高，且部分世代中機器人組所選病例更具挑戰性，仍獲得上述結果。這種發展階段的不對稱性，凸顯有必要釐清：R-TAMIS在成熟與標準化後，是否能將其技術能力轉化為對經適當選擇、技術上具挑戰性病灶具有臨床意義的優勢。",
+   "evidence_level": "統合分析",
+   "score": 5,
+   "score_reason": "直接切中直腸局部切除的術式選擇，並納入術式成熟度評估，值得有TAMIS業務的團隊閱讀。但僅整合6個回溯性世代，所有結果證據確定性極低，尚不足以支持機器人優越性。",
+   "relevance": "高度相關",
+   "relevance_why": "直接比較直腸腫瘤局部切除的兩種TAMIS平台，涉及切除品質、圍手術結果及成本。",
+   "novelty": "仍屬早期",
+   "one_liner": "在314名直腸腫瘤病人中，比較R與L-TAMIS，全層切除勝算較高（OR 11.77），R0無顯著差異。",
+   "action": "目前不需改變做法；直腸局部切除勿僅因全層切除率較高，就優先選R-TAMIS。",
+   "pico": {
+    "P": "6個回溯性比較世代，共314名因直腸腫瘤接受TAMIS的成人",
+    "I": "機器人經肛門微創手術（R-TAMIS）",
+    "C": "傳統腹腔鏡經肛門微創手術（L-TAMIS）",
+    "O": "摘要未指定主要與次要結果層級；評估全層切除、R0切除、手術時間、估計失血量、併發症、中轉、再住院、住院天數及醫院成本，並評估術式成熟度"
+   },
+   "effects": [],
+   "key_numbers": [
+    "6個回溯性比較世代，共314人；證據確定性均極低",
+    "全層切除OR 11.77，95% CI 1.40–98.85",
+    "R0：OR 1.30，95% CI 0.49–3.47；P＝0.60"
+   ],
+   "cautions": [
+    "全層切除非每個病灶都需要，不能直接視為臨床獲益。",
+    "全為回溯性比較，病例選擇與術式成熟度差異可能混雜結果。",
+    "未報兩組絕對事件率；全層切除信賴區間極寬，不顯著亦非等效。"
+   ],
+   "unassessable": [
+    "各組人數、絕對事件數與發生率，無法計算ARR或NNT",
+    "各世代的病例選擇、腫瘤特徵、混雜因子調整及配對方法",
+    "各研究ROBINS-I評估細節及GRADE降級原因",
+    "結果評估者盲法、缺失資料處理、失訪率與追蹤長度",
+    "切除深度、併發症及中轉的具體定義",
+    "長期局部復發、存活及功能結果",
+    "系統性回顧計畫預先註冊、完整搜尋策略及發表偏誤評估",
+    "成本金額、計價範圍與異質性來源",
+    "研究資助與利益衝突"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "先前108人單孔機器人與腹腔鏡TAMIS比較報告機器人組手術及住院時間較短；本篇將比較範圍擴至6個世代、314人，並加入IDEAL術式成熟度評估。統合後手術時間及住院天數未見顯著差異，顯示前作的效率優勢尚未獲整體證據支持；雖屬統合分析，納入研究仍全為回溯性且證據確定性極低，不能據此認定兩術式等效。",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3229,
+    "input_tokens_details": {
+     "cache_write_tokens": 3226,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1907,
+    "output_tokens_details": {
+     "reasoning_tokens": 277
+    },
+    "total_tokens": 5136
+   },
+   "added_at": "2026-11-14T10:05:37+08:00"
+  },
+  {
+   "pmid": "43021134",
+   "title": "Prediction models for postoperative anastomotic stricture in rectal cancer: a systematic review",
+   "journal": "BMC Surg",
+   "journal_full": "BMC surgery",
+   "issn": "1471-2482",
+   "issn_linking": "1471-2482",
+   "impact_factor": 2.4,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1136/bmj.n2281",
+   "ptype": "Systematic Review",
+   "ptype_list": [
+    "Systematic Review"
+   ],
+   "authors": "Tan W, Liu L, Tang L, Huang R, Yuan Q, Cai S",
+   "abstract": "OBJECTIVE: Systematically evaluate the performance and methodological quality of predictive models for the risk of anastomotic stricture after rectal cancer surgery to provide evidence-based guidance for clinical practice.\nMETHODS: We comprehensively searched nine Chinese and English databases (CNKI, Wanfang, VIP, Sinomed, PubMed, Web of Science, Cochrane Library, CINAHL, and Embase) for relevant studies published until June 7, 2025. Two independent researchers screened the literature, extracted data, and assessed methodological quality using the Prediction Model Risk of Bias Assessment Tool (PROBAST).\nRESULTS: Nine eligible studies were included, demonstrating AUC values ranging from 0.739 to 0.911 in derivation cohorts. Internal validation results were reported in three studies (AUC: 0.905-0.930), while two studies provided test-set validation (AUC:0.818-0.888). The most significant predictors included anastomotic leakage, the use of a protective stoma, and the anastomotic distance. All studies exhibited high risk of bias according to PROBAST criteria, primarily due to retrospective designs, inappropriate handling of continuous variables (dichotomization), inadequate sample sizes, improper management of missing data, univariate-based predictor selection, and insufficient model validation. However, two studies demonstrated good clinical applicability.\nCONCLUSION: Research on predictive models for anastomotic stricture after rectal cancer surgery is still in its early stages, constrained by methodological flaws and a lack of external validation that limit their clinical applicability. Future studies should prioritize external validation across diverse populations to confirm their generalizability.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42406633",
+     "date": "2026-07-06",
+     "title_zh": "克隆氏症病患營養不良風險評估：具動態優化潛力之新型風險預測模型建立與效度驗證",
+     "score": 3,
+     "one_liner": "在800名CD病患建模、280名同資料庫病患內部驗證，發現結合邏輯迴歸與機器學習之營養不良預測模型AUC達0.987/0.967。",
+     "sim": 0.184
+    }
+   ],
+   "title_zh": "直腸癌術後吻合口狹窄的預測模型：系統性回顧",
+   "abstract_zh": "目的：系統性評估直腸癌術後吻合口狹窄風險預測模型的表現與方法學品質，為臨床實務提供實證指引。\n方法：全面搜尋九個中英文資料庫（CNKI、Wanfang、VIP、Sinomed、PubMed、Web of Science、Cochrane Library、CINAHL及Embase），納入截至2025年6月7日發表的相關研究。兩位研究者獨立篩選文獻、擷取資料，並使用預測模型偏誤風險評估工具（PROBAST）評估方法學品質。\n結果：共納入九篇符合資格的研究，其模型建立世代的AUC介於0.739至0.911。三篇研究報告內部驗證結果（AUC：0.905–0.930），另有兩篇研究提供測試集驗證結果（AUC：0.818–0.888）。最重要的預測因子包括吻合口滲漏、使用保護性造口，以及吻合口距離。依據PROBAST標準，所有研究皆具有高偏誤風險，主要原因包括回溯性設計、連續變項處理不當（二分化）、樣本數不足、缺失資料處理不當、依單變項分析篩選預測因子，以及模型驗證不足。然而，有兩篇研究顯示良好的臨床適用性。\n結論：直腸癌術後吻合口狹窄預測模型的研究仍處於早期階段，受到方法學缺陷與缺乏外部驗證的限制，影響其臨床適用性。未來研究應優先在不同族群中進行外部驗證，以確認其可推廣性。",
+   "evidence_level": "系統性回顧",
+   "score": 6,
+   "score_reason": "搜尋九個資料庫、採雙人獨立評讀及PROBAST，值得閱讀以辨識模型使用陷阱。但納入研究全數高偏誤且缺外部驗證，尚不足以支持台灣臨床直接採用。",
+   "relevance": "高度相關",
+   "relevance_why": "吻合口狹窄直接影響直腸癌術後追蹤與處置，模型是否可靠與大腸直腸外科實務密切相關。",
+   "novelty": "仍屬早期",
+   "one_liner": "在9篇直腸癌術後狹窄模型研究中，未作介入比較，建模AUC為0.739–0.911，全數高偏誤。",
+   "action": "目前不需改變做法；勿直接用這些模型決定直腸癌術後追蹤，因缺外部驗證且全數高偏誤。",
+   "pico": {
+    "P": "直腸癌術後吻合口狹窄風險預測模型研究，共9篇；病人總數未提供。",
+    "I": "預測術後吻合口狹窄的模型；重要預測因子包括吻合口滲漏、保護性造口及吻合口距離。",
+    "C": "無對照組",
+    "O": "模型預測表現（AUC）、PROBAST方法學品質與偏誤風險，以及臨床適用性；摘要未區分主要與次要結果。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "納入9篇，9篇PROBAST皆高偏誤；2篇臨床適用性良好",
+    "建模AUC 0.739–0.911；未報狹窄事件數",
+    "內驗3篇AUC 0.905–0.930；測試2篇0.818–0.888"
+   ],
+   "cautions": [
+    "AUC僅反映辨識力，不能證明模型能改善臨床結果。",
+    "全數高偏誤，含樣本不足、連續變項二分化及缺失值處理不當。",
+    "缺外部驗證；摘要未報AUC信賴區間、校準與狹窄絕對風險。"
+   ],
+   "unassessable": [
+    "系統性回顧的事前註冊與研究計畫",
+    "完整搜尋策略、納排標準及灰色文獻搜尋",
+    "各研究病人數、狹窄事件數與事件發生率",
+    "吻合口狹窄定義、診斷方式與追蹤期間",
+    "各模型完整公式、預測因子定義及量測時點",
+    "測試集來源、切分方式及與建模資料的獨立性",
+    "各模型校準表現、AUC信賴區間及臨床決策淨效益",
+    "研究間異質性與模型表現能否直接比較",
+    "研究資助、利益衝突與成本效益"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 2963,
+    "input_tokens_details": {
+     "cache_write_tokens": 2960,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1743,
+    "output_tokens_details": {
+     "reasoning_tokens": 474
+    },
+    "total_tokens": 4706
+   },
+   "added_at": "2026-11-14T10:05:37+08:00"
+  },
+  {
+   "pmid": "43024847",
+   "title": "Urothelial Carcinoma in Lynch Syndrome: Clinical and Molecular Insights From a Large Multicenter Cohort",
+   "journal": "JCO Precis Oncol",
+   "journal_full": "JCO precision oncology",
+   "issn": "2473-4284",
+   "issn_linking": "2473-4284",
+   "impact_factor": 4.7,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.1200/PO-26-00227",
+   "ptype": "Multicenter Study",
+   "ptype_list": [
+    "Multicenter Study"
+   ],
+   "authors": "Schuler A, Engel C, Ahadova A, van Beekum K, Aretz S, Fechner G",
+   "abstract": "PURPOSE: Lynch syndrome (LS), caused by pathogenic germline variants (PGVs) in DNA mismatch repair (MMR) genes, confers increased risks of colorectal, endometrial, and extracolonic malignancies. Urothelial carcinoma (UC) contributes substantially to LS-associated morbidity and mortality. We assessed its frequency, clinical presentation, genotype-associated risk, and molecular features.\nMETHODS: We retrospectively analyzed genetically confirmed adult LS carriers in the nationwide German Consortium for Familial Intestinal Cancer registry. UC diagnoses identified by International Classification of Diseases, 10th Revision codes C65-C68 underwent manual clinical and pathologic validation. Available tumors underwent centralized pathologic review, MMR immunohistochemistry, and microsatellite instability (MSI) testing.\nRESULTS: Among 3,274 LS carriers, 144 (4.4%) had 224 primary UCs. The median age at first UC was 55 years (range, 22-79 years), and UC was the first malignancy in 50 patients (34.7%). Of 202 tumors with known location, 114 (56.4%) arose in the upper urinary tract. Metachronous and synchronous primary UCs occurred in 23 patients (16.0%) and five patients (3.5%), respectively. MSH2-associated PGVs were present in 111 patients (77.1%). In multivariable analysis, MSH2/EPCAM carrier status was associated with UC risk (hazard ratio, 4.43 [95% CI, 2.85 to 6.89]), whereas previous colorectal cancer and UC family history were not. Among 109 patients with diagnostic information, 26 (23.9%) presented with urinary tract-related symptoms, 20 (18.3%) were diagnosed incidentally, and 11 (10.1%) were diagnosed during urologic or oncologic surveillance. Of 31 lesions from 18 patients, 29 (93.6%) were mismatch repair-deficient (dMMR) and 30 (96.8%) were MSI-high; all patients had at least one dMMR tumor and at least one MSI-high tumor.\nCONCLUSION: UC in LS occurs relatively early, is strongly associated with MSH2/EPCAM carrier status, and represents the first malignancy in one third of patients. These findings support prospective evaluation of genotype-adapted surveillance.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42801369",
+     "date": "2026-09-29",
+     "title_zh": "伊拉克與迦勒底裔Lynch症候群病人中常見出現的MSH2變異：可能的建立者（founder）變異證據",
+     "score": 3,
+     "one_liner": "在53名伊拉克/迦勒底裔Lynch症候群病人中，發現同一MSH2 c.932delA變異普遍存在（88.3%），大腸癌平均發病年齡49.6歲。",
+     "sim": 0.233
+    },
+    {
+     "pmid": "42900270",
+     "date": "2026-10-21",
+     "title_zh": "Lynch 症候群癌症風險的最新更新",
+     "score": 6,
+     "one_liner": "針對Lynch族群（人數未載）綜述基因別癌症風險與研究偏誤；無直接比較或風險數值。",
+     "sim": 0.219
+    },
+    {
+     "pmid": "42900270",
+     "date": "2026-10-22",
+     "title_zh": "Lynch 症候群癌症風險的最新更新",
+     "score": 6,
+     "one_liner": "針對Lynch族群（人數未載）綜述基因別癌症風險與研究偏誤；無直接比較或風險數值。",
+     "sim": 0.219
+    }
+   ],
+   "title_zh": "Lynch 症候群的尿路上皮癌：大型多中心世代的臨床與分子特徵",
+   "abstract_zh": "目的：Lynch 症候群（LS）由 DNA 錯配修復（MMR）基因的致病性生殖系變異（PGVs）所致，會增加大腸直腸癌、子宮內膜癌及腸道外惡性腫瘤的風險。尿路上皮癌（UC）是造成 LS 相關罹病與死亡的重要因素。我們評估其發生頻率、臨床表現、基因型相關風險及分子特徵。\n方法：我們回溯性分析德國全國性家族性腸癌聯盟登錄資料中，經基因檢測確認的成年 LS 帶因者。依國際疾病分類第十版代碼 C65–C68 辨識出的 UC 診斷，均經人工核實臨床與病理資料。可取得檢體的腫瘤接受中央病理複核、MMR 免疫組織化學染色及微衛星不穩定性（MSI）檢測。\n結果：3,274 名 LS 帶因者中，144 人（4.4%）共有 224 個原發性 UC。首次罹患 UC 的年齡中位數為 55 歲（範圍 22–79 歲），50 名病人（34.7%）以 UC 作為首個惡性腫瘤。在位置已知的 202 個腫瘤中，114 個（56.4%）發生於上泌尿道。異時性及同時性原發性 UC 分別發生於 23 名（16.0%）及 5 名（3.5%）病人。111 名病人（77.1%）帶有 MSH2 相關 PGVs。多變項分析顯示，MSH2/EPCAM 帶因狀態與 UC 風險相關（風險比 4.43［95% 信賴區間 2.85–6.89］），但既往大腸直腸癌及 UC 家族史則無此關聯。在具有診斷相關資訊的 109 名病人中，26 人（23.9%）以泌尿道相關症狀表現，20 人（18.3%）為偶然診斷，11 人（10.1%）是在泌尿科或腫瘤科監測期間診斷。來自 18 名病人的 31 個病灶中，29 個（93.6%）為錯配修復缺陷（dMMR），30 個（96.8%）為高度微衛星不穩定（MSI-high）；所有病人均至少有一個 dMMR 腫瘤及一個 MSI-high 腫瘤。\n結論：LS 病人的 UC 發生年齡相對較早，與 MSH2/EPCAM 帶因狀態高度相關，且約三分之一病人以 UC 作為首個惡性腫瘤。這些發現支持以前瞻性研究評估依基因型調整的監測策略。",
+   "evidence_level": "回溯性研究",
+   "score": 7,
+   "score_reason": "大型多中心基因確診世代，且 UC 診斷經人工核實，值得閱讀以掌握 LS 的腸道外風險。但屬德國回溯性登錄研究，無法證明加強監測有效，對台灣實務的直接改變有限。",
+   "relevance": "中度相關",
+   "relevance_why": "涉及大腸直腸外科長期照護的 LS 帶因者，但重點是泌尿道癌症風險，而非大腸直腸手術或監測介入效果。",
+   "novelty": "仍屬早期",
+   "one_liner": "在3,274名LS帶因者中，比較基因別UC風險，MSH2/EPCAM呈較高風險（HR4.43）。",
+   "action": "目前不需改變做法；對MSH2/EPCAM帶因者新增例行泌尿道篩檢的效益，仍待前瞻驗證。",
+   "pico": {
+    "P": "德國全國性登錄中3,274名經基因確診的成年LS帶因者，其中144人罹患UC。",
+    "I": "MSH2/EPCAM帶因狀態，以及既往大腸直腸癌、UC家族史等風險因素。",
+    "C": "依基因型及臨床風險因素比較；HR的確切參照組摘要未載。",
+    "O": "UC發生頻率及相關風險；診斷年齡、首癌比例、腫瘤位置、多發性、診斷情境與dMMR/MSI特徵。摘要未明訂主次要終點。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "UC：144/3,274人（4.4%）；首次診斷中位55歲",
+    "UC為首癌：50/144人（34.7%）",
+    "dMMR：29/31病灶；MSI-high：30/31病灶"
+   ],
+   "cautions": [
+    "回溯性風險關聯不等於監測有效，不能據此推定可降低死亡。",
+    "4.4%是登錄族群觀察比例，不是終生風險；摘要未報追蹤長度。",
+    "分子檢測僅18人31病灶，不宜將近全數陽性外推至所有LS相關UC。"
+   ],
+   "unassessable": [
+    "收案期間、各基因型人數、追蹤長度與人年",
+    "風險模型的時間起點、參照組、完整調整變項及競爭風險處理",
+    "登錄選擇偏誤、失訪率及缺失資料處理",
+    "不同基因型接受泌尿道檢查或監測的頻率差異",
+    "分子檢測檢體的選取方式及其代表性",
+    "監測策略對分期、死亡率、傷害及成本的影響",
+    "病理與分子判讀是否盲化、研究註冊及利益衝突"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "相較先前兩篇 LS 癌症風險綜述，本研究補上大型登錄世代的 UC 絕對觀察比例、MSH2/EPCAM 相關風險及腫瘤分子特徵，但尚未驗證監測策略。先前伊拉克／迦勒底裔研究聚焦特定 MSH2 建立者變異，本篇不能視為對該變異或其族群風險的直接驗證。",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3277,
+    "input_tokens_details": {
+     "cache_write_tokens": 3274,
+     "cached_tokens": 0
+    },
+    "output_tokens": 2221,
+    "output_tokens_details": {
+     "reasoning_tokens": 516
+    },
+    "total_tokens": 5498
+   },
+   "added_at": "2026-11-14T10:05:37+08:00"
+  },
+  {
+   "pmid": "43022576",
+   "title": "Resident mucosal programmes in colon cancer: organ-associated formation and remodelling of the immune niche",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1158/2159-8290.cd-21-0316",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Jiang W, Pan B, Song Z, Zhang Z, Yan H",
+   "abstract": "Resident epithelial, immune and stromal cells organise immune responses in the colonic mucosa, but their contribution to the immune environment of colon cancer remains incompletely understood. We propose that colonic tumours may partly use pre-existing mucosal cells and regulatory mechanisms, a possibility we refer to as co-option. Chronic colitis provides a comparison for examining changes in mucosal immunity, without implying that inflammation is a necessary precursor to sporadic colon cancer. Colonic BTNL3/BTNL8 proteins regulate resident γδ T-cell subsets, and compartmentalised antigen presentation shapes local immune responses. In mouse models of colitis-associated cancer, resident stromal cells give rise to MCAM+ cancer-associated fibroblasts that promote macrophage recruitment through IL-34/CCL8 signalling. Tumour-associated immune changes include shifts in γδ T-cell subset composition and altered functions of RORγt+ regulatory T cells. MHC class II-dependent interactions between group 3 innate lymphoid cells and T cells also support microbiota-dependent antitumour immunity. Shared signalling is exemplified by the IL-22-oncostatin M-STAT3 pathway in experimental colitis and colitis-associated cancer. However, similarity in cell states and signalling does not establish that tumours preserve pre-existing multicellular mucosal niches. Much of the causal evidence derives from colitis-associated cancer models, and its relevance to sporadic colon cancer remains uncertain. Whether tumours use the same mucosal cells and regulatory mechanisms requires direct testing. Defining tumour-associated changes in these mechanisms may reveal therapeutic targets while preserving protective intestinal immunity.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42757455",
+     "date": "2026-09-19",
+     "title_zh": "第3型先天淋巴細胞（ILC3）作為黏膜恆定與疾病致病機轉的核心調控者（綜述）",
+     "score": 2,
+     "one_liner": "綜述ILC3在黏膜屏障恆定、腸道菌群交互作用及疾病中角色，提出時空定量假說框架，無臨床數據。",
+     "sim": 0.168
+    },
+    {
+     "pmid": "42757455",
+     "date": "2026-09-20",
+     "title_zh": "第3型先天淋巴細胞（ILC3）作為黏膜恆定與疾病致病機轉的中樞調節者（綜述）",
+     "score": 2,
+     "one_liner": "本文綜述ILC3的分化、調控機轉及與腸道菌群交互作用，提出理論框架，無臨床數據或治療結果。",
+     "sim": 0.168
+    }
+   ],
+   "title_zh": "結腸癌中的駐留黏膜調控程式：器官相關免疫微環境的形成與重塑",
+   "abstract_zh": "駐留的上皮細胞、免疫細胞與基質細胞共同組織結腸黏膜的免疫反應，但它們對結腸癌免疫環境的貢獻仍未完全釐清。我們提出，結腸腫瘤可能部分利用既有的黏膜細胞與調控機制；我們將這種可能性稱為挪用（co-option）。慢性結腸炎提供了檢視黏膜免疫變化的比較情境，但這並不表示發炎是散發性結腸癌的必要前驅因素。結腸的 BTNL3/BTNL8 蛋白調控駐留 γδ T 細胞亞群，而分區化的抗原呈現則形塑局部免疫反應。在結腸炎相關癌症的小鼠模型中，駐留基質細胞可衍生出 MCAM+ 癌症相關纖維母細胞，並透過 IL-34/CCL8 訊息傳遞促進巨噬細胞募集。腫瘤相關的免疫變化包括 γδ T 細胞亞群組成的轉變，以及 RORγt+ 調節型 T 細胞功能的改變。第3型先天淋巴細胞與 T 細胞之間依賴 MHC 第 II 類分子的交互作用，也支持依賴腸道菌相的抗腫瘤免疫。實驗性結腸炎與結腸炎相關癌症中的 IL-22–oncostatin M–STAT3 路徑，是兩者共用訊息傳遞的例子。然而，細胞狀態與訊息傳遞的相似性，並不能證明腫瘤保留了既有的多細胞黏膜微環境。許多因果證據來自結腸炎相關癌症模型，其與散發性結腸癌的相關性仍不確定。腫瘤是否利用相同的黏膜細胞與調控機制，仍需要直接驗證。釐清這些機制中與腫瘤相關的變化，可能有助於找出治療標的，同時保留具保護作用的腸道免疫。",
+   "evidence_level": "綜述",
+   "score": 3,
+   "score_reason": "摘要清楚區分機轉假說與已建立的因果證據，但未提供臨床療效資料。適合研究結腸癌免疫微環境者閱讀，對台灣大腸直腸外科日常決策的直接效用低。",
+   "relevance": "低度相關",
+   "relevance_why": "雖聚焦結腸癌，但內容以黏膜免疫機轉與動物模型為主，未評估外科介入或病人結局。",
+   "novelty": "仍屬早期",
+   "one_liner": "本綜述無病人人數或介入比較，提出結腸癌可能挪用既有黏膜免疫機制，尚無臨床效應數據。",
+   "action": "目前不需改變做法；勿據此調整散發性結腸癌病人的手術或免疫治療，因尚缺臨床驗證。",
+   "pico": {
+    "P": "結腸癌及結腸黏膜免疫相關研究，包含結腸炎與結腸炎相關癌症模型；未提供病人人數。",
+    "I": "非介入研究；探討腫瘤挪用既有黏膜細胞與調控機制的假說。",
+    "C": "無對照組；以慢性結腸炎作為黏膜免疫變化的概念性比較。",
+    "O": "未設定臨床主要或次要 outcome；討論免疫微環境重塑、細胞交互作用及潛在治療標的。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "摘要未報告納入研究篇數或病人人數",
+    "未提供兩組事件數、發生率或絕對效益",
+    "未提供存活、復發或治療安全性結果"
+   ],
+   "cautions": [
+    "因果證據多來自結腸炎相關癌症模型，不能直接外推散發性結腸癌。",
+    "細胞與訊息路徑相似，不等於證實腫瘤保留或挪用原有微環境。",
+    "無臨床事件率、效應量或信賴區間，無法量化治療效益。"
+   ],
+   "unassessable": [
+    "文獻檢索範圍、策略與完整性",
+    "納入與排除研究的標準",
+    "所引用研究的偏誤風險與證據品質評估",
+    "人體研究與動物研究各自的數量及權重",
+    "利益衝突與資金來源"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "先前兩篇綜述聚焦 ILC3 在黏膜恆定、菌群互動與疾病中的角色；本篇將相關議題延伸至結腸癌免疫微環境，並納入 ILC3–T 細胞的 MHC 第 II 類分子依賴性交互作用。它也擴及上皮、基質及其他免疫細胞，但仍屬機轉整合與假說，未補上臨床治療效益的證據缺口。",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3035,
+    "input_tokens_details": {
+     "cache_write_tokens": 3032,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1511,
+    "output_tokens_details": {
+     "reasoning_tokens": 125
+    },
+    "total_tokens": 4546
+   },
+   "added_at": "2026-11-14T10:05:37+08:00"
+  },
+  {
+   "pmid": "43024157",
+   "title": "Postoperative Management After Curative-Intent Resection of Colorectal Liver Metastases: A Critical Review of Recent Randomized Evidence",
+   "journal": "J Gastrointest Cancer",
+   "journal_full": "Journal of gastrointestinal cancer",
+   "issn": "1941-6636",
+   "issn_linking": "",
+   "impact_factor": 2.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.1016/j.dld.2026.09.014",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Sagawa T, Hirakawa M, Nagashima H, Fujikawa K",
+   "abstract": "BACKGROUND: Postoperative management after curative-intent treatment of colorectal liver metastases (CRLM) remains controversial because improvements in recurrence-related outcomes have not consistently translated into longer overall survival (OS).\nMETHODS: This critical narrative review examines randomized evidence for systemic chemotherapy and hepatic arterial infusion (HAI), together with emerging evidence on circulating tumor DNA (ctDNA). Trial-based findings, prognostic associations, and unvalidated treatment-effect hypotheses were critically distinguished.\nRESULTS: Postoperative fluoropyrimidine- or oxaliplatin-based treatment can delay recurrence in some settings, but a durable OS benefit has not been consistently demonstrated. Contemporary HAI trials differ in patient selection, regional drugs, systemic therapy, and endpoints. PACHA-01 reported improved hepatic recurrence-free survival in a selected population, HARVEST was terminated early, and PUMP did not meet its primary endpoint. These findings neither establish routine HAI nor identify validated predictors of benefit. Postoperative ctDNA is strongly prognostic, but nonrandomized associations between adjuvant treatment and outcomes cannot establish the clinical utility of ctDNA-directed treatment allocation.\nCONCLUSIONS: A conceptual distinction between hepatic and systemic recurrence risk may support multidisciplinary deliberation and prospective trial design, but should not be used as a validated postoperative treatment-selection algorithm. Clinical decisions must also account for prior chemotherapy, postoperative recovery, toxicity, local treatment opportunities, institutional expertise, and patient preferences.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42745098",
+     "date": "2026-09-17",
+     "title_zh": "術後ctDNA導引大腸直腸癌輔助治療：預後效度與治療決策效用之系統性回顧與統合分析",
+     "score": 7,
+     "one_liner": "在38篇報告(7前瞻世代)中，術後ctDNA陽性使復發風險增加(HR 7.60)，但降階/升階治療決策證據僅限特定情境。",
+     "sim": 0.19
+    },
+    {
+     "pmid": "42745098",
+     "date": "2026-09-18",
+     "title_zh": "術後ctDNA導引之大腸直腸癌術後輔助治療：預後效度與治療決策效用之系統性回顧與統合分析",
+     "score": 5,
+     "one_liner": "在7個前瞻世代（38篇報告/計畫）中，術後ctDNA陽性與復發風險相關（HR 7.60），但治療決策效用僅限特定情境（如DYNAMIC）。",
+     "sim": 0.19
+    },
+    {
+     "pmid": "42379715",
+     "date": "2026-07-01",
+     "title_zh": "法國大腸直腸癌肝轉移根治性切除病患之循環腫瘤DNA研究：GERCOR G-118 CLIMES PRODIGE 77前瞻性多中心世代研究計畫書",
+     "score": 3,
+     "one_liner": "在232名接受CRLM根治性切除病患中，將評估術前ctDNA狀態與DFS之關聯性——此為研究計畫書，尚無結果數據。",
+     "sim": 0.184
+    }
+   ],
+   "title_zh": "大腸直腸癌肝轉移根治意圖切除後的術後處置：近期隨機試驗證據之批判性回顧",
+   "abstract_zh": "背景：大腸直腸癌肝轉移（CRLM）接受根治意圖治療後的術後處置仍具爭議，因為復發相關結果的改善，並未一致轉化為較長的整體存活期（OS）。\n方法：本批判性敘述性回顧檢視全身性化學治療與肝動脈灌注治療（HAI）的隨機試驗證據，並一併探討循環腫瘤DNA（ctDNA）的新興證據。本回顧以批判性方式，區分來自試驗的發現、預後關聯性，以及尚未經驗證的治療效果假說。\n結果：術後使用以氟嘧啶類或oxaliplatin為基礎的治療，在部分情境下可延緩復發，但尚未一致證實具有持久的OS效益。當代HAI試驗在病人選擇、局部灌注藥物、全身性治療及研究終點上各有差異。PACHA-01報告，在經篩選的族群中，肝臟無復發存活有所改善；HARVEST提前終止，而PUMP未達到其主要終點。這些發現既未確立HAI應常規使用，也未找出經驗證的獲益預測因子。術後ctDNA具有強烈的預後預測價值，但輔助治療與結果之間的非隨機關聯，無法確立以ctDNA導引治療分配的臨床效用。\n結論：在概念上區分肝臟復發與全身性復發風險，可能有助於多專科討論及前瞻性試驗設計，但不應將其視為經驗證的術後治療選擇演算法。臨床決策也必須考量既往化學治療、術後恢復、毒性、局部治療機會、機構專業經驗及病人偏好。",
+   "evidence_level": "綜述",
+   "score": 7,
+   "score_reason": "值得閱讀，能釐清CRLM術後化療、HAI與ctDNA的證據界線，對多專科決策實用。但屬敘述性回顧，摘要未提供效應量或文獻選取方法，不能據此量化治療效益。",
+   "relevance": "高度相關",
+   "relevance_why": "直接涉及CRLM根治意圖切除後的輔助治療與追蹤決策，是大腸直腸外科多專科討論的常見議題。",
+   "novelty": "再確認已知",
+   "one_liner": "在CRLM根治治療後族群（人數未報）中，回顧化療、HAI與ctDNA證據，未確認持久OS效益。",
+   "action": "對CRLM切除後病人，依既往化療與恢復情形進行多專科討論；勿僅憑ctDNA或復發部位風險選擇HAI。",
+   "pico": {
+    "P": "接受根治意圖治療或切除的CRLM病人；納入試驗數及病人總數未報。",
+    "I": "術後全身性化學治療、HAI，以及ctDNA導引術後治療的相關證據。",
+    "C": "各納入研究的對照處置，摘要未逐一交代；並非單一直接比較試驗。",
+    "O": "檢視復發相關結果、肝臟無復發存活、OS，以及ctDNA的預後價值與治療分配效用；未指定統一主要終點。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "術後化療：摘要未報復發率、OS絕對值或效應量",
+    "HAI：PACHA-01肝臟無復發存活改善，絕對值未報",
+    "陰性／未完成：PUMP未達主要終點；HARVEST提前終止"
+   ],
+   "cautions": [
+    "延緩復發不等於延長OS，勿把復發終點當存活獲益。",
+    "HAI試驗族群與療程異質，ctDNA預後關聯不等於治療效用。",
+    "未報樣本數、絕對風險或信賴區間，無法量化效益與精確度。"
+   ],
+   "unassessable": [
+    "文獻搜尋範圍、納入排除標準及選文完整性",
+    "納入試驗的偏誤風險評估方法",
+    "各試驗的隨機分派、分派隱蔽、盲法及ITT分析",
+    "各試驗的失訪率、追蹤期間及試驗註冊資訊",
+    "HARVEST提前終止的原因及其對結果的影響",
+    "各療法的絕對效益、毒性發生率及成本效益",
+    "作者與納入試驗的利益衝突及資金來源"
+   ],
+   "context_verdict": "再確認",
+   "context": "本篇再確認前兩篇ctDNA系統性回顧與統合分析的核心結論：術後ctDNA具有預後價值，但不能將其與復發的關聯直接視為導引治療的臨床效用。本篇聚焦CRLM，並將此證據界線放入術後化療與HAI的決策情境；先前CLIMES研究計畫書尚無結果，不能提供支持或反駁。",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3159,
+    "input_tokens_details": {
+     "cache_write_tokens": 3156,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1663,
+    "output_tokens_details": {
+     "reasoning_tokens": 225
+    },
+    "total_tokens": 4822
+   },
+   "added_at": "2026-11-14T10:05:37+08:00"
+  },
+  {
+   "pmid": "43016649",
+   "title": "Immune-mediated comorbidities in multiple sclerosis: a scoping review",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1002/ana.24954",
+   "ptype": "Scoping Review, Systematic Review",
+   "ptype_list": [
+    "Scoping Review",
+    "Systematic Review"
+   ],
+   "authors": "Solak A, Riccio P, Seo D, Ayromlou S, Alanazi A, Racosta J",
+   "abstract": "BACKGROUND: Immune-mediated comorbidities are increasingly recognized in people with multiple sclerosis (PwMS), but their frequency, recorded diagnostic sequence, and clinical relevance remain incompletely characterized. We aimed to characterize their co-occurrence with MS, diagnoses following MS, associations with subsequently diagnosed MS, and relationships with MS clinical outcomes.\nMETHODS: We conducted a scoping review guided by the PRISMA-ScR checklist. PubMed, Embase, and Scopus were searched for studies published from January 1, 2001, through February 28, 2026. Eligible studies evaluated co-occurrence; immune-mediated diseases diagnosed following MS; associations between previously diagnosed immune-mediated diseases and subsequently diagnosed MS; or associations with MS activity, disability, or progression. Additional studies were identified through backward reference screening without publication-year restrictions.\nRESULTS: Autoimmune thyroid disease, type 1 diabetes (T1D), psoriasis, inflammatory bowel disease (IBD), and bullous pemphigoid showed some of the most recurrent evidence of higher co-occurrence with MS, whereas findings for rheumatoid arthritis (RA), systemic lupus erythematosus (SLE), vitiligo, atopic dermatitis, asthma, and less frequently studied conditions were more variable. Studies investigating immune-mediated diseases diagnosed following MS reported heterogeneous, condition-specific associations, with higher subsequent occurrence for psoriasis, IBD, and bullous pemphigoid in some populations. Studies examining previously diagnosed immune-mediated diseases and subsequently diagnosed MS reported higher estimates for selected conditions, including T1D, psoriasis, IBD, bullous pemphigoid, systemic sclerosis, and primary Sjögren's syndrome, although their magnitude, precision, and consistency varied. Evidence regarding associations between immune-mediated comorbidities and MS activity, disability, or progression was limited and heterogeneous. A small number of studies indicated adverse disability or MRI outcomes associated with T1D, whereas findings for other conditions were mixed, outcome-specific, or inconclusive.\nCONCLUSION: Several immune-mediated diseases demonstrated recurrent co-occurrence with MS, while separate studies reported condition-specific associations with diagnoses following MS or with subsequently diagnosed MS. Findings varied across diseases, study designs, and temporal frameworks, and may indicate shared susceptibility, surveillance bias, diagnostic delay, treatment exposure, residual confounding, or coincidental coexistence. Current evidence is insufficient to establish an MS prodrome or biologically distinct MS subgroups. Longitudinal studies using standardized disease definitions, documented diagnostic chronology, treatment data, and appropriate confounder adjustment are needed to clarify clinical and prognostic relevance.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42396914",
+     "date": "2026-07-03",
+     "title_zh": "葉酸與全球健康系列文獻第4部分：葉酸與自體免疫疾病及骨骼結果之綜合分析",
+     "score": 2,
+     "one_liner": "此傘型回顧納入19篇綜述、25個葉酸與自體免疫疾病/骨骼結果的關聯，發現所有關聯證據可信度均薄弱。",
+     "sim": 0.165
+    },
+    {
+     "pmid": "42895565",
+     "date": "2026-10-20",
+     "title_zh": "兒童幽門螺旋桿菌感染與過敏及發炎性疾病：當代系統性回顧與統合分析",
+     "score": 3,
+     "one_liner": "在35篇兒科研究中，比較H. pylori感染與未感染，氣喘關聯未顯著（OR 0.75）。",
+     "sim": 0.152
+    },
+    {
+     "pmid": "42895565",
+     "date": "2026-10-21",
+     "title_zh": "兒童幽門螺旋桿菌感染與過敏及發炎性疾病：當代系統性回顧與統合分析",
+     "score": 3,
+     "one_liner": "在35篇兒科研究中，比較H. pylori感染與未感染，氣喘關聯未顯著（OR 0.75）。",
+     "sim": 0.152
+    }
+   ],
+   "title_zh": "多發性硬化症的免疫介導共病：範疇性回顧",
+   "abstract_zh": "背景：免疫介導共病在多發性硬化症患者（PwMS）中日益受到重視，但其發生頻率、記錄中的診斷先後順序及臨床重要性仍未完全釐清。本研究旨在描述這些疾病與多發性硬化症（MS）的共存情形、MS診斷後出現的疾病診斷、與後續確診MS的關聯，以及與MS臨床結果的關係。\n方法：我們依循PRISMA-ScR檢核表進行範疇性回顧。搜尋PubMed、Embase及Scopus，納入2001年1月1日至2026年2月28日發表的研究。符合資格的研究評估以下任一項目：疾病共存；MS診斷後確診的免疫介導疾病；先前確診的免疫介導疾病與後續確診MS之間的關聯；或與MS疾病活動度、失能或進展的關聯。另外透過回溯篩查參考文獻尋找其他研究，不限制發表年份。\n結果：自體免疫性甲狀腺疾病、第1型糖尿病（T1D）、乾癬、發炎性腸道疾病（IBD）及類天疱瘡，是與MS較高共存頻率之證據較反覆出現的疾病；類風濕性關節炎（RA）、全身性紅斑性狼瘡（SLE）、白斑症、異位性皮膚炎、氣喘及較少被研究的疾病，其結果則較不一致。探討MS診斷後確診免疫介導疾病的研究，呈現異質且因疾病而異的關聯；部分族群在後續出現乾癬、IBD及類天疱瘡的頻率較高。探討先前確診免疫介導疾病與後續確診MS的研究，在部分疾病中呈現較高的關聯估計值，包括T1D、乾癬、IBD、類天疱瘡、全身性硬化症及原發性乾燥症，但其關聯幅度、精確度及一致性各不相同。免疫介導共病與MS活動度、失能或進展之間關聯的證據有限且具異質性。少數研究指出，T1D與較不良的失能或MRI結果有關，其他疾病的研究結果則不一致、因結果指標而異，或尚無定論。\n結論：數種免疫介導疾病呈現反覆被觀察到的與MS共存現象；另有研究指出，MS診斷後的其他疾病診斷，或後續確診MS，存在因疾病而異的關聯。研究結果隨疾病、研究設計及時間架構而異，可能反映共同易感性、監測偏差、診斷延遲、治療暴露、殘餘混雜或偶然共存。目前證據不足以確立MS前驅期或生物學上不同的MS亞群。未來需要採用標準化疾病定義、記錄診斷時間順序、納入治療資料並適當調整混雜因子的縱向研究，以釐清其臨床及預後意義。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "本篇為範疇性回顧，可提供共病關聯的證據地圖，但摘要未報納入規模、效應量或品質評估。與大腸直腸外科的交集主要是IBD，尚無可直接改變手術或追蹤策略的資訊。",
+   "relevance": "低度相關",
+   "relevance_why": "主題以MS共病及神經學預後為主，雖涉及IBD，但未評估大腸直腸手術或圍手術期結果。",
+   "novelty": "仍屬早期",
+   "one_liner": "在MS相關族群（人數未報）中，整理免疫共病與診斷先後關聯，IBD共存較多但幅度未報。",
+   "action": "目前不需改變做法；勿僅憑本篇替無神經症狀的IBD病人增加MS篩檢，尚缺絕對風險與效益資料。",
+   "pico": {
+    "P": "探討MS與免疫介導疾病關係的研究族群；納入研究篇數及總人數未報。",
+    "I": "MS或既有免疫介導疾病，包括T1D、乾癬、IBD、類天疱瘡等；亦評估MS合併免疫介導共病。",
+    "C": "依各研究設計而異；摘要未交代具體對照族群。",
+    "O": "疾病共存、MS診斷後的免疫介導疾病診斷、既有免疫介導疾病後的MS診斷，以及MS活動度、失能、進展與MRI結果；未區分主要與次要結果。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "資料庫檢索期間：2001/1/1至2026/2/28",
+    "納入篇數、總人數及兩組絕對發生率均未報",
+    "MS活動度、失能或進展：證據有限且異質，未報量化結果"
+   ],
+   "cautions": [
+    "診斷先後不等於發病先後，不能據此認定MS前驅期或因果。",
+    "摘要未報絕對風險、效應量或信賴區間，無法判斷臨床幅度。",
+    "疾病與研究設計異質，不能由共存較多推論篩檢或治療有益。"
+   ],
+   "unassessable": [
+    "納入研究篇數、總人數及各疾病樣本量",
+    "各研究設計、對照組與追蹤時間",
+    "是否由兩名審查者獨立篩選及擷取資料",
+    "納入研究的偏差風險評估與整體證據確定性",
+    "各研究對治療暴露、監測偏差及混雜因子的處理",
+    "疾病定義與診斷時間紀錄的可靠性",
+    "回顧計畫註冊、資金來源及利益衝突",
+    "各疾病絕對風險、效應量、信賴區間與統計顯著性"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3128,
+    "input_tokens_details": {
+     "cache_write_tokens": 3125,
+     "cached_tokens": 0
+    },
+    "output_tokens": 2026,
+    "output_tokens_details": {
+     "reasoning_tokens": 375
+    },
+    "total_tokens": 5154
+   },
+   "added_at": "2026-11-13T10:28:53+08:00"
+  },
+  {
+   "pmid": "43019312",
+   "title": "Systematic review and best evidence summary of patient positioning management in the modified lithotomy position during laparoscopic colorectal surgery",
+   "journal": "PLoS One",
+   "journal_full": "PloS one",
+   "issn": "1932-6203",
+   "issn_linking": "1932-6203",
+   "impact_factor": 2.8,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1371/journal.pone.0360728",
+   "ptype": "Systematic Review",
+   "ptype_list": [
+    "Systematic Review"
+   ],
+   "authors": "Sang J, Zhao G, Zhang Y, Li J, Zhao M",
+   "abstract": "OBJECTIVE: To systematically retrieve and summarize the best available evidence on patient positioning management for the modified lithotomy position in laparoscopic colorectal surgery, in order to provide an evidence-based reference for standardizing positioning practices.\nMETHODS: Guided by the 6S evidence model, we searched resources such as UpToDate, BMJ Best Practice, the National Institute for Health and Care Excellence (NICE) website, the Registered Nurses' Association of Ontario (RNAO) website, and the International Guideline Network for relevant clinical decisions, guidelines, evidence summaries, expert consensuses, systematic reviews, and meta - analyses. The search period for guidelines, evidence summaries, and expert consensuses spanned from database inception to October 7, 2025, while systematic reviews were restricted to those published between January 1, 2020, and October 7, 2025. The retrieved literature was appraised for quality, and evidence was extracted and synthesized.This study was registered with the Fudan University Evidence-Based Nursing Center (registration number: ER20259536).\nRESULTS: 17 publications were included, from which 18 best - practice evidence points were summarized across five domains: preoperative assessment, positioning procedure, positioning - related complications, postoperative handover, and education/training. This summary offers evidence - based guidance on patient positioning in the modified lithotomy position for laparoscopic colorectal surgery, intended to support clinical practice.",
+   "watched": [],
+   "related": [],
+   "title_zh": "腹腔鏡大腸直腸手術改良式截石位擺位管理：系統性回顧與最佳證據彙整",
+   "abstract_zh": "目的：系統性檢索並彙整腹腔鏡大腸直腸手術採改良式截石位之病人擺位管理的最佳可得證據，以提供擺位實務標準化的實證參考。\n方法：依循6S證據模型，搜尋UpToDate、BMJ Best Practice、英國國家健康與照護卓越研究院（NICE）網站、安大略省註冊護理師協會（RNAO）網站及國際指引網絡等資源，尋找相關臨床決策、指引、證據摘要、專家共識、系統性回顧及統合分析。指引、證據摘要及專家共識的搜尋期間為資料庫建置起至2025年10月7日；系統性回顧則限於2020年1月1日至2025年10月7日發表者。對檢索取得的文獻進行品質評讀，並擷取及整合證據。本研究已於復旦大學循證護理中心註冊（註冊編號：ER20259536）。\n結果：共納入17篇出版文獻，歸納出18項最佳實務證據重點，涵蓋五個領域：術前評估、擺位程序、擺位相關併發症、術後交班，以及教育／訓練。本彙整提供腹腔鏡大腸直腸手術採改良式截石位時病人擺位的實證指引，旨在支持臨床實務。",
+   "evidence_level": "系統性回顧",
+   "score": 6,
+   "score_reason": "主題貼近日常手術安全，適合作為跨專業擺位流程檢視的全文閱讀來源。但摘要未列具體建議、證據品質或臨床效益，尚無法判定建議的可靠程度。",
+   "relevance": "高度相關",
+   "relevance_why": "改良式截石位是腹腔鏡大腸直腸手術常見擺位，直接涉及手術室團隊流程與病人安全。",
+   "novelty": "仍屬早期",
+   "one_liner": "彙整17篇文獻、無直接組間比較，提出腹腔鏡大腸直腸手術改良式截石位18項實務重點，未量化效益。",
+   "action": "目前不需改變做法；先讀全文的具體建議與證據分級，再檢視腹腔鏡手術擺位流程。",
+   "pico": {
+    "P": "腹腔鏡大腸直腸手術採改良式截石位之擺位管理相關文獻，共17篇；病人總數未報告。",
+    "I": "依6S證據模型檢索、評讀並整合擺位管理證據。",
+    "C": "無對照組",
+    "O": "彙整最佳實務證據重點及管理領域；摘要未指定主要與次要臨床結局，也未報告併發症改善幅度。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "納入17篇文獻，病人總數未報告。",
+    "歸納18項最佳實務證據，涵蓋5個領域。",
+    "未報告併發症絕對發生率或組間效果。"
+   ],
+   "cautions": [
+    "18項證據重點不等於已證實能降低擺位併發症。",
+    "摘要未列各建議的證據品質，不能視為同等可靠。",
+    "無組間絕對風險或效果估計，無法量化臨床效益。"
+   ],
+   "unassessable": [
+    "完整檢索策略、語言限制及文獻篩選流程。",
+    "是否由兩位評讀者獨立篩選、擷取及品質評讀。",
+    "納入文獻的類型分布、品質評讀工具與評讀結果。",
+    "18項具體建議內容、證據確定性及推薦強度。",
+    "不同指引與回顧之間的原始研究重疊及衝突處理方式。",
+    "原始研究的偏誤風險及病人族群對台灣實務的適用性。",
+    "註冊計畫與最終方法是否一致；摘要僅提供註冊機構與編號。",
+    "利益衝突、資金來源及成本分析。"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 2790,
+    "input_tokens_details": {
+     "cache_write_tokens": 2787,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1451,
+    "output_tokens_details": {
+     "reasoning_tokens": 258
+    },
+    "total_tokens": 4241
+   },
+   "added_at": "2026-11-13T10:28:53+08:00"
+  },
+  {
+   "pmid": "43019438",
+   "title": "Differentiation of stem-like CD4+ T cells modulates early effector responses in colorectal cancer",
+   "journal": "Science",
+   "journal_full": "Science (New York, N.Y.)",
+   "issn": "1095-9203",
+   "issn_linking": "0036-8075",
+   "impact_factor": 47.3,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.1126/science.ady7788",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Zhang Y, Nie H, Dai Z, Zhao L, Wan Y, Wang Y",
+   "abstract": "Strategies to improve cancer immunotherapy have largely focused on the intratumor immunosuppressive microenvironment, whereas approaches to amplify peripheral T cells and promote tumor recruitment have not been thoroughly explored. Using imaging mass cytometry in patients with colorectal cancer (CRC), we observed T helper 1 (TH1)-like immune architectures in mismatch repair-deficient tumors associated with response to anti-programmed cell death protein 1 (PD-1) immunotherapy. By contrast, mismatch repair-proficient (pMMR) tumors showed regulatory T-dominant spatial interactions. Clonal analyses revealed that stem-like CD4+ T cells differentiated into TH1-like cells after PD-1 blockade. In pMMR CRC mouse models, combined OX40 agonist and PD-1 blockade suppressed tumor progression by expanding Il7r+ early effector CD4+ intermediates in tumor-draining lymph nodes, promoting migration and connection with TH1-like cells. This was accompanied by interferon-γ-dependent induction of immunostimulatory monocyte-macrophages and CD8+ effector T cells. These findings suggest that leveraging peripheral CD4+ T cell amplification may improve immunotherapy responses.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42731874",
+     "date": "2026-09-14",
+     "title_zh": "表觀遺傳合併細胞激素療法誘導幹樣CD8+ T細胞庫與腫瘤內免疫壁龕以克服抗PD-1抗藥性",
+     "score": 2,
+     "one_liner": "在CPB抗藥性小鼠CRC與乳癌模型中，三聯療法（entinostat+N-803+αPD-1）增加腫瘤內幹樣TCF1+CD8+ T細胞及免疫壁龕，並於PBMC體外試驗中呈現細胞毒性增強。",
+     "sim": 0.196
+    },
+    {
+     "pmid": "42731874",
+     "date": "2026-09-15",
+     "title_zh": "表觀遺傳合併細胞激素療法誘導幹細胞樣CD8+ T細胞儲存庫與腫瘤內免疫微環境以克服抗PD-1抗藥性",
+     "score": 2,
+     "one_liner": "在CPB抗藥性小鼠CRC與乳癌模型中，三合一療法(entinostat+N-803+αPD-1)增加腫瘤內幹細胞樣CD8+ T細胞免疫微環境並預測較佳臨床反應。",
+     "sim": 0.196
+    },
+    {
+     "pmid": "42409796",
+     "date": "2026-07-07",
+     "title_zh": "腫瘤引流淋巴結透過富集腫瘤反應性效應耗竭型CD8+ T細胞來形塑腫瘤微環境",
+     "score": 4,
+     "one_liner": "整合多體學分析MSI與MSS大腸直腸癌，發現腫瘤引流淋巴結富集效應耗竭CD8+ T細胞前驅族群，可能是MSI良好免疫反應的機轉。",
+     "sim": 0.177
+    }
+   ],
+   "title_zh": "幹細胞樣 CD4+ T 細胞的分化調節大腸直腸癌的早期效應反應",
+   "abstract_zh": "改善癌症免疫治療的策略，大多聚焦於腫瘤內的免疫抑制微環境，而擴增周邊 T 細胞並促進其募集至腫瘤的策略，尚未受到充分探索。我們在大腸直腸癌（CRC）病人中使用影像質譜流式技術，觀察到錯配修復缺陷型腫瘤具有第 1 型輔助 T 細胞（TH1）樣免疫空間結構，且此結構與抗程式性細胞死亡蛋白 1（PD-1）免疫治療的反應相關。相較之下，錯配修復功能正常（pMMR）的腫瘤呈現以調節型 T 細胞為主導的空間交互作用。克隆分析顯示，幹細胞樣 CD4+ T 細胞在 PD-1 阻斷後分化為 TH1 樣細胞。在 pMMR CRC 小鼠模型中，合併 OX40 致效劑與 PD-1 阻斷，藉由擴增腫瘤引流淋巴結中的 Il7r+ 早期效應 CD4+ 中間階段細胞，促進其遷移並與 TH1 樣細胞建立連結，進而抑制腫瘤進展。此過程亦伴隨以干擾素-γ 為依賴的免疫刺激性單核球－巨噬細胞及 CD8+ 效應 T 細胞誘導。這些發現提示，善用周邊 CD4+ T 細胞的擴增，可能改善免疫治療反應。",
+   "evidence_level": "其他",
+   "score": 3,
+   "score_reason": "結合人類腫瘤空間分析、克隆分析與小鼠介入實驗，具有機轉研究價值，但摘要未提供樣本數或效應量。對 pMMR CRC 免疫治療研發有啟發，尚不足以影響外科日常處置。",
+   "relevance": "低度相關",
+   "relevance_why": "主軸是免疫細胞機轉與小鼠藥物介入，未評估手術策略或可直接採用的人體治療效益。",
+   "novelty": "仍屬早期",
+   "one_liner": "在CRC病人（人數未報）及小鼠中，比較MMR免疫特徵並測試OX40＋PD-1，抑瘤幅度未報。",
+   "action": "目前不需改變做法；勿據此對pMMR大腸直腸癌病人加用OX40致效劑，人體療效仍未確立。",
+   "pico": {
+    "P": "大腸直腸癌病人，包含錯配修復缺陷型與pMMR腫瘤，人數未報；另有pMMR CRC小鼠模型，隻數未報。",
+    "I": "人類腫瘤影像質譜流式與克隆分析；小鼠接受OX40致效劑合併PD-1阻斷。",
+    "C": "人類免疫空間特徵比較錯配修復缺陷型與pMMR腫瘤；小鼠治療實驗的具體對照組未交代。",
+    "O": "摘要未指定主要與次要終點；觀察免疫空間結構、CD4+ T細胞分化、腫瘤進展、淋巴結中間階段細胞擴增與遷移，以及單核球－巨噬細胞和CD8+效應T細胞反應。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "人體樣本數及小鼠隻數均未提供。",
+    "聯合療法抑制腫瘤進展，未報絕對效應量。",
+    "未提供人體反應率、存活數據或陰性比較結果。"
+   ],
+   "cautions": [
+    "抑瘤介入證據來自小鼠，不能推論pMMR病人有臨床獲益。",
+    "人類免疫空間結構與反應的相關性，不等於因果或預測效能。",
+    "未報樣本數、對照組細節、效應量及信賴區間，無法判斷精確度。"
+   ],
+   "unassessable": [
+    "人體樣本數、收案方式、研究時序與病人臨床特徵",
+    "人體PD-1治療方案、反應定義及追蹤期間",
+    "小鼠實驗各組隻數、對照處置、劑量與療程",
+    "動物分組隨機化、分派隱匿及評估者盲法",
+    "樣本排除、遺失資料及分析族群的處理方式",
+    "主要終點預先指定、多重比較校正與獨立驗證",
+    "研究或試驗註冊、資金來源及利益衝突",
+    "人體聯合療法的療效、安全性與成本"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "先前第3篇聚焦腫瘤引流淋巴結中的CD8+效應耗竭型前驅族群，本篇則補充CD4+中間階段細胞在淋巴結擴增、遷移及連結腫瘤免疫反應的可能角色。兩者共同指向腫瘤外免疫細胞庫的重要性，但本篇新增的是OX40合併PD-1阻斷的小鼠機轉證據，並非人體療效的再確認。",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3157,
+    "input_tokens_details": {
+     "cache_write_tokens": 3154,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1782,
+    "output_tokens_details": {
+     "reasoning_tokens": 344
+    },
+    "total_tokens": 4939
+   },
+   "added_at": "2026-11-13T10:28:53+08:00"
+  },
+  {
+   "pmid": "43015761",
+   "title": "siRNA-mediated mismatch repair disruption synergizes with oxaliplatin to restore immune surveillance in microsatellite-stable colorectal cancer",
+   "journal": "Mol Cancer",
+   "journal_full": "Molecular cancer",
+   "issn": "1476-4598",
+   "issn_linking": "1476-4598",
+   "impact_factor": 42.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1186/s12943-025-02357-z",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Ni J, He G, Wang H, Qin Y, Guo J, Wang Y",
+   "abstract": "Proficient mismatch repair/microsatellite-stable colorectal cancer (pMMR/MSS CRC), which represents the majority of clinical cases, exhibits low tumor mutational burden and minimal responsiveness to immune checkpoint blockade. Disrupting the MMR system has been shown to resensitize pMMR/MSS CRC to immune surveillance; however, direct MMR inhibitors are currently unavailable. Here, we bridge this gap by developing small interfering RNA lipid nanoparticles (siMMR@LNPs) capable of silencing key MMR genes, including MLH1, MSH2, and MSH6, achieving over 70% gene silencing in both subcutaneous and hepatic metastatic tumor models of pMMR/MSS CRC. A synergetic strategy combining siMMR@LNPs with oxaliplatin substantially bolsters tumor mutational burden, thereby expanding the tumor mutation-derived neoantigenic peptide repertoire in pMMR/MSS CRC and promoting CD8+ T cell infiltration and activation. This combinatorial regimen effectively inhibits tumor progression in pMMR/MSS CRC across both subcutaneous and liver metastasis mouse models, showing potential to reinstate immune surveillance in the immunotherapy-refractory pMMR/MSS CRC. This approach may offer a viable route to develop a promising immunotherapy for pMMR/MSS CRC.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42353833",
+     "date": "2026-06-26",
+     "title_zh": "微衛星表型作為大腸直腸癌免疫治療指引：現況與未來展望",
+     "score": 3,
+     "one_liner": "本文為綜述，總結MSI-H/dMMR與MSS/pMMR大腸直腸癌對免疫檢查點抑制劑反應差異之分子機轉與現行治療策略。",
+     "sim": 0.211
+    },
+    {
+     "pmid": "42990999",
+     "date": "2026-11-07",
+     "title_zh": "免疫檢查點抑制劑合併VEGF/VEGFR標靶治療於微衛星穩定型晚期大腸直腸癌：臨床進展與轉化為免疫敏感腫瘤的潛力",
+     "score": 3,
+     "one_liner": "晚期MSS腸癌綜述（人數未報）：ICI合併抗VEGF/VEGFR療效異質，無量化比較。",
+     "sim": 0.198
+    },
+    {
+     "pmid": "42990999",
+     "date": "2026-11-08",
+     "title_zh": "免疫檢查點抑制劑合併VEGF/VEGFR標靶治療於微衛星穩定型晚期大腸直腸癌：臨床進展與轉化為免疫敏感腫瘤的潛力",
+     "score": 3,
+     "one_liner": "晚期MSS腸癌綜述（人數未報）：ICI合併抗VEGF/VEGFR療效異質，無量化比較。",
+     "sim": 0.198
+    }
+   ],
+   "title_zh": "siRNA介導的錯配修復破壞與oxaliplatin協同作用，恢復微衛星穩定型大腸直腸癌的免疫監視",
+   "abstract_zh": "錯配修復功能正常／微衛星穩定型大腸直腸癌（pMMR/MSS CRC）占臨床病例的大多數，其腫瘤突變負荷低，且對免疫檢查點阻斷治療的反應極低。已有研究顯示，破壞MMR系統可使pMMR/MSS CRC重新對免疫監視產生敏感性；然而，目前尚無可直接抑制MMR的抑制劑。在此，我們開發了小干擾RNA脂質奈米粒子（siMMR@LNPs）以填補此缺口，其能夠沉默包括MLH1、MSH2及MSH6在內的關鍵MMR基因，並在pMMR/MSS CRC的皮下及肝轉移腫瘤模型中，均達成超過70%的基因沉默效果。將siMMR@LNPs與oxaliplatin合併的協同策略，可大幅提高腫瘤突變負荷，進而擴增pMMR/MSS CRC中源自腫瘤突變的新抗原胜肽庫，並促進CD8+ T細胞浸潤與活化。此合併療法在皮下及肝轉移小鼠模型中，均可有效抑制pMMR/MSS CRC的腫瘤進展，顯示其可能恢復對免疫治療具抗性的pMMR/MSS CRC之免疫監視。此方法可能提供一條可行途徑，以開發具潛力的pMMR/MSS CRC免疫治療。",
+   "evidence_level": "其他",
+   "score": 3,
+   "score_reason": "屬具機轉創意的前臨床小鼠研究，但摘要未提供樣本數、對照配置及腫瘤抑制效應量，無法充分判斷可信度。對台灣大腸直腸外科目前實務影響有限，較值得轉譯研究團隊閱讀全文。",
+   "relevance": "低度相關",
+   "relevance_why": "雖針對常見的pMMR/MSS大腸直腸癌，但僅有小鼠模型證據，尚不能直接用於臨床治療決策。",
+   "novelty": "仍屬早期",
+   "one_liner": "在MSS腸癌小鼠（隻數未報）中，比較siRNA加oxaliplatin與未詳述對照，腫瘤進展受抑，幅度未報。",
+   "action": "目前不需改變做法；勿據此替MSS腸癌病人加入MMR沉默治療，尚缺人體療效與安全性資料。",
+   "pico": {
+    "P": "pMMR/MSS大腸直腸癌皮下及肝轉移小鼠模型；動物隻數未報，非人體研究。",
+    "I": "以siMMR@LNPs沉默MLH1、MSH2及MSH6等MMR基因，並合併oxaliplatin。",
+    "C": "摘要未交代對照組配置。",
+    "O": "摘要未指定主要與次要終點；報告基因沉默效率、腫瘤突變負荷、新抗原胜肽庫、CD8+ T細胞浸潤與活化，以及腫瘤進展。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "皮下與肝轉移模型：MMR基因沉默均逾70%",
+    "腫瘤進展受抑：未報兩組絕對值或效應量",
+    "存活與毒性：摘要未報數據，無法判斷淨效益"
+   ],
+   "cautions": [
+    "僅小鼠與機轉指標，不能推論人體免疫療效或存活獲益。",
+    "未報樣本數、對照配置、效應量及信賴區間，難判斷穩健性。",
+    "刻意破壞MMR並增加突變，長期致癌風險與正常組織安全性未明。"
+   ],
+   "unassessable": [
+    "各組動物隻數、樣本數估算及實驗重複次數",
+    "隨機分組、分派隱匿及評估者盲法",
+    "對照組配置及合併療法協同作用的統計檢驗",
+    "動物排除、死亡、遺漏資料與分析集處理",
+    "給藥劑量、時程、追蹤期間及奈米粒子組織分布",
+    "正常組織MMR抑制、毒性及長期基因體不穩定風險",
+    "研究預先登錄、資金來源及利益衝突",
+    "人體療效、安全性及成本效益"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "前述微衛星表型綜述整理了pMMR/MSS腸癌對免疫檢查點抑制劑反應不佳的機轉與策略；本篇以MMR基因沉默合併oxaliplatin，補上另一條恢復免疫監視的前臨床路徑。這與前述ICI合併VEGF/VEGFR標靶治療綜述的介入不同，不能視為該組合療效的再確認，也尚未提供人體治療證據。",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3133,
+    "input_tokens_details": {
+     "cache_write_tokens": 3130,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1633,
+    "output_tokens_details": {
+     "reasoning_tokens": 235
+    },
+    "total_tokens": 4766
+   },
+   "added_at": "2026-11-13T10:28:53+08:00"
+  },
+  {
+   "pmid": "43015678",
+   "title": "Laparoscopic versus open surgery for sphincter preservation in mid- and low rectal cancer: a large propensity score-matched cohort study",
+   "journal": "BMC Cancer",
+   "journal_full": "BMC cancer",
+   "issn": "1471-2407",
+   "issn_linking": "1471-2407",
+   "impact_factor": 4.1,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1016/S1470-2045(14)70205-0",
+   "ptype": "Comparative Study",
+   "ptype_list": [
+    "Comparative Study"
+   ],
+   "authors": "Zheng H, Xu Y, Lv M, Zhou C, Guo T, Zheng C",
+   "abstract": "BACKGROUND: Recent studies have suggested that laparoscopic surgery for rectal cancer yields postoperative complications and long-term survival rates comparable to those of open surgery. Nevertheless, whether sphincter-preserving rates are equivalent between laparoscopic and open approaches remains a topic of debate.\nMETHODS: This retrospective study included patients with mid- and low-rectal cancer who underwent open or laparoscopic surgery at Fudan University Shanghai Cancer Center (2006-2021). Propensity score matching (PSM) was used to balance baseline characteristics. Sphincter-preserving rates and short- and long-term outcomes were compared.\nRESULTS: Data from 9405 rectal cancer patients were collected. After propensity score adjustment, 7738 patients (4993 open and 2745 laparoscopic) with mid- and low- rectal cancer were included. The sphincter-preserving rates were 60.7% in the open surgery group and 72.3% in the laparoscopic surgery group, corresponding to an odds ratio (OR) of 1.70 (95% CI 1.53-1.88, P < 0.001) in the PSM cohort. Subgroup analyses showed that higher sphincter-preserving rates were associated with laparoscopic surgery across different tumor positions. In a sensitivity analysis using multivariable logistic regression in the full unmatched cohort, the adjusted OR was 3.11 (95% CI 2.69-3.59) for laparoscopic versus open surgery. Regarding long-term outcomes, the laparoscopic group had 5- year overall and disease-free survival rates of 77.0% and 76.6% respectively, which were comparable to those of 75.2% and 74.5% for the open surgery group (P = 0.09 and P = 0.20).\nCONCLUSIONS: For mid- and low-rectal cancer, laparoscopic surgery was associated with higher sphincter-preserving rates than open surgery after PSM, with comparable long-term prognoses.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42692496",
+     "date": "2026-09-05",
+     "title_zh": "機器人輔助手術與腹腔鏡手術治療直腸癌之比較：單一機構傾向分數配對研究",
+     "score": 6,
+     "one_liner": "在553名（PSM後214對）第I-III期直腸腺癌病人中，比較機器人與腹腔鏡手術，3年RFS相近(82.2% vs 81.1%)但機器人組轉開腹率較低(0.5% vs 3.7%)。",
+     "sim": 0.287
+    },
+    {
+     "pmid": "42692496",
+     "date": "2026-09-06",
+     "title_zh": "機器人輔助手術與腹腔鏡手術治療直腸癌之比較：單機構傾向分數配對研究",
+     "score": 4,
+     "one_liner": "在553名（PSM後214對）第I-III期直腸癌病人中，比較機器人與腹腔鏡手術，3年RFS無差異（82.2% vs 81.1%，p=0.68）。",
+     "sim": 0.287
+    },
+    {
+     "pmid": "42754273",
+     "date": "2026-09-19",
+     "title_zh": "中國直腸癌機器手臂手術之健康技術評估：全國多中心前瞻性世代研究計畫書",
+     "score": 3,
+     "one_liner": "計畫在1200名中國中低位直腸癌病患中，比較機器手臂、腹腔鏡與開腹低前位切除，評估腫瘤學結果與成本效益，尚無結果數據。",
+     "sim": 0.233
+    }
+   ],
+   "title_zh": "中低位直腸癌保肛手術之腹腔鏡與開腹比較：大型傾向分數配對世代研究",
+   "abstract_zh": "背景：近期研究顯示，直腸癌腹腔鏡手術的術後併發症與長期存活率與開腹手術相近。然而，腹腔鏡與開腹手術的保肛率是否相當，仍有爭議。\n方法：本回溯性研究納入於復旦大學附屬腫瘤醫院接受開腹或腹腔鏡手術的中低位直腸癌病人（2006–2021年）。使用傾向分數配對（PSM）平衡基線特徵，並比較保肛率及短期與長期結果。\n結果：共收集9405名直腸癌病人的資料。經傾向分數調整後，納入7738名中低位直腸癌病人（開腹4993名、腹腔鏡2745名）。在PSM世代中，開腹組與腹腔鏡組的保肛率分別為60.7%與72.3%，對應的勝算比（OR）為1.70（95% CI 1.53–1.88，P < 0.001）。次群組分析顯示，在不同腫瘤位置中，腹腔鏡手術均與較高保肛率相關。在針對完整未配對世代使用多變項邏輯斯迴歸的敏感度分析中，腹腔鏡相較於開腹手術的調整後OR為3.11（95% CI 2.69–3.59）。長期結果方面，腹腔鏡組的5年整體存活率與無病存活率分別為77.0%與76.6%，與開腹組的75.2%及74.5%相近（P分別為0.09與0.20）。\n結論：對中低位直腸癌而言，PSM後腹腔鏡手術與較開腹手術更高的保肛率相關，且長期預後相近。",
+   "evidence_level": "回溯性研究",
+   "score": 6,
+   "score_reason": "大型單中心資料提供具臨床意義的保肛率絕對差異，值得閱讀全文確認選案與配對方法。但回溯設計及跨越16年的收案期間限制因果推論，不能據此認定腹腔鏡本身提高保肛機會。",
+   "relevance": "高度相關",
+   "relevance_why": "直接涉及台灣大腸直腸外科常見的中低位直腸癌術式選擇與保肛諮詢。",
+   "novelty": "仍屬早期",
+   "one_liner": "7738名中低位直腸癌病人中，腹腔鏡較開腹保肛率高（72.3% vs 60.7%）。",
+   "action": "目前不需改變做法；中低位直腸癌保肛決策仍依腫瘤與功能條件，勿將此相關性當成術式因果效果。",
+   "pico": {
+    "P": "單一中國癌症中心2006–2021年手術病人；收集9405人，傾向分數調整後納入7738名中低位直腸癌病人。",
+    "I": "腹腔鏡手術，2745人。",
+    "C": "開腹手術，4993人。",
+    "O": "核心結果為保肛率；另比較短期及長期結果，摘要報告5年整體存活率與無病存活率，未明示主要／次要終點層級。"
+   },
+   "effects": [
+    {
+     "outcome": "保肛",
+     "ok": true,
+     "i_label": "腹腔鏡",
+     "c_label": "開腹",
+     "i_rate": 72.3,
+     "c_rate": 60.7,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 11.6,
+     "benefit": true,
+     "event_bad": false,
+     "nnt": 9,
+     "kind": "NNT",
+     "note": ""
+    },
+    {
+     "outcome": "5年整體存活",
+     "ok": true,
+     "i_label": "腹腔鏡",
+     "c_label": "開腹",
+     "i_rate": 77.0,
+     "c_rate": 75.2,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 1.8,
+     "benefit": true,
+     "event_bad": false,
+     "nnt": 56,
+     "kind": "NNT",
+     "note": ""
+    },
+    {
+     "outcome": "5年無病存活",
+     "ok": true,
+     "i_label": "腹腔鏡",
+     "c_label": "開腹",
+     "i_rate": 76.6,
+     "c_rate": 74.5,
+     "i_raw": null,
+     "c_raw": null,
+     "arr": 2.1,
+     "benefit": true,
+     "event_bad": false,
+     "nnt": 48,
+     "kind": "NNT",
+     "note": ""
+    }
+   ],
+   "key_numbers": [
+    "保肛率：腹腔鏡72.3% vs 開腹60.7%，P<0.001",
+    "5年整體存活：77.0% vs 75.2%，P=0.09",
+    "5年無病存活：76.6% vs 74.5%，P=0.20"
+   ],
+   "cautions": [
+    "回溯性且跨16年；選案與年代混雜可能影響保肛率，PSM不保證消除。",
+    "PSM與全世代調整OR為1.70與3.11；差異需查全文釐清。",
+    "保肛不等於功能良好；存活差異未顯著不代表已證實等效。"
+   ],
+   "unassessable": [
+    "PSM納入變項、配對比例、卡尺、共同支持範圍及配對後平衡程度。",
+    "腫瘤距肛緣高度、分期、新輔助治療、手術年代與術者經驗的控制程度。",
+    "術式選擇依據、保肛定義，以及轉開腹病人的分組方式。",
+    "中位追蹤時間、失訪率、各時間點風險人數與存活估計的信賴區間。",
+    "短期併發症、切緣、局部復發、永久造口、LARS及生活品質結果。",
+    "次群組是否預先規劃，以及交互作用檢定結果。",
+    "研究註冊、利益衝突與成本分析。"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "前兩篇所列研究比較機器人與腹腔鏡直腸癌手術，本篇則補上腹腔鏡與開腹在保肛率上的比較；不同術式對照不能直接串成優劣排序。先前研究的3年RFS與本篇5年無病存活皆未見顯著差異，但不能因此認定術式等效；第三篇僅為計畫書，尚無結果可對照。",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3304,
+    "input_tokens_details": {
+     "cache_write_tokens": 3301,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1986,
+    "output_tokens_details": {
+     "reasoning_tokens": 215
+    },
+    "total_tokens": 5290
+   },
+   "added_at": "2026-11-13T10:28:53+08:00"
+  }
+ ]
+}
