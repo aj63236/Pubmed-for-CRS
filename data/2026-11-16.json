@@ -1,0 +1,1432 @@
+{
+ "date": "2026-11-16",
+ "generated_at": "2026-11-16T09:44:16+08:00",
+ "count": 15,
+ "papers": [
+  {
+   "pmid": "43034053",
+   "title": "Serum MMP-10 levels predict incident inflammatory bowel disease: an observational analysis from the PURE study",
+   "journal": "J Crohns Colitis",
+   "journal_full": "Journal of Crohn's & colitis",
+   "issn": "1876-4479",
+   "issn_linking": "1873-9946",
+   "impact_factor": 10.3,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.1053/j.gastro.2024.07.007",
+   "ptype": "Observational Study",
+   "ptype_list": [
+    "Observational Study"
+   ],
+   "authors": "Wong E, Reinisch W, Moayyedi P, Rangarajan S, Joseph P, Poirier P",
+   "abstract": "BACKGROUND AND AIMS: The incidence of inflammatory bowel disease (IBD), including Crohn's disease (CD) and ulcerative colitis (UC), is rising, particularly in middle-income countries. This study aims to identify biomarkers that predict the onset of IBD in a globally recruited population.\nMETHODS: Data from participants enrolled in the biomarker substudy of the Prospective Urban Rural Epidemiology (PURE) study were analyzed (discovery cohort). The primary outcome of interest was the development of incident IBD. Secondary outcomes were CD and UC. Protein concentration was measured using O-link® immuno-assays. Discovery analyses consisted of logistic regression models to evaluate the relationship between biomarker concentrations and risk of IBD. A separate analysis was conducted to validate biomarkers identified from the discovery cohort. Statistical significance was defined using a Bonferroni-corrected P < 1.6 × 10-5 for all analyses.\nRESULTS: A total of 1011 biomarkers were assessed in the discovery cohort across 11 019 participants with n = 91 incident IBD cases. In the discovery analysis, elevated levels of matrix metalloproteinase-10 (MMP-10) were significantly associated with a future diagnosis of IBD (adjusted odds ratio [aOR] per SD: 1.75, 95% confidence interval [CI]: 1.40-2.18, P = 7.6 × 10-7). Results were consistent in direction for development of both UC and CD. In the validation analysis, MMP-10 remained significant for the outcome of IBD (aOR per SD: 2.41 [95% CI: 1.61-4.58], P = 5.2 × 10-6).\nCONCLUSIONS: These findings suggest MMP-10 is a relevant biomarker in the general global population for prediction of clinical IBD, and further work should investigate its role in early detection and prevention strategies.",
+   "watched": [],
+   "related": [],
+   "title_zh": "血清MMP-10濃度預測新發炎症性腸道疾病：PURE研究的觀察性分析",
+   "abstract_zh": "背景與目的：炎症性腸道疾病（IBD），包括克隆氏症（CD）與潰瘍性結腸炎（UC），其發生率正在上升，尤其是在中等收入國家。本研究旨在全球招募的族群中，找出能預測IBD發病的生物標記。\n方法：分析納入前瞻性城鄉流行病學（PURE）研究之生物標記子研究參與者的資料（探索世代）。主要關注的結果為新發IBD；次要結果為CD與UC。蛋白質濃度使用O-link®免疫分析法測量。探索分析使用邏輯斯迴歸模型，評估生物標記濃度與IBD風險之間的關係。另進行一項獨立分析，以驗證探索世代所找出的生物標記。所有分析皆以Bonferroni校正後的P < 1.6 × 10⁻⁵作為統計顯著性標準。\n結果：探索世代共納入11,019名參與者，評估1,011種生物標記，其中出現91例新發IBD。在探索分析中，較高的基質金屬蛋白酶-10（MMP-10）濃度與未來被診斷為IBD顯著相關（每增加1個標準差的校正勝算比［aOR］：1.75，95%信賴區間［CI］：1.40–2.18，P = 7.6 × 10⁻⁷）。對於UC與CD的發生，結果方向均一致。在驗證分析中，MMP-10與IBD結果的關聯仍達統計顯著（每增加1個標準差的aOR：2.41［95% CI：1.61–4.58］，P = 5.2 × 10⁻⁶）。\n結論：這些發現提示，MMP-10是全球一般族群中可用於預測臨床IBD的相關生物標記，未來應進一步研究其在早期偵測與預防策略中的角色。",
+   "evidence_level": "前瞻性世代",
+   "score": 5,
+   "score_reason": "具前瞻性世代資料、嚴格多重比較校正及另行驗證分析，但新發IBD僅91例，且未報告臨床預測效能。對台灣大腸直腸外科目前決策的直接效益有限，較適合關注IBD早期偵測研究者閱讀全文。",
+   "relevance": "低度相關",
+   "relevance_why": "研究聚焦一般族群的IBD發病預測，尚未涉及手術選擇、術後結果或可直接採用的篩檢策略。",
+   "novelty": "仍屬早期",
+   "one_liner": "在11,019人中，比較不同MMP-10濃度，每升高1 SD，新發IBD勝算增75%。",
+   "action": "目前不需改變做法；勿據此替無症狀者加驗MMP-10，因尚缺臨床預測效能與檢測門檻。",
+   "pico": {
+    "P": "PURE生物標記子研究探索世代11,019名參與者，其中91例新發IBD；驗證分析人數未提供。",
+    "I": "以O-link®免疫分析測量的較高血清MMP-10濃度，以每增加1個標準差分析。",
+    "C": "同世代中較低的MMP-10濃度，屬連續暴露比較，非隨機分組。",
+    "O": "主要結果：新發IBD；次要結果：新發CD與UC。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "探索組11,019人、IBD 91例；檢測1,011種標記",
+    "每升1 SD：aOR 1.75，95% CI 1.40–2.18",
+    "驗證：aOR 2.41，95% CI 1.61–4.58"
+   ],
+   "cautions": [
+    "觀察性關聯不等於因果，無法排除臨床前發炎已推高MMP-10。",
+    "未報辨識力、校準度或檢測門檻，顯著關聯不代表可用於篩檢。",
+    "未報暴露分層絕對風險；驗證樣本數未知，無法量化臨床效益。"
+   ],
+   "unassessable": [
+    "追蹤期間、失訪率及缺失資料處理",
+    "新發IBD的診斷標準、確認方式及判定者盲法",
+    "基線如何排除既有或臨床前IBD",
+    "迴歸模型的完整校正變項與殘餘混雜",
+    "驗證族群的來源、人數、事件數及與探索世代的獨立性",
+    "各國及族群組成，以及對台灣族群的可推廣性",
+    "MMP-10的辨識力、校準度、臨床門檻與增額預測價值",
+    "研究註冊、預先指定分析計畫及利益衝突",
+    "檢測成本與成本效益"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 2915,
+    "input_tokens_details": {
+     "cache_write_tokens": 2912,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 2912
+     },
+     "cached_tokens": 0
+    },
+    "output_tokens": 1684,
+    "output_tokens_details": {
+     "reasoning_tokens": 297
+    },
+    "total_tokens": 4599
+   },
+   "added_at": "2026-11-16T09:41:09+08:00"
+  },
+  {
+   "pmid": "43032542",
+   "title": "From molecular mechanisms to clinical practice: advances in the immune microenvironment and translational therapeutics of colorectal cancer liver metastasis",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1038/s41467-026-76382-x",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Zhang R, Qu J, Chi H, Li Z, Zhang F",
+   "abstract": "Colorectal cancer (CRC) ranks third in global incidence and second in cancer-related mortality, with the liver constituting the most frequent target organ for metastatic dissemination and distant organ involvement representing the predominant cause of death. Approximately 20-25% of patients present with synchronous hepatic metastases at initial diagnosis or within 3-6 months thereafter, whereas an additional 20-50% develop metachronous hepatic recurrence following curative-intent resection of the primary tumor, thereby positioning colorectal cancer liver metastasis (CRLM) among the most formidable challenges in oncology. With progressive advances in biological insight, the conceptual framework of CRLM has evolved from the classical 'seed and soil' hypothesis into an integrative, multi-dimensional paradigm encompassing the epithelial-mesenchymal transition (EMT) of circulating tumor cells (CTCs), immunostromal crosstalk within the tumor microenvironment (TME), the remote regulatory functions of the gut microbiota and its metabolic products, and the contributions of metabolic reprogramming and epigenetic modifications. This review synthesizes recent advances in the molecular pathogenesis of CRLM, including the formation and modulation of the pre-metastatic niche (PMN), the influence of liver-intrinsic immune tolerance on immunotherapeutic responsiveness, the synergistic regulation of core signaling networks, the pathogenic role of the gut microbiota-metabolism-epigenetics axis, and the role of CTCs within the metastatic cascade. From a clinical perspective, we appraise the progress in surgical resection, immune checkpoint inhibitors (ICIs) and their combination strategies, targeted therapies, locoregional interventions, and emerging metabolic-epigenetic therapeutics, with particular emphasis on the clinically challenging disparity in immunotherapy responses between hepatic and pulmonary metastases, a phenomenon largely attributable to organ-specific immune microenvironments. Furthermore, we delineate the limitations of current investigations, noting that much of the mechanistic evidence derives from preclinical models and that organ-specific clinical observations remain predominantly retrospective in nature, and We emphasize that developing precision treatment strategies based on multidimensional molecular profiling and organ-specific therapeutic regimens will constitute a critical research direction for improving the prognosis of patients with CRLM.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42500682",
+     "date": "2026-07-26",
+     "title_zh": "大腸直腸癌肝轉移：機制與治療",
+     "score": 2,
+     "one_liner": "本文綜述CRLM的免疫耐受微環境機制、現行治療選項與新興策略，未提供原創臨床療效數據。",
+     "sim": 0.261
+    },
+    {
+     "pmid": "42500682",
+     "date": "2026-07-27",
+     "title_zh": "大腸直腸癌肝轉移：機制與治療",
+     "score": 2,
+     "one_liner": "本文綜述CRLM免疫耐受微環境機制與現行/新興治療策略，未提供任何原創臨床試驗數據或療效比較。",
+     "sim": 0.261
+    },
+    {
+     "pmid": "42358994",
+     "date": "2026-06-26",
+     "title_zh": "大腸直腸癌肝轉移：免疫抑制微環境、訊息傳遞路徑與新興治療策略",
+     "score": 3,
+     "one_liner": "本綜述整理 CRLM 免疫抑制微環境機制（T 細胞耗竭、免疫抑制細胞擴增）與新興治療策略，無原創臨床數據。",
+     "sim": 0.205
+    }
+   ],
+   "title_zh": "從分子機制到臨床實務：大腸直腸癌肝轉移免疫微環境與轉譯治療的進展",
+   "abstract_zh": "大腸直腸癌（CRC）的全球發生率排名第三，癌症相關死亡率排名第二；肝臟是最常見的轉移標的器官，而遠端器官侵犯則是主要死因。約20–25%的病人在初次診斷時或其後3–6個月內出現同步性肝轉移，另有20–50%的病人在接受以治癒為目的的原發腫瘤切除後，發生異時性肝臟復發，使大腸直腸癌肝轉移（CRLM）成為腫瘤學中最棘手的挑戰之一。隨著對生物學的理解持續進步，CRLM的概念架構已從經典的「種子與土壤」假說，演變為整合性的多面向典範，涵蓋循環腫瘤細胞（CTCs）的上皮間質轉化（EMT）、腫瘤微環境（TME）內免疫與基質之間的交互作用、腸道微生物群及其代謝產物的遠端調控功能，以及代謝重編程與表觀遺傳修飾的貢獻。本綜述整合CRLM分子致病機轉的近期進展，包括轉移前微環境（PMN）的形成與調控、肝臟固有免疫耐受對免疫治療反應的影響、核心訊息傳遞網絡的協同調控、腸道微生物群—代謝—表觀遺傳軸的致病角色，以及CTCs在轉移級聯過程中的作用。從臨床角度，我們評析手術切除、免疫檢查點抑制劑（ICIs）及其合併策略、標靶治療、局部區域治療，以及新興代謝與表觀遺傳治療的進展，特別著重於肝轉移與肺轉移之間免疫治療反應差異這項臨床難題；此現象主要歸因於器官特異性的免疫微環境。此外，我們闡述目前研究的限制，指出許多機轉證據來自臨床前模型，而器官特異性的臨床觀察仍以回溯性研究為主；我們並強調，依據多面向分子剖析與器官特異性治療方案發展精準治療策略，將是改善CRLM病人預後的重要研究方向。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "可作為CRLM免疫微環境與新興治療的背景導讀，但摘要未提供系統性選文方法或量化療效比較。對台灣大腸直腸外科的即時決策價值有限，較適合有研究或教學需求時讀全文。",
+   "relevance": "中度相關",
+   "relevance_why": "主題直接涉及CRLM與手術及全身治療，但重點偏機轉與轉譯研究，缺乏可直接採用的臨床比較數據。",
+   "novelty": "仍屬早期",
+   "one_liner": "本綜述整理CRLM機轉與治療，無對照或總樣本數；新興策略多據臨床前證據，未量化療效。",
+   "action": "目前不需改變做法；勿僅憑本綜述，為CRLM病人新增免疫或代謝／表觀遺傳治療。",
+   "pico": {
+    "P": "大腸直腸癌肝轉移（CRLM）相關研究；納入研究數與總病人人數未報告。",
+    "I": "CRLM免疫微環境與轉移機轉，以及手術、ICIs及合併策略、標靶、局部區域與代謝／表觀遺傳治療。",
+    "C": "無對照組；敘述性討論肝轉移與肺轉移的免疫治療反應差異。",
+    "O": "未設定可辨識的主要或次要臨床終點；討論轉移機轉、免疫治療反應與治療進展，未提供量化療效結果。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "CRC全球發生率第3、癌症相關死亡率第2",
+    "同步性肝轉移約20–25%：診斷時或其後3–6個月",
+    "原發腫瘤治癒意圖切除後，異時性肝復發約20–50%"
+   ],
+   "cautions": [
+    "機轉證據多來自臨床前模型，不能直接推論病人存活獲益。",
+    "器官別臨床觀察多為回溯性，肝肺反應差異的因果歸屬須保留。",
+    "未報治療組別絕對療效或信賴區間，無法估計效益大小與精確度。"
+   ],
+   "unassessable": [
+    "文獻搜尋策略、資料庫、搜尋期間與納入排除標準",
+    "納入研究數、總樣本數及研究間重疊情形",
+    "納入研究的偏誤風險與證據確定性評估",
+    "所引臨床試驗的分派隱匿、盲法、ITT分析、失訪率與試驗註冊",
+    "治療效果是否依MSI／MMR狀態、治療線別與肝轉移負荷分層",
+    "利益衝突、資金來源與成本效益"
+   ],
+   "context_verdict": "再確認",
+   "context": "與先前列出的三篇CRLM綜述主題高度重疊，均整理肝臟免疫耐受微環境及現行與新興治療策略，未提供原創臨床療效比較。本篇摘要另著重腸道微生物群—代謝—表觀遺傳軸與肝肺轉移的免疫反應差異，但僅憑現有摘要無法確認是否補足前作缺口；此處的再確認是綜述方向一致，並非新增臨床療效驗證。",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3221,
+    "input_tokens_details": {
+     "cache_write_tokens": 3218,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 3218
+     },
+     "cached_tokens": 0
+    },
+    "output_tokens": 1746,
+    "output_tokens_details": {
+     "reasoning_tokens": 160
+    },
+    "total_tokens": 4967
+   },
+   "added_at": "2026-11-16T09:41:09+08:00"
+  },
+  {
+   "pmid": "43034281",
+   "title": "A wearable perspiration biosensor for continuous biomarker monitoring in inflammatory bowel disease: Feasibility, concordance, and exploratory temporal dynamics",
+   "journal": "Clin Transl Med",
+   "journal_full": "Clinical and translational medicine",
+   "issn": "2001-1326",
+   "issn_linking": "2001-1326",
+   "impact_factor": 7.9,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.1002/ctm2.70896",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Ramasubramanya A, Lin K, Shahub S, McDermott A, Fine Z, Hirten R",
+   "abstract": "BACKGROUND: Serum C-reactive protein (CRP) and faecal calprotectin, used to monitor inflammatory bowel disease (IBD) between endoscopies, require intermittent blood or stool sampling. We assessed whether a skin-worn perspiration sensor could measure CRP and calprotectin continuously; TNFα and IL-6 were exploratory analytes.\nMETHODS: At three US centres, perspiration biomarkers were recorded continuously for 3-30 days in 52 IBD patients (27 ulcerative colitis, 24 Crohn's disease, 1 indeterminate colitis) and 19-32 days in 9 controls, with serum CRP and faecal calprotectin sampled at baseline and study end. Agreement was assessed using correlation and Bland-Altman analysis; ROC-derived cutoffs matched serum CRP 5 mg/L and faecal 250 µg/g. Circadian rhythmicity and ultradian (4-12 h) power were compared among biochemically active IBD (serum CRP > 5 mg/L; n = 15), inactive (n = 37), and controls.\nRESULTS: 47 of 52 IBD participants (90.4%) completed the protocol. Across 99 paired observations, perspiration CRP correlated with serum CRP (r = .52-.58); perspiration and faecal calprotectin correlated in ulcerative colitis (r = .59-.62) but not in Crohn's disease. A perspiration CRP cutoff of 1551 pg/mL (serum 5 mg/L) gave 85.7% sensitivity and 89.4% specificity; a calprotectin cutoff of 385 (µg/g)·min (faecal 250 µg/g) gave 92.3% and 67.9%. Negative predictive values were high (95%-97%), positive modest (57%). Circadian MESOR and amplitude of both markers were higher in active than inactive IBD. Ultradian power differed by group for calprotectin (Kruskal-Wallis p = .0005) and CRP (p = .0037)-highest in active disease, lowest in controls-but the active-inactive difference was non-significant after false-discovery-rate correction.\nCONCLUSIONS: Perspiration CRP agreed moderately with serum CRP, and perspiration calprotectin with faecal calprotectin in ulcerative colitis only. Their high negative predictive values support the study as a non-invasive adjunct to, not a substitute for, standard-of-care testing. All findings are preliminary, and the temporal-dynamics results are hypothesis-generating, needing confirmation in a larger, prospectively designed, endoscopy-anchored cohort.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42446529",
+     "date": "2026-07-15",
+     "title_zh": "評估血清人類半乳糖凝集素3作為發炎性腸道疾病活性指標並與糞便鈣衛蛋白比較",
+     "score": 3,
+     "one_liner": "在40名活動期IBD病人與40名對照中，比較血清galectin 3與糞便鈣衛蛋白，發現galectin 3診斷準確度達99.6%（切點>5.199 µg/ml）。",
+     "sim": 0.238
+    },
+    {
+     "pmid": "42446529",
+     "date": "2026-07-16",
+     "title_zh": "評估血清人類半乳糖凝集素3作為發炎性腸道疾病活性指標並與糞便鈣衛蛋白比較",
+     "score": 3,
+     "one_liner": "在40名活動期IBD病人與40名對照中，比較血清galectin 3與糞便鈣衛蛋白，發現galectin 3診斷準確度達99.6%（切點>5.199 µg/ml）。",
+     "sim": 0.238
+    },
+    {
+     "pmid": "42380492",
+     "date": "2026-07-01",
+     "title_zh": "循環 tRF-Gly-GCC 作為大腸直腸癌與克隆氏症疾病活性之生物標記",
+     "score": 3,
+     "one_liner": "在85名受試者（含大腸直腸癌、活動/非活動克隆氏症、健康對照）中，測量血清 tRF-Gly-GCC，發現其可高敏感度/特異度區分各組（如CRC vs 對照：95.8%/95.2%）。",
+     "sim": 0.199
+    }
+   ],
+   "title_zh": "以穿戴式汗液生物感測器持續監測發炎性腸道疾病生物標記：可行性、一致性與探索性時間動態",
+   "abstract_zh": "背景：血清C反應蛋白（CRP）與糞便鈣衛蛋白用於內視鏡檢查之間的發炎性腸道疾病（IBD）監測，但需要間歇性採集血液或糞便。我們評估皮膚穿戴式汗液感測器能否持續測量CRP與鈣衛蛋白；TNFα與IL-6則為探索性分析物。\n方法：在美國三個中心，對52名IBD病人（27名潰瘍性結腸炎、24名克隆氏症、1名未定型結腸炎）連續記錄汗液生物標記3–30天，另對9名對照者記錄19–32天，並於基線與研究結束時採樣測量血清CRP及糞便鈣衛蛋白。以相關分析及Bland–Altman分析評估一致性；透過ROC分析取得對應血清CRP 5 mg/L及糞便鈣衛蛋白250 µg/g的切點。比較生化活動性IBD組（血清CRP >5 mg/L；n=15）、非活動性組（n=37）及對照組的晝夜節律與超日節律（4–12小時）功率。\n結果：52名IBD參與者中，47名（90.4%）完成研究流程。在99筆配對觀測中，汗液CRP與血清CRP呈相關（r=0.52–0.58）；汗液與糞便鈣衛蛋白在潰瘍性結腸炎中呈相關（r=0.59–0.62），但在克隆氏症中未呈相關。汗液CRP切點1551 pg/mL（對應血清5 mg/L）的敏感度為85.7%、特異度為89.4%；鈣衛蛋白切點385 (µg/g)·min（對應糞便250 µg/g）的敏感度為92.3%、特異度為67.9%。陰性預測值高（95%–97%），陽性預測值則有限（57%）。活動性IBD組兩種標記的晝夜節律MESOR（節律校正平均值）與振幅均高於非活動性組。鈣衛蛋白（Kruskal–Wallis p=0.0005）與CRP（p=0.0037）的超日節律功率存在組間差異，活動性疾病組最高、對照組最低；但經偽發現率校正後，活動性與非活動性組間的差異未達統計顯著。\n結論：汗液CRP與血清CRP呈中度一致性，而汗液與糞便鈣衛蛋白的一致性僅見於潰瘍性結腸炎。其高陰性預測值支持將此研究方法作為非侵入性的輔助工具，而非取代標準照護檢測。所有發現均屬初步結果，時間動態結果僅供提出假說，需要在更大型、以前瞻性設計且以內視鏡為參照的世代中確認。",
+   "evidence_level": "診斷性研究",
+   "score": 5,
+   "score_reason": "三中心人體研究提供穿戴監測的可行性與初步診斷效能，但樣本小，且未以內視鏡驗證疾病活動性。對IBD追蹤具有新意，尚不足以改變台灣大腸直腸外科的檢測或治療決策。",
+   "relevance": "中度相關",
+   "relevance_why": "涉及IBD非侵入性追蹤，但尚未證實能改善手術決策、術後復發監測或病人結局。",
+   "novelty": "仍屬早期",
+   "one_liner": "在52名IBD病人中，比較汗液與標準檢測，汗液CRP與血清呈中度相關（r=0.52–0.58）。",
+   "action": "目前不需改變做法；IBD追蹤仍用標準檢測，勿憑汗液陰性結果排除內視鏡活動性。",
+   "pico": {
+    "P": "美國三中心52名IBD病人：潰瘍性結腸炎27名、克隆氏症24名、未定型結腸炎1名；另有9名對照者。",
+    "I": "穿戴式汗液感測器連續監測CRP及鈣衛蛋白；TNFα、IL-6為探索性分析物。",
+    "C": "基線及研究結束時的血清CRP與糞便鈣衛蛋白；另比較生化活動性IBD、非活動性IBD及對照組。",
+    "O": "評估研究完成情形、汗液與標準檢測的一致性及診斷效能；探索晝夜與超日節律。摘要未明列主要與次要終點層級。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "IBD完成研究47/52人（90.4%）；配對觀測99筆",
+    "汗液CRP：敏感度85.7%、特異度89.4%",
+    "汗液鈣衛蛋白：敏感度92.3%、特異度67.9%"
+   ],
+   "cautions": [
+    "以生化指標而非內視鏡作參照，不能據此判定黏膜癒合。",
+    "僅52名IBD、99筆配對；效能未附信賴區間，重複測量處理不明。",
+    "克隆氏症鈣衛蛋白不相關；節律活動組間差異校正後不顯著。"
+   ],
+   "unassessable": [
+    "收案是否連續、完整納入排除條件及疾病嚴重度分布",
+    "感測器與參照檢測判讀是否互盲",
+    "5名未完成研究者的原因及缺失資料處理",
+    "同一受試者重複觀測的統計處理方式",
+    "診斷效能的信賴區間、完整列聯表及各分析實際樣本數",
+    "ROC切點是否預先指定，以及是否有獨立驗證資料",
+    "Bland–Altman偏差與一致性界限的實際數值",
+    "內視鏡及組織學活動性、治療變動與長期臨床結局",
+    "試驗註冊、研究計畫預先指定程度、資助來源及利益衝突",
+    "皮膚耐受性、裝置故障率、成本與台灣臨床可取得性"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "先前的galectin 3及tRF-Gly-GCC研究同樣探索IBD生物標記，本篇將間歇性血液檢測延伸至穿戴式汗液連續監測，並探索時間節律。由於標記、檢體與參照標準不同，不能直接比較診斷優劣，也不能視為對前作效能的再驗證。",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3458,
+    "input_tokens_details": {
+     "cache_write_tokens": 3455,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 3455
+     },
+     "cached_tokens": 0
+    },
+    "output_tokens": 2102,
+    "output_tokens_details": {
+     "reasoning_tokens": 293
+    },
+    "total_tokens": 5560
+   },
+   "added_at": "2026-11-16T09:41:09+08:00"
+  },
+  {
+   "pmid": "43031697",
+   "title": "Molecular subtypes associated with lymph node metastasis in colorectal cancer reveal the tumor-promoting role of GDI1 and the preclinical activity of deslanoside",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1093/nar/gkab294",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Zheng J, Ming R, He Y, Xi X",
+   "abstract": "BACKGROUND: Lymph node metastasis (LNM) is central to colorectal cancer staging and treatment decisions and marks a critical transition from local growth to regional dissemination. The molecular heterogeneity associated with lymph node metastasis and the corresponding intervention leads require systematic investigation.\nMETHODS: This study established the C1 to C4 molecular subtypes from lymph node metastasis-related expression features. Multiple transcriptomic cohorts, clinical composition, pathway features, and TIDE, IPS, and ESTIMATE scores were integrated to characterize subtype differences. Analyses across multiple cohorts were used to screen candidate genes associated with progression. Cellular and subcutaneous xenograft experiments were performed to evaluate GDI1 function. The GDI1 structure was used for virtual screening and molecular dynamics analysis, followed by phenotypic evaluation of Deslanoside in cellular and xenograft models.\nRESULTS: Four molecular subtypes displayed distinct expression profiles, clinical composition, and tumor microenvironment features. C4 showed coordinated enrichment of invasive, mesenchymal, hypoxia-related, and stromal programs together with algorithmic features associated with restricted immune effector activity. Analyses across multiple cohorts identified GDI1 as a candidate gene associated with adverse outcomes and progression. Two independent shRNAs reduced GDI1 expression, cell growth, and migration-related phenotypes in two colorectal cancer cell lines. GDI1 knockdown using shGDI1 #1 also reduced subcutaneous xenograft burden. Deslanoside ranked among the leading candidates in the computational screen. Deslanoside treatment produced antitumor phenotypes in cellular and xenograft models that were directionally concordant with those produced by GDI1 depletion.\nCONCLUSION: This study delineates the molecular heterogeneity associated with lymph node metastasis in colorectal cancer, supports a tumor-promoting role for GDI1, and provides a basis for further investigation of Deslanoside as a candidate compound.",
+   "watched": [],
+   "related": [],
+   "title_zh": "大腸直腸癌淋巴結轉移相關分子亞型揭示 GDI1 的促腫瘤作用及 deslanoside 的臨床前活性",
+   "abstract_zh": "背景：淋巴結轉移（LNM）是大腸直腸癌分期與治療決策的核心，並標誌著腫瘤由局部生長轉向區域播散的關鍵階段。淋巴結轉移相關的分子異質性及相應的介入研究線索，仍需系統性探討。\n方法：本研究根據淋巴結轉移相關的表現特徵，建立 C1 至 C4 分子亞型。整合多個轉錄體世代資料、臨床組成、訊息路徑特徵，以及 TIDE、IPS 與 ESTIMATE 評分，以描述各亞型間的差異。透過跨多個世代的分析，篩選與疾病進展相關的候選基因。進行細胞及皮下異種移植實驗，以評估 GDI1 的功能。利用 GDI1 結構進行虛擬篩選與分子動力學分析，隨後在細胞及異種移植模型中評估 deslanoside 的表型效應。\n結果：四種分子亞型呈現不同的表現譜、臨床組成與腫瘤微環境特徵。C4 呈現侵襲、間質、缺氧相關及基質程式的協同富集，並具有與免疫效應活性受限相關的演算法特徵。跨多個世代的分析將 GDI1 鑑定為與不良結果及疾病進展相關的候選基因。兩種獨立的 shRNA 在兩株大腸直腸癌細胞株中，降低了 GDI1 表現、細胞生長及遷移相關表型。使用 shGDI1 #1 抑制 GDI1 表現，也降低了皮下異種移植腫瘤負荷。Deslanoside 在電腦運算篩選中名列前茅。Deslanoside 治療在細胞與異種移植模型中產生抗腫瘤表型，其作用方向與降低 GDI1 表現所產生的效應一致。\n結論：本研究描繪了大腸直腸癌淋巴結轉移相關的分子異質性，支持 GDI1 具有促腫瘤作用，並為進一步研究 deslanoside 作為候選化合物提供基礎。",
+   "evidence_level": "其他",
+   "score": 3,
+   "score_reason": "多世代轉錄體分析搭配細胞與動物功能實驗，提供機轉研究線索，但摘要未報樣本數或量化效應。尚無人體療效或臨床決策效益資料，對台灣大腸直腸外科即時實務的價值有限。",
+   "relevance": "低度相關",
+   "relevance_why": "主題涉及大腸直腸癌淋巴結轉移，但主要為分子分型及臨床前藥物研究，尚不能指導手術或輔助治療。",
+   "novelty": "仍屬早期",
+   "one_liner": "在例數未報的癌症世代及2株細胞中，比較分型與GDI1抑制效應，見促癌線索但效應量未報。",
+   "action": "目前不需改變做法；勿依此前臨床結果，對大腸直腸癌病人使用 deslanoside 抗癌。",
+   "pico": {
+    "P": "多個大腸直腸癌轉錄體世代，總人數未報；另含2株大腸直腸癌細胞株及皮下異種移植模型，動物數未報。",
+    "I": "依淋巴結轉移相關表現特徵建立分子亞型；以 shRNA 抑制 GDI1；以 deslanoside 處理細胞與異種移植模型。",
+    "C": "C1至C4亞型間比較；GDI1抑制及deslanoside實驗的對照條件未於摘要交代。",
+    "O": "未明定主要與次要終點；評估分型之臨床及微環境特徵、GDI1與不良結果及進展的關聯、細胞生長與遷移相關表型，以及皮下異種移植腫瘤負荷。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "建立4種分子亞型（C1–C4）；各組人數未報。",
+    "2種獨立shRNA於2株癌細胞呈抑制表型，效應量未報。",
+    "動物實驗樣本數、腫瘤負荷差值及信賴區間均未報。"
+   ],
+   "cautions": [
+    "皮下腫瘤縮小不等於抑制淋巴結轉移，亦不代表人體療效。",
+    "藥物與基因抑制表型同向，不足以證明GDI1為直接藥物標的。",
+    "摘要未報樣本數、量化效應、p值或信賴區間，難判穩健性。"
+   ],
+   "unassessable": [
+    "各轉錄體世代的設計、樣本數、收案條件及資料是否重疊",
+    "分型建立與驗證程序，以及是否使用獨立外部驗證資料",
+    "臨床關聯分析的混雜因子校正、多重比較處理及缺失資料處理",
+    "動物實驗的隨機分組、分派隱蔽、盲法及樣本數估算",
+    "實驗對照條件、重複次數、排除規則及完整結果",
+    "Deslanoside劑量、暴露量、安全性與直接標的結合證據",
+    "研究預先註冊、資金來源及利益衝突"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 2898,
+    "input_tokens_details": {
+     "cache_write_tokens": 2895,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 2895
+     },
+     "cached_tokens": 0
+    },
+    "output_tokens": 1734,
+    "output_tokens_details": {
+     "reasoning_tokens": 211
+    },
+    "total_tokens": 4632
+   },
+   "added_at": "2026-11-16T09:41:09+08:00"
+  },
+  {
+   "pmid": "43027723",
+   "title": "IL-10 Beyond Immunosuppression: Unraveling Spatial, Cellular, and Metabolic Mechanisms of Gut Protection",
+   "journal": "Int J Mol Sci",
+   "journal_full": "International journal of molecular sciences",
+   "issn": "1422-0067",
+   "issn_linking": "1422-0067",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1038/s41467-023-40156-6",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Zhang Y, Liu X, Wang B, Yin H, Tian X, Zhao J",
+   "abstract": "Intestinal homeostasis requires immune tolerance, barrier integrity, tissue repair, and microbiota mutualism. Interleukin-10 (IL-10) is essential, but not merely as an immunosuppressant. Although IL-10 signals via the IL-10R-JAK1/TYK2-STAT3 axis, its outputs are cell-type and context dependent. In macrophages, IL-10 restrains IL-23 production, inflammasome activation, IL-1β release, and metabolic reprogramming. In T cells, it limits pathogenic T helper 17 cell (Th17) responses while stabilizing regulatory cells and promoting metabolically driven IL-10 production. In the epithelium, IL-10 maintains barrier integrity by limiting apoptosis, endoplasmic reticulum (ER) stress, and mucus defects. IL-10 and the gut microbiota engage in reciprocal regulation: microbial metabolites and structural components enhance IL-10 production and receptor responsiveness, whereas IL-10 signaling preserves microbial diversity and ecological resilience. This may help to explain why systemic recombinant IL-10 failed in Crohn's disease (CD)-increasing ligand abundance alone is unlikely to recapitulate endogenous localization or restore refractory target cells. Emerging strategies aim to tune IL-10 signaling through gut-selective delivery, engineered cytokines, conditionally activated prodrugs, regulatory cell approaches, and microbiome or metabolic interventions. Clinical translation requires biomarkers of IL-10R expression, STAT3 responsiveness, macrophage metabolic state, microbial signatures, and acquired IL-10 hyporesponsiveness. Despite the established role of IL-10 in intestinal homeostasis, systemic IL-10 therapy has failed in clinical trials, and there is a lack of effective strategies to restore IL-10 signaling in a spatially and cell-specific manner. The spatially organized, metabolically conditioned homeostatic IL-10 signaling-largely inferred from model systems and awaiting direct spatial validation in human intestine-offers a roadmap for more precise therapy in inflammatory bowel disease and related intestinal disorders.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42713082",
+     "date": "2026-09-10",
+     "title_zh": "腸道菌群衍生代謝物與IL-22訊號傳導在發炎性腸道疾病中的作用：黏膜修復與發炎反應之情境依賴性調控",
+     "score": 2,
+     "one_liner": "本綜述整理腸道菌群代謝物（SCFAs、膽酸、色胺酸-AhR、TMA/TMAO）與IL-22訊號傳導在IBD黏膜修復及發炎中的機轉關係，屬概念性框架，無臨床數據。",
+     "sim": 0.175
+    },
+    {
+     "pmid": "42495627",
+     "date": "2026-07-25",
+     "title_zh": "腸道菌群衍生代謝物在胃腸道癌症中的作用：透過色胺酸-芳香烴受體（AhR）軸之免疫調節機制與轉譯觀點",
+     "score": 2,
+     "one_liner": "本文綜述腸道菌群代謝物（SCFAs、膽酸、色胺酸-AhR軸）在胃腸道癌症中的免疫調節機轉，屬概念性整理，無臨床數據。",
+     "sim": 0.157
+    },
+    {
+     "pmid": "42495627",
+     "date": "2026-07-26",
+     "title_zh": "腸道微生物群衍生代謝物在胃腸道癌症中的作用：透過色胺酸-AhR軸的免疫調節機轉與轉譯醫學展望",
+     "score": 2,
+     "one_liner": "本文綜述腸道微生物代謝物（SCFAs、膽酸、色胺酸-AhR軸）在胃腸道癌症中的免疫調節機轉，屬機轉性文獻整理，無臨床數據。",
+     "sim": 0.157
+    }
+   ],
+   "title_zh": "超越免疫抑制的 IL-10：解析腸道保護的空間、細胞與代謝機轉",
+   "abstract_zh": "腸道恆定需要免疫耐受、屏障完整性、組織修復，以及與微生物群的互利共生。介白素-10（IL-10）不可或缺，但其作用不僅是免疫抑制。雖然 IL-10 透過 IL-10R–JAK1/TYK2–STAT3 軸傳遞訊號，其作用結果仍取決於細胞類型與情境。在巨噬細胞中，IL-10 抑制 IL-23 生成、發炎小體活化、IL-1β 釋放及代謝重編程。在 T 細胞中，它限制致病性輔助型 T 細胞 17（Th17）反應，同時穩定調節性細胞，並促進由代謝驅動的 IL-10 生成。在上皮中，IL-10 藉由限制細胞凋亡、內質網（ER）壓力及黏液缺陷，維持屏障完整性。IL-10 與腸道微生物群彼此調控：微生物代謝物及結構成分可增強 IL-10 生成與受體反應性，而 IL-10 訊號傳遞則維持微生物多樣性及生態韌性。這可能有助於解釋為何全身性重組 IL-10 用於克隆氏症（CD）會失敗——單純增加配體含量，不太可能重現內源性定位，或恢復不具反應性的標的細胞之功能。新興策略旨在透過腸道選擇性遞送、工程化細胞激素、條件性活化前驅藥物、調節性細胞策略，以及微生物群或代謝介入，調整 IL-10 訊號傳遞。臨床轉譯需要能反映 IL-10R 表現、STAT3 反應性、巨噬細胞代謝狀態、微生物特徵及後天性 IL-10 低反應性的生物標記。儘管 IL-10 在腸道恆定中的角色已確立，全身性 IL-10 治療在臨床試驗中仍告失敗，而且目前缺乏能以空間與細胞特異性方式恢復 IL-10 訊號傳遞的有效策略。這種具有空間組織性、受代謝條件調控的恆定性 IL-10 訊號傳遞——主要由模型系統推論，且仍待在人類腸道直接進行空間驗證——為發炎性腸道疾病及相關腸道疾患的更精準治療提供了路線圖。",
+   "evidence_level": "綜述",
+   "score": 2,
+   "score_reason": "摘要提供 IL-10 腸道保護的機轉框架，但核心空間假說主要來自模型系統，未提供可評估療效的臨床數據。對台灣大腸直腸外科即時決策幫助有限，較值得由關注 IBD 轉譯研究者閱讀全文。",
+   "relevance": "低度相關",
+   "relevance_why": "主題偏向 IBD 免疫與微生物機轉，未比較外科介入，也未提供可改變圍手術期或手術決策的結果。",
+   "novelty": "仍屬早期",
+   "one_liner": "整理IL-10腸道保護的空間與代謝機轉；文獻篇數未報，無臨床對照或療效數字。",
+   "action": "目前不需改變做法；勿據此為IBD病人使用IL-10相關新療法，因尚缺臨床療效驗證。",
+   "pico": {
+    "P": "腸道恆定、IBD 及相關腸道疾患的機轉文獻；納入文獻篇數與病人人數未報",
+    "I": "IL-10 的細胞特異性、空間與代謝調控，以及新興訊號調整策略",
+    "C": "無對照組",
+    "O": "整理免疫耐受、屏障完整性、組織修復及微生物群互利共生機轉；未設定或量化臨床主要與次要結局"
+   },
+   "effects": [],
+   "key_numbers": [
+    "納入文獻篇數、模型數及病人人數：摘要未報",
+    "緩解率、手術率及不良事件絕對值：摘要未報",
+    "全身性IL-10試驗被述為失敗，未附效應值或信賴區間"
+   ],
+   "cautions": [
+    "空間與代謝框架主要來自模型，尚待人類腸道直接驗證。",
+    "摘要未報檢索與文獻評讀方法，無法判斷證據涵蓋完整性。",
+    "臨床試驗失敗未附絕對數據或信賴區間，無法量化療效與傷害。"
+   ],
+   "unassessable": [
+    "文獻檢索策略、納入排除標準與涵蓋完整性",
+    "納入研究的品質評讀及偏誤風險",
+    "被引用臨床試驗的隨機化、分派隱蔽、盲法、ITT 與失訪情形",
+    "被引用臨床試驗的註冊與預先設定結局",
+    "作者利益衝突與資金來源",
+    "各新興策略的人體療效、安全性與成本",
+    "所提生物標記的臨床驗證程度"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "先前的 IL-22 與微生物代謝物綜述聚焦 IBD 黏膜修復及情境依賴性發炎；本篇將相近的菌群—細胞激素框架延伸至 IL-10，加入細胞、空間及代謝條件的討論。這是機轉主題的延伸，不是對前作的直接驗證，也未補上可改變臨床決策的人體療效數據。",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3333,
+    "input_tokens_details": {
+     "cache_write_tokens": 3330,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 3330
+     },
+     "cached_tokens": 0
+    },
+    "output_tokens": 1792,
+    "output_tokens_details": {
+     "reasoning_tokens": 232
+    },
+    "total_tokens": 5125
+   },
+   "added_at": "2026-11-16T09:41:09+08:00"
+  },
+  {
+   "pmid": "43026211",
+   "title": "Single-cell RNA sequencing reveals pro-tumorigenic intestinal mast cell programs in colorectal cancer",
+   "journal": "Cell Death Dis",
+   "journal_full": "Cell death & disease",
+   "issn": "2041-4889",
+   "issn_linking": "",
+   "impact_factor": 12.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1111/all.14103",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Putro E, Carnevale A, Marangio C, Pietropaolo G, Milito N, Peruzzi G",
+   "abstract": "Mast cells (MCs) are multifunctional immune cells with context-dependent functions in cancer. In colorectal cancer (CRC), their contribution remains debated, suggesting that distinct MC subsets may either support tumor progression or promote anti-tumor immunity. Using single-cell RNA sequencing in a mouse model of inflammation-driven CRC, we uncovered extensive MC plasticity during tumor progression. Transcriptomic profiling and pseudotime trajectory analysis revealed a transition from precursor-like MCs exclusively present in adjacent tissue to differentiated tumor-associated MC (TAMC) subsets. TAMCs displayed a distinct repertoire of proteases and pro-inflammatory cytokines, contributing to increased vascular permeability and recruitment of additional immune cells. Moreover, TAMCs exhibited upregulation of molecules with immunosuppressive potential and underwent a tumor microenvironment (TME)-driven metabolic reprogramming. Accordingly, antibody-mediated MC depletion reduced tumor burden. Notably, most of the transcriptional features identified in a murine CRC model were recapitulated in human CRC, supporting the translational relevance of this MC program. Our findings identify a tumor-adapted MC state that orchestrates immune evasion and tissue remodeling during CRC progression, supporting the notion that MC are reprogrammed toward an immune-suppressive and pro-tumorigenic phenotype.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42527030",
+     "date": "2026-07-31",
+     "title_zh": "IL-27 塑造大腸直腸癌中NK細胞的異質性與功能",
+     "score": 2,
+     "one_liner": "在AKPS小鼠CRC腫瘤模型中，IL-27阻斷降低NK細胞浸潤、IFN-γ產生與未成熟亞群比例，人類CRC單細胞資料佐證IL-27訊號上升。",
+     "sim": 0.172
+    },
+    {
+     "pmid": "42527030",
+     "date": "2026-08-01",
+     "title_zh": "IL-27如何塑造大腸直腸癌中NK細胞的異質性與功能",
+     "score": 2,
+     "one_liner": "在CRC小鼠腫瘤模型與人類單細胞資料中，比較IL-27阻斷與否，發現IL-27維持腫瘤內NK細胞浸潤、IFN-γ產生及未成熟亞群比例。",
+     "sim": 0.172
+    },
+    {
+     "pmid": "42761343",
+     "date": "2026-09-21",
+     "title_zh": "甲狀腺癌與大腸直腸癌的腫瘤免疫微環境：細胞間交互作用與治療意涵",
+     "score": 2,
+     "one_liner": "本綜述比較甲狀腺癌與大腸直腸癌的腫瘤免疫微環境異同，探討細胞間通訊與免疫治療策略發展方向，無原創數據。",
+     "sim": 0.165
+    }
+   ],
+   "title_zh": "單細胞RNA定序揭示大腸直腸癌中腸道肥大細胞的促腫瘤程式",
+   "abstract_zh": "肥大細胞（MCs）是具有多重功能的免疫細胞，其在癌症中的功能取決於所處情境。在大腸直腸癌（CRC）中，肥大細胞的作用仍有爭議，顯示不同的MC亞群可能支持腫瘤進展，也可能促進抗腫瘤免疫。我們在發炎驅動的CRC小鼠模型中，利用單細胞RNA定序，發現MC在腫瘤進展過程中具有廣泛的可塑性。轉錄體分析與擬時序軌跡分析顯示，僅存在於鄰近組織中的前驅樣MC，會轉變為已分化的腫瘤相關MC（TAMC）亞群。TAMC呈現獨特的蛋白酶與促發炎細胞激素表現譜，促使血管通透性增加，並招募更多免疫細胞。此外，TAMC中具有免疫抑制潛能的分子表現上調，並經歷由腫瘤微環境（TME）驅動的代謝重編程。與此一致，透過抗體清除MC可降低腫瘤負荷。值得注意的是，在小鼠CRC模型中辨識出的多數轉錄特徵，也在人類CRC中重現，支持此MC程式的轉譯相關性。我們的研究辨識出一種適應腫瘤環境的MC狀態，會在CRC進展過程中協調免疫逃脫與組織重塑，支持MC被重編程為免疫抑制及促腫瘤表型的觀點。",
+   "evidence_level": "其他",
+   "score": 2,
+   "score_reason": "單細胞分析、動物清除實驗與人類轉錄特徵提供機轉線索，但摘要未報樣本數、效應量或統計不確定性。尚無病人治療結果，對台灣大腸直腸外科近期決策的實用性低。",
+   "relevance": "低度相關",
+   "relevance_why": "屬CRC腫瘤免疫基礎研究，未評估外科處置或可直接應用的臨床治療。",
+   "novelty": "仍屬早期",
+   "one_liner": "在數量未報的CRC小鼠中，比較腫瘤與鄰近組織MC，發現腫瘤相關免疫抑制程式，效應量未報。",
+   "action": "目前不需改變做法；勿據此對CRC病人使用MC清除治療，尚缺人體療效與安全性證據。",
+   "pico": {
+    "P": "發炎驅動的CRC小鼠模型，並以人類CRC資料檢視轉錄特徵；動物與人類樣本數均未報告。",
+    "I": "腫瘤相關MC的單細胞RNA定序、轉錄體與擬時序分析，以及抗體介導的MC清除。",
+    "C": "轉錄體分析包含鄰近組織MC；MC清除實驗的對照條件未於摘要交代。",
+    "O": "摘要未指定主要或次要終點；評估MC狀態與轉錄程式、血管通透性、免疫細胞招募、代謝重編程及腫瘤負荷。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "動物與人類樣本數：摘要均未提供",
+    "MC清除後腫瘤負荷下降：絕對值與效應量未報",
+    "人類重現多數轉錄特徵：比例與統計值未報"
+   ],
+   "cautions": [
+    "發炎驅動小鼠模型不等同一般人類CRC；轉錄相似不代表治療有效",
+    "擬時序支持狀態轉換推論，不能取代譜系追蹤證明細胞來源",
+    "未報樣本數、腫瘤負荷絕對值或信賴區間，無法判斷效應大小"
+   ],
+   "unassessable": [
+    "動物與人類樣本數、選樣方式及樣本代表性",
+    "動物分組隨機化、分組隱蔽與盲法",
+    "抗體清除實驗的對照組、劑量、時程及MC清除專一性",
+    "樣本排除、動物耗損與缺失資料處理",
+    "單細胞分析的生物重複、批次效應與多重比較處理",
+    "人類資料來源、獨立驗證方式與臨床病理特徵",
+    "腫瘤負荷的測量方法、效應量及統計不確定性",
+    "研究預先註冊、利益衝突與資金來源",
+    "人體介入療效、安全性及成本效益"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3078,
+    "input_tokens_details": {
+     "cache_write_tokens": 3075,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 3075
+     },
+     "cached_tokens": 0
+    },
+    "output_tokens": 1672,
+    "output_tokens_details": {
+     "reasoning_tokens": 389
+    },
+    "total_tokens": 4750
+   },
+   "added_at": "2026-11-15T09:37:31+08:00"
+  },
+  {
+   "pmid": "43027351",
+   "title": "Proposed Interactions and Crosstalk Among Biological Aging Biomarkers (Telomere Length, Telomerase, Sirtuins, mtDNA Copy Number and mtDNA Methylation Levels) and Their Potential Role in Colorectal Cancer Risk: A Review",
+   "journal": "Cells",
+   "journal_full": "Cells",
+   "issn": "2073-4409",
+   "issn_linking": "2073-4409",
+   "impact_factor": 6.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1186/s12943-024-02096-7",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Macamo E, Naidoo P, Senzani S, Bhengu K, Kader S, Mkhize-Kwitshana Z",
+   "abstract": "There is a rapid increase in early onset CRC worldwide. This incidence is profoundly influenced by biological aging in the colon, yet the underlying mechanisms remain incompletely defined. This review critically evaluates evidence supporting proposed interactions among telomere dynamics, sirtuins, and mitochondrial biomarkers during colon aging and as CRC risk predictors, while highlighting areas where mechanistic validation remains limited. This insight paves the way for novel early-detection biomarkers, personalized preventive approaches, and treatments designed to directly interfere with aging mechanisms and CRC risk.",
+   "watched": [],
+   "related": [],
+   "title_zh": "生物老化標記（端粒長度、端粒酶、sirtuins、mtDNA 拷貝數及 mtDNA 甲基化程度）之間的擬議交互作用與交互調控，以及其在大腸直腸癌風險中的潛在角色：綜述",
+   "abstract_zh": "全球早發性大腸直腸癌（CRC）正快速增加。其發生率深受結腸生物老化影響，然而背後機制仍未完全釐清。本綜述批判性評估支持下列論點的證據：端粒動態、sirtuins 與粒線體生物標記在結腸老化過程中的擬議交互作用，以及它們作為 CRC 風險預測指標的角色，同時強調機制驗證仍有限的領域。這些見解為新型早期偵測生物標記、個人化預防策略，以及旨在直接干預老化機制與 CRC 風險的治療鋪路。",
+   "evidence_level": "綜述",
+   "score": 3,
+   "score_reason": "可作為老化與 CRC 生物標記研究的概念導讀，但摘要未提供量化結果，且明示機制驗證仍有限。對台灣大腸直腸外科近期診療決策的直接幫助有限，較適合有相關研究需求者讀全文。",
+   "relevance": "中度相關",
+   "relevance_why": "主題涉及 CRC 風險與早期偵測，但聚焦生物機制，未提供可直接採用的篩檢或外科處置證據。",
+   "novelty": "仍屬早期",
+   "one_liner": "本綜述整合端粒、sirtuins與粒線體標記的CRC風險證據；未載樣本數、組間比較或量化效應。",
+   "action": "目前不需改變做法；對年輕或疑似高風險病人，勿依這些尚待驗證的標記調整篩檢。",
+   "pico": {
+    "P": "涉及結腸老化與 CRC 風險的文獻；摘要未提供納入研究數或總樣本數。",
+    "I": "端粒長度與端粒酶、sirtuins、mtDNA 拷貝數及 mtDNA 甲基化程度，以及彼此的交互作用。",
+    "C": "無對照組",
+    "O": "探討上述標記與結腸老化、CRC 風險預測的關係；摘要未界定主要或次要結局。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "納入研究數與總樣本數：摘要未提供。",
+    "CRC絕對風險、組間差異及信賴區間：未提供。",
+    "預測效能與陰性結果：摘要均未量化報告。"
+   ],
+   "cautions": [
+    "機制關聯不等於因果，也不代表已驗證的CRC風險預測能力。",
+    "摘要未報絕對風險、效應量或信賴區間，無法判斷臨床效益。",
+    "未交代文獻搜尋與品質評讀方法，無法判斷證據選擇偏誤。"
+   ],
+   "unassessable": [
+    "文獻搜尋策略、納入排除標準及是否採系統性方法",
+    "納入研究的設計、數量、樣本數及偏誤風險",
+    "各生物標記的檢測方法、標準化程度及可重現性",
+    "年齡、生活型態等混雜因子的處理",
+    "風險預測效能、外部驗證及相對於既有工具的增益",
+    "臨床效益、成本效益與台灣族群適用性",
+    "綜述計畫註冊、資金來源及利益衝突"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 2631,
+    "input_tokens_details": {
+     "cache_write_tokens": 2628,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 2628
+     },
+     "cached_tokens": 0
+    },
+    "output_tokens": 1352,
+    "output_tokens_details": {
+     "reasoning_tokens": 334
+    },
+    "total_tokens": 3983
+   },
+   "added_at": "2026-11-15T09:37:31+08:00"
+  },
+  {
+   "pmid": "43027336",
+   "title": "Colorectal Cancer Biomarkers: The Expanding Landscape",
+   "journal": "Cells",
+   "journal_full": "Cells",
+   "issn": "2073-4409",
+   "issn_linking": "2073-4409",
+   "impact_factor": 6.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1038/s41591-025-04030-w",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Herbetko K, Herbetko A, Suwała S, Czarny J, Rudno-Rudzińska J, Milbrandt O",
+   "abstract": "Colorectal cancer (CRC) remains one of the most common malignancies worldwide and a leading cause of cancer-related mortality. Recent advances in CRC molecular biology have focused on biomarkers for early detection, prognostic stratification, treatment selection, and disease monitoring. Clinically validated biomarkers, including microsatellite instability (MSI), RAS and BRAF mutations, HER2 amplification, and carcinoembryonic antigen (CEA), guide targeted therapy and predict treatment response. However, tumor heterogeneity, clonal evolution, and microenvironmental influences limit the predictive value of single biomarkers. Recent molecular diagnostics therefore increasingly focus on dynamic and minimally invasive approaches. Circulating tumor DNA (ctDNA) is a promising biomarker for detecting minimal residual disease, monitoring recurrence, and assessing tumor evolution in real time. Multi-omics profiling, spatial transcriptomics, and artificial intelligence further expand tumor characterization except for conventional genomic alterations. Our review integrates common CRC biomarkers with developing liquid biopsy, multi-omics, spatial transcriptomics, and artificial intelligence approaches across early detection, prognosis, treatment selection, and longitudinal monitoring. Future biomarker strategies will likely rely on integrated molecular models combined with longitudinal liquid-biopsy assessment. However, most new biomarkers remain at the investigational stage, and assay heterogeneity, limited standardization, and insufficient prospective clinical validation currently restrict their routine clinical use.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42930172",
+     "date": "2026-10-27",
+     "title_zh": "循環腫瘤DNA（ctDNA）用於大腸直腸癌（CRC）微小殘留疾病（MRD）偵測：現有證據、臨床應用與未來方向",
+     "score": 6,
+     "one_liner": "94篇CRC文獻比較ctDNA陽性與陰性：陽性與高復發相關，較常規早2.5–11.5月示警。",
+     "sim": 0.263
+    },
+    {
+     "pmid": "42737462",
+     "date": "2026-09-16",
+     "title_zh": "單株抗體標靶治療（Panitumumab）於轉移性大腸直腸癌治療中的角色—當前證據與新興治療策略之敘述性回顧",
+     "score": 3,
+     "one_liner": "敘述性回顧整理panitumumab於RAS/BRAF野生型左側mCRC之現行證據，含ctDNA監測與免疫治療併用之新興策略。",
+     "sim": 0.243
+    },
+    {
+     "pmid": "42737462",
+     "date": "2026-09-17",
+     "title_zh": "單克隆抗體標靶治療（Panitumumab）於轉移性大腸直腸癌之角色：現行證據與新興治療策略之敘述性回顧",
+     "score": 3,
+     "one_liner": "敘述性回顧整理panitumumab於RAS/BRAF野生型左側mCRC之定位，引述PRIME試驗OS延長5.6個月、CHRONOS研究ctDNA篩選rechallenge反應率30%。",
+     "sim": 0.243
+    }
+   ],
+   "title_zh": "大腸直腸癌生物標記：持續擴展的版圖",
+   "abstract_zh": "大腸直腸癌（CRC）仍是全球最常見的惡性腫瘤之一，也是癌症相關死亡的主要原因之一。近期CRC分子生物學的進展，聚焦於用於早期偵測、預後分層、治療選擇及疾病監測的生物標記。經臨床驗證的生物標記，包括微衛星不穩定性（MSI）、RAS與BRAF突變、HER2擴增，以及癌胚抗原（CEA），可引導標靶治療並預測治療反應。然而，腫瘤異質性、克隆演化與微環境的影響，限制了單一生物標記的預測價值。因此，近期分子診斷日益著重於動態且微創的方法。循環腫瘤DNA（ctDNA）是一項具有潛力的生物標記，可用於偵測微小殘留疾病、監測復發，以及即時評估腫瘤演化。多體學分析、空間轉錄體學與人工智慧，進一步將腫瘤特徵分析擴展至傳統基因體變異以外的層面。本篇綜述整合常見CRC生物標記，以及持續發展中的液態切片、多體學、空間轉錄體學與人工智慧方法，涵蓋早期偵測、預後、治療選擇及縱向監測。未來的生物標記策略，很可能仰賴整合式分子模型，並結合縱向液態切片評估。然而，多數新型生物標記仍處於研究階段，且檢測方法的異質性、標準化不足，以及前瞻性臨床驗證不足，目前仍限制其常規臨床應用。",
+   "evidence_level": "綜述",
+   "score": 5,
+   "score_reason": "適合快速掌握CRC生物標記版圖，與台灣臨床分子檢測及術後監測議題相關。但摘要未交代文獻搜尋與品質評讀方法，也未提供量化效益，較適合作為背景閱讀，而非改變實務的依據。",
+   "relevance": "高度相關",
+   "relevance_why": "直接涵蓋CRC治療選擇、預後分層及術後MRD與復發監測，是外科跨科決策常見議題。",
+   "novelty": "仍屬早期",
+   "one_liner": "本綜述（篇數未報）整合CRC既有與新興標記，未量化比較臨床效益，多數新標記仍屬研究階段。",
+   "action": "目前不需改變做法；對術後CRC病人，勿僅憑本綜述以新型標記調整輔助治療或追蹤。",
+   "pico": {
+    "P": "涵蓋早期偵測、預後、治療選擇與縱向監測情境的CRC相關文獻；篇數與總病人數未提供。",
+    "I": "液態切片與ctDNA、多體學、空間轉錄體學及人工智慧整合方法。",
+    "C": "非單一對照研究；討論既有MSI、RAS、BRAF、HER2及CEA標記，未提供直接比較資料。",
+    "O": "涵蓋早期偵測、預後分層、治療反應預測、MRD偵測、復發監測與腫瘤演化評估；未區分主要與次要結果。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "納入文獻篇數與總病人數：摘要未提供。",
+    "偵測效能、復發率及存活絕對值：均未提供。",
+    "組間效益與陰性結果：未報數值，無法估算ARR／NNT。"
+   ],
+   "cautions": [
+    "可偵測MRD不等於依檢測調整治療能改善存活。",
+    "未提供絕對效益或信賴區間，無法判斷臨床效益大小。",
+    "新標記多仍屬研究階段；檢測異質性與標準化不足限制外推。"
+   ],
+   "unassessable": [
+    "文獻搜尋策略、搜尋期間與納入排除標準",
+    "是否採系統性搜尋及雙人獨立篩選",
+    "納入研究數、總樣本數與各研究設計",
+    "原始研究的偏誤風險與整體證據確定性",
+    "各檢測平台、判定閾值及採樣時點",
+    "各標記的定量診斷效能與病人重要臨床結局",
+    "台灣檢測可近性、成本效益與健保適用情形",
+    "綜述註冊、資金來源與利益衝突"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "相較前述ctDNA／MRD綜述，本篇將範圍擴展至既有分子標記、多體學、空間轉錄體學與人工智慧，補上跨技術整合的視角。兩者均涉及ctDNA的監測潛力，但本篇摘要未提供新增量化效益，也不能據此認定標記導引治療已改善臨床結局。",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3116,
+    "input_tokens_details": {
+     "cache_write_tokens": 3113,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 3113
+     },
+     "cached_tokens": 0
+    },
+    "output_tokens": 1621,
+    "output_tokens_details": {
+     "reasoning_tokens": 251
+    },
+    "total_tokens": 4737
+   },
+   "added_at": "2026-11-15T09:37:31+08:00"
+  },
+  {
+   "pmid": "43027325",
+   "title": "Temperature as a Neglected Variable in Cancer: Cell-Intrinsic Thermal Sensitivity, Fever-Range Immunity, and the Febrile Paradox",
+   "journal": "Cells",
+   "journal_full": "Cells",
+   "issn": "2073-4409",
+   "issn_linking": "2073-4409",
+   "impact_factor": 6.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1371/journal.pone.0015903",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Linnebacher M, Schwarz S, Schafmayer C",
+   "abstract": "Temperature is a fundamental physical variable affecting protein folding, proteostasis, cell-cycle kinetics, and immune function, yet cancer cell biology is performed almost exclusively at a fixed 37 °C, and distinct thermal phenomena are often conflated under the single term \"hyperthermia.\" This review examines the biology of mild, fever-range temperature excursions of approximately 38-41 °C, which are mechanistically distinct from externally induced hyperthermia. We synthesize three strands of evidence that have rarely been considered together. First, tumor cells display heterogeneous thermal sensitivity, with differences in growth, cell-cycle responses, and thermal tolerance that may reflect intrinsic molecular features and proteostatic reserve, including the heat-shock response mediated by HSF1 and HSP70/HSP90. Second, fever-range temperatures remodel antitumor immunity across innate and adaptive compartments, affecting immune-cell trafficking, membrane organization, metabolism, and tumor-immune recognition. Third, the clinical record appears controversial: febrile infections have been associated with lower subsequent cancer risk, whereas postoperative fever has been associated with worse prognosis. We argue that these observations cannot be interpreted without considering host state, timing, and the biological context in which temperature elevation occurs. The three evidence streams are of unequal strength: cell-intrinsic thermal sensitivity and fever-range immune effects rest on direct experimental data, much of it from colorectal cancer, which we adopt as the principal proof-of-concept model, whereas the clinical associations are largely retrospective, and we treat them with correspondingly different confidence. We therefore frame a central testable question: is cell-intrinsic thermal sensitivity a cause or a correlate of fever's effects on cancer? We propose an experimental agenda that separates cell-autonomous thermal responses from host-mediated effects and establishes temperature as an explicit, biologically informative variable in cancer research.",
+   "watched": [],
+   "related": [],
+   "title_zh": "癌症中被忽視的變項：細胞內在溫度敏感性、發燒範圍免疫作用與發燒悖論",
+   "abstract_zh": "溫度是影響蛋白質摺疊、蛋白質恆定、細胞週期動力學及免疫功能的基本物理變項，然而，癌細胞生物學研究幾乎全都在固定的37°C下進行，而且不同的溫度相關現象常被混為一談，統稱為「高溫熱療」。本篇綜述探討約38–41°C、處於發燒範圍的輕度溫度變動之生物學，其機轉與外部誘導的高溫熱療不同。我們整合了三條過去鮮少一起考量的證據脈絡。第一，腫瘤細胞呈現異質性的溫度敏感性，其生長、細胞週期反應及耐熱性的差異，可能反映細胞內在分子特徵與蛋白質恆定的儲備能力，包括由HSF1及HSP70/HSP90介導的熱休克反應。第二，發燒範圍的溫度會重塑先天與適應性免疫系統的抗腫瘤免疫作用，影響免疫細胞遷移、細胞膜組織結構、代謝，以及腫瘤與免疫系統之間的辨識。第三，臨床紀錄看似存在爭議：伴隨發燒的感染與日後較低的癌症風險有關，而術後發燒則與較差的預後有關。我們主張，若不考量宿主狀態、時間點及體溫升高所處的生物學情境，就無法解讀這些觀察結果。這三條證據脈絡的強度並不相等：細胞內在溫度敏感性與發燒範圍的免疫效應有直接實驗資料支持，其中許多來自大腸直腸癌研究，因此我們將其作為主要的概念驗證模型；相較之下，臨床關聯性證據大多為回溯性研究，我們也據此給予不同程度的信心。因此，我們提出一個可檢驗的核心問題：細胞內在溫度敏感性究竟是發燒影響癌症的原因，還是僅為相關現象？我們提出一套實驗研究議程，將細胞自主性的溫度反應與宿主介導的效應分開，並將溫度確立為癌症研究中一項明確且具有生物學資訊價值的變項。",
+   "evidence_level": "綜述",
+   "score": 4,
+   "score_reason": "整合實驗與臨床觀察並明確區分證據強弱，具研究啟發性；但摘要未提供系統性搜尋方法或臨床效應量，對台灣大腸直腸外科即時決策的幫助有限。",
+   "relevance": "中度相關",
+   "relevance_why": "以大腸直腸癌作為主要概念驗證模型，也討論術後發燒，但未直接評估外科處置策略。",
+   "novelty": "仍屬早期",
+   "one_liner": "本綜述以大腸直腸癌為主（人數未載），整合38–41°C溫度反應與免疫證據，臨床效應未定。",
+   "action": "目前不需改變做法；對大腸直腸癌術後發燒者，仍依既有流程查因，勿據此誘導發燒或延誤處置。",
+   "pico": {
+    "P": "腫瘤細胞、抗腫瘤免疫及癌症臨床關聯研究，以大腸直腸癌為主要概念驗證模型；研究篇數與病人人數未提供。",
+    "I": "約38–41°C的發燒範圍溫度變動，以及伴隨發燒的感染或術後發燒。",
+    "C": "非單一對照設計；摘要提及常規固定37°C的研究條件，但未提供各研究的具體對照組。",
+    "O": "腫瘤細胞生長、細胞週期與耐熱性；抗腫瘤免疫反應、後續癌症風險及術後預後。摘要未指定主要與次要結果。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "癌細胞生物學研究幾乎均採固定37°C。",
+    "本綜述聚焦約38–41°C的發燒範圍。",
+    "癌症風險與術後預後均未提供絕對數值或效應量。"
+   ],
+   "cautions": [
+    "臨床關聯多來自回溯性研究，不能推論發燒造成預後改變。",
+    "發燒範圍效應不等於外加熱療，不能據此建議誘導發燒。",
+    "未報研究篇數、樣本數、絕對風險或信賴區間，無法量化效益。"
+   ],
+   "unassessable": [
+    "文獻搜尋策略、納入排除標準及是否完整涵蓋相關證據",
+    "納入研究的偏誤風險評估及研究間異質性",
+    "臨床研究對感染嚴重度、腫瘤分期及術後併發症等混雜因子的控制",
+    "各研究的溫度暴露時間、測量方式與臨床追蹤期間",
+    "納入介入性研究的隨機化、分派隱蔽、盲法及ITT分析情形（若適用）",
+    "納入臨床研究的失訪率與試驗註冊情形（若適用）",
+    "本綜述及納入研究的資金來源與利益衝突"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 2870,
+    "input_tokens_details": {
+     "cache_write_tokens": 2867,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 2867
+     },
+     "cached_tokens": 0
+    },
+    "output_tokens": 1716,
+    "output_tokens_details": {
+     "reasoning_tokens": 189
+    },
+    "total_tokens": 4586
+   },
+   "added_at": "2026-11-15T09:37:31+08:00"
+  },
+  {
+   "pmid": "43030203",
+   "title": "Zinc in Inflammatory Bowel Disease: Biological Functions, Clinical Associations and Therapeutic Uncertainty",
+   "journal": "Nutrients",
+   "journal_full": "Nutrients",
+   "issn": "2072-6643",
+   "issn_linking": "2072-6643",
+   "impact_factor": 5.8,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.3390/NU16020280",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Hall R, Colwill M, Bancil A, Patel K, Honap S, Poullis A",
+   "abstract": "Zinc deficiency is reported in up to half of patients with inflammatory bowel disease (IBD), yet interpreting a low serum zinc concentration can be challenging. Zinc is an essential micronutrient with important roles in epithelial barrier integrity, immune regulation and cellular signalling, providing biological plausibility that deficiency could contribute to intestinal inflammation. Observational studies have associated low serum zinc with adverse outcomes, including hospitalisation, surgery and relapse, particularly in Crohn's disease. However, both systemic inflammation and hypoalbuminaemia reduce circulating zinc concentrations, raising uncertainty as to whether low zinc represents a true deficiency, a marker of active disease or a potentially modifiable contributor to inflammation. This narrative review examines the mechanistic, observational and interventional evidence linking zinc with IBD. Experimental studies support effects on tight-junction integrity, mucus production, Paneth cell function and immune signalling. Despite this biological rationale and the associations seen in observational studies, evidence that zinc supplementation improves IBD-related outcomes remains limited. Existing studies are small, heterogeneous and often rely on surrogate outcomes, while oral supplementation has not consistently improved clinical or inflammatory endpoints. Zinc deficiency should be identified and corrected as part of nutritional care in IBD but serum zinc concentrations should be interpreted in the context of underlying inflammation, and the benefit of routine zinc monitoring remains uncertain. Well-designed prospective trials are needed to determine whether correcting zinc deficiency improves objective IBD outcomes.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42339686",
+     "date": "2026-06-24",
+     "title_zh": "治療性鋅可靶向失調的GC-C訊號傳導並修復家族性腹瀉疾病前臨床模型中的迴腸缺陷",
+     "score": 2,
+     "one_liner": "在GC-C突變前臨床小鼠模型與腸道類器官中，比較鋅投予與未治療，發現鋅可恢復cGMP水平與腸道屏障功能。",
+     "sim": 0.152
+    }
+   ],
+   "title_zh": "鋅與發炎性腸道疾病：生物功能、臨床關聯與治療上的不確定性",
+   "abstract_zh": "據報告，發炎性腸道疾病（IBD）患者中，多達半數有鋅缺乏，但低血清鋅濃度的判讀可能具有挑戰性。鋅是必需微量營養素，在上皮屏障完整性、免疫調節及細胞訊息傳遞中扮演重要角色，因此鋅缺乏可能促進腸道發炎，在生物學上具有合理性。觀察性研究發現，低血清鋅與住院、手術及復發等不良結局相關，尤其是在克隆氏症患者中。然而，全身性發炎與低白蛋白血症都會降低循環中的鋅濃度，因此低鋅究竟代表真正缺乏、疾病活動的標記，還是可能透過介入改善的發炎促進因子，仍不確定。本敘述性綜述檢視鋅與IBD之間的機轉、觀察性及介入性證據。實驗研究支持鋅對緊密連結完整性、黏液生成、潘氏細胞功能及免疫訊息傳遞具有影響。儘管存在上述生物學理據及觀察性研究所見的關聯，鋅補充能改善IBD相關結局的證據仍然有限。現有研究規模小、異質性高，且經常依賴替代指標；口服補充亦未能一致改善臨床或發炎相關終點。辨識並矯正鋅缺乏應是IBD營養照護的一部分，但血清鋅濃度應結合潛在發炎狀態判讀，而常規監測鋅的效益仍不確定。仍需設計良好的前瞻性試驗，以確認矯正鋅缺乏是否能改善客觀的IBD結局。",
+   "evidence_level": "綜述",
+   "score": 5,
+   "score_reason": "敘述性綜述能釐清低血清鋅的判讀陷阱，但摘要未提供系統性選文方法或補鋅效益的量化估計。對IBD營養照護有實用提醒，尚不足以改變手術決策或建立常規監測策略。",
+   "relevance": "中度相關",
+   "relevance_why": "與IBD病人的營養評估及照護相關，但未直接提供手術適應症、術式或術後結局的介入證據。",
+   "novelty": "再確認已知",
+   "one_liner": "在IBD患者（人數未載）中，回顧鋅缺乏與補充證據：缺乏可達50%，補鋅臨床獲益未明。",
+   "action": "評估IBD低血清鋅病人時，合併判讀發炎與白蛋白；矯正確認的缺乏，勿將補鋅視為抗發炎治療。",
+   "pico": {
+    "P": "IBD患者，尤其克隆氏症；摘要未提供納入研究數或總人數，亦涵蓋實驗研究。",
+    "I": "低血清鋅／鋅缺乏的暴露，以及鋅補充介入。",
+    "C": "摘要未交代各研究的具體比較組，無法統一定義。",
+    "O": "關注住院、手術、復發及臨床或發炎相關終點；亦討論屏障完整性等機轉與替代指標，未指定單一主要終點。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "IBD患者鋅缺乏比例據報可達50%",
+    "住院、手術與復發：未提供絕對事件率",
+    "口服補鋅未一致改善結局；未報效應量或CI"
+   ],
+   "cautions": [
+    "發炎與低白蛋白皆可降低血清鋅，低值不等於真正缺乏。",
+    "低鋅與不良結局的相關性，不代表補鋅可降低手術或復發。",
+    "補鋅研究小且異質，常用替代指標；摘要無效應量與信賴區間。"
+   ],
+   "unassessable": [
+    "文獻搜尋策略、納入排除條件與證據選取完整性",
+    "納入研究數、總樣本數及各研究偏誤風險",
+    "介入試驗的隨機分派、分派隱蔽、盲法、ITT分析及失訪率",
+    "介入試驗註冊與預先指定終點",
+    "鋅缺乏定義、補充劑量、療程及各研究比較組",
+    "補鋅不良反應、長期安全性與成本效益",
+    "資助來源與利益衝突"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "前作在GC-C突變小鼠與類器官中探討鋅對腸道屏障的作用，本篇則將鋅與屏障功能的議題延伸至IBD的機轉、觀察性及介入證據。兩者疾病背景不同；前作的前臨床效果不能直接外推至IBD，本篇也指出補鋅改善IBD臨床結局的證據仍有限。",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 2895,
+    "input_tokens_details": {
+     "cache_write_tokens": 2892,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 2892
+     },
+     "cached_tokens": 0
+    },
+    "output_tokens": 1730,
+    "output_tokens_details": {
+     "reasoning_tokens": 388
+    },
+    "total_tokens": 4625
+   },
+   "added_at": "2026-11-15T09:37:31+08:00"
+  },
+  {
+   "pmid": "43029248",
+   "title": "Imatinib in the Treatment of Colorectal Cancer-Molecular Targets, Preclinical Evidence and Clinical Limitations",
+   "journal": "Molecules",
+   "journal_full": "Molecules (Basel, Switzerland)",
+   "issn": "1420-3049",
+   "issn_linking": "1420-3049",
+   "impact_factor": 5.1,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.1200/JCO.2012.45.1930",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Wanke K, Kciuk M, Marciniak B, Kontek R",
+   "abstract": "Colorectal cancer (CRC) remains a major therapeutic challenge, despite substantial advances in molecular characterization and targeted treatment. The heterogeneity of CRC and the development of treatment resistance highlight the need for novel therapeutic strategies and rational drug repurposing approaches. Imatinib, a well-established tyrosine kinase inhibitor, exerts pharmacological activity beyond ABL1/ABL2, targeting KIT, PDGFR, DDR1, and potentially LCK, which may contribute to distinct mechanisms of CRC progression. This review examines the emerging evidence on the potential role of imatinib in CRC, including its effects on tumor-cell proliferation and survival, invasion and metastasis, extracellular-matrix remodeling, tumor-stroma interactions, treatment resistance, and immune regulation. Preclinical studies indicate promising antitumor activity in selected molecular and biological contexts, particularly in KIT-positive tumors, PDGFR-rich stroma, mesenchymal/CMS4 tumors, and models characterized by aberrant DDR1 signaling. However, clinical evidence remains limited and does not currently support imatinib as a standard treatment for unselected CRC. Biomarker-guided patient selection, rational combination strategies, and tumor microenvironment-directed approaches may enhance its therapeutic potential. Further well-designed clinical studies are required to determine whether these biological effects can translate into meaningful clinical benefit.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42467291",
+     "date": "2026-07-18",
+     "title_zh": "直腸胃腸道基質腫瘤（GIST）之新輔助Imatinib治療：腫瘤縮小、括約肌保留、經肛手術平台、功能性結果與存活之全面敘事性回顧",
+     "score": 5,
+     "one_liner": "本文回顧直腸GIST新輔助imatinib治療文獻，指出可使腫瘤縮小25-46%、達成R0切除率89-100%，並提升括約肌保留機會。",
+     "sim": 0.162
+    },
+    {
+     "pmid": "42467291",
+     "date": "2026-07-19",
+     "title_zh": "直腸胃腸道基質腫瘤（GIST）之新輔助Imatinib治療：腫瘤縮小、括約肌保留、經肛手術平台、功能性結果與存活之全面敘事性回顧",
+     "score": 5,
+     "one_liner": "本文回顧直腸GIST新輔助imatinib治療文獻，指出可使腫瘤縮小25-46%、達成R0切除率89-100%，並提升括約肌保留機會。",
+     "sim": 0.162
+    },
+    {
+     "pmid": "42358838",
+     "date": "2026-06-26",
+     "title_zh": "大腸直腸癌肝轉移之前臨床模型：治療評估與轉譯意義",
+     "score": 2,
+     "one_liner": "本綜述比較CRLM前臨床動物模型（原位、轉移等平台）之方法學與治療評估能力，未提供臨床療效數據。",
+     "sim": 0.158
+    }
+   ],
+   "title_zh": "Imatinib用於大腸直腸癌治療：分子標靶、前臨床證據與臨床限制",
+   "abstract_zh": "儘管分子特徵解析與標靶治療已有重大進展，大腸直腸癌（CRC）仍是一項重大的治療挑戰。CRC的異質性與治療抗藥性的產生，凸顯了新穎治療策略及具合理依據之藥物再利用方法的需求。Imatinib是一種已廣泛確立應用的酪胺酸激酶抑制劑，其藥理活性不僅限於ABL1／ABL2，也以KIT、PDGFR、DDR1及可能的LCK為標靶；這些標靶可能參與CRC進展的不同機制。本綜述檢視imatinib在CRC中潛在角色的新興證據，包括其對腫瘤細胞增殖與存活、侵犯與轉移、細胞外基質重塑、腫瘤與間質交互作用、治療抗藥性及免疫調控的影響。前臨床研究顯示，在特定分子與生物學情境下，imatinib具有令人期待的抗腫瘤活性，尤其是在KIT陽性腫瘤、富含PDGFR的間質、間質型／CMS4腫瘤，以及具有異常DDR1訊息傳遞特徵的模型中。然而，臨床證據仍然有限，目前並不支持將imatinib作為未經篩選之CRC病人的標準治療。以生物標記引導病人篩選、具合理依據的合併治療策略，以及針對腫瘤微環境的治療方法，可能提升其治療潛力。仍需進一步設計完善的臨床研究，才能確定這些生物學效應是否可轉化為具有實質意義的臨床效益。",
+   "evidence_level": "綜述",
+   "score": 3,
+   "score_reason": "摘要以機轉與前臨床證據為主，未提供可量化的臨床療效或安全性結果，亦無法判斷文獻選取的完整性。對台灣大腸直腸外科的即時決策價值低，較適合有轉譯研究需求者閱讀全文。",
+   "relevance": "低度相關",
+   "relevance_why": "雖聚焦CRC，但主題是尚未確立臨床效益的非外科藥物再利用，對日常手術與圍手術期處置缺乏直接影響。",
+   "novelty": "仍屬早期",
+   "one_liner": "在CRC文獻（人數未報）中，綜述imatinib潛力；未提供直接組間比較或量化臨床效益。",
+   "action": "目前不需改變做法；對一般CRC病人，勿依前臨床活性將imatinib納入常規治療。",
+   "pico": {
+    "P": "CRC相關前臨床模型與有限臨床研究；研究篇數及病人人數未報。",
+    "I": "Imatinib及其對KIT、PDGFR、DDR1等標靶與腫瘤微環境的作用。",
+    "C": "摘要未交代各納入研究的對照條件，無法建立統一比較組。",
+    "O": "未指定主要或次要結果；討論細胞增殖與存活、侵犯與轉移、基質重塑、腫瘤間質交互作用、抗藥性及免疫調控。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "納入研究篇數與臨床總人數：摘要未報",
+    "反應率及存活絕對值：摘要未報",
+    "組間療效與安全性差異：無數據可判讀"
+   ],
+   "cautions": [
+    "細胞與模型的抗腫瘤活性，不等於病人存活或生活品質改善。",
+    "特定分子情境的訊號，不可外推至未篩選CRC或視為已驗證選藥標記。",
+    "未報樣本數、絕對療效與信賴區間，無法估計效益大小及精確度。"
+   ],
+   "unassessable": [
+    "文獻搜尋策略、納入排除標準及證據涵蓋完整性",
+    "納入研究的設計、樣本數、偏誤風險與證據品質",
+    "臨床研究是否隨機分派，以及分派隱蔽、盲法、ITT與失訪情形",
+    "臨床研究的對照治療、劑量、追蹤時間及療效估計",
+    "生物標記的檢測方法、判定門檻及臨床預測效度",
+    "試驗註冊、研究資助、利益衝突與成本效益",
+    "臨床不良事件發生率與合併治療安全性"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3142,
+    "input_tokens_details": {
+     "cache_write_tokens": 3139,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 3139
+     },
+     "cached_tokens": 0
+    },
+    "output_tokens": 1483,
+    "output_tokens_details": {
+     "reasoning_tokens": 200
+    },
+    "total_tokens": 4625
+   },
+   "added_at": "2026-11-15T09:37:31+08:00"
+  },
+  {
+   "pmid": "43028246",
+   "title": "Fecal Microbiota Transplantation in the Treatment Strategy of Inflammatory Bowel Disease: Molecular Mechanisms, Clinical Evidence, and the Transition Toward Defined Microbial Therapeutics",
+   "journal": "Int J Mol Sci",
+   "journal_full": "International journal of molecular sciences",
+   "issn": "1422-0067",
+   "issn_linking": "1422-0067",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.1053/j.gastro.2025.02.035",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Pető A, Sipos D, Kappéter Á, Feiszt Z, Dembrovszky F, Halda-Kiss B",
+   "abstract": "Inflammatory Bowel Disease (IBD) comprises two clinically and pathologically distinct chronic intestinal inflammatory diseases, ulcerative colitis (UC) and Crohn's disease (CD). Both diseases result from a dysregulated mucosal immune response to the commensal gut microbiota in genetically predisposed individuals. Because gut dysbiosis is a constant feature of both diseases, Fecal Microbiota Transplantation (FMT) has recently been investigated as a potential therapeutic strategy to restore a balanced microbiota composition in patients with IBD. There are five placebo-controlled randomized controlled trials (RCTs) in UC and several meta-analyses, which showed that treatment with FMT using material from multiple donors can lead to clinical and endoscopic remission in patients with mild-to-moderate UC and may thus double to triple the rate of remission compared with placebo (number needed to treat [NNT] ≈ 3-5). In contrast, evidence for CD is limited and inconsistent, with one promising pilot study being contrasted with a large multicenter induction trial that was stopped for futility. This review provides an update of the current molecular understanding of FMT-induced recovery of mucosal barrier function and inflammation control in intestinal inflammation (α-diversity restoration and subsequent donor strain engraftment, production of short-chain fatty acids and secondary bile acids, tryptophan-AhR signaling, IL-10-mediated induction of Tregs vs. suppression of Th17 cells and restoration of epithelial barrier function). The review also summarizes the current clinical evidence for the use of FMT in IBD, its safety, and the current regulatory status. It also describes recent developments in FMT, including the use of defined bacterial consortia, 'live biotherapeutic products' (LBPs), and donor-recipient pairing. Collectively, FMT provides evidence of principle for manipulating intestinal microbial ecosystems to treat immune-mediated intestinal inflammation.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42843354",
+     "date": "2026-10-09",
+     "title_zh": "糞便微生物叢移植（FMT）在困難梭菌感染之外的應用：適應症擴展、機轉與未來方向",
+     "score": 2,
+     "one_liner": "本篇綜述探討FMT於CDI外之適應症（IBD、IBS、代謝/神經疾病）的機轉與證據，結論效益異質且有限，無具體數據。",
+     "sim": 0.213
+    },
+    {
+     "pmid": "42602359",
+     "date": "2026-08-16",
+     "title_zh": "糞便微生物移植（FMT）在癌症治療中的應用與展望",
+     "score": 2,
+     "one_liner": "本綜述整理FMT於癌症治療（含大腸癌、肝癌、黑色素瘤）中調節腫瘤微環境、增強免疫/化療反應之機制與挑戰，無臨床試驗數據。",
+     "sim": 0.203
+    },
+    {
+     "pmid": "42602359",
+     "date": "2026-08-17",
+     "title_zh": "糞菌移植（FMT）於癌症治療中的應用與展望",
+     "score": 1,
+     "one_liner": "本文綜述FMT於癌症治療（含CRC、肝癌、黑色素瘤）中調控腫瘤微環境、增強免疫治療反應的理論機制與未來方向，無臨床數據。",
+     "sim": 0.203
+    }
+   ],
+   "title_zh": "糞便微生物叢移植在發炎性腸道疾病治療策略中的角色：分子機轉、臨床證據與邁向成分明確微生物療法的轉型",
+   "abstract_zh": "發炎性腸道疾病（IBD）包含兩種在臨床及病理上不同的慢性腸道發炎疾病：潰瘍性結腸炎（UC）與克隆氏症（CD）。這兩種疾病皆源於具有遺傳易感性的個體，對腸道共生微生物叢產生失調的黏膜免疫反應。由於腸道菌相失衡是這兩種疾病持續存在的特徵，近年已開始研究糞便微生物叢移植（FMT），作為恢復IBD病人腸道微生物叢組成平衡的潛在治療策略。目前UC已有五項安慰劑對照隨機對照試驗（RCT）及數篇統合分析，顯示使用多位捐贈者材料進行FMT，可使輕至中度UC病人達到臨床及內視鏡緩解，因此相較於安慰劑，緩解率可能提高至兩至三倍（治療所需人數［NNT］約為3–5）。相較之下，CD的證據有限且不一致：一項先導研究結果令人期待，但一項大型多中心誘導治療試驗卻因無效性而停止。本綜述更新目前對FMT促進腸道發炎中黏膜屏障功能恢復及發炎控制的分子層次理解，包括恢復α多樣性及隨後的捐贈者菌株定殖、產生短鏈脂肪酸與次級膽酸、色胺酸–芳香烴受體（AhR）訊息傳遞、IL-10介導的調節型T細胞（Tregs）誘導與Th17細胞抑制，以及上皮屏障功能恢復。本綜述亦彙整FMT用於IBD的現有臨床證據、安全性及目前監管狀態，並介紹FMT的近期發展，包括成分明確的細菌菌群組合、「活體生物治療製劑」（LBPs）及捐贈者與受贈者配對。整體而言，FMT提供了透過操控腸道微生物生態系統來治療免疫介導腸道發炎的原理驗證。",
+   "evidence_level": "綜述",
+   "score": 4,
+   "score_reason": "可快速掌握UC與CD的FMT證據差異及新型微生物療法，但本篇是綜述，摘要未提供試驗層級的絕對療效、安全性數據與證據品質評估。對IBD團隊具背景閱讀價值，尚不足以直接改變大腸直腸外科處置。",
+   "relevance": "中度相關",
+   "relevance_why": "涉及大腸直腸外科共同照護的IBD病人，但重點是微生物療法，未評估手術決策或術後結果。",
+   "novelty": "仍屬早期",
+   "one_liner": "在輕中度UC（人數未報）中，FMT較安慰劑緩解率增至2–3倍，摘要引述NNT約3–5。",
+   "action": "目前不需改變做法；對輕中度UC或CD病人，勿僅憑此綜述將FMT納入常規治療。",
+   "pico": {
+    "P": "IBD病人，包括UC與CD；摘要未報納入病人總數，UC證據包含5項安慰劑對照RCT。",
+    "I": "FMT，包含使用多位捐贈者材料；另討論成分明確的菌群組合、LBPs與捐受者配對。",
+    "C": "UC試驗以安慰劑為對照；CD研究的對照方式摘要未交代。",
+    "O": "臨床及內視鏡緩解；另討論安全性、菌相定殖、黏膜屏障恢復及發炎調控，未指定主要與次要終點。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "UC：5項安慰劑對照RCT；總人數與絕對緩解率未報",
+    "UC緩解率為安慰劑2–3倍；摘要引述NNT約3–5",
+    "CD：大型多中心誘導試驗因無效性停止；未報效應值"
+   ],
+   "cautions": [
+    "綜述的機轉論述不能替代臨床療效證據，亦未證明能減少手術。",
+    "未報兩組絕對緩解率或信賴區間，無法核對NNT與精確度。",
+    "CD證據不一致且有試驗因無效性停止，不可外推UC效益。"
+   ],
+   "unassessable": [
+    "綜述的文獻搜尋策略、納入排除條件及研究品質評估方法",
+    "所引RCT的隨機序列產生、分派隱匿與盲法",
+    "所引RCT的ITT分析、失訪率及試驗註冊",
+    "各試驗樣本數、緩解定義、追蹤期間及維持緩解效果",
+    "FMT製備、劑量、給藥途徑、療程及捐贈者篩檢流程",
+    "兩組絕對緩解率、信賴區間及NNT的計算依據",
+    "感染、嚴重不良事件及疾病惡化的絕對發生率",
+    "利益衝突、資金來源及成本效益",
+    "對手術需求、住院率與長期疾病進程的影響"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "相較於先前〈FMT在困難梭菌感染之外的應用〉對多種適應症的廣泛整理，本篇聚焦IBD，補充UC的5項安慰劑對照RCT，以及CD大型誘導試驗因無效性停止的證據差異。另延伸至成分明確的菌群組合、LBPs與捐受者配對，但摘要仍不足以支持常規臨床採用。",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3226,
+    "input_tokens_details": {
+     "cache_write_tokens": 3223,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 3223
+     },
+     "cached_tokens": 0
+    },
+    "output_tokens": 1962,
+    "output_tokens_details": {
+     "reasoning_tokens": 374
+    },
+    "total_tokens": 5188
+   },
+   "added_at": "2026-11-15T09:37:31+08:00"
+  },
+  {
+   "pmid": "43028091",
+   "title": "Gut Microbiota as a Potential Modulator of Response to Biologic and Small-Molecule Therapies in Inflammatory Bowel Disease",
+   "journal": "Int J Mol Sci",
+   "journal_full": "International journal of molecular sciences",
+   "issn": "1422-0067",
+   "issn_linking": "1422-0067",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.1016/j.cgh.2024.05.049",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Margul K, Krawczyk A",
+   "abstract": "The therapeutic landscape of inflammatory bowel disease (IBD) has expanded substantially with the development of biologic and small-molecule therapies. Nevertheless, many patients fail to respond to these treatments or experience a secondary loss of response. The mechanisms underlying treatment failure remain incompletely understood. Given the ability of gut microorganisms to modify therapeutic compounds, sustain pro-inflammatory immune activation, alter intestinal barrier function and produce bioactive metabolites, the gut microbiota may represent an important modulator of therapeutic response. To summarize current evidence on the role of the gut microbiota in response to biologic and small-molecule therapies in IBD, with particular emphasis on potential mechanisms of drug-microbiota interactions and their implications for treatment response and non-response. Accumulating evidence suggests that the gut microbiota may influence therapeutic efficacy through direct modification of drugs and indirect effects mediated by host immunity, intestinal barrier function and microbial metabolites. Microbial signatures associated with response to individual biologic therapies have been identified, although findings remain heterogeneous. Emerging evidence also indicates that non-bacterial components of the gut ecosystem may contribute to treatment response. The gut microbiota represents a biologically plausible modulator of therapeutic response in IBD. Integration of microbiome data with host genetic and immunological features may help identify biomarkers capable of predicting response to individual therapeutic agents.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42514308",
+     "date": "2026-07-30",
+     "title_zh": "發炎性腸道疾病的飲食療法及其對疾病活性與腸道菌相之影響",
+     "score": 2,
+     "one_liner": "本文回顧IBD飲食療法對疾病活性與腸道菌相的影響，指出證據異質且機轉未明，未提供新臨床數據。",
+     "sim": 0.225
+    },
+    {
+     "pmid": "43027958",
+     "date": "2026-11-15",
+     "title_zh": "短鏈脂肪酸作為發炎性腸道疾病腸道－免疫軸的調節因子：連結代謝、免疫調控與上皮屏障功能",
+     "score": 3,
+     "one_liner": "本綜述整理SCFAs對IBD免疫與屏障的作用；未提供人數、組間比較或臨床效應數值。",
+     "sim": 0.22
+    },
+    {
+     "pmid": "42867711",
+     "date": "2026-10-15",
+     "title_zh": "地中海飲食、腸道微生物群與腸道屏障完整性：對消化系統及全身健康的意涵",
+     "score": 3,
+     "one_liner": "彙整51篇文獻、無單一對照，發現地中海飲食可能調節腸道菌相代謝，但未提供合併效應量。",
+     "sim": 0.21
+    }
+   ],
+   "title_zh": "腸道微生物群作為發炎性腸道疾病生物製劑與小分子藥物治療反應的潛在調節因子",
+   "abstract_zh": "隨著生物製劑與小分子藥物的發展，發炎性腸道疾病（IBD）的治療選擇已大幅增加。然而，許多病人對這些治療未產生反應，或出現次發性反應喪失。治療失敗的相關機轉仍未完全釐清。考量腸道微生物能夠修飾治療藥物、維持促發炎的免疫活化、改變腸道屏障功能，以及產生生物活性代謝物，腸道微生物群可能是治療反應的重要調節因子。本文旨在彙整腸道微生物群在IBD生物製劑與小分子藥物治療反應中所扮演角色的現有證據，特別著重於藥物與微生物群交互作用的潛在機轉，以及這些機轉對治療有反應與無反應的意涵。累積中的證據顯示，腸道微生物群可能透過直接修飾藥物，以及經由宿主免疫、腸道屏障功能與微生物代謝物所介導的間接作用，影響治療效力。研究已辨識出與個別生物製劑治療反應相關的微生物特徵，但研究結果仍存在異質性。新興證據亦顯示，腸道生態系中的非細菌組成也可能參與治療反應。腸道微生物群是IBD治療反應中具有生物學合理性的調節因子。整合微生物組資料與宿主的遺傳及免疫特徵，可能有助於找出能預測個別治療藥物反應的生物標記。",
+   "evidence_level": "綜述",
+   "score": 3,
+   "score_reason": "提供菌相與IBD藥物反應的機轉架構，但摘要未提供納入研究規模、效應量或預測效能。對理解難治型IBD有背景價值，對台灣大腸直腸外科即時決策的幫助有限。",
+   "relevance": "中度相關",
+   "relevance_why": "涉及外科團隊常共同照護的難治型IBD，但未直接評估手術決策、術後結果或可落地的選藥策略。",
+   "novelty": "仍屬早期",
+   "one_liner": "在IBD病人（人數未報）中，綜述菌相與藥物反應的關聯，未提供兩組比較或量化效應。",
+   "action": "目前不需改變做法；勿僅憑菌相檢測替IBD病人選藥，摘要未提供經驗證的預測效能。",
+   "pico": {
+    "P": "接受生物製劑或小分子藥物治療的IBD病人；摘要未報研究數或總人數。",
+    "I": "腸道微生物群特徵及其與藥物、宿主免疫、腸道屏障和代謝物的交互作用。",
+    "C": "摘要未定義統一對照組；提及治療有反應與無反應的相關微生物特徵。",
+    "O": "治療反應、無反應與次發性反應喪失；潛在反應預測生物標記，未指定主要及次要結果。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "納入研究數與總病人數：摘要均未提供。",
+    "有反應與無反應的絕對人數或比例：未提供。",
+    "效應量、信賴區間及預測準確度：均未提供。"
+   ],
+   "cautions": [
+    "機轉合理與菌相相關性，不等於調整菌相能改善療效。",
+    "菌相特徵結果具異質性，不能直接套用為個別藥物選擇工具。",
+    "未報樣本數、絕對反應率或效應量，無法判斷臨床效益大小。"
+   ],
+   "unassessable": [
+    "文獻搜尋策略、納入排除標準及是否採系統性方法",
+    "納入研究設計、樣本數、偏誤風險與證據確定性",
+    "各藥物與IBD亞型的個別結果",
+    "飲食、抗生素、疾病活性等混雜因子的控制",
+    "菌相採樣時點、檢測方法與預測模型的外部驗證",
+    "若納入臨床試驗，其分派隱匿、盲法、ITT、失訪率及試驗註冊",
+    "利益衝突與資金來源",
+    "菌相檢測的成本效益及台灣族群適用性"
+   ],
+   "context_verdict": "延伸前作",
+   "context": "先前的IBD飲食療法與全穀類綜述著重飲食、菌相及腸道發炎，本篇將焦點延伸至菌相與生物製劑、小分子藥物治療反應的交互作用。共同限制是臨床證據異質且缺乏可直接應用的量化結果；本篇並未證明飲食或菌相介入能改善藥物反應。",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3061,
+    "input_tokens_details": {
+     "cache_write_tokens": 3058,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 3058
+     },
+     "cached_tokens": 0
+    },
+    "output_tokens": 1597,
+    "output_tokens_details": {
+     "reasoning_tokens": 212
+    },
+    "total_tokens": 4658
+   },
+   "added_at": "2026-11-15T09:37:31+08:00"
+  },
+  {
+   "pmid": "43027958",
+   "title": "Short-Chain Fatty Acids as Modulators of the Gut-Immune Axis in Inflammatory Bowel Disease: Linking Metabolism, Immune Regulation, and Epithelial Barrier Function",
+   "journal": "Int J Mol Sci",
+   "journal_full": "International journal of molecular sciences",
+   "issn": "1422-0067",
+   "issn_linking": "1422-0067",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1016/j.intimp.2024.113305",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Piątek D, Sokal-Dembowska A, Strycharz-Dudziak M, Jarmakiewicz-Czaja S",
+   "abstract": "Inflammatory bowel diseases (IBDs), which include Crohn's disease (CD) and ulcerative colitis (UC), are chronic conditions associated with abnormalities in the immune response, gut microbiota dysbiosis, and disruption of the intestinal barrier homeostasis. A growing body of evidence suggests that the gut-immune axis plays a key role in the pathogenesis of IBD, and that metabolites of microbial origin influence the regulation of the immune response and the maintenance of intestinal barrier integrity. Particular importance is attributed to short-chain fatty acids (SCFAs), such as acetate, propionate, and butyrate. The aim of this review is to present the current knowledge regarding the role of SCFAs as modulators of the gut-immune axis in IBD, with particular emphasis on their mechanisms of action and therapeutic potential. Physiologically, SCFAs are produced through the fermentation of dietary fiber by the gut microbiota. However, in IBD, the composition of the gut microbiota is often disrupted. SCFAs influence the expression of inflammatory genes and regulate the function of immune cells. Furthermore, butyrate in particular strengthens the integrity of the intestinal barrier by improving the function of tight junctions (TJs), increasing mucus production, and supporting epithelial regeneration. SCFAs represent an important link between diet, the gut microbiota, and immunity. Strategies to increase their availability may represent a promising approach to supporting IBD treatment, but they require further evaluation in well-designed clinical trials involving humans.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42942943",
+     "date": "2026-10-28",
+     "title_zh": "微生物群相關代謝物作為發炎性腸道疾病的生物標記與治療契機",
+     "score": 3,
+     "one_liner": "在IBD文獻（人數未提供）中，綜述菌相代謝物的診療潛力，未提供組間比較或效應數值。",
+     "sim": 0.351
+    },
+    {
+     "pmid": "42942943",
+     "date": "2026-10-29",
+     "title_zh": "微生物群相關代謝物作為發炎性腸道疾病的生物標記與治療契機",
+     "score": 3,
+     "one_liner": "在IBD文獻（人數未提供）中，綜述菌相代謝物的診療潛力，未提供組間比較或效應數值。",
+     "sim": 0.351
+    },
+    {
+     "pmid": "42358979",
+     "date": "2026-06-26",
+     "title_zh": "腸道微生物群代謝物在發炎性腸道疾病中的作用：機轉洞見的最新進展",
+     "score": 2,
+     "one_liner": "本綜述整合腸道微生物代謝物（SCFAs、膽酸、色胺酸衍生物）如何透過免疫調節網絡參與IBD致病機制，屬機轉性文獻回顧，無臨床數據。",
+     "sim": 0.277
+    }
+   ],
+   "title_zh": "短鏈脂肪酸作為發炎性腸道疾病腸道－免疫軸的調節因子：連結代謝、免疫調控與上皮屏障功能",
+   "abstract_zh": "發炎性腸道疾病（IBD）包括克隆氏症（CD）與潰瘍性結腸炎（UC），是與免疫反應異常、腸道微生物群失衡及腸道屏障恆定性受損相關的慢性疾病。越來越多證據顯示，腸道－免疫軸在 IBD 的致病機轉中扮演關鍵角色，而微生物來源的代謝物會影響免疫反應的調控與腸道屏障完整性的維持。其中，短鏈脂肪酸（SCFAs），例如乙酸、丙酸與丁酸，被認為特別重要。本綜述旨在呈現目前對 SCFAs 作為 IBD 腸道－免疫軸調節因子之角色的認識，並特別著重其作用機轉與治療潛力。在生理狀態下，SCFAs 由腸道微生物群發酵膳食纖維而產生。然而，在 IBD 中，腸道微生物群的組成經常失衡。SCFAs 會影響發炎相關基因的表現，並調控免疫細胞的功能。此外，尤其是丁酸，可透過改善緊密連結（TJs）的功能、增加黏液分泌及支持上皮再生，強化腸道屏障的完整性。SCFAs 是連結飲食、腸道微生物群與免疫的重要環節。提高其可利用量的策略，可能是輔助 IBD 治療的一項具潛力方向，但仍需透過設計良好的人體臨床試驗進一步評估。",
+   "evidence_level": "綜述",
+   "score": 3,
+   "score_reason": "屬機轉與治療潛力綜述，摘要未提供臨床比較數據，無法判斷療效大小與證據確定性。對台灣大腸直腸外科的即時決策幫助有限，較適合作為 IBD 轉譯研究背景閱讀。",
+   "relevance": "低度相關",
+   "relevance_why": "主題以 IBD 的代謝與免疫機轉為主，未提供外科介入、手術結局或可直接採用的臨床療效證據。",
+   "novelty": "仍屬早期",
+   "one_liner": "本綜述整理SCFAs對IBD免疫與屏障的作用；未提供人數、組間比較或臨床效應數值。",
+   "action": "目前不需改變做法；勿僅據此為IBD病人新增SCFAs補充治療，摘要未提供臨床療效數據。",
+   "pico": {
+    "P": "IBD，包括 CD 與 UC；納入研究篇數、研究對象及總人數未提供。",
+    "I": "SCFAs，包括乙酸、丙酸與丁酸的作用機轉，以及提高其可利用量的潛在策略。",
+    "C": "無對照組；摘要未呈現可抽取的組間比較。",
+    "O": "探討免疫調控、發炎相關基因表現與腸道屏障完整性；未界定主要或次要臨床 outcome。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "納入研究篇數與總人數：摘要未提供。",
+    "臨床緩解與復發的絕對發生率：未提供。",
+    "組間效應、信賴區間及p值：均未提供。"
+   ],
+   "cautions": [
+    "免疫與屏障機轉不能直接等同臨床緩解或減少手術。",
+    "未報組間絕對數據或信賴區間，無法量化療效。",
+    "未提供有效劑量與安全性，不能據此建立補充療程。"
+   ],
+   "unassessable": [
+    "文獻搜尋策略、納入排除標準與證據選取是否完整。",
+    "所引證據中，體外、動物與人體研究各占多少。",
+    "納入研究的偏誤風險與整體證據確定性。",
+    "若納入臨床試驗，其分派隱蔽、盲法、ITT 分析、失訪率與試驗註冊。",
+    "SCFAs 的臨床製劑、給藥途徑、劑量、療程及不良事件。",
+    "作者利益衝突與資金來源。"
+   ],
+   "context_verdict": "再確認",
+   "context": "與先前兩篇微生物群代謝物診療潛力綜述，以及腸道微生物代謝物機轉綜述方向一致，再確認 SCFAs 可能連結 IBD 的免疫調控與屏障功能。本篇聚焦 SCFAs，尤其丁酸，但摘要未提供新的臨床比較數據，尚未補上能否改善病人結局的證據缺口。",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 3121,
+    "input_tokens_details": {
+     "cache_write_tokens": 3118,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 3118
+     },
+     "cached_tokens": 0
+    },
+    "output_tokens": 1412,
+    "output_tokens_details": {
+     "reasoning_tokens": 129
+    },
+    "total_tokens": 4533
+   },
+   "added_at": "2026-11-15T09:37:31+08:00"
+  },
+  {
+   "pmid": "43027853",
+   "title": "Ceramides as Biomarkers of Risk Prediction and Prognosis in Cardiovascular and Other Diseases: Are We There Yet?",
+   "journal": "Int J Mol Sci",
+   "journal_full": "International journal of molecular sciences",
+   "issn": "1422-0067",
+   "issn_linking": "1422-0067",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1200/CCI.23.00057",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Garikipati T, Dubey P, Work D, Oli S, Sharma D, Chatterjee S",
+   "abstract": "Cardiovascular disease (CVD) is the leading cause of death worldwide, yet roughly 70% of major adverse cardiovascular events occur in statin-treated patients with optimized Low-density lipoprotein cholesterol (LDL-C), a gap that cholesterol-based risk panels do not close. Ceramides are bioactive sphingolipids whose plasma species and ratios carry risk information absent from standard lipid panels, and ceramide-based scores (CERT and CERT2) are already in clinical use. Whether this value extends beyond CVD is unclear. We reviewed ceramide species and ratios as biomarkers for disease prediction, prognosis, and disease activity across cardiovascular, metabolic, autoimmune rheumatic, inflammatory bowel, pulmonary, kidney, and oncologic contexts, searching PubMed and Scopus from January 1990 to June 2026 and extending the search for the historical literature. In CVD, CERT and CERT2 predicted cardiovascular events and mortality independently of LDL cholesterol, including in statin-treated and kidney disease populations. In metabolic and autoimmune rheumatic disease, ceramide profiles tracked cardiovascular risk and disease activity. In inflammatory bowel disease, chronic obstructive pulmonary disease, and most cancers, the evidence is mechanistically strong but limited to single-cohort or observational studies. Ceramides are emerging biomarkers that complement, not replace, established risk tools. Broader clinical use requires prospective validation, diverse cohorts, standardized assays, and demonstrated cost-effectiveness.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42974200",
+     "date": "2026-11-04",
+     "title_zh": "發炎性腸道疾病與心臟：訓練免疫如何形塑心血管結局",
+     "score": 4,
+     "one_liner": "在IBD族群（人數未報）中，本文無組間比較，綜述訓練免疫與心血管傷害，未提供效應數值。",
+     "sim": 0.195
+    },
+    {
+     "pmid": "42974200",
+     "date": "2026-11-05",
+     "title_zh": "發炎性腸道疾病與心臟：訓練免疫如何形塑心血管結局",
+     "score": 4,
+     "one_liner": "在IBD族群（人數未報）中，本文無組間比較，綜述訓練免疫與心血管傷害，未提供效應數值。",
+     "sim": 0.195
+    }
+   ],
+   "title_zh": "神經醯胺作為心血管及其他疾病風險預測與預後的生物標記：我們準備好了嗎？",
+   "abstract_zh": "心血管疾病（CVD）是全球首要死因，然而，約70%的重大不良心血管事件發生於接受statin治療且低密度脂蛋白膽固醇（LDL-C）已達最佳化的病人，這項缺口並未因以膽固醇為基礎的風險評估組合而消除。神經醯胺是具有生物活性的鞘脂，其血漿分子種類與比值帶有標準血脂檢驗未涵蓋的風險資訊，而神經醯胺風險評分（CERT與CERT2）已投入臨床使用。這項價值是否能延伸至CVD以外的疾病，目前仍不清楚。我們回顧神經醯胺分子種類與比值作為疾病預測、預後及疾病活動度生物標記的證據，涵蓋心血管、代謝、自體免疫風濕、發炎性腸道、肺臟、腎臟及腫瘤疾病；搜尋PubMed與Scopus中1990年1月至2026年6月的文獻，並延伸搜尋更早期的歷史文獻。在CVD中，CERT與CERT2可在獨立於LDL膽固醇的情況下預測心血管事件及死亡，適用研究族群亦包括接受statin治療者與腎臟病病人。在代謝及自體免疫風濕疾病中，神經醯胺組成變化與心血管風險及疾病活動度相呼應。在發炎性腸道疾病、慢性阻塞性肺病及大多數癌症中，機轉層面的證據強，但研究僅限於單一世代或觀察性研究。神經醯胺是新興生物標記，可補充而非取代既有風險評估工具。若要擴大臨床使用，仍需前瞻性驗證、多元族群、標準化檢測，以及證實其成本效益。",
+   "evidence_level": "綜述",
+   "score": 4,
+   "score_reason": "提供跨疾病的神經醯胺生物標記概覽，但摘要未提供定量效應或足以判定為系統性回顧的方法資訊。對大腸直腸外科的直接決策價值有限，較適合有IBD或腫瘤生物標記研究需求者閱讀。",
+   "relevance": "低度相關",
+   "relevance_why": "重點為非外科的風險生物標記，IBD與癌症部分尚未提供可直接影響手術或追蹤策略的證據。",
+   "novelty": "仍屬早期",
+   "one_liner": "跨疾病綜述（人數未報），無統一對照；神經醯胺具預測潛力，但未報效應量。",
+   "action": "目前不需改變做法；勿因本篇替IBD或大腸直腸癌病人常規加驗神經醯胺，臨床效益仍待驗證。",
+   "pico": {
+    "P": "心血管、代謝、自體免疫風濕、IBD、肺臟、腎臟及腫瘤疾病族群；研究數與總人數未報。",
+    "I": "血漿神經醯胺分子種類、比值，以及CERT與CERT2風險評分。",
+    "C": "無統一對照組；摘要討論相對於LDL-C及既有風險工具的補充資訊。",
+    "O": "疾病發生預測、心血管事件、死亡、預後與疾病活動度；未區分主要及次要結果。"
+   },
+   "effects": [],
+   "key_numbers": [
+    "約70%重大心血管事件發生於LDL-C已優化的statin治療者",
+    "CERT與CERT2：未報事件絕對風險或預測效能數值",
+    "搜尋期間1990年1月至2026年6月；未報陰性結果"
+   ],
+   "cautions": [
+    "能預測風險不等於依檢測結果介入可改善臨床結局。",
+    "IBD與多數癌症證據限單一世代或觀察研究，勿據此推論臨床效益。",
+    "未報效應量、信賴區間及增額預測效能，無法量化實際價值。"
+   ],
+   "unassessable": [
+    "完整檢索策略、納入排除標準及文獻篩選流程",
+    "納入研究總數、總樣本數及各疾病證據分布",
+    "原始研究偏誤風險與整體證據確定性評估",
+    "各研究混雜因子調整、失訪率及缺失資料處理",
+    "預測模型的校準度、鑑別度及相較既有工具的增額價值",
+    "檢測閾值、跨實驗室一致性與台灣族群適用性",
+    "綜述計畫註冊、資金來源及利益衝突",
+    "成本效益及依檢測結果調整處置的臨床效益"
+   ],
+   "context_verdict": "無相關前作",
+   "context": "無相關前作",
+   "summary_provider": "openai",
+   "summary_model": "gpt-6.1-sol",
+   "summary_usage": {
+    "input_tokens": 2973,
+    "input_tokens_details": {
+     "cache_write_tokens": 2970,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 2970
+     },
+     "cached_tokens": 0
+    },
+    "output_tokens": 1709,
+    "output_tokens_details": {
+     "reasoning_tokens": 342
+    },
+    "total_tokens": 4682
+   },
+   "added_at": "2026-11-15T09:37:31+08:00"
+  }
+ ]
+}
