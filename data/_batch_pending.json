@@ -1,0 +1,187 @@
+{
+ "batch_id": null,
+ "date": "2026-11-16",
+ "submitted_at": "2026-11-16T09:41:10+08:00",
+ "provider": "openai",
+ "model": "gpt-6.1-sol",
+ "papers": [
+  {
+   "pmid": "43034053",
+   "title": "Serum MMP-10 levels predict incident inflammatory bowel disease: an observational analysis from the PURE study",
+   "journal": "J Crohns Colitis",
+   "journal_full": "Journal of Crohn's & colitis",
+   "issn": "1876-4479",
+   "issn_linking": "1873-9946",
+   "impact_factor": 10.3,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.1053/j.gastro.2024.07.007",
+   "ptype": "Observational Study",
+   "ptype_list": [
+    "Observational Study"
+   ],
+   "authors": "Wong E, Reinisch W, Moayyedi P, Rangarajan S, Joseph P, Poirier P",
+   "abstract": "BACKGROUND AND AIMS: The incidence of inflammatory bowel disease (IBD), including Crohn's disease (CD) and ulcerative colitis (UC), is rising, particularly in middle-income countries. This study aims to identify biomarkers that predict the onset of IBD in a globally recruited population.\nMETHODS: Data from participants enrolled in the biomarker substudy of the Prospective Urban Rural Epidemiology (PURE) study were analyzed (discovery cohort). The primary outcome of interest was the development of incident IBD. Secondary outcomes were CD and UC. Protein concentration was measured using O-link® immuno-assays. Discovery analyses consisted of logistic regression models to evaluate the relationship between biomarker concentrations and risk of IBD. A separate analysis was conducted to validate biomarkers identified from the discovery cohort. Statistical significance was defined using a Bonferroni-corrected P < 1.6 × 10-5 for all analyses.\nRESULTS: A total of 1011 biomarkers were assessed in the discovery cohort across 11 019 participants with n = 91 incident IBD cases. In the discovery analysis, elevated levels of matrix metalloproteinase-10 (MMP-10) were significantly associated with a future diagnosis of IBD (adjusted odds ratio [aOR] per SD: 1.75, 95% confidence interval [CI]: 1.40-2.18, P = 7.6 × 10-7). Results were consistent in direction for development of both UC and CD. In the validation analysis, MMP-10 remained significant for the outcome of IBD (aOR per SD: 2.41 [95% CI: 1.61-4.58], P = 5.2 × 10-6).\nCONCLUSIONS: These findings suggest MMP-10 is a relevant biomarker in the general global population for prediction of clinical IBD, and further work should investigate its role in early detection and prevention strategies.",
+   "watched": [],
+   "related": []
+  },
+  {
+   "pmid": "43032542",
+   "title": "From molecular mechanisms to clinical practice: advances in the immune microenvironment and translational therapeutics of colorectal cancer liver metastasis",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1038/s41467-026-76382-x",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Zhang R, Qu J, Chi H, Li Z, Zhang F",
+   "abstract": "Colorectal cancer (CRC) ranks third in global incidence and second in cancer-related mortality, with the liver constituting the most frequent target organ for metastatic dissemination and distant organ involvement representing the predominant cause of death. Approximately 20-25% of patients present with synchronous hepatic metastases at initial diagnosis or within 3-6 months thereafter, whereas an additional 20-50% develop metachronous hepatic recurrence following curative-intent resection of the primary tumor, thereby positioning colorectal cancer liver metastasis (CRLM) among the most formidable challenges in oncology. With progressive advances in biological insight, the conceptual framework of CRLM has evolved from the classical 'seed and soil' hypothesis into an integrative, multi-dimensional paradigm encompassing the epithelial-mesenchymal transition (EMT) of circulating tumor cells (CTCs), immunostromal crosstalk within the tumor microenvironment (TME), the remote regulatory functions of the gut microbiota and its metabolic products, and the contributions of metabolic reprogramming and epigenetic modifications. This review synthesizes recent advances in the molecular pathogenesis of CRLM, including the formation and modulation of the pre-metastatic niche (PMN), the influence of liver-intrinsic immune tolerance on immunotherapeutic responsiveness, the synergistic regulation of core signaling networks, the pathogenic role of the gut microbiota-metabolism-epigenetics axis, and the role of CTCs within the metastatic cascade. From a clinical perspective, we appraise the progress in surgical resection, immune checkpoint inhibitors (ICIs) and their combination strategies, targeted therapies, locoregional interventions, and emerging metabolic-epigenetic therapeutics, with particular emphasis on the clinically challenging disparity in immunotherapy responses between hepatic and pulmonary metastases, a phenomenon largely attributable to organ-specific immune microenvironments. Furthermore, we delineate the limitations of current investigations, noting that much of the mechanistic evidence derives from preclinical models and that organ-specific clinical observations remain predominantly retrospective in nature, and We emphasize that developing precision treatment strategies based on multidimensional molecular profiling and organ-specific therapeutic regimens will constitute a critical research direction for improving the prognosis of patients with CRLM.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42500682",
+     "date": "2026-07-26",
+     "title_zh": "大腸直腸癌肝轉移：機制與治療",
+     "score": 2,
+     "one_liner": "本文綜述CRLM的免疫耐受微環境機制、現行治療選項與新興策略，未提供原創臨床療效數據。",
+     "sim": 0.261
+    },
+    {
+     "pmid": "42500682",
+     "date": "2026-07-27",
+     "title_zh": "大腸直腸癌肝轉移：機制與治療",
+     "score": 2,
+     "one_liner": "本文綜述CRLM免疫耐受微環境機制與現行/新興治療策略，未提供任何原創臨床試驗數據或療效比較。",
+     "sim": 0.261
+    },
+    {
+     "pmid": "42358994",
+     "date": "2026-06-26",
+     "title_zh": "大腸直腸癌肝轉移：免疫抑制微環境、訊息傳遞路徑與新興治療策略",
+     "score": 3,
+     "one_liner": "本綜述整理 CRLM 免疫抑制微環境機制（T 細胞耗竭、免疫抑制細胞擴增）與新興治療策略，無原創臨床數據。",
+     "sim": 0.205
+    }
+   ]
+  },
+  {
+   "pmid": "43034281",
+   "title": "A wearable perspiration biosensor for continuous biomarker monitoring in inflammatory bowel disease: Feasibility, concordance, and exploratory temporal dynamics",
+   "journal": "Clin Transl Med",
+   "journal_full": "Clinical and translational medicine",
+   "issn": "2001-1326",
+   "issn_linking": "2001-1326",
+   "impact_factor": 7.9,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.1002/ctm2.70896",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Ramasubramanya A, Lin K, Shahub S, McDermott A, Fine Z, Hirten R",
+   "abstract": "BACKGROUND: Serum C-reactive protein (CRP) and faecal calprotectin, used to monitor inflammatory bowel disease (IBD) between endoscopies, require intermittent blood or stool sampling. We assessed whether a skin-worn perspiration sensor could measure CRP and calprotectin continuously; TNFα and IL-6 were exploratory analytes.\nMETHODS: At three US centres, perspiration biomarkers were recorded continuously for 3-30 days in 52 IBD patients (27 ulcerative colitis, 24 Crohn's disease, 1 indeterminate colitis) and 19-32 days in 9 controls, with serum CRP and faecal calprotectin sampled at baseline and study end. Agreement was assessed using correlation and Bland-Altman analysis; ROC-derived cutoffs matched serum CRP 5 mg/L and faecal 250 µg/g. Circadian rhythmicity and ultradian (4-12 h) power were compared among biochemically active IBD (serum CRP > 5 mg/L; n = 15), inactive (n = 37), and controls.\nRESULTS: 47 of 52 IBD participants (90.4%) completed the protocol. Across 99 paired observations, perspiration CRP correlated with serum CRP (r = .52-.58); perspiration and faecal calprotectin correlated in ulcerative colitis (r = .59-.62) but not in Crohn's disease. A perspiration CRP cutoff of 1551 pg/mL (serum 5 mg/L) gave 85.7% sensitivity and 89.4% specificity; a calprotectin cutoff of 385 (µg/g)·min (faecal 250 µg/g) gave 92.3% and 67.9%. Negative predictive values were high (95%-97%), positive modest (57%). Circadian MESOR and amplitude of both markers were higher in active than inactive IBD. Ultradian power differed by group for calprotectin (Kruskal-Wallis p = .0005) and CRP (p = .0037)-highest in active disease, lowest in controls-but the active-inactive difference was non-significant after false-discovery-rate correction.\nCONCLUSIONS: Perspiration CRP agreed moderately with serum CRP, and perspiration calprotectin with faecal calprotectin in ulcerative colitis only. Their high negative predictive values support the study as a non-invasive adjunct to, not a substitute for, standard-of-care testing. All findings are preliminary, and the temporal-dynamics results are hypothesis-generating, needing confirmation in a larger, prospectively designed, endoscopy-anchored cohort.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42446529",
+     "date": "2026-07-15",
+     "title_zh": "評估血清人類半乳糖凝集素3作為發炎性腸道疾病活性指標並與糞便鈣衛蛋白比較",
+     "score": 3,
+     "one_liner": "在40名活動期IBD病人與40名對照中，比較血清galectin 3與糞便鈣衛蛋白，發現galectin 3診斷準確度達99.6%（切點>5.199 µg/ml）。",
+     "sim": 0.238
+    },
+    {
+     "pmid": "42446529",
+     "date": "2026-07-16",
+     "title_zh": "評估血清人類半乳糖凝集素3作為發炎性腸道疾病活性指標並與糞便鈣衛蛋白比較",
+     "score": 3,
+     "one_liner": "在40名活動期IBD病人與40名對照中，比較血清galectin 3與糞便鈣衛蛋白，發現galectin 3診斷準確度達99.6%（切點>5.199 µg/ml）。",
+     "sim": 0.238
+    },
+    {
+     "pmid": "42380492",
+     "date": "2026-07-01",
+     "title_zh": "循環 tRF-Gly-GCC 作為大腸直腸癌與克隆氏症疾病活性之生物標記",
+     "score": 3,
+     "one_liner": "在85名受試者（含大腸直腸癌、活動/非活動克隆氏症、健康對照）中，測量血清 tRF-Gly-GCC，發現其可高敏感度/特異度區分各組（如CRC vs 對照：95.8%/95.2%）。",
+     "sim": 0.199
+    }
+   ]
+  },
+  {
+   "pmid": "43031697",
+   "title": "Molecular subtypes associated with lymph node metastasis in colorectal cancer reveal the tumor-promoting role of GDI1 and the preclinical activity of deslanoside",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1093/nar/gkab294",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Zheng J, Ming R, He Y, Xi X",
+   "abstract": "BACKGROUND: Lymph node metastasis (LNM) is central to colorectal cancer staging and treatment decisions and marks a critical transition from local growth to regional dissemination. The molecular heterogeneity associated with lymph node metastasis and the corresponding intervention leads require systematic investigation.\nMETHODS: This study established the C1 to C4 molecular subtypes from lymph node metastasis-related expression features. Multiple transcriptomic cohorts, clinical composition, pathway features, and TIDE, IPS, and ESTIMATE scores were integrated to characterize subtype differences. Analyses across multiple cohorts were used to screen candidate genes associated with progression. Cellular and subcutaneous xenograft experiments were performed to evaluate GDI1 function. The GDI1 structure was used for virtual screening and molecular dynamics analysis, followed by phenotypic evaluation of Deslanoside in cellular and xenograft models.\nRESULTS: Four molecular subtypes displayed distinct expression profiles, clinical composition, and tumor microenvironment features. C4 showed coordinated enrichment of invasive, mesenchymal, hypoxia-related, and stromal programs together with algorithmic features associated with restricted immune effector activity. Analyses across multiple cohorts identified GDI1 as a candidate gene associated with adverse outcomes and progression. Two independent shRNAs reduced GDI1 expression, cell growth, and migration-related phenotypes in two colorectal cancer cell lines. GDI1 knockdown using shGDI1 #1 also reduced subcutaneous xenograft burden. Deslanoside ranked among the leading candidates in the computational screen. Deslanoside treatment produced antitumor phenotypes in cellular and xenograft models that were directionally concordant with those produced by GDI1 depletion.\nCONCLUSION: This study delineates the molecular heterogeneity associated with lymph node metastasis in colorectal cancer, supports a tumor-promoting role for GDI1, and provides a basis for further investigation of Deslanoside as a candidate compound.",
+   "watched": [],
+   "related": []
+  },
+  {
+   "pmid": "43027723",
+   "title": "IL-10 Beyond Immunosuppression: Unraveling Spatial, Cellular, and Metabolic Mechanisms of Gut Protection",
+   "journal": "Int J Mol Sci",
+   "journal_full": "International journal of molecular sciences",
+   "issn": "1422-0067",
+   "issn_linking": "1422-0067",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.1038/s41467-023-40156-6",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Zhang Y, Liu X, Wang B, Yin H, Tian X, Zhao J",
+   "abstract": "Intestinal homeostasis requires immune tolerance, barrier integrity, tissue repair, and microbiota mutualism. Interleukin-10 (IL-10) is essential, but not merely as an immunosuppressant. Although IL-10 signals via the IL-10R-JAK1/TYK2-STAT3 axis, its outputs are cell-type and context dependent. In macrophages, IL-10 restrains IL-23 production, inflammasome activation, IL-1β release, and metabolic reprogramming. In T cells, it limits pathogenic T helper 17 cell (Th17) responses while stabilizing regulatory cells and promoting metabolically driven IL-10 production. In the epithelium, IL-10 maintains barrier integrity by limiting apoptosis, endoplasmic reticulum (ER) stress, and mucus defects. IL-10 and the gut microbiota engage in reciprocal regulation: microbial metabolites and structural components enhance IL-10 production and receptor responsiveness, whereas IL-10 signaling preserves microbial diversity and ecological resilience. This may help to explain why systemic recombinant IL-10 failed in Crohn's disease (CD)-increasing ligand abundance alone is unlikely to recapitulate endogenous localization or restore refractory target cells. Emerging strategies aim to tune IL-10 signaling through gut-selective delivery, engineered cytokines, conditionally activated prodrugs, regulatory cell approaches, and microbiome or metabolic interventions. Clinical translation requires biomarkers of IL-10R expression, STAT3 responsiveness, macrophage metabolic state, microbial signatures, and acquired IL-10 hyporesponsiveness. Despite the established role of IL-10 in intestinal homeostasis, systemic IL-10 therapy has failed in clinical trials, and there is a lack of effective strategies to restore IL-10 signaling in a spatially and cell-specific manner. The spatially organized, metabolically conditioned homeostatic IL-10 signaling-largely inferred from model systems and awaiting direct spatial validation in human intestine-offers a roadmap for more precise therapy in inflammatory bowel disease and related intestinal disorders.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42713082",
+     "date": "2026-09-10",
+     "title_zh": "腸道菌群衍生代謝物與IL-22訊號傳導在發炎性腸道疾病中的作用：黏膜修復與發炎反應之情境依賴性調控",
+     "score": 2,
+     "one_liner": "本綜述整理腸道菌群代謝物（SCFAs、膽酸、色胺酸-AhR、TMA/TMAO）與IL-22訊號傳導在IBD黏膜修復及發炎中的機轉關係，屬概念性框架，無臨床數據。",
+     "sim": 0.175
+    },
+    {
+     "pmid": "42495627",
+     "date": "2026-07-25",
+     "title_zh": "腸道菌群衍生代謝物在胃腸道癌症中的作用：透過色胺酸-芳香烴受體（AhR）軸之免疫調節機制與轉譯觀點",
+     "score": 2,
+     "one_liner": "本文綜述腸道菌群代謝物（SCFAs、膽酸、色胺酸-AhR軸）在胃腸道癌症中的免疫調節機轉，屬概念性整理，無臨床數據。",
+     "sim": 0.157
+    },
+    {
+     "pmid": "42495627",
+     "date": "2026-07-26",
+     "title_zh": "腸道微生物群衍生代謝物在胃腸道癌症中的作用：透過色胺酸-AhR軸的免疫調節機轉與轉譯醫學展望",
+     "score": 2,
+     "one_liner": "本文綜述腸道微生物代謝物（SCFAs、膽酸、色胺酸-AhR軸）在胃腸道癌症中的免疫調節機轉，屬機轉性文獻整理，無臨床數據。",
+     "sim": 0.157
+    }
+   ]
+  }
+ ],
+ "submission_id": "b9a4a245305249eb96e80fc1159dbe56",
+ "state": "preparing"
+}
