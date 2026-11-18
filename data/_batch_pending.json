@@ -1,0 +1,365 @@
+{
+ "batch_id": null,
+ "date": "2026-11-18",
+ "submitted_at": "2026-11-18T11:28:43+08:00",
+ "provider": "openai",
+ "model": "gpt-6.1-sol",
+ "papers": [
+  {
+   "pmid": "43040569",
+   "title": "Low-pressure insufflation with warmed and humidified CO2 versus cold and dry CO2 in laparoscopic colorectal surgery: Protocol for the PAROS 3 randomized controlled trial",
+   "journal": "Colorectal Dis",
+   "journal_full": "Colorectal disease : the official journal of the Association of Coloproctology of Great Britain and Ireland",
+   "issn": "1463-1318",
+   "issn_linking": "1462-8910",
+   "impact_factor": 2.3,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.1111/codi.70683",
+   "ptype": "Randomized Controlled Trial",
+   "ptype_list": [
+    "Randomized Controlled Trial"
+   ],
+   "authors": "Denost Q, Beyer-Berjot L, Soubirou J, De Cazes Y, Pastene B, Blanc M",
+   "abstract": "BACKGROUND: Low-pressure pneumoperitoneum (LPP) has been shown to reduce postoperative pain and analgesic requirements after laparoscopic colorectal surgery. In parallel, warm and humidified carbon dioxide (WHCO2) insufflation provides a more physiological peritoneal environment and may further improve postoperative recovery. However, the combined effect of LPP and WHCO2 has not been specifically evaluated in colorectal surgery.\nAIM: To determine whether the addition of WHCO2 to LPP further reduces postoperative pain and opioid consumption compared with LPP alone in patients undergoing laparoscopic colorectal resection.\nMETHODS: PAROS3 is a French prospective, bicentric, randomized, controlled superiority trial. Adult patients scheduled for elective laparoscopic or robot-assisted colorectal resection under LPP (5-8 mmHg) will be randomized (1:1) to receive either WHCO2 insufflation (experimental group) or standard cold and dry CO2 (control group). The study is double-blinded for patients and evaluators of the primary endpoint, and open-label for the \"operator\" surgeon. The primary endpoint is the proportion of patients with a visual analogue scale (VAS) pain score ≤3 at 24 h after surgery, without consumption of level II or III analgesics. Secondary endpoints include operating time, conversion rates, perioperative haemodynamic and temperature variations, inflammatory markers, postoperative complications, oncological quality, length of stay, analgesic consumption up to 30 days, and quality of life at 3 months. Analysis will be performed on an intention-to-treat basis. A total of 148 patients are planned for inclusion.\nTRIAL STATUS: Recruitment is ongoing. Protocol version 3.1, August 25, 2025.\nREGISTRATION: ClinicalTrials.gov: NCT05934981.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42568293",
+     "date": "2026-08-09",
+     "title_zh": "運動性術前強化對大腸直腸癌手術後疲勞感之影響：PHYSSURG-C 隨機對照試驗之次分析結果",
+     "score": 4,
+     "one_liner": "在518名大腸直腸癌手術病患中，比較術前術後非監督式運動與常規照護，發現術後4週疲勞感ITT差異3.75分（p=0.05，CI貼近0）。",
+     "sim": 0.154
+    },
+    {
+     "pmid": "42568293",
+     "date": "2026-08-10",
+     "title_zh": "運動性術前強化對大腸直腸癌術後疲勞之影響：PHYSSURG-C隨機對照試驗之次要分析結果",
+     "score": 4,
+     "one_liner": "在518名大腸直腸癌手術患者中，比較術前後運動介入與常規照護，發現術後疲勞平均差異3.75-4.29分，統計邊緣顯著。",
+     "sim": 0.154
+    }
+   ]
+  },
+  {
+   "pmid": "43043534",
+   "title": "The Effects of Pelvic Radiation on Ileal-Anal Pouches: A Systematic Review and Meta-Analysis",
+   "journal": "J Gastrointest Cancer",
+   "journal_full": "Journal of gastrointestinal cancer",
+   "issn": "1941-6636",
+   "issn_linking": "",
+   "impact_factor": 2.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.1007/s00261-023-03888-z",
+   "ptype": "Systematic Review, Meta-Analysis",
+   "ptype_list": [
+    "Systematic Review",
+    "Meta-Analysis",
+    "Review"
+   ],
+   "authors": "Quon S, Nguyen B",
+   "abstract": "Restorative proctocolectomy with ileal pouch-anal anastomosis (IPAA) is the gold-standard treatment for ulcerative colitis and familial adenomatous polyposis. Pelvic radiation for co-existing malignancies has been associated with pouch complications, yet guidance is still limited. This review synthesized current evidence on effects of pelvic radiation in patients with IPAA. A systematic search of Embase, MEDLINE, and Scopus was conducted in February 2025 using IPAA and pelvic-radiation terms. Eligible studies included patients who underwent IPAA and received pelvic radiation before or after surgery, and reported a pouch-related clinical outcome. Twelve studies (2004-2024) met inclusion criteria, comprising 101 patients who received radiation (83 external beam radiation therapy [EBRT], 18 brachytherapy). The pooled pouchitis rate was 28% (95% CI, 24%-34%). Complications were more common when radiation was delivered after IPAA than before: pouchitis occurred in 53.7% versus 7.7%, and pouch failure in 39.0% versus 3.8%. Brachytherapy was associated with numerically lower pouchitis (16.7% versus 25.3%) and pouch failure (11.1% versus 18.1%) rates than EBRT; however, differences were not statistically significant. Pelvic radiation in patients with IPAA is associated with adverse outcomes. Radiation timing and modality should be considered when balancing oncologic benefit against pouch function.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42680252",
+     "date": "2026-09-03",
+     "title_zh": "迴腸儲袋疾患之基層照護：診斷、治療與轉診",
+     "score": 4,
+     "one_liner": "本文為綜述，整理IPAA患者儲袋相關發炎性（如儲袋炎，終生發生率達80%）與結構性併發症之基層診斷、治療與轉診原則。",
+     "sim": 0.336
+    },
+    {
+     "pmid": "42377470",
+     "date": "2026-06-30",
+     "title_zh": "機器人輔助與腹腔鏡迴腸儲袋肛門吻合術（IPAA）短期手術結果比較：系統性回顧與統合分析",
+     "score": 6,
+     "one_liner": "在8篇世代研究、1861名接受IPAA病人中，比較機器人與腹腔鏡，機器人轉開腹率較低（OR 0.25）但手術時間多25分鐘，其他併發症無差異。",
+     "sim": 0.249
+    },
+    {
+     "pmid": "42373266",
+     "date": "2026-06-30",
+     "title_zh": "家族性大腸腺瘤性息肉症之手術治療與術後監測",
+     "score": 4,
+     "one_liner": "本文為敘述性綜述，整理FAP患者五種預防性手術方式（IRA、IPAA等）之選擇考量與術後監測現有證據，未提供新試驗數據。",
+     "sim": 0.238
+    }
+   ]
+  },
+  {
+   "pmid": "43043492",
+   "title": "Comparative outcomes of robotic and laparoscopic right colectomy with intracorporeal anastomosis for curative-intent right-sided colonic neoplasia: a GRADE-assessed systematic review and meta-analysis",
+   "journal": "Langenbecks Arch Surg",
+   "journal_full": "Langenbeck's archives of surgery",
+   "issn": "1435-2451",
+   "issn_linking": "1435-2443",
+   "impact_factor": 2.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1002/ags3.12718",
+   "ptype": "Meta-Analysis, Systematic Review",
+   "ptype_list": [
+    "Meta-Analysis",
+    "Systematic Review",
+    "Comparative Study",
+    "Review"
+   ],
+   "authors": "Anwar S, Mirza W, Amin I, Ahsan K, Siddique A, Khan H",
+   "abstract": "BACKGROUND: Robotic right colectomy may facilitate complex intracorporeal dissection and reconstruction; however, previous comparative syntheses often combined laparoscopic extracorporeal anastomosis with robotic intracorporeal anastomosis. This imbalance makes it difficult to determine whether reported differences reflect the surgical platform or the reconstructive technique. We therefore compared robotic and laparoscopic right colectomy only in studies in which intracorporeal anastomosis was planned in both groups.\nMETHODS: PubMed/MEDLINE, Scopus, and Web of Science were searched from the inception to April 12, 2026. Records were deduplicated and screened in Covidence. Four non-randomized observational comparative studies were included. The primary outcome was study-defined overall postoperative morbidity, with definitions and ascertainment windows varying among studies. Secondary outcomes included operative time, conversion to open surgery, anastomotic leak, hospital stay, lymph-node harvest, and mortality. Mortality and long-term oncological outcomes were summarized narratively when comparable effect estimates were unavailable. Random-effects models, ROBINS-I, and GRADE were used for quantitative outcomes.\nRESULTS: Four studies involving 977 patients (603 robotic and 374 laparoscopic) were included. Overall postoperative morbidity occurred in 142/603 robotic and 107/374 laparoscopic patients (RR 0.84, 95% CI 0.67-1.05). No statistically significant differences were identified for conversion to open surgery (7/603 vs. 8/374; RR 0.91, 95% CI 0.13-6.33), anastomotic leak (16/603 vs. 11/374; RR 0.88, 95% CI 0.41-1.89), hospital stay (MD - 0.47 days, 95% CI - 1.00 to 0.06), or lymph node harvest (MD - 0.55 nodes, 95% CI - 3.16 to 2.06). Operative time was non-significantly longer with robotics in the primary analysis (MD 39.69 min, 95% CI - 2.19 to 81.57; I²=96%); the exploratory leave-one-out result remained heterogeneous and study-dependent.\nCONCLUSIONS: This exploratory synthesis of four non-randomized studies found no statistically significant short-term advantage of robotic over laparoscopic right colectomy when intracorporeal anastomosis was planned in both groups. These findings do not establish equivalence or exclude clinically important benefits or harms. Platform selection should therefore remain individualized according to surgeon experience, institutional workflow, resource availability, and patient and procedural complexity.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42671704",
+     "date": "2026-09-01",
+     "title_zh": "機器人輔助與腹腔鏡右半結腸切除術治療大腸癌之手術預後比較：單中心世代研究",
+     "score": 3,
+     "one_liner": "在125名右半結腸切除病人（LRC 75人 vs RRC 50人）中，比較機器人與腹腔鏡手術，手術時間RRC較長（290 vs 251分，p=0.05），併發症與OS/RFS無差異。",
+     "sim": 0.293
+    },
+    {
+     "pmid": "42671704",
+     "date": "2026-09-02",
+     "title_zh": "機器人輔助與腹腔鏡右半結腸切除術治療大腸癌之手術結果比較：單中心世代研究",
+     "score": 4,
+     "one_liner": "在右側大腸癌病人(RRC 50人 vs LRC 75人)中，比較機器人與腹腔鏡右半結腸切除術，30天併發症、OS、RFS均無顯著差異(log-rank p=0.12/0.13)。",
+     "sim": 0.293
+    },
+    {
+     "pmid": "42645693",
+     "date": "2026-08-27",
+     "title_zh": "機器人手術與腹腔鏡手術治療橫結腸及脾曲癌之比較：系統性回顧與統合分析",
+     "score": 5,
+     "one_liner": "在167名機器人手術與296名腹腔鏡手術病人（橫結腸/脾曲癌，6篇研究）中，機器人組住院天數短1.01天、轉開腹0/149 vs 14/278，其餘併發症無差異。",
+     "sim": 0.267
+    }
+   ]
+  },
+  {
+   "pmid": "43043549",
+   "title": "Metabolic disease engineers the colorectal cancer ecosystem",
+   "journal": "Cancer Metastasis Rev",
+   "journal_full": "Cancer metastasis reviews",
+   "issn": "1573-7233",
+   "issn_linking": "0167-7659",
+   "impact_factor": 12.7,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.1016/j.numecd.2021.07.011",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Schcolnik-Cabrera A",
+   "abstract": "Obesity and type 2 diabetes (T2D) increase colorectal cancer (CRC) risk, yet the mechanisms linking systemic metabolic dysfunction to carcinogenesis are usually considered independently. I propose that metabolic disease can act as an ecosystem engineer, altering the selective conditions in which neoplastic cells emerge and evolve. Nutrient availability, adipose dysfunction, metabolic-epigenetic coupling, immunometabolic rewiring, microbial remodeling, and bile acid metabolism interact across the colonic environment, redistributing metabolic fitness among epithelial, immune, and microbial populations. These interactions may establish a self-reinforcing ecosystem that favors metabolically adaptable clones and reduces constraints on their persistence. Metabolic dysfunction may thus alter which cellular populations can most effectively exploit available resources and evade antitumor surveillance. This hypothesis predicts that tumors with similar molecular characteristics may exist within biologically distinct environments according to the host metabolic state, and therefore could show differential responses to immune activity and therapy. Integrating systemic metabolic parameters, including adiposity distribution, insulin resistance, glycemic control, circulating metabolites, and microbial features, with molecular tumor classification could reveal distinct CRC ecological states and host-tumor dependencies. Such metabolic stratification could generate opportunities for personalized prevention and therapy by identifying vulnerabilities that remain obscured by current tumor-centric classification.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42346101",
+     "date": "2026-06-25",
+     "title_zh": "大腸直腸癌的決定因子：連結生物標記、治療與飲食-微生物軸的整合性免疫代謝框架",
+     "score": 2,
+     "one_liner": "本文為概念性綜述，提出CRC腫瘤-免疫-宿主代謝共同演化的整合框架，強調MSS型CRC免疫治療抗藥的代謝機轉，無臨床數據。",
+     "sim": 0.164
+    }
+   ]
+  },
+  {
+   "pmid": "43040093",
+   "title": "Loop colostomy offers comparable short-term surgical outcomes with fewer metabolic complications than loop ileostomy after laparoscopic low anterior resection post-total neoadjuvant therapy: developing-country perspective",
+   "journal": "Tech Coloproctol",
+   "journal_full": "Techniques in coloproctology",
+   "issn": "1128-045X",
+   "issn_linking": "1123-6337",
+   "impact_factor": 2.6,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1136/bmjopen-2024-096091",
+   "ptype": "Comparative Study",
+   "ptype_list": [
+    "Comparative Study"
+   ],
+   "authors": "Dabous A, Ghanayem M, Al Matairi A, Rajab I, Turfa R, Amarin R",
+   "abstract": "BACKGROUND: Defunctioning stomas are standard in low anterior resection (LAR) posttotal neoadjuvant therapy (TNT) to mitigate anastomotic complications. While loop ileostomy is common, it poses significant metabolic risks. This study investigates whether loop colostomy may reduce renal and electrolyte complications, without compromising surgical or stoma reversal outcomes.\nMETHODS: We retrospectively analyzed 97 patients with rectal cancer treated at King Hussein Cancer Center (January 2020 to November 2024) who underwent TNT followed by LAR with a defunctioning stoma (ileostomy, n = 57; colostomy, n = 40). Primary outcomes were acute kidney injury (AKI) and hyponatremia. Secondary outcomes included stoma-related and closure-related complications. Data were compared using chi-squared, Mann-Whitney U-test, and Kaplan-Meier analysis.\nRESULTS: Baseline characteristics were comparable, except for higher baseline creatinine in ileostomy patients (p = 0.002). Ileostomy was associated with more AKI (35.1% versus 2.5%, p < 0.001) and hyponatremia (57.8% versus 20.0%, p < 0.001) with greater stoma output (p < 0.001). Skin excoriation was more frequent with ileostomy (24.5% versus 5.0%, p = 0.011), while colostomy had higher stoma prolapse (22.5% versus 1.7%, p < 0.001). Other postoperative outcomes were similar. However, blood loss during stoma reversal was greater with ileostomy (p < 0.001). Kaplan-Meier analysis showed no difference in time to closure (median 84 versus 85 days, p = 0.491). In multivariate analysis, ileostomy remained associated with AKI and hyponatremia after adjustment for the included covariates.\nCONCLUSIONS: Loop colostomy may represent an alternative to loop ileostomy after LAR following TNT, with fewer metabolic complications and comparable surgical outcomes, despite a higher prolapse risk.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42875765",
+     "date": "2026-10-15",
+     "title_zh": "直腸癌腹腔鏡低前位切除術後常規保護性迴腸造口與術後CRP／CT引導選擇性迴腸造口之比較：隨機對照試驗",
+     "score": 6,
+     "one_liner": "200例中低位直腸癌LAR中，CRP／CT選擇性對比常規造口，造口率22%比100%。",
+     "sim": 0.214
+    },
+    {
+     "pmid": "42875765",
+     "date": "2026-10-16",
+     "title_zh": "直腸癌腹腔鏡低前位切除術後常規保護性迴腸造口與術後CRP／CT引導選擇性迴腸造口之比較：隨機對照試驗",
+     "score": 6,
+     "one_liner": "200例中低位直腸癌LAR中，CRP／CT選擇性對比常規造口，造口率22%比100%。",
+     "sim": 0.214
+    },
+    {
+     "pmid": "42875765",
+     "date": "2026-10-17",
+     "title_zh": "直腸癌腹腔鏡低前位切除術後常規保護性迴腸造口與術後CRP／CT引導選擇性迴腸造口之比較：隨機對照試驗",
+     "score": 6,
+     "one_liner": "200例中低位直腸癌LAR中，CRP／CT選擇性對比常規造口，造口率22%比100%。",
+     "sim": 0.214
+    }
+   ]
+  },
+  {
+   "pmid": "43043846",
+   "title": "Quality of Life and Ostomy Self-Care Ability Among Rectal Cancer Patients With Permanent Colostomy in Eastern and Western China: A Comparative Study",
+   "journal": "J Wound Ostomy Continence Nurs",
+   "journal_full": "Journal of wound, ostomy, and continence nursing : official publication of The Wound, Ostomy and Continence Nurses Society",
+   "issn": "1528-3976",
+   "issn_linking": "1071-5754",
+   "impact_factor": 1.4,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.3389/fpubh.2026.1860267",
+   "ptype": "Comparative Study",
+   "ptype_list": [
+    "Comparative Study"
+   ],
+   "authors": "Chen X, Lv L, Zheng M, Huang M, Zhang J",
+   "abstract": "PURPOSE: The purpose of this study was to compare health-related quality of life (QoL), ostomy self-care ability, and influencing factors among persons with permanent colostomies in 2 cities located in eastern versus western China.\nDESIGN: Cross-sectional study.\nSUBJECTS AND SETTING: Five hundred and fifteen patients with rectal cancer and a permanent colostomy were recruited from September 2013 to February 2016. Data were collected in the ostomy outpatient clinics of 3 grade A tertiary hospitals in Guangzhou, China (eastern China) and 2 grade A tertiary hospitals in Lanzhou, China (Western China).\nMETHODS: Participants completed a questionnaire that asked for demographic and pertinent stoma-related items designed for purposes of this study. They also completed the Stoma-QoL and Stoma Self-care Scale instruments. Participants were divided into 2 groups according to eastern and western geographical locations for intergroup comparative analysis.\nRESULTS: There were significant differences between mean scores of Stoma-QoL (52.53 ± 12.72 vs. 41.86 ± 12.20; P < .001) and ostomy self-care abilities (38.03 ± 6.86 vs. 30.25 ± 9.84; P < .001) between patients in eastern and western China, respectively. Age, employment status, body image loss, acceptance of ostomy by patients themselves and their spouses, professional support from enterostomal/WOC nurses, and ostomy self-care ability were significant factors associated with Sitoma-QoL, accounting for 51.8% of the variance.\nCONCLUSIONS: Stoma-QoL and ostomy self-care ability among patients with permanent colostomy in eastern China were generally better than those in western China. Effective measures should be taken to improve the QoL of patients with colostomy in western China.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42400471",
+     "date": "2026-07-05",
+     "title_zh": "癌症造口手術後的身體形象：系統性回顧",
+     "score": 5,
+     "one_liner": "在10篇研究、共1454名癌症造口存活者中，發現有造口者身體形象普遍較差，永久性造口影響最大，暫時性造口還原後可改善。",
+     "sim": 0.16
+    }
+   ]
+  },
+  {
+   "pmid": "43041937",
+   "title": "Immune-epithelial coordination of barrier repair in inflammatory bowel disease: from cell survival to functional healing",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.3389/fonc.2026.1793470",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Wu B, He B",
+   "abstract": "Epithelial repair in inflammatory bowel disease involves preservation of viable cells, coverage of wounds, renewal of epithelial populations and recovery of selective transport and secretion. These processes overlap, yet improvement in one does not establish completion of the others. This narrative review examines how immune signals influence these transitions and how experimental repair findings relate to patient outcomes. We first describe the junctional and mucus barrier and the distinction between physiological, endoscopic and histological measurements. We then examine epithelial death control, regenerative pathways and immune-derived signals using studies selected for compartment-specific perturbation, functional measurements or informative discrepancies between experimental and clinical findings. Interleukin-22 illustrates the importance of context: it promotes regeneration in several experimental systems, disrupts barrier function in a human colon chip, and has not yielded demonstrated efficacy as efmarodocokin alfa in a phase II ulcerative colitis trial. In one small infliximab study, paired measurements from nine patients showed an increase in epithelial resistance after treatment. Larger controlled studies are needed to establish how consistently functional recovery accompanies immune control. We organize the evidence around target engagement, epithelial response, barrier function and patient benefit, with example assays and common interpretive pitfalls for each. The resulting synthesis identifies the measurements needed to distinguish protection from repair and to test whether an epithelial effect adds value to effective immune therapy. Clinical studies must ultimately establish that a specified functional improvement is durable and beneficial to patients.",
+   "watched": [],
+   "related": []
+  },
+  {
+   "pmid": "43043523",
+   "title": "Nutrition in the Era of Incretin-Based Therapies: Clinical Strategies for Optimizing Care",
+   "journal": "Curr Gastroenterol Rep",
+   "journal_full": "Current gastroenterology reports",
+   "issn": "1534-312X",
+   "issn_linking": "1522-8037",
+   "impact_factor": 4.1,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.1111/j.1365-2982.2011.01723.x",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Gold S, Pearlman M, Pandey A, Mundi M, McClave S",
+   "abstract": "PURPOSE OF REVIEW: To review current evidence and practical nutrition strategies for patients receiving incretin-based therapies, including glucagon-like peptide-1 receptor agonists (GLP-1RAs) and dual glucose-dependent insulinotropic polypeptide (GIP)/GLP-1 receptor agonists, with a focus on nutritional adequacy, body composition, gastrointestinal tolerance, and long-term adherence.\nRECENT FINDINGS: Incretin-based therapies have transformed obesity treatment by producing substantial weight loss and cardiometabolic improvement. However, these therapies are also associated with reduced oral intake, gastrointestinal adverse effects, lean mass loss, and potential micronutrient inadequacy, highlighting the need for comprehensive nutritional management. Emerging evidence supports individualized dietary strategies to improve tolerance and maintain nutritional status, including targeted approaches for constipation, diarrhea, nausea, and reflux, as well as considerations for special populations such as pati​ents with inflammatory bowel disease, short bowel syndrome, gastroesophageal reflux disease, and pediatric obesity. Nutrition care is a critical component of treatment with incretin-based therapies. Individualized dietary strategies may help preserve lean body mass, optimize nutrient intake, reduce gastrointestinal side effects, and support long-term adherence and clinical outcomes.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42983002",
+     "date": "2026-11-06",
+     "title_zh": "GLP-1受體促效劑對大腸直腸癌治療結果與耐受性的影響",
+     "score": 4,
+     "one_liner": "在大腸直腸癌患者（人數未報）中，綜述GLP-1RA與治療交互作用，提示存活較佳但未報效量。",
+     "sim": 0.217
+    },
+    {
+     "pmid": "42983002",
+     "date": "2026-11-07",
+     "title_zh": "GLP-1受體促效劑對大腸直腸癌治療結果與耐受性的影響",
+     "score": 4,
+     "one_liner": "在大腸直腸癌患者（人數未報）中，綜述GLP-1RA與治療交互作用，提示存活較佳但未報效量。",
+     "sim": 0.217
+    },
+    {
+     "pmid": "42645635",
+     "date": "2026-08-27",
+     "title_zh": "GLP-1受體促效劑與肥胖相關癌症：目前所知為何",
+     "score": 3,
+     "one_liner": "本綜述整理GLP-1RA與肥胖相關癌症（含CRC）之證據，觀察性研究顯示風險降低7-30%，但RCT統合分析未證實整體效益且CRC訊號不一致。",
+     "sim": 0.19
+    }
+   ]
+  },
+  {
+   "pmid": "43039501",
+   "title": "PET-CT in Esophageal, Gastric, and Colorectal Malignancies",
+   "journal": "Magn Reson Imaging Clin N Am",
+   "journal_full": "Magnetic resonance imaging clinics of North America",
+   "issn": "1557-9786",
+   "issn_linking": "1064-9689",
+   "impact_factor": 2.0,
+   "if_year": "2026",
+   "year": "2027",
+   "month": "Feb",
+   "doi": "10.1016/j.mric.2026.09.006",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Mavi M, Bozkurt M",
+   "abstract": "This review evaluates the integration of PET-computed tomography (CT) in the management of esophageal, gastric, and colorectal malignancies. While anatomical imaging remains the standard for T-staging, PET-CT provides superior accuracy in identifying occult metastases and monitoring therapeutic response. The article also covers the prognostic utility of semiquantitative PET metrics, such as standard uptake value, metabolic tumor volume, and total lesion glycolysis. The potential of novel tracers such as fibroblast activation protein inhibitors to address limitations of fluorodeoxyglucose in specific circumstances is also discussed. Ultimately, PET-CT allows precision in oncology by refining diagnostic accuracy and individualizing therapeutic interventions.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42870414",
+     "date": "2026-10-15",
+     "title_zh": "PET/CT與PET/MRI混合式分子影像於發炎性腸病：目前應用、挑戰與未來展望",
+     "score": 3,
+     "one_liner": "在IBD文獻（人數未報）中，整理FDG、FAPI PET及PET/MRI；無直接比較或量化效益。",
+     "sim": 0.163
+    },
+    {
+     "pmid": "42870414",
+     "date": "2026-10-16",
+     "title_zh": "PET/CT與PET/MRI混合式分子影像於發炎性腸病：目前應用、挑戰與未來展望",
+     "score": 3,
+     "one_liner": "在IBD文獻（人數未報）中，整理FDG、FAPI PET及PET/MRI；無直接比較或量化效益。",
+     "sim": 0.163
+    },
+    {
+     "pmid": "42855213",
+     "date": "2026-10-11",
+     "title_zh": "胃腸道之PET/MR影像",
+     "score": 3,
+     "one_liner": "本綜述整理PET/MR於胃腸道腫瘤（含大腸直腸癌肝轉移偵測、局部分期、治療後反應評估）及發炎性腸病之應用現況，未提供新實證數據。",
+     "sim": 0.151
+    }
+   ]
+  }
+ ],
+ "submission_id": "a6e820bdbbd64583804391ba2f47d365",
+ "state": "preparing"
+}
