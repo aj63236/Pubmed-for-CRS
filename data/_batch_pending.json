@@ -1,0 +1,337 @@
+{
+ "batch_id": null,
+ "date": "2026-11-22",
+ "submitted_at": "2026-11-22T09:58:38+08:00",
+ "provider": "openai",
+ "model": "gpt-6.1-sol",
+ "papers": [
+  {
+   "pmid": "43064876",
+   "title": "Alternative multiport robotic platforms versus da Vinci in colorectal cancer surgery: a systematic review and platform-stratified meta-analysis",
+   "journal": "J Robot Surg",
+   "journal_full": "Journal of robotic surgery",
+   "issn": "1863-2491",
+   "issn_linking": "1863-2483",
+   "impact_factor": 4.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.1007/s11701-026-04193-9",
+   "ptype": "Systematic Review, Meta-Analysis",
+   "ptype_list": [
+    "Systematic Review",
+    "Meta-Analysis",
+    "Comparative Study",
+    "Review"
+   ],
+   "authors": "Altamimi A, Alanazi R, Al-Mohy M, Al-Shahrani S, Aldalbahi F, Al Manaa N",
+   "abstract": "Alternative multiport robotic systems from manufacturers other than Intuitive Surgical are being adopted for colorectal cancer procedures, yet how their outcomes compare with the established da Vinci platform remains unclear. PubMed, Web of Science, Scopus, and CENTRAL were searched through August 2026 for randomised trials and comparative observational studies of alternative multiport robots versus da Vinci for colorectal cancer surgery. Random-effects risk ratios (RRs) and mean differences were stratified by platform and resection site; RoB 2, ROBINS-I and GRADE were applied. Twelve studies (one randomised trial; 1,144 participants: 557 alternative platform, 587 da Vinci) evaluated six platforms; hinotori was assessed in six studies and four platforms in one study each. Five cohorts were at serious risk of bias. Console time was 29.38 min longer with alternative platforms (95% CI 17.87 to 40.89; low certainty; mainly hinotori). Total operative time was 20.04 min longer (95% CI 8.81 to 31.28), but heterogeneity and small-study effects made this very uncertain (trim-and-fill estimate 7.24 min, - 4.20 to 18.69). Morbidity estimates were imprecise: Clavien-Dindo grade ≥ II complications RR 1.17 (0.91 to 1.51), grade ≥ III RR 0.86 (0.44 to 1.69), and anastomotic leak RR 1.35 (0.47 to 3.89; 17 events). Certainty was very low for all other outcomes. Alternative multiport robots appear feasible for colorectal cancer surgery but may prolong console time. Their comparative safety and pathological quality relative to da Vinci remain uncertain, and current data do not establish equivalence or non-inferiority. Adequately powered, platform-specific prospective comparisons with predefined non-inferiority margins are required.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "43002271",
+     "date": "2026-11-10",
+     "title_zh": "hinotori 與 da Vinci 機器人手術系統用於大腸直腸癌手術的短期結果：系統性回顧與統合分析",
+     "score": 6,
+     "one_liner": "在462名大腸直腸癌病人中，比較hinotori與da Vinci，前者手術多30.57分鐘。",
+     "sim": 0.368
+    },
+    {
+     "pmid": "43002271",
+     "date": "2026-11-11",
+     "title_zh": "hinotori 與 da Vinci 機器人手術系統用於大腸直腸癌手術的短期結果：系統性回顧與統合分析",
+     "score": 6,
+     "one_liner": "在462名大腸直腸癌病人中，比較hinotori與da Vinci，前者手術多30.57分鐘。",
+     "sim": 0.368
+    },
+    {
+     "pmid": "42900273",
+     "date": "2026-10-21",
+     "title_zh": "達文西 Xi 與 Si 機器人手術系統用於直腸癌手術之圍手術期與腫瘤學結果比較：系統性回顧與統合分析",
+     "score": 6,
+     "one_liner": "在843名直腸癌病人中，比較Xi與Si，手術時間差−27.7分鐘，未達顯著。",
+     "sim": 0.293
+    }
+   ]
+  },
+  {
+   "pmid": "43065064",
+   "title": "A machine learning model for predicting early adverse outcomes after surgery in patients with early-onset rectal cancer: a two-center retrospective cohort study",
+   "journal": "World J Surg Oncol",
+   "journal_full": "World journal of surgical oncology",
+   "issn": "1477-7819",
+   "issn_linking": "1477-7819",
+   "impact_factor": 2.8,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.3390/ijms18030573",
+   "ptype": "Multicenter Study",
+   "ptype_list": [
+    "Multicenter Study"
+   ],
+   "authors": "Yue X, Zhang G, Cao H, Zhao X, Sun Y, Zhang X",
+   "abstract": "BACKGROUND: Patients often present at advanced stages of early-onset rectal cancer (EORC), which is becoming more common. Within a year following rectal resection, some patients experience early adverse outcomes (EAO), such as severe complications, recurrence, or death; however, there is currently no validated postoperative risk-stratification tool for this population. Current prognostic models concentrate on individual endpoints rather than the composite adversity spectrum that is pertinent to younger patients because they were mostly established in older cohorts. This work sought to create and externally validate a model for detecting EORC patients at greater risk of EAO using a stacking ensemble machine learning approach with SHAP interpretability in order to guide individualized postoperative surveillance and adjuvant therapy decisions.\nMETHODS: In this two-center retrospective cohort study, 648 EORC patients from Center A (2020-2025) constituted the development cohort and 102 patients from Center B (2024-2025) the external validation cohort. Eleven individual machine learning models and a two-layer stacking ensemble (combining three base learners with logistic regression meta-learner) were trained. Model performance was assessed by area under the receiver operating characteristic curve (AUC), calibration, and decision curve analysis.\nRESULTS: Boruta feature selection identified eleven important predictors, with pathological T stage (pT), lymphovascular invasion (LVI), and pathological TNM stage (pTNM) contributing most to model predictions. The stacking ensemble outperformed all 11 individual models, achieving AUCs of 0.91 (95% CI 0.88-0.93) in the training set, 0.89 (95% CI 0.85-0.94) in the internal validation set, and 0.83 (95% CI 0.76-0.91) in the external validation cohort, with a Brier score of 0.1104 and sustained net benefit on decision curve analysis. An interactive web calculator was deployed for individualized risk assessment.\nCONCLUSION: An interpretable stacking ensemble model integrating SHAP analysis and a web-based calculator showed promising predictive performance for EAO following EORC surgery. Designed for postoperative use once pathology data are available, the model provides a comprehensive risk estimate to guide surveillance intensity and interdisciplinary adjuvant therapy decision-making.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42894111",
+     "date": "2026-10-20",
+     "title_zh": "使用新型發炎指標預測大腸直腸息肉的集成機器學習方法",
+     "score": 3,
+     "one_liner": "在946名大腸鏡受檢者中，Stacking較個別模型更能辨識息肉，AUC達0.96。",
+     "sim": 0.255
+    },
+    {
+     "pmid": "42842824",
+     "date": "2026-10-08",
+     "title_zh": "使用常規收集之臨床資料預測大腸直腸癌術前淋巴結轉移：多中心回溯性機器學習模型建立與外部驗證研究",
+     "score": 4,
+     "one_liner": "在2725名CRC病人中，以6項常規臨床資料建立RF模型預測術前LNM，外部驗證AUROC 0.776，優於cT單獨預測（0.707，p<.001）。",
+     "sim": 0.238
+    },
+    {
+     "pmid": "42842824",
+     "date": "2026-10-09",
+     "title_zh": "使用常規收集之臨床資料進行大腸直腸癌術前淋巴結轉移預測：多中心回溯性機器學習模型開發與外部驗證研究",
+     "score": 4,
+     "one_liner": "在2725名CRC病人（內部1074、外部驗證1651）中，六預測因子RF模型預測LNM，外部AUROC 0.776優於cT單獨0.707（p<.001）。",
+     "sim": 0.238
+    }
+   ]
+  },
+  {
+   "pmid": "43065020",
+   "title": "The gut microbiota: a key modulator of radiotherapy efficacy and toxicity in colorectal cancer",
+   "journal": "J Transl Med",
+   "journal_full": "Journal of translational medicine",
+   "issn": "1479-5876",
+   "issn_linking": "1479-5876",
+   "impact_factor": 9.7,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1136/jitc-2021-003334",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "He X, Yu Y, Wang N, Ma S, Zhang Y, Fang Z",
+   "abstract": "The gut microbiota plays a critical role in modulating both the efficacy and toxicity of radiotherapy in patients with colorectal cancer (CRC). This review synthesizes current evidence on the bidirectional interaction between the gut microbiome and radiotherapy, highlighting the mechanisms through which microbial communities influence radiosensitivity and treatment-related adverse effects. Specific microbiota-derived metabolites, such as short-chain fatty acids and methylglyoxal, can enhance the radiotherapeutic response by exacerbating DNA damage, promoting immunogenic cell death, and activating antitumor immunity. Conversely, dysbiosis may contribute to radioresistance and exacerbate radiation-induced enteritis by impairing intestinal barrier function and amplifying inflammatory responses. Therapeutic strategies targeting the gut microbiome-including probiotics, prebiotics, antibiotics, and fecal microbiota transplantation-show promise in improving radiotherapy outcomes and mitigating toxicity. However, its clinical application remains limited by issues of safety, variability in individual microbiome composition, and lack of standardized protocols. Further high-quality clinical trials are essential to validate these interventions and advance personalized microbial modulation approaches in CRC radiotherapy.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42930589",
+     "date": "2026-10-27",
+     "title_zh": "從菌相失衡到共生：運用腸道微生物叢改善癌症治療結果",
+     "score": 3,
+     "one_liner": "在胃腸癌文獻（人數未報）中，整理菌相機轉與介入策略，無直接組間比較或量化效益。",
+     "sim": 0.242
+    },
+    {
+     "pmid": "42930589",
+     "date": "2026-10-28",
+     "title_zh": "從菌相失衡到共生：運用腸道微生物叢改善癌症治療結果",
+     "score": 3,
+     "one_liner": "在胃腸癌文獻（人數未報）中，整理菌相機轉與介入策略，無直接組間比較或量化效益。",
+     "sim": 0.242
+    },
+    {
+     "pmid": "42755803",
+     "date": "2026-09-19",
+     "title_zh": "腸道菌群介導MSI-H/dMMR大腸直腸癌對免疫檢查點抑制劑之原發性與後天抗藥性：機轉、生物標記與治療意涵——敘事性文獻回顧",
+     "score": 2,
+     "one_liner": "本文綜述腸道菌群-免疫軸如何影響MSI-H/dMMR CRC對ICI之原發與後天抗藥性機轉及潛在生物標記，無新臨床數據。",
+     "sim": 0.215
+    }
+   ]
+  },
+  {
+   "pmid": "43064848",
+   "title": "From uptake to interface: rethinking molecular imaging of histopathological growth patterns in colorectal cancer liver metastases",
+   "journal": "Clin Exp Metastasis",
+   "journal_full": "Clinical & experimental metastasis",
+   "issn": "1573-7276",
+   "issn_linking": "0262-0898",
+   "impact_factor": 3.7,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.1007/s10585-021-10119-6",
+   "ptype": "Review, Letter",
+   "ptype_list": [
+    "Review",
+    "Letter"
+   ],
+   "authors": "Li Q, Kang L, Zhang Z",
+   "abstract": "Recent work has proposed molecular imaging signatures, including [18F]FDG and fibroblast activation protein inhibitor (FAPI) PET, for the noninvasive characterization of histopathological growth patterns (HGPs) in colorectal cancer liver metastases (CRLM). We suggest that the spatial nature of HGPs warrants further consideration. Because HGPs are defined at the tumor-liver interface and may exhibit intralesional heterogeneity, whole-lesion tracer uptake may not fully capture the complex tumor-host interactions underlying these phenotypes. FAPI uptake may reflect fibroblast-rich stromal remodeling but should not be considered a direct surrogate for desmoplastic HGP. Future imaging-pathology studies could therefore move beyond conventional SUV-based assessment toward spatially resolved, interface-oriented molecular phenotyping. Quantifying tracer uptake and heterogeneity at the tumor-liver interface, together with longitudinal multimodal imaging, may provide complementary information on the dynamic metastatic microenvironment. Prospective studies integrating molecular imaging with standardized HGP assessment and spatially matched histopathology are warranted to determine the clinical value of this approach.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42640498",
+     "date": "2026-08-26",
+     "title_zh": "大腸直腸癌肝轉移組織病理生長模式之非侵入性分子影像特徵",
+     "score": 3,
+     "one_liner": "本綜述提出以PET分子影像（FDG、RGD、FAPI等）非侵入性預測CRLM的三種組織病理生長模式，屬假說階段，尚無臨床驗證數據。",
+     "sim": 0.325
+    },
+    {
+     "pmid": "42995314",
+     "date": "2026-11-09",
+     "title_zh": "運用前瞻性18F-FDG PET/CT進行大腸直腸癌肝轉移組織病理生長模式的術前分類",
+     "score": 6,
+     "one_liner": "在78名可切除大腸直腸癌肝轉移患者中，比較eHGP與rHGP，術前FDG-PET參數無法可靠區分。",
+     "sim": 0.25
+    },
+    {
+     "pmid": "42870414",
+     "date": "2026-10-15",
+     "title_zh": "PET/CT與PET/MRI混合式分子影像於發炎性腸病：目前應用、挑戰與未來展望",
+     "score": 3,
+     "one_liner": "在IBD文獻（人數未報）中，整理FDG、FAPI PET及PET/MRI；無直接比較或量化效益。",
+     "sim": 0.162
+    }
+   ]
+  },
+  {
+   "pmid": "43062982",
+   "title": "Exosome-derived strategies for colorectal cancer: clinical trials and future directions",
+   "journal": "J Pharm Pharmacol",
+   "journal_full": "The Journal of pharmacy and pharmacology",
+   "issn": "2042-7158",
+   "issn_linking": "0022-3573",
+   "impact_factor": 3.7,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.1093/jpp/rgag147",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Kumar V, Chauhan A, Pal R, Kumar M, Awasthi A",
+   "abstract": "OBJECTIVES: To highlight the potential of exosomes as biocompatible nanocarriers for CRC diagnosis and therapy and discuss their sources, isolation, applications, clinical trials, advancements, and challenges.\nMETHODS: Relevant literature on exosome biology, CRC pathogenesis, isolation, therapeutic applications, engineered exosomes, and clinical development was reviewed.\nKEY FINDINGS: Exosomes offer low immunogenicity, high biocompatibility, and efficient cargo delivery, making them promising carriers for chemotherapeutic drugs, miRNAs, siRNAs, proteins, and immunomodulators. However, heterogeneity, standardization, cargo loading, manufacturing, targeting, and safety remain major challenges.\nCONCLUSIONS: Exosome-based systems represent a promising approach for improving CRC diagnosis and treatment. Further optimization and clinical validation are required for successful translation into clinical practice.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42654435",
+     "date": "2026-08-28",
+     "title_zh": "大腸直腸癌中的外泌體：從腫瘤生物學到診斷與治療應用",
+     "score": 2,
+     "one_liner": "本文綜述外泌體在大腸直腸癌生物學中的角色，探討其作為診斷生物標記與治療平台之潛力，無臨床數據。",
+     "sim": 0.261
+    },
+    {
+     "pmid": "42654435",
+     "date": "2026-08-29",
+     "title_zh": "外泌體在大腸直腸癌中的角色：從腫瘤生物學到診斷與治療應用",
+     "score": 2,
+     "one_liner": "本文綜述外泌體在大腸直腸癌腫瘤生物學、液體活檢與治療應用中的角色，未提供原創臨床數據或療效數字。",
+     "sim": 0.261
+    },
+    {
+     "pmid": "42909261",
+     "date": "2026-10-24",
+     "title_zh": "工程化細胞外囊泡用於發炎性腸道疾病與結腸炎相關大腸直腸癌：從治療創新到臨床轉譯",
+     "score": 2,
+     "one_liner": "本文綜述工程化EV於IBD與CAC的治療策略，未報人數、直接比較或臨床效益數值。",
+     "sim": 0.235
+    }
+   ]
+  },
+  {
+   "pmid": "43059164",
+   "title": "GAPDH Post-Translational Modifications as Molecular Switches in Cancer Metabolism and Tumor Microenvironment Remodeling",
+   "journal": "Cancer Med",
+   "journal_full": "Cancer medicine",
+   "issn": "2045-7634",
+   "issn_linking": "2045-7634",
+   "impact_factor": 3.5,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.1016/j.carbpol.2023.121458",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Jiang Z, Zhou Z, Qian X, Chen Q, Huang P",
+   "abstract": "Glyceraldehyde-3-phosphate dehydrogenase (GAPDH) is a multifunctional protein that participates in cancer metabolism, apoptosis, DNA repair, angiogenesis, and immune regulation beyond its canonical glycolytic role. However, how distinct post-translational modifications (PTMs) coordinate GAPDH functional transitions and determine its diverse biological roles in cancer remains incompletely understood. In this review, we summarize current advances in GAPDH PTMs, including methylation, phosphorylation, acetylation, ubiquitination, S-nitrosylation, serotonylation, crotonylation, lactylation, and succinylation, with emphasis on modification sites, regulatory enzymes, cellular contexts, and functional consequences. We propose a PTM-driven molecular switching model in which different cellular stimuli induce specific GAPDH modifications to regulate its enzymatic activity, subcellular localization, and protein interactions. Representative mechanisms include Src-mediated Tyr41 phosphorylation promoting DNA repair and 5-fluorouracil resistance in colorectal cancer, K254 and K160 acetylation regulating glycolytic activity and apoptosis through distinct cellular contexts, Parkin-mediated ubiquitination controlling mitophagy and metabolic reprogramming, and Gln262 serotonylation enhancing CD8+ T-cell glycolytic function and antitumor immunity. We further discuss the crosstalk among GAPDH PTMs and critically evaluate the current evidence, limitations, and therapeutic implications of GAPDH modification-based regulation. Although GAPDH PTMs represent promising targets for cancer intervention, current evidence is mainly derived from cellular and preclinical models, and PTM-specific therapeutic strategies remain limited. Further studies are required to clarify the cancer-specific functions and clinical relevance of GAPDH PTM networks.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42663768",
+     "date": "2026-08-30",
+     "title_zh": "轉譯後修飾在潰瘍性結腸炎致病機轉中的調控角色",
+     "score": 1,
+     "one_liner": "本文回顧磷酸化、醣化、泛素化等多種轉譯後修飾在UC致病機轉中調控免疫與上皮完整性的角色，屬機制性綜述無臨床數據。",
+     "sim": 0.284
+    },
+    {
+     "pmid": "42996982",
+     "date": "2026-11-09",
+     "title_zh": "蛋白質巴豆醯化在腫瘤中的角色：調控機轉與治療潛力",
+     "score": 2,
+     "one_liner": "本綜述整理多癌別Kcr機轉與治療潛力，無病人數、對照或臨床效益數據。",
+     "sim": 0.223
+    },
+    {
+     "pmid": "42996982",
+     "date": "2026-11-10",
+     "title_zh": "蛋白質巴豆醯化在腫瘤中的角色：調控機轉與治療潛力",
+     "score": 2,
+     "one_liner": "本綜述整理多癌別Kcr機轉與治療潛力，無病人數、對照或臨床效益數據。",
+     "sim": 0.223
+    }
+   ]
+  },
+  {
+   "pmid": "43064954",
+   "title": "Weight-loss interventions in gastrointestinal and liver diseases: a narrative review of GLP-1 based therapies, bariatric surgery, and endoscopic approaches",
+   "journal": "BMC Gastroenterol",
+   "journal_full": "BMC gastroenterology",
+   "issn": "1471-230X",
+   "issn_linking": "1471-230X",
+   "impact_factor": 3.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1111/dom.13078",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Atieh J, Maselli D, Camilleri M",
+   "abstract": "Obesity and metabolic dysfunction are increasingly prevalent in patients with diverse gastrointestinal and liver diseases and contribute to disease progression, treatment response, and long-term clinical outcomes. In parallel, the therapeutic landscape for obesity has expanded rapidly, with growing use of incretin receptor agonists (RA), including glucagon-like peptide-1 (GLP1)-RA, bariatric surgery, and endoscopic bariatric therapies. Understanding how these weight-loss interventions influence gastrointestinal disease activity, safety, and malignancy risk is essential for clinical decision-making. This narrative review synthesizes current evidence on the effects of obesity as well as weight-loss therapies across a spectrum of gastrointestinal and liver conditions, including metabolic dysfunction-associated steatotic liver disease (MASLD), inflammatory bowel disease (IBD), gastroesophageal reflux disease, celiac disease, gastrointestinal malignancies, and dumping syndrome. We summarize data from randomized trials, observational cohorts, and meta-analyses evaluating clinical outcomes, disease activity, adverse events, and cancer risk. In MASLD, GLP1-RA and bariatric surgery improve hepatic steatosis and steatohepatitis without aggravation of fibrosis. Fibrosis outcomes are most strongly influenced by sustained weight loss and improvements in insulin resistance. In IBD, obesity (particularly increased visceral fat) may negatively impact response to biologics; however, observational data suggest that GLP1-RA are not associated with increased IBD disease activity and may be associated with favorable clinical outcomes in selected patients with obesity. Bariatric surgery-particularly sleeve gastrectomy-may improve IBD control in carefully selected patients. Data on endoscopic bariatric therapies in IBD are limited but may be effective in selected patients. Gastrointestinal malignancies have increased prevalence in obesity, including esophageal, pancreatic, liver, and colorectal cancers. Current randomized and observational data do not demonstrate consistently increased cancer risk with GLP-1 based therapies, while bariatric surgery may be associated with reduced risk of selected obesity-related cancers. Evidence linking endoscopic bariatric therapies to malignancy risk is currently lacking. Dumping syndrome is a complication of bariatric surgery, but has not been reported following endoscopic bariatric therapies, likely due to delayed gastric emptying. Collectively, weight-loss therapies are increasingly important in the management of gastrointestinal and liver diseases. Ongoing studies and longer-term follow-up are needed to clarify durability of benefit, procedure-specific risks, and optimal patient selection for GLP-1 based therapies.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42645635",
+     "date": "2026-08-27",
+     "title_zh": "GLP-1受體促效劑與肥胖相關癌症：目前所知為何",
+     "score": 3,
+     "one_liner": "本綜述整理GLP-1RA與肥胖相關癌症（含CRC）之證據，觀察性研究顯示風險降低7-30%，但RCT統合分析未證實整體效益且CRC訊號不一致。",
+     "sim": 0.242
+    },
+    {
+     "pmid": "42645635",
+     "date": "2026-08-28",
+     "title_zh": "GLP-1受體促效劑與肥胖相關癌症：目前所知為何",
+     "score": 3,
+     "one_liner": "綜述整合觀察性研究（顯示GLP-1RA與肥胖相關癌症相對風險降低7-30%）與RCT統合分析（未顯示整體癌症發生率下降）的矛盾證據。",
+     "sim": 0.242
+    },
+    {
+     "pmid": "43057751",
+     "date": "2026-11-21",
+     "title_zh": "胃腸病學與肝臟學的代謝典範轉移：腸泌素類共同促效劑的臨床應用",
+     "score": 5,
+     "one_liner": "本綜述整合代謝與腸胃疾病資料（人數未報），未列對照，稱腸泌素藥物可降低大腸癌與IBD風險，幅度未報。",
+     "sim": 0.218
+    }
+   ]
+  }
+ ],
+ "submission_id": "5f4d8ba526764721afec37e752eecef0",
+ "state": "preparing"
+}
