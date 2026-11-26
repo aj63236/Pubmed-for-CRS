@@ -1,0 +1,456 @@
+{
+ "batch_id": null,
+ "date": "2026-11-26",
+ "submitted_at": "2026-11-26T12:01:22+08:00",
+ "provider": "openai",
+ "model": "gpt-6.1-sol",
+ "papers": [
+  {
+   "pmid": "43078454",
+   "title": "Analysis populations and clinical interpretation of outcomes in randomised trials of Hartmann's procedure versus primary anastomosis for perforated diverticulitis",
+   "journal": "Colorectal Dis",
+   "journal_full": "Colorectal disease : the official journal of the Association of Coloproctology of Great Britain and Ireland",
+   "issn": "1463-1318",
+   "issn_linking": "1462-8910",
+   "impact_factor": 2.3,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Dec",
+   "doi": "10.1111/codi.70689",
+   "ptype": "Meta-Analysis, Comparative Study",
+   "ptype_list": [
+    "Meta-Analysis",
+    "Comparative Study"
+   ],
+   "authors": "Huerta Gasca K",
+   "abstract": "AIM: In randomised trials comparing Hartmann's procedure with primary anastomosis for perforated diverticulitis, stoma reversal and related outcomes may be reported for different analysis populations. This study examined whether analyses of these outcomes represented comparable clinical probabilities.\nMETHOD: This descriptive meta-research study examined four linked randomised-trial families. Seven clinical and economic reports contributed outcome-specific analyses; a linked protocol supported trial identification. The analysis population, denominator, outcome definition, time origin and horizon, handling of post-randomisation events, and summary measure were extracted for each outcome-specific analysis. The clinical question addressed by each analysis was then reconstructed, and these features were compared across reports.\nRESULTS: Early outcomes were generally analysed by initial assignment, whereas later outcomes could be conditioned on survival, stoma formation, reversal, or follow-up availability. In DIVERTI, reported \"reversal\" percentages (65% and 96%) were complements of definitive-stoma proportions among 18-month survivors, not counts of reversal operations. LADIES/DIVA stoma-free survival instead combined survival and absence of a stoma from the initial strategy. Death could remain in the randomised denominator, enter a longitudinal outcome, or be excluded through survivor-conditioned analyses.\nCONCLUSION: In these trials, outcomes used to assess the same surgical decision did not consistently represent the same analysis population or clinical probability. Readers should establish whom each result represents before comparing reversal, stoma-free survival, or reconstructive risk.",
+   "watched": [],
+   "related": []
+  },
+  {
+   "pmid": "43083998",
+   "title": "Preoperative Sarcopenia and Outcomes after Laparoscopic and Robotic Colorectal Cancer Surgery: A Systematic Review and Meta-Analysis",
+   "journal": "J Gastrointest Cancer",
+   "journal_full": "Journal of gastrointestinal cancer",
+   "issn": "1941-6636",
+   "issn_linking": "",
+   "impact_factor": 2.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.1200/JCO.2017.35.15_SUPPL.TPS10127",
+   "ptype": "Systematic Review, Meta-Analysis",
+   "ptype_list": [
+    "Systematic Review",
+    "Meta-Analysis"
+   ],
+   "authors": "Younan M, Meglaa B, Ali M, Tawfeek M, Terra M, Abdelglil M",
+   "abstract": "BACKGROUND: Preoperative sarcopenia has been increasingly noted as a predictor for outcomes in colorectal cancer (CRC) surgery. However, its impact among patients undergoing minimally invasive CRC resection remains unknown. This systematic review and meta-analysis investigates the relation between preoperative sarcopenia and short-term outcomes after minimally invasive (MIS) CRC surgery.\nMETHODS: This review followed the PRISMA 2020 guidelines. A comprehensive literature search through different databases was performed to identify studies assessing adult patients with CRC who underwent minimally invasive colorectal resection. Eligible studies assessed preoperative sarcopenia using objective measures and included a non-sarcopenic comparator group. Pooled odds ratios and their corresponding 95% confidence intervals were estimated; we also used the I² statistic for evaluating heterogeneity.\nRESULTS: Eleven studies including 2,453 patients were included, of whom 855 were sarcopenic, and 1,598 were non-sarcopenic. Preoperative sarcopenia showed a higher risk estimate for overall postoperative complications, although the confidence interval crossed the null value (OR 1.92, 95% CI 0.99-3.74; I²=70.1%). A similar pattern was observed for severe complications (OR 1.92, 95% CI 0.80-4.61; I²=63.1%). For surgical site infection, the pooled estimate favored higher odds among patients with preoperative sarcopenia, but the association was not statistically significant under the prespecified random-effects model (OR 1.95, 95% CI 0.70-5.44; I²=61.6%). Anastomotic leakage was not significantly associated with preoperative sarcopenia under the prespecified random-effects model (OR 1.20, 95% CI 0.57-2.51; I²=24.8%).\nCONCLUSION: Preoperative sarcopenia, as defined in the included studies, may be associated with adverse short-term outcomes after minimally invasive colorectal cancer surgery. However, the evidence was characterized by substantial heterogeneity, unadjusted estimates, heterogeneous sarcopenia definitions, and very low certainty, limiting conclusions regarding an independent prognostic effect.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42957792",
+     "date": "2026-10-31",
+     "title_zh": "發炎性腸道疾病的機器人手術：系統性回顧",
+     "score": 4,
+     "one_liner": "在34篇IBD研究中，比較機器人與傳統手術，併發症相近、手術較久，未報效應值。",
+     "sim": 0.192
+    },
+    {
+     "pmid": "42957792",
+     "date": "2026-11-01",
+     "title_zh": "發炎性腸道疾病的機器人手術：系統性回顧",
+     "score": 4,
+     "one_liner": "在34篇IBD研究中，比較機器人與傳統手術，併發症相近、手術較久，未報效應值。",
+     "sim": 0.192
+    },
+    {
+     "pmid": "42714662",
+     "date": "2026-09-10",
+     "title_zh": "微創與開放式腹會陰聯合切除術（APR/ELAPE）術後會陰疝風險比較：系統性回顧與統合分析",
+     "score": 6,
+     "one_liner": "在763名接受APR/ELAPE病人的統合分析中，比較微創與開放式手術，發現微創組術後會陰疝風險顯著增加（OR 4.13）。",
+     "sim": 0.18
+    }
+   ]
+  },
+  {
+   "pmid": "43079278",
+   "title": "Iliopsoas abscess in crohn's disease: systematic review of case reports and case series",
+   "journal": "BMC Gastroenterol",
+   "journal_full": "BMC gastroenterology",
+   "issn": "1471-230X",
+   "issn_linking": "1471-230X",
+   "impact_factor": 3.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Sep",
+   "doi": "10.1093/ecco-jcc/jjaa217",
+   "ptype": "Systematic Review",
+   "ptype_list": [
+    "Systematic Review"
+   ],
+   "authors": "Alawlaqi B, Al-Shabaani A, Al-Shabaani N, Fraihat A, Sayel A, Alghzawi H",
+   "abstract": "BACKGROUND: Transmural inflammation is a hallmark of Crohn's disease (CD), a chronic inflammatory bowel disease that exposes patients to serious consequences such as fistulas and abscesses. Iliopsoas abscess (IPA) is an uncommon but potentially fatal penetrating (extra-luminal) complication of CD that frequently arises from the direct extension of transmural inflammation into the iliopsoas compartment. Because data on this entity are derived almost exclusively from isolated case reports and small case series, the current literature provides a fragmented understanding of its clinical behaviour, microbiology, and optimal management.\nAIM OF THE STUDY: The aim of this study was to summarize the available data on the clinical presentation, diagnostic methods, microbiological profile, treatment plans, and results of IPA in patients with CD by methodically reviewing and analyzing published case reports and case series.\nMETHODS: This systematic review was registered with PROSPERO (CRD420251164473) and carried out in accordance with PRISMA 2020 principles. To find relevant studies, a thorough search of PubMed, Scopus, Web of Science, and Google Scholar was conducted through February 2025. Case studies and case series describing CD patients who created an IPA were included. Data on demographics, clinical features, diagnostics, microbiology, management, and outcomes were extracted from 53 eligible studies. The Joanna Briggs Institute (JBI) critical assessment methods for case reports and case series were used to evaluate the methodological quality of the included studies.\nRESULTS: A total of 53 studies including information on 86 individuals were included, comprising 38 case reports and 15 case series. The mean patient age was 30.5 ± 12.9 years, and 55/86 (64.0%) were male. Fever (25/86; 29.1%), abdominal pain (18/86; 20.9%), and combined hip/flank/back pain (23/86; 26.7%) were the most frequently reported presenting features. Cross-sectional imaging was the cornerstone of diagnosis; CT was the most commonly utilised modality (56/86; 65.1%), followed by ultrasound (55/86; 64.0%) and MRI (52/86; 60.5%); most patients underwent more than one modality during workup. Microbiological data from abscess fluid culture were available in 72/86 patients (83.7%); the majority of isolates were polymicrobial enteric organisms, with Escherichia coli being most frequently identified. Management was typically combined: medical therapy (mainly antibiotics) was documented in 68/86 (79.1%) and surgical or interventional management in 78/86 (90.7%). The overall recovery rate was good, although recurrence was observed-particularly in patients treated with drainage alone without addressing the underlying intestinal disease.\nCONCLUSION: IPA is a complication of CD that frequently presents with non-specific symptoms, leading to diagnostic delay. Cross-sectional imaging and a high index of suspicion are essential for early diagnosis. Improving clinical outcomes and preventing recurrence require a multidisciplinary approach that includes aggressive source control through drainage, appropriate antimicrobial therapy, and definitive management of the underlying CD, which frequently includes surgical resection and the subsequent consideration of biologic therapy.\nCLINICAL TRIAL NUMBER: Not applicable.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42700272",
+     "date": "2026-09-07",
+     "title_zh": "大腸直腸癌之心臟轉移：臨床表現、心臟侵犯型態與預後的全面系統性回顧",
+     "score": 4,
+     "one_liner": "彙整53例CRC心臟轉移病例，發現多為右心腔單一心內病灶，整體死亡率64.2%。",
+     "sim": 0.164
+    },
+    {
+     "pmid": "42700272",
+     "date": "2026-09-08",
+     "title_zh": "大腸直腸癌心臟轉移：臨床表現、心臟侵犯型態與預後的系統性文獻回顧",
+     "score": 3,
+     "one_liner": "彙整53例大腸直腸癌心臟轉移病例，多為右側心臟孤立病灶（右心室45.8%），整體死亡率64.2%。",
+     "sim": 0.164
+    }
+   ]
+  },
+  {
+   "pmid": "43082475",
+   "title": "Clinical and Molecular Prognostic Factors and Targeted Therapy Outcomes in Colorectal Cancer with Bone and Brain Metastases: A Multicenter Retrospective Turkish Oncology Group Study",
+   "journal": "Curr Oncol",
+   "journal_full": "Current oncology (Toronto, Ont.)",
+   "issn": "1718-7729",
+   "issn_linking": "1198-0052",
+   "impact_factor": 3.6,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.3390/curroncol33110712",
+   "ptype": "Multicenter Study",
+   "ptype_list": [
+    "Multicenter Study"
+   ],
+   "authors": "Başkurt K, Uyar G, Yeşilbaş E, Büyükşimşek M, Sertesen Çamöz E, Yılmaz E",
+   "abstract": "Bone and brain metastases are rare in colorectal cancer, and prior studies have treated metastasis as a fixed baseline characteristic. We conducted a multicenter retrospective study of patients with colorectal cancer and bone and/or brain metastases at Turkish Oncology Group centers (May 2011 to September 2025). In multivariable Cox models, the opposite rare-site metastasis and post-metastasis targeted therapy were modeled as time-dependent covariates. Among 188 patients, 139 (73.9%) had bone-first, 33 (17.6%) brain-first, and 16 (8.5%) synchronous disease. Median overall survival was 13.6 months (95% CI 11.6 to 16.4), with no difference by phenotype (p = 0.705). Opposite-site involvement was associated with higher mortality in the bone-metastasis (aHR 2.149, p = 0.006) and brain-metastasis (aHR 2.076, p = 0.018) cohorts, reflecting brain metastasis developing during follow-up in the former and bone metastasis present at diagnosis in the latter. Carcinoembryonic antigen and neutrophil-to-lymphocyte ratio were independently prognostic (both p < 0.01). Anti-EGFR (aHR 0.356, p = 0.001) and anti-VEGF therapy (aHR 0.471, p = 0.005) were associated with lower mortality in patients with bone metastasis but not in those with brain metastasis. Brain metastasis developing in patients with bone metastases carries independent prognostic weight, while targeted-therapy associations in brain metastasis remain inconclusive.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42342945",
+     "date": "2026-06-25",
+     "title_zh": "腦轉移瘤切除術後影響復發與存活之腫瘤軌跡的圍術期決定因子",
+     "score": 2,
+     "one_liner": "在172名腦轉移切除病人（361病灶）中，發現術中包膜破裂（HR 2.70）、分塊切除（HR 2.22）等為復發之獨立預測因子。",
+     "sim": 0.167
+    }
+   ]
+  },
+  {
+   "pmid": "43079269",
+   "title": "Development and internal evaluation of a nomogram for identifying current sleep disturbance in patients with colorectal cancer undergoing chemotherapy: a cross-sectional study",
+   "journal": "BMC Gastroenterol",
+   "journal_full": "BMC gastroenterology",
+   "issn": "1471-230X",
+   "issn_linking": "1471-230X",
+   "impact_factor": 3.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Sep",
+   "doi": "10.1097/ncc.0000000000001085",
+   "ptype": "Multicenter Study",
+   "ptype_list": [
+    "Multicenter Study"
+   ],
+   "authors": "Tang A, Xiao T, Yin Z, Li Q, Xiao R, Li F",
+   "abstract": "OBJECTIVES: This study aimed to identify factors associated with current sleep disturbance (SD) in patients with colorectal cancer (CRC) undergoing chemotherapy and to develop and internally evaluate a nomogram for estimating the probability of current SD.\nMETHODS: A total of 630 patients with CRC undergoing chemotherapy were recruited from five hospitals in China. Participants were assessed using the Demographic Information Questionnaire, Pittsburgh Sleep Quality Index (PSQI), and Hospital Anxiety and Depression Scale (HADS), while clinical assessment data and laboratory test results at admission were obtained from electronic medical records. The data were randomly divided into a training set and a validation set at a 7:3 ratio. Univariable analyses and multivariable logistic regression were used to identify factors associated with SD in patients with CRC undergoing chemotherapy. The training set was used for multivariable logistic regression modeling and nomogram development, whereas the validation set was used to evaluate the discrimination and calibration of the fixed model. In addition, 500 bootstrap resamples were performed within the training set for internal validation.\nRESULTS: The overall prevalence of current SD was 68.7%. Gender, disease duration, ECOG performance status, HADS-D score, serum potassium, and albumin were independently associated with current SD and were included in the final nomogram. The model showed an AUC of 0.762 (95% CI, 0.716~0.808) in the training set and 0.712 (95% CI, 0.635~0.789) in the validation set. Bootstrap internal validation in the training set yielded a mean absolute calibration error of 0.022. In the validation set, the mean absolute calibration error (Eavg) was 0.055, with a calibration intercept of 0.318, a calibration slope of 0.667, and a Brier score of 0.188.\nCONCLUSIONS: Patients with CRC undergoing chemotherapy had a high burden of current SD. The nomogram may assist in identifying patients with a higher probability of current SD who may warrant further sleep assessment.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "43055804",
+     "date": "2026-11-20",
+     "title_zh": "運用瑞典與丹麥全國登錄資料，探討微創大腸直腸癌手術中轉開腹的術前預測",
+     "score": 5,
+     "one_liner": "以7,811名瑞典微創CRC病人建模，瑞典測試與丹麥驗證AUC為0.730與0.608。",
+     "sim": 0.228
+    },
+    {
+     "pmid": "42842824",
+     "date": "2026-10-08",
+     "title_zh": "使用常規收集之臨床資料預測大腸直腸癌術前淋巴結轉移：多中心回溯性機器學習模型建立與外部驗證研究",
+     "score": 4,
+     "one_liner": "在2725名CRC病人中，以6項常規臨床資料建立RF模型預測術前LNM，外部驗證AUROC 0.776，優於cT單獨預測（0.707，p<.001）。",
+     "sim": 0.22
+    },
+    {
+     "pmid": "42842824",
+     "date": "2026-10-09",
+     "title_zh": "使用常規收集之臨床資料進行大腸直腸癌術前淋巴結轉移預測：多中心回溯性機器學習模型開發與外部驗證研究",
+     "score": 4,
+     "one_liner": "在2725名CRC病人（內部1074、外部驗證1651）中，六預測因子RF模型預測LNM，外部AUROC 0.776優於cT單獨0.707（p<.001）。",
+     "sim": 0.22
+    }
+   ]
+  },
+  {
+   "pmid": "43079908",
+   "title": "The E. coli CNF1 toxin induces fetal reprogramming of intestinal stem cells and a serrated colorectal cancer transcriptional signature in organoids",
+   "journal": "Gut Microbes",
+   "journal_full": "Gut microbes",
+   "issn": "1949-0984",
+   "issn_linking": "1949-0976",
+   "impact_factor": 15.3,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Dec",
+   "doi": "10.1080/19490976.2026.2762578",
+   "ptype": "Journal Article",
+   "ptype_list": [],
+   "authors": "Letourneur D, Bergsten E, Raynaud N, Mondy J, Nigro G, Tsoumtsa Meda L",
+   "abstract": "Mechanistic insights are essential to understand how gut microbiota pathobionts contribute to tumorigenesis, given the mounting epidemiological evidence linking them to colorectal cancer. We report an increased prevalence of the Rho GTPase-targeting cnf1 toxin gene from Escherichia coli in the microbiota of colorectal cancer patients, alongside an exploratory univariate association with proximal, early-stage disease. RNA sequencing and comparative gene set enrichment analysis reveal a concordant serrated pathway transcriptional signature between colorectal cancer tissue of patients colonized with cnf1 + bacteria and CNF1-treated mouse intestinal organoids. Moreover, CNF1 induces a fetal-like transcriptional reprogramming in organoids. Using integrated approaches, we demonstrated that CNF1 reprograms Lgr5⁺ stem cells into a Ly6a/SCA-1⁺ fetal-like state that exhibits enhanced stemness potential. This reprogramming is preceded by a YAP/TAZ-driven early transcriptional program and nuclear translocation of YAP. Functional analyses identify a RHOA/ROCK-YAP/TAZ-dependent transition to Ly6a/SCA-1⁺ stem cells, highlighting a mechanistic link between bacterial effectors and stem cell plasticity in colorectal tumorigenesis.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42430492",
+     "date": "2026-07-10",
+     "title_zh": "Wnt訊號剔除後腸道腫瘤細胞可塑性漸進性變化、Myc活化，以及Lgr5+腫瘤幹細胞譜系分化承諾的喪失",
+     "score": 3,
+     "one_liner": "在FAP息肉與Apc突變小鼠腺瘤模型中，剔除Tcf7或Lef1導致腫瘤細胞可塑性增加、Myc活化與腫瘤生成增強。",
+     "sim": 0.152
+    },
+    {
+     "pmid": "42430492",
+     "date": "2026-07-12",
+     "title_zh": "Wnt訊號剔除後腸道腫瘤細胞可塑性漸進性變化、Myc活化，以及Lgr5+腫瘤幹細胞譜系分化承諾的喪失",
+     "score": 3,
+     "one_liner": "在FAP息肉與Apc突變小鼠腺瘤模型中，剔除Tcf7或Lef1導致腫瘤細胞可塑性增加、Myc活化與腫瘤生成增強。",
+     "sim": 0.152
+    }
+   ]
+  },
+  {
+   "pmid": "43079514",
+   "title": "Severity ranking of immunocompromise conditions for patients undergoing emergency surgery: an outcomes-based reassessment of the 2021 consensus classification system published in the World Journal of Emergency Surgery",
+   "journal": "World J Emerg Surg",
+   "journal_full": "World journal of emergency surgery : WJES",
+   "issn": "1749-7922",
+   "issn_linking": "1749-7922",
+   "impact_factor": 7.7,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Sep",
+   "doi": "10.4049/jimmunol.1500861",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Kennedy G, Allen G, Davidson G, Liu C, Hantouli M, Flum D",
+   "abstract": "BACKGROUND: In 2021, the World Journal of Emergency Surgery published consensus guidelines classifying immunocompromised patients with acute abdomen into \"mild-moderate\" and \"severe\" immune deficiency categories to standardize perioperative risk assessment and guide surgical decision-making. We assessed whether published mortality and complication data are consistent with this classification.\nMETHODS: We conducted a structured literature review of PubMed and MEDLINE (2000-2025) for studies reporting mortality and complications in adult immunocompromised patients undergoing emergency colectomy, cholecystectomy, appendectomy, or small bowel resection, with a non-immunocompromised control group. Of the fifteen immunocompromising conditions in the classification, three were excluded for confounding or insufficient data (burns, trauma, post-splenectomy) and two pairs combined (symptomatic HIV/AIDS with CD4 < 200 cells/mm3; malignancy with and without chemotherapy), yielding ten categories. For each, we calculated procedure-specific relative mortality and complication rates. We defined a severe-risk threshold of greater than 3 × mortality and tested concordance at alternative thresholds (2-4 ×) in a sensitivity analysis.\nRESULTS: The guidelines classified five conditions as severe (neutropenia, steroid use, HIV < 200 cells/mm3, malignancy, transplant) and five as mild-moderate (uremia, advanced age, malnutrition, diabetes, HIV > 200 cells/mm3). Among the severe conditions, three (neutropenia, steroid use, HIV < 200 cells/mm3) showed greater than 3 × mortality risk, with neutropenia highest (~ 12 ×); the other two (malignancy 2-3 × , transplant 1-2 ×) showed only mild-moderate excess risk. Among the mild-moderate conditions, two (uremia 6-7 × , advanced age 2-9 ×) showed excess mortality and complication risk more consistent with severe immunocompromise.\nCONCLUSION: Observed procedure-specific mortality and complication data do not consistently support the 2021 consensus severity ranking: four of the ten conditions were discordant with their assigned classification. This analysis suggests reconsidering uremia and advanced age as severe, and malignancy and transplant as mild-moderate. Because immunocompromise severity may influence whether and when patients undergo surgery, these findings highlight a priority for evidence-based refinement of severity ranking in emergency general surgery.",
+   "watched": [],
+   "related": []
+  },
+  {
+   "pmid": "43081068",
+   "title": "The gut microbiome and brain inflammation in Parkinson's disease: mechanisms and therapies",
+   "journal": "Front Immunol",
+   "journal_full": "Frontiers in immunology",
+   "issn": "1664-3224",
+   "issn_linking": "1664-3224",
+   "impact_factor": 7.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "",
+   "doi": "10.1016/j.nbd.2021.105599",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Shah A, Truong T, Savani E, Shi H, Komandooru D, Jayakumar N",
+   "abstract": "Parkinson's disease (PD) is the second most common chronic progressive neurodegenerative disorder affecting over 10 million people worldwide. PD is increasingly understood to have peripheral origins in a substantial subset of patients, in whom microbiota dysbiosis precedes and facilitates central neurodegeneration via the gut-brain axis. Dysbiosis-associated depletion of short-chain fatty acid (SCFA)-producing bacteria, enrichment of lipopolysaccharide-producing taxa, and loss of gut barrier integrity activate toll-like receptor 4 (TLR4)/nuclear factor kappa B (NF-κB) signaling, prime microglia towards a disease-linked phenotype, and promote the misfolding of α-synuclein and its propagation from the enteric to the central nervous system. Complement, activated by α-synuclein and shaped by the gut microbiota, further links dysbiosis to neurodegeneration. Beyond neuroinflammation, the gut microbiome modulates levodopa pharmacokinetics through bacterial tyrosine decarboxylase activity and interacts with catechol-O-methyltransferase inhibitors to alter drug bioavailability. Certain microbial metabolites, including the trimethylamine N-oxide to butyrate ratio and secondary bile acids, have emerged as candidate biomarkers. Cutaneous phosphorylated α-synuclein deposition and seeding amplification assays (SAA) are evaluated as minimally invasive peripheral biomarkers, along with epidemiological evidence linking prior antibiotic exposure and inflammatory bowel disease to PD risk. Emerging therapeutic strategies include SCFA supplementation, fecal microbiota transplantation, glucagon-like peptide-1 receptor (GLP-1R) agonists, and targeted probiotics. Microbiome-direct strategies may benefit patients with a gut-first PD subtype, suggested by prodromal constipation, rapid eye movement (REM) sleep behavior disorder, or cardiac sympathetic denervation, underscoring the need for subtype-stratified trial designs. In this review article, we highlight recent evidence linking the gut microbiome with neuroinflammation in Parkinson's disease through α-synuclein pathology, complement activation, and LPS/TLR4/NF-κB signaling, and discuss the implications for biomarkers, pharmacological interactions, and therapies. In conclusion, the convergence of mechanisms, biomarkers, and clinical evidence indicates the gut microbiome may be a significant diagnostic and modifiable therapeutic target in PD.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42942943",
+     "date": "2026-10-28",
+     "title_zh": "微生物群相關代謝物作為發炎性腸道疾病的生物標記與治療契機",
+     "score": 3,
+     "one_liner": "在IBD文獻（人數未提供）中，綜述菌相代謝物的診療潛力，未提供組間比較或效應數值。",
+     "sim": 0.175
+    },
+    {
+     "pmid": "42942943",
+     "date": "2026-10-29",
+     "title_zh": "微生物群相關代謝物作為發炎性腸道疾病的生物標記與治療契機",
+     "score": 3,
+     "one_liner": "在IBD文獻（人數未提供）中，綜述菌相代謝物的診療潛力，未提供組間比較或效應數值。",
+     "sim": 0.175
+    },
+    {
+     "pmid": "42356295",
+     "date": "2026-06-26",
+     "title_zh": "從腸漏到脆弱的大腦：肥胖相關腸道屏障失效於大腸直腸癌與認知功能障礙中的角色",
+     "score": 2,
+     "one_liner": "本綜述提出肥胖相關腸道屏障破壞可能透過腸腦軸連結CRC進展與認知功能障礙，屬理論性「雙屏障失效」模型，無臨床數據佐證。",
+     "sim": 0.16
+    }
+   ]
+  },
+  {
+   "pmid": "43082777",
+   "title": "Insights on Intestinal Fibrosis: From Stromal Cell Heterogeneity and Metabolic Reprogramming to Novel Therapeutic Strategies",
+   "journal": "Cells",
+   "journal_full": "Cells",
+   "issn": "2073-4409",
+   "issn_linking": "2073-4409",
+   "impact_factor": 6.0,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.3390/cells15222118",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Liu Y, Wang J, Xu R, Bai X, Zhang Y, Bi X",
+   "abstract": "Intestinal fibrosis is a major complication of inflammatory bowel disease, and it can lead to fixed strictures, intestinal obstruction, and repeated surgical intervention. Although effective control of inflammation may limit ongoing tissue injury, no approved therapy selectively prevents or reverses established intestinal fibrosis. This therapeutic gap reflects an incomplete understanding of the cellular and metabolic mechanisms that sustain fibrotic remodeling. In this review, we integrate classical extracellular-matrix pathways with recent single-cell, spatial, and metabolic evidence to provide a multicellular framework for intestinal fibrogenesis. Single-cell studies indicate that intestinal fibroblasts comprise overlapping and environmentally responsive states rather than fixed lineages. Their activation is shaped by reciprocal communication with immune cells, epithelial and endothelial cells, smooth muscle cells, creeping fat, and the intestinal microbiota. Metabolic reprogramming provides an additional layer of regulation through glycolysis, pentose phosphate pathway, glutamine-proline metabolism, lactate-associated signaling, and extracellular metabolite sensing. However, the strength of evidence varies among these mechanisms, and direct links between defined fibroblast states and specific metabolic dependencies remain limited. In this review, we further discuss therapeutic opportunities targeting immune-stromal communication, pathogenic fibroblast programs, cellular metabolism, extracellular-matrix turnover, and mechanotransduction. Translating these opportunities into stage-specific interventions will require spatially resolved functional models to validate causal targets and fibrosis-selective biomarkers to assess therapeutic effects.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42753707",
+     "date": "2026-09-19",
+     "title_zh": "單細胞解析發炎性腸道疾病藥物反應與抗藥性：細胞特徵與精準治療",
+     "score": 2,
+     "one_liner": "本綜述整合單細胞與空間多體學研究，提出免疫失調、基質重塑、上皮重編程三大細胞特徵解釋IBD治療抗藥性機轉，屬機轉假說整理，無臨床數據。",
+     "sim": 0.208
+    },
+    {
+     "pmid": "43065828",
+     "date": "2026-11-23",
+     "title_zh": "大腸直腸癌中的B細胞與巨噬細胞交互作用：狀態耦合、時空重塑與治療意涵",
+     "score": 2,
+     "one_liner": "在CRC文獻（人數未提供）中，綜述B細胞與巨噬細胞互作，未提供比較組或臨床效應量。",
+     "sim": 0.18
+    },
+    {
+     "pmid": "43065828",
+     "date": "2026-11-24",
+     "title_zh": "大腸直腸癌中的B細胞與巨噬細胞交互作用：狀態耦合、時空重塑與治療意涵",
+     "score": 2,
+     "one_liner": "在CRC文獻（人數未提供）中，綜述B細胞與巨噬細胞互作，未提供比較組或臨床效應量。",
+     "sim": 0.18
+    }
+   ]
+  },
+  {
+   "pmid": "43082485",
+   "title": "Current Landscape in Clinical Drug Repurposing: From Non-Oncology Drugs to New Cancer Applications",
+   "journal": "Curr Oncol",
+   "journal_full": "Current oncology (Toronto, Ont.)",
+   "issn": "1718-7729",
+   "issn_linking": "1198-0052",
+   "impact_factor": 3.6,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.3390/curroncol33110722",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Bivacqua R, Barreca M, Raimondi F, Giuffrida S, Lo Mascolo F, Spanò V",
+   "abstract": "Drug repurposing builds on pharmacological and safety information already available for an approved drug, but this advantage requires additional studies to establish the biological effect and related mechanisms of action. We conducted a clinically focused review of non-oncology drugs tested as active cancer treatments in interventional studies from 1 January 2021 to 31 July 2026. Randomized trials, phase II-III studies, biomarker-selected cohorts, and studies reporting pharmacokinetics or human target engagement were prioritized. Despite the large number of registered studies, the landscape is still dominated by early-phase, academically sponsored trials. Several widely studied candidates, including metformin, nelfinavir, disulfiram-copper, losartan, and propofol, were negative in randomized evaluations. Conversely, aspirin reduced recurrence in localized colorectal cancer with PI3K-pathway alterations, while preoperative peritumoral lidocaine administration was associated with improved disease-free survival and overall survival in a randomized breast cancer trial. Smaller randomized trials investigating pharmacological ascorbate in pancreatic cancer and simvastatin in recurrent small-cell lung cancer provided preliminary efficacy signals that require confirmation in larger studies. Across drug classes, unsuccessful programs were often limited by inadequate exposure, uncertain tumor penetration, absent pharmacodynamic evidence, heterogeneous patient populations, or weak continuity between exploratory and confirmatory development. Progress will depend on more selective clinical hypotheses, early demonstration of human pharmacology, prospective biomarkers, and clear regulatory ownership.",
+   "watched": [],
+   "related": []
+  },
+  {
+   "pmid": "43082473",
+   "title": "Microbiota-Driven Mechanisms in Endometrial Cancer Pathogenesis: Focus on Lynch Syndrome",
+   "journal": "Curr Oncol",
+   "journal_full": "Current oncology (Toronto, Ont.)",
+   "issn": "1718-7729",
+   "issn_linking": "1198-0052",
+   "impact_factor": 3.6,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.3390/curroncol33110710",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Actis S, Cazzaniga M, D'Alonzo M, Perrini G, Giorgi M, Pace L",
+   "abstract": "Lynch syndrome is the most common hereditary syndrome predisposing to endometrial cancer, but the mechanisms contributing to tumor development remain incompletely understood. This review aimed to summarise current evidence on the composition and potential pathogenic role of the microbiota in Lynch syndrome-associated endometrial cancer and to explore its clinical implications. A systematic literature search of PubMed/MEDLINE and Embase was conducted between October and November 2025 using predefined terms related to microbiota, carcinogenesis, endometrial cancer, and Lynch syndrome. Available evidence suggests that alterations in the microbiota may contribute to carcinogenesis through chronic inflammation, immune modulation, metabolic changes, and bacterial genotoxicity. Studies in Lynch syndrome carriers with endometrial or colorectal cancer report an increased abundance of potentially pro-inflammatory Gram-negative bacteria, including Bacteroides fragilis and Fusobacterium nucleatum, together with a reduction in short-chain fatty acid-producing bacteria such as Faecalibacterium, Blautia, and Butyrivibrio. Microbial metabolites, including butyrate, may have protective effects, whereas bacterial β-glucuronidase activity may increase estrogen bioavailability and contribute to a tumor-promoting environment. Emerging evidence also suggests that the microbiota may influence treatment response and toxicity. Overall, current evidence supports a potential role for the microbiota in Lynch syndrome-associated endometrial carcinogenesis, although data remain limited. Further studies are needed to determine whether microbiota profiling could contribute to risk stratification, prevention, and personalized therapeutic strategies.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42930589",
+     "date": "2026-10-27",
+     "title_zh": "從菌相失衡到共生：運用腸道微生物叢改善癌症治療結果",
+     "score": 3,
+     "one_liner": "在胃腸癌文獻（人數未報）中，整理菌相機轉與介入策略，無直接組間比較或量化效益。",
+     "sim": 0.207
+    },
+    {
+     "pmid": "42930589",
+     "date": "2026-10-28",
+     "title_zh": "從菌相失衡到共生：運用腸道微生物叢改善癌症治療結果",
+     "score": 3,
+     "one_liner": "在胃腸癌文獻（人數未報）中，整理菌相機轉與介入策略，無直接組間比較或量化效益。",
+     "sim": 0.207
+    },
+    {
+     "pmid": "42971659",
+     "date": "2026-11-04",
+     "title_zh": "老化與微生物叢：胃腸道癌症發生的前提條件",
+     "score": 3,
+     "one_liner": "在老化與胃腸癌文獻（人數未報）中，整理健康與不健康老化的菌相差異，未提供癌症風險差異數值。",
+     "sim": 0.19
+    }
+   ]
+  },
+  {
+   "pmid": "43082414",
+   "title": "Decision-Linked Multimodal Prediction in Non-Metastatic Rectal Adenocarcinoma",
+   "journal": "Curr Oncol",
+   "journal_full": "Current oncology (Toronto, Ont.)",
+   "issn": "1718-7729",
+   "issn_linking": "1198-0052",
+   "impact_factor": 3.6,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Oct",
+   "doi": "10.3390/curroncol33110650",
+   "ptype": "Review",
+   "ptype_list": [
+    "Review"
+   ],
+   "authors": "Mwazha A, Kader S, Naicker N, Mhemedi B, Mazibuko Z, Mtembu T",
+   "abstract": "Treatment options for non-metastatic rectal adenocarcinoma include total neoadjuvant therapy, selective radiotherapy omission, watch-and-wait, and mismatch-repair-guided immunotherapy. Prediction studies often conflate pathological and clinical complete response, radiological regression, organ preservation, local regrowth, and survival. This structured narrative review evaluated multimodal assessments by clinical decision and timing. MEDLINE/PubMed, Estudies andcopus were searched for literature published from 1 January 2015 to 30 June 2026, supplemented by guidelines, citation tracking, landmark earlier studies, and separately identified contextual sources. Evidence was organized around baseline selection, restaging, postoperative risk, and surveillance. An author-derived four-tier framework distinguished evidence maturity from implementation feasibility. Baseline pelvic magnetic resonance imaging and mismatch repair/microsatellite instability testing provided the most actionable pretreatment information. Concordant imaging, endoscopy, and digital rectal examination supported clinical complete-response assessment and watch-and-wait only with intensive surveillance and timely salvage surgery. Resection histopathology defined residual disease and postoperative risk but could not retrospectively justify surgery omission. Carcinoembryonic antigen remained an established adjunct. Circulating tumor DNA, radiomics, immune and stromal measures, molecular signatures, and artificial intelligence models require further validation before independently directing treatment. Clinical usefulness depends on alignment with a defined decision, time point, and endpoint. The optimal pathway delivers feasible, validated information when it can safely change care.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42942396",
+     "date": "2026-10-29",
+     "title_zh": "分子反應能否重新定義直腸癌的器官保留？從臨床完全緩解走向精準觀察等待",
+     "score": 6,
+     "one_liner": "彙整6個小型世代評估分子檢測輔助觀察等待，31人子研究陽性預測值僅23.5%。",
+     "sim": 0.237
+    },
+    {
+     "pmid": "42998225",
+     "date": "2026-11-09",
+     "title_zh": "從根治性切除到局部進展期直腸癌的器官保留：風險調適管理之敘述性綜述",
+     "score": 6,
+     "one_liner": "在LARC（人數未載）中，比較治療排序，指出鞏固較誘導化療利於器官保留，效益未量化。",
+     "sim": 0.204
+    },
+    {
+     "pmid": "42998225",
+     "date": "2026-11-10",
+     "title_zh": "從根治性切除到局部進展期直腸癌的器官保留：風險調適管理之敘述性綜述",
+     "score": 6,
+     "one_liner": "在LARC（人數未載）中，比較治療排序，指出鞏固較誘導化療利於器官保留，效益未量化。",
+     "sim": 0.204
+    }
+   ]
+  }
+ ],
+ "submission_id": "1b362fe12ebd463682847d086b6b946f",
+ "state": "preparing"
+}
