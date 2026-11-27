@@ -1,10 +1,152 @@
 {
  "batch_id": null,
- "date": "2026-11-26",
- "submitted_at": "2026-11-26T12:01:22+08:00",
+ "date": "2026-11-27",
+ "submitted_at": "2026-11-27T11:59:38+08:00",
  "provider": "openai",
  "model": "gpt-6.1-sol",
  "papers": [
+  {
+   "pmid": "43091385",
+   "title": "Perioperative Continuation Versus Discontinuation of Antiplatelet Therapy in Colorectal Surgery: A Systematic Review and Meta-Analysis of Bleeding and Thrombotic Events",
+   "journal": "Med Sci (Basel)",
+   "journal_full": "Medical sciences (Basel, Switzerland)",
+   "issn": "2076-3271",
+   "issn_linking": "2076-3271",
+   "impact_factor": 5.9,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.7759/cureus.88473",
+   "ptype": "Systematic Review, Meta-Analysis",
+   "ptype_list": [
+    "Systematic Review",
+    "Meta-Analysis",
+    "Review"
+   ],
+   "authors": "Morarasu S, Morarasu B, Guzga E, Sorodoc L, Dimofte G, Lunca S",
+   "abstract": "Background: Perioperative management of antiplatelet therapy in colorectal surgery requires balancing the risk of surgical bleeding against cardiovascular and cerebrovascular complications after treatment withdrawal. This meta-analysis assessed the safety of continuing antiplatelet therapy compared with preoperative discontinuation. Methods: PubMed and Embase were searched through 30 May 2026 for comparative studies of adults undergoing colorectal surgery. Random-effects models were used to pool odds ratios (ORs) for dichotomous outcomes and mean differences (MDs) for continuous outcomes. The clinically relevant analysis was restricted to patients already receiving antiplatelet therapy with separately reported continuation and discontinuation groups. Risk of bias was assessed with ROBINS-I and certainty of evidence with GRADE. Results: Seven observational studies were included in the systematic review, of which four (505 patients; 209 continuation and 296 discontinuation) contributed to the primary analysis. Continuation was not associated with statistically significant differences in postoperative bleeding (OR 2.65, 95% CI 0.78-8.99), thrombotic events (OR 0.29, 95% CI 0.06-1.32), transfusion (OR 1.39, 95% CI 0.35-5.51), overall morbidity (OR 2.08, 95% CI 0.97-4.48), intraoperative blood loss (MD -2.74 mL, 95% CI -13.07 to 7.59), or operative time (MD 0.72 min, 95% CI -11.83 to 13.27). Hospital stay was longer with continuation (MD 0.65 days, 95% CI 0.40-0.91). In the broader secondary analysis, continuation was associated with increased postoperative bleeding (OR 3.30, 95% CI 1.40-7.78). GRADE certainty was very low for all outcomes. Conclusions: Among established antiplatelet users undergoing colorectal surgery, continuation was not associated with statistically significant differences in bleeding or thrombotic outcomes compared with discontinuation. However, sparse events, imprecise estimates, and very low certainty of evidence preclude definitive safety conclusions. Perioperative management should be individualized according to thrombotic risk, anticipated bleeding risk, and surgical complexity.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "43002271",
+     "date": "2026-11-10",
+     "title_zh": "hinotori 與 da Vinci 機器人手術系統用於大腸直腸癌手術的短期結果：系統性回顧與統合分析",
+     "score": 6,
+     "one_liner": "在462名大腸直腸癌病人中，比較hinotori與da Vinci，前者手術多30.57分鐘。",
+     "sim": 0.25
+    },
+    {
+     "pmid": "43002271",
+     "date": "2026-11-11",
+     "title_zh": "hinotori 與 da Vinci 機器人手術系統用於大腸直腸癌手術的短期結果：系統性回顧與統合分析",
+     "score": 6,
+     "one_liner": "在462名大腸直腸癌病人中，比較hinotori與da Vinci，前者手術多30.57分鐘。",
+     "sim": 0.25
+    },
+    {
+     "pmid": "43064876",
+     "date": "2026-11-22",
+     "title_zh": "替代性多孔機器人平台與 da Vinci 用於大腸直腸癌手術之比較：系統性回顧與依平台分層的統合分析",
+     "score": 6,
+     "one_liner": "在1144名大腸直腸癌病人中，比較替代平台與da Vinci，主控台時間多29.38分鐘。",
+     "sim": 0.195
+    }
+   ]
+  },
+  {
+   "pmid": "43097386",
+   "title": "Neoadjuvant immunotherapy plus chemoradiotherapy versus chemoradiotherapy alone for locally advanced rectal cancer: meta-analysis",
+   "journal": "BJS Open",
+   "journal_full": "BJS open",
+   "issn": "2474-9842",
+   "issn_linking": "2474-9842",
+   "impact_factor": 4.9,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.1093/bjsopen/zrag170",
+   "ptype": "Meta-Analysis, Systematic Review",
+   "ptype_list": [
+    "Meta-Analysis",
+    "Systematic Review"
+   ],
+   "authors": "Lei X, Zhang Y, Wang L, Xie X, Yan M, Li Y",
+   "abstract": "BACKGROUND: Standard neoadjuvant chemoradiotherapy (nCRT) for locally advanced rectal cancer (LARC) achieves variable pathological responses. Incorporating immune checkpoint inhibitors into nCRT (inCRT) is a promising intensification strategy, but its efficacy and impact on surgical safety remain poorly defined. This meta-analysis evaluated the oncological benefits and surgical risks of inCRT versus nCRT in both proficient and deficient mismatch repair LARC.\nMETHODS: A systematic search of the PubMed, Web of Science, Embase, and the Cochrane Library databases was conducted for randomized clinical trials (RCTs) published from inception up to February 2026. The primary outcomes were pathological complete response (pCR) and grade ≥ III severe adverse events (SAEs) according to the Clavien-Dindo complication grading system. Secondary outcomes included major pathological response (MPR) and postoperative complications. Pooled risk ratios (RRs) were calculated using random-effects or fixed-effects models.\nRESULTS: Seven RCTs including 1117 patients were identified. Five trials did not restrict enrolment based on mismatch repair or microsatellite instability status, whereas two trials exclusively enrolled patients with mismatch repair-proficient/microsatellite-stable tumours. Although inCRT significantly increased the rate of pCR (31.9% versus 19.3%; RR 1.70; 95% confidence interval (c.i.) 1.37 to 2.10; P < 0.001) and MPR (55.1% versus 40.3%; RR 1.38; 95% c.i. 1.20 to 1.59; P < 0.001) versus nCRT, it was associated with a significantly higher risk of SAEs (30.1% versus 26.8%; RR 1.24; 95% c.i. 1.03 to 1.49; P = 0.02) and overall postoperative complications (32.8% versus 25.6%; RR 1.27; 95% c.i. 1.02 to 1.58; P = 0.03). Subgroup analysis indicated that the pCR benefit was most pronounced in cohorts receiving short-course radiotherapy and consolidation immunotherapy.\nCONCLUSION: The addition of immunotherapy to neoadjuvant therapy for LARC markedly improves pathological response but increases high-grade toxicity and surgical morbidity. Although inCRT is a potent intensification strategy, stringent patient selection and regimen optimization are required before widespread adoption.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42501213",
+     "date": "2026-07-27",
+     "title_zh": "在放射治療資源受限地區，全程新輔助治療（TNT）優先化療可提升局部進展期直腸癌之病理完全緩解率（pCR）：一項隨機對照試驗",
+     "score": 5,
+     "one_liner": "在202名LARC患者中，比較TNT（化療優先）與傳統NCRT優先治療，TNT組pCR率55.4% vs 42.57%（p=0.023）。",
+     "sim": 0.288
+    },
+    {
+     "pmid": "42955209",
+     "date": "2026-10-30",
+     "title_zh": "短程放射治療單獨使用或合併鞏固化療，相較於傳統長程同步化放療治療局部進展期直腸癌的療效與安全性：隨機對照試驗統合分析",
+     "score": 7,
+     "one_liner": "在3061名LARC病人的統合分析中，SCRT-TNT較標準LCCRT提高pCR（RR1.56）。",
+     "sim": 0.255
+    },
+    {
+     "pmid": "42955209",
+     "date": "2026-10-31",
+     "title_zh": "短程放射治療單獨使用或合併鞏固化療，相較於傳統長程同步化放療治療局部進展期直腸癌的療效與安全性：隨機對照試驗統合分析",
+     "score": 7,
+     "one_liner": "在3061名LARC病人的統合分析中，SCRT-TNT較標準LCCRT提高pCR（RR1.56）。",
+     "sim": 0.255
+    }
+   ]
+  },
+  {
+   "pmid": "43086610",
+   "title": "Comparative influence of opioid-free versus opioid-containing anesthetic techniques upon Th1/Th2 balance during laparoscopic colorectal cancer procedures: a randomized controlled trial",
+   "journal": "BMC Anesthesiol",
+   "journal_full": "BMC anesthesiology",
+   "issn": "1471-2253",
+   "issn_linking": "1471-2253",
+   "impact_factor": 3.2,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Sep",
+   "doi": "10.1186/s44158-025-00294-3",
+   "ptype": "Randomized Controlled Trial, Comparative Study",
+   "ptype_list": [
+    "Randomized Controlled Trial",
+    "Comparative Study"
+   ],
+   "authors": "Hong L, Wang Y, Cheng Z, Luan H, Zhao Z",
+   "abstract": "BACKGROUND: Surgical resection is central to colorectal cancer management, but surgery and anesthesia can induce perioperative immunosuppression. Opioids, a mainstay of perioperative analgesia, may impair cellular immunity, including disruption of Th1/Th2 immune equilibrium. This randomized controlled trial evaluated whether opioid-free anesthesia (OFA) better preserves perioperative immune function than opioid-based anesthesia.\nMETHODS: Sixty patients scheduled for elective laparoscopic colorectal cancer resection were randomly allocated to OFA (dexmedetomidine, esketamine, lidocaine) or opioid-based anesthesia (sufentanil, remifentanil). Peripheral blood was sampled before induction and on postoperative days 1 and 5 to measure Th1/Th2 ratio, CD4⁺/CD8⁺ ratio and natural killer (NK)-cell counts. Serum cortisol, measures of postoperative pain and complications, including postoperative nausea and vomiting (PONV), were documented.\nRESULTS: On postoperative day 5, the Th1/Th2 ratio was markedly reduced in patients given OFA relative to the control (C) group (1.14 ± 0.40 vs. 1.57 ± 0.89, P = 0.017); in the C group it had returned to baseline, whereas it remained suppressed with OFA. CD4⁺/CD8⁺ ratios and NK-cell counts showed no between-group differences at any point. Cortisol levels at the end of surgery and Numeric Rating Scale pain scores on day 1 were significantly lower with opioid-based anesthesia, while PONV incidence was lower with OFA.\nCONCLUSIONS: In laparoscopic colorectal cancer surgery, the OFA regimen used in this trial was associated with sustained postoperative reduction of the Th1/Th2 ratio compared with opioid-based anesthesia. Although OFA reduced PONV, its potential to prolong Th1/Th2 suppression warrants caution when selecting anesthetic strategies for these patients.\nTRIAL REGISTRATION: This trial was retrospectively registered with the Chinese Clinical Trial Registry under ChiCTR2500101735 (registered April 29, 2025).",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42723442",
+     "date": "2026-09-13",
+     "title_zh": "艾司氯胺酮對接受腹腔鏡大腸直腸癌根治性切除術患者術後住院焦慮憂鬱量表（HADS）分數的影響",
+     "score": 4,
+     "one_liner": "在接受腹腔鏡大腸直腸癌根治性切除術病人中，比較誘導期加PCIA使用艾司氯胺酮與傳統麻醉，發現術後第1、3天HADS焦慮憂鬱分數較低（p<0.05）。",
+     "sim": 0.218
+    },
+    {
+     "pmid": "42871149",
+     "date": "2026-10-15",
+     "title_zh": "外側弓狀韌帶上方前側腰方肌阻斷合併艾司氯胺酮對高齡大腸直腸癌病人腹腔鏡根治手術後恢復品質的影響：隨機對照試驗",
+     "score": 6,
+     "one_liner": "90名高齡大腸直腸癌病人中，阻斷合併艾司氯胺酮較單藥使第3天QoR-40增加8.30分。",
+     "sim": 0.161
+    },
+    {
+     "pmid": "42871149",
+     "date": "2026-10-16",
+     "title_zh": "外側弓狀韌帶上方前側腰方肌阻斷合併艾司氯胺酮對高齡大腸直腸癌病人腹腔鏡根治手術後恢復品質的影響：隨機對照試驗",
+     "score": 6,
+     "one_liner": "90名高齡大腸直腸癌病人中，阻斷合併艾司氯胺酮較單藥使第3天QoR-40增加8.30分。",
+     "sim": 0.161
+    }
+   ]
+  },
   {
    "pmid": "43078454",
    "title": "Analysis populations and clinical interpretation of outcomes in randomised trials of Hartmann's procedure versus primary anastomosis for perforated diverticulitis",
@@ -75,6 +217,75 @@
    ]
   },
   {
+   "pmid": "43091981",
+   "title": "Distribution and Cytotoxic Potential of NK Cell Subsets in Conventional and Immune-Protective Anesthetic Strategies: A Randomized Study in Colorectal Cancer Patients",
+   "journal": "Int J Mol Sci",
+   "journal_full": "International journal of molecular sciences",
+   "issn": "1422-0067",
+   "issn_linking": "1422-0067",
+   "impact_factor": null,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.3389/fimmu.2018.01869",
+   "ptype": "Randomized Controlled Trial",
+   "ptype_list": [
+    "Randomized Controlled Trial"
+   ],
+   "authors": "de Knijff P, Vulcano T, Jongman R, Olthof C, Struys M, Abdulahad W",
+   "abstract": "Emerging evidence suggests that anesthesia can modulate natural killer (NK) cell activity, potentially influencing anti-tumor immunity. In this randomized study, 14 patients undergoing laparoscopic colorectal cancer surgery received an immune-protective anesthetic strategy (propofol/epidural/dexmedetomidine) or a conventional strategy (sevoflurane/opioids). Peripheral blood mononuclear cells (PBMCs) were collected preoperatively and at 24 and 48 h postoperatively. CD56+CD16+ NK-cell subsets were characterized by flow cytometry based on NKG2A, NKG2C, and KIR expression. Cytotoxic potential was assessed by intracellular perforin and granzyme B, and CD107a expression as a degranulation marker. Significant decreases from 0 to 48 h were observed in the conventional group for NKG2A+KIR+ double-positive (DP) NK cells (-0.69 percentage points, p = 0.02) and terminally differentiated (NKG2A-NKG2C-) NK cells (-2.22 percentage points, p = 0.02). CD107a expression in DP NK cells increased at 48 h versus baseline (+44.9% MFI, p = 0.04) only in the conventional group. Intracellular granzyme B (-3.38 percentage points; p = 0.02) and perforin levels (-4.56 percentage points, p = 0.04) decreased from 0 to 48 h in the conventional group. These findings suggest that an immune-protective anesthetic strategy may better preserve NK cell subset distribution and cytotoxic potential. However, given the modest magnitude of changes, these results should be interpreted as exploratory.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42365471",
+     "date": "2026-06-28",
+     "title_zh": "橄欖葉萃取物增強自然殺手細胞對大腸直腸癌細胞的細胞毒殺作用",
+     "score": 2,
+     "one_liner": "在體外共培養模型中，比較加入與未加入橄欖葉萃取物（100-200 µg/mL），發現 NK-92 對 HT-29 大腸癌細胞的毒殺作用顯著增強。",
+     "sim": 0.153
+    }
+   ]
+  },
+  {
+   "pmid": "43092919",
+   "title": "Seed Oils, Dietary Linoleic Acid, and Omega-6 Biomarkers in Adult Health: An Umbrella Review of Systematic Reviews and Meta-Analyses",
+   "journal": "Nutrients",
+   "journal_full": "Nutrients",
+   "issn": "2072-6643",
+   "issn_linking": "2072-6643",
+   "impact_factor": 5.8,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Nov",
+   "doi": "10.1371/journal.pone.0099682",
+   "ptype": "Systematic Review, Review",
+   "ptype_list": [
+    "Systematic Review",
+    "Review"
+   ],
+   "authors": "Clemente-Suárez V, Yáñez-Sepúlveda R, López-Gil J, Martín-Rodríguez A, Villanueva-Tobaldo C, Tornero-Aguilera J",
+   "abstract": "Background/Objectives: Seed oils are widely consumed, yet claims linking linoleic acid (LA) and omega-6 polyunsaturated fatty acids (n-6 PUFAs) to inflammation and chronic disease remain contentious. We evaluated the evidence in adults while separating named oils, dietary fatty acids, and circulating/tissue biomarkers. Methods: PubMed/MEDLINE and Europe PMC were searched to 1 October 2026, with supplementary and citation searches. Adult systematic reviews/meta-analyses were eligible; pregnancy and pediatric populations were excluded. Every synthesis was appraised item by item with AMSTAR 2 (A MeaSurement Tool to Assess systematic Reviews 2) and ROBIS (Risk Of Bias In Systematic reviews) and assigned a confidence tier by a rule defined post hoc, during peer review. Overlap was quantified with the corrected covered area; sensitivity and subgroup analyses examined the Sydney Diet Heart Study, the Minnesota Coronary Experiment, and LA-specific trials. No meta-meta-analysis was performed. The review was not prospectively registered. Results: Thirty-three syntheses were included; the six of higher confidence were not independent (four from one World Health Organization-commissioned program sharing trials). Clinical-endpoint evidence concerned LA/n-6 exposures, largely biomarker-based; named-oil evidence came from short-term trials of intermediate outcomes. Randomized evidence increasing omega-6 showed little or no effect on all-cause mortality (risk ratio [RR] 1.00, 95% confidence interval [CI] 0.88-1.12; robust to both trials) or cardiovascular events (RR 0.97, 0.81-1.15; heterogeneity mainly from the Sydney trial), with low certainty; in a hypothesis-generating subgroup, LA-specific trials showed more cardiovascular events than mixed n-6/omega-3 (n-3) trials (RR 1.45 vs. 0.80; two trials each). Prospective dietary/circulating evidence generally showed inverse associations, mostly from overlapping cohorts. LA-rich oils lowered low-density lipoprotein cholesterol when replacing butter (sunflower -0.34 mmol/L per 10% of energy) but differed little from other unsaturated oils, without increasing major inflammatory markers. Cancer findings varied by site and exposure metric, including an ungraded positive dietary LA-colorectal cancer association with an imprecise tissue LA estimate. Conclusions: In adults, the evidence does not support a uniform harmful or beneficial effect of seed oils as a class. Interpretation depends on the oil, replacement nutrient, background n-3 intake, exposure metric, outcome, and design; most evidence is of low certainty, and long-term clinical-outcome evidence for individual oils remains limited.",
+   "watched": [],
+   "related": [
+    {
+     "pmid": "42619402",
+     "date": "2026-08-21",
+     "title_zh": "超加工食品攝取與癌症風險：系統性回顧與統合分析之雨傘綜述",
+     "score": 3,
+     "one_liner": "在7篇MA及1篇SR中，比較UPF高低攝取族群，發現UPF可能增加整體癌症、大腸直腸癌等風險，但證據確定性多為極低。",
+     "sim": 0.158
+    },
+    {
+     "pmid": "42619402",
+     "date": "2026-08-22",
+     "title_zh": "超加工食品攝取與癌症風險：系統性回顧與統合分析的雨傘綜述",
+     "score": 3,
+     "one_liner": "雨傘綜述納入7篇MA、1篇SR，發現UPF攝取可能與大腸直腸癌等多種癌症風險上升有關，但GRADE多為低／極低確定性。",
+     "sim": 0.158
+    }
+   ]
+  },
+  {
    "pmid": "43079278",
    "title": "Iliopsoas abscess in crohn's disease: systematic review of case reports and case series",
    "journal": "BMC Gastroenterol",
@@ -113,6 +324,27 @@
    ]
   },
   {
+   "pmid": "43086668",
+   "title": "Preoperative prediction of histological types and Ki-67 expression in rectal tumors using time-dependent diffusion MRI quantitative parameters",
+   "journal": "BMC Med Imaging",
+   "journal_full": "BMC medical imaging",
+   "issn": "1471-2342",
+   "issn_linking": "1471-2342",
+   "impact_factor": 3.9,
+   "if_year": "2026",
+   "year": "2026",
+   "month": "Aug",
+   "doi": "10.1038/s41574-020-0391-3",
+   "ptype": "Multicenter Study",
+   "ptype_list": [
+    "Multicenter Study"
+   ],
+   "authors": "Li Y, Yi S, Shao C, Ma X, Li H, Chen M",
+   "abstract": "OBJECTIVE: To investigate the clinical value of Time-dependent diffusion MRI (td-dMRI) quantitative parameters in differentiating between rectal neuroendocrine neoplasms (rNEN) and rectal adenocarcinoma (RAC) and in distinguishing between high and low Ki-67 expression in RAC.\nMATERIALS AND METHODS: This two-center study prospectively enrolled 90 patients with rectal tumors who underwent td-dMRI (January 2024 to March 2025), including 85 with RAC (development cohort, n = 61, validation cohort, n = 24) and 5 with rNEN. The td-dMRI-derived microstructural parameters were estimated using the IMPULSED model, and apparent diffusion coefficient (ADC) values were measured at different diffusion times. Firth's logistic regression was performed for rNEN-associated parameter selection, while standard logistic regression identified independent predictors to build a combined model for high Ki-67 stratification. Receiver operating characteristic analysis evaluated diagnostic performance. The td-dMRI-derived microstructural parameters were validated against histopathologic measurements.\nRESULTS: Significant differences in several td-dMRI parameters were observed between rNENs and RACs, as well as between groups with high and low Ki-67 expression. In the small rNEN cohort, td-dMRI parameters showed promising preliminary diagnostic performance in distinguishing rNEN from RAC (AUC = 0.882). For predicting high Ki-67 expression in RAC, the combined model yielded an AUC of 0.916 in the development cohort and 0.844 in the validation cohort. Microstructural parameters showed strong correlations with histopathology: cell diameter, cellularity, and intracellular volume fraction reached Pearson correlation coefficients (r) of 0.808, 0.773, and 0.765, respectively (all p < 0.001).\nCONCLUSION: Quantitative td-dMRI parameters may serve as a noninvasive tool for evaluating rectal tumor histological types (rNEN vs. RAC) and predicting Ki-67 expression in RAC.",
+   "watched": [],
+   "related": []
+  },
+  {
    "pmid": "43082475",
    "title": "Clinical and Molecular Prognostic Factors and Targeted Therapy Outcomes in Colorectal Cancer with Bone and Brain Metastases: A Multicenter Retrospective Turkish Oncology Group Study",
    "journal": "Curr Oncol",
@@ -123,7 +355,7 @@
    "if_year": "2026",
    "year": "2026",
    "month": "Nov",
-   "doi": "10.3390/curroncol33110712",
+   "doi": "10.3390/cancers17152531",
    "ptype": "Multicenter Study",
    "ptype_list": [
     "Multicenter Study"
@@ -143,84 +375,62 @@
    ]
   },
   {
-   "pmid": "43079269",
-   "title": "Development and internal evaluation of a nomogram for identifying current sleep disturbance in patients with colorectal cancer undergoing chemotherapy: a cross-sectional study",
-   "journal": "BMC Gastroenterol",
-   "journal_full": "BMC gastroenterology",
-   "issn": "1471-230X",
-   "issn_linking": "1471-230X",
-   "impact_factor": 3.2,
+   "pmid": "43094352",
+   "title": "Tumor-microbe-microenvironment interactions and therapeutic implications for tumors with intratumoral microbes",
+   "journal": "Cancer Biol Med",
+   "journal_full": "Cancer biology & medicine",
+   "issn": "2095-3941",
+   "issn_linking": "2095-3941",
+   "impact_factor": 12.4,
    "if_year": "2026",
    "year": "2026",
-   "month": "Sep",
-   "doi": "10.1097/ncc.0000000000001085",
-   "ptype": "Multicenter Study",
+   "month": "Nov",
+   "doi": "10.20892/j.issn.2095-3941.2026.0337",
+   "ptype": "Review",
    "ptype_list": [
-    "Multicenter Study"
+    "Review"
    ],
-   "authors": "Tang A, Xiao T, Yin Z, Li Q, Xiao R, Li F",
-   "abstract": "OBJECTIVES: This study aimed to identify factors associated with current sleep disturbance (SD) in patients with colorectal cancer (CRC) undergoing chemotherapy and to develop and internally evaluate a nomogram for estimating the probability of current SD.\nMETHODS: A total of 630 patients with CRC undergoing chemotherapy were recruited from five hospitals in China. Participants were assessed using the Demographic Information Questionnaire, Pittsburgh Sleep Quality Index (PSQI), and Hospital Anxiety and Depression Scale (HADS), while clinical assessment data and laboratory test results at admission were obtained from electronic medical records. The data were randomly divided into a training set and a validation set at a 7:3 ratio. Univariable analyses and multivariable logistic regression were used to identify factors associated with SD in patients with CRC undergoing chemotherapy. The training set was used for multivariable logistic regression modeling and nomogram development, whereas the validation set was used to evaluate the discrimination and calibration of the fixed model. In addition, 500 bootstrap resamples were performed within the training set for internal validation.\nRESULTS: The overall prevalence of current SD was 68.7%. Gender, disease duration, ECOG performance status, HADS-D score, serum potassium, and albumin were independently associated with current SD and were included in the final nomogram. The model showed an AUC of 0.762 (95% CI, 0.716~0.808) in the training set and 0.712 (95% CI, 0.635~0.789) in the validation set. Bootstrap internal validation in the training set yielded a mean absolute calibration error of 0.022. In the validation set, the mean absolute calibration error (Eavg) was 0.055, with a calibration intercept of 0.318, a calibration slope of 0.667, and a Brier score of 0.188.\nCONCLUSIONS: Patients with CRC undergoing chemotherapy had a high burden of current SD. The nomogram may assist in identifying patients with a higher probability of current SD who may warrant further sleep assessment.",
+   "authors": "Cao Y, Yue J, Ren Y",
+   "abstract": "The complex interactions between tumors and microbes within the tumor-microbe microenvironment (TMME) are increasingly recognized as critical determinants of tumor progression and therapeutic response. This review provides a comprehensive overview of the presence of intratumoral microbes (ITMs), their routes of entry into tumors, and their functional roles within the TMME, and highlights emerging TMME-targeted strategies for diagnosis and treatment of tumors with ITMs. ITMs can profoundly influence tumor biology by modulating cellular signaling and immune responses, with consequent changes in therapeutic efficacy. For instance, Fusobacterium nucleatum impairs CD8+ T-cell infiltration via succinic acid in drug-resistant colorectal cancer, while cytidine deaminase-expressing bacteria inactivate gemcitabine in pancreatic ductal adenocarcinoma. We summarize the defining characteristics of the TMME, including hypoxia, acidity, and oxidative stress, as well as microbial-associated features such as biofilm formation, bacterial enzymes, and metabolite production. These factors collectively contribute to a dynamic ecosystem that supports microbial persistence and impacts tumor development, immune regulation, and treatment outcomes. Current therapeutic strategies targeting ITM tumors are critically evaluated, including microbial modulation approaches, non-antibiotic modalities, and nanomedicine-based co-delivery systems that combine antibiotics with chemotherapeutics. Co-delivery systems, such as a liposome platform that delivers ciprofloxacin and gemcitabine, allow simultaneous targeting of tumor cells and intratumoral microbes by exploiting the acidic, hypoxic, and enzyme- and metabolite-rich features of the TMME. This TMME-responsive design allows site-specific drug release while eliminating ITMs, and thereby overcomes microbe-induced chemoresistance and enhances therapeutic efficacy. Finally, we highlight the opportunities and challenges associated with TMME-targeted interventions. While modulation or elimination of tumor-associated microbes represents a promising strategy for improving treatment outcomes, significant barriers remain, including a lack of standardized diagnostic tools, microbial heterogeneity, safety concerns, and limited mechanistic understanding of tumor-microbe interactions. Advances in this field will require integrated multi-omics approaches and better translational models for the development of precise, personalized therapies for ITM tumors.",
    "watched": [],
-   "related": [
-    {
-     "pmid": "43055804",
-     "date": "2026-11-20",
-     "title_zh": "運用瑞典與丹麥全國登錄資料，探討微創大腸直腸癌手術中轉開腹的術前預測",
-     "score": 5,
-     "one_liner": "以7,811名瑞典微創CRC病人建模，瑞典測試與丹麥驗證AUC為0.730與0.608。",
-     "sim": 0.228
-    },
-    {
-     "pmid": "42842824",
-     "date": "2026-10-08",
-     "title_zh": "使用常規收集之臨床資料預測大腸直腸癌術前淋巴結轉移：多中心回溯性機器學習模型建立與外部驗證研究",
-     "score": 4,
-     "one_liner": "在2725名CRC病人中，以6項常規臨床資料建立RF模型預測術前LNM，外部驗證AUROC 0.776，優於cT單獨預測（0.707，p<.001）。",
-     "sim": 0.22
-    },
-    {
-     "pmid": "42842824",
-     "date": "2026-10-09",
-     "title_zh": "使用常規收集之臨床資料進行大腸直腸癌術前淋巴結轉移預測：多中心回溯性機器學習模型開發與外部驗證研究",
-     "score": 4,
-     "one_liner": "在2725名CRC病人（內部1074、外部驗證1651）中，六預測因子RF模型預測LNM，外部AUROC 0.776優於cT單獨0.707（p<.001）。",
-     "sim": 0.22
-    }
-   ]
+   "related": []
   },
   {
-   "pmid": "43079908",
-   "title": "The E. coli CNF1 toxin induces fetal reprogramming of intestinal stem cells and a serrated colorectal cancer transcriptional signature in organoids",
-   "journal": "Gut Microbes",
-   "journal_full": "Gut microbes",
-   "issn": "1949-0984",
-   "issn_linking": "1949-0976",
-   "impact_factor": 15.3,
+   "pmid": "43091996",
+   "title": "Comparative Efficacy of Biologic Therapies for Psoriasis: Insights from Head-to-Head Studies",
+   "journal": "Int J Mol Sci",
+   "journal_full": "International journal of molecular sciences",
+   "issn": "1422-0067",
+   "issn_linking": "1422-0067",
+   "impact_factor": null,
    "if_year": "2026",
    "year": "2026",
-   "month": "Dec",
-   "doi": "10.1080/19490976.2026.2762578",
-   "ptype": "Journal Article",
-   "ptype_list": [],
-   "authors": "Letourneur D, Bergsten E, Raynaud N, Mondy J, Nigro G, Tsoumtsa Meda L",
-   "abstract": "Mechanistic insights are essential to understand how gut microbiota pathobionts contribute to tumorigenesis, given the mounting epidemiological evidence linking them to colorectal cancer. We report an increased prevalence of the Rho GTPase-targeting cnf1 toxin gene from Escherichia coli in the microbiota of colorectal cancer patients, alongside an exploratory univariate association with proximal, early-stage disease. RNA sequencing and comparative gene set enrichment analysis reveal a concordant serrated pathway transcriptional signature between colorectal cancer tissue of patients colonized with cnf1 + bacteria and CNF1-treated mouse intestinal organoids. Moreover, CNF1 induces a fetal-like transcriptional reprogramming in organoids. Using integrated approaches, we demonstrated that CNF1 reprograms Lgr5⁺ stem cells into a Ly6a/SCA-1⁺ fetal-like state that exhibits enhanced stemness potential. This reprogramming is preceded by a YAP/TAZ-driven early transcriptional program and nuclear translocation of YAP. Functional analyses identify a RHOA/ROCK-YAP/TAZ-dependent transition to Ly6a/SCA-1⁺ stem cells, highlighting a mechanistic link between bacterial effectors and stem cell plasticity in colorectal tumorigenesis.",
+   "month": "Nov",
+   "doi": "10.1016/j.jaad.2026.09.099",
+   "ptype": "Review, Comparative Study",
+   "ptype_list": [
+    "Review",
+    "Comparative Study"
+   ],
+   "authors": "Rafałowicz A, Nowowiejska-Purpurowicz J, Flisiak I",
+   "abstract": "Biologic therapies have substantially transformed the management of moderate-to-severe psoriasis, but differences in efficacy, speed of response, durability, and safety reflect the distinct immunological pathways targeted by individual agents. The aim of this review is the analysis and comparison of particular biological agents in terms of efficacy and safety. Head-to-head trials consistently demonstrate that IL-17 and IL-23 inhibitors achieve greater skin clearance than first-generation TNF-α inhibitors. IL-17 blockade, particularly with agents targeting IL-17A, produces rapid clinical improvement by directly suppressing keratinocyte-driven inflammation. Dual IL-17A/IL-17F inhibition with bimekizumab may provide even greater clearance, although broader IL-17 inhibition is associated with a higher frequency of mucosal candidiasis. In contrast, selective IL-23 inhibition acts upstream by suppressing the differentiation and maintenance of pathogenic Th17 cells and appears to provide particularly durable disease control. Selective IL-23 inhibitors may also preserve potentially protective IL-12 signaling, distinguishing them from ustekinumab, which targets the shared p40 subunit. Safety profiles are generally favorable across biologic classes, although mechanism-specific risks include tuberculosis reactivation with TNF-α inhibitors, candidiasis with IL-17 inhibitors, and inflammatory bowel disease concerns with IL-17 blockade. Therefore, biologic selection should be individualized according to disease severity, required speed and durability of response, comorbidities, affected anatomical sites, safety considerations, dosing frequency, patient preferences and adherence goals. Current comparative evidence supports increasingly targeted approaches within the IL-23/IL-17 axis.",
    "watched": [],
    "related": [
     {
-     "pmid": "42430492",
-     "date": "2026-07-10",
-     "title_zh": "Wnt訊號剔除後腸道腫瘤細胞可塑性漸進性變化、Myc活化，以及Lgr5+腫瘤幹細胞譜系分化承諾的喪失",
+     "pmid": "43011814",
+     "date": "2026-11-12",
+     "title_zh": "Th17抑制策略：針對自體免疫疾病的IL-17與RORγt路徑",
      "score": 3,
-     "one_liner": "在FAP息肉與Apc突變小鼠腺瘤模型中，剔除Tcf7或Lef1導致腫瘤細胞可塑性增加、Myc活化與腫瘤生成增強。",
-     "sim": 0.152
+     "one_liner": "本綜述（人數未報）比較IL-17標靶與RORγt抑制：前者已有臨床應用，後者仍在研究，未報效果量。",
+     "sim": 0.207
     },
     {
-     "pmid": "42430492",
-     "date": "2026-07-12",
-     "title_zh": "Wnt訊號剔除後腸道腫瘤細胞可塑性漸進性變化、Myc活化，以及Lgr5+腫瘤幹細胞譜系分化承諾的喪失",
+     "pmid": "43011814",
+     "date": "2026-11-13",
+     "title_zh": "Th17抑制策略：針對自體免疫疾病的IL-17與RORγt路徑",
      "score": 3,
-     "one_liner": "在FAP息肉與Apc突變小鼠腺瘤模型中，剔除Tcf7或Lef1導致腫瘤細胞可塑性增加、Myc活化與腫瘤生成增強。",
-     "sim": 0.152
+     "one_liner": "本綜述（人數未報）比較IL-17標靶與RORγt抑制：前者已有臨床應用，後者仍在研究，未報效果量。",
+     "sim": 0.207
     }
    ]
   },
@@ -302,7 +512,7 @@
    "if_year": "2026",
    "year": "2026",
    "month": "Nov",
-   "doi": "10.3390/cells15222118",
+   "doi": "10.3390/diagnostics13132188",
    "ptype": "Review",
    "ptype_list": [
     "Review"
@@ -348,7 +558,7 @@
    "if_year": "2026",
    "year": "2026",
    "month": "Nov",
-   "doi": "10.3390/curroncol33110722",
+   "doi": "10.1038/s41571-023-00745-2",
    "ptype": "Review",
    "ptype_list": [
     "Review"
@@ -369,7 +579,7 @@
    "if_year": "2026",
    "year": "2026",
    "month": "Nov",
-   "doi": "10.3390/curroncol33110710",
+   "doi": "10.1053/j.seminoncol.2015.09.001",
    "ptype": "Review",
    "ptype_list": [
     "Review"
@@ -415,7 +625,7 @@
    "if_year": "2026",
    "year": "2026",
    "month": "Oct",
-   "doi": "10.3390/curroncol33110650",
+   "doi": "10.1097/pas.0000000000001853",
    "ptype": "Review",
    "ptype_list": [
     "Review"
@@ -451,6 +661,6 @@
    ]
   }
  ],
- "submission_id": "1b362fe12ebd463682847d086b6b946f",
+ "submission_id": "4dd05e9f04c44096a4d4e0c981d7451b",
  "state": "preparing"
 }
